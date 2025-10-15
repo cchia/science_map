@@ -21,6 +21,14 @@ version: 1.0.0+1
 environment:
   sdk: ^3.9.2
 
+flutter:
+  uses-material-design: true
+  
+  # 添加这部分
+  assets:
+    - assets/events.json  
+    - assets/story_modes.json
+
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -35,6 +43,10 @@ dependencies:
   flutter_map: ^6.0.0
   latlong2: ^0.9.0
   
+  flutter_localizations:  # 添加这行
+    sdk: flutter
+  intl: ^0.20.2  # 改成 0.20.2
+
   # 网络
   http: ^1.1.0
   
