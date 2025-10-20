@@ -67,6 +67,12 @@ class _MapScreenState extends State<MapScreen> {
   bool isLoading = true;
   String? selectedStoryMode;
 
+
+  // 🆕 添加搜索和筛选状态
+  String searchQuery = '';
+  Set<String> selectedFields = {};  // 选中的学科
+  bool showSearchBar = false;
+
   // 学科颜色映射
   final Map<String, Color> fieldColors = {
     '物理学': Colors.red,
@@ -197,18 +203,48 @@ String getFieldName(String fieldCn, bool isEnglish) {
     });
   }
 
-  List<Map<String, dynamic>> getFilteredEvents() {
-    var filtered = events.where((event) => event['year'] <= selectedYear);
-    
-    // 如果选择了故事模式，只显示该模式的事件
-    if (selectedStoryMode != null) {
-      var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
-      List<String> modeEventIds = List<String>.from(mode['events']);
-      filtered = filtered.where((event) => modeEventIds.contains(event['id']));
-    }
-    
-    return filtered.toList();
+List<Map<String, dynamic>> getFilteredEvents() {
+  var filtered = events.where((event) => event['year'] <= selectedYear);
+  
+  // 故事模式筛选
+  if (selectedStoryMode != null) {
+    var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
+    List<String> modeEventIds = List<String>.from(mode['events']);
+    filtered = filtered.where((event) => modeEventIds.contains(event['id']));
   }
+  
+  // 🆕 学科筛选
+  if (selectedFields.isNotEmpty) {
+    filtered = filtered.where((event) => 
+      selectedFields.contains(event['field'])
+    );
+  }
+  
+  // 🆕 搜索筛选
+  if (searchQuery.isNotEmpty) {
+    final locale = Localizations.localeOf(context);
+    final isEnglish = locale.languageCode == 'en';
+    
+    filtered = filtered.where((event) {
+      String title = isEnglish && event['title_en'] != null 
+          ? event['title_en'] 
+          : event['title'];
+      String city = isEnglish && event['city_en'] != null 
+          ? event['city_en'] 
+          : event['city'] ?? '';
+      String description = isEnglish && event['description_en'] != null 
+          ? event['description_en'] 
+          : event['description'] ?? '';
+      
+      String query = searchQuery.toLowerCase();
+      return title.toLowerCase().contains(query) ||
+             city.toLowerCase().contains(query) ||
+             description.toLowerCase().contains(query);
+    });
+  }
+  
+  return filtered.toList();
+}
 
   List<Map<String, dynamic>> getInfluenceLines() {
     List<Map<String, dynamic>> lines = [];
@@ -304,38 +340,86 @@ String getFieldName(String fieldCn, bool isEnglish) {
   }
 
   return Scaffold(
-    appBar: AppBar(
-      title: Text(l10n.appTitle),
-      actions: [
-        // 🆕 语言切换按钮
-        PopupMenuButton<Locale>(
-          icon: Icon(Icons.language),
-          onSelected: widget.onLanguageChange,
-          itemBuilder: (context) => [
-            PopupMenuItem(
-              value: Locale('zh'),
-              child: Row(
-                children: [
-                  Text('🇨🇳'),
-                  SizedBox(width: 8),
-                  Text('中文'),
-                ],
-              ),
-            ),
-            PopupMenuItem(
-              value: Locale('en'),
-              child: Row(
-                children: [
-                  Text('🇬🇧'),
-                  SizedBox(width: 8),
-                  Text('English'),
-                ],
-              ),
-            ),
-          ],
+appBar: AppBar(
+  title: Builder(
+    builder: (context) {
+      final locale = Localizations.localeOf(context);
+      final isEnglish = locale.languageCode == 'en';
+      
+return showSearchBar
+    ? Container(
+        padding: EdgeInsets.symmetric(horizontal: 8),
+        decoration: BoxDecoration(
+          color: Colors.white.withOpacity(0.2),  // 半透明白色背景
+          borderRadius: BorderRadius.circular(8),
+        ),
+        child: TextField(
+          autofocus: true,
+          style: TextStyle(color: Colors.black, fontSize: 16),
+          cursorColor: Colors.white,
+          decoration: InputDecoration(
+            hintText: isEnglish ? 'Search events...' : '搜索事件...',
+            hintStyle: TextStyle(color: Colors.white70),
+            border: InputBorder.none,
+            icon: Icon(Icons.search, color: Colors.white70, size: 20),
+          ),
+          onChanged: (value) {
+            setState(() {
+              searchQuery = value;
+            });
+          },
+        ),
+      )
+    : Text(l10n.appTitle);
+    },
+  ),
+  actions: [
+    // 搜索按钮
+    IconButton(
+      icon: Icon(showSearchBar ? Icons.close : Icons.search),
+      onPressed: () {
+        setState(() {
+          showSearchBar = !showSearchBar;
+          if (!showSearchBar) {
+            searchQuery = '';
+          }
+        });
+      },
+    ),
+    // 筛选按钮
+    IconButton(
+      icon: Icon(Icons.filter_list),
+      onPressed: () => _showFilterDialog(),
+    ),
+    // 语言切换按钮
+    PopupMenuButton<Locale>(
+      icon: Icon(Icons.language),
+      onSelected: widget.onLanguageChange,
+      itemBuilder: (context) => [
+        PopupMenuItem(
+          value: Locale('zh'),
+          child: Row(
+            children: [
+              Text('🇨🇳'),
+              SizedBox(width: 8),
+              Text('中文'),
+            ],
+          ),
+        ),
+        PopupMenuItem(
+          value: Locale('en'),
+          child: Row(
+            children: [
+              Text('🇬🇧'),
+              SizedBox(width: 8),
+              Text('English'),
+            ],
+          ),
         ),
       ],
     ),
+  ],
+),
       body: Stack(
         children: [
           FlutterMap(
@@ -460,92 +544,113 @@ String getFieldName(String fieldCn, bool isEnglish) {
             ],
           ),
           
-        // 修改学习路径选择器
-        Positioned(
-          top: 20,
-          left: 20,
-          child: Card(
-            elevation: 4,
-            child: Container(
-              width: 250,
-              padding: EdgeInsets.all(12),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    l10n.learningPath,  // 使用翻译
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16,
-                    ),
-                  ),
-                  SizedBox(height: 8),
-                  DropdownButton<String>(
-                    isExpanded: true,
-                    value: selectedStoryMode,
-                    hint: Text(l10n.selectTheme),  // 使用翻译
-                    items: [
-                      DropdownMenuItem<String>(
-                        value: null,
-                        child: Text(l10n.allEvents),  // 使用翻译
-                      ),
-                      ...storyModes.map((mode) {
-                        return DropdownMenuItem<String>(
-                          value: mode['id'] as String,
-                          child: Row(
-                            children: [
-                              Text(mode['emoji'], style: TextStyle(fontSize: 20)),
-                              SizedBox(width: 8),
-                              Expanded(
-                                child: Text(
-                                  mode['title'],
-                                  style: TextStyle(fontSize: 14),
-                                ),
-                              ),
-                            ],
-                          ),
-                        );
-                      }).toList(),
-                    ],
-                    onChanged: (value) {
-                      setState(() {
-                        selectedStoryMode = value;
-                        if (value != null) {
-                          var mode = storyModes.firstWhere((m) => m['id'] == value);
-                          var firstEventId = mode['events'][0];
-                          var firstEvent = events.firstWhere(
-                            (e) => e['id'] == firstEventId,
-                            orElse: () => {},
-                          );
-                          if (firstEvent.isNotEmpty) {
-                            selectedYear = firstEvent['year'].toDouble();
-                          }
-                        }
-                      });
-                    },
-                  ),
-                  if (selectedStoryMode != null) ...[
-                    SizedBox(height: 8),
-                    Text(
-                      storyModes.firstWhere((m) => m['id'] == selectedStoryMode)['description'],
-                      style: TextStyle(fontSize: 12, color: Colors.grey[600]),
-                    ),
-                    SizedBox(height: 8),
-                    ElevatedButton.icon(
-                      onPressed: () => _startStoryMode(),
-                      icon: Icon(Icons.play_arrow),
-                      label: Text(l10n.startLearning),  // 使用翻译
-                      style: ElevatedButton.styleFrom(
-                        minimumSize: Size(double.infinity, 36),
-                      ),
-                    ),
-                  ],
-                ],
+// 学习路径选择器
+Positioned(
+  top: 20,
+  left: 20,
+  child: Card(
+    elevation: 4,
+    child: Container(
+      width: 250,
+      padding: EdgeInsets.all(12),
+      child: Builder(
+        builder: (context) {
+          final l10n = AppLocalizations.of(context);
+          final locale = Localizations.localeOf(context);
+          final isEnglish = locale.languageCode == 'en';
+          
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                l10n.learningPath,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                ),
               ),
-            ),
-          ),
-        ),
+              SizedBox(height: 8),
+              DropdownButton<String>(
+                isExpanded: true,
+                value: selectedStoryMode,
+                hint: Text(l10n.selectTheme),
+                items: [
+                  DropdownMenuItem<String>(
+                    value: null,
+                    child: Text(l10n.allEvents),
+                  ),
+                  ...storyModes.map((mode) {
+                    String modeTitle = isEnglish && mode['title_en'] != null
+                        ? mode['title_en']
+                        : mode['title'];
+                    
+                    return DropdownMenuItem<String>(
+                      value: mode['id'] as String,
+                      child: Row(
+                        children: [
+                          Text(mode['emoji'], style: TextStyle(fontSize: 20)),
+                          SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              modeTitle,  // 🆕 使用翻译后的标题
+                              style: TextStyle(fontSize: 14),
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
+                  }).toList(),
+                ],
+                onChanged: (value) {
+                  setState(() {
+                    selectedStoryMode = value;
+                    if (value != null) {
+                      var mode = storyModes.firstWhere((m) => m['id'] == value);
+                      var firstEventId = mode['events'][0];
+                      var firstEvent = events.firstWhere(
+                        (e) => e['id'] == firstEventId,
+                        orElse: () => {},
+                      );
+                      if (firstEvent.isNotEmpty) {
+                        selectedYear = firstEvent['year'].toDouble();
+                      }
+                    }
+                  });
+                },
+              ),
+              if (selectedStoryMode != null) ...[
+                SizedBox(height: 8),
+                Builder(
+                  builder: (context) {
+                    var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
+                    String modeDescription = isEnglish && mode['description_en'] != null
+                        ? mode['description_en']
+                        : mode['description'];
+                    
+                    return Text(
+                      modeDescription,  // 🆕 使用翻译后的描述
+                      style: TextStyle(fontSize: 12, color: Colors.grey[600]),
+                    );
+                  },
+                ),
+                SizedBox(height: 8),
+                ElevatedButton.icon(
+                  onPressed: () => _startStoryMode(),
+                  icon: Icon(Icons.play_arrow),
+                  label: Text(l10n.startLearning),
+                  style: ElevatedButton.styleFrom(
+                    minimumSize: Size(double.infinity, 36),
+                  ),
+                ),
+              ],
+            ],
+          );
+        },
+      ),
+    ),
+  ),
+),
         
 // 图例
 Positioned(
@@ -606,90 +711,239 @@ Positioned(
   ),
 ),
         
-        // 修改时间轴控制器
-        Positioned(
-          bottom: 20,
-          left: 20,
-          right: 20,
-          child: Card(
-            elevation: 8,
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
+ // 时间轴控制器
+Positioned(
+  bottom: 20,
+  left: 20,
+  right: 20,
+  child: Card(
+    elevation: 8,
+    child: Padding(
+      padding: EdgeInsets.all(16),
+      child: Builder(
+        builder: (context) {
+          final l10n = AppLocalizations.of(context);
+          final locale = Localizations.localeOf(context);
+          final isEnglish = locale.languageCode == 'en';
+          
+          return Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // 年份显示
+              Text(
+                '${l10n.year}: ${selectedYear.round()}',
+                style: TextStyle(
+                  fontSize: 24, 
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blue[800],
+                ),
+              ),
+              SizedBox(height: 8),
+              
+              // 滑块
+              Slider(
+                value: selectedYear,
+                min: -500,
+                max: 2020,
+                divisions: 2520,
+                label: selectedYear.round().toString(),
+                onChanged: isPlaying ? null : (value) {
+                  setState(() {
+                    selectedYear = value;
+                  });
+                },
+              ),
+              
+              SizedBox(height: 8),
+              
+              // 控制按钮
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    '${l10n.year}: ${selectedYear.round()}',  // 使用翻译
-                    style: TextStyle(
-                      fontSize: 24, 
-                      fontWeight: FontWeight.bold,
-                      color: Colors.blue[800],
+                  // 重置按钮
+                  IconButton(
+                    icon: Icon(Icons.replay),
+                    iconSize: 32,
+                    color: Colors.blue[700],
+                    onPressed: _resetAnimation,
+                    tooltip: l10n.resetButton,
+                  ),
+                  
+                  SizedBox(width: 20),
+                  
+                  // 播放/暂停按钮
+                  ElevatedButton.icon(
+                    onPressed: _togglePlay,
+                    icon: Icon(
+                      isPlaying ? Icons.pause : Icons.play_arrow,
+                      size: 32,
                     ),
-                  ),
-                  SizedBox(height: 8),
-                  
-                  Slider(
-                    value: selectedYear,
-                    min: -500,
-                    max: 2020,
-                    divisions: 2520,
-                    label: selectedYear.round().toString(),
-                    onChanged: isPlaying ? null : (value) {
-                      setState(() {
-                        selectedYear = value;
-                      });
-                    },
-                  ),
-                  
-                  SizedBox(height: 8),
-                  
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      IconButton(
-                        icon: Icon(Icons.replay),
-                        iconSize: 32,
-                        color: Colors.blue[700],
-                        onPressed: _resetAnimation,
-                        tooltip: l10n.resetButton,  // 使用翻译
+                    label: Text(
+                      isPlaying ? l10n.pauseButton : l10n.playButton,
+                      style: TextStyle(fontSize: 18),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 24, 
+                        vertical: 12
                       ),
-                      
-                      SizedBox(width: 20),
-                      
-                      ElevatedButton.icon(
-                        onPressed: _togglePlay,
-                        icon: Icon(
-                          isPlaying ? Icons.pause : Icons.play_arrow,
-                          size: 32,
-                        ),
-                        label: Text(
-                          isPlaying ? l10n.pauseButton : l10n.playButton,  // 使用翻译
-                          style: TextStyle(fontSize: 18),
-                        ),
-                        style: ElevatedButton.styleFrom(
-                          padding: EdgeInsets.symmetric(
-                            horizontal: 24, 
-                            vertical: 12
-                          ),
-                          backgroundColor: isPlaying ? Colors.orange : Colors.green,
-                          foregroundColor: Colors.white,
-                        ),
-                      ),
-                    ],
-                  ),
-                  
-                  SizedBox(height: 8),
-                  
-                  Text(
-                    '${l10n.showingEvents(getFilteredEvents().length)} | ${getInfluenceLines().length} ${l10n.linesCount}',  // 使用翻译
-                    style: TextStyle(color: Colors.grey[600]),
+                      backgroundColor: isPlaying ? Colors.orange : Colors.green,
+                      foregroundColor: Colors.white,
+                    ),
                   ),
                 ],
               ),
+              
+              SizedBox(height: 8),
+              
+              // 统计信息
+              Text(
+                '${isEnglish ? "Showing" : "显示"} ${getFilteredEvents().length} ${l10n.eventsCount} | ${getInfluenceLines().length} ${l10n.linesCount}' +
+                (selectedFields.isNotEmpty ? ' | ${isEnglish ? "Filtered" : "已筛选"}' : '') +
+                (searchQuery.isNotEmpty ? ' | ${isEnglish ? "Searching" : "搜索中"}' : ''),
+                style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                textAlign: TextAlign.center,
+              ),
+              
+              // 🆕 清除筛选按钮
+              if (selectedFields.isNotEmpty || searchQuery.isNotEmpty) ...[
+                SizedBox(height: 8),
+                OutlinedButton.icon(
+                  onPressed: () {
+                    setState(() {
+                      selectedFields.clear();
+                      searchQuery = '';
+                      showSearchBar = false;
+                    });
+                  },
+                  icon: Icon(Icons.clear_all, size: 18),
+                  label: Text(
+                    isEnglish ? 'Clear Filters' : '清除筛选',
+                    style: TextStyle(fontSize: 14),
+                  ),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: Colors.red,
+                    side: BorderSide(color: Colors.red),
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  ),
+                ),
+              ],
+              
+              // 🆕 显示当前筛选条件
+              if (selectedFields.isNotEmpty) ...[
+                SizedBox(height: 8),
+                Wrap(
+                  spacing: 6,
+                  runSpacing: 6,
+                  alignment: WrapAlignment.center,
+                  children: selectedFields.map((fieldCn) {
+                    String fieldName = getFieldName(fieldCn, isEnglish);
+                    Color fieldColor = getFieldColor(fieldCn);
+                    
+                    return Chip(
+                      label: Text(
+                        '${fieldEmojis[fieldCn]} $fieldName',
+                        style: TextStyle(fontSize: 11, color: Colors.white),
+                      ),
+                      backgroundColor: fieldColor,
+                      deleteIcon: Icon(Icons.close, size: 16, color: Colors.white),
+                      onDeleted: () {
+                        setState(() {
+                          selectedFields.remove(fieldCn);
+                        });
+                      },
+                    );
+                  }).toList(),
+                ),
+              ],
+            ],
+          );
+        },
+      ),
+    ),
+  ),
+),
+      ],
+    ),
+  );
+}
+
+void _showFilterDialog() {
+  final l10n = AppLocalizations.of(context);
+  final locale = Localizations.localeOf(context);
+  final isEnglish = locale.languageCode == 'en';
+  
+  showDialog(
+    context: context,
+    builder: (context) => StatefulBuilder(
+      builder: (context, setDialogState) {
+        return AlertDialog(
+          title: Row(
+            children: [
+              Icon(Icons.filter_list, color: Colors.blue),
+              SizedBox(width: 8),
+              Text(isEnglish ? 'Filter by Field' : '按学科筛选'),
+            ],
+          ),
+          content: Container(
+            width: 300,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                ...fieldColors.entries.map((entry) {
+                  String fieldCn = entry.key;
+                  String fieldName = getFieldName(fieldCn, isEnglish);
+                  bool isSelected = selectedFields.contains(fieldCn);
+                  
+                  return CheckboxListTile(
+                    title: Row(
+                      children: [
+                        Container(
+                          width: 20,
+                          height: 20,
+                          decoration: BoxDecoration(
+                            color: entry.value,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        SizedBox(width: 12),
+                        Text('${fieldEmojis[fieldCn]} $fieldName'),
+                      ],
+                    ),
+                    value: isSelected,
+                    onChanged: (bool? value) {
+                      setDialogState(() {
+                        if (value == true) {
+                          selectedFields.add(fieldCn);
+                        } else {
+                          selectedFields.remove(fieldCn);
+                        }
+                      });
+                    },
+                  );
+                }).toList(),
+              ],
             ),
           ),
-        ),
-      ],
+          actions: [
+            TextButton(
+              onPressed: () {
+                setDialogState(() {
+                  selectedFields.clear();
+                });
+              },
+              child: Text(isEnglish ? 'Clear All' : '清除全部'),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+                setState(() {});  // 刷新主界面
+              },
+              child: Text(isEnglish ? 'Apply' : '应用'),
+            ),
+          ],
+        );
+      },
     ),
   );
 }
@@ -728,6 +982,15 @@ Positioned(
   String? influenceStory = isEnglish && event['influence_story_en'] != null 
       ? event['influence_story_en'] 
       : event['influence_story'];
+  String? principle = isEnglish && event['principle_en'] != null 
+      ? event['principle_en'] 
+      : event['principle'];
+  String? applications = isEnglish && event['applications_en'] != null 
+      ? event['applications_en'] 
+      : event['applications'];
+  String? experiment = isEnglish && event['experiment_en'] != null 
+      ? event['experiment_en'] 
+      : event['experiment'];
       
   var influences = event['influences'] ?? [];
   var influenceNames = <String>[];
@@ -758,286 +1021,137 @@ Positioned(
   Color color = getFieldColor(event['field'] ?? '综合');
   String emoji = getFieldEmoji(event['field'] ?? '综合');
   
-  showDialog(
+   showDialog(
     context: context,
-    builder: (context) => Dialog(
-      child: Container(
-        width: 500,
-        constraints: BoxConstraints(maxHeight: 600),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            // 标题栏（保持不变）
-            Container(
-              padding: EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [color.withOpacity(0.7), color],
-                ),
-                borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(4),
-                  topRight: Radius.circular(4),
-                ),
-              ),
-              child: Row(
-                children: [
-                  Text(emoji, style: TextStyle(fontSize: 32)),
-                  SizedBox(width: 12),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          title,
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                          ),
-                        ),
-                        Text(
-                          '${event['year']} · $city}',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Colors.white70,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  IconButton(
-                    icon: Icon(Icons.close, color: Colors.white),
-                    onPressed: () => Navigator.pop(context),
-                  ),
-                ],
-              ),
-            ),
-            
-            // 内容区域
-            Expanded(
-              child: SingleChildScrollView(
+    builder: (context) => DefaultTabController(
+      length: 4,  // 4个标签页
+      child: Dialog(
+        child: Container(
+          width: 600,
+          height: 700,
+          child: Column(
+            children: [
+              // 标题栏（保持不变）
+              Container(
                 padding: EdgeInsets.all(16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    // 学科标签
-                    Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                      decoration: BoxDecoration(
-                        color: color.withOpacity(0.2),
-                        borderRadius: BorderRadius.circular(16),
-                        border: Border.all(color: color, width: 2),
-                      ),
-                      child: Text(
-                        field,
-                        style: TextStyle(
-                          color: color,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                    
-                    SizedBox(height: 16),
-                    
-    if (description != null && description.isNotEmpty) ...[
-      _buildSection('📖 ${l10n.introduction}', description, color),
-    ],
-    
-    if (story != null && story.isNotEmpty) ...[
-      _buildSection('📚 ${l10n.story}', story, color),
-    ],
-    
-    if (funFact != null && funFact.isNotEmpty) ...[
-      _buildSection('🎉 ${l10n.funFact}', funFact, color),
-    ],
-    
-    if (kidExplanation != null && kidExplanation.isNotEmpty) ...[
-      _buildSection('👶 ${l10n.simpleExplanation}', kidExplanation, color),
-    ],
-    
-    if (impact != null && impact.isNotEmpty) ...[
-      _buildSection('💫 ${l10n.impact}', impact, color),
-    ],
-    
-    if (influenceStory != null && influenceStory.isNotEmpty) ...[
-      _buildSection('🔗 ${l10n.influenceStory}', influenceStory, color),
-    ],
-
-                    // 相关概念
-if (event['related_concepts'] != null) ...[
-  SizedBox(height: 16),
-  Text(
-    '🔑 ${l10n.relatedConcepts}',
-    style: TextStyle(
-      fontSize: 16,
-      fontWeight: FontWeight.bold,
-      color: color,
-    ),
-  ),
-  SizedBox(height: 8),
-  Wrap(
-    spacing: 8,
-    runSpacing: 8,
-    children: (event['related_concepts'] as List).asMap().entries.map((entry) {
-      int index = entry.key;
-      String concept = entry.value;
-      
-      // 🆕 根据语言选择概念文本
-      String conceptText = concept;
-      if (isEnglish && event['related_concepts_en'] != null) {
-        List conceptsEn = event['related_concepts_en'] as List;
-        if (index < conceptsEn.length) {
-          conceptText = conceptsEn[index];
-        }
-      }
-      
-      return Chip(
-        label: Text(conceptText),  // ✅ 使用 conceptText
-        backgroundColor: color.withOpacity(0.1),
-        side: BorderSide(color: color),
-      );
-    }).toList(),
-  ),
-],
-                    
-                    // 🆕 影响关系区域
-// 影响关系区域
-if (influenceNames.isNotEmpty || influencedEvents.isNotEmpty) ...[
-  SizedBox(height: 16),
-  Container(
-    padding: EdgeInsets.all(12),
-    decoration: BoxDecoration(
-      color: Colors.blue.withOpacity(0.05),
-      borderRadius: BorderRadius.circular(12),
-      border: Border.all(color: Colors.blue.withOpacity(0.3), width: 2),
-    ),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Row(
-          children: [
-            Icon(Icons.account_tree, color: Colors.blue[700], size: 24),
-            SizedBox(width: 8),
-            Text(
-              l10n.knowledgeTransfer,  // ✅ 使用翻译
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                color: Colors.blue[900],
-              ),
-            ),
-          ],
-        ),
-        
-        // 受以下影响
-        if (influenceNames.isNotEmpty) ...[
-          SizedBox(height: 12),
-          Container(
-            padding: EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: Colors.orange.withOpacity(0.1),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: Colors.orange.withOpacity(0.3)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Icon(Icons.arrow_downward, color: Colors.orange[700], size: 20),
-                    SizedBox(width: 6),
-                    Text(
-                      l10n.influencedBy,  // ✅ 使用翻译
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.orange[900],
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(height: 8),
-                ...influenceNames.map((name) => Padding(
-                  padding: EdgeInsets.only(left: 26, top: 4),
-                  child: Row(
-                    children: [
-                      Icon(Icons.circle, color: Colors.orange, size: 8),
-                      SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          name,
-                          style: TextStyle(fontSize: 13),
-                        ),
-                      ),
-                    ],
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [color.withOpacity(0.7), color],
                   ),
-                )),
-              ],
-            ),
-          ),
-        ],
-        
-        // 影响了以下
-        if (influencedEvents.isNotEmpty) ...[
-          SizedBox(height: 12),
-          Container(
-            padding: EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: Colors.green.withOpacity(0.1),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: Colors.green.withOpacity(0.3)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(4),
+                    topRight: Radius.circular(4),
+                  ),
+                ),
+                child: Row(
                   children: [
-                    Icon(Icons.arrow_upward, color: Colors.green[700], size: 20),
-                    SizedBox(width: 6),
-                    Text(
-                      l10n.influenced,  // ✅ 使用翻译
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.green[900],
+                    Text(emoji, style: TextStyle(fontSize: 32)),
+                    SizedBox(width: 12),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            title,
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Text(
+                            '${event['year']} · $city',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.white70,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
-                  ],
-                ),
-                SizedBox(height: 8),
-                ...influencedEvents.map((name) => Padding(
-                  padding: EdgeInsets.only(left: 26, top: 4),
-                  child: Row(
-                    children: [
-                      Icon(Icons.circle, color: Colors.green, size: 8),
-                      SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          name,
-                          style: TextStyle(fontSize: 13),
-                        ),
-                      ),
-                    ],
-                  ),
-                )),
-              ],
-            ),
-          ),
-        ],
-      ],
-    ),
-  ),
-],
-                    
-                    if (event['quiz'] != null) ...[
-                      SizedBox(height: 16),
-                      _buildQuiz(event['quiz'], color),
-                    ],
+                    IconButton(
+                      icon: Icon(Icons.close, color: Colors.white),
+                      onPressed: () => Navigator.pop(context),
+                    ),
                   ],
                 ),
               ),
-            ),
-          ],
+              
+              // 🆕 标签栏
+              Container(
+                color: color.withOpacity(0.1),
+                child: TabBar(
+                  labelColor: color,
+                  unselectedLabelColor: Colors.grey,
+                  indicatorColor: color,
+                  tabs: [
+                    Tab(
+                      icon: Icon(Icons.info_outline),
+                      text: isEnglish ? 'Overview' : '概览',
+                    ),
+                    Tab(
+                      icon: Icon(Icons.science),
+                      text: isEnglish ? 'Science' : '科学',
+                    ),
+                    Tab(
+                      icon: Icon(Icons.account_tree),
+                      text: isEnglish ? 'Impact' : '影响',
+                    ),
+                    Tab(
+                      icon: Icon(Icons.quiz),
+                      text: isEnglish ? 'Quiz' : '测验',
+                    ),
+                  ],
+                ),
+              ),
+              
+              // 🆕 标签页内容
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    // 第1页：概览（故事、趣味知识）
+                    _buildOverviewTab(
+                      event, 
+                      color, 
+                      isEnglish,
+                      field,
+                      description,
+                      story,
+                      funFact,
+                      kidExplanation,
+                    ),
+                    
+                    // 第2页：科学知识（原理、应用、实验）
+                    _buildScienceTab(
+                      event,
+                      color,
+                      isEnglish,
+                      principle,
+                      applications,
+                      experiment,
+                    ),
+                    
+                    // 第3页：影响关系
+                    _buildImpactTab(
+                      event,
+                      color,
+                      isEnglish,
+                      impact,
+                      influenceStory,
+                      influenceNames,
+                      influencedEvents,
+                    ),
+                    
+                    // 第4页：小测验
+                    _buildQuizTab(
+                      event,
+                      color,
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     ),
@@ -1074,6 +1188,451 @@ Widget _buildSection(String title, String content, Color color) {
         ),
       ),
     ],
+  );
+}
+
+// 第1页：概览
+Widget _buildOverviewTab(
+  Map<String, dynamic> event,
+  Color color,
+  bool isEnglish,
+  String field,
+  String? description,
+  String? story,
+  String? funFact,
+  String? kidExplanation,
+) {
+  return SingleChildScrollView(
+    padding: EdgeInsets.all(16),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+// 找到图片显示部分，修改 fit 属性
+if (event['image_url'] != null) ...[
+  ClipRRect(
+    borderRadius: BorderRadius.circular(12),
+    child: Image.network(
+      event['image_url'],
+      height: 200,
+      width: double.infinity,
+      fit: BoxFit.contain,  // 改成 contain（完整显示）而不是 cover（裁剪）
+      loadingBuilder: (context, child, loadingProgress) {
+        if (loadingProgress == null) return child;
+        return Container(
+          height: 200,
+          decoration: BoxDecoration(
+            color: Colors.grey[200],
+            borderRadius: BorderRadius.circular(12),
+          ),
+          child: Center(
+            child: CircularProgressIndicator(color: color),
+          ),
+        );
+      },
+      errorBuilder: (context, error, stackTrace) {
+        // 加载失败时显示渐变色块
+        return Container(
+          height: 200,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                color.withOpacity(0.4),
+                color.withOpacity(0.7),
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            borderRadius: BorderRadius.circular(12),
+          ),
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  getFieldEmoji(event['field'] ?? '综合'),
+                  style: TextStyle(fontSize: 64),
+                ),
+                SizedBox(height: 8),
+                Text(
+                  field,
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    ),
+  ),
+  SizedBox(height: 16),
+] else ...[
+  // 如果没有图片URL，显示渐变色块
+  Container(
+    height: 200,
+    decoration: BoxDecoration(
+      gradient: LinearGradient(
+        colors: [
+          color.withOpacity(0.3),
+          color.withOpacity(0.6),
+          color,
+        ],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+      ),
+      borderRadius: BorderRadius.circular(12),
+    ),
+    child: Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            getFieldEmoji(event['field'] ?? '综合'),
+            style: TextStyle(fontSize: 72),
+          ),
+          SizedBox(height: 12),
+          Container(
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(0.9),
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Text(
+              field,
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+                color: color,
+              ),
+            ),
+          ),
+        ],
+      ),
+    ),
+  ),
+  SizedBox(height: 16),
+],
+        
+        // 学科标签
+        Container(
+          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+          decoration: BoxDecoration(
+            color: color.withOpacity(0.2),
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: color, width: 2),
+          ),
+          child: Text(
+            field,
+            style: TextStyle(
+              color: color,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        
+        // 简介
+        if (description != null && description.isNotEmpty) ...[
+          _buildSection('📖 ${isEnglish ? "Introduction" : "简介"}', description, color),
+        ],
+        
+        // 故事
+        if (story != null && story.isNotEmpty) ...[
+          _buildSection('📚 ${isEnglish ? "Story" : "故事"}', story, color),
+        ],
+        
+        // 趣味知识
+        if (funFact != null && funFact.isNotEmpty) ...[
+          _buildSection('🎉 ${isEnglish ? "Fun Fact" : "趣味知识"}', funFact, color),
+        ],
+        
+        // 简单解释
+        if (kidExplanation != null && kidExplanation.isNotEmpty) ...[
+          _buildSection('👶 ${isEnglish ? "Simple Explanation" : "简单解释"}', kidExplanation, color),
+        ],
+      ],
+    ),
+  );
+}
+
+// 第2页：科学知识
+Widget _buildScienceTab(
+  Map<String, dynamic> event,
+  Color color,
+  bool isEnglish,
+  String? principle,
+  String? applications,
+  String? experiment,
+) {
+  return SingleChildScrollView(
+    padding: EdgeInsets.all(16),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // 科学原理
+        if (principle != null && principle.isNotEmpty) ...[
+          _buildSection('🔬 ${isEnglish ? "Scientific Principle" : "科学原理"}', principle, color),
+        ],
+        
+        // 实际应用
+        if (applications != null && applications.isNotEmpty) ...[
+          _buildSection('💡 ${isEnglish ? "Real-world Applications" : "实际应用"}', applications, color),
+        ],
+        
+        // 动手实验
+        if (experiment != null && experiment.isNotEmpty) ...[
+          _buildSection('🧪 ${isEnglish ? "Try This Experiment" : "动手实验"}', experiment, color),
+        ],
+        
+        // 相关概念
+        if (event['related_concepts'] != null) ...[
+          SizedBox(height: 16),
+          Text(
+            '🔑 ${isEnglish ? "Related Concepts" : "相关概念"}',
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+              color: color,
+            ),
+          ),
+          SizedBox(height: 8),
+          Builder(
+            builder: (context) {
+              List conceptsCn = event['related_concepts'] as List;
+              List? conceptsEn = event['related_concepts_en'] as List?;
+              
+              return Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: List.generate(conceptsCn.length, (index) {
+                  String conceptText;
+                  if (isEnglish && conceptsEn != null && index < conceptsEn.length) {
+                    conceptText = conceptsEn[index];
+                  } else {
+                    conceptText = conceptsCn[index];
+                  }
+                  
+                  return Chip(
+                    label: Text(conceptText),
+                    backgroundColor: color.withOpacity(0.1),
+                    side: BorderSide(color: color),
+                  );
+                }),
+              );
+            },
+          ),
+        ],
+        
+        // 如果没有科学内容，显示提示
+        if ((principle == null || principle.isEmpty) &&
+            (applications == null || applications.isEmpty) &&
+            (experiment == null || experiment.isEmpty)) ...[
+          Center(
+            child: Padding(
+              padding: EdgeInsets.all(32),
+              child: Column(
+                children: [
+                  Icon(Icons.science_outlined, size: 64, color: Colors.grey[300]),
+                  SizedBox(height: 16),
+                  Text(
+                    isEnglish 
+                        ? 'Scientific details coming soon...' 
+                        : '科学详情即将添加...',
+                    style: TextStyle(color: Colors.grey[600]),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ],
+    ),
+  );
+}
+
+// 第3页：影响关系
+Widget _buildImpactTab(
+  Map<String, dynamic> event,
+  Color color,
+  bool isEnglish,
+  String? impact,
+  String? influenceStory,
+  List<String> influenceNames,
+  List<String> influencedEvents,
+) {
+  return SingleChildScrollView(
+    padding: EdgeInsets.all(16),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // 影响
+        if (impact != null && impact.isNotEmpty) ...[
+          _buildSection('💫 ${isEnglish ? "Impact" : "影响"}', impact, color),
+        ],
+        
+        // 知识传承故事
+        if (influenceStory != null && influenceStory.isNotEmpty) ...[
+          _buildSection('🔗 ${isEnglish ? "Knowledge Legacy" : "知识传承故事"}', influenceStory, color),
+        ],
+        
+        // 影响关系
+        if (influenceNames.isNotEmpty || influencedEvents.isNotEmpty) ...[
+          SizedBox(height: 16),
+          Container(
+            padding: EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              color: Colors.blue.withOpacity(0.05),
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: Colors.blue.withOpacity(0.3), width: 2),
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Icon(Icons.account_tree, color: Colors.blue[700], size: 24),
+                    SizedBox(width: 8),
+                    Text(
+                      isEnglish ? 'Knowledge Transfer' : '知识传承',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue[900],
+                      ),
+                    ),
+                  ],
+                ),
+                
+                // 受以下影响
+                if (influenceNames.isNotEmpty) ...[
+                  SizedBox(height: 12),
+                  Container(
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.orange.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(color: Colors.orange.withOpacity(0.3)),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Icon(Icons.arrow_downward, color: Colors.orange[700], size: 20),
+                            SizedBox(width: 6),
+                            Text(
+                              isEnglish ? 'Influenced By' : '受以下影响',
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.orange[900],
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 8),
+                        ...influenceNames.map((name) => Padding(
+                          padding: EdgeInsets.only(left: 26, top: 4),
+                          child: Row(
+                            children: [
+                              Icon(Icons.circle, color: Colors.orange, size: 8),
+                              SizedBox(width: 8),
+                              Expanded(
+                                child: Text(name, style: TextStyle(fontSize: 13)),
+                              ),
+                            ],
+                          ),
+                        )),
+                      ],
+                    ),
+                  ),
+                ],
+                
+                // 影响了以下
+                if (influencedEvents.isNotEmpty) ...[
+                  SizedBox(height: 12),
+                  Container(
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.green.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(color: Colors.green.withOpacity(0.3)),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Icon(Icons.arrow_upward, color: Colors.green[700], size: 20),
+                            SizedBox(width: 6),
+                            Text(
+                              isEnglish ? 'Influenced' : '影响了以下',
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.green[900],
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 8),
+                        ...influencedEvents.map((name) => Padding(
+                          padding: EdgeInsets.only(left: 26, top: 4),
+                          child: Row(
+                            children: [
+                              Icon(Icons.circle, color: Colors.green, size: 8),
+                              SizedBox(width: 8),
+                              Expanded(
+                                child: Text(name, style: TextStyle(fontSize: 13)),
+                              ),
+                            ],
+                          ),
+                        )),
+                      ],
+                    ),
+                  ),
+                ],
+              ],
+            ),
+          ),
+        ],
+      ],
+    ),
+  );
+}
+
+// 第4页：测验
+Widget _buildQuizTab(
+  Map<String, dynamic> event,
+  Color color,
+) {
+  return SingleChildScrollView(
+    padding: EdgeInsets.all(16),
+    child: Column(
+      children: [
+        if (event['quiz'] != null) ...[
+          _buildQuiz(event['quiz'], color),
+        ] else ...[
+          Center(
+            child: Padding(
+              padding: EdgeInsets.all(32),
+              child: Column(
+                children: [
+                  Icon(Icons.quiz_outlined, size: 64, color: Colors.grey[300]),
+                  SizedBox(height: 16),
+                  Text(
+                    'Quiz coming soon...',
+                    style: TextStyle(color: Colors.grey[600]),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ],
+    ),
   );
 }
 
