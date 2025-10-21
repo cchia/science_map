@@ -2148,12 +2148,12 @@ class _MapScreenState extends State<MapScreen> {
         ),
         SizedBox(height: 12),
         ...connections.map((connection) {
-          String connectionTitle = isEnglish && connection['discovery_en'] != null
-              ? connection['discovery_en']
-              : connection['discovery'] ?? '';
-          String relationship = isEnglish && connection['connection_en'] != null
-              ? connection['connection_en']
-              : connection['connection'] ?? '';
+          String connectionTitle = isEnglish && connection['title_en'] != null
+              ? connection['title_en']
+              : connection['title'] ?? '';
+          String relationship = isEnglish && connection['relationship_en'] != null
+              ? connection['relationship_en']
+              : connection['relationship'] ?? '';
           
           return Container(
             margin: EdgeInsets.only(bottom: 12),
@@ -2211,12 +2211,21 @@ class _MapScreenState extends State<MapScreen> {
         ),
         SizedBox(height: 12),
         ...influencedBy.map((influence) {
-          String civilization = isEnglish && influence['civilization_en'] != null
-              ? influence['civilization_en']
-              : influence['civilization'] ?? '';
-          String contribution = isEnglish && influence['influence_en'] != null
-              ? influence['influence_en']
-              : influence['influence'] ?? '';
+          // 支持两种类型：civilization 或 person
+          String name = '';
+          if (influence['civilization'] != null) {
+            name = isEnglish && influence['civilization_en'] != null
+                ? influence['civilization_en']
+                : influence['civilization'] ?? '';
+          } else if (influence['person'] != null) {
+            name = isEnglish && influence['person_en'] != null
+                ? influence['person_en']
+                : influence['person'] ?? '';
+          }
+          
+          String contribution = isEnglish && influence['contribution_en'] != null
+              ? influence['contribution_en']
+              : influence['contribution'] ?? '';
           
           return Container(
             margin: EdgeInsets.only(bottom: 12),
@@ -2230,7 +2239,7 @@ class _MapScreenState extends State<MapScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  civilization,
+                  name,
                   style: TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.bold,
@@ -2274,12 +2283,12 @@ class _MapScreenState extends State<MapScreen> {
         ),
         SizedBox(height: 12),
         ...influences.map((influence) {
-          String influenceTitle = isEnglish && influence['discovery_en'] != null
-              ? influence['discovery_en']
-              : influence['discovery'] ?? '';
-          String description = isEnglish && influence['influence_en'] != null
-              ? influence['influence_en']
-              : influence['influence'] ?? '';
+          String influenceTitle = isEnglish && influence['title_en'] != null
+              ? influence['title_en']
+              : influence['title'] ?? '';
+          String description = isEnglish && influence['description_en'] != null
+              ? influence['description_en']
+              : influence['description'] ?? '';
           
           return Container(
             margin: EdgeInsets.only(bottom: 12),

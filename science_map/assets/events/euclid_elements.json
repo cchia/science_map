@@ -687,7 +687,26 @@
         }
     ],
     
-    "influences": [],
+    "influences": [
+        {
+            "title": "牛顿的《自然哲学的数学原理》",
+            "title_en": "Newton's Principia Mathematica",
+            "description": "牛顿完全模仿《几何原本》的结构，从三个运动定律出发，用几何方法证明天体运动规律",
+            "description_en": "Newton completely imitated the structure of Elements, starting from three laws of motion, using geometric methods to prove laws of celestial motion"
+        },
+        {
+            "title": "爱因斯坦的相对论",
+            "title_en": "Einstein's Theory of Relativity",
+            "description": "相对论使用四维时空几何，这是对欧几里得几何的扩展，证明了非欧几何的物理意义",
+            "description_en": "Relativity uses four-dimensional spacetime geometry, an extension of Euclidean geometry, proving the physical significance of non-Euclidean geometry"
+        },
+        {
+            "title": "现代计算机科学",
+            "title_en": "Modern Computer Science",
+            "description": "计算机科学的形式化方法、程序验证、定理证明系统都源于《几何原本》的公理化方法",
+            "description_en": "Formal methods, program verification, and theorem proving systems in computer science all originate from the axiomatic method of Elements"
+        }
+    ],
     
     "influenced_by": [
         {
