@@ -1,0 +1,842 @@
+{
+    "id": "vesalius_anatomy",
+    "title": "维萨里人体解剖学",
+    "title_en": "Vesalius's Human Anatomy",
+    "year": 1543,
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "city": "帕多瓦",
+    "city_en": "Padua",
+    "country": "威尼斯共和国",
+    "country_en": "Republic of Venice",
+    "field": "医学",
+    "field_en": "Medicine",
+    "description": "维萨里通过亲自解剖人体，纠正了盖伦医学中的200多处错误，出版了《人体的构造》，奠定了现代解剖学的基础，开启了医学革命",
+    "description_en": "Vesalius corrected over 200 errors in Galenic medicine through personal human dissection, published De humani corporis fabrica, laying foundation of modern anatomy and initiating medical revolution",
+    
+    "story": {
+        "brief": "维萨里冒着被指控为亵渎尸体的危险，亲自解剖人体，发现了盖伦医学的众多错误。1543年，他出版了精美的《人体的构造》，与哥白尼的《天体运行论》同年问世，共同开启了科学革命！",
+        
+        "detailed": "**叛逆的医学生**\n\n安德烈亚斯·维萨里（Andreas Vesalius，1514-1564）出生在布鲁塞尔的一个医生世家。从小他就对人体充满好奇，甚至解剖老鼠、猫、狗来研究它们的结构。\n\n15岁时，维萨里进入鲁汶大学学习。但他很快对传统医学教育感到失望：\n- 📚 教授只是照本宣科，朗读盖伦的著作\n- 🚫 从不亲自解剖，只让理发师代劳\n- 👀 学生只能远远观看，看不清细节\n- 📖 一切以古书为准，不允许质疑\n\n维萨里觉得这太荒谬了：\n> 怎么能不亲自观察，就了解人体？\n\n**盗尸的解剖学家**\n\n为了学习真正的解剖学，维萨里做了一件疯狂的事：**盗尸**。\n\n在16世纪，解剖人体是禁忌：\n- ⛪ 教会认为这是亵渎\n- ⚖️ 只有被处决的罪犯尸体才能用于解剖\n- 💀 尸体供应严重不足\n- 😱 医学生很难有实践机会\n\n维萨里不顾危险：\n- 🌙 深夜去绞刑架偷尸体\n- 💀 从墓地挖掘尸骨\n- 🏥 贿赂刽子手获取尸体\n- 🔬 在自己房间秘密解剖\n\n他的同学回忆说：\n> 维萨里的房间总是散发着奇怪的气味，没人敢进去。\n\n**帕多瓦的革命**\n\n1537年，23岁的维萨里来到意大利帕多瓦大学，这里的学术氛围更开放。他很快成为解剖学教授。\n\n维萨里彻底改革了解剖教学：\n\n**传统方式：**\n- 👨‍🏫 教授坐在高台上朗读盖伦\n- 💈 理发师在下面解剖\n- 👥 学生远远观看\n- 📚 一切以书本为准\n\n**维萨里的方式：**\n- 🔪 亲自动手解剖\n- 👨‍🎓 让学生近距离观察\n- 🔍 指出书本与实际的差异\n- 💡 鼓励学生质疑权威\n\n学生们震惊了：原来人体和盖伦描述的不一样！\n\n**盖伦的错误**\n\n盖伦（Galen，129-200）是古罗马最伟大的医生，他的著作统治医学1400年。但维萨里发现，盖伦从未解剖过人体，只解剖过猴子、猪等动物。\n\n维萨里发现了盖伦的200多处错误：\n\n**心脏和血液循环：**\n- ❌ 盖伦说：心脏中隔有小孔，血液可以从右心室流到左心室\n- ✅ 维萨里发现：心脏中隔是实心的，没有孔\n- 💭 这个发现为后来哈维发现血液循环奠定基础\n\n**骨骼系统：**\n- ❌ 盖伦说：人的下颌骨由两块骨头组成（猴子确实如此）\n- ✅ 维萨里发现：人的下颌骨是一整块\n- ❌ 盖伦说：胸骨有7节（猴子如此）\n- ✅ 维萨里发现：人的胸骨只有3节\n\n**血管系统：**\n- ❌ 盖伦说：血管网在脑底部呈网状（猪和牛有）\n- ✅ 维萨里发现：人类没有这种结构\n\n**肝脏：**\n- ❌ 盖伦说：肝脏有5叶（狗的肝脏）\n- ✅ 维萨里发现：人的肝脏通常只有2叶\n\n**子宫：**\n- ❌ 盖伦说：子宫有两个腔（动物如此）\n- ✅ 维萨里发现：人的子宫只有一个腔\n\n维萨里意识到：盖伦描述的不是人体，而是动物！\n\n**《人体的构造》的诞生**\n\n1543年，29岁的维萨里完成了他的杰作：《人体的构造》（De humani corporis fabrica）。\n\n这本书革命性的地方不仅在内容，更在形式：\n\n📖 **7卷巨著**\n- 第一卷：骨骼系统\n- 第二卷：肌肉系统\n- 第三卷：血管系统\n- 第四卷：神经系统\n- 第五卷：消化系统\n- 第六卷：心脏和呼吸系统\n- 第七卷：大脑\n\n🎨 **精美插图**\n- 超过300幅木刻版画\n- 可能由提香的学生绘制\n- 解剖图精确而艺术\n- 人体姿态优美，背景是意大利风景\n\n这些插图不仅科学准确，而且美得像艺术品。最著名的是肌肉人系列：\n- 💪 剥去皮肤，展示肌肉\n- 🎭 摆出各种姿势\n- 🏛️ 背景是古罗马废墟\n- 💀 手持自己的皮肤或骨骼\n\n这些图像既恐怖又美丽，既科学又艺术。\n\n**出版的戏剧性**\n\n1543年是科学史上神奇的一年：\n- 📚 5月：哥白尼的《天体运行论》出版\n- 📚 8月：维萨里的《人体的构造》出版\n\n两本书都挑战了古代权威：\n- 🌍 哥白尼推翻了托勒密的地心说\n- 🫀 维萨里推翻了盖伦的解剖学\n\n两本书共同开启了科学革命！\n\n维萨里把书献给了神圣罗马帝国皇帝查理五世。为了确保出版质量，他亲自前往瑞士巴塞尔监督印刷。\n\n书一出版就引起轰动：\n- 😍 年轻医生们欢呼雀跃\n- 😡 保守派医生愤怒谴责\n- 📚 很快被翻译成多种语言\n- 💰 价格昂贵，但仍然畅销\n\n**保守派的反击**\n\n维萨里的老师雅各布·西尔维乌斯（Jacobus Sylvius）愤怒地攻击他：\n> 这个疯子、骗子、无知的人，竟敢挑战神圣的盖伦！他应该被驱逐出医学界！\n\n保守派医生的论点很荒谬：\n- 📚 盖伦不可能错\n- 🤔 如果现代人体和盖伦描述不同\n- 💭 那一定是现代人退化了！\n- 😱 不是盖伦错了，是人类变了！\n\n但年轻一代医生站在维萨里这边。他们开始亲自解剖，验证维萨里的发现。\n\n**宫廷医生的生活**\n\n出版《人体的构造》后，维萨里成为查理五世的宫廷医生。这是极高的荣誉，但也意味着他不能再做解剖研究。\n\n作为宫廷医生，维萨里：\n- 👑 治疗皇帝和贵族\n- 💰 收入丰厚\n- 🚫 但无法继续解剖研究\n- 😔 感到才华被浪费\n\n他在给朋友的信中抱怨：\n> 我被困在宫廷中，无法继续我的研究。这里的人只关心权力和金钱，不关心真理。\n\n**神秘的死亡**\n\n1564年，50岁的维萨里踏上了前往耶路撒冷的朝圣之旅。原因至今是个谜：\n- 🙏 有人说是为了赎罪（因为解剖尸体）\n- ⚖️ 有人说是为了逃避宗教裁判所的指控\n- 💔 有人说是因为在宫廷生活不快乐\n\n在返回途中，他的船在希腊扎金索斯岛遇到风暴。维萨里上岸后不久就病倒了，很快去世。\n\n他被草草埋葬在岛上，墓地的确切位置已经失传。\n\n这位改变医学的伟人，竟然连一座像样的墓碑都没有。\n\n**维萨里的遗产**\n\n虽然维萨里英年早逝，但他的影响深远：\n\n🔬 **现代解剖学的奠基**\n- 建立了基于观察的解剖学\n- 强调亲自解剖的重要性\n- 用精确的插图记录发现\n\n📚 **医学教育的改革**\n- 教授必须亲自解剖\n- 学生必须动手实践\n- 质疑权威成为常态\n\n🎨 **医学插图的艺术**\n- 将科学与艺术结合\n- 建立了医学插图的标准\n- 影响了后世所有解剖学教材\n\n💡 **科学精神的确立**\n- 观察优于权威\n- 实践检验理论\n- 敢于挑战传统\n\n**后继者们**\n\n维萨里开启的解剖学革命由后人继续：\n\n🫀 **威廉·哈维（1578-1657）**\n- 发现血液循环\n- 证明心脏是泵\n- 完成了维萨里未竟的事业\n\n🔬 **马尔切洛·马尔皮吉（1628-1694）**\n- 用显微镜观察毛细血管\n- 连接了动脉和静脉\n- 完善了循环系统理论\n\n🧠 **托马斯·威利斯（1621-1675）**\n- 详细研究大脑解剖\n- 发现脑底动脉环（威利斯环）\n- 推动了神经解剖学\n\n**现代的纪念**\n\n今天，维萨里被尊为现代医学之父：\n\n🏛️ **纪念**\n- 布鲁塞尔有维萨里雕像\n- 帕多瓦大学有维萨里解剖剧场\n- 许多医学院以他命名\n\n📚 **影响**\n- 《人体的构造》被视为医学史上最重要的著作之一\n- 原版书极其珍贵，价值数百万美元\n- 插图被无数次复制和研究\n\n🎓 **教育**\n- 全球医学生都学习他的方法\n- 解剖学课程延续他的传统\n- 亲自解剖仍是医学教育的核心\n\n**永恒的问题**\n\n维萨里的故事提出了永恒的问题：\n\n🤔 **科学与伦理**\n- 为了知识可以做什么？\n- 解剖尸体是否道德？\n- 科学进步的代价是什么？\n\n📚 **权威与真理**\n- 什么时候应该质疑权威？\n- 传统知识如何更新？\n- 真理如何战胜偏见？\n\n💡 **观察与理论**\n- 理论和实践哪个更重要？\n- 如何平衡继承与创新？\n- 科学如何进步？\n\n维萨里用他的一生回答了这些问题：\n> 真理来自观察，不是来自书本。要了解自然，必须亲自研究，而不是盲目相信古人。\n\n这个信念，改变了医学，也改变了科学。",
+        
+        "historical_context": "**文艺复兴时代的医学**\n\n维萨里生活在文艺复兴时期（16世纪）：\n- 📅 1514-1564年\n- 🎨 艺术和科学的繁荣\n- 📚 古典知识的重新发现\n- 🖨️ 印刷术促进知识传播\n\n**盖伦医学的统治**\n\n盖伦的医学理论统治了1400年：\n- 📚 被视为不可挑战的权威\n- ⛪ 得到教会的支持\n- 🏛️ 与亚里士多德哲学结合\n- 🚫 质疑盖伦被视为异端\n\n**解剖的禁忌**\n\n16世纪的解剖面临重重限制：\n- ⛪ 教会认为解剖是亵渎\n- ⚖️ 只能解剖罪犯尸体\n- 💀 尸体供应严重不足\n- 😱 公众对解剖充满恐惧\n\n**帕多瓦大学的特殊地位**\n\n帕多瓦大学是当时最开放的医学中心：\n- 🏛️ 威尼斯共和国保护学术自由\n- 📚 相对不受教会干预\n- 🔬 鼓励实验和观察\n- 🌍 吸引全欧洲的学生",
+        
+        "mystery_box": "🔍 **未解之谜**\n\n1. **维萨里为什么去朝圣？**\n   有传说他解剖了一个还活着的人，为了赎罪才去朝圣。但这可能是敌人编造的谣言。真相是什么？\n\n2. **《人体的构造》的插图是谁画的？**\n   传统认为是提香的学生，但没有确凿证据。维萨里自己画的吗？还是多位艺术家合作？\n\n3. **维萨里的墓在哪里？**\n   他被埋在扎金索斯岛，但确切位置已失传。多次搜寻都没有找到。他的遗骨还在吗？\n\n4. **他真的盗过尸吗？**\n   许多故事描述他盗尸，但哪些是真的，哪些是传说？他如何获得那么多尸体？\n\n5. **为什么突然离开帕多瓦？**\n   他在帕多瓦最成功，为什么要去当宫廷医生？是被迫的还是自愿的？",
+        
+        "timeline": [
+            {
+                "year": "1514年",
+                "event": "12月31日出生于布鲁塞尔"
+            },
+            {
+                "year": "1529年",
+                "event": "进入鲁汶大学学习"
+            },
+            {
+                "year": "1533年",
+                "event": "前往巴黎大学学医"
+            },
+            {
+                "year": "1537年",
+                "event": "来到帕多瓦大学，成为解剖学教授"
+            },
+            {
+                "year": "1538年",
+                "event": "出版《解剖图谱六幅》"
+            },
+            {
+                "year": "1543年",
+                "event": "出版《人体的构造》"
+            },
+            {
+                "year": "1544年",
+                "event": "成为查理五世的宫廷医生"
+            },
+            {
+                "year": "1564年",
+                "event": "在希腊扎金索斯岛去世"
+            }
+        ]
+    },
+    
+    "story_en": {
+        "brief": "Vesalius risked being accused of desecrating corpses to personally dissect human bodies, discovering numerous errors in Galenic medicine. In 1543, he published the magnificent De humani corporis fabrica, appearing the same year as Copernicus's De revolutionibus, together initiating the Scientific Revolution!",
+        
+        "detailed": "**The Rebellious Medical Student**\n\nAndreas Vesalius (1514-1564) was born in Brussels into a family of physicians. From childhood he was curious about the human body, even dissecting mice, cats, and dogs to study their structure.\n\nAt 15, Vesalius entered the University of Leuven. But he quickly became disappointed with traditional medical education:\n- 📚 Professors merely recited Galen's works\n- 🚫 Never dissected personally, only had barbers do it\n- 👀 Students could only watch from afar, couldn't see details\n- 📖 Everything according to ancient books, no questioning allowed\n\nVesalius found this absurd:\n> How can one understand the human body without personal observation?\n\n**The Grave-Robbing Anatomist**\n\nTo learn real anatomy, Vesalius did something crazy: **grave robbing**.\n\nIn the 16th century, dissecting human bodies was taboo:\n- ⛪ Church considered it desecration\n- ⚖️ Only executed criminals' bodies could be used for dissection\n- 💀 Severe shortage of corpses\n- 😱 Medical students had few practical opportunities\n\nVesalius disregarded the danger:\n- 🌙 Stole bodies from gallows at night\n- 💀 Dug up bones from graveyards\n- 🏥 Bribed executioners for corpses\n- 🔬 Secretly dissected in his room\n\nHis classmates recalled:\n> Vesalius's room always smelled strange, no one dared enter.\n\n**Revolution in Padua**\n\nIn 1537, 23-year-old Vesalius came to the University of Padua in Italy, where the academic atmosphere was more open. He quickly became professor of anatomy.\n\nVesalius completely reformed anatomical teaching:\n\n**Traditional Method:**\n- 👨‍🏫 Professor sat on high platform reading Galen\n- 💈 Barber dissected below\n- 👥 Students watched from distance\n- 📚 Everything according to books\n\n**Vesalius's Method:**\n- 🔪 Personally dissected\n- 👨‍🎓 Let students observe closely\n- 🔍 Pointed out differences between books and reality\n- 💡 Encouraged students to question authority\n\nStudents were shocked: the human body is different from Galen's descriptions!\n\n**Galen's Errors**\n\nGalen (129-200) was ancient Rome's greatest physician, his works dominated medicine for 1400 years. But Vesalius discovered Galen had never dissected human bodies, only monkeys, pigs, and other animals.\n\nVesalius found over 200 errors in Galen:\n\n**Heart and Blood Circulation:**\n- ❌ Galen said: Heart septum has small holes, blood can flow from right to left ventricle\n- ✅ Vesalius found: Heart septum is solid, no holes\n- 💭 This discovery laid foundation for Harvey's later discovery of blood circulation\n\n**Skeletal System:**\n- ❌ Galen said: Human mandible composed of two bones (monkeys indeed so)\n- ✅ Vesalius found: Human mandible is one piece\n- ❌ Galen said: Sternum has 7 segments (monkeys so)\n- ✅ Vesalius found: Human sternum only has 3 segments\n\n**Vascular System:**\n- ❌ Galen said: Vascular network at brain base is net-like (pigs and cattle have)\n- ✅ Vesalius found: Humans don't have this structure\n\n**Liver:**\n- ❌ Galen said: Liver has 5 lobes (dog's liver)\n- ✅ Vesalius found: Human liver usually only has 2 lobes\n\n**Uterus:**\n- ❌ Galen said: Uterus has two cavities (animals so)\n- ✅ Vesalius found: Human uterus only has one cavity\n\nVesalius realized: Galen described not human bodies, but animals!\n\n**Birth of De humani corporis fabrica**\n\nIn 1543, 29-year-old Vesalius completed his masterpiece: De humani corporis fabrica (On the Fabric of the Human Body).\n\nThis book was revolutionary not only in content but in form:\n\n📖 **7-Volume Masterwork**\n- Volume 1: Skeletal system\n- Volume 2: Muscular system\n- Volume 3: Vascular system\n- Volume 4: Nervous system\n- Volume 5: Digestive system\n- Volume 6: Heart and respiratory system\n- Volume 7: Brain\n\n🎨 **Exquisite Illustrations**\n- Over 300 woodcut prints\n- Possibly drawn by Titian's students\n- Anatomical diagrams precise yet artistic\n- Human figures in graceful poses, backgrounds of Italian landscapes\n\nThese illustrations were not only scientifically accurate but beautiful as artworks. Most famous is the muscle man series:\n- 💪 Skin removed, showing muscles\n- 🎭 Posed in various positions\n- 🏛️ Backgrounds of ancient Roman ruins\n- 💀 Holding their own skin or bones\n\nThese images were both horrifying and beautiful, both scientific and artistic.\n\n**Drama of Publication**\n\n1543 was a magical year in scientific history:\n- 📚 May: Copernicus's De revolutionibus published\n- 📚 August: Vesalius's De humani corporis fabrica published\n\nBoth books challenged ancient authority:\n- 🌍 Copernicus overthrew Ptolemy's geocentrism\n- 🫀 Vesalius overthrew Galen's anatomy\n\nTogether they initiated the Scientific Revolution!\n\nVesalius dedicated the book to Holy Roman Emperor Charles V. To ensure publication quality, he personally went to Basel, Switzerland to supervise printing.\n\nThe book caused sensation upon publication:\n- 😍 Young physicians cheered\n- 😡 Conservative physicians angrily condemned\n- 📚 Quickly translated into multiple languages\n- 💰 Expensive but still bestselling\n\n**Conservative Backlash**\n\nVesalius's teacher Jacobus Sylvius angrily attacked him:\n> This madman, fraud, ignorant person dares challenge sacred Galen! He should be expelled from medicine!\n\nConservative physicians' arguments were absurd:\n- 📚 Galen couldn't be wrong\n- 🤔 If modern human bodies differ from Galen's descriptions\n- 💭 Then modern humans must have degenerated!\n- 😱 Not Galen wrong, but humans changed!\n\nBut younger generation physicians sided with Vesalius. They began dissecting personally, verifying Vesalius's discoveries.\n\n**Life as Court Physician**\n\nAfter publishing De humani corporis fabrica, Vesalius became court physician to Charles V. This was great honor but meant he could no longer do anatomical research.\n\nAs court physician, Vesalius:\n- 👑 Treated emperor and nobles\n- 💰 Earned well\n- 🚫 But couldn't continue anatomical research\n- 😔 Felt talents wasted\n\nHe complained in letters to friends:\n> I'm trapped at court, unable to continue my research. People here only care about power and money, not truth.\n\n**Mysterious Death**\n\nIn 1564, 50-year-old Vesalius embarked on pilgrimage to Jerusalem. The reason remains mystery:\n- 🙏 Some say for atonement (for dissecting corpses)\n- ⚖️ Some say to escape Inquisition charges\n- 💔 Some say because unhappy with court life\n\nOn return journey, his ship encountered storm near Greek island of Zakynthos. Vesalius landed and soon fell ill, dying quickly.\n\nHe was hastily buried on the island, exact location of grave lost.\n\nThis great man who changed medicine didn't even have a proper tombstone.\n\n**Vesalius's Legacy**\n\nThough Vesalius died young, his influence was profound:\n\n🔬 **Foundation of Modern Anatomy**\n- Established observation-based anatomy\n- Emphasized importance of personal dissection\n- Used precise illustrations to record discoveries\n\n📚 **Reform of Medical Education**\n- Professors must dissect personally\n- Students must practice hands-on\n- Questioning authority became norm\n\n🎨 **Art of Medical Illustration**\n- Combined science with art\n- Established standards for medical illustration\n- Influenced all subsequent anatomy textbooks\n\n💡 **Establishment of Scientific Spirit**\n- Observation over authority\n- Practice tests theory\n- Dare to challenge tradition\n\n**Successors**\n\nThe anatomical revolution Vesalius initiated was continued by successors:\n\n🫀 **William Harvey (1578-1657)**\n- Discovered blood circulation\n- Proved heart is pump\n- Completed Vesalius's unfinished work\n\n🔬 **Marcello Malpighi (1628-1694)**\n- Observed capillaries with microscope\n- Connected arteries and veins\n- Perfected circulatory system theory\n\n🧠 **Thomas Willis (1621-1675)**\n- Detailed study of brain anatomy\n- Discovered circle of Willis at brain base\n- Advanced neuroanatomy\n\n**Modern Commemoration**\n\nToday, Vesalius is honored as father of modern medicine:\n\n🏛️ **Memorials**\n- Vesalius statue in Brussels\n- Vesalius anatomical theater at University of Padua\n- Many medical schools named after him\n\n📚 **Influence**\n- De humani corporis fabrica considered one of most important works in medical history\n- Original books extremely valuable, worth millions of dollars\n- Illustrations copied and studied countless times\n\n🎓 **Education**\n- Medical students worldwide learn his methods\n- Anatomy courses continue his tradition\n- Personal dissection still core of medical education\n\n**Eternal Questions**\n\nVesalius's story raises eternal questions:\n\n🤔 **Science and Ethics**\n- What can be done for knowledge?\n- Is dissecting corpses ethical?\n- What is the cost of scientific progress?\n\n📚 **Authority and Truth**\n- When should authority be questioned?\n- How is traditional knowledge updated?\n- How does truth triumph over prejudice?\n\n💡 **Observation and Theory**\n- Which is more important, theory or practice?\n- How to balance inheritance and innovation?\n- How does science progress?\n\nVesalius answered these questions with his life:\n> Truth comes from observation, not from books. To understand nature, one must study personally, not blindly believe the ancients.\n\nThis belief changed medicine and changed science.",
+        
+        "historical_context": "**Medicine in the Renaissance**\n\nVesalius lived during the Renaissance (16th century):\n- 📅 1514-1564\n- 🎨 Flourishing of art and science\n- 📚 Rediscovery of classical knowledge\n- 🖨️ Printing press promoted knowledge dissemination\n\n**Dominance of Galenic Medicine**\n\nGalen's medical theories dominated for 1400 years:\n- 📚 Viewed as unchallengeable authority\n- ⛪ Supported by the Church\n- 🏛️ Combined with Aristotelian philosophy\n- 🚫 Questioning Galen considered heresy\n\n**Taboo of Dissection**\n\n16th-century dissection faced many restrictions:\n- ⛪ Church considered dissection desecration\n- ⚖️ Could only dissect criminal corpses\n- 💀 Severe shortage of corpses\n- 😱 Public filled with fear of dissection\n\n**Special Status of University of Padua**\n\nUniversity of Padua was most open medical center at the time:\n- 🏛️ Republic of Venice protected academic freedom\n- 📚 Relatively free from Church interference\n- 🔬 Encouraged experimentation and observation\n- 🌍 Attracted students from all over Europe",
+        
+        "mystery_box": "🔍 **Unsolved Mysteries**\n\n1. **Why did Vesalius go on pilgrimage?**\n   Legend says he dissected someone still alive and went on pilgrimage for atonement. But this may be rumor fabricated by enemies. What's the truth?\n\n2. **Who drew the illustrations in De humani corporis fabrica?**\n   Traditionally attributed to Titian's students, but no solid evidence. Did Vesalius draw them himself? Or multiple artists collaborating?\n\n3. **Where is Vesalius's grave?**\n   He was buried on Zakynthos island, but exact location lost. Multiple searches found nothing. Are his remains still there?\n\n4. **Did he really rob graves?**\n   Many stories describe his grave robbing, but which are true, which legend? How did he obtain so many corpses?\n\n5. **Why suddenly leave Padua?**\n   He was most successful in Padua, why become court physician? Was he forced or voluntary?",
+        
+        "timeline": [
+            {
+                "year": "1514",
+                "event": "Born December 31 in Brussels"
+            },
+            {
+                "year": "1529",
+                "event": "Entered University of Leuven"
+            },
+            {
+                "year": "1533",
+                "event": "Went to University of Paris to study medicine"
+            },
+            {
+                "year": "1537",
+                "event": "Came to University of Padua, became professor of anatomy"
+            },
+            {
+                "year": "1538",
+                "event": "Published Tabulae Anatomicae Sex (Six Anatomical Tables)"
+            },
+            {
+                "year": "1543",
+                "event": "Published De humani corporis fabrica"
+            },
+            {
+                "year": "1544",
+                "event": "Became court physician to Charles V"
+            },
+            {
+                "year": "1564",
+                "event": "Died on Greek island of Zakynthos"
+            }
+        ]
+    },
+    
+    "fun_fact": {
+        "brief": "维萨里的《人体的构造》与哥白尼的《天体运行论》同年出版（1543年），一个革新了对人体的认识，一个革新了对宇宙的认识，共同开启了科学革命！",
+        
+        "extended": [
+            {
+                "title": "💀 盗尸的艺术",
+                "content": "维萨里和他的学生们发展出了一套盗尸技巧。他们会在深夜去绞刑架，趁守卫不注意偷走尸体。有一次，维萨里甚至从城墙外爬进去偷尸体。他把骨架藏在床下，肉体部分则要快速解剖，因为没有防腐技术，尸体很快就会腐烂。"
+            },
+            {
+                "title": "🎨 艺术与科学的完美结合",
+                "content": "《人体的构造》的插图美得令人惊叹。最著名的肌肉人系列中，人体摆出各种优雅的姿势，背景是意大利乡村风景。有的肌肉人手持自己的皮肤，有的拿着自己的骨骼，既恐怖又美丽。这些图像不仅是科学记录，更是艺术杰作。"
+            },
+            {
+                "title": "📚 最昂贵的医学书",
+                "content": "《人体的构造》原版极其珍贵。2015年，一本初版在拍卖会上以140万美元成交！这本书印刷精美，使用最好的纸张和墨水。维萨里亲自监督印刷，确保每一页都完美。今天全世界只剩下约150本完整的初版。"
+            },
+            {
+                "title": "⚖️ 活人解剖的传说",
+                "content": "有传说称维萨里解剖了一个还活着的西班牙贵族，当他打开胸腔时，心脏还在跳动。宗教裁判所要审判他，他只能去耶路撒冷朝圣赎罪。但这很可能是敌人编造的谣言，因为没有任何可靠证据。"
+            },
+            {
+                "title": "🏛️ 解剖剧场",
+                "content": "帕多瓦大学建造了世界上第一个永久性解剖剧场（1594年，维萨里去世后）。这是一个圆形建筑，学生们站在环形看台上，可以清楚地看到中央的解剖台。这个设计受到维萨里教学方法的启发，今天仍然保存完好，是医学史的重要遗迹。"
+            },
+            {
+                "title": "👨‍⚕️ 29岁的革命",
+                "content": "维萨里完成《人体的构造》时只有29岁！这意味着他在20多岁时就推翻了统治1400年的医学理论。他的大胆和才华令人惊叹。可惜他50岁就去世了，如果能活得更长，还会有什么发现呢？"
+            },
+            {
+                "title": "🔬 盖伦从未解剖过人",
+                "content": "维萨里发现盖伦的描述更像猴子、猪、狗，而不是人。原来盖伦生活在罗马时代，当时禁止解剖人体，他只能解剖动物。但1400年来，没人发现这个问题，因为没人敢质疑盖伦，也没人亲自解剖验证！"
+            }
+        ]
+    },
+    
+    "fun_fact_en": {
+        "brief": "Vesalius's De humani corporis fabrica was published the same year as Copernicus's De revolutionibus (1543)—one revolutionized understanding of the human body, the other of the universe, together initiating the Scientific Revolution!",
+        
+        "extended": [
+            {
+                "title": "💀 The Art of Grave Robbing",
+                "content": "Vesalius and his students developed grave-robbing techniques. They would go to gallows at night, stealing bodies when guards weren't looking. Once, Vesalius even climbed over city walls to steal a corpse. He hid skeletons under his bed; flesh parts had to be dissected quickly because without preservation techniques, bodies rotted fast."
+            },
+            {
+                "title": "🎨 Perfect Fusion of Art and Science",
+                "content": "Illustrations in De humani corporis fabrica are stunningly beautiful. The famous muscle man series shows bodies in elegant poses against Italian countryside backgrounds. Some muscle men hold their own skin, others their own bones—both horrifying and beautiful. These images aren't just scientific records but artistic masterpieces."
+            },
+            {
+                "title": "📚 Most Expensive Medical Book",
+                "content": "Original De humani corporis fabrica extremely valuable. In 2015, a first edition sold at auction for $1.4 million! The book was beautifully printed using finest paper and ink. Vesalius personally supervised printing,ensuring every page perfect. Today only about 150 complete first editions remain worldwide."
+            },
+            {
+                "title": "⚖️ Legend of Living Dissection",
+                "content": "Legend says Vesalius dissected a Spanish nobleman still alive—when he opened the chest, the heart was still beating. The Inquisition wanted to try him, so he had to pilgrimage to Jerusalem for atonement. But this was likely rumor fabricated by enemies, as there's no reliable evidence."
+            },
+            {
+                "title": "🏛️ Anatomical Theater",
+                "content": "University of Padua built world's first permanent anatomical theater (1594, after Vesalius's death). This circular building had students standing on tiered seating, clearly seeing the central dissection table. This design was inspired by Vesalius's teaching methods and is still well-preserved today, an important relic of medical history."
+            },
+            {
+                "title": "👨‍⚕️ Revolution at 29",
+                "content": "Vesalius completed De humani corporis fabrica at only 29! This means in his 20s he overthrew medical theory that had dominated for 1400 years. His boldness and talent are astonishing. Sadly he died at 50—what more might he have discovered if he'd lived longer?"
+            },
+            {
+                "title": "🔬 Galen Never Dissected Humans",
+                "content": "Vesalius discovered Galen's descriptions resembled monkeys, pigs, dogs more than humans. Turns out Galen lived in Roman times when human dissection was forbidden—he could only dissect animals. But for 1400 years, no one noticed this problem because no one dared question Galen or personally dissect to verify!"
+            }
+        ]
+    },
+    
+    "impact": {
+        "brief": "维萨里的《人体的构造》奠定了现代解剖学的基础，改革了医学教育，确立了观察优于权威的科学精神，开启了医学革命，影响延续至今。",
+        
+        "detailed": "**对解剖学的直接影响**\n\n维萨里彻底改变了解剖学：\n\n🔬 **建立现代解剖学**\n- 基于实际观察而非古代权威\n- 系统描述人体各个系统\n- 纠正了盖伦的200多处错误\n- 建立了解剖学的科学标准\n\n📐 **精确的解剖描述**\n- 详细记录骨骼、肌肉、血管、神经\n- 用精美插图辅助说明\n- 建立了解剖学术语体系\n- 为后续研究提供了基础\n\n🎨 **医学插图的革命**\n- 将艺术与科学完美结合\n- 建立了医学插图的标准\n- 影响了所有后续解剖学教材\n- 证明了视觉在医学教育中的重要性\n\n**对医学教育的影响**\n\n维萨里改革了整个医学教育体系：\n\n👨‍🏫 **教学方法的改革**\n- 教授必须亲自解剖\n- 学生必须动手实践\n- 近距离观察取代远距离观看\n- 实践优于理论背诵\n\n📚 **课程内容的更新**\n- 解剖学成为医学教育核心\n- 强调观察和实验\n- 鼓励质疑和验证\n- 培养批判性思维\n\n🏛️ **解剖剧场的建立**\n- 专门的解剖教学场所\n- 学生可以清楚观察\n- 成为医学院的标准设施\n- 促进了解剖学的普及\n\n**对后续医学发现的影响**\n\n维萨里的工作为重大医学发现铺平道路：\n\n🫀 **威廉·哈维的血液循环（1628）**\n- 维萨里发现心脏中隔无孔\n- 这促使哈维寻找血液循环的真正路径\n- 哈维证明血液在体内循环\n- 完成了维萨里未竟的事业\n\n🔬 **显微解剖学的发展**\n- 马尔皮吉用显微镜观察毛细血管\n- 连接了动脉和静脉\n- 完善了循环系统理论\n- 将解剖学推向微观层面\n\n🧠 **神经解剖学的进步**\n- 威利斯详细研究大脑\n- 发现脑底动脉环\n- 推动了神经科学发展\n- 为现代神经外科奠基\n\n💊 **生理学的建立**\n- 理解结构才能理解功能\n- 解剖学为生理学提供基础\n- 促进了实验生理学发展\n- 推动了现代医学的形成\n\n**对科学方法的影响**\n\n维萨里确立了重要的科学原则：\n\n1. **观察优于权威**\n   - 亲眼所见胜过古书记载\n   - 实践检验理论\n   - 敢于质疑传统\n\n2. **实验验证的重要性**\n   - 不能仅凭推理\n   - 必须亲自验证\n   - 重复观察确保准确\n\n3. **精确记录和传播**\n   - 详细描述发现\n   - 用插图辅助说明\n   - 出版分享知识\n\n4. **批判性思维**\n   - 质疑是进步的动力\n   - 没有不可挑战的权威\n   - 真理高于一切\n\n**对医学实践的影响**\n\n🏥 **外科手术的进步**\n- 准确的解剖知识指导手术\n- 理解器官位置和关系\n- 减少手术风险\n- 提高手术成功率\n\n💉 **诊断的改进**\n- 理解正常解剖结构\n- 识别异常和病变\n- 准确定位疾病\n- 制定治疗方案\n\n🩺 **医学专业化**\n- 解剖学成为医学基础\n- 促进了各专科发展\n- 提高了医生专业水平\n- 建立了医学标准\n\n**对科学革命的贡献**\n\n维萨里与哥白尼共同开启科学革命：\n\n🌍 **挑战古代权威**\n- 哥白尼推翻托勒密\n- 维萨里推翻盖伦\n- 观察胜过传统\n- 理性战胜迷信\n\n🔬 **建立科学方法**\n- 强调实验和观察\n- 用数学和图像记录\n- 公开发表供验证\n- 鼓励批判和质疑\n\n💡 **改变思维方式**\n- 从依赖权威到独立思考\n- 从接受传统到勇于创新\n- 从理论推测到实践验证\n- 从封闭保守到开放进取\n\n**现代医学的基础**\n\n维萨里的遗产延续至今：\n\n🎓 **医学教育**\n- 解剖学仍是医学生必修课\n- 尸体解剖仍是教学核心\n- 维萨里的方法仍在使用\n- 他的精神仍在传承\n\n🔬 **医学研究**\n- 解剖学是所有医学研究的基础\n- 从宏观到微观\n- 从结构到功能\n- 从正常到病理\n\n🏥 **临床实践**\n- 每个医生都学过维萨里的解剖学\n- 手术依赖解剖知识\n- 诊断基于解剖理解\n- 治疗遵循解剖原理\n\n**文化和社会影响**\n\n📚 **知识传播**\n- 《人体的构造》成为经典\n- 医学知识不再神秘\n- 促进了科学普及\n- 提高了公众健康意识\n\n🎨 **艺术影响**\n- 艺术家学习解剖学\n- 人体艺术更加准确\n- 医学插图成为艺术形式\n- 科学与艺术的融合\n\n⚖️ **伦理讨论**\n- 引发了关于尸体使用的讨论\n- 促进了医学伦理的发展\n- 平衡科学进步与道德考量\n- 建立了研究伦理规范\n\n**统计数据**\n\n- 📖 《人体的构造》被翻译成几十种语言\n- 🎓 全球数千万医学生学习维萨里的解剖学\n- 🏥 每年数百万台手术依赖解剖学知识\n- 📚 数万本解剖学教材继承维萨里传统\n- 🔬 无数医学发现建立在解剖学基础上\n\n**哲学意义**\n\n维萨里的工作具有深刻的哲学意义：\n\n- 🔍 **认识论**：知识来自观察而非权威\n- 💭 **方法论**：实验验证理论的重要性\n- 🎯 **真理观**：真理高于传统和权威\n- 🌟 **进步观**：科学通过质疑和创新进步",
+        
+        "modern_examples": [
+            {
+                "field": "医学教育",
+                "example": "全球每所医学院都有解剖学课程，学生必须亲自解剖尸体。这个传统直接源于维萨里。现代虽然有3D模型和虚拟解剖，但真实尸体解剖仍是不可替代的，因为每个人体都是独特的。"
+            },
+            {
+                "field": "外科手术",
+                "example": "外科医生在手术前必须精确了解解剖结构。无论是心脏手术、脑外科还是器官移植，都完全依赖维萨里建立的解剖学知识。一个小的解剖错误可能导致致命后果。"
+            },
+            {
+                "field": "医学影像",
+                "example": "CT、MRI等现代影像技术产生的图像，医生必须用解剖学知识来解读。放射科医生需要深厚的解剖学功底，才能从影像中识别正常结构和病变。"
+            },
+            {
+                "field": "法医学",
+                "example": "法医通过尸体解剖确定死因、死亡时间、是否有外伤等。这完全基于维萨里建立的解剖学。每年数百万案件依赖法医解剖提供证据。"
+            },
+            {
+                "field": "运动医学",
+                "example": "运动员的训练和康复都需要精确的解剖学知识。理解肌肉、韧带、关节的结构，才能设计有效的训练方案，预防和治疗运动损伤。"
+            },
+            {
+                "field": "艺术创作",
+                "example": "艺术学院仍然教授解剖学。雕塑家、画家需要理解人体结构，才能创作出逼真的作品。许多艺术家会参观解剖课或研究解剖图谱。"
+            }
+        ]
+    },
+    
+    "impact_en": {
+        "brief": "Vesalius's De humani corporis fabrica laid foundation of modern anatomy, reformed medical education, established scientific spirit of observation over authority, initiated medical revolution with lasting influence to this day.",
+        
+        "detailed": "**Direct Impact on Anatomy**\n\nVesalius completely changed anatomy:\n\n🔬 **Established Modern Anatomy**\n- Based on actual observation not ancient authority\n- Systematically described all body systems\n- Corrected over 200 errors in Galen\n- Established scientific standards for anatomy\n\n📐 **Precise Anatomical Description**\n- Detailed recording of bones, muscles, vessels, nerves\n- Used exquisite illustrations for explanation\n- Established anatomical terminology system\n- Provided foundation for subsequent research\n\n🎨 **Revolution in Medical Illustration**\n- Perfectly combined art with science\n- Established standards for medical illustration\n- Influenced all subsequent anatomy textbooks\n- Proved importance of visuals in medical education\n\n**Impact on Medical Education**\n\nVesalius reformed entire medical education system:\n\n👨‍🏫 **Reform of Teaching Methods**\n- Professors must dissect personally\n- Students must practice hands-on\n- Close observation replaced distant viewing\n- Practice over theoretical recitation\n\n📚 **Update of Curriculum Content**\n- Anatomy became core of medical education\n- Emphasized observation and experimentation\n- Encouraged questioning and verification\n- Cultivated critical thinking\n\n🏛️ **Establishment of Anatomical Theaters**\n- Dedicated anatomical teaching venues\n- Students could observe clearly\n- Became standard facility in medical schools\n- Promoted popularization of anatomy\n\n**Impact on Subsequent Medical Discoveries**\n\nVesalius's work paved way for major medical discoveries:\n\n🫀 **William Harvey's Blood Circulation (1628)**\n- Vesalius found heart septum has no holes\n- This prompted Harvey to seek true path of blood circulation\n- Harvey proved blood circulates in body\n- Completed Vesalius's unfinished work\n\n🔬 **Development of Microscopic Anatomy**\n- Malpighi observed capillaries with microscope\n- Connected arteries and veins\n- Perfected circulatory system theory\n- Pushed anatomy to microscopic level\n\n🧠 **Progress in Neuroanatomy**\n- Willis studied brain in detail\n- Discovered circle of Willis at brain base\n- Advanced neuroscience development\n- Laid foundation for modern neurosurgery\n\n💊 **Establishment of Physiology**\n- Understanding structure enables understanding function\n- Anatomy provides foundation for physiology\n- Promoted development of experimental physiology\n- Advanced formation of modern medicine\n\n**Impact on Scientific Method**\n\nVesalius established important scientific principles:\n\n1. **Observation Over Authority**\n   - What eyes see surpasses ancient texts\n   - Practice tests theory\n   - Dare to question tradition\n\n2. **Importance of Experimental Verification**\n   - Cannot rely solely on reasoning\n   - Must verify personally\n   - Repeated observation ensures accuracy\n\n3. **Precise Recording and Dissemination**\n   - Detailed description of discoveries\n   - Use illustrations for explanation\n   - Publish to share knowledge\n\n4. **Critical Thinking**\n   - Questioning drives progress\n   - No unchallengeable authority\n   - Truth above all\n\n**Impact on Medical Practice**\n\n🏥 **Progress in Surgery**\n- Accurate anatomical knowledge guides surgery\n- Understanding organ positions and relationships\n- Reducing surgical risks\n- Improving surgical success rates\n\n💉 **Improvement in Diagnosis**\n- Understanding normal anatomical structure\n- Identifying abnormalities and lesions\n- Accurately locating diseases\n- Formulating treatment plans\n\n🩺 **Medical Specialization**\n- Anatomy became medical foundation\n- Promoted development of specialties\n- Improved physician professional level\n- Established medical standards\n\n**Contribution to Scientific Revolution**\n\nVesalius and Copernicus together initiated Scientific Revolution:\n\n🌍 **Challenging Ancient Authority**\n- Copernicus overthrew Ptolemy\n- Vesalius overthrew Galen\n- Observation over tradition\n- Reason over superstition\n\n🔬 **Establishing Scientific Method**\n- Emphasized experimentation and observation\n- Recorded with mathematics and images\n- Published openly for verification\n- Encouraged criticism and questioning\n\n💡 **Changing Thinking Patterns**\n- From relying on authority to independent thinking\n- From accepting tradition to daring innovation\n- From theoretical speculation to practical verification\n- From closed conservatism to open progress\n\n**Foundation of Modern Medicine**\n\nVesalius's legacy continues today:\n\n🎓 **Medical Education**\n- Anatomy still required course for medical students\n- Cadaver dissection still teaching core\n- Vesalius's methods still in use\n- His spirit still inherited\n\n🔬 **Medical Research**\n- Anatomy is foundation of all medical research\n- From macroscopic to microscopic\n- From structure to function\n- From normal to pathological\n\n🏥 **Clinical Practice**\n- Every physician learned Vesalius's anatomy\n- Surgery depends on anatomical knowledge\n- Diagnosis based on anatomical understanding\n- Treatment follows anatomical principles\n\n**Cultural and Social Impact**\n\n📚 **Knowledge Dissemination**\n- De humani corporis fabrica became classic\n- Medical knowledge no longer mysterious\n- Promoted science popularization\n- Raised public health awareness\n\n🎨 **Artistic Influence**\n- Artists studied anatomy\n- Human art became more accurate\n- Medical illustration became art form\n- Fusion of science and art\n\n⚖️ **Ethical Discussion**\n- Sparked discussion about corpse use\n- Promoted development of medical ethics\n- Balanced scientific progress with moral considerations\n- Established research ethical norms\n\n**Statistics**\n\n- 📖 De humani corporis fabrica translated into dozens of languages\n- 🎓 Tens of millions of medical students worldwide study Vesalius's anatomy\n- 🏥 Millions of surgeries annually depend on anatomical knowledge\n- 📚 Tens of thousands of anatomy textbooks inherit Vesalius tradition\n- 🔬 Countless medical discoveries built on anatomical foundation\n\n**Philosophical Significance**\n\nVesalius's work has profound philosophical meaning:\n\n- 🔍 **Epistemology**: Knowledge comes from observation not authority\n- 💭 **Methodology**: Importance of experimental verification of theory\n- 🎯 **View of Truth**: Truth above tradition and authority\n- 🌟 **View of Progress**: Science progresses through questioning and innovation",
+        
+        "modern_examples": [
+            {
+                "field": "Medical Education",
+                "example": "Every medical school globally has anatomy course where students must personally dissect cadavers. This tradition directly stems from Vesalius. Though modern times have 3D models and virtual dissection, real cadaver dissection remains irreplaceable because every human body is unique."
+            },
+            {
+                "field": "Surgery",
+                "example": "Surgeons must precisely understand anatomical structure before surgery. Whether heart surgery, neurosurgery, or organ transplant, all completely depend on anatomical knowledge Vesalius established. A small anatomical error could lead to fatal consequences."
+            },
+            {
+                "field": "Medical Imaging",
+                "example": "Images produced by modern imaging technologies like CT and MRI must be interpreted by physicians using anatomical knowledge. Radiologists need deep anatomical foundation to identify normal structures and lesions from images."
+            },
+            {
+                "field": "Forensic Medicine",
+                "example": "Forensic pathologists determine cause of death, time of death, presence of trauma through autopsy. This is completely based on anatomy Vesalius established. Millions of cases annually depend on forensic autopsy for evidence."
+            },
+            {
+                "field": "Sports Medicine",
+                "example": "Athlete training and rehabilitation require precise anatomical knowledge. Understanding structure of muscles, ligaments, joints enables designing effective training programs, preventing and treating sports injuries."
+            },
+            {
+                "field": "Artistic Creation",
+                "example": "Art schools still teach anatomy. Sculptors and painters need to understand human body structure to create realistic works. Many artists attend anatomy classes or study anatomical atlases."
+            }
+        ]
+    },
+    
+    "kid_friendly_explanation": {
+        "simple": "维萨里是一位勇敢的医生，他亲自解剖人体，发现了古代医学书上的很多错误。他画了美丽的人体图画，让大家知道人体真正的样子。他的工作帮助医生更好地治病救人！",
+        
+        "detailed": "让我们了解维萨里的故事：\n\n**维萨里是谁？**\n\n维萨里是500年前的一位医生和科学家。他对人体非常好奇，想知道我们的身体里面是什么样的。\n\n**古老的错误**\n\n在维萨里之前，医生们都相信一个叫盖伦的古代医生写的书。但盖伦从来没有解剖过人体，只解剖过猴子、猪、狗。\n\n所以盖伦的书里有很多错误：\n- ❌ 说人的下巴是两块骨头（其实是一块）\n- ❌ 说心脏中间有小孔（其实没有）\n- ❌ 说肝脏有5片（其实只有2片）\n\n但1400年来，没人发现这些错误，因为没人敢质疑盖伦！\n\n**勇敢的解剖**\n\n维萨里决定亲自看看人体到底是什么样的。\n\n在那个时代，解剖人体是很危险的：\n- 😱 很多人认为这是不对的\n- 💀 很难找到尸体\n- 🌙 维萨里有时要在深夜偷尸体\n\n但维萨里不怕，他说：\n> 要了解人体，就必须亲眼看看！\n\n**神奇的发现**\n\n通过解剖，维萨里发现：\n- ✅ 人体和盖伦描述的不一样\n- ✅ 盖伦描述的其实是动物\n- ✅ 有200多个错误需要纠正\n\n**美丽的图画**\n\n维萨里不仅解剖，还画了很多美丽的图画：\n- 🎨 展示骨骼、肌肉、器官\n- 📐 非常精确和详细\n- 🖼️ 既科学又艺术\n- 📚 帮助其他人学习\n\n这些图画太美了，就像艺术品一样！\n\n**《人体的构造》**\n\n1543年，维萨里出版了一本大书《人体的构造》：\n- 📖 有7卷，超过300幅插图\n- 🎨 图画精美，印刷精良\n- 💰 非常昂贵，但很受欢迎\n- 🌍 改变了整个医学\n\n有趣的是，同一年哥白尼也出版了他的书！两本书都挑战了古老的错误想法。\n\n**人体是什么样的？**\n\n维萨里告诉我们人体的秘密：\n\n🦴 **骨骼系统**\n- 成年人有206块骨头\n- 骨头支撑我们的身体\n- 保护重要器官\n\n💪 **肌肉系统**\n- 有600多块肌肉\n- 肌肉让我们能动\n- 心脏也是肌肉\n\n🫀 **心脏和血管**\n- 心脏像泵一样工作\n- 血管遍布全身\n- 血液运送氧气和营养\n\n🧠 **大脑和神经**\n- 大脑控制一切\n- 神经传递信息\n- 让我们能思考和感觉\n\n🫁 **呼吸系统**\n- 肺帮助我们呼吸\n- 吸入氧气，呼出二氧化碳\n\n🍎 **消化系统**\n- 胃和肠道消化食物\n- 吸收营养\n- 排出废物\n\n**为什么维萨里很重要？**\n\n🏥 **帮助医生**\n- 医生了解人体才能治病\n- 手术需要知道器官在哪里\n- 准确的知识救了很多人的命\n\n📚 **改变教育**\n- 医学生必须亲自解剖\n- 不能只读书，要动手实践\n- 鼓励提问和思考\n\n💡 **科学精神**\n- 要亲自观察，不要盲目相信\n- 敢于质疑权威\n- 真理比传统更重要\n\n**维萨里教给我们什么？**\n\n- 🔍 要亲自观察和研究\n- 💪 要勇敢挑战错误\n- 📚 知识来自实践，不只是书本\n- 🎨 科学可以很美\n- 💡 永远保持好奇心",
+        
+        "interactive_challenge": "🎮 动手试试：\n\n**活动1：制作骨骼模型**\n材料：\n- 纸板或硬纸\n- 剪刀\n- 图钉或扣子\n- 颜料\n\n步骤：\n1. 画出人体主要骨骼的形状\n2. 剪下来\n3. 用图钉连接，让关节能活动\n4. 涂上颜色\n5. 试着摆出不同姿势\n\n**活动2：人体器官拼图**\n材料：\n- 人体轮廓图\n- 彩纸\n- 剪刀\n- 胶水\n\n步骤：\n1. 在人体轮廓上标出器官位置\n2. 用彩纸剪出心脏、肺、胃、肝等器官\n3. 贴在正确位置\n4. 标注每个器官的名字和功能\n\n**活动3：观察X光片**\n活动：\n- 🦴 看看X光片（可以在网上找）\n- 🔍 识别骨骼结构\n- 📝 画下你看到的\n- 💭 想想为什么医生需要了解解剖学\n\n**活动4：肌肉游戏**\n游戏：\n- 💪 摸摸自己的肌肉\n- 🏃 做不同动作，感觉哪些肌肉在工作\n- 🤔 想想：为什么运动后肌肉会酸痛？\n- 📝 记录你的发现\n\n**活动5：心跳实验**\n实验：\n- 🫀 摸摸自己的脉搏\n- ⏱️ 数一分钟跳多少次\n- 🏃 跑步后再数一次\n- 📊 比较运动前后的变化\n- 💭 想想：为什么心跳会变快？",
+        
+        "deeper_thinking": "🤔 思考题：\n\n1. **为什么维萨里要冒险解剖尸体？**\n   提示：不亲眼看，怎么知道书上说的对不对？\n\n2. **为什么1400年没人发现盖伦的错误？**\n   提示：大家都相信权威，没人敢质疑\n\n3. **解剖尸体是对的吗？**\n   提示：这是个复杂的问题，要平衡尊重和学习\n\n4. **为什么医生需要学解剖学？**\n   提示：不了解人体结构，怎么治病？\n\n5. **你敢看真的解剖吗？**\n   提示：这需要勇气，但对医学很重要\n\n💡 有趣的问题：\n- 人体最大的器官是什么？（皮肤！）\n- 人体最硬的部分是什么？（牙齿！）\n- 人体有多少块骨头？（成人206块，婴儿更多！）\n- 心脏一天跳多少次？（约10万次！）\n- 大脑有多重？（约1.4公斤）",
+        
+        "visual_aids": [
+            {
+                "type": "动画演示",
+                "description": "展示维萨里如何解剖和发现盖伦错误的过程"
+            },
+            {
+                "type": "互动人体模型",
+                "description": "3D人体模型，可以点击不同部位查看器官、骨骼、肌肉"
+            },
+            {
+                "type": "对比图",
+                "description": "并排展示盖伦的错误描述和维萨里的正确发现"
+            },
+            {
+                "type": "AR体验",
+                "description": "用手机AR看到人体内部结构，可以旋转和放大观察"
+            }
+        ]
+    },
+    
+    "kid_friendly_explanation_en": {
+        "simple": "Vesalius was a brave doctor who personally dissected human bodies and discovered many errors in ancient medical books. He drew beautiful pictures of the human body, showing everyone what it really looks like. His work helped doctors better treat and save people!",
+        
+        "detailed": "Let's learn about Vesalius's story:\n\n**Who was Vesalius?**\n\nVesalius was a doctor and scientist from 500 years ago. He was very curious about the human body and wanted to know what's inside us.\n\n**Ancient Errors**\n\nBefore Vesalius, doctors all believed books written by an ancient doctor named Galen. But Galen never dissected human bodies—only monkeys, pigs, and dogs.\n\nSo Galen's books had many errors:\n- ❌ Said human jaw is two bones (actually one)\n- ❌ Said heart has holes in middle (actually doesn't)\n- ❌ Said liver has 5 lobes (actually only 2)\n\nBut for 1400 years, no one found these errors because no one dared question Galen!\n\n**Brave Dissection**\n\nVesalius decided to see for himself what the human body really looks like.\n\nIn that era, dissecting human bodies was dangerous:\n- 😱 Many people thought it was wrong\n- 💀 Very hard to find corpses\n- 🌙 Vesalius sometimes had to steal bodies at night\n\nBut Vesalius wasn't afraid. He said:\n> To understand the human body, you must see it yourself!\n\n**Amazing Discoveries**\n\nThrough dissection, Vesalius discovered:\n- ✅ Human body different from Galen's descriptions\n- ✅ Galen actually described animals\n- ✅ Over 200 errors needed correction\n\n**Beautiful Pictures**\n\nVesalius not only dissected but drew many beautiful pictures:\n- 🎨 Showing bones, muscles, organs\n- 📐 Very precise and detailed\n- 🖼️ Both scientific and artistic\n- 📚 Helping others learn\n\nThese pictures were so beautiful, like artworks!\n\n**De humani corporis fabrica**\n\nIn 1543, Vesalius published a big book De humani corporis fabrica:\n- 📖 7 volumes, over 300 illustrations\n- 🎨 Beautiful pictures, fine printing\n- 💰 Very expensive but very popular\n- 🌍 Changed all of medicine\n\nInterestingly, Copernicus also published his book the same year! Both books challenged ancient wrong ideas.\n\n**What's the Human Body Like?**\n\nVesalius told us secrets of the human body:\n\n🦴 **Skeletal System**\n- Adults have 206 bones\n- Bones support our body\n- Protect important organs\n\n💪 **Muscular System**\n- Over 600 muscles\n- Muscles let us move\n- Heart is also muscle\n\n🫀 **Heart and Blood Vessels**\n- Heart works like pump\n- Blood vessels throughout body\n- Blood carries oxygen and nutrients\n\n🧠 **Brain and Nerves**\n- Brain controls everything\n- Nerves transmit information\n- Let us think and feel\n\n🫁 **Respiratory System**\n- Lungs help us breathe\n- Inhale oxygen, exhale carbon dioxide\n\n🍎 **Digestive System**\n- Stomach and intestines digest food\n- Absorb nutrients\n- Eliminate waste\n\n**Why is Vesalius Important?**\n\n🏥 **Helps Doctors**\n- Doctors must understand body to treat illness\n- Surgery needs knowing where organs are\n- Accurate knowledge saved many lives\n\n📚 **Changed Education**\n- Medical students must dissect personally\n- Can't just read books, must practice\n- Encourages questioning and thinking\n\n💡 **Scientific Spirit**\n- Must observe personally, not blindly believe\n- Dare to question authority\n- Truth more important than tradition\n\n**What Does Vesalius Teach Us?**\n\n- 🔍 Must observe and research personally\n- 💪 Be brave to challenge errors\n- 📚 Knowledge comes from practice, not just books\n- 🎨 Science can be beautiful\n- 💡 Always stay curious",
+        
+        "interactive_challenge": "🎮 Try This:\n\n**Activity 1: Make Skeleton Model**\nMaterials:\n- Cardboard or stiff paper\n- Scissors\n- Pins or fasteners\n- Paint\n\nSteps:\n1. Draw shapes of main human bones\n2. Cut them out\n3. Connect with pins so joints can move\n4. Paint with colors\n5. Try posing in different positions\n\n**Activity 2: Human Organ Puzzle**\nMaterials:\n- Human body outline\n- Colored paper\n- Scissors\n- Glue\n\nSteps:\n1. Mark organ positions on body outline\n2. Cut out heart, lungs, stomach, liver from colored paper\n3. Paste in correct positions\n4. Label each organ's name and function\n\n**Activity 3: Observe X-rays**\nActivity:\n- 🦴 Look at X-rays (can find online)\n- 🔍 Identify skeletal structures\n- 📝 Draw what you see\n- 💭 Think why doctors need to know anatomy\n\n**Activity 4: Muscle Game**\nGame:\n- 💪 Feel your own muscles\n- 🏃 Do different movements, feel which muscles working\n- 🤔 Think: Why do muscles ache after exercise?\n- 📝 Record your discoveries\n\n**Activity 5: Heartbeat Experiment**\nExperiment:\n- 🫀 Feel your own pulse\n- ⏱️ Count beats per minute\n- 🏃 Count again after running\n- 📊 Compare before and after exercise\n- 💭 Think: Why does heartbeat speed up?",
+        
+        "deeper_thinking": "🤔 Think About:\n\n1. **Why did Vesalius risk dissecting corpses?**\n   Hint: Without seeing yourself, how know if books are right?\n\n2. **Why didn't anyone find Galen's errors for 1400 years?**\n   Hint: Everyone believed authority, no one dared question\n\n3. **Is dissecting corpses right?**\n   Hint: This is complex question, must balance respect and learning\n\n4. **Why do doctors need to study anatomy?**\n   Hint: Without understanding body structure, how treat illness?\n\n5. **Would you dare watch real dissection?**\n   Hint: This requires courage but is important for medicine\n\n💡 Interesting Questions:\n- What's the largest human organ? (Skin!)\n- What's the hardest part of human body? (Teeth!)\n- How many bones in human body? (Adults 206, babies more!)\n- How many times does heart beat per day? (About 100,000!)\n- How much does brain weigh? (About 1.4 kg)",
+        
+        "visual_aids": [
+            {
+                "type": "Animation",
+                "description": "Show how Vesalius dissected and discovered Galen's errors"
+            },
+            {
+                "type": "Interactive Human Model",
+                "description": "3D human model, can click different parts to view organs, bones, muscles"
+            },
+            {
+                "type": "Comparison Diagram",
+                "description": "Side-by-side display of Galen's wrong descriptions and Vesalius's correct discoveries"
+            },
+            {
+                "type": "AR Experience",
+                "description": "Use phone AR to see internal body structures, can rotate and zoom to observe"
+            }
+        ]
+    },
+    
+    "related_concepts": [
+        "人体解剖学",
+        "盖伦医学",
+        "血液循环",
+        "医学教育",
+        "解剖剧场",
+        "医学插图",
+        "科学方法",
+        "文艺复兴医学"
+    ],
+    
+    "related_concepts_en": [
+        "Human Anatomy",
+        "Galenic Medicine",
+        "Blood Circulation",
+        "Medical Education",
+        "Anatomical Theater",
+        "Medical Illustration",
+        "Scientific Method",
+        "Renaissance Medicine"
+    ],
+    
+    "quiz": {
+        "question": "维萨里发现了盖伦医学中的多少处错误？",
+        "question_en": "How many errors did Vesalius discover in Galenic medicine?",
+        "options": [
+            "约50处",
+            "约100处",
+            "约200处",
+            "约500处"
+        ],
+        "options_en": [
+            "About 50",
+            "About 100",
+            "About 200",
+            "About 500"
+        ],
+        "answer": 2,
+        "explanation": "维萨里通过亲自解剖人体，发现了盖伦医学中的200多处错误。这些错误产生的原因是盖伦从未解剖过人体，只解剖过猴子、猪、狗等动物，所以他的描述更像动物而不是人类。维萨里的发现推翻了统治1400年的医学权威。",
+        "explanation_en": "Through personally dissecting human bodies, Vesalius discovered over 200 errors in Galenic medicine. These errors arose because Galen never dissected human bodies, only animals like monkeys, pigs, and dogs, so his descriptions resembled animals more than humans. Vesalius's discoveries overthrew medical authority that had dominated for 1400 years."
+    },
+    
+    "additional_quizzes": [
+        {
+            "question": "维萨里的《人体的构造》与哪本书同年出版？",
+            "question_en": "What book was published the same year as Vesalius's De humani corporis fabrica?",
+            "options": [
+                "牛顿的《自然哲学的数学原理》",
+                "哥白尼的《天体运行论》",
+                "达尔文的《物种起源》",
+                "伽利略的《关于两大世界体系的对话》"
+            ],
+            "options_en": [
+                "Newton's Principia Mathematica",
+                "Copernicus's De revolutionibus",
+                "Darwin's Origin of Species",
+                "Galileo's Dialogue Concerning the Two Chief World Systems"
+            ],
+            "answer": 1,
+            "explanation": "1543年是科学史上神奇的一年。5月，哥白尼的《天体运行论》出版，推翻了托勒密的地心说；8月，维萨里的《人体的构造》出版，推翻了盖伦的解剖学。两本书共同开启了科学革命，一个改变了对宇宙的认识，一个改变了对人体的认识。",
+            "explanation_en": "1543 was a magical year in scientific history. In May, Copernicus's De revolutionibus was published, overthrowing Ptolemy's geocentrism; in August, Vesalius's De humani corporis fabrica was published, overthrowing Galen's anatomy. Together these books initiated the Scientific Revolution—one changed understanding of the universe, the other of the human body.",
+            "difficulty": "medium"
+        },
+        {
+            "question": "盖伦的解剖学错误主要是因为什么？",
+            "question_en": "What mainly caused Galen's anatomical errors?",
+            "options": [
+                "他的观察不仔细",
+                "他从未解剖过人体，只解剖过动物",
+                "他的绘画技术不好",
+                "他故意写错"
+            ],
+            "options_en": [
+                "His observations weren't careful",
+                "He never dissected human bodies, only animals",
+                "His drawing skills were poor",
+                "He deliberately wrote incorrectly"
+            ],
+            "answer": 1,
+            "explanation": "盖伦生活在古罗马时代，当时禁止解剖人体，他只能解剖猴子、猪、狗等动物。所以他描述的很多结构实际上是动物的，不是人类的。比如他说人的下颌骨是两块（猴子确实如此），肝脏有5叶（狗的肝脏），子宫有两个腔（动物如此）。维萨里发现这些都是错的。",
+            "explanation_en": "Galen lived in ancient Roman times when human dissection was forbidden—he could only dissect animals like monkeys, pigs, and dogs. So many structures he described were actually animal, not human. For example, he said human mandible is two bones (monkeys indeed so), liver has 5 lobes (dog's liver), uterus has two cavities (animals so). Vesalius found these were all wrong.",
+            "difficulty": "easy"
+        },
+        {
+            "question": "维萨里在哪所大学担任解剖学教授？",
+            "question_en": "At which university did Vesalius serve as professor of anatomy?",
+            "options": [
+                "巴黎大学",
+                "牛津大学",
+                "帕多瓦大学",
+                "波隆那大学"
+            ],
+            "options_en": [
+                "University of Paris",
+                "University of Oxford",
+                "University of Padua",
+                "University of Bologna"
+            ],
+            "answer": 2,
+            "explanation": "维萨里在1537年来到意大利的帕多瓦大学，23岁就成为解剖学教授。帕多瓦大学在威尼斯共和国的保护下，学术氛围相对开放，不太受教会干预。维萨里在这里彻底改革了解剖教学，亲自解剖，让学生近距离观察，鼓励质疑权威。",
+            "explanation_en": "Vesalius came to University of Padua in Italy in 1537, becoming professor of anatomy at age 23. Under protection of Republic of Venice, University of Padua had relatively open academic atmosphere, less Church interference. Here Vesalius completely reformed anatomical teaching—dissecting personally, letting students observe closely, encouraging questioning of authority.",
+            "difficulty": "medium"
+        },
+        {
+            "question": "维萨里最重要的贡献是什么？",
+            "question_en": "What was Vesalius's most important contribution?",
+            "options": [
+                "发现了血液循环",
+                "发明了显微镜",
+                "建立了基于观察的现代解剖学",
+                "发现了细菌"
+            ],
+            "options_en": [
+                "Discovered blood circulation",
+                "Invented microscope",
+                "Established observation-based modern anatomy",
+                "Discovered bacteria"
+            ],
+            "answer": 2,
+            "explanation": "维萨里最重要的贡献是建立了基于实际观察而非古代权威的现代解剖学。他强调必须亲自解剖，用眼睛观察，而不是盲目相信古书。他纠正了盖伦的200多处错误，用精美的插图记录发现，改革了医学教育。血液循环是哈维发现的，显微镜是列文虎克等人发明的，细菌是巴斯德等人发现的。",
+            "explanation_en": "Vesalius's most important contribution was establishing modern anatomy based on actual observation rather than ancient authority. He emphasized must dissect personally, observe with eyes, not blindly believe ancient books. He corrected over 200 errors in Galen, recorded discoveries with exquisite illustrations, reformed medical education. Blood circulation was discovered by Harvey, microscope invented by Leeuwenhoek and others, bacteria discovered by Pasteur and others.",
+            "difficulty": "easy"
+        },
+        {
+            "question": "维萨里如何去世的？",
+            "question_en": "How did Vesalius die?",
+            "options": [
+                "在解剖时感染疾病",
+                "被宗教裁判所处死",
+                "在从耶路撒冷返回途中病死",
+                "在战争中阵亡"
+            ],
+            "options_en": [
+                "Infected with disease while dissecting",
+                "Executed by Inquisition",
+                "Died of illness on return from Jerusalem",
+                "Killed in war"
+            ],
+            "answer": 2,
+            "explanation": "1564年，50岁的维萨里前往耶路撒冷朝圣（原因至今是谜）。在返回途中，他的船在希腊扎金索斯岛遇到风暴。维萨里上岸后不久就病倒了，很快去世。他被草草埋葬在岛上，墓地的确切位置已经失传。这位改变医学的伟人，竟然连一座像样的墓碑都没有。",
+            "explanation_en": "In 1564, 50-year-old Vesalius went on pilgrimage to Jerusalem (reason still mystery). On return journey, his ship encountered storm near Greek island of Zakynthos. Vesalius landed and soon fell ill, dying quickly. He was hastily buried on island, exact grave location lost. This great man who changed medicine didn't even have proper tombstone.",
+            "difficulty": "hard"
+        }
+    ],
+    
+    "practical_activities": [
+        {
+            "title": "🦴 制作人体骨骼模型",
+            "title_en": "🦴 Make Human Skeleton Model",
+            "description": "用简单材料制作可活动的骨骼模型。",
+            "description_en": "Make movable skeleton model with simple materials.",
+            "materials": ["纸板", "剪刀", "图钉或扣子", "颜料", "人体骨骼图"],
+            "materials_en": ["Cardboard", "Scissors", "Pins or fasteners", "Paint", "Human skeleton diagram"],
+            "steps": [
+                "参考骨骼图，画出主要骨骼的形状",
+                "剪下头骨、脊柱、肋骨、四肢骨等",
+                "用图钉在关节处连接，使其可以活动",
+                "涂上白色或米色",
+                "标注主要骨骼的名称",
+                "试着摆出不同姿势，理解骨骼如何支撑身体"
+            ],
+            "steps_en": [
+                "Refer to skeleton diagram, draw shapes of main bones",
+                "Cut out skull, spine, ribs, limb bones, etc.",
+                "Connect at joints with pins so they can move",
+                "Paint white or beige",
+                "Label names of main bones",
+                "Try posing differently, understand how skeleton supports body"
+            ]
+        },
+        {
+            "title": "🫀 人体器官位置图",
+            "title_en": "🫀 Human Organ Position Map",
+            "description": "制作人体器官的位置和功能图。",
+            "description_en": "Make map of human organ positions and functions.",
+            "materials": ["大张纸", "彩纸", "剪刀", "胶水", "彩笔"],
+            "materials_en": ["Large paper", "Colored paper", "Scissors", "Glue", "Colored pens"],
+            "steps": [
+                "在大纸上画出人体轮廓",
+                "用不同颜色的纸剪出各个器官：心脏、肺、胃、肝、肾等",
+                "按照正确位置贴在人体轮廓上",
+                "标注每个器官的名称",
+                "写下每个器官的主要功能",
+                "可以制作可掀开的翻页，展示器官的内部结构"
+            ],
+            "steps_en": [
+                "Draw human body outline on large paper",
+                "Cut out organs from different colored paper: heart, lungs, stomach, liver, kidneys, etc.",
+                "Paste in correct positions on body outline",
+                "Label each organ's name",
+                "Write main function of each organ",
+                "Can make flip pages to show internal organ structures"
+            ]
+        },
+        {
+            "title": "🔬 观察和记录",
+            "title_en": "🔬 Observe and Record",
+            "description": "像维萨里一样观察和记录人体特征。",
+            "description_en": "Observe and record human body features like Vesalius.",
+            "materials": ["笔记本", "铅笔", "尺子", "镜子"],
+            "materials_en": ["Notebook", "Pencil", "Ruler", "Mirror"],
+            "steps": [
+                "观察自己的手：数数有多少块骨头、关节",
+                "画下手的骨骼结构",
+                "观察手指弯曲时肌肉和肌腱的变化",
+                "测量身体各部分的比例",
+                "记录心跳、呼吸频率",
+                "像科学家一样详细记录观察结果"
+            ],
+            "steps_en": [
+                "Observe your own hand: count how many bones, joints",
+                "Draw hand's skeletal structure",
+                "Observe muscle and tendon changes when fingers bend",
+                "Measure proportions of body parts",
+                "Record heartbeat, breathing rate",
+                "Record observations in detail like scientist"
+            ]
+        },
+        {
+            "title": "🎨 医学插图创作",
+            "title_en": "🎨 Medical Illustration Creation",
+            "description": "学习维萨里，创作科学而美丽的解剖插图。",
+            "description_en": "Learn from Vesalius, create scientific yet beautiful anatomical illustrations.",
+            "materials": ["画纸", "铅笔", "彩笔", "解剖图参考"],
+            "materials_en": ["Drawing paper", "Pencil", "Colored pens", "Anatomical diagram reference"],
+            "steps": [
+                "选择一个身体部位（如手、眼睛、心脏）",
+                "参考解剖图，了解内部结构",
+                "先用铅笔画出轮廓和结构",
+                "用不同颜色区分不同组织",
+                "标注各部分名称",
+                "追求既科学准确又美观"
+            ],
+            "steps_en": [
+                "Choose body part (like hand, eye, heart)",
+                "Refer to anatomical diagrams, understand internal structure",
+                "First draw outline and structure with pencil",
+                "Use different colors to distinguish different tissues",
+                "Label parts' names",
+                "Pursue both scientific accuracy and beauty"
+            ]
+        }
+    ],
+    
+    "connections_to_other_discoveries": [
+        {
+            "title": "哈维的血液循环理论",
+            "title_en": "Harvey's Theory of Blood Circulation",
+            "description": "威廉·哈维在维萨里的基础上，发现了血液循环系统。维萨里发现心脏中隔无孔，促使哈维寻找血液循环的真正路径",
+            "description_en": "William Harvey discovered blood circulatory system building on Vesalius. Vesalius found heart septum has no holes, prompting Harvey to seek true path of blood circulation"
+        },
+        {
+            "title": "显微解剖学的发展",
+            "title_en": "Development of Microscopic Anatomy",
+            "description": "马尔皮吉等人用显微镜观察到毛细血管，将维萨里的宏观解剖学推向微观层面，完善了人体结构的认识",
+            "description_en": "Malpighi and others observed capillaries with microscope, pushing Vesalius's macroscopic anatomy to microscopic level, perfecting understanding of human body structure"
+        },
+        {
+            "title": "现代外科手术",
+            "title_en": "Modern Surgery",
+            "description": "维萨里的精确解剖学知识为现代外科手术奠定了基础。外科医生必须准确了解人体结构才能进行安全有效的手术",
+            "description_en": "Vesalius's precise anatomical knowledge laid foundation for modern surgery. Surgeons must accurately understand human body structure to perform safe and effective operations"
+        },
+        {
+            "title": "医学影像技术",
+            "title_en": "Medical Imaging Technology",
+            "description": "X光、CT、MRI等现代影像技术产生的图像，需要用维萨里建立的解剖学知识来解读和诊断",
+            "description_en": "Images produced by modern imaging technologies like X-ray, CT, MRI require anatomical knowledge Vesalius established for interpretation and diagnosis"
+        },
+        {
+            "title": "哥白尼日心说",
+            "title_en": "Copernican Heliocentrism",
+            "description": "维萨里的《人体的构造》与哥白尼的《天体运行论》同年（1543年）出版，共同开启了科学革命，一个革新了对人体的认识，一个革新了对宇宙的认识",
+            "description_en": "Vesalius's De humani corporis fabrica published same year (1543) as Copernicus's De revolutionibus, together initiating Scientific Revolution—one revolutionized understanding of human body, other of universe"
+        }
+    ],
+    
+    "multimedia_resources": [
+        {
+            "type": "video",
+            "title": "维萨里与解剖学革命",
+            "title_en": "Vesalius and the Anatomical Revolution",
+            "duration": "25:00",
+            "description": "详细讲述维萨里的生平、解剖学发现、与盖伦的对比、对现代医学的影响"
+        },
+        {
+            "type": "interactive",
+            "title": "3D人体解剖探索",
+            "title_en": "3D Human Anatomy Explorer",
+            "description": "交互式3D人体模型，可以逐层剥离皮肤、肌肉，观察骨骼、器官、血管、神经系统"
+        },
+        {
+            "type": "ar_experience",
+            "title": "AR解剖学习",
+            "title_en": "AR Anatomy Learning",
+            "description": "用AR技术在现实空间中展示人体结构，可以360度观察，点击查看详细信息"
+        },
+        {
+            "type": "documentary",
+            "title": "《人体的构造》背后的故事",
+            "title_en": "Story Behind De humani corporis fabrica",
+            "duration": "50:00",
+            "description": "探讨维萨里如何创作这部巨著，插图的艺术价值，以及它如何改变医学"
+        },
+        {
+            "type": "virtual_tour",
+            "title": "帕多瓦解剖剧场虚拟参观",
+            "title_en": "Virtual Tour of Padua Anatomical Theater",
+            "description": "360度虚拟参观世界上第一个永久性解剖剧场，了解维萨里时代的医学教育"
+        },
+        {
+            "type": "digital_book",
+            "title": "《人体的构造》数字版",
+            "title_en": "De humani corporis fabrica Digital Edition",
+            "description": "高清数字化的原版插图，可以放大查看细节，附有现代解剖学注释"
+        }
+    ],
+    
+    "discussion_questions": [
+        {
+            "question": "维萨里冒着被指控亵渎尸体的危险进行解剖，这在道德上是否正当？科学进步的代价是什么？",
+            "question_en": "Was Vesalius morally justified in risking accusations of desecrating corpses to perform dissections? What is the cost of scientific progress?",
+            "level": "ethical_thinking"
+        },
+        {
+            "question": "为什么盖伦的错误能统治医学1400年？这对我们今天有什么启示？",
+            "question_en": "Why could Galen's errors dominate medicine for 1400 years? What does this teach us today?",
+            "level": "critical_thinking"
+        },
+        {
+            "question": "维萨里强调观察优于权威，这个原则在今天的医学和科学中还适用吗？",
+            "question_en": "Vesalius emphasized observation over authority—does this principle still apply in today's medicine and science?",
+            "level": "application"
+        },
+        {
+            "question": "如果你是维萨里的学生，看到他推翻盖伦的权威，你会支持还是反对？为什么？",
+            "question_en": "If you were Vesalius's student seeing him overturn Galen's authority, would you support or oppose? Why?",
+            "level": "historical_empathy"
+        },
+        {
+            "question": "现代医学教育中，尸体解剖是否仍然必要？虚拟技术能否完全替代？",
+            "question_en": "In modern medical education, is cadaver dissection still necessary? Can virtual technology completely replace it?",
+            "level": "contemporary_relevance"
+        }
+    ],
+    
+    "influences": [
+        {
+            "title": "威廉·哈维的血液循环发现",
+            "title_en": "William Harvey's Discovery of Blood Circulation",
+            "description": "哈维在维萨里解剖学基础上，通过实验证明了血液在体内循环，心脏是泵。维萨里发现心脏中隔无孔，为哈维的发现铺平了道路"
+        },
+        {
+            "title": "现代医学教育体系",
+            "title_en": "Modern Medical Education System",
+            "description": "维萨里确立的亲自解剖、动手实践、近距离观察的教学方法，成为全球医学教育的标准。今天每所医学院都延续这一传统"
+        },
+        {
+            "title": "解剖剧场的建立",
+            "title_en": "Establishment of Anatomical Theaters",
+            "description": "受维萨里教学方法启发，欧洲各地建立了永久性解剖剧场。帕多瓦大学1594年建造的解剖剧场成为典范，至今保存完好"
+        },
+        {
+            "title": "医学插图艺术",
+            "title_en": "Art of Medical Illustration",
+            "description": "维萨里将科学与艺术完美结合的插图风格，建立了医学插图的标准，影响了所有后续解剖学教材和医学出版物"
+        },
+        {
+            "title": "外科手术的发展",
+            "title_en": "Development of Surgery",
+            "description": "精确的解剖学知识使外科手术从理发师的粗糙操作变成精密科学。现代所有外科手术都建立在维萨里解剖学基础上"
+        },
+        {
+            "title": "显微解剖学",
+            "title_en": "Microscopic Anatomy",
+            "description": "马尔皮吉、列文虎克等人用显微镜将维萨里的宏观解剖学推向微观层面，发现了细胞、毛细血管等微观结构"
+        },
+        {
+            "title": "病理解剖学",
+            "title_en": "Pathological Anatomy",
+            "description": "莫尔加尼等人在维萨里正常解剖学基础上，发展了病理解剖学，通过尸体解剖寻找疾病的器官病变"
+        },
+        {
+            "title": "法医学的建立",
+            "title_en": "Establishment of Forensic Medicine",
+            "description": "维萨里的解剖学知识为法医学奠定了基础。通过尸体解剖确定死因、识别伤害，成为司法系统的重要工具"
+        },
+        {
+            "title": "医学伦理的发展",
+            "title_en": "Development of Medical Ethics",
+            "description": "维萨里的工作引发了关于尸体使用、研究伦理的讨论，促进了现代医学伦理和生命伦理学的发展"
+        },
+        {
+            "title": "科学方法论",
+            "title_en": "Scientific Methodology",
+            "description": "维萨里确立的观察优于权威、实验验证理论的原则，成为现代科学方法的重要组成部分，影响了整个科学革命"
+        },
+        {
+            "title": "人体艺术的发展",
+            "title_en": "Development of Human Figure Art",
+            "description": "艺术家们学习维萨里的解剖学，使人体艺术更加准确和逼真。文艺复兴和后世的人体雕塑、绘画都受益于解剖学知识"
+        },
+        {
+            "title": "医学影像学",
+            "title_en": "Medical Imaging",
+            "description": "X光、CT、MRI等现代影像技术的图像解读，完全依赖维萨里建立的解剖学知识体系。放射科医生必须精通解剖学"
+        }
+    ],
+    
+    "influenced_by": [
+        {
+            "civilization": "古希腊罗马医学",
+            "contribution": "盖伦的解剖学著作虽然有错误，但提供了研究的起点和需要纠正的对象",
+            "civilization_en": "Ancient Greek-Roman Medicine",
+            "contribution_en": "Galen's anatomical works, though erroneous, provided starting point for research and object needing correction"
+        },
+        {
+            "civilization": "阿拉伯医学",
+            "contribution": "阿拉伯学者保存和翻译了古希腊医学著作，为文艺复兴时期的医学复兴提供了基础",
+            "civilization_en": "Arab Medicine",
+            "contribution_en": "Arab scholars preserved and translated ancient Greek medical works, providing foundation for Renaissance medical revival"
+        },
+        {
+            "civilization": "文艺复兴艺术",
+            "contribution": "达·芬奇等艺术家对人体解剖的研究，以及艺术与科学结合的传统，启发了维萨里的插图创作",
+            "civilization_en": "Renaissance Art",
+            "contribution_en": "Artists like Da Vinci's human anatomy research and tradition of combining art with science inspired Vesalius's illustration creation"
+        },
+        {
+            "civilization": "帕多瓦大学传统",
+            "contribution": "帕多瓦大学相对开放的学术氛围和重视实践的传统，为维萨里的革新提供了土壤",
+            "civilization_en": "University of Padua Tradition",
+            "contribution_en": "University of Padua's relatively open academic atmosphere and tradition emphasizing practice provided soil for Vesalius's innovation"
+        }
+    ],
+    
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Andreas_Vesalius_Fabrica_frontispiece.jpg/400px-Andreas_Vesalius_Fabrica_frontispiece.jpg",
+    
+    "additional_images": [
+        {
+            "url": "vesalius_muscle_man.jpg",
+            "caption": "《人体的构造》中著名的肌肉人插图",
+            "caption_en": "Famous muscle man illustration from De humani corporis fabrica"
+        },
+        {
+            "url": "vesalius_skeleton.jpg",
+            "caption": "维萨里绘制的人体骨骼图",
+            "caption_en": "Human skeleton diagram drawn by Vesalius"
+        },
+        {
+            "url": "padua_anatomical_theater.jpg",
+            "caption": "帕多瓦大学的解剖剧场",
+            "caption_en": "Anatomical theater at University of Padua"
+        },
+        {
+            "url": "vesalius_portrait.jpg",
+            "caption": "维萨里肖像",
+            "caption_en": "Portrait of Vesalius"
+        }
+    ],
+    
+    "age_appropriate_content": {
+        "ages_6_9": {
+            "explanation": "维萨里是一位勇敢的医生，他想知道人体里面是什么样的。他发现古代医学书上有很多错误，因为那些书描述的是动物，不是人。他画了很多美丽的图画，展示人体的骨骼、肌肉和器官。他的工作帮助医生更好地治病救人。",
+            "activity": "用纸板制作简单的骨骼模型，了解人体有哪些主要骨骼"
+        },
+        "ages_10_13": {
+            "explanation": "维萨里通过亲自解剖人体，发现了盖伦医学中的200多处错误。盖伦从未解剖过人体，只解剖过动物，所以他的描述不准确。维萨里在1543年出版了《人体的构造》，这本书有精美的插图，详细描述了人体各个系统。他改革了医学教育，强调必须亲自观察和实践，不能只读书。",
+            "activity": "制作人体器官位置图，学习主要器官的位置和功能；观察X光片，识别骨骼结构"
+        },
+        "ages_14_18": {
+            "explanation": "维萨里是现代解剖学的奠基人。他通过系统的人体解剖，纠正了统治医学1400年的盖伦错误，建立了基于观察而非权威的解剖学。他的《人体的构造》不仅内容革命性，插图也将科学与艺术完美结合。维萨里确立了观察优于权威、实验验证理论的科学原则，改革了医学教育，为现代医学奠定了基础。他的工作与哥白尼的日心说同年问世，共同开启了科学革命。",
+            "activity": "深入研究维萨里的解剖学发现，对比盖伦的错误；学习医学插图技巧；探讨医学伦理问题；了解现代解剖学和医学影像技术"
+        }
+    },
+    
+    "common_misconceptions": [
+        {
+            "misconception": "维萨里发现了血液循环",
+            "misconception_en": "Vesalius discovered blood circulation",
+            "correction": "血液循环是威廉·哈维在1628年发现的。维萨里的贡献是发现心脏中隔无孔，这为哈维的发现铺平了道路。维萨里建立的是解剖学基础，哈维在此基础上发现了生理学规律。",
+            "correction_en": "Blood circulation was discovered by William Harvey in 1628. Vesalius's contribution was discovering heart septum has no holes, paving way for Harvey's discovery. Vesalius established anatomical foundation; Harvey discovered physiological principles on this basis."
+        },
+        {
+            "misconception": "维萨里是第一个解剖人体的人",
+            "misconception_en": "Vesalius was first to dissect human bodies",
+            "correction": "人体解剖在古代就有，古希腊的希罗菲卢斯和埃拉西斯特拉图斯在公元前3世纪就进行过系统解剖。维萨里的贡献是系统地纠正了盖伦的错误，建立了现代解剖学的标准和方法。",
+            "correction_en": "Human dissection existed in ancient times; ancient Greeks Herophilus and Erasistratus conducted systematic dissections in 3rd century BCE. Vesalius's contribution was systematically correcting Galen's errors, establishing standards and methods of modern anatomy."
+        },
+        {
+            "misconception": "《人体的构造》的插图是维萨里自己画的",
+            "misconception_en": "Illustrations in De humani corporis fabrica were drawn by Vesalius himself",
+            "correction": "插图的作者至今不完全确定，传统认为是提香的学生绘制的。维萨里可能参与了设计和指导，但主要绘画工作可能由专业艺术家完成。不过维萨里确实亲自监督了整个出版过程。",
+            "correction_en": "Illustration authors still not completely certain; traditionally attributed to Titian's students. Vesalius may have participated in design and direction, but main drawing work likely done by professional artists. However, Vesalius did personally supervise entire publication process."
+        },
+        {
+            "misconception": "维萨里因为解剖被宗教裁判所处死",
+            "misconception_en": "Vesalius was executed by Inquisition for dissection",
+            "correction": "维萨里自然死亡，没有被处死。虽然有传说他因解剖活人而被迫朝圣，但这很可能是敌人编造的谣言。他在从耶路撒冷返回途中病死在希腊的扎金索斯岛。",
+            "correction_en": "Vesalius died naturally, wasn't executed. Though legend says he was forced to pilgrimage for dissecting living person, this was likely rumor fabricated by enemies. He died of illness on Greek island of Zakynthos while returning from Jerusalem."
+        }
+    ],
+    
+    "extension_topics": [
+        {
+            "topic": "威廉·哈维与血液循环",
+            "topic_en": "William Harvey and Blood Circulation",
+            "description": "哈维在维萨里解剖学基础上，通过实验证明了血液在体内循环，心脏是泵。这完成了维萨里未竟的事业，建立了现代生理学。",
+            "description_en": "Harvey proved through experiments that blood circulates in body and heart is pump, building on Vesalius's anatomy. This completed Vesalius's unfinished work, establishing modern physiology."
+        },
+        {
+            "topic": "显微镜下的解剖学",
+            "topic_en": "Anatomy Under Microscope",
+            "description": "马尔皮吉、列文虎克等人用显微镜观察到细胞、毛细血管等微观结构，将解剖学从宏观推向微观，开创了组织学和细胞生物学。",
+            "description_en": "Malpighi, Leeuwenhoek and others observed microscopic structures like cells and capillaries with microscope, pushing anatomy from macroscopic to microscopic, pioneering histology and cell biology."
+        },
+        {
+            "topic": "病理解剖学的发展",
+            "topic_en": "Development of Pathological Anatomy",
+            "description": "莫尔加尼等人通过尸体解剖寻找疾病的器官病变，建立了病理解剖学，使医学从症状描述进入到病因研究。",
+            "description_en": "Morgagni and others sought organ lesions of diseases through autopsy, establishing pathological anatomy, advancing medicine from symptom description to etiology research."
+        },
+        {
+            "topic": "现代医学影像技术",
+            "topic_en": "Modern Medical Imaging Technology",
+            "description": "X光、CT、MRI等技术让我们能在不解剖的情况下看到人体内部，但解读这些图像仍然需要维萨里建立的解剖学知识。",
+            "description_en": "Technologies like X-ray, CT, MRI let us see inside human body without dissection, but interpreting these images still requires anatomical knowledge Vesalius established."
+        },
+        {
+            "topic": "医学伦理与尸体使用",
+            "topic_en": "Medical Ethics and Corpse Use",
+            "description": "维萨里的工作引发了关于尸体使用、知情同意、研究伦理的讨论，这些问题在今天的医学研究和教育中仍然重要。",
+            "description_en": "Vesalius's work sparked discussions about corpse use, informed consent, research ethics—issues still important in today's medical research and education."
+        },
+        {
+            "topic": "虚拟解剖与3D技术",
+            "topic_en": "Virtual Dissection and 3D Technology",
+            "description": "现代技术提供了虚拟解剖、3D打印器官模型等新的学习方式，但真实尸体解剖仍然是医学教育不可替代的部分。",
+            "description_en": "Modern technology provides new learning methods like virtual dissection and 3D-printed organ models, but real cadaver dissection remains irreplaceable part of medical education."
+        }
+    ]
+}

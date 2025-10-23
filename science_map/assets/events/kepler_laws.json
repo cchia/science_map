@@ -1,0 +1,623 @@
+{
+  "id": "kepler_laws",
+  "title": "开普勒行星运动定律",
+  "title_en": "Kepler's Laws of Planetary Motion",
+  "year": 1609,
+  "lat": 50.0755,
+  "lng": 14.4378,
+  "city": "布拉格",
+  "city_en": "Prague",
+  "country": "波希米亚王国",
+  "country_en": "Kingdom of Bohemia",
+  "field": "天文学, 物理学",
+  "field_en": "Astronomy, Physics",
+  "description": "约翰内斯·开普勒通过分析第谷·布拉赫的观测数据，提出了行星运动三大定律。这些定律摧毁了行星必须做匀速圆周运动的古老信念，揭示了行星轨道是椭圆，完善了哥白尼的日心说，并为牛顿的万有引力奠定了数学基础",
+  "description_en": "Johannes Kepler, by analyzing Tycho Brahe's observational data, formulated three laws of planetary motion. These laws destroyed the ancient belief in uniform circular motion, revealed orbits are elliptical, perfected Copernicus's heliocentrism, and laid the mathematical foundation for Newton's law of universal gravitation",
+  
+  "story": {
+    "brief": "开普勒与\"火星\"进行了一场长达8年的\"战争\"！为了解决观测数据与圆形轨道理论之间8弧分的微小差异，他勇敢地抛弃了2000年的圆形轨道信仰，发现了行星运行的真正秘密：椭圆。",
+    
+    "detailed": "**天文学的十字路口**\n\n16世纪末，天文学陷入僵局：\n- 🌍 **托勒密地心说**：统治1400年，但过于复杂，预测不准。\n- ☀️ **哥白尼日心说**：更简单，但仍有问题。哥白尼固执地坚持\"完美\"的圆形轨道，导致其预测精度并不比托勒密高多少。\n- 🔭 **第谷·布拉赫（Tycho Brahe）**：丹麦天文学家，拥有当时最精确、最庞大的天文观测数据。他不完全接受哥白尼理论，提出了一个折中的\"第谷体系\"（地球不动，太阳绕地球，行星绕太阳）。\n\n**两个巨人的相遇**\n\n约翰内斯·开普勒（Johannes Kepler, 1571-1630）是一位才华横溢的德国数学家、虔诚的教徒，也是哥白尼日心说的坚定支持者。\n- 🌌 他深受毕达哥拉斯主义影响，相信宇宙是按照完美的数学和谐与几何规则建造的。\n- ✝️ 1600年，作为新教徒的开普勒因宗教迫害逃离奥地利，来到布拉格，成为第谷的助手。\n- 🤝 两人的关系很复杂：第谷是伟大的观测者，拥有数据；开普勒是伟大的理论家，需要数据。第谷嫉妒开普勒的才华，只给了他最棘手的问题——火星的轨道。\n\n**\"与火星的战争\"**\n\n1601年，第谷突然去世。开普勒继承了他作为\"皇家数学家\"的职位，也继承了第谷毕生的观测数据。\n\n开普勒开始了长达8年的\"与火星的战争\"：\n- 🎯 **挑战**：火星的轨道非常偏离圆形，是检验理论的最佳对象。\n- 🔄 **失败的尝试**：开普勒尝试了无数种圆形轨道、偏心圆和卵形轨道。他花了数年时间进行繁琐的计算（当时没有计算器）。\n- 😲 **8弧分的危机**：他最终得到的最佳圆形模型，与第谷的观测数据仍然存在8弧分（1弧分 = 1/60度）的微小差异。\n- 💭 **抉择**：开普勒写道：\"这8弧分是如此微小，但第谷的数据是如此精确，我不能忽视它。这8弧分指明了通往天文学全新改革的道路。\"\n\n**革命性的发现：两大定律（1609）**\n\n开普勒勇敢地抛弃了自古希腊以来统治2000年的\"完美圆形\"信仰。\n\n1. 🥚 **第一定律（椭圆定律）**\n   - 他尝试了椭圆轨道。\n   - 奇迹发生了：数据完美契合！\n   - **定律内容：所有行星都沿椭圆轨道绕太阳运行，太阳位于椭圆的两个焦点之一上。**\n   - 这意味着行星与太阳的距离是不断变化的。\n\n2. 🧹 **第二定律（面积定律）**\n   - 为了解释椭圆轨道，他必须解决行星的速度问题。\n   - 他发现行星的速度不是恒定的。\n   - **定律内容：行星与太阳的连线在相等的时间内扫过相等的面积。**\n   - 这意味着：行星离太阳越近（近日点），运动速度越快；离太阳越远（远日点），运动速度越慢。\n\n1609年，开普勒在他的著作《新天文学》（Astronomia nova）中发表了这两大定律。这本书标志着古代天文学的终结和现代天文学的开始。\n\n**寻找宇宙的和谐：第三定律（1619）**\n\n开普勒仍然不满足。他相信上帝的\"宇宙和谐\"。他想知道：不同行星的轨道之间有什么数学关系？\n\n他又花了10年时间，在宗教战争的动荡中（他的母亲甚至被指控为女巫，他花了很大精力去营救）不断计算。\n\n1618年，他终于找到了这个神奇的比例：\n\n3. 🎶 **第三定律（周期定律或和谐定律）**\n   - **定律内容：行星公转周期的平方 ($T^2$) 与其轨道半长轴的立方 ($a^3$) 成正比。** \n   - 这意味着：离太阳越远的行星，公转一周所需的时间越长，而且这种关系是精确的数学比例。\n\n这个定律发表于1619年的《世界的和谐》（Harmonices Mundi）中。开普勒欣喜若狂，他写道：\"我发现了它......我书中的骰子已经掷出，它将被后人阅读，我不在乎是现在还是将来——就算等上一百年也无妨，既然上帝为他的观察者等待了六千年。\"\n\n**开普勒的遗产**\n\n开普勒提供了行星运动的精确\"运动学\"（描述它们如何运动），为50年后牛顿发现万有引力、建立\"动力学\"（解释它们为什么这样运动）铺平了道路。牛顿证明，他的万有引力定律可以从数学上完美推导出开普勒的三大定律。",
+    
+    "historical_context": "**第谷的数据**\n\n开普勒的成功离不开第谷·布拉赫。第谷在没有望远镜的情况下（望远镜在1608年才发明），用肉眼和巨大的定制仪器，将天文观测的精度提高到了1-2弧分，比前人精确几十倍。没有这些数据，开普勒永远无法发现那\"8弧分的差异\"。\n\n**宗教与神秘主义**\n\n开普勒是一位虔诚的路德派教徒，但他深受新柏拉图主义和毕达哥拉斯主义的影响。\n- 🌌 **神秘主义**：他的早期著作《宇宙的奥秘》（1596）试图将五个已知的行星轨道（水、金、火、木、土星）与五个\"柏拉图立体\"（正四、六、八、十二、二十面体）嵌套起来。这个理论是完全错误的，但正是这种对数学和谐的痴迷，驱使他毕生寻找宇宙的规律。\n- ⚔️ **宗教战争**：开普勒生活在欧洲\"三十年战争\"（1618-1648）的动荡时期。他因新教信仰不断被迫迁徙。他的母亲在1615年被指控为女巫，开普勒花了6年时间为她辩护，最终使她获释。这些动荡严重干扰了他的工作，但也磨练了他的意志。\n\n**伽利略的时代**\n\n开普勒与伽利略是同时代的人，并且是朋友（尽管主要是通过书信）。\n- 🔭 1610年，伽利略用望远镜发现了木星的卫星。\n- 🤝 开普勒是当时欧洲极少数公开支持伽利略新发现的著名天文学家之一。他立即发表文章支持伽利略，并改进了望远镜的设计（开普勒式望远镜）。",
+    
+    "mystery_box": "🔍 **未解之谜**\n\n1. **第谷的死因**\n   第谷在1601年突然去世。传说他是因为在宴会上憋尿导致膀胱破裂。但2010年对他的遗骸进行检测，发现汞含量很高。他是被谋杀的（有人怀疑是开普勒，但这极不可能），还是自己服用了含汞的药物？至今仍有争议。\n\n2. **神秘主义的利与弊**\n   开普勒对\"宇宙和谐\"和\"上帝几何\"的神秘主义信仰，究竟是推动了他还是阻碍了他？一方面，这种信仰让他坚持不懈；另一方面，也让他花了大量时间在错误的道路上（如柏拉图立体）。\n\n3. **第一和第二定律的顺序**\n   尽管被称为第一和第二定律，但历史研究表明，开普勒在研究火星轨道时，是交替使用这两个定律（或其早期版本）的。他很可能是先有了面积定律的雏形，然后用它来确定了椭圆定律。\n\n4. **他如何看待伽利略的物理学？**\n   开普勒试图为他的天文学寻找物理学解释（他认为是太阳的\"磁力\"在推动行星），而伽利略在研究地面上的运动（落体、惯性）。两人几乎没有在物理学上进行合作，如果他们联手，科学革命会进展更快吗？",
+    
+    "timeline": [
+      {
+        "year": "1571年",
+        "event": "12月27日出生于神圣罗马帝国（今德国）"
+      },
+      {
+        "year": "1596年",
+        "event": "出版《宇宙的奥秘》，试图用柏拉图立体解释行星轨道"
+      },
+      {
+        "year": "1600年",
+        "event": "在布拉格成为第谷·布拉赫的助手"
+      },
+      {
+        "year": "1601年",
+        "event": "第谷去世，开普勒成为神圣罗马帝国皇帝鲁道夫二世的皇家数学家"
+      },
+      {
+        "year": "1604年",
+        "event": "观测到一颗超新星（后被称为开普勒超新星）"
+      },
+      {
+        "year": "1609年",
+        "event": "出版《新天文学》，提出开普勒第一和第二定律"
+      },
+      {
+        "year": "1610年",
+        "event": "公开支持伽利略的望远镜发现"
+      },
+      {
+        "year": "1615年",
+        "event": "他的母亲被指控为女巫，开始长达6年的营救"
+      },
+      {
+        "year": "1619年",
+        "event": "出版《世界的和谐》，提出开普勒第三定律"
+      },
+      {
+        "year": "1630年",
+        "event": "11月15日在雷根斯堡去世"
+      }
+    ]
+  },
+  
+  "story_en": {
+    "brief": "Kepler waged an 8-year 'war' with Mars! To resolve a tiny 8-arcminute discrepancy between observation data and circular orbit theory, he bravely abandoned the 2000-year-old belief in circles and discovered the true secret of planetary motion: the ellipse.",
+    
+    "detailed": "**Astronomy at a Crossroads**\n\nAt the end of the 16th century, astronomy was deadlocked:\n- 🌍 **Ptolemaic Geocentrism**: Dominated for 1400 years, but overly complex and inaccurate.\n- ☀️ **Copernican Heliocentrism**: Simpler, but still flawed. Copernicus clung to 'perfect' circular orbits, making his predictions not much better than Ptolemy's.\n- 🔭 **Tycho Brahe**: A Danish astronomer with the most precise and vast collection of observational data in the world. He proposed a hybrid 'Tychonic system' (Earth is still, Sun orbits Earth, planets orbit Sun).\n\n**The Meeting of Two Giants**\n\nJohannes Kepler (1571-1630) was a brilliant German mathematician, a mystical believer, and a staunch supporter of Copernicus.\n- 🌌 He believed the universe was built on perfect mathematical harmony and geometry.\n- ✝️ In 1600, fleeing religious persecution, Kepler (a Protestant) arrived in Prague to become Tycho's assistant.\n- 🤝 Their relationship was complex: Tycho, the great observer, had the data; Kepler, the great theorist, needed it. Tycho, protective of his data, assigned Kepler the most difficult problem: the orbit of Mars.\n\n**'The War with Mars'**\n\nIn 1601, Tycho died suddenly. Kepler inherited his post as Imperial Mathematician and, crucially, all of Tycho's data.\n\nKepler began an 8-year 'war with Mars':\n- 🎯 **The Challenge**: Mars's orbit is highly non-circular, making it the perfect test case.\n- 🔄 **Failed Attempts**: Kepler tried countless circular, eccentric, and egg-shaped (ovoid) orbits. He spent years on tedious calculations (no calculators!).\n- 😲 **The 8-Arcminute Crisis**: His best circular model finally differed from Tycho's observations by a mere 8 arcminutes (1/60th of a degree).\n- 💭 **The Decision**: Kepler wrote: 'These 8 arcminutes were so small, but Tycho's data was so precise, I could not ignore them. These 8 arcminutes pointed the way to a complete reformation of astronomy.'\n\n**The Revolutionary Discoveries: Two Laws (1609)**\n\nKepler bravely abandoned the 2000-year-old dogma of 'perfect circles' held since the ancient Greeks.\n\n1. 🥚 **First Law (Law of Ellipses)**\n   - He tried an ellipse.\n   - It worked. The data fit perfectly.\n   - **The Law: All planets move in elliptical orbits, with the Sun at one of the two foci.**\n   - This meant the planet's distance from the Sun is constantly changing.\n\n2. 🧹 **Second Law (Law of Areas)**\n   - To explain the ellipse, he had to solve the planet's speed.\n   - He found the speed is not constant.\n   - **The Law: A line joining a planet and the Sun sweeps out equal areas in equal intervals of time.**\n   - This means: The planet moves *faster* when it is closer to the Sun (perihelion) and *slower* when it is farther away (aphelion).\n\nIn 1609, Kepler published these two laws in his book *Astronomia nova* (New Astronomy). This book marked the end of ancient astronomy and the beginning of modern astronomy.\n\n**The Search for Harmony: The Third Law (1619)**\n\nKepler was still not satisfied. He craved 'cosmic harmony'. He wanted a mathematical rule linking *all* the planets.\n\nHe spent another 10 years calculating, amidst the turmoil of religious wars (his mother was even accused of witchcraft, and he spent years saving her).\n\nIn 1618, he finally found the magic ratio:\n\n3. 🎶 **Third Law (Law of Periods or Harmonic Law)**\n   - **The Law: The square of the orbital period of a planet ($T^2$) is directly proportional to the cube of the semi-major axis of its orbit ($a^3$).** \n   - This means: The farther a planet is from the Sun, the longer its 'year' is, and this relationship is a precise mathematical ratio.\n\nHe published this in 1619 in *Harmonices Mundi* (The Harmony of the World). Kepler was ecstatic: 'I have found it... The die is cast, and I am writing a book to be read either now or by posterity, it matters not which. It may well wait a century for a reader, as God has waited six thousand years for an observer.'\n\n**Kepler's Legacy**\n\nKepler provided the precise *kinematics* (how planets move), paving the way for Newton, 50 years later, to establish the *dynamics* (why they move) with his law of universal gravitation. Newton famously proved that his law of gravity mathematically derives all three of Kepler's laws.",
+    
+    "historical_context": "**Tycho's Data**\n\nKepler's success was impossible without Tycho Brahe. With no telescope (invented 1608), Tycho used his naked eye and massive, custom-built instruments to improve observation accuracy to 1-2 arcminutes, dozens of times better than anyone before. Without this data, Kepler could never have identified that '8-arcminute discrepancy'.\n\n**Religion and Mysticism**\n\nKepler was a devout Lutheran, but he was also deeply influenced by neo-Platonism and Pythagoreanism.\n- 🌌 **Mysticism**: His first major work, *Mysterium Cosmographicum* (1596), tried to nest the five 'Platonic solids' between the orbits of the six known planets. The theory was completely wrong, but this obsession with mathematical harmony drove him his entire life.\n- ⚔️ **Religious Wars**: Kepler lived during the 'Thirty Years' War' (1618-1648) in Europe. He was constantly forced to move due to his Protestant faith. His mother was accused of witchcraft in 1615, and he spent 6 years defending her, finally securing her release. This turmoil severely disrupted his work but steeled his resolve.\n\n**The Age of Galileo**\n\nKepler was a contemporary and correspondent of Galileo.\n- 🔭 In 1610, Galileo published his telescopic discoveries (moons of Jupiter, etc.).\n- 🤝 Kepler was one of the very few prominent astronomers in Europe to publicly and enthusiastically support Galileo's findings. He immediately published his own treatise supporting Galileo and even improved the telescope's design (the Keplerian telescope).",
+    
+    "mystery_box": "🔍 **Unsolved Mysteries**\n\n1. **Tycho's Cause of Death**\n   Tycho died suddenly in 1601. Legend says he died of a burst bladder from holding his urine at a banquet. But tests on his remains in 2010 showed high levels of mercury. Was he murdered (some suspected Kepler, though this is highly unlikely), or did he poison himself with mercury-based medicine?\n\n2. **Mysticism: Help or Hindrance?**\n   Did Kepler's mystical belief in 'cosmic harmony' and 'God the Geometer' help or hinder him? On one hand, it gave him relentless motivation. On the other, it led him down many dead-end paths (like the Platonic solids).\n\n3. **The Order of Laws 1 & 2**\n   Although numbered 1 and 2, historical analysis shows Kepler used them (or early versions of them) interchangeably while working on Mars. He likely developed the 'Area Law' *before* he finalized the 'Ellipse Law'.\n\n4. **What if Kepler and Galileo Had Teamed Up?**\n   Kepler was searching for a *physical cause* for his astronomy (he guessed 'magnetism' from the Sun). Galileo was building a new physics of motion on Earth (inertia, falling bodies). They barely collaborated on physics. If they had, would the Scientific Revolution have moved even faster?",
+    
+    "timeline": [
+      {
+        "year": "1571",
+        "event": "Born December 27 in the Holy Roman Empire (now Germany)"
+      },
+      {
+        "year": "1596",
+        "event": "Publishes *Mysterium Cosmographicum*, attempting to explain orbits with Platonic solids"
+      },
+      {
+        "year": "1600",
+        "event": "Becomes assistant to Tycho Brahe in Prague"
+      },
+      {
+        "year": "1601",
+        "event": "Tycho dies. Kepler appointed Imperial Mathematician to Emperor Rudolf II"
+      },
+      {
+        "year": "1604",
+        "event": "Observes a supernova (later named Kepler's Supernova)"
+      },
+      {
+        "year": "1609",
+        "event": "Publishes *Astronomia nova*, containing Kepler's First and Second Laws"
+      },
+      {
+        "year": "1610",
+        "event": "Publicly supports Galileo's telescopic discoveries"
+      },
+      {
+        "year": "1615",
+        "event": "His mother is accused of witchcraft, beginning a 6-year legal battle"
+      },
+      {
+        "year": "1619",
+        "event": "Publishes *Harmonices Mundi*, containing Kepler's Third Law"
+      },
+      {
+        "year": "1630",
+        "event": "Dies November 15 in Regensburg"
+      }
+    ]
+  },
+  
+  "fun_fact": {
+    "brief": "开普勒不仅是天文学家，还是最早的科幻小说作家之一！他写了一本名为《梦》（Somnium）的书，描述了一次去月球的旅行，甚至科学地想象了月球上的环境。",
+    
+    "extended": [
+      {
+        "title": "👻 拯救女巫母亲",
+        "content": "开普勒的晚年非常不幸。他的母亲在1615年被指控为女巫。开普勒不得不放下他的天文学工作，花了6年时间，亲自担任辩护律师，撰写了128页的辩护状，最终在1621年将母亲从酷刑和火刑柱上救了出来。"
+      },
+      {
+        "title": "🧱 错误的开始，伟大的结局",
+        "content": "开普勒的第一次伟大尝试是《宇宙的奥秘》，他试图将五种正多面体（如立方体、四面体）像俄罗斯套娃一样嵌套在六个行星轨道之间。这个理论是完全错误的，但他对这个\"和谐\"模型的计算，使他声名鹊起，并最终引起了第谷的注意。"
+      },
+      {
+        "title": "🎶 寻找\"天体音乐\"",
+        "content": "开普勒是在寻找\"天体的音乐\"时发现了第三定律。他真的相信每个行星在运动时都会\"唱\"出一个音符，行星的角速度对应着音高。他甚至为每个行星\"谱写\"了旋律！第三定律就是这种和谐的数学表达。"
+      },
+      {
+        "title": "👀 视力不佳的天文学家",
+        "content": "讽刺的是，这位依赖精确观测数据的天文学家，自己的视力却很差。他幼年时得了天花，导致视力受损，双手也有些残疾。这使他无法成为像第谷那样的观测者，反而迫使他成为更伟大的数学和理论家。"
+      },
+      {
+        "title": "🤝 支持伽利略",
+        "content": "1610年，当伽利略宣布他用望远镜发现了木星的卫星时，大多数学者都嘲笑他。伽利略给开普勒寄了一台望远镜，开普勒是当时欧洲第一个公开支持伽利略的\"大牌\"科学家，他的支持对伽利略至关重要。"
+      }
+    ]
+  },
+  
+  "fun_fact_en": {
+    "brief": "Kepler wasn't just an astronomer, he was one of the first science fiction authors! He wrote a book called *Somnium* (The Dream), which described a trip to the Moon and even scientifically imagined the lunar environment.",
+    
+    "extended": [
+      {
+        "title": "👻 Saving His 'Witch' Mother",
+        "content": "Kepler's later life was tragic. His mother was accused of witchcraft in 1615. Kepler had to drop his astronomical work and spend 6 years acting as her defense lawyer, writing a 128-page legal brief, and finally rescuing her from torture and the stake in 1621."
+      },
+      {
+        "title": "🧱 Wrong Beginning, Great End",
+        "content": "Kepler's first great attempt, *Mysterium Cosmographicum*, tried to nest the 5 Platonic solids (like cubes, tetrahedrons) between the 6 planetary orbits like Russian dolls. The theory was completely wrong, but his calculations for this 'harmonious' model made him famous and brought him to Tycho Brahe's attention."
+      },
+      {
+        "title": "🎶 Searching for 'Music of the Spheres'",
+        "content": "Kepler found his Third Law while literally searching for the 'music of the spheres'. He truly believed each planet 'sings' a musical note as it moves, with its angular velocity corresponding to a pitch. He even wrote out the 'melodies' for each planet! The Third Law was the mathematical expression of this harmony."
+      },
+      {
+        "title": "👀 The Astronomer with Bad Eyesight",
+        "content": "Ironically, the astronomer who depended on hyper-accurate data had terrible vision. A childhood bout with smallpox left him with crippled hands and weak eyesight. This prevented him from being an observer like Tycho, forcing him instead to become an even greater mathematician and theorist."
+      },
+      {
+        "title": "🤝 Championing Galileo",
+        "content": "When Galileo announced his telescopic discovery of Jupiter's moons in 1610, most scholars mocked him. Galileo sent Kepler a telescope, and Kepler was the first 'big-name' scientist in Europe to publicly and enthusiastically support him, which was crucial for Galileo's credibility."
+      }
+    ]
+  },
+  
+  "impact": {
+    "brief": "开普勒定律将哥白尼的日心说从一个哲学猜想转变为一门精确的、可预测的科学。它们是现代天文学的基石，也是牛顿发现万有引力的直接线索。我们今天发射的所有卫星和行星探测器，都必须遵循开普勒的轨道规则。",
+    
+    "detailed": "**天文学的革命**\n\n1. **完善哥白尼体系**：开普勒的椭圆轨道解决了哥白尼日心说中\"圆形轨道\"导致的所有预测偏差。他使日心说在数学上和预测上都真正超越了地心说。\n\n2. **摧毁古代教条**：开普勒摧毁了两个统治西方思想2000年的教条：\n   - **完美圆形**：自柏拉图以来，天体必须做\"完美\"的圆周运动。开普勒证明了宇宙使用的是\"不完美\"的椭圆。\n   - **匀速运动**：开普勒第二定律证明了行星运动速度是不均匀的，打破了\"神圣\"的匀速神话。\n\n3. **天文学的物理化**：开普勒是第一个试图为天体运动寻找\"物理学原因\"的人（他猜想是来自太阳的磁力）。他将天文学从纯粹的几何描述转变为\"天体物理学\"的开端。\n\n**为牛顿铺路**\n\n- **提供了\"如何运动\"**：开普勒的三大定律是精确的\"运动学\"描述。它们是牛顿的\"原材料\"。\n- **万有引力的关键**：牛顿的伟大成就是证明了他的\"平方反比\"引力定律，可以从数学上完美地推导出开普勒的所有三条定律。\n- **统一天地**：开普勒定律表明，天上的行星遵循着与地面物体同样严谨的数学法则，这为牛顿统一\"天上的\"和\"地上的\"物理学提供了关键证据。\n\n**对现代科学的贡献**\n\n- **轨道力学之父**：开普勒定律是所有轨道力学的基础。\n- **强调实证**：他\"尊重数据\"（第谷的8弧分），即使这违背了他自己最深的信仰（完美圆形），这是现代科学精神的典范。\n",
+    
+    "modern_examples": [
+      {
+        "field": "卫星发射",
+        "example": "GPS卫星、国际空间站和电视转播卫星的轨道，都是用开普勒定律（特别是第三定律）精确计算的。工程师用它来确定将卫星送到特定高度所需的能量和速度。"
+      },
+      {
+        "field": "行星际探测",
+        "example": "当NASA发射\"旅行者号\"探测器飞越木星和土星时，它的飞行路径是基于开普勒定律计算的一系列椭圆轨道（称为\"霍曼转移轨道\"）。"
+      },
+      {
+        "field": "系外行星研究",
+        "example": "天文学家发现新的系外行星时，他们通过观测行星的公转周期（$T$），利用开普勒第三定律，就可以计算出它与其恒星的距离（$a$），从而判断它是否位于\"宜居带\"。"
+      },
+      {
+        "field": "彗星预测",
+        "example": "哈雷彗星的轨道是一个高度拉长的椭圆。天文学家使用开普勒第二定律来解释为什么它在靠近太阳时（近日点）速度极快，而在远离太阳时（远日点）则慢得多。"
+      }
+    ]
+  },
+  
+  "impact_en": {
+    "brief": "Kepler's laws turned Copernicus's heliocentrism from a philosophical guess into a precise, predictive science. They are the bedrock of modern astronomy and the direct clues that led Newton to discover gravity. Every satellite and space probe we launch today must follow Kepler's rules.",
+    
+    "detailed": "**A Revolution in Astronomy**\n\n1. **Perfecting Copernicus**: Kepler's ellipses solved all the predictive errors in Copernicus's model caused by circular orbits. He made heliocentrism truly superior to geocentrism, mathematically and predictively.\n\n2. **Destroying Ancient Dogma**: Kepler shattered two core beliefs that had dominated Western thought for 2000 years:\n   - **Perfect Circles**: The dogma since Plato that celestial bodies must move in 'perfect' circles. Kepler proved the universe uses 'imperfect' ellipses.\n   - **Uniform Speed**: The Second Law proved planetary motion is non-uniform, breaking the 'divine' myth of constant speed.\n\n3. **The 'Physicizing' of Astronomy**: Kepler was the first to search for a *physical cause* (which he guessed was magnetism from the Sun) for celestial motion. He began the shift from astronomy as pure geometry to the beginning of 'astrophysics'.\n\n**Paving the Way for Newton**\n\n- **Provided the 'How'**: Kepler's three laws were the precise *kinematic* descriptions. They were Newton's raw material.\n- **The Key to Gravity**: Newton's great achievement was proving that his *inverse-square law of gravity* could mathematically derive all three of Kepler's laws perfectly.\n- **Unifying Heaven and Earth**: Kepler's laws showed that the planets in the heavens obeyed the same rigorous mathematical rules as objects on Earth, providing key evidence for Newton's unification of celestial and terrestrial physics.\n\n**Contributions to Modern Science**\n\n- **Father of Orbital Mechanics**: Kepler's laws are the foundation of all orbital mechanics.\n- **Primacy of Data**: His 'respect for the data' (Tycho's 8 arcminutes), even when it violated his own deepest beliefs (perfect circles), is a model of the modern scientific spirit.",
+    
+    "modern_examples": [
+      {
+        "field": "Satellite Launches",
+        "example": "The orbits of GPS, the ISS, and TV satellites are all calculated using Kepler's laws (especially the Third Law). Engineers use it to determine the energy and speed needed to place a satellite at a specific altitude."
+      },
+      {
+        "field": "Interplanetary Probes",
+        "example": "When NASA sends a probe like *Voyager* to fly past Jupiter and Saturn, its trajectory is a series of elliptical orbits (called 'Hohmann transfer orbits') calculated using Kepler's laws."
+      },
+      {
+        "field": "Exoplanet Research",
+        "example": "When astronomers discover a new exoplanet, they observe its orbital period ($T$) and use Kepler's Third Law to calculate its distance ($a$) from its star, which determines if it's in the 'habitable zone'."
+      },
+      {
+        "field": "Predicting Comets",
+        "example": "The orbit of Halley's Comet is a highly elongated ellipse. Astronomers use Kepler's Second Law to explain why it moves incredibly fast when near the Sun (perihelion) and very slowly when far away (aphelion)."
+      }
+    ]
+  },
+  
+  "kid_friendly_explanation": {
+    "simple": "开普勒发现了行星在天上\"跑步\"的三个大秘密：\n1. 它们的\"跑道\"不是正圆形，而是\"椭圆形\"（像一个被压扁的圆圈）。\n2. 它们跑步的速度不一样：靠近太阳时跑得快，跑远了就慢下来。\n3. 跑道越大的行星（离太阳越远），跑一圈花的时间越长。",
+    
+    "detailed": "想象一下，太阳系是一个巨大的操场，行星们都在绕着太阳跑步。\n\n在开普勒之前，大家都以为跑道是\"完美的圆形\"。但一个叫开普勒的聪明人发现，这个想法是错的！\n\n他发现了3个新规则：\n\n**规则1：椭圆跑道（第一定律）**\n- 行星的跑道不是正圆形，而是**椭圆**！\n- 太阳也不在椭圆的正中间，而是在一个叫做\"焦点\"的偏心位置。\n- 就像你玩\"两人三足\"，你和太阳被绑在了一起，你只能绕着他跑椭圆。\n\n**规则2：变速跑（第二定律）**\n- 行星跑步的速度不是一直不变的。\n- 想象一下，你被一根橡皮筋拴在太阳上。\n- \n- 当你靠近太阳时，橡皮筋\"拉\"你，你跑得飞快！\n- 当你跑远时，你跑得慢悠悠。\n- （科学的说法是：行星和太阳的连线，在相同时间扫过的\"面积\"是一样大的。近处的\"胖三角形\"面积 = 远处的\"瘦三角形\"面积）\n\n**规则3：大圈跑得慢（第三定律）**\n- 这是一个很酷的规律：行星的跑道越大（离太阳越远），它跑完一圈所花的时间就越长。\n- \n- 💧 水星：离太阳最近，跑道最小，跑一圈只要88天。\n- 🌍 地球：我们的跑道，跑一圈要365天（一年）。\n- 🥶 海王星：离太阳最远，跑道超级大，它跑一圈要花165个地球年！\n\n**开普勒是怎么发现的？**\n\n他有一个好朋友（第谷）留给他的\"日记\"，上面记满了星星的位置。开普勒花了8年时间研究火星的\"日记\"，他发现火星的记录和\"圆形跑道\"对不上，只差了一点点。但开普勒非常较真，他决定扔掉\"圆形\"的想法，这才发现了\"椭圆\"这个大秘密！",
+    
+    "interactive_challenge": "🎮 动手试试：\n\n**活动1：画一个椭圆**\n1. 在一块纸板上钉两个图钉（这就是两个\"焦点\"）。\n2. 取一根绳子，打个圈，套在两个图钉上。\n3. 用一支铅笔把绳圈绷紧，然后绕着两个图钉画一圈。\n4. 恭喜你！你画出了一个完美的椭圆！行星就是这样运动的，太阳就在其中一个图钉的位置。\n\n**活动2：模拟第二定律**\n1. 在你画的椭圆轨道上，靠近太阳（一个图钉）的地方标出一段距离A。\n2. 在远离太阳的地方标出一段距离B。\n3. 你会发现，如果A和B代表行星跑1秒钟的路程，那么A一定比B长很多！这就是\"近快远慢\"。",
+    
+    "deeper_thinking": "🤔 思考题：\n\n1. 按照开普勒第二定律，地球在一年中的什么时候运动得最快？（提示：冬天还是夏天？）\n2. 如果我们在火星和木星之间发现一颗新行星，它的\"一年\"会比地球长还是短？\n3. 为什么开普勒坚持那\"8弧分\"的微小差异很重要？"
+  },
+  
+  "kid_friendly_explanation_en": {
+    "simple": "Kepler found 3 big secrets about how planets 'run' in the sky:\n1. Their 'racetrack' isn't a perfect circle, it's an 'ellipse' (like a squished circle).\n2. They don't run at the same speed: they run *fast* when they are close to the Sun, and *slow* when they are far away.\n3. The bigger the racetrack (the farther from the Sun), the longer it takes to run one lap.",
+    
+    "detailed": "Imagine the solar system is a giant playground, and the planets are all running laps around the Sun.\n\nBefore Kepler, everyone thought the racetrack was a 'perfect circle'. But a smart man named Kepler discovered this was wrong!\n\nHe found 3 new rules:\n\n**Rule 1: The Oval Track (First Law)**\n- The planet's path is not a circle, it's an **ellipse**!\n- The Sun isn't in the very center. It's off to the side, at a spot called a 'focus'.\n- It's like you're tied to the Sun with a rope, but the rope anchor isn't in the middle, so you run in an oval.\n\n**Rule 2: The Speed-Up (Second Law)**\n- The planets don't run at a steady speed.\n- Imagine you're attached to the Sun by a giant rubber band.\n- \n- When you get close to the Sun, the band pulls you, and you run SUPER FAST!\n- When you are far away, you move slower.\n- (The science way to say this is: a line connecting the Sun and planet sweeps out 'equal areas' in 'equal time'. A short, fat triangle area near the Sun = a long, skinny triangle area far away.)\n\n**Rule 3: Big Laps are Slow Laps (Third Law)**\n- This is a cool pattern: The bigger a planet's racetrack (the farther it is from the Sun), the longer it takes to finish one lap (its 'year').\n- \n- 💧 Mercury: Closest to the Sun, tiny track. One lap takes only 88 days.\n- 🌍 Earth: Our track. One lap takes 365 days (one year).\n- 🥶 Neptune: Farthest from the Sun, giant track. One lap takes 165 *Earth years*!\n\n**How Did Kepler Find This?**\n\nHe had a friend's (Tycho's) 'diary' full of notes on where the stars were. Kepler studied the 'diary' for Mars for 8 years! He found the notes for Mars didn't match the 'circle' idea... they were off by just a tiny bit. But Kepler was a perfectionist. He decided to throw out the 'circle' idea, and that's how he found the 'ellipse' secret!",
+    
+    "interactive_challenge": "🎮 Try This:\n\n**Activity 1: Draw an Ellipse**\n1. Get a piece of cardboard and stick two thumbtacks in it (these are the 'foci').\n2. Take a loop of string and put it around both tacks.\n3. Take a pencil, pull the string tight, and draw a line all the way around the tacks.\n4. Congratulations! You drew a perfect ellipse! Planets move like this, and the Sun is at one of the tacks.\n\n**Activity 2: Simulate the Second Law**\n1. On your ellipse, mark a distance 'A' near the Sun (one tack).\n2. Mark a distance 'B' far from the Sun.\n3. You'll see that if A and B are how far the planet goes in '1 second', A has to be much longer than B! That's 'fast when close, slow when far'.",
+    
+    "deeper_thinking": "🤔 Think About:\n\n1. According to Kepler's Second Law, when is the Earth moving fastest during its year? (Hint: in Winter or Summer in the Northern Hemisphere?)\n2. If we found a new planet between Mars and Jupiter, would its 'year' be longer or shorter than Earth's?\n3. Why was it so important that Kepler refused to ignore that 'tiny tiny' error of 8 arcminutes?"
+  },
+  
+  "related_concepts": [
+    "椭圆轨道",
+    "日心说",
+    "第谷·布拉赫",
+    "万有引力",
+    "轨道力学",
+    "新天文学",
+    "世界的和谐",
+    "科学革命"
+  ],
+  
+  "related_concepts_en": [
+    "Elliptical Orbits",
+    "Heliocentrism",
+    "Tycho Brahe",
+    "Universal Gravitation",
+    "Orbital Mechanics",
+    "Astronomia nova",
+    "Harmonices Mundi",
+    "Scientific Revolution"
+  ],
+  
+  "quiz": {
+    "question": "开普勒第一定律的主要内容是什么？",
+    "question_en": "What is the main point of Kepler's First Law?",
+    "options": [
+      "行星都做匀速圆周运动",
+      "行星的轨道是椭圆，太阳位于椭圆中心",
+      "行星的轨道是椭圆，太阳位于椭圆的一个焦点上",
+      "行星离太阳越近，速度越快"
+    ],
+    "options_en": [
+      "Planets move in uniform circles",
+      "Planets move in ellipses, with the Sun at the center",
+      "Planets move in ellipses, with the Sun at one focus",
+      "Planets move faster when closer to the Sun"
+    ],
+    "answer": 2,
+    "explanation": "开普勒第一定律（椭圆定律）摧毁了\"完美圆形\"的古老信仰，指出轨道是椭圆。更关键的是，太阳不在中心，而是在两个焦点之一上。\"近快远慢\"是第二定律的内容。",
+    "explanation_en": "Kepler's First Law (Law of Ellipses) destroyed the ancient belief in 'perfect circles', stating orbits are elliptical. Crucially, the Sun is not at the center, but at one of the two foci. 'Faster when closer' is the content of the Second Law."
+  },
+  
+  "additional_quizzes": [
+    {
+      "question": "开普勒是分析了谁的观测数据才得出了他的定律？",
+      "question_en": "Whose observational data did Kepler analyze to find his laws?",
+      "options": [
+        "哥白尼 (Copernicus)",
+        "伽利略 (Galileo)",
+        "第谷·布拉赫 (Tycho Brahe)",
+        "托勒密 (Ptolemy)"
+      ],
+      "options_en": [
+        "Copernicus",
+        "Galileo",
+        "Tycho Brahe",
+        "Ptolemy"
+      ],
+      "answer": 2,
+      "explanation": "开普勒的理论成就建立在第谷·布拉赫的观测数据之上。第谷的数据是当时最精确的，这使得开普勒能够发现那\"8弧分\"的微小差异，从而抛弃圆形轨道。",
+      "explanation_en": "Kepler's theoretical achievement was built on the observational data of Tycho Brahe. Tycho's data was the most precise of its time, which allowed Kepler to spot the '8-arcminute' discrepancy that led him to abandon circles.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "开普勒第二定律（面积定律）说明了行星运动的什么特性？",
+      "question_en": "What property of planetary motion does Kepler's Second Law (Law of Areas) describe?",
+      "options": [
+        "行星的运动速度是恒定不变的",
+        "行星离太阳越近，速度越快；离太阳越远，速度越慢",
+        "行星的轨道周期与大小有关",
+        "行星的轨道是完美的圆形"
+      ],
+      "options_en": [
+        "A planet's speed is constant",
+        "A planet moves faster when closer to the Sun and slower when farther away",
+        "A planet's orbital period is related to its size",
+        "A planet's orbit is a perfect circle"
+      ],
+      "answer": 1,
+      "explanation": "第二定律（行星与太阳连线在相等时间扫过相等面积）的直接物理含义就是行星的速度是不均匀的：在近日点速度最快，在远日点速度最慢。",
+      "explanation_en": "The direct physical meaning of the Second Law (equal areas in equal times) is that the planet's speed is non-uniform: it moves fastest at perihelion (closest) and slowest at aphelion (farthest).",
+      "difficulty": "medium"
+    },
+    {
+      "question": "开普勒第三定律建立了哪两个量之间的数学关系？",
+      "question_en": "Kepler's Third Law establishes a mathematical relationship between which two quantities?",
+      "options": [
+        "行星的速度和质量 (Speed and Mass)",
+        "行星的公转周期和轨道半长轴 (Orbital Period and Semi-major Axis)",
+        "行星的质量和轨道半长轴 (Mass and Semi-major Axis)",
+        "行星的公转周期和速度 (Orbital Period and Speed)"
+      ],
+      "options_en": [
+        "A planet's speed and its mass",
+        "A planet's orbital period and its semi-major axis",
+        "A planet's mass and its semi-major axis",
+        "A planet's orbital period and its speed"
+      ],
+      "answer": 1,
+      "explanation": "第三定律（周期定律）是一个\"和谐\"定律，它将行星的\"一年\"（公转周期 $T$）与其轨道的平均大小（半长轴 $a$）用一个精确的数学公式联系起来。",
+      "explanation_en": "The Third Law (Law of Periods) is a 'harmonic' law that connects a planet's 'year' (Orbital Period $T$) to its average orbital size (Semi-major Axis $a$) with a precise mathematical formula.",
+      "difficulty": "hard"
+    }
+  ],
+  
+  "practical_activities": [
+    {
+      "title": "✏️ 用图钉和绳子画椭圆",
+      "title_en": "✏️ Draw an Ellipse with Pins and String",
+      "description": "亲手制作一个椭圆，理解开普勒第一定律中的\"焦点\"",
+      "description_en": "Physically create an ellipse to understand the 'foci' in Kepler's First Law",
+      "materials": ["纸板", "两根图钉", "一根绳子", "笔"],
+      "materials_en": ["Cardboard", "Two thumbtacks", "A loop of string", "Pencil"],
+      "steps": [
+        "把两根图钉按在纸板上，相隔一段距离（这就是两个焦点）",
+        "把绳圈套在两根图钉上",
+        "用笔尖把绳圈绷紧，保持绷紧状态绕着图钉画一圈",
+        "观察：你画出的就是一个椭圆。太阳就在其中一个图钉的位置！"
+      ],
+      "steps_en": [
+        "Press the two thumbtacks into the cardboard, separated by some distance (these are the two foci)",
+        "Place the loop of string around both tacks",
+        "Use your pencil to pull the string loop taut",
+        "Keeping the string taut, draw a full loop around the tacks",
+        "Observe: You have drawn an ellipse. The Sun is at the position of one of the tacks!"
+      ]
+    },
+    {
+      "title": "🚀 访问轨道模拟器",
+      "title_en": "🚀 Visit an Orbital Simulator",
+      "description": "在网页上观察开普勒定律的动态演示",
+      "description_en": "Observe Kepler's Laws in action using a web-based simulator",
+      "materials": ["电脑或手机", "网络"],
+      "materials_en": ["Computer or Phone", "Internet"],
+      "steps": [
+        "搜索\"开普勒定律模拟器\"或\"Kepler's Laws Simulator\"",
+        "打开一个模拟器（如Phet Colorado）",
+        "选择一个行星，观察它的椭圆轨道",
+        "打开\"面积\"显示功能，观察行星在近日点和远日点扫过的面积",
+        "调整行星的轨道大小，观察它的公转周期如何变化"
+      ],
+      "steps_en": [
+        "Search for 'Kepler's Laws Simulator'",
+        "Open a simulator (e.g., Phet Colorado)",
+        "Select a planet and observe its elliptical orbit",
+        "Turn on the 'area' feature and watch how the area swept out changes at perihelion and aphelion",
+        "Adjust the planet's orbital size and observe how its period changes"
+      ]
+    }
+  ],
+  
+  "connections_to_other_discoveries": [
+    {
+      "id": "copernicus_heliocentrism",
+      "title": "哥白尼日心说",
+      "title_en": "Copernican Heliocentrism",
+      "relationship": "开普勒是哥白尼的坚定支持者。他的定律将日心说从一个哲学模型转变为一个精确的、可预测的物理科学",
+      "relationship_en": "Kepler was a staunch supporter of Copernicus. His laws transformed heliocentrism from a philosophical model into a precise, predictive physical science"
+    },
+    {
+      "id": "tycho_data",
+      "title": "第谷的观测数据",
+      "title_en": "Tycho's Observational Data",
+      "relationship": "开普勒的定律完全建立在第谷·布拉赫毕生的高精度观测数据之上。没有第谷的数据，就不可能有开普勒的定律",
+      "relationship_en": "Kepler's laws are entirely built upon the foundation of Tycho Brahe's lifelong, high-precision observational data. No Tycho, no Kepler's Laws"
+    },
+    {
+      "id": "galileo_telescope",
+      "title": "伽利略望远镜观测",
+      "title_en": "Galileo's Telescope Observations",
+      "relationship": "开普勒和伽利略是同时代的人。伽利略的发现（如木星的卫星）为\"地球不是唯一中心\"提供了证据，而开普勒则为伽利略的发现提供了理论支持",
+      "relationship_en": "Kepler and Galileo were contemporaries. Galileo's discoveries (like Jupiter's moons) provided evidence that Earth wasn't the only center, while Kepler provided theoretical support for Galileo's findings"
+    },
+    {
+      "id": "newton_gravitation",
+      "title": "牛顿万有引力定律",
+      "title_en": "Newton's Law of Universal Gravitation",
+      "relationship": "开普勒描述了行星\"如何\"运动；牛顿的万有引力定律解释了\"为什么\"这样运动。牛顿从数学上证明了万有引力必然导致开普勒三定律",
+      "relationship_en": "Kepler described *how* planets move; Newton's law of gravity explained *why* they move that way. Newton mathematically proved that his law of gravity necessarily results in Kepler's three laws"
+    },
+    {
+      "id": "satellite_orbits",
+      "title": "现代卫星轨道",
+      "title_en": "Modern Satellite Orbits",
+      "relationship": "今天我们发射的所有人造卫星（GPS、空间站等）的轨道设计和预测，都完全基于开普勒的三大定律",
+      "relationship_en": "The orbital design and prediction for every artificial satellite we launch today (GPS, ISS, etc.) is based entirely on Kepler's three laws"
+    }
+  ],
+  
+  "multimedia_resources": [
+    {
+      "type": "video",
+      "title": "卡尔·萨根《宇宙》：开普勒的故事",
+      "title_en": "Carl Sagan's Cosmos: The Story of Kepler",
+      "duration": "10:00",
+      "description": "经典纪录片《宇宙》中关于第谷和开普勒的著名片段"
+    },
+    {
+      "type": "interactive",
+      "title": "Phet 模拟器：\"开普勒定律\"",
+      "title_en": "Phet Simulator: Kepler's Laws",
+      "description": "科罗拉多大学的交互式模拟器，可以让你亲手调整轨道并观察三大定律"
+    },
+    {
+      "type": "animation",
+      "title": "开普勒第二定律（面积定律）动画",
+      "title_en": "Kepler's Second Law (Law of Areas) Animation",
+      "duration": "1:00",
+      "description": "一个清晰的动画，展示行星在近日点和远日点扫过相等面积的过程"
+    }
+  ],
+  
+  "discussion_questions": [
+    {
+      "question": "开普勒为了\"8弧分\"的误差而推翻了2000年的理论。这体现了怎样的科学精神？在你的学习或生活中，有类似的\"较真\"时刻吗？",
+      "question_en": "Kepler overturned a 2000-year-old theory over an '8-arcminute' error. What kind of scientific spirit does this show? Have you had a similar moment of 'perfectionism' in your own life or studies?",
+      "level": "critical_thinking"
+    },
+    {
+      "question": "开普勒对\"宇宙和谐\"的神秘主义信仰，是如何既帮助又阻碍了他的科学发现？",
+      "question_en": "How did Kepler's mystical belief in 'cosmic harmony' both help and hinder his scientific discovery?",
+      "level": "philosophical"
+    },
+    {
+      "question": "比较第谷（观测者）和开普勒（理论家）。在科学进步中，哪一个更重要？还是说两者缺一不可？",
+      "question_en": "Compare Tycho (the observer) and Kepler (the theorist). In scientific progress, which is more important? Or are both essential?",
+      "level": "interdisciplinary"
+    },
+    {
+      "question": "开普勒第三定律为什么被称为\"和谐定律\"？它如何体现了整个太阳系的统一性？",
+      "question_en": "Why is Kepler's Third Law called the 'Harmonic Law'? How does it demonstrate the unity of the entire solar system?",
+      "level": "scientific_literacy"
+    }
+  ],
+  
+  "influences": [
+    {
+      "title": "牛顿万有引力定律",
+      "title_en": "Newton's Law of Universal Gravitation",
+      "description": "开普勒定律是牛顿推导万有引力定律的数学基础。牛顿证明了引力与距离平方成反比，才能产生椭圆轨道。",
+      "description_en": "Kepler's laws were the mathematical foundation Newton used to derive his law of universal gravitation. Newton proved that an inverse-square law of gravity is required to produce elliptical orbits."
+    },
+    {
+      "title": "天体物理学",
+      "title_en": "Astrophysics",
+      "description": "开普勒是第一个试图为天体运动寻找物理原因的科学家（他称之为\"天体物理学\"），开创了这门学科。",
+      "description_en": "Kepler was the first scientist to seek a *physical cause* for celestial motion (a term he coined: 'astrophysics'), thus founding the field."
+    },
+    {
+      "title": "轨道力学",
+      "title_en": "Orbital Mechanics",
+      "description": "现代所有关于卫星、火箭和行星探测器的轨道计算，都直接使用开普勒定律作为基础。",
+      "description_en": "All modern orbital calculations for satellites, rockets, and interplanetary probes use Kepler's laws as their direct foundation."
+    },
+    {
+      "title": "科学方法论",
+      "title_en": "Scientific Methodology",
+      "description": "开普勒对观测数据（第谷的数据）的绝对尊重，甚至不惜推翻自己珍视的信仰（圆形轨道），这成为现代科学方法的典范。",
+      "description_en": "Kepler's absolute respect for observational data (Tycho's data), even when it forced him to abandon his own cherished beliefs (circular orbits), became a paradigm of the modern scientific method."
+    }
+  ],
+  
+  "influenced_by": [
+    {
+      "civilization": "第谷·布拉赫",
+      "contribution": "提供了开普勒研究所需的、史无前例的精确天文观测数据",
+      "civilization_en": "Tycho Brahe",
+      "contribution_en": "Provided the unprecedentedly precise astronomical observation data that Kepler's work depended on"
+    },
+    {
+      "civilization": "哥白尼",
+      "contribution": "提供了日心说的基本框架，开普勒在此基础上进行修正和完善",
+      "civilization_en": "Nicolaus Copernicus",
+      "contribution_en": "Provided the basic framework of heliocentrism, which Kepler then corrected and perfected"
+    },
+    {
+      "civilization": "毕达哥拉斯/柏拉图",
+      "contribution": "古希腊哲学，激发了开普勒对\"宇宙的数学和谐\"的毕生追求",
+      "civilization_en": "Pythagoras / Plato",
+      "contribution_en": "Ancient Greek philosophy that inspired Kepler's lifelong search for the 'mathematical harmony of the cosmos'"
+    }
+  ],
+  
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Johannes_Kepler_1610.jpg/440px-Johannes_Kepler_1610.jpg",
+  
+  "additional_images": [
+    {
+      "url": "kepler_laws_diagram.jpg",
+      "caption": "开普勒三大定律的图解（椭圆、面积、周期）",
+      "caption_en": "Diagram illustrating Kepler's three laws (Ellipses, Areas, Periods)"
+    },
+    {
+      "url": "astronomia_nova_title.jpg",
+      "caption": "开普勒1609年的著作《新天文学》的扉页",
+      "caption_en": "Title page of Kepler's 1609 book, *Astronomia nova*"
+    },
+    {
+      "url": "tycho_kepler_prague.jpg",
+      "caption": "描绘第谷·布拉赫（站立者）和开普勒（坐者）在布拉格工作的画作",
+      "caption_en": "Painting depicting Tycho Brahe (standing) and Johannes Kepler (seated) at work in Prague"
+    },
+    {
+      "url": "kepler_somnium.jpg",
+      "caption": "开普勒的科幻小说《梦》（Somnium）的插图，描绘了从月球看地球",
+      "caption_en": "An illustration from Kepler's sci-fi story *Somnium*, depicting the Earth as seen from the Moon"
+    }
+  ],
+  
+  "age_appropriate_content": {
+    "ages_6_9": {
+      "explanation": "开普勒发现行星绕太阳的\"跑道\"不是圆的，是\"椭圆\"的！而且行星离太阳近的时候跑得快，跑远了就慢下来。跑道越大的行星，跑一圈花的时间越久。",
+      "activity": "用粉笔在地上画一个大椭圆，让孩子沿着椭圆跑。告诉他：\"靠近'太阳'（一个点）时快点跑，跑远了就慢点跑！\""
+    },
+    "ages_10_13": {
+      "explanation": "开普勒用他朋友第谷的数据，发现了行星运动的三个秘密：1. 轨道是椭圆，太阳在一个焦点上。2. 行星在近日点速度快，远日点速度慢（面积定律）。3. 离太阳越远的行星，\"一年\"的时间越长（周期定律）。他推翻了2000年的\"完美圆形\"想法。",
+      "activity": "用图钉和绳子画一个椭圆，理解\"焦点\"的含义。观察椭圆的形状，讨论它与圆形的区别。"
+    },
+    "ages_14_18": {
+      "explanation": "约翰内斯·开普勒通过对第谷火星数据的严谨数学分析，提出了行星运动三大定律。第一（椭圆）和第二（面积）定律描述了单个行星的运动，第三（周期）定律则连接了整个太阳系。这些定律是哥白尼体系的决定性完善，构成了天体运动的\"运动学\"，为牛顿的\"动力学\"（万有引力）奠定了实证和数学基础。",
+      "activity": "查找水星、地球、火星和木星的公转周期（$T$）和半长轴（$a$）。用计算器验证 $T^2 / a^3$ 是否对所有行星都是一个近似的常数。"
+    }
+  },
+  
+  "common_misconceptions": [
+    {
+      "misconception": "开普勒用望远镜发现了他的定律",
+      "misconception_en": "Kepler used a telescope to discover his laws",
+      "correction": "开普勒的定律是纯粹通过数学计算得出的，他分析的是第谷·布拉赫在望远镜发明\"之前\"用肉眼观测的数据。开普勒在1610年（第一定律发表后）才开始使用望远镜。",
+      "correction_en": "Kepler's laws were derived purely from mathematical calculation, analyzing Tycho Brahe's naked-eye data, which was gathered *before* the telescope was invented. Kepler only started using a telescope in 1610, *after* publishing his first laws."
+    },
+    {
+      "misconception": "太阳在椭圆的中心",
+      "misconception_en": "The Sun is at the center of the ellipse",
+      "correction": "这是最常见的错误。第一定律指出，轨道是椭圆，太阳在椭圆的\"两个焦点\"之一上，而不是在中心。这意味着行星与太阳的距离总是在变化。",
+      "correction_en": "This is the most common mistake. The First Law states the orbit is an ellipse and the Sun is at one of the two *foci*, not the center. This means the planet's distance from the Sun is always changing."
+    },
+    {
+      "misconception": "开普勒立即被誉为英雄",
+      "misconception_en": "Kepler was immediately hailed as a hero",
+      "correction": "他的《新天文学》非常晦涩难懂，充满了复杂的数学。伽利略（他的朋友）甚至似乎都没有完全理解或接受他的椭圆轨道。开普勒的定律直到牛顿将其作为万有引力理论的基石后，才被世人完全接受。",
+      "correction_en": "His book *Astronomia nova* was incredibly dense and mathematical. Even Galileo (his contemporary) seemed to never fully understand or accept his elliptical orbits. Kepler's laws were not widely accepted until Newton used them as the foundation for his theory of gravitation."
+    },
+    {
+      "misconception": "开普勒是第一个提出椭圆轨道的人",
+      "misconception_en": "Kepler was the first person to suggest elliptical orbits",
+      "correction": "在他之前，一位名叫阿卜杜勒-拉赫曼·苏菲的阿拉伯天文学家在10世纪就描述过仙女座星系是\"椭圆\"的（尽管是星云，不是轨道）。但开普勒是第一个在数学上证明行星\"轨道\"是椭圆的人。",
+      "correction_en": "An Arab astronomer, Al-Sufi, had described the Andromeda galaxy as 'elliptical' in the 10th century (though it was a nebula, not an orbit). But Kepler was the first to mathematically prove that planetary *orbits* were ellipses."
+    }
+  ],
+  
+  "extension_topics": [
+    {
+      "topic": "第谷·布拉赫的生平与观测",
+      "topic_en": "Life and Observations of Tycho Brahe",
+      "description": "深入了解这位丹麦贵族天文学家，他如何建立了\"乌拉尼堡\"天文台，以及他如何获得了\"黄金鼻子\"。",
+      "description_en": "Learn more about the Danish nobleman astronomer, how he built the 'Uraniborg' observatory, and how he got his 'golden nose'."
+    },
+    {
+      "topic": "牛顿如何从开普勒定律推导出万有引力",
+      "topic_en": "How Newton Derived Gravitation from Kepler's Laws",
+      "description": "探索牛顿的数学推导过程，他如何证明只有\"平方反比\"的力才能产生开普勒的椭圆轨道和面积定律。",
+      "description_en": "Explore the mathematical derivation Newton used to prove that only an 'inverse-square' force could produce Kepler's elliptical orbits and area law."
+    },
+    {
+      "topic": "轨道力学与霍曼转移",
+      "topic_en": "Orbital Mechanics and Hohmann Transfers",
+      "description": "了解现代航天器如何利用开普勒定律，通过最小能量的\"霍曼转移轨道\"从一个行星飞到另一个行星。",
+      "description_en": "Learn how modern spacecraft use Kepler's laws to travel from one planet to another using the minimum-energy 'Hohmann transfer orbit'."
+    },
+    {
+      "topic": "开普勒的《梦》(Somnium)",
+      "topic_en": "Kepler's *Somnium* (The Dream)",
+      "description": "阅读和分析这部早期科幻小说，看开普勒如何科学地想象月球上的重力、大气和居民。",
+      "description_en": "Read and analyze this early work of science fiction and see how Kepler scientifically imagined gravity, atmosphere, and inhabitants on the Moon."
+    }
+  ]
+}
