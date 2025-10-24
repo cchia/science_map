@@ -1,0 +1,212 @@
+{
+    "id": "darwin",
+    "title": "达尔文进化论",
+    "title_en": "Darwin's Theory of Evolution",
+    "year": 1859,
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "England",
+    "field": "生物学",
+    "field_en": "Biology",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Charles_Darwin_seated_crop.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/hOfRN0KihOU",
+        "title": "进化论简介",
+        "title_en": "Introduction to Evolution",
+        "duration": "6:15"
+      }
+    },
+    
+    "summary": {
+      "text": "达尔文提出：生物通过自然选择不断进化。适应环境的生物生存下来，把优良特征传给后代。这解释了地球上生命的多样性。",
+      "text_en": "Darwin proposed: organisms evolve through natural selection. Those adapted to environment survive, passing favorable traits to offspring. This explains Earth's biodiversity.",
+      "key_points": [
+        "自然选择：适者生存",
+        "遗传变异是进化基础",
+        "所有生物有共同祖先"
+      ],
+      "key_points_en": [
+        "Natural selection: survival of the fittest",
+        "Genetic variation is evolution's basis",
+        "All life shares common ancestry"
+      ]
+    },
+    
+    "story": {
+      "text": "达尔文乘坐'小猎犬号'环球航行5年。在加拉帕戈斯群岛，他观察到不同岛上的雀鸟喙形状不同——这让他思考：生物会改变吗？经过20年思考，他终于发表了《物种起源》。",
+      "text_en": "Darwin sailed the world for 5 years on HMS Beagle. In Galápagos, he observed different beak shapes on different islands—making him wonder: do organisms change? After 20 years of thought, he published Origin of Species.",
+      "image": "https://source.unsplash.com/600x400/?galapagos,finch,bird"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "🎓",
+        "text": "达尔文差点当牧师！他在剑桥学的是神学，但对自然的热爱让他走上科学之路。",
+        "text_en": "Darwin almost became a clergyman! He studied theology at Cambridge, but love of nature led him to science."
+      },
+      {
+        "icon": "🤢",
+        "text": "他在航行中晕船晕了5年，但仍坚持观察和记录。",
+        "text_en": "He was seasick for 5 years during the voyage, but persisted in observing and recording."
+      },
+      {
+        "icon": "⏰",
+        "text": "他思考了20年才敢发表进化论，因为害怕被教会攻击。",
+        "text_en": "He pondered 20 years before daring to publish, fearing Church attacks."
+      }
+    ],
+    
+    "principle": {
+      "title": "自然选择机制",
+      "title_en": "Natural Selection Mechanism",
+      "diagram": "https://source.unsplash.com/600x400/?evolution,adaptation",
+      "key_points": [
+        {
+          "icon": "🧬",
+          "title": "遗传变异",
+          "title_en": "Genetic Variation",
+          "text": "后代与父母略有不同（基因突变）",
+          "text_en": "Offspring differ slightly from parents (genetic mutation)"
+        },
+        {
+          "icon": "🏆",
+          "title": "生存竞争",
+          "title_en": "Struggle for Survival",
+          "text": "资源有限，不是所有个体都能生存",
+          "text_en": "Limited resources, not all individuals survive"
+        },
+        {
+          "icon": "✅",
+          "title": "适者生存",
+          "title_en": "Survival of Fittest",
+          "text": "适应环境的个体更可能生存和繁殖",
+          "text_en": "Adapted individuals more likely to survive and reproduce"
+        },
+        {
+          "icon": "👶",
+          "title": "遗传积累",
+          "title_en": "Hereditary Accumulation",
+          "text": "有利特征代代相传，逐渐改变物种",
+          "text_en": "Favorable traits pass down, gradually changing species"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "💊",
+        "title": "医学",
+        "title_en": "Medicine",
+        "image": "https://source.unsplash.com/300x200/?bacteria,antibiotic",
+        "text": "理解细菌如何产生抗药性，开发新抗生素。",
+        "text_en": "Understand how bacteria develop resistance, develop new antibiotics."
+      },
+      {
+        "icon": "🌾",
+        "title": "农业",
+        "title_en": "Agriculture",
+        "image": "https://source.unsplash.com/300x200/?crops,farming",
+        "text": "培育抗病、高产的农作物品种。",
+        "text_en": "Breed disease-resistant, high-yield crop varieties."
+      },
+      {
+        "icon": "🦕",
+        "title": "古生物学",
+        "title_en": "Paleontology",
+        "image": "https://source.unsplash.com/300x200/?fossil,dinosaur",
+        "text": "通过化石研究生物演化历史。",
+        "text_en": "Study evolutionary history through fossils."
+      },
+      {
+        "icon": "🧬",
+        "title": "基因研究",
+        "title_en": "Genetics",
+        "image": "https://source.unsplash.com/300x200/?dna,genetics",
+        "text": "DNA证据证实了进化论，揭示物种亲缘关系。",
+        "text_en": "DNA evidence confirms evolution, reveals species relationships."
+      }
+    ],
+    
+    "experiment": {
+      "title": "观察自然选择",
+      "title_en": "Observe Natural Selection",
+      "image": "https://source.unsplash.com/600x300/?birds,nature",
+      "materials": ["鸟食", "观察笔记"],
+      "materials_en": ["Bird food", "Observation notes"],
+      "description": "在公园观察不同鸟类的喙形状和它们吃的食物。长喙的鸟吃虫子，短喙的鸟吃种子。这就是自然选择：喙的形状适应了食物类型！",
+      "description_en": "Observe different bird beak shapes and their food in parks. Long beaks eat insects, short beaks eat seeds. This is natural selection: beak shape adapted to food type!",
+      "why": "不同环境需要不同特征，自然选择保留了最适应的。",
+      "why_en": "Different environments need different traits, natural selection retains best adapted."
+    },
+    
+    "simple_explanation": {
+      "text": "生物会慢慢改变。适应环境的生物能生存下来，把特点传给孩子。就像长颈鹿的脖子越来越长，因为能吃到高处的叶子！",
+      "text_en": "Organisms slowly change. Those adapted to environment survive, passing traits to offspring. Like giraffes' necks getting longer because they could reach high leaves!",
+      "diagram": "https://source.unsplash.com/500x300/?giraffe,evolution"
+    },
+    
+    "impact": {
+      "text": "进化论彻底改变了人类对生命起源的认识，是现代生物学的基石。从医学到农业，从生态保护到基因工程，都建立在进化论基础上。",
+      "text_en": "Evolution completely changed humanity's understanding of life's origins, becoming modern biology's cornerstone. From medicine to agriculture, from ecology to genetic engineering, all build on evolution.",
+      "stats": [
+        {
+          "number": "99%",
+          "label": "科学家接受",
+          "label_en": "scientists accept"
+        },
+        {
+          "number": "38亿年",
+          "label": "生命演化史",
+          "label_en": "years of life evolution"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "linnaeus",
+          "contribution": "生物分类系统为进化研究提供框架",
+          "contribution_en": "Classification system provided framework for evolution research"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "mendel",
+          "contribution": "遗传学解释了进化的机制",
+          "contribution_en": "Genetics explained evolution's mechanism"
+        },
+        {
+          "id": "dna",
+          "contribution": "DNA证据证实进化论",
+          "contribution_en": "DNA evidence confirmed evolution"
+        },
+        {
+          "id": "crispr",
+          "contribution": "基因编辑基于进化原理",
+          "contribution_en": "Gene editing based on evolutionary principles"
+        }
+      ],
+      "legacy_text": "达尔文的进化论建立在林奈分类系统之上。后来孟德尔的遗传学解释了变异如何产生，DNA的发现提供了分子证据。从观察雀鸟到编辑基因，这是一条清晰的知识传承之路。",
+      "legacy_text_en": "Darwin's evolution built on Linnaeus's classification. Later, Mendel's genetics explained how variation arises, DNA discovery provided molecular evidence. From observing finches to editing genes—a clear knowledge legacy path."
+    },
+    
+    "related_concepts": ["进化", "自然选择", "适应", "物种起源"],
+    "related_concepts_en": ["Evolution", "Natural Selection", "Adaptation", "Origin of Species"],
+    
+    "quiz": {
+      "question": "达尔文在哪里观察到了不同的雀鸟？",
+      "question_en": "Where did Darwin observe different finches?",
+      "image": "https://source.unsplash.com/400x300/?galapagos,island",
+      "options": ["英国", "加拉帕戈斯群岛", "澳大利亚", "南极"],
+      "options_en": ["England", "Galápagos Islands", "Australia", "Antarctica"],
+      "answer": 1,
+      "explanation": "在加拉帕戈斯群岛，不同岛上的雀鸟喙形状不同，这启发了达尔文的进化论。",
+      "explanation_en": "In Galápagos, finches on different islands had different beak shapes, inspiring Darwin's evolution theory."
+    }
+  }

@@ -1,0 +1,224 @@
+{
+    "id": "newton",
+    "title": "牛顿《原理》",
+    "title_en": "Newton's Principia",
+    "year": 1687,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥",
+    "city_en": "Cambridge",
+    "country": "英国",
+    "country_en": "England",
+    "field": "物理学",
+    "field_en": "Physics",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/kKKM8Y-u7ds",
+        "title": "牛顿三大定律",
+        "title_en": "Newton's Three Laws",
+        "duration": "4:32"
+      }
+    },
+    
+    "summary": {
+      "text": "牛顿建立了经典力学体系，提出了万有引力定律和三大运动定律，解释了从苹果落地到行星运动的所有现象。",
+      "text_en": "Newton established classical mechanics, proposing universal gravitation and three laws of motion, explaining everything from falling apples to planetary motion.",
+      "key_points": [
+        "建立了经典力学体系",
+        "发现万有引力定律",
+        "提出三大运动定律"
+      ],
+      "key_points_en": [
+        "Established classical mechanics",
+        "Discovered universal gravitation",
+        "Proposed three laws of motion"
+      ]
+    },
+    
+    "story": {
+      "text": "1666年，23岁的牛顿在家乡躲避瘟疫。一个苹果从树上掉下来，让他思考：为什么苹果往下掉？为什么月亮不会掉下来？经过20年研究，他在1687年出版了改变世界的《原理》。",
+      "text_en": "In 1666, 23-year-old Newton was avoiding plague. An apple fell, making him wonder: why do apples fall down? Why doesn't the Moon fall? After 20 years, he published the world-changing Principia in 1687.",
+      "image": "https://source.unsplash.com/600x400/?apple,tree,nature"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "🍎",
+        "text": "苹果砸头的故事可能是传说，但牛顿确实在思考苹果为什么落地。",
+        "text_en": "The apple story may be legend, but Newton did ponder why apples fall."
+      },
+      {
+        "icon": "😠",
+        "text": "牛顿脾气很坏，和莱布尼茨争论微积分发明权，吵了一辈子！",
+        "text_en": "Newton had a bad temper, argued with Leibniz over calculus invention for life!"
+      },
+      {
+        "icon": "💰",
+        "text": "他当过英国皇家铸币厂厂长，专门抓造假币的人。",
+        "text_en": "He served as Master of the Royal Mint, catching counterfeiters."
+      }
+    ],
+    
+    "principle": {
+      "title": "三大运动定律 + 万有引力",
+      "title_en": "Three Laws + Universal Gravitation",
+      "diagram": "https://source.unsplash.com/600x400/?physics,force,diagram",
+      "key_points": [
+        {
+          "icon": "1️⃣",
+          "title": "惯性定律",
+          "title_en": "Inertia",
+          "text": "物体保持静止或匀速运动，除非受力",
+          "text_en": "Objects remain at rest or in uniform motion unless forced"
+        },
+        {
+          "icon": "2️⃣",
+          "title": "F = ma",
+          "title_en": "F = ma",
+          "text": "力等于质量乘以加速度",
+          "text_en": "Force equals mass times acceleration"
+        },
+        {
+          "icon": "3️⃣",
+          "title": "作用反作用",
+          "title_en": "Action-Reaction",
+          "text": "作用力和反作用力大小相等、方向相反",
+          "text_en": "Equal and opposite forces"
+        },
+        {
+          "icon": "🌍",
+          "title": "万有引力",
+          "title_en": "Gravitation",
+          "text": "任何两物体间都有引力：F = G(m₁m₂)/r²",
+          "text_en": "Any two objects attract: F = G(m₁m₂)/r²"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/xxx"
+    },
+    
+    "applications": [
+      {
+        "icon": "🚀",
+        "title": "航天工程",
+        "title_en": "Aerospace",
+        "image": "https://source.unsplash.com/300x200/?rocket,space",
+        "text": "计算火箭轨道、卫星运行。登月任务全靠牛顿定律！",
+        "text_en": "Calculate rocket trajectories, satellite orbits. Moon missions relied on Newton's laws!"
+      },
+      {
+        "icon": "🚗",
+        "title": "交通安全",
+        "title_en": "Traffic Safety",
+        "image": "https://source.unsplash.com/300x200/?car,seatbelt",
+        "text": "安全带、刹车系统、防撞设计都基于牛顿定律。",
+        "text_en": "Seatbelts, brakes, crash protection based on Newton's laws."
+      },
+      {
+        "icon": "🏗️",
+        "title": "建筑工程",
+        "title_en": "Construction",
+        "image": "https://source.unsplash.com/300x200/?building,bridge",
+        "text": "桥梁、摩天大楼的承重和稳定性计算。",
+        "text_en": "Load-bearing and stability calculations for bridges, skyscrapers."
+      },
+      {
+        "icon": "⚽",
+        "title": "体育运动",
+        "title_en": "Sports",
+        "image": "https://source.unsplash.com/300x200/?basketball,sports",
+        "text": "分析投篮、踢球的最佳角度和力度。",
+        "text_en": "Analyze optimal angles and forces for shooting, kicking."
+      }
+    ],
+    
+    "experiment": {
+      "title": "惯性实验",
+      "title_en": "Inertia Experiment",
+      "video": "https://www.youtube.com/embed/xxx",
+      "image": "https://source.unsplash.com/600x300/?coin,glass",
+      "materials": ["硬币", "纸片", "玻璃杯"],
+      "materials_en": ["Coin", "Paper", "Glass"],
+    "description": "纸片放在杯口，硬币放在纸片上。快速抽走纸片，硬币会掉进杯子！这证明了惯性：硬币想保持静止，纸片抽走时来不及跟着动。",
+    "description_en": "Place paper on glass rim, coin on paper. Quickly pull away paper—coin drops into glass! This proves inertia: coin wants to stay at rest, can't follow when paper is pulled.",
+    "why": "硬币有惯性，想保持静止状态。",
+    "why_en": "Coin has inertia, wants to remain at rest."
+  },
+  
+  "simple_explanation": {
+    "text": "想象地球是个超级大磁铁，把所有东西都吸向它。你跳起来会落下，月亮绕地球转，都是因为'引力'。",
+    "text_en": "Imagine Earth is a super magnet pulling everything toward it. You fall when you jump, Moon orbits Earth—all because of 'gravity'.",
+    "diagram": "https://source.unsplash.com/500x300/?gravity,earth"
+  },
+  
+  "impact": {
+    "text": "牛顿理论让人类第一次能精确预测天体运动，后来帮助发射卫星、登上月球。直到今天，工程师还在用牛顿定律设计飞机、汽车、桥梁。",
+    "text_en": "Newton's theory enabled precise prediction of celestial motion, later helping launch satellites and land on Moon. Even today, engineers use Newton's laws to design planes, cars, bridges.",
+    "stats": [
+      {
+        "number": "300+",
+        "label": "年仍在使用",
+        "label_en": "years in use"
+      },
+      {
+        "number": "100%",
+        "label": "工程依赖",
+        "label_en": "engineering reliance"
+      }
+    ]
+  },
+  
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "galileo",
+        "contribution": "运动学研究和实验方法",
+        "contribution_en": "Kinematics research and experimental methods"
+      },
+      {
+        "id": "kepler",
+        "contribution": "行星运动三大定律",
+        "contribution_en": "Three laws of planetary motion"
+      },
+      {
+        "id": "descartes",
+        "contribution": "解析几何和数学方法",
+        "contribution_en": "Analytic geometry and mathematical methods"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "maxwell",
+        "contribution": "用牛顿方法建立电磁学方程",
+        "contribution_en": "Used Newton's methods for electromagnetic equations"
+      },
+      {
+        "id": "einstein",
+        "contribution": "在牛顿基础上发展相对论",
+        "contribution_en": "Developed relativity building on Newton"
+      },
+      {
+        "id": "moon_landing",
+        "contribution": "用牛顿定律计算登月轨道",
+        "contribution_en": "Used Newton's laws to calculate Moon landing trajectory"
+      }
+    ],
+    "legacy_text": "牛顿说：'如果我看得更远，是因为站在巨人的肩膀上。'他综合了伽利略的运动学、开普勒的行星定律和笛卡尔的数学方法。200年后，爱因斯坦发现牛顿理论在极高速下不准确，发展出相对论。但牛顿力学仍是日常最实用的理论！",
+    "legacy_text_en": "Newton said: 'If I have seen further, it is by standing on the shoulders of giants.' He synthesized Galileo's kinematics, Kepler's planetary laws, and Descartes' mathematical methods. 200 years later, Einstein found Newton's theory inaccurate at extreme speeds, developing relativity. But Newtonian mechanics remains most practical for daily use!"
+  },
+  
+  "related_concepts": ["万有引力", "牛顿三定律", "经典力学", "微积分"],
+  "related_concepts_en": ["Universal Gravitation", "Newton's Three Laws", "Classical Mechanics", "Calculus"],
+  
+  "quiz": {
+    "question": "牛顿在哪里得到灵感发现万有引力？",
+    "question_en": "Where did Newton get inspiration for universal gravitation?",
+    "image": "https://source.unsplash.com/400x300/?apple,tree",
+    "options": ["苹果树下", "实验室", "图书馆", "海边"],
+    "options_en": ["Under apple tree", "Laboratory", "Library", "Beach"],
+    "answer": 0,
+    "explanation": "虽然苹果砸头可能是传说，但牛顿确实在思考苹果落地时得到了灵感。",
+    "explanation_en": "Though the apple story may be legend, Newton did get inspiration pondering falling apples."
+  }
+}

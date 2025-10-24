@@ -7,17 +7,25 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'l10n/app_localizations.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'dart:html' as html;
+import 'dart:ui' as ui;
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+
 
 void main() {
-  runApp(MyApp());
+  runApp(ScienceMapApp());
 }
 
-class MyApp extends StatefulWidget {
+// ============================================
+// 主应用
+// ============================================
+class ScienceMapApp extends StatefulWidget {
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<ScienceMapApp> createState() => _ScienceMapAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _ScienceMapAppState extends State<ScienceMapApp> {
   Locale _locale = Locale('zh');
 
   void _changeLanguage(Locale locale) {
@@ -30,7 +38,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Science History Map',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        fontFamily: 'System',
+      ),
       locale: _locale,
       localizationsDelegates: [
         AppLocalizations.delegate,
@@ -47,6 +58,9 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
+// ============================================
+// 地图主屏幕
+// ============================================
 class MapScreen extends StatefulWidget {
   final Function(Locale) onLanguageChange;
   
@@ -57,21 +71,24 @@ class MapScreen extends StatefulWidget {
 }
 
 class _MapScreenState extends State<MapScreen> {
+  // ========== 状态变量 ==========
+  // 时间控制
   double selectedYear = 1500;
   bool isPlaying = false;
   Timer? _timer;
   
+  // 数据
   List<Map<String, dynamic>> events = [];
   List<Map<String, dynamic>> storyModes = [];
   bool isLoading = true;
-  String? selectedStoryMode;
   
-  // 搜索和筛选状态
+  // 筛选
+  String? selectedStoryMode;
   String searchQuery = '';
   Set<String> selectedFields = {};
   bool showSearchBar = false;
 
-  // 学科颜色映射
+  // ========== 配置数据 ==========
   final Map<String, Color> fieldColors = {
     '物理学': Colors.red,
     '化学': Colors.green,
@@ -84,7 +101,6 @@ class _MapScreenState extends State<MapScreen> {
     '综合': Colors.brown,
   };
 
-  // 学科emoji映射
   final Map<String, String> fieldEmojis = {
     '物理学': '⚛️',
     '化学': '🧪',
@@ -97,7 +113,6 @@ class _MapScreenState extends State<MapScreen> {
     '综合': '📚',
   };
 
-  // 学科英文名称映射
   final Map<String, String> fieldNamesEn = {
     '物理学': 'Physics',
     '化学': 'Chemistry',
@@ -110,59 +125,11 @@ class _MapScreenState extends State<MapScreen> {
     '综合': 'Comprehensive',
   };
 
+  // ========== 生命周期 ==========
   @override
   void initState() {
     super.initState();
-    loadData();
-  }
-
-  Future<void> loadData() async {
-    try {
-      // 🆕 加载事件索引
-      final String indexResponse = await rootBundle.loadString('assets/events_index.json');
-      final List<dynamic> eventIds = json.decode(indexResponse);
-      
-      // 🆕 逐个加载事件文件
-      List<Map<String, dynamic>> loadedEvents = [];
-      for (var eventId in eventIds) {
-        try {
-          final String eventResponse = await rootBundle.loadString('assets/events/$eventId.json');
-          
-          // 尝试解析 JSON，如果失败则跳过该文件
-          try {
-            final Map<String, dynamic> eventData = json.decode(eventResponse);
-            loadedEvents.add(eventData);
-            print('✅ 已加载: $eventId');
-          } catch (jsonError) {
-            print('❌ JSON 解析失败: $eventId - $jsonError');
-            // 继续处理下一个文件，不中断整个加载过程
-            continue;
-          }
-        } catch (e) {
-          print('❌ 文件加载失败: $eventId - $e');
-          // 继续处理下一个文件
-          continue;
-        }
-      }
-      
-      // 加载学习路径数据
-      final String modesResponse = await rootBundle.loadString('assets/story_modes.json');
-      final List<dynamic> modesData = json.decode(modesResponse);
-      
-      setState(() {
-        events = loadedEvents;
-        storyModes = modesData.cast<Map<String, dynamic>>();
-        isLoading = false;
-      });
-      
-      print('🎉 总共加载了 ${events.length} 个事件');
-      
-    } catch (e) {
-      print('❌ 加载数据失败: $e');
-      setState(() {
-        isLoading = false;
-      });
-    }
+    _loadData();
   }
 
   @override
@@ -171,38 +138,67 @@ class _MapScreenState extends State<MapScreen> {
     super.dispose();
   }
 
-  Color getFieldColor(String field) {
-    return fieldColors[field] ?? Colors.grey;
-  }
-
-  String getFieldEmoji(String field) {
-    return fieldEmojis[field] ?? '💡';
-  }
-
-  String getFieldName(String fieldCn, bool isEnglish) {
-    if (isEnglish) {
-      return fieldNamesEn[fieldCn] ?? fieldCn;
+  // ========== 数据加载 ==========
+  Future<void> _loadData() async {
+    try {
+      // 加载事件索引
+      final indexJson = await rootBundle.loadString('assets/events_index.json');
+      final List<dynamic> eventIds = json.decode(indexJson);
+      
+      // 加载所有事件
+      List<Map<String, dynamic>> loadedEvents = [];
+      for (var eventId in eventIds) {
+        try {
+          final eventJson = await rootBundle.loadString('assets/events/$eventId.json');
+          final eventData = json.decode(eventJson);
+          loadedEvents.add(eventData);
+        } catch (e) {
+          print('⚠️ 加载失败: $eventId');
+        }
+      }
+      
+      // 加载学习路径
+      final modesJson = await rootBundle.loadString('assets/story_modes.json');
+      final modesData = json.decode(modesJson);
+      
+      setState(() {
+        events = loadedEvents;
+        storyModes = modesData.cast<Map<String, dynamic>>();
+        isLoading = false;
+      });
+      
+      print('✅ 加载完成: ${events.length} 个事件');
+    } catch (e) {
+      print('❌ 加载失败: $e');
+      setState(() {
+        isLoading = false;
+      });
     }
-    return fieldCn;
   }
 
+  // ========== 辅助方法 ==========
+  Color getFieldColor(String field) => fieldColors[field] ?? Colors.grey;
+  String getFieldEmoji(String field) => fieldEmojis[field] ?? '💡';
+  String getFieldName(String fieldCn, bool isEnglish) {
+    return isEnglish ? (fieldNamesEn[fieldCn] ?? fieldCn) : fieldCn;
+  }
+
+  // ========== 动画控制 ==========
   void _togglePlay() {
     setState(() {
       isPlaying = !isPlaying;
+      if (isPlaying) {
+        _startAnimation();
+      } else {
+        _stopAnimation();
+      }
     });
-
-    if (isPlaying) {
-      _startAnimation();
-    } else {
-      _stopAnimation();
-    }
   }
 
   void _startAnimation() {
     _timer = Timer.periodic(Duration(milliseconds: 100), (timer) {
       setState(() {
         selectedYear += 2;
-        
         if (selectedYear >= 2020) {
           selectedYear = 2020;
           _stopAnimation();
@@ -221,18 +217,17 @@ class _MapScreenState extends State<MapScreen> {
   void _resetAnimation() {
     _stopAnimation();
     setState(() {
-      if (events.isNotEmpty) {
-        selectedYear = events.map((e) => e['year'] as int).reduce((a, b) => a < b ? a : b).toDouble();
-      } else {
-        selectedYear = -500;
-      }
+      selectedYear = events.isNotEmpty
+          ? events.map((e) => e['year'] as int).reduce((a, b) => a < b ? a : b).toDouble()
+          : -500;
     });
   }
 
+  // ========== 数据筛选 ==========
   List<Map<String, dynamic>> getFilteredEvents() {
     var filtered = events.where((event) => event['year'] <= selectedYear);
     
-    // 故事模式筛选
+    // 学习路径筛选
     if (selectedStoryMode != null) {
       var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
       List<String> modeEventIds = List<String>.from(mode['events']);
@@ -241,31 +236,21 @@ class _MapScreenState extends State<MapScreen> {
     
     // 学科筛选
     if (selectedFields.isNotEmpty) {
-      filtered = filtered.where((event) => 
-        selectedFields.contains(event['field'])
-      );
+      filtered = filtered.where((event) => selectedFields.contains(event['field']));
     }
     
     // 搜索筛选
     if (searchQuery.isNotEmpty) {
-      final locale = Localizations.localeOf(context);
-      final isEnglish = locale.languageCode == 'en';
-      
+      final isEnglish = Localizations.localeOf(context).languageCode == 'en';
       filtered = filtered.where((event) {
         String title = isEnglish && event['title_en'] != null 
-            ? event['title_en'] 
-            : event['title'];
+            ? event['title_en'] : event['title'];
         String city = isEnglish && event['city_en'] != null 
-            ? event['city_en'] 
-            : event['city'] ?? '';
-        String description = isEnglish && event['description_en'] != null 
-            ? event['description_en'] 
-            : event['description'] ?? '';
+            ? event['city_en'] : (event['city'] ?? '');
         
         String query = searchQuery.toLowerCase();
-        return title.toLowerCase().contains(query) ||
-               city.toLowerCase().contains(query) ||
-               description.toLowerCase().contains(query);
+        return title.toLowerCase().contains(query) || 
+               city.toLowerCase().contains(query);
       });
     }
     
@@ -277,29 +262,337 @@ class _MapScreenState extends State<MapScreen> {
     var filteredEvents = getFilteredEvents();
     
     for (var event in filteredEvents) {
-      if (event['influences'] != null) {
-        for (var influenceId in event['influences']) {
-          var sourceEvent = events.firstWhere(
-            (e) => e['id'] == influenceId,
-            orElse: () => {},
-          );
-          
-          if (sourceEvent.isNotEmpty && 
-              sourceEvent['year'] <= selectedYear) {
-            lines.add({
-              'from': LatLng(sourceEvent['lat'], sourceEvent['lng']),
-              'to': LatLng(event['lat'], event['lng']),
-              'fromTitle': sourceEvent['title'],
-              'toTitle': event['title'],
-              'fromYear': sourceEvent['year'],
-              'toYear': event['year'],
-            });
-          }
+      var influences = event['influences'] ?? [];
+      for (var influenceId in influences) {
+        var sourceEvent = events.firstWhere(
+          (e) => e['id'] == influenceId,
+          orElse: () => {},
+        );
+        
+        if (sourceEvent.isNotEmpty && sourceEvent['year'] <= selectedYear) {
+          lines.add({
+            'from': LatLng(sourceEvent['lat'], sourceEvent['lng']),
+            'to': LatLng(event['lat'], event['lng']),
+            'fromTitle': sourceEvent['title'],
+            'toTitle': event['title'],
+            'fromYear': sourceEvent['year'],
+            'toYear': event['year'],
+          });
         }
       }
     }
     
     return lines;
+  }
+
+  // ========== UI构建 ==========
+  @override
+  Widget build(BuildContext context) {
+    if (isLoading) {
+      return Scaffold(
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+
+    final l10n = AppLocalizations.of(context);
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
+
+    return Scaffold(
+      appBar: _buildAppBar(l10n, isEnglish),
+      body: Stack(
+        children: [
+          _buildMap(),
+          _buildLearningPathSelector(l10n, isEnglish),
+          _buildLegend(l10n, isEnglish),
+          _buildTimelineController(l10n, isEnglish),
+        ],
+      ),
+    );
+  }
+
+  // ========== AppBar ==========
+  PreferredSizeWidget _buildAppBar(AppLocalizations l10n, bool isEnglish) {
+    return AppBar(
+      title: showSearchBar
+          ? _buildSearchField(isEnglish)
+          : Text(l10n.appTitle),
+      actions: [
+        IconButton(
+          icon: Icon(showSearchBar ? Icons.close : Icons.search),
+          onPressed: () {
+            setState(() {
+              showSearchBar = !showSearchBar;
+              if (!showSearchBar) searchQuery = '';
+            });
+          },
+        ),
+        IconButton(
+          icon: Icon(Icons.filter_list),
+          onPressed: () => _showFilterDialog(isEnglish),
+        ),
+        _buildLanguageMenu(),
+      ],
+    );
+  }
+
+  Widget _buildSearchField(bool isEnglish) {
+    return Container(
+      padding: EdgeInsets.symmetric(horizontal: 8),
+      decoration: BoxDecoration(
+        color: Colors.white.withOpacity(0.2),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: TextField(
+        autofocus: true,
+        style: TextStyle(color: Colors.black),
+        decoration: InputDecoration(
+          hintText: isEnglish ? 'Search...' : '搜索...',
+          hintStyle: TextStyle(color: Colors.white70),
+          border: InputBorder.none,
+          icon: Icon(Icons.search, color: Colors.white70, size: 20),
+        ),
+        onChanged: (value) => setState(() => searchQuery = value),
+      ),
+    );
+  }
+
+  Widget _buildLanguageMenu() {
+    return PopupMenuButton<Locale>(
+      icon: Icon(Icons.language),
+      onSelected: widget.onLanguageChange,
+      itemBuilder: (context) => [
+        PopupMenuItem(
+          value: Locale('zh'),
+          child: Row(
+            children: [Text('🇨🇳'), SizedBox(width: 8), Text('中文')],
+          ),
+        ),
+        PopupMenuItem(
+          value: Locale('en'),
+          child: Row(
+            children: [Text('🇬🇧'), SizedBox(width: 8), Text('English')],
+          ),
+        ),
+      ],
+    );
+  }
+
+  // ========== 地图 ==========
+  Widget _buildMap() {
+    return FlutterMap(
+      options: MapOptions(
+        initialCenter: LatLng(30, 0),
+        initialZoom: 2,
+      ),
+      children: [
+        TileLayer(
+          urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+          userAgentPackageName: 'com.example.science_map',
+        ),
+        _buildPolylineLayer(),
+        _buildArrowLayer(),
+        _buildMarkerLayer(),
+      ],
+    );
+  }
+
+  PolylineLayer _buildPolylineLayer() {
+    return PolylineLayer(
+      polylines: getInfluenceLines().map((line) {
+        return Polyline(
+          points: [line['from'], line['to']],
+          strokeWidth: 3.0,
+          color: Colors.blue.withOpacity(0.7),
+          borderStrokeWidth: 1.0,
+          borderColor: Colors.white.withOpacity(0.5),
+        );
+      }).toList(),
+    );
+  }
+
+  MarkerLayer _buildArrowLayer() {
+    return MarkerLayer(
+      markers: getInfluenceLines().map((line) {
+        LatLng midPoint = LatLng(
+          (line['from'].latitude + line['to'].latitude) / 2,
+          (line['from'].longitude + line['to'].longitude) / 2,
+        );
+        
+        double angle = math.atan2(
+          line['to'].latitude - line['from'].latitude,
+          line['to'].longitude - line['from'].longitude,
+        );
+        
+        return Marker(
+          point: midPoint,
+          width: 30,
+          height: 30,
+          child: GestureDetector(
+            onTap: () => _showInfluenceDialog(line),
+            child: Transform.rotate(
+              angle: angle + math.pi / 2,
+              child: Icon(Icons.arrow_drop_down, color: Colors.blue, size: 30),
+            ),
+          ),
+        );
+      }).toList(),
+    );
+  }
+
+  MarkerLayer _buildMarkerLayer() {
+    return MarkerLayer(
+      markers: getFilteredEvents().map((event) {
+        String field = event['field'] ?? '综合';
+        Color color = getFieldColor(field);
+        String emoji = getFieldEmoji(field);
+        
+        return Marker(
+          point: LatLng(event['lat'], event['lng']),
+          width: 80,
+          height: 80,
+          child: GestureDetector(
+            onTap: () => _showEventDialog(event),
+            child: Column(
+              children: [
+                Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                    color: color,
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: color.withOpacity(0.4),
+                        blurRadius: 8,
+                        spreadRadius: 2,
+                      ),
+                    ],
+                  ),
+                  child: Center(
+                    child: Text(emoji, style: TextStyle(fontSize: 22)),
+                  ),
+                ),
+                SizedBox(height: 4),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(color: color, width: 2),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black12,
+                        blurRadius: 4,
+                        offset: Offset(0, 2),
+                      ),
+                    ],
+                  ),
+                  child: Text(
+                    '${event['year']}',
+                    style: TextStyle(
+                      fontSize: 11,
+                      fontWeight: FontWeight.bold,
+                      color: color,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      }).toList(),
+    );
+  }
+
+  // ========== 学习路径选择器 ==========
+  Widget _buildLearningPathSelector(AppLocalizations l10n, bool isEnglish) {
+    return Positioned(
+      top: 20,
+      left: 20,
+      child: Card(
+        elevation: 4,
+        child: Container(
+          width: 250,
+          padding: EdgeInsets.all(12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                l10n.learningPath,
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
+              SizedBox(height: 8),
+              DropdownButton<String>(
+                isExpanded: true,
+                value: selectedStoryMode,
+                hint: Text(l10n.selectTheme),
+                items: [
+                  DropdownMenuItem<String>(
+                    value: null,
+                    child: Text(l10n.allEvents),
+                  ),
+                  ...storyModes.map((mode) {
+                    String title = isEnglish && mode['title_en'] != null
+                        ? mode['title_en']
+                        : mode['title'];
+                    return DropdownMenuItem<String>(
+                      value: mode['id'] as String,
+                      child: Row(
+                        children: [
+                          Text(mode['emoji'], style: TextStyle(fontSize: 20)),
+                          SizedBox(width: 8),
+                          Expanded(child: Text(title, style: TextStyle(fontSize: 14))),
+                        ],
+                      ),
+                    );
+                  }),
+                ],
+                onChanged: (value) {
+                  setState(() {
+                    selectedStoryMode = value;
+                    if (value != null) {
+                      var mode = storyModes.firstWhere((m) => m['id'] == value);
+                      var firstEventId = mode['events'][0];
+                      var firstEvent = events.firstWhere(
+                        (e) => e['id'] == firstEventId,
+                        orElse: () => {},
+                      );
+                      if (firstEvent.isNotEmpty) {
+                        selectedYear = firstEvent['year'].toDouble();
+                      }
+                    }
+                  });
+                },
+              ),
+              if (selectedStoryMode != null) ...[
+                SizedBox(height: 8),
+                Text(
+                  _getStoryModeDescription(selectedStoryMode!, isEnglish),
+                  style: TextStyle(fontSize: 12, color: Colors.grey[600]),
+                ),
+                SizedBox(height: 8),
+                ElevatedButton.icon(
+                  onPressed: _startStoryMode,
+                  icon: Icon(Icons.play_arrow),
+                  label: Text(l10n.startLearning),
+                  style: ElevatedButton.styleFrom(
+                    minimumSize: Size(double.infinity, 36),
+                  ),
+                ),
+              ],
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  String _getStoryModeDescription(String modeId, bool isEnglish) {
+    var mode = storyModes.firstWhere((m) => m['id'] == modeId);
+    return isEnglish && mode['description_en'] != null
+        ? mode['description_en']
+        : mode['description'];
   }
 
   void _startStoryMode() {
@@ -315,55 +608,175 @@ class _MapScreenState extends State<MapScreen> {
       orElse: () => {},
     );
     
-    if (firstEvent.isEmpty) return;
-    
-    setState(() {
-      selectedYear = firstEvent['year'].toDouble();
-    });
-    
-    Future.delayed(Duration(milliseconds: 500), () {
-      _showEventDialog(firstEvent);
-    });
+    if (firstEvent.isNotEmpty) {
+      setState(() {
+        selectedYear = firstEvent['year'].toDouble();
+      });
+      Future.delayed(Duration(milliseconds: 500), () {
+        _showEventDialog(firstEvent);
+      });
+    }
   }
 
-  void _showCompletionDialog(String modeTitle) {
-    final locale = Localizations.localeOf(context);
-    final isEnglish = locale.languageCode == 'en';
-    
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: Row(
-          children: [
-            Text('🎉'),
-            SizedBox(width: 8),
-            Text(isEnglish ? 'Completed!' : '完成学习！'),
-          ],
-        ),
-        content: Text(
-          isEnglish 
-              ? 'Congratulations on completing "$modeTitle"!\n\nYou have learned about the important developments in this field.'
-              : '恭喜你完成了《$modeTitle》的学习！\n\n你已经了解了这个领域的重要发展历程。'
-        ),
-        actions: [
-          TextButton(
-            onPressed: () {
-              Navigator.pop(context);
-              setState(() {
-                selectedStoryMode = null;
-              });
-            },
-            child: Text(isEnglish ? 'Awesome!' : '太棒了！'),
+  // ========== 图例 ==========
+  Widget _buildLegend(AppLocalizations l10n, bool isEnglish) {
+    return Positioned(
+      top: 20,
+      right: 20,
+      child: Card(
+        elevation: 4,
+        child: Padding(
+          padding: EdgeInsets.all(12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                l10n.fieldClassification,
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+              ),
+              SizedBox(height: 8),
+              ...fieldColors.entries.map((entry) {
+                String fieldName = getFieldName(entry.key, isEnglish);
+                return Padding(
+                  padding: EdgeInsets.symmetric(vertical: 2),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Container(
+                        width: 16,
+                        height: 16,
+                        decoration: BoxDecoration(
+                          color: entry.value,
+                          shape: BoxShape.circle,
+                        ),
+                      ),
+                      SizedBox(width: 8),
+                      Text(
+                        '${fieldEmojis[entry.key]} $fieldName',
+                        style: TextStyle(fontSize: 12),
+                      ),
+                    ],
+                  ),
+                );
+              }),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }
 
-  void _showFilterDialog() {
-    final locale = Localizations.localeOf(context);
-    final isEnglish = locale.languageCode == 'en';
-    
+  // ========== 时间轴控制器 ==========
+  Widget _buildTimelineController(AppLocalizations l10n, bool isEnglish) {
+    return Positioned(
+      bottom: 20,
+      left: 20,
+      right: 20,
+      child: Card(
+        elevation: 8,
+        child: Padding(
+          padding: EdgeInsets.all(16),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                '${l10n.year}: ${selectedYear.round()}',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blue[800],
+                ),
+              ),
+              SizedBox(height: 8),
+              Slider(
+                value: selectedYear,
+                min: -500,
+                max: 2020,
+                divisions: 2520,
+                label: selectedYear.round().toString(),
+                onChanged: isPlaying ? null : (value) {
+                  setState(() => selectedYear = value);
+                },
+              ),
+              SizedBox(height: 8),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  IconButton(
+                    icon: Icon(Icons.replay),
+                    iconSize: 32,
+                    color: Colors.blue[700],
+                    onPressed: _resetAnimation,
+                  ),
+                  SizedBox(width: 20),
+                  ElevatedButton.icon(
+                    onPressed: _togglePlay,
+                    icon: Icon(isPlaying ? Icons.pause : Icons.play_arrow, size: 32),
+                    label: Text(
+                      isPlaying ? l10n.pauseButton : l10n.playButton,
+                      style: TextStyle(fontSize: 18),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                      backgroundColor: isPlaying ? Colors.orange : Colors.green,
+                      foregroundColor: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: 8),
+              Text(
+                '${isEnglish ? "Showing" : "显示"} ${getFilteredEvents().length} ${l10n.eventsCount} | ${getInfluenceLines().length} ${l10n.linesCount}',
+                style: TextStyle(color: Colors.grey[600], fontSize: 12),
+              ),
+              if (selectedFields.isNotEmpty || searchQuery.isNotEmpty) ...[
+                SizedBox(height: 8),
+                OutlinedButton.icon(
+                  onPressed: () {
+                    setState(() {
+                      selectedFields.clear();
+                      searchQuery = '';
+                      showSearchBar = false;
+                    });
+                  },
+                  icon: Icon(Icons.clear_all, size: 18),
+                  label: Text(isEnglish ? 'Clear Filters' : '清除筛选'),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: Colors.red,
+                    side: BorderSide(color: Colors.red),
+                  ),
+                ),
+              ],
+              if (selectedFields.isNotEmpty) ...[
+                SizedBox(height: 8),
+                Wrap(
+                  spacing: 6,
+                  alignment: WrapAlignment.center,
+                  children: selectedFields.map((fieldCn) {
+                    return Chip(
+                      label: Text(
+                        '${fieldEmojis[fieldCn]} ${getFieldName(fieldCn, isEnglish)}',
+                        style: TextStyle(fontSize: 11, color: Colors.white),
+                      ),
+                      backgroundColor: getFieldColor(fieldCn),
+                      deleteIcon: Icon(Icons.close, size: 16, color: Colors.white),
+                      onDeleted: () {
+                        setState(() => selectedFields.remove(fieldCn));
+                      },
+                    );
+                  }).toList(),
+                ),
+              ],
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  // ========== 筛选对话框 ==========
+  void _showFilterDialog(bool isEnglish) {
     showDialog(
       context: context,
       builder: (context) => StatefulBuilder(
@@ -380,48 +793,43 @@ class _MapScreenState extends State<MapScreen> {
               width: 300,
               child: Column(
                 mainAxisSize: MainAxisSize.min,
-                children: [
-                  ...fieldColors.entries.map((entry) {
-                    String fieldCn = entry.key;
-                    String fieldName = getFieldName(fieldCn, isEnglish);
-                    bool isSelected = selectedFields.contains(fieldCn);
-                    
-                    return CheckboxListTile(
-                      title: Row(
-                        children: [
-                          Container(
-                            width: 20,
-                            height: 20,
-                            decoration: BoxDecoration(
-                              color: entry.value,
-                              shape: BoxShape.circle,
-                            ),
+                children: fieldColors.entries.map((entry) {
+                  String fieldName = getFieldName(entry.key, isEnglish);
+                  bool isSelected = selectedFields.contains(entry.key);
+                  
+                  return CheckboxListTile(
+                    title: Row(
+                      children: [
+                        Container(
+                          width: 20,
+                          height: 20,
+                          decoration: BoxDecoration(
+                            color: entry.value,
+                            shape: BoxShape.circle,
                           ),
-                          SizedBox(width: 12),
-                          Text('${fieldEmojis[fieldCn]} $fieldName'),
-                        ],
-                      ),
-                      value: isSelected,
-                      onChanged: (bool? value) {
-                        setDialogState(() {
-                          if (value == true) {
-                            selectedFields.add(fieldCn);
-                          } else {
-                            selectedFields.remove(fieldCn);
-                          }
-                        });
-                      },
-                    );
-                  }).toList(),
-                ],
+                        ),
+                        SizedBox(width: 12),
+                        Text('${fieldEmojis[entry.key]} $fieldName'),
+                      ],
+                    ),
+                    value: isSelected,
+                    onChanged: (value) {
+                      setDialogState(() {
+                        if (value == true) {
+                          selectedFields.add(entry.key);
+                        } else {
+                          selectedFields.remove(entry.key);
+                        }
+                      });
+                    },
+                  );
+                }).toList(),
               ),
             ),
             actions: [
               TextButton(
                 onPressed: () {
-                  setDialogState(() {
-                    selectedFields.clear();
-                  });
+                  setDialogState(() => selectedFields.clear());
                 },
                 child: Text(isEnglish ? 'Clear All' : '清除全部'),
               ),
@@ -439,1643 +847,28 @@ class _MapScreenState extends State<MapScreen> {
     );
   }
 
-    @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-    final locale = Localizations.localeOf(context);
-    final isEnglish = locale.languageCode == 'en';
+  // ========== 事件详情对话框 ==========
+  void _showEventDialog(Map<String, dynamic> event) {
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
     
-    if (isLoading) {
-      return Scaffold(
-        appBar: AppBar(title: Text(l10n.appTitle)),
-        body: Center(
-          child: CircularProgressIndicator(),
-        ),
-      );
-    }
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Builder(
-          builder: (context) {
-            final locale = Localizations.localeOf(context);
-            final isEnglish = locale.languageCode == 'en';
-            
-            return showSearchBar
-                ? Container(
-                    padding: EdgeInsets.symmetric(horizontal: 8),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: TextField(
-                      autofocus: true,
-                      style: TextStyle(color: Colors.black, fontSize: 16),
-                      cursorColor: Colors.white,
-                      decoration: InputDecoration(
-                        hintText: isEnglish ? 'Search events...' : '搜索事件...',
-                        hintStyle: TextStyle(color: Colors.white70),
-                        border: InputBorder.none,
-                        icon: Icon(Icons.search, color: Colors.white70, size: 20),
-                      ),
-                      onChanged: (value) {
-                        setState(() {
-                          searchQuery = value;
-                        });
-                      },
-                    ),
-                  )
-                : Text(l10n.appTitle);
-          },
-        ),
-        actions: [
-          IconButton(
-            icon: Icon(showSearchBar ? Icons.close : Icons.search),
-            onPressed: () {
-              setState(() {
-                showSearchBar = !showSearchBar;
-                if (!showSearchBar) {
-                  searchQuery = '';
-                }
-              });
-            },
-          ),
-          IconButton(
-            icon: Icon(Icons.filter_list),
-            onPressed: () => _showFilterDialog(),
-          ),
-          PopupMenuButton<Locale>(
-            icon: Icon(Icons.language),
-            onSelected: widget.onLanguageChange,
-            itemBuilder: (context) => [
-              PopupMenuItem(
-                value: Locale('zh'),
-                child: Row(
-                  children: [
-                    Text('🇨🇳'),
-                    SizedBox(width: 8),
-                    Text('中文'),
-                  ],
-                ),
-              ),
-              PopupMenuItem(
-                value: Locale('en'),
-                child: Row(
-                  children: [
-                    Text('🇬🇧'),
-                    SizedBox(width: 8),
-                    Text('English'),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ],
-      ),
-      body: Stack(
-        children: [
-          FlutterMap(
-            options: MapOptions(
-              initialCenter: LatLng(30, 0),
-              initialZoom: 2,
-            ),
-            children: [
-              TileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                userAgentPackageName: 'com.example.science_map',
-              ),
-              
-              PolylineLayer(
-                polylines: getInfluenceLines().map((line) {
-                  return Polyline(
-                    points: [line['from'], line['to']],
-                    strokeWidth: 3.0,
-                    color: Colors.blue.withOpacity(0.7),
-                    borderStrokeWidth: 1.0,
-                    borderColor: Colors.white.withOpacity(0.5),
-                  );
-                }).toList(),
-              ),
-              
-              MarkerLayer(
-                markers: getInfluenceLines().map((line) {
-                  LatLng midPoint = LatLng(
-                    (line['from'].latitude + line['to'].latitude) / 2,
-                    (line['from'].longitude + line['to'].longitude) / 2,
-                  );
-                  
-                  double angle = math.atan2(
-                    line['to'].latitude - line['from'].latitude,
-                    line['to'].longitude - line['from'].longitude,
-                  );
-                  
-                  return Marker(
-                    point: midPoint,
-                    width: 30,
-                    height: 30,
-                    child: GestureDetector(
-                      onTap: () => _showInfluenceDialog(line),
-                      child: Transform.rotate(
-                        angle: angle + math.pi / 2,
-                        child: Icon(
-                          Icons.arrow_drop_down,
-                          color: Colors.blue,
-                          size: 30,
-                        ),
-                      ),
-                    ),
-                  );
-                }).toList(),
-              ),
-              
-              MarkerLayer(
-                markers: getFilteredEvents().map((event) {
-                  String field = event['field'] ?? '综合';
-                  Color color = getFieldColor(field);
-                  String emoji = getFieldEmoji(field);
-                  
-                  return Marker(
-                    point: LatLng(event['lat'], event['lng']),
-                    width: 80,
-                    height: 80,
-                    child: GestureDetector(
-                      onTap: () => _showEventDialog(event),
-                      child: Column(
-                        children: [
-                          Container(
-                            width: 40,
-                            height: 40,
-                            decoration: BoxDecoration(
-                              color: color,
-                              shape: BoxShape.circle,
-                              boxShadow: [
-                                BoxShadow(
-                                  color: color.withOpacity(0.4),
-                                  blurRadius: 8,
-                                  spreadRadius: 2,
-                                ),
-                              ],
-                            ),
-                            child: Center(
-                              child: Text(
-                                emoji,
-                                style: TextStyle(fontSize: 22),
-                              ),
-                            ),
-                          ),
-                          SizedBox(height: 4),
-                          Container(
-                            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(12),
-                              border: Border.all(color: color, width: 2),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.black12,
-                                  blurRadius: 4,
-                                  offset: Offset(0, 2),
-                                ),
-                              ],
-                            ),
-                            child: Text(
-                              '${event['year']}', 
-                              style: TextStyle(
-                                fontSize: 11,
-                                fontWeight: FontWeight.bold,
-                                color: color,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  );
-                }).toList(),
-              ),
-            ],
-          ),
-          
-          // 学习路径选择器
-          Positioned(
-            top: 20,
-            left: 20,
-            child: Card(
-              elevation: 4,
-              child: Container(
-                width: 250,
-                padding: EdgeInsets.all(12),
-                child: Builder(
-                  builder: (context) {
-                    final l10n = AppLocalizations.of(context);
-                    final locale = Localizations.localeOf(context);
-                    final isEnglish = locale.languageCode == 'en';
-                    
-                    return Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          l10n.learningPath,
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
-                          ),
-                        ),
-                        SizedBox(height: 8),
-                        DropdownButton<String>(
-                          isExpanded: true,
-                          value: selectedStoryMode,
-                          hint: Text(l10n.selectTheme),
-                          items: [
-                            DropdownMenuItem<String>(
-                              value: null,
-                              child: Text(l10n.allEvents),
-                            ),
-                            ...storyModes.map((mode) {
-                              String modeTitle = isEnglish && mode['title_en'] != null
-                                  ? mode['title_en']
-                                  : mode['title'];
-                              
-                              return DropdownMenuItem<String>(
-                                value: mode['id'] as String,
-                                child: Row(
-                                  children: [
-                                    Text(mode['emoji'], style: TextStyle(fontSize: 20)),
-                                    SizedBox(width: 8),
-                                    Expanded(
-                                      child: Text(
-                                        modeTitle,
-                                        style: TextStyle(fontSize: 14),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              );
-                            }).toList(),
-                          ],
-                          onChanged: (value) {
-                            setState(() {
-                              selectedStoryMode = value;
-                              if (value != null) {
-                                var mode = storyModes.firstWhere((m) => m['id'] == value);
-                                var firstEventId = mode['events'][0];
-                                var firstEvent = events.firstWhere(
-                                  (e) => e['id'] == firstEventId,
-                                  orElse: () => {},
-                                );
-                                if (firstEvent.isNotEmpty) {
-                                  selectedYear = firstEvent['year'].toDouble();
-                                }
-                              }
-                            });
-                          },
-                        ),
-                        if (selectedStoryMode != null) ...[
-                          SizedBox(height: 8),
-                          Builder(
-                            builder: (context) {
-                              var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
-                              String modeDescription = isEnglish && mode['description_en'] != null
-                                  ? mode['description_en']
-                                  : mode['description'];
-                              
-                              return Text(
-                                modeDescription,
-                                style: TextStyle(fontSize: 12, color: Colors.grey[600]),
-                              );
-                            },
-                          ),
-                          SizedBox(height: 8),
-                          ElevatedButton.icon(
-                            onPressed: () => _startStoryMode(),
-                            icon: Icon(Icons.play_arrow),
-                            label: Text(l10n.startLearning),
-                            style: ElevatedButton.styleFrom(
-                              minimumSize: Size(double.infinity, 36),
-                            ),
-                          ),
-                        ],
-                      ],
-                    );
-                  },
-                ),
-              ),
-            ),
-          ),
-          
-          // 图例
-          Positioned(
-            top: 20,
-            right: 20,
-            child: Card(
-              elevation: 4,
-              child: Padding(
-                padding: EdgeInsets.all(12),
-                child: Builder(
-                  builder: (context) {
-                    final l10n = AppLocalizations.of(context);
-                    final locale = Localizations.localeOf(context);
-                    final isEnglish = locale.languageCode == 'en';
-                    
-                    return Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          l10n.fieldClassification,
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 14,
-                          ),
-                        ),
-                        SizedBox(height: 8),
-                        ...fieldColors.entries.map((entry) {
-                          String fieldName = getFieldName(entry.key, isEnglish);
-                          
-                          return Padding(
-                            padding: EdgeInsets.symmetric(vertical: 2),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Container(
-                                  width: 16,
-                                  height: 16,
-                                  decoration: BoxDecoration(
-                                    color: entry.value,
-                                    shape: BoxShape.circle,
-                                  ),
-                                ),
-                                SizedBox(width: 8),
-                                Text(
-                                  '${fieldEmojis[entry.key]} $fieldName',
-                                  style: TextStyle(fontSize: 12),
-                                ),
-                              ],
-                            ),
-                          );
-                        }).toList(),
-                      ],
-                    );
-                  },
-                ),
-              ),
-            ),
-          ),
-          
-          // 时间轴控制器
-          Positioned(
-            bottom: 20,
-            left: 20,
-            right: 20,
-            child: Card(
-              elevation: 8,
-              child: Padding(
-                padding: EdgeInsets.all(16),
-                child: Builder(
-                  builder: (context) {
-                    final l10n = AppLocalizations.of(context);
-                    final locale = Localizations.localeOf(context);
-                    final isEnglish = locale.languageCode == 'en';
-                    
-                    return Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          '${l10n.year}: ${selectedYear.round()}',
-                          style: TextStyle(
-                            fontSize: 24, 
-                            fontWeight: FontWeight.bold,
-                            color: Colors.blue[800],
-                          ),
-                        ),
-                        SizedBox(height: 8),
-                        
-                        Slider(
-                          value: selectedYear,
-                          min: -500,
-                          max: 2020,
-                          divisions: 2520,
-                          label: selectedYear.round().toString(),
-                          onChanged: isPlaying ? null : (value) {
-                            setState(() {
-                              selectedYear = value;
-                            });
-                          },
-                        ),
-                        
-                        SizedBox(height: 8),
-                        
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            IconButton(
-                              icon: Icon(Icons.replay),
-                              iconSize: 32,
-                              color: Colors.blue[700],
-                              onPressed: _resetAnimation,
-                              tooltip: l10n.resetButton,
-                            ),
-                            
-                            SizedBox(width: 20),
-                            
-                            ElevatedButton.icon(
-                              onPressed: _togglePlay,
-                              icon: Icon(
-                                isPlaying ? Icons.pause : Icons.play_arrow,
-                                size: 32,
-                              ),
-                              label: Text(
-                                isPlaying ? l10n.pauseButton : l10n.playButton,
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 24, 
-                                  vertical: 12
-                                ),
-                                backgroundColor: isPlaying ? Colors.orange : Colors.green,
-                                foregroundColor: Colors.white,
-                              ),
-                            ),
-                          ],
-                        ),
-                        
-                        SizedBox(height: 8),
-                        
-                        Text(
-                          '${isEnglish ? "Showing" : "显示"} ${getFilteredEvents().length} ${l10n.eventsCount} | ${getInfluenceLines().length} ${l10n.linesCount}' +
-                          (selectedFields.isNotEmpty ? ' | ${isEnglish ? "Filtered" : "已筛选"}' : '') +
-                          (searchQuery.isNotEmpty ? ' | ${isEnglish ? "Searching" : "搜索中"}' : ''),
-                          style: TextStyle(color: Colors.grey[600], fontSize: 12),
-                          textAlign: TextAlign.center,
-                        ),
-                        
-                        if (selectedFields.isNotEmpty || searchQuery.isNotEmpty) ...[
-                          SizedBox(height: 8),
-                          OutlinedButton.icon(
-                            onPressed: () {
-                              setState(() {
-                                selectedFields.clear();
-                                searchQuery = '';
-                                showSearchBar = false;
-                              });
-                            },
-                            icon: Icon(Icons.clear_all, size: 18),
-                            label: Text(
-                              isEnglish ? 'Clear Filters' : '清除筛选',
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            style: OutlinedButton.styleFrom(
-                              foregroundColor: Colors.red,
-                              side: BorderSide(color: Colors.red),
-                              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                            ),
-                          ),
-                        ],
-                        
-                        if (selectedFields.isNotEmpty) ...[
-                          SizedBox(height: 8),
-                          Wrap(
-                            spacing: 6,
-                            runSpacing: 6,
-                            alignment: WrapAlignment.center,
-                            children: selectedFields.map((fieldCn) {
-                              String fieldName = getFieldName(fieldCn, isEnglish);
-                              Color fieldColor = getFieldColor(fieldCn);
-                              
-                              return Chip(
-                                label: Text(
-                                  '${fieldEmojis[fieldCn]} $fieldName',
-                                  style: TextStyle(fontSize: 11, color: Colors.white),
-                                ),
-                                backgroundColor: fieldColor,
-                                deleteIcon: Icon(Icons.close, size: 16, color: Colors.white),
-                                onDeleted: () {
-                                  setState(() {
-                                    selectedFields.remove(fieldCn);
-                                  });
-                                },
-                              );
-                            }).toList(),
-                          ),
-                        ],
-                      ],
-                    );
-                  },
-                ),
-              ),
-            ),
-          ),
-        ],
+    // 提取数据
+    final data = EventData.fromJson(event, isEnglish, events);
+    final color = getFieldColor(event['field'] ?? '综合');
+    final emoji = getFieldEmoji(event['field'] ?? '综合');
+    
+    showDialog(
+      context: context,
+      builder: (context) => EventDialog(
+        data: data,
+        color: color,
+        emoji: emoji,
+        isEnglish: isEnglish,
       ),
     );
-  }
-
-    void _showEventDialog(Map<String, dynamic> event) {
-    final l10n = AppLocalizations.of(context);
-    final locale = Localizations.localeOf(context);
-    final isEnglish = locale.languageCode == 'en';
-    
-    // 基本字段
-    String title = isEnglish && event['title_en'] != null 
-        ? event['title_en'] 
-        : event['title'];
-    String city = isEnglish && event['city_en'] != null 
-        ? event['city_en'] 
-        : event['city'] ?? '';
-    String field = isEnglish && event['field_en'] != null 
-        ? event['field_en'] 
-        : (event['field'] ?? '综合');
-    String? description = isEnglish && event['description_en'] != null 
-        ? event['description_en'] 
-        : event['description'];
-    
-    // 🆕 处理嵌套的story对象
-    String? storyBrief;
-    String? storyDetailed;
-    String? historicalContext;
-    List? timeline;
-    
-    if (event['story'] != null) {
-      if (event['story'] is String) {
-        storyBrief = event['story'];
-      } else if (event['story'] is Map) {
-        var storyObj = isEnglish && event['story_en'] != null 
-            ? event['story_en'] 
-            : event['story'];
-        storyBrief = storyObj['brief'];
-        storyDetailed = storyObj['detailed'];
-        historicalContext = storyObj['historical_context'];
-        timeline = storyObj['timeline'];
-      }
-    }
-    
-    // 🆕 处理嵌套的fun_fact对象
-    String? funFactBrief;
-    List? funFactExtended;
-    
-    if (event['fun_fact'] != null) {
-      if (event['fun_fact'] is String) {
-        funFactBrief = event['fun_fact'];
-      } else if (event['fun_fact'] is Map) {
-        var funFactObj = isEnglish && event['fun_fact_en'] != null 
-            ? event['fun_fact_en'] 
-            : event['fun_fact'];
-        funFactBrief = funFactObj['brief'];
-        funFactExtended = funFactObj['extended'];
-      }
-    }
-    
-    // 🆕 处理嵌套的impact对象
-    String? impactBrief;
-    String? impactDetailed;
-    List? modernExamples;
-    
-    if (event['impact'] != null) {
-      if (event['impact'] is String) {
-        impactBrief = event['impact'];
-      } else if (event['impact'] is Map) {
-        var impactObj = isEnglish && event['impact_en'] != null 
-            ? event['impact_en'] 
-            : event['impact'];
-        impactBrief = impactObj['brief'];
-        impactDetailed = impactObj['detailed'];
-        modernExamples = impactObj['modern_examples'];
-      }
-    }
-    
-    // 🆕 处理嵌套的kid_friendly_explanation对象
-    String? kidExplanationSimple;
-    String? kidExplanationDetailed;
-    String? interactiveChallenge;
-    
-    if (event['kid_friendly_explanation'] != null) {
-      if (event['kid_friendly_explanation'] is String) {
-        kidExplanationSimple = event['kid_friendly_explanation'];
-      } else if (event['kid_friendly_explanation'] is Map) {
-        var kidObj = isEnglish && event['kid_friendly_explanation_en'] != null 
-            ? event['kid_friendly_explanation_en'] 
-            : event['kid_friendly_explanation'];
-        kidExplanationSimple = kidObj['simple'];
-        kidExplanationDetailed = kidObj['detailed'];
-        interactiveChallenge = kidObj['interactive_challenge'];
-      }
-    }
-    
-    // 其他字段
-    String? principle = isEnglish && event['principle_en'] != null 
-        ? event['principle_en'] 
-        : event['principle'];
-    String? applications = isEnglish && event['applications_en'] != null 
-        ? event['applications_en'] 
-        : event['applications'];
-    String? experiment = isEnglish && event['experiment_en'] != null 
-        ? event['experiment_en'] 
-        : event['experiment'];
-    String? influenceStory = isEnglish && event['influence_story_en'] != null 
-        ? event['influence_story_en'] 
-        : event['influence_story'];
-    
-    // 影响关系
-    var influences = event['influences'] ?? [];
-    var influenceNames = <String>[];
-    
-    for (var id in influences) {
-      var e = events.firstWhere((ev) => ev['id'] == id, orElse: () => {});
-      if (e.isNotEmpty) {
-        String eventTitle = isEnglish && e['title_en'] != null 
-            ? e['title_en'] 
-            : e['title'];
-        influenceNames.add(eventTitle);
-      }
-    }
-    
-    var influencedEvents = <String>[];
-    for (var e in events) {
-      var eInfluences = e['influences'] ?? [];
-      if (eInfluences.contains(event['id'])) {
-        String eventTitle = isEnglish && e['title_en'] != null 
-            ? e['title_en'] 
-            : e['title'];
-        influencedEvents.add(eventTitle);
-      }
-    }
-    
-    Color color = getFieldColor(event['field'] ?? '综合');
-    String emoji = getFieldEmoji(event['field'] ?? '综合');
-    
-     showDialog(
-       context: context,
-       builder: (context) => DefaultTabController(
-         length: 5,
-        child: Dialog(
-          child: Container(
-            width: 600,
-            height: 700,
-            child: Column(
-              children: [
-                // 标题栏
-                Container(
-                  padding: EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [color.withOpacity(0.7), color],
-                    ),
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(4),
-                      topRight: Radius.circular(4),
-                    ),
-                  ),
-                  child: Row(
-                    children: [
-                      Text(emoji, style: TextStyle(fontSize: 32)),
-                      SizedBox(width: 12),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              title,
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
-                            ),
-                            Text(
-                              '${event['year']} · $city',
-                              style: TextStyle(
-                                fontSize: 14,
-                                color: Colors.white70,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      IconButton(
-                        icon: Icon(Icons.close, color: Colors.white),
-                        onPressed: () => Navigator.pop(context),
-                      ),
-                    ],
-                  ),
-                ),
-                
-                 // 标签栏
-                 Container(
-                   color: color.withOpacity(0.1),
-                   child: TabBar(
-                     labelColor: color,
-                     unselectedLabelColor: Colors.grey,
-                     indicatorColor: color,
-                     tabs: [
-                       Tab(
-                         icon: Icon(Icons.info_outline, size: 20),
-                         text: isEnglish ? 'Overview' : '概览',
-                       ),
-                       Tab(
-                         icon: Icon(Icons.science, size: 20),
-                         text: isEnglish ? 'Science' : '科学',
-                       ),
-                       Tab(
-                         icon: Icon(Icons.account_tree, size: 20),
-                         text: isEnglish ? 'Impact' : '影响',
-                       ),
-                       Tab(
-                         icon: Icon(Icons.link, size: 20),
-                         text: isEnglish ? 'Connections' : '关系',
-                       ),
-                       Tab(
-                         icon: Icon(Icons.quiz, size: 20),
-                         text: isEnglish ? 'Quiz' : '测验',
-                       ),
-                     ],
-                   ),
-                 ),
-                
-                // 标签页内容
-                Expanded(
-                  child: TabBarView(
-                    children: [
-                      _buildOverviewTab(
-                        event, 
-                        color, 
-                        isEnglish,
-                        field,
-                        description,
-                        storyBrief,
-                        storyDetailed,
-                        historicalContext,
-                        timeline,
-                        funFactBrief,
-                        funFactExtended,
-                        kidExplanationSimple,
-                        kidExplanationDetailed,
-                        interactiveChallenge,
-                      ),
-                      
-                      _buildScienceTab(
-                        event,
-                        color,
-                        isEnglish,
-                        principle,
-                        applications,
-                        experiment,
-                        kidExplanationSimple,
-                        kidExplanationDetailed,
-                        interactiveChallenge,
-                      ),
-                      
-                      _buildImpactTab(
-                        event,
-                        color,
-                        isEnglish,
-                        impactBrief,
-                        impactDetailed,
-                        modernExamples,
-                        influenceStory,
-                        influenceNames,
-                        influencedEvents,
-                      ),
-                      
-                      _buildConnectionsTab(
-                        event,
-                        color,
-                        isEnglish,
-                      ),
-                      
-                      _buildQuizTab(
-                        event,
-                        color,
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-    // 概览标签页
-  Widget _buildOverviewTab(
-    Map<String, dynamic> event,
-    Color color,
-    bool isEnglish,
-    String field,
-    String? description,
-    String? storyBrief,
-    String? storyDetailed,
-    String? historicalContext,
-    List? timeline,
-    String? funFactBrief,
-    List? funFactExtended,
-    String? kidExplanationSimple,
-    String? kidExplanationDetailed,
-    String? interactiveChallenge,
-  ) {
-    String emoji = getFieldEmoji(event['field'] ?? '综合');
-    
-    return SingleChildScrollView(
-      padding: EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // 渐变色块
-          Container(
-            height: 180,
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [
-                  color.withOpacity(0.4),
-                  color.withOpacity(0.7),
-                  color,
-                ],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-              ),
-              borderRadius: BorderRadius.circular(16),
-              boxShadow: [
-                BoxShadow(
-                  color: color.withOpacity(0.3),
-                  blurRadius: 12,
-                  offset: Offset(0, 4),
-                ),
-              ],
-            ),
-            child: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(emoji, style: TextStyle(fontSize: 72)),
-                  SizedBox(height: 12),
-                  Container(
-                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.9),
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: Text(
-                      field,
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: color,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          SizedBox(height: 16),
-          
-          // 简介
-          if (description != null && description.isNotEmpty) ...[
-            _buildSection('📖 ${isEnglish ? "Introduction" : "简介"}', description, color),
-          ],
-          
-          // 简短故事
-          if (storyBrief != null && storyBrief.isNotEmpty) ...[
-            _buildSection('📚 ${isEnglish ? "Story" : "故事"}', storyBrief, color),
-          ],
-          
-          // 详细故事
-          if (storyDetailed != null && storyDetailed.isNotEmpty) ...[
-            _buildExpandableSection(
-              '📖 ${isEnglish ? "Detailed Story" : "详细故事"}',
-              storyDetailed,
-              color,
-            ),
-          ],
-          
-          // 历史背景
-          if (historicalContext != null && historicalContext.isNotEmpty) ...[
-            _buildExpandableSection(
-              '🏛️ ${isEnglish ? "Historical Context" : "历史背景"}',
-              historicalContext,
-              color,
-            ),
-          ],
-          
-          // 时间线
-          if (timeline != null && timeline.isNotEmpty) ...[
-            _buildTimeline(timeline, color, isEnglish),
-          ],
-          
-          // 简短趣味知识
-          if (funFactBrief != null && funFactBrief.isNotEmpty) ...[
-            _buildSection('🎉 ${isEnglish ? "Fun Fact" : "趣味知识"}', funFactBrief, color),
-          ],
-          
-          // 扩展趣味知识
-          if (funFactExtended != null && funFactExtended.isNotEmpty) ...[
-            _buildFunFactCards(funFactExtended, color),
-          ],
-          
-        ],
-      ),
-    );
-  }
-
-  // 科学标签页
-  Widget _buildScienceTab(
-    Map<String, dynamic> event,
-    Color color,
-    bool isEnglish,
-    String? principle,
-    String? applications,
-    String? experiment,
-    String? kidExplanationSimple,
-    String? kidExplanationDetailed,
-    String? interactiveChallenge,
-  ) {
-    return SingleChildScrollView(
-      padding: EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // 科学原理
-          if (principle != null && principle.isNotEmpty) ...[
-            _buildSection('🔬 ${isEnglish ? "Scientific Principle" : "科学原理"}', principle, color),
-          ],
-          
-          // 实际应用
-          if (applications != null && applications.isNotEmpty) ...[
-            _buildSection('💡 ${isEnglish ? "Real-world Applications" : "实际应用"}', applications, color),
-          ],
-          
-          // 动手实验
-          if (experiment != null && experiment.isNotEmpty) ...[
-            _buildSection('🧪 ${isEnglish ? "Try This Experiment" : "动手实验"}', experiment, color),
-          ],
-          
-          // 相关概念
-          if (event['related_concepts'] != null) ...[
-            SizedBox(height: 16),
-            Text(
-              '🔑 ${isEnglish ? "Related Concepts" : "相关概念"}',
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.bold,
-                color: color,
-              ),
-            ),
-            SizedBox(height: 8),
-            Builder(
-              builder: (context) {
-                List conceptsCn = event['related_concepts'] as List;
-                List? conceptsEn = event['related_concepts_en'] as List?;
-                
-                return Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: List.generate(conceptsCn.length, (index) {
-                    String conceptText;
-                    if (isEnglish && conceptsEn != null && index < conceptsEn.length) {
-                      conceptText = conceptsEn[index];
-                    } else {
-                      conceptText = conceptsCn[index];
-                    }
-                    
-                    return Chip(
-                      label: Text(conceptText),
-                      backgroundColor: color.withOpacity(0.1),
-                      side: BorderSide(color: color),
-                    );
-                  }),
-                );
-              },
-            ),
-          ],
-          
-          // 简单解释
-          if (kidExplanationSimple != null && kidExplanationSimple.isNotEmpty) ...[
-            _buildSection('👶 ${isEnglish ? "Simple Explanation" : "简单解释"}', kidExplanationSimple, color),
-          ],
-          
-          // 详细解释
-          if (kidExplanationDetailed != null && kidExplanationDetailed.isNotEmpty) ...[
-            _buildExpandableSection(
-              '🧒 ${isEnglish ? "Detailed Explanation" : "详细解释"}',
-              kidExplanationDetailed,
-              color,
-            ),
-          ],
-          
-          // 互动挑战
-          if (interactiveChallenge != null && interactiveChallenge.isNotEmpty) ...[
-            _buildInteractiveChallenge(interactiveChallenge, color, isEnglish),
-          ],
-          
-          // 如果没有科学内容
-          if ((principle == null || principle.isEmpty) &&
-              (applications == null || applications.isEmpty) &&
-              (experiment == null || experiment.isEmpty)) ...[
-            Center(
-              child: Padding(
-                padding: EdgeInsets.all(48),
-                child: Column(
-                  children: [
-                    Icon(Icons.science_outlined, size: 80, color: Colors.grey[300]),
-                    SizedBox(height: 16),
-                    Text(
-                      isEnglish 
-                          ? 'Scientific details\ncoming soon...' 
-                          : '科学详情\n即将添加...',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Colors.grey[600],
-                        fontSize: 16,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ],
-      ),
-    );
-  }
-
-  // 影响标签页
-  Widget _buildImpactTab(
-    Map<String, dynamic> event,
-    Color color,
-    bool isEnglish,
-    String? impactBrief,
-    String? impactDetailed,
-    List? modernExamples,
-    String? influenceStory,
-    List<String> influenceNames,
-    List<String> influencedEvents,
-  ) {
-    return SingleChildScrollView(
-      padding: EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // 简短影响
-          if (impactBrief != null && impactBrief.isNotEmpty) ...[
-            _buildSection('💫 ${isEnglish ? "Impact" : "影响"}', impactBrief, color),
-          ],
-          
-          // 详细影响
-          if (impactDetailed != null && impactDetailed.isNotEmpty) ...[
-            _buildExpandableSection(
-              '📊 ${isEnglish ? "Detailed Impact" : "详细影响"}',
-              impactDetailed,
-              color,
-            ),
-          ],
-          
-          // 现代应用例子
-          if (modernExamples != null && modernExamples.isNotEmpty) ...[
-            SizedBox(height: 16),
-            Text(
-              '💡 ${isEnglish ? "Modern Examples" : "现代例子"}',
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.bold,
-                color: color,
-              ),
-            ),
-            SizedBox(height: 12),
-            ...modernExamples.map((example) {
-              String exampleField = example['field'] ?? '';
-              String exampleContent = example['example'] ?? '';
-              
-              return Container(
-                margin: EdgeInsets.only(bottom: 12),
-                padding: EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: color.withOpacity(0.05),
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(color: color.withOpacity(0.3)),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      exampleField,
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                        color: color,
-                      ),
-                    ),
-                    SizedBox(height: 6),
-                    Text(
-                      exampleContent,
-                      style: TextStyle(fontSize: 13, height: 1.4),
-                    ),
-                  ],
-                ),
-              );
-            }).toList(),
-          ],
-          
-          // 知识传承故事
-          if (influenceStory != null && influenceStory.isNotEmpty) ...[
-            _buildExpandableSection(
-              '🔗 ${isEnglish ? "Knowledge Legacy" : "知识传承故事"}',
-              influenceStory,
-              color,
-            ),
-          ],
-          
-          // 影响关系网络
-          if (influenceNames.isNotEmpty || influencedEvents.isNotEmpty) ...[
-            SizedBox(height: 16),
-            Container(
-              padding: EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: Colors.blue.withOpacity(0.05),
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: Colors.blue.withOpacity(0.3), width: 2),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Icon(Icons.account_tree, color: Colors.blue[700], size: 24),
-                      SizedBox(width: 8),
-                      Text(
-                        isEnglish ? 'Knowledge Network' : '知识网络',
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.blue[900],
-                        ),
-                      ),
-                    ],
-                  ),
-                  
-                  if (influenceNames.isNotEmpty) ...[
-                    SizedBox(height: 12),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.orange.withOpacity(0.1),
-                        borderRadius: BorderRadius.circular(8),
-                        border: Border.all(color: Colors.orange.withOpacity(0.3)),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            children: [
-                              Icon(Icons.arrow_downward, color: Colors.orange[700], size: 20),
-                              SizedBox(width: 6),
-                              Text(
-                                isEnglish ? 'Influenced By' : '受以下影响',
-                                style: TextStyle(
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.orange[900],
-                                ),
-                              ),
-                            ],
-                          ),
-                          SizedBox(height: 8),
-                          ...influenceNames.map((name) => Padding(
-                            padding: EdgeInsets.only(left: 26, top: 4),
-                            child: Row(
-                              children: [
-                                Icon(Icons.circle, color: Colors.orange, size: 8),
-                                SizedBox(width: 8),
-                                Expanded(child: Text(name, style: TextStyle(fontSize: 13))),
-                              ],
-                            ),
-                          )),
-                        ],
-                      ),
-                    ),
-                  ],
-                  
-                  if (influencedEvents.isNotEmpty) ...[
-                    SizedBox(height: 12),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.green.withOpacity(0.1),
-                        borderRadius: BorderRadius.circular(8),
-                        border: Border.all(color: Colors.green.withOpacity(0.3)),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            children: [
-                              Icon(Icons.arrow_upward, color: Colors.green[700], size: 20),
-                              SizedBox(width: 6),
-                              Text(
-                                isEnglish ? 'Influenced' : '影响了以下',
-                                style: TextStyle(
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.green[900],
-                                ),
-                              ),
-                            ],
-                          ),
-                          SizedBox(height: 8),
-                          ...influencedEvents.map((name) => Padding(
-                            padding: EdgeInsets.only(left: 26, top: 4),
-                            child: Row(
-                              children: [
-                                Icon(Icons.circle, color: Colors.green, size: 8),
-                                SizedBox(width: 8),
-                                Expanded(child: Text(name, style: TextStyle(fontSize: 13))),
-                              ],
-                            ),
-                          )),
-                        ],
-                      ),
-                    ),
-                  ],
-                ],
-              ),
-            ),
-          ],
-        ],
-      ),
-    );
-  }
-
-  // 关系标签页
-  Widget _buildConnectionsTab(
-    Map<String, dynamic> event,
-    Color color,
-    bool isEnglish,
-  ) {
-    return SingleChildScrollView(
-      padding: EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // 与其他发现的联系
-          if (event['connections_to_other_discoveries'] != null && 
-              (event['connections_to_other_discoveries'] as List).isNotEmpty) ...[
-            _buildConnectionsSection(
-              '🔗 ${isEnglish ? "Connections to Other Discoveries" : "与其他发现的联系"}',
-              event['connections_to_other_discoveries'],
-              color,
-              isEnglish,
-            ),
-          ],
-          
-          // 受哪些文明影响
-          if (event['influenced_by'] != null && 
-              (event['influenced_by'] as List).isNotEmpty) ...[
-            _buildInfluencedBySection(
-              '📜 ${isEnglish ? "Influenced By" : "受以下文明影响"}',
-              event['influenced_by'],
-              color,
-              isEnglish,
-            ),
-          ],
-          
-          // 影响了哪些发现
-          if (event['influences'] != null && 
-              (event['influences'] as List).isNotEmpty) ...[
-            _buildInfluencesSection(
-              '🌟 ${isEnglish ? "Influences" : "影响了以下发现"}',
-              event['influences'],
-              color,
-              isEnglish,
-            ),
-          ],
-          
-          // 如果没有关系数据
-          if ((event['connections_to_other_discoveries'] == null || 
-               (event['connections_to_other_discoveries'] as List).isEmpty) &&
-              (event['influenced_by'] == null || 
-               (event['influenced_by'] as List).isEmpty) &&
-              (event['influences'] == null || 
-               (event['influences'] as List).isEmpty)) ...[
-            Center(
-              child: Padding(
-                padding: EdgeInsets.all(48),
-                child: Column(
-                  children: [
-                    Icon(Icons.link_off, size: 80, color: Colors.grey[300]),
-                    SizedBox(height: 16),
-                    Text(
-                      isEnglish 
-                          ? 'Connection details\ncoming soon...' 
-                          : '关系详情\n即将添加...',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Colors.grey[600],
-                        fontSize: 16,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ],
-      ),
-    );
-  }
-
-  // 测验标签页
-  Widget _buildQuizTab(
-    Map<String, dynamic> event,
-    Color color,
-  ) {
-    final locale = Localizations.localeOf(context);
-    final isEnglish = locale.languageCode == 'en';
-    
-    // 收集所有测验问题
-    List<Map<String, dynamic>> allQuizzes = [];
-    
-    // 添加主要测验
-    if (event['quiz'] != null) {
-      allQuizzes.add(event['quiz']);
-    }
-    
-    // 添加额外测验
-    if (event['additional_quizzes'] != null) {
-      allQuizzes.addAll(List<Map<String, dynamic>>.from(event['additional_quizzes']));
-    }
-    
-    return SingleChildScrollView(
-      padding: EdgeInsets.all(16),
-      child: Column(
-        children: [
-          if (allQuizzes.isNotEmpty) ...[
-            // 显示所有测验问题
-            ...allQuizzes.asMap().entries.map((entry) {
-              int index = entry.key;
-              Map<String, dynamic> quiz = entry.value;
-              
-              return Column(
-                children: [
-                  if (index > 0) SizedBox(height: 24), // 问题之间的间距
-                  _buildQuiz(quiz, color, questionNumber: index + 1),
-                ],
-              );
-            }).toList(),
-          ] else ...[
-            Center(
-              child: Padding(
-                padding: EdgeInsets.all(48),
-                child: Column(
-                  children: [
-                    Icon(Icons.quiz_outlined, size: 80, color: Colors.grey[300]),
-                    SizedBox(height: 16),
-                    Text(
-                      isEnglish 
-                          ? 'Quiz coming soon...' 
-                          : '测验即将添加...',
-                      style: TextStyle(
-                        color: Colors.grey[600],
-                        fontSize: 16,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ],
-      ),
-    );
-  }
-
-  // 基础内容区块
-  Widget _buildSection(String title, String content, Color color) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(height: 16),
-        Text(
-          title,
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: color,
-          ),
-        ),
-        SizedBox(height: 8),
-        Container(
-          padding: EdgeInsets.all(12),
-          decoration: BoxDecoration(
-            color: color.withOpacity(0.05),
-            borderRadius: BorderRadius.circular(8),
-            border: Border.all(color: color.withOpacity(0.3)),
-          ),
-          child: Text(
-            content,
-            style: TextStyle(
-              fontSize: 14,
-              height: 1.5,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-
-  // 可展开的内容区块
-  Widget _buildExpandableSection(String title, String content, Color color) {
-    return _ExpandableSection(
-      title: title,
-      content: content,
-      color: color,
-    );
-  }
-
-  // 时间线组件
-  Widget _buildTimeline(List timeline, Color color, bool isEnglish) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(height: 16),
-        Text(
-          '📅 ${isEnglish ? "Timeline" : "时间线"}',
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: color,
-          ),
-        ),
-        SizedBox(height: 12),
-        ...timeline.asMap().entries.map((entry) {
-          int index = entry.key;
-          var item = entry.value;
-          String year = item['year'] ?? '';
-          String eventText = item['event'] ?? '';
-          bool isLast = index == timeline.length - 1;
-          
-          return Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Column(
-                children: [
-                  Container(
-                    width: 12,
-                    height: 12,
-                    decoration: BoxDecoration(
-                      color: color,
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.white, width: 2),
-                    ),
-                  ),
-                  if (!isLast)
-                    Container(
-                      width: 2,
-                      height: 40,
-                      color: color.withOpacity(0.3),
-                    ),
-                ],
-              ),
-              SizedBox(width: 12),
-              Expanded(
-                child: Padding(
-                  padding: EdgeInsets.only(bottom: isLast ? 0 : 12),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        year,
-                        style: TextStyle(
-                          fontSize: 13,
-                          fontWeight: FontWeight.bold,
-                          color: color,
-                        ),
-                      ),
-                      SizedBox(height: 4),
-                      Text(
-                        eventText,
-                        style: TextStyle(
-                          fontSize: 13,
-                          color: Colors.grey[700],
-                          height: 1.3,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ],
-          );
-        }).toList(),
-      ],
-    );
-  }
-
-  // 趣味知识卡片
-  Widget _buildFunFactCards(List funFacts, Color color) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(height: 16),
-        Text(
-          '🎊 ${Localizations.localeOf(context).languageCode == 'en' ? "More Fun Facts" : "更多趣味知识"}',
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: color,
-          ),
-        ),
-        SizedBox(height: 12),
-        ...funFacts.map((fact) {
-          String factTitle = fact['title'] ?? '';
-          String factContent = fact['content'] ?? '';
-          
-          return Card(
-            margin: EdgeInsets.only(bottom: 12),
-            elevation: 2,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-              side: BorderSide(color: color.withOpacity(0.3)),
-            ),
-            child: ExpansionTile(
-              tilePadding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-              title: Text(
-                factTitle,
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                  color: color,
-                ),
-              ),
-              children: [
-                Padding(
-                  padding: EdgeInsets.fromLTRB(16, 0, 16, 16),
-                  child: Text(
-                    factContent,
-                    style: TextStyle(
-                      fontSize: 13,
-                      height: 1.5,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          );
-        }).toList(),
-      ],
-    );
-  }
-
-  // 互动挑战组件
-  Widget _buildInteractiveChallenge(String challenge, Color color, bool isEnglish) {
-    return Container(
-      margin: EdgeInsets.only(top: 16),
-      padding: EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [Colors.amber.withOpacity(0.2), Colors.orange.withOpacity(0.2)],
-        ),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.orange, width: 2),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Icon(Icons.emoji_events, color: Colors.orange[700], size: 24),
-              SizedBox(width: 8),
-              Text(
-                isEnglish ? '🎮 Interactive Challenge' : '🎮 互动挑战',
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.orange[900],
-                ),
-              ),
-            ],
-          ),
-          SizedBox(height: 12),
-          Text(
-            challenge,
-            style: TextStyle(
-              fontSize: 14,
-              height: 1.5,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildQuiz(Map<String, dynamic> quiz, Color color, {int? questionNumber}) {
-    return _QuizWidget(quiz: quiz, color: color, questionNumber: questionNumber);
   }
 
   void _showInfluenceDialog(Map<String, dynamic> line) {
-    final locale = Localizations.localeOf(context);
-    final isEnglish = locale.languageCode == 'en';
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
     
     showDialog(
       context: context,
@@ -2083,7 +876,6 @@ class _MapScreenState extends State<MapScreen> {
         title: Text(isEnglish ? 'Knowledge Transfer' : '知识传播'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
               children: [
@@ -2098,7 +890,7 @@ class _MapScreenState extends State<MapScreen> {
               ],
             ),
             Padding(
-              padding: EdgeInsets.only(left: 32, top: 8, bottom: 8),
+              padding: EdgeInsets.symmetric(vertical: 8),
               child: Text(
                 isEnglish ? 'influenced' : '影响了',
                 style: TextStyle(color: Colors.grey),
@@ -2127,279 +919,1311 @@ class _MapScreenState extends State<MapScreen> {
       ),
     );
   }
-  // 构建与其他发现的联系部分
-  Widget _buildConnectionsSection(
-    String title,
-    List connections,
-    Color color,
-    bool isEnglish,
-  ) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(height: 16),
-        Text(
-          title,
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: color,
-          ),
-        ),
-        SizedBox(height: 12),
-        ...connections.map((connection) {
-          String connectionTitle = isEnglish && connection['title_en'] != null
-              ? connection['title_en']
-              : connection['title'] ?? '';
-          String relationship = isEnglish && connection['relationship_en'] != null
-              ? connection['relationship_en']
-              : connection['relationship'] ?? '';
-          
-          return Container(
-            margin: EdgeInsets.only(bottom: 12),
-            padding: EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: color.withOpacity(0.05),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: color.withOpacity(0.3)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  connectionTitle,
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.bold,
-                    color: color,
-                  ),
-                ),
-                SizedBox(height: 6),
-                Text(
-                  relationship,
-                  style: TextStyle(
-                    fontSize: 13,
-                    height: 1.4,
-                  ),
-                ),
-              ],
-            ),
-          );
-        }).toList(),
-      ],
-    );
-  }
+}
 
-  // 构建受哪些文明影响部分
-  Widget _buildInfluencedBySection(
-    String title,
-    List influencedBy,
-    Color color,
+// ============================================
+// 事件数据模型
+// ============================================
+class EventData {
+  final String title;
+  final String city;
+  final int year;
+  final String field;
+  
+  // 媒体
+  final String? heroImage;
+  final String? portrait;
+  final VideoData? video;
+  
+  // 内容
+  final SummaryData? summary;
+  final StoryData? story;
+  final List<FunFact>? funFacts;
+  final SimpleExplanation? simpleExplanation;
+  
+  // 科学
+  final PrincipleData? principle;
+  final List<Application>? applications;
+  final ExperimentData? experiment;
+  final List<String>? relatedConcepts;
+  
+  // 影响
+  final ImpactData? impact;
+  final InfluenceChain? influenceChain;
+  
+  // 测验
+  final QuizData? quiz;
+
+  EventData({
+    required this.title,
+    required this.city,
+    required this.year,
+    required this.field,
+    this.heroImage,
+    this.portrait,
+    this.video,
+    this.summary,
+    this.story,
+    this.funFacts,
+    this.simpleExplanation,
+    this.principle,
+    this.applications,
+    this.experiment,
+    this.relatedConcepts,
+    this.impact,
+    this.influenceChain,
+    this.quiz,
+  });
+
+  factory EventData.fromJson(
+    Map<String, dynamic> json,
     bool isEnglish,
+    List<Map<String, dynamic>> allEvents,
   ) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(height: 16),
-        Text(
-          title,
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: color,
-          ),
-        ),
-        SizedBox(height: 12),
-        ...influencedBy.map((influence) {
-          // 支持两种类型：civilization 或 person
-          String name = '';
-          if (influence['civilization'] != null) {
-            name = isEnglish && influence['civilization_en'] != null
-                ? influence['civilization_en']
-                : influence['civilization'] ?? '';
-          } else if (influence['person'] != null) {
-            name = isEnglish && influence['person_en'] != null
-                ? influence['person_en']
-                : influence['person'] ?? '';
+    // 基本信息
+    String title = isEnglish && json['title_en'] != null
+        ? json['title_en']
+        : json['title'];
+    String city = isEnglish && json['city_en'] != null
+        ? json['city_en']
+        : (json['city'] ?? '');
+    String field = isEnglish && json['field_en'] != null
+        ? json['field_en']
+        : (json['field'] ?? '综合');
+    
+    // 媒体
+    Map<String, dynamic>? media = json['media'];
+    VideoData? video;
+    if (media?['video'] != null) {
+      var v = media!['video'];
+      video = VideoData(
+        url: v['url'],
+        title: isEnglish && v['title_en'] != null ? v['title_en'] : v['title'],
+        duration: v['duration'],
+      );
+    }
+    
+    // 摘要
+    SummaryData? summary;
+    if (json['summary'] != null) {
+      var s = json['summary'];
+      summary = SummaryData(
+        text: isEnglish && s['text_en'] != null ? s['text_en'] : (s['text'] ?? ''),
+        keyPoints: isEnglish && s['key_points_en'] != null
+            ? List<String>.from(s['key_points_en'])
+            : (s['key_points'] != null ? List<String>.from(s['key_points']) : null),
+      );
+    }
+    
+    // 故事
+    StoryData? story;
+    if (json['story'] != null) {
+      var st = json['story'];
+      if (st is Map) {
+        story = StoryData(
+          text: isEnglish && st['text_en'] != null ? st['text_en'] : (st['text'] ?? ''),
+          image: st['image'],
+        );
+      } else if (st is String) {
+        story = StoryData(text: st, image: null);
+      }
+    }
+    
+    // 趣味知识
+    List<FunFact>? funFacts;
+    if (json['fun_facts'] != null) {
+      funFacts = (json['fun_facts'] as List).map((f) {
+        return FunFact(
+          icon: f['icon'] ?? '💡',
+          text: isEnglish && f['text_en'] != null ? f['text_en'] : (f['text'] ?? ''),
+        );
+      }).toList();
+    }
+    
+    // 简单解释
+    SimpleExplanation? simpleExplanation;
+    if (json['simple_explanation'] != null) {
+      var se = json['simple_explanation'];
+      if (se is Map) {
+        simpleExplanation = SimpleExplanation(
+          text: isEnglish && se['text_en'] != null ? se['text_en'] : (se['text'] ?? ''),
+          diagram: se['diagram'],
+        );
+      } else if (se is String) {
+        simpleExplanation = SimpleExplanation(text: se, diagram: null);
+      }
+    }
+    
+    // 原理
+    PrincipleData? principle;
+    if (json['principle'] != null) {
+      var p = json['principle'];
+      if (p is Map) {
+        List<KeyPoint>? keyPoints;
+        if (p['key_points'] != null) {
+          keyPoints = (p['key_points'] as List).map((kp) {
+            return KeyPoint(
+              icon: kp['icon'] ?? '•',
+              title: isEnglish && kp['title_en'] != null ? kp['title_en'] : (kp['title'] ?? ''),
+              text: isEnglish && kp['text_en'] != null ? kp['text_en'] : (kp['text'] ?? ''),
+            );
+          }).toList();
+        }
+        
+        principle = PrincipleData(
+          title: isEnglish && p['title_en'] != null ? p['title_en'] : (p['title'] ?? ''),
+          diagram: p['diagram'],
+          keyPoints: keyPoints,
+          video: p['video'],
+        );
+      }
+    }
+    
+    // 应用
+    List<Application>? applications;
+    if (json['applications'] != null) {
+      applications = (json['applications'] as List).map((a) {
+        return Application(
+          icon: a['icon'] ?? '💡',
+          title: isEnglish && a['title_en'] != null ? a['title_en'] : (a['title'] ?? ''),
+          image: a['image'],
+          text: isEnglish && a['text_en'] != null ? a['text_en'] : (a['text'] ?? ''),
+        );
+      }).toList();
+    }
+    
+    // 实验
+    ExperimentData? experiment;
+    if (json['experiment'] != null) {
+      var e = json['experiment'];
+      if (e is Map) {
+        experiment = ExperimentData(
+          title: isEnglish && e['title_en'] != null ? e['title_en'] : (e['title'] ?? ''),
+          video: e['video'],
+          image: e['image'],
+          materials: isEnglish && e['materials_en'] != null
+              ? List<String>.from(e['materials_en'])
+              : (e['materials'] != null ? List<String>.from(e['materials']) : null),
+          description: isEnglish && e['description_en'] != null ? e['description_en'] : (e['description'] ?? ''),
+          why: isEnglish && e['why_en'] != null ? e['why_en'] : (e['why'] ?? ''),
+        );
+      }
+    }
+    
+    // 相关概念
+    List<String>? relatedConcepts;
+    if (json['related_concepts'] != null) {
+      relatedConcepts = isEnglish && json['related_concepts_en'] != null
+          ? List<String>.from(json['related_concepts_en'])
+          : List<String>.from(json['related_concepts']);
+    }
+    
+    // 影响
+    ImpactData? impact;
+    if (json['impact'] != null) {
+      var imp = json['impact'];
+      if (imp is Map) {
+        List<ImpactStat>? stats;
+        if (imp['stats'] != null) {
+          stats = (imp['stats'] as List).map((s) {
+            return ImpactStat(
+              number: s['number'],
+              label: isEnglish && s['label_en'] != null ? s['label_en'] : s['label'],
+            );
+          }).toList();
+        }
+        
+        impact = ImpactData(
+          text: isEnglish && imp['text_en'] != null ? imp['text_en'] : (imp['text'] ?? ''),
+          stats: stats,
+        );
+      } else if (imp is String) {
+        impact = ImpactData(text: imp, stats: null);
+      }
+    }
+    
+    // 影响链
+    InfluenceChain? influenceChain;
+    if (json['influence_chain'] != null) {
+      var ic = json['influence_chain'];
+      
+      List<InfluenceItem>? influencedBy;
+      if (ic['influenced_by'] != null) {
+        influencedBy = (ic['influenced_by'] as List).map((item) {
+          var sourceEvent = allEvents.firstWhere(
+            (e) => e['id'] == item['id'],
+            orElse: () => {},
+          );
+          String eventTitle = '';
+          if (sourceEvent.isNotEmpty) {
+            eventTitle = isEnglish && sourceEvent['title_en'] != null
+                ? sourceEvent['title_en']
+                : sourceEvent['title'];
           }
           
-          String contribution = isEnglish && influence['contribution_en'] != null
-              ? influence['contribution_en']
-              : influence['contribution'] ?? '';
-          
-          return Container(
-            margin: EdgeInsets.only(bottom: 12),
-            padding: EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: Colors.orange.withOpacity(0.05),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: Colors.orange.withOpacity(0.3)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  name,
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.orange[800],
-                  ),
-                ),
-                SizedBox(height: 6),
-                Text(
-                  contribution,
-                  style: TextStyle(
-                    fontSize: 13,
-                    height: 1.4,
-                  ),
-                ),
-              ],
-            ),
+          return InfluenceItem(
+            id: item['id'],
+            title: eventTitle,
+            contribution: isEnglish && item['contribution_en'] != null
+                ? item['contribution_en']
+                : item['contribution'],
           );
-        }).toList(),
-      ],
+        }).toList();
+      }
+      
+      List<InfluenceItem>? influenced;
+      if (ic['influenced'] != null) {
+        influenced = (ic['influenced'] as List).map((item) {
+          var targetEvent = allEvents.firstWhere(
+            (e) => e['id'] == item['id'],
+            orElse: () => {},
+          );
+          String eventTitle = '';
+          if (targetEvent.isNotEmpty) {
+            eventTitle = isEnglish && targetEvent['title_en'] != null
+                ? targetEvent['title_en']
+                : targetEvent['title'];
+          }
+          
+          return InfluenceItem(
+            id: item['id'],
+            title: eventTitle,
+            contribution: isEnglish && item['contribution_en'] != null
+                ? item['contribution_en']
+                : item['contribution'],
+          );
+        }).toList();
+      }
+      
+      influenceChain = InfluenceChain(
+        influencedBy: influencedBy,
+        influenced: influenced,
+        legacyText: isEnglish && ic['legacy_text_en'] != null
+            ? ic['legacy_text_en']
+            : ic['legacy_text'],
+      );
+    }
+    
+    // 测验
+    QuizData? quiz;
+    if (json['quiz'] != null) {
+      var q = json['quiz'];
+      quiz = QuizData(
+        question: isEnglish && q['question_en'] != null ? q['question_en'] : (q['question'] ?? ''),
+        image: q['image'],
+        options: isEnglish && q['options_en'] != null
+            ? List<String>.from(q['options_en'])
+            : List<String>.from(q['options']),
+        answer: q['answer'],
+        explanation: isEnglish && q['explanation_en'] != null ? q['explanation_en'] : (q['explanation'] ?? ''),
+      );
+    }
+    
+    return EventData(
+      title: title,
+      city: city,
+      year: json['year'],
+      field: field,
+      heroImage: media?['hero_image'],
+      portrait: media?['portrait'],
+      video: video,
+      summary: summary,
+      story: story,
+      funFacts: funFacts,
+      simpleExplanation: simpleExplanation,
+      principle: principle,
+      applications: applications,
+      experiment: experiment,
+      relatedConcepts: relatedConcepts,
+      impact: impact,
+      influenceChain: influenceChain,
+      quiz: quiz,
     );
   }
+}
 
-  // 构建影响了哪些发现部分
-  Widget _buildInfluencesSection(
-    String title,
-    List influences,
-    Color color,
-    bool isEnglish,
-  ) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(height: 16),
-        Text(
-          title,
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: color,
-          ),
-        ),
-        SizedBox(height: 12),
-        ...influences.map((influence) {
-          String influenceTitle = isEnglish && influence['title_en'] != null
-              ? influence['title_en']
-              : influence['title'] ?? '';
-          String description = isEnglish && influence['description_en'] != null
-              ? influence['description_en']
-              : influence['description'] ?? '';
-          
-          return Container(
-            margin: EdgeInsets.only(bottom: 12),
-            padding: EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: Colors.green.withOpacity(0.05),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: Colors.green.withOpacity(0.3)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  influenceTitle,
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.green[800],
-                  ),
-                ),
-                SizedBox(height: 6),
-                Text(
-                  description,
-                  style: TextStyle(
-                    fontSize: 13,
-                    height: 1.4,
-                  ),
-                ),
-              ],
-            ),
-          );
-        }).toList(),
-      ],
-    );
-  }
-
-} // _MapScreenState 类结束
-
-// 可展开内容组件
-class _ExpandableSection extends StatefulWidget {
+// ============================================
+// 数据模型类
+// ============================================
+class VideoData {
+  final String url;
   final String title;
-  final String content;
-  final Color color;
+  final String duration;
+  
+  VideoData({required this.url, required this.title, required this.duration});
+}
 
-  const _ExpandableSection({
-    required this.title,
-    required this.content,
+class SummaryData {
+  final String text;
+  final List<String>? keyPoints;
+  
+  SummaryData({required this.text, this.keyPoints});
+}
+
+class StoryData {
+  final String text;
+  final String? image;
+  
+  StoryData({required this.text, this.image});
+}
+
+class FunFact {
+  final String icon;
+  final String text;
+  
+  FunFact({required this.icon, required this.text});
+}
+
+class SimpleExplanation {
+  final String text;
+  final String? diagram;
+  
+  SimpleExplanation({required this.text, this.diagram});
+}
+
+class PrincipleData {
+  final String? title;
+  final String? diagram;
+  final List<KeyPoint>? keyPoints;
+  final String? video;
+  
+  PrincipleData({this.title, this.diagram, this.keyPoints, this.video});
+}
+
+class KeyPoint {
+  final String icon;
+  final String title;
+  final String text;
+  
+  KeyPoint({required this.icon, required this.title, required this.text});
+}
+
+class Application {
+  final String icon;
+  final String title;
+  final String? image;
+  final String text;
+  
+  Application({required this.icon, required this.title, this.image, required this.text});
+}
+
+class ExperimentData {
+  final String? title;
+  final String? video;
+  final String? image;
+  final List<String>? materials;
+  final String? description;
+  final String? why;
+  
+  ExperimentData({
+    this.title,
+    this.video,
+    this.image,
+    this.materials,
+    this.description,
+    this.why,
+  });
+}
+
+class ImpactData {
+  final String text;
+  final List<ImpactStat>? stats;
+  
+  ImpactData({required this.text, this.stats});
+}
+
+class ImpactStat {
+  final String number;
+  final String label;
+  
+  ImpactStat({required this.number, required this.label});
+}
+
+class InfluenceChain {
+  final List<InfluenceItem>? influencedBy;
+  final List<InfluenceItem>? influenced;
+  final String? legacyText;
+  
+  InfluenceChain({this.influencedBy, this.influenced, this.legacyText});
+}
+
+class InfluenceItem {
+  final String id;
+  final String title;
+  final String contribution;
+  
+  InfluenceItem({required this.id, required this.title, required this.contribution});
+}
+
+class QuizData {
+  final String question;
+  final String? image;
+  final List<String> options;
+  final int answer;
+  final String? explanation;
+  
+  QuizData({
+    required this.question,
+    this.image,
+    required this.options,
+    required this.answer,
+    this.explanation,
+  });
+}
+
+// ============================================
+// 事件详情对话框
+// ============================================
+class EventDialog extends StatelessWidget {
+  final EventData data;
+  final Color color;
+  final String emoji;
+  final bool isEnglish;
+
+  const EventDialog({
+    required this.data,
     required this.color,
+    required this.emoji,
+    required this.isEnglish,
   });
 
   @override
-  _ExpandableSectionState createState() => _ExpandableSectionState();
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 4,
+      child: Dialog(
+        child: Container(
+          width: 600,
+          height: 700,
+          child: Column(
+            children: [
+              _buildHeader(context),
+              _buildTabBar(),
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    OverviewTab(data: data, color: color, isEnglish: isEnglish),
+                    ScienceTab(data: data, color: color, isEnglish: isEnglish),
+                    ImpactTab(data: data, color: color, isEnglish: isEnglish),
+                    QuizTab(data: data, color: color, isEnglish: isEnglish),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHeader(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [color.withOpacity(0.7), color],
+        ),
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(4),
+          topRight: Radius.circular(4),
+        ),
+      ),
+      child: Row(
+        children: [
+          Text(emoji, style: TextStyle(fontSize: 32)),
+          SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  data.title,
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+                Text(
+                  '${data.year} · ${data.city}',
+                  style: TextStyle(fontSize: 14, color: Colors.white70),
+                ),
+              ],
+            ),
+          ),
+          IconButton(
+            icon: Icon(Icons.close, color: Colors.white),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildTabBar() {
+    return Container(
+      color: color.withOpacity(0.1),
+      child: TabBar(
+        labelColor: color,
+        unselectedLabelColor: Colors.grey,
+        indicatorColor: color,
+        tabs: [
+          Tab(icon: Icon(Icons.info_outline, size: 20), text: isEnglish ? 'Overview' : '概览'),
+          Tab(icon: Icon(Icons.science, size: 20), text: isEnglish ? 'Science' : '科学'),
+          Tab(icon: Icon(Icons.account_tree, size: 20), text: isEnglish ? 'Impact' : '影响'),
+          Tab(icon: Icon(Icons.quiz, size: 20), text: isEnglish ? 'Quiz' : '测验'),
+        ],
+      ),
+    );
+  }
 }
 
-class _ExpandableSectionState extends State<_ExpandableSection> {
-  bool isExpanded = false;
+// ============================================
+// 概览标签页
+// ============================================
+class OverviewTab extends StatelessWidget {
+  final EventData data;
+  final Color color;
+  final bool isEnglish;
+
+  const OverviewTab({
+    required this.data,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      padding: EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // 视频或图片
+          // 视频
+          if (data.video != null) ...[
+            VideoPlayer(video: data.video!, color: color, isEnglish: isEnglish),
+            SizedBox(height: 16),
+          ],
+
+          // 图片（即使有视频也显示）
+          if (data.heroImage != null) ...[
+            HeroImage(imageUrl: data.heroImage!, color: color),
+            SizedBox(height: 16),
+          ],
+
+          // 如果都没有，显示渐变色块
+          if (data.video == null && data.heroImage == null) ...[
+            GradientHeader(field: data.field, color: color, emoji: _getEmoji()),
+            SizedBox(height: 16),
+          ],
+          
+          // 摘要
+          if (data.summary != null)
+            SummaryCard(summary: data.summary!, color: color),
+          
+          // 故事
+          if (data.story != null) ...[
+            SizedBox(height: 16),
+            StoryCard(story: data.story!, color: color, isEnglish: isEnglish),
+          ],
+          
+          // 趣味知识
+          if (data.funFacts != null && data.funFacts!.isNotEmpty) ...[
+            SizedBox(height: 16),
+            FunFactsSection(funFacts: data.funFacts!, color: color, isEnglish: isEnglish),
+          ],
+          
+          // 简单解释
+          if (data.simpleExplanation != null) ...[
+            SizedBox(height: 16),
+            SimpleExplanationCard(
+              explanation: data.simpleExplanation!,
+              color: color,
+              isEnglish: isEnglish,
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  String _getEmoji() {
+    final emojis = {
+      'Physics': '⚛️', 'Chemistry': '🧪', 'Biology': '🔬',
+      'Mathematics': '📐', 'Astronomy': '🔭', 'Medicine': '💊',
+      'Computer Science': '💻', 'Space': '🚀',
+      '物理学': '⚛️', '化学': '🧪', '生物学': '🔬',
+      '数学': '📐', '天文学': '🔭', '医学': '💊',
+      '计算机': '💻', '航天': '🚀',
+    };
+    return emojis[data.field] ?? '📚';
+  }
+}
+
+// ============================================
+// 科学标签页
+// ============================================
+class ScienceTab extends StatelessWidget {
+  final EventData data;
+  final Color color;
+  final bool isEnglish;
+
+  const ScienceTab({
+    required this.data,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      padding: EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // 原理
+          if (data.principle != null)
+            PrincipleSection(principle: data.principle!, color: color, isEnglish: isEnglish),
+          
+          // 应用
+          if (data.applications != null && data.applications!.isNotEmpty) ...[
+            SizedBox(height: 20),
+            ApplicationsGrid(applications: data.applications!, color: color, isEnglish: isEnglish),
+          ],
+          
+          // 实验
+          if (data.experiment != null) ...[
+            SizedBox(height: 20),
+            ExperimentCard(experiment: data.experiment!, color: color, isEnglish: isEnglish),
+          ],
+          
+          // 相关概念
+          if (data.relatedConcepts != null && data.relatedConcepts!.isNotEmpty) ...[
+            SizedBox(height: 16),
+            RelatedConceptsChips(concepts: data.relatedConcepts!, color: color),
+          ],
+          
+          // 空状态
+          if (data.principle == null && 
+              (data.applications == null || data.applications!.isEmpty) &&
+              data.experiment == null) ...[
+            EmptyState(
+              icon: Icons.science_outlined,
+              message: isEnglish ? 'Scientific details\ncoming soon...' : '科学详情\n即将添加...',
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+// ============================================
+// 影响标签页
+// ============================================
+class ImpactTab extends StatelessWidget {
+  final EventData data;
+  final Color color;
+  final bool isEnglish;
+
+  const ImpactTab({
+    required this.data,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      padding: EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // 影响
+          if (data.impact != null)
+            ImpactCard(impact: data.impact!, color: color, isEnglish: isEnglish),
+          
+          // 影响关系网络
+          if (data.influenceChain != null) ...[
+            SizedBox(height: 20),
+            InfluenceNetworkCard(
+              influenceChain: data.influenceChain!,
+              color: color,
+              isEnglish: isEnglish,
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+// ============================================
+// 测验标签页
+// ============================================
+class QuizTab extends StatelessWidget {
+  final EventData data;
+  final Color color;
+  final bool isEnglish;
+
+  const QuizTab({
+    required this.data,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      padding: EdgeInsets.all(16),
+      child: data.quiz != null
+          ? QuizWidget(quiz: data.quiz!, color: color)
+          : EmptyState(
+              icon: Icons.quiz_outlined,
+              message: isEnglish ? 'Quiz coming soon...' : '测验即将添加...',
+            ),
+    );
+  }
+}
+
+// ============================================
+// UI组件 - 概览相关
+// ============================================
+
+class VideoPlayer extends StatelessWidget {
+  final VideoData video;
+  final Color color;
+  final bool isEnglish;
+
+  const VideoPlayer({
+    required this.video,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  Future<void> _openVideo() async {
+    String youtubeUrl = video.url.replaceAll('/embed/', '/watch?v=');
+    final Uri uri = Uri.parse(youtubeUrl);
+    
+    try {
+      if (await canLaunchUrl(uri)) {
+        await launchUrl(uri, mode: LaunchMode.externalApplication);
+      }
+    } catch (e) {
+      print('打开失败: $e');
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: _openVideo,  // 点击才打开
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: color.withOpacity(0.3), width: 2),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              blurRadius: 8,
+              offset: Offset(0, 4),
+            ),
+          ],
+        ),
+        child: Column(
+          children: [
+            Container(
+              height: 200,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [color.withOpacity(0.3), Colors.black],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                ),
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(10),
+                  topRight: Radius.circular(10),
+                ),
+              ),
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    // 大红色播放按钮
+                    Container(
+                      padding: EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        shape: BoxShape.circle,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.red.withOpacity(0.6),
+                            blurRadius: 24,
+                            spreadRadius: 8,
+                          ),
+                        ],
+                      ),
+                      child: Icon(
+                        Icons.play_arrow,
+                        color: Colors.white,
+                        size: 48,
+                      ),
+                    ),
+                    SizedBox(height: 16),
+                    Text(
+                      isEnglish ? 'Click to Watch on YouTube' : '点击在YouTube观看',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        shadows: [
+                          Shadow(color: Colors.black54, blurRadius: 4),
+                        ],
+                      ),
+                    ),
+                    SizedBox(height: 6),
+                    Container(
+                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                      decoration: BoxDecoration(
+                        color: Colors.black.withOpacity(0.6),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(Icons.access_time, color: Colors.white, size: 14),
+                          SizedBox(width: 4),
+                          Text(
+                            video.duration,
+                            style: TextStyle(color: Colors.white, fontSize: 12),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: color.withOpacity(0.1),
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(10),
+                  bottomRight: Radius.circular(10),
+                ),
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.video_library, color: color, size: 20),
+                  SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      video.title,
+                      style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),
+                    ),
+                  ),
+                  Icon(Icons.open_in_new, color: color, size: 18),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class HeroImage extends StatelessWidget {
+  final String imageUrl;
+  final Color color;
+
+  const HeroImage({required this.imageUrl, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(12),
+      child: Image.network(
+        imageUrl,
+        height: 200,
+        width: double.infinity,
+        fit: BoxFit.contain,
+        loadingBuilder: (context, child, loadingProgress) {
+          if (loadingProgress == null) return child;
+          return Container(
+            height: 200,
+            color: color.withOpacity(0.1),
+            child: Center(child: CircularProgressIndicator(color: color)),
+          );
+        },
+        errorBuilder: (context, error, stackTrace) {
+          return Container(
+            height: 200,
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [color.withOpacity(0.3), color.withOpacity(0.6)],
+              ),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: Center(
+              child: Icon(Icons.image, size: 64, color: Colors.white),
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+class GradientHeader extends StatelessWidget {
+  final String field;
+  final Color color;
+  final String emoji;
+
+  const GradientHeader({
+    required this.field,
+    required this.color,
+    required this.emoji,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 180,
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [color.withOpacity(0.4), color.withOpacity(0.7), color],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: [
+          BoxShadow(
+            color: color.withOpacity(0.3),
+            blurRadius: 12,
+            offset: Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(emoji, style: TextStyle(fontSize: 72)),
+            SizedBox(height: 12),
+            Container(
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.9),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(
+                field,
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: color,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class SummaryCard extends StatelessWidget {
+  final SummaryData summary;
+  final Color color;
+
+  const SummaryCard({required this.summary, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: color.withOpacity(0.08),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: color.withOpacity(0.3), width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            summary.text,
+            style: TextStyle(fontSize: 15, height: 1.5, fontWeight: FontWeight.w500),
+          ),
+          if (summary.keyPoints != null && summary.keyPoints!.isNotEmpty) ...[
+            SizedBox(height: 12),
+            ...summary.keyPoints!.map((point) => Padding(
+              padding: EdgeInsets.only(top: 6),
+              child: Row(
+                children: [
+                  Icon(Icons.check_circle, color: color, size: 18),
+                  SizedBox(width: 8),
+                  Expanded(child: Text(point, style: TextStyle(fontSize: 13))),
+                ],
+              ),
+            )),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class StoryCard extends StatelessWidget {
+  final StoryData story;
+  final Color color;
+  final bool isEnglish;
+
+  const StoryCard({
+    required this.story,
+    required this.color,
+    required this.isEnglish,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        SizedBox(height: 16),
-        InkWell(
-          onTap: () {
-            setState(() {
-              isExpanded = !isExpanded;
-            });
-          },
-          child: Container(
+        Text(
+          '📚 ${isEnglish ? "Story" : "故事"}',
+          style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, color: color),
+        ),
+        SizedBox(height: 8),
+        if (story.image != null) ...[
+          ClipRRect(
+            borderRadius: BorderRadius.circular(12),
+            child: Image.network(
+              story.image!,
+              height: 180,
+              width: double.infinity,
+              fit: BoxFit.contain,
+              errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+            ),
+          ),
+          SizedBox(height: 8),
+        ],
+        Container(
+          padding: EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: Colors.amber.withOpacity(0.1),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: Colors.amber.withOpacity(0.5)),
+          ),
+          child: Text(
+            story.text,
+            style: TextStyle(fontSize: 14, height: 1.6),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class FunFactsSection extends StatelessWidget {
+  final List<FunFact> funFacts;
+  final Color color;
+  final bool isEnglish;
+
+  const FunFactsSection({
+    required this.funFacts,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          '🎉 ${isEnglish ? "Fun Facts" : "趣味知识"}',
+          style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, color: color),
+        ),
+        SizedBox(height: 12),
+        ...funFacts.map((fact) => Container(
+          margin: EdgeInsets.only(bottom: 10),
+          padding: EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [color.withOpacity(0.1), color.withOpacity(0.05)],
+            ),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: color.withOpacity(0.3)),
+          ),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(fact.icon, style: TextStyle(fontSize: 28)),
+              SizedBox(width: 12),
+              Expanded(
+                child: Text(fact.text, style: TextStyle(fontSize: 14, height: 1.4)),
+              ),
+            ],
+          ),
+        )),
+      ],
+    );
+  }
+}
+
+class SimpleExplanationCard extends StatelessWidget {
+  final SimpleExplanation explanation;
+  final Color color;
+  final bool isEnglish;
+
+  const SimpleExplanationCard({
+    required this.explanation,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [Colors.blue.withOpacity(0.1), Colors.purple.withOpacity(0.1)],
+        ),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.blue.withOpacity(0.4), width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.child_care, color: Colors.blue[700], size: 22),
+              SizedBox(width: 8),
+              Text(
+                '👶 ${isEnglish ? "Simple Explanation" : "简单解释"}',
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blue[900],
+                ),
+              ),
+            ],
+          ),
+          SizedBox(height: 10),
+          if (explanation.diagram != null) ...[
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: Image.network(
+                explanation.diagram!,
+                height: 120,
+                width: double.infinity,
+                fit: BoxFit.contain,
+                errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+              ),
+            ),
+            SizedBox(height: 10),
+          ],
+          Text(
+            explanation.text,
+            style: TextStyle(fontSize: 14, height: 1.5),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+// ============================================
+// UI组件 - 科学相关
+// ============================================
+class PrincipleSection extends StatelessWidget {
+  final PrincipleData principle;
+  final Color color;
+  final bool isEnglish;
+
+  const PrincipleSection({
+    required this.principle,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        if (principle.title != null)
+          Text(
+            '🔬 ${principle.title}',
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: color),
+          ),
+        SizedBox(height: 12),
+        
+        // 原理图
+        if (principle.diagram != null) ...[
+          ClipRRect(
+            borderRadius: BorderRadius.circular(12),
+            child: Image.network(
+              principle.diagram!,
+              width: double.infinity,
+              fit: BoxFit.contain,
+              errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+            ),
+          ),
+          SizedBox(height: 12),
+        ],
+        
+        // 关键要点
+        if (principle.keyPoints != null)
+          ...principle.keyPoints!.map((point) => Container(
+            margin: EdgeInsets.only(bottom: 10),
             padding: EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: widget.color.withOpacity(0.1),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: widget.color.withOpacity(0.3)),
+              color: color.withOpacity(0.05),
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: color.withOpacity(0.3)),
             ),
             child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Text(point.icon, style: TextStyle(fontSize: 24)),
+                SizedBox(width: 12),
                 Expanded(
-                  child: Text(
-                    widget.title,
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                      color: widget.color,
-                    ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        point.title,
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.bold,
+                          color: color,
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(point.text, style: TextStyle(fontSize: 13, height: 1.4)),
+                    ],
                   ),
-                ),
-                Icon(
-                  isExpanded ? Icons.expand_less : Icons.expand_more,
-                  color: widget.color,
                 ),
               ],
             ),
-          ),
-        ),
-        if (isExpanded) ...[
-          SizedBox(height: 8),
-          Container(
-            padding: EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: widget.color.withOpacity(0.05),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: widget.color.withOpacity(0.2)),
-            ),
-            child: Text(
-              widget.content,
-              style: TextStyle(
-                fontSize: 14,
-                height: 1.6,
-              ),
+          )),
+        
+        // 视频
+        if (principle.video != null) ...[
+          SizedBox(height: 12),
+          ElevatedButton.icon(
+            onPressed: () {},
+            icon: Icon(Icons.play_circle_filled, size: 24),
+            label: Text(isEnglish ? 'Watch Explanation' : '观看讲解'),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: color,
+              foregroundColor: Colors.white,
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
             ),
           ),
         ],
@@ -2408,46 +2232,602 @@ class _ExpandableSectionState extends State<_ExpandableSection> {
   }
 }
 
-// _QuizWidget 类（在 _MapScreenState 外面）
-class _QuizWidget extends StatefulWidget {
-  final Map<String, dynamic> quiz;
+class ApplicationsGrid extends StatelessWidget {
+  final List<Application> applications;
   final Color color;
-  final int? questionNumber;
+  final bool isEnglish;
 
-  const _QuizWidget({
-    required this.quiz,
+  const ApplicationsGrid({
+    required this.applications,
     required this.color,
-    this.questionNumber,
+    required this.isEnglish,
   });
 
   @override
-  State<_QuizWidget> createState() => _QuizWidgetState();
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          '💡 ${isEnglish ? "Applications" : "实际应用"}',
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: color),
+        ),
+        SizedBox(height: 12),
+        GridView.count(
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          crossAxisCount: 2,
+          mainAxisSpacing: 10,
+          crossAxisSpacing: 10,
+          childAspectRatio: 0.85,
+          children: applications.map((app) {
+            return Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: color.withOpacity(0.3)),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.05),
+                    blurRadius: 4,
+                    offset: Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // 图片或图标
+                  if (app.image != null)
+                    ClipRRect(
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(12),
+                        topRight: Radius.circular(12),
+                      ),
+                      child: Image.network(
+                        app.image!,
+                        height: 80,
+                        width: double.infinity,
+                        fit: BoxFit.cover,
+                        errorBuilder: (context, error, stackTrace) {
+                          return Container(
+                            height: 80,
+                            color: color.withOpacity(0.1),
+                            child: Center(
+                              child: Text(app.icon, style: TextStyle(fontSize: 40)),
+                            ),
+                          );
+                        },
+                      ),
+                    )
+                  else
+                    Container(
+                      height: 80,
+                      decoration: BoxDecoration(
+                        color: color.withOpacity(0.1),
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(12),
+                          topRight: Radius.circular(12),
+                        ),
+                      ),
+                      child: Center(
+                        child: Text(app.icon, style: TextStyle(fontSize: 40)),
+                      ),
+                    ),
+                  
+                  // 内容
+                  Expanded(
+                    child: Padding(
+                      padding: EdgeInsets.all(10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            app.title,
+                            style: TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.bold,
+                              color: color,
+                            ),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          SizedBox(height: 6),
+                          Expanded(
+                            child: Text(
+                              app.text,
+                              style: TextStyle(fontSize: 12, height: 1.3),
+                              maxLines: 4,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            );
+          }).toList(),
+        ),
+      ],
+    );
+  }
 }
 
-class _QuizWidgetState extends State<_QuizWidget> {
+class ExperimentCard extends StatelessWidget {
+  final ExperimentData experiment;
+  final Color color;
+  final bool isEnglish;
+
+  const ExperimentCard({
+    required this.experiment,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [Colors.green.withOpacity(0.1), Colors.teal.withOpacity(0.1)],
+        ),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.green.withOpacity(0.4), width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.science, color: Colors.green[700], size: 24),
+              SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  '🧪 ${experiment.title ?? (isEnglish ? "Experiment" : "实验")}',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.green[900],
+                  ),
+                ),
+              ),
+            ],
+          ),
+          SizedBox(height: 12),
+          
+          // 视频或图片
+          if (experiment.video != null)
+            Container(
+              height: 150,
+              decoration: BoxDecoration(
+                color: Colors.black,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.play_circle_outline, color: Colors.white, size: 48),
+                    SizedBox(height: 8),
+                    Text(
+                      isEnglish ? 'Watch Experiment' : '观看实验',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ],
+                ),
+              ),
+            )
+          else if (experiment.image != null)
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image.network(
+                experiment.image!,
+                height: 150,
+                width: double.infinity,
+                fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+              ),
+            ),
+          
+          if (experiment.video != null || experiment.image != null)
+            SizedBox(height: 12),
+          
+          // 材料
+          if (experiment.materials != null && experiment.materials!.isNotEmpty) ...[
+            Text(
+              isEnglish ? '📦 Materials:' : '📦 材料：',
+              style: TextStyle(
+                fontSize: 13,
+                fontWeight: FontWeight.bold,
+                color: Colors.green[800],
+              ),
+            ),
+            SizedBox(height: 6),
+            Wrap(
+              spacing: 6,
+              runSpacing: 6,
+              children: experiment.materials!.map((material) {
+                return Chip(
+                  label: Text(material, style: TextStyle(fontSize: 12)),
+                  backgroundColor: Colors.green.withOpacity(0.2),
+                  side: BorderSide(color: Colors.green),
+                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                );
+              }).toList(),
+            ),
+            SizedBox(height: 10),
+          ],
+          
+          // 说明
+          if (experiment.description != null)
+            Text(
+              experiment.description!,
+              style: TextStyle(fontSize: 13, height: 1.4),
+            ),
+          
+          if (experiment.why != null) ...[
+            SizedBox(height: 8),
+            Container(
+              padding: EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: Colors.green.withOpacity(0.15),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.lightbulb_outline, color: Colors.green[700], size: 18),
+                  SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      experiment.why!,
+                      style: TextStyle(fontSize: 12, fontStyle: FontStyle.italic),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class RelatedConceptsChips extends StatelessWidget {
+  final List<String> concepts;
+  final Color color;
+
+  const RelatedConceptsChips({required this.concepts, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
+    
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          '🔑 ${isEnglish ? "Related Concepts" : "相关概念"}',
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: color),
+        ),
+        SizedBox(height: 8),
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
+          children: concepts.map((concept) {
+            return Chip(
+              label: Text(concept),
+              backgroundColor: color.withOpacity(0.1),
+              side: BorderSide(color: color),
+            );
+          }).toList(),
+        ),
+      ],
+    );
+  }
+}
+
+// ============================================
+// UI组件 - 影响相关
+// ============================================
+class ImpactCard extends StatelessWidget {
+  final ImpactData impact;
+  final Color color;
+  final bool isEnglish;
+
+  const ImpactCard({
+    required this.impact,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: color.withOpacity(0.08),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: color.withOpacity(0.3), width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.auto_awesome, color: color, size: 24),
+              SizedBox(width: 8),
+              Text(
+                '💫 ${isEnglish ? "Impact" : "影响"}',
+                style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, color: color),
+              ),
+            ],
+          ),
+          SizedBox(height: 10),
+          Text(impact.text, style: TextStyle(fontSize: 14, height: 1.5)),
+          
+          // 统计数据
+          if (impact.stats != null && impact.stats!.isNotEmpty) ...[
+            SizedBox(height: 12),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: impact.stats!.map((stat) {
+                return Column(
+                  children: [
+                    Text(
+                      stat.number,
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                        color: color,
+                      ),
+                    ),
+                    Text(
+                      stat.label,
+                      style: TextStyle(fontSize: 11, color: Colors.grey[600]),
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
+                );
+              }).toList(),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class InfluenceNetworkCard extends StatelessWidget {
+  final InfluenceChain influenceChain;
+  final Color color;
+  final bool isEnglish;
+
+  const InfluenceNetworkCard({
+    required this.influenceChain,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: Colors.blue.withOpacity(0.05),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.blue.withOpacity(0.3), width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.account_tree, color: Colors.blue[700], size: 24),
+              SizedBox(width: 8),
+              Text(
+                isEnglish ? 'Knowledge Network' : '知识网络',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blue[900],
+                ),
+              ),
+            ],
+          ),
+          
+          // 受以下影响
+          if (influenceChain.influencedBy != null && influenceChain.influencedBy!.isNotEmpty) ...[
+            SizedBox(height: 14),
+            Container(
+              padding: EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Colors.orange.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.orange.withOpacity(0.4)),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Icon(Icons.arrow_downward, color: Colors.orange[700], size: 20),
+                      SizedBox(width: 6),
+                      Text(
+                        isEnglish ? 'Influenced By' : '受以下影响',
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.orange[900],
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 10),
+                  ...influenceChain.influencedBy!.map((item) => Padding(
+                    padding: EdgeInsets.only(bottom: 8),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Icon(Icons.circle, color: Colors.orange, size: 8),
+                        SizedBox(width: 10),
+                        Expanded(
+                          child: RichText(
+                            text: TextSpan(
+                              style: TextStyle(fontSize: 13, color: Colors.black87),
+                              children: [
+                                TextSpan(
+                                  text: item.title,
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                                TextSpan(text: '\n'),
+                                TextSpan(
+                                  text: item.contribution,
+                                  style: TextStyle(color: Colors.grey[700]),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  )),
+                ],
+              ),
+            ),
+          ],
+          
+          // 影响了以下
+          if (influenceChain.influenced != null && influenceChain.influenced!.isNotEmpty) ...[
+            SizedBox(height: 12),
+            Container(
+              padding: EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Colors.green.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.green.withOpacity(0.4)),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Icon(Icons.arrow_upward, color: Colors.green[700], size: 20),
+                      SizedBox(width: 6),
+                      Text(
+                        isEnglish ? 'Influenced' : '影响了以下',
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.green[900],
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 10),
+                  ...influenceChain.influenced!.map((item) => Padding(
+                    padding: EdgeInsets.only(bottom: 8),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Icon(Icons.circle, color: Colors.green, size: 8),
+                        SizedBox(width: 10),
+                        Expanded(
+                          child: RichText(
+                            text: TextSpan(
+                              style: TextStyle(fontSize: 13, color: Colors.black87),
+                              children: [
+                                TextSpan(
+                                  text: item.title,
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                                TextSpan(text: '\n'),
+                                TextSpan(
+                                  text: item.contribution,
+                                  style: TextStyle(color: Colors.grey[700]),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  )),
+                ],
+              ),
+            ),
+          ],
+          
+          // 传承故事
+          if (influenceChain.legacyText != null && influenceChain.legacyText!.isNotEmpty) ...[
+            SizedBox(height: 12),
+            Container(
+              padding: EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Colors.amber.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Icon(Icons.auto_stories, color: Colors.amber[800], size: 20),
+                      SizedBox(width: 6),
+                      Text(
+                        '📖 ${isEnglish ? "Legacy" : "传承"}',
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.amber[900],
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 8),
+                  Text(
+                    influenceChain.legacyText!,
+                    style: TextStyle(fontSize: 13, height: 1.5),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+// ============================================
+// 测验组件
+// ============================================
+class QuizWidget extends StatefulWidget {
+  final QuizData quiz;
+  final Color color;
+
+  const QuizWidget({required this.quiz, required this.color});
+
+  @override
+  State<QuizWidget> createState() => _QuizWidgetState();
+}
+
+class _QuizWidgetState extends State<QuizWidget> {
   int? selectedAnswer;
   bool? isCorrect;
 
   @override
   Widget build(BuildContext context) {
-    final locale = Localizations.localeOf(context);
-    final isEnglish = locale.languageCode == 'en';
-    
-    String question = isEnglish && widget.quiz['question_en'] != null
-        ? widget.quiz['question_en']
-        : widget.quiz['question'];
-    
-    List options = isEnglish && widget.quiz['options_en'] != null
-        ? widget.quiz['options_en']
-        : widget.quiz['options'];
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          widget.questionNumber != null 
-              ? '❓ ${isEnglish ? "Question" : "问题"} ${widget.questionNumber}'
-              : '❓ ${isEnglish ? "Quiz" : "小测验"}',
+          '❓ ${isEnglish ? "Quiz" : "小测验"}',
           style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.bold,
@@ -2455,6 +2835,22 @@ class _QuizWidgetState extends State<_QuizWidget> {
           ),
         ),
         SizedBox(height: 8),
+        
+        // 题目图片
+        if (widget.quiz.image != null) ...[
+          ClipRRect(
+            borderRadius: BorderRadius.circular(12),
+            child: Image.network(
+              widget.quiz.image!,
+              height: 150,
+              width: double.infinity,
+              fit: BoxFit.cover,
+              errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+            ),
+          ),
+          SizedBox(height: 12),
+        ],
+        
         Container(
           padding: EdgeInsets.all(12),
           decoration: BoxDecoration(
@@ -2466,19 +2862,18 @@ class _QuizWidgetState extends State<_QuizWidget> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                question,
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                ),
+                widget.quiz.question,
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 12),
-              ...options.asMap().entries.map((entry) {
+              
+              // 选项
+              ...widget.quiz.options.asMap().entries.map((entry) {
                 int idx = entry.key;
                 String option = entry.value;
                 bool isSelected = selectedAnswer == idx;
                 bool isAnswered = selectedAnswer != null;
-                bool isThisCorrect = idx == widget.quiz['answer'];
+                bool isThisCorrect = idx == widget.quiz.answer;
                 
                 Color? buttonColor;
                 if (isAnswered) {
@@ -2495,7 +2890,7 @@ class _QuizWidgetState extends State<_QuizWidget> {
                     onPressed: isAnswered ? null : () {
                       setState(() {
                         selectedAnswer = idx;
-                        isCorrect = idx == widget.quiz['answer'];
+                        isCorrect = idx == widget.quiz.answer;
                       });
                     },
                     style: ElevatedButton.styleFrom(
@@ -2519,14 +2914,16 @@ class _QuizWidgetState extends State<_QuizWidget> {
                     ),
                   ),
                 );
-              }).toList(),
+              }),
+              
+              // 反馈
               if (isCorrect != null) ...[
                 SizedBox(height: 8),
                 Container(
                   padding: EdgeInsets.all(12),
                   decoration: BoxDecoration(
-                    color: isCorrect! 
-                        ? Colors.green.withOpacity(0.2) 
+                    color: isCorrect!
+                        ? Colors.green.withOpacity(0.2)
                         : Colors.red.withOpacity(0.2),
                     borderRadius: BorderRadius.circular(8),
                     border: Border.all(
@@ -2543,15 +2940,30 @@ class _QuizWidgetState extends State<_QuizWidget> {
                       ),
                       SizedBox(width: 12),
                       Expanded(
-                        child: Text(
-                          isCorrect! 
-                              ? (isEnglish ? 'Great! Correct! 🎉' : '太棒了！答对了！🎉')
-                              : (isEnglish ? 'Try again!' : '再想想，试试其他选项！'),
-                          style: TextStyle(
-                            color: isCorrect! ? Colors.green[800] : Colors.red[800],
-                            fontWeight: FontWeight.bold,
-                            fontSize: 14,
-                          ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              isCorrect!
+                                  ? (isEnglish ? 'Great! Correct! 🎉' : '太棒了！答对了！🎉')
+                                  : (isEnglish ? 'Try again!' : '再想想！'),
+                              style: TextStyle(
+                                color: isCorrect! ? Colors.green[800] : Colors.red[800],
+                                fontWeight: FontWeight.bold,
+                                fontSize: 14,
+                              ),
+                            ),
+                            if (isCorrect! && widget.quiz.explanation != null) ...[
+                              SizedBox(height: 6),
+                              Text(
+                                widget.quiz.explanation!,
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.grey[700],
+                                ),
+                              ),
+                            ],
+                          ],
                         ),
                       ),
                     ],
@@ -2562,6 +2974,37 @@ class _QuizWidgetState extends State<_QuizWidget> {
           ),
         ),
       ],
+    );
+  }
+}
+
+// ============================================
+// 通用UI组件
+// ============================================
+class EmptyState extends StatelessWidget {
+  final IconData icon;
+  final String message;
+
+  const EmptyState({required this.icon, required this.message});
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: EdgeInsets.all(48),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(icon, size: 80, color: Colors.grey[300]),
+            SizedBox(height: 16),
+            Text(
+              message,
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.grey[600], fontSize: 16),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

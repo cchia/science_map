@@ -1,0 +1,218 @@
+{
+    "id": "maxwell",
+    "title": "麦克斯韦方程组",
+    "title_en": "Maxwell's Equations",
+    "year": 1865,
+    "lat": 55.9533,
+    "lng": -3.1883,
+    "city": "爱丁堡",
+    "city_en": "Edinburgh",
+    "country": "苏格兰",
+    "country_en": "Scotland",
+    "field": "物理学",
+    "field_en": "Physics",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/James-Clerk-Maxwell-1831-1879.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/FWCN_uI5ygY",
+        "title": "麦克斯韦方程组",
+        "title_en": "Maxwell's Equations",
+        "duration": "6:30"
+      }
+    },
+    
+    "summary": {
+        "text": "麦克斯韦用4个优美的方程统一了电学和磁学，预言了电磁波的存在。他发现光就是一种电磁波！",
+        "text_en": "Maxwell unified electricity and magnetism with 4 elegant equations, predicting electromagnetic waves. He discovered light is an electromagnetic wave!",
+        "key_points": [
+          "统一了电和磁",
+          "预言电磁波存在",
+          "证明光是电磁波"
+        ],
+        "key_points_en": [
+          "Unified electricity and magnetism",
+          "Predicted electromagnetic waves",
+          "Proved light is electromagnetic wave"
+        ]
+      },
+      
+      "story": {
+        "text": "麦克斯韦在研究法拉第的电磁感应实验时，用数学方程描述了电和磁的关系。他发现：变化的电场产生磁场，变化的磁场产生电场。这两者结合，就能产生自我传播的波——电磁波！他计算出电磁波的速度，惊讶地发现正好等于光速。",
+        "text_en": "While studying Faraday's electromagnetic induction, Maxwell described electricity-magnetism relationship with equations. He found: changing electric fields produce magnetic fields, changing magnetic fields produce electric fields. Combined, they create self-propagating waves—electromagnetic waves! He calculated their speed, astonished to find it exactly equals light speed.",
+        "image": "https://source.unsplash.com/600x400/?electromagnetic,field,physics"
+      },
+      
+      "fun_facts": [
+        {
+          "icon": "📸",
+          "text": "麦克斯韦拍摄了世界上第一张彩色照片！用红绿蓝三色滤镜分别拍照再合成。",
+          "text_en": "Maxwell took the world's first color photograph! Using red, green, blue filters separately then combining."
+        },
+        {
+          "icon": "🎨",
+          "text": "他还研究了颜色理论，发现任何颜色都能用红绿蓝三原色混合出来。",
+          "text_en": "He also studied color theory, finding any color can be mixed from RGB primaries."
+        },
+        {
+          "icon": "🐱",
+          "text": "他养了一只猫，还在门上装了世界上第一个'猫门'！",
+          "text_en": "He had a cat and installed the world's first 'cat door'!"
+        }
+      ],
+      
+      "principle": {
+        "title": "电磁波理论",
+        "title_en": "Electromagnetic Wave Theory",
+        "diagram": "https://source.unsplash.com/600x400/?wave,electromagnetic,spectrum",
+        "key_points": [
+          {
+            "icon": "⚡",
+            "title": "电生磁",
+            "title_en": "Electricity Creates Magnetism",
+            "text": "电流产生磁场（安培定律）",
+            "text_en": "Electric current produces magnetic field (Ampère's law)"
+          },
+          {
+            "icon": "🧲",
+            "title": "磁生电",
+            "title_en": "Magnetism Creates Electricity",
+            "text": "变化的磁场产生电场（法拉第定律）",
+            "text_en": "Changing magnetic field produces electric field (Faraday's law)"
+          },
+          {
+            "icon": "🌊",
+            "title": "电磁波",
+            "title_en": "Electromagnetic Waves",
+            "text": "电场和磁场相互产生，形成波动传播",
+            "text_en": "Electric and magnetic fields mutually generate, forming propagating waves"
+          },
+          {
+            "icon": "💡",
+            "title": "光的本质",
+            "title_en": "Nature of Light",
+            "text": "光、无线电波、X射线都是电磁波，只是频率不同",
+            "text_en": "Light, radio waves, X-rays are all electromagnetic waves, just different frequencies"
+          }
+        ]
+      },
+      
+      "applications": [
+        {
+          "icon": "📱",
+          "title": "无线通信",
+          "title_en": "Wireless Communication",
+          "image": "https://source.unsplash.com/300x200/?smartphone,wireless,communication",
+          "text": "手机、WiFi、蓝牙都是利用电磁波传输信息。",
+          "text_en": "Phones, WiFi, Bluetooth all use electromagnetic waves to transmit information."
+        },
+        {
+          "icon": "📺",
+          "title": "广播电视",
+          "title_en": "Broadcasting",
+          "image": "https://source.unsplash.com/300x200/?radio,broadcast,antenna",
+          "text": "无线电波、电视信号都是电磁波。",
+          "text_en": "Radio waves, TV signals are electromagnetic waves."
+        },
+        {
+          "icon": "🍲",
+          "title": "微波炉",
+          "title_en": "Microwave Oven",
+          "image": "https://source.unsplash.com/300x200/?microwave,kitchen,cooking",
+          "text": "用微波（一种电磁波）加热食物中的水分子。",
+          "text_en": "Uses microwaves (electromagnetic waves) to heat water molecules in food."
+        },
+        {
+          "icon": "🏥",
+          "title": "医学成像",
+          "title_en": "Medical Imaging",
+          "image": "https://source.unsplash.com/300x200/?mri,medical,scan",
+          "text": "核磁共振（MRI）利用电磁波成像。",
+          "text_en": "MRI uses electromagnetic waves for imaging."
+        }
+      ],
+      
+      "experiment": {
+        "title": "电磁感应实验",
+        "title_en": "Electromagnetic Induction",
+        "image": "https://source.unsplash.com/600x300/?magnet,coil,electricity",
+        "materials": ["磁铁", "线圈", "小灯泡"],
+        "materials_en": ["Magnet", "Coil", "Small bulb"],
+        "description": "把磁铁在线圈中快速移动，线圈连接的小灯泡会发光！这证明了变化的磁场能产生电流。发电机就是这个原理。",
+        "description_en": "Move magnet quickly through coil, connected bulb lights up! This proves changing magnetic field produces electric current. Generators work on this principle.",
+        "why": "移动磁铁时，磁场变化，根据法拉第定律产生电场，驱动电流。",
+        "why_en": "Moving magnet changes magnetic field, producing electric field per Faraday's law, driving current."
+      },
+      
+      "simple_explanation": {
+        "text": "麦克斯韦发现电和磁其实是一家人！它们能产生波（电磁波）在空间中传播。光、无线电波、WiFi信号都是电磁波，只是'颜色'（频率）不同！",
+        "text_en": "Maxwell discovered electricity and magnetism are related! They produce waves (electromagnetic waves) propagating through space. Light, radio waves, WiFi are all electromagnetic waves, just different 'colors' (frequencies)!",
+        "diagram": "https://source.unsplash.com/500x300/?electromagnetic-spectrum,rainbow"
+      },
+      
+      "impact": {
+        "text": "麦克斯韦方程组是物理学最伟大的成就之一，为无线电、电视、手机、雷达等所有无线技术奠定了理论基础。爱因斯坦说这是'自牛顿以来物理学最深刻的变革'。",
+        "text_en": "Maxwell's equations are one of physics' greatest achievements, providing theoretical foundation for all wireless technologies: radio, TV, phones, radar. Einstein called it 'the most profound change in physics since Newton'.",
+        "stats": [
+          {
+            "number": "4",
+            "label": "个方程",
+            "label_en": "equations"
+          },
+          {
+            "number": "∞",
+            "label": "应用领域",
+            "label_en": "applications"
+          }
+        ]
+      },
+      
+      "influence_chain": {
+        "influenced_by": [
+          {
+            "id": "faraday",
+            "contribution": "电磁感应实验提供了基础",
+            "contribution_en": "Electromagnetic induction experiments provided foundation"
+          },
+          {
+            "id": "newton",
+            "contribution": "数学方法和力学框架",
+            "contribution_en": "Mathematical methods and mechanics framework"
+          }
+        ],
+        "influenced": [
+          {
+            "id": "planck",
+            "contribution": "研究电磁波辐射导致量子理论",
+            "contribution_en": "Studying electromagnetic radiation led to quantum theory"
+          },
+          {
+            "id": "einstein",
+            "contribution": "光速恒定启发了相对论",
+            "contribution_en": "Constant light speed inspired relativity"
+          },
+          {
+            "id": "quantum",
+            "contribution": "电磁理论是量子电动力学基础",
+            "contribution_en": "Electromagnetic theory is basis of quantum electrodynamics"
+          }
+        ],
+        "legacy_text": "麦克斯韦继承了法拉第的实验发现，用牛顿的数学方法建立了方程组。他预言光速恒定，这个发现困扰物理学家40年，直到爱因斯坦用相对论解决。麦克斯韦方程也是量子电动力学的基础，影响了整个20世纪物理学。",
+        "legacy_text_en": "Maxwell built on Faraday's experimental discoveries, using Newton's mathematical methods to establish equations. He predicted constant light speed, puzzling physicists for 40 years until Einstein's relativity resolved it. Maxwell's equations also underpin quantum electrodynamics, influencing all 20th-century physics."
+      },
+      
+      "related_concepts": ["电磁波", "光", "电场", "磁场", "无线电"],
+      "related_concepts_en": ["Electromagnetic Wave", "Light", "Electric Field", "Magnetic Field", "Radio"],
+      
+      "quiz": {
+        "question": "麦克斯韦预言光是什么？",
+        "question_en": "What did Maxwell predict light is?",
+        "options": ["粒子", "电磁波", "声波", "能量"],
+        "options_en": ["Particle", "Electromagnetic wave", "Sound wave", "Energy"],
+        "answer": 1,
+        "explanation": "麦克斯韦通过计算发现电磁波的速度等于光速，因此预言光就是一种电磁波。",
+        "explanation_en": "Maxwell calculated electromagnetic wave speed equals light speed, thus predicting light is an electromagnetic wave."
+      },
+      
+      "influences": ["faraday", "newton"]
+    }

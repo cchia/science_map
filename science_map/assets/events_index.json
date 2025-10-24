@@ -1,16 +1,21 @@
 [
-  "pythagoras",
-  "euclid_elements",
-  "archimedes_principle",
-  "zhang_heng_seismograph",
   "al_khwarizmi_algebra",
   "alhazen_optics",
-  "sheng_kuo_mengxi",
+  "archimedes_principle",
   "corpenicus_heliocentrism",
-  "visalius_anatomy",
+  "curie",
+  "darwin",
+  "descartes_analytic_geometry",
+  "dna",
+  "einstein",
+  "euclid_elements",
   "galileo_telescope",
-  "kepler_laws",
+  "galileo",
   "harvey_circulation",
-  "descartes_analytic_geometry"
-
+  "kepler_laws",
+  "maxwell",
+  "newton",
+  "sheng_kuo_mengxi",
+  "visalius_anatomy",
+  "zhang_heng_seismograph"
 ]
