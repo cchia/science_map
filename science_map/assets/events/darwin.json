@@ -1,212 +1,229 @@
 {
-    "id": "darwin",
-    "title": "达尔文进化论",
-    "title_en": "Darwin's Theory of Evolution",
-    "year": 1859,
-    "lat": 51.5074,
-    "lng": -0.1278,
-    "city": "伦敦",
-    "city_en": "London",
-    "country": "英国",
-    "country_en": "England",
-    "field": "生物学",
-    "field_en": "Biology",
-    
-    "media": {
-      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Charles_Darwin_seated_crop.jpg",
-      "video": {
-        "url": "https://www.youtube.com/embed/hOfRN0KihOU",
-        "title": "进化论简介",
-        "title_en": "Introduction to Evolution",
-        "duration": "6:15"
-      }
-    },
-    
-    "summary": {
-      "text": "达尔文提出：生物通过自然选择不断进化。适应环境的生物生存下来，把优良特征传给后代。这解释了地球上生命的多样性。",
-      "text_en": "Darwin proposed: organisms evolve through natural selection. Those adapted to environment survive, passing favorable traits to offspring. This explains Earth's biodiversity.",
-      "key_points": [
-        "自然选择：适者生存",
-        "遗传变异是进化基础",
-        "所有生物有共同祖先"
-      ],
-      "key_points_en": [
-        "Natural selection: survival of the fittest",
-        "Genetic variation is evolution's basis",
-        "All life shares common ancestry"
-      ]
-    },
-    
-    "story": {
-      "text": "达尔文乘坐'小猎犬号'环球航行5年。在加拉帕戈斯群岛，他观察到不同岛上的雀鸟喙形状不同——这让他思考：生物会改变吗？经过20年思考，他终于发表了《物种起源》。",
-      "text_en": "Darwin sailed the world for 5 years on HMS Beagle. In Galápagos, he observed different beak shapes on different islands—making him wonder: do organisms change? After 20 years of thought, he published Origin of Species.",
-      "image": "https://source.unsplash.com/600x400/?galapagos,finch,bird"
-    },
-    
-    "fun_facts": [
-      {
-        "icon": "🎓",
-        "text": "达尔文差点当牧师！他在剑桥学的是神学，但对自然的热爱让他走上科学之路。",
-        "text_en": "Darwin almost became a clergyman! He studied theology at Cambridge, but love of nature led him to science."
-      },
-      {
-        "icon": "🤢",
-        "text": "他在航行中晕船晕了5年，但仍坚持观察和记录。",
-        "text_en": "He was seasick for 5 years during the voyage, but persisted in observing and recording."
-      },
-      {
-        "icon": "⏰",
-        "text": "他思考了20年才敢发表进化论，因为害怕被教会攻击。",
-        "text_en": "He pondered 20 years before daring to publish, fearing Church attacks."
-      }
+  "id": "darwin",
+  "title": "查尔斯·达尔文与进化论",
+  "title_en": "Charles Darwin and Evolution",
+  "year": 1859,
+  "lat": -0.6917,
+  "lng": -90.3083,
+  "city": "加拉帕戈斯群岛",
+  "city_en": "Galápagos Islands",
+  "country": "厄瓜多尔",
+  "country_en": "Ecuador",
+  "field": "生物学",
+  "field_en": "Biology",
+  
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Charles_Darwin_seated_crop.jpg",
+    "video": {
+      "url": "https://www.youtube.com/embed/GcjgWov7mTM",
+      "title": "达尔文与自然选择",
+      "title_en": "Darwin and Natural Selection",
+      "duration": "9:30"
+    }
+  },
+  
+  "summary": {
+    "text": "达尔文提出了进化论！他发现物种不是固定不变的，而是通过自然选择逐渐演化。适应环境的个体更容易生存和繁殖，不适应的被淘汰。这个理论彻底改变了人类对生命起源的认识，是生物学史上最伟大的发现。",
+    "text_en": "Darwin proposed theory of evolution! He discovered species not fixed but gradually evolve through natural selection. Individuals adapted to environment more likely survive and reproduce, unadapted eliminated. This theory completely changed human understanding of life's origins, greatest discovery in biology history.",
+    "key_points": [
+      "提出自然选择理论",
+      "证明物种会进化",
+      "著有《物种起源》"
     ],
-    
-    "principle": {
-      "title": "自然选择机制",
-      "title_en": "Natural Selection Mechanism",
-      "diagram": "https://source.unsplash.com/600x400/?evolution,adaptation",
-      "key_points": [
-        {
-          "icon": "🧬",
-          "title": "遗传变异",
-          "title_en": "Genetic Variation",
-          "text": "后代与父母略有不同（基因突变）",
-          "text_en": "Offspring differ slightly from parents (genetic mutation)"
-        },
-        {
-          "icon": "🏆",
-          "title": "生存竞争",
-          "title_en": "Struggle for Survival",
-          "text": "资源有限，不是所有个体都能生存",
-          "text_en": "Limited resources, not all individuals survive"
-        },
-        {
-          "icon": "✅",
-          "title": "适者生存",
-          "title_en": "Survival of Fittest",
-          "text": "适应环境的个体更可能生存和繁殖",
-          "text_en": "Adapted individuals more likely to survive and reproduce"
-        },
-        {
-          "icon": "👶",
-          "title": "遗传积累",
-          "title_en": "Hereditary Accumulation",
-          "text": "有利特征代代相传，逐渐改变物种",
-          "text_en": "Favorable traits pass down, gradually changing species"
-        }
-      ]
+    "key_points_en": [
+      "Proposed natural selection theory",
+      "Proved species evolve",
+      "Authored 'Origin of Species'"
+    ]
+  },
+  
+  "story": {
+    "text": "1831年，22岁的达尔文登上'小猎犬号'军舰，开始了5年的环球航行。在加拉帕戈斯群岛，他发现每个岛上的雀鸟喙形状都不同：吃种子的喙粗壮，吃昆虫的喙细长。他意识到：这些雀鸟原本是同一种，为了适应不同食物而演化出不同的喙！回国后他花了20年整理证据，1859年出版《物种起源》，震撼世界。",
+    "text_en": "In 1831, 22-year-old Darwin boarded HMS Beagle, beginning 5-year voyage around world. On Galápagos Islands, he found finches on each island had different beak shapes: seed-eaters had thick beaks, insect-eaters had thin beaks. He realized: these finches originally same species, evolved different beaks to adapt to different foods! After returning, he spent 20 years organizing evidence, published 'Origin of Species' in 1859, shocking the world.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Darwin%27s_finches_by_Gould.jpg"
+  },
+  
+  "fun_facts": [
+    {
+      "icon": "🐢",
+      "text": "加拉帕戈斯巨龟能活200年，达尔文骑在龟背上拍照，那只龟可能现在还活着！",
+      "text_en": "Galápagos tortoises live 200 years, Darwin rode on tortoise for photo, that tortoise might still be alive!"
     },
-    
-    "applications": [
-      {
-        "icon": "💊",
-        "title": "医学",
-        "title_en": "Medicine",
-        "image": "https://source.unsplash.com/300x200/?bacteria,antibiotic",
-        "text": "理解细菌如何产生抗药性，开发新抗生素。",
-        "text_en": "Understand how bacteria develop resistance, develop new antibiotics."
-      },
-      {
-        "icon": "🌾",
-        "title": "农业",
-        "title_en": "Agriculture",
-        "image": "https://source.unsplash.com/300x200/?crops,farming",
-        "text": "培育抗病、高产的农作物品种。",
-        "text_en": "Breed disease-resistant, high-yield crop varieties."
-      },
-      {
-        "icon": "🦕",
-        "title": "古生物学",
-        "title_en": "Paleontology",
-        "image": "https://source.unsplash.com/300x200/?fossil,dinosaur",
-        "text": "通过化石研究生物演化历史。",
-        "text_en": "Study evolutionary history through fossils."
-      },
+    {
+      "icon": "📚",
+      "text": "他拖延了20年才出版《物种起源》，因为害怕引起宗教争议。",
+      "text_en": "He delayed 20 years before publishing 'Origin of Species', fearing religious controversy."
+    },
+    {
+      "icon": "🐛",
+      "text": "他小时候喜欢收集甲虫，有次嘴里含着甲虫，手里还抓着两只！",
+      "text_en": "As child he loved collecting beetles, once held beetle in mouth while hands held two more!"
+    },
+    {
+      "icon": "💍",
+      "text": "他娶了表妹艾玛，两人非常恩爱，生了10个孩子。",
+      "text_en": "He married cousin Emma, very loving couple, had 10 children."
+    }
+  ],
+  
+  "principle": {
+    "title": "自然选择核心原理",
+    "title_en": "Natural Selection Core Principles",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Natural_selection_diagram.svg",
+    "key_points": [
       {
         "icon": "🧬",
-        "title": "基因研究",
-        "title_en": "Genetics",
-        "image": "https://source.unsplash.com/300x200/?dna,genetics",
-        "text": "DNA证据证实了进化论，揭示物种亲缘关系。",
-        "text_en": "DNA evidence confirms evolution, reveals species relationships."
+        "title": "遗传变异",
+        "title_en": "Hereditary Variation",
+        "text": "同一物种的个体之间存在差异，这些差异可以遗传",
+        "text_en": "Individuals of same species have differences, these differences can be inherited"
+      },
+      {
+        "icon": "⚔️",
+        "title": "生存竞争",
+        "title_en": "Struggle for Existence",
+        "text": "生物繁殖能力超过环境承载力，必然产生生存竞争",
+        "text_en": "Organisms reproduce beyond environment capacity, inevitably causing survival competition"
+      },
+      {
+        "icon": "✅",
+        "title": "适者生存",
+        "title_en": "Survival of Fittest",
+        "text": "适应环境的个体更容易生存和繁殖，留下更多后代",
+        "text_en": "Individuals adapted to environment more likely survive and reproduce, leaving more offspring"
+      },
+      {
+        "icon": "🔄",
+        "title": "逐渐演化",
+        "title_en": "Gradual Evolution",
+        "text": "经过无数代的积累，微小变化导致新物种形成",
+        "text_en": "Through countless generations accumulation, small changes lead to new species formation"
+      }
+    ]
+  },
+  
+  "applications": [
+    {
+      "icon": "🌾",
+      "title": "农业育种",
+      "title_en": "Agricultural Breeding",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Selective_breeding_of_maize.jpg",
+      "text": "人工选择优良性状，培育高产作物和优质家畜。",
+      "text_en": "Artificial selection of favorable traits, breeding high-yield crops and quality livestock."
+    },
+    {
+      "icon": "💊",
+      "title": "医学研究",
+      "title_en": "Medical Research",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Antibiotic_resistance.svg",
+      "text": "理解细菌抗药性进化，开发新抗生素策略。",
+      "text_en": "Understanding bacterial antibiotic resistance evolution, developing new antibiotic strategies."
+    },
+    {
+      "icon": "🦠",
+      "title": "疫苗开发",
+      "title_en": "Vaccine Development",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Virus_evolution.svg",
+      "text": "追踪病毒进化，预测流感变异，研发针对性疫苗。",
+      "text_en": "Tracking virus evolution, predicting flu mutations, developing targeted vaccines."
+    },
+    {
+      "icon": "🌳",
+      "title": "保护生物学",
+      "title_en": "Conservation Biology",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Phylogenetic_tree.svg",
+      "text": "理解物种关系和适应性，制定保护濒危物种策略。",
+      "text_en": "Understanding species relationships and adaptations, formulating endangered species protection strategies."
+    }
+  ],
+  
+  "experiment": {
+    "title": "经典观察：达尔文雀的喙",
+    "title_en": "Classic Observation: Darwin's Finch Beaks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Darwin_finches.png",
+    "description": "在加拉帕戈斯群岛，达尔文发现13种雀鸟，它们的喙形状各不相同。吃大种子的地雀有粗壮的喙，能压碎坚硬种子；吃昆虫的树雀有细长的喙，能从树皮缝隙中捕虫；吃仙人掌的雀有尖喙，能刺穿仙人掌。达尔文推断：这些雀鸟有共同祖先，到达不同岛屿后，为适应不同食物来源而演化出不同的喙。这是自然选择最经典的例证。",
+    "description_en": "On Galápagos Islands, Darwin found 13 finch species with different beak shapes. Ground finches eating large seeds had thick beaks crushing hard seeds; tree finches eating insects had thin beaks catching bugs from bark crevices; cactus finches had sharp beaks piercing cacti. Darwin deduced: these finches share common ancestor, after reaching different islands, evolved different beaks adapting to different food sources. This is most classic evidence of natural selection.",
+    "why": "不同食物来源产生不同选择压力，喙形状适合食物的个体更容易生存，将基因传给后代。",
+    "why_en": "Different food sources create different selection pressures, individuals with beak shapes suited to food more likely survive, passing genes to offspring."
+  },
+  
+  "simple_explanation": {
+    "text": "想象一群长颈鹿。有的脖子长，有的脖子短。树叶都在高处，脖子短的够不着，饿死了；脖子长的吃得饱，活下来生了很多小长颈鹿。几千代之后，所有长颈鹿的脖子都变长了！这就是自然选择：环境像个筛子，筛掉不适应的，留下适应的。不是长颈鹿想要长脖子，而是短脖子的都被淘汰了。",
+    "text_en": "Imagine group of giraffes. Some have long necks, some short. Leaves all high up, short-necked can't reach, starve; long-necked eat well, survive and have many baby giraffes. After thousands of generations, all giraffes have long necks! This is natural selection: environment like sieve, filtering out unadapted, keeping adapted. Not that giraffes wanted long necks, but short-necked ones eliminated.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Giraffe_evolution.svg"
+  },
+  
+  "impact": {
+    "text": "达尔文的进化论是生物学史上最伟大的理论！它解释了生命的多样性和复杂性，统一了整个生物学。进化论不仅改变了科学，也深刻影响了哲学、社会学、心理学等领域。它挑战了'神创论'，引发了科学与宗教的大辩论。今天，进化论是现代生物学的基石，从分子生物学到生态学，所有领域都建立在进化论基础上。",
+    "text_en": "Darwin's evolution theory is greatest theory in biology history! It explained life's diversity and complexity, unifying entire biology. Evolution not only changed science, but profoundly influenced philosophy, sociology, psychology fields. It challenged 'creationism', sparking great science-religion debate. Today, evolution is cornerstone of modern biology, from molecular biology to ecology, all fields built on evolutionary foundation.",
+    "stats": [
+      {
+        "number": "1859",
+        "label": "《物种起源》出版",
+        "label_en": "'Origin of Species' published"
+      },
+      {
+        "number": "100%",
+        "label": "现代生物学基于进化论",
+        "label_en": "Modern biology based on evolution"
+      }
+    ]
+  },
+  
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "lamarck",
+        "contribution": "提出生物会变化的思想",
+        "contribution_en": "Proposed idea that organisms change"
+      },
+      {
+        "id": "lyell",
+        "contribution": "地质渐变论启发生物渐变思想",
+        "contribution_en": "Geological gradualism inspired biological gradualism"
+      },
+      {
+        "id": "malthus",
+        "contribution": "人口论启发生存竞争概念",
+        "contribution_en": "Population theory inspired struggle for existence concept"
       }
     ],
-    
-    "experiment": {
-      "title": "观察自然选择",
-      "title_en": "Observe Natural Selection",
-      "image": "https://source.unsplash.com/600x300/?birds,nature",
-      "materials": ["鸟食", "观察笔记"],
-      "materials_en": ["Bird food", "Observation notes"],
-      "description": "在公园观察不同鸟类的喙形状和它们吃的食物。长喙的鸟吃虫子，短喙的鸟吃种子。这就是自然选择：喙的形状适应了食物类型！",
-      "description_en": "Observe different bird beak shapes and their food in parks. Long beaks eat insects, short beaks eat seeds. This is natural selection: beak shape adapted to food type!",
-      "why": "不同环境需要不同特征，自然选择保留了最适应的。",
-      "why_en": "Different environments need different traits, natural selection retains best adapted."
-    },
-    
-    "simple_explanation": {
-      "text": "生物会慢慢改变。适应环境的生物能生存下来，把特点传给孩子。就像长颈鹿的脖子越来越长，因为能吃到高处的叶子！",
-      "text_en": "Organisms slowly change. Those adapted to environment survive, passing traits to offspring. Like giraffes' necks getting longer because they could reach high leaves!",
-      "diagram": "https://source.unsplash.com/500x300/?giraffe,evolution"
-    },
-    
-    "impact": {
-      "text": "进化论彻底改变了人类对生命起源的认识，是现代生物学的基石。从医学到农业，从生态保护到基因工程，都建立在进化论基础上。",
-      "text_en": "Evolution completely changed humanity's understanding of life's origins, becoming modern biology's cornerstone. From medicine to agriculture, from ecology to genetic engineering, all build on evolution.",
-      "stats": [
-        {
-          "number": "99%",
-          "label": "科学家接受",
-          "label_en": "scientists accept"
-        },
-        {
-          "number": "38亿年",
-          "label": "生命演化史",
-          "label_en": "years of life evolution"
-        }
-      ]
-    },
-    
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "linnaeus",
-          "contribution": "生物分类系统为进化研究提供框架",
-          "contribution_en": "Classification system provided framework for evolution research"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "mendel",
-          "contribution": "遗传学解释了进化的机制",
-          "contribution_en": "Genetics explained evolution's mechanism"
-        },
-        {
-          "id": "dna",
-          "contribution": "DNA证据证实进化论",
-          "contribution_en": "DNA evidence confirmed evolution"
-        },
-        {
-          "id": "crispr",
-          "contribution": "基因编辑基于进化原理",
-          "contribution_en": "Gene editing based on evolutionary principles"
-        }
-      ],
-      "legacy_text": "达尔文的进化论建立在林奈分类系统之上。后来孟德尔的遗传学解释了变异如何产生，DNA的发现提供了分子证据。从观察雀鸟到编辑基因，这是一条清晰的知识传承之路。",
-      "legacy_text_en": "Darwin's evolution built on Linnaeus's classification. Later, Mendel's genetics explained how variation arises, DNA discovery provided molecular evidence. From observing finches to editing genes—a clear knowledge legacy path."
-    },
-    
-    "related_concepts": ["进化", "自然选择", "适应", "物种起源"],
-    "related_concepts_en": ["Evolution", "Natural Selection", "Adaptation", "Origin of Species"],
-    
-    "quiz": {
-      "question": "达尔文在哪里观察到了不同的雀鸟？",
-      "question_en": "Where did Darwin observe different finches?",
-      "image": "https://source.unsplash.com/400x300/?galapagos,island",
-      "options": ["英国", "加拉帕戈斯群岛", "澳大利亚", "南极"],
-      "options_en": ["England", "Galápagos Islands", "Australia", "Antarctica"],
-      "answer": 1,
-      "explanation": "在加拉帕戈斯群岛，不同岛上的雀鸟喙形状不同，这启发了达尔文的进化论。",
-      "explanation_en": "In Galápagos, finches on different islands had different beak shapes, inspiring Darwin's evolution theory."
-    }
+    "influenced": [
+      {
+        "id": "mendel",
+        "contribution": "遗传学解释变异的机制",
+        "contribution_en": "Genetics explained mechanism of variation"
+      },
+      {
+        "id": "watson_crick",
+        "contribution": "DNA结构揭示遗传物质基础",
+        "contribution_en": "DNA structure revealed genetic material basis"
+      },
+      {
+        "id": "modern_synthesis",
+        "contribution": "综合进化论结合遗传学和进化论",
+        "contribution_en": "Modern synthesis combined genetics and evolution"
+      },
+      {
+        "id": "molecular_evolution",
+        "contribution": "分子生物学验证进化关系",
+        "contribution_en": "Molecular biology verified evolutionary relationships"
+      }
+    ],
+    "legacy_text": "达尔文受拉马克的生物变化思想、莱尔的地质渐变论和马尔萨斯的人口论启发，提出自然选择理论。孟德尔的遗传学解释了变异如何遗传。华生和克里克发现DNA结构，揭示了遗传的分子基础。20世纪的现代综合进化论将遗传学与进化论结合。今天，分子生物学通过DNA序列比较验证了达尔文的进化树。",
+    "legacy_text_en": "Darwin inspired by Lamarck's organism change idea, Lyell's geological gradualism, and Malthus's population theory, proposed natural selection. Mendel's genetics explained how variations inherited. Watson and Crick discovered DNA structure, revealing genetic molecular basis. 20th century modern synthesis combined genetics with evolution. Today, molecular biology through DNA sequence comparison verified Darwin's evolutionary tree."
+  },
+  
+  "related_concepts": ["自然选择", "适者生存", "物种起源", "进化论"],
+  "related_concepts_en": ["Natural Selection", "Survival of Fittest", "Origin of Species", "Evolution"],
+  
+  "quiz": {
+    "question": "达尔文的自然选择理论核心是什么？",
+    "question_en": "What is core of Darwin's natural selection theory?",
+    "options": ["生物想要改变", "适应环境的个体更容易生存繁殖", "神创造了所有物种", "获得性遗传"],
+    "options_en": ["Organisms want to change", "Adapted individuals more likely survive and reproduce", "God created all species", "Inheritance of acquired traits"],
+    "answer": 1,
+    "explanation": "达尔文自然选择理论的核心是：个体之间存在遗传变异，适应环境的个体更容易生存和繁殖，将有利性状传给后代。经过无数代积累，种群逐渐演化。这不是生物'想要'改变，而是环境'选择'了适应者。这个理论用自然机制解释了生物的适应性和多样性，不需要超自然力量干预。",
+    "explanation_en": "Core of Darwin's natural selection theory: hereditary variation exists among individuals, those adapted to environment more likely survive and reproduce, passing favorable traits to offspring. Through countless generations accumulation, populations gradually evolve. Not that organisms 'want' to change, but environment 'selects' adapted ones. This theory explains biological adaptation and diversity through natural mechanisms, no supernatural intervention needed."
   }
+}

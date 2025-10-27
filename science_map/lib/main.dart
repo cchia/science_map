@@ -80,6 +80,7 @@ class _MapScreenState extends State<MapScreen> {
   // 数据
   List<Map<String, dynamic>> events = [];
   List<Map<String, dynamic>> storyModes = [];
+  Map<String, dynamic> people = {};
   bool isLoading = true;
   
   // 筛选
@@ -439,71 +440,7 @@ class _MapScreenState extends State<MapScreen> {
     );
   }
 
-  MarkerLayer _buildMarkerLayer() {
-    return MarkerLayer(
-      markers: getFilteredEvents().map((event) {
-        String field = event['field'] ?? '综合';
-        Color color = getFieldColor(field);
-        String emoji = getFieldEmoji(field);
-        
-        return Marker(
-          point: LatLng(event['lat'], event['lng']),
-          width: 80,
-          height: 80,
-          child: GestureDetector(
-            onTap: () => _showEventDialog(event),
-            child: Column(
-              children: [
-                Container(
-                  width: 40,
-                  height: 40,
-                  decoration: BoxDecoration(
-                    color: color,
-                    shape: BoxShape.circle,
-                    boxShadow: [
-                      BoxShadow(
-                        color: color.withOpacity(0.4),
-                        blurRadius: 8,
-                        spreadRadius: 2,
-                      ),
-                    ],
-                  ),
-                  child: Center(
-                    child: Text(emoji, style: TextStyle(fontSize: 22)),
-                  ),
-                ),
-                SizedBox(height: 4),
-                Container(
-                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: color, width: 2),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black12,
-                        blurRadius: 4,
-                        offset: Offset(0, 2),
-                      ),
-                    ],
-                  ),
-                  child: Text(
-                    '${event['year']}',
-                    style: TextStyle(
-                      fontSize: 11,
-                      fontWeight: FontWeight.bold,
-                      color: color,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
-      }).toList(),
-    );
-  }
-
+ 
   // ========== 学习路径选择器 ==========
   Widget _buildLearningPathSelector(AppLocalizations l10n, bool isEnglish) {
     return Positioned(
@@ -919,6 +856,245 @@ class _MapScreenState extends State<MapScreen> {
       ),
     );
   }
+
+  // 在 _MapScreenState 中添加方法
+  Map<String, List<Map<String, dynamic>>> _clusterEvents() {
+    Map<String, List<Map<String, dynamic>>> clusters = {};
+    
+    for (var event in getFilteredEvents()) {
+      // 使用经纬度的组合作为key（精确到小数点后2位）
+      String key = '${event['lat'].toStringAsFixed(2)}_${event['lng'].toStringAsFixed(2)}';
+      
+      if (!clusters.containsKey(key)) {
+        clusters[key] = [];
+      }
+      clusters[key]!.add(event);
+    }
+    
+    return clusters;
+  }
+
+  // 修改 _buildMarkerLayer
+  MarkerLayer _buildMarkerLayer() {
+    var clusters = _clusterEvents();
+    List<Marker> markers = [];
+    
+    clusters.forEach((key, events) {
+      if (events.isEmpty) return;
+      
+      // 使用第一个事件的位置
+      var firstEvent = events[0];
+      String field = firstEvent['field'] ?? '综合';
+      Color color = getFieldColor(field);
+      
+      if (events.length == 1) {
+        // 单个事件，正常显示
+        markers.add(_buildSingleMarker(events[0]));
+      } else {
+        // 多个事件，显示聚类标记
+        markers.add(_buildClusterMarker(events, color));
+      }
+    });
+    
+    return MarkerLayer(markers: markers);
+  }
+
+  Marker _buildSingleMarker(Map<String, dynamic> event) {
+    String field = event['field'] ?? '综合';
+    Color color = getFieldColor(field);
+    String emoji = getFieldEmoji(field);
+    
+    return Marker(
+      point: LatLng(event['lat'], event['lng']),
+      width: 80,
+      height: 80,
+      child: GestureDetector(
+        onTap: () => _showEventDialog(event),
+        child: Column(
+          children: [
+            Container(
+              width: 40,
+              height: 40,
+              decoration: BoxDecoration(
+                color: color,
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: color.withOpacity(0.4),
+                    blurRadius: 8,
+                    spreadRadius: 2,
+                  ),
+                ],
+              ),
+              child: Center(
+                child: Text(emoji, style: TextStyle(fontSize: 22)),
+              ),
+            ),
+            SizedBox(height: 4),
+            Container(
+              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: color, width: 2),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black12,
+                    blurRadius: 4,
+                    offset: Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: Text(
+                '${event['year']}',
+                style: TextStyle(
+                  fontSize: 11,
+                  fontWeight: FontWeight.bold,
+                  color: color,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Marker _buildClusterMarker(List<Map<String, dynamic>> events, Color color) {
+    var firstEvent = events[0];
+    
+    return Marker(
+      point: LatLng(firstEvent['lat'], firstEvent['lng']),
+      width: 80,
+      height: 80,
+      child: GestureDetector(
+        onTap: () => _showClusterDialog(events),
+        child: Column(
+          children: [
+            Container(
+              width: 44,
+              height: 44,
+              decoration: BoxDecoration(
+                color: color,
+                shape: BoxShape.circle,
+                border: Border.all(color: Colors.white, width: 3),
+                boxShadow: [
+                  BoxShadow(
+                    color: color.withOpacity(0.5),
+                    blurRadius: 12,
+                    spreadRadius: 3,
+                  ),
+                ],
+              ),
+              child: Center(
+                child: Text(
+                  '${events.length}',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(height: 4),
+            Container(
+              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: color, width: 2),
+              ),
+              child: Text(
+                firstEvent['city'] ?? '',
+                style: TextStyle(
+                  fontSize: 10,
+                  fontWeight: FontWeight.bold,
+                  color: color,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  // 显示聚类事件列表
+  void _showClusterDialog(List<Map<String, dynamic>> events) {
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
+    
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Row(
+          children: [
+            Icon(Icons.location_on, color: Colors.blue),
+            SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                '${events[0]['city']} - ${events.length} ${isEnglish ? "events" : "个事件"}',
+              ),
+            ),
+          ],
+        ),
+        content: Container(
+          width: 400,
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: events.length,
+            itemBuilder: (context, index) {
+              var event = events[index];
+              String title = isEnglish && event['title_en'] != null
+                  ? event['title_en']
+                  : event['title'];
+              String field = event['field'] ?? '综合';
+              Color color = getFieldColor(field);
+              String emoji = getFieldEmoji(field);
+              
+              return Card(
+                margin: EdgeInsets.only(bottom: 8),
+                child: ListTile(
+                  leading: Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      color: color,
+                      shape: BoxShape.circle,
+                    ),
+                    child: Center(
+                      child: Text(emoji, style: TextStyle(fontSize: 20)),
+                    ),
+                  ),
+                  title: Text(
+                    title,
+                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                  ),
+                  subtitle: Text(
+                    '${event['year']}',
+                    style: TextStyle(fontSize: 12),
+                  ),
+                  trailing: Icon(Icons.arrow_forward_ios, size: 16),
+                  onTap: () {
+                    Navigator.pop(context);
+                    _showEventDialog(event);
+                  },
+                ),
+              );
+            },
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(isEnglish ? 'Close' : '关闭'),
+          ),
+        ],
+      ),
+    );
+  }  
 }
 
 // ============================================

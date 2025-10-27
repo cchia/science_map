@@ -1,0 +1,224 @@
+{
+    "id": "roentgen",
+    "title": "威廉·伦琴与X射线",
+    "title_en": "Wilhelm Röntgen and X-rays",
+    "year": 1895,
+    "lat": 48.1351,
+    "lng": 11.5820,
+    "city": "维尔茨堡",
+    "city_en": "Würzburg",
+    "country": "德国",
+    "country_en": "Germany",
+    "field": "物理学",
+    "field_en": "Physics",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Roentgen2.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/gsV7SJDDOI4",
+        "title": "X射线的发现",
+        "title_en": "Discovery of X-rays",
+        "duration": "5:45"
+      }
+    },
+    
+    "summary": {
+      "text": "伦琴偶然发现了X射线！这种神秘射线能穿透人体，让骨骼清晰可见。他拍摄了人类历史上第一张X光片——妻子的手骨照片。这个发现彻底改变了医学诊断，他也因此获得首届诺贝尔物理学奖。",
+      "text_en": "Röntgen accidentally discovered X-rays! These mysterious rays penetrate human body, making bones clearly visible. He took first X-ray photograph in human history - his wife's hand bones. This discovery revolutionized medical diagnosis, earning him first Nobel Prize in Physics.",
+      "key_points": [
+        "偶然发现X射线",
+        "拍摄第一张X光片",
+        "获得首届诺贝尔物理学奖"
+      ],
+      "key_points_en": [
+        "Accidentally discovered X-rays",
+        "Took first X-ray photograph",
+        "Won first Nobel Prize in Physics"
+      ]
+    },
+    
+    "story": {
+      "text": "1895年11月8日晚，50岁的伦琴在实验室研究阴极射线。他用黑纸包住真空管，突然发现几米外的荧光屏在发光！他关掉电源，光消失了；再打开，光又出现。他意识到发现了一种未知射线，称之为'X射线'(X代表未知)。12月22日，他让妻子把手放在感光板上，拍下了那张著名的手骨照片。妻子看到自己的骨骼惊呼：'我看到了我的死亡！'",
+      "text_en": "Evening of November 8, 1895, 50-year-old Röntgen researching cathode rays in lab. He covered vacuum tube with black paper, suddenly noticed fluorescent screen meters away glowing! He turned off power, light disappeared; turned on again, light reappeared. He realized he'd discovered unknown rays, calling them 'X-rays' (X for unknown). December 22, he had wife place hand on photographic plate, taking that famous hand bone photo. Wife seeing her skeleton exclaimed: 'I have seen my death!'",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.gif"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "❌",
+        "text": "他用'X'命名是因为数学中X代表未知数，这个名字一直沿用至今。",
+        "text_en": "He used 'X' because in mathematics X represents unknown variable, name still used today."
+      },
+      {
+        "icon": "🎁",
+        "text": "他拒绝为X射线申请专利，认为科学发现应该属于全人类。",
+        "text_en": "He refused to patent X-rays, believing scientific discoveries should belong to all humanity."
+      },
+      {
+        "icon": "💍",
+        "text": "妻子的手骨照片上清晰可见她的结婚戒指，成为科学史上最著名的照片之一。",
+        "text_en": "Wife's hand bone photo clearly showed her wedding ring, becoming one of most famous photos in science history."
+      },
+      {
+        "icon": "🏆",
+        "text": "他把诺贝尔奖金全部捐给了维尔茨堡大学。",
+        "text_en": "He donated entire Nobel Prize money to University of Würzburg."
+      }
+    ],
+    
+    "principle": {
+      "title": "X射线核心原理",
+      "title_en": "X-ray Core Principles",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/72/X-ray_tube_diagram.svg",
+      "key_points": [
+        {
+          "icon": "⚡",
+          "title": "X射线产生",
+          "title_en": "X-ray Generation",
+          "text": "高速电子撞击金属靶产生，是一种高能电磁波",
+          "text_en": "Generated when high-speed electrons hit metal target, a type of high-energy electromagnetic wave"
+        },
+        {
+          "icon": "👻",
+          "title": "穿透性",
+          "title_en": "Penetration",
+          "text": "能穿透软组织但被骨骼和金属阻挡，形成影像对比",
+          "text_en": "Penetrates soft tissue but blocked by bones and metal, creating image contrast"
+        },
+        {
+          "icon": "📸",
+          "title": "成像原理",
+          "title_en": "Imaging Principle",
+          "text": "不同密度组织吸收X射线程度不同，在胶片上形成明暗对比",
+          "text_en": "Different density tissues absorb X-rays differently, creating light-dark contrast on film"
+        },
+        {
+          "icon": "⚠️",
+          "title": "电离辐射",
+          "title_en": "Ionizing Radiation",
+          "text": "X射线能量高，可电离原子，过量暴露有害健康",
+          "text_en": "X-rays high energy, can ionize atoms, excessive exposure harmful to health"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "🏥",
+        "title": "医学诊断",
+        "title_en": "Medical Diagnosis",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/X-ray_of_normal_chest_posteroanterior_%28PA%29_view.jpg",
+        "text": "拍摄骨折、肺部疾病、牙齿问题等，是最常用的医学影像技术。",
+        "text_en": "Imaging fractures, lung diseases, dental problems - most common medical imaging technique."
+      },
+      {
+        "icon": "🔬",
+        "title": "CT扫描",
+        "title_en": "CT Scan",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/UPMCEast_CTscan.jpg",
+        "text": "多角度X射线重建三维图像，精确诊断内部病变。",
+        "text_en": "Multi-angle X-rays reconstruct 3D images, precisely diagnosing internal lesions."
+      },
+      {
+        "icon": "✈️",
+        "title": "安检扫描",
+        "title_en": "Security Screening",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Backscatter_x-ray_image_woman.jpg",
+        "text": "机场、车站用X射线检查行李，发现危险物品。",
+        "text_en": "Airports, stations use X-rays to inspect luggage, detecting dangerous items."
+      },
+      {
+        "icon": "🎨",
+        "title": "艺术鉴定",
+        "title_en": "Art Authentication",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/X-ray_of_painting.jpg",
+        "text": "透视画作内部结构，鉴定真伪和修复历史。",
+        "text_en": "See through painting internal structure, authenticate and reveal restoration history."
+      }
+    ],
+    
+    "experiment": {
+      "title": "历史性实验：第一张X光片",
+      "title_en": "Historic Experiment: First X-ray Photograph",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.gif",
+      "description": "1895年12月22日，伦琴让妻子安娜把手放在装有感光板的盒子上，然后用X射线照射15分钟。冲洗后，照片上清晰显示出手骨和结婚戒指的影像，而肉看不见！这是人类历史上第一次在不切开身体的情况下看到内部结构。这张照片几周内传遍全世界，引起轰动。",
+      "description_en": "December 22, 1895, Röntgen had wife Anna place hand on box with photographic plate, then exposed to X-rays for 15 minutes. After developing, photo clearly showed hand bones and wedding ring, but flesh invisible! First time in human history seeing internal structure without cutting body open. This photo spread worldwide within weeks, causing sensation.",
+      "why": "X射线能量高，能穿透软组织(肉)，但被高密度物质(骨骼、金属)吸收，在胶片上留下阴影。",
+      "why_en": "X-rays high energy, penetrate soft tissue (flesh), but absorbed by high-density materials (bones, metal), leaving shadows on film."
+    },
+    
+    "simple_explanation": {
+      "text": "想象X射线是超级强力的手电筒光。普通光照到你的手，手是不透明的。但X射线太强了，能穿透你的皮肤和肉，就像它们是透明的玻璃！但是骨头很硬很密，X射线穿不过去，就在照片上留下了影子。所以X光片上，骨头是白色的，肉是看不见的。",
+      "text_en": "Imagine X-rays as super powerful flashlight. Normal light shines on your hand, hand is opaque. But X-rays so strong, penetrate your skin and flesh like they're transparent glass! But bones hard and dense, X-rays can't pass through, leaving shadows on photo. So on X-ray film, bones are white, flesh invisible.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1c/X-ray_interaction_with_matter.svg"
+    },
+    
+    "impact": {
+      "text": "X射线的发现是医学史上最重要的突破之一！它让医生能在不开刀的情况下看到体内情况，彻底改变了疾病诊断。伦琴因此获得1901年首届诺贝尔物理学奖。今天，X射线技术已发展出CT、安检扫描、材料检测等无数应用，每年拯救数百万生命。",
+      "text_en": "X-ray discovery one of most important breakthroughs in medical history! It let doctors see inside body without surgery, revolutionizing disease diagnosis. Röntgen won first Nobel Prize in Physics in 1901. Today, X-ray technology evolved into CT, security screening, material testing and countless applications, saving millions of lives annually.",
+      "stats": [
+        {
+          "number": "1901",
+          "label": "首届诺贝尔物理学奖",
+          "label_en": "First Nobel Prize in Physics"
+        },
+        {
+          "number": "数十亿",
+          "label": "年度X光检查次数",
+          "label_en": "Annual X-ray examinations"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "crookes",
+          "contribution": "发明阴极射线管，为X射线发现提供工具",
+          "contribution_en": "Invented cathode ray tube, providing tool for X-ray discovery"
+        },
+        {
+          "id": "hertz",
+          "contribution": "电磁波研究启发射线性质理解",
+          "contribution_en": "Electromagnetic wave research inspired understanding of ray properties"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "becquerel",
+          "contribution": "受启发发现放射性",
+          "contribution_en": "Inspired to discover radioactivity"
+        },
+        {
+          "id": "curie",
+          "contribution": "研究放射性元素镭和钋",
+          "contribution_en": "Researched radioactive elements radium and polonium"
+        },
+        {
+          "id": "hounsfield",
+          "contribution": "发明CT扫描技术",
+          "contribution_en": "Invented CT scanning technology"
+        },
+        {
+          "id": "cormack",
+          "contribution": "发展CT数学理论",
+          "contribution_en": "Developed CT mathematical theory"
+        }
+      ],
+      "legacy_text": "伦琴使用克鲁克斯发明的阴极射线管做实验时，偶然发现了X射线。这个发现启发了贝克勒尔研究荧光物质，意外发现了放射性。居里夫妇进一步研究，发现了镭和钋。20世纪70年代，亨斯菲尔德和科马克基于X射线原理发明了CT扫描，获得诺贝尔奖。",
+      "legacy_text_en": "Röntgen using Crookes' cathode ray tube for experiments, accidentally discovered X-rays. This discovery inspired Becquerel to study fluorescent materials, accidentally discovering radioactivity. Curies further researched, discovering radium and polonium. In 1970s, Hounsfield and Cormack invented CT scanning based on X-ray principles, winning Nobel Prize."
+    },
+    
+    "related_concepts": ["X射线", "电磁波", "医学影像", "放射性"],
+    "related_concepts_en": ["X-rays", "Electromagnetic Waves", "Medical Imaging", "Radioactivity"],
+    
+    "quiz": {
+      "question": "为什么X光片上骨头是白色的而肉看不见？",
+      "question_en": "Why are bones white on X-ray film while flesh invisible?",
+      "options": ["骨头会发光", "骨头阻挡X射线", "肉吸收X射线", "骨头反射X射线"],
+      "options_en": ["Bones emit light", "Bones block X-rays", "Flesh absorbs X-rays", "Bones reflect X-rays"],
+      "answer": 1,
+      "explanation": "骨头密度高，能阻挡X射线，在胶片上留下白色阴影。而软组织(肉)密度低，X射线能穿透，所以在胶片上几乎看不见。这种密度差异形成了X光片的对比度，让医生能看到骨骼结构。",
+      "explanation_en": "Bones high density, block X-rays, leaving white shadows on film. Soft tissue (flesh) low density, X-rays penetrate, so nearly invisible on film. This density difference creates X-ray film contrast, letting doctors see skeletal structure."
+    }
+  }

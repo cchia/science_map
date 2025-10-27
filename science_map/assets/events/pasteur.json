@@ -1,0 +1,219 @@
+{
+    "id": "pasteur",
+    "title": "路易·巴斯德与微生物学",
+    "title_en": "Louis Pasteur and Microbiology",
+    "year": 1862,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": "微生物学",
+    "field_en": "Microbiology",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Louis_Pasteur.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/kVb4VqJGdLg",
+        "title": "巴斯德与细菌理论",
+        "title_en": "Pasteur and Germ Theory",
+        "duration": "6:50"
+      }
+    },
+    
+    "summary": {
+      "text": "巴斯德证明了疾病由微生物引起！他发明了巴氏消毒法，拯救了无数生命。他还研制出狂犬病疫苗，开创了免疫学。他的名言：'机遇只偏爱有准备的头脑。'",
+      "text_en": "Pasteur proved diseases caused by microorganisms! He invented pasteurization, saving countless lives. He also developed rabies vaccine, pioneering immunology. His motto: 'Chance favors the prepared mind.'",
+      "key_points": [
+        "证明细菌致病理论",
+        "发明巴氏消毒法",
+        "研制狂犬病疫苗"
+      ],
+      "key_points_en": [
+        "Proved germ theory of disease",
+        "Invented pasteurization",
+        "Developed rabies vaccine"
+      ]
+    },
+    
+    "story": {
+      "text": "1862年，巴斯德用著名的'鹅颈瓶实验'证明了生命不会自然发生，微生物来自空气中的细菌。1885年7月6日，一个被疯狗咬伤的9岁男孩约瑟夫被送来。巴斯德冒着巨大风险，给他注射了狂犬病疫苗。男孩活了下来！这是人类历史上第一次用疫苗成功预防致命疾病。",
+      "text_en": "In 1862, Pasteur used famous 'swan-neck flask experiment' proving life doesn't spontaneously generate, microorganisms come from airborne bacteria. On July 6, 1885, 9-year-old Joseph, bitten by rabid dog, was brought in. Pasteur took huge risk, injecting him with rabies vaccine. The boy survived! First time in human history successfully preventing deadly disease with vaccine.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pasteur_Experiment.png"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "🎨",
+        "text": "巴斯德年轻时的梦想是当画家，他画的肖像画非常出色！",
+        "text_en": "Young Pasteur dreamed of being painter, his portrait paintings were excellent!"
+      },
+      {
+        "icon": "🍷",
+        "text": "他研究葡萄酒为什么变酸，发现了发酵是微生物作用，拯救了法国葡萄酒业。",
+        "text_en": "He studied why wine turns sour, discovered fermentation is microbial action, saving French wine industry."
+      },
+      {
+        "icon": "💪",
+        "text": "他46岁时中风半身不遂，但继续用一只手做实验，完成了最伟大的工作。",
+        "text_en": "He had stroke at 46 causing paralysis, but continued experimenting with one hand, completing greatest work."
+      }
+    ],
+    
+    "principle": {
+      "title": "细菌致病理论核心",
+      "title_en": "Germ Theory Core Principles",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pasteur_swan_neck_flask.svg",
+      "key_points": [
+        {
+          "icon": "🦠",
+          "title": "细菌致病",
+          "title_en": "Germ Causation",
+          "text": "疾病由微生物(细菌、病毒)引起，不是自然发生或瘴气所致",
+          "text_en": "Diseases caused by microorganisms (bacteria, viruses), not spontaneous generation or miasma"
+        },
+        {
+          "icon": "🔥",
+          "title": "巴氏消毒",
+          "title_en": "Pasteurization",
+          "text": "加热到60-70°C杀死有害微生物，保持食物新鲜",
+          "text_en": "Heat to 60-70°C kills harmful microorganisms, keeping food fresh"
+        },
+        {
+          "icon": "💉",
+          "title": "疫苗原理",
+          "title_en": "Vaccine Principle",
+          "text": "用减毒或灭活病原体刺激免疫系统，产生抗体",
+          "text_en": "Use attenuated or inactivated pathogens to stimulate immune system, producing antibodies"
+        },
+        {
+          "icon": "🧪",
+          "title": "无菌技术",
+          "title_en": "Aseptic Technique",
+          "text": "通过消毒和隔离防止微生物污染",
+          "text_en": "Prevent microbial contamination through sterilization and isolation"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "🥛",
+        "title": "食品安全",
+        "title_en": "Food Safety",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pasteurization_system.jpg",
+        "text": "牛奶、果汁等都用巴氏消毒法，每天拯救无数生命。",
+        "text_en": "Milk, juice use pasteurization, saving countless lives daily."
+      },
+      {
+        "icon": "🏥",
+        "title": "外科手术",
+        "title_en": "Surgery",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Operating_room_preparation.jpg",
+        "text": "无菌手术技术基于细菌理论，大幅降低术后感染。",
+        "text_en": "Aseptic surgical techniques based on germ theory, drastically reducing post-op infections."
+      },
+      {
+        "icon": "💉",
+        "title": "疫苗接种",
+        "title_en": "Vaccination",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Vaccination-polio-india.jpg",
+        "text": "从天花到新冠，疫苗消灭或控制了无数传染病。",
+        "text_en": "From smallpox to COVID, vaccines eliminated or controlled countless infectious diseases."
+      },
+      {
+        "icon": "💊",
+        "title": "抗生素使用",
+        "title_en": "Antibiotic Use",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Antibiotics.jpg",
+        "text": "理解细菌致病机制，开发针对性抗生素治疗。",
+        "text_en": "Understanding bacterial pathogenesis, developing targeted antibiotic treatments."
+      }
+    ],
+    
+    "experiment": {
+      "title": "经典实验：鹅颈瓶实验",
+      "title_en": "Classic Experiment: Swan-Neck Flask",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pasteur%27s_experiment.svg",
+      "description": "巴斯德设计了一个弯曲的鹅颈瓶，里面放肉汤煮沸消毒。空气可以进入，但细菌被困在弯曲处。结果：肉汤永远不会腐败！如果打断瓶颈，细菌进入，肉汤立刻变质。这个简单实验彻底推翻了'生命自然发生说'，证明微生物来自环境。",
+      "description_en": "Pasteur designed curved swan-neck flask with boiled broth inside. Air could enter but bacteria trapped in curve. Result: broth never spoiled! If neck broken, bacteria enter, broth immediately spoils. This simple experiment completely overturned 'spontaneous generation', proving microorganisms come from environment.",
+      "why": "微生物不会凭空产生，它们来自空气、水、接触物等环境来源。",
+      "why_en": "Microorganisms don't spontaneously generate, they come from environmental sources like air, water, contact."
+    },
+    
+    "simple_explanation": {
+      "text": "想象你的身体是一座城堡，细菌是想进攻的敌人。巴斯德发现：疾病不是城堡自己生病，而是敌人(细菌)攻进来了！他发明了三个办法：1)加热杀死细菌(巴氏消毒)；2)训练士兵认识敌人(疫苗)；3)保持城堡干净(无菌技术)。",
+      "text_en": "Imagine your body as castle, bacteria as attacking enemies. Pasteur discovered: disease isn't castle getting sick itself, but enemies (bacteria) invading! He invented three solutions: 1) Heat kills bacteria (pasteurization); 2) Train soldiers to recognize enemies (vaccines); 3) Keep castle clean (aseptic technique).",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Immune_system_diagram.svg"
+    },
+    
+    "impact": {
+      "text": "巴斯德的细菌理论彻底改变了医学！在他之前，医生不洗手就做手术，产妇死亡率高达30%。他的发现让人类理解了传染病的本质，催生了现代医学、公共卫生、食品安全等领域。他被誉为'微生物学之父'，拯救的生命比历史上任何人都多。",
+      "text_en": "Pasteur's germ theory revolutionized medicine! Before him, doctors operated without washing hands, maternal mortality 30%. His discovery made humans understand infectious disease nature, spawning modern medicine, public health, food safety fields. Hailed as 'Father of Microbiology', saved more lives than anyone in history.",
+      "stats": [
+        {
+          "number": "1885",
+          "label": "首个狂犬病疫苗",
+          "label_en": "First rabies vaccine"
+        },
+        {
+          "number": "数百万",
+          "label": "每年拯救生命数",
+          "label_en": "Lives saved annually"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "leeuwenhoek",
+          "contribution": "首次观察到微生物",
+          "contribution_en": "First observed microorganisms"
+        },
+        {
+          "id": "jenner",
+          "contribution": "发明天花疫苗，启发免疫学思想",
+          "contribution_en": "Invented smallpox vaccine, inspired immunology thinking"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "koch",
+          "contribution": "建立细菌致病的科赫法则",
+          "contribution_en": "Established Koch's postulates for bacterial causation"
+        },
+        {
+          "id": "lister",
+          "contribution": "发展无菌外科手术技术",
+          "contribution_en": "Developed aseptic surgical techniques"
+        },
+        {
+          "id": "fleming",
+          "contribution": "发现青霉素，开创抗生素时代",
+          "contribution_en": "Discovered penicillin, opening antibiotic era"
+        },
+        {
+          "id": "salk",
+          "contribution": "研制脊髓灰质炎疫苗",
+          "contribution_en": "Developed polio vaccine"
+        }
+      ],
+      "legacy_text": "巴斯德站在列文虎克(首次看到细菌)和詹纳(天花疫苗)的肩膀上，证明了细菌致病理论。科赫进一步完善了这个理论，李斯特将其应用于外科手术。弗莱明发现抗生素，索尔克研制脊髓灰质炎疫苗，都是在巴斯德开创的微生物学基础上发展起来的。",
+      "legacy_text_en": "Pasteur stood on shoulders of Leeuwenhoek (first saw bacteria) and Jenner (smallpox vaccine), proving germ theory. Koch further refined this theory, Lister applied it to surgery. Fleming's antibiotic discovery and Salk's polio vaccine all developed on microbiology foundation Pasteur pioneered."
+    },
+    
+    "related_concepts": ["细菌理论", "巴氏消毒", "疫苗", "免疫学"],
+    "related_concepts_en": ["Germ Theory", "Pasteurization", "Vaccine", "Immunology"],
+    
+    "quiz": {
+      "question": "巴斯德的鹅颈瓶实验证明了什么？",
+      "question_en": "What did Pasteur's swan-neck flask experiment prove?",
+      "options": ["细菌会飞", "生命不会自然发生", "空气有毒", "肉汤会永久保存"],
+      "options_en": ["Bacteria can fly", "Life doesn't spontaneously generate", "Air is toxic", "Broth preserves forever"],
+      "answer": 1,
+      "explanation": "鹅颈瓶实验证明了微生物不会自然产生，而是来自环境中已存在的细菌。弯曲的瓶颈阻挡了空气中的细菌，所以肉汤不会腐败。这推翻了延续2000年的'生命自然发生说'。",
+      "explanation_en": "Swan-neck flask experiment proved microorganisms don't spontaneously generate but come from existing bacteria in environment. Curved neck blocked airborne bacteria, so broth didn't spoil. This overturned 2000-year-old 'spontaneous generation' theory."
+    }
+  }
