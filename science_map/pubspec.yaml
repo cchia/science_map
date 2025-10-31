@@ -17,6 +17,7 @@ dependencies:
   intl: ^0.20.2
   url_launcher: ^6.2.0 
   youtube_player_iframe: ^5.1.2 
+  flutter_svg: ^2.0.10
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +31,6 @@ flutter:
     - assets/events/
     - assets/events_index.json
     - assets/story_modes.json
+    - assets/people/
+    - assets/people_index.json
+    - assets/images/

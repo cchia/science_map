@@ -11,7 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 import 'dart:ui' as ui;
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
-
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(ScienceMapApp());
@@ -80,7 +80,7 @@ class _MapScreenState extends State<MapScreen> {
   // 数据
   List<Map<String, dynamic>> events = [];
   List<Map<String, dynamic>> storyModes = [];
-  Map<String, dynamic> people = {};
+  Map<String, dynamic> people = {}; // <--  modification
   bool isLoading = true;
   
   // 筛选
@@ -140,6 +140,7 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   // ========== 数据加载 ==========
+  // <-- MODIFIED _loadData -->
   Future<void> _loadData() async {
     try {
       // 加载事件索引
@@ -154,21 +155,39 @@ class _MapScreenState extends State<MapScreen> {
           final eventData = json.decode(eventJson);
           loadedEvents.add(eventData);
         } catch (e) {
-          print('⚠️ 加载失败: $eventId');
+          print('⚠️ 加载事件失败: $eventId');
         }
       }
       
       // 加载学习路径
       final modesJson = await rootBundle.loadString('assets/story_modes.json');
       final modesData = json.decode(modesJson);
+
+      // 加载人物数据
+      // 1. 加载人物索引
+      final peopleIndexJson = await rootBundle.loadString('assets/people_index.json');
+      final List<dynamic> personIds = json.decode(peopleIndexJson);
+
+      // 2. 迭代加载每个人物
+      Map<String, dynamic> loadedPeople = {};
+      for (var personId in personIds) {
+        try {
+          final personJson = await rootBundle.loadString('assets/people/$personId.json');
+          final personData = json.decode(personJson);
+          loadedPeople[personId] = personData; // 使用 personId 作为 key
+        } catch (e) {
+          print('⚠️ 加载人物失败: $personId');
+        }
+      }
       
       setState(() {
         events = loadedEvents;
         storyModes = modesData.cast<Map<String, dynamic>>();
+        people = loadedPeople; // <-- modification
         isLoading = false;
       });
       
-      print('✅ 加载完成: ${events.length} 个事件');
+      print('✅ 加载完成: ${events.length} 个事件, ${people.length} 个人物');
     } catch (e) {
       print('❌ 加载失败: $e');
       setState(() {
@@ -176,8 +195,26 @@ class _MapScreenState extends State<MapScreen> {
       });
     }
   }
+  // <-- END MODIFIED _loadData -->
+
 
   // ========== 辅助方法 ==========
+
+// (新增一个辅助函数)
+  List<String> _getFieldsFromEvent(Map<String, dynamic> event) {
+    var fieldData = event['field']; // 'field' 始终是中文key
+    if (fieldData == null) {
+      return ['综合'];
+    } else if (fieldData is List) {
+      // 如果是列表，确保它不为空，否则返回默认值
+      return List<String>.from(fieldData.isNotEmpty ? fieldData : ['综合']);
+    } else if (fieldData is String) {
+      // 如果是旧的字符串格式，将其包装在列表中
+      return [fieldData];
+    }
+    return ['综合'];
+  }
+
   Color getFieldColor(String field) => fieldColors[field] ?? Colors.grey;
   String getFieldEmoji(String field) => fieldEmojis[field] ?? '💡';
   String getFieldName(String fieldCn, bool isEnglish) {
@@ -236,8 +273,13 @@ class _MapScreenState extends State<MapScreen> {
     }
     
     // 学科筛选
+// 学科筛选
     if (selectedFields.isNotEmpty) {
-      filtered = filtered.where((event) => selectedFields.contains(event['field']));
+      filtered = filtered.where((event) {
+        List<String> eventFields = _getFieldsFromEvent(event);
+        // 检查两个列表是否有任何交集
+        return eventFields.any((field) => selectedFields.contains(field));
+      });
     }
     
     // 搜索筛选
@@ -785,24 +827,36 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   // ========== 事件详情对话框 ==========
+  // <-- MODIFIED _showEventDialog -->
   void _showEventDialog(Map<String, dynamic> event) {
     final isEnglish = Localizations.localeOf(context).languageCode == 'en';
     
     // 提取数据
-    final data = EventData.fromJson(event, isEnglish, events);
-    final color = getFieldColor(event['field'] ?? '综合');
-    final emoji = getFieldEmoji(event['field'] ?? '综合');
-    
+    // final data = EventData.fromJson(event, isEnglish, events); // This moves to EventDialog
+    String primaryField = _getFieldsFromEvent(event).first;
+    final color = getFieldColor(primaryField);
+    final emoji = getFieldEmoji(primaryField);
+
     showDialog(
       context: context,
       builder: (context) => EventDialog(
-        data: data,
+        // data: data, // <-- Removed
+        event: event, // <-- Added
+        allEvents: events, // <-- Added
+        people: people, // <-- Added
         color: color,
         emoji: emoji,
         isEnglish: isEnglish,
+        // <-- Added -->
+        onEventSelected: (Map<String, dynamic> selectedEvent) {
+          Navigator.pop(context); // 关闭当前弹窗
+          _showEventDialog(selectedEvent); // 打开新弹窗
+        },
       ),
     );
   }
+  // <-- END MODIFIED _showEventDialog -->
+
 
   void _showInfluenceDialog(Map<String, dynamic> line) {
     final isEnglish = Localizations.localeOf(context).languageCode == 'en';
@@ -884,8 +938,8 @@ class _MapScreenState extends State<MapScreen> {
       
       // 使用第一个事件的位置
       var firstEvent = events[0];
-      String field = firstEvent['field'] ?? '综合';
-      Color color = getFieldColor(field);
+      String primaryField = _getFieldsFromEvent(firstEvent).first; // <-- 使用辅助函数
+      Color color = getFieldColor(primaryField);
       
       if (events.length == 1) {
         // 单个事件，正常显示
@@ -900,7 +954,7 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   Marker _buildSingleMarker(Map<String, dynamic> event) {
-    String field = event['field'] ?? '综合';
+    String field = _getFieldsFromEvent(event).first;
     Color color = getFieldColor(field);
     String emoji = getFieldEmoji(field);
     
@@ -1050,9 +1104,9 @@ class _MapScreenState extends State<MapScreen> {
               String title = isEnglish && event['title_en'] != null
                   ? event['title_en']
                   : event['title'];
-              String field = event['field'] ?? '综合';
-              Color color = getFieldColor(field);
-              String emoji = getFieldEmoji(field);
+              String primaryField = _getFieldsFromEvent(event).first;
+              Color color = getFieldColor(primaryField);
+              String emoji = getFieldEmoji(primaryField);
               
               return Card(
                 margin: EdgeInsets.only(bottom: 8),
@@ -1100,14 +1154,18 @@ class _MapScreenState extends State<MapScreen> {
 // ============================================
 // 事件数据模型
 // ============================================
+// <-- MODIFIED EventData -->
 class EventData {
+  final String id; // <-- Added
+  final String? personId; // <-- Added
   final String title;
   final String city;
   final int year;
-  final String field;
+  final String primaryField; // <-- 新增 (例如 "物理学")
+  final List<String> fields; // <-- 新增 (例如 ["Physics", "Mathematics"])
   
   // 媒体
-  final String? heroImage;
+  final String? eventImage;
   final String? portrait;
   final VideoData? video;
   
@@ -1131,11 +1189,14 @@ class EventData {
   final QuizData? quiz;
 
   EventData({
+    required this.id, // <-- Added
+    this.personId, // <-- Added
     required this.title,
     required this.city,
     required this.year,
-    required this.field,
-    this.heroImage,
+    required this.primaryField, // <-- 新增
+    required this.fields,     // <-- 新增
+    this.eventImage,
     this.portrait,
     this.video,
     this.summary,
@@ -1155,6 +1216,7 @@ class EventData {
     Map<String, dynamic> json,
     bool isEnglish,
     List<Map<String, dynamic>> allEvents,
+    Map<String, dynamic> allPeople,
   ) {
     // 基本信息
     String title = isEnglish && json['title_en'] != null
@@ -1163,10 +1225,41 @@ class EventData {
     String city = isEnglish && json['city_en'] != null
         ? json['city_en']
         : (json['city'] ?? '');
-    String field = isEnglish && json['field_en'] != null
-        ? json['field_en']
-        : (json['field'] ?? '综合');
+
+  // --- 新的学科解析逻辑 ---
+
+    // 1. 获取中文基础学科列表 (用于 key)
+    List<String> baseFields;
+    var fieldData = json['field']; // 始终获取中文 key
+    if (fieldData == null) {
+      baseFields = ['综合'];
+    } else if (fieldData is List) {
+      baseFields = List<String>.from(fieldData.isNotEmpty ? fieldData : ['综合']);
+    } else if (fieldData is String) {
+      baseFields = [fieldData]; // 兼容旧格式
+    } else {
+      baseFields = ['综合'];
+    }
+    // "primaryField" 始终是中文列表的第一个
+    String primaryField = baseFields.first;
+
+    // 2. 获取已翻译的学科列表 (用于 UI 显示)
+    List<String> translatedFields;
+    if (isEnglish) {
+      var enData = json['field_en'];
+      if (enData is List) {
+        translatedFields = List<String>.from(enData.isNotEmpty ? enData : baseFields);
+      } else if (enData is String) {
+        translatedFields = [enData]; // 兼容旧格式
+      } else {
+        translatedFields = baseFields; // 回退到中文
+      }
+    } else {
+      translatedFields = baseFields; // 如果是中文，直接使用中文列表
+    }
+    // --- 结束新逻辑 ---
     
+    // ... (All other parsing logic remains the same) ...
     // 媒体
     Map<String, dynamic>? media = json['media'];
     VideoData? video;
@@ -1323,7 +1416,7 @@ class EventData {
     if (json['influence_chain'] != null) {
       var ic = json['influence_chain'];
       
-      List<InfluenceItem>? influencedBy;
+    List<InfluenceItem>? influencedBy;
       if (ic['influenced_by'] != null) {
         influencedBy = (ic['influenced_by'] as List).map((item) {
           var sourceEvent = allEvents.firstWhere(
@@ -1331,14 +1424,27 @@ class EventData {
             orElse: () => {},
           );
           String eventTitle = '';
+          String? personName; // <-- 新增
+
           if (sourceEvent.isNotEmpty) {
+            // 获取事件标题
             eventTitle = isEnglish && sourceEvent['title_en'] != null
                 ? sourceEvent['title_en']
                 : sourceEvent['title'];
+
+            // 获取人物姓名
+            String? personId = sourceEvent['personId'];
+            if (personId != null && allPeople.containsKey(personId)) {
+              var personData = allPeople[personId];
+              personName = isEnglish && personData['name_en'] != null
+                  ? personData['name_en']
+                  : personData['name'];
+            }
           }
           
           return InfluenceItem(
             id: item['id'],
+            personName: personName, // <-- 新增
             title: eventTitle,
             contribution: isEnglish && item['contribution_en'] != null
                 ? item['contribution_en']
@@ -1347,7 +1453,7 @@ class EventData {
         }).toList();
       }
       
-      List<InfluenceItem>? influenced;
+    List<InfluenceItem>? influenced;
       if (ic['influenced'] != null) {
         influenced = (ic['influenced'] as List).map((item) {
           var targetEvent = allEvents.firstWhere(
@@ -1355,14 +1461,27 @@ class EventData {
             orElse: () => {},
           );
           String eventTitle = '';
+          String? personName; // <-- 新增
+
           if (targetEvent.isNotEmpty) {
+            // 获取事件标题
             eventTitle = isEnglish && targetEvent['title_en'] != null
                 ? targetEvent['title_en']
                 : targetEvent['title'];
+            
+            // 获取人物姓名
+            String? personId = targetEvent['personId'];
+            if (personId != null && allPeople.containsKey(personId)) {
+              var personData = allPeople[personId];
+              personName = isEnglish && personData['name_en'] != null
+                  ? personData['name_en']
+                  : personData['name'];
+            }
           }
           
           return InfluenceItem(
             id: item['id'],
+            personName: personName, // <-- 新增
             title: eventTitle,
             contribution: isEnglish && item['contribution_en'] != null
                 ? item['contribution_en']
@@ -1374,9 +1493,7 @@ class EventData {
       influenceChain = InfluenceChain(
         influencedBy: influencedBy,
         influenced: influenced,
-        legacyText: isEnglish && ic['legacy_text_en'] != null
-            ? ic['legacy_text_en']
-            : ic['legacy_text'],
+        legacyText: null,
       );
     }
     
@@ -1396,11 +1513,14 @@ class EventData {
     }
     
     return EventData(
+      id: json['id'] as String, // <-- Added
+      personId: json['personId'] as String?, // <-- Added
       title: title,
       city: city,
       year: json['year'],
-      field: field,
-      heroImage: media?['hero_image'],
+      primaryField: primaryField, // <-- 新增
+      fields: translatedFields, // <-- 新增
+      eventImage: media?['event_image'],
       portrait: media?['portrait'],
       video: video,
       summary: summary,
@@ -1417,10 +1537,17 @@ class EventData {
     );
   }
 }
+// <-- END MODIFIED EventData -->
+
 
 // ============================================
 // 数据模型类
 // ============================================
+// (All classes: VideoData, SummaryData, StoryData, FunFact, 
+// SimpleExplanation, PrincipleData, KeyPoint, Application,
+// ExperimentData, ImpactData, ImpactStat, InfluenceChain,
+// InfluenceItem, QuizData ... remain unchanged)
+// ...
 class VideoData {
   final String url;
   final String title;
@@ -1525,10 +1652,16 @@ class InfluenceChain {
 
 class InfluenceItem {
   final String id;
+  final String? personName; // <-- 新增
   final String title;
   final String contribution;
   
-  InfluenceItem({required this.id, required this.title, required this.contribution});
+  InfluenceItem({
+    required this.id, 
+    this.personName, // <-- 新增
+    required this.title, 
+    required this.contribution,
+  });
 }
 
 class QuizData {
@@ -1550,21 +1683,34 @@ class QuizData {
 // ============================================
 // 事件详情对话框
 // ============================================
+// <-- MODIFIED EventDialog -->
 class EventDialog extends StatelessWidget {
-  final EventData data;
+  // final EventData data; // <-- Removed
+  final Map<String, dynamic> event; // <-- Added
+  final List<Map<String, dynamic>> allEvents; // <-- Added
+  final Map<String, dynamic> people; // <-- Added
   final Color color;
   final String emoji;
   final bool isEnglish;
+  final Function(Map<String, dynamic>) onEventSelected; // <-- Added
 
   const EventDialog({
-    required this.data,
+    // required this.data, // <-- Removed
+    required this.event, // <-- Added
+    required this.allEvents, // <-- Added
+    required this.people, // <-- Added
     required this.color,
     required this.emoji,
     required this.isEnglish,
+    required this.onEventSelected, // <-- Added
   });
 
   @override
   Widget build(BuildContext context) {
+    // <-- Parse data here
+    final EventData data = EventData.fromJson(event, isEnglish, allEvents, people);
+    final String? personId = event['personId'];
+    
     return DefaultTabController(
       length: 4,
       child: Dialog(
@@ -1573,12 +1719,20 @@ class EventDialog extends StatelessWidget {
           height: 700,
           child: Column(
             children: [
-              _buildHeader(context),
+              _buildHeader(context, data), // <-- Pass data
               _buildTabBar(),
               Expanded(
                 child: TabBarView(
                   children: [
-                    OverviewTab(data: data, color: color, isEnglish: isEnglish),
+                    OverviewTab( // <-- Pass new props
+                      data: data, 
+                      color: color, 
+                      isEnglish: isEnglish,
+                      personId: personId,
+                      allEvents: allEvents,
+                      people: people,
+                      onEventSelected: onEventSelected,
+                    ),
                     ScienceTab(data: data, color: color, isEnglish: isEnglish),
                     ImpactTab(data: data, color: color, isEnglish: isEnglish),
                     QuizTab(data: data, color: color, isEnglish: isEnglish),
@@ -1592,7 +1746,7 @@ class EventDialog extends StatelessWidget {
     );
   }
 
-  Widget _buildHeader(BuildContext context) {
+  Widget _buildHeader(BuildContext context, EventData data) { // <-- Receive data
     return Container(
       padding: EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -1613,7 +1767,7 @@ class EventDialog extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  data.title,
+                  data.title, // <-- Use data
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -1621,7 +1775,7 @@ class EventDialog extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '${data.year} · ${data.city}',
+                  '${data.year} · ${data.city}', // <-- Use data
                   style: TextStyle(fontSize: 14, color: Colors.white70),
                 ),
               ],
@@ -1653,20 +1807,33 @@ class EventDialog extends StatelessWidget {
     );
   }
 }
+// <-- END MODIFIED EventDialog -->
 
 // ============================================
 // 概览标签页
 // ============================================
+// <-- MODIFIED OverviewTab -->
 class OverviewTab extends StatelessWidget {
   final EventData data;
   final Color color;
   final bool isEnglish;
+  // <-- Added -->
+  final String? personId;
+  final List<Map<String, dynamic>> allEvents;
+  final Map<String, dynamic> people;
+  final Function(Map<String, dynamic>) onEventSelected;
 
   const OverviewTab({
     required this.data,
     required this.color,
     required this.isEnglish,
+    // <-- Added -->
+    this.personId,
+    required this.allEvents,
+    required this.people,
+    required this.onEventSelected,
   });
+
 
   @override
   Widget build(BuildContext context) {
@@ -1683,17 +1850,20 @@ class OverviewTab extends StatelessWidget {
           ],
 
           // 图片（即使有视频也显示）
-          if (data.heroImage != null) ...[
-            HeroImage(imageUrl: data.heroImage!, color: color),
+          if (data.eventImage != null) ...[
+            EventImage(imageUrl: data.eventImage!, color: color),
             SizedBox(height: 16),
           ],
 
           // 如果都没有，显示渐变色块
-          if (data.video == null && data.heroImage == null) ...[
-            GradientHeader(field: data.field, color: color, emoji: _getEmoji()),
+          if (data.video == null && data.eventImage == null) ...[
+            GradientHeader(
+              field: data.fields.join(' / '), // <-- (例如 "Physics / Mathematics")
+              color: color, 
+              emoji: _getEmoji(data.primaryField) // <-- (例如 "物理学")
+            ),
             SizedBox(height: 16),
           ],
-          
           // 摘要
           if (data.summary != null)
             SummaryCard(summary: data.summary!, color: color),
@@ -1708,34 +1878,41 @@ class OverviewTab extends StatelessWidget {
           if (data.funFacts != null && data.funFacts!.isNotEmpty) ...[
             SizedBox(height: 16),
             FunFactsSection(funFacts: data.funFacts!, color: color, isEnglish: isEnglish),
-          ],
-          
-          // 简单解释
-          if (data.simpleExplanation != null) ...[
-            SizedBox(height: 16),
-            SimpleExplanationCard(
-              explanation: data.simpleExplanation!,
+          ],          
+
+          // <-- START NEW BLOCK -->
+          if (personId != null) ...[
+            SizedBox(height: 20),
+            PersonTimelineWidget(
+              personId: personId!,
+              currentEventId: data.id,
+              allEvents: allEvents,
+              people: people,
+              onEventSelected: onEventSelected,
               color: color,
               isEnglish: isEnglish,
             ),
           ],
+          // <-- END NEW BLOCK -->
         ],
       ),
     );
   }
 
-  String _getEmoji() {
+  String _getEmoji(String baseField) { // <-- 接收一个参数
     final emojis = {
       'Physics': '⚛️', 'Chemistry': '🧪', 'Biology': '🔬',
       'Mathematics': '📐', 'Astronomy': '🔭', 'Medicine': '💊',
-      'Computer Science': '💻', 'Space': '🚀',
+      'Computer Science': '💻', 'Space': '🚀', 'Comprehensive': '📚',
       '物理学': '⚛️', '化学': '🧪', '生物学': '🔬',
       '数学': '📐', '天文学': '🔭', '医学': '💊',
-      '计算机': '💻', '航天': '🚀',
+      '计算机': '💻', '航天': '🚀', '综合': '📚',
     };
-    return emojis[data.field] ?? '📚';
+    return emojis[baseField] ?? '📚';
   }
 }
+// <-- END MODIFIED OverviewTab -->
+
 
 // ============================================
 // 科学标签页
@@ -1761,7 +1938,16 @@ class ScienceTab extends StatelessWidget {
           // 原理
           if (data.principle != null)
             PrincipleSection(principle: data.principle!, color: color, isEnglish: isEnglish),
-          
+
+          // 简单解释
+          if (data.simpleExplanation != null) ...[
+            SizedBox(height: 16),
+            SimpleExplanationCard(
+              explanation: data.simpleExplanation!,
+              color: color,
+              isEnglish: isEnglish,
+            ),
+          ],          
           // 应用
           if (data.applications != null && data.applications!.isNotEmpty) ...[
             SizedBox(height: 20),
@@ -1866,7 +2052,10 @@ class QuizTab extends StatelessWidget {
 // ============================================
 // UI组件 - 概览相关
 // ============================================
-
+// (All components: VideoPlayer, eventImage, GradientHeader,
+// SummaryCard, StoryCard, FunFactsSection, SimpleExplanationCard
+// ... remain unchanged)
+// ...
 class VideoPlayer extends StatelessWidget {
   final VideoData video;
   final Color color;
@@ -2011,43 +2200,22 @@ class VideoPlayer extends StatelessWidget {
   }
 }
 
-class HeroImage extends StatelessWidget {
+class EventImage extends StatelessWidget {
   final String imageUrl;
   final Color color;
 
-  const HeroImage({required this.imageUrl, required this.color});
+  const EventImage({required this.imageUrl, required this.color});
 
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: BorderRadius.circular(12),
-      child: Image.network(
-        imageUrl,
+      child: SmartImage(
+        imageUrl: imageUrl,
         height: 200,
         width: double.infinity,
         fit: BoxFit.contain,
-        loadingBuilder: (context, child, loadingProgress) {
-          if (loadingProgress == null) return child;
-          return Container(
-            height: 200,
-            color: color.withOpacity(0.1),
-            child: Center(child: CircularProgressIndicator(color: color)),
-          );
-        },
-        errorBuilder: (context, error, stackTrace) {
-          return Container(
-            height: 200,
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [color.withOpacity(0.3), color.withOpacity(0.6)],
-              ),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Center(
-              child: Icon(Icons.image, size: 64, color: Colors.white),
-            ),
-          );
-        },
+        color: color,
       ),
     );
   }
@@ -2176,12 +2344,12 @@ class StoryCard extends StatelessWidget {
         if (story.image != null) ...[
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: Image.network(
-              story.image!,
+            child: SmartImage(
+              imageUrl: story.image!,
               height: 180,
               width: double.infinity,
               fit: BoxFit.contain,
-              errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+              color: color,
             ),
           ),
           SizedBox(height: 8),
@@ -2293,12 +2461,12 @@ class SimpleExplanationCard extends StatelessWidget {
           if (explanation.diagram != null) ...[
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
-              child: Image.network(
-                explanation.diagram!,
+              child: SmartImage(
+                imageUrl: explanation.diagram!,
                 height: 120,
                 width: double.infinity,
                 fit: BoxFit.contain,
-                errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+                color: Colors.blue, // 匹配卡片颜色
               ),
             ),
             SizedBox(height: 10),
@@ -2316,6 +2484,9 @@ class SimpleExplanationCard extends StatelessWidget {
 // ============================================
 // UI组件 - 科学相关
 // ============================================
+// (All components: PrincipleSection, ApplicationsGrid,
+// ExperimentCard, RelatedConceptsChips ... remain unchanged)
+// ...
 class PrincipleSection extends StatelessWidget {
   final PrincipleData principle;
   final Color color;
@@ -2343,11 +2514,11 @@ class PrincipleSection extends StatelessWidget {
         if (principle.diagram != null) ...[
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: Image.network(
-              principle.diagram!,
+            child: SmartImage(
+              imageUrl: principle.diagram!,
               width: double.infinity,
               fit: BoxFit.contain,
-              errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+              color: color,
             ),
           ),
           SizedBox(height: 12),
@@ -2460,20 +2631,12 @@ class ApplicationsGrid extends StatelessWidget {
                         topLeft: Radius.circular(12),
                         topRight: Radius.circular(12),
                       ),
-                      child: Image.network(
-                        app.image!,
+                      child: SmartImage(
+                        imageUrl: app.image!,
                         height: 80,
                         width: double.infinity,
                         fit: BoxFit.cover,
-                        errorBuilder: (context, error, stackTrace) {
-                          return Container(
-                            height: 80,
-                            color: color.withOpacity(0.1),
-                            child: Center(
-                              child: Text(app.icon, style: TextStyle(fontSize: 40)),
-                            ),
-                          );
-                        },
+                        color: color,
                       ),
                     )
                   else
@@ -2599,12 +2762,12 @@ class ExperimentCard extends StatelessWidget {
           else if (experiment.image != null)
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
-              child: Image.network(
-                experiment.image!,
+              child: SmartImage(
+                imageUrl: experiment.image!,
                 height: 150,
                 width: double.infinity,
                 fit: BoxFit.cover,
-                errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+                color: Colors.green, // 匹配卡片颜色
               ),
             ),
           
@@ -2709,6 +2872,9 @@ class RelatedConceptsChips extends StatelessWidget {
 // ============================================
 // UI组件 - 影响相关
 // ============================================
+// (All components: ImpactCard, InfluenceNetworkCard
+// ... remain unchanged)
+// ...
 class ImpactCard extends StatelessWidget {
   final ImpactData impact;
   final Color color;
@@ -2855,6 +3021,15 @@ class InfluenceNetworkCard extends StatelessWidget {
                             text: TextSpan(
                               style: TextStyle(fontSize: 13, color: Colors.black87),
                               children: [
+                                if (item.personName != null && item.personName!.isNotEmpty) ...[
+                                  TextSpan(
+                                    text: '${item.personName} - ',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.orange[800], // 匹配颜色
+                                    ),
+                                  ),
+                                ],
                                 TextSpan(
                                   text: item.title,
                                   style: TextStyle(fontWeight: FontWeight.bold),
@@ -2916,6 +3091,15 @@ class InfluenceNetworkCard extends StatelessWidget {
                             text: TextSpan(
                               style: TextStyle(fontSize: 13, color: Colors.black87),
                               children: [
+                                if (item.personName != null && item.personName!.isNotEmpty) ...[
+                                  TextSpan(
+                                    text: '${item.personName} - ',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.green[800], // 匹配颜色
+                                    ),
+                                  ),
+                                ],
                                 TextSpan(
                                   text: item.title,
                                   style: TextStyle(fontWeight: FontWeight.bold),
@@ -2981,6 +3165,8 @@ class InfluenceNetworkCard extends StatelessWidget {
 // ============================================
 // 测验组件
 // ============================================
+// (QuizWidget remains unchanged)
+// ...
 class QuizWidget extends StatefulWidget {
   final QuizData quiz;
   final Color color;
@@ -3016,12 +3202,12 @@ class _QuizWidgetState extends State<QuizWidget> {
         if (widget.quiz.image != null) ...[
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: Image.network(
-              widget.quiz.image!,
+            child: SmartImage(
+              imageUrl: widget.quiz.image!,
               height: 150,
               width: double.infinity,
               fit: BoxFit.cover,
-              errorBuilder: (context, error, stackTrace) => SizedBox.shrink(),
+              color: widget.color,
             ),
           ),
           SizedBox(height: 12),
@@ -3157,6 +3343,8 @@ class _QuizWidgetState extends State<QuizWidget> {
 // ============================================
 // 通用UI组件
 // ============================================
+// (EmptyState remains unchanged)
+// ...
 class EmptyState extends StatelessWidget {
   final IconData icon;
   final String message;
@@ -3184,3 +3372,267 @@ class EmptyState extends StatelessWidget {
     );
   }
 }
+
+// ============================================
+// 人物时间线组件
+// ============================================
+// <-- NEW WIDGET -->
+class PersonTimelineWidget extends StatelessWidget {
+  final String personId;
+  final String currentEventId;
+  final List<Map<String, dynamic>> allEvents;
+  final Map<String, dynamic> people;
+  final Function(Map<String, dynamic>) onEventSelected;
+  final Color color;
+  final bool isEnglish;
+
+  const PersonTimelineWidget({
+    required this.personId,
+    required this.currentEventId,
+    required this.allEvents,
+    required this.people,
+    required this.onEventSelected,
+    required this.color,
+    required this.isEnglish,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    // 1. 获取人物信息
+    final personInfo = people[personId];
+    if (personInfo == null) return SizedBox.shrink();
+
+    final String name = isEnglish && personInfo['name_en'] != null 
+        ? personInfo['name_en'] 
+        : personInfo['name'];
+    final String? portrait = personInfo['portrait'];
+    
+    // 2. 获取并排序该人物的所有事件
+    final List<String> eventIds = List<String>.from(personInfo['events']);
+    final List<Map<String, dynamic>> personEvents = allEvents
+        .where((event) => eventIds.contains(event['id']))
+        .toList();
+    
+    // 按年份排序
+    personEvents.sort((a, b) => (a['year'] as int).compareTo(b['year'] as int));
+
+    return Container(
+      padding: EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: color.withOpacity(0.08),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: color.withOpacity(0.3), width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              if (portrait != null)
+                CircleAvatar(
+                  radius: 20,
+                  backgroundImage: NetworkImage(portrait),
+                  onBackgroundImageError: (e, s) => Icon(Icons.person, color: color, size: 20),
+                )
+              else
+                CircleAvatar(
+                  radius: 20,
+                  backgroundColor: color.withOpacity(0.2),
+                  child: Icon(Icons.person, color: color, size: 24),
+                ),
+              SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  isEnglish ? "$name's Journey" : "$name 的足迹",
+                  style: TextStyle(
+                    fontSize: 17,
+                    fontWeight: FontWeight.bold,
+                    color: color,
+                  ),
+                ),
+              ),
+            ],
+          ),
+
+        SizedBox(height: 10),
+        Builder(
+          builder: (context) {
+            // 1. 从 personInfo 中解析 bio
+            final String? bio = isEnglish && personInfo['bio_short_en'] != null
+                ? personInfo['bio_short_en']
+                : personInfo['bio_short'];
+
+            // 2. 如果 bio 存在，就显示它
+            if (bio != null && bio.isNotEmpty) {
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 4.0), // 在时间线列表前增加一点间距
+                child: Text(
+                  bio,
+                  style: TextStyle(
+                    fontSize: 13,
+                    color: Colors.grey[700],
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+              );
+            }
+            return SizedBox.shrink(); // 如果没有bio，则不显示
+          }
+        ),
+
+          SizedBox(height: 12),
+          // 3. 构建时间线
+          ...personEvents.map((event) {
+            final String title = isEnglish && event['title_en'] != null
+                ? event['title_en']
+                : event['title'];
+            final String city = isEnglish && event['city_en'] != null
+                ? event['city_en']
+                : (event['city'] ?? '');
+            final int year = event['year'];
+            final bool isCurrent = event['id'] == currentEventId;
+
+            return Opacity(
+              opacity: isCurrent ? 1.0 : 0.7,
+              child: Card(
+                margin: EdgeInsets.only(bottom: 8),
+                color: isCurrent ? color.withOpacity(0.2) : Colors.white,
+                elevation: isCurrent ? 0 : 1,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8),
+                  side: BorderSide(
+                    color: isCurrent ? color : Colors.transparent,
+                    width: 2,
+                  ),
+                ),
+                child: ListTile(
+                  title: Text(
+                    title,
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  subtitle: Text(
+                    '$year · $city',
+                    style: TextStyle(fontSize: 12),
+                  ),
+                  trailing: Icon(
+                    isCurrent ? Icons.circle : Icons.arrow_forward_ios, 
+                    size: 16, 
+                    color: color
+                  ),
+                  onTap: isCurrent ? null : () {
+                    onEventSelected(event);
+                  },
+                ),
+              ),
+            );
+          }),
+        ],
+      ),
+    );
+  }
+}
+
+// ============================================
+// 智能图像 (Smart Image)
+// 自动选择 Asset 或 Network 渲染器 (SVG 或 PNG/JPG)
+// ============================================
+class SmartImage extends StatelessWidget {
+  final String imageUrl;
+  final double? height;
+  final double? width;
+  final BoxFit fit;
+  final Color? color; // 用于占位符和错误图标的颜色
+
+  const SmartImage({
+    Key? key,
+    required this.imageUrl,
+    this.height,
+    this.width,
+    this.fit = BoxFit.contain,
+    this.color,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    // 占位符
+    final placeholder = Container(
+      height: height,
+      width: width,
+      color: color?.withOpacity(0.1) ?? Colors.grey[200],
+      child: Center(child: CircularProgressIndicator(color: color ?? Colors.blue)),
+    );
+    
+    // 错误控件
+    final errorWidget = Container(
+      height: height,
+      width: width,
+      color: color?.withOpacity(0.1) ?? Colors.grey[200],
+      child: Center(child: Icon(Icons.broken_image, color: color ?? Colors.grey, size: 48)),
+    );
+
+    // 检查是网络图片还是本地 asset
+    bool isNetwork = imageUrl.startsWith('http://') || imageUrl.startsWith('https://');
+    bool isSvg = imageUrl.endsWith('.svg');
+
+    if (isNetwork) {
+      // --- 是网络图片 ---
+      if (isSvg) {
+        // 1. Network SVG
+        return SvgPicture.network(
+          imageUrl,
+          height: height,
+          width: width,
+          fit: fit,
+          placeholderBuilder: (BuildContext context) => placeholder,
+        );
+      } else {
+        // 2. Network Raster (PNG, JPG)
+        return Image.network(
+          imageUrl,
+          height: height,
+          width: width,
+          fit: fit,
+          loadingBuilder: (context, child, loadingProgress) {
+            if (loadingProgress == null) return child;
+            return placeholder;
+          },
+          errorBuilder: (context, error, stackTrace) => errorWidget,
+        );
+      }
+    } else {
+      // --- 是本地 Asset ---
+      if (isSvg) {
+        // 3. Local Asset SVG
+        return SvgPicture.asset(
+          imageUrl,
+          height: height,
+          width: width,
+          fit: fit,
+          placeholderBuilder: (BuildContext context) => placeholder,
+        );
+      } else {
+        // 4. Local Asset Raster (PNG, JPG)
+        return Image.asset(
+          imageUrl,
+          height: height,
+          width: width,
+          fit: fit,
+          // (Image.asset 没有 loadingBuilder, 但我们可以用 frameBuilder 做淡入)
+          frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+            if (wasSynchronouslyLoaded) return child;
+            return AnimatedOpacity(
+              child: child,
+              opacity: frame == null ? 0 : 1,
+              duration: const Duration(milliseconds: 300),
+            );
+          },
+          errorBuilder: (context, error, stackTrace) => errorWidget,
+        );
+      }
+    }
+  }
+}
+// END New Widget
