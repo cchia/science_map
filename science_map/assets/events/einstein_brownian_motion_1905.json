@@ -1,0 +1,146 @@
+{
+    "id": "einstein_brownian_motion_1905",
+    "personId": "albert_einstein",
+    "title": "从数学上解释布朗运动",
+    "title_en": "Explains Brownian Motion Mathematically",
+    "year": 1905,
+    "lat": 46.9480,
+    "lng": 7.4474,
+    "city": "伯尔尼",
+    "city_en": "Bern",
+    "country": "瑞士",
+    "country_en": "Switzerland",
+    "field": ["物理学", "统计力学"],
+    "field_en": ["Physics", "Statistical Mechanics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Brownian_motion_large.gif",
+      "video": {
+        "url": "https://www.youtube.com/embed/z6vwS0fue6E",
+        "title": "布朗运动",
+        "title_en": "Brownian Motion: Explaining Life Randomness",
+        "duration": "3:57"
+      }
+    },
+    
+    "summary": {
+      "text": "爱因斯坦发表论文，对悬浮在液体中的微粒（如花粉）的随机、锯齿状运动（即“布朗运动”）给出了数学解释。他证明了这种运动是由液体中看不见的、更小的原子和分子的不断碰撞引起的。",
+      "text_en": "Einstein published a paper mathematically explaining the random, zig-zag motion of microscopic particles (like pollen) suspended in a fluid. He proved this 'Brownian motion' was caused by the constant, unseen bombardment from the fluid's own atoms and molecules.",
+      "key_points": [
+        "提供了原子和分子存在的决定性证据",
+        "将微观世界（原子碰撞）与宏观世界（粒子运动）联系起来",
+        "推导出计算阿伏伽德罗常数的公式"
+      ],
+      "key_points_en": [
+        "Provided definitive proof for the existence of atoms and molecules",
+        "Linked the microscopic world (atom collisions) to the macroscopic world (particle motion)",
+        "Derived an equation to calculate Avogadro's number"
+      ]
+    },
+  
+    "story": {
+      "text": "1827年，植物学家罗伯特·布朗（Robert Brown）在显微镜下观察到水中的花粉粒在永不停歇地“跳舞”。他最初以为它们是“活的”，但很快发现灰尘或玻璃碎屑也会这样。这个谜题悬而未决。爱因斯坦在1905年指出，这些花粉粒就像一个巨人，被一群看不见的小孩（水分子）从四面八方推搡。虽然单个分子的推力很小，但它们在某一瞬间的合力不均衡，导致花粉粒随机抖动。",
+      "text_en": "In 1827, botanist Robert Brown observed pollen grains in water 'dancing' perpetually under a microscope. He first thought they were 'alive', but soon found that dust or glass fragments did the same. The puzzle remained unsolved. Einstein, in 1905, showed that the pollen grain is like a giant being pushed around by a crowd of invisible children (water molecules). The push from any single molecule is tiny, but the *imbalance* of pushes at any given instant causes the grain to jitter randomly."
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🔬",
+        "text": "虽然布朗“发现”了这种运动，但爱因斯坦是第一个给出正确数学“解释”的人，证明了它来自原子。",
+        "text_en": "While Robert Brown 'discovered' the motion, Einstein was the first to provide the correct mathematical 'explanation' for it, proving it came from atoms."
+      },
+      {
+        "icon": "💯",
+        "text": "法国物理学家让·佩兰（Jean Perrin）通过实验验证了爱因斯坦的方程，并精确计算出了阿伏伽德罗常数（$6.022 \times 10^{23}$），这为他赢得了诺贝尔奖。",
+        "text_en": "French physicist Jean Perrin used Einstein's equations to experimentally verify the theory, calculate Avogadro's number ($6.022 \times 10^{23}$), and win a Nobel Prize for his work."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一个漂在海面上的巨大充气球（花粉粒）。你看不见水下成千上万个游泳的人（水分子），但他们都在随机地推这个球。有时左边推的人多一点，球就往右；有时右边多一点，球就往左。你虽然看不见游泳的人，但通过球的随机抖动，你就知道他们一定存在。这就是原子存在的证明。",
+      "text_en": "Imagine a giant beach ball (pollen grain) floating on the water. You can't see the thousands of tiny, invisible swimmers (water molecules) under it, but they are all randomly pushing the ball. Sometimes, more swimmers push from the left, so the ball moves right. Sometimes more push from the right. By seeing the ball jitter, you know the invisible swimmers must exist. This was the proof for atoms.",
+      "diagram": "assets/images/brownian_motion.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📈",
+          "title": "金融市场模型",
+          "title_en": "Financial Market Models",
+          "text": "布朗运动的数学模型（或称“随机游走”）是现代金融学中模拟股票价格、期权定价和市场波动的基础。",
+          "text_en": "The mathematical model for Brownian motion (a 'random walk') is the foundation for modeling stock prices, options pricing, and market volatility in modern finance."
+        },
+        {
+          "icon": "💨",
+          "title": "扩散科学",
+          "title_en": "Diffusion Science",
+          "text": "它是理解扩散过程的核心，比如香水味如何在房间里散开，或污染物如何在空气中传播。",
+          "text_en": "It is central to understanding diffusion processes, such as how perfume spreads in a room or how pollutants disperse in the air."
+        },
+        {
+          "icon": "🧬",
+          "title": "细胞生物学",
+          "title_en": "Cell Biology",
+          "text": "用于模拟分子和蛋白质如何在细胞质（细胞内的“液体”）内部移动和相互作用。",
+          "text_en": "It is used to model how molecules and proteins move and interact within the cytoplasm (the 'fluid' inside a cell)."
+        }
+      ],
+  
+    "impact": {
+      "text": "这篇论文是物理学史上最重要的论文之一。它提供了原子和分子存在的决定性证据，使原子论从一个有用的哲学假说转变为一个可被测量的物理现实，为统计力学奠定了坚实的基础。",
+      "text_en": "This paper is one of the most important in physics history. It provided the definitive evidence for the existence of atoms and molecules, turning atomic theory from a useful philosophical hypothesis into a measurable physical reality and cementing the foundations of statistical mechanics."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "brown_observation_1827",
+          "contribution": "罗伯特·布朗对花粉运动的首次详细观察",
+          "contribution_en": "Robert Brown's first detailed observation of pollen movement"
+        },
+        {
+          "id": "boltzmann_statistical_1877",
+          "contribution": "玻尔兹曼关于热量和分子运动的统计理论",
+          "contribution_en": "Boltzmann's statistical theories on heat and molecular motion"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "perrin_experiment_1908",
+          "contribution": "让·佩兰的实验验证了爱因斯坦的理论，并计算了阿伏伽德罗常数",
+          "contribution_en": "Jean Perrin's experiments, which verified Einstein's theory and calculated Avogadro's number"
+        },
+        {
+          "id": "black_scholes_1973",
+          "contribution": "布莱克-斯科尔斯期权定价模型，其数学基础是布朗运动",
+          "contribution_en": "The Black-Scholes options pricing model, which is mathematically based on Brownian motion"
+        }
+      ],
+      "legacy_text": "爱因斯坦的论文无可辩驳地证明了我们肉眼看不见的原子和分子的真实存在。",
+      "legacy_text_en": "Einstein's paper proved, irrefutably, the physical reality of atoms and molecules, which we cannot see with the naked eye."
+    },
+  
+    "related_concepts": ["原子论", "统计力学", "随机游走", "阿伏伽德罗常数", "扩散", "奇迹年", "让·佩兰"],
+    "related_concepts_en": ["Atomic Theory", "Statistical Mechanics", "Random Walk", "Avogadro's Number", "Diffusion", "Annus Mirabilis", "Jean Perrin"],
+  
+    "quiz": {
+      "question": "爱因斯坦对布朗运动的解释，证明了什么在当时仍存争议的基本概念？",
+      "question_en": "Einstein's explanation of Brownian motion provided definitive proof for what fundamental concept, which was still debated at the time?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Brownian_motion_large.svg/640px-Brownian_motion_large.svg.png",
+      "options": [
+        "原子和分子的真实存在",
+        "光速是恒定的",
+        "地球在围绕太阳旋转",
+        "能量是不连续的（量子）"
+      ],
+      "options_en": [
+        "The real existence of atoms and molecules",
+        "The speed of light is constant",
+        "The Earth revolves around the Sun",
+        "Energy is discrete (quanta)"
+      ],
+      "answer": 0,
+      "explanation": "在1905年，许多科学家仍将原子视为一种有用的“理论工具”而非真实物体。爱因斯坦的数学解释和后续实验验证，无可辩驳地证明了原子是真实存在的，它们在不停地碰撞微粒。",
+      "explanation_en": "In 1905, many scientists still treated atoms as a useful 'theoretical tool' rather than real objects. Einstein's mathematical explanation, and the experiments that followed, proved irrefutably that atoms exist and are constantly colliding with particles."
+    }
+  }

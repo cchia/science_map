@@ -16,10 +16,10 @@
   "media": {
     "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Fundamental_Theorem_of_Calculus.svg",
     "video": {
-      "url": "https://www.youtube.com/embed/NfTO8CToMkc",
-      "title": "微积分的本质 (3Blue1Brown)",
-      "title_en": "The Essence of Calculus (3Blue1Brown)",
-      "duration": "20:49"
+      "url": "https://www.youtube.com/embed/ObHJJYvu3RE",
+      "title": "微分 (Crash Course)",
+      "title_en": "Derivatives (Crash Course)",
+      "duration": "10:01"
     }
   },
   
