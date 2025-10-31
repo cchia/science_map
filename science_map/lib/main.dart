@@ -1310,16 +1310,31 @@ class EventData {
     }
     
     // 简单解释
+// 简单解释
     SimpleExplanation? simpleExplanation;
     if (json['simple_explanation'] != null) {
       var se = json['simple_explanation'];
       if (se is Map) {
+        
+        // --- 新增：解析 simple_explanation 内部的视频 ---
+        VideoData? simpleVideo;
+        if (se['video'] != null) {
+          var v = se['video'];
+          simpleVideo = VideoData(
+            url: v['url'],
+            title: isEnglish && v['title_en'] != null ? v['title_en'] : v['title'],
+            duration: v['duration'],
+          );
+        }
+        // --- 新增结束 ---
+
         simpleExplanation = SimpleExplanation(
           text: isEnglish && se['text_en'] != null ? se['text_en'] : (se['text'] ?? ''),
           diagram: se['diagram'],
+          video: simpleVideo, // <-- 传入视频数据
         );
       } else if (se is String) {
-        simpleExplanation = SimpleExplanation(text: se, diagram: null);
+        simpleExplanation = SimpleExplanation(text: se, diagram: null, video: null);
       }
     }
     
@@ -1580,8 +1595,9 @@ class FunFact {
 class SimpleExplanation {
   final String text;
   final String? diagram;
+  final VideoData? video; // <-- 新增
   
-  SimpleExplanation({required this.text, this.diagram});
+  SimpleExplanation({required this.text, this.diagram, this.video}); // <-- 更新构造函数
 }
 
 class PrincipleData {
@@ -2458,6 +2474,18 @@ class SimpleExplanationCard extends StatelessWidget {
             ],
           ),
           SizedBox(height: 10),
+
+              // --- 新增：显示视频播放器 ---
+              if (explanation.video != null) ...[
+                VideoPlayer(
+                  video: explanation.video!, 
+                  color: Colors.blue[700]!, // 匹配卡片颜色
+                  isEnglish: isEnglish
+                ),
+                SizedBox(height: 12),
+              ],
+              // --- 新增结束 ---
+                        
           if (explanation.diagram != null) ...[
             ClipRRect(
               borderRadius: BorderRadius.circular(8),

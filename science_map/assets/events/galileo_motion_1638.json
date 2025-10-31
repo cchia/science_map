@@ -14,12 +14,12 @@
     "field_en": ["Physics", "Kinematics", "Mechanics of Materials"],
     
     "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Galileo_inclined_plane_experiment.png/640px-Galileo_inclined_plane_experiment.png",
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pisa_experiment.png",
       "video": {
-        "url": "https://www.youtube.com/embed/Myt-I-3v-6Y",
-        "title": "伽利略的自由落体实验",
-        "title_en": "Galileo's Free Fall Experiment",
-        "duration": "5:32"
+        "url": "https://www.youtube.com/embed/ZBr8Q2ROX9s",
+        "title": "伽利略的斜面实验",
+        "title_en": "Galileo's Inclined Plane Experiment",
+        "duration": "5:01"
       }
     },
     
@@ -61,7 +61,12 @@
     "simple_explanation": {
       "text": "阿波罗15号的宇航员大卫·斯科特在月球上（没有空气阻力）同时扔下了一把锤子和一根羽毛。它们同时落地，完美地验证了伽利略400年前的理论：重力对所有物体的“拉力”都是一样的，轻物体并不会下落得更慢。",
       "text_en": "On the Moon (where there is no air), Apollo 15 astronaut David Scott dropped a hammer and a feather at the same time. They hit the ground *simultaneously*. This perfectly proved Galileo's 400-year-old theory: gravity pulls all objects the same way, and lighter objects don't fall slower.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Apollo_15_feather_and_hammer_drop.jpg/640px-Apollo_15_feather_and_hammer_drop.jpg"
+      "video": {
+        "url": "https://www.youtube.com/embed/QyeF-_QPSbk",
+        "title": "伽利略的自由落体实验",
+        "title_en": "Galileo's Free Fall Experiment",
+        "duration": "3:34"
+      }
     },
   
     "applications": [

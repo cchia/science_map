@@ -1,0 +1,10 @@
+{
+    "name": "尼古拉·哥白尼",
+    "name_en": "Nicolaus Copernicus",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nikolaus_Kopernikus.jpg",
+    "bio_short": "波兰文艺复兴时期的数学家和天文学家，他提出了一个革命性的“日心说”模型，将太阳置于宇宙的中心。",
+    "bio_short_en": "A Polish Renaissance mathematician and astronomer who formulated a revolutionary 'Heliocentric' model, which placed the Sun at the center of the universe.",
+    "events": [
+      "copernicus_heliocentrism_1543"
+    ]
+  }
