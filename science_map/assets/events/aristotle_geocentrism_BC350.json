@@ -1,0 +1,104 @@
+{
+    "id": "aristotle_geocentrism_BC350",
+    "personId": "aristotle",
+    "title": "提出地心说宇宙模型",
+    "title_en": "Proposes Geocentric Model of the Universe",
+    "year": -350,
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "city": "雅典",
+    "city_en": "Athens",
+    "country": "古希腊",
+    "country_en": "Ancient Greece",
+    "field": ["天文学", "宇宙学", "哲学"],
+    "field_en": ["Astronomy", "Cosmology", "Philosophy"],
+    
+    "media": {
+      "event_image": "assets/images/geocentrism.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/dDaipJZfnRA",
+        "title": "亚里士多德的地心说宇宙模型",
+        "title_en": "Aristotle's Geocentric Model of the Universe",
+        "duration": "0:14"
+      }
+    },
+    
+    "summary": {
+      "text": "亚里士多德在他的著作《论天》中，提出了一个影响深远的“地心说”宇宙模型。他认为宇宙是有限的，静止的地球位于其中心。宇宙被分为两个领域：月球轨道之下的“月下界”（由四元素构成，不完美且易变）和月球轨道之上的“天界”（由完美的“以太”构成，永恒不变）。",
+      "text_en": "In his work 'On the Heavens', Aristotle proposed a profoundly influential 'Geocentric' model. He argued the universe was finite, with a stationary Earth at its center. The cosmos was split into two realms: the 'sublunary' (below the Moon, made of four imperfect elements) and the 'supralunary' (the heavens, made of a perfect, unchanging fifth element, 'Aether').",
+      "key_points": [
+        "地心说：地球是宇宙的静止中心",
+        "天界 (Supralunary Realm)：完美、永恒、由“以太”构成",
+        "月下界 (Sublunary Realm)：不完美、易变、由四元素构成",
+        "天体（如行星）被固定在嵌套的水晶球上，做完美的圆周运动"
+      ],
+      "key_points_en": [
+        "Geocentrism: Earth is the stationary center",
+        "Supralunary Realm: Perfect, eternal, made of 'Aether'",
+        "Sublunary Realm: Imperfect, changeable, made of four elements",
+        "Celestial bodies are fixed on nested crystal spheres, moving in perfect circles"
+      ]
+    },
+  
+    "story": {
+      "text": "亚里士多德的地心说模型是基于哲学逻辑而非现代意义上的实验。他认为地球必须在中心，因为观测上它似乎是静止的，而且这符合他的物理学（重物天然向中心运动）。“天界”必须是完美的，因为它们看起来从不改变（与地球上的风云变幻相反）。因此，构成天体的必须是第五元素“以太”(Aether)，其唯一的“自然运动”就是完美的圆周运动。",
+      "text_en": "Aristotle's geocentric model was based on philosophical logic, not modern experiment. He argued Earth *must* be at the center because it appeared stationary and it fit his physics (heavy objects move toward the center). The heavens *must* be perfect because they never seemed to change (unlike the chaos on Earth). Therefore, the heavens must be made of a fifth element, 'Aether', whose only 'natural motion' was perfect circles."
+    },
+  
+    "simple_explanation": {
+      "text": "亚里士多德把宇宙想象成一个两层嵌套的球。中心是“月下界”（地球），这里是混乱、易变的。外面包裹着“天界”（星星和行星），那里是完美、永恒的。地球是静止的中心，所有完美的天体都在水晶球上绕着地球转动，就像一个精密的音乐盒。",
+      "text_en": "Aristotle saw the universe as a two-part sphere. At the center was the 'sublunary' realm (Earth), which was messy and changeable. Surrounding it was the 'supralunary' realm (stars and planets), which was perfect and eternal. Earth stood still while the perfect heavens revolved around it on crystal spheres, like a giant, precise music box.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ptolemaic_system_2.svg/640px-Ptolemaic_system_2.svg.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🌌",
+          "title": "托勒密天文学",
+          "title_en": "Ptolemaic Astronomy",
+          "text": "为托勒密提供了核心的哲学框架。托勒密在此基础上建立了一个复杂的数学模型（本轮和均轮）来预测行星运动。",
+          "text_en": "Provided the core philosophical framework for Ptolemy, who built his complex mathematical model (epicycles and deferents) on this foundation."
+        },
+        {
+          "icon": "⛪",
+          "title": "中世纪神学",
+          "title_en": "Medieval Theology",
+          "text": "该模型被中世纪的经院哲学（如托马斯·阿奎那）所采纳，将地球和人类置于宇宙的物理和形而上学中心。",
+          "text_en": "The model was adopted by medieval scholasticism (like Thomas Aquinas), placing Earth and humanity at the physical and metaphysical center of creation."
+        }
+      ],
+  
+    "impact": {
+      "text": "亚里士多德的地心说宇宙观，经托勒密数学化后，成为了西方和伊斯兰世界天文学思想的绝对权威，统治长达1400多年。哥白尼革命的本质，就是推翻这个以地球为中心的宇宙结构。",
+      "text_en": "Aristotle's geocentric cosmology, once mathematized by Ptolemy, became the undisputed astronomical authority in the Western and Islamic worlds for over 1,400 years. The Copernican Revolution was, at its core, the overthrow of this Earth-centered cosmic structure."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "plato_philosophy",
+          "contribution": "柏拉图关于完美形态和神圣天体的哲学思想",
+          "contribution_en": "Plato's philosophical ideas of perfect forms and divine celestial bodies"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "ptolemy_geocentrism_150",
+          "contribution": "为托勒密的地心说模型提供了核心的物理和哲学基础",
+          "contribution_en": "Provided the core physical and philosophical justification for Ptolemy's geocentric model"
+        },
+        {
+          "id": "copernicus_heliocentrism_1543",
+          "contribution": "作为哥白尼日心说所要推翻的主要宇宙模型",
+          "contribution_en": "As the primary cosmological model that Copernicus's heliocentrism was built to replace"
+        }
+      ],
+      "legacy_text": "亚里士多德定义了“地心说”，这个模型不仅是天文学，更是西方世界观的基石，长达一千五百年。",
+      "legacy_text_en": "Aristotle defined geocentrism, a model that served as the bedrock of the Western worldview, not just astronomy, for 1,500 years."
+    },
+  
+    "related_concepts": ["地心说", "以太", "天球", "月下界", "天界", "论天", "托勒密体系"],
+    "related_concepts_en": ["Geocentrism", "Aether", "Celestial Spheres", "Sublunary Realm", "Supralunary Realm", "On the Heavens", "Ptolemaic System"]
+  }
+
+

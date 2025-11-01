@@ -1,0 +1,147 @@
+{
+    "id": "ptolemy_geocentrism_150",
+    "personId": "claudius_ptolemy",
+    "title": "发表《天文学大成》",
+    "title_en": "Publishes 'Almagest'",
+    "year": 150,
+    "lat": 31.2001,
+    "lng": 29.9187,
+    "city": "亚历山大",
+    "city_en": "Alexandria",
+    "country": "罗马帝国 (今埃及)",
+    "country_en": "Roman Empire (Modern Egypt)",
+    "field": ["天文学", "数学", "地理学"],
+    "field_en": ["Astronomy", "Mathematics", "Geography"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ptolemaic_Model.png",
+      "video": {
+        "url": "https://www.youtube.com/embed/ZGr1nHdzLyk&t=27s",
+        "title": "托勒密的地心说模型",
+        "title_en": "The Ptolemaic Geocentric Model",
+        "duration": "7:00"
+      }
+    },
+    
+    "summary": {
+      "text": "托勒密发表了《天文学大成》(Almagest)，这部著作汇集并完善了古希腊的天文学知识，提出了一个极其复杂和精确的“地心说”模型。该模型将地球置于宇宙的静止中心，太阳、月亮和所有行星都围绕它运行。",
+      "text_en": "Ptolemy published the 'Almagest', a work that synthesized and refined ancient Greek astronomical knowledge into a highly complex and accurate 'Geocentric' model. It placed a stationary Earth at the center of the universe, with the Sun, Moon, and all planets revolving around it.",
+      "key_points": [
+        "地心说 (Geocentrism)",
+        "地球是宇宙的静止中心",
+        "使用“本轮”和“均轮”来解释行星逆行",
+        "该模型统治了天文学1400多年"
+      ],
+      "key_points_en": [
+        "Geocentrism (Earth-centered)",
+        "Earth is the stationary center",
+        "Used 'Epicycles' and 'Deferents' to explain retrograde motion",
+        "Dominated astronomy for over 1400 years"
+      ]
+    },
+  
+    "story": {
+      "text": "托勒密面临的最大挑战是解释“行星逆行”——为什么火星等行星有时会在天空中短暂地“后退”。为了“拯救现象”（即让模型符合观测），他设计了一个精巧的系统：行星在一个小圆（本轮）上运动，而这个小圆的圆心则绕着地球在一个大圆（均轮）上运动。这个模型非常成功，其预测精度在接下来的1400年里都无人能及。",
+      "text_en": "Ptolemy's greatest challenge was explaining 'retrograde motion'—why planets like Mars sometimes appear to move 'backwards' in the sky. To 'save the phenomena' (make the model fit observation), he devised an ingenious system: a planet moves on a small circle (an epicycle), whose center in turn moves on a larger circle (a deferent) around the Earth. This model was so successful its predictive accuracy was unmatched for 1,400 years."
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📚",
+        "text": "《Almagest》的阿拉伯语标题意为“最伟大的著作”，它在欧洲中世纪“黑暗时代”幸存下来，并通过阿拉伯学者传回欧洲，成为天文学的圣经。",
+        "text_en": "The Arabic title 'Almagest' means 'The Greatest'. The book survived Europe's 'Dark Ages' by being preserved and translated by Arabic scholars, who passed it back to Europe, where it became the astronomical bible."
+      },
+      {
+        "icon": "🗺️",
+        "text": "托勒密还撰写了《地理学指南》，发明了纬度和经度系统，但他错误地高估了亚洲的宽度，这间接导致哥伦布相信向西航行可以很快到达亚洲。",
+        "text_en": "Ptolemy also wrote 'Geographia', inventing the latitude and longitude system. However, he famously overestimated the size of Asia, which indirectly convinced Columbus he could reach Asia by sailing west."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你坐在一个旋转木马的中心（地球），你以为自己是静止的。你看到你的朋友（火星）在绕着你转，但奇怪的是，他有时会后退几步。为了解释这一点，你假设你的朋友不仅在绕着你跑（均轮），同时他自己还在原地转一个小圈（本轮）。这就是托勒密的模型：用“小圈套大圈”的方式，让一个静止的地球符合观测到的复杂运动。",
+      "text_en": "Imagine you're at the center of a merry-go-round (Earth) and you think you're stationary. You watch your friend (Mars) run in a big circle around you, but weirdly, he sometimes takes a few steps backward. To explain this, you assume your friend is not just running in a big circle (deferent), but is *also* running in a small circle (epicycle) at the same time. That's Ptolemy's model: 'wheels on wheels' to make a stationary Earth fit the complex motions observed in the sky."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🗓️",
+          "title": "编制星表和历法",
+          "title_en": "Star Catalogs and Calendars",
+          "text": "《天文学大成》包含了一个包含1000多颗恒星的星表，并在几个世纪里被用于天象预测（如日食）和历法计算。",
+          "text_en": "The 'Almagest' contained a catalog of over 1,000 stars and was used for centuries to predict celestial events (like eclipses) and calculate calendars."
+        },
+        {
+          "icon": "🧭",
+          "title": "天文导航",
+          "title_en": "Celestial Navigation",
+          "text": "该模型对行星和恒星位置的精确预测，是中世纪和文艺复兴时期水手用于导航的基础。",
+          "text_en": "The model's precise predictions of star and planet positions were fundamental for celestial navigation used by sailors in the Middle Ages and Renaissance."
+        },
+        {
+          "icon": "🌌",
+          "title": "占星术",
+          "title_en": "Astrology",
+          "text": "托勒密的地心说模型对行星位置的计算，也是中世纪和文艺复兴时期占星术（如绘制星盘）的数学基础。",
+          "text_en": "Ptolemy's model, by calculating planetary positions, also provided the mathematical basis for astrological horoscopes during the medieval and Renaissance periods."
+        }
+      ],
+  
+    "impact": {
+      "text": "托勒密的模型是科学史上最成功的理论之一。它将亚里士多德的哲学宇宙观（地球在中心）与精确的数学预测相结合，使其成为西方和伊斯兰世界天文学思想的绝对权威，长达1400多年，直到被哥白尼革命推翻。",
+      "text_en": "Ptolemy's model was one of the most successful scientific theories in history. It combined the philosophical cosmology of Aristotle (Earth at the center) with precise mathematical prediction, making it the undisputed authority in Western and Islamic astronomical thought for over 1,400 years until it was overthrown by the Copernican Revolution."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "aristotle_geocentrism_BC350",
+          "contribution": "亚里士多德的宇宙观（地球为静止中心，天体完美）",
+          "contribution_en": "Aristotle's cosmology (stationary Earth, perfect celestial spheres)"
+        },
+        {
+          "id": "hipparchus_astronomy_BC150",
+          "contribution": "喜帕恰斯（提供了早期的星表和本轮等数学工具）",
+          "contribution_en": "Hipparchus (provided early star catalogs and mathematical tools like the epicycle)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "copernicus_heliocentrism_1543",
+          "contribution": "作为被推翻的主要理论，哥白尼的模型就是为了取代托勒密复杂的系统",
+          "contribution_en": "As the primary theory to be disproven; Copernicus's model was built to replace Ptolemy's complex system"
+        },
+        {
+          "id": "galileo_telescope_1610",
+          "contribution": "伽利略的观测（木星卫星、金星相位）直接证伪了托勒密体系的预测",
+          "contribution_en": "Galileo's observations (Jupiter's moons, phases of Venus) directly falsified the predictions of the Ptolemaic system"
+        }
+      ],
+      "legacy_text": "托勒密的地心说模型是人类首次尝试建立一个完整的、基于数学的宇宙模型。它的长期成功和最终被推翻，是科学方法（即理论必须符合证据）的完美例证。",
+      "legacy_text_en": "Ptolemy's geocentric model was humanity's first attempt at a complete, mathematical model of the cosmos. Its long-term success, and eventual failure, stands as a perfect example of the scientific method (that theories must yield to evidence)."
+    },
+  
+    "related_concepts": ["地心说", "本轮", "均轮", "天文学大成", "行星逆行", "亚里士多德", "哥白尼革命"],
+    "related_concepts_en": ["Geocentrism", "Epicycle", "Deferent", "Almagest", "Retrograde Motion", "Aristotle", "Copernican Revolution"],
+  
+    "quiz": {
+      "question": "托勒密的地心说模型引入“本轮” (Epicycle) 是为了解释什么观测现象？",
+      "question_en": "Why did Ptolemy's geocentric model introduce the 'Epicycle'?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ptolemaic_system_epicycle.svg/640px-Ptolemaic_system_epicycle.svg.png",
+      "options": [
+        "行星的逆行运动",
+        "太阳的东升西落",
+        "月相的变化",
+        "日食和月食"
+      ],
+      "options_en": [
+        "The 'retrograde motion' of planets",
+        "The rising and setting of the Sun",
+        "The phases of the Moon",
+        "Solar and lunar eclipses"
+      ],
+      "answer": 0,
+      "explanation": "如果行星只绕地球转一个圈，它们在天空中的运动应该总是单向的。引入“本轮”（小圈）使得行星在绕大圈的同时转小圈，从地球上看，当它转到小圈的“内侧”时，就会表现出短暂的后退运动。",
+      "explanation_en": "If planets only moved in one big circle around the Earth, they would always move in one direction. The epicycle (a small circle) moving on the deferent (the big circle) means that as the planet moves along the 'inside' of its small circle, it *appears* to move backwards temporarily from Earth's perspective."
+    }
+  }
