@@ -1,0 +1,10 @@
+{
+    "name": "米利都的泰勒斯",
+    "name_en": "Thales of Miletus",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Illustrerad_Verldshistoria_band_I_Ill_107.jpg",
+    "bio_short": "古希腊米利都学派的创始人，被亚里士多德誉为“第一位哲学家”。他试图用自然原因（而非神话）来解释世界，并提出“水”是万物的本原。",
+    "bio_short_en": "An ancient Greek philosopher from Miletus, recognized by Aristotle as the 'first philosopher'. He sought natural (non-mythological) explanations for the world and proposed that 'water' was the fundamental principle (Arche).",
+    "events": [
+      "thales_anaximander_BC580"
+    ]
+  }

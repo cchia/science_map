@@ -1,0 +1,148 @@
+{
+    "id": "socrates_dialogues_BC420",
+    "personId": "socrates",
+    "title": "在雅典进行哲学对话",
+    "title_en": "Engages in Philosophical Dialogue in Athens",
+    "year": -420,
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "city": "雅典",
+    "city_en": "Athens",
+    "country": "古希腊",
+    "country_en": "Ancient Greece",
+    "field": ["哲学", "伦理学", "认识论"],
+    "field_en": ["Philosophy", "Ethics", "Epistemology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/29/UWASocrates_gobeirne_cropped.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/_VTdup6dQI0",
+        "title": "苏格拉底和苏格拉底诘问法",
+        "title_en": "Socrates and the Socratic Method",
+        "duration": "8:43"
+      }
+    },
+    
+    "summary": {
+      "text": "苏格拉底是西方哲学的奠基人之一，他本人从不写作。他的哲学实践是在雅典的广场（Agora）上与人公开对话。他发展了著名的“苏格拉底诘问法”(Elenchus)，通过一系列追问来揭示对方信念中的矛盾，迫使人们审视自己的知识，并承认自己的无知。他的名言是：“未经审视的人生是不值得过的”。",
+      "text_en": "Socrates, a founder of Western philosophy, wrote nothing himself. His philosophy was practiced in public dialogue in the Athenian Agora. He developed the 'Socratic Method' (Elenchus), a form of questioning designed to reveal contradictions in his interlocutors' beliefs, forcing them to examine their own knowledge and admit their own ignorance. His famous maxim is: 'The unexamined life is not worth living.'",
+      "key_points": [
+        "苏格拉底诘问法 (Socratic Method / Elenchus)",
+        "“我只知道一件事，那就是我一无所知”",
+        "“未经审视的人生是不值得过的”",
+        "将哲学的焦点从“宇宙”转向“伦理” (如何生活)"
+      ],
+      "key_points_en": [
+        "Socratic Method (Elenchus)",
+        "'I know that I know nothing'",
+        "'The unexamined life is not worth living'",
+        "Shifted philosophy from cosmology to ethics ('How to live')"
+      ]
+    },
+  
+    "story": {
+      "text": "苏格拉底会漫步在雅典市场，向任何自称拥有智慧的人提问。他会问一位将军：“什么是勇气？” 将军会回答：“坚守阵地。” 苏格拉底会追问：“那么，战略性撤退不算勇敢吗？” 他会一步步引导，直到将军承认他最初的定义是片面的。苏格拉底认为，这种“承认无知”是通往真正智慧的第一步。然而，这种不断揭露他人（尤其是权贵）无知的做法，最终为他招来了杀身之祸。在公元前399年，他被雅典法庭以“腐蚀青年”和“不虔诚”的罪名判处死刑。",
+      "text_en": "Socrates would wander the Agora, questioning anyone who claimed wisdom. He would ask a general, 'What is courage?' The general might answer, 'Holding your ground.' Socrates would reply, 'But what of a strategic retreat? Is that not also courageous?' He would continue until the general admitted his definition was flawed. Socrates believed this 'admission of ignorance' was the first step to wisdom. However, this practice of exposing the ignorance of powerful people eventually led to his death. In 399 BC, he was tried and executed by Athens for 'corrupting the youth' and 'impiety'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💬",
+        "text": "苏格拉底是历史上最著名“一本书都没写过”的哲学家。我们对他思想的了解，几乎完全来自于他的学生柏拉图在“对话录”中（以苏格拉底为主角）的记载。",
+        "text_en": "Socrates is history's most famous philosopher to have never written a word. Everything we know of his philosophy comes almost exclusively from the 'dialogues' written by his student, Plato, who made Socrates the main character."
+      },
+      {
+        "icon": "🎭",
+        "text": "他在世时已经是雅典的名人（或“恶人”），喜剧作家阿里斯托芬曾在戏剧《云》中将他塑造成一个在篮子里胡思乱想、不切实际的“诡辩家”。",
+        "text_en": "He was already a celebrity (or notorious) in his own lifetime. The comic playwright Aristophanes satirized him in the play 'The Clouds' as a buffoonish 'Sophist' who dangled in a basket thinking absurd thoughts."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "苏格拉底就像那个总是在问“为什么”的小孩，但他只对成年人这么做。如果一个政治家说：“我所做的一切都是为了‘正义’！” 苏格拉底会走上前，微笑着问：“太好了！那请问，‘正义’到底是什么？” 无论对方怎么回答，他总能问出下一个问题，直到那个政治家（和所有围观的人）发现，他们其实根本不懂自己在说什么。苏格拉底认为，你必须先承认自己“无知”，才能开始真正地“学习”。",
+      "text_en": "Socrates was like that kid who *always* asks 'Why?', but for adults. If a politician said, 'Everything I do is for 'Justice'!' Socrates would politely ask, 'Wonderful! But... what *is* Justice?' No matter the answer, he would ask another question, and another, until the politician (and the crowd) realized they had no idea what they were talking about. Socrates believed you had to admit you were ignorant *before* you could ever become wise.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Agora_of_Athens.jpg/640px-Agora_of_Athens.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏫",
+          "title": "法学院教育 (苏格拉底教学法)",
+          "title_en": "Law School (Socratic Method)",
+          "text": "今天，全世界的法学院都使用“苏格拉底教学法”，教授通过一系列尖锐的问题来训练学生进行严谨的逻辑思考和辩论。",
+          "text_en": "Law schools worldwide use the 'Socratic Method', where professors use a relentless series of questions to train students in rigorous logical thinking and argumentation."
+        },
+        {
+          "icon": "🧠",
+          "title": "认知行为疗法 (CBT)",
+          "title_en": "Cognitive Behavioral Therapy (CBT)",
+          "text": "现代心理治疗中的CBT技术，就使用“苏格拉底式提问”来帮助患者识别、审视并挑战他们自己的非理性信念。",
+          "text_en": "Modern psychotherapy uses 'Socratic Questioning' in CBT to help patients identify, examine, and challenge their own irrational beliefs."
+        },
+        {
+          "icon": "🤔",
+          "title": "批判性思维",
+          "title_en": "Critical Thinking",
+          "text": "他是“批判性思维”的鼻祖。他教导人们不要盲目接受权威和传统，而要用理性去审视自己的信念。",
+          "text_en": "He is the father of 'critical thinking'. He taught people not to blindly accept authority or tradition, but to examine their own beliefs with reason."
+        }
+      ],
+  
+    "impact": {
+      "text": "苏格拉底是西方思想史的“分水岭”。他将哲学的焦点从前苏格拉底哲学家（如泰勒斯）对“宇宙由什么构成？”的思考，彻底转向了对“人类自身”的思考：“我们应该如何生活？”（伦理学）和“我们如何知道我们所知道的？”（认识论）。通过他的学生柏拉图，苏格拉底的思想塑造了之后全部的西方哲学。",
+      "text_en": "Socrates is the 'watershed' of Western thought. He single-handedly shifted philosophy's focus away from the Pre-Socratics' question 'What is the universe made of?' to the human questions: 'How should we live?' (Ethics) and 'How do we know what we know?' (Epistemology). Through his student Plato, Socrates' ideas shaped all of Western philosophy that followed."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "parmenides_philosophy_BC475",
+          "contribution": "巴门尼德（其对“真理”与“表象”的区分影响了苏格拉底）",
+          "contribution_en": "Parmenides (whose distinction between 'truth' and 'appearance' influenced Socrates)"
+        },
+        {
+          "id": "anaxagoras_philosophy_BC460",
+          "contribution": "阿那克萨哥拉（苏格拉底曾研究过他的“心灵”[Nous]概念，但后来表示失望）",
+          "contribution_en": "Anaxagoras (Socrates studied his concept of 'Nous' [Mind] but was ultimately disappointed)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "plato_forms_BC380",
+          "contribution": "柏拉图（他所有的作品都是为了延续和发展苏格拉底的哲学）",
+          "contribution_en": "Plato (his entire life's work was dedicated to continuing and expanding Socrates' philosophy)"
+        },
+        {
+          "id": "aristotle_elements_BC350",
+          "contribution": "亚里士多德（通过柏拉图，其伦理学和逻辑学深受苏格拉底问题的影响）",
+          "contribution_en": "Aristotle (via Plato, his ethics and logic were deeply shaped by Socratic questions)"
+        }
+      ],
+      "legacy_text": "苏格拉底将哲学从对星辰的研究，转变为对灵魂的审视。",
+      "legacy_text_en": "Socrates brought philosophy down from the stars and into the examination of the human soul."
+    },
+  
+    "related_concepts": ["苏格拉底诘问法", "苏格拉底的反讽", "认识你自己", "伦理学", "美德即知识", "申辩篇 (Apology)", "未经审视的人生"],
+    "related_concepts_en": ["Socratic Method", "Socratic Irony", "Know Thyself", "Ethics", "Virtue is Knowledge", "The Apology", "The Unexamined Life"],
+  
+    "quiz": {
+      "question": "苏格拉底被判处死刑的主要罪名是什么？",
+      "question_en": "What was Socrates primarily sentenced to death for?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/David_-_The_Death_of_Socrates.jpg/640px-David_-_The_Death_of_Socrates.jpg",
+      "options": [
+        "反对民主",
+        "“腐蚀青年”和“不虔诚”",
+        "偷窃国家财产",
+        "拒绝服兵役"
+      ],
+      "options_en": [
+        "Opposing democracy",
+        "'Corrupting the youth' and 'impiety'",
+        "Stealing from the state",
+        "Refusing military service"
+      ],
+      "answer": 1,
+      "explanation": "雅典法庭的官方指控是“不信仰城邦所信仰的神”和“引入新神”（不虔诚），以及“腐蚀青年”（教他们质疑权威）。这很大程度上是因为他不断地诘问，让雅典的权贵们难堪。",
+      "explanation_en": "The official charges by the Athenian court were 'not believing in the gods of the state' and 'introducing new gods' (impiety), as well as 'corrupting the youth' (by teaching them to question authority). This was largely a result of him embarrassing powerful people with his questioning."
+    }
+  }

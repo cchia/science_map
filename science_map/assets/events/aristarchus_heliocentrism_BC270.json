@@ -1,0 +1,148 @@
+{
+    "id": "aristarchus_heliocentrism_BC270",
+    "personId": "aristarchus_of_samos",
+    "title": "提出日心说假说",
+    "title_en": "Proposes the Heliocentric Hypothesis",
+    "year": -270,
+    "lat": 37.7833,
+    "lng": 26.8833,
+    "city": "萨摩斯岛 (Samos)",
+    "city_en": "Samos",
+    "country": "古希腊",
+    "country_en": "Ancient Greece",
+    "field": ["天文学", "宇宙学", "数学"],
+    "field_en": ["Astronomy", "Cosmology", "Mathematics"],
+    
+    "media": {      
+      "video": {
+        "url": "https://www.youtube.com/embed/rCl5wPfsTEo",
+        "title": "阿里斯塔克斯：古代的哥白尼",
+        "title_en": "Aristarchus: The Ancient Copernicus",
+        "duration": "13:24"
+      }
+    },
+    
+    "summary": {
+      "text": "阿里斯塔克斯是历史上第一个（有记载的）提出完整“日心说”模型的天文学家。他大胆地假设，静止的太阳（而非地球）位于宇宙的中心，而地球则像其他行星一样，一方面绕着太阳公转，另一方面绕着自己的地轴自转（以此来解释昼夜交替）。",
+      "text_en": "Aristarchus was the first known astronomer to propose a complete 'Heliocentric' model of the universe. He boldly hypothesized that a stationary Sun (not the Earth) was at the center, and that the Earth was a planet that rotated on its own axis (explaining day and night) while simultaneously revolving around the Sun.",
+      "key_points": [
+        "日心说：太阳是中心",
+        "地球绕太阳公转",
+        "地球沿地轴自转",
+        "比哥白尼早了近1800年",
+        "其著作《论日心》已失传"
+      ],
+      "key_points_en": [
+        "Heliocentrism: Sun is the center",
+        "Earth revolves around the Sun",
+        "Earth rotates on its axis",
+        "Predated Copernicus by ~1,800 years",
+        "His book on heliocentrism is lost"
+      ]
+    },
+  
+    "story": {
+      "text": "阿里斯塔克斯的“日心说”原著已经失传。我们之所以知道这个理论，是因为阿基米德（Archimedes）在他的著作《算沙者》中提到了它。阿基米德写道：“阿里斯塔克斯……的假说是，恒星和太阳保持不动，地球绕太阳旋转。” 这一理论在当时被普遍拒绝，因为它与亚里士多德的物理学相悖（如果地球在动，为什么我们感觉不到？），并且缺乏可观测的“恒星视差”（即恒星相对位置的变化）。",
+      "text_en": "Aristarchus's original work on heliocentrism is lost. We only know of it because Archimedes mentioned it in his book, 'The Sand Reckoner'. Archimedes wrote: '[Aristarchus's] hypotheses are that the fixed stars and the Sun remain unmoved, that the Earth revolves about the Sun...' The theory was universally rejected for 1,800 years because it contradicted Aristotelian physics (if the Earth moved, why don't we feel it?) and lacked observable 'stellar parallax' (a shift in star positions)."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📐",
+        "text": "阿里斯塔克斯唯一幸存的著作是《论太阳与月球的大小和距离》。他利用月球处于“半月”（上弦/下弦）时，地球-月球-太阳构成的直角三角形，试图计算日地距离。他的几何方法无懈可击，但由于观测误差，他得出的结论（太阳比地球大20倍）远小于实际值（约109倍），但这已足以让他相信：小小的地球不应该成为宇宙的中心。",
+        "text_en": "His only surviving work is 'On the Sizes and Distances of the Sun and Moon'. He used the geometry of a half-moon (which forms a right-angle triangle with the Earth and Sun) to calculate the Sun's distance. His geometry was perfect, but his measurements were off. He concluded the Sun was 20x bigger than Earth (it's really 109x), but this was enough to convince him the tiny Earth shouldn't be the center."
+      },
+      {
+        "icon": "📖",
+        "text": "哥白尼在他的《天体运行论》手稿中，曾引用并赞扬了阿里斯塔克斯，但这段话在最终出版时被删除了。",
+        "text_en": "Copernicus knew of Aristarchus's theory and credited him in the original manuscript of 'De revolutionibus', but the reference was removed before publication."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在所有人都认为地球是宇宙中心的时候，阿里斯塔克斯是第一个站出来说：“各位，我觉得我们都搞反了。那个又大又亮的太阳看起来才更像是老板。会不会是我们（地球）在绕着太阳转，而不是太阳绕着我们转？” 他的想法在当时看来非常疯狂，因为人们会问：“如果地球在飞奔，我们为什么没有被甩出去？” 这个超前的想法直到1800年后才被哥白尼重新捡起。",
+      "text_en": "While everyone believed Earth was the center of the universe, Aristarchus was the first person to say, 'Wait, I think we have this backwards. That giant, bright Sun looks a lot more like the boss. What if *we* are moving around *it*?' This idea sounded crazy at the time, as people asked, 'If the Earth is moving, why aren't we all thrown off?' His idea was so advanced it was ignored for 1,800 years until Copernicus."      
+    },
+  
+    "applications": [
+        {
+          "icon": "☀️",
+          "title": "日心说 (Heliocentrism)",
+          "title_en": "Heliocentrism",
+          "text": "他是“日心说”的鼻祖，为哥白尼提供了宝贵的历史先例和思想勇气。",
+          "text_en": "He was the originator of the Heliocentric model, providing a crucial historical precedent and intellectual courage for Copernicus."
+        },
+        {
+          "icon": "📏",
+          "title": "宇宙测距",
+          "title_en": "Cosmic Distance Ladder",
+          "text": "他的《论大小和距离》是人类第一次尝试用严谨的几何学（而非哲学）来测量太阳系，开创了“宇宙测距”这一学科。",
+          "text_en": "His work 'On Sizes and Distances' was the first attempt to use rigorous geometry (instead of philosophy) to measure the solar system, pioneering the field of cosmic distance measurement."
+        }
+      ],
+  
+    "impact": {
+      "text": "在古代，阿里斯塔克斯的“日心说”假说几乎没有产生任何影响，它被地心说（由喜帕恰斯和托勒密完善）的巨大成功所掩盖。然而，他的思想在文艺复兴时期被重新发现，为哥白尼提供了至关重要的“古代权威”支持，证明哥白尼的理论并非异端邪说，而是对古典智慧的复兴。从这个意义上说，阿里斯塔克斯是科学革命的“教父”。",
+      "text_en": "In antiquity, Aristarchus's heliocentric hypothesis had almost zero impact; it was completely overshadowed by the success of the geocentric model (perfected by Hipparchus and Ptolemy). However, his idea was rediscovered during the Renaissance and provided Copernicus with crucial 'ancient authority', proving his theory was not a new heresy, but a revival of classical wisdom. In this sense, Aristarchus was the 'godfather' of the Scientific Revolution.",
+      "stats": [
+          {
+            "number": "1800",
+            "label": "年 (领先于哥白尼)",
+            "label_en": "Years Before Copernicus"
+          },
+          {
+            "number": "1",
+            "label": "部幸存著作",
+            "label_en": "Surviving Work"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pythagoras_philosophy_BC520",
+          "contribution": "毕达哥拉斯学派（特别是菲洛劳斯，他已提出地球是运动的，绕着一个“中央火”旋转）",
+          "contribution_en": "Pythagoreans (specifically Philolaus, who had already proposed a moving Earth orbiting a 'Central Fire')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "hipparchus_precession_BC150",
+          "contribution": "喜帕恰斯（虽然他反对日心说，但他使用了阿里斯塔克斯的太阳年长度等观测数据）",
+          "contribution_en": "Hipparchus (who, despite rejecting heliocentrism, used Aristarchus's observational data, like the length of the solar year)"
+        },
+        {
+          "id": "copernicus_heliocentrism_1543",
+          "contribution": "哥白尼（为其日心说提供了关键的古代先例和灵感）",
+          "contribution_en": "Copernicus (provided the critical ancient precedent and inspiration for his heliocentric model)"
+        }
+      ],
+      "legacy_text": "阿里斯塔克斯是第一个在宇宙中为地球找到正确位置的人，即使世界花了近两千年才准备好倾听。",
+      "legacy_text_en": "Aristarchus was the first person to put the Earth in its proper place in the cosmos, even if the world wasn't ready to listen for nearly 2,000 years."
+    },
+  
+    "related_concepts": ["日心说", "地心说", "恒星视差 (Stellar Parallax)", "阿基米德 (Archimedes)", "哥白尼", "《论大小和距离》", "月球几何学"],
+    "related_concepts_en": ["Heliocentrism", "Geocentrism", "Stellar Parallax", "Archimedes", "Copernicus", "On Sizes and Distances", "Lunar Geometry"],
+  
+    "quiz": {
+      "question": "古希腊人拒绝阿里斯塔克斯的“日心说”的主要科学依据是什么？",
+      "question_en": "What was the main *scientific* reason the ancient Greeks rejected Aristarchus's heliocentric model?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Stellar_parallax.gif/640px-Stellar_parallax.gif",
+      "options": [
+        "它违背了亚里士多德的物理学，并且他们观测不到“恒星视差”",
+        "阿里斯塔克斯算错了太阳的大小",
+        "他们认为太阳是一块燃烧的石头，而不是神",
+        "毕达哥拉斯的数学证明了地球是中心"
+      ],
+      "options_en": [
+        "It violated Aristotelian physics and they could not observe 'stellar parallax'",
+        "Aristarchus miscalculated the size of the Sun",
+        "They thought the Sun was a burning rock, not a god",
+        "Pythagorean math proved the Earth was the center"
+      ],
+      "answer": 0,
+      "explanation": "有两个主要障碍：1. 物理学：如果地球在高速运动，为什么我们没有被甩掉？2. 观测：如果地球在绕太阳转，那么近处的恒星相对于远处的恒星，其位置应该在一年中来回摆动（即视差）。他们观测不到这种摆动，因此（错误地）得出结论：地球必定是静止的。",
+      "explanation_en": "There were two main objections: 1. Physics: If the Earth was moving so fast, why weren't we thrown off? 2. Observation: If the Earth orbits the Sun, nearby stars should 'wobble' back and forth against distant stars over the year (parallax). They could not observe this, so they (incorrectly) concluded the Earth must be stationary."
+    }
+  }

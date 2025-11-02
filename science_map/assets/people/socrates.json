@@ -1,0 +1,10 @@
+{
+    "name": "苏格拉底",
+    "name_en": "Socrates",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+    "bio_short": "古希腊哲学家，西方哲学的奠基人之一。他本人没有留下任何著作，其思想主要通过学生柏拉图的对话录流传下来。他以“苏格拉底诘问法”和“未经审视的人生不值得过”而闻名。",
+    "bio_short_en": "A Greek philosopher and a foundational figure of Western philosophy. He wrote nothing himself; his philosophy is known through the dialogues of his student, Plato. He is famous for the Socratic method and the phrase 'the unexamined life is not worth living.'",
+    "events": [
+      "socrates_dialogues_BC420"
+    ]
+  }

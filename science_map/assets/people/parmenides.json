@@ -1,0 +1,10 @@
+{
+    "name": "巴门尼德",
+    "name_en": "Parmenides",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Parmenide.jpg",
+    "bio_short": "古希腊哲学家，埃利亚学派的创始人。他被认为是“形而上学之父”，其核心思想是“存在者存在，非存在者不存在”，并因此否认“变化”和“运动”的真实性。",
+    "bio_short_en": "An ancient Greek philosopher and founder of the Eleatic school. Considered the 'father of metaphysics,' his core idea was 'what is, is; what is not, is not,' which led him to deny the reality of change and motion.",
+    "events": [
+      "parmenides_philosophy_BC475"
+    ]
+  }

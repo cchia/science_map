@@ -1,0 +1,155 @@
+{
+    "id": "plato_forms_BC380",
+    "personId": "plato",
+    "title": "阐述“理念论”",
+    "title_en": "Develops the Theory of Forms",
+    "year": -380,
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "city": "雅典",
+    "city_en": "Athens",
+    "country": "古希腊",
+    "country_en": "Ancient Greece",
+    "field": ["哲学", "形而上学", "认识论", "本体论"],
+    "field_en": ["Philosophy", "Metaphysics", "Epistemology", "Ontology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Platon.png",
+      "video": {
+        "url": "https://www.youtube.com/embed/MgotDFs6cdE",
+        "title": "柏拉图的理念论",
+        "title_en": "PLATO ON: The Forms",
+        "duration": "3:59"
+      }
+    },
+    
+    "summary": {
+      "text": "柏拉图在他最著名的对话录（如《理想国》）中，提出了他的核心哲学——“理念论”。该理论认为，我们用感官所感知的物理世界并非“真实”世界，它只是一个由易变的、不完美的“影子”构成的世界。真正的“实在”(Reality) 存在于一个永恒的、不变的、完美的“理念世界”(World of Forms) 中，这个世界只能通过理性和智力来把握。",
+      "text_en": "In his most famous dialogues (like 'The Republic'), Plato developed his central philosophy: the Theory of Forms. It argues that the physical world we perceive with our senses is not the 'real' world. Instead, it is an imperfect, changing world of 'shadows'. True Reality exists in an eternal, unchanging, perfect 'World of Forms' (or 'Ideas'), which can only be grasped by reason and the intellect.",
+      "key_points": [
+        "理念论 (Theory of Forms / Ideas)",
+        "二元论：理念世界 vs. 感官世界",
+        "感官世界是理念世界的“影子”或“摹本”",
+        "最高的理念是“善之理念” (The Form of the Good)",
+        "学习即“回忆” (Anamnesis)"
+      ],
+      "key_points_en": [
+        "Theory of Forms (or Ideas)",
+        "Dualism: World of Forms vs. Sensory World",
+        "The sensory world is a 'shadow' or 'copy' of the Forms",
+        "The highest Form is the 'Form of the Good'",
+        "Learning is 'recollection' (Anamnesis)"
+      ]
+    },
+  
+    "story": {
+      "text": "柏拉图最著名的比喻是“洞穴寓言”(Allegory of the Cave)。他让我们想象一群囚犯，他们一生都生活在洞穴中，面朝墙壁。他们身后有一堆火，火光将他们身后（他们看不见的）物体投射到墙上。囚犯们误将这些“影子”当作唯一的现实。柏拉图说，我们就像这些囚犯，把感官世界（影子）当作真实。而哲学家，就是那个挣脱锁链、走出洞穴、看到了太阳（善之理念）和真实世界（理念世界）的人。",
+      "text_en": "Plato's most famous analogy is the 'Allegory of the Cave'. He asks us to imagine prisoners in a cave, chained to face a wall. Behind them, a fire casts shadows of objects onto the wall. The prisoners mistake these shadows for the only reality. Plato says *we* are like these prisoners, mistaking the sensory world (the shadows) for truth. The philosopher is the one who breaks free, leaves the cave, and sees the real world (the Forms) and the Sun (the Form of the Good)."
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏛️",
+        "text": "柏拉图在雅典郊外建立的学校“阿卡德米”(Academy) 以当地的英雄阿卡德摩斯(Akademos)命名。它是西方世界的第一所高等学府，Academy这个词也由此而来。",
+        "text_en": "Plato's school, 'The Academy', was named after the grove it was in, which was sacred to the hero Akademos. It was the first institution of higher learning in the Western world."
+      },
+      {
+        "icon": "📜",
+        "text": "20世纪著名哲学家怀特海（Alfred North Whitehead）曾说：“整个西方哲学的传统，最稳妥的概括就是一系列对柏拉图的注脚。”",
+        "text_en": "The 20th-century philosopher Alfred North Whitehead famously said that the Western philosophical tradition 'consists of a series of footnotes to Plato.'"
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "你见过很多只不同的狗，对吧？有的高，有的矮，有的毛茸茸的。它们看起来都不同，但你*知道*它们都是“狗”。柏拉图会问：“它们共同拥有的那个完美的‘狗性’(Dog-ness) 是什么？” 他认为，这个完美的、永恒的“狗的理念”真实地存在于一个“理念世界”里，而我们现实中看到的每一只狗，都只是那个完美理念的不完美“复制品”。他对“正义”、“美丽”甚至“桌子”都持同样看法。我们看到的世界只是“影子”，理念世界才是“真实”。",
+      "text_en": "You've seen lots of different dogs, right? Tall, short, fluffy... they all look different, but you *know* they are all 'dogs'. Plato would ask: 'What is the perfect 'Dog-ness' that they all share?' He argued that this perfect, eternal 'Form of Dog' *really exists* in a separate 'World of Forms', and every dog we see in our world is just an imperfect 'copy' of that Form. He felt the same way about 'Justice', 'Beauty', and even 'Chairs'. The world we see is the shadow; the World of Forms is the real thing.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Plato_-_Allegory_of_the_Cave_-_Gartenausgabe.png/640px-Plato_-_Allegory_of_the_Cave_-_Gartenausgabe.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧠",
+          "title": "认识论 (知识)",
+          "title_en": "Epistemology (Knowledge)",
+          "text": "区分了“知识”(Episteme)——通过理性把握永恒的理念；和“意见”(Doxa)——通过感官感知易变的事物。",
+          "text_en": "It distinguishes 'Knowledge' (Episteme)—grasping the eternal Forms with the mind—from 'Opinion' (Doxa)—perceiving changing objects with the senses."
+        },
+        {
+          "icon": "👑",
+          "title": "政治哲学 (哲学家王)",
+          "title_en": "Political Philosophy (Philosopher-King)",
+          "text": "在《理想国》中，柏拉图认为只有那些灵魂“走出洞穴”、认识了“善之理念”的哲学家，才真正有资格统治国家。",
+          "text_en": "In 'The Republic', Plato argued that only philosophers, whose souls have 'left the cave' and grasped the 'Form of the Good', are truly qualified to rule."
+        },
+        {
+          "icon": "⛪",
+          "title": "神学",
+          "title_en": "Theology",
+          "text": "柏拉图的“二元论”（不完美的物质世界 vs. 完美的精神世界）对后来的新柏拉图主义和早期基督教神学（如圣奥古斯丁）产生了深远影响。",
+          "text_en": "Plato's dualism (imperfect material world vs. perfect spiritual realm) profoundly influenced later Neoplatonism and early Christian theology (e.g., St. Augustine)."
+        }
+      ],
+  
+    "impact": {
+      "text": "“理念论”可以说是西方哲学史上最具影响力的单一思想。它确立了形而上学的核心问题（“什么是实在？”），定义了“实在”与“表象”之间的经典对立，并将伦理学和政治学与形而上学的知识紧密相连。柏拉图的学生亚里士多德，正是在反对其“分离的理念世界”的基础上，建立了他自己的哲学体系。",
+      "text_en": "The Theory of Forms is arguably the single most influential idea in Western philosophy. It established the central questions of metaphysics ('What is real?'), defined the classic split between reality and appearance, and tied ethics and politics directly to metaphysical knowledge. Plato's student, Aristotle, built his entire philosophy in *response* to this theory, rejecting the separate World of Forms."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "socrates_dialogues_BC420",
+          "contribution": "苏格拉底（其对“什么是正义/美德”的永恒定义的不懈追求）",
+          "contribution_en": "Socrates (for his quest for universal definitions, e.g., 'What is Justice?')"
+        },
+        {
+          "id": "parmenides_philosophy_BC475",
+          "contribution": "巴门尼德（其“真理之路”与“意见之路”的二元论）",
+          "contribution_en": "Parmenides (for his dualism of the 'Way of Truth' vs. the 'Way of Opinion')"
+        },
+        {
+          "id": "pythagoras_philosophy_BC520",
+          "contribution": "毕达哥拉斯（其关于“灵魂不朽”和“数学是实在”的思想）",
+          "contribution_en": "Pythagoras (for his ideas on the immortal soul and mathematical reality)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "aristotle_elements_BC350",
+          "contribution": "亚里士多德（他的整个哲学都是对柏拉图理念论的批判和修正）",
+          "contribution_en": "Aristotle (his entire philosophy was a critique and modification of Plato's Forms)"
+        },
+        {
+          "id": "neoplatonism_AD250",
+          "contribution": "新柏拉图主义（如普罗提诺，将理念论发展为一种系统的神秘主义）",
+          "contribution_en": "Neoplatonism (e.g., Plotinus, who developed the Forms into a mystical system)"
+        }
+      ],
+      "legacy_text": "柏拉图提出了哲学的核心问题：我们所感知的世界是真实的吗？还是存在一个更高级的、只能通过思想才能触及的“实在”？",
+      "legacy_text_en": "Plato established philosophy's central question: Is the world we sense the 'real' one, or is there a higher reality accessible only through the mind?"
+    },
+  
+    "related_concepts": ["洞穴寓言", "善之理念", "形而上学", "认识论", "二元论", "回忆说 (Anamnesis)", "苏格拉底", "亚里士多德", "理想国"],
+    "related_concepts_en": ["Allegory of the Cave", "Form of the Good", "Metaphysics", "Epistemology", "Dualism", "Anamnesis", "Socrates", "Aristotle", "The Republic"],
+  
+    "quiz": {
+      "question": "在柏拉图的“洞穴寓言”中，囚犯在墙上看到的“影子”代表什么？",
+      "question_en": "In Plato's 'Allegory of the Cave', what do the 'shadows' on the wall represent?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Plato_-_Allegory_of_the_Cave_-_Gartenausgabe.png/640px-Plato_-_Allegory_of_the_Cave_-_Gartenausgabe.png",
+      "options": [
+        "永恒的“理念世界”",
+        "我们通过感官所感知的、不完美的物理世界",
+        "“善之理念”",
+        "苏格拉底的教诲"
+      ],
+      "options_en": [
+        "The eternal 'World of Forms'",
+        "The imperfect, physical world we perceive with our senses",
+        "The 'Form of the Good'",
+        "The teachings of Socrates"
+      ],
+      "answer": 1,
+      "explanation": "影子是囚犯们误以为“真实”的东西，但它们只是真实物体（理念）的不完美投影。这代表了柏拉图的观点，即我们用感官（视觉、听觉）所感知的物理世界，只是真正“实在”（理念世界）的一个易变的、虚假的影子。",
+      "explanation_en": "The shadows are what the prisoners mistake for reality, but they are just imperfect projections of the real objects (the Forms). This represents Plato's belief that the physical world we perceive with our senses (sight, hearing) is just a changing, false shadow of true Reality (the World of Forms)."
+    }
+  }

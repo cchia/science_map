@@ -1,0 +1,142 @@
+{
+    "id": "parmenides_philosophy_BC475",
+    "personId": "parmenides",
+    "title": "阐述《论自然》中的“存在”哲学",
+    "title_en": "Posits Philosophy of 'Being' in 'On Nature'",
+    "year": -475,
+    "lat": 40.2568,
+    "lng": 15.0037,
+    "city": "埃利亚",
+    "city_en": "Elea",
+    "country": "大希腊 (今意大利)",
+    "country_en": "Magna Graecia (Modern Italy)",
+    "field": ["哲学", "形而上学", "本体论"],
+    "field_en": ["Philosophy", "Metaphysics", "Ontology"],
+    
+    "media": {      
+      "video": {
+        "url": "https://www.youtube.com/embed/UVFjEx_tFmQ",
+        "title": "巴门尼德反对运动的论证",
+        "title_en": "Parmenides' Argument Against Motion",
+        "duration": "2:30"
+      }
+    },
+    
+    "summary": {
+      "text": "巴门尼德在他的诗篇《论自然》中，提出了一种激进的形而上学理论。他认为宇宙的真相只能通过纯粹的理性（Logos）而非感官来把握。他提出了哲学史上最著名的论断：“存在者存在，非存在者不存在”(What is, is; what is not, is not)。基于此，他推断出真正的“存在”(Being) 必须是单一的、永恒的、不生不灭的、不可分割的、且完全静止的。",
+      "text_en": "In his poem 'On Nature', Parmenides presented a radical metaphysical theory. He argued that the truth of the cosmos can only be grasped by pure reason (Logos), not the senses. He made one of philosophy's most famous statements: 'What is, is; what is not, is not.' From this, he deduced that true 'Being' must be singular, eternal, uncreated, indestructible, indivisible, and completely unchanging and motionless.",
+      "key_points": [
+        "“存在者存在，非存在者不存在”",
+        "理性是通向“真理之路”的唯一途径",
+        "感官（视觉、听觉）是“意见之路”，是虚假和具有欺骗性的",
+        "“存在”是单一、永恒、且静止不动的",
+        "运动、变化和多元性都是感官的幻觉"
+      ],
+      "key_points_en": [
+        "'What is, is; what is not, is not'",
+        "Reason is the only path (The Way of Truth)",
+        "The senses are deceptive (The Way of Opinion)",
+        "True Being is One, eternal, and motionless",
+        "Motion, change, and plurality are illusions"
+      ]
+    },
+  
+    "story": {
+      "text": "巴门尼德的诗篇以一个神话故事开场：一位青年（代表他自己）乘坐战车，由太阳神的女儿们指引，穿越“白昼与黑夜之门”，来到一位女神面前。女神告诉他，他必须学习两条道路：第一条是“真理之路”(Way of Truth)，即通过理性认识到“存在”是唯一的、永恒不变的实在；第二条是“意见之路”(Way of Opinion)，即凡人（Mortal）通过感官所感知的、充满变化与多元的虚假世界。女神告诫他，“非存在”是不可想象、不可言说的，因此任何变化（从“存在”变为“非存在”）或产生（从“非存在”变为“存在”）都是绝对不可能的。",
+      "text_en": "Parmenides' poem begins as a story: a youth (representing himself) is taken by chariot, guided by the daughters of the Sun, past the 'gates of Night and Day' to meet a goddess. The goddess tells him he must learn two paths: The 'Way of Truth', which uses reason to understand that 'Being' is the only, eternal, unchanging reality; and the 'Way of Opinion', the false world of change and plurality that mortals perceive with their senses. She warns that 'non-being' is unthinkable and unspeakable, and therefore change (from 'is' to 'is not') or creation (from 'is not' to 'is') is logically impossible."
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🗣️",
+        "text": "巴门尼德被认为是“形而上学之父”，因为他是第一个完全依赖抽象逻辑推理（而非感官观测）来论证现实本质的哲学家。",
+        "text_en": "Parmenides is often called the 'father of metaphysics' because he was the first philosopher to rely entirely on abstract logical deduction, rather than sensory observation, to make arguments about the nature of reality."
+      },
+      {
+        "icon": "🏃‍♂️",
+        "text": "他的学生芝诺（Zeno）为了捍卫老师的理论（即运动是幻觉），提出了著名的“芝诺悖论”，例如“阿喀琉斯追不上乌龟”。",
+        "text_en": "His pupil, Zeno of Elea, created his famous 'paradoxes' (like Achilles and the Tortoise) specifically to defend Parmenides' theory that motion is an illusion."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "巴门尼德的论证是：你只能思考“存在”的东西。你无法真正地想象“虚无”（非存在）。既然你无法想象“虚无”，那么“虚无”就不可能存在。如果“虚无”不存在，那么任何变化都是不可能的。为什么？因为“变化”意味着某物从“不存在”变为“存在”（如诞生），或者从“存在”变为“不存在”（如死亡）。既然“非存在”是不可能的，那么诞生和死亡（以及所有运动）都必定是我们感官的幻觉。真正的现实必须是永恒不变的。",
+      "text_en": "Parmenides' argument is: You can only think about things that 'are' (Being). You cannot *actually* think about 'nothing' (Non-being). Since you can't think it, 'nothing' cannot exist. And if 'nothing' doesn't exist, change is impossible. Why? Because 'change' would mean something coming from 'nothing' (birth) or turning into 'nothing' (death). Since 'nothing' is impossible, birth, death, and all motion must be illusions of our senses. True reality must be one, eternal, and unchanging.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Parmenide.jpg/640px-Parmenide.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧠",
+          "title": "逻辑与理性主义",
+          "title_en": "Logic and Rationalism",
+          "text": "他开创了“理性主义”传统，即认为真正的知识来自逻辑演绎，而非感官经验。这对后来的柏拉图和笛卡尔产生了巨大影响。",
+          "text_en": "He founded the tradition of 'Rationalism'—the idea that true knowledge comes from logical deduction, not sensory experience. This profoundly influenced later philosophers like Plato and Descartes."
+        },
+        {
+          "icon": "🤔",
+          "title": "本体论 (研究存在)",
+          "title_en": "Ontology (The Study of Being)",
+          "text": "他首次将“存在”(Being) 本身作为哲学研究的核心问题，开启了“本体论”这一哲学分支。",
+          "text_en": "He was the first to make 'Being' itself the central question of philosophy, creating the branch of metaphysics known as ontology."
+        }
+      ],
+  
+    "impact": {
+      "text": "巴门尼德的哲学是古希腊思想的一个巨大转折点。他对“变化”的否定，迫使后来的哲学家（如恩培多克勒、阿那克萨哥拉和原子论者）必须回应“事物如何可能既变化又持久”这一难题。柏拉图的“理念论”（即一个永恒不变的“理念世界”和一个虚幻的“感官世界”）就是对巴门尼德“真理之路”和“意见之路”的直接回应和发展。",
+      "text_en": "Parmenides was a massive turning point in Greek thought. His denial of change forced all later philosophers (like Empedocles, Anaxagoras, and the Atomists) to answer the new puzzle: 'How can things *appear* to change while still *being* permanent?' Plato's entire Theory of Forms (an eternal, unchanging 'World of Forms' vs. an illusory 'World of Senses') is a direct response to and development of Parmenides' 'Way of Truth' and 'Way of Opinion'."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pythagoras_philosophy_BC520",
+          "contribution": "毕达哥拉斯学派（可能，强调数学和抽象秩序）",
+          "contribution_en": "Pythagoreans (possibly, with their emphasis on mathematics and abstract order)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "zeno_paradoxes_BC450",
+          "contribution": "他的学生芝诺，其悖论旨在捍卫巴门尼德的“运动不可能”理论",
+          "contribution_en": "His pupil Zeno, whose paradoxes were designed to defend Parmenides' theory that motion is impossible"
+        },
+        {
+          "id": "empedocles_elements_BC450",
+          "contribution": "恩培多克勒试图通过“四元素”的混合与分离来“拯救”变化的现象，以回应巴门尼德",
+          "contribution_en": "Empedocles tried to 'save' the phenomenon of change by proposing the mixing/separation of four eternal elements, in direct response to Parmenides"
+        },
+        {
+          "id": "plato_forms_BC380",
+          "contribution": "柏拉图的“理念论”深受其“不变的真实世界”和“虚幻的感官世界”二元论的影响",
+          "contribution_en": "Plato's Theory of Forms was heavily influenced by his dualism of an unchanging, true reality vs. an illusory, sensory world"
+        }
+      ],
+      "legacy_text": "巴门尼德将哲学从“世界是由什么构成的？”转向了“‘存在’本身意味着什么？”，从而奠定了形而上学的基础。",
+      "legacy_text_en": "Parmenides shifted philosophy from 'What is the world made of?' to 'What does it mean *to be*?', thereby founding metaphysics."
+    },
+  
+    "related_concepts": ["存在 (Being)", "非存在 (Non-Being)", "真理之路", "意见之路", "一元论 (Monism)", "埃利亚学派", "芝诺悖论"],
+    "related_concepts_en": ["Being", "Non-Being", "Way of Truth", "Way of Opinion", "Monism", "Eleatic School", "Zeno's Paradoxes"],
+  
+    "quiz": {
+      "question": "根据巴门尼德的“真理之路”，我们通过感官（如视觉）所感知的运动和变化是什么？",
+      "question_en": "According to Parmenides' 'Way of Truth', what is the motion and change that we perceive with our senses (like sight)?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Parmenide.jpg/640px-Parmenide.jpg",
+      "options": [
+        "由“爱”与“恨”驱动的真实过程",
+        "一种虚假的幻觉",
+        "由原子在虚空中运动引起的",
+        "唯一真实的现实"
+      ],
+      "options_en": [
+        "A real process driven by 'Love' and 'Strife'",
+        "A false illusion",
+        "Caused by atoms moving in the void",
+        "The only true reality"
+      ],
+      "answer": 1,
+      "explanation": "巴门尼德认为，任何变化（运动）都意味着某物从“存在”变为“非存在”，而“非存在”是不可能的。因此，他通过纯粹的逻辑推断，我们感官所感知到的一切变化都必定是虚假和具有欺骗性的幻觉，属于“意见之路”。",
+      "explanation_en": "Parmenides argued that any change (motion) implies that something goes from 'being' to 'non-being', which is logically impossible. Therefore, he deduced through pure logic that all change we perceive with our senses must be a false, deceptive illusion belonging to the 'Way of Opinion'."
+    }
+  }

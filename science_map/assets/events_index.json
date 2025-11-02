@@ -12,5 +12,17 @@
   "copernicus_heliocentrism_1543",
   "ptolemy_geocentrism_150",
   "aristotle_geocentrism_BC350",
-  "aristotle_elements_BC350"
+  "aristotle_elements_BC350",
+  "empedocles_elements_BC450",
+  "parmenides_philosophy_BC475",
+  "pythagoras_theorem_BC500",
+  "pythagoras_philosophy_BC520",
+  "thales_anaximander_BC580",
+  "orphicism_BC550",
+  "plato_forms_BC380",
+  "socrates_dialogues_BC420",
+  "anaxagoras_philosophy_BC460",
+  "aristarchus_heliocentrism_BC270",
+  "hipparchus_precession_BC150",
+  "hipparchus_trigonometry_BC150"
 ]

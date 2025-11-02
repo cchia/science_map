@@ -1,0 +1,143 @@
+{
+    "id": "orphicism_BC550",
+    "personId": "orpheus",
+    "title": "俄耳甫斯教义在希腊世界传播",
+    "title_en": "Spread of Orphic Doctrines in the Greek World",
+    "year": -550,
+    "lat": 41.0,
+    "lng": 26.0,
+    "city": "色雷斯 / 希腊世界",
+    "city_en": "Thrace / Greek World",
+    "country": "古希腊",
+    "country_en": "Ancient Greece",
+    "field": ["哲学", "宗教", "神秘主义"],
+    "field_en": ["Philosophy", "Religion", "Mysticism"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/DSC00355_-_Orfeo_%28epoca_romana%29_-_Foto_G._Dall%27Orto.jpg"      
+    },
+    
+    "summary": {
+      "text": "俄耳甫斯教是一种神秘主义宗教，据称由神话诗人俄耳甫斯创立。它在古希腊传播开来，提出了一套与主流希腊宗教截然不同的神学观。其核心教义包括灵魂不朽、灵魂轮回（Metempsychosis），以及“身体是灵魂的坟墓”(soma sema) 的二元论。俄耳甫斯教徒通过禁欲主义、素食和秘密仪式来寻求净化灵魂，以摆脱“轮回之轮”。",
+      "text_en": "Orphism was a mystery religion, reputedly founded by the mythical poet Orpheus. It spread through the Greek world, offering a theology distinct from mainstream Greek religion. Its core doctrines included the immortality of the soul, metempsychosis (reincarnation), and a dualistic belief that the 'body is the tomb of the soul' (soma sema). Orphics sought to purify the soul through asceticism, vegetarianism, and secret rites to escape the 'grievous wheel' of reincarnation.",
+      "key_points": [
+        "灵魂不朽 (Immortal soul)",
+        "灵魂轮回 (Metempsychosis / Reincarnation)",
+        "“身体是灵魂的坟墓” (Soma sema)",
+        "人类的二元性（神圣的灵魂 vs. 罪恶的身体）",
+        "通过禁欲和仪式来净化 (Purification)"
+      ],
+      "key_points_en": [
+        "Immortal soul",
+        "Metempsychosis (Reincarnation)",
+        "'The body is the tomb of the soul' (Soma sema)",
+        "Dual human nature (Divine soul vs. Sinful body)",
+        "Purification through asceticism and rites"
+      ]
+    },
+  
+    "story": {
+      "text": "俄耳甫斯教的核心神话（“泰坦神话”）是这样的：泰坦神出于嫉妒，撕碎并吃掉了婴儿神狄俄尼索斯（Zagreus）。宙斯大怒，用雷电将泰坦神烧成灰烬。人类就是由这些灰烬诞生的。因此，每个人类都具有双重天性：来自泰坦神的罪恶、世俗的身体，以及来自被吞噬的狄俄尼索斯的神圣、不朽的灵魂。俄耳甫斯教徒的人生目标就是通过净化，“杀死”内心的泰坦，释放内心的狄俄尼索斯，使灵魂回归神界。",
+      "text_en": "The core Orphic myth (the 'Titan myth') is as follows: The Titans, out of jealousy, dismembered and consumed the infant god Dionysus (Zagreus). Zeus, enraged, incinerated the Titans with lightning. Humanity was born from these ashes. Therefore, every human has a dual nature: a sinful, earthly body (from the Titans) and a divine, immortal soul (from the consumed Dionysus). The goal of Orphic life was to 'kill' the Titan-self through purification and liberate the Dionysian-self, allowing the soul to return to the divine."
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎵",
+        "text": "其神话创始人俄耳甫斯是一位传奇乐师，他的里拉琴声可以使动物、树木甚至石头着迷，他还曾进入冥界试图救回他的妻子欧律狄刻。",
+        "text_en": "Its mythical founder, Orpheus, was a legendary musician whose lyre could charm animals, trees, and even the gods of the underworld (Hades), which he entered to try and rescue his wife, Eurydice."
+      },
+      {
+        "icon": "🌱",
+        "text": "俄耳甫斯教徒是西方最早的素食主义者之一。他们避免吃肉，因为他们相信灵魂可能会转世为动物，吃肉无异于“同类相食”。",
+        "text_en": "The Orphics were among the first organized vegetarians in the West. They avoided meat because they believed souls could be reincarnated into animals, making meat-eating a form of 'cannibalism'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你的身体是一个“监狱”（或坟墓），而你高贵的灵魂是“囚犯”。你的灵魂被困住，是因为你的“祖先”（泰坦神）犯下了一桩可怕的罪行（吃了神）。你的人生目标就是通过修行（不吃肉、遵守戒律）来为你的灵魂“赎罪”。如果你这辈子做得足够好，你的灵魂在死后就能被释放，重获自由。如果你做得不好，你的灵魂就会被送进另一个“监狱”（另一个身体，可能是动物），重新再来一遍。这就是“灵魂轮回”。",
+      "text_en": "Imagine your body is a 'prison' (or tomb) and your noble soul is the 'prisoner' inside. Your soul is trapped because your 'ancestors' (the Titans) committed a terrible crime (eating a god). Your goal in life is to 'atone' for this crime by living a pure life (no meat, strict rules). If you do well, your soul is set free after death. If you do poorly, your soul is sent to a new 'prison' (another body, maybe an animal) to try again. This is reincarnation."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🧘",
+          "title": "禁欲主义 (Asceticism)",
+          "title_en": "Asceticism",
+          "text": "与享乐主义的城邦宗教不同，它在希腊推广了一种基于“净化”和“禁欲”（如素食）的个人修行生活方式。",
+          "text_en": "Unlike the often hedonistic state religions, it promoted a personal lifestyle of 'purification' and 'asceticism' (like vegetarianism) in Greece."
+        },
+        {
+          "icon": "🙏",
+          "title": "个人救赎",
+          "title_en": "Personal Salvation",
+          "text": "将宗教的重心从“城邦的福祉”转移到了“个人灵魂的来世命运”上，这是一个重大的神学转变。",
+          "text_en": "It shifted the focus of religion from the 'welfare of the city-state' to the 'afterlife fate of the individual soul', a major theological shift."
+        },
+        {
+          "icon": "📜",
+          "title": "神圣文本",
+          "title_en": "Sacred Texts",
+          "text": "与依赖口传的希腊传统不同，俄耳甫斯教依赖《俄耳甫斯教金叶》等神圣文本作为教义和来世的指南。",
+          "text_en": "Unlike the oral traditions of mainstream Greece, Orphism relied on sacred texts (like the 'Orphic Gold Leaves') as guides to doctrine and the afterlife."
+        }
+      ],
+  
+    "impact": {
+      "text": "俄耳甫斯教对希腊哲学产生了巨大的“地下”影响。毕达哥拉斯的整个学派（灵魂轮回、素食主义、数学净化）几乎完全建立在俄耳甫斯教义之上。更重要的是，柏拉图采纳了俄耳甫斯教关于“灵魂不朽”、“身体是监狱”以及“通过哲学净化灵魂以回归理念世界”的核心思想。通过柏拉图，这些思想深刻地塑造了后来的西方哲学和基督教神学。",
+      "text_en": "Orphism had a massive 'underground' influence on Greek philosophy. Pythagoras's entire school (reincarnation, vegetarianism, purification through math) was built almost entirely on Orphic doctrine. Most importantly, Plato adopted the core Orphic ideas of the 'immortal soul', the 'body as a prison', and 'purification through philosophy' to escape to the World of Forms. Through Plato, these ideas profoundly shaped later Western philosophy and Christian theology."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "dionysian_cults_BC700",
+          "contribution": "狄俄尼索斯（酒神）崇拜（提供了狂喜和神圣附体的元素）",
+          "contribution_en": "Dionysian Cults (provided the element of ecstasy and divine possession)"
+        },
+        {
+          "id": "thracian_shamanism_BC1000",
+          "contribution": "色雷斯的萨满教传统（可能，提供了灵魂之旅和冥界的神话）",
+          "contribution_en": "Thracian shamanism (possibly, provided myths of the soul's journey and underworld)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "pythagoras_philosophy_BC520",
+          "contribution": "为毕达哥拉斯学派提供了灵魂轮回、素食主义和禁欲主义的教义",
+          "contribution_en": "Provided the doctrines of metempsychosis, vegetarianism, and asceticism to the Pythagorean school"
+        },
+        {
+          "id": "plato_forms_BC380",
+          "contribution": "为柏拉图的灵魂/身体二元论、灵魂不朽和“理念世界”提供了核心框架",
+          "contribution_en": "Provided the core framework for Plato's soul/body dualism, immortality, and the World of Forms"
+        }
+      ],
+      "legacy_text": "俄耳甫斯教将“灵魂”从一个模糊的“影子”提升为一个不朽的神圣实体，并引入了“原罪”（泰坦的罪行）和“救赎”（净化）的概念，这在古希腊是革命性的。",
+      "legacy_text_en": "Orphism transformed the 'soul' from a mere 'shadow' into an immortal, divine entity, and introduced the concepts of 'original sin' (the Titans' crime) and 'salvation' (purification), which were revolutionary in Greece."
+    },
+  
+    "related_concepts": ["灵魂轮回 (Metempsychosis)", "身体是坟墓 (Soma Sema)", "二元论 (Dualism)", "狄俄尼索斯-萨格柔斯", "泰坦神话", "净化 (Katharsis)", "禁欲主义 (Asceticism)"],
+    "related_concepts_en": ["Metempsychosis", "Soma Sema", "Dualism", "Dionysus-Zagreus", "Titan Myth", "Katharsis", "Asceticism"],
+  
+    "quiz": {
+      "question": "根据俄耳甫斯教的神话，人类为何具有“神圣的灵魂”和“罪恶的身体”？",
+      "question_en": "According to the Orphic myth, why do humans have a 'divine soul' and a 'sinful body'?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Orpheus_Ciconian_women_Staatliche_Antikensammlungen_2344.jpg/640px-Orpheus_Ciconian_women_Staatliche_Antikensammlungen_2344.jpg",
+      "options": [
+        "因为宙斯（Zeus）是神，普罗米修斯（Prometheus）是泰坦",
+        "因为人类是由泰坦神的灰烬（罪恶）和他们吞噬的狄俄尼索斯（神圣）混合而成的",
+        "因为灵魂来自“水”（神圣），身体来自“土”（罪恶）",
+        "因为“爱”创造了灵魂，“恨”创造了身体"
+      ],
+      "options_en": [
+        "Because Zeus was a god and Prometheus was a Titan",
+        "Because humans were born from the ashes of the Titans (sinful) mixed with the Dionysus they ate (divine)",
+        "Because the soul is made of 'Water' (divine) and the body is made of 'Earth' (sinful)",
+        "Because 'Love' created the soul and 'Strife' created the body"
+      ],
+      "answer": 1,
+      "explanation": "俄耳甫斯教的核心神话是，人类诞生自烧毁泰坦神的灰烬，这些灰烬既包含了泰坦的罪恶（身体的来源），也包含了他们吃掉的神（灵魂的来源）。",
+      "explanation_en": "The core Orphic myth states that humans were born from the ashes of the incinerated Titans. These ashes contained both the sin of the Titans (the body) and the god they had eaten (the soul)."
+    }
+  }

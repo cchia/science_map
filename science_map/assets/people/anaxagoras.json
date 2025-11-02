@@ -1,0 +1,10 @@
+{
+    "name": "阿那克萨哥拉",
+    "name_en": "Anaxagoras",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Anaxagoras_Lebiedzki_Rahl.jpg",
+    "bio_short": "古希腊哲学家，第一位将哲学带到雅典的人。他提出了“心灵”（Nous）作为宇宙的初始推动力，并认为万物由无数“种子”构成。",
+    "bio_short_en": "A pre-Socratic Greek philosopher who was the first to bring philosophy to Athens. He proposed 'Nous' (Mind) as the cosmic prime mover and a theory of 'seeds' for all matter.",
+    "events": [
+      "anaxagoras_philosophy_BC460"
+    ]
+  }

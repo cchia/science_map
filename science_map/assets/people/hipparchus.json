@@ -1,0 +1,11 @@
+{
+    "name": "喜帕恰斯",
+    "name_en": "Hipparchus",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Head_of_Hipparchus_%28cropped%29.jpg",
+    "bio_short": "古希腊天文学家、数学家，被誉为“古希腊最伟大的天文学家”。他发现了岁差，编制了第一部科学星表，并发明了三角学。",
+    "bio_short_en": "An ancient Greek astronomer and mathematician, considered the greatest astronomical observer of antiquity. He discovered precession, compiled the first scientific star catalog, and is credited with inventing trigonometry.",
+    "events": [
+      "hipparchus_precession_BC150",
+      "hipparchus_trigonometry_BC150"
+    ]
+  }

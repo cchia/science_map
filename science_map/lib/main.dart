@@ -12,6 +12,7 @@ import 'dart:html' as html;
 import 'dart:ui' as ui;
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_math_fork/flutter_math.dart';
 
 void main() {
   runApp(ScienceMapApp());
@@ -100,6 +101,7 @@ class _MapScreenState extends State<MapScreen> {
     '计算机': Colors.cyan,
     '航天': Colors.indigo,
     '综合': Colors.brown,
+    '哲学': Colors.teal,
   };
 
   final Map<String, String> fieldEmojis = {
@@ -112,6 +114,7 @@ class _MapScreenState extends State<MapScreen> {
     '计算机': '💻',
     '航天': '🚀',
     '综合': '📚',
+    '哲学': '🏛️',
   };
 
   final Map<String, String> fieldNamesEn = {
@@ -124,6 +127,7 @@ class _MapScreenState extends State<MapScreen> {
     '计算机': 'Computer Science',
     '航天': 'Space',
     '综合': 'Comprehensive',
+    '哲学': 'Philosophy',
   };
 
   // ========== 生命周期 ==========
@@ -1750,7 +1754,13 @@ class EventDialog extends StatelessWidget {
                       onEventSelected: onEventSelected,
                     ),
                     ScienceTab(data: data, color: color, isEnglish: isEnglish),
-                    ImpactTab(data: data, color: color, isEnglish: isEnglish),
+                    ImpactTab(
+                      data: data, 
+                      color: color, 
+                      isEnglish: isEnglish,
+                      allEvents: allEvents,         // <-- 新增
+                      onEventSelected: onEventSelected, // <-- 新增
+                    ),
                     QuizTab(data: data, color: color, isEnglish: isEnglish),
                   ],
                 ),
@@ -2004,11 +2014,15 @@ class ImpactTab extends StatelessWidget {
   final EventData data;
   final Color color;
   final bool isEnglish;
+  final List<Map<String, dynamic>> allEvents;         // <-- 新增
+  final Function(Map<String, dynamic>) onEventSelected; // <-- 新增
 
   const ImpactTab({
     required this.data,
     required this.color,
     required this.isEnglish,
+    required this.allEvents,         // <-- 新增
+    required this.onEventSelected, // <-- 新增
   });
 
   @override
@@ -2029,6 +2043,8 @@ class ImpactTab extends StatelessWidget {
               influenceChain: data.influenceChain!,
               color: color,
               isEnglish: isEnglish,
+              allEvents: allEvents,         // <-- 新增
+              onEventSelected: onEventSelected, // <-- 新增
             ),
           ],
         ],
@@ -2975,11 +2991,15 @@ class InfluenceNetworkCard extends StatelessWidget {
   final InfluenceChain influenceChain;
   final Color color;
   final bool isEnglish;
+  final List<Map<String, dynamic>> allEvents;         // <-- 新增
+  final Function(Map<String, dynamic>) onEventSelected; // <-- 新增
 
   const InfluenceNetworkCard({
     required this.influenceChain,
     required this.color,
     required this.isEnglish,
+    required this.allEvents,         // <-- 新增
+    required this.onEventSelected, // <-- 新增
   });
 
   @override
@@ -3037,43 +3057,59 @@ class InfluenceNetworkCard extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 10),
-                  ...influenceChain.influencedBy!.map((item) => Padding(
-                    padding: EdgeInsets.only(bottom: 8),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Icon(Icons.circle, color: Colors.orange, size: 8),
-                        SizedBox(width: 10),
-                        Expanded(
-                          child: RichText(
-                            text: TextSpan(
-                              style: TextStyle(fontSize: 13, color: Colors.black87),
-                              children: [
-                                if (item.personName != null && item.personName!.isNotEmpty) ...[
-                                  TextSpan(
-                                    text: '${item.personName} - ',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.orange[800], // 匹配颜色
+...influenceChain.influencedBy!.map((item) {
+                    // --- 新增：查找要跳转的事件 ---
+                    final Map<String, dynamic> targetEvent = allEvents.firstWhere(
+                      (e) => e['id'] == item.id,
+                      orElse: () => {}, // 如果没找到，返回空 map
+                    );
+                    // --- 新增结束 ---
+
+                    return InkWell( // <-- 用 InkWell 包装
+                      onTap: (targetEvent.isNotEmpty) ? () {
+                        onEventSelected(targetEvent); // <-- 点击时调用回调
+                      } : null,
+                      borderRadius: BorderRadius.circular(8),
+                      child: Padding(
+                        padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4), // 增加点击区域
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.circle, color: Colors.orange, size: 8),
+                            SizedBox(width: 10),
+                            Expanded(
+                              child: RichText(
+                                // ... (RichText 内容保持不变)
+                                text: TextSpan(
+                                  style: TextStyle(fontSize: 13, color: Colors.black87),
+                                  children: [
+                                    if (item.personName != null && item.personName!.isNotEmpty) ...[
+                                      TextSpan(
+                                        text: '${item.personName} - ',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.orange[800], 
+                                        ),
+                                      ),
+                                    ],
+                                    TextSpan(
+                                      text: item.title,
+                                      style: TextStyle(fontWeight: FontWeight.bold),
                                     ),
-                                  ),
-                                ],
-                                TextSpan(
-                                  text: item.title,
-                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                    TextSpan(text: '\n'),
+                                    TextSpan(
+                                      text: item.contribution,
+                                      style: TextStyle(color: Colors.grey[700]),
+                                    ),
+                                  ],
                                 ),
-                                TextSpan(text: '\n'),
-                                TextSpan(
-                                  text: item.contribution,
-                                  style: TextStyle(color: Colors.grey[700]),
-                                ),
-                              ],
+                              ),
                             ),
-                          ),
+                          ],
                         ),
-                      ],
-                    ),
-                  )),
+                      ),
+                    );
+                  }).toList(),
                 ],
               ),
             ),
@@ -3107,43 +3143,59 @@ class InfluenceNetworkCard extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 10),
-                  ...influenceChain.influenced!.map((item) => Padding(
-                    padding: EdgeInsets.only(bottom: 8),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Icon(Icons.circle, color: Colors.green, size: 8),
-                        SizedBox(width: 10),
-                        Expanded(
-                          child: RichText(
-                            text: TextSpan(
-                              style: TextStyle(fontSize: 13, color: Colors.black87),
-                              children: [
-                                if (item.personName != null && item.personName!.isNotEmpty) ...[
-                                  TextSpan(
-                                    text: '${item.personName} - ',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.green[800], // 匹配颜色
+...influenceChain.influenced!.map((item) {
+                    // --- 新增：查找要跳转的事件 ---
+                    final Map<String, dynamic> targetEvent = allEvents.firstWhere(
+                      (e) => e['id'] == item.id,
+                      orElse: () => {}, // 如果没找到，返回空 map
+                    );
+                    // --- 新增结束 ---
+
+                    return InkWell( // <-- 用 InkWell 包装
+                      onTap: (targetEvent.isNotEmpty) ? () {
+                        onEventSelected(targetEvent); // <-- 点击时调用回调
+                      } : null,
+                      borderRadius: BorderRadius.circular(8),
+                      child: Padding(
+                        padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4), // 增加点击区域
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.circle, color: Colors.green, size: 8),
+                            SizedBox(width: 10),
+                            Expanded(
+                              child: RichText(
+                                // ... (RichText 内容保持不变)
+                                text: TextSpan(
+                                  style: TextStyle(fontSize: 13, color: Colors.black87),
+                                  children: [
+                                    if (item.personName != null && item.personName!.isNotEmpty) ...[
+                                      TextSpan(
+                                        text: '${item.personName} - ',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.green[800], 
+                                        ),
+                                      ),
+                                    ],
+                                    TextSpan(
+                                      text: item.title,
+                                      style: TextStyle(fontWeight: FontWeight.bold),
                                     ),
-                                  ),
-                                ],
-                                TextSpan(
-                                  text: item.title,
-                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                    TextSpan(text: '\n'),
+                                    TextSpan(
+                                      text: item.contribution,
+                                      style: TextStyle(color: Colors.grey[700]),
+                                    ),
+                                  ],
                                 ),
-                                TextSpan(text: '\n'),
-                                TextSpan(
-                                  text: item.contribution,
-                                  style: TextStyle(color: Colors.grey[700]),
-                                ),
-                              ],
+                              ),
                             ),
-                          ),
+                          ],
                         ),
-                      ],
-                    ),
-                  )),
+                      ),
+                    );
+                  }).toList(),
                 ],
               ),
             ),
