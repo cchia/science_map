@@ -13,6 +13,7 @@
   "ptolemy_geocentrism_150",
   "aristotle_geocentrism_BC350",
   "aristotle_elements_BC350",
+  "aristotle_logic_BC350",
   "empedocles_elements_BC450",
   "parmenides_philosophy_BC475",
   "pythagoras_theorem_BC500",
@@ -24,5 +25,7 @@
   "anaxagoras_philosophy_BC460",
   "aristarchus_heliocentrism_BC270",
   "hipparchus_precession_BC150",
-  "hipparchus_trigonometry_BC150"
+  "hipparchus_trigonometry_BC150",
+  "euclid_elements_BC300",
+  "eudoxus_exhaustion_BC370"
 ]

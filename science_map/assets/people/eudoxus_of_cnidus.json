@@ -1,0 +1,10 @@
+{
+    "name": "克尼多斯的欧多克索斯",
+    "name_en": "Eudoxus of Cnidus",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Eudoxus_of_Cnidus_-_Vatican_Museum.jpg",
+    "bio_short": "古希腊天文学家、数学家和柏拉图的学生。他创立了第一个数学化的天文学模型（同心球），并发明了“穷竭法”（微积分的雏形）和“比例论”，解决了无理数危机。",
+    "bio_short_en": "A Greek astronomer, mathematician, and student of Plato. He founded the first mathematical model of astronomy (homocentric spheres) and invented the 'Method of Exhaustion' (a precursor to calculus) and the 'Theory of Proportions', solving the crisis of irrational numbers.",
+    "events": [
+      "eudoxus_exhaustion_BC370"
+    ]
+  }

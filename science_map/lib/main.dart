@@ -8,11 +8,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'l10n/app_localizations.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'dart:html' as html;
-import 'dart:ui' as ui;
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_math_fork/flutter_math.dart';
+import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
 
 void main() {
   runApp(ScienceMapApp());
@@ -438,8 +435,190 @@ class _MapScreenState extends State<MapScreen> {
         ),
         _buildPolylineLayer(),
         _buildArrowLayer(),
-        _buildMarkerLayer(),
+
+// <-- 新的聚类图层 -->
+        MarkerClusterLayerWidget(
+          options: MarkerClusterLayerOptions(
+            maxClusterRadius: 80, // 聚类的像素半径
+            size: Size(50, 50), // 聚类标记的大小
+            alignment: Alignment.center,
+            
+            // 插件需要的标记列表
+            markers: getFilteredEvents().map((event) {
+              return _buildSingleEventMarker(event);
+            }).toList(),
+            
+            // 我们的自定义聚类标记构建器
+            builder: (context, markers) {
+              // 注意：markers 列表现在包含的是 Marker 对象，而不是 event map
+              // 我们需要从 marker 中获取 event 数据
+              // 但对于聚类标记，我们只需要数量和颜色
+              
+              // (为了简单起见，我们只用第一个事件的颜色作为聚类颜色)
+              Color clusterColor = Colors.blue; // 默认
+              if (markers.isNotEmpty) {
+                 // 这是个变通方法，因为我们不能轻易地从 Marker 访问 event
+                 // 我们需要重新查找事件来获取颜色
+                 var firstEvent = events.firstWhere(
+                   (e) => e['lat'] == markers.first.point.latitude && e['lng'] == markers.first.point.longitude,
+                   orElse: () => {},
+                 );
+                 if (firstEvent.isNotEmpty) {
+                    clusterColor = getFieldColor(_getFieldsFromEvent(firstEvent).first);
+                 }
+              }
+
+              return _buildClusterMarkerWidget(markers.length, clusterColor);
+            },
+            
+            // (可选) "蛛网化"的样式
+            spiderfyCluster: false, // <-- 1. 禁用蛛网化
+            
+            // <-- 2. 添加点击回调 -->
+            onClusterTap: _onClusterTapped,
+          ),
+        ),
+        // <-- 聚类图层结束 -->        
+
       ],
+    );
+  }
+
+// 当一个聚类被点击时的回调
+  void _onClusterTapped(MarkerClusterNode cluster) {
+    // 检查这个聚类是否在地图的当前最大缩放级别
+    // (这是插件的内置逻辑：只有在 spiderfy 为 false 且无法再放大时才调用此回调)
+    
+    // 1. 从 Marker 列表中提取坐标
+    final List<LatLng> points = cluster.markers.map((m) => m.point).toList();
+
+    // 2. 从主 'events' 列表中找到所有匹配的事件
+    //    这是一个反向查找
+    final List<Map<String, dynamic>> clusterEvents = events.where((event) {
+      LatLng eventPoint = LatLng(event['lat'], event['lng']);
+      // 检查事件的坐标是否在被点击的聚类中
+      return points.contains(eventPoint);
+    }).toList();
+
+    // 3. 如果找到了事件，就显示 Bottom Sheet 列表
+    if (clusterEvents.isNotEmpty) {
+      _showClusterBottomSheet(clusterEvents);
+    }
+  }
+
+// (新) 显示聚类事件列表 (使用 Bottom Sheet)
+  void _showClusterBottomSheet(List<Map<String, dynamic>> events) {
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
+    
+    // 按年份排序，最新的在最前面
+    events.sort((a, b) => (b['year'] as int).compareTo(a['year'] as int));
+
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true, // 允许它占用更多空间
+      builder: (context) {
+        return DraggableScrollableSheet(
+          expand: false, // 不允许全屏
+          initialChildSize: 0.5, // 初始大小为屏幕的 50%
+          minChildSize: 0.3,   // 最小 30%
+          maxChildSize: 0.8,   // 最大 80%
+          builder: (context, scrollController) {
+            return Container(
+              padding: EdgeInsets.all(16),
+              child: Column(
+                children: [
+                  // 标题
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 16.0),
+                    child: Row(
+                      children: [
+                        Icon(Icons.location_on, color: Colors.blue, size: 28),
+                        SizedBox(width: 12),
+                        Text(
+                          '${events[0]['city']} - ${events.length} ${isEnglish ? "events" : "个事件"}',
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Spacer(),
+                        IconButton(
+                          icon: Icon(Icons.close),
+                          onPressed: () => Navigator.pop(context),
+                        )
+                      ],
+                    ),
+                  ),
+                  
+                  // 事件列表
+                  Expanded(
+                    child: ListView.builder(
+                      controller: scrollController, // 使用 DraggableScrollableSheet 的控制器
+                      itemCount: events.length,
+                      itemBuilder: (context, index) {
+                        var event = events[index];
+                        String title = isEnglish && event['title_en'] != null
+                            ? event['title_en']
+                            : event['title'];
+                        
+                        String primaryField = _getFieldsFromEvent(event).first;
+                        Color color = getFieldColor(primaryField);
+                        String emoji = getFieldEmoji(primaryField);
+                        
+                        // --- (新增) 获取人名 ---
+                        String? personName;
+                        final String? personId = event['personId'];
+                        if (personId != null && people.containsKey(personId)) {
+                          final personData = people[personId];
+                          String fullName = isEnglish && personData['name_en'] != null
+                              ? personData['name_en']
+                              : personData['name'];
+                          personName = fullName.split(' ').last;
+                          if (!isEnglish) personName = fullName;
+                        }
+                        // --- (新增结束) ---
+                        
+                        return Card(
+                          margin: EdgeInsets.only(bottom: 10),
+                          child: ListTile(
+                            leading: Container(
+                              width: 44,
+                              height: 44,
+                              decoration: BoxDecoration(
+                                color: color.withOpacity(0.15),
+                                shape: BoxShape.circle,
+                                border: Border.all(color: color, width: 2)
+                              ),
+                              child: Center(
+                                child: Text(emoji, style: TextStyle(fontSize: 22)),
+                              ),
+                            ),
+                            title: Text(
+                              title,
+                              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                            ),
+                            subtitle: Text(
+                              (personName != null)
+                                ? '$personName · ${event['year']}' // "Newton · 1666"
+                                : '${event['year']}', // "1666"
+                              style: TextStyle(fontSize: 13),
+                            ),
+                            trailing: Icon(Icons.arrow_forward_ios, size: 16),
+                            onTap: () {
+                              Navigator.pop(context); // 关闭 Bottom Sheet
+                              _showEventDialog(event); // 打开事件详情
+                            },
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        );
+      },
     );
   }
 
@@ -915,244 +1094,147 @@ class _MapScreenState extends State<MapScreen> {
     );
   }
 
-  // 在 _MapScreenState 中添加方法
-  Map<String, List<Map<String, dynamic>>> _clusterEvents() {
-    Map<String, List<Map<String, dynamic>>> clusters = {};
-    
-    for (var event in getFilteredEvents()) {
-      // 使用经纬度的组合作为key（精确到小数点后2位）
-      String key = '${event['lat'].toStringAsFixed(2)}_${event['lng'].toStringAsFixed(2)}';
-      
-      if (!clusters.containsKey(key)) {
-        clusters[key] = [];
-      }
-      clusters[key]!.add(event);
-    }
-    
-    return clusters;
-  }
-
-  // 修改 _buildMarkerLayer
-  MarkerLayer _buildMarkerLayer() {
-    var clusters = _clusterEvents();
-    List<Marker> markers = [];
-    
-    clusters.forEach((key, events) {
-      if (events.isEmpty) return;
-      
-      // 使用第一个事件的位置
-      var firstEvent = events[0];
-      String primaryField = _getFieldsFromEvent(firstEvent).first; // <-- 使用辅助函数
-      Color color = getFieldColor(primaryField);
-      
-      if (events.length == 1) {
-        // 单个事件，正常显示
-        markers.add(_buildSingleMarker(events[0]));
-      } else {
-        // 多个事件，显示聚类标记
-        markers.add(_buildClusterMarker(events, color));
-      }
-    });
-    
-    return MarkerLayer(markers: markers);
-  }
-
-  Marker _buildSingleMarker(Map<String, dynamic> event) {
+// (新) 为插件构建【单个】事件标记
+  Marker _buildSingleEventMarker(Map<String, dynamic> event) {
     String field = _getFieldsFromEvent(event).first;
     Color color = getFieldColor(field);
     String emoji = getFieldEmoji(field);
+
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
+    String title = isEnglish && event['title_en'] != null
+        ? event['title_en']
+        : event['title'];
+
+    // --- (新增) 获取人名 ---
+    String? personName;
+    final String? personId = event['personId'];
+    if (personId != null && people.containsKey(personId)) {
+      final personData = people[personId];
+      // 我们只取姓氏，以免太长
+      String fullName = isEnglish && personData['name_en'] != null
+          ? personData['name_en']
+          : personData['name'];
+      personName = fullName.split(' ').last; // 例如 "Isaac Newton" -> "Newton"
+      
+      // 对于中文名，不需要拆分
+      if (!isEnglish && fullName.length > 2) { 
+          personName = fullName; // 例如 "艾萨克·牛顿"
+      } else if (!isEnglish) {
+          personName = fullName; // 例如 "牛顿"
+      }
+    }
+    // --- (新增结束) ---
     
     return Marker(
       point: LatLng(event['lat'], event['lng']),
-      width: 80,
-      height: 80,
-      child: GestureDetector(
-        onTap: () => _showEventDialog(event),
-        child: Column(
-          children: [
-            Container(
-              width: 40,
-              height: 40,
-              decoration: BoxDecoration(
-                color: color,
-                shape: BoxShape.circle,
-                boxShadow: [
-                  BoxShadow(
-                    color: color.withOpacity(0.4),
-                    blurRadius: 8,
-                    spreadRadius: 2,
-                  ),
-                ],
-              ),
-              child: Center(
-                child: Text(emoji, style: TextStyle(fontSize: 22)),
-              ),
-            ),
-            SizedBox(height: 4),
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: color, width: 2),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black12,
-                    blurRadius: 4,
-                    offset: Offset(0, 2),
-                  ),
-                ],
-              ),
-              child: Text(
-                '${event['year']}',
-                style: TextStyle(
-                  fontSize: 11,
-                  fontWeight: FontWeight.bold,
+      width: 180,  
+      height: 50,
+      alignment: Alignment.topCenter, 
+      
+      child: Tooltip(
+        message: '$title\n$personName · ${event['year']}', // Tooltip 也更新
+        
+        child: GestureDetector(
+          onTap: () => _showEventDialog(event),
+          
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              // 1. Emoji Circle
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
                   color: color,
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(color: color.withOpacity(0.4), blurRadius: 8, spreadRadius: 2),
+                  ],
+                ),
+                child: Center(
+                  child: Text(emoji, style: TextStyle(fontSize: 22)),
                 ),
               ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+              SizedBox(width: 8),
 
-  Marker _buildClusterMarker(List<Map<String, dynamic>> events, Color color) {
-    var firstEvent = events[0];
-    
-    return Marker(
-      point: LatLng(firstEvent['lat'], firstEvent['lng']),
-      width: 80,
-      height: 80,
-      child: GestureDetector(
-        onTap: () => _showClusterDialog(events),
-        child: Column(
-          children: [
-            Container(
-              width: 44,
-              height: 44,
-              decoration: BoxDecoration(
-                color: color,
-                shape: BoxShape.circle,
-                border: Border.all(color: Colors.white, width: 3),
-                boxShadow: [
-                  BoxShadow(
-                    color: color.withOpacity(0.5),
-                    blurRadius: 12,
-                    spreadRadius: 3,
-                  ),
-                ],
-              ),
-              child: Center(
-                child: Text(
-                  '${events.length}',
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
+              // 2. 文本框 (标题 + 人名/年份)
+              Expanded(
+                child: Container(
+                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
                     color: Colors.white,
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: color, width: 2),
+                    boxShadow: [
+                      BoxShadow(color: Colors.black12, blurRadius: 4, offset: Offset(0, 2)),
+                    ],
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.center, 
+                    children: [
+                      // 第一行：标题
+                      Text(
+                        title, 
+                        style: TextStyle(
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                          color: color,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      
+                      // --- (修改) 第二行：人名 + 年份 ---
+                      Text(
+                        (personName != null) 
+                            ? '$personName · ${event['year']}' // "Newton · 1666"
+                            : '${event['year']}', // "1666" (作为备用)
+                        style: TextStyle(
+                          fontSize: 10,
+                          color: Colors.grey[700],
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis, // 避免名字太长时溢出
+                      ),
+                      // --- (修改结束) ---
+                    ],
                   ),
                 ),
               ),
-            ),
-            SizedBox(height: 4),
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: color, width: 2),
-              ),
-              child: Text(
-                firstEvent['city'] ?? '',
-                style: TextStyle(
-                  fontSize: 10,
-                  fontWeight: FontWeight.bold,
-                  color: color,
-                ),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
   }
 
-  // 显示聚类事件列表
-  void _showClusterDialog(List<Map<String, dynamic>> events) {
-    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
-    
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: Row(
-          children: [
-            Icon(Icons.location_on, color: Colors.blue),
-            SizedBox(width: 8),
-            Expanded(
-              child: Text(
-                '${events[0]['city']} - ${events.length} ${isEnglish ? "events" : "个事件"}',
-              ),
-            ),
-          ],
-        ),
-        content: Container(
-          width: 400,
-          child: ListView.builder(
-            shrinkWrap: true,
-            itemCount: events.length,
-            itemBuilder: (context, index) {
-              var event = events[index];
-              String title = isEnglish && event['title_en'] != null
-                  ? event['title_en']
-                  : event['title'];
-              String primaryField = _getFieldsFromEvent(event).first;
-              Color color = getFieldColor(primaryField);
-              String emoji = getFieldEmoji(primaryField);
-              
-              return Card(
-                margin: EdgeInsets.only(bottom: 8),
-                child: ListTile(
-                  leading: Container(
-                    width: 40,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      color: color,
-                      shape: BoxShape.circle,
-                    ),
-                    child: Center(
-                      child: Text(emoji, style: TextStyle(fontSize: 20)),
-                    ),
-                  ),
-                  title: Text(
-                    title,
-                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-                  ),
-                  subtitle: Text(
-                    '${event['year']}',
-                    style: TextStyle(fontSize: 12),
-                  ),
-                  trailing: Icon(Icons.arrow_forward_ios, size: 16),
-                  onTap: () {
-                    Navigator.pop(context);
-                    _showEventDialog(event);
-                  },
-                ),
-              );
-            },
-          ),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: Text(isEnglish ? 'Close' : '关闭'),
-          ),
+  // (新) 为插件构建【聚类】标记 (注意：它返回 Widget，而不是 Marker)
+  Widget _buildClusterMarkerWidget(int count, Color color) {
+    return Container(
+      width: 50,
+      height: 50,
+      decoration: BoxDecoration(
+        color: color,
+        shape: BoxShape.circle,
+        border: Border.all(color: Colors.white, width: 3),
+        boxShadow: [
+          BoxShadow(color: color.withOpacity(0.5), blurRadius: 12, spreadRadius: 3),
         ],
+      ),
+      child: Center(
+        child: Text(
+          '$count',
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
       ),
     );
   }  
+
 }
 
 // ============================================
