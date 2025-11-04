@@ -101,14 +101,19 @@
     "influence_chain": {
       "influenced_by": [
         {
-          "id": "aristotle_physics",
+          "id": "aristotle_elements_BC350",
           "contribution": "亚里士多德的物理学（作为被推翻的主要理论）",
           "contribution_en": "Aristotelian physics (as the primary theory to be disproven)"
         },
         {
-          "id": "archimedes_principles",
+          "id": "archimedes_principles_BC250",
           "contribution": "阿基米德（作为使用数学描述物理世界的榜样）",
           "contribution_en": "Archimedes (as the model for using mathematics to describe the physical world)"
+        },
+        {
+          "id": "copernicus_heliocentrism_1543",
+          "contribution": "哥白尼（伽利略的惯性定律是为“地球运动”的日心说模型提供物理辩护所必需的）",
+          "contribution_en": "Copernicus (Galileo's law of inertia was necessary to provide a physical defense for a moving-Earth, heliocentric model)"
         }
   
       ],

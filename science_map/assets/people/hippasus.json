@@ -1,0 +1,10 @@
+{
+    "name": "希帕索斯",
+    "name_en": "Hippasus of Metapontum",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/70/Hippasus_Metapontinus_-_Illustrium_philosophorum_et_sapientum_effigies_ab_eorum_numistatibus_extractae.png",
+    "bio_short": "古希腊毕达哥拉斯学派的哲学家和数学家。据传说，他（或其学派）是第一个发现“无理数”（如√2）存在的人，并因此（据称）被淹死。",
+    "bio_short_en": "An ancient Greek Pythagorean philosopher and mathematician. He is credited with the discovery (or proof) of 'irrational numbers' (like √2), a finding for which he was allegedly drowned.",
+    "events": [
+      "hippasus_irrational_BC470"
+    ]
+  }

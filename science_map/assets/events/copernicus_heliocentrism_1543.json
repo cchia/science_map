@@ -104,18 +104,28 @@
           "id": "aristarchus_heliocentrism_BC270",
           "contribution": "古希腊阿里斯塔克斯（最早的日心说提出者）",
           "contribution_en": "Aristarchus of Samos (as the ancient originator of heliocentrism)"
+        },
+        {
+          "id": "ibn_al_shatir_model_1350",
+          "contribution": "伊本·沙蒂尔（其马拉盖学派的模型提供了取代“偏心匀速点”的关键数学工具）",
+          "contribution_en": "Ibn al-Shatir (his Maragha school model provided the key mathematical tools to replace the equant)"
         }
       ],
       "influenced": [
         {
-          "id": "galileo_telescope_1610",
-          "contribution": "为伽利略提供了需要用望远镜观测验证的理论模型",
-          "contribution_en": "Provided the theoretical model for Galileo to confirm with his telescope"
-        },
+          "id": "tycho_brahe_astronomical_data_1580",
+          "contribution": "第谷·布拉赫（其工作是对哥白尼模型的直接回应，试图创建第三种模型）",
+          "contribution_en": "Tycho Brahe (his work was a direct response to Copernicus, attempting to create a third model)"
+        },   
         {
           "id": "kepler_laws_1609",
           "contribution": "为开普勒计算行星椭圆轨道提供了数据和框架",
           "contribution_en": "Provided the framework and data for Kepler to calculate elliptical orbits"
+        },     
+        {
+          "id": "galileo_telescope_1610",
+          "contribution": "为伽利略提供了需要用望远镜观测验证的理论模型",
+          "contribution_en": "Provided the theoretical model for Galileo to confirm with his telescope"
         }
       ],
       "legacy_text": "哥白尼将地球从宇宙的特权中心位置移除，开启了一场持续至今的科学和思想革命。",

@@ -156,7 +156,7 @@
   "influence_chain": {
     "influenced_by": [
       {
-        "id": "archimedes_buoyancy",
+        "id": "archimedes_calculus_BC240",
         "contribution": "用“穷竭法”计算曲线下面积，是积分思想的雏形",
         "contribution_en": "Used 'Method of Exhaustion' to calculate area under curves, an early form of integration"
       },

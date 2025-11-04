@@ -1,0 +1,143 @@
+{
+    "id": "ibn_al_shatir_model_1350",
+    "personId": "ibn_al_shatir",
+    "title": "建立无偏心匀速点的行星模型",
+    "title_en": "Develops a Planetary Model Without an Equant",
+    "year": 1350,
+    "lat": 33.5138,
+    "lng": 36.2765,
+    "city": "大马士革",
+    "city_en": "Damascus",
+    "country": "马穆鲁克苏丹国 (今叙利亚)",
+    "country_en": "Mamluk Sultanate (Modern Syria)",
+    "field": ["天文学", "数学", "仪器制造"],
+    "field_en": ["Astronomy", "Mathematics", "Instrumentation"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ibn-al-shatir2.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=RISDyIncxqs",
+        "title": "伊本·沙蒂尔如何改变天文学",
+        "title_en": "How Ibn al Shatir Changed Astronomy Before Copernicus?",
+        "duration": "1:55"
+      }
+    },
+    
+    "summary": {
+      "text": "伊本·沙蒂尔是伊斯兰黄金时代马拉盖学派天文学的顶峰。他成功地建立了一个新的行星模型（仍然是地心说），该模型在预测上与托勒密的模型一样精确，但完全抛弃了托勒密系统中那个“丑陋”的、违反哲学直觉的数学工具——“偏心匀速点”(Equant)。他通过巧妙地使用纳西尔丁·图西发明的“图西圆偶”（Tusi Couple）实现了这一点。令人震惊的是，哥白尼在150年后提出的日心说模型中，其月球和行星的数学模型与伊本·沙蒂尔的模型在结构上完全相同。",
+      "text_en": "Ibn al-Shatir represents the zenith of the Maragha school of Islamic astronomy. He successfully created a new planetary model (which was still geocentric) that was just as predictively accurate as Ptolemy's, but completely eliminated Ptolemy's 'ugly' and philosophically offensive mathematical tool: the 'Equant'. He did this by masterfully applying the 'Tusi Couple' (invented by Nasir al-Din al-Tusi). Stunningly, the mathematical models for the Moon and planets that Copernicus proposed 150 years later are identical in structure to those of Ibn al-Shatir.",
+      "key_points": [
+        "移除了“偏心匀速点”(Equant)",
+        "使用了“图西圆偶”(Tusi Couple) 作为替代",
+        "模型仍然是“地心说”(Geocentric)",
+        "其数学模型与哥白尼的模型在结构上相同"
+      ],
+      "key_points_en": [
+        "Eliminated the 'Equant'",
+        "Used the 'Tusi Couple' as a replacement",
+        "The model remained 'Geocentric'",
+        "His mathematical models were structurally identical to Copernicus's"
+      ]
+    },
+  
+    "story": {
+      "text": "托勒密模型（`ptolemy_geocentrism_150`）有一个大“污点”：为了让预测准确，他假设行星绕着一个点（均轮中心）旋转，但其角速度却是相对于另一个点（偏心匀速点 Equant）保持不变的。这违背了亚里士多德“天体必须做完美、匀速圆周运动”的哲学铁律。几个世纪以来，伊斯兰天文学家（统称为马拉盖学派）一直试图“修复”这个污点。伊本·沙蒂尔是第一个成功者。他通过增加一个额外的“小本轮”（即图西圆偶），完美地在数学上复制了偏心匀速点的效果，同时又让所有齿轮都保持匀速圆周运动。他“净化”了托勒密系统。",
+      "text_en": "Ptolemy's model (`ptolemy_geocentrism_150`) had a big 'blemish': to make predictions work, he assumed planets orbited one point (the deferent) but their speed was uniform relative to *another* point (the Equant). This violated the iron-clad Aristotelian rule that heavenly motion *must* be perfect, uniform, and circular. For centuries, Islamic astronomers (the 'Maragha School') tried to 'fix' this. Ibn al-Shatir was the first to fully succeed. By adding an extra epicycle (a 'Tusi Couple'), he mathematically reproduced the effect of the equant, while keeping every single gear in his system spinning at a perfect, uniform speed. He 'purified' Ptolemy's system."
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🕌",
+        "text": "伊本·沙蒂尔的本职工作是大马士革倭马亚大清真寺的“muwaqqit”（宣礼计时员），负责校准日晷和计算礼拜时间。",
+        "text_en": "Ibn al-Shatir's day job was as a 'muwaqqit' (religious timekeeper) at the Umayyad Mosque in Damascus, where he was in charge of sundials and calculating prayer times."
+      },
+      {
+        "icon": "🤔",
+        "text": "历史学家至今仍在争论哥白尼是如何接触到这些马拉盖学派的著作的，但两者数学上的相似性被认为绝非巧合。",
+        "text_en": "Historians still debate *how* Copernicus gained access to these Maragha School works, but the mathematical similarity is considered far too great to be a coincidence."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象托勒密的模型是一辆能准确到达目的地的车，但它有一个轮子是“方形”的（偏心匀速点）。这让所有工程师（天文学家）都无法忍受。伊本·沙蒂尔做的是：他保留了这辆车（地心说），但他发明了一套由多个“圆形”齿轮组成的复杂传动系统（图西圆偶），完美地取代了那个“方轮子”。150年后，哥白尼来了，他非常喜欢这套新的“圆形”传动系统，于是他把这套系统整个从伊本·沙蒂尔的车上拆了下来，装到了一个以太阳为中心的新车（日心说）上。",
+      "text_en": "Imagine Ptolemy's model was a car that got you to your destination, but it used one 'square' wheel (the Equant). It worked, but it was ugly and bothered all the engineers (astronomers). Ibn al-Shatir kept the car (geocentrism), but he invented a complex new transmission of perfect *circular* gears-within-gears (Tusi couples) that completely replaced the square wheel. 150 years later, Copernicus came along, loved that new circular transmission, and basically ripped it out of Ibn al-Shatir's car and installed it in his new, Sun-centered car (heliocentrism).",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ibn-al-shatir2.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "🗓️",
+          "title": "天文表 (Zij)",
+          "title_en": "Astronomical Tables (Zij)",
+          "text": "他的新模型被用来创建更精确、在哲学上更令人满意的天文表，用于计算行星位置、日食和制定历法。",
+          "text_en": "His new model was used to create more accurate and philosophically pleasing astronomical tables (Zij) for calculating planetary positions, eclipses, and calendars."
+        },
+        {
+          "icon": "☀️",
+          "title": "日晷设计",
+          "title_en": "Sundial Design",
+          "text": "作为一名计时员，他利用其先进的数学知识设计了在整个大马士革使用的精密日晷。",
+          "text_en": "As a timekeeper, he used his advanced mathematical knowledge to design sophisticated sundials used throughout Damascus."
+        }
+      ],
+  
+    "impact": {
+      "text": "伊本·沙蒂尔的工作代表了地心说天文学在数学上可能达到的最高成就。他证明了在保持地心说的前提下，也可以构建一个符合“匀速圆周运动”哲学的精确模型。讽刺的是，他为“拯救”托勒密体系而发明的数学工具，却最终成为了哥白尼推翻该体系所需的“特洛伊木马”。",
+      "text_en": "Ibn al-Shatir's work represents the highest mathematical achievement possible for geocentric astronomy. He proved it was possible to create an accurate model that adhered to the philosophy of uniform circular motion while *still* keeping the Earth at the center. Ironically, the mathematical tools he invented to *save* the Ptolemaic system became the 'Trojan Horse' Copernicus needed to *overthrow* it.",
+      "stats": [
+          {
+            "number": "150",
+            "label": "年 (早于哥白尼)",
+            "label_en": "Years Before Copernicus"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ptolemy_geocentrism_150",
+          "contribution": "托勒密（其“偏心匀速点”是伊本·沙蒂尔试图解决的核心问题）",
+          "contribution_en": "Ptolemy (whose 'Equant' was the central problem he sought to fix)"
+        },
+        {
+          "id": "nasir_al_din_al_tusi_1250",
+          "contribution": "纳西尔丁·图西（提供了“图西圆偶”这一关键的数学工具）",
+          "contribution_en": "Nasir al-Din al-Tusi (who provided the key mathematical tool, the 'Tusi Couple')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "copernicus_heliocentrism_1543",
+          "contribution": "哥白尼（其《天体运行论》中的数学模型，在结构上与伊本·沙蒂尔的模型相同）",
+          "contribution_en": "Copernicus (whose mathematical models in 'De revolutionibus' are structurally identical to al-Shatir's)"
+        }
+      ],
+      "legacy_text": "伊本·沙蒂尔是伊斯兰天文学家“马拉盖学派”的集大成者，他为哥白尼革命提供了关键的数学部件。",
+      "legacy_text_en": "Ibn al-Shatir was the culmination of the 'Maragha School' of Islamic astronomers, and he provided the critical mathematical components for the Copernican Revolution."
+    },
+  
+    "related_concepts": ["马拉盖学派 (Maragha School)", "图西圆偶 (Tusi Couple)", "偏心匀速点 (Equant)", "托勒密体系 (Ptolemaic System)", "哥白尼", "伊斯兰黄金时代", "天文学大成 (Almagest)"],
+    "related_concepts_en": ["Maragha School", "Tusi Couple", "Equant", "Ptolemaic System", "Copernicus", "Islamic Golden Age", "Almagest"],
+  
+    "quiz": {
+      "question": "伊本·沙蒂尔和哥白尼都成功地从托勒密模型中移除了哪个“丑陋”的数学工具？",
+      "question_en": "What 'ugly' mathematical tool did both Ibn al-Shatir and Copernicus successfully remove from Ptolemy's model?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tusi_couple_in_Ibn_al-Shatir%27s_model_for_Mercury.svg/640px-Tusi_couple_in_Ibn_al-Shatir%27s_model_for_Mercury.svg.png",
+      "options": [
+        "本轮 (The Epicycle)",
+        "偏心匀速点 (The Equant)",
+        "地心 (The Geocenter)",
+        "椭圆 (The Ellipse)"
+      ],
+      "options_en": [
+        "The Epicycle",
+        "The Equant",
+        "The Geocenter",
+        "The Ellipse"
+      ],
+      "answer": 1,
+      "explanation": "“偏心匀速点”(Equant) 违背了匀速圆周运动的哲学。伊本·沙蒂尔（地心说）和哥白尼（日心说）都使用“图西圆偶”的变体，在数学上取代了它。",
+      "explanation_en": "The 'Equant' violated the philosophy of uniform circular motion. Both Ibn al-Shatir (geocentrically) and Copernicus (heliocentrically) used variations of the 'Tusi Couple' to replace it mathematically."
+    }
+  }

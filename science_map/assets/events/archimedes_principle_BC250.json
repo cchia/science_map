@@ -1,0 +1,135 @@
+{
+    "id": "archimedes_principle_BC250",
+    "personId": "archimedes",
+    "title": "发现阿基米德原理 (浮力定律)",
+    "title_en": "Discovers Archimedes' Principle (Law of Buoyancy)",
+    "year": -250,
+    "lat": 38.0782,
+    "lng": 15.2982,
+    "city": "叙拉古",
+    "city_en": "Syracuse",
+    "country": "大希腊 (今意大利西西里岛)",
+    "country_en": "Magna Graecia (Modern Sicily, Italy)",
+    "field": ["物理学", "流体静力学"],
+    "field_en": ["Physics", "Hydrostatics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Archimedes_principle.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ijj58xD5fDI",
+        "title": "洗澡如何带来了阿基米德原理",
+        "title_en": "How taking a bath led to Archimedes' principle",
+        "duration": "2:31"
+      }
+    },
+    
+    "summary": {
+      "text": "阿基米德奠定了流体静力学的基础，提出了以他命名的原理：“浸入静止流体中的物体（全部或部分）所受到的浮力，其大小等于该物体所排开的流体的重量。” 这一发现在古代和现代的工程学中都至关重要。",
+      "text_en": "Archimedes founded the field of hydrostatics with his principle: 'An object, wholly or partially immersed in a fluid, is buoyed up by a force equal to the weight of the fluid displaced by the object.' This discovery was critical for both ancient and modern engineering.",
+      "key_points": [
+        "阿基米德原理 (浮力定律)",
+        "流体静力学 (Hydrostatics) 的奠基人",
+        "“尤里卡!” (Eureka! - 我找到了!)",
+        "测量不规则物体的体积",
+        "密度 (Density) 概念的应用"
+      ],
+      "key_points_en": [
+        "Archimedes' Principle (Law of Buoyancy)",
+        "Founder of Hydrostatics",
+        "'Eureka!' ('I have found it!')",
+        "Measuring the volume of irregular objects",
+        "Application of the concept of Density"
+      ]
+    },
+  
+    "story": {
+      "text": "传说叙拉古的希罗二世国王请阿基米德在不损坏皇冠的前提下，鉴定它是否由纯金制成。阿基米德百思不得其解，直到他走进浴盆时，看到溢出的水，他顿悟到：他可以通过测量皇冠排开的水的“体积”，来确定其“密度”（密度 = 质量/体积）。由于黄金比白银密度大，一个纯金皇冠排开的水，会比一个同等重量但掺了假的皇冠排开的水要*少*。据说他兴奋得赤身裸体跑上街头，高喊“尤里卡！”（我找到了！）。",
+      "text_en": "Legend states King Hiero II of Syracuse asked Archimedes to determine if his crown was pure gold without damaging it. Archimedes was stuck until he stepped into a bath and saw the water overflow. He realized he could measure the crown's *density* (mass/volume) by measuring the *volume* of water it displaced. Since gold is denser than silver, a pure gold crown would displace *less* water than a fake crown of the same weight. He allegedly ran naked through the streets shouting 'Eureka!' ('I have found it!')."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👑",
+        "text": "“尤里卡”(Eureka!) 这个词在希腊语中意为“我找到了！”，自阿基米德以来，它已成为全世界“灵光一闪”的代名词。",
+        "text_en": "The word 'Eureka!' means 'I have found it!' in Greek, and has become the universal term for a 'flash of insight', all thanks to Archimedes."
+      }
+    ],
+    
+    "simple_explanation": {
+      "text": "你有没有注意到，在浴缸里时，你的玩具鸭子会浮起来，但一块石头会沉下去？阿基米德是第一个用数学解释“为什么”的人。他发现，水会给物体一个向上的“推力”（浮力）。如果这个推力大于物体的重量（比如鸭子），它就浮起来。如果重量大于推力（比如石头），它就沉下去。他著名的“尤里卡”时刻，就是他意识到可以用这个方法来测量任何物体的体积，即使是像皇冠这样奇形怪状的物体。",
+      "text_en": "Ever notice in the bathtub how your rubber duck floats, but a bar of soap sinks? Archimedes was the first to explain *why* using math. He discovered that the water gives an upward 'push' (buoyancy). If the push is stronger than the object's weight (like the duck), it floats. If the weight is stronger (like the soap), it sinks. His 'Eureka' moment was realizing he could use this water-push to measure the volume of *any* object, even a weirdly shaped crown.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Archimedes_water_balance.svg/640px-Archimedes_water_balance.svg.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚢",
+          "title": "造船与潜艇",
+          "title_en": "Shipbuilding & Submarines",
+          "text": "阿基米德原理是所有现代造船和潜艇设计的基础。它解释了为什么一艘几万吨重的钢铁巨轮可以浮在水面上。",
+          "text_en": "Archimedes's Principle is the foundation of all modern shipbuilding and submarine design. It explains *why* a 100,000-ton steel ship is able to float."
+        },
+        {
+          "icon": "⚖️",
+          "title": "密度测量",
+          "title_en": "Density Measurement",
+          "text": "该原理提供了一种精确测量不规则固体体积的方法，这在冶金学、材料科学和化学中至关重要。",
+          "text_en": "The principle provides a precise way to measure the volume of irregular solids, which is critical in metallurgy, material science, and chemistry."
+        }
+      ],
+  
+    "impact": {
+      "text": "阿基米德原理是物理学的基本定律之一。它首次展示了如何用严谨的数学来描述流体中的物理现象，从而开创了“流体静力学”这一学科。这是数学物理的第一次伟大胜利。",
+      "text_en": "Archimedes' Principle is one of the fundamental laws of physics. It was the first demonstration of how mathematics could be used to describe physical phenomena in fluids, creating the field of hydrostatics. It was the first great victory of mathematical physics.",
+      "stats": [
+          {
+            "number": "1",
+            "label": "声“尤里卡”",
+            "label_en": "Shout of 'Eureka!'"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "euclid_elements_BC300",
+          "contribution": "欧几里得的几何学（提供了进行严谨证明所需的公理和方法）",
+          "contribution_en": "Euclidean Geometry (provided the axioms and methods needed for rigorous proof)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "galileo_motion_1638",
+          "contribution": "伽利略（其关于浮体的研究，是对阿基米德《论浮体》一书的直接复兴和扩展）",
+          "contribution_en": "Galileo (his work on floating bodies was a direct revival and extension of Archimedes's treatise 'On Floating Bodies')"
+        }
+      ],
+      "legacy_text": "阿基米德将浴盆中的日常观察，转变为一个永恒的、可以用数学精确描述的物理定律。",
+      "legacy_text_en": "Archimedes turned a common observation in a bathtub into an eternal, mathematically precise law of physics."
+    },
+  
+    "related_concepts": ["浮力", "流体静力学", "密度", "体积", "尤里卡", "希罗国王的皇冠", "质量", "重量"],
+    "related_concepts_en": ["Buoyancy", "Hydrostatics", "Density", "Volume", "Eureka", "King Hiero's Crown", "Mass", "Weight"],
+    
+    "quiz": {
+      "question": "阿基米德是如何利用他的浮力原理来检测国王的皇冠是否掺假的？",
+      "question_en": "How did Archimedes use his principle of buoyancy to test the king's crown?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Archimedes_water_balance.svg/640px-Archimedes_water_balance.svg.png",
+      "options": [
+        "他把皇冠熔化成金块",
+        "他测量了皇冠的重量和它排开的水的体积，以计算其“密度”",
+        "他用杠杆称量皇冠",
+        "他用“穷竭法”计算了皇冠的表面积"
+      ],
+      "options_en": [
+        "He melted the crown down into a gold bar",
+        "He measured its weight and the *volume* of water it displaced to calculate its 'density'",
+        "He weighed the crown using a lever",
+        "He calculated the crown's surface area using the Method of Exhaustion"
+      ],
+      "answer": 1,
+      "explanation": "国王的要求是不损坏皇冠。阿基米德意识到“密度”是黄金的固有属性。他可以称出皇冠的重量（质量），并通过测量它排开的水来找出它不规则的“体积”。如果计算出的密度低于纯金的密度，就证明它掺了假（如白银）。",
+      "explanation_en": "The king's requirement was not to damage the crown. Archimedes realized 'density' is a unique property of gold. He could get the crown's weight (mass), and by submerging it, he could find its irregular 'volume' by the water it displaced. If the calculated density was lower than pure gold's density, it proved it was a fake (mixed with silver)."
+    }
+  }

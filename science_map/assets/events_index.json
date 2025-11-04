@@ -27,5 +27,14 @@
   "hipparchus_precession_BC150",
   "hipparchus_trigonometry_BC150",
   "euclid_elements_BC300",
-  "eudoxus_exhaustion_BC370"
+  "eudoxus_exhaustion_BC370",
+  "archimedes_calculus_BC240",
+  "archimedes_lever_BC260",
+  "archimedes_principle_BC250",
+  "kepler_laws_1609",
+  "tycho_brahe_astronomical_data_1580",
+  "nasir_al_din_al_tusi_1250",
+  "ibn_al_shatir_model_1350",
+  "hooke_law_1678",
+  "hooke_micrographia_1665"
 ]

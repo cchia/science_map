@@ -91,7 +91,7 @@
     "text_en": "'Principia' is considered one of the most important works in scientific history. It laid the foundation for classical mechanics and dominated the scientific view of the universe for the next three centuries."
   },
 
-  "influence_chain": {
+"influence_chain": {
     "influenced_by": [
       {
         "id": "newton_calculus_1666",
@@ -105,15 +105,35 @@
       },
       {
         "id": "galileo_motion_1638",
-        "contribution": "自由落体和惯性定律",
-        "contribution_en": "Laws of free fall and inertia"
+        "contribution": "提供了自由落体和惯性定律的基础",
+        "contribution_en": "Provided the basis for the laws of free fall and inertia"
+      },
+      {
+        "id": "hooke_inverse_square_1679",
+        "contribution": "罗伯特·胡克（提出了引力平方反比的猜想，并激发牛顿去证明它）",
+        "contribution_en": "Robert Hooke (proposed the inverse-square hypothesis and spurred Newton to prove it)"
+      },
+      {
+        "id": "huygens_centrifugal_force_1673",
+        "contribution": "惠更斯（其离心力公式是计算轨道所需向心力的数学基础）",
+        "contribution_en": "Huygens (his formula for centrifugal force was a mathematical basis for calculating orbital motion)"
       }
     ],
     "influenced": [
       {
+        "id": "lagrange_mechanics_1788",
+        "contribution": "拉格朗日（将牛顿力学发展为更强大、更抽象的“分析力学”）",
+        "contribution_en": "Lagrange (who developed Newtonian mechanics into the more powerful and abstract 'analytical mechanics')"
+      },
+      {
+        "id": "laplace_celestial_mechanics_1799",
+        "contribution": "拉普拉斯（运用牛顿定律证明了太阳系的长期稳定性，完善了天体力学）",
+        "contribution_en": "Laplace (used Newton's laws to prove the long-term stability of the solar system, perfecting celestial mechanics)"
+      },
+      {
         "id": "einstein_1915_general_relativity",
-        "contribution": "广义相对论是在强引力场和高速下对牛顿引力理论的扩展和修正",
-        "contribution_en": "General relativity is an extension and refinement of Newton's theory of gravity in strong fields and at high speeds"
+        "contribution": "广义相对论（在强引力场和高速下对牛顿引力理论的扩展和修正）",
+        "contribution_en": "General relativity (an extension and refinement of Newton's theory of gravity in strong fields and at high speeds)"
       }
     ],
     "legacy_text": "牛顿的引力定律首次将“天上的”物理学（行星轨道）和“地上的”物理学（苹果落地）统一在同一个数学框架下。",

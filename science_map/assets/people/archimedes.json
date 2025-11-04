@@ -1,0 +1,12 @@
+{
+    "name": "阿基米德",
+    "name_en": "Archimedes",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg",
+    "bio_short": "古希腊数学家、物理学家、工程师和发明家，被誉为古代最伟大的科学家之一。他奠定了静力学和流体静力学的基础，计算出π的精确值，并发明了阿基米德螺旋泵等机械。",
+    "bio_short_en": "A Greek mathematician, physicist, engineer, and inventor, widely regarded as one of the greatest scientists of antiquity. He laid the foundations of statics and hydrostatics, calculated an accurate value for Pi, and invented machines like the Archimedes' Screw.",
+    "events": [
+      "archimedes_principle_BC250",
+      "archimedes_lever_BC260",
+      "archimedes_calculus_BC240"
+    ]
+  }

@@ -101,9 +101,9 @@
           "contribution_en": "Plato (whose philosophy emphasized mathematics as the way to understand cosmic order)"
         },
         {
-          "id": "pythagoras_theorem_BC500",
-          "contribution": "毕达哥拉斯学派（其“无理数”的发现，构成了欧多克索斯需要解决的核心问题）",
-          "contribution_en": "Pythagoreans (whose discovery of 'irrational numbers' created the core problem Eudoxus had to solve)"
+          "id": "hippasus_irrational_BC470",
+          "contribution": "希帕索斯（其“无理数”的发现，构成了欧多克索斯需要解决的核心问题）",
+          "contribution_en": "Hippasus of Metapontum (whose discovery of 'irrational numbers' created the core problem Eudoxus had to solve)"
         }
       ],
       "influenced": [

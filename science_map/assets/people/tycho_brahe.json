@@ -1,0 +1,10 @@
+{
+    "name": "第谷·布拉赫",
+    "name_en": "Tycho Brahe",
+    "portrait": "https://en.wikipedia.org/wiki/Tycho_Brahe#/media/File:Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif",
+    "bio_short": "丹麦天文学家，被誉为“观测天文学之王”。他在没有望远镜的情况下，进行了长达20年超高精度的天文观测，其海量数据为开普勒定律奠定了基础。",
+    "bio_short_en": "A Danish astronomer known as the 'king of observational astronomy'. He conducted 20 years of hyper-accurate, naked-eye observations, and his massive dataset became the foundation for Kepler's laws.",
+    "events": [
+      "tycho_brahe_astronomical_data_1580"
+    ]
+  }

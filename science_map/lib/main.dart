@@ -264,7 +264,10 @@ class _MapScreenState extends State<MapScreen> {
 
   // ========== 数据筛选 ==========
   List<Map<String, dynamic>> getFilteredEvents() {
-    var filtered = events.where((event) => event['year'] <= selectedYear);
+    
+    var filtered = events.where((event) => 
+        event['year'] <= selectedYear && event['year'] > (selectedYear - 100)
+    );    
     
     // 学习路径筛选
     if (selectedStoryMode != null) {
@@ -313,7 +316,7 @@ class _MapScreenState extends State<MapScreen> {
           orElse: () => {},
         );
         
-        if (sourceEvent.isNotEmpty && sourceEvent['year'] <= selectedYear) {
+        if (sourceEvent.isNotEmpty && sourceEvent['year'] <= selectedYear && sourceEvent['year'] > (selectedYear - 100)) {
           lines.add({
             'from': LatLng(sourceEvent['lat'], sourceEvent['lng']),
             'to': LatLng(event['lat'], event['lng']),
@@ -523,6 +526,13 @@ class _MapScreenState extends State<MapScreen> {
           minChildSize: 0.3,   // 最小 30%
           maxChildSize: 0.8,   // 最大 80%
           builder: (context, scrollController) {
+
+            final bool isEnglish = Localizations.localeOf(context).languageCode == 'en';
+            var firstEvent = events[0];
+            String cityName = isEnglish && firstEvent['city_en'] != null && firstEvent['city_en'].isNotEmpty
+                ? firstEvent['city_en']
+                : (firstEvent['city'] ?? ''); // 使用备用值以防 'city' 也为 null
+
             return Container(
               padding: EdgeInsets.all(16),
               child: Column(
@@ -535,7 +545,7 @@ class _MapScreenState extends State<MapScreen> {
                         Icon(Icons.location_on, color: Colors.blue, size: 28),
                         SizedBox(width: 12),
                         Text(
-                          '${events[0]['city']} - ${events.length} ${isEnglish ? "events" : "个事件"}',
+                          '$cityName - ${events.length} ${isEnglish ? "events" : "个事件"}',
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,

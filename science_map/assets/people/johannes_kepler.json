@@ -1,0 +1,10 @@
+{
+    "name": "约翰内斯·开普勒",
+    "name_en": "Johannes Kepler",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/74/JKepler.jpg",
+    "bio_short": "德国天文学家、数学家和物理学家。他是17世纪科学革命的关键人物，以发现“开普勒行星运动三大定律”而闻名，证明了行星的轨道是椭圆形的。",
+    "bio_short_en": "A German astronomer, mathematician, and physicist. He was a key figure in the 17th-century scientific revolution, best known for his 'Laws of Planetary Motion', which proved that planets orbit the Sun in elliptical paths.",
+    "events": [
+      "kepler_laws_1609"
+    ]
+  }
