@@ -1,0 +1,168 @@
+{
+    "id": "boyle_law_1662",
+    "personId": "robert_boyle",
+    "title": "发表“波义耳定律” (气体压强-体积关系)",
+    "title_en": "Publishes Boyle's Law (Pressure-Volume Gas Law)",
+    "year": 1662,
+    "lat": 51.515,
+    "lng": -0.117,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": [
+        "化学",
+        "物理学",
+        "气体动力学"
+    ],
+    "field_en": [
+        "Chemistry",
+        "Physics",
+        "Pneumatics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Boyles_Law_animated.gif",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=eR49g3ubTBg",
+            "title": "波义耳定律",
+            "title_en": "Boyle's Law of ideal gas",
+            "duration": "10:21"
+        }
+    },
+    "summary": {
+        "text": "罗伯特·波义耳在他的著作《新实验：关于空气弹力及其效应的物理-力学接触》第二版中，发表了第一个气体定律，即“波义耳定律”。通过使用一个J形玻璃管和水银进行的系统性实验，他证明了在恒定温度下，一定量气体的“压强”(Pressure) 与其“体积”(Volume) 成反比。这个定律（P ∝ 1/V 或 PV = k）是气体动力学的第一个数学定律。",
+        "text_en": "In the second edition of his work 'New Experiments Physico-Mechanical, Touching the Spring of the Air and its Effects', Robert Boyle published the first gas law, 'Boyle's Law'. Through systematic experiments using a J-shaped glass tube and mercury, he demonstrated that for a fixed amount of gas at a constant temperature, the 'Pressure' is inversely proportional to the 'Volume' (P ∝ 1/V or PV = k). This was the first mathematical law for gases.",
+        "key_points": [
+            "波义耳定律 (Boyle's Law)",
+            "压强与体积成反比 (P ∝ 1/V)",
+            "PV = k (在恒定温度下)",
+            "使用J形管和水银进行实验",
+            "将化学从炼金术转变为定量科学"
+        ],
+        "key_points_en": [
+            "Boyle's Law",
+            "Pressure is inversely proportional to Volume (P ∝ 1/V)",
+            "PV = k (at constant temperature)",
+            "Used a J-shaped tube and mercury",
+            "Shifted chemistry from alchemy to a quantitative science"
+        ]
+    },
+    "story": {
+        "text": "波义耳的实验非常巧妙。他（和助手罗伯特·胡克）使用一个一端封闭的J形玻璃管。他们先在弯管处倒入水银，封住了一小段空气。然后，他们不断地从开口端倒入更多的水银。每加一次，被封闭的空气体积就被压缩得更小，同时开口端的水银柱（代表增加的压强）就更高。通过精确测量“被压缩的空气体积”和“两端水银柱的高度差”（即压强），波义耳用无可辩驳的数据证明了，当你把压强加倍时，空气的体积恰好减半。",
+        "text_en": "Boyle's experiment (assisted by Robert Hooke) was ingenious. He used a J-shaped glass tube, sealed at the short end. He trapped a small volume of air with mercury. Then, he poured more and more mercury into the long, open end. With each addition, the trapped air was compressed smaller, and the 'extra' height of the mercury in the open tube (the added pressure) grew. By meticulously measuring the *volume* of the trapped air and the *height difference* of the mercury (the pressure), Boyle proved with hard data that when you *double* the pressure, the volume is *exactly halved*.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/42/Experimento_de_Boyle.svg"
+    },
+    "fun_facts": [
+        {
+            "icon": "🇫🇷",
+            "text": "在法国，这个定律被称为“马略特定律”(Mariotte's Law)。埃德姆·马略特（Edme Mariotte）在1679年独立发现了同样的定律，并且他首先明确指出了“温度必须保持恒定”这一条件。",
+            "text_en": "In France, this law is known as 'Mariotte's Law'. Edme Mariotte independently discovered the same relationship in 1679 and was the first to explicitly state the condition that the 'temperature must be held constant'."
+        },
+        {
+            "icon": "⚛️",
+            "text": "波义耳定律为“原子论”（当时称为“微粒说”）提供了强有力的证据。空气之所以像“弹簧”一样可以被压缩，是因为它是由许多在真空中运动的、看不见的微小粒子（原子）组成的。",
+            "text_en": "Boyle's Law provided powerful evidence for 'atomism' (or 'corpuscularianism'). The 'spring' of the air—its ability to be compressed—was explained as the result of countless, tiny, unseen particles (atoms) moving in a void."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象你有一个自行车打气筒，你用手指堵住出气口，然后用力往下压。你压得越“用力”（高压强），气筒里的空气所占的“空间”（体积）就越小。波义耳定律就是这个关系：**压强加倍，体积减半**。他证明了空气不像水，它不是一种连续的物质，而是像一个装满了微小弹球（原子）的盒子，可以被压缩。",
+        "text_en": "Imagine you have a bicycle pump, and you block the end with your thumb and push down. The *harder* you push (higher pressure), the *smaller* the space (volume) the air takes up. Boyle's Law is simply that relationship: **double the pressure, and you get half the volume**. He proved that air isn't a continuous substance like water, but is 'springy', like a box full of tiny, bouncy balls (atoms) that can be squeezed together.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ley_de_Boyle_en_una_bomba_de_aire.svg"
+    },
+    "applications": [
+        {
+            "icon": "💨",
+            "title": "理想气体定律 (Ideal Gas Law)",
+            "title_en": "Ideal Gas Law",
+            "text": "波义耳定律 (PV=k) 是“理想气体定律”(PV=nRT) 的第一个，也是最核心的组成部分。",
+            "text_en": "Boyle's Law (PV=k) is the first and most fundamental component of the combined 'Ideal Gas Law' (PV=nRT)."
+        },
+        {
+            "icon": "🤿",
+            "title": "潜水 (Scuba Diving)",
+            "title_en": "Scuba Diving",
+            "text": "波义耳定律是潜水员的“黄金法则”。它解释了为什么潜水员上升时必须呼气：随着深度减小（压强减小），他们肺部的空气体积会膨胀，如果不呼出就会导致肺部损伤。",
+            "text_en": "Boyle's Law is the golden rule of scuba diving. It explains why divers must exhale as they ascend: as the depth decreases (pressure decreases), the volume of the air in their lungs *expands*, which would cause injury if not exhaled."
+        },
+        {
+            "icon": "💉",
+            "title": "注射器",
+            "title_en": "Syringes",
+            "text": "当你拉起注射器的柱塞时，你增大了体积，从而降低了内部压强，使得外部压强（大气的或液体的）将液体推入针管内。",
+            "text_en": "When you pull back the plunger on a syringe, you increase the volume, which *decreases* the pressure inside, allowing the higher external pressure (of the atmosphere or a liquid) to push the fluid in."
+        }
+    ],
+    "impact": {
+        "text": "波义耳定律是历史上第一个将物质（气体）的一种物理特性（体积）与另一种特性（压强）联系起来的数学方程式。它标志着“化学”从定性的、神秘的“炼金术”转变为定量的、可预测的“科学”的转折点。它与托里拆利的实验一起，开创了“气体动力学”(Pneumatics) 这一新领域。",
+        "text_en": "Boyle's Law was the first time a mathematical equation linked one property of matter (volume) to another (pressure). It marks the turning point where 'chemistry' began to move from a qualitative, mystical 'alchemy' into a quantitative, predictive 'science'. Along with Torricelli's work, it founded the new field of 'pneumatics' (the study of gases).",
+        "stats": [
+            {
+                "number": "1",
+                "label": "个气体定律",
+                "label_en": "First Gas Law"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "torricelli_barometer_1643",
+                "contribution": "托里拆利（其“气压计”和“大气压强”的概念，是波义耳实验的直接出发点）",
+                "contribution_en": "Torricelli (his barometer and concept of 'atmospheric pressure' were the direct starting point for Boyle's experiments)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "charles_law_1787",
+                "contribution": "雅克·查理（其“查理定律”[V ∝ T]是第二个气体定律，最终与波义耳定律合并为理想气体定律）",
+                "contribution_en": "Jacques Charles (whose 'Charles's Law' [V ∝ T] was the next gas law, eventually combining with Boyle's Law)"
+            },
+            {
+                "id": "newton_motion_laws_1687",
+                "contribution": "牛顿（其在《原理》中试图用微粒间的作用力来在数学上推导波义耳定律）",
+                "contribution_en": "Newton (who, in his 'Principia', attempted to mathematically derive Boyle's Law from forces between particles)"
+            }
+        ],
+        "legacy_text": "波义耳用一个简单的J形管，证明了看不见的空气遵循着与可见的行星同样严谨的数学规律。",
+        "legacy_text_en": "Boyle used a simple J-tube to prove that invisible air follows mathematical laws just as rigorous as the visible planets."
+    },
+    "related_concepts": [
+        "压强 (Pressure)",
+        "体积 (Volume)",
+        "理想气体定律 (Ideal Gas Law)",
+        "PV=k",
+        "托里拆利 (Torricelli)",
+        "罗伯特·胡克 (Robert Hooke)",
+        "马略特定律 (Mariotte's Law)",
+        "炼金术 (Alchemy)"
+    ],
+    "related_concepts_en": [
+        "Pressure",
+        "Volume",
+        "Ideal Gas Law",
+        "PV=k",
+        "Torricelli",
+        "Robert Hooke",
+        "Mariotte's Law",
+        "Alchemy"
+    ],
+    "quiz": {
+        "question": "波义耳定律 (P ∝ 1/V) 成立的一个关键前提条件是什么？",
+        "question_en": "What is a key condition that must be met for Boyle's Law (P ∝ 1/V) to be true?",
+        "options": [
+            "气体的“温度”必须保持恒定",
+            "气体的“压强”必须保持恒定",
+            "气体的“体积”必须保持恒定",
+            "气体必须是可见的"
+        ],
+        "options_en": [
+            "The 'temperature' of the gas must be held constant",
+            "The 'pressure' of the gas must be held constant",
+            "The 'volume' of the gas must be held constant",
+            "The gas must be visible"
+        ],
+        "answer": 0,
+        "explanation": "波义耳定律描述的是压强和体积的关系。但如果气体的温度改变（例如，压缩时变热），这个定律就不成立了。因此，温度必须保持不变。",
+        "explanation_en": "Boyle's Law describes the relationship between pressure and volume. However, if the temperature of the gas changes (e.g., it gets hotter when compressed), the law does not hold. Therefore, the temperature must remain constant."
+    }
+}

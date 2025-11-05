@@ -1,0 +1,10 @@
+{
+    "name": "罗伯特·波义耳",
+    "name_en": "Robert Boyle",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg",
+    "bio_short": "爱尔兰裔英国自然哲学家、化学家和物理学家。他被誉为“现代化学之父”，以其1661年的著作《怀疑的化学家》和“波义耳定律”而闻名。",
+    "bio_short_en": "An Anglo-Irish natural philosopher, chemist, and physicist. He is regarded as the 'father of modern chemistry', best known for his 1661 book 'The Sceptical Chymist' and for 'Boyle's Law'.",
+    "events": [
+      "boyle_law_1662"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "埃万杰利斯塔·托里拆利",
+    "name_en": "Evangelista Torricelli",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/35/Evangelista_Torricelli_by_Lorenzo_Lippi_%28circa_1647%2C_Galleria_Silvano_Lodi_%26_Due%29.jpg",
+    "bio_short": "意大利物理学家和数学家，伽利略的学生。他因发明水银气压计、首次制造出持续的真空，并证明大气压强的存在而闻名于世。",
+    "bio_short_en": "An Italian physicist and mathematician and a student of Galileo. He is famous for inventing the mercury barometer, creating the first sustained vacuum, and proving the existence of atmospheric pressure.",
+    "events": [
+      "torricelli_barometer_1643"
+    ]
+  }

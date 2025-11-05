@@ -10,145 +10,158 @@
     "city_en": "Prague",
     "country": "波希米亚 (今捷克)",
     "country_en": "Bohemia (Modern Czechia)",
-    "field": ["天文学", "数学", "物理学"],
-    "field_en": ["Astronomy", "Mathematics", "Physics"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Kepler-second-law.svg",
-      "video": {
-        "url": "https://www.youtube.com/watch?v=G76A6w7FuwM",
-        "title": "开普勒行星运动定律",
-        "title_en": "What are Kepler's Laws of Planetary Motion? ",
-        "duration": "8:41"
-      }
-    },
-    
-    "summary": {
-      "text": "在1609年发表的《新天文学》中，开普勒摧毁了统治西方2000年的“天体必须做完美圆周运动”的信条。通过分析第谷·布拉赫（Tycho Brahe）留下的超高精度火星观测数据，他提出了行星运动的前两大定律：(1) 行星的轨道是椭圆，太阳位于其中一个焦点上。(2) 行星在相等时间内扫过的面积相等（即“近快远慢”）。",
-      "text_en": "In 'Astronomia nova' (1609), Kepler destroyed the 2,000-year-old dogma that celestial motion must be in perfect circles. By analyzing the hyper-accurate Martian observations of Tycho Brahe, he proposed his first two laws: (1) The orbit of every planet is an ellipse with the Sun at one of the two foci. (2) A line joining a planet and the Sun sweeps out equal areas during equal intervals of time (it moves faster when closer, slower when farther).",
-      "key_points": [
-        "第一定律：轨道定律 (行星轨道是椭圆)",
-        "第二定律：面积定律 (行星近快远慢)",
-        "基于第谷·布拉赫 (Tycho Brahe) 的火星数据",
-        "彻底推翻了“完美圆周运动”的宇宙观"
-      ],
-      "key_points_en": [
-        "First Law: The Law of Ellipses",
-        "Second Law: The Law of Equal Areas (planets move faster at perihelion)",
-        "Based on Tycho Brahe's data on Mars",
-        "Definitively overthrew the 'perfect circles' dogma"
-      ]
-    },
-  
-    "story": {
-      "text": "开普勒的突破是一场艰苦卓绝的“战斗”。作为第谷的助手，他接手了最麻烦的行星——火星。他花了近六年时间，尝试了无数种圆形轨道组合，但数据总是与第谷的观测结果有8弧分的微小误差。开普勒坚信第谷的数据是准确的，因此他大胆地做出了一个革命性的决定：放弃圆周运动。他尝试了卵形，最后终于发现，一个简单的“椭圆”完美地拟合了所有数据。这是科学史上第一次，理论家向观测“事实”低头，而不是强行用哲学（完美圆周）来解释它。",
-      "text_en": "Kepler's breakthrough was a 'war with Mars'. As Tycho's assistant, he was given the most troublesome planet. He spent six years trying countless circular models, but his calculations were always off by a tiny 8 arcminutes from Tycho's data. Convinced Tycho's data was correct, Kepler made a revolutionary decision: he abandoned the circle. He tried ovals and finally landed on the ellipse, which fit the data perfectly. It was the first time in history a theorist bowed to observational *fact* rather than forcing *philosophy* (perfect circles) onto the data.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Classical_Kepler_orbit_e0.6.gif"
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "🪐",
-        "text": "开普勒的第三定律（周期定律：P² ∝ a³）是在十年后的1619年，于《宇宙的和谐》一书中发表的。他认为这个定律揭示了“天体的音乐”。",
-        "text_en": "Kepler's Third Law (P² ∝ a³) was published ten years later in 1619, in 'Harmonices Mundi' (The Harmony of the World). He believed it was the long-sought 'Music of the Spheres'."
-      },
-      {
-        "icon": "🔭",
-        "text": "在发表《新天文学》的同一年（1609年），伽利略第一次将望远镜指向了天空。开普勒的“理论”和伽利略的“观测”在同一年出现，联手摧毁了旧宇宙观。",
-        "text_en": "In the *exact same year* (1609), Galileo pointed his telescope at the sky for the first time. Kepler's *theory* and Galileo's *observation* appeared simultaneously to destroy the old cosmos."
-      }
+    "field": [
+        "天文学",
+        "数学",
+        "物理学"
     ],
-  
-    "simple_explanation": {
-      "text": "开普勒告诉我们行星是如何跳舞的：\n1. **轨道不是正圆，而是“椭圆”**：想象一下把一个圆轻轻压扁。太阳不在正中心，而是在一个“焦点”上，所以行星有时离太阳近，有时远。\n2. **“近快，远慢”**：为了在相同时间内扫过相同面积，行星在靠近太阳时（引力强）会“加速”飞过，而在远离太阳时（引力弱）会“减速”慢行。",
-      "text_en": "Kepler told us how the planets *really* dance:\n1. **Orbits aren't circles, they're 'ellipses'**: Imagine a circle that's been slightly squashed. The Sun isn't in the middle, it's off to one side (at a 'focus').\n2. **'Faster when near, slower when far'**: To sweep out the same 'area' of space in the same amount of time, a planet has to *speed up* when it gets close to the Sun, and *slow down* when it gets far away.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Classical_Kepler_orbit_e0.6.gif"
-    },
-  
-    "applications": [
-        {
-          "icon": "🚀",
-          "title": "轨道力学 (Astrodynamics)",
-          "title_en": "Astrodynamics",
-          "text": "开普勒定律是所有现代轨道计算的基础。从发射GPS卫星到将探测器送往火星，都必须使用他的定律来计算轨道。",
-          "text_en": "Kepler's laws are the foundation of all modern orbital calculations. We use them for everything from launching GPS satellites to sending probes to Mars."
-        },
-        {
-          "icon": "💫",
-          "title": "发现系外行星",
-          "title_en": "Discovering Exoplanets",
-          "text": "天文学家使用开普勒第三定律（P² ∝ a³）来计算新发现的系外行星与其恒星的距离。",
-          "text_en": "Astronomers use Kepler's Third Law (P² ∝ a³) to calculate an exoplanet's distance from its star based on its orbital period."
+    "field_en": [
+        "Astronomy",
+        "Mathematics",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Kepler-second-law.svg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=G76A6w7FuwM",
+            "title": "开普勒行星运动定律",
+            "title_en": "What are Kepler's Laws of Planetary Motion? ",
+            "duration": "8:41"
         }
-      ],
-  
-    "impact": {
-      "text": "开普勒的工作是哥白尼和牛顿之间的“关键桥梁”。哥白尼将太阳置于中心，但仍错误地坚持使用“圆周运动”。开普勒则提供了宇宙的*真正*几何形状（椭圆）。他的定律将天文学从哲学思辨转变为一门精确的、可预测的数学物理科学。牛顿后来承认，他的万有引力定律，正是为了在数学上“解释”开普勒的这三条定律而推导出来的。",
-      "text_en": "Kepler is the critical *bridge* between Copernicus and Newton. Copernicus put the Sun at the center but was *wrong* about the circular orbits. Kepler provided the *true* geometry of the cosmos (ellipses). His laws transformed astronomy from philosophy into a precise, predictive, mathematical science. Newton later admitted his entire Law of Universal Gravitation was derived specifically to *explain* why Kepler's laws were true.",
-      "stats": [
-          {
-            "number": "8",
-            "label": "弧分 (关键误差)",
-            "label_en": "Arcminutes (the key discrepancy)"
-          },
-          {
-            "number": "2",
-            "label": "大定律 (1609年)",
-            "label_en": "Laws in 1609"
-          }
+    },
+    "summary": {
+        "text": "在1609年发表的《新天文学》中，开普勒摧毁了统治西方2000年的“天体必须做完美圆周运动”的信条。通过分析第谷·布拉赫（Tycho Brahe）留下的超高精度火星观测数据，他提出了行星运动的前两大定律：(1) 行星的轨道是椭圆，太阳位于其中一个焦点上。(2) 行星在相等时间内扫过的面积相等（即“近快远慢”）。",
+        "text_en": "In 'Astronomia nova' (1609), Kepler destroyed the 2,000-year-old dogma that celestial motion must be in perfect circles. By analyzing the hyper-accurate Martian observations of Tycho Brahe, he proposed his first two laws: (1) The orbit of every planet is an ellipse with the Sun at one of the two foci. (2) A line joining a planet and the Sun sweeps out equal areas during equal intervals of time (it moves faster when closer, slower when farther).",
+        "key_points": [
+            "第一定律：轨道定律 (行星轨道是椭圆)",
+            "第二定律：面积定律 (行星近快远慢)",
+            "基于第谷·布拉赫 (Tycho Brahe) 的火星数据",
+            "彻底推翻了“完美圆周运动”的宇宙观"
+        ],
+        "key_points_en": [
+            "First Law: The Law of Ellipses",
+            "Second Law: The Law of Equal Areas (planets move faster at perihelion)",
+            "Based on Tycho Brahe's data on Mars",
+            "Definitively overthrew the 'perfect circles' dogma"
         ]
     },
-  
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "copernicus_heliocentrism_1543",
-          "contribution": "哥白尼（提供了日心说的基本框架）",
-          "contribution_en": "Copernicus (provided the heliocentric framework to build upon)"
-        },
-        {
-          "id": "tycho_brahe_astronomical_data_1580",
-          "contribution": "第谷·布拉赫（提供了长达几十年的、前所未有精确的火星观测数据）",
-          "contribution_en": "Tycho Brahe (provided decades of unprecedented, hyper-accurate observational data of Mars)"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "newton_gravity_1687",
-          "contribution": "为牛顿的万有引力定律提供了需要被数学证明的“经验定律”",
-          "contribution_en": "Provided the 'empirical laws' that Newton's Law of Universal Gravitation had to mathematically explain"
-        },
-        {
-          "id": "halley_comet_1705",
-          "contribution": "哈雷（使用开普勒和牛顿的定律来计算彗星轨道）",
-          "contribution_en": "Edmond Halley (used Kepler's/Newton's laws to calculate comet orbits)"
-        }
-      ],
-      "legacy_text": "开普勒是第一位“天体物理学家”，他不仅描述天体如何运动，还试图（虽然错误地）用磁力等“物理”力量来解释其运动的原因。",
-      "legacy_text_en": "Kepler was the first 'astrophysicist'; he didn't just describe *how* the planets moved, but tried to explain *why* using physical forces (like magnetism)."
+    "story": {
+        "text": "开普勒的突破是一场艰苦卓绝的“战斗”。作为第谷的助手，他接手了最麻烦的行星——火星。他花了近六年时间，尝试了无数种圆形轨道组合，但数据总是与第谷的观测结果有8弧分的微小误差。开普勒坚信第谷的数据是准确的，因此他大胆地做出了一个革命性的决定：放弃圆周运动。他尝试了卵形，最后终于发现，一个简单的“椭圆”完美地拟合了所有数据。这是科学史上第一次，理论家向观测“事实”低头，而不是强行用哲学（完美圆周）来解释它。",
+        "text_en": "Kepler's breakthrough was a 'war with Mars'. As Tycho's assistant, he was given the most troublesome planet. He spent six years trying countless circular models, but his calculations were always off by a tiny 8 arcminutes from Tycho's data. Convinced Tycho's data was correct, Kepler made a revolutionary decision: he abandoned the circle. He tried ovals and finally landed on the ellipse, which fit the data perfectly. It was the first time in history a theorist bowed to observational *fact* rather than forcing *philosophy* (perfect circles) onto the data.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Classical_Kepler_orbit_e0.6.gif"
     },
-  
-    "related_concepts": ["椭圆 (Ellipse)", "焦点 (Foci)", "行星逆行 (Retrograde Motion)", "第谷·布拉赫 (Tycho Brahe)", "新天文学 (Astronomia nova)", "宇宙的和谐 (Harmonices Mundi)", "P² ∝ a³"],
-    "related_concepts_en": ["Ellipse", "Foci", "Retrograde Motion", "Tycho Brahe", "Astronomia nova", "Harmonices Mundi", "P² ∝ a³"],
-  
+    "fun_facts": [
+        {
+            "icon": "🪐",
+            "text": "开普勒的第三定律（周期定律：P² ∝ a³）是在十年后的1619年，于《宇宙的和谐》一书中发表的。他认为这个定律揭示了“天体的音乐”。",
+            "text_en": "Kepler's Third Law (P² ∝ a³) was published ten years later in 1619, in 'Harmonices Mundi' (The Harmony of the World). He believed it was the long-sought 'Music of the Spheres'."
+        },
+        {
+            "icon": "🔭",
+            "text": "在发表《新天文学》的同一年（1609年），伽利略第一次将望远镜指向了天空。开普勒的“理论”和伽利略的“观测”在同一年出现，联手摧毁了旧宇宙观。",
+            "text_en": "In the *exact same year* (1609), Galileo pointed his telescope at the sky for the first time. Kepler's *theory* and Galileo's *observation* appeared simultaneously to destroy the old cosmos."
+        }
+    ],
+    "simple_explanation": {
+        "text": "开普勒告诉我们行星是如何跳舞的：\n1. **轨道不是正圆，而是“椭圆”**：想象一下把一个圆轻轻压扁。太阳不在正中心，而是在一个“焦点”上，所以行星有时离太阳近，有时远。\n2. **“近快，远慢”**：为了在相同时间内扫过相同面积，行星在靠近太阳时（引力强）会“加速”飞过，而在远离太阳时（引力弱）会“减速”慢行。",
+        "text_en": "Kepler told us how the planets *really* dance:\n1. **Orbits aren't circles, they're 'ellipses'**: Imagine a circle that's been slightly squashed. The Sun isn't in the middle, it's off to one side (at a 'focus').\n2. **'Faster when near, slower when far'**: To sweep out the same 'area' of space in the same amount of time, a planet has to *speed up* when it gets close to the Sun, and *slow down* when it gets far away.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Classical_Kepler_orbit_e0.6.gif"
+    },
+    "applications": [
+        {
+            "icon": "🚀",
+            "title": "轨道力学 (Astrodynamics)",
+            "title_en": "Astrodynamics",
+            "text": "开普勒定律是所有现代轨道计算的基础。从发射GPS卫星到将探测器送往火星，都必须使用他的定律来计算轨道。",
+            "text_en": "Kepler's laws are the foundation of all modern orbital calculations. We use them for everything from launching GPS satellites to sending probes to Mars."
+        },
+        {
+            "icon": "💫",
+            "title": "发现系外行星",
+            "title_en": "Discovering Exoplanets",
+            "text": "天文学家使用开普勒第三定律（P² ∝ a³）来计算新发现的系外行星与其恒星的距离。",
+            "text_en": "Astronomers use Kepler's Third Law (P² ∝ a³) to calculate an exoplanet's distance from its star based on its orbital period."
+        }
+    ],
+    "impact": {
+        "text": "开普勒的工作是哥白尼和牛顿之间的“关键桥梁”。哥白尼将太阳置于中心，但仍错误地坚持使用“圆周运动”。开普勒则提供了宇宙的*真正*几何形状（椭圆）。他的定律将天文学从哲学思辨转变为一门精确的、可预测的数学物理科学。牛顿后来承认，他的万有引力定律，正是为了在数学上“解释”开普勒的这三条定律而推导出来的。",
+        "text_en": "Kepler is the critical *bridge* between Copernicus and Newton. Copernicus put the Sun at the center but was *wrong* about the circular orbits. Kepler provided the *true* geometry of the cosmos (ellipses). His laws transformed astronomy from philosophy into a precise, predictive, mathematical science. Newton later admitted his entire Law of Universal Gravitation was derived specifically to *explain* why Kepler's laws were true.",
+        "stats": [
+            {
+                "number": "8",
+                "label": "弧分 (关键误差)",
+                "label_en": "Arcminutes (the key discrepancy)"
+            },
+            {
+                "number": "2",
+                "label": "大定律 (1609年)",
+                "label_en": "Laws in 1609"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "copernicus_heliocentrism_1543",
+                "contribution": "哥白尼（提供了日心说的基本框架）",
+                "contribution_en": "Copernicus (provided the heliocentric framework to build upon)"
+            },
+            {
+                "id": "tycho_brahe_astronomical_data_1580",
+                "contribution": "第谷·布拉赫（提供了长达几十年的、前所未有精确的火星观测数据）",
+                "contribution_en": "Tycho Brahe (provided decades of unprecedented, hyper-accurate observational data of Mars)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_gravity_1687",
+                "contribution": "为牛顿的万有引力定律提供了需要被数学证明的“经验定律”",
+                "contribution_en": "Provided the 'empirical laws' that Newton's Law of Universal Gravitation had to mathematically explain"
+            },
+            {
+                "id": "halley_comet_1705",
+                "contribution": "哈雷（使用开普勒和牛顿的定律来计算彗星轨道）",
+                "contribution_en": "Edmond Halley (used Kepler's/Newton's laws to calculate comet orbits)"
+            }
+        ],
+        "legacy_text": "开普勒是第一位“天体物理学家”，他不仅描述天体如何运动，还试图（虽然错误地）用磁力等“物理”力量来解释其运动的原因。",
+        "legacy_text_en": "Kepler was the first 'astrophysicist'; he didn't just describe *how* the planets moved, but tried to explain *why* using physical forces (like magnetism)."
+    },
+    "related_concepts": [
+        "椭圆 (Ellipse)",
+        "焦点 (Foci)",
+        "行星逆行 (Retrograde Motion)",
+        "第谷·布拉赫 (Tycho Brahe)",
+        "新天文学 (Astronomia nova)",
+        "宇宙的和谐 (Harmonices Mundi)",
+        "P² ∝ a³"
+    ],
+    "related_concepts_en": [
+        "Ellipse",
+        "Foci",
+        "Retrograde Motion",
+        "Tycho Brahe",
+        "Astronomia nova",
+        "Harmonices Mundi",
+        "P² ∝ a³"
+    ],
     "quiz": {
-      "question": "根据开普勒第二定律（面积定律），行星在椭圆轨道的哪一点运动最快？",
-      "question_en": "According to Kepler's Second Law (Law of Equal Areas), at what point in its orbit does a planet move the fastest?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Kepler_laws_diagram.svg/640px-Kepler_laws_diagram.svg.png",
-      "options": [
-        "近日点 (离太阳最近时)",
-        "远日点 (离太阳最远时)",
-        "轨道上的任意一点速度都相同",
-        "轨道的短轴两端"
-      ],
-      "options_en": [
-        "At perihelion (when it is closest to the Sun)",
-        "At aphelion (when it is farthest from the Sun)",
-        "Its speed is constant at all points",
-        "At the ends of the minor axis"
-      ],
-      "answer": 0,
-      "explanation": "为了在相同时间内“扫过”相同的面积，当行星靠近太阳（此时连线较短）时，它必须移动得更快；当它远离太阳（此时连线较长）时，它会移动得更慢。",
-      "explanation_en": "To 'sweep' the same amount of area in the same amount of time, the planet must move fastest when the line connecting it to the Sun is shortest (at perihelion), and slowest when the line is longest (at aphelion)."
+        "question": "根据开普勒第二定律（面积定律），行星在椭圆轨道的哪一点运动最快？",
+        "question_en": "According to Kepler's Second Law (Law of Equal Areas), at what point in its orbit does a planet move the fastest?",
+        "options": [
+            "近日点 (离太阳最近时)",
+            "远日点 (离太阳最远时)",
+            "轨道上的任意一点速度都相同",
+            "轨道的短轴两端"
+        ],
+        "options_en": [
+            "At perihelion (when it is closest to the Sun)",
+            "At aphelion (when it is farthest from the Sun)",
+            "Its speed is constant at all points",
+            "At the ends of the minor axis"
+        ],
+        "answer": 0,
+        "explanation": "为了在相同时间内“扫过”相同的面积，当行星靠近太阳（此时连线较短）时，它必须移动得更快；当它远离太阳（此时连线较长）时，它会移动得更慢。",
+        "explanation_en": "To 'sweep' the same amount of area in the same amount of time, the planet must move fastest when the line connecting it to the Sun is shortest (at perihelion), and slowest when the line is longest (at aphelion)."
     }
-  }
+}

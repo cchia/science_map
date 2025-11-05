@@ -10,126 +10,136 @@
     "city_en": "London",
     "country": "英国",
     "country_en": "United Kingdom",
-    "field": ["物理学", "光学"],
-    "field_en": ["Physics", "Optics"],
-    
+    "field": [
+        "物理学",
+        "光学"
+    ],
+    "field_en": [
+        "Physics",
+        "Optics"
+    ],
     "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newton%27s_experimentum_crucis.png/640px-Newton%27s_experimentum_crucis.png",
-      "video": {
-        "url": "https://www.youtube.com/embed/RcClhonSllQ",
-        "title": "牛顿对光学的理解天才",
-        "title_en": "Newton's Genius to the Understanding of Light",
-        "duration": "8:15"
-      }
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newton%27s_experimentum_crucis.png/640px-Newton%27s_experimentum_crucis.png",
+        "video": {
+            "url": "https://www.youtube.com/embed/RcClhonSllQ",
+            "title": "牛顿对光学的理解天才",
+            "title_en": "Newton's Genius to the Understanding of Light",
+            "duration": "8:15"
+        }
     },
-    
     "summary": {
-      "text": "牛顿出版了《光学》(Opticks)，总结了他数十年来对光、颜色和透镜的研究。书中，他通过著名的棱镜实验证明，白光是由不同颜色的光（光谱）混合而成的。",
-      "text_en": "Newton published 'Opticks', summarizing his decades of research on light, color, and lenses. In it, he demonstrated with his famous prism experiments that white light is a composite mixture of different colored rays (the spectrum).",
-      "key_points": [
-        "白光是所有颜色的混合物",
-        "棱镜通过“色散”将光分离成光谱",
-        "提出光的“微粒说”",
-        "发明了反射望远镜"
-      ],
-      "key_points_en": [
-        "White light is a mixture of all colors",
-        "A prism 'disperses' light into a spectrum",
-        "Proposed the 'corpuscular' (particle) theory of light",
-        "Invented the reflecting telescope"
-      ]
+        "text": "牛顿出版了《光学》(Opticks)，总结了他数十年来对光、颜色和透镜的研究。书中，他通过著名的棱镜实验证明，白光是由不同颜色的光（光谱）混合而成的。",
+        "text_en": "Newton published 'Opticks', summarizing his decades of research on light, color, and lenses. In it, he demonstrated with his famous prism experiments that white light is a composite mixture of different colored rays (the spectrum).",
+        "key_points": [
+            "白光是所有颜色的混合物",
+            "棱镜通过“色散”将光分离成光谱",
+            "提出光的“微粒说”",
+            "发明了反射望远镜"
+        ],
+        "key_points_en": [
+            "White light is a mixture of all colors",
+            "A prism 'disperses' light into a spectrum",
+            "Proposed the 'corpuscular' (particle) theory of light",
+            "Invented the reflecting telescope"
+        ]
     },
-  
     "story": {
-      "text": "牛顿最著名的实验是“判决性实验”(Experimentum Crucis)。他让白光穿过一个棱镜，形成光谱。然后，他只取出光谱中的一种颜色（例如红色），让它穿过第二个棱镜。他发现红光穿过第二个棱镜后仍然是红光，没有再分离。这证明了颜色是光的固有属性，而不是棱镜“制造”或“染色”出来的。",
-      "text_en": "Newton's most famous experiment was the 'Experimentum Crucis' (Critical Experiment). He passed white light through one prism to create a spectrum. Then, he isolated a single color (e.g., red) and passed it through a second prism. He found the red light remained red and did not split further. This proved that color is an intrinsic property of light, not something 'created' or 'stained' by the prism."
+        "text": "牛顿最著名的实验是“判决性实验”(Experimentum Crucis)。他让白光穿过一个棱镜，形成光谱。然后，他只取出光谱中的一种颜色（例如红色），让它穿过第二个棱镜。他发现红光穿过第二个棱镜后仍然是红光，没有再分离。这证明了颜色是光的固有属性，而不是棱镜“制造”或“染色”出来的。",
+        "text_en": "Newton's most famous experiment was the 'Experimentum Crucis' (Critical Experiment). He passed white light through one prism to create a spectrum. Then, he isolated a single color (e.g., red) and passed it through a second prism. He found the red light remained red and did not split further. This proved that color is an intrinsic property of light, not something 'created' or 'stained' by the prism."
     },
-  
     "simple_explanation": {
-      "text": "你看到的白光，其实是“伪装”的彩虹。牛顿发现，如果让白光穿过一个玻璃三棱镜，它就会“解散”，变回它本来的样子——一道彩虹（光谱）。这就像白光是一个合唱团，所有颜色（高音、中音、低音）一起唱同一个音；而棱镜则是一个指挥，让每个人按顺序（从红到紫）分开站队。",
-      "text_en": "The white light you see is actually a rainbow in 'disguise'. Newton found that if you pass white light through a glass prism, it 'unpacks' back into its original form: a rainbow (spectrum). It's like white light is a choir where all the colors (sopranos, tenors, basses) are singing one note together; the prism acts like a conductor who makes them line up in order (from red to violet).",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Newton_prism_experiment.svg/640px-Newton_prism_experiment.svg.png"
+        "text": "你看到的白光，其实是“伪装”的彩虹。牛顿发现，如果让白光穿过一个玻璃三棱镜，它就会“解散”，变回它本来的样子——一道彩虹（光谱）。这就像白光是一个合唱团，所有颜色（高音、中音、低音）一起唱同一个音；而棱镜则是一个指挥，让每个人按顺序（从红到紫）分开站队。",
+        "text_en": "The white light you see is actually a rainbow in 'disguise'. Newton found that if you pass white light through a glass prism, it 'unpacks' back into its original form: a rainbow (spectrum). It's like white light is a choir where all the colors (sopranos, tenors, basses) are singing one note together; the prism acts like a conductor who makes them line up in order (from red to violet).",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Newton_prism_experiment.svg/640px-Newton_prism_experiment.svg.png"
     },
-  
     "applications": [
         {
-          "icon": "🔭",
-          "title": "反射望远镜",
-          "title_en": "Reflecting Telescopes",        
-          "text": "牛顿为解决“色差”问题而发明的反射望远镜，是现代天文学（如哈勃望远镜）的基础。",
-          "text_en": "Invented by Newton to solve chromatic aberration, reflecting telescopes are the basis for modern astronomy (e.g., Hubble)."
+            "icon": "🔭",
+            "title": "反射望远镜",
+            "title_en": "Reflecting Telescopes",
+            "text": "牛顿为解决“色差”问题而发明的反射望远镜，是现代天文学（如哈勃望远镜）的基础。",
+            "text_en": "Invented by Newton to solve chromatic aberration, reflecting telescopes are the basis for modern astronomy (e.g., Hubble)."
         },
         {
-          "icon": "✨",
-          "title": "光谱学",
-          "title_en": "Spectroscopy",
-          "text": "牛顿对光谱的分析是光谱学的基础，使科学家能通过分析光来识别物质成分（例如恒星的化学成分）。",
-          "text_en": "Newton's analysis of the spectrum is the basis for spectroscopy, allowing scientists to identify substances by their light (e.g., the chemical makeup of stars)."
+            "icon": "✨",
+            "title": "光谱学",
+            "title_en": "Spectroscopy",
+            "text": "牛顿对光谱的分析是光谱学的基础，使科学家能通过分析光来识别物质成分（例如恒星的化学成分）。",
+            "text_en": "Newton's analysis of the spectrum is the basis for spectroscopy, allowing scientists to identify substances by their light (e.g., the chemical makeup of stars)."
         },
         {
-          "icon": "🖥️",
-          "title": "现代色彩科学",
-          "title_en": "Modern Color Science",
-          "text": "“光是颜色的混合”这一理念是所有现代显示技术（如电视、手机屏幕的RGB）和打印（CMYK）的基础。",
-          "text_en": "The concept of light as a mix of colors is fundamental to all modern display technology (like RGB screens) and color printing (CMYK)."
+            "icon": "🖥️",
+            "title": "现代色彩科学",
+            "title_en": "Modern Color Science",
+            "text": "“光是颜色的混合”这一理念是所有现代显示技术（如电视、手机屏幕的RGB）和打印（CMYK）的基础。",
+            "text_en": "The concept of light as a mix of colors is fundamental to all modern display technology (like RGB screens) and color printing (CMYK)."
         }
-      ],
-  
+    ],
     "impact": {
-      "text": "《光学》奠定了现代物理光学的基础。它首次用实验和数学方法量化地解释了“颜色”是什么。这本书也推广了一种基于严格实验的科学方法论，其影响力几乎与《原理》相当。",
-      "text_en": "'Opticks' laid the foundation for modern physical optics. It was the first to explain what 'color' is quantitatively using experiment and mathematics. The book also promoted a scientific methodology based on rigorous experimentation, with an influence almost as great as 'Principia'."
+        "text": "《光学》奠定了现代物理光学的基础。它首次用实验和数学方法量化地解释了“颜色”是什么。这本书也推广了一种基于严格实验的科学方法论，其影响力几乎与《原理》相当。",
+        "text_en": "'Opticks' laid the foundation for modern physical optics. It was the first to explain what 'color' is quantitatively using experiment and mathematics. The book also promoted a scientific methodology based on rigorous experimentation, with an influence almost as great as 'Principia'."
     },
-  
     "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "descartes_optics_1637",
-          "contribution": "笛卡尔的光学理论和折射定律",
-          "contribution_en": "Descartes' theories on optics and law of refraction"
-        },
-        {
-          "id": "hooke_micrographia_1665",
-          "contribution": "罗伯特·胡克的光的波动理论和对薄膜颜色的研究",
-          "contribution_en": "Robert Hooke's wave theory of light and studies of thin-film colors"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "young_wave_1803",
-          "contribution": "托马斯·杨的双缝干涉实验，该实验强力支持了光的波动说，与牛顿的粒子说相悖",
-          "contribution_en": "Thomas Young's double-slit experiment, which provided strong evidence for the wave theory of light, challenging Newton's corpuscular theory"
-        },
-        {
-          "id": "einstein_photon_1905",
-          "contribution": "爱因斯坦对光电效应的解释，引入了“光子”概念，形成了光的波粒二象性，融合了牛顿和惠更斯的观点",
-          "contribution_en": "Einstein's explanation of the photoelectric effect, introducing the 'photon' and forming wave-particle duality, blending Newton's and Huygens' views"
-        }
-      ],
-      "legacy_text": "牛顿的实验无可辩驳地证明了白光是所有可见光谱颜色的混合体，而颜色是光的基本属性，不是物体或介质的属性。",
-      "legacy_text_en": "Newton's experiments proved definitively that white light is a mixture of all colors of the visible spectrum, and that color is a fundamental property of light itself, not of objects or mediums."
+        "influenced_by": [
+            {
+                "id": "descartes_optics_1637",
+                "contribution": "笛卡尔的光学理论和折射定律",
+                "contribution_en": "Descartes' theories on optics and law of refraction"
+            },
+            {
+                "id": "hooke_micrographia_1665",
+                "contribution": "罗伯特·胡克的光的波动理论和对薄膜颜色的研究",
+                "contribution_en": "Robert Hooke's wave theory of light and studies of thin-film colors"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "young_wave_1803",
+                "contribution": "托马斯·杨的双缝干涉实验，该实验强力支持了光的波动说，与牛顿的粒子说相悖",
+                "contribution_en": "Thomas Young's double-slit experiment, which provided strong evidence for the wave theory of light, challenging Newton's corpuscular theory"
+            },
+            {
+                "id": "einstein_photon_1905",
+                "contribution": "爱因斯坦对光电效应的解释，引入了“光子”概念，形成了光的波粒二象性，融合了牛顿和惠更斯的观点",
+                "contribution_en": "Einstein's explanation of the photoelectric effect, introducing the 'photon' and forming wave-particle duality, blending Newton's and Huygens' views"
+            }
+        ],
+        "legacy_text": "牛顿的实验无可辩驳地证明了白光是所有可见光谱颜色的混合体，而颜色是光的基本属性，不是物体或介质的属性。",
+        "legacy_text_en": "Newton's experiments proved definitively that white light is a mixture of all colors of the visible spectrum, and that color is a fundamental property of light itself, not of objects or mediums."
     },
-  
-    "related_concepts": ["光谱", "色散", "反射望远镜", "光的微粒说", "牛顿环", "色差"],
-    "related_concepts_en": ["Spectrum", "Dispersion", "Reflecting Telescope", "Corpuscular theory of light", "Newton's rings", "Chromatic Aberration"],
-  
+    "related_concepts": [
+        "光谱",
+        "色散",
+        "反射望远镜",
+        "光的微粒说",
+        "牛顿环",
+        "色差"
+    ],
+    "related_concepts_en": [
+        "Spectrum",
+        "Dispersion",
+        "Reflecting Telescope",
+        "Corpuscular theory of light",
+        "Newton's rings",
+        "Chromatic Aberration"
+    ],
     "quiz": {
-      "question": "牛顿的棱镜“判决性实验”证明了什么核心观点？",
-      "question_en": "What core idea did Newton's 'Experimentum Crucis' (critical experiment) with prisms prove?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newton%27s_experimentum_crucis.png/640px-Newton%27s_experimentum_crucis.png",
-      "options": [
-        "棱镜会给白光“染色”，从而创造出颜色",
-        "白光本身就是由所有光谱颜色混合而成的",
-        "光是一种以太波",
-        "红光可以被第二个棱镜进一步分解"
-      ],
-      "options_en": [
-        "That prisms 'stain' white light to create colors",
-        "That white light is itself a mixture of all spectral colors",
-        "That light is a wave in the aether",
-        "That red light can be broken down further by a second prism"
-      ],
-      "answer": 1,
-      "explanation": "实验表明，棱镜只是将已经存在的颜色“分离”（色散）开，而不是“创造”颜色。当分离出的单一颜色（如红色）通过第二个棱镜时，它不会再改变颜色或分离，证明了颜色是光的固有属性。",
-      "explanation_en": "The experiment showed that the prism merely 'separates' (disperses) the colors that are already present; it does not 'create' them. When an isolated color (like red) was passed through a second prism, it did not change color or split further, proving color is an intrinsic property of light."
+        "question": "牛顿的棱镜“判决性实验”证明了什么核心观点？",
+        "question_en": "What core idea did Newton's 'Experimentum Crucis' (critical experiment) with prisms prove?",
+        "options": [
+            "棱镜会给白光“染色”，从而创造出颜色",
+            "白光本身就是由所有光谱颜色混合而成的",
+            "光是一种以太波",
+            "红光可以被第二个棱镜进一步分解"
+        ],
+        "options_en": [
+            "That prisms 'stain' white light to create colors",
+            "That white light is itself a mixture of all spectral colors",
+            "That light is a wave in the aether",
+            "That red light can be broken down further by a second prism"
+        ],
+        "answer": 1,
+        "explanation": "实验表明，棱镜只是将已经存在的颜色“分离”（色散）开，而不是“创造”颜色。当分离出的单一颜色（如红色）通过第二个棱镜时，它不会再改变颜色或分离，证明了颜色是光的固有属性。",
+        "explanation_en": "The experiment showed that the prism merely 'separates' (disperses) the colors that are already present; it does not 'create' them. When an isolated color (like red) was passed through a second prism, it did not change color or split further, proving color is an intrinsic property of light."
     }
-  }
+}

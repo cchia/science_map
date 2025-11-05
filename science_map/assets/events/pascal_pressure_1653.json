@@ -1,0 +1,176 @@
+{
+    "id": "pascal_pressure_1653",
+    "personId": "blaise_pascal",
+    "title": "阐明帕斯卡原理 (流体静力学)",
+    "title_en": "Formulates Pascal's Principle (Hydrostatics)",
+    "year": 1653,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": [
+        "物理学",
+        "流体静力学",
+        "液压学"
+    ],
+    "field_en": [
+        "Physics",
+        "Hydrostatics",
+        "Hydraulics"
+    ],
+    "media": {
+        "event_image": "hhttps://upload.wikimedia.org/wikipedia/commons/9/99/Working_principle_of_a_hydraulic_jack.svg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=xWGUlwN1pHU",
+            "title": "帕斯卡原理与应用",
+            "title_en": "Application of Pascal's Law",
+            "duration": "4:00"
+        }
+    },
+    "summary": {
+        "text": "帕斯卡系统地阐明了流体静力学的一个基本定律，后被称为“帕斯卡原理”。该原理指出，施加于一个密闭的、不可压缩流体上任意一点的压强，会等值地、无损失地传递到流体内部的每一个点以及容器的每一个壁上。这一发现在他1663年（去世后）出版的著作《论液体的平衡》中发表。",
+        "text_en": "Pascal formulated a fundamental law of hydrostatics, now known as Pascal's Principle. It states that pressure exerted anywhere in a confined, incompressible fluid is transmitted equally in all directions throughout the fluid, acting at right angles to the enclosing walls. This was published in his treatise 'On the Equilibrium of Liquids' (1663, posthumous).",
+        "key_points": [
+            "帕斯卡原理 (Pascal's Principle)",
+            "压强 (Pressure) 在密闭流体中等值传递",
+            "P = F/A",
+            "液压学 (Hydraulics) 的数学基础",
+            "帕斯卡裂桶实验 (Pascal's barrel)"
+        ],
+        "key_points_en": [
+            "Pascal's Principle",
+            "Pressure is transmitted undiminished in a confined fluid",
+            "P = F/A",
+            "Mathematical basis for Hydraulics",
+            "Pascal's barrel experiment"
+        ]
+    },
+    "story": {
+        "text": "帕斯卡最著名的（也许是传说的）实验是“裂桶实验”(Pascal's barrel)。他将一根很长（如10米）的细管垂直插入一个密封的、装满水的橡木桶上。然后，他开始从细管顶部缓慢倒水。尽管只倒入了几杯水，但由于细管中的水位很高，在木桶的底部产生了极其巨大的压强（压强取决于深度，P=ρgh）。最终，这个由几杯水产生的巨大压强，竟然将坚固的橡木桶撑破了。这个实验戏剧性地证明了压强是如何传递和放大的。",
+        "text_en": "Pascal's most famous (and perhaps apocryphal) experiment is 'Pascal's barrel' (creve-tonneau). He inserted a very long, thin tube (e.g., 10m) vertically into a sealed wooden barrel full of water. He then poured just a small cup of water into the tube. Because of the great *height* of the water in the tube, an immense pressure (P=ρgh) was generated at the bottom of the barrel. This huge force, created by just a cup of water, burst the strong wooden barrel apart, dramatically proving his principle of pressure transmission.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/51/Pascal%27s_Barrel.png"
+    },
+    "fun_facts": [
+        {
+            "icon": "🗻",
+            "text": "在1648年，为了证明“真空”的存在（反驳亚里士多德的“自然厌恶真空”），帕斯卡指导他的姐夫在多姆山（Puy de Dôme）上进行了气压计实验，证明了随着海拔升高，大气压强会降低。",
+            "text_en": "In 1648, to prove the existence of a 'vacuum' (against Aristotle's 'horror vacui'), Pascal directed his brother-in-law to carry a barometer up the Puy de Dôme mountain, proving that air pressure decreases with altitude."
+        },
+        {
+            "icon": "🔢",
+            "text": "帕斯卡是一位神童，他在16岁时就写出了关于圆锥曲线的重要论文，并在19岁时发明了第一台机械计算器（“帕斯卡计算器” Pascaline）来帮助他的父亲计算税收。",
+            "text_en": "Pascal was a child prodigy. He wrote a major treatise on conic sections at 16 and invented the first mechanical calculator (the 'Pascaline') at 19 to help his father with tax calculations."
+        },
+        {
+            "icon": "Unit",
+            "text": "为了纪念他的贡献，国际标准制（SI）中“压强”的单位被命名为“帕斯卡”(Pa)。1 Pa = 1 N/m²。",
+            "text_en": "In his honor, the SI unit for pressure is named the 'Pascal' (Pa). 1 Pa = 1 Newton per square meter (N/m²)."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一个装满水的U形管，一端是一个小活塞，另一端是一个大活塞。帕斯卡原理是说，如果你用手指（小力）按压小活塞，这个“压强”会穿过水，在另一端用一个“大力”把大活塞顶起来。这就是“液压千斤顶”能顶起汽车的原理：**用小力在小面积上施压，就能在大面积上产生巨大的力**。F₁/A₁ = F₂/A₂。",
+        "text_en": "Imagine a U-shaped tube filled with water, with a small piston on one end and a huge piston on the other. Pascal's Principle means if you push the *small* piston with a *small* force, that 'pressure' travels through the water and pushes the *huge* piston up with a *huge* force. This is how a hydraulic jack works: **a small force on a small area creates a giant force on a large area**. F₁/A₁ = F₂/A₂.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pascalfig.png"
+    },
+    "applications": [
+        {
+            "icon": "🚗",
+            "title": "汽车液压系统",
+            "title_en": "Hydraulic Systems in Cars",
+            "text": "现代汽车的“刹车系统”就是帕斯卡原理的完美应用。你用脚踩刹车（小力），这个力通过刹车油（流体）传递，并在车轮的刹车片（大面积）上产生巨大的夹紧力。",
+            "text_en": "A car's 'brake system' is a perfect application. Your foot applies a small force to the brake pedal (small piston), which is transmitted through the brake fluid and amplified into a massive clamping force at the brake pads (large pistons) on the wheels."
+        },
+        {
+            "icon": "🏗️",
+            "title": "液压机械 (千斤顶、挖掘机)",
+            "title_en": "Hydraulic Machinery (Jacks, Excavators)",
+            "text": "所有的液压千斤顶、升降机、挖掘机和推土机，都是通过帕斯卡原理，用一个（相对）小的发动机来产生和传递巨大的力。",
+            "text_en": "All hydraulic jacks, lifts, excavators, and bulldozers use Pascal's Principle to generate and transmit enormous forces using a relatively small engine."
+        },
+        {
+            "icon": "💉",
+            "title": "注射器",
+            "title_en": "Syringes",
+            "text": "注射器是该原理最简单的应用之一：对柱塞施加的压强，会无损失地通过液体，从针尖喷出。",
+            "text_en": "A medical syringe is one of the simplest applications: the pressure applied to the plunger is transmitted undiminished through the liquid and out the needle."
+        }
+    ],
+    "impact": {
+        "text": "帕斯卡原理将流体静力学从阿基米德的“浮力”研究，扩展到了对“压强传递”的数学化和工程化应用。他为“液压学”这门学科奠定了理论基础，这使得“力”可以像水一样在管道中传输和放大，直接促成了工业革命中的许多机械发明。",
+        "text_en": "Pascal's principle expanded hydrostatics from Archimedes's study of 'buoyancy' to the mathematical and engineering application of 'pressure transmission'. He laid the theoretical foundation for 'hydraulics', which allows 'force' to be transmitted and amplified through pipes like a fluid, directly enabling many inventions of the Industrial Revolution.",
+        "stats": [
+            {
+                "number": "1",
+                "label": "个基本定律 (P₁=P₂)",
+                "label_en": "Fundamental Law (P₁=P₂)"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "archimedes_principle_BC250",
+                "contribution": "阿基米德（其《论浮体》开创了流体静力学）",
+                "contribution_en": "Archimedes (whose 'On Floating Bodies' founded hydrostatics)"
+            },
+            {
+                "id": "torricelli_barometer_1643",
+                "contribution": "托里拆利（其“气压计”实验证明了大气压强的存在，帕斯卡深受其启发并重复了该实验）",
+                "contribution_en": "Torricelli (his barometer experiment proved the existence of atmospheric pressure, inspiring Pascal to replicate it)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_motion_laws_1687",
+                "contribution": "牛顿（其对流体力学的研究，建立在帕斯卡和托里拆利等人对压强的理解之上）",
+                "contribution_en": "Newton (his study of fluid dynamics was built upon the understanding of pressure from Pascal, Torricelli, and others)"
+            },
+            {
+                "id": "bernoulli_hydrodynamica_1738",
+                "contribution": "丹尼尔·伯努利（其“流体动力学”是帕斯卡“流体静力学”的延伸）",
+                "contribution_en": "Daniel Bernoulli (his 'hydrodynamics' was the extension of Pascal's 'hydrostatics' into moving fluids)"
+            }
+        ],
+        "legacy_text": "帕斯卡证明了，在密闭流体中，压强是一种可以被精确计算、传递和放大的力，从而将流体变成了“力的杠杆”。",
+        "legacy_text_en": "Pascal proved that pressure in a confined fluid is a force that can be precisely calculated, transmitted, and amplified, turning fluid into a 'lever for force'."
+    },
+    "related_concepts": [
+        "压强 (Pressure)",
+        "液压学 (Hydraulics)",
+        "流体静力学 (Hydrostatics)",
+        "不可压缩流体 (Incompressible Fluid)",
+        "帕斯卡裂桶",
+        "托里拆利",
+        "大气压强 (Atmospheric Pressure)"
+    ],
+    "related_concepts_en": [
+        "Pressure",
+        "Hydraulics",
+        "Hydrostatics",
+        "Incompressible Fluid",
+        "Pascal's Barrel",
+        "Torricelli",
+        "Atmospheric Pressure"
+    ],
+    "quiz": {
+        "question": "在液压千斤顶中，为什么用小力按压小活塞，能顶起大活塞上的重物（如汽车）？",
+        "question_en": "In a hydraulic jack, why can a small force on a small piston lift a heavy object (like a car) on a large piston?",
+        "options": [
+            "因为力在流体中被放大了",
+            "因为压强在流体中等值传递，而在大面积上产生了更大的力",
+            "因为流体被压缩了，产生了弹力",
+            "因为杠杆原理"
+        ],
+        "options_en": [
+            "Because the force is amplified in the fluid",
+            "Because the pressure is transmitted equally, and this pressure creates a larger force over a larger area",
+            "Because the fluid is compressed and acts like a spring",
+            "Because of the Law of the Lever"
+        ],
+        "answer": 1,
+        "explanation": "根据帕斯卡原理，压强(P)是相等的。因为 P = F/A，所以 F = P × A。在压强(P)相同的情况下，活塞的面积(A)越大，它产生的力(F)就越大。",
+        "explanation_en": "According to Pascal's Principle, the pressure (P) is the same. Since P = F/A, it follows that F = P × A. For the same pressure (P), the larger the area (A) of the piston, the larger the force (F) it generates."
+    }
+}

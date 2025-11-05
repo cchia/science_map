@@ -1,0 +1,172 @@
+{
+    "id": "pascal_triangle_1654",
+    "personId": "blaise_pascal",
+    "title": "系统性阐述“帕斯卡三角形”",
+    "title_en": "Systematizes the 'Arithmetical Triangle'",
+    "year": 1654,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": [
+        "数学",
+        "概率论",
+        "组合数学"
+    ],
+    "field_en": [
+        "Mathematics",
+        "Probability Theory",
+        "Combinatorics"
+    ],
+    "media": {
+        "event_image": "https://commons.wikimedia.org/wiki/File:Pascal%27s_Triangle_rows_0-16;_details.svg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=XMriWTvPXHI",
+            "title": "帕斯卡三角形的秘密",
+            "title_en": "The mathematical secrets of Pascal's triangle",
+            "duration": "4:50"
+        }
+    },
+    "summary": {
+        "text": "帕斯卡撰写了《论算术三角形》(Traité du triangle arithmétique)，该著作在他去世后于1665年发表。虽然这个三角形（在中国称为“杨辉三角”）在他之前已被知晓，但帕斯卡是第一位系统性地研究其众多特性的人。他展示了这个三角形如何简洁地表示“二项式系数”，并将其作为一种强大工具，与费马（Fermat）一同解决了“点数问题”（一个关于赌博中断的分配问题），从而奠定了现代“概率论”的基础。",
+        "text_en": "Pascal wrote his 'Treatise on the Arithmetical Triangle' (published posthumously in 1665). While the triangle (known as 'Yang Hui's triangle' in China) was known before him, Pascal was the first to systematically explore its properties. He showed how it elegantly represents the 'binomial coefficients' and used it as a powerful tool to solve the 'Problem of Points' (a gambling dispute) with Fermat, thereby laying the foundation for modern 'Probability Theory'.",
+        "key_points": [
+            "系统性研究了“算术三角形”的特性",
+            "揭示了其与“二项式系数”的联系",
+            "奠定了“概率论”(Probability Theory) 的基础",
+            "与皮埃尔·德·费马 (Pierre de Fermat) 的通信",
+            "解决了“点数问题”(Problem of Points)"
+        ],
+        "key_points_en": [
+            "Systematically studied the triangle's properties",
+            "Linked it to 'Binomial Coefficients'",
+            "Founded modern 'Probability Theory'",
+            "Correspondence with Pierre de Fermat",
+            "Solved the 'Problem of Points'"
+        ]
+    },
+    "story": {
+        "text": "帕斯卡的朋友、一个名叫德·梅雷的骑士（Chevalier de Méré）向他提出了一个赌博问题：“两个玩家同意玩一定局数的游戏，赢家通吃。但如果他们在游戏未完成时被迫中断，应该如何公平地分配赌注？” 这个问题（“点数问题”）难倒了所有数学家。帕斯卡开始与另一位大数学家费马通信，他们共同解决了这个问题。帕斯卡使用的关键工具就是“算术三角形”，他利用三角形中的数字来计算不同玩家在不同中断点“获胜的概率”（即组合数），从而奠定了概率论的基础。",
+        "text_en": "Pascal's friend, a gambler named Chevalier de Méré, posed a problem: Two players agree to a game for a set number of rounds. If they are forced to stop *before* the game is finished, how should they divide the stakes fairly? This 'Problem of Points' had stumped mathematicians. Pascal began corresponding with Pierre de Fermat to solve it. The key tool Pascal used was his 'Arithmetical Triangle', which provided a simple way to calculate the *combinations*, or 'odds', of each player winning from any given point. In solving this, they founded probability theory."
+    },
+    "fun_facts": [
+        {
+            "icon": "🌏",
+            "text": "这个三角形在帕斯卡之前几百年就已在世界多地被发现。在中国，它被称为“杨辉三角”（`yang_hui_triangle_1261`），由杨辉在1261年详细阐述，而杨辉又引用了更早的贾宪（约1050年）的成果。在波斯，奥马尔·海亚姆（Omar Khayyam）在11世纪也研究过它。",
+            "text_en": "The triangle was known centuries before Pascal. In China, it is called 'Yang Hui's Triangle' (`yang_hui_triangle_1261`), described in 1261 by Yang Hui, who referenced the 11th-century work of Jia Xian. In Persia, Omar Khayyam also studied it in the 11th century."
+        },
+        {
+            "icon": "🤯",
+            "text": "帕斯卡三角形充满了各种数学彩蛋。将每一行的数字相加，你会得到2的幂（1, 2, 4, 8, 16...）。按对角线相加，你会得到斐波那契数列（1, 1, 2, 3, 5, 8...）。",
+            "text_en": "The triangle is full of mathematical patterns. Summing the rows gives you the powers of 2 (1, 2, 4, 8, 16...). Summing the 'shallow' diagonals gives you the Fibonacci sequence (1, 1, 2, 3, 5, 8...)."
+        }
+    ],
+    "simple_explanation": {
+        "text": "帕斯卡三角形是一个简单的数字金字塔，每一层的“积木”都是由它正上方两块“积木”的数字相加而成的（1+1=2, 1+2=3, 3+3=6）。这个简单的游戏却隐藏着一个巨大的秘密：它是一个“可能性计算器”。比如，你想知道抛3次硬币，出现“2个正面和1个反面”有多少种组合？看三角形的第3行（1, 3, 3, 1），答案就是“3”种。帕斯卡和费马利用这个工具，首次将“运气”和“概率”变成了可以计算的数学。",
+        "text_en": "Pascal's Triangle is a number pyramid built by adding the two numbers directly above it (1+1=2, 1+2=3, 3+3=6). This simple game hides a huge secret: it's a 'probability calculator'. If you flip 3 coins, how many ways can you get '2 heads and 1 tail'? Just look at the 3rd row (1, 3, 3, 1). The answer is '3' ways. Pascal and Fermat used this tool to turn 'luck' and 'chance' into predictable mathematics for the first time.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif"
+    },
+    "applications": [
+        {
+            "icon": "🎲",
+            "title": "概率论 (Probability Theory)",
+            "title_en": "Probability Theory",
+            "text": "三角形的第n行第k个数，告诉你在n个事物中选取k个的方法（组合数 C(n,k)）。这是所有概率计算（如赌博、保险、金融）的基础。",
+            "text_en": "The k-th number in the n-th row gives you the number of ways to 'choose k items from n' (Combinations, C(n,k)). This is the basis of all probability, from gambling to insurance to finance."
+        },
+        {
+            "icon": "🧮",
+            "title": "代数 (Algebra)",
+            "title_en": "Algebra",
+            "text": "三角形的每一行给出了二项式展开 (x+y)ⁿ 的系数。例如，(x+y)³ = 1x³ + 3x²y + 3xy² + 1y³。系数就是 (1, 3, 3, 1)。",
+            "text_en": "The rows provide the coefficients for binomial expansions, (x+y)ⁿ. For example, (x+y)³ = 1x³ + 3x²y + 3xy² + 1y³. The coefficients are (1, 3, 3, 1)."
+        },
+        {
+            "icon": "🖥️",
+            "title": "组合数学 (Combinatorics)",
+            "title_en": "Combinatorics",
+            "text": "该三角形是“组合数学”（研究“有多少种方法...”的学科）的核心工具，被广泛用于计算机科学和网络理论。",
+            "text_en": "The triangle is a core tool in 'combinatorics' (the study of 'how many ways...'), which is used heavily in computer science and network theory."
+        }
+    ],
+    "impact": {
+        "text": "帕斯卡对算术三角形的系统性研究，以及他与费马的通信，被公认为是“概率论”作为一门严谨数学学科的诞生日。他将一个之前被认为是“神的旨意”或“纯粹运气”的领域（赌博和概率），首次纳入了理性和数学计算的范畴。",
+        "text_en": "Pascal's treatise on the triangle, and his correspondence with Fermat, is considered the 'birthdate' of Probability Theory as a formal branch of mathematics. He took a subject previously seen as 'God's will' or 'pure luck' (chance and gambling) and brought it into the realm of reason and calculation for the first time.",
+        "stats": [
+            {
+                "number": "1654",
+                "label": "年 (概率论的诞生)",
+                "label_en": "Year (Birth of Probability Theory)"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "yang_hui_triangle_1261",
+                "contribution": "（或更早的）贾宪和杨辉（他们早已记录并使用了这个三角形）",
+                "contribution_en": "Jia Xian & Yang Hui (who had recorded and used the triangle centuries earlier)"
+            },
+            {
+                "id": "fermat_probability_1654",
+                "contribution": "费马（与他通信，共同解决了“点数问题”）",
+                "contribution_en": "Pierre de Fermat (his correspondence partner in solving the 'Problem of Points')"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "bernoulli_probability_1713",
+                "contribution": "雅各布·伯努利（其巨著《猜度术》系统化了帕斯卡和费马开创的概率论）",
+                "contribution_en": "Jakob Bernoulli (whose 'Ars Conjectandi' systemized the probability theory that Pascal and Fermat had started)"
+            },
+            {
+                "id": "newton_calculus_1666",
+                "contribution": "牛顿（其“二项式定理”是对帕斯卡三角形中整数系数的推广）",
+                "contribution_en": "Isaac Newton (whose 'Binomial Theorem' generalized the integer coefficients found in Pascal's triangle)"
+            }
+        ],
+        "legacy_text": "帕斯卡将一个简单的数字模式（算术三角形）转变为一个强大的、预测未来的工具（概率论）。",
+        "legacy_text_en": "Pascal transformed a simple numerical pattern (the arithmetical triangle) into a powerful predictive tool (probability theory)."
+    },
+    "related_concepts": [
+        "概率论",
+        "组合数学",
+        "二项式系数",
+        "二项式定理",
+        "杨辉三角",
+        "点数问题",
+        "费马",
+        "伯努利"
+    ],
+    "related_concepts_en": [
+        "Probability Theory",
+        "Combinatorics",
+        "Binomial Coefficient",
+        "Binomial Theorem",
+        "Yang Hui's Triangle",
+        "Problem of Points",
+        "Fermat",
+        "Bernoulli"
+    ],
+    "quiz": {
+        "question": "帕斯卡三角形的第4行 (1, 4, 6, 4, 1) 在代数上对应什么？",
+        "question_en": "What does the 4th row of Pascal's Triangle (1, 4, 6, 4, 1) correspond to in algebra?",
+        "options": [
+            "斐波那契数列",
+            "(x+y)⁴ 的系数",
+            "π (Pi) 的值",
+            "素数列表"
+        ],
+        "options_en": [
+            "The Fibonacci Sequence",
+            "The coefficients of (x+y)⁴",
+            "The value of Pi (π)",
+            "A list of prime numbers"
+        ],
+        "answer": 1,
+        "explanation": "帕斯卡三角形的每一行（从第0行开始）都给出了二项式 (x+y)ⁿ 展开式的系数。第4行 (1, 4, 6, 4, 1) 对应 (x+y)⁴ = 1x⁴ + 4x³y + 6x²y² + 4xy³ + 1y⁴。",
+        "explanation_en": "Each row of Pascal's triangle (starting from row 0) gives the coefficients of the binomial expansion (x+y)ⁿ. The 4th row (1, 4, 6, 4, 1) corresponds to (x+y)⁴ = 1x⁴ + 4x³y + 6x²y² + 4xy³ + 1y⁴."
+    }
+}

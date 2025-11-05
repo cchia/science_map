@@ -1,0 +1,10 @@
+{
+    "name": "约瑟夫·路易·盖-吕萨克",
+    "name_en": "Joseph Louis Gay-Lussac",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gaylussac.jpg",
+    "bio_short": "法国化学家和物理学家。他对气体定律（特别是压强-温度关系）的研究至关重要，也是一位勇敢的热气球飞行家，曾创下飞行高度世界纪录。",
+    "bio_short_en": "A French chemist and physicist. He is renowned for his work on gas laws (notably the pressure-temperature relationship) and was also a daring balloonist who set a world altitude record.",
+    "events": [
+      "gay_lussac_law_1802"
+    ]
+  }

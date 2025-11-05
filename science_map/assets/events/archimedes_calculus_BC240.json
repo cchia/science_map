@@ -10,151 +10,168 @@
     "city_en": "Syracuse",
     "country": "大希腊 (今意大利西西里岛)",
     "country_en": "Magna Graecia (Modern Sicily, Italy)",
-    "field": ["数学", "几何学", "微积分 (雏形)"],
-    "field_en": ["Mathematics", "Geometry", "Calculus (Proto)"],
-    
-    "media": {
-      "event_image": "assets/images/archimedes_spiral.gif",
-      "video": {
-        "url": "https://www.youtube.com/watch?v=XfeuCfOUuXg&t=282s",
-        "title": "阿基米德如何用圆计算π",
-        "title_en": "How Archimedes Almost Broke Math with Circles",
-        "duration": "50:04"
-      }
-    },
-    
-    "summary": {
-      "text": "阿基米德在数学上的最大成就是他对“无穷”的运用。他完善了“穷竭法”（一种严谨的极限方法），并将其用作一种“机械方法”来发现新定理。他首次精确计算出圆周率(π)的范围，并计算出了球体、圆柱体和抛物线弓形的面积和体积，这些成就在1800年后才被牛顿和莱布尼茨的微积分所超越。",
-      "text_en": "Archimedes's greatest mathematical achievement was his mastery of infinitesimals. He perfected the 'Method of Exhaustion' (a rigorous form of limits) and used a 'Mechanical Method' to discover new theorems. He famously calculated the first rigorous value of Pi (π) and found the areas and volumes of spheres, cylinders, and parabolas—achievements not surpassed until the invention of calculus by Newton and Leibniz 1,800 years later.",
-      "key_points": [
-        "完善了“穷竭法”(Method of Exhaustion)",
-        "积分学的先驱 (Pioneer of Integral Calculus)",
-        "精确计算圆周率 π (介于 3 10/71 和 3 1/7 之间)",
-        "证明了球体体积 V = (4/3)πr³",
-        "证明了球体表面积 A = 4πr²",
-        "证明了球体体积和表面积是其外切圆柱体的 2/3"
-      ],
-      "key_points_en": [
-        "Perfected the 'Method of Exhaustion'",
-        "Pioneer of Integral Calculus",
-        "Calculated Pi (π) (between 3 10/71 and 3 1/7)",
-        "Proved Volume of a Sphere is V = (4/3)πr³",
-        "Proved Surface Area of a Sphere is A = 4πr²",
-        "Proved Sphere's Volume/Area is 2/3 of its circumscribing cylinder"
-      ]
-    },
-  
-    "story": {
-      "text": "阿基米德的数学著作，如《论球体与圆柱体》和《抛物线求积》，是人类智力的结晶。他通过无穷递进地内接和外切多边形（最多达到96边形）来“逼近”圆，从而“夹出”了π的精确值。他最自豪的发现是球体与圆柱体的 2/3 关系。他认为这个发现如此重要，以至于他要求将一个球体及其外切圆柱体的图案刻在自己的墓碑上。",
-      "text_en": "Archimedes's treatises, like 'On the Sphere and Cylinder' and 'Quadrature of the Parabola', are monuments of human thought. He 'squeezed' the value of Pi by inscribing and circumscribing circles with polygons of up to 96 sides. His proudest discovery was the 2/3 relationship between a sphere and its circumscribing cylinder. He considered this so important that he asked for the diagram to be placed on his tombstone.",
-      "diagram": "assets/images/archimedes_tombstone.png" 
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "⚰️",
-        "text": "阿基米德最自豪的成就是证明了“球体的体积是其外切圆柱体积的2/3”。他要求将这个图案刻在他的墓碑上。100多年后，罗马政治家西塞罗声称他在叙拉古的废墟中找到了这个被遗忘的墓碑。",
-        "text_en": "Archimedes's proudest achievement was his proof that a sphere's volume is 2/3 that of its circumscribing cylinder. He requested this diagram be engraved on his tomb. Over 100 years later, the Roman statesman Cicero claimed to have found this forgotten tomb in the ruins of Syracuse."
-      },
-      {
-        "icon": "⚔️",
-        "text": "公元前212年罗马士兵攻入叙拉古时，发现阿基米德正在沙地上研究一个几何问题。他（据称）对士兵说：“不要打扰我的圆！”，随后被杀。",
-        "text_en": "When Roman soldiers stormed Syracuse in 212 BC, one found Archimedes studying a geometry problem in the sand. He allegedly said, 'Do not disturb my circles!' (Nōlī turbāre circulus meōs!) and was killed."
-      }
+    "field": [
+        "数学",
+        "几何学",
+        "微积分 (雏形)"
     ],
-  
-    "simple_explanation": {
-      "text": "如何测量一个圆的面积？这在古代是个大难题。阿基米德想出了一个绝妙的办法：他先在圆里画一个正方形（面积可知），然后在圆外面画一个正方形（面积也可知）。圆的面积就在这两者之间。然后，他把正方形换成五边形、六边形……一直换到96边形！96边形几乎和圆一样了，他通过计算这个96边形的面积，得到了一个极其精确的圆的面积和π的值。这个“用无限逼近”的方法，就是微积分的最初思想。",
-      "text_en": "How do you measure the area of a circle? This was a huge problem. Archimedes had a genius idea: He drew a square *inside* the circle (whose area he could calculate) and a square *outside* the circle. The circle's area was somewhere between them. Then he did it again with a pentagon... then a hexagon... all the way up to a 96-sided polygon! The 96-sided shape was *almost* a circle, and by calculating its area, he got an incredibly precise value for the circle's area and for Pi. This idea of 'getting infinitely close' is the core idea of calculus.",
-      "diagram": "assets/images/Archimedes_diagram.png"
-    },
-  
-    "applications": [
-        {
-          "icon": "📐",
-          "title": "计算 π (Pi)",
-          "title_en": "Calculating Pi",
-          "text": "他首创的“逼近法”是几千年来计算π的标准方法。",
-          "text_en": "His method of approximation was the standard way of calculating Pi for millennia."
-        },
-        {
-          "icon": "🚀",
-          "title": "微积分的基础",
-          "title_en": "Foundation of Calculus",
-          "text": "牛顿和莱布尼茨在1800年后发明微积分时，都承认他们深受阿基米德的“穷竭法”和“机械法”的启发。",
-          "text_en": "Newton and Leibniz, when inventing calculus 1,800 years later, both acknowledged their deep inspiration from Archimedes's 'Method of Exhaustion' and 'Mechanical Method'."
-        },
-        {
-          "icon": "🗼",
-          "title": "工程与建筑",
-          "title_en": "Engineering and Architecture",
-          "text": "他计算抛物线（如拱桥）和球体（如穹顶）面积和体积的能力，对工程学和建筑学至关重要。",
-          "text_en": "His ability to calculate the area and volume of parabolas (like in an arch bridge) and spheres (like a dome) was critical for engineering."
+    "field_en": [
+        "Mathematics",
+        "Geometry",
+        "Calculus (Proto)"
+    ],
+    "media": {
+        "event_image": "assets/images/archimedes_spiral.gif",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=XfeuCfOUuXg&t=282s",
+            "title": "阿基米德如何用圆计算π",
+            "title_en": "How Archimedes Almost Broke Math with Circles",
+            "duration": "50:04"
         }
-      ],
-  
-    "impact": {
-      "text": "阿基米德将希腊数学推向了顶峰。他处理“无穷大”和“无穷小”的严谨方法，已经无限接近于现代积分学。如果他的《方法》一书没有在中世纪失传，科学革命很可能提前几个世纪发生。",
-      "text_en": "Archimedes brought Greek mathematics to its absolute zenith. His rigorous handling of the infinite and infinitesimals was astonishingly close to modern integration. Had his work 'The Method' not been lost during the Middle Ages, the Scientific Revolution might have occurred centuries earlier.",
-      "stats": [
-          {
-            "number": "2/3",
-            "label": "球体与圆柱体的体积比",
-            "label_en": "Volume Ratio of Sphere to Cylinder"
-          }
+    },
+    "summary": {
+        "text": "阿基米德在数学上的最大成就是他对“无穷”的运用。他完善了“穷竭法”（一种严谨的极限方法），并将其用作一种“机械方法”来发现新定理。他首次精确计算出圆周率(π)的范围，并计算出了球体、圆柱体和抛物线弓形的面积和体积，这些成就在1800年后才被牛顿和莱布尼茨的微积分所超越。",
+        "text_en": "Archimedes's greatest mathematical achievement was his mastery of infinitesimals. He perfected the 'Method of Exhaustion' (a rigorous form of limits) and used a 'Mechanical Method' to discover new theorems. He famously calculated the first rigorous value of Pi (π) and found the areas and volumes of spheres, cylinders, and parabolas—achievements not surpassed until the invention of calculus by Newton and Leibniz 1,800 years later.",
+        "key_points": [
+            "完善了“穷竭法”(Method of Exhaustion)",
+            "积分学的先驱 (Pioneer of Integral Calculus)",
+            "精确计算圆周率 π (介于 3 10/71 和 3 1/7 之间)",
+            "证明了球体体积 V = (4/3)πr³",
+            "证明了球体表面积 A = 4πr²",
+            "证明了球体体积和表面积是其外切圆柱体的 2/3"
+        ],
+        "key_points_en": [
+            "Perfected the 'Method of Exhaustion'",
+            "Pioneer of Integral Calculus",
+            "Calculated Pi (π) (between 3 10/71 and 3 1/7)",
+            "Proved Volume of a Sphere is V = (4/3)πr³",
+            "Proved Surface Area of a Sphere is A = 4πr²",
+            "Proved Sphere's Volume/Area is 2/3 of its circumscribing cylinder"
         ]
     },
-  
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "eudoxus_exhaustion_BC370",
-          "contribution": "欧多克索斯（其“穷竭法”是阿基米德计算面积和体积的出发点）",
-          "contribution_en": "Eudoxus (whose 'Method of Exhaustion' was the starting point for Archimedes's calculations of area and volume)"
-        },
-        {
-          "id": "euclid_elements_BC300",
-          "contribution": "欧几里得《几何原本》（提供了他所有数学证明所依赖的公理化基础）",
-          "contribution_en": "Euclid's 'Elements' (which provided the axiomatic foundation for all his mathematical proofs)"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "galileo_motion_1638",
-          "contribution": "伽利略（其关于“无穷”和重心的数学方法，直接复兴了阿基米德的著作）",
-          "contribution_en": "Galileo (his mathematical methods for 'infinities' and centers of gravity were a direct revival of Archimedes's work)"
-        },
-        {
-          "id": "newton_calculus_1666",
-          "contribution": "牛顿（其微积分的发明，是阿基米德“穷竭法”的逻辑终点）",
-          "contribution_en": "Newton (whose invention of calculus was the logical endpoint of Archimedes's 'Method of Exhaustion')"
-        }
-      ],
-      "legacy_text": "阿基米德是第一个真正掌握“无穷”的数学家，他所使用的方法是微积分的曙光。",
-      "legacy_text_en": "Archimedes was the first mathematician to truly master the 'infinite', and the methods he used were the dawn of calculus."
+    "story": {
+        "text": "阿基米德的数学著作，如《论球体与圆柱体》和《抛物线求积》，是人类智力的结晶。他通过无穷递进地内接和外切多边形（最多达到96边形）来“逼近”圆，从而“夹出”了π的精确值。他最自豪的发现是球体与圆柱体的 2/3 关系。他认为这个发现如此重要，以至于他要求将一个球体及其外切圆柱体的图案刻在自己的墓碑上。",
+        "text_en": "Archimedes's treatises, like 'On the Sphere and Cylinder' and 'Quadrature of the Parabola', are monuments of human thought. He 'squeezed' the value of Pi by inscribing and circumscribing circles with polygons of up to 96 sides. His proudest discovery was the 2/3 relationship between a sphere and its circumscribing cylinder. He considered this so important that he asked for the diagram to be placed on his tombstone.",
+        "diagram": "assets/images/archimedes_tombstone.png"
     },
-  
-    "related_concepts": ["穷竭法", "微积分 (Calculus)", "积分 (Integration)", "极限 (Limit)", "圆周率 π", "球体体积", "抛物线求积", "阿基米德螺旋", "无穷小 (Infinitesimal)"],
-    "related_concepts_en": ["Method of Exhaustion", "Calculus", "Integration", "Limit", "Pi (π)", "Volume of a Sphere", "Quadrature of the Parabola", "Archimedean Spiral", "Infinitesimal"],
-  
+    "fun_facts": [
+        {
+            "icon": "⚰️",
+            "text": "阿基米德最自豪的成就是证明了“球体的体积是其外切圆柱体积的2/3”。他要求将这个图案刻在他的墓碑上。100多年后，罗马政治家西塞罗声称他在叙拉古的废墟中找到了这个被遗忘的墓碑。",
+            "text_en": "Archimedes's proudest achievement was his proof that a sphere's volume is 2/3 that of its circumscribing cylinder. He requested this diagram be engraved on his tomb. Over 100 years later, the Roman statesman Cicero claimed to have found this forgotten tomb in the ruins of Syracuse."
+        },
+        {
+            "icon": "⚔️",
+            "text": "公元前212年罗马士兵攻入叙拉古时，发现阿基米德正在沙地上研究一个几何问题。他（据称）对士兵说：“不要打扰我的圆！”，随后被杀。",
+            "text_en": "When Roman soldiers stormed Syracuse in 212 BC, one found Archimedes studying a geometry problem in the sand. He allegedly said, 'Do not disturb my circles!' (Nōlī turbāre circulus meōs!) and was killed."
+        }
+    ],
+    "simple_explanation": {
+        "text": "如何测量一个圆的面积？这在古代是个大难题。阿基米德想出了一个绝妙的办法：他先在圆里画一个正方形（面积可知），然后在圆外面画一个正方形（面积也可知）。圆的面积就在这两者之间。然后，他把正方形换成五边形、六边形……一直换到96边形！96边形几乎和圆一样了，他通过计算这个96边形的面积，得到了一个极其精确的圆的面积和π的值。这个“用无限逼近”的方法，就是微积分的最初思想。",
+        "text_en": "How do you measure the area of a circle? This was a huge problem. Archimedes had a genius idea: He drew a square *inside* the circle (whose area he could calculate) and a square *outside* the circle. The circle's area was somewhere between them. Then he did it again with a pentagon... then a hexagon... all the way up to a 96-sided polygon! The 96-sided shape was *almost* a circle, and by calculating its area, he got an incredibly precise value for the circle's area and for Pi. This idea of 'getting infinitely close' is the core idea of calculus.",
+        "diagram": "assets/images/Archimedes_diagram.png"
+    },
+    "applications": [
+        {
+            "icon": "📐",
+            "title": "计算 π (Pi)",
+            "title_en": "Calculating Pi",
+            "text": "他首创的“逼近法”是几千年来计算π的标准方法。",
+            "text_en": "His method of approximation was the standard way of calculating Pi for millennia."
+        },
+        {
+            "icon": "🚀",
+            "title": "微积分的基础",
+            "title_en": "Foundation of Calculus",
+            "text": "牛顿和莱布尼茨在1800年后发明微积分时，都承认他们深受阿基米德的“穷竭法”和“机械法”的启发。",
+            "text_en": "Newton and Leibniz, when inventing calculus 1,800 years later, both acknowledged their deep inspiration from Archimedes's 'Method of Exhaustion' and 'Mechanical Method'."
+        },
+        {
+            "icon": "🗼",
+            "title": "工程与建筑",
+            "title_en": "Engineering and Architecture",
+            "text": "他计算抛物线（如拱桥）和球体（如穹顶）面积和体积的能力，对工程学和建筑学至关重要。",
+            "text_en": "His ability to calculate the area and volume of parabolas (like in an arch bridge) and spheres (like a dome) was critical for engineering."
+        }
+    ],
+    "impact": {
+        "text": "阿基米德将希腊数学推向了顶峰。他处理“无穷大”和“无穷小”的严谨方法，已经无限接近于现代积分学。如果他的《方法》一书没有在中世纪失传，科学革命很可能提前几个世纪发生。",
+        "text_en": "Archimedes brought Greek mathematics to its absolute zenith. His rigorous handling of the infinite and infinitesimals was astonishingly close to modern integration. Had his work 'The Method' not been lost during the Middle Ages, the Scientific Revolution might have occurred centuries earlier.",
+        "stats": [
+            {
+                "number": "2/3",
+                "label": "球体与圆柱体的体积比",
+                "label_en": "Volume Ratio of Sphere to Cylinder"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "eudoxus_exhaustion_BC370",
+                "contribution": "欧多克索斯（其“穷竭法”是阿基米德计算面积和体积的出发点）",
+                "contribution_en": "Eudoxus (whose 'Method of Exhaustion' was the starting point for Archimedes's calculations of area and volume)"
+            },
+            {
+                "id": "euclid_elements_BC300",
+                "contribution": "欧几里得《几何原本》（提供了他所有数学证明所依赖的公理化基础）",
+                "contribution_en": "Euclid's 'Elements' (which provided the axiomatic foundation for all his mathematical proofs)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "伽利略（其关于“无穷”和重心的数学方法，直接复兴了阿基米德的著作）",
+                "contribution_en": "Galileo (his mathematical methods for 'infinities' and centers of gravity were a direct revival of Archimedes's work)"
+            },
+            {
+                "id": "newton_calculus_1666",
+                "contribution": "牛顿（其微积分的发明，是阿基米德“穷竭法”的逻辑终点）",
+                "contribution_en": "Newton (whose invention of calculus was the logical endpoint of Archimedes's 'Method of Exhaustion')"
+            }
+        ],
+        "legacy_text": "阿基米德是第一个真正掌握“无穷”的数学家，他所使用的方法是微积分的曙光。",
+        "legacy_text_en": "Archimedes was the first mathematician to truly master the 'infinite', and the methods he used were the dawn of calculus."
+    },
+    "related_concepts": [
+        "穷竭法",
+        "微积分 (Calculus)",
+        "积分 (Integration)",
+        "极限 (Limit)",
+        "圆周率 π",
+        "球体体积",
+        "抛物线求积",
+        "阿基米德螺旋",
+        "无穷小 (Infinitesimal)"
+    ],
+    "related_concepts_en": [
+        "Method of Exhaustion",
+        "Calculus",
+        "Integration",
+        "Limit",
+        "Pi (π)",
+        "Volume of a Sphere",
+        "Quadrature of the Parabola",
+        "Archimedean Spiral",
+        "Infinitesimal"
+    ],
     "quiz": {
-      "question": "阿基米德计算π值时使用的主要数学方法是什么？",
-      "question_en": "What was the primary mathematical method Archimedes used to calculate the value of Pi (π)?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Archimedes_Pi.svg/640px-Archimedes_Pi.svg.png",
-      "options": [
-        "杠杆原理 (Law of the Lever)",
-        "浮力原理 (Principle of Buoyancy)",
-        "穷竭法（使用内接和外切多边形）",
-        "三段论 (Syllogism)"
-      ],
-      "options_en": [
-        "The Law of the Lever",
-        "The Principle of Buoyancy",
-        "The Method of Exhaustion (using inscribed and circumscribed polygons)",
-        "The Syllogism"
-      ],
-      "answer": 2,
-      "explanation": "他通过在圆内和圆外不断增加多边形的边数（最多96边），来“逼近”或“穷尽”圆的周长和面积，从而将π的值“夹”在一个非常小的范围内。",
-      "explanation_en": "He 'squeezed' the value of Pi by inscribing and circumscribing a circle with polygons of an increasing number of sides (up to 96), 'exhausting' the area and circumference to trap Pi within a very narrow range."
+        "question": "阿基米德计算π值时使用的主要数学方法是什么？",
+        "question_en": "What was the primary mathematical method Archimedes used to calculate the value of Pi (π)?",
+        "options": [
+            "杠杆原理 (Law of the Lever)",
+            "浮力原理 (Principle of Buoyancy)",
+            "穷竭法（使用内接和外切多边形）",
+            "三段论 (Syllogism)"
+        ],
+        "options_en": [
+            "The Law of the Lever",
+            "The Principle of Buoyancy",
+            "The Method of Exhaustion (using inscribed and circumscribed polygons)",
+            "The Syllogism"
+        ],
+        "answer": 2,
+        "explanation": "他通过在圆内和圆外不断增加多边形的边数（最多96边），来“逼近”或“穷尽”圆的周长和面积，从而将π的值“夹”在一个非常小的范围内。",
+        "explanation_en": "He 'squeezed' the value of Pi by inscribing and circumscribing a circle with polygons of an increasing number of sides (up to 96), 'exhausting' the area and circumference to trap Pi within a very narrow range."
     }
-  }
+}

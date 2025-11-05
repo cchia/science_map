@@ -10,142 +10,155 @@
     "city_en": "Maragheh",
     "country": "伊儿汗国 (今伊朗)",
     "country_en": "Ilkhanate (Modern Iran)",
-    "field": ["天文学", "数学", "哲学"],
-    "field_en": ["Astronomy", "Mathematics", "Philosophy"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/TusiCouple.gif",
-      "video": {
-        "url": "https://www.youtube.com/watch?v=HDZR2hOUKLM",
-        "title": "纳西尔丁·图西与行星模型",
-        "title_en": "Al Tusi and the Planetary Model — The Astronomers Innovations",
-        "duration": "16:42"
-      }
-    },
-    
-    "summary": {
-      "text": "纳西尔丁·图西是一位波斯博学家。在伊儿汗国可汗的赞助下，他建立了当时世界上最先进的“马拉盖天文台”(Maragha Observatory)。他发起了一场对托勒密模型的系统性批判，尤其是针对其“偏心匀速点”(Equant) 违背了匀速圆周运动的哲学。为此，他发明了一个巧妙的数学工具——“图西圆偶”(Tusi Couple)，该工具可以通过两个圆的匀速转动，来产生完美的直线运动。",
-      "text_en": "Nasir al-Din al-Tusi was a Persian polymath who, under the patronage of the Ilkhanate, built the 'Maragha Observatory', the most advanced in the world. He initiated a systematic critique of Ptolemy's model, specifically its use of the 'Equant', which violated the philosophy of uniform circular motion. To solve this, he invented an ingenious mathematical device, the 'Tusi Couple', which can generate perfect linear motion from the combination of two uniform circular motions.",
-      "key_points": [
-        "建立了“马拉盖天文台”",
-        "发起了“马拉盖革命”（对托勒密的批判）",
-        "发明了“图西圆偶”(Tusi Couple)",
-        "证明了可以从“匀速圆周运动”中产生“直线运动”",
-        "目标是移除托勒密的“偏心匀速点”(Equant)"
-      ],
-      "key_points_en": [
-        "Founded the 'Maragha Observatory'",
-        "Initiated the 'Maragha Revolution' (critique of Ptolemy)",
-        "Invented the 'Tusi Couple'",
-        "Proved linear motion can arise from uniform circular motion",
-        "Goal was to eliminate Ptolemy's 'Equant'"
-      ]
-    },
-  
-    "story": {
-      "text": "马拉盖天文台是中世纪科学的“曼哈顿计划”。图西汇集了来自波斯、叙利亚甚至中国的顶尖学者。他们共同的目标是“修复”托勒密的宇宙模型。托勒密的模型（`ptolemy_geocentrism_150`）为了预测准确，引入了“偏心匀速点”，这在哲学上是不可接受的（它违背了亚里士多德的“完美圆周运动”）。图西的“图西圆偶”是一个数学上的“核武器”：它证明了你不需要托勒密的“丑陋”工具。通过将一个小圆放在一个大圆内部，让小圆以大圆两倍的速度反向旋转，小圆边缘上的一个点会沿着大圆的直径做完美的直线往复运动。这个工具后来被伊本·沙蒂尔和哥白尼用来构建他们的新模型。",
-      "text_en": "The Maragha Observatory was the 'Manhattan Project' of medieval science. Tusi assembled the greatest minds from Persia, Syria, and even China. Their goal was to 'fix' Ptolemy's cosmos. Ptolemy's model (`ptolemy_geocentrism_150`) used the 'Equant' to be predictive, which was philosophically unacceptable (it wasn't uniform circular motion). The 'Tusi Couple' was the mathematical 'nuke' that proved you didn't need it. By rolling a small circle inside a larger circle (at twice the speed, in the opposite direction), a point on the small circle's rim moves back and forth in a perfect straight line. This tool was the key that Ibn al-Shatir and Copernicus needed for their new models.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/56/Stamps_of_Azerbaijan%2C_2009-861.jpg"
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "📚",
-        "text": "马拉盖天文台的图书馆藏有约40万册手稿，是当时世界上最大的图书馆之一。",
-        "text_en": "The library at the Maragha Observatory contained an estimated 400,000 manuscripts, making it one of the largest in the world at the time."
-      },
-      {
-        "icon": "📐",
-        "text": "图西也是一位顶尖数学家，他首次将“三角学”作为一门独立的数学学科，使其脱离了天文学。",
-        "text_en": "Tusi was also a primary mathematician who was the first to treat 'Trigonometry' as its own mathematical discipline, separate from astronomy."
-      }
+    "field": [
+        "天文学",
+        "数学",
+        "哲学"
     ],
-  
-    "simple_explanation": {
-      "text": "想象一下，你坐在一个游乐园的“咖啡杯”里（小圆），而这个“咖啡杯”本身又被固定在一个巨大的“旋转平台”上（大圆）。如果让你以两倍的速度反向旋转“咖啡杯”，而“旋转平台”正常旋转，你猜会发生什么？你不会转圈，而是会沿着一条完美的“直线”来回移动。这就是图西的伟大发现：他找到了如何用“完美的圆”来制造“直线”。这在数学上打开了一扇大门，让后来的天文学家（如伊本·沙蒂尔和哥白尼）得以“修复”托勒密的模型。",
-      "text_en": "Imagine you are in a 'teacup' ride (a small circle) that is sitting on the edge of a giant 'turntable' (a large circle). If the teacup spins *backwards* at *twice the speed* that the main turntable spins forwards, you won't go in circles at all. You will move back and forth in a *perfectly straight line*. This was Tusi's discovery: how to make a straight line out of perfect circles. It was the mathematical key that let later astronomers 'fix' Ptolemy's model.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2_Tusi_inversions_90X20.gif"
-    },
-  
-    "applications": [
-        {
-          "icon": "🪐",
-          "title": "修复托勒密模型",
-          "title_en": "Fixing Ptolemaic Models",
-          "text": "“图西圆偶”成为了马拉盖学派（以及后来的哥白尼）取代“偏心匀速点”的标准数学工具。",
-          "text_en": "The 'Tusi Couple' became the standard mathematical tool used by the Maragha school (and later Copernicus) to replace the Equant."
-        },
-        {
-          "icon": "⚙️",
-          "title": "机械工程",
-          "title_en": "Mechanical Engineering",
-          "text": "“图西圆偶”是“联轴器”的一种，是机械工程中将旋转运动转化为往复直线运动的重要机制。",
-          "text_en": "The 'Tusi Couple' is a type of 'linkage' and an important mechanism in engineering for converting rotational motion into linear reciprocating motion."
+    "field_en": [
+        "Astronomy",
+        "Mathematics",
+        "Philosophy"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/TusiCouple.gif",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=HDZR2hOUKLM",
+            "title": "纳西尔丁·图西与行星模型",
+            "title_en": "Al Tusi and the Planetary Model — The Astronomers Innovations",
+            "duration": "16:42"
         }
-      ],
-  
-    "impact": {
-      "text": "图西和马拉盖天文台发起了“马拉盖革命”，这是对托勒密天文学的第一次系统性、数学性的攻击。他提供的数学工具（如图西圆偶）通过伊本·沙蒂尔等人，最终被哥白尼所采用，成为了哥白尼革命（日心说）在数学上的关键部件之一。他证明了托勒密的权威是可以被挑战和“修复”的。",
-      "text_en": "Tusi and the Maragha Observatory began the 'Maragha Revolution', the first systematic, mathematical assault on Ptolemaic astronomy. The tools he developed (like the Tusi Couple) were adopted by Copernicus (via Ibn al-Shatir) and became a critical mathematical component of the Copernican Revolution. He proved that Ptolemy's authority could be challenged and 'fixed'.",
-      "stats": [
-          {
-            "number": "400,000",
-            "label": "册藏书",
-            "label_en": "Manuscripts"
-          }
+    },
+    "summary": {
+        "text": "纳西尔丁·图西是一位波斯博学家。在伊儿汗国可汗的赞助下，他建立了当时世界上最先进的“马拉盖天文台”(Maragha Observatory)。他发起了一场对托勒密模型的系统性批判，尤其是针对其“偏心匀速点”(Equant) 违背了匀速圆周运动的哲学。为此，他发明了一个巧妙的数学工具——“图西圆偶”(Tusi Couple)，该工具可以通过两个圆的匀速转动，来产生完美的直线运动。",
+        "text_en": "Nasir al-Din al-Tusi was a Persian polymath who, under the patronage of the Ilkhanate, built the 'Maragha Observatory', the most advanced in the world. He initiated a systematic critique of Ptolemy's model, specifically its use of the 'Equant', which violated the philosophy of uniform circular motion. To solve this, he invented an ingenious mathematical device, the 'Tusi Couple', which can generate perfect linear motion from the combination of two uniform circular motions.",
+        "key_points": [
+            "建立了“马拉盖天文台”",
+            "发起了“马拉盖革命”（对托勒密的批判）",
+            "发明了“图西圆偶”(Tusi Couple)",
+            "证明了可以从“匀速圆周运动”中产生“直线运动”",
+            "目标是移除托勒密的“偏心匀速点”(Equant)"
+        ],
+        "key_points_en": [
+            "Founded the 'Maragha Observatory'",
+            "Initiated the 'Maragha Revolution' (critique of Ptolemy)",
+            "Invented the 'Tusi Couple'",
+            "Proved linear motion can arise from uniform circular motion",
+            "Goal was to eliminate Ptolemy's 'Equant'"
         ]
     },
-  
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "ptolemy_geocentrism_150",
-          "contribution": "托勒密（其“偏心匀速点”是图西试图解决的核心问题）",
-          "contribution_en": "Ptolemy (whose 'Equant' was the central problem Tusi sought to fix)"
-        },
-        {
-          "id": "aristotle_physics_BC350",
-          "contribution": "亚里士多德（其“匀速圆周运动”的哲学是图西试图维护的原则）",
-          "contribution_en": "Aristotle (whose philosophy of 'uniform circular motion' was the principle Tusi was trying to uphold)"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "ibn_al_shatir_model_1350",
-          "contribution": "伊本·沙蒂尔（其学生，运用“图西圆偶”完善了地心说模型）",
-          "contribution_en": "Ibn al-Shatir (his student, who used the 'Tusi Couple' to perfect the geocentric model)"
-        },
-        {
-          "id": "copernicus_heliocentrism_1543",
-          "contribution": "哥白尼（其数学模型间接（或直接）借用了“图西圆偶”来取代偏心匀速点）",
-          "contribution_en": "Copernicus (whose mathematical models indirectly (or directly) borrowed the 'Tusi Couple' to replace the equant)"
-        }
-      ],
-      "legacy_text": "纳西尔丁·图西是伊斯兰黄金时代科学的顶峰，他发明的数学工具为欧洲的科学革命提供了关键部件。",
-      "legacy_text_en": "Nasir al-Din al-Tusi was the peak of Islamic Golden Age science, and the mathematical tools he invented provided critical components for the European Scientific Revolution."
+    "story": {
+        "text": "马拉盖天文台是中世纪科学的“曼哈顿计划”。图西汇集了来自波斯、叙利亚甚至中国的顶尖学者。他们共同的目标是“修复”托勒密的宇宙模型。托勒密的模型（`ptolemy_geocentrism_150`）为了预测准确，引入了“偏心匀速点”，这在哲学上是不可接受的（它违背了亚里士多德的“完美圆周运动”）。图西的“图西圆偶”是一个数学上的“核武器”：它证明了你不需要托勒密的“丑陋”工具。通过将一个小圆放在一个大圆内部，让小圆以大圆两倍的速度反向旋转，小圆边缘上的一个点会沿着大圆的直径做完美的直线往复运动。这个工具后来被伊本·沙蒂尔和哥白尼用来构建他们的新模型。",
+        "text_en": "The Maragha Observatory was the 'Manhattan Project' of medieval science. Tusi assembled the greatest minds from Persia, Syria, and even China. Their goal was to 'fix' Ptolemy's cosmos. Ptolemy's model (`ptolemy_geocentrism_150`) used the 'Equant' to be predictive, which was philosophically unacceptable (it wasn't uniform circular motion). The 'Tusi Couple' was the mathematical 'nuke' that proved you didn't need it. By rolling a small circle inside a larger circle (at twice the speed, in the opposite direction), a point on the small circle's rim moves back and forth in a perfect straight line. This tool was the key that Ibn al-Shatir and Copernicus needed for their new models.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/56/Stamps_of_Azerbaijan%2C_2009-861.jpg"
     },
-  
-    "related_concepts": ["图西圆偶 (Tusi Couple)", "马拉盖学派 (Maragha School)", "偏心匀速点 (Equant)", "伊斯兰黄金时代", "伊本·沙蒂尔", "哥白尼", "天文学大成 (Almagest)"],
-    "related_concepts_en": ["Tusi Couple", "Maragha School", "Equant", "Islamic Golden Age", "Ibn al-Shatir", "Copernicus", "Almagest"],
-  
+    "fun_facts": [
+        {
+            "icon": "📚",
+            "text": "马拉盖天文台的图书馆藏有约40万册手稿，是当时世界上最大的图书馆之一。",
+            "text_en": "The library at the Maragha Observatory contained an estimated 400,000 manuscripts, making it one of the largest in the world at the time."
+        },
+        {
+            "icon": "📐",
+            "text": "图西也是一位顶尖数学家，他首次将“三角学”作为一门独立的数学学科，使其脱离了天文学。",
+            "text_en": "Tusi was also a primary mathematician who was the first to treat 'Trigonometry' as its own mathematical discipline, separate from astronomy."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一下，你坐在一个游乐园的“咖啡杯”里（小圆），而这个“咖啡杯”本身又被固定在一个巨大的“旋转平台”上（大圆）。如果让你以两倍的速度反向旋转“咖啡杯”，而“旋转平台”正常旋转，你猜会发生什么？你不会转圈，而是会沿着一条完美的“直线”来回移动。这就是图西的伟大发现：他找到了如何用“完美的圆”来制造“直线”。这在数学上打开了一扇大门，让后来的天文学家（如伊本·沙蒂尔和哥白尼）得以“修复”托勒密的模型。",
+        "text_en": "Imagine you are in a 'teacup' ride (a small circle) that is sitting on the edge of a giant 'turntable' (a large circle). If the teacup spins *backwards* at *twice the speed* that the main turntable spins forwards, you won't go in circles at all. You will move back and forth in a *perfectly straight line*. This was Tusi's discovery: how to make a straight line out of perfect circles. It was the mathematical key that let later astronomers 'fix' Ptolemy's model.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2_Tusi_inversions_90X20.gif"
+    },
+    "applications": [
+        {
+            "icon": "🪐",
+            "title": "修复托勒密模型",
+            "title_en": "Fixing Ptolemaic Models",
+            "text": "“图西圆偶”成为了马拉盖学派（以及后来的哥白尼）取代“偏心匀速点”的标准数学工具。",
+            "text_en": "The 'Tusi Couple' became the standard mathematical tool used by the Maragha school (and later Copernicus) to replace the Equant."
+        },
+        {
+            "icon": "⚙️",
+            "title": "机械工程",
+            "title_en": "Mechanical Engineering",
+            "text": "“图西圆偶”是“联轴器”的一种，是机械工程中将旋转运动转化为往复直线运动的重要机制。",
+            "text_en": "The 'Tusi Couple' is a type of 'linkage' and an important mechanism in engineering for converting rotational motion into linear reciprocating motion."
+        }
+    ],
+    "impact": {
+        "text": "图西和马拉盖天文台发起了“马拉盖革命”，这是对托勒密天文学的第一次系统性、数学性的攻击。他提供的数学工具（如图西圆偶）通过伊本·沙蒂尔等人，最终被哥白尼所采用，成为了哥白尼革命（日心说）在数学上的关键部件之一。他证明了托勒密的权威是可以被挑战和“修复”的。",
+        "text_en": "Tusi and the Maragha Observatory began the 'Maragha Revolution', the first systematic, mathematical assault on Ptolemaic astronomy. The tools he developed (like the Tusi Couple) were adopted by Copernicus (via Ibn al-Shatir) and became a critical mathematical component of the Copernican Revolution. He proved that Ptolemy's authority could be challenged and 'fixed'.",
+        "stats": [
+            {
+                "number": "400,000",
+                "label": "册藏书",
+                "label_en": "Manuscripts"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "ptolemy_geocentrism_150",
+                "contribution": "托勒密（其“偏心匀速点”是图西试图解决的核心问题）",
+                "contribution_en": "Ptolemy (whose 'Equant' was the central problem Tusi sought to fix)"
+            },
+            {
+                "id": "aristotle_physics_BC350",
+                "contribution": "亚里士多德（其“匀速圆周运动”的哲学是图西试图维护的原则）",
+                "contribution_en": "Aristotle (whose philosophy of 'uniform circular motion' was the principle Tusi was trying to uphold)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "ibn_al_shatir_model_1350",
+                "contribution": "伊本·沙蒂尔（其学生，运用“图西圆偶”完善了地心说模型）",
+                "contribution_en": "Ibn al-Shatir (his student, who used the 'Tusi Couple' to perfect the geocentric model)"
+            },
+            {
+                "id": "copernicus_heliocentrism_1543",
+                "contribution": "哥白尼（其数学模型间接（或直接）借用了“图西圆偶”来取代偏心匀速点）",
+                "contribution_en": "Copernicus (whose mathematical models indirectly (or directly) borrowed the 'Tusi Couple' to replace the equant)"
+            }
+        ],
+        "legacy_text": "纳西尔丁·图西是伊斯兰黄金时代科学的顶峰，他发明的数学工具为欧洲的科学革命提供了关键部件。",
+        "legacy_text_en": "Nasir al-Din al-Tusi was the peak of Islamic Golden Age science, and the mathematical tools he invented provided critical components for the European Scientific Revolution."
+    },
+    "related_concepts": [
+        "图西圆偶 (Tusi Couple)",
+        "马拉盖学派 (Maragha School)",
+        "偏心匀速点 (Equant)",
+        "伊斯兰黄金时代",
+        "伊本·沙蒂尔",
+        "哥白尼",
+        "天文学大成 (Almagest)"
+    ],
+    "related_concepts_en": [
+        "Tusi Couple",
+        "Maragha School",
+        "Equant",
+        "Islamic Golden Age",
+        "Ibn al-Shatir",
+        "Copernicus",
+        "Almagest"
+    ],
     "quiz": {
-      "question": "纳西尔丁·图西发明的“图西圆偶”实现了什么在当时看来不可思议的壮举？",
-      "question_en": "What seemingly impossible feat did Nasir al-Din al-Tusi's 'Tusi Couple' accomplish?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tusi-couple-animation.gif/640px-Tusi-couple-animation.gif",
-      "options": [
-        "将铅变成了黄金",
-        "证明了太阳是中心",
-        "从完美的“圆周运动”中产生了“直线运动”",
-        "发现了万有引力"
-      ],
-      "options_en": [
-        "It turned lead into gold",
-        "It proved the Sun was the center of the universe",
-        "It generated 'linear motion' from perfect 'circular motion'",
-        "It discovered universal gravity"
-      ],
-      "answer": 2,
-      "explanation": "“图西圆偶”是一个纯数学设备，它通过两个圆周运动的巧妙组合，使其边缘的一个点沿着一条直线往复运动。这为天文学家提供了一个“符合哲学”的工具来取代托勒密的“偏心匀速点”。",
-      "explanation_en": "The 'Tusi Couple' is a purely mathematical device. By cleverly combining two circular motions, it makes a point on its rim move back and forth in a straight line. This gave astronomers a 'philosophically pure' tool to replace Ptolemy's 'Equant'."
+        "question": "纳西尔丁·图西发明的“图西圆偶”实现了什么在当时看来不可思议的壮举？",
+        "question_en": "What seemingly impossible feat did Nasir al-Din al-Tusi's 'Tusi Couple' accomplish?",
+        "options": [
+            "将铅变成了黄金",
+            "证明了太阳是中心",
+            "从完美的“圆周运动”中产生了“直线运动”",
+            "发现了万有引力"
+        ],
+        "options_en": [
+            "It turned lead into gold",
+            "It proved the Sun was the center of the universe",
+            "It generated 'linear motion' from perfect 'circular motion'",
+            "It discovered universal gravity"
+        ],
+        "answer": 2,
+        "explanation": "“图西圆偶”是一个纯数学设备，它通过两个圆周运动的巧妙组合，使其边缘的一个点沿着一条直线往复运动。这为天文学家提供了一个“符合哲学”的工具来取代托勒密的“偏心匀速点”。",
+        "explanation_en": "The 'Tusi Couple' is a purely mathematical device. By cleverly combining two circular motions, it makes a point on its rim move back and forth in a straight line. This gave astronomers a 'philosophically pure' tool to replace Ptolemy's 'Equant'."
     }
-  }
+}

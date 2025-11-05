@@ -10,138 +10,151 @@
     "city_en": "Venice",
     "country": "威尼斯共和国 (今意大利)",
     "country_en": "Republic of Venice (Modern Italy)",
-    "field": ["天文学", "光学"],
-    "field_en": ["Astronomy", "Optics"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sidereus%2C_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg",
-      "video": {
-        "url": "https://www.youtube.com/embed/9qJut0CBs5w",
-        "title": "伽利略的望远镜发现了什么",
-        "title_en": "How Galileo Unlocked The Doors To The Universe",
-        "duration": "7:29"
-      }
-    },
-    
-    "summary": {
-      "text": "伽利略将他改进的望远镜指向天空，并迅速发表了他的惊人发现。在《星际信使》一书中，他展示了月球表面布满山脉和陨石坑，银河系是由无数恒星组成的，最重要的是，他发现了四颗卫星在环绕木星运行。",
-      "text_en": "Galileo pointed his improved telescope to the heavens and rapidly published his astonishing findings. In 'Sidereus Nuncius', he revealed the Moon was mountainous and cratered, the Milky Way was composed of countless stars, and, most importantly, he discovered four moons orbiting Jupiter.",
-      "key_points": [
-        "发现木星的四颗卫星（伽利略卫星）",
-        "观察到月球表面并非光滑，而是有山脉和“海洋”",
-        "证明银河系是由无数肉眼看不见的恒星组成",
-        "后来又发现了金星的相位和土星环（虽然他看不太清）"
-      ],
-      "key_points_en": [
-        "Discovered the four largest moons of Jupiter (Galilean moons)",
-        "Observed the Moon's surface was not smooth, but mountainous and cratered",
-        "Proved the Milky Way is composed of innumerable stars invisible to the naked eye",
-        "Later discovered the phases of Venus and the rings of Saturn (though he saw them poorly)"
-      ]
-    },
-  
-    "story": {
-      "text": "1609年，伽利略听说了荷兰人汉斯·利伯希（Hans Lippershey）发明了一种“望远镜”。伽利略没有见过这个装置，仅凭描述就在一夜之间造出了一个3倍放大的版本，并迅速改进到约20倍。当他把这个新工具指向夜空时，他所看到的景象将永远改变人类的世界观。他最震撼的发现是木星：他看到三个（后来是四个）小“星星”在木星附近排成一线。通过连续几晚的观察，他震惊地意识到——它们在绕着木星旋转。这意味着，地球并不是宇宙中所有运动的中心。",
-      "text_en": "In 1609, Galileo heard of a 'spyglass' invented by the Dutchman Hans Lippershey. Without ever seeing it, Galileo built his own 3x version overnight from description alone, and quickly improved it to ~20x. When he pointed this new tool at the night sky, what he saw would change the world forever. His most shocking discovery was Jupiter: he saw three (and later four) tiny 'stars' in a line near it. Watching over several nights, he had a stunning realization—they were *orbiting* Jupiter. This proved that Earth was not the center of all motion in the universe."
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "👑",
-        "text": "伽利略将木星的四颗卫星命名为“美第奇星”(Stelle Medicee)，以纪念他的赞助人，佛罗伦萨的美第奇家族。这为他赢得了在佛罗伦萨宫廷的首席数学家和哲学家职位。",
-        "text_en": "Galileo named Jupiter's four moons the 'Medicean Stars' (Stelle Medicee) after his patrons, the Medici family of Florence. This move helped him secure the post of Chief Mathematician and Philosopher at the Medici court."
-      },
-      {
-        "icon": "⚔️",
-        "text": "伽利略首先将他的望远镜作为一种军事和商业工具推销给威尼斯总督，因为它可以提前两个小时发现海上的敌舰。",
-        "text_en": "Galileo first marketed his telescope to the Doge of Venice as a military and commercial tool, as it could spot enemy ships at sea two hours before they were visible to the naked eye."
-      }
+    "field": [
+        "天文学",
+        "光学"
     ],
-  
-    "simple_explanation": {
-      "text": "想象一下，你一直被告知，你家是全城的中心，所有人都必须绕着你的房子转。有一天，你得到一个望远镜，你用它看向远处的广场（木星），却发现有四只小狗（木星卫星）正在绕着广场上另一个人（木星）转圈。你立刻就会明白：你家并不是所有运动的唯一中心。这就是伽利略的发现对“地心说”的打击。",
-      "text_en": "Imagine you were told your entire life that your house is the center of town, and everyone *must* circle your house. One day, you get a telescope, look at a distant park (Jupiter), and see four dogs (Jupiter's moons) clearly running circles around *another person* (Jupiter). You would instantly realize your house is not the *only* center of motion. This is what Galileo's discovery did to the 'Earth-centered' model."      
+    "field_en": [
+        "Astronomy",
+        "Optics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sidereus%2C_nuncius_magna_longeqve_admirabilia_spectacula..._Wellcome_L0072633.jpg",
+        "video": {
+            "url": "https://www.youtube.com/embed/9qJut0CBs5w",
+            "title": "伽利略的望远镜发现了什么",
+            "title_en": "How Galileo Unlocked The Doors To The Universe",
+            "duration": "7:29"
+        }
     },
-  
+    "summary": {
+        "text": "伽利略将他改进的望远镜指向天空，并迅速发表了他的惊人发现。在《星际信使》一书中，他展示了月球表面布满山脉和陨石坑，银河系是由无数恒星组成的，最重要的是，他发现了四颗卫星在环绕木星运行。",
+        "text_en": "Galileo pointed his improved telescope to the heavens and rapidly published his astonishing findings. In 'Sidereus Nuncius', he revealed the Moon was mountainous and cratered, the Milky Way was composed of countless stars, and, most importantly, he discovered four moons orbiting Jupiter.",
+        "key_points": [
+            "发现木星的四颗卫星（伽利略卫星）",
+            "观察到月球表面并非光滑，而是有山脉和“海洋”",
+            "证明银河系是由无数肉眼看不见的恒星组成",
+            "后来又发现了金星的相位和土星环（虽然他看不太清）"
+        ],
+        "key_points_en": [
+            "Discovered the four largest moons of Jupiter (Galilean moons)",
+            "Observed the Moon's surface was not smooth, but mountainous and cratered",
+            "Proved the Milky Way is composed of innumerable stars invisible to the naked eye",
+            "Later discovered the phases of Venus and the rings of Saturn (though he saw them poorly)"
+        ]
+    },
+    "story": {
+        "text": "1609年，伽利略听说了荷兰人汉斯·利伯希（Hans Lippershey）发明了一种“望远镜”。伽利略没有见过这个装置，仅凭描述就在一夜之间造出了一个3倍放大的版本，并迅速改进到约20倍。当他把这个新工具指向夜空时，他所看到的景象将永远改变人类的世界观。他最震撼的发现是木星：他看到三个（后来是四个）小“星星”在木星附近排成一线。通过连续几晚的观察，他震惊地意识到——它们在绕着木星旋转。这意味着，地球并不是宇宙中所有运动的中心。",
+        "text_en": "In 1609, Galileo heard of a 'spyglass' invented by the Dutchman Hans Lippershey. Without ever seeing it, Galileo built his own 3x version overnight from description alone, and quickly improved it to ~20x. When he pointed this new tool at the night sky, what he saw would change the world forever. His most shocking discovery was Jupiter: he saw three (and later four) tiny 'stars' in a line near it. Watching over several nights, he had a stunning realization—they were *orbiting* Jupiter. This proved that Earth was not the center of all motion in the universe."
+    },
+    "fun_facts": [
+        {
+            "icon": "👑",
+            "text": "伽利略将木星的四颗卫星命名为“美第奇星”(Stelle Medicee)，以纪念他的赞助人，佛罗伦萨的美第奇家族。这为他赢得了在佛罗伦萨宫廷的首席数学家和哲学家职位。",
+            "text_en": "Galileo named Jupiter's four moons the 'Medicean Stars' (Stelle Medicee) after his patrons, the Medici family of Florence. This move helped him secure the post of Chief Mathematician and Philosopher at the Medici court."
+        },
+        {
+            "icon": "⚔️",
+            "text": "伽利略首先将他的望远镜作为一种军事和商业工具推销给威尼斯总督，因为它可以提前两个小时发现海上的敌舰。",
+            "text_en": "Galileo first marketed his telescope to the Doge of Venice as a military and commercial tool, as it could spot enemy ships at sea two hours before they were visible to the naked eye."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一下，你一直被告知，你家是全城的中心，所有人都必须绕着你的房子转。有一天，你得到一个望远镜，你用它看向远处的广场（木星），却发现有四只小狗（木星卫星）正在绕着广场上另一个人（木星）转圈。你立刻就会明白：你家并不是所有运动的唯一中心。这就是伽利略的发现对“地心说”的打击。",
+        "text_en": "Imagine you were told your entire life that your house is the center of town, and everyone *must* circle your house. One day, you get a telescope, look at a distant park (Jupiter), and see four dogs (Jupiter's moons) clearly running circles around *another person* (Jupiter). You would instantly realize your house is not the *only* center of motion. This is what Galileo's discovery did to the 'Earth-centered' model."
+    },
     "applications": [
         {
-          "icon": "☀️",
-          "title": "日心说的证据",
-          "title_en": "Evidence for Heliocentrism",        
-          "text": "木星卫星和金星相位的发现，为哥白尼的“日心说”提供了第一个强有力的、直接的观测证据。",
-          "text_en": "The discovery of Jupiter's moons and the phases of Venus provided the first strong, direct observational evidence for the Copernican 'Sun-centered' model."
+            "icon": "☀️",
+            "title": "日心说的证据",
+            "title_en": "Evidence for Heliocentrism",
+            "text": "木星卫星和金星相位的发现，为哥白尼的“日心说”提供了第一个强有力的、直接的观测证据。",
+            "text_en": "The discovery of Jupiter's moons and the phases of Venus provided the first strong, direct observational evidence for the Copernican 'Sun-centered' model."
         },
         {
-          "icon": "🔭",
-          "title": "观测天文学的诞生",
-          "title_en": "Birth of Observational Astronomy",
-          "text": "伽利略开创了使用仪器来验证（或推翻）物理理论的先河，将天文学从哲学思辨转变为一门实证科学。",
-          "text_en": "Galileo pioneered the use of instrumentation to verify (or falsify) physical theories, turning astronomy from philosophical speculation into an empirical science."
+            "icon": "🔭",
+            "title": "观测天文学的诞生",
+            "title_en": "Birth of Observational Astronomy",
+            "text": "伽利略开创了使用仪器来验证（或推翻）物理理论的先河，将天文学从哲学思辨转变为一门实证科学。",
+            "text_en": "Galileo pioneered the use of instrumentation to verify (or falsify) physical theories, turning astronomy from philosophical speculation into an empirical science."
         },
         {
-          "icon": "🗺️",
-          "title": "经度测定",
-          "title_en": "Determining Longitude",
-          "text": "伽利略意识到，木星卫星的运动就像一个“天钟”，他试图制作一个时间表，让海上的水手通过观测卫星来确定自己的经度。",
-          "text_en": "Galileo realized the movements of Jupiter's moons were like a 'celestial clock', and he tried to create a timetable so sailors could use them to determine their longitude at sea."
+            "icon": "🗺️",
+            "title": "经度测定",
+            "title_en": "Determining Longitude",
+            "text": "伽利略意识到，木星卫星的运动就像一个“天钟”，他试图制作一个时间表，让海上的水手通过观测卫星来确定自己的经度。",
+            "text_en": "Galileo realized the movements of Jupiter's moons were like a 'celestial clock', and he tried to create a timetable so sailors could use them to determine their longitude at sea."
         }
-      ],
-  
+    ],
     "impact": {
-      "text": "《星际信使》是科学史上最具爆炸性的出版物之一。它直接挑战了亚里士多德和托勒密坚持了两千年的“地心说”宇宙观，即地球是宇宙中心，天体是完美无瑕的。这些发现引发了“哥白尼革命”，并最终导致伽利略与天主教会的著名冲突。",
-      "text_en": "The 'Sidereus Nuncius' was one of the most explosive publications in scientific history. It directly challenged the 2,000-year-old Aristotelian and Ptolemaic worldview of an Earth-centered universe where the heavens were perfect and unchanging. These discoveries ignited the 'Copernican Revolution' and ultimately led to Galileo's famous conflict with the Catholic Church."
+        "text": "《星际信使》是科学史上最具爆炸性的出版物之一。它直接挑战了亚里士多德和托勒密坚持了两千年的“地心说”宇宙观，即地球是宇宙中心，天体是完美无瑕的。这些发现引发了“哥白尼革命”，并最终导致伽利略与天主教会的著名冲突。",
+        "text_en": "The 'Sidereus Nuncius' was one of the most explosive publications in scientific history. It directly challenged the 2,000-year-old Aristotelian and Ptolemaic worldview of an Earth-centered universe where the heavens were perfect and unchanging. These discoveries ignited the 'Copernican Revolution' and ultimately led to Galileo's famous conflict with the Catholic Church."
     },
-  
     "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "lippershey_telescope_1608",
-          "contribution": "汉斯·利伯希（或其他荷兰眼镜制造商）发明了望远镜",
-          "contribution_en": "Hans Lippershey (or other Dutch spectacle-makers) for the invention of the spyglass"
-        },
-        {
-          "id": "copernicus_heliocentrism_1543",
-          "contribution": "哥白尼的日心说模型，为伽利略提供了需要验证的理论框架",
-          "contribution_en": "Copernicus's heliocentric model, which gave Galileo a theoretical framework to verify"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "kepler_laws_1609",
-          "contribution": "伽利略的观测数据（特别是金星相位）为开普勒的行星运动定律提供了支持",
-          "contribution_en": "Galileo's observational data (especially the phases of Venus) provided support for Kepler's laws of planetary motion"
-        },
-        {
-          "id": "newton_motion_laws_1687",
-          "contribution": "伽利略对天体的观测，证实了“天上的”物理规律和“地上的”是一致的，为牛顿的统一理论铺平了道路",
-          "contribution_en": "His observation of celestial bodies confirmed that 'heavenly' physics was the same as 'terrestrial' physics, paving the way for Newton's unified theory"
-        }
-      ],
-      "legacy_text": "伽利略是第一个用望远镜对宇宙进行系统观测的人，他用观测事实永远地改变了人类在宇宙中的位置。",
-      "legacy_text_en": "Galileo was the first person to systematically observe the cosmos with a telescope, and he used observational fact to permanently change humanity's place in the universe."
+        "influenced_by": [
+            {
+                "id": "lippershey_telescope_1608",
+                "contribution": "汉斯·利伯希（或其他荷兰眼镜制造商）发明了望远镜",
+                "contribution_en": "Hans Lippershey (or other Dutch spectacle-makers) for the invention of the spyglass"
+            },
+            {
+                "id": "copernicus_heliocentrism_1543",
+                "contribution": "哥白尼的日心说模型，为伽利略提供了需要验证的理论框架",
+                "contribution_en": "Copernicus's heliocentric model, which gave Galileo a theoretical framework to verify"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "kepler_laws_1609",
+                "contribution": "伽利略的观测数据（特别是金星相位）为开普勒的行星运动定律提供了支持",
+                "contribution_en": "Galileo's observational data (especially the phases of Venus) provided support for Kepler's laws of planetary motion"
+            },
+            {
+                "id": "newton_motion_laws_1687",
+                "contribution": "伽利略对天体的观测，证实了“天上的”物理规律和“地上的”是一致的，为牛顿的统一理论铺平了道路",
+                "contribution_en": "His observation of celestial bodies confirmed that 'heavenly' physics was the same as 'terrestrial' physics, paving the way for Newton's unified theory"
+            }
+        ],
+        "legacy_text": "伽利略是第一个用望远镜对宇宙进行系统观测的人，他用观测事实永远地改变了人类在宇宙中的位置。",
+        "legacy_text_en": "Galileo was the first person to systematically observe the cosmos with a telescope, and he used observational fact to permanently change humanity's place in the universe."
     },
-  
-    "related_concepts": ["日心说", "地心说", "哥白尼革命", "木星卫星", "金星相位", "星际信使", "望远镜", "伽利略审判"],
-    "related_concepts_en": ["Heliocentrism", "Geocentrism", "Copernican Revolution", "Moons of Jupiter", "Phases of Venus", "Sidereus Nuncius", "Telescope", "Galileo Affair"],
-  
+    "related_concepts": [
+        "日心说",
+        "地心说",
+        "哥白尼革命",
+        "木星卫星",
+        "金星相位",
+        "星际信使",
+        "望远镜",
+        "伽利略审判"
+    ],
+    "related_concepts_en": [
+        "Heliocentrism",
+        "Geocentrism",
+        "Copernican Revolution",
+        "Moons of Jupiter",
+        "Phases of Venus",
+        "Sidereus Nuncius",
+        "Telescope",
+        "Galileo Affair"
+    ],
     "quiz": {
-      "question": "伽利略对木星卫星的发现，是如何直接挑战“地心说”模型的？",
-      "question_en": "How did Galileo's discovery of Jupiter's moons directly challenge the 'Earth-centered' model?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Galileo_drawings_of_Jupiter%27s_moons_from_Sidereus_Nuncius.jpg/640px-Galileo_drawings_of_Jupiter%27s_moons_from_Sidereus_Nuncius.jpg",
-      "options": [
-        "证明了木星比地球大",
-        "证明了月球表面有山",
-        "证明了并非所有天体都围绕地球旋转",
-        "证明了银河系由恒星组成"
-      ],
-      "options_en": [
-        "It proved Jupiter was larger than Earth",
-        "It proved the Moon had mountains",
-        "It proved that not all heavenly bodies orbited the Earth",
-        "It proved the Milky Way was made of stars"
-      ],
-      "answer": 2,
-      "explanation": "“地心说”的核心论点是地球是宇宙中所有运动的唯一中心。伽利略发现有四颗卫星在明确地围绕木星旋转，这无可辩驳地表明，宇宙中存在第二个运动中心。",
-      "explanation_en": "The core tenet of the geocentric model was that Earth was the *only* center of all motion in the universe. Finding four moons clearly orbiting Jupiter proved irrefutably that another center of motion existed."
+        "question": "伽利略对木星卫星的发现，是如何直接挑战“地心说”模型的？",
+        "question_en": "How did Galileo's discovery of Jupiter's moons directly challenge the 'Earth-centered' model?",
+        "options": [
+            "证明了木星比地球大",
+            "证明了月球表面有山",
+            "证明了并非所有天体都围绕地球旋转",
+            "证明了银河系由恒星组成"
+        ],
+        "options_en": [
+            "It proved Jupiter was larger than Earth",
+            "It proved the Moon had mountains",
+            "It proved that not all heavenly bodies orbited the Earth",
+            "It proved the Milky Way was made of stars"
+        ],
+        "answer": 2,
+        "explanation": "“地心说”的核心论点是地球是宇宙中所有运动的唯一中心。伽利略发现有四颗卫星在明确地围绕木星旋转，这无可辩驳地表明，宇宙中存在第二个运动中心。",
+        "explanation_en": "The core tenet of the geocentric model was that Earth was the *only* center of all motion in the universe. Finding four moons clearly orbiting Jupiter proved irrefutably that another center of motion existed."
     }
-  }
+}

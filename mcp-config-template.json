@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "wikipedia": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-wikipedia"
+      ],
+      "env": {
+        "WIKI_LANG": "en"
+      }
+    },
+    "mediawiki": {
+      "command": "node",
+      "args": [
+        "/path/to/your/mcp-mediawiki-server/index.js"
+      ],
+      "env": {
+        "WIKI_API_URL": "https://your-wiki.com/api.php",
+        "WIKI_USERNAME": "your-username",
+        "WIKI_PASSWORD": "your-password"
+      }
+    }
+  }
+}
+

@@ -4,157 +4,170 @@
     "title": "发表广义相对论",
     "title_en": "Publishes General Theory of Relativity",
     "year": 1915,
-    "lat": 52.5200,
-    "lng": 13.4050,
+    "lat": 52.52,
+    "lng": 13.405,
     "city": "柏林",
     "city_en": "Berlin",
     "country": "德国",
     "country_en": "Germany",
-    "field": ["物理学", "引力", "宇宙学"],
-    "field_en": ["Physics", "Gravitation", "Cosmology"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Spacetime_lattice_analogy_white.svg",
-      "video": {
-        "url": "https://www.youtube.com/embed/gKS2eD8iyuo",
-        "title": "弯曲的时空 -- 广义相对论",
-        "title_en": "The Curvature of Spacetime | General Relativity ",
-        "duration": "10:57"
-      }
-    },
-    
-    "summary": {
-      "text": "爱因斯坦在1915年向普鲁士科学院提交了他的广义相对论。这是一个全新的引力理论，它将引力描述为时空的一种几何属性。他提出，引力并不是一种“力”，而是质量和能量导致时空结构弯曲的结果。",
-      "text_en": "In 1915, Einstein presented his General Theory of Relativity to the Prussian Academy of Sciences. It is a new theory of gravitation, describing gravity as a geometric property of spacetime. He proposed that gravity is not a 'force', but rather the result of mass and energy 'curving' the fabric of spacetime.",
-      "key_points": [
-        "引力是时空弯曲的结果",
-        "等效原理（引力=加速度）",
-        "物质告诉时空如何弯曲，时空告诉物质如何运动",
-        "取代了牛顿的万有引力定律"
-      ],
-      "key_points_en": [
-        "Gravity is the result of spacetime curvature",
-        "The Equivalence Principle (Gravity = Acceleration)",
-        "Matter tells spacetime how to curve; spacetime tells matter how to move",
-        "Supersedes Newton's Law of Universal Gravitation"
-      ]
-    },
-  
-    "story": {
-      "text": "广义相对论最著名的验证发生在1919年。英国天文学家亚瑟·爱丁顿（Arthur Eddington）爵士领导了一个探险队，在日全食期间观察星光。他们测量到，来自遥远恒星的光线在经过太阳附近时，确实如爱因斯坦所预测的那样发生了弯曲。这一戏剧性的证据使爱因斯坦一夜之间全球闻名。",
-      "text_en": "The most famous confirmation of General Relativity came in 1919. British astronomer Sir Arthur Eddington led an expedition to observe starlight during a total solar eclipse. They measured that light from distant stars did indeed 'bend' as it passed the sun, precisely as Einstein had predicted. This dramatic proof made Einstein a global celebrity overnight."
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "⏳",
-        "text": "爱因斯坦花了近10年时间（从1905到1915），在数学家马塞尔·格罗斯曼（Marcel Grossmann）的帮助下，才将狭义相对论扩展为广义相对论。",
-        "text_en": "It took Einstein nearly 10 years (from 1905 to 1915) and the help of mathematician Marcel Grossmann to generalize his theory of Special Relativity into General Relativity."
-      },
-      {
-        "icon": "⚖️",
-        "text": "广义相对论还完美地解释了“水星近日点进动”的异常现象，这是牛顿引力理论无法解决的一个世纪难题。",
-        "text_en": "General Relativity also perfectly explained the anomalous 'perihelion precession of Mercury', a century-old problem that Newton's theory of gravity could not solve."
-      }
+    "field": [
+        "物理学",
+        "引力",
+        "宇宙学"
     ],
-  
-    "simple_explanation": {
-      "text": "想象一张拉紧的蹦床（时空）。如果你把一个保龄球（太阳）放在中间，蹦床会向下凹陷。现在，如果你在附近滚动一个弹珠（地球），它并不会“直线”前进，而是会沿着蹦床的曲线旋转。弹珠并不是被保龄球用一种神秘的力“拉”过去的，它只是在沿着弯曲的空间前进。这就是引力。",
-      "text_en": "Imagine a stretched trampoline (spacetime). If you place a bowling ball (the Sun) in the middle, the trampoline sinks. Now, if you roll a marble (the Earth) nearby, it won't travel in a straight line; it will circle the bowling ball by following the curve in the trampoline. The marble isn't being 'pulled' by a mysterious force; it's just following the curved path. That's gravity.",
-      "diagram": "assets/images/curved_spacetime.jpg"
-    },
-  
-    "applications": [
-        {
-          "icon": "🛰️",
-          "title": "GPS 全球定位系统",
-          "title_en": "GPS Global Positioning System",
-          "text": "广义相对论预测，引力越强，时间流逝越慢。GPS卫星上的时钟（引力弱）比地面时钟快。必须校正这种“引力时间膨胀”，否则GPS会失效。",
-          "text_en": "General Relativity predicts that time moves slower in stronger gravity. Clocks on GPS satellites (weaker gravity) run faster than Earth clocks. This 'gravitational time dilation' must be corrected for GPS to work."
-        },
-        {
-          "icon": "⚫",
-          "title": "黑洞的理解",
-          "title_en": "Understanding Black Holes",
-          "text": "广义相对论的方程预测了时空可以被极度弯曲，以至于光都无法逃脱，从而形成了黑洞。",
-          "text_en": "The equations of General Relativity predicted the existence of regions where spacetime is curved so extremely that not even light can escape: black holes."
-        },
-        {
-          "icon": "🔭",
-          "title": "引力透镜",
-          "title_en": "Gravitational Lensing",
-          "text": "星系团等巨大质量会弯曲来自其后方星系的光线，像透镜一样将其放大或扭曲。天文学家利用这个效应来研究遥远的宇宙。",
-          "text_en": "Massive objects like galaxy clusters bend the light from galaxies behind them, acting as a 'lens' to magnify or distort the image. Astronomers use this effect to study the distant universe."
+    "field_en": [
+        "Physics",
+        "Gravitation",
+        "Cosmology"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Spacetime_lattice_analogy_white.svg",
+        "video": {
+            "url": "https://www.youtube.com/embed/gKS2eD8iyuo",
+            "title": "弯曲的时空 -- 广义相对论",
+            "title_en": "The Curvature of Spacetime | General Relativity ",
+            "duration": "10:57"
         }
-      ],
-  
-    "impact": {
-      "text": "广义相对论是牛顿引力理论的重大超越，它构成了现代宇宙学的基础。它使我们能够理解宇宙的起源（大爆炸）、演化、黑洞以及引力波等现象。",
-      "text_en": "General Relativity is a major supersession of Newton's law of gravity and forms the basis of modern cosmology. It allows us to understand the origin (Big Bang) and evolution of the universe, black holes, and gravitational waves.",
-      "stats": [
-          {
-            "number": "10",
-            "label": "年发展时间",
-            "label_en": "Years to Develop"
-          },
-          {
-            "number": "1919",
-            "label": "年日食验证",
-            "label_en": "Eclipse Confirmation"
-          }
+    },
+    "summary": {
+        "text": "爱因斯坦在1915年向普鲁士科学院提交了他的广义相对论。这是一个全新的引力理论，它将引力描述为时空的一种几何属性。他提出，引力并不是一种“力”，而是质量和能量导致时空结构弯曲的结果。",
+        "text_en": "In 1915, Einstein presented his General Theory of Relativity to the Prussian Academy of Sciences. It is a new theory of gravitation, describing gravity as a geometric property of spacetime. He proposed that gravity is not a 'force', but rather the result of mass and energy 'curving' the fabric of spacetime.",
+        "key_points": [
+            "引力是时空弯曲的结果",
+            "等效原理（引力=加速度）",
+            "物质告诉时空如何弯曲，时空告诉物质如何运动",
+            "取代了牛顿的万有引力定律"
+        ],
+        "key_points_en": [
+            "Gravity is the result of spacetime curvature",
+            "The Equivalence Principle (Gravity = Acceleration)",
+            "Matter tells spacetime how to curve; spacetime tells matter how to move",
+            "Supersedes Newton's Law of Universal Gravitation"
         ]
     },
-  
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "einstein_special_relativity_1905",
-          "contribution": "提供了狭义相对论作为没有引力时的基础框架",
-          "contribution_en": "Provided the foundational framework of Special Relativity in the absence of gravity"
-        },
-        {
-          "id": "riemann_geometry_1854",
-          "contribution": "黎曼几何，提供了描述弯曲空间所需的数学工具",
-          "contribution_en": "Riemannian Geometry, which provided the mathematical tools needed to describe curved space"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "friedmann_bigbang_1922",
-          "contribution": "弗里德曼利用广义相对论方程导出了宇宙膨胀的解（大爆炸理论）",
-          "contribution_en": "Friedmann used GR's equations to find solutions describing an expanding universe (Big Bang theory)"
-        },
-        {
-          "id": "ligo_gravitational_waves_2015",
-          "contribution": "LIGO/Virgo合作组织首次直接探测到引力波，证实了广义相对论的百年预言",
-          "contribution_en": "LIGO/Virgo collaboration made the first direct detection of gravitational waves, confirming a century-old prediction of GR"
-        }
-      ],
-      "legacy_text": "广义相对论将引力从一种力重新定义为时空本身的几何形状。",
-      "legacy_text_en": "General Relativity redefined gravity from a force into the very geometry of spacetime itself."
+    "story": {
+        "text": "广义相对论最著名的验证发生在1919年。英国天文学家亚瑟·爱丁顿（Arthur Eddington）爵士领导了一个探险队，在日全食期间观察星光。他们测量到，来自遥远恒星的光线在经过太阳附近时，确实如爱因斯坦所预测的那样发生了弯曲。这一戏剧性的证据使爱因斯坦一夜之间全球闻名。",
+        "text_en": "The most famous confirmation of General Relativity came in 1919. British astronomer Sir Arthur Eddington led an expedition to observe starlight during a total solar eclipse. They measured that light from distant stars did indeed 'bend' as it passed the sun, precisely as Einstein had predicted. This dramatic proof made Einstein a global celebrity overnight."
     },
-  
-    "related_concepts": ["时空曲率", "引力透镜", "黑洞", "引力波", "等效原理", "宇宙学", "大爆炸"],
-    "related_concepts_en": ["Spacetime Curvature", "Gravitational Lensing", "Black Holes", "Gravitational Waves", "Equivalence Principle", "Cosmology", "Big Bang"],
-  
+    "fun_facts": [
+        {
+            "icon": "⏳",
+            "text": "爱因斯坦花了近10年时间（从1905到1915），在数学家马塞尔·格罗斯曼（Marcel Grossmann）的帮助下，才将狭义相对论扩展为广义相对论。",
+            "text_en": "It took Einstein nearly 10 years (from 1905 to 1915) and the help of mathematician Marcel Grossmann to generalize his theory of Special Relativity into General Relativity."
+        },
+        {
+            "icon": "⚖️",
+            "text": "广义相对论还完美地解释了“水星近日点进动”的异常现象，这是牛顿引力理论无法解决的一个世纪难题。",
+            "text_en": "General Relativity also perfectly explained the anomalous 'perihelion precession of Mercury', a century-old problem that Newton's theory of gravity could not solve."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一张拉紧的蹦床（时空）。如果你把一个保龄球（太阳）放在中间，蹦床会向下凹陷。现在，如果你在附近滚动一个弹珠（地球），它并不会“直线”前进，而是会沿着蹦床的曲线旋转。弹珠并不是被保龄球用一种神秘的力“拉”过去的，它只是在沿着弯曲的空间前进。这就是引力。",
+        "text_en": "Imagine a stretched trampoline (spacetime). If you place a bowling ball (the Sun) in the middle, the trampoline sinks. Now, if you roll a marble (the Earth) nearby, it won't travel in a straight line; it will circle the bowling ball by following the curve in the trampoline. The marble isn't being 'pulled' by a mysterious force; it's just following the curved path. That's gravity.",
+        "diagram": "assets/images/curved_spacetime.jpg"
+    },
+    "applications": [
+        {
+            "icon": "🛰️",
+            "title": "GPS 全球定位系统",
+            "title_en": "GPS Global Positioning System",
+            "text": "广义相对论预测，引力越强，时间流逝越慢。GPS卫星上的时钟（引力弱）比地面时钟快。必须校正这种“引力时间膨胀”，否则GPS会失效。",
+            "text_en": "General Relativity predicts that time moves slower in stronger gravity. Clocks on GPS satellites (weaker gravity) run faster than Earth clocks. This 'gravitational time dilation' must be corrected for GPS to work."
+        },
+        {
+            "icon": "⚫",
+            "title": "黑洞的理解",
+            "title_en": "Understanding Black Holes",
+            "text": "广义相对论的方程预测了时空可以被极度弯曲，以至于光都无法逃脱，从而形成了黑洞。",
+            "text_en": "The equations of General Relativity predicted the existence of regions where spacetime is curved so extremely that not even light can escape: black holes."
+        },
+        {
+            "icon": "🔭",
+            "title": "引力透镜",
+            "title_en": "Gravitational Lensing",
+            "text": "星系团等巨大质量会弯曲来自其后方星系的光线，像透镜一样将其放大或扭曲。天文学家利用这个效应来研究遥远的宇宙。",
+            "text_en": "Massive objects like galaxy clusters bend the light from galaxies behind them, acting as a 'lens' to magnify or distort the image. Astronomers use this effect to study the distant universe."
+        }
+    ],
+    "impact": {
+        "text": "广义相对论是牛顿引力理论的重大超越，它构成了现代宇宙学的基础。它使我们能够理解宇宙的起源（大爆炸）、演化、黑洞以及引力波等现象。",
+        "text_en": "General Relativity is a major supersession of Newton's law of gravity and forms the basis of modern cosmology. It allows us to understand the origin (Big Bang) and evolution of the universe, black holes, and gravitational waves.",
+        "stats": [
+            {
+                "number": "10",
+                "label": "年发展时间",
+                "label_en": "Years to Develop"
+            },
+            {
+                "number": "1919",
+                "label": "年日食验证",
+                "label_en": "Eclipse Confirmation"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "einstein_special_relativity_1905",
+                "contribution": "提供了狭义相对论作为没有引力时的基础框架",
+                "contribution_en": "Provided the foundational framework of Special Relativity in the absence of gravity"
+            },
+            {
+                "id": "riemann_geometry_1854",
+                "contribution": "黎曼几何，提供了描述弯曲空间所需的数学工具",
+                "contribution_en": "Riemannian Geometry, which provided the mathematical tools needed to describe curved space"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "friedmann_bigbang_1922",
+                "contribution": "弗里德曼利用广义相对论方程导出了宇宙膨胀的解（大爆炸理论）",
+                "contribution_en": "Friedmann used GR's equations to find solutions describing an expanding universe (Big Bang theory)"
+            },
+            {
+                "id": "ligo_gravitational_waves_2015",
+                "contribution": "LIGO/Virgo合作组织首次直接探测到引力波，证实了广义相对论的百年预言",
+                "contribution_en": "LIGO/Virgo collaboration made the first direct detection of gravitational waves, confirming a century-old prediction of GR"
+            }
+        ],
+        "legacy_text": "广义相对论将引力从一种力重新定义为时空本身的几何形状。",
+        "legacy_text_en": "General Relativity redefined gravity from a force into the very geometry of spacetime itself."
+    },
+    "related_concepts": [
+        "时空曲率",
+        "引力透镜",
+        "黑洞",
+        "引力波",
+        "等效原理",
+        "宇宙学",
+        "大爆炸"
+    ],
+    "related_concepts_en": [
+        "Spacetime Curvature",
+        "Gravitational Lensing",
+        "Black Holes",
+        "Gravitational Waves",
+        "Equivalence Principle",
+        "Cosmology",
+        "Big Bang"
+    ],
     "quiz": {
-      "question": "根据广义相对论，天文学家看到的“引力透镜”效应是什么原因造成的？",
-      "question_en": "According to General Relativity, what causes the 'gravitational lensing' effect seen by astronomers?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Gravitational_lens_caustic.svg/640px-Gravitational_lens_caustic.svg.png",
-      "options": [
-        "光线穿过太空中的巨大玻璃状物质",
-        "来自遥远星系的光线发生了色散",
-        "前景星系团的巨大质量弯曲了其后方的时空",
-        "黑洞的磁场导致光线弯曲"
-      ],
-      "options_en": [
-        "Light passing through giant, glass-like objects in space",
-        "Light from distant galaxies being dispersed",
-        "The massive weight of a foreground galaxy cluster bending the spacetime behind it",
-        "The magnetic field of a black hole bending the light"
-      ],
-      "answer": 2,
-      "explanation": "广义相对论指出，巨大的质量（如星系团）会使其周围的时空弯曲。来自更遥远星系的光线会沿着这个弯曲的时空路径传播，就像光线通过透镜一样被弯曲和放大。",
-      "explanation_en": "General Relativity states that a large mass (like a galaxy cluster) curves the spacetime around it. Light from a more distant galaxy follows this curved path, causing its path to bend and its image to be magnified, just like a lens."
+        "question": "根据广义相对论，天文学家看到的“引力透镜”效应是什么原因造成的？",
+        "question_en": "According to General Relativity, what causes the 'gravitational lensing' effect seen by astronomers?",
+        "options": [
+            "光线穿过太空中的巨大玻璃状物质",
+            "来自遥远星系的光线发生了色散",
+            "前景星系团的巨大质量弯曲了其后方的时空",
+            "黑洞的磁场导致光线弯曲"
+        ],
+        "options_en": [
+            "Light passing through giant, glass-like objects in space",
+            "Light from distant galaxies being dispersed",
+            "The massive weight of a foreground galaxy cluster bending the spacetime behind it",
+            "The magnetic field of a black hole bending the light"
+        ],
+        "answer": 2,
+        "explanation": "广义相对论指出，巨大的质量（如星系团）会使其周围的时空弯曲。来自更遥远星系的光线会沿着这个弯曲的时空路径传播，就像光线通过透镜一样被弯曲和放大。",
+        "explanation_en": "General Relativity states that a large mass (like a galaxy cluster) curves the spacetime around it. Light from a more distant galaxy follows this curved path, causing its path to bend and its image to be magnified, just like a lens."
     }
-  }
+}

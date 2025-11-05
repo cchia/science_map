@@ -10,138 +10,149 @@
     "city_en": "London",
     "country": "英国",
     "country_en": "United Kingdom",
-    "field": ["物理学", "材料科学", "力学"],
-    "field_en": ["Physics", "Materials Science", "Mechanics"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Hookes-law-springs.png",
-      "video": {
-        "url": "https://www.youtube.com/watch?v=gZ_KnZHCn4M",
-        "title": "简谐运动与胡克定律",
-        "title_en": "Simple Harmonic Motion: Hooke's Law",
-        "duration": "4:48"
-      }
-    },
-    
-    "summary": {
-      "text": "胡克在1678年的著作《De Potentia Restitutiva》（《论弹力》）中，正式公布了他早在1676年就以字谜形式发表的发现——弹性定律。该定律指出，对于一个弹性物体（如弹簧），它所受的力(F)与它的形变（拉伸或压缩）长度(x)成正比。这一定律被写为 F = -kx，是物理学和工程学中最基本的定律之一。",
-      "text_en": "In his 1678 work 'De Potentia Restitutiva' (Of Spring), Hooke revealed the solution to an anagram he had published in 1676: the law of elasticity. The law states that the force (F) required to stretch or compress a spring by some distance (x) is directly proportional to that distance. This is written as F = -kx, and it is one of the most fundamental laws in physics and engineering.",
-      "key_points": [
-        "弹性定律 (Law of Elasticity)",
-        "F = -kx",
-        "力与形变成正比",
-        "弹簧（机械表）的基础",
-        "材料科学的基础"
-      ],
-      "key_points_en": [
-        "Law of Elasticity",
-        "F = -kx",
-        "Force is proportional to extension",
-        "Basis for springs (e.g., in watches)",
-        "Foundation of material science"
-      ]
-    },
-  
-    "story": {
-      "text": "17世纪是科学发现的“爆炸期”，科学家们为了“抢占先机”而争吵不休（尤其是胡克和牛顿）。为了在不泄露完整研究成果的前提下“声明”自己的发现，胡克在1676年发表了一个拉丁字谜：“ceiiinosssttuv”。两年后（1678年），他才揭示了谜底：*Ut tensio, sic vis*，意思是“**力如此，伸长亦如此**”（即力与伸长成正比）。这个字谜是他保护自己知识产权的聪明方法。",
-      "text_en": "The 17th century was an explosive time for discovery, and scientists constantly fought over 'priority' (especially Hooke and Newton). To 'claim' his discovery without giving it away, Hooke published a Latin anagram in 1676: 'ceiiinosssttuv'. Two years later, in 1678, he revealed the solution: *Ut tensio, sic vis*, meaning 'As the extension, so the force.' The anagram was his clever way of timestamping his intellectual property."      
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "⏰",
-        "text": "胡克定律的发现源于他试图改进摆钟（由惠更斯发明）。他发明了“游丝”(balance spring)，它使摆轮（balance wheel）能够以恒定的频率振荡。这使得“怀表”成为可能。",
-        "text_en": "Hooke's Law came from his work to improve pendulum clocks. He invented the 'balance spring', which makes a balance wheel oscillate at a constant frequency, making accurate 'pocket watches' possible."
-      }
+    "field": [
+        "物理学",
+        "材料科学",
+        "力学"
     ],
-  
-    "simple_explanation": {
-      "text": "想象一根橡皮筋或一个弹簧。你拉它一点点（比如1厘米），它会用一点点力拉回来。如果你把它拉长两倍（2厘米），它会用*两倍*的力拉回来。如果你把它拉长三倍（3厘米），它就会用*三倍*的力拉回来。胡克定律就是这个简单的正比关系：**你拉多长，它就用多大的力拉回来**。",
-      "text_en": "Think of a rubber band or a spring. If you pull it a little bit (1 cm), it pulls back a little bit. If you pull it *twice* as far (2 cm), it pulls back *twice* as hard. If you pull it *three* times as far (3 cm), it pulls back *three* times as hard. Hooke's Law is this simple, direct relationship: **As the stretch, so the force**.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Hooke%27s_Law_wikipedia.png"
-    },
-  
-    "applications": [
-        {
-          "icon": "⚖️",
-          "title": "弹簧秤",
-          "title_en": "Spring Scales",
-          "text": "所有用弹簧来测量重量的秤（从厨房秤到卡车称重站）都基于胡克定律。",
-          "text_en": "Every scale that uses a spring to measure weight (from a kitchen scale to a truck weigh station) is a direct application of Hooke's Law."
-        },
-        {
-          "icon": "🚗",
-          "title": "汽车悬挂",
-          "title_en": "Car Suspension",
-          "text": "汽车的减震器和悬挂系统就是巨大的弹簧，它们利用胡克定律来吸收路面的颠簸。",
-          "text_en": "A car's shock absorbers and suspension system are giant springs that use Hooke's Law to absorb bumps in the road."
-        },
-        {
-          "icon": "⏰",
-          "title": "钟表制造",
-          "title_en": "Watchmaking",
-          "text": "机械表和摆钟里的游丝或摆锤，其规律的“滴答”声（简谐运动）就是胡克定律在起作用。",
-          "text_en": "The regular 'tick-tock' (Simple Harmonic Motion) of a balance spring in a mechanical watch or a pendulum in a clock is a direct consequence of Hooke's Law."
+    "field_en": [
+        "Physics",
+        "Materials Science",
+        "Mechanics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Hookes-law-springs.png",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=gZ_KnZHCn4M",
+            "title": "简谐运动与胡克定律",
+            "title_en": "Simple Harmonic Motion: Hooke's Law",
+            "duration": "4:48"
         }
-      ],
-  
-    "impact": {
-      "text": "胡克定律是“弹性力学”和“材料科学”的奠基石。它首次用一个简洁的数学公式（F = -kx）描述了固体物质对外力的“响应”。这一定律也是物理学中“简谐运动”的数学基础，从钟摆到分子的振动，无所不包。",
-      "text_en": "Hooke's Law is the foundational cornerstone of 'elasticity' and 'material science'. It was the first time a simple mathematical formula (F = -kx) was used to describe how solid materials *respond* to force. The law is also the mathematical basis for 'Simple Harmonic Motion' in physics, which describes everything from pendulums to the vibration of molecules.",
-      "stats": [
-          {
-            "number": "1676",
-            "label": "年 (字谜发表)",
-            "label_en": "Year (Anagram Published)"
-          },
-          {
-            "number": 1,
-            "label": "个基本方程 (F=-kx)",
-            "label_en": "Fundamental Equation (F=-kx)"
-          }
+    },
+    "summary": {
+        "text": "胡克在1678年的著作《De Potentia Restitutiva》（《论弹力》）中，正式公布了他早在1676年就以字谜形式发表的发现——弹性定律。该定律指出，对于一个弹性物体（如弹簧），它所受的力(F)与它的形变（拉伸或压缩）长度(x)成正比。这一定律被写为 F = -kx，是物理学和工程学中最基本的定律之一。",
+        "text_en": "In his 1678 work 'De Potentia Restitutiva' (Of Spring), Hooke revealed the solution to an anagram he had published in 1676: the law of elasticity. The law states that the force (F) required to stretch or compress a spring by some distance (x) is directly proportional to that distance. This is written as F = -kx, and it is one of the most fundamental laws in physics and engineering.",
+        "key_points": [
+            "弹性定律 (Law of Elasticity)",
+            "F = -kx",
+            "力与形变成正比",
+            "弹簧（机械表）的基础",
+            "材料科学的基础"
+        ],
+        "key_points_en": [
+            "Law of Elasticity",
+            "F = -kx",
+            "Force is proportional to extension",
+            "Basis for springs (e.g., in watches)",
+            "Foundation of material science"
         ]
     },
-  
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "galileo_motion_1638",
-          "contribution": "伽利略（其《两门新科学》中关于材料强度的研究）",
-          "contribution_en": "Galileo (for his study on the strength of materials in 'Two New Sciences')"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "newton_motion_laws_1687",
-          "contribution": "牛顿（其关于简谐运动和振动的数学分析，是建立在胡克定律的基础上的）",
-          "contribution_en": "Newton (whose mathematical analysis of Simple Harmonic Motion and oscillation was built on Hooke's Law)"
-        }
-      ],
-      "legacy_text": "胡克定律是继阿基米德之后，将工程机械原理（弹簧）转化为严谨数学物理（F=-kx）的又一伟大范例。",
-      "legacy_text_en": "Hooke's Law is another prime example, after Archimedes, of turning an engineering principle (the spring) into a rigorous law of mathematical physics (F=-kx)."
+    "story": {
+        "text": "17世纪是科学发现的“爆炸期”，科学家们为了“抢占先机”而争吵不休（尤其是胡克和牛顿）。为了在不泄露完整研究成果的前提下“声明”自己的发现，胡克在1676年发表了一个拉丁字谜：“ceiiinosssttuv”。两年后（1678年），他才揭示了谜底：*Ut tensio, sic vis*，意思是“**力如此，伸长亦如此**”（即力与伸长成正比）。这个字谜是他保护自己知识产权的聪明方法。",
+        "text_en": "The 17th century was an explosive time for discovery, and scientists constantly fought over 'priority' (especially Hooke and Newton). To 'claim' his discovery without giving it away, Hooke published a Latin anagram in 1676: 'ceiiinosssttuv'. Two years later, in 1678, he revealed the solution: *Ut tensio, sic vis*, meaning 'As the extension, so the force.' The anagram was his clever way of timestamping his intellectual property."
     },
-  
-    "related_concepts": ["弹性 (Elasticity)", "F = -kx", "简谐运动 (Simple Harmonic Motion)", "弹簧常数 (Spring Constant 'k')", "材料科学", "Ut tensio, sic vis"],
-    "related_concepts_en": ["Elasticity", "F = -kx", "Simple Harmonic Motion", "Spring Constant 'k'", "Materials Science", "Ut tensio, sic vis"],
-  
+    "fun_facts": [
+        {
+            "icon": "⏰",
+            "text": "胡克定律的发现源于他试图改进摆钟（由惠更斯发明）。他发明了“游丝”(balance spring)，它使摆轮（balance wheel）能够以恒定的频率振荡。这使得“怀表”成为可能。",
+            "text_en": "Hooke's Law came from his work to improve pendulum clocks. He invented the 'balance spring', which makes a balance wheel oscillate at a constant frequency, making accurate 'pocket watches' possible."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一根橡皮筋或一个弹簧。你拉它一点点（比如1厘米），它会用一点点力拉回来。如果你把它拉长两倍（2厘米），它会用*两倍*的力拉回来。如果你把它拉长三倍（3厘米），它就会用*三倍*的力拉回来。胡克定律就是这个简单的正比关系：**你拉多长，它就用多大的力拉回来**。",
+        "text_en": "Think of a rubber band or a spring. If you pull it a little bit (1 cm), it pulls back a little bit. If you pull it *twice* as far (2 cm), it pulls back *twice* as hard. If you pull it *three* times as far (3 cm), it pulls back *three* times as hard. Hooke's Law is this simple, direct relationship: **As the stretch, so the force**.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Hooke%27s_Law_wikipedia.png"
+    },
+    "applications": [
+        {
+            "icon": "⚖️",
+            "title": "弹簧秤",
+            "title_en": "Spring Scales",
+            "text": "所有用弹簧来测量重量的秤（从厨房秤到卡车称重站）都基于胡克定律。",
+            "text_en": "Every scale that uses a spring to measure weight (from a kitchen scale to a truck weigh station) is a direct application of Hooke's Law."
+        },
+        {
+            "icon": "🚗",
+            "title": "汽车悬挂",
+            "title_en": "Car Suspension",
+            "text": "汽车的减震器和悬挂系统就是巨大的弹簧，它们利用胡克定律来吸收路面的颠簸。",
+            "text_en": "A car's shock absorbers and suspension system are giant springs that use Hooke's Law to absorb bumps in the road."
+        },
+        {
+            "icon": "⏰",
+            "title": "钟表制造",
+            "title_en": "Watchmaking",
+            "text": "机械表和摆钟里的游丝或摆锤，其规律的“滴答”声（简谐运动）就是胡克定律在起作用。",
+            "text_en": "The regular 'tick-tock' (Simple Harmonic Motion) of a balance spring in a mechanical watch or a pendulum in a clock is a direct consequence of Hooke's Law."
+        }
+    ],
+    "impact": {
+        "text": "胡克定律是“弹性力学”和“材料科学”的奠基石。它首次用一个简洁的数学公式（F = -kx）描述了固体物质对外力的“响应”。这一定律也是物理学中“简谐运动”的数学基础，从钟摆到分子的振动，无所不包。",
+        "text_en": "Hooke's Law is the foundational cornerstone of 'elasticity' and 'material science'. It was the first time a simple mathematical formula (F = -kx) was used to describe how solid materials *respond* to force. The law is also the mathematical basis for 'Simple Harmonic Motion' in physics, which describes everything from pendulums to the vibration of molecules.",
+        "stats": [
+            {
+                "number": "1676",
+                "label": "年 (字谜发表)",
+                "label_en": "Year (Anagram Published)"
+            },
+            {
+                "number": 1,
+                "label": "个基本方程 (F=-kx)",
+                "label_en": "Fundamental Equation (F=-kx)"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "伽利略（其《两门新科学》中关于材料强度的研究）",
+                "contribution_en": "Galileo (for his study on the strength of materials in 'Two New Sciences')"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_motion_laws_1687",
+                "contribution": "牛顿（其关于简谐运动和振动的数学分析，是建立在胡克定律的基础上的）",
+                "contribution_en": "Newton (whose mathematical analysis of Simple Harmonic Motion and oscillation was built on Hooke's Law)"
+            }
+        ],
+        "legacy_text": "胡克定律是继阿基米德之后，将工程机械原理（弹簧）转化为严谨数学物理（F=-kx）的又一伟大范例。",
+        "legacy_text_en": "Hooke's Law is another prime example, after Archimedes, of turning an engineering principle (the spring) into a rigorous law of mathematical physics (F=-kx)."
+    },
+    "related_concepts": [
+        "弹性 (Elasticity)",
+        "F = -kx",
+        "简谐运动 (Simple Harmonic Motion)",
+        "弹簧常数 (Spring Constant 'k')",
+        "材料科学",
+        "Ut tensio, sic vis"
+    ],
+    "related_concepts_en": [
+        "Elasticity",
+        "F = -kx",
+        "Simple Harmonic Motion",
+        "Spring Constant 'k'",
+        "Materials Science",
+        "Ut tensio, sic vis"
+    ],
     "quiz": {
-      "question": "胡克定律 (F = -kx) 描述了力和什么之间的关系？",
-      "question_en": "What relationship does Hooke's Law (F = -kx) describe?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hookes-law-springs.svg/640px-Hookes-law-springs.svg.png",
-      "options": [
-        "力和引力 (Force and Gravity)",
-        "力和时间 (Force and Time)",
-        "力和形变/伸长 (Force and Deformation/Extension)",
-        "力和加速度 (Force and Acceleration)"
-      ],
-      "options_en": [
-        "Force and Gravity",
-        "Force and Time",
-        "Force and Deformation/Extension",
-        "Force and Acceleration"
-      ],
-      "answer": 2,
-      "explanation": "定律指出，你施加的力(F)与弹簧被拉伸或压缩的距离(x)成正比。k是弹簧的“硬度”系数。",
-      "explanation_en": "The law states that the force (F) you apply is directly proportional to the distance (x) the spring is stretched or compressed. 'k' is the 'stiffness' constant of the spring."
+        "question": "胡克定律 (F = -kx) 描述了力和什么之间的关系？",
+        "question_en": "What relationship does Hooke's Law (F = -kx) describe?",
+        "options": [
+            "力和引力 (Force and Gravity)",
+            "力和时间 (Force and Time)",
+            "力和形变/伸长 (Force and Deformation/Extension)",
+            "力和加速度 (Force and Acceleration)"
+        ],
+        "options_en": [
+            "Force and Gravity",
+            "Force and Time",
+            "Force and Deformation/Extension",
+            "Force and Acceleration"
+        ],
+        "answer": 2,
+        "explanation": "定律指出，你施加的力(F)与弹簧被拉伸或压缩的距离(x)成正比。k是弹簧的“硬度”系数。",
+        "explanation_en": "The law states that the force (F) you apply is directly proportional to the distance (x) the spring is stretched or compressed. 'k' is the 'stiffness' constant of the spring."
     }
-  }
+}

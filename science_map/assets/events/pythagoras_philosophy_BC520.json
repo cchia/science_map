@@ -10,153 +10,170 @@
     "city_en": "Croton",
     "country": "大希腊 (今意大利)",
     "country_en": "Magna Graecia (Modern Italy)",
-    "field": ["哲学", "数学", "神秘主义", "音乐"],
-    "field_en": ["Philosophy", "Mathematics", "Mysticism", "Music"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bronnikov_gimnpifagoreizev.jpg",
-      "video": {
-        "url": "https://www.youtube.com/embed/sIBX24YCHCg",
-        "title": "毕达哥拉斯的音乐、数学和神秘主义",
-        "title_en": "Pythagoras: Music, Maths and Mysticism",
-        "duration": "13:33"
-      }
-    },
-    
-    "summary": {
-      "text": "毕达哥拉斯在意大利南部的克罗顿建立了一个半科学、半宗教的神秘学派。其核心教义是“万物皆数”——认为宇宙的终极实在不是某种物质，而是数学关系和数字比例。该学派还信奉“灵魂轮回”(Metempsychosis)，即灵魂是不朽的，并在死后转生到其他生物（包括动物）体内。",
-      "text_en": "Pythagoras founded a semi-scientific, semi-religious mystical school in Croton, southern Italy. Its core doctrine was 'All is number'—the belief that the ultimate reality of the universe is not a physical substance, but rather mathematical relationships and ratios. The school also believed in 'Metempsychosis', the transmigration of the immortal soul into new bodies (including animals) after death.",
-      "key_points": [
-        "“万物皆数”(All is number)",
-        "灵魂轮回 (Metempsychosis) 和不朽",
-        "数学（尤其是数字比例）是理解宇宙的基础",
-        "宇宙和谐 (Musica Universalis 或 '天体音乐')",
-        "提倡素食主义和禁欲主义的生活方式"
-      ],
-      "key_points_en": [
-        "'All is number'",
-        "Transmigration of the soul (Metempsychosis) and immortality",
-        "Mathematics (especially ratios) is the key to understanding the cosmos",
-        "Harmony of the Spheres (Musica Universalis)",
-        "Advocated for a vegetarian and ascetic lifestyle"
-      ]
-    },
-  
-    "story": {
-      "text": "毕达哥拉斯学派与其说是一所学校，不如说是一个秘密的兄弟会，成员们共同生活，严格遵守戒律。他们发现，音乐中的和谐音程（如八度、五度、四度）可以用简单的整数比例（1:2, 2:3, 3:4）来表示。这一发现使他们欣喜若狂，并将其推广到整个宇宙。他们相信，行星的轨道距离也遵循同样的数学比例，它们在运动时会产生一种凡人听不见的、神圣的“天体音乐”(Music of the Spheres)。",
-      "text_en": "The Pythagorean school was less a school and more a secret brotherhood, where members lived communally under strict rules. They discovered that harmonious musical intervals (like the octave, fifth, and fourth) could be expressed by simple integer ratios (1:2, 2:3, 3:4). This ecstatic discovery led them to generalize the idea to the entire cosmos. They believed the planets, in their orbits, were also spaced according to these same mathematical ratios, producing a divine, inaudible 'Music of the Spheres' as they moved."
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "🤫",
-        "text": "该学派有严格的保密规定。传说，第一个泄露“无理数”（如 $\\sqrt{2}$，它无法表示为整数比例）存在的成员希帕索斯 (Hippasus)，被众神（或被学派成员）判处淹死。",
-        "text_en": "The school had strict rules of secrecy. Legend says that Hippasus, the member who first leaked the existence of 'irrational numbers' (like $\\sqrt{2}$, which broke the 'all is ratio' rule), was drowned by the gods (or by the brotherhood) for his transgression."
-      },
-      {
-        "icon": "🫘",
-        "text": "毕达哥拉斯学派的成员被禁止吃“蚕豆”(fava beans)。原因不明，后世有多种猜测：它们会引起胀气、它们形状像生殖器、或者（根据灵魂轮回）它们可能含有祖先转世的灵魂。",
-        "text_en": "Pythagoreans were forbidden from eating fava beans. The reason is unknown, leading to many theories: they cause flatulence, they resemble genitals, or (due to transmigration) they might contain the souls of one's ancestors."
-      }
+    "field": [
+        "哲学",
+        "数学",
+        "神秘主义",
+        "音乐"
     ],
-  
-    "simple_explanation": {
-      "text": "毕达哥拉斯就像一个乐队指挥，他发现整个宇宙都是一首交响乐。他发现音乐中悦耳的和弦（do-sol）可以用简单的数字（2:3）来解释。于是他认为，行星的运行、万物的生长，一切都遵循着这种隐藏的数学节拍和旋律。他相信，你的灵魂也是不朽的，会在不同的身体（甚至动物）之间“转世”，学习宇宙的和谐，直到最终变得纯洁。",
-      "text_en": "Pythagoras was like a band leader who discovered the whole universe is a symphony. He found that a nice-sounding musical chord (C to G) could be explained by a simple number ratio (2:3). From this, he decided *everything*—planets, nature, life—is secretly run by these hidden mathematical beats and harmonies. He also believed your soul was immortal and would 'reincarnate' in different bodies (even animals) to keep learning this cosmic harmony until it finally became pure.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Musica_universalis.svg/640px-Musica_universalis.svg.png"
-    },
-  
-    "applications": [
-        {
-          "icon": "📐",
-          "title": "数学和几何学",
-          "title_en": "Mathematics and Geometry",
-          "text": "将数学从纯粹的实用工具（如计数和测量）提升到了哲学的高度。虽然毕达哥拉斯定理在他之前就已被知晓，但该学派（或他本人）被认为首次为其提供了逻辑证明。",
-          "text_en": "Elevated mathematics from a purely practical tool (for counting/measuring) to a philosophical principle. While the Pythagorean theorem was known before him, his school is credited with its first logical proof."
-        },
-        {
-          "icon": "🌱",
-          "title": "素食主义",
-          "title_en": "Vegetarianism",
-          "text": "由于相信灵魂会转生为动物，该学派提倡素食，这被认为是西方哲学史上最早的素食主义运动之一。",
-          "text_en": "Because of the belief in metempsychosis (souls reincarnating into animals), the school advocated for vegetarianism, one of the first organized vegetarian movements in Western philosophy."
-        },
-        {
-          "icon": "🧘",
-          "title": "哲学作为一种生活方式",
-          "title_en": "Philosophy as a Way of Life",
-          "text": "毕达哥拉斯开创了这样一种理念：哲学不仅是学术研究，更是一种通过戒律、沉思和数学来净化灵魂的日常生活实践。",
-          "text_en": "Pythagoras pioneered the idea that philosophy was not just academic study, but a daily practice of purifying the soul through rules, contemplation, and mathematics."
+    "field_en": [
+        "Philosophy",
+        "Mathematics",
+        "Mysticism",
+        "Music"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bronnikov_gimnpifagoreizev.jpg",
+        "video": {
+            "url": "https://www.youtube.com/embed/sIBX24YCHCg",
+            "title": "毕达哥拉斯的音乐、数学和神秘主义",
+            "title_en": "Pythagoras: Music, Maths and Mysticism",
+            "duration": "13:33"
         }
-      ],
-  
-    "impact": {
-      "text": "毕达哥拉斯主义对柏拉图产生了无法估量的影响。柏拉图关于“理念世界”（一个完美的、抽象的数学实在）和“灵魂不朽”的思想，都直接来源于毕达哥拉斯的教义。通过柏拉图，这种“数学实在论”的思想深刻地塑造了整个西方哲学、科学和神学的走向。",
-      "text_en": "Pythagoreanism had an immeasurable influence on Plato. Plato's entire concept of a 'World of Forms' (a perfect, abstract, mathematical reality) and the immortality of the soul are direct developments of Pythagorean teachings. Through Plato, this idea of 'mathematical realism' profoundly shaped the entire course of Western philosophy, science, and theology.",
-      "stats": [
-          {
-            "number": "2:3",
-            "label": "音乐比例 (五度)",
-            "label_en": "Musical Ratio (Perfect Fifth)"
-          },
-          {
-            "number": "1",
-            "label": "灵魂轮回学说",
-            "label_en": "Doctrine of Transmigration"
-          }
+    },
+    "summary": {
+        "text": "毕达哥拉斯在意大利南部的克罗顿建立了一个半科学、半宗教的神秘学派。其核心教义是“万物皆数”——认为宇宙的终极实在不是某种物质，而是数学关系和数字比例。该学派还信奉“灵魂轮回”(Metempsychosis)，即灵魂是不朽的，并在死后转生到其他生物（包括动物）体内。",
+        "text_en": "Pythagoras founded a semi-scientific, semi-religious mystical school in Croton, southern Italy. Its core doctrine was 'All is number'—the belief that the ultimate reality of the universe is not a physical substance, but rather mathematical relationships and ratios. The school also believed in 'Metempsychosis', the transmigration of the immortal soul into new bodies (including animals) after death.",
+        "key_points": [
+            "“万物皆数”(All is number)",
+            "灵魂轮回 (Metempsychosis) 和不朽",
+            "数学（尤其是数字比例）是理解宇宙的基础",
+            "宇宙和谐 (Musica Universalis 或 '天体音乐')",
+            "提倡素食主义和禁欲主义的生活方式"
+        ],
+        "key_points_en": [
+            "'All is number'",
+            "Transmigration of the soul (Metempsychosis) and immortality",
+            "Mathematics (especially ratios) is the key to understanding the cosmos",
+            "Harmony of the Spheres (Musica Universalis)",
+            "Advocated for a vegetarian and ascetic lifestyle"
         ]
     },
-  
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "orphicism_BC550",
-          "contribution": "俄耳甫斯教（可能，提供了灵魂不朽和轮回的神秘主义思想）",
-          "contribution_en": "Orphism (possibly, provided mystical ideas of immortality and reincarnation)"
-        },
-        {
-          "id": "thales_anaximander_BC580",
-          "contribution": "米利都学派（提供了宇宙学和自然哲学的早期思想）",
-          "contribution_en": "Milesian School (provided early ideas in cosmology and natural philosophy)"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "plato_forms_BC380",
-          "contribution": "柏拉图（其“理念论”和灵魂观深受毕达哥拉斯主义影响）",
-          "contribution_en": "Plato (whose Theory of Forms and view of the soul were deeply influenced by Pythagoreanism)"
-        },
-        {
-          "id": "kepler_laws_1609",
-          "contribution": "开普勒（其寻找行星轨道和谐比例的工作，是对“天体音乐”思想的直接继承）",
-          "contribution_en": "Johannes Kepler (whose work on planetary harmony was a direct successor to the 'Music of the Spheres')"
-        }
-      ],
-      "legacy_text": "毕达哥拉斯首次将数学确立为哲学的核心，提出“现实的终极结构是数学的”这一理念，至今仍是现代物理学的驱动力。",
-      "legacy_text_en": "Pythagoras was the first to establish mathematics as the core of philosophy, introducing the idea that 'the ultimate structure of reality is mathematical'—an idea that still drives modern physics today."
+    "story": {
+        "text": "毕达哥拉斯学派与其说是一所学校，不如说是一个秘密的兄弟会，成员们共同生活，严格遵守戒律。他们发现，音乐中的和谐音程（如八度、五度、四度）可以用简单的整数比例（1:2, 2:3, 3:4）来表示。这一发现使他们欣喜若狂，并将其推广到整个宇宙。他们相信，行星的轨道距离也遵循同样的数学比例，它们在运动时会产生一种凡人听不见的、神圣的“天体音乐”(Music of the Spheres)。",
+        "text_en": "The Pythagorean school was less a school and more a secret brotherhood, where members lived communally under strict rules. They discovered that harmonious musical intervals (like the octave, fifth, and fourth) could be expressed by simple integer ratios (1:2, 2:3, 3:4). This ecstatic discovery led them to generalize the idea to the entire cosmos. They believed the planets, in their orbits, were also spaced according to these same mathematical ratios, producing a divine, inaudible 'Music of the Spheres' as they moved."
     },
-  
-    "related_concepts": ["万物皆数", "灵魂轮回 (Metempsychosis)", "天体音乐", "素食主义", "无理数", "毕达哥拉斯学派", "柏拉图", "Tetractys (圣十数)"],
-    "related_concepts_en": ["All is number", "Metempsychosis", "Music of the Spheres", "Vegetarianism", "Irrational Numbers", "Pythagoreanism", "Plato", "Tetractys"],
-  
+    "fun_facts": [
+        {
+            "icon": "🤫",
+            "text": "该学派有严格的保密规定。传说，第一个泄露“无理数”（如 $\\sqrt{2}$，它无法表示为整数比例）存在的成员希帕索斯 (Hippasus)，被众神（或被学派成员）判处淹死。",
+            "text_en": "The school had strict rules of secrecy. Legend says that Hippasus, the member who first leaked the existence of 'irrational numbers' (like $\\sqrt{2}$, which broke the 'all is ratio' rule), was drowned by the gods (or by the brotherhood) for his transgression."
+        },
+        {
+            "icon": "🫘",
+            "text": "毕达哥拉斯学派的成员被禁止吃“蚕豆”(fava beans)。原因不明，后世有多种猜测：它们会引起胀气、它们形状像生殖器、或者（根据灵魂轮回）它们可能含有祖先转世的灵魂。",
+            "text_en": "Pythagoreans were forbidden from eating fava beans. The reason is unknown, leading to many theories: they cause flatulence, they resemble genitals, or (due to transmigration) they might contain the souls of one's ancestors."
+        }
+    ],
+    "simple_explanation": {
+        "text": "毕达哥拉斯就像一个乐队指挥，他发现整个宇宙都是一首交响乐。他发现音乐中悦耳的和弦（do-sol）可以用简单的数字（2:3）来解释。于是他认为，行星的运行、万物的生长，一切都遵循着这种隐藏的数学节拍和旋律。他相信，你的灵魂也是不朽的，会在不同的身体（甚至动物）之间“转世”，学习宇宙的和谐，直到最终变得纯洁。",
+        "text_en": "Pythagoras was like a band leader who discovered the whole universe is a symphony. He found that a nice-sounding musical chord (C to G) could be explained by a simple number ratio (2:3). From this, he decided *everything*—planets, nature, life—is secretly run by these hidden mathematical beats and harmonies. He also believed your soul was immortal and would 'reincarnate' in different bodies (even animals) to keep learning this cosmic harmony until it finally became pure.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Musica_universalis.svg/640px-Musica_universalis.svg.png"
+    },
+    "applications": [
+        {
+            "icon": "📐",
+            "title": "数学和几何学",
+            "title_en": "Mathematics and Geometry",
+            "text": "将数学从纯粹的实用工具（如计数和测量）提升到了哲学的高度。虽然毕达哥拉斯定理在他之前就已被知晓，但该学派（或他本人）被认为首次为其提供了逻辑证明。",
+            "text_en": "Elevated mathematics from a purely practical tool (for counting/measuring) to a philosophical principle. While the Pythagorean theorem was known before him, his school is credited with its first logical proof."
+        },
+        {
+            "icon": "🌱",
+            "title": "素食主义",
+            "title_en": "Vegetarianism",
+            "text": "由于相信灵魂会转生为动物，该学派提倡素食，这被认为是西方哲学史上最早的素食主义运动之一。",
+            "text_en": "Because of the belief in metempsychosis (souls reincarnating into animals), the school advocated for vegetarianism, one of the first organized vegetarian movements in Western philosophy."
+        },
+        {
+            "icon": "🧘",
+            "title": "哲学作为一种生活方式",
+            "title_en": "Philosophy as a Way of Life",
+            "text": "毕达哥拉斯开创了这样一种理念：哲学不仅是学术研究，更是一种通过戒律、沉思和数学来净化灵魂的日常生活实践。",
+            "text_en": "Pythagoras pioneered the idea that philosophy was not just academic study, but a daily practice of purifying the soul through rules, contemplation, and mathematics."
+        }
+    ],
+    "impact": {
+        "text": "毕达哥拉斯主义对柏拉图产生了无法估量的影响。柏拉图关于“理念世界”（一个完美的、抽象的数学实在）和“灵魂不朽”的思想，都直接来源于毕达哥拉斯的教义。通过柏拉图，这种“数学实在论”的思想深刻地塑造了整个西方哲学、科学和神学的走向。",
+        "text_en": "Pythagoreanism had an immeasurable influence on Plato. Plato's entire concept of a 'World of Forms' (a perfect, abstract, mathematical reality) and the immortality of the soul are direct developments of Pythagorean teachings. Through Plato, this idea of 'mathematical realism' profoundly shaped the entire course of Western philosophy, science, and theology.",
+        "stats": [
+            {
+                "number": "2:3",
+                "label": "音乐比例 (五度)",
+                "label_en": "Musical Ratio (Perfect Fifth)"
+            },
+            {
+                "number": "1",
+                "label": "灵魂轮回学说",
+                "label_en": "Doctrine of Transmigration"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "orphicism_BC550",
+                "contribution": "俄耳甫斯教（可能，提供了灵魂不朽和轮回的神秘主义思想）",
+                "contribution_en": "Orphism (possibly, provided mystical ideas of immortality and reincarnation)"
+            },
+            {
+                "id": "thales_anaximander_BC580",
+                "contribution": "米利都学派（提供了宇宙学和自然哲学的早期思想）",
+                "contribution_en": "Milesian School (provided early ideas in cosmology and natural philosophy)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "plato_forms_BC380",
+                "contribution": "柏拉图（其“理念论”和灵魂观深受毕达哥拉斯主义影响）",
+                "contribution_en": "Plato (whose Theory of Forms and view of the soul were deeply influenced by Pythagoreanism)"
+            },
+            {
+                "id": "kepler_laws_1609",
+                "contribution": "开普勒（其寻找行星轨道和谐比例的工作，是对“天体音乐”思想的直接继承）",
+                "contribution_en": "Johannes Kepler (whose work on planetary harmony was a direct successor to the 'Music of the Spheres')"
+            }
+        ],
+        "legacy_text": "毕达哥拉斯首次将数学确立为哲学的核心，提出“现实的终极结构是数学的”这一理念，至今仍是现代物理学的驱动力。",
+        "legacy_text_en": "Pythagoras was the first to establish mathematics as the core of philosophy, introducing the idea that 'the ultimate structure of reality is mathematical'—an idea that still drives modern physics today."
+    },
+    "related_concepts": [
+        "万物皆数",
+        "灵魂轮回 (Metempsychosis)",
+        "天体音乐",
+        "素食主义",
+        "无理数",
+        "毕达哥拉斯学派",
+        "柏拉图",
+        "Tetractys (圣十数)"
+    ],
+    "related_concepts_en": [
+        "All is number",
+        "Metempsychosis",
+        "Music of the Spheres",
+        "Vegetarianism",
+        "Irrational Numbers",
+        "Pythagoreanism",
+        "Plato",
+        "Tetractys"
+    ],
     "quiz": {
-      "question": "毕达哥拉斯学派的核心哲学理念“万物皆数”是基于什么关键发现？",
-      "question_en": "What key discovery was the Pythagorean core philosophy 'All is number' based on?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Pythagoras_music_ratios.svg/640px-Pythagoras_music_ratios.svg.png",
-      "options": [
-        "发现重物比轻物下落得快",
-        "发现月亮绕着地球转",
-        "发现和谐的音乐音程可以表示为简单的整数比例",
-        "发现地球是球形的"
-      ],
-      "options_en": [
-        "Discovering heavy objects fall faster than light ones",
-        "Discovering the Moon orbits the Earth",
-        "Discovering that harmonious musical intervals correspond to simple integer ratios",
-        "Discovering the Earth is spherical"
-      ],
-      "answer": 2,
-      "explanation": "毕达哥拉斯（或其学派）发现，音高和琴弦长度有关，而悦耳的和弦（如八度、五度）的琴弦长度比例是简单的整数（1:2, 2:3）。这使他们相信，数字比例是宇宙万物（包括音乐和行星）和谐的基础。",
-      "explanation_en": "Pythagoras (or his school) discovered that pitch is related to string length, and that harmonious chords (like an octave or a fifth) correspond to simple integer ratios (1:2, 2:3). This led them to believe that numerical ratios were the basis of all harmony in the universe, from music to planets."
+        "question": "毕达哥拉斯学派的核心哲学理念“万物皆数”是基于什么关键发现？",
+        "question_en": "What key discovery was the Pythagorean core philosophy 'All is number' based on?",
+        "options": [
+            "发现重物比轻物下落得快",
+            "发现月亮绕着地球转",
+            "发现和谐的音乐音程可以表示为简单的整数比例",
+            "发现地球是球形的"
+        ],
+        "options_en": [
+            "Discovering heavy objects fall faster than light ones",
+            "Discovering the Moon orbits the Earth",
+            "Discovering that harmonious musical intervals correspond to simple integer ratios",
+            "Discovering the Earth is spherical"
+        ],
+        "answer": 2,
+        "explanation": "毕达哥拉斯（或其学派）发现，音高和琴弦长度有关，而悦耳的和弦（如八度、五度）的琴弦长度比例是简单的整数（1:2, 2:3）。这使他们相信，数字比例是宇宙万物（包括音乐和行星）和谐的基础。",
+        "explanation_en": "Pythagoras (or his school) discovered that pitch is related to string length, and that harmonious chords (like an octave or a fifth) correspond to simple integer ratios (1:2, 2:3). This led them to believe that numerical ratios were the basis of all harmony in the universe, from music to planets."
     }
-  }
+}

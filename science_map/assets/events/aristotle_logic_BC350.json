@@ -10,146 +10,161 @@
     "city_en": "Athens",
     "country": "古希腊",
     "country_en": "Ancient Greece",
-    "field": ["哲学", "逻辑学", "科学方法"],
-    "field_en": ["Philosophy", "Logic", "Scientific Method"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Square_of_opposition%2C_set_diagrams.svg",
-      "video": {
-        "url": "https://www.youtube.com/embed/xVrSO9ThZRY",
-        "title": "亚里士多德与三段论",
-        "title_en": "Aristotle & The Syllogism",
-        "duration": "9:42"
-      }
-    },
-    
-    "summary": {
-      "text": "亚里士多德是第一个系统性研究“推理”本身的人，他因此被誉为“逻辑学之父”。他的六部逻辑学著作后来被合称为《工具论》(Organon)，意为“（思想的）工具”。他发明了“三段论”(Syllogism)，这是演绎推理的核心形式。他首次表明，一个论证的“有效性”取决于其“形式结构”，而不是其“内容”。",
-      "text_en": "Aristotle was the first person to systematically study the process of reasoning itself, earning him the title 'the father of logic'. His six logical works were later compiled as the 'Organon', or 'tool (of thought)'. He invented the 'Syllogism', the core of deductive reasoning. He was the first to show that the 'validity' of an argument depends on its 'formal structure', not its 'content'.",
-      "key_points": [
-        "发明“三段论”(Syllogism)",
-        "形式逻辑 (Formal Logic) 的创始人",
-        "区分了“有效性”(Validity) 和“真实性”(Truth)",
-        "著作被合称为《工具论》(Organon)",
-        "定义了“十个范畴”(Categories) 和基本命题类型"
-      ],
-      "key_points_en": [
-        "Invented the 'Syllogism'",
-        "Founder of Formal Logic",
-        "Distinguished 'Validity' from 'Truth'",
-        "Works compiled as the 'Organon'",
-        "Defined the 'Ten Categories' and types of propositions"
-      ]
-    },
-  
-    "story": {
-      "text": "亚里士多德的天才之处在于他使用了“变量”（如A, B, C）来分析论证。他提出的经典三段论（“巴巴拉”式）是：如果“所有A都是B”（大前提），并且“所有C都是A”（小前提），那么“所有C都是B”（结论）。这个结构是*永远*有效的，无论A、B、C是什么。例如：A=会死的，B=凡人，C=希腊人。把这些词换成“猫”、“哺乳动物”和“动物”，这个逻辑结构依然成立。他将推理从具体内容中解放出来，使其成为一门独立的、普遍适用的科学。",
-      "text_en": "Aristotle's genius was to use *variables* (like A, B, and C) to analyze arguments. His classic syllogism ('Barbara') is: If 'All A are B' (Major Premise), and 'All C are A' (Minor Premise), then 'All C are B' (Conclusion). This structure is *always* valid, regardless of what A, B, and C are. It works for 'A=Mortal, B=Men, C=Socrates' just as it works for 'A=Mammals, B=Animals, C=Cats'. He abstracted reasoning from its content, turning it into a formal, universal science."
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "🧐",
-        "text": "亚里士多德本人从未使用过“逻辑”(Logic) 这个词。他称他所研究的这门学科为“分析学”(Analytics)。“Organon”（工具）这个标题也是后来的注释者添加的。",
-        "text_en": "Aristotle never used the word 'logic'. He called his discipline 'analytics'. The title 'Organon' (Tool) was also added by later commentators."
-      },
-      {
-        "icon": "🤯",
-        "text": "亚里士多德的逻辑系统是如此的完整和具有统治力，以至于在2000多年后，哲学家康德（Immanuel Kant）在1781年仍声称，自亚里士多德以来，逻辑学“没有能够再前进一步”。",
-        "text_en": "Aristotle's logical system was so complete and dominant that over 2,000 years later, the philosopher Immanuel Kant (in 1781) claimed that logic had not been able to 'advance a single step' since Aristotle."
-      }
+    "field": [
+        "哲学",
+        "逻辑学",
+        "科学方法"
     ],
-  
-    "simple_explanation": {
-      "text": "亚里士多德发明了“如果...那么...”的“游戏规则”。他指出，一个论证就像一个数学方程。例如：\n前提1：所有鸟都会飞。\n前提2：企鹅是鸟。\n结论：所以，企鹅会飞。\n亚里士多德的伟大发现是：这个“论证结构”是*有效*的（逻辑通顺），即使结论（企鹅会飞）在事实上是*错误*的。他教会了我们如何区分“逻辑上有效”和“事实上真实”，这是所有科学、法律和哲学辩论的基础。",
-      "text_en": "Aristotle invented the 'rules of the game' for arguing. He showed that an argument is like a math equation. For example:\nPremise 1: All birds can fly.\nPremise 2: A penguin is a bird.\nConclusion: Therefore, a penguin can fly.\nAristotle's big discovery was that this 'structure' is *valid* (the logic works), even though the conclusion is *false*. He taught us how to separate *logical validity* from *factual truth*, which is the basis for all science, law, and debate.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Aristotle_Porphyrian_Tree.svg/640px-Aristotle_Porphyrian_Tree.svg.png"
+    "field_en": [
+        "Philosophy",
+        "Logic",
+        "Scientific Method"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Square_of_opposition%2C_set_diagrams.svg",
+        "video": {
+            "url": "https://www.youtube.com/embed/xVrSO9ThZRY",
+            "title": "亚里士多德与三段论",
+            "title_en": "Aristotle & The Syllogism",
+            "duration": "9:42"
+        }
     },
-  
+    "summary": {
+        "text": "亚里士多德是第一个系统性研究“推理”本身的人，他因此被誉为“逻辑学之父”。他的六部逻辑学著作后来被合称为《工具论》(Organon)，意为“（思想的）工具”。他发明了“三段论”(Syllogism)，这是演绎推理的核心形式。他首次表明，一个论证的“有效性”取决于其“形式结构”，而不是其“内容”。",
+        "text_en": "Aristotle was the first person to systematically study the process of reasoning itself, earning him the title 'the father of logic'. His six logical works were later compiled as the 'Organon', or 'tool (of thought)'. He invented the 'Syllogism', the core of deductive reasoning. He was the first to show that the 'validity' of an argument depends on its 'formal structure', not its 'content'.",
+        "key_points": [
+            "发明“三段论”(Syllogism)",
+            "形式逻辑 (Formal Logic) 的创始人",
+            "区分了“有效性”(Validity) 和“真实性”(Truth)",
+            "著作被合称为《工具论》(Organon)",
+            "定义了“十个范畴”(Categories) 和基本命题类型"
+        ],
+        "key_points_en": [
+            "Invented the 'Syllogism'",
+            "Founder of Formal Logic",
+            "Distinguished 'Validity' from 'Truth'",
+            "Works compiled as the 'Organon'",
+            "Defined the 'Ten Categories' and types of propositions"
+        ]
+    },
+    "story": {
+        "text": "亚里士多德的天才之处在于他使用了“变量”（如A, B, C）来分析论证。他提出的经典三段论（“巴巴拉”式）是：如果“所有A都是B”（大前提），并且“所有C都是A”（小前提），那么“所有C都是B”（结论）。这个结构是*永远*有效的，无论A、B、C是什么。例如：A=会死的，B=凡人，C=希腊人。把这些词换成“猫”、“哺乳动物”和“动物”，这个逻辑结构依然成立。他将推理从具体内容中解放出来，使其成为一门独立的、普遍适用的科学。",
+        "text_en": "Aristotle's genius was to use *variables* (like A, B, and C) to analyze arguments. His classic syllogism ('Barbara') is: If 'All A are B' (Major Premise), and 'All C are A' (Minor Premise), then 'All C are B' (Conclusion). This structure is *always* valid, regardless of what A, B, and C are. It works for 'A=Mortal, B=Men, C=Socrates' just as it works for 'A=Mammals, B=Animals, C=Cats'. He abstracted reasoning from its content, turning it into a formal, universal science."
+    },
+    "fun_facts": [
+        {
+            "icon": "🧐",
+            "text": "亚里士多德本人从未使用过“逻辑”(Logic) 这个词。他称他所研究的这门学科为“分析学”(Analytics)。“Organon”（工具）这个标题也是后来的注释者添加的。",
+            "text_en": "Aristotle never used the word 'logic'. He called his discipline 'analytics'. The title 'Organon' (Tool) was also added by later commentators."
+        },
+        {
+            "icon": "🤯",
+            "text": "亚里士多德的逻辑系统是如此的完整和具有统治力，以至于在2000多年后，哲学家康德（Immanuel Kant）在1781年仍声称，自亚里士多德以来，逻辑学“没有能够再前进一步”。",
+            "text_en": "Aristotle's logical system was so complete and dominant that over 2,000 years later, the philosopher Immanuel Kant (in 1781) claimed that logic had not been able to 'advance a single step' since Aristotle."
+        }
+    ],
+    "simple_explanation": {
+        "text": "亚里士多德发明了“如果...那么...”的“游戏规则”。他指出，一个论证就像一个数学方程。例如：\n前提1：所有鸟都会飞。\n前提2：企鹅是鸟。\n结论：所以，企鹅会飞。\n亚里士多德的伟大发现是：这个“论证结构”是*有效*的（逻辑通顺），即使结论（企鹅会飞）在事实上是*错误*的。他教会了我们如何区分“逻辑上有效”和“事实上真实”，这是所有科学、法律和哲学辩论的基础。",
+        "text_en": "Aristotle invented the 'rules of the game' for arguing. He showed that an argument is like a math equation. For example:\nPremise 1: All birds can fly.\nPremise 2: A penguin is a bird.\nConclusion: Therefore, a penguin can fly.\nAristotle's big discovery was that this 'structure' is *valid* (the logic works), even though the conclusion is *false*. He taught us how to separate *logical validity* from *factual truth*, which is the basis for all science, law, and debate.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Aristotle_Porphyrian_Tree.svg/640px-Aristotle_Porphyrian_Tree.svg.png"
+    },
     "applications": [
         {
-          "icon": "🔬",
-          "title": "科学方法 (Scientific Method)",
-          "title_en": "Scientific Method",
-          "text": "他的《后分析篇》定义了科学知识（episteme）必须是可“证明”的，即从不证自明的第一原理（公理）出发进行演绎。这成为了欧几里得和牛顿的模板。",
-          "text_en": "His 'Posterior Analytics' defined scientific knowledge (episteme) as 'demonstrative', meaning it must be deduced from self-evident first principles (axioms). This became the template for Euclid and Newton."
+            "icon": "🔬",
+            "title": "科学方法 (Scientific Method)",
+            "title_en": "Scientific Method",
+            "text": "他的《后分析篇》定义了科学知识（episteme）必须是可“证明”的，即从不证自明的第一原理（公理）出发进行演绎。这成为了欧几里得和牛顿的模板。",
+            "text_en": "His 'Posterior Analytics' defined scientific knowledge (episteme) as 'demonstrative', meaning it must be deduced from self-evident first principles (axioms). This became the template for Euclid and Newton."
         },
         {
-          "icon": "🏛️",
-          "title": "法律与修辞学",
-          "title_en": "Law and Rhetoric",
-          "text": "三段论成为了法律推理和政治演说中构建和拆解论点的核心工具。",
-          "text_en": "The syllogism became the central tool for constructing and deconstructing arguments in legal reasoning and political rhetoric."
+            "icon": "🏛️",
+            "title": "法律与修辞学",
+            "title_en": "Law and Rhetoric",
+            "text": "三段论成为了法律推理和政治演说中构建和拆解论点的核心工具。",
+            "text_en": "The syllogism became the central tool for constructing and deconstructing arguments in legal reasoning and political rhetoric."
         },
         {
-          "icon": "💻",
-          "title": "计算机科学与人工智能",
-          "title_en": "Computer Science & AI",
-          "text": "现代计算的基础（如布尔代数）和人工智能（如专家系统）都是建立在亚里士多德开创的形式逻辑（IF-THEN结构）之上的。",
-          "text_en": "The foundations of modern computation (like Boolean algebra) and AI (like expert systems) are built on the same formal, IF-THEN logic that Aristotle pioneered."
+            "icon": "💻",
+            "title": "计算机科学与人工智能",
+            "title_en": "Computer Science & AI",
+            "text": "现代计算的基础（如布尔代数）和人工智能（如专家系统）都是建立在亚里士多德开创的形式逻辑（IF-THEN结构）之上的。",
+            "text_en": "The foundations of modern computation (like Boolean algebra) and AI (like expert systems) are built on the same formal, IF-THEN logic that Aristotle pioneered."
         }
-      ],
-  
+    ],
     "impact": {
-      "text": "《工具论》是西方理性主义的基石。亚里士多德发明的演绎逻辑系统（三段论）在西方学术界占据了绝对的统治地位，长达两千多年。直到19世纪末，随着弗雷格和罗素等人发展出更强大的“谓词逻辑”，亚里士多德的系统才被超越。但即便是现代逻辑，也只是在亚里士多德开创的“形式化”道路上的延续。",
-      "text_en": "The 'Organon' is the bedrock of Western rationalism. Aristotle's system of deductive logic (the syllogism) was the undisputed authority in academia for over 2,000 years. It was only superseded in the late 19th century by the more powerful 'predicate logic' of Frege and Russell. But even modern logic is a continuation of the 'formalization' that Aristotle began."
+        "text": "《工具论》是西方理性主义的基石。亚里士多德发明的演绎逻辑系统（三段论）在西方学术界占据了绝对的统治地位，长达两千多年。直到19世纪末，随着弗雷格和罗素等人发展出更强大的“谓词逻辑”，亚里士多德的系统才被超越。但即便是现代逻辑，也只是在亚里士多德开创的“形式化”道路上的延续。",
+        "text_en": "The 'Organon' is the bedrock of Western rationalism. Aristotle's system of deductive logic (the syllogism) was the undisputed authority in academia for over 2,000 years. It was only superseded in the late 19th century by the more powerful 'predicate logic' of Frege and Russell. But even modern logic is a continuation of the 'formalization' that Aristotle began."
     },
-  
     "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "plato_forms_BC380",
-          "contribution": "柏拉图（其“辩证法”和对“定义”的追求，构成了亚里士多德逻辑的起点）",
-          "contribution_en": "Plato (whose 'dialectic' method and search for definitions was the starting point for Aristotle's logic)"
-        },
-        {
-          "id": "socrates_dialogues_BC420",
-          "contribution": "苏格拉底（其“诘问法”[Elenchus]展示了通过揭示矛盾来寻求真理）",
-          "contribution_en": "Socrates (whose 'Elenchus' method showed how to find truth by exposing contradictions)"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "euclid_elements_BC300",
-          "contribution": "欧几里得（其《几何原本》是亚里士多德“公理-演绎”科学方法的完美实践）",
-          "contribution_en": "Euclid (whose 'Elements' is the perfect application of Aristotle's 'axiomatic-deductive' scientific method)"
-        },
-        {
-          "id": "ptolemy_geocentrism_150",
-          "contribution": "托勒密（使用亚里士多德的逻辑来构建和论证其宇宙模型）",
-          "contribution_en": "Ptolemy (used Aristotelian logic to construct and argue for his cosmological model)"
-        },
-        {
-          "id": "medieval_scholasticism",
-          "contribution": "中世纪经院哲学（如阿奎那，将亚里士多德逻辑作为神学和哲学论证的标准工具）",
-          "contribution_en": "Medieval Scholasticism (e.g., Aquinas, who adopted Aristotelian logic as the standard tool for theology and philosophy)"
-        }
-      ],
-      "legacy_text": "亚里士多德发明的逻辑学，是人类第一次尝试系统化“思考”本身的规则。",
-      "legacy_text_en": "Aristotle's invention of logic was humanity's first attempt to systematically codify the rules of 'thinking' itself."
+        "influenced_by": [
+            {
+                "id": "plato_forms_BC380",
+                "contribution": "柏拉图（其“辩证法”和对“定义”的追求，构成了亚里士多德逻辑的起点）",
+                "contribution_en": "Plato (whose 'dialectic' method and search for definitions was the starting point for Aristotle's logic)"
+            },
+            {
+                "id": "socrates_dialogues_BC420",
+                "contribution": "苏格拉底（其“诘问法”[Elenchus]展示了通过揭示矛盾来寻求真理）",
+                "contribution_en": "Socrates (whose 'Elenchus' method showed how to find truth by exposing contradictions)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "euclid_elements_BC300",
+                "contribution": "欧几里得（其《几何原本》是亚里士多德“公理-演绎”科学方法的完美实践）",
+                "contribution_en": "Euclid (whose 'Elements' is the perfect application of Aristotle's 'axiomatic-deductive' scientific method)"
+            },
+            {
+                "id": "ptolemy_geocentrism_150",
+                "contribution": "托勒密（使用亚里士多德的逻辑来构建和论证其宇宙模型）",
+                "contribution_en": "Ptolemy (used Aristotelian logic to construct and argue for his cosmological model)"
+            },
+            {
+                "id": "medieval_scholasticism",
+                "contribution": "中世纪经院哲学（如阿奎那，将亚里士多德逻辑作为神学和哲学论证的标准工具）",
+                "contribution_en": "Medieval Scholasticism (e.g., Aquinas, who adopted Aristotelian logic as the standard tool for theology and philosophy)"
+            }
+        ],
+        "legacy_text": "亚里士多德发明的逻辑学，是人类第一次尝试系统化“思考”本身的规则。",
+        "legacy_text_en": "Aristotle's invention of logic was humanity's first attempt to systematically codify the rules of 'thinking' itself."
     },
-  
-    "related_concepts": ["三段论 (Syllogism)", "工具论 (Organon)", "演绎推理 (Deduction)", "归纳推理 (Induction)", "十个范畴 (Categories)", "命题 (Proposition)", "有效性 (Validity)", "公理 (Axiom)"],
-    "related_concepts_en": ["Syllogism", "Organon", "Deduction", "Induction", "Categories", "Proposition", "Validity", "Axiom"],
-  
-    "quiz": {
-      "question": "“所有A都是B。所有C都是A。因此，所有C都是B。” 亚里士多德称这种论证结构为什么？",
-      "question_en": "'All A are B. All C are A. Therefore, all C are B.' What did Aristotle call this argument structure?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Syllogism_in_Euclid.svg/640px-Syllogism_in_Euclid.svg.png",
-      "options": [
+    "related_concepts": [
         "三段论 (Syllogism)",
-        "洞穴寓言 (Allegory of the Cave)",
-        "悖论 (Paradox)",
-        "本原 (Arche)"
-      ],
-      "options_en": [
-        "A Syllogism",
-        "An Allegory of the Cave",
-        "A Paradox",
-        "An Arche"
-      ],
-      "answer": 0,
-      "explanation": "三段论是亚里士多德逻辑的核心，它是一种演绎推理，其中一个结论（命题）是从两个给定的或假定的前提（命题）中推导出来的。",
-      "explanation_en": "The syllogism is the core of Aristotelian logic. It is a form of deductive reasoning where a conclusion (proposition) is inferred from two given or assumed premises (propositions)."
+        "工具论 (Organon)",
+        "演绎推理 (Deduction)",
+        "归纳推理 (Induction)",
+        "十个范畴 (Categories)",
+        "命题 (Proposition)",
+        "有效性 (Validity)",
+        "公理 (Axiom)"
+    ],
+    "related_concepts_en": [
+        "Syllogism",
+        "Organon",
+        "Deduction",
+        "Induction",
+        "Categories",
+        "Proposition",
+        "Validity",
+        "Axiom"
+    ],
+    "quiz": {
+        "question": "“所有A都是B。所有C都是A。因此，所有C都是B。” 亚里士多德称这种论证结构为什么？",
+        "question_en": "'All A are B. All C are A. Therefore, all C are B.' What did Aristotle call this argument structure?",
+        "options": [
+            "三段论 (Syllogism)",
+            "洞穴寓言 (Allegory of the Cave)",
+            "悖论 (Paradox)",
+            "本原 (Arche)"
+        ],
+        "options_en": [
+            "A Syllogism",
+            "An Allegory of the Cave",
+            "A Paradox",
+            "An Arche"
+        ],
+        "answer": 0,
+        "explanation": "三段论是亚里士多德逻辑的核心，它是一种演绎推理，其中一个结论（命题）是从两个给定的或假定的前提（命题）中推导出来的。",
+        "explanation_en": "The syllogism is the core of Aristotelian logic. It is a form of deductive reasoning where a conclusion (proposition) is inferred from two given or assumed premises (propositions)."
     }
-  }
+}

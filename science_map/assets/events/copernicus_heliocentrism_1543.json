@@ -10,149 +10,160 @@
     "city_en": "Nuremberg",
     "country": "神圣罗马帝国 (今德国)",
     "country_en": "Holy Roman Empire (Modern Germany)",
-    "field": ["天文学", "宇宙学", "数学"],
-    "field_en": ["Astronomy", "Cosmology", "Mathematics"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Heliocentric.jpg",
-      "video": {
-        "url": "https://www.youtube.com/embed/ZGr1nHdzLyk&t=105s",
-        "title": "哥白尼革命",
-        "title_en": "The Copernican Revolution",
-        "duration": "7:00"
-      }
-    },
-    
-    "summary": {
-      "text": "哥白尼在他临终前发表了奠基性的著作《天体运行论》。书中，他系统地提出了一个数学上完整的“日心说”模型，将太阳置于宇宙的中心，而地球则降级为环绕太阳运行的一颗行星。",
-      "text_en": "On his deathbed, Copernicus published his foundational work 'On the Revolutions of the Heavenly Spheres'. In it, he presented a mathematically complete 'Heliocentric' model, placing the Sun at the center of the universe and demoting the Earth to just another planet orbiting it.",
-      "key_points": [
-        "日心说 (Heliocentrism)",
-        "地球被视为一颗行星",
-        "地球的自转解释了昼夜交替",
-        "革命性地挑战了统治1500年的托勒密“地心说”"
-      ],
-      "key_points_en": [
-        "Heliocentrism (Sun-centered model)",
-        "Earth is treated as a planet",
-        "Earth's rotation explains day and night",
-        "Revolutionized the 1,500-year-old Ptolemaic 'Geocentric' model"
-      ]
-    },
-  
-    "story": {
-      "text": "哥白尼花了数十年的时间完善他的日心说模型，但他迟迟不敢发表，担心受到教会的迫害和学术界的嘲笑。直到他晚年，在他的朋友和学生（如雷蒂库斯）的强烈敦促下，他才同意出版。传说，哥白尼在1543年5月去世前几小时，才收到了这本书的第一个印本。",
-      "text_en": "Copernicus spent decades refining his heliocentric model but hesitated to publish, fearing persecution from the Church and ridicule from academia. Only late in his life, at the strong urging of his friends and pupils (like Rheticus), did he agree. Legend says he received the first printed copy of his book on his deathbed, just hours before he died in May 1543."
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "🤫",
-        "text": "出版商安德烈亚斯·奥西安德（Andreas Osiander）在未经哥白尼许可的情况下，擅自添加了一篇序言，称该模型只是一个用于计算的“数学假设”，而非物理现实。这可能在初期保护了它免受教会的审查。",
-        "text_en": "The publisher, Andreas Osiander, added an anonymous preface without Copernicus's permission, claiming the model was merely a 'mathematical hypothesis' for calculation, not physical reality. This likely saved it from immediate censorship by the Church."
-      },
-      {
-        "icon": "🏛️",
-        "text": "哥白尼并不是第一个提出日心说的人。古希腊的阿里斯塔克斯（Aristarchus of Samos）在公元前3世纪就已提出过，但当时未被接受。",
-        "text_en": "Copernicus was not the first to propose heliocentrism. The ancient Greek astronomer Aristarchus of Samos had proposed it in the 3rd century BC, but his idea was not accepted."
-      }
+    "field": [
+        "天文学",
+        "宇宙学",
+        "数学"
     ],
-  
-    "simple_explanation": {
-      "text": "在哥白尼之前，所有人都认为地球是宇宙的中心（就像你以为你是派对的中心）。太阳、月亮和所有行星都绕着地球转。哥白尼说：‘不对，我们都搞错了。’ 他指出，太阳才是中心，而地球（和我们一样）只是绕着太阳转的众多行星之一。这彻底改变了我们对自己在宇宙中位置的看法。",
-      "text_en": "Before Copernicus, everyone believed Earth was the center of the universe (like thinking you're the center of a party). The Sun, Moon, and all planets orbited Earth. Copernicus said, 'No, we have it backwards.' He showed that the Sun is the center, and Earth is just one of many planets orbiting it. This completely changed how we see our place in the universe.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Apparent_retrograde_motion.gif"
+    "field_en": [
+        "Astronomy",
+        "Cosmology",
+        "Mathematics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Heliocentric.jpg",
+        "video": {
+            "url": "https://www.youtube.com/embed/ZGr1nHdzLyk&t=105s",
+            "title": "哥白尼革命",
+            "title_en": "The Copernican Revolution",
+            "duration": "7:00"
+        }
     },
-  
+    "summary": {
+        "text": "哥白尼在他临终前发表了奠基性的著作《天体运行论》。书中，他系统地提出了一个数学上完整的“日心说”模型，将太阳置于宇宙的中心，而地球则降级为环绕太阳运行的一颗行星。",
+        "text_en": "On his deathbed, Copernicus published his foundational work 'On the Revolutions of the Heavenly Spheres'. In it, he presented a mathematically complete 'Heliocentric' model, placing the Sun at the center of the universe and demoting the Earth to just another planet orbiting it.",
+        "key_points": [
+            "日心说 (Heliocentrism)",
+            "地球被视为一颗行星",
+            "地球的自转解释了昼夜交替",
+            "革命性地挑战了统治1500年的托勒密“地心说”"
+        ],
+        "key_points_en": [
+            "Heliocentrism (Sun-centered model)",
+            "Earth is treated as a planet",
+            "Earth's rotation explains day and night",
+            "Revolutionized the 1,500-year-old Ptolemaic 'Geocentric' model"
+        ]
+    },
+    "story": {
+        "text": "哥白尼花了数十年的时间完善他的日心说模型，但他迟迟不敢发表，担心受到教会的迫害和学术界的嘲笑。直到他晚年，在他的朋友和学生（如雷蒂库斯）的强烈敦促下，他才同意出版。传说，哥白尼在1543年5月去世前几小时，才收到了这本书的第一个印本。",
+        "text_en": "Copernicus spent decades refining his heliocentric model but hesitated to publish, fearing persecution from the Church and ridicule from academia. Only late in his life, at the strong urging of his friends and pupils (like Rheticus), did he agree. Legend says he received the first printed copy of his book on his deathbed, just hours before he died in May 1543."
+    },
+    "fun_facts": [
+        {
+            "icon": "🤫",
+            "text": "出版商安德烈亚斯·奥西安德（Andreas Osiander）在未经哥白尼许可的情况下，擅自添加了一篇序言，称该模型只是一个用于计算的“数学假设”，而非物理现实。这可能在初期保护了它免受教会的审查。",
+            "text_en": "The publisher, Andreas Osiander, added an anonymous preface without Copernicus's permission, claiming the model was merely a 'mathematical hypothesis' for calculation, not physical reality. This likely saved it from immediate censorship by the Church."
+        },
+        {
+            "icon": "🏛️",
+            "text": "哥白尼并不是第一个提出日心说的人。古希腊的阿里斯塔克斯（Aristarchus of Samos）在公元前3世纪就已提出过，但当时未被接受。",
+            "text_en": "Copernicus was not the first to propose heliocentrism. The ancient Greek astronomer Aristarchus of Samos had proposed it in the 3rd century BC, but his idea was not accepted."
+        }
+    ],
+    "simple_explanation": {
+        "text": "在哥白尼之前，所有人都认为地球是宇宙的中心（就像你以为你是派对的中心）。太阳、月亮和所有行星都绕着地球转。哥白尼说：‘不对，我们都搞错了。’ 他指出，太阳才是中心，而地球（和我们一样）只是绕着太阳转的众多行星之一。这彻底改变了我们对自己在宇宙中位置的看法。",
+        "text_en": "Before Copernicus, everyone believed Earth was the center of the universe (like thinking you're the center of a party). The Sun, Moon, and all planets orbited Earth. Copernicus said, 'No, we have it backwards.' He showed that the Sun is the center, and Earth is just one of many planets orbiting it. This completely changed how we see our place in the universe.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Apparent_retrograde_motion.gif"
+    },
     "applications": [
         {
-          "icon": "🪐",
-          "title": "行星距离的计算",
-          "title_en": "Calculating Planetary Distances",
-          "text": "日心说模型首次允许天文学家计算出太阳系中行星的相对距离（例如，火星到太阳的距离是地球的1.5倍）。",
-          "text_en": "The heliocentric model allowed astronomers for the first time to calculate the relative distances of the planets in the Solar System (e.g., that Mars is 1.5x further from the Sun than Earth)."
+            "icon": "🪐",
+            "title": "行星距离的计算",
+            "title_en": "Calculating Planetary Distances",
+            "text": "日心说模型首次允许天文学家计算出太阳系中行星的相对距离（例如，火星到太阳的距离是地球的1.5倍）。",
+            "text_en": "The heliocentric model allowed astronomers for the first time to calculate the relative distances of the planets in the Solar System (e.g., that Mars is 1.5x further from the Sun than Earth)."
         },
         {
-          "icon": "📅",
-          "title": "历法改革",
-          "title_en": "Calendar Reform",
-          "text": "哥白尼对一年长度的更精确计算，为1582年的“格里高利历”改革（即我们今天使用的公历）提供了关键的数学基础。",
-          "text_en": "Copernicus's more accurate calculation for the length of a year provided the key mathematical basis for the Gregorian Calendar reform in 1582 (the calendar we use today)."
+            "icon": "📅",
+            "title": "历法改革",
+            "title_en": "Calendar Reform",
+            "text": "哥白尼对一年长度的更精确计算，为1582年的“格里高利历”改革（即我们今天使用的公历）提供了关键的数学基础。",
+            "text_en": "Copernicus's more accurate calculation for the length of a year provided the key mathematical basis for the Gregorian Calendar reform in 1582 (the calendar we use today)."
         },
         {
-          "icon": "🗺️",
-          "title": "科学革命的蓝图",
-          "title_en": "Blueprint for Scientific Revolution",
-          "text": "它为开普勒、伽利略和牛顿的后续工作提供了必要的理论框架，没有这个框架，他们的发现是不可能的。",
-          "text_en": "It provided the essential theoretical framework for the later work of Kepler, Galileo, and Newton, whose discoveries would not have been possible without it."
+            "icon": "🗺️",
+            "title": "科学革命的蓝图",
+            "title_en": "Blueprint for Scientific Revolution",
+            "text": "它为开普勒、伽利略和牛顿的后续工作提供了必要的理论框架，没有这个框架，他们的发现是不可能的。",
+            "text_en": "It provided the essential theoretical framework for the later work of Kepler, Galileo, and Newton, whose discoveries would not have been possible without it."
         }
-      ],
-  
+    ],
     "impact": {
-      "text": "《天体运行论》被广泛认为是科学革命的开端。它从根本上挑战了统治欧洲1500年的亚里士多德和托勒密的地心宇宙观，将人类从宇宙的中心移到了边缘。这一转变被称为“哥白尼革命”。",
-      "text_en": "This book is widely seen as the starting point of the Scientific Revolution. It fundamentally challenged the 1,500-year-old Aristotelian and Ptolemaic geocentric model, moving humanity from the center of the universe to the periphery. This shift is known as the 'Copernican Revolution'."
+        "text": "《天体运行论》被广泛认为是科学革命的开端。它从根本上挑战了统治欧洲1500年的亚里士多德和托勒密的地心宇宙观，将人类从宇宙的中心移到了边缘。这一转变被称为“哥白尼革命”。",
+        "text_en": "This book is widely seen as the starting point of the Scientific Revolution. It fundamentally challenged the 1,500-year-old Aristotelian and Ptolemaic geocentric model, moving humanity from the center of the universe to the periphery. This shift is known as the 'Copernican Revolution'."
     },
-  
     "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "ptolemy_geocentrism_150",
-          "contribution": "托勒密的地心说模型（作为被推翻的主要理论）",
-          "contribution_en": "Ptolemy's geocentric model (as the primary theory to be disproven)"
-        },
-        {
-          "id": "aristarchus_heliocentrism_BC270",
-          "contribution": "古希腊阿里斯塔克斯（最早的日心说提出者）",
-          "contribution_en": "Aristarchus of Samos (as the ancient originator of heliocentrism)"
-        },
-        {
-          "id": "ibn_al_shatir_model_1350",
-          "contribution": "伊本·沙蒂尔（其马拉盖学派的模型提供了取代“偏心匀速点”的关键数学工具）",
-          "contribution_en": "Ibn al-Shatir (his Maragha school model provided the key mathematical tools to replace the equant)"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "tycho_brahe_astronomical_data_1580",
-          "contribution": "第谷·布拉赫（其工作是对哥白尼模型的直接回应，试图创建第三种模型）",
-          "contribution_en": "Tycho Brahe (his work was a direct response to Copernicus, attempting to create a third model)"
-        },   
-        {
-          "id": "kepler_laws_1609",
-          "contribution": "为开普勒计算行星椭圆轨道提供了数据和框架",
-          "contribution_en": "Provided the framework and data for Kepler to calculate elliptical orbits"
-        },     
-        {
-          "id": "galileo_telescope_1610",
-          "contribution": "为伽利略提供了需要用望远镜观测验证的理论模型",
-          "contribution_en": "Provided the theoretical model for Galileo to confirm with his telescope"
-        }
-      ],
-      "legacy_text": "哥白尼将地球从宇宙的特权中心位置移除，开启了一场持续至今的科学和思想革命。",
-      "legacy_text_en": "Copernicus removed Earth from its privileged, central position in the universe, sparking a scientific and intellectual revolution that continues to this day."
+        "influenced_by": [
+            {
+                "id": "ptolemy_geocentrism_150",
+                "contribution": "托勒密的地心说模型（作为被推翻的主要理论）",
+                "contribution_en": "Ptolemy's geocentric model (as the primary theory to be disproven)"
+            },
+            {
+                "id": "aristarchus_heliocentrism_BC270",
+                "contribution": "古希腊阿里斯塔克斯（最早的日心说提出者）",
+                "contribution_en": "Aristarchus of Samos (as the ancient originator of heliocentrism)"
+            },
+            {
+                "id": "ibn_al_shatir_model_1350",
+                "contribution": "伊本·沙蒂尔（其马拉盖学派的模型提供了取代“偏心匀速点”的关键数学工具）",
+                "contribution_en": "Ibn al-Shatir (his Maragha school model provided the key mathematical tools to replace the equant)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "tycho_brahe_astronomical_data_1580",
+                "contribution": "第谷·布拉赫（其工作是对哥白尼模型的直接回应，试图创建第三种模型）",
+                "contribution_en": "Tycho Brahe (his work was a direct response to Copernicus, attempting to create a third model)"
+            },
+            {
+                "id": "kepler_laws_1609",
+                "contribution": "为开普勒计算行星椭圆轨道提供了数据和框架",
+                "contribution_en": "Provided the framework and data for Kepler to calculate elliptical orbits"
+            },
+            {
+                "id": "galileo_telescope_1610",
+                "contribution": "为伽利略提供了需要用望远镜观测验证的理论模型",
+                "contribution_en": "Provided the theoretical model for Galileo to confirm with his telescope"
+            }
+        ],
+        "legacy_text": "哥白尼将地球从宇宙的特权中心位置移除，开启了一场持续至今的科学和思想革命。",
+        "legacy_text_en": "Copernicus removed Earth from its privileged, central position in the universe, sparking a scientific and intellectual revolution that continues to this day."
     },
-  
-    "related_concepts": ["日心说", "地心说", "哥白尼革命", "托勒密体系", "天体运行论", "阿里斯塔克斯"],
-    "related_concepts_en": ["Heliocentrism", "Geocentrism", "Copernican Revolution", "Ptolemaic System", "De revolutionibus", "Aristarchus"],
-  
+    "related_concepts": [
+        "日心说",
+        "地心说",
+        "哥白尼革命",
+        "托勒密体系",
+        "天体运行论",
+        "阿里斯塔克斯"
+    ],
+    "related_concepts_en": [
+        "Heliocentrism",
+        "Geocentrism",
+        "Copernican Revolution",
+        "Ptolemaic System",
+        "De revolutionibus",
+        "Aristarchus"
+    ],
     "quiz": {
-      "question": "哥白尼在1543年《天体运行论》中提出的革命性观点是什么？",
-      "question_en": "What was the revolutionary idea proposed by Copernicus in his 1543 book 'De revolutionibus'?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Copernican_heliocentrism_diagram.svg/640px-Copernican_heliocentrism_diagram.svg.png",
-      "options": [
-        "地球是平的",
-        "太阳绕着地球转",
-        "地球绕着太阳转",
-        "木星有卫星"
-      ],
-      "options_en": [
-        "The Earth is flat",
-        "The Sun orbits the Earth",
-        "The Earth orbits the Sun",
-        "Jupiter has moons"
-      ],
-      "answer": 2,
-      "explanation": "哥白尼的模型（日心说）挑战了当时公认的托勒密模型（地心说），提出地球和其它行星一样，是围绕太阳旋转的。",
-      "explanation_en": "Copernicus's model (Heliocentrism) challenged the accepted Ptolemaic model (Geocentrism) by proposing that the Earth, like the other planets, orbited the Sun."
+        "question": "哥白尼在1543年《天体运行论》中提出的革命性观点是什么？",
+        "question_en": "What was the revolutionary idea proposed by Copernicus in his 1543 book 'De revolutionibus'?",
+        "options": [
+            "地球是平的",
+            "太阳绕着地球转",
+            "地球绕着太阳转",
+            "木星有卫星"
+        ],
+        "options_en": [
+            "The Earth is flat",
+            "The Sun orbits the Earth",
+            "The Earth orbits the Sun",
+            "Jupiter has moons"
+        ],
+        "answer": 2,
+        "explanation": "哥白尼的模型（日心说）挑战了当时公认的托勒密模型（地心说），提出地球和其它行星一样，是围绕太阳旋转的。",
+        "explanation_en": "Copernicus's model (Heliocentrism) challenged the accepted Ptolemaic model (Geocentrism) by proposing that the Earth, like the other planets, orbited the Sun."
     }
-  }
+}

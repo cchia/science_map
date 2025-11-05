@@ -10,151 +10,164 @@
     "city_en": "Alexandria",
     "country": "托勒密埃及",
     "country_en": "Ptolemaic Egypt",
-    "field": ["数学", "几何学", "逻辑"],
-    "field_en": ["Mathematics", "Geometry", "Logic"],
-    
-    "media": {
-      "event_image": "assets/images/euclid_elements.jpg",
-      "video": {
-        "url": "https://www.youtube.com/watch?v=RxzAH2qfT5U",
-        "title": "欧几里得《几何原本》：简介",
-        "title_en": "Euclid's Elements: Introduction",
-        "duration": "6:20"
-      }
-    },
-    
-    "summary": {
-      "text": "欧几里得在亚历山大发表了《几何原本》。这部13卷的巨著是数学史上最重要、最有影响力的作品。它的伟大之处不在于发现了新定理，而在于它首创了“公理化方法”：从少数几个定义、公设（如“两点确定一条直线”）出发，通过严格的逻辑演绎，证明了数百个几何和数论命题。",
-      "text_en": "Euclid published 'The Elements' in Alexandria. This 13-volume treatise is one of the most important and influential works in the history of mathematics. Its genius was not new discoveries, but its 'Axiomatic Method': starting from a small set of definitions and postulates (e.g., 'a line can be drawn between any two points'), it uses rigorous logic to deduce and *prove* hundreds of propositions in geometry and number theory.",
-      "key_points": [
-        "公理化方法 (Axiomatic Method)",
-        "13卷巨著",
-        "几何学和数论的集大成者",
-        "逻辑演绎的典范",
-        "包含毕达哥拉斯定理 (a² + b² = c²) 的证明"
-      ],
-      "key_points_en": [
-        "Axiomatic Method",
-        "13-volume treatise",
-        "Compendium of all Greek geometry and number theory",
-        "Gold standard of logical deduction",
-        "Includes proof of the Pythagorean theorem (a² + b² = c²)"
-      ]
-    },
-  
-    "story": {
-      "text": "传说托勒密一世国王（亚历山大的统治者）曾问欧几里得，学习几何学是否有一条“捷径”。欧几里得的著名回答是：“在几何学中，没有专为国王开辟的道路。” 这个故事彰显了《几何原本》的核心精神：知识必须通过一步一步、无可辩驳的逻辑推理来获得，没有例外，没有跳跃。",
-      "text_en": "Legend says that King Ptolemy I, the ruler of Alexandria, asked Euclid if there was a 'shortcut' to learning geometry. Euclid famously replied, 'There is no Royal Road to Geometry.' This story captures the spirit of 'The Elements': knowledge must be built step-by-step through irrefutable logical reasoning, with no exceptions and no leaps of faith."
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "📚",
-        "text": "《几何原本》是人类历史上印刷次数第二多的书，仅次于《圣经》。在长达2000多年的时间里，它一直是全世界数学家的标准教科书。",
-        "text_en": "'The Elements' is the second most-printed book in human history, surpassed only by 'The Bible'. It was the standard mathematics textbook for the entire world for over 2,000 years."
-      },
-      {
-        "icon": "🤔",
-        "text": "著名的“第五公设”（平行公设）困扰了数学家两千年。数学家们试图用前四个公设来证明它，但都失败了。最终在19世纪，通过“否定”第五公设，诞生了“非欧几里得几何学”，为爱因斯坦的广义相对论奠定了基础。",
-        "text_en": "The famous 'Fifth Postulate' (the parallel postulate) vexed mathematicians for 2,000 years. They tried to prove it from the other four, but all failed. Finally, in the 19th century, the *denial* of the 5th postulate led to the creation of Non-Euclidean Geometry, which became the foundation for Einstein's General Relativity."
-      }
+    "field": [
+        "数学",
+        "几何学",
+        "逻辑"
     ],
-  
-    "simple_explanation": {
-      "text": "《几何原本》就像是数学世界的“乐高说明书”。欧几里得给了你最基本、最简单的几块“积木”（公理），比如“两点可以连成一条直线”。然后，他用这几块积木，一步一步地教你如何搭建出越来越复杂、越宏伟的“城堡”（如毕达哥拉斯定理，或证明素数有无限多个）。他向世界证明，从最简单的“是”或“不是”出发，你可以用逻辑推理出整个宇宙的数学结构。",
-      "text_en": "Euclid's 'Elements' is like the ultimate LEGO instruction manual for math. Euclid gives you a few of the simplest, most basic bricks (the axioms), like 'you can draw a straight line between any two points.' Then, he shows you how to use *only* those bricks, step-by-step, to build massive, complex castles (like the Pythagorean theorem or proving there are infinite primes). He showed the world how you can use pure logic to build the entire structure of mathematics from the simplest possible truths.",
-      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/14/Byrne_82_diagram_1.svg"
+    "field_en": [
+        "Mathematics",
+        "Geometry",
+        "Logic"
+    ],
+    "media": {
+        "event_image": "assets/images/euclid_elements.jpg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=RxzAH2qfT5U",
+            "title": "欧几里得《几何原本》：简介",
+            "title_en": "Euclid's Elements: Introduction",
+            "duration": "6:20"
+        }
     },
-  
+    "summary": {
+        "text": "欧几里得在亚历山大发表了《几何原本》。这部13卷的巨著是数学史上最重要、最有影响力的作品。它的伟大之处不在于发现了新定理，而在于它首创了“公理化方法”：从少数几个定义、公设（如“两点确定一条直线”）出发，通过严格的逻辑演绎，证明了数百个几何和数论命题。",
+        "text_en": "Euclid published 'The Elements' in Alexandria. This 13-volume treatise is one of the most important and influential works in the history of mathematics. Its genius was not new discoveries, but its 'Axiomatic Method': starting from a small set of definitions and postulates (e.g., 'a line can be drawn between any two points'), it uses rigorous logic to deduce and *prove* hundreds of propositions in geometry and number theory.",
+        "key_points": [
+            "公理化方法 (Axiomatic Method)",
+            "13卷巨著",
+            "几何学和数论的集大成者",
+            "逻辑演绎的典范",
+            "包含毕达哥拉斯定理 (a² + b² = c²) 的证明"
+        ],
+        "key_points_en": [
+            "Axiomatic Method",
+            "13-volume treatise",
+            "Compendium of all Greek geometry and number theory",
+            "Gold standard of logical deduction",
+            "Includes proof of the Pythagorean theorem (a² + b² = c²)"
+        ]
+    },
+    "story": {
+        "text": "传说托勒密一世国王（亚历山大的统治者）曾问欧几里得，学习几何学是否有一条“捷径”。欧几里得的著名回答是：“在几何学中，没有专为国王开辟的道路。” 这个故事彰显了《几何原本》的核心精神：知识必须通过一步一步、无可辩驳的逻辑推理来获得，没有例外，没有跳跃。",
+        "text_en": "Legend says that King Ptolemy I, the ruler of Alexandria, asked Euclid if there was a 'shortcut' to learning geometry. Euclid famously replied, 'There is no Royal Road to Geometry.' This story captures the spirit of 'The Elements': knowledge must be built step-by-step through irrefutable logical reasoning, with no exceptions and no leaps of faith."
+    },
+    "fun_facts": [
+        {
+            "icon": "📚",
+            "text": "《几何原本》是人类历史上印刷次数第二多的书，仅次于《圣经》。在长达2000多年的时间里，它一直是全世界数学家的标准教科书。",
+            "text_en": "'The Elements' is the second most-printed book in human history, surpassed only by 'The Bible'. It was the standard mathematics textbook for the entire world for over 2,000 years."
+        },
+        {
+            "icon": "🤔",
+            "text": "著名的“第五公设”（平行公设）困扰了数学家两千年。数学家们试图用前四个公设来证明它，但都失败了。最终在19世纪，通过“否定”第五公设，诞生了“非欧几里得几何学”，为爱因斯坦的广义相对论奠定了基础。",
+            "text_en": "The famous 'Fifth Postulate' (the parallel postulate) vexed mathematicians for 2,000 years. They tried to prove it from the other four, but all failed. Finally, in the 19th century, the *denial* of the 5th postulate led to the creation of Non-Euclidean Geometry, which became the foundation for Einstein's General Relativity."
+        }
+    ],
+    "simple_explanation": {
+        "text": "《几何原本》就像是数学世界的“乐高说明书”。欧几里得给了你最基本、最简单的几块“积木”（公理），比如“两点可以连成一条直线”。然后，他用这几块积木，一步一步地教你如何搭建出越来越复杂、越宏伟的“城堡”（如毕达哥拉斯定理，或证明素数有无限多个）。他向世界证明，从最简单的“是”或“不是”出发，你可以用逻辑推理出整个宇宙的数学结构。",
+        "text_en": "Euclid's 'Elements' is like the ultimate LEGO instruction manual for math. Euclid gives you a few of the simplest, most basic bricks (the axioms), like 'you can draw a straight line between any two points.' Then, he shows you how to use *only* those bricks, step-by-step, to build massive, complex castles (like the Pythagorean theorem or proving there are infinite primes). He showed the world how you can use pure logic to build the entire structure of mathematics from the simplest possible truths.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/14/Byrne_82_diagram_1.svg"
+    },
     "applications": [
         {
-          "icon": "🧠",
-          "title": "逻辑与理性思维",
-          "title_en": "Logic and Rational Thought",
-          "text": "它是西方所有“理性思维”和“科学方法”的模板。它教会了人们如何构建一个无懈可击的论证。",
-          "text_en": "It is the template for *all* rational thought and scientific methodology in the West. It taught humanity how to build an airtight, logical argument."
+            "icon": "🧠",
+            "title": "逻辑与理性思维",
+            "title_en": "Logic and Rational Thought",
+            "text": "它是西方所有“理性思维”和“科学方法”的模板。它教会了人们如何构建一个无懈可击的论证。",
+            "text_en": "It is the template for *all* rational thought and scientific methodology in the West. It taught humanity how to build an airtight, logical argument."
         },
         {
-          "icon": "🏫",
-          "title": "教育",
-          "title_en": "Education",
-          "text": "在2000多年的时间里，从开普勒、牛顿到爱因斯坦，几乎所有的科学家、数学家和哲学家都是通过学习《几何原本》来开始他们的启蒙教育的。",
-          "text_en": "For over 2,000 years, nearly every scientist, mathematician, and philosopher—from Kepler and Newton to Einstein—began their education by studying 'The Elements'."
+            "icon": "🏫",
+            "title": "教育",
+            "title_en": "Education",
+            "text": "在2000多年的时间里，从开普勒、牛顿到爱因斯坦，几乎所有的科学家、数学家和哲学家都是通过学习《几何原本》来开始他们的启蒙教育的。",
+            "text_en": "For over 2,000 years, nearly every scientist, mathematician, and philosopher—from Kepler and Newton to Einstein—began their education by studying 'The Elements'."
         },
         {
-          "icon": "💻",
-          "title": "计算机科学",
-          "title_en": "Computer Science",
-          "text": "现代计算机编程的基础——算法和逻辑证明——其思想根源与欧几里得的公理化方法完全一致。",
-          "text_en": "The foundation of modern computer programming—algorithms and logical proofs—is intellectually identical to Euclid's axiomatic method."
+            "icon": "💻",
+            "title": "计算机科学",
+            "title_en": "Computer Science",
+            "text": "现代计算机编程的基础——算法和逻辑证明——其思想根源与欧几里得的公理化方法完全一致。",
+            "text_en": "The foundation of modern computer programming—algorithms and logical proofs—is intellectually identical to Euclid's axiomatic method."
         }
-      ],
-  
+    ],
     "impact": {
-      "text": "《几何原本》是人类理性思维的顶峰之作。它将数学从一套零散的计算技巧，转变为一门严谨、统一、基于演绎逻辑的宏大学科。它为之后所有的科学（特别是牛顿的《原理》）提供了构建理论的“蓝图”。",
-      "text_en": "'The Elements' is one of the supreme achievements of human reason. It transformed mathematics from a scattered collection of techniques into a single, rigorous, unified discipline based on deductive logic. It provided the 'blueprint' for how all future scientific theories (notably Newton's 'Principia') should be constructed."
+        "text": "《几何原本》是人类理性思维的顶峰之作。它将数学从一套零散的计算技巧，转变为一门严谨、统一、基于演绎逻辑的宏大学科。它为之后所有的科学（特别是牛顿的《原理》）提供了构建理论的“蓝图”。",
+        "text_en": "'The Elements' is one of the supreme achievements of human reason. It transformed mathematics from a scattered collection of techniques into a single, rigorous, unified discipline based on deductive logic. It provided the 'blueprint' for how all future scientific theories (notably Newton's 'Principia') should be constructed."
     },
-  
     "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "pythagoras_theorem_BC500",
-          "contribution": "毕达哥拉斯学派（提供了大量定理，如毕氏定理）",
-          "contribution_en": "The Pythagoreans (provided many theorems, like the Pythagorean theorem)"
-        },
-        {
-          "id": "eudoxus_exhaustion_BC370",
-          "contribution": "欧多克索斯（其比例理论和穷竭法是《几何原本》第五卷的核心）",
-          "contribution_en": "Eudoxus of Cnidus (his theory of proportions and method of exhaustion are key to Book V)"
-        },
-        {
-          "id": "aristotle_logic_BC350",
-          "contribution": "亚里士多德（其对演绎逻辑和公理系统的形式化）",
-          "contribution_en": "Aristotle (for his formalization of deductive logic and axiomatic systems)"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "archimedes_BC250",
-          "contribution": "阿基米德（其所有工作都建立在《几何原本》的公理之上）",
-          "contribution_en": "Archimedes (whose work was entirely built upon the axioms of 'The Elements')"
-        },
-        {
-          "id": "newton_motion_laws_1687",
-          "contribution": "牛顿（其《原理》的结构就是模仿《几何原本》的公理化形式写成的）",
-          "contribution_en": "Newton (whose 'Principia' was structured in the axiomatic form of 'The Elements')"
-        },
-        {
-          "id": "non_euclidean_geometry_AD1830",
-          "contribution": "对第五公设的研究催生了非欧几里得几何学",
-          "contribution_en": "Study of the 5th Postulate directly led to Non-Euclidean Geometry"
-        }
-      ],
-      "legacy_text": "欧几里得用《几何原本》告诉世界：人类的理性可以从最简单的起点出发，构建出整个知识的大厦。",
-      "legacy_text_en": "Euclid's 'Elements' showed the world that human reason, starting from the simplest truths, could logically construct an entire cathedral of knowledge."
+        "influenced_by": [
+            {
+                "id": "pythagoras_theorem_BC500",
+                "contribution": "毕达哥拉斯学派（提供了大量定理，如毕氏定理）",
+                "contribution_en": "The Pythagoreans (provided many theorems, like the Pythagorean theorem)"
+            },
+            {
+                "id": "eudoxus_exhaustion_BC370",
+                "contribution": "欧多克索斯（其比例理论和穷竭法是《几何原本》第五卷的核心）",
+                "contribution_en": "Eudoxus of Cnidus (his theory of proportions and method of exhaustion are key to Book V)"
+            },
+            {
+                "id": "aristotle_logic_BC350",
+                "contribution": "亚里士多德（其对演绎逻辑和公理系统的形式化）",
+                "contribution_en": "Aristotle (for his formalization of deductive logic and axiomatic systems)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "archimedes_BC250",
+                "contribution": "阿基米德（其所有工作都建立在《几何原本》的公理之上）",
+                "contribution_en": "Archimedes (whose work was entirely built upon the axioms of 'The Elements')"
+            },
+            {
+                "id": "newton_motion_laws_1687",
+                "contribution": "牛顿（其《原理》的结构就是模仿《几何原本》的公理化形式写成的）",
+                "contribution_en": "Newton (whose 'Principia' was structured in the axiomatic form of 'The Elements')"
+            },
+            {
+                "id": "non_euclidean_geometry_AD1830",
+                "contribution": "对第五公设的研究催生了非欧几里得几何学",
+                "contribution_en": "Study of the 5th Postulate directly led to Non-Euclidean Geometry"
+            }
+        ],
+        "legacy_text": "欧几里得用《几何原本》告诉世界：人类的理性可以从最简单的起点出发，构建出整个知识的大厦。",
+        "legacy_text_en": "Euclid's 'Elements' showed the world that human reason, starting from the simplest truths, could logically construct an entire cathedral of knowledge."
     },
-  
-    "related_concepts": ["公理化方法", "五大公设", "平行公设", "毕达哥拉斯定理", "欧几里得算法", "无限素数证明", "非欧几里得几何"],
-    "related_concepts_en": ["Axiomatic Method", "The Five Postulates", "Parallel Postulate", "Pythagorean Theorem", "Euclidean Algorithm", "Proof of Infinite Primes", "Non-Euclidean Geometry"],
-  
+    "related_concepts": [
+        "公理化方法",
+        "五大公设",
+        "平行公设",
+        "毕达哥拉斯定理",
+        "欧几里得算法",
+        "无限素数证明",
+        "非欧几里得几何"
+    ],
+    "related_concepts_en": [
+        "Axiomatic Method",
+        "The Five Postulates",
+        "Parallel Postulate",
+        "Pythagorean Theorem",
+        "Euclidean Algorithm",
+        "Proof of Infinite Primes",
+        "Non-Euclidean Geometry"
+    ],
     "quiz": {
-      "question": "欧几里得《几何原本》最伟大的革命性贡献是什么？",
-      "question_en": "What was the greatest revolutionary contribution of Euclid's 'Elements'?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Euclid%27s_Elements%2C_Byrne_1847_edition.jpg/640px-Euclid%27s_Elements%2C_Byrne_1847_edition.jpg",
-      "options": [
-        "发明了毕达哥拉斯定理 (a² + b² = c²)",
-        "将所有已知数学知识系统化为一个逻辑演绎体系（公理化方法）",
-        "第一个计算出圆周率 (π) 的人",
-        "第一个提出“日心说”的人"
-      ],
-      "options_en": [
-        "He invented the Pythagorean theorem (a² + b² = c²)",
-        "He systemized all known mathematics into a single, logical deductive system (the axiomatic method)",
-        "He was the first person to calculate Pi (π)",
-        "He was the first to propose the Heliocentric model"
-      ],
-      "answer": 1,
-      "explanation": "《几何原本》的伟大之处不在于“发明”新定理（毕达哥拉斯定理等早已存在），而在于他创造了一个“公理系统”，用少数几个基本假设，通过严谨的“证明”，推导出了所有这些定理。",
-      "explanation_en": "The genius of 'The Elements' was not *inventing* theorems (the Pythagorean theorem, etc., were already known), but *creating a system* (the axiomatic method) that *proved* all of them using rigorous logic from only a few basic assumptions."
+        "question": "欧几里得《几何原本》最伟大的革命性贡献是什么？",
+        "question_en": "What was the greatest revolutionary contribution of Euclid's 'Elements'?",
+        "options": [
+            "发明了毕达哥拉斯定理 (a² + b² = c²)",
+            "将所有已知数学知识系统化为一个逻辑演绎体系（公理化方法）",
+            "第一个计算出圆周率 (π) 的人",
+            "第一个提出“日心说”的人"
+        ],
+        "options_en": [
+            "He invented the Pythagorean theorem (a² + b² = c²)",
+            "He systemized all known mathematics into a single, logical deductive system (the axiomatic method)",
+            "He was the first person to calculate Pi (π)",
+            "He was the first to propose the Heliocentric model"
+        ],
+        "answer": 1,
+        "explanation": "《几何原本》的伟大之处不在于“发明”新定理（毕达哥拉斯定理等早已存在），而在于他创造了一个“公理系统”，用少数几个基本假设，通过严谨的“证明”，推导出了所有这些定理。",
+        "explanation_en": "The genius of 'The Elements' was not *inventing* theorems (the Pythagorean theorem, etc., were already known), but *creating a system* (the axiomatic method) that *proved* all of them using rigorous logic from only a few basic assumptions."
     }
-  }
+}

@@ -4,156 +4,167 @@
     "title": "解释光电效应",
     "title_en": "Explains the Photoelectric Effect",
     "year": 1905,
-    "lat": 46.9480,
+    "lat": 46.948,
     "lng": 7.4474,
     "city": "伯尔尼",
     "city_en": "Bern",
     "country": "瑞士",
     "country_en": "Switzerland",
-    "field": ["物理学", "量子力学"],
-    "field_en": ["Physics", "Quantum Mechanics"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Photoelectric_effect_in_a_solid_-_diagram.svg",
-      "video": {
-        "url": "https://www.youtube.com/embed/H-FyOpURPXI",
-        "title": "光电效应",
-        "title_en": "Photoelectric Effect Explained in Simple Words for Beginners",
-        "duration": "4:22"
-      }
-    },
-    
-    "summary": {
-      "text": "爱因斯坦发表了他关于光电效应的论文，这是他1905年“奇迹年”的论文之一。他提出，光不仅是波，还是由离散的能量包“光子”组成的。这一理论完美解释了为什么只有特定频率的光才能从金属表面“踢出”电子。",
-      "text_en": "Einstein published his paper on the photoelectric effect, one of his 'Annus Mirabilis' (Miracle Year) papers. He proposed that light is composed of discrete energy packets called 'photons', not just a continuous wave. This theory perfectly explained why only light of a certain frequency could 'kick' electrons off a metal surface.",
-      "key_points": [
-        "光是粒子，称为“光子”",
-        "光子的能量取决于频率 ($E=hf$)",
-        "奠定了“波粒二象性”的基础",
-        "该成就获得了1921年诺贝尔物理学奖"
-      ],
-      "key_points_en": [
-        "Light consists of particles called 'photons'",
-        "A photon's energy depends on its frequency ($E=hf$)",
-        "Established 'wave-particle duality'",
-        "Led to the 1921 Nobel Prize in Physics"
-      ]
-    },
-  
-    "story": {
-      "text": "当时的经典物理学（波动理论）无法解释一个谜题：无论多强的红光（高强度）照射金属板，都无法打出电子；而即使非常微弱的紫光（高频率）也能立即打出电子。爱因斯坦的解释是：光是一份一份的。想象一下用乒乓球（红光）砸一个保龄球瓶（电子），无论你同时扔多少个，都砸不倒它。但只要你用一个棒球（紫光光子），即使只有一个，也能立即将其击倒。",
-      "text_en": "Classical physics (wave theory) couldn't solve a puzzle: no matter how intense a red light (high intensity) was, it couldn't eject electrons from a metal plate. Yet, even a very dim violet light (high frequency) could eject them instantly. Einstein's explanation: light comes in packets. Imagine trying to knock over a bowling pin (electron) with ping-pong balls (red light). You can throw thousands at once, and it won't fall. But if you throw one baseball (a single violet photon), it falls immediately."
-    },
-  
-    "fun_facts": [
-      {
-        "icon": "🏅",
-        "text": "是光电效应的这项工作，而不是相对论，为爱因斯坦赢得了1921年的诺贝尔物理学奖。",
-        "text_en": "It was this work on the photoelectric effect, not relativity, that was cited as the primary reason for Einstein winning the Nobel Prize in Physics in 1921."
-      },
-      {
-        "icon": "💡",
-        "text": "爱因斯坦实际上是扩展了马克斯·普朗克（Max Planck）在1900年提出的想法。普朗克假设能量是量子化的，而爱因斯坦则更进一步，说光本身就是由这些量子（光子）组成的。",
-        "text_en": "Einstein was expanding on an idea by Max Planck from 1900. Planck had proposed that energy was quantized, but Einstein took it a step further, saying light *itself* is made of these quanta (photons)."
-      }
+    "field": [
+        "物理学",
+        "量子力学"
     ],
-  
-    "simple_explanation": {
-      "text": "想象一个自动售货机（金属原子），它只接受1元硬币（高频率光子）才能掉出一罐可乐（电子）。如果你用一大堆1毛钱的硬币（高强度的红光），就算总金额超过1元，机器也不会有反应。但只要你投入一个1元硬币（一个紫外光子），可乐马上就掉出来了。光的“强度”是硬币的数量，而“频率”是硬币的面值。",
-      "text_en": "Think of a vending machine (a metal atom) that only accepts $1 coins (high-frequency photons) to release a soda (an electron). If you put in a handful of dimes (high-intensity red light), the machine won't do anything, even if their total value is over $1. But the moment you insert one $1 coin (a single UV photon), the soda comes out. The 'intensity' of light is the *number* of coins; the 'frequency' is the *value* of each coin."
-    },
-  
-    "applications": [
-        {
-          "icon": "☀️",
-          "title": "太阳能电池板 (光伏)",
-          "title_en": "Solar Panels (Photovoltaics)",        
-          "text": "太阳能电池板的核心原理。光子撞击半导体材料，释放电子，从而产生电流。",
-          "text_en": "The core principle of solar panels. Photons strike a semiconductor material, freeing electrons and generating an electric current."
-        },
-        {
-          "icon": "📷",
-          "title": "数码相机传感器",
-          "title_en": "Digital Camera Sensors",
-          "text": "数码相机中的CCD或CMOS传感器利用光电效应，将入射的光信号（光子）转换成电荷（电子），从而记录图像。",
-          "text_en": "The CCD or CMOS sensors in digital cameras use the photoelectric effect to convert incoming light signals (photons) into electric charges (electrons) to record an image."
-        },
-        {
-          "icon": "🚪",
-          "title": "自动门/夜灯",
-          "title_en": "Automatic Doors / Night Lights",
-          "text": "许多光传感器（光电管）的工作原理是：当光线照射时产生电流；当光束被阻挡（如有人走过），电流停止，触发开关。",
-          "text_en": "Many light sensors (photocells) work when light striking them creates a current. When the beam is broken (like a person walking by), the current stops, triggering a switch."
+    "field_en": [
+        "Physics",
+        "Quantum Mechanics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Photoelectric_effect_in_a_solid_-_diagram.svg",
+        "video": {
+            "url": "https://www.youtube.com/embed/H-FyOpURPXI",
+            "title": "光电效应",
+            "title_en": "Photoelectric Effect Explained in Simple Words for Beginners",
+            "duration": "4:22"
         }
-      ],
-  
-    "impact": {
-      "text": "这篇论文是“量子革命”的真正开端。它无可辩驳地证明了光具有粒子性（波粒二象性），这是量子力学发展的关键基石，从根本上改变了我们对现实构成的理解。",
-      "text_en": "This paper was the true start of the 'Quantum Revolution'. It provided indisputable proof that light behaves as a particle (wave-particle duality), a key cornerstone of quantum mechanics that fundamentally changed our understanding of reality.",
-      "stats": [
-          {
-            "number": "1905",
-            "label": "奇迹年",
-            "label_en": "Miracle Year"
-          },
-          {
-            "number": "1",
-            "label": "诺贝尔奖",
-            "label_en": "Nobel Prize"
-          }
+    },
+    "summary": {
+        "text": "爱因斯坦发表了他关于光电效应的论文，这是他1905年“奇迹年”的论文之一。他提出，光不仅是波，还是由离散的能量包“光子”组成的。这一理论完美解释了为什么只有特定频率的光才能从金属表面“踢出”电子。",
+        "text_en": "Einstein published his paper on the photoelectric effect, one of his 'Annus Mirabilis' (Miracle Year) papers. He proposed that light is composed of discrete energy packets called 'photons', not just a continuous wave. This theory perfectly explained why only light of a certain frequency could 'kick' electrons off a metal surface.",
+        "key_points": [
+            "光是粒子，称为“光子”",
+            "光子的能量取决于频率 ($E=hf$)",
+            "奠定了“波粒二象性”的基础",
+            "该成就获得了1921年诺贝尔物理学奖"
+        ],
+        "key_points_en": [
+            "Light consists of particles called 'photons'",
+            "A photon's energy depends on its frequency ($E=hf$)",
+            "Established 'wave-particle duality'",
+            "Led to the 1921 Nobel Prize in Physics"
         ]
     },
-  
-    "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "planck_quantum_1900",
-          "contribution": "马克斯·普朗克关于能量量子化的假说 ($E=hf$)",
-          "contribution_en": "Max Planck's hypothesis of energy quantization ($E=hf$)"
-        },
-        {
-          "id": "hertz_experiment_1887",
-          "contribution": "赫兹在实验中首次观察到光电效应现象",
-          "contribution_en": "Heinrich Hertz's first experimental observation of the photoelectric effect"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "bohr_atom_1913",
-          "contribution": "为玻尔的原子模型（电子吸收和释放光子进行跃迁）提供了物理基础",
-          "contribution_en": "Provided the physical basis for Bohr's model of the atom (electron transitions by absorbing/emitting photons)"
-        },
-        {
-          "id": "compton_effect_1923",
-          "contribution": "康普顿散射实验进一步证实了光子作为粒子的动量",
-          "contribution_en": "The Compton Effect further confirmed the momentum of photons as particles"
-        }
-      ],
-      "legacy_text": "爱因斯坦将普朗克的一个数学假设（量子）转变为一个激进的物理现实（光子），从而开启了量子时代。",
-      "legacy_text_en": "Einstein turned Planck's mathematical hypothesis (quanta) into a radical physical reality (the photon), thereby launching the quantum age."
+    "story": {
+        "text": "当时的经典物理学（波动理论）无法解释一个谜题：无论多强的红光（高强度）照射金属板，都无法打出电子；而即使非常微弱的紫光（高频率）也能立即打出电子。爱因斯坦的解释是：光是一份一份的。想象一下用乒乓球（红光）砸一个保龄球瓶（电子），无论你同时扔多少个，都砸不倒它。但只要你用一个棒球（紫光光子），即使只有一个，也能立即将其击倒。",
+        "text_en": "Classical physics (wave theory) couldn't solve a puzzle: no matter how intense a red light (high intensity) was, it couldn't eject electrons from a metal plate. Yet, even a very dim violet light (high frequency) could eject them instantly. Einstein's explanation: light comes in packets. Imagine trying to knock over a bowling pin (electron) with ping-pong balls (red light). You can throw thousands at once, and it won't fall. But if you throw one baseball (a single violet photon), it falls immediately."
     },
-  
-    "related_concepts": ["光子", "量子力学", "波粒二象性", "普朗克常数", "E=hf", "功函数", "奇迹年"],
-    "related_concepts_en": ["Photon", "Quantum Mechanics", "Wave-Particle Duality", "Planck's Constant", "E=hf", "Work Function", "Annus Mirabilis"],
-  
+    "fun_facts": [
+        {
+            "icon": "🏅",
+            "text": "是光电效应的这项工作，而不是相对论，为爱因斯坦赢得了1921年的诺贝尔物理学奖。",
+            "text_en": "It was this work on the photoelectric effect, not relativity, that was cited as the primary reason for Einstein winning the Nobel Prize in Physics in 1921."
+        },
+        {
+            "icon": "💡",
+            "text": "爱因斯坦实际上是扩展了马克斯·普朗克（Max Planck）在1900年提出的想法。普朗克假设能量是量子化的，而爱因斯坦则更进一步，说光本身就是由这些量子（光子）组成的。",
+            "text_en": "Einstein was expanding on an idea by Max Planck from 1900. Planck had proposed that energy was quantized, but Einstein took it a step further, saying light *itself* is made of these quanta (photons)."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一个自动售货机（金属原子），它只接受1元硬币（高频率光子）才能掉出一罐可乐（电子）。如果你用一大堆1毛钱的硬币（高强度的红光），就算总金额超过1元，机器也不会有反应。但只要你投入一个1元硬币（一个紫外光子），可乐马上就掉出来了。光的“强度”是硬币的数量，而“频率”是硬币的面值。",
+        "text_en": "Think of a vending machine (a metal atom) that only accepts $1 coins (high-frequency photons) to release a soda (an electron). If you put in a handful of dimes (high-intensity red light), the machine won't do anything, even if their total value is over $1. But the moment you insert one $1 coin (a single UV photon), the soda comes out. The 'intensity' of light is the *number* of coins; the 'frequency' is the *value* of each coin."
+    },
+    "applications": [
+        {
+            "icon": "☀️",
+            "title": "太阳能电池板 (光伏)",
+            "title_en": "Solar Panels (Photovoltaics)",
+            "text": "太阳能电池板的核心原理。光子撞击半导体材料，释放电子，从而产生电流。",
+            "text_en": "The core principle of solar panels. Photons strike a semiconductor material, freeing electrons and generating an electric current."
+        },
+        {
+            "icon": "📷",
+            "title": "数码相机传感器",
+            "title_en": "Digital Camera Sensors",
+            "text": "数码相机中的CCD或CMOS传感器利用光电效应，将入射的光信号（光子）转换成电荷（电子），从而记录图像。",
+            "text_en": "The CCD or CMOS sensors in digital cameras use the photoelectric effect to convert incoming light signals (photons) into electric charges (electrons) to record an image."
+        },
+        {
+            "icon": "🚪",
+            "title": "自动门/夜灯",
+            "title_en": "Automatic Doors / Night Lights",
+            "text": "许多光传感器（光电管）的工作原理是：当光线照射时产生电流；当光束被阻挡（如有人走过），电流停止，触发开关。",
+            "text_en": "Many light sensors (photocells) work when light striking them creates a current. When the beam is broken (like a person walking by), the current stops, triggering a switch."
+        }
+    ],
+    "impact": {
+        "text": "这篇论文是“量子革命”的真正开端。它无可辩驳地证明了光具有粒子性（波粒二象性），这是量子力学发展的关键基石，从根本上改变了我们对现实构成的理解。",
+        "text_en": "This paper was the true start of the 'Quantum Revolution'. It provided indisputable proof that light behaves as a particle (wave-particle duality), a key cornerstone of quantum mechanics that fundamentally changed our understanding of reality.",
+        "stats": [
+            {
+                "number": "1905",
+                "label": "奇迹年",
+                "label_en": "Miracle Year"
+            },
+            {
+                "number": "1",
+                "label": "诺贝尔奖",
+                "label_en": "Nobel Prize"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "planck_quantum_1900",
+                "contribution": "马克斯·普朗克关于能量量子化的假说 ($E=hf$)",
+                "contribution_en": "Max Planck's hypothesis of energy quantization ($E=hf$)"
+            },
+            {
+                "id": "hertz_experiment_1887",
+                "contribution": "赫兹在实验中首次观察到光电效应现象",
+                "contribution_en": "Heinrich Hertz's first experimental observation of the photoelectric effect"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "bohr_atom_1913",
+                "contribution": "为玻尔的原子模型（电子吸收和释放光子进行跃迁）提供了物理基础",
+                "contribution_en": "Provided the physical basis for Bohr's model of the atom (electron transitions by absorbing/emitting photons)"
+            },
+            {
+                "id": "compton_effect_1923",
+                "contribution": "康普顿散射实验进一步证实了光子作为粒子的动量",
+                "contribution_en": "The Compton Effect further confirmed the momentum of photons as particles"
+            }
+        ],
+        "legacy_text": "爱因斯坦将普朗克的一个数学假设（量子）转变为一个激进的物理现实（光子），从而开启了量子时代。",
+        "legacy_text_en": "Einstein turned Planck's mathematical hypothesis (quanta) into a radical physical reality (the photon), thereby launching the quantum age."
+    },
+    "related_concepts": [
+        "光子",
+        "量子力学",
+        "波粒二象性",
+        "普朗克常数",
+        "E=hf",
+        "功函数",
+        "奇迹年"
+    ],
+    "related_concepts_en": [
+        "Photon",
+        "Quantum Mechanics",
+        "Wave-Particle Duality",
+        "Planck's Constant",
+        "E=hf",
+        "Work Function",
+        "Annus Mirabilis"
+    ],
     "quiz": {
-      "question": "根据光电效应，如果我们增加照射到金属上的光线“强度”（更多光子），但保持光的“频率”（颜色）不变且低于阈值，会发生什么？",
-      "question_en": "According to the photoelectric effect, if we increase the 'intensity' of light (more photons) on a metal, but keep the 'frequency' (color) below the threshold, what happens?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Photoelectric_effect_simple.svg/640px-Photoelectric_effect_simple.svg.png",
-      "options": [
-        "会释放出更多电子",
-        "释放出的电子速度更快",
-        "什么都不会发生",
-        "会释放出电子，但需要更长时间"
-      ],
-      "options_en": [
-        "More electrons will be released",
-        "Electrons will be released with more speed",
-        "Nothing will happen",
-        "Electrons will be released, but it will take longer"
-      ],
-      "answer": 2,
-      "explanation": "释放电子的关键是单个光子的能量（由频率决定），而不是光子的总数（强度）。如果单个光子的能量不够（低于功函数），无论来多少个都不会打出电子。",
-      "explanation_en": "The key to releasing an electron is the energy of a *single* photon (determined by frequency), not the *number* of photons (intensity). If one photon doesn't have enough energy (below the work function), a million of them won't either."
+        "question": "根据光电效应，如果我们增加照射到金属上的光线“强度”（更多光子），但保持光的“频率”（颜色）不变且低于阈值，会发生什么？",
+        "question_en": "According to the photoelectric effect, if we increase the 'intensity' of light (more photons) on a metal, but keep the 'frequency' (color) below the threshold, what happens?",
+        "options": [
+            "会释放出更多电子",
+            "释放出的电子速度更快",
+            "什么都不会发生",
+            "会释放出电子，但需要更长时间"
+        ],
+        "options_en": [
+            "More electrons will be released",
+            "Electrons will be released with more speed",
+            "Nothing will happen",
+            "Electrons will be released, but it will take longer"
+        ],
+        "answer": 2,
+        "explanation": "释放电子的关键是单个光子的能量（由频率决定），而不是光子的总数（强度）。如果单个光子的能量不够（低于功函数），无论来多少个都不会打出电子。",
+        "explanation_en": "The key to releasing an electron is the energy of a *single* photon (determined by frequency), not the *number* of photons (intensity). If one photon doesn't have enough energy (below the work function), a million of them won't either."
     }
-  }
+}
