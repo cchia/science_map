@@ -1,0 +1,150 @@
+{
+    "id": "watt_steam_engine_1776",
+    "personId": "james_watt",
+    "title": "推出“分离式冷凝器”蒸汽机",
+    "title_en": "Introduces the Watt Steam Engine (Separate Condenser)",
+    "year": 1776,
+    "lat": 52.4796,
+    "lng": -1.9026,
+    "city": "伯明翰",
+    "city_en": "Birmingham",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["工程学", "发明", "工业革命", "热力学"],
+    "field_en": ["Engineering", "Invention", "Industrial Revolution", "Thermodynamics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Maquina_vapor_Watt_ETSIIM.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=U-f9UqFiXXk",
+        "title": "詹姆斯·瓦特蒸汽机工作动画",
+        "title_en": "STEAM ENGINE | WORKING ANIMATION | JAMES WATT",
+        "duration": "1:01"
+      }
+    },
+    
+    "summary": {
+      "text": "詹姆斯·瓦特对1712年的纽科门蒸汽机进行了革命性的改进。他的关键创新是“分离式冷凝器”(patented 1769, commercial 1776)，它允许气缸保持“永远炽热”，而冷凝器则保持“永远冷却”。这一改进（以及后来的“双动式”和“平行运动”连杆）将蒸汽机的燃料效率提高了三倍以上，并使其能产生平稳的“旋转运动”。这使得蒸汽机第一次可以为工厂、纺纱机和火车提供动力，从而真正点燃了工业革命。",
+      "text_en": "James Watt radically improved the 1712 Newcomen engine. His key innovation, the 'Separate Condenser' (patented 1769, commercial 1776), allowed the main cylinder to remain 'always hot' while the condenser remained 'always cold'. This (and later innovations like the 'double-acting' piston and 'parallel motion' linkage) increased the engine's fuel efficiency by over 3x and allowed it to produce smooth 'rotary motion'. This finally enabled steam to power factories, mills, and locomotives, truly igniting the Industrial Revolution.",
+      "key_points": [
+        "发明“分离式冷凝器”(Separate Condenser)",
+        "燃料效率提升了3-4倍",
+        "使蒸汽机首次能够驱动“旋转运动”(Rotary Motion)",
+        "为工厂和运输提供了动力",
+        "与马修·博尔顿 (Matthew Boulton) 合作实现了商业化"
+      ],
+      "key_points_en": [
+        "Invented the 'Separate Condenser'",
+        "Increased fuel efficiency by 3-4x",
+        "Enabled steam to create 'Rotary Motion' for the first time",
+        "Powered factories and transport",
+        "Commercialized in partnership with Matthew Boulton"
+      ]
+    },
+  
+    "story": {
+      "text": "1764年，瓦特在格拉斯哥大学修理一台纽科门蒸汽机的模型时，他敏锐地意识到其最大的缺陷：在同一个气缸里反复加热（注入蒸汽）和冷却（喷射冷水）是极其浪费燃料的。他的天才灵感（1765年）是：为什么不在一个“单独的、永远保持冷却的”容器（即冷凝器）里冷凝蒸汽呢？这样，主气缸就可以“永远保持炽热”。这个简单的分离设计，是热力学效率的一次巨大飞跃，也是现代发动机设计的核心理念。",
+      "text_en": "While repairing a model Newcomen engine in 1764, Watt realized its critical flaw: it was incredibly wasteful to constantly heat the cylinder with steam, only to immediately chill it with cold water. His flash of genius (in 1765) was: why not condense the steam in a *separate, permanently cold* container (the condenser)? This allowed the main cylinder to remain *permanently hot*. This simple separation was a massive leap in thermal efficiency and is the core idea of modern engines.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Newcomen_steam_engine.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🐎",
+        "text": "为了向客户（如矿主）推销他的蒸汽机能干多少活，瓦特发明了“马力”(Horsepower) 这个单位，至今仍被用于描述汽车发动机的功率。",
+        "text_en": "To sell his engine to mine owners, Watt needed a way to describe its power. He invented the unit of 'Horsepower' to compare his engine to the horses it was replacing. We still use it for cars today."
+      },
+      {
+        "icon": "Unit",
+        "text": "为了纪念他对工业革命的巨大贡献，国际标准制（SI）中的“功率”单位被命名为“瓦特”(Watt)。",
+        "text_en": "In recognition of his monumental contribution to the Industrial Revolution, the SI unit of power is named the 'Watt'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "纽科门的蒸汽机（`newcomen_engine_1712`）就像一个“既是火炉又是冰箱”的房间：你先把它烧热，再往里扔冰块，然后再烧热... 极其浪费燃料。\n瓦特的改进是：他建了“两个房间”。一个房间（气缸）永远是“火炉”（保持炽热），另一个房间（冷凝器）永远是“冰箱”（保持冷却）。他用一根管子连接它们。这使得蒸汽机不再浪费热量，效率暴增，最终让蒸汽机走出了煤矿，进入了工厂，拉动了火车。",
+      "text_en": "Newcomen's engine (`newcomen_engine_1712`) was like a single room that you used as *both* a furnace and a freezer. You'd heat it up, then throw ice in, then heat it up again... a total waste of fuel.\nWatt's improvement was to build *two rooms*. One room (the cylinder) was 'always the furnace' (hot), and a second room (the condenser) was 'always the freezer' (cold), connected by a pipe. This stopped the engine from wasting heat, made it vastly more efficient, and allowed it to finally leave the coal mine and power factories and trains.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/70/WattsSteamEngine.jpeg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏭",
+          "title": "工厂动力",
+          "title_en": "Factory Power",
+          "text": "瓦特的旋转运动设计，使得蒸汽机可以为纺纱机、织布机和工厂的传动轴提供可靠的动力。",
+          "text_en": "Watt's rotary motion design allowed engines to power spinning mules, looms, and the main driveshafts of factories."
+        },
+        {
+          "icon": "🚂",
+          "title": "运输（火车与轮船）",
+          "title_en": "Transportation (Trains & Steamboats)",
+          "text": "瓦特蒸汽机的高效率和旋转运动，是后来发明蒸汽机车（火车）和蒸汽轮船的必要前提。",
+          "text_en": "The efficiency and rotary motion of the Watt engine were the necessary prerequisites for the later invention of the steam locomotive and steamboat."
+        }
+      ],
+  
+    "impact": {
+      "text": "詹姆斯·瓦特的蒸汽机是“工业革命”的真正引擎。纽科门的机器开始了这一切，但瓦特的机器将其推向了全球。它将人类从依赖自然力（水、风、肌肉）中解放出来，提供了可控、廉价、强大的动力，从根本上重塑了人类的生产、运输、经济和社会结构。",
+      "text_en": "The James Watt steam engine was the *true* engine of the Industrial Revolution. Newcomen's engine started it, but Watt's engine scaled it. It liberated humanity from dependence on natural power (water, wind, muscle) and provided controllable, cheap, massive power, fundamentally reshaping human production, transport, economics, and society.",
+      "stats": [
+          {
+            "number": "3x",
+            "label": "倍燃料效率 (最低)",
+            "label_en": "Times More Fuel Efficient"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "newcomen_engine_1712",
+          "contribution": "纽科门的大气蒸汽机（作为瓦特修理和改进的“原型机”）",
+          "contribution_en": "Newcomen's Atmospheric Engine (which served as the 'prototype' that Watt was given to repair and improve)"
+        },
+        {
+          "id": "joseph_black_latent_heat_1761",
+          "contribution": "约瑟夫·布莱克（其关于“潜热”的发现，向瓦特揭示了纽科门蒸汽机浪费了多少能量）",
+          "contribution_en": "Joseph Black (his discovery of 'latent heat' revealed to Watt *how much* energy the Newcomen engine was wasting)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "carnot_thermodynamics_1824",
+          "contribution": "萨迪·卡诺（其《论火的推动力》就是为了从理论上解释瓦特蒸汽机的效率极限）",
+          "contribution_en": "Sadi Carnot (his 'Reflections on the Motive Power of Fire' was the theory created to explain the efficiency limits of Watt's engine)"
+        },
+        {
+          "id": "stephenson_locomotive_1829",
+          "contribution": "乔治·史蒂芬生（其“火箭号”蒸汽机车是瓦特旋转蒸汽机的直接应用）",
+          "contribution_en": "George Stephenson (his 'Rocket' locomotive was a direct application of Watt's rotative steam engine)"
+        }
+      ],
+      "legacy_text": "瓦特将蒸汽机从一个笨拙的抽水泵，变成了驱动整个工业革命的、高效的、通用的动力心脏。",
+      "legacy_text_en": "Watt transformed the steam engine from an inefficient mine pump into the efficient, universal power source that drove the entire Industrial Revolution."
+    },
+  
+    "related_concepts": ["分离式冷凝器 (Separate Condenser)", "工业革命 (Industrial Revolution)", "马力 (Horsepower)", "瓦特 (Watt)", "纽科门 (Newcomen)", "旋转运动 (Rotary Motion)", "平行运动连杆 (Parallel Motion)"],
+    "related_concepts_en": ["Separate Condenser", "Industrial Revolution", "Horsepower", "Watt (unit)", "Newcomen", "Rotary Motion", "Parallel Motion"],
+    
+    "quiz": {
+      "question": "詹姆斯·瓦特对纽科门蒸汽机最关键、最核心的改进是什么？",
+      "question_en": "What was James Watt's single most critical and important improvement to the Newcomen steam engine?",
+      "options": [
+        "他发明了活塞",
+        "他发明了“分离式冷凝器”",
+        "他是第一个使用蒸汽的人",
+        "他发明了杠杆臂"
+      ],
+      "options_en": [
+        "He invented the piston",
+        "He invented the 'separate condenser'",
+        "He was the first person to use steam",
+        "He invented the lever beam"
+      ],
+      "answer": 1,
+      "explanation": "纽科门的机器在同一个气缸里加热和冷凝，浪费巨大。瓦特的天才之举是增加了一个“分离式冷凝器”，使气缸可以永远保持炽热，从而将燃料效率提高了数倍。",
+      "explanation_en": "Newcomen's engine wasted immense fuel by heating and cooling the same cylinder. Watt's genius was adding a 'separate condenser', which allowed the main cylinder to stay hot at all times, multiplying the fuel efficiency."
+    }
+  }

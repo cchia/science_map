@@ -1,0 +1,120 @@
+{
+    "id": "newcomen_engine_1712",
+    "personId": "thomas_newcomen",
+    "title": "发明大气蒸汽机",
+    "title_en": "Invents the Atmospheric Steam Engine",
+    "year": 1712,
+    "lat": 52.4147,
+    "lng": -1.9746,
+    "city": "达德利 (Dudley)",
+    "city_en": "Dudley",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["工程学", "发明", "工业革命"],
+    "field_en": ["Engineering", "Invention", "Industrial Revolution"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Newcomen_steam_engine.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=0SwKo2StQLA",
+        "title": "世界上最古老的蒸汽机！纽科门大气蒸汽机",
+        "title_en": "The World's Oldest Steam Engine! Newcomen Atmospheric Engine",
+        "duration": "1:01"
+      }
+    },
+    
+    "summary": {
+      "text": "托马斯·纽科门发明并建造了第一台具有商业实用价值的蒸汽机，被称为“大气蒸汽机”。这种发动机利用蒸汽冷凝产生的“真空”和“大气压强”来驱动活塞。虽然效率极低，但它是第一台能够持续做功的机器，主要用于从煤矿中抽水。它为后来的工业革命奠定了基础，也是詹姆斯·瓦特（James Watt）后来进行革命性改进的原型机。",
+      "text_en": "Thomas Newcomen invented and built the first commercially practical steam engine, known as the 'Atmospheric Engine'. It used condensing steam to create a partial vacuum, allowing atmospheric pressure to push the piston down. While extremely inefficient, it was the first machine to provide continuous power and was used primarily to pump water out of mines. It laid the foundation for the Industrial Revolution and was the engine James Watt would later radically improve.",
+      "key_points": [
+        "第一台实用型蒸汽机",
+        "利用“大气压强”做功（而非蒸汽压力）",
+        "主要用于煤矿抽水",
+        "效率极低（在同一气缸内加热和冷却）",
+        "为瓦特(Watt)的改进提供了基础"
+      ],
+      "key_points_en": [
+        "First practical steam engine",
+        "Used 'atmospheric pressure' (not steam pressure) to do work",
+        "Mainly used to pump water from coal mines",
+        "Very inefficient (heated and cooled the same cylinder)",
+        "Provided the basis for Watt's improvements"
+      ]
+    },
+  
+    "story": {
+      "text": "纽科门的设计是为了解决一个致命问题：煤矿越挖越深，地下水淹没了矿井。他的机器工作原理是：蒸汽被注入活塞下方的气缸；然后，一股冷水被喷入气缸，使蒸汽迅速冷凝（体积骤缩），在气缸内产生部分真空。此时，外部的“大气压强”（空气的重量）就会猛地将活塞向下推，拉动另一端的抽水泵。这个过程不断重复。这种“在同一气缸内先加热再喷冷水”的设计，浪费了巨量的热能，但它确实*能用*。",
+      "text_en": "Newcomen's design solved a critical problem: coal mines were flooding as they got deeper. His engine worked by injecting steam into a cylinder below a piston. Then, a jet of cold water was sprayed in. This condensed the steam, creating a partial vacuum. The 'atmospheric pressure' (the weight of the air) outside then powerfully pushed the piston *down*, pulling the water pump on the other end of a beam. This process of heating, then cooling, the same cylinder was incredibly wasteful, but it *worked*."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🔥",
+        "text": "纽科门蒸汽机非常低效，以至于它只有在“煤矿口”才具有经济效益，因为它可以使用那些卖不出去的廉价废煤作为燃料。",
+        "text_en": "The Newcomen engine was so inefficient that it was only economically viable *at the mouth of a coal mine*, where it could be powered for free by burning leftover waste coal."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "纽科门的蒸汽机就像一个巨大的注射器。第一步：让“蒸汽”充满注射器。第二步：往注射器里喷“冷水”，蒸汽瞬间“消失”了（冷凝），在里面制造了一个“真空”。第三步：外面的“空气”重量（大气压强）猛地把活塞“压”了下去。这个向下的力被用来抽水。它不是靠蒸汽“推”，而是靠空气“压”。",
+      "text_en": "Newcomen's engine was like a giant syringe. Step 1: Fill the syringe with steam. Step 2: Spray cold water inside. The steam instantly vanishes (condenses), creating a vacuum. Step 3: The *weight of the air* outside (atmospheric pressure) *slams* the piston down. This downward push is what pumps the water. It wasn't a 'steam-push' engine; it was an 'air-press' engine.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/16/Newcomen_atmospheric_engine_animation.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "⛏️",
+          "title": "煤矿抽水",
+          "title_en": "Pumping Mines",
+          "text": "它的唯一（但至关重要）的应用，就是从深层矿井（主要是煤矿）中抽水，使得更深层的开采成为可能。",
+          "text_en": "Its sole, but vital, application was pumping water out of deep mines (especially coal mines), which allowed for deeper extraction of resources."
+        }
+      ],
+  
+    "impact": {
+      "text": "纽科门蒸汽机是工业革命的“发令枪”。它首次将“热能”（烧煤）转化为了“机械功”，为人类提供了一种不依赖肌肉、风力或水力的、可控的、强大的新动力来源。没有纽科门的这一步，瓦特的改进就无从谈起。",
+      "text_en": "The Newcomen engine was the 'starting pistol' for the Industrial Revolution. It was the first machine to convert 'heat' (burning coal) into 'mechanical work', offering humanity a new, controllable, powerful source of energy independent of muscle, wind, or water. Without it, James Watt would have had nothing to improve upon."
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "denis_papin_1690",
+          "contribution": "丹尼斯·帕潘（他发明了第一个带活塞的蒸汽缸，展示了蒸汽和真空的潜力）",
+          "contribution_en": "Denis Papin (who invented the first steam cylinder with a piston, showing the potential of steam and vacuum)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "watt_steam_engine_1776",
+          "contribution": "詹姆斯·瓦特（其“分离式冷凝器”是对纽科门蒸汽机“最大缺陷”的直接改进）",
+          "contribution_en": "James Watt (his 'separate condenser' was a direct improvement on the Newcomen engine's greatest flaw)"
+        }
+      ],
+      "legacy_text": "纽科门发明了第一台能干活的蒸汽机；瓦特则让它变得高效。",
+      "legacy_text_en": "Newcomen invented the first steam engine that could do *work*; Watt made it *efficient*."
+    },
+  
+    "related_concepts": ["大气压强 (Atmospheric Pressure)", "真空 (Vacuum)", "冷凝 (Condensation)", "工业革命 (Industrial Revolution)", "詹姆斯·瓦特 (James Watt)", "活塞 (Piston)"],
+    "related_concepts_en": ["Atmospheric Pressure", "Vacuum", "Condensation", "Industrial Revolution", "James Watt", "Piston"],
+    
+    "quiz": {
+      "question": "纽科门1712年的蒸汽机，其做功的“力”主要来自哪里？",
+      "question_en": "What was the primary *force* that did the work in Newcomen's 1712 engine?",
+      "options": [
+        "高压蒸汽的推力",
+        "大气压强（空气的重量）的压力",
+        "水的浮力",
+        "杠杆的重力"
+      ],
+      "options_en": [
+        "The push of high-pressure steam",
+        "The push of atmospheric pressure (the weight of the air)",
+        "The buoyancy of water",
+        "The gravity of the lever"
+      ],
+      "answer": 1,
+      "explanation": "纽科门的机器是“大气式”发动机。蒸汽被用来制造真空，而真正把活塞压下去做功的，是管外的“空气重量”（大气压强）。",
+      "explanation_en": "Newcomen's machine was an 'atmospheric' engine. The steam was only used to create a vacuum. The actual work stroke was done by the *weight of the air* outside the cylinder pushing the piston *in*."
+    }
+  }

@@ -1,0 +1,20 @@
+{
+  "name": "mcp-wikipedia-server",
+  "version": "1.0.0",
+  "description": "MCP server for Wikipedia REST API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "wikipedia", "model-context-protocol"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

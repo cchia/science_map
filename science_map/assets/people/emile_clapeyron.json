@@ -1,0 +1,10 @@
+{
+    "name": "埃米尔·克拉佩龙",
+    "name_en": "Émile Clapeyron",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/74/BenoitClapeyron_%28d%C3%A9tail%29.jpg",
+    "bio_short": "法国工程师和物理学家，热力学的奠基人之一。他将波义耳、查理和盖-吕萨克的气体定律合并为“理想气体定律”(PV=nRT)。",
+    "bio_short_en": "A French engineer and physicist, one of the founders of thermodynamics. He combined the gas laws of Boyle, Charles, and Gay-Lussac into the 'Ideal Gas Law' (PV=nRT).",
+    "events": [
+      "ideal_gas_law_1834"
+    ]
+  }

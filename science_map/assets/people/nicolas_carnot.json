@@ -1,0 +1,10 @@
+{
+    "name": "尼古拉·莱昂纳尔·萨迪·卡诺",
+    "name_en": "Nicolas Léonard Sadi Carnot",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sadi_Carnot.jpeg",
+    "bio_short": "法国军事工程师和物理学家，被誉为“热力学之父”。他通过“卡诺循环”理论，首次阐明了热机效率的基本原理。",
+    "bio_short_en": "A French military engineer and physicist, often called the 'father of thermodynamics'. He established the principles of heat engine efficiency with his 'Carnot Cycle' theory.",
+    "events": [
+      "carnot_thermodynamics_1824"
+    ]
+  }

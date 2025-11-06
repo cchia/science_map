@@ -1,0 +1,148 @@
+{
+    "id": "papin_piston_1690",
+    "personId": "denis_papin",
+    "title": "发明蒸汽活塞缸 (蒸汽机雏形)",
+    "title_en": "Invents the Steam Piston Cylinder (Engine Concept)",
+    "year": 1690,
+    "lat": 50.8097,
+    "lng": 8.7744,
+    "city": "马尔堡",
+    "city_en": "Marburg",
+    "country": "德国 (黑森-卡塞尔)",
+    "country_en": "Germany (Hesse-Kassel)",
+    "field": ["物理学", "发明", "工程学"],
+    "field_en": ["Physics", "Invention", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Papinengine.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pVj6sC1j_oA",
+        "title": "丹尼斯·帕潘的蒸汽机",
+        "title_en": "The Steam Engine of Denis Papin",
+        "duration": "1:33"
+      }
+    },
+    
+    "summary": {
+      "text": "法国物理学家丹尼斯·帕潘（或译“巴本”）在1690年发表了一篇论文，首次描述了“蒸汽活塞发动机”的完整工作循环。他提出，在活塞下方的气缸中加热少量水，产生的蒸汽压力会将活塞推到顶端；然后，移走热源使蒸汽冷凝（或喷入冷水），在气缸内产生真空，强大的“大气压强”就会将活塞推回底端。这个“蒸汽上推、大气下压”的循环，是蒸汽机历史上的一个关键概念，直接启发了22年后的纽科门（Newcomen）。",
+      "text_en": "In 1690, French physicist Denis Papin published a paper describing the first complete cycle for a steam-piston engine. He proposed heating a small amount of water in a cylinder to create steam pressure, pushing a piston to the top. Then, by removing the heat and allowing the steam to condense, a vacuum would form, and the powerful 'atmospheric pressure' would push the piston back down. This 'steam-up, air-down' cycle was the key concept that directly inspired Thomas Newcomen 22 years later.",
+      "key_points": [
+        "发明了第一个“活塞-气缸”式蒸汽机概念",
+        "利用“蒸汽压力”上行，利用“大气压强”下行",
+        "冷凝蒸汽以制造“真空”",
+        "纽科门 (Newcomen) 蒸汽机的直接理论鼻祖"
+      ],
+      "key_points_en": [
+        "Invented the first 'piston-and-cylinder' steam engine concept",
+        "Used steam pressure for the up-stroke, atmospheric pressure for the down-stroke",
+        "Used condensation to create a vacuum",
+        "Direct theoretical ancestor of the Newcomen engine"
+      ]
+    },
+  
+    "story": {
+      "text": "帕潘的灵感来自于他早先（1679年）的发明——“蒸汽蒸煮器”(Steam Digester)，也就是“高压锅”的鼻祖。他设计了一个带有活塞的气缸，试图用它来抽水。他的设计是：在活塞下面放少量水并加热，蒸汽会（温和地）把活塞顶上去；然后移开火源，当蒸汽冷却并凝结成水时，气缸内形成真空，外面的大气压强就会猛地把活塞压下去，这个力可以通过绳索和滑轮来抽水。这是历史上第一次有人将“蒸汽”、“活塞”和“真空”这三个要素组合在一起，创造出一个可用的发动机循环。",
+      "text_en": "Papin's idea came from his own earlier invention (1679): the 'Steam Digester', the ancestor of the pressure cooker. He designed a cylinder with a piston, intending to raise water. His design involved placing water *in* the cylinder and heating it. The steam would gently push the piston *up*. He would then remove the fire, and as the steam condensed back into water, a vacuum would form. The 'weight of the air' (atmospheric pressure) would then slam the piston *down*, doing the work of pulling a rope to pump water. This was the first time anyone had combined steam, a piston, and a vacuum into a workable engine cycle.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Papin%27s_digester.gif"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🍲",
+        "text": "帕潘的“蒸汽蒸煮器”（高压锅）是为了帮助穷人更快地煮烂骨头和硬肉而发明的。",
+        "text_en": "Papin's 'Steam Digester' (pressure cooker) was invented as a way to cook bones and tough meat faster for the poor."
+      },
+      {
+        "icon": "🛡️",
+        "text": "为了防止他的“蒸煮器”爆炸，帕潘还发明了“安全阀”(Safety Valve)，这个装置至今仍是所有高压锅和蒸汽锅炉的核心部件。",
+        "text_en": "To prevent his Digester from exploding, Papin also invented the 'Safety Valve', a device still essential on all pressure cookers and steam boilers today."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "帕潘是第一个想到用“蒸汽”和“空气”玩跷跷板的人。想象一个活塞：\n1. 他在活塞下面烧水，蒸汽把活塞“顶”了上去。\n2. 他移开火，蒸汽冷却“消失”了（变成了几滴水），在活塞下面留下了“真空”。\n3. 外面的“空气”（大气压强）就像一个巨人，猛地把活塞“踩”了下去。\n这个“一上一下”的运动就是一个发动机。他发明了这个“原理”，纽科门（Newcomen）后来把它变成了“机器”。",
+      "text_en": "Papin was the first to figure out how to play a see-saw with steam and air. Imagine a piston:\n1. He boiled water underneath it. The steam *pushed* the piston UP.\n2. He removed the fire. The steam cooled and 'vanished' (condensed), leaving a *vacuum*.\n3. The 'air' outside (atmospheric pressure), like a giant, *slammed* the piston DOWN.\nThis up-and-down motion is an engine. He invented the *principle*; Newcomen later built the *machine*.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Papinengine2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🍲",
+          "title": "高压锅",
+          "title_en": "Pressure Cooker",
+          "text": "他的“蒸汽蒸煮器”是现代高压锅的直系祖先。",
+          "text_en": "His 'Steam Digester' is the direct ancestor of the modern pressure cooker."
+        },
+        {
+          "icon": "⚙️",
+          "title": "蒸汽机原理",
+          "title_en": "Principle of the Steam Engine",
+          "text": "他发明的“真空循环”是纽科门大气蒸汽机的核心工作原理。",
+          "text_en": "The 'vacuum cycle' he invented became the core working principle of the Newcomen atmospheric engine."
+        }
+      ],
+  
+    "impact": {
+      "text": "丹尼斯·帕潘是“蒸汽动力”的理论先驱。虽然他本人从未造出过大型的实用发动机，但他第一个在1690年清晰地阐述了“活塞-真空”循环的全部要素。他将波义耳（Boyle）和托里拆利（Torricelli）的“真空”和“大气压强”理论，与“蒸汽”的热力学特性结合起来，为22年后纽科门（Newcomen）制造出第一台改变世界的机器铺平了道路。",
+      "text_en": "Denis Papin was the theoretical pioneer of steam power. While he never built a large-scale practical engine himself, he was the first to clearly publish all the components of the 'piston-vacuum' cycle in 1690. He connected the 'vacuum' and 'atmospheric pressure' physics of Boyle and Torricelli with the thermodynamic properties of steam, paving the way for Thomas Newcomen to build the first world-changing machine 22 years later.",
+      "stats": [
+          {
+            "number": "1690",
+            "label": "年 (提出蒸汽机循环)",
+            "label_en": "Year (Steam Cycle Proposed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "boyle_law_1662",
+          "contribution": "罗伯特·波义耳（帕潘曾是波义耳的助手，深受其气体和真空实验的影响）",
+          "contribution_en": "Robert Boyle (Papin was his assistant and was deeply influenced by his experiments on gases and vacuums)"
+        },
+        {
+          "id": "huygens_centrifugal_force_1673",
+          "contribution": "克里斯蒂安·惠更斯（帕潘也曾是惠更斯的助手）",
+          "contribution_en": "Christiaan Huygens (Papin also worked as an assistant to Huygens)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "newcomen_engine_1712",
+          "contribution": "托马斯·纽科门（其“大气蒸汽机”是帕潘1690年“真空循环”概念的直接商业化和工程化实现）",
+          "contribution_en": "Thomas Newcomen (whose 'Atmospheric Engine' was the direct commercial and engineering realization of Papin's 1690 vacuum-cycle concept)"
+        },
+        {
+          "id": "leibniz_philosophy_1710",
+          "contribution": "莱布尼茨（帕潘曾与其通信，分享了他的蒸汽机设计）",
+          "contribution_en": "Gottfried Leibniz (Papin corresponded with him and shared his engine designs)"
+        }
+      ],
+      "legacy_text": "帕潘是第一个将高压锅、安全阀、活塞和真空原理结合在一起的人，他设计出了蒸汽机的“DNA”。",
+      "legacy_text_en": "Papin was the first to combine the pressure cooker, the safety valve, the piston, and the vacuum principle, designing the 'DNA' of the steam engine."
+    },
+  
+    "related_concepts": ["蒸汽机 (Steam Engine)", "活塞 (Piston)", "真空 (Vacuum)", "大气压强 (Atmospheric Pressure)", "高压锅 (Pressure Cooker)", "安全阀 (Safety Valve)", "纽科门 (Newcomen)"],
+    "related_concepts_en": ["Steam Engine", "Piston", "Vacuum", "Atmospheric Pressure", "Pressure Cooker", "Safety Valve", "Newcomen"],
+  
+    "quiz": {
+      "question": "丹尼斯·帕潘在1690年的蒸汽机设计中，利用什么力量来推动活塞“向下”运动？",
+      "question_en": "In Denis Papin's 1690 engine design, what force was used to push the piston *down*?",
+      "options": [
+        "蒸汽的压力",
+        "弹簧的弹力",
+        "大气压强（空气的重量）",
+        "液体的压力"
+      ],
+      "options_en": [
+        "Steam pressure",
+        "The force of a spring",
+        "Atmospheric pressure (the weight of the air)",
+        "Hydraulic pressure"
+      ],
+      "answer": 2,
+      "explanation": "帕潘的设计（以及后来的纽科门蒸汽机）是“大气”发动机。蒸汽被用来将活塞推上去，然后冷凝形成真空；真正的“动力冲程”是由管外的空气重量（大气压强）将活塞推下去的。",
+      "explanation_en": "Papin's design (and Newcomen's engine) was an 'atmospheric' engine. Steam pushed the piston up, but then it condensed to create a vacuum. The 'power stroke' came from the weight of the air *outside* pushing the piston down."
+    }
+  }

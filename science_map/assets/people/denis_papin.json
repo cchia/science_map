@@ -1,0 +1,10 @@
+{
+    "name": "丹尼斯·帕潘",
+    "name_en": "Denis Papin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Denis_Papin.jpg",
+    "bio_short": "法国物理学家、数学家和发明家。他发明了“蒸汽蒸煮器”（高压锅）和“安全阀”，并首次提出了蒸汽活塞发动机的理论循环。",
+    "bio_short_en": "A French physicist, mathematician, and inventor. He invented the 'steam digester' (pressure cooker), the 'safety valve', and was the first to propose the theoretical cycle for a steam piston engine.",
+    "events": [
+      "papin_piston_1690"
+    ]
+  }
