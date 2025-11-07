@@ -11,12 +11,10 @@
     "country": "英国",
     "country_en": "United Kingdom",
     "field": [
-        "物理学",
-        "光学"
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Optics"
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newton%27s_experimentum_crucis.png/640px-Newton%27s_experimentum_crucis.png",

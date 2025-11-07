@@ -11,14 +11,10 @@
     "country": "托勒密埃及",
     "country_en": "Ptolemaic Egypt",
     "field": [
-        "数学",
-        "几何学",
-        "逻辑"
+        "数学"
     ],
     "field_en": [
-        "Mathematics",
-        "Geometry",
-        "Logic"
+        "Mathematics"
     ],
     "media": {
         "event_image": "assets/images/euclid_elements.jpg",

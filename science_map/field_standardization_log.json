@@ -1,0 +1,1009 @@
+[
+  {
+    "event": "anaxagoras_philosophy_BC460",
+    "original_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "new_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "archimedes_calculus_BC240",
+    "original_zh": [
+      "数学"
+    ],
+    "new_zh": [
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics"
+    ],
+    "new_en": [
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "archimedes_lever_BC260",
+    "original_zh": [
+      "工程学",
+      "数学",
+      "物理学"
+    ],
+    "new_zh": [
+      "工程学",
+      "数学",
+      "物理学"
+    ],
+    "original_en": [
+      "Engineering",
+      "Mathematics",
+      "Physics"
+    ],
+    "new_en": [
+      "Engineering",
+      "Mathematics",
+      "Physics"
+    ]
+  },
+  {
+    "event": "archimedes_principle_BC250",
+    "original_zh": [
+      "物理学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "aristarchus_heliocentrism_BC270",
+    "original_zh": [
+      "天文学",
+      "数学"
+    ],
+    "new_zh": [
+      "天文学",
+      "数学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Mathematics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "aristotle_elements_BC350",
+    "original_zh": [
+      "哲学",
+      "物理学"
+    ],
+    "new_zh": [
+      "哲学",
+      "物理学"
+    ],
+    "original_en": [
+      "Philosophy",
+      "Physics"
+    ],
+    "new_en": [
+      "Philosophy",
+      "Physics"
+    ]
+  },
+  {
+    "event": "aristotle_geocentrism_BC350",
+    "original_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "new_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "aristotle_logic_BC350",
+    "original_zh": [
+      "哲学",
+      "数学"
+    ],
+    "new_zh": [
+      "哲学",
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Mathematics",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "boyle_law_1662",
+    "original_zh": [
+      "化学",
+      "物理学"
+    ],
+    "new_zh": [
+      "化学",
+      "物理学"
+    ],
+    "original_en": [
+      "Chemistry",
+      "Physics"
+    ],
+    "new_en": [
+      "Chemistry",
+      "Physics"
+    ]
+  },
+  {
+    "event": "carnot_thermodynamics_1824",
+    "original_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "new_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "original_en": [
+      "Engineering",
+      "Physics"
+    ],
+    "new_en": [
+      "Engineering",
+      "Physics"
+    ]
+  },
+  {
+    "event": "charles_law_1787",
+    "original_zh": [
+      "化学",
+      "物理学"
+    ],
+    "new_zh": [
+      "化学",
+      "物理学"
+    ],
+    "original_en": [
+      "Chemistry",
+      "Physics"
+    ],
+    "new_en": [
+      "Chemistry",
+      "Physics"
+    ]
+  },
+  {
+    "event": "copernicus_heliocentrism_1543",
+    "original_zh": [
+      "天文学",
+      "数学"
+    ],
+    "new_zh": [
+      "天文学",
+      "数学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Mathematics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "einstein_brownian_motion_1905",
+    "original_zh": [
+      "物理学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "einstein_general_relativity_1915",
+    "original_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "new_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Physics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Physics"
+    ]
+  },
+  {
+    "event": "einstein_photoelectric_1905",
+    "original_zh": [
+      "物理学",
+      "量子力学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics",
+      "Quantum Mechanics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "einstein_special_relativity_1905",
+    "original_zh": [
+      "物理学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "empedocles_elements_BC450",
+    "original_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "new_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "euclid_elements_BC300",
+    "original_zh": [
+      "数学"
+    ],
+    "new_zh": [
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics"
+    ],
+    "new_en": [
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "eudoxus_exhaustion_BC370",
+    "original_zh": [
+      "哲学",
+      "天文学",
+      "数学"
+    ],
+    "new_zh": [
+      "哲学",
+      "天文学",
+      "数学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Mathematics",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Mathematics",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "galileo_motion_1638",
+    "original_zh": [
+      "物理学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "galileo_telescope_1610",
+    "original_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "new_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Physics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Physics"
+    ]
+  },
+  {
+    "event": "gay_lussac_law_1802",
+    "original_zh": [
+      "化学",
+      "物理学"
+    ],
+    "new_zh": [
+      "化学",
+      "物理学"
+    ],
+    "original_en": [
+      "Chemistry",
+      "Physics"
+    ],
+    "new_en": [
+      "Chemistry",
+      "Physics"
+    ]
+  },
+  {
+    "event": "hipparchus_precession_BC150",
+    "original_zh": [
+      "地理学",
+      "天文学"
+    ],
+    "new_zh": [
+      "地理学",
+      "天文学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Geography"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Geography"
+    ]
+  },
+  {
+    "event": "hipparchus_trigonometry_BC150",
+    "original_zh": [
+      "天文学",
+      "数学"
+    ],
+    "new_zh": [
+      "天文学",
+      "数学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Mathematics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "hippasus_irrational_BC470",
+    "original_zh": [
+      "哲学",
+      "数学"
+    ],
+    "new_zh": [
+      "哲学",
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Mathematics",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "hooke_inverse_square_1679",
+    "original_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "new_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Physics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Physics"
+    ]
+  },
+  {
+    "event": "hooke_law_1678",
+    "original_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "new_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "original_en": [
+      "Engineering",
+      "Physics"
+    ],
+    "new_en": [
+      "Engineering",
+      "Physics"
+    ]
+  },
+  {
+    "event": "hooke_micrographia_1665",
+    "original_zh": [
+      "工程学",
+      "物理学",
+      "生物学"
+    ],
+    "new_zh": [
+      "工程学",
+      "物理学",
+      "生物学"
+    ],
+    "original_en": [
+      "Biology",
+      "Engineering",
+      "Physics"
+    ],
+    "new_en": [
+      "Biology",
+      "Engineering",
+      "Physics"
+    ]
+  },
+  {
+    "event": "huygens_centrifugal_force_1673",
+    "original_zh": [
+      "天文学",
+      "数学",
+      "物理学"
+    ],
+    "new_zh": [
+      "天文学",
+      "数学",
+      "物理学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Mathematics",
+      "Physics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Mathematics",
+      "Physics"
+    ]
+  },
+  {
+    "event": "ibn_al_shatir_model_1350",
+    "original_zh": [
+      "天文学",
+      "工程学",
+      "数学"
+    ],
+    "new_zh": [
+      "天文学",
+      "工程学",
+      "数学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Engineering",
+      "Mathematics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Engineering",
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "ideal_gas_law_1834",
+    "original_zh": [
+      "化学",
+      "物理学"
+    ],
+    "new_zh": [
+      "化学",
+      "物理学"
+    ],
+    "original_en": [
+      "Chemistry",
+      "Physics"
+    ],
+    "new_en": [
+      "Chemistry",
+      "Physics"
+    ]
+  },
+  {
+    "event": "kepler_laws_1609",
+    "original_zh": [
+      "天文学",
+      "数学",
+      "物理学"
+    ],
+    "new_zh": [
+      "天文学",
+      "数学",
+      "物理学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Mathematics",
+      "Physics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Mathematics",
+      "Physics"
+    ]
+  },
+  {
+    "event": "leibniz_calculus_1684",
+    "original_zh": [
+      "数学"
+    ],
+    "new_zh": [
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics"
+    ],
+    "new_en": [
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "leibniz_philosophy_1710",
+    "original_zh": [
+      "哲学",
+      "数学"
+    ],
+    "new_zh": [
+      "哲学",
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Mathematics",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "lippershey_telescope_1608",
+    "original_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "new_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Physics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Physics"
+    ]
+  },
+  {
+    "event": "nasir_al_din_al_tusi_1250",
+    "original_zh": [
+      "哲学",
+      "天文学",
+      "数学"
+    ],
+    "new_zh": [
+      "哲学",
+      "天文学",
+      "数学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Mathematics",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Mathematics",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "newcomen_engine_1712",
+    "original_zh": [
+      "工程学"
+    ],
+    "new_zh": [
+      "工程学"
+    ],
+    "original_en": [
+      "Engineering"
+    ],
+    "new_en": [
+      "Engineering"
+    ]
+  },
+  {
+    "event": "newton_calculus_1666",
+    "original_zh": [
+      "数学",
+      "物理学"
+    ],
+    "new_zh": [
+      "数学",
+      "物理学"
+    ],
+    "original_en": [
+      "Mathematics",
+      "Physics"
+    ],
+    "new_en": [
+      "Mathematics",
+      "Physics"
+    ]
+  },
+  {
+    "event": "newton_gravity_1687",
+    "original_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "new_zh": [
+      "天文学",
+      "物理学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Physics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Physics"
+    ]
+  },
+  {
+    "event": "newton_motion_laws_1687",
+    "original_zh": [
+      "数学",
+      "物理学"
+    ],
+    "new_zh": [
+      "数学",
+      "物理学"
+    ],
+    "original_en": [
+      "Mathematics",
+      "Physics"
+    ],
+    "new_en": [
+      "Mathematics",
+      "Physics"
+    ]
+  },
+  {
+    "event": "newton_opticks_1704",
+    "original_zh": [
+      "物理学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "orphicism_BC550",
+    "original_zh": [
+      "哲学"
+    ],
+    "new_zh": [
+      "哲学"
+    ],
+    "original_en": [
+      "Philosophy"
+    ],
+    "new_en": [
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "papin_piston_1690",
+    "original_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "new_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "original_en": [
+      "Engineering",
+      "Physics"
+    ],
+    "new_en": [
+      "Engineering",
+      "Physics"
+    ]
+  },
+  {
+    "event": "parmenides_philosophy_BC475",
+    "original_zh": [
+      "哲学"
+    ],
+    "new_zh": [
+      "哲学"
+    ],
+    "original_en": [
+      "Philosophy"
+    ],
+    "new_en": [
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "pascal_pressure_1653",
+    "original_zh": [
+      "物理学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "pascal_triangle_1654",
+    "original_zh": [
+      "数学"
+    ],
+    "new_zh": [
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics"
+    ],
+    "new_en": [
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "plato_forms_BC380",
+    "original_zh": [
+      "哲学"
+    ],
+    "new_zh": [
+      "哲学"
+    ],
+    "original_en": [
+      "Philosophy"
+    ],
+    "new_en": [
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "ptolemy_geocentrism_150",
+    "original_zh": [
+      "地理学",
+      "天文学",
+      "数学"
+    ],
+    "new_zh": [
+      "地理学",
+      "天文学",
+      "数学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Geography",
+      "Mathematics"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Geography",
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "pythagoras_philosophy_BC520",
+    "original_zh": [
+      "哲学",
+      "数学"
+    ],
+    "new_zh": [
+      "哲学",
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Mathematics",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "pythagoras_theorem_BC500",
+    "original_zh": [
+      "数学"
+    ],
+    "new_zh": [
+      "数学"
+    ],
+    "original_en": [
+      "Mathematics"
+    ],
+    "new_en": [
+      "Mathematics"
+    ]
+  },
+  {
+    "event": "socrates_dialogues_BC420",
+    "original_zh": [
+      "哲学"
+    ],
+    "new_zh": [
+      "哲学"
+    ],
+    "original_en": [
+      "Philosophy"
+    ],
+    "new_en": [
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "thales_anaximander_BC580",
+    "original_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "new_zh": [
+      "哲学",
+      "天文学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Philosophy"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Philosophy"
+    ]
+  },
+  {
+    "event": "torricelli_barometer_1643",
+    "original_zh": [
+      "物理学"
+    ],
+    "new_zh": [
+      "物理学"
+    ],
+    "original_en": [
+      "Physics"
+    ],
+    "new_en": [
+      "Physics"
+    ]
+  },
+  {
+    "event": "tycho_brahe_astronomical_data_1580",
+    "original_zh": [
+      "天文学",
+      "工程学"
+    ],
+    "new_zh": [
+      "天文学",
+      "工程学"
+    ],
+    "original_en": [
+      "Astronomy",
+      "Engineering"
+    ],
+    "new_en": [
+      "Astronomy",
+      "Engineering"
+    ]
+  },
+  {
+    "event": "watt_steam_engine_1776",
+    "original_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "new_zh": [
+      "工程学",
+      "物理学"
+    ],
+    "original_en": [
+      "Engineering",
+      "Physics"
+    ],
+    "new_en": [
+      "Engineering",
+      "Physics"
+    ]
+  }
+]

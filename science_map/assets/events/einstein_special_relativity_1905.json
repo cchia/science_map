@@ -11,12 +11,10 @@
     "country": "瑞士",
     "country_en": "Switzerland",
     "field": [
-        "物理学",
-        "时空"
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Spacetime"
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/16/World_line.svg",

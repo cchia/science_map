@@ -12,13 +12,11 @@
     "country_en": "Magna Graecia (Modern Sicily, Italy)",
     "field": [
         "哲学",
-        "自然哲学",
-        "宇宙学"
+        "天文学"
     ],
     "field_en": [
-        "Philosophy",
-        "Natural Philosophy",
-        "Cosmology"
+        "Astronomy",
+        "Philosophy"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Empedocles_four_elements.jpg",

@@ -12,15 +12,11 @@
     "country_en": "Magna Graecia (Modern Italy)",
     "field": [
         "哲学",
-        "数学",
-        "神秘主义",
-        "音乐"
+        "数学"
     ],
     "field_en": [
-        "Philosophy",
         "Mathematics",
-        "Mysticism",
-        "Music"
+        "Philosophy"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bronnikov_gimnpifagoreizev.jpg",

@@ -11,16 +11,14 @@
     "country": "大希腊 (今意大利西西里岛)",
     "country_en": "Magna Graecia (Modern Sicily, Italy)",
     "field": [
-        "物理学",
-        "静力学",
         "工程学",
-        "数学"
+        "数学",
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Statics",
         "Engineering",
-        "Mathematics"
+        "Mathematics",
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Archimedes_lever_%28Small%29.jpg",

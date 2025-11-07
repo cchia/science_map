@@ -11,14 +11,10 @@
     "country": "古希腊",
     "country_en": "Ancient Greece",
     "field": [
-        "哲学",
-        "宗教",
-        "神秘主义"
+        "哲学"
     ],
     "field_en": [
-        "Philosophy",
-        "Religion",
-        "Mysticism"
+        "Philosophy"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/DSC00355_-_Orfeo_%28epoca_romana%29_-_Foto_G._Dall%27Orto.jpg"

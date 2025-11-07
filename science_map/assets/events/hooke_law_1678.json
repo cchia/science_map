@@ -11,14 +11,12 @@
     "country": "英国",
     "country_en": "United Kingdom",
     "field": [
-        "物理学",
-        "材料科学",
-        "力学"
+        "工程学",
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Materials Science",
-        "Mechanics"
+        "Engineering",
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Hookes-law-springs.png",

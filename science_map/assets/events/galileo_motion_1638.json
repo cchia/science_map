@@ -11,14 +11,10 @@
     "country": "荷兰",
     "country_en": "Netherlands",
     "field": [
-        "物理学",
-        "运动学",
-        "材料力学"
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Kinematics",
-        "Mechanics of Materials"
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pisa_experiment.png",

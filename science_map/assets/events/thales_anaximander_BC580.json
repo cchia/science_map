@@ -12,15 +12,11 @@
     "country_en": "Ionia (Modern Turkey)",
     "field": [
         "哲学",
-        "自然哲学",
-        "宇宙学",
         "天文学"
     ],
     "field_en": [
-        "Philosophy",
-        "Natural Philosophy",
-        "Cosmology",
-        "Astronomy"
+        "Astronomy",
+        "Philosophy"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Floating_Earth_Thales_Anaximander.svg",

@@ -11,12 +11,10 @@
     "country": "瑞士",
     "country_en": "Switzerland",
     "field": [
-        "物理学",
-        "量子力学"
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Quantum Mechanics"
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Photoelectric_effect_in_a_solid_-_diagram.svg",

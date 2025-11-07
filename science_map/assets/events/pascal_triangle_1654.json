@@ -11,14 +11,10 @@
     "country": "法国",
     "country_en": "France",
     "field": [
-        "数学",
-        "概率论",
-        "组合数学"
+        "数学"
     ],
     "field_en": [
-        "Mathematics",
-        "Probability Theory",
-        "Combinatorics"
+        "Mathematics"
     ],
     "media": {
         "event_image": "https://commons.wikimedia.org/wiki/File:Pascal%27s_Triangle_rows_0-16;_details.svg",

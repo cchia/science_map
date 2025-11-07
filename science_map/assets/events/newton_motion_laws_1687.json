@@ -10,157 +10,165 @@
     "city_en": "London",
     "country": "英国",
     "country_en": "United Kingdom",
-    "field": ["物理学", "数学"],
-    "field_en": ["Physics", "Mathematics"],
-    
-    "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg",
-      "video": {
-        "url": "https://www.youtube.com/embed/kKKM8Y-u7ds",
-        "title": "牛顿三大运动定律 (Crash Course)",
-        "title_en": "Newton's Laws of Motion (Crash Course)",
-        "duration": "11:03"
-      }
-    },
-    
-    "summary": {
-      "text": "在《自然哲学的数学原理》中，牛顿提出了三个基本定律，描述了力与物体运动之间的关系。这三大定律是经典力学的基础。",
-      "text_en": "In *Principia Mathematica*, Newton proposed three fundamental laws describing the relationship between force and the motion of objects. These three laws are the foundation of classical mechanics.",
-      "key_points": [
-        "第一定律：惯性定律",
-        "第二定律：F=ma (力、质量、加速度)",
-        "第三定律：作用力与反作用力"
-      ],
-      "key_points_en": [
-        "First Law: Law of Inertia",
-        "Second Law: F=ma (Force, Mass, Acceleration)",
-        "Third Law: Action and Reaction"
-      ]
-    },
-    
-    "story": {
-      "text": "这三大定律是牛顿在《原理》一书的开篇公理。它们不是凭空想象的，而是建立在伽利略等人对运动的观察之上。牛顿的贡献在于将它们合成为一个连贯的、可预测的数学体系，用以描述所有物体的运动。",
-      "text_en": "These three laws were presented as axioms at the beginning of Newton's *Principia*. They weren't invented from nothing, but built upon the observations of motion by Galileo and others. Newton's contribution was synthesizing them into a coherent, predictive, mathematical system to describe all motion."
-    },
-
-    "simple_explanation": {
-      "text": "1. 懒惰定律：东西会一直保持原样（静止或直线运动），直到你推它。\n2. 用力定律：你推一个东西越用力，它跑得越快（加速越快）。\n3. 吵架定律：你推墙（作用力），墙也会用同样大的力推回你（反作用力）。",
-      "text_en": "1. The 'Lazy' Law: Things keep doing what they're doing (staying still or moving straight) until you push them.\n2. The 'Force' Law: The harder you push something, the faster it speeds up (accelerates).\n3. The 'Argument' Law: When you push a wall (action), the wall pushes you back (reaction) with the exact same force."      
-    },
-    
-    "principle": {
-      "title": "牛顿三定律",
-      "title_en": "Newton's Three Laws",      
-      "key_points": [
-        {
-          "icon": "🛌",
-          "title": "第一定律 (惯性)",
-          "title_en": "First Law (Inertia)",
-          "text": "任何物体都要保持静止或匀速直线运动的状态，除非作用在它上面的力迫使它改变这种状态。",
-          "text_en": "An object will remain at rest or in uniform motion in a straight line unless acted upon by an external force."
-        },
-        {
-          "icon": "🚀",
-          "title": "第二定律 (F=ma)",
-          "title_en": "Second Law (F=ma)",
-          "text": "物体加速度的大小跟作用力成正比，跟物体质量成反比。F=ma。",
-          "text_en": "The acceleration of an object is directly proportional to the force applied and inversely proportional to its mass. F=ma."
-        },
-        {
-          "icon": "🤝",
-          "title": "第三定律 (作用-反作用)",
-          "title_en": "Third Law (Action-Reaction)",
-          "text": "两个物体之间的作用力和反作用力，在同一直线上，大小相等，方向相反。",
-          "text_en": "For every action, there is an equal and opposite reaction."
-        }
-      ]
-    },
-
-    "applications": [
-      {
-        "icon": "🚗",
-        "title": "汽车安全",
-        "title_en": "Car Safety",        
-        "text": "安全带和安全气囊利用惯性定律（第一定律）在碰撞时保护乘客。",
-        "text_en": "Seatbelts and airbags use the Law of Inertia (First Law) to protect passengers during a crash."
-      },
-      {
-        "icon": "🚀",
-        "title": "火箭发射",
-        "title_en": "Rocket Propulsion",
-        "text": "火箭向下喷射气体（作用力），气体推动火箭上升（反作用力），这是第三定律。",
-        "text_en": "A rocket expels gas downwards (action), and the gas pushes the rocket upwards (reaction), per the Third Law."
-      },
-      {
-        "icon": "⚽",
-        "title": "所有运动",
-        "title_en": "All Sports",
-        "text": "踢足球、打台球... 所有的运动和碰撞都遵循F=ma（第二定律）。",
-        "text_en": "Kicking a soccer ball, playing pool... all motion and collisions are governed by F=ma (Second Law)."
-      }
+    "field": [
+        "数学",
+        "物理学"
     ],
-
+    "field_en": [
+        "Mathematics",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg",
+        "video": {
+            "url": "https://www.youtube.com/embed/kKKM8Y-u7ds",
+            "title": "牛顿三大运动定律 (Crash Course)",
+            "title_en": "Newton's Laws of Motion (Crash Course)",
+            "duration": "11:03"
+        }
+    },
+    "summary": {
+        "text": "在《自然哲学的数学原理》中，牛顿提出了三个基本定律，描述了力与物体运动之间的关系。这三大定律是经典力学的基础。",
+        "text_en": "In *Principia Mathematica*, Newton proposed three fundamental laws describing the relationship between force and the motion of objects. These three laws are the foundation of classical mechanics.",
+        "key_points": [
+            "第一定律：惯性定律",
+            "第二定律：F=ma (力、质量、加速度)",
+            "第三定律：作用力与反作用力"
+        ],
+        "key_points_en": [
+            "First Law: Law of Inertia",
+            "Second Law: F=ma (Force, Mass, Acceleration)",
+            "Third Law: Action and Reaction"
+        ]
+    },
+    "story": {
+        "text": "这三大定律是牛顿在《原理》一书的开篇公理。它们不是凭空想象的，而是建立在伽利略等人对运动的观察之上。牛顿的贡献在于将它们合成为一个连贯的、可预测的数学体系，用以描述所有物体的运动。",
+        "text_en": "These three laws were presented as axioms at the beginning of Newton's *Principia*. They weren't invented from nothing, but built upon the observations of motion by Galileo and others. Newton's contribution was synthesizing them into a coherent, predictive, mathematical system to describe all motion."
+    },
+    "simple_explanation": {
+        "text": "1. 懒惰定律：东西会一直保持原样（静止或直线运动），直到你推它。\n2. 用力定律：你推一个东西越用力，它跑得越快（加速越快）。\n3. 吵架定律：你推墙（作用力），墙也会用同样大的力推回你（反作用力）。",
+        "text_en": "1. The 'Lazy' Law: Things keep doing what they're doing (staying still or moving straight) until you push them.\n2. The 'Force' Law: The harder you push something, the faster it speeds up (accelerates).\n3. The 'Argument' Law: When you push a wall (action), the wall pushes you back (reaction) with the exact same force."
+    },
+    "principle": {
+        "title": "牛顿三定律",
+        "title_en": "Newton's Three Laws",
+        "key_points": [
+            {
+                "icon": "🛌",
+                "title": "第一定律 (惯性)",
+                "title_en": "First Law (Inertia)",
+                "text": "任何物体都要保持静止或匀速直线运动的状态，除非作用在它上面的力迫使它改变这种状态。",
+                "text_en": "An object will remain at rest or in uniform motion in a straight line unless acted upon by an external force."
+            },
+            {
+                "icon": "🚀",
+                "title": "第二定律 (F=ma)",
+                "title_en": "Second Law (F=ma)",
+                "text": "物体加速度的大小跟作用力成正比，跟物体质量成反比。F=ma。",
+                "text_en": "The acceleration of an object is directly proportional to the force applied and inversely proportional to its mass. F=ma."
+            },
+            {
+                "icon": "🤝",
+                "title": "第三定律 (作用-反作用)",
+                "title_en": "Third Law (Action-Reaction)",
+                "text": "两个物体之间的作用力和反作用力，在同一直线上，大小相等，方向相反。",
+                "text_en": "For every action, there is an equal and opposite reaction."
+            }
+        ]
+    },
+    "applications": [
+        {
+            "icon": "🚗",
+            "title": "汽车安全",
+            "title_en": "Car Safety",
+            "text": "安全带和安全气囊利用惯性定律（第一定律）在碰撞时保护乘客。",
+            "text_en": "Seatbelts and airbags use the Law of Inertia (First Law) to protect passengers during a crash."
+        },
+        {
+            "icon": "🚀",
+            "title": "火箭发射",
+            "title_en": "Rocket Propulsion",
+            "text": "火箭向下喷射气体（作用力），气体推动火箭上升（反作用力），这是第三定律。",
+            "text_en": "A rocket expels gas downwards (action), and the gas pushes the rocket upwards (reaction), per the Third Law."
+        },
+        {
+            "icon": "⚽",
+            "title": "所有运动",
+            "title_en": "All Sports",
+            "text": "踢足球、打台球... 所有的运动和碰撞都遵循F=ma（第二定律）。",
+            "text_en": "Kicking a soccer ball, playing pool... all motion and collisions are governed by F=ma (Second Law)."
+        }
+    ],
     "impact": {
-      "text": "这三大定律构成了经典力学的核心。它们统治了物理学超过200年，使工程师能够精确计算和建造从桥梁到蒸汽机的一切。直到爱因斯坦的相对论出现，其局限性才被揭示。",
-      "text_en": "These three laws form the core of classical mechanics. They reigned over physics for 200+ years, allowing engineers to precisely calculate and build everything from bridges to steam engines. Their limitations were only revealed with Einstein's relativity.",
-      "stats": [
-        {
-          "number": "3",
-          "label": "基本定律",
-          "label_en": "Fundamental Laws"
-        },
-        {
-          "number": "200+",
-          "label": "年科学基石",
-          "label_en": "Years of Scientific Bedrock"
-        }
-      ]
+        "text": "这三大定律构成了经典力学的核心。它们统治了物理学超过200年，使工程师能够精确计算和建造从桥梁到蒸汽机的一切。直到爱因斯坦的相对论出现，其局限性才被揭示。",
+        "text_en": "These three laws form the core of classical mechanics. They reigned over physics for 200+ years, allowing engineers to precisely calculate and build everything from bridges to steam engines. Their limitations were only revealed with Einstein's relativity.",
+        "stats": [
+            {
+                "number": "3",
+                "label": "基本定律",
+                "label_en": "Fundamental Laws"
+            },
+            {
+                "number": "200+",
+                "label": "年科学基石",
+                "label_en": "Years of Scientific Bedrock"
+            }
+        ]
     },
-
     "influence_chain": {
-      "influenced_by": [
-        {
-          "id": "galileo_motion_1638",
-          "contribution": "提供了惯性定律和运动观察的基础",
-          "contribution_en": "Provided the foundation for inertia and observations on motion"
-        }
-      ],
-      "influenced": [
-        {
-          "id": "newton_gravity_1687",
-          "contribution": "为万有引力提供了力学框架",
-          "contribution_en": "Provided the mechanical framework for universal gravitation"
-        },
-        {
-          "id": "einstein_1915_general_relativity",
-          "contribution": "相对论是在高速和强引力场下对牛顿定律的扩展",
-          "contribution_en": "Relativity extends Newton's laws for high speeds and strong gravity"
-        }
-      ],
-      "legacy_text": "牛顿三定律是整个经典物理学的公理基础，是人类理解宇宙运行方式的第一次伟大综合。",
-      "legacy_text_en": "Newton's three laws are the axiomatic basis for all of classical physics, representing the first grand synthesis of how the universe works."
+        "influenced_by": [
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "提供了惯性定律和运动观察的基础",
+                "contribution_en": "Provided the foundation for inertia and observations on motion"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_gravity_1687",
+                "contribution": "为万有引力提供了力学框架",
+                "contribution_en": "Provided the mechanical framework for universal gravitation"
+            },
+            {
+                "id": "einstein_1915_general_relativity",
+                "contribution": "相对论是在高速和强引力场下对牛顿定律的扩展",
+                "contribution_en": "Relativity extends Newton's laws for high speeds and strong gravity"
+            }
+        ],
+        "legacy_text": "牛顿三定律是整个经典物理学的公理基础，是人类理解宇宙运行方式的第一次伟大综合。",
+        "legacy_text_en": "Newton's three laws are the axiomatic basis for all of classical physics, representing the first grand synthesis of how the universe works."
     },
-    
-    "related_concepts": ["经典力学", "惯性", "力", "F=ma", "作用力与反作用力"],
-    "related_concepts_en": ["Classical Mechanics", "Inertia", "Force", "F=ma", "Action-Reaction"],
-    
+    "related_concepts": [
+        "经典力学",
+        "惯性",
+        "力",
+        "F=ma",
+        "作用力与反作用力"
+    ],
+    "related_concepts_en": [
+        "Classical Mechanics",
+        "Inertia",
+        "Force",
+        "F=ma",
+        "Action-Reaction"
+    ],
     "quiz": {
-      "question": "当你坐在椅子上时，你的身体向椅子施加了一个向下的力。根据牛顿第三定律，椅子对你做了什么？",
-      "question_en": "You are sitting on a chair, applying a downward force to it. According to Newton's Third Law, what is the chair doing?",
-      "options": [
-        "椅子没有施加力",
-        "椅子对你施加了一个等大、向上的力",
-        "椅子对你施加了一个较小的力",
-        "椅子被你压坏了"
-      ],
-      "options_en": [
-        "The chair applies no force",
-        "The chair applies an equal and upward force on you",
-        "The chair applies a smaller force on you",
-        "The chair breaks"
-      ],
-      "answer": 1,
-      "explanation": "第三定律指出，作用力和反作用力大小相等、方向相反。你的体重是作用力，椅子的支撑力是反作用力。",
-      "explanation_en": "The Third Law states that for every action, there is an equal and opposite reaction. Your weight is the action, and the chair's support is the reaction."
+        "question": "当你坐在椅子上时，你的身体向椅子施加了一个向下的力。根据牛顿第三定律，椅子对你做了什么？",
+        "question_en": "You are sitting on a chair, applying a downward force to it. According to Newton's Third Law, what is the chair doing?",
+        "options": [
+            "椅子没有施加力",
+            "椅子对你施加了一个等大、向上的力",
+            "椅子对你施加了一个较小的力",
+            "椅子被你压坏了"
+        ],
+        "options_en": [
+            "The chair applies no force",
+            "The chair applies an equal and upward force on you",
+            "The chair applies a smaller force on you",
+            "The chair breaks"
+        ],
+        "answer": 1,
+        "explanation": "第三定律指出，作用力和反作用力大小相等、方向相反。你的体重是作用力，椅子的支撑力是反作用力。",
+        "explanation_en": "The Third Law states that for every action, there is an equal and opposite reaction. Your weight is the action, and the chair's support is the reaction."
     }
 }

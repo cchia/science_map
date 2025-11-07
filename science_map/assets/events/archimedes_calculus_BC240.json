@@ -11,14 +11,10 @@
     "country": "大希腊 (今意大利西西里岛)",
     "country_en": "Magna Graecia (Modern Sicily, Italy)",
     "field": [
-        "数学",
-        "几何学",
-        "微积分 (雏形)"
+        "数学"
     ],
     "field_en": [
-        "Mathematics",
-        "Geometry",
-        "Calculus (Proto)"
+        "Mathematics"
     ],
     "media": {
         "event_image": "assets/images/archimedes_spiral.gif",

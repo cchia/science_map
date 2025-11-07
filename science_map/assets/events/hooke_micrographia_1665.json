@@ -11,14 +11,14 @@
     "country": "英国",
     "country_en": "United Kingdom",
     "field": [
-        "生物学",
-        "光学",
-        "科学插画"
+        "工程学",
+        "物理学",
+        "生物学"
     ],
     "field_en": [
         "Biology",
-        "Optics",
-        "Scientific Illustration"
+        "Engineering",
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hooke-microscope.png",

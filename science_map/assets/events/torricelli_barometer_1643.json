@@ -11,14 +11,10 @@
     "country": "托斯卡纳大公国 (今意大利)",
     "country_en": "Grand Duchy of Tuscany (Modern Italy)",
     "field": [
-        "物理学",
-        "气象学",
-        "流体静力学"
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Meteorology",
-        "Hydrostatics"
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/83/MercuryBarometer.svg",

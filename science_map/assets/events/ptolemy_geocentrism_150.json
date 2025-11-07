@@ -11,14 +11,14 @@
     "country": "罗马帝国 (今埃及)",
     "country_en": "Roman Empire (Modern Egypt)",
     "field": [
+        "地理学",
         "天文学",
-        "数学",
-        "地理学"
+        "数学"
     ],
     "field_en": [
         "Astronomy",
-        "Mathematics",
-        "Geography"
+        "Geography",
+        "Mathematics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ptolemaic_Model.png",

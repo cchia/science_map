@@ -11,12 +11,10 @@
     "country": "大希腊 (今意大利西西里岛)",
     "country_en": "Magna Graecia (Modern Sicily, Italy)",
     "field": [
-        "物理学",
-        "流体静力学"
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Hydrostatics"
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Archimedes_principle.svg",

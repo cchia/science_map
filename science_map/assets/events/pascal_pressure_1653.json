@@ -11,14 +11,10 @@
     "country": "法国",
     "country_en": "France",
     "field": [
-        "物理学",
-        "流体静力学",
-        "液压学"
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Hydrostatics",
-        "Hydraulics"
+        "Physics"
     ],
     "media": {
         "event_image": "hhttps://upload.wikimedia.org/wikipedia/commons/9/99/Working_principle_of_a_hydraulic_jack.svg",

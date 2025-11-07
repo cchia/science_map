@@ -11,14 +11,12 @@
     "country": "德国",
     "country_en": "Germany",
     "field": [
-        "物理学",
-        "引力",
-        "宇宙学"
+        "天文学",
+        "物理学"
     ],
     "field_en": [
-        "Physics",
-        "Gravitation",
-        "Cosmology"
+        "Astronomy",
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Spacetime_lattice_analogy_white.svg",

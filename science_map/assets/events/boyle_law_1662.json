@@ -12,13 +12,11 @@
     "country_en": "United Kingdom",
     "field": [
         "化学",
-        "物理学",
-        "气体动力学"
+        "物理学"
     ],
     "field_en": [
         "Chemistry",
-        "Physics",
-        "Pneumatics"
+        "Physics"
     ],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Boyles_Law_animated.gif",

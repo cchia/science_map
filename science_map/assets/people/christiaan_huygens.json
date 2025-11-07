@@ -1,0 +1,13 @@
+{
+    "name": "克里斯蒂安·惠更斯",
+    "name_en": "Christiaan Huygens",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Christiaan_Huygens-painting.jpeg",
+    "bio_short": "荷兰物理学家、数学家和天文学家。他发明了摆钟（1656），发现了土卫六泰坦（1655），提出了光的波动理论（1678）和离心力理论（1673），是牛顿之前最重要的力学家和光学家之一。",
+    "bio_short_en": "Dutch physicist, mathematician, and astronomer. He invented the pendulum clock (1656), discovered Titan (1655), proposed the wave theory of light (1678) and the theory of centrifugal force (1673), and was one of the most important mechanicians and opticians before Newton.",
+    "events": [
+      "huygens_centrifugal_force_1673",
+      "huygens_titan_discovery_1655",
+      "huygens_wave_theory_1678"
+    ]
+  }
+
