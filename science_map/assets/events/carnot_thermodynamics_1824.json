@@ -1,6 +1,6 @@
 {
     "id": "carnot_thermodynamics_1824",
-    "personId": "sadi_carnot",
+    "personId": "nicolas_carnot",
     "title": "发表《论火的推动力》",
     "title_en": "Publishes 'Reflections on the Motive Power of Fire'",
     "year": 1824,
@@ -104,7 +104,7 @@
     "influence_chain": {
         "influenced_by": [
             {
-                "id": "steam_engine_1712",
+                "id": "newcomen_engine_1712",
                 "contribution": "蒸汽机（如纽科门和瓦特的发明，是卡诺试图解释的“物理现象”）",
                 "contribution_en": "The Steam Engine (e.g., Newcomen and Watt, which was the 'physical phenomenon' Carnot sought to explain)"
             }
