@@ -88,7 +88,7 @@ class _MapScreenState extends State<MapScreen> {
   bool showSearchBar = false;
 
   // ========== 配置数据 ==========
-  final Map<String, Color> fieldColors = {
+final Map<String, Color> fieldColors = {
     '物理学': Colors.red,
     '化学': Colors.green,
     '生物学': Colors.blue,
@@ -97,8 +97,10 @@ class _MapScreenState extends State<MapScreen> {
     '医学': Colors.pink,
     '计算机': Colors.cyan,
     '航天': Colors.indigo,
-    '综合': Colors.brown,
     '哲学': Colors.teal,
+    '工程学': Colors.grey[700]!, // <-- 新增
+    '地理学': Colors.lightGreen, // <-- 新增
+    '综合': Colors.brown,
   };
 
   final Map<String, String> fieldEmojis = {
@@ -110,11 +112,13 @@ class _MapScreenState extends State<MapScreen> {
     '医学': '💊',
     '计算机': '💻',
     '航天': '🚀',
-    '综合': '📚',
     '哲学': '🏛️',
+    '工程学': '⚙️', // <-- 新增
+    '地理学': '🌍', // <-- 新增
+    '综合': '📚',
   };
 
-  final Map<String, String> fieldNamesEn = {
+final Map<String, String> fieldNamesEn = {
     '物理学': 'Physics',
     '化学': 'Chemistry',
     '生物学': 'Biology',
@@ -123,8 +127,10 @@ class _MapScreenState extends State<MapScreen> {
     '医学': 'Medicine',
     '计算机': 'Computer Science',
     '航天': 'Space',
-    '综合': 'Comprehensive',
     '哲学': 'Philosophy',
+    '工程学': 'Engineering', // <-- 新增
+    '地理学': 'Geography', // <-- 新增
+    '综合': 'Comprehensive',
   };
 
   // ========== 生命周期 ==========
