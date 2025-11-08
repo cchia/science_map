@@ -1,0 +1,10 @@
+{
+    "name": "阿耶波多",
+    "name_en": "aryabhata",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Aryabhatta_of_Bihar.jpg",
+    "bio_short": "古印度数学家和天文学家，印度数学黄金时代的奠基人。他以其著作《阿里亚哈塔历书》而闻名，书中系统性地使用了十进制，发明了正弦表（三角学），并精确计算了π的值。",
+    "bio_short_en": "An ancient Indian mathematician and astronomer, a foundational figure of the golden age of Indian mathematics. He is renowned for his work 'Aryabhatiya', which systemized the decimal system, invented sine tables (trigonometry), and gave a precise value for Pi.",
+    "events": [
+      "aryabhata_mathematics_499"
+    ]
+  }

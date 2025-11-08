@@ -87,7 +87,7 @@
         "text_en": "The discovery of irrational numbers was a key turning point in Western thought. It destroyed the simple harmony of the Pythagoreans and forced the need for 'rigor' into mathematics. This crisis led directly to Eudoxus's Theory of Proportions and Euclid's axiomatic geometry, which were attempts to rebuild mathematics on a logical foundation *without* relying on 'number'.",
         "stats": [
             {
-                "number": 2,
+                "number": "2",
                 "label": "√2",
                 "label_en": "√2"
             }
@@ -138,5 +138,26 @@
         "Pythagoreanism",
         "Reductio ad absurdum",
         "Foundational Crisis"
-    ]
+    ],
+
+    "quiz": {
+    "question": "希帕索斯的什么发现，动摇了毕达哥拉斯学派“万物皆数（有理数）”的信念？",
+    "question_en": "What discovery by Hippasus shattered the Pythagorean belief that 'All is number (rational)'?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Square_root_of_2_triangle.svg",
+    "options": [
+      "发现√2是一个“无理数”（无法表示为分数）",
+      "发现了“零”的存在",
+      "证明了杠杆原理",
+      "证明了地球是球形的"
+    ],
+    "options_en": [
+      "Discovering that √2 is an 'irrational number' (cannot be a fraction)",
+      "Discovering the existence of 'zero'",
+      "Proving the law of the lever",
+      "Proving the Earth is a sphere"
+    ],
+    "answer": 0,
+    "explanation": "毕达哥拉斯学派认为宇宙万物都可以用整数及其比例（分数）来解释。希帕索斯证明了边长为1的正方形的对角线（√2）无法用分数表示，这从根本上摧毁了他们的哲学。",
+    "explanation_en": "The Pythagoreans believed the entire universe was governed by integers and their ratios (fractions). Hippasus proved that the diagonal of a unit square (√2) could not be expressed as a fraction, which fundamentally destroyed their philosophy."
+  }    
 }

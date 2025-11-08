@@ -1,0 +1,10 @@
+{
+    "name": "尼古拉·伊万诺维奇·罗巴切夫斯基",
+    "name_en": "Nikolai Ivanovich Lobachevsky",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Lobachevsky_03_crop.jpg",
+    "bio_short": "俄罗斯数学家，被誉为“几何学的哥白尼”。他是“非欧几里得几何学”（双曲几何）的共同创始人，通过否定欧几里得第五公设，开创了数学和物理学的新纪元。",
+    "bio_short_en": "A Russian mathematician, known as the 'Copernicus of Geometry'. He was a co-founder of 'Non-Euclidean Geometry' (Hyperbolic Geometry), pioneering a new era in mathematics and physics by negating Euclid's fifth postulate.",
+    "events": [
+      "lobachevskian_geometry_1830"
+    ]
+  }

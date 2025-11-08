@@ -1,0 +1,10 @@
+{
+    "name": "埃德蒙·哈雷",
+    "name_en": "Edmond Halley",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Edmund_Halley.jpg",
+    "bio_short": "英国天文学家、数学家和物理学家。他是牛顿的密友和资助人，第一个应用牛顿定律计算出彗星轨道，并成功预言了“哈雷彗星”的回归。",
+    "bio_short_en": "An English astronomer, mathematician, and physicist. He was a close friend and the financier of Isaac Newton, and was the first to apply Newton's laws to calculate a comet's orbit, successfully predicting the return of 'Halley's Comet'.",
+    "events": [
+      "halley_comet_1705"
+    ]
+  }

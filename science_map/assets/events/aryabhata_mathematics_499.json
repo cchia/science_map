@@ -1,0 +1,158 @@
+{
+    "id": "aryabhata_mathematics_499",
+    "personId": "aryabhata",
+    "title": "发表《阿里亚哈塔历书》 (Aryabhatiya)",
+    "title_en": "Publishes the 'Aryabhatiya'",
+    "year": 499,
+    "lat": 25.5941,
+    "lng": 85.1376,
+    "city": "库苏马普拉 (今帕特纳)",
+    "city_en": "Kusumapura (Modern Patna)",
+    "country": "印度 (笈多王朝)",
+    "country_en": "India (Gupta Empire)",
+    "field": ["数学", "天文学"],
+    "field_en": ["Mathematics", "Astronomy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sine_cosine_plot.svg/640px-Sine_cosine_plot.svg.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=0xn6OS_esb0",
+        "title": "阿耶波多：天才数学家",
+        "title_en": "Aryabhata: The Genius Who Shaped Ancient Indian Mathematics",
+        "duration": "4:52"
+      }
+    },
+    
+    "summary": {
+      "text": "阿耶波多发表了他划时代的梵文诗歌总集《阿里亚哈塔历书》。这部著作奠定了印度数学和天文学的黄金时代。其核心贡献是：(1) 首次系统性地使用了“小数十进制”和“位值制”。(2) 发明了“三角学”，他创建了第一个“正弦表”(jya) 和“正矢表”(kojya)，这比希腊的“弦表”更接近现代三角函数。(3) 他计算出圆周率 π 的值为 3.1416 (即 62832/20000)，并指出这是一个“近似值”（暗示了无理数）。",
+      "text_en": "Aryabhata published his seminal treatise, the 'Aryabhatiya', a compact summary of Indian mathematics and astronomy. This work defined the golden age of Indian mathematics by: (1) Systematically using the decimal place-value system. (2) Inventing 'Trigonometry' as we know it by creating the first tables of 'Sines' (jya) and 'Versines' (kojya), which were far more practical than Greek 'chords'. (3) Calculating an incredibly accurate value for Pi (π) as 3.1416 (62832/20000) and noting it was an 'approximation' (hinting at irrationality).",
+      "key_points": [
+        "小数十进制位值制 (Decimal Place-Value System)",
+        "发明“正弦”(Sine) 函数并制表",
+        "现代三角学 (Trigonometry) 的真正鼻祖",
+        "精确计算 π ≈ 3.1416"
+      ],
+      "key_points_en": [
+        "Decimal Place-Value System",
+        "Invented the 'Sine' function and its first table",
+        "True founder of modern Trigonometry",
+        "Calculated Pi (π) ≈ 3.1416"
+      ]
+    },
+  
+    "story": {
+      "text": "阿耶波多的工作是一次飞跃。在希腊，喜帕恰斯（`hipparchus_trigonometry_BC150`）使用的是“弦长”(chord)，这是一个与圆弧对应的“长度”，计算繁琐。阿耶波多则发明了“半弦”(ardha-jya)，即现代的“正弦”(sine)，它是一个直角三角形中“角”与“边长之比”。这个“比率”的概念是革命性的，它将三角学从复杂的几何问题中解放出来，变成了一种强大的代数计算工具。他制作的正弦表，使得天文学家（包括后来的阿拉伯和欧洲学者）能够轻松地计算行星轨道和角度。",
+      "text_en": "Aryabhata's work was a leap. In Greece, Hipparchus (`hipparchus_trigonometry_BC150`) used the 'chord', a cumbersome *length* in a circle. Aryabhata invented the 'half-chord' (ardha-jya), or 'Sine'—a *ratio* of a side to a hypotenuse in a right triangle. This concept of a 'ratio' was revolutionary. It freed trigonometry from geometry and turned it into a powerful, algebraic tool. His tables of sine values allowed astronomers (first Islamic, then European) to easily solve any triangle and calculate planetary orbits."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🛰️",
+        "text": "印度的第一颗人造卫星（1975年发射）被命名为“阿耶波多号”(Aryabhata) 以纪念他。",
+        "text_en": "India's first satellite, launched in 1975, was named 'Aryabhata' in his honor."
+      },
+      {
+        "icon": "🌍",
+        "text": "在天文学上，他正确地提出地球是绕地轴自转的（解释了昼夜），并正确地解释了日食和月食是由地球和月球的“影子”引起的，而不是神话中的恶龙。",
+        "text_en": "In astronomy, he correctly proposed that the Earth rotates on its axis (explaining day and night) and that eclipses were caused by the *shadows* of the Earth and Moon, not a mythological dragon."
+      },
+      {
+        "icon": "➡️",
+        "text": "我们今天所用的“sine”（正弦）这个词，就是从阿耶波多的梵文“jya”（半弦）一词，经阿拉伯语“jiba”（音译）和拉丁语“sinus”（意译为“海湾”）误译而来的。",
+        "text_en": "Our modern word 'sine' comes from a series of mistranslations of Aryabhata's Sanskrit word 'jya' (half-chord) -> Arabic 'jiba' (phonetic) -> Latin 'sinus' (meaning 'bay' or 'fold')."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "阿耶波多是第一个将三角学（SOH CAH TOA）变成“傻瓜相机”的人。在他之前，希腊人计算角度用的是复杂的几何“弦长”。阿耶波多发明了“正弦”(Sine)，并制作了第一个“正弦查询表”。天文学家再也不用自己画图了，他们可以直接“查表”得到答案。更重要的是，他所使用的“1, 2, 3...”（十进制位值制）系统，最终（通过阿拉伯学者）传遍了世界，取代了笨拙的罗马数字（I, II, III）。",
+      "text_en": "Aryabhata was the first person to turn trigonometry (SOH CAH TOA) into a 'point-and-shoot' camera. Before him, Greeks used cumbersome geometric 'chords'. Aryabhata invented the 'Sine' and created the first 'lookup table' for it. Astronomers no longer had to draw complex diagrams; they could just 'look up the answer'. More importantly, the '1, 2, 3...' (decimal place-value) system he used was transmitted (via Arab scholars) to the entire world, replacing clumsy Roman numerals."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🌌",
+          "title": "天文学 (Astronomy)",
+          "title_en": "Astronomy",
+          "text": "他的正弦表是中世纪天文学（伊斯兰和欧洲）计算行星位置和预测日食的基础工具。",
+          "text_en": "His sine tables were the fundamental tool for medieval astronomy (both Islamic and European) for calculating planetary positions and predicting eclipses."
+        },
+        {
+          "icon": "🗺️",
+          "title": "导航与测绘 (Navigation & Surveying)",
+          "title_en": "Navigation & Surveying",
+          "text": "正弦函数的发明，是所有现代导航（如GPS）和工程测绘的基础。",
+          "text_en": "The invention of the sine function is the basis for all modern navigation (like GPS) and engineering surveying."
+        },
+        {
+          "icon": "🔢",
+          "title": "现代算术 (Modern Arithmetic)",
+          "title_en": "Modern Arithmetic",
+          "text": "他 championed 的十进制位值制（Hindu-Arabic numeral system）是现代科学、金融和计算的通用语言。",
+          "text_en": "The decimal place-value system he championed (the Hindu-Arabic numeral system) is the universal language of modern science, finance, and computing."
+        }
+      ],
+  
+    "impact": {
+      "text": "阿耶波多的《阿里亚哈塔历书》是数学史上的一个重大转折点。它将希腊的几何“弦表”转变为更强大、更易用的代数“正弦表”，从而真正诞生了现代三角学。他的十进制位值制和代数方法，通过阿拉伯学者（如花拉子米）传入欧洲，为欧洲的科学革命提供了必不可少的数学工具。",
+      "text_en": "The 'Aryabhatiya' marks a major turning point in mathematical history. It transformed Greek 'chords' (geometry) into the far more powerful and algebraic 'Sine' (trigonometry). His decimal place-value system and algebraic methods were transmitted to Europe via Arab scholars (like al-Khwarizmi) and provided the essential mathematical tools for the Scientific Revolution.",
+      "stats": [
+          {
+            "number": "3.1416",
+            "label": "圆周率 (Pi) 的值",
+            "label_en": "Value for Pi"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "hipparchus_trigonometry_BC150",
+          "contribution": "希腊天文学（提供了“弦表”的早期三角学概念）",
+          "contribution_en": "Greek Astronomy (provided the earlier 'chord' concept of trigonometry)"
+        },
+        {
+          "id": "babylonian_astronomy_BC600",
+          "contribution": "巴比伦天文学（提供了天文观测数据和数学方法）",
+          "contribution_en": "Babylonian Astronomy (provided observational data and mathematical methods)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "brahmagupta_zero_628",
+          "contribution": "婆罗摩笈多（其继任者，明确定义了“零”的运算规则）",
+          "contribution_en": "Brahmagupta (his successor, who formalized the rules for operating with 'zero')"
+        },
+        {
+          "id": "al_khwarizmi_algebra_820",
+          "contribution": "花拉子米（其著作将阿耶波多的“印度数字”和“正弦表”引入了伊斯兰世界）",
+          "contribution_en": "Al-Khwarizmi (whose book introduced Aryabhata's 'Hindu numerals' and sine tables to the Islamic world)"
+        }
+      ],
+      "legacy_text": "阿耶波多发明了正弦（Sine），并将十进制系统理论化，为全世界提供了计算的两大基石。",
+      "legacy_text_en": "Aryabhata invented the Sine function and theorized the decimal system, giving the world two of its greatest tools for calculation."
+    },
+  
+    "related_concepts": ["正弦 (Jya)", "三角学 (Trigonometry)", "十进制位值制 (Decimal Place-Value)", "圆周率 π", "阿里亚哈塔历书 (Aryabhatiya)", "花拉子米", "婆罗摩笈多"],
+    "related_concepts_en": ["Sine (Jya)", "Trigonometry", "Decimal Place-Value", "Pi (π)", "Aryabhatiya", "Al-Khwarizmi", "Brahmagupta"],
+  
+    "quiz": {
+      "question": "阿耶波多的《阿里亚哈塔历书》对现代数学最重要的两项贡献是什么？",
+      "question_en": "What are the two most important contributions to modern math from Aryabhata's 'Aryabhatiya'?",
+      "options": [
+        "杠杆原理和浮力定律",
+        "小数十进制位值制和第一个“正弦表”（三角学）",
+        "三段论和“以太”的概念",
+        "行星运动定律和“冲力”说"
+      ],
+      "options_en": [
+        "The Law of the Lever and Buoyancy",
+        "The Decimal Place-Value System and the first Sine Table (Trigonometry)",
+        "The Syllogism and the concept of 'Aether'",
+        "Laws of Planetary Motion and the 'Impetus' theory"
+      ],
+      "answer": 1,
+      "explanation": "阿耶波多的著作中系统性地使用了“十进制位值制”（我们今天用的1, 2, 3...），并且他发明了“正弦”(jya)函数表，这被认为是现代三角学的开端。",
+      "explanation_en": "Aryabhata's work systemized the 'Decimal Place-Value' system (the 1, 2, 3... we use today) and he invented the 'Sine' (jya) function tables, which is considered the birth of modern trigonometry."
+    }
+  }

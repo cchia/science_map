@@ -590,14 +590,14 @@
             "relationship_en": "Fermat independently discovered basic ideas of analytic geometry, earlier than Descartes, but didn't publish. Their work complemented each other, jointly laying foundation of analytic geometry"
         },
         {
-            "id": "newton_calculus",
+            "id": "newton_calculus_1687",
             "title": "牛顿微积分",
             "title_en": "Newton's Calculus",
             "relationship": "牛顿在发明微积分时大量使用了笛卡尔的坐标系和方程。解析几何为微积分提供了必要的框架和工具",
             "relationship_en": "Newton extensively used Descartes' coordinate system and equations when inventing calculus. Analytic geometry provided necessary framework and tools for calculus"
         },
         {
-            "id": "leibniz_calculus",
+            "id": "leibniz_calculus_1684",
             "title": "莱布尼茨微积分",
             "title_en": "Leibniz's Calculus",
             "relationship": "莱布尼茨独立发明微积分时也依赖于解析几何。他发展的微积分符号系统与笛卡尔的坐标系统完美结合",
@@ -618,7 +618,7 @@
             "relationship_en": "Gauss's differential geometry studies local properties of surfaces, using coordinates and equations to describe geometric objects, deepening and extending analytic geometry"
         },
         {
-            "id": "riemann_geometry",
+            "id": "riemann_geometry_1854",
             "title": "黎曼几何",
             "title_en": "Riemannian Geometry",
             "relationship": "黎曼将解析几何推广到弯曲空间和高维空间，为爱因斯坦的广义相对论提供了数学基础",

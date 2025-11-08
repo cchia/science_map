@@ -1,0 +1,159 @@
+{
+    "id": "huygens_wave_theory_1678",
+    "personId": "christiaan_huygens",
+    "title": "提出光的波动理论",
+    "title_en": "Presents the Wave Theory of Light",
+    "year": 1678,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Huygens_Fresnel_Principle2.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=uLYu6ec56go",
+        "title": "惠更斯原理",
+        "title_en": "Huygens' Wave Theory",
+        "duration": "4:01"
+      }
+    },
+    
+    "summary": {
+      "text": "1678年，惠更斯在巴黎向法国科学院首次阐述了他革命性的“光的波动理论”。该理论与牛顿的“微粒说”截然相反，认为光是一种在“以太”中传播的波。他提出了“惠更斯原理”（波前的每一点都是子波源），并用其在数学上完美推导了反射和折射定律。他的理论在1690年以《光论》(Traité de la Lumière) 为名正式出版。",
+      "text_en": "In 1678, Huygens first presented his revolutionary 'Wave Theory of Light' to the French Academy of Sciences in Paris. As a direct rival to Newton's 'Corpuscular Theory', it argued light was a wave propagating through a medium called the 'aether'. He proposed 'Huygens's Principle' (every point on a wavefront is a source of new wavelets) and used it to perfectly derive the laws of reflection and refraction. His theory was formally published in 1690 as 'Traité de la Lumière'.",
+      "key_points": [
+        "光是一种波 (Wave Theory of Light)",
+        "与牛顿的“微粒说”(Corpuscular Theory) 相对立",
+        "提出了“惠更斯原理”(Huygens's Principle)",
+        "首次在数学上推导出“反射定律”和“折射定律”",
+        "假设存在一种媒介“以太”(Aether)"
+      ],
+      "key_points_en": [
+        "Light is a wave",
+        "Rivaled Newton's 'Corpuscular Theory'",
+        "Proposed 'Huygens's Principle' (of wavelets)",
+        "First to mathematically derive the laws of reflection and refraction",
+        "Hypothesized the existence of the 'Aether'"
+      ]
+    },
+  
+    "story": {
+      "text": "惠更斯的天才之处在于他的“子波源”思想。想象一下水波：当一道平直的水波撞向一个有小孔的堤坝时，穿过小孔的水会形成一个新的“圆形”波纹。惠更斯说，一道光波的“波前”上的每一点，都在做着同样的事情——不断地发出自己的“子波”。这些无数的子波“包络”起来（即它们共同形成的切线），就构成了下一刻的新波前。这个简单的几何模型，不仅直观地解释了波的传播，还能在数学上精确推导出为什么光线在进入玻璃时会弯折（折射）——因为光在玻璃中（他假设）传播得*更慢*。",
+      "text_en": "Huygens's genius was the 'wavelet' idea. Imagine a flat water wave hitting a barrier with a small hole. The water that goes through the hole spreads out as a new *circular* ripple. Huygens said *every point* on a wavefront of light is doing the same thing—emitting its own tiny 'wavelet'. The 'envelope' of all these wavelets (the tangent line that touches all of them) becomes the new wavefront. This simple geometric model not only explained propagation, but it perfectly *derived* why light bends when it enters glass (refraction)—because, he argued, light moves *slower* in glass.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Huygens_Fresnel_Principle2.gif"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⏳",
+        "text": "由于牛顿的巨大权威，惠更斯的波动理论在发表后被“雪藏”和忽视了长达100多年。",
+        "text_en": "Because of Isaac Newton's immense authority (who favored the particle theory), Huygens's wave theory was largely ignored and overshadowed for over 100 years."
+      },
+      {
+        "icon": "👀",
+        "text": "牛顿的微粒说无法很好地解释“衍射”（光绕过障碍物弯曲）和“薄膜颜色”（如肥皂泡）。而惠更斯的波动理论（经后人完善后）可以完美解释这些现象。",
+        "text_en": "Newton's particle theory struggled to explain 'diffraction' (bending of light) and thin-film colors (like soap bubbles). Huygens's wave theory (when fully developed) explained them perfectly."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "牛顿认为光是“一束微小的子弹”（粒子）。惠更斯则认为光是“水面上的波纹”。牛顿的理论能解释为什么光走直线，但很难解释为什么光进入水中会“弯折”（折射）。\n惠更斯的理论是：想象一下，一排士兵（光波）从坚实的地面（空气）上，倾斜地走进一片泥地（玻璃）。先进泥地的士兵（波的一侧）会“减速”，而还在地面上的士兵（波的另一侧）保持原速。这必然导致整排士兵的行进方向发生“弯折”。他用这个“波”的模型，完美地解释了折射。",
+      "text_en": "Newton thought light was a stream of tiny 'bullets' (particles). Huygens thought light was a 'ripple in a pond' (a wave). Newton's theory explained shadows well, but struggled to explain why light *bends* when it enters water (refraction).\nHuygens's theory: Imagine a line of soldiers (the light wave) marching from pavement (air) into mud (glass) at an angle. The first soldiers to hit the mud *slow down*, while the soldiers still on the pavement keep going fast. This *must* cause the entire line of soldiers to *pivot* and change direction. He perfectly explained refraction with this wave model."
+    },
+  
+    "applications": [
+        {
+          "icon": "💡",
+          "title": "物理光学 (Physical Optics)",
+          "title_en": "Physical Optics",
+          "text": "“惠更斯原理”是现代物理光学的基础，用于解释和计算光的“衍射”(Diffraction) 和“干涉”(Interference) 现象。",
+          "text_en": "Huygens's Principle is the foundation of modern physical optics, used to explain and calculate the phenomena of 'diffraction' and 'interference'."
+        },
+        {
+          "icon": "📷",
+          "title": "透镜设计 (Lens Design)",
+          "title_en": "Lens Design",
+          "text": "他对折射定律的数学推导，是所有现代光学仪器（如相机镜头、望远镜、显微镜）设计的基础。",
+          "text_en": "His mathematical derivation of the law of refraction is fundamental to the design of all modern optical instruments (camera lenses, telescopes, microscopes)."
+        }
+      ],
+  
+    "impact": {
+      "text": "尽管惠更斯的理论被牛顿的权威压制了一个世纪，但它在19世纪初被托马斯·杨（Thomas Young）和菲涅尔（Fresnel）“复活”。杨氏的双缝干涉实验决定性地证明了光*就是*一种波。惠更斯的波动理论最终战胜了牛顿的微粒说（直到20世纪爱因斯坦的光电效应，才形成了“波粒二象性”）。《光论》是与牛顿《光学》齐名的奠基之作。",
+      "text_en": "Though suppressed for a century by Newton's authority, Huygens's theory was resurrected in the early 1800s by Thomas Young and Augustin-Jean Fresnel. Young's 'double-slit experiment' proved definitively that light *was* a wave. Huygens's wave theory eventually triumphed over Newton's particle theory (until Einstein's photoelectric effect forced the modern 'wave-particle duality'). 'Traité de la Lumière' is a foundational text of physics equal to Newton's 'Opticks'.",
+      "stats": [
+          {
+            "number": "1678",
+            "label": "年 (理论提出)",
+            "label_en": "Year Presented"
+          },
+          {
+            "number": "100+",
+            "label": "年 (理论被忽视)",
+            "label_en": "Years Ignored"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "descartes_optics_1637",
+          "contribution": "笛卡尔（其“以太”和“光是压力波”的理论，是惠更斯思想的起点）",
+          "contribution_en": "René Descartes (whose theory of an 'aether' and light as a 'pressure wave' was a starting point for Huygens)"
+        },
+        {
+          "id": "hooke_micrographia_1665",
+          "contribution": "胡克（其《显微图谱》中也提出了光的“脉冲”理论）",
+          "contribution_en": "Robert Hooke (who also proposed a 'pulse' theory of light in 'Micrographia')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "young_double_slit_1803",
+          "contribution": "托马斯·杨（其“双缝干涉实验”最终证实了惠更斯的波动理论）",
+          "contribution_en": "Thomas Young (whose 'double-slit experiment' finally provided the definitive proof for Huygens's wave theory)"
+        },
+        {
+          "id": "fresnel_diffraction_1818",
+          "contribution": "奥古斯丁·菲涅尔（他将惠更斯原理数学化，精确解释了“衍射”现象）",
+          "contribution_en": "Augustin-Jean Fresnel (who mathematized Huygens's Principle to precisely explain diffraction)"
+        },
+        {
+          "id": "einstein_photoelectric_1905",
+          "contribution": "爱因斯坦（其“光子”概念最终将惠更斯的波动说与牛顿的微粒说统一为“波粒二象性”）",
+          "contribution_en": "Einstein (whose 'photon' concept ultimately reconciled Huygens's waves and Newton's particles into 'wave-particle duality')"
+        }
+      ],
+      "legacy_text": "惠更斯建立了与牛顿分庭抗礼的光学理论，他关于“波”的深刻见解，至今仍是物理学家理解现实的基本工具。",
+      "legacy_text_en": "Huygens established the great rival theory to Newton's optics, and his deep insights about 'waves' remain a fundamental tool for physicists today."
+    },
+  
+    "related_concepts": ["光的波动说", "惠更斯原理", "光的微粒说", "牛顿", "反射", "折射", "衍射", "干涉", "以太", "托马斯·杨"],
+    "related_concepts_en": ["Wave Theory of Light", "Huygens's Principle", "Corpuscular Theory of Light", "Newton", "Reflection", "Refraction", "Diffraction", "Interference", "Aether", "Thomas Young"],
+  
+    "quiz": {
+      "question": "惠更斯的“波动理论”与牛顿的“微粒理论”最根本的分歧是什么？",
+      "question_en": "What was the fundamental disagreement between Huygens's 'Wave Theory' and Newton's 'Particle Theory'?",
+      "options": [
+        "光是粒子还是一种波",
+        "地球是否绕着太阳转",
+        "引力是否是平方反比",
+        "是否存在真空"
+      ],
+      "options_en": [
+        "Whether light is a particle or a wave",
+        "Whether the Earth orbits the Sun",
+        "Whether gravity is an inverse-square law",
+        "Whether a vacuum can exist"
+      ],
+      "answer": 0,
+      "explanation": "这是17世纪末物理学的核心辩论。牛顿（`newton_opticks_1704`）认为光是微小的“子弹”（微粒），而惠更斯则认为光是在“以太”中传播的“波纹”。",
+      "explanation_en": "This was the central debate in physics at the end of the 17th century. Newton (`newton_opticks_1704`) argued light was made of tiny 'bullets' (corpuscles), while Huygens argued it was a 'ripple' (wave) traveling through an 'aether'."
+    }
+  }

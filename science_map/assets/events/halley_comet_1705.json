@@ -1,0 +1,150 @@
+{
+    "id": "halley_comet_1705",
+    "personId": "edmond_halley",
+    "title": "发表《彗星天文学论》",
+    "title_en": "Publishes 'Synopsis of the Astronomy of Comets'",
+    "year": 1705,
+    "lat": 51.515,
+    "lng": -0.117,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["天文学", "物理学"],
+    "field_en": ["Astronomy", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=VwqYQlkXd1Q",
+        "title": "哈雷彗星为什么这么有名？",
+        "title_en": "Why is Halley's Comet so famous?",
+        "duration": "1:56"
+      }
+    },
+    
+    "summary": {
+      "text": "埃德蒙·哈雷（Edmond Halley）是牛顿的朋友，也是牛顿《原理》的资助人。在1705年，哈雷发表了《彗星天文学论》，他是第一个将牛顿的万有引力定律（`newton_gravity_1687`）应用于彗星的人。通过艰苦的计算，他发现1531年、1607年和1682年观测到的三颗彗星，其轨道惊人地相似。他大胆地提出：这不是三颗不同的彗星，而是**同一颗**彗星在一条巨大的椭圆轨道上运行。他因此做出了一个惊人的科学预言：这颗彗星将在**1758年底**回归。",
+      "text_en": "Edmond Halley, Newton's friend and the financier of his 'Principia', published his 'Synopsis of the Astronomy of Comets' in 1705. He was the first person to apply Newton's new laws of gravity (`newton_gravity_1687`) to comets. After laborious calculations, he noticed the orbits of comets seen in 1531, 1607, and 1682 were remarkably similar. He made the bold hypothesis that these were not three separate comets, but the *same comet* on a giant elliptical path. He then made a stunning scientific prediction: the comet would return in late **1758**.",
+      "key_points": [
+        "首次将牛顿定律应用于彗星",
+        "证明了彗星是太阳系的可预测成员",
+        "统一了1531年、1607年和1682年的彗星",
+        "预言彗星将在1758年回归",
+        "这是牛顿理论的第一个重大胜利"
+      ],
+      "key_points_en": [
+        "First application of Newton's laws to comets",
+        "Proved comets were predictable members of the solar system",
+        "Unified the comets of 1531, 1607, and 1682",
+        "Predicted its return in 1758",
+        "First great triumph of Newton's theory"
+      ]
+    },
+  
+    "story": {
+      "text": "在牛顿发表《原理》之前，正是哈雷在1684年拜访了牛顿，询问他（胡克猜想的）平方反比引力会产生什么轨道。牛顿回答“椭圆”，并承认他早已计算出来了。哈雷震惊不已，立即自掏腰包资助并督促牛顿出版了《原理》（`newton_gravity_1687`）。为了给这部巨著提供“证据”，哈雷开始着手一项艰巨的任务：计算历史上24颗彗星的轨道。在计算中，他注意到了这三颗彗星的相似性。他的计算还考虑到了木星和土星的引力“微扰”（perturbations）会对彗星的轨道产生轻微的延迟。他预言彗星将在1758年底或1759年初出现。",
+      "text_en": "It was Halley who visited Newton in 1684 and asked him what orbit an inverse-square force would produce. Newton's reply ('an ellipse') and his admission that he had already calculated it, stunned Halley. Halley immediately paid for and managed the publication of Newton's 'Principia' (`newton_gravity_1687`). To 'prove' the theory in the book, Halley undertook the massive task of calculating the orbits of 24 historical comets. In doing so, he saw the pattern. His calculation was so precise it even accounted for the 'perturbations' (gravitational tugs) from Jupiter and Saturn, which he predicted would slightly delay the comet. He predicted its arrival for late 1758 or early 1759.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Halley%27s_Comet_-_May_29_1910.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎉",
+        "text": "1758年12月25日（圣诞节），这颗彗星如期而至，被一位德国农民和业余天文学家观测到。哈雷（已于1742年去世）的预言在他死后16年得到证实，这被视为牛顿宇宙观的决定性胜利。",
+        "text_en": "On Christmas Day, 1758, the comet was spotted by a German farmer and amateur astronomer, exactly as predicted. Halley (who died in 1742) was proven correct 16 years after his death, and it was hailed as the definitive triumph of the Newtonian universe."
+      },
+      {
+        "icon": "☄️",
+        "text": "这颗彗星立即被命名为“哈雷彗星”。它上一次回归是在1986年，下一次将在2061年。",
+        "text_en": "The comet was immediately named 'Halley's Comet' in his honor. Its last visit was in 1986, and its next will be in 2061."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在哈雷之前，人们认为彗星是“一次性”的灾难预兆，是上帝扔过天空的“火球”。哈雷是牛顿的好朋友，他相信牛顿的引力定律是宇宙通用的。他想：“万一彗星不是火球，而是和行星一样、只是轨道被拉得特别‘长’的天体呢？” 他开始翻阅旧的观测记录，发现1531年、1607年和1682年（大约每隔76年）来的彗星看起来一模一样。他大胆下注：“我预言：它会在1758年回来。” 50年后，它真的回来了。哈雷证明了彗星只是太阳系的“幽灵列车”，会准时返回。",
+      "text_en": "Before Halley, people thought comets were 'one-time' omens of disaster—'fireballs' thrown by God. Halley, being Newton's best friend, believed Newton's new law of gravity worked for *everything*. He thought, 'What if comets aren't fireballs, but just planets with *really* long, stretched-out orbits?' He looked at old records and saw the comets from 1531, 1607, and 1682 (all ~76 years apart) looked identical. He made a bet: 'I predict it will come back in 1758.' 50 years later, it did. Halley proved that comets are just 'ghost trains' of the solar system, and they run on a schedule.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/51/Halley%27s_Comet_animation.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "✅",
+          "title": "验证牛顿力学",
+          "title_en": "Validation of Newtonian Mechanics",
+          "text": "哈雷彗星的回归是牛顿万有引力定律的第一个、也是最壮观的“实验证据”。它证明了牛顿的力学不仅适用于行星，也适用于遥远的彗星。",
+          "text_en": "The comet's return was the first and most spectacular 'experimental proof' of Newton's Law of Universal Gravitation. It proved Newton's laws worked not just for planets, but for distant comets, too."
+        },
+        {
+          "icon": "🌌",
+          "title": "天体力学 (Celestial Mechanics)",
+          "title_en": "Celestial Mechanics",
+          "text": "哈雷对木星和土星“微扰”的计算，开创了“天体力学”这一精密科学，即研究多个天体之间复杂引力相互作用的学科。",
+          "text_en": "Halley's calculation of the 'perturbations' from Jupiter and Saturn founded the science of precision 'celestial mechanics'—the study of complex gravitational interactions between many bodies."
+        }
+      ],
+  
+    "impact": {
+      "text": "哈雷的预言和彗星的如期回归，是科学革命的“加冕时刻”。它在文化上和科学上都具有无与伦比的冲击力。它向全世界证明，宇宙是一个“机械钟表”，它不再受神灵的奇思W想控制，而是遵循着人类理性可以理解和预测的、不变的“数学定律”。它确立了牛顿物理学（以及“启蒙运动”）在接下来200年的绝对权威。",
+      "text_en": "Halley's prediction, and its fulfillment, was the 'coronation moment' of the Scientific Revolution. Its cultural and scientific impact was unparalleled. It proved to the world that the universe was a 'clockwork mechanism', governed not by divine whims, but by unchangeable *mathematical laws* that human reason could understand and *predict*. It established the absolute authority of Newtonian physics (and 'The Enlightenment') for the next 200 years.",
+      "stats": [
+          {
+            "number": "76",
+            "label": "年 (彗星周期)",
+            "label_en": "Years (Comet's Period)"
+          },
+          {
+            "number": "1758",
+            "label": "年 (预言成真)",
+            "label_en": "Year (Prediction Fulfilled)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "newton_gravity_1687",
+          "contribution": "牛顿（其万有引力定律是哈雷进行计算的唯一理论工具）",
+          "contribution_en": "Isaac Newton (whose Law of Universal Gravitation was the sole theoretical tool Halley used)"
+        },
+        {
+          "id": "kepler_laws_1609",
+          "contribution": "开普勒（其椭圆轨道定律是哈雷计算的基础）",
+          "contribution_en": "Kepler (whose laws of elliptical orbits were the basis for Halley's calculations)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "laplace_celestial_mechanics_1799",
+          "contribution": "拉普拉斯（其《天体力学》是对哈雷“微扰”计算的系统化和完善）",
+          "contribution_en": "Laplace (whose 'Celestial Mechanics' was the systematic perfection of Halley's 'perturbation' calculations)"
+        }
+      ],
+      "legacy_text": "哈雷用牛顿的定律，将彗星从一个可怕的“预兆”变成了一个可预测的“时钟”。",
+      "legacy_text_en": "Halley used Newton's laws to transform comets from terrifying 'omens' into predictable 'clocks'."
+    },
+  
+    "related_concepts": ["哈雷彗星", "牛顿 (Newton)", "万有引力", "天体力学", "微扰 (Perturbation)", "开普勒定律", "彗星", "1758年回归"],
+    "related_concepts_en": ["Halley's Comet", "Newton", "Universal Gravitation", "Celestial Mechanics", "Perturbation", "Kepler's Laws", "Comet", "Return of 1758"],
+  
+    "quiz": {
+      "question": "埃德蒙·哈雷是如何“证明”1531年、1607年和1682年的彗星是同一颗彗星的？",
+      "question_en": "How did Edmond Halley 'prove' that the comets of 1531, 1607, and 1682 were the same comet?",
+      "options": [
+        "他用望远镜看到了彗星上的标记",
+        "他运用牛顿的引力定律计算出它们的轨道是相同的，并预言了它的回归",
+        "他发现它们都来自同一个星座",
+        "他找到了托勒密的古代手稿"
+      ],
+      "options_en": [
+        "He saw a marking on the comet with a telescope",
+        "He used Newton's laws of gravity to calculate that their orbits were identical, and then predicted its return",
+        "He found they all came from the same constellation",
+        "He found an ancient manuscript from Ptolemy"
+      ],
+      "answer": 1,
+      "explanation": "哈雷的贡献不是观测，而是“计算”。他是第一个应用牛顿定律来计算彗星轨道的人。他发现这三颗彗星的轨道参数（如近日点、倾角）几乎完全相同，唯一的区别是它们大约每隔76年出现一次。因此，他预言它会再次回归。",
+      "explanation_en": "Halley's contribution was *calculation*, not observation. He was the first to apply Newton's laws to comet orbits. He found the orbital parameters (perihelion, inclination, etc.) of these three comets were nearly identical, with the only difference being they showed up every ~76 years. He therefore predicted its return."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "埃利亚的芝诺",
+    "name_en": "Zeno of Elea",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Portretbuste_van_Zeno_van_Elea_Paradigmata_graphices_variorum_artificum_%28serietitel%29%2C_RP-P-1907-4495.jpg",
+    "bio_short": "古希腊哲学家，埃利亚学派的成员，巴门尼德的学生。他以提出一系列挑战“运动”和“多元性”的著名悖论（如“阿喀琉斯与乌龟”）而闻名。",
+    "bio_short_en": "An ancient Greek philosopher of the Eleatic School and a student of Parmenides. He is famous for proposing a series of paradoxes (like 'Achilles and the Tortoise') that challenged the concepts of motion and plurality.",
+    "events": [
+      "zeno_paradoxes_BC450"
+    ]
+  }

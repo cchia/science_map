@@ -271,9 +271,13 @@ final Map<String, String> fieldNamesEn = {
   // ========== 数据筛选 ==========
   List<Map<String, dynamic>> getFilteredEvents() {
     
-    var filtered = events.where((event) => 
-        event['year'] <= selectedYear && event['year'] > (selectedYear - 100)
-    );    
+    var filtered = events.where((event) {
+      // 检查 'is_stub' 字段，如果为 true，则不显示在地图上
+      final bool isStub = event['is_stub'] ?? false;
+      if (isStub) return false;
+      
+      return event['year'] <= selectedYear && event['year'] > (selectedYear - 100);
+    });
     
     // 学习路径筛选
     if (selectedStoryMode != null) {
@@ -495,23 +499,28 @@ final Map<String, String> fieldNamesEn = {
 
 // 当一个聚类被点击时的回调
   void _onClusterTapped(MarkerClusterNode cluster) {
-    // 检查这个聚类是否在地图的当前最大缩放级别
-    // (这是插件的内置逻辑：只有在 spiderfy 为 false 且无法再放大时才调用此回调)
     
-    // 1. 从 Marker 列表中提取坐标
-    final List<LatLng> points = cluster.markers.map((m) => m.point).toList();
+    // 1. 从 Marker 列表中提取坐标 *值* 的一个 Set
+    // 我们创建一个唯一的字符串 "纬度_经度" Set，以便快速查找。
+    final Set<String> clusterPoints = cluster.markers.map((m) {
+      return '${m.point.latitude}_${m.point.longitude}';
+    }).toSet();
 
     // 2. 从主 'events' 列表中找到所有匹配的事件
-    //    这是一个反向查找
     final List<Map<String, dynamic>> clusterEvents = events.where((event) {
-      LatLng eventPoint = LatLng(event['lat'], event['lng']);
-      // 检查事件的坐标是否在被点击的聚类中
-      return points.contains(eventPoint);
+      // 为事件的坐标创建相同的字符串
+      String eventPointKey = '${event['lat']}_${event['lng']}';
+      
+      // 检查 Set 是否包含这个事件的坐标
+      return clusterPoints.contains(eventPointKey);
     }).toList();
 
     // 3. 如果找到了事件，就显示 Bottom Sheet 列表
     if (clusterEvents.isNotEmpty) {
       _showClusterBottomSheet(clusterEvents);
+    } else {
+      // (用于调试)
+      print("Cluster tapped, but no matching events found in 'events' list.");
     }
   }
 
@@ -3164,8 +3173,8 @@ class InfluenceNetworkCard extends StatelessWidget {
                     // --- 新增结束 ---
 
                     return InkWell( // <-- 用 InkWell 包装
-                      onTap: (targetEvent.isNotEmpty) ? () {
-                        onEventSelected(targetEvent); // <-- 点击时调用回调
+                      onTap: (targetEvent.isNotEmpty && targetEvent['is_stub'] != true) ? () {
+                        onEventSelected(targetEvent); // <-- 只有在不是 stub 时才调用
                       } : null,
                       borderRadius: BorderRadius.circular(8),
                       child: Padding(
@@ -3250,8 +3259,8 @@ class InfluenceNetworkCard extends StatelessWidget {
                     // --- 新增结束 ---
 
                     return InkWell( // <-- 用 InkWell 包装
-                      onTap: (targetEvent.isNotEmpty) ? () {
-                        onEventSelected(targetEvent); // <-- 点击时调用回调
+                      onTap: (targetEvent.isNotEmpty && targetEvent['is_stub'] != true) ? () {
+                        onEventSelected(targetEvent); // <-- 只有在不是 stub 时才调用
                       } : null,
                       borderRadius: BorderRadius.circular(8),
                       child: Padding(

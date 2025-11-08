@@ -99,12 +99,7 @@
         ]
     },
     "influence_chain": {
-        "influenced_by": [
-            {
-                "id": "yang_hui_triangle_1261",
-                "contribution": "（或更早的）贾宪和杨辉（他们早已记录并使用了这个三角形）",
-                "contribution_en": "Jia Xian & Yang Hui (who had recorded and used the triangle centuries earlier)"
-            },
+        "influenced_by": [            
             {
                 "id": "fermat_probability_1654",
                 "contribution": "费马（与他通信，共同解决了“点数问题”）",

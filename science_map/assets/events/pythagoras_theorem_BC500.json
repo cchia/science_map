@@ -89,6 +89,46 @@
         "text": "毕达哥拉斯定理是数学（尤其是几何学）的基石。更重要的是，它对“证明”的强调，标志着数学从一种经验工具转变为一门逻辑演绎科学。同时，它所揭示的“无理数”危机，也迫使人类对“数”的定义进行了第一次重大扩展。",
         "text_en": "The Pythagorean theorem is the cornerstone of mathematics, especially geometry. More importantly, its emphasis on 'proof' marked the shift of mathematics from an empirical tool to a logical, deductive science. Its accidental discovery of 'irrational numbers' also forced the first great expansion of what 'number' means."
     },
+
+    "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "babylonian_astronomy_BC600",
+        "contribution": "巴比伦数学（提供了“毕达哥拉斯三元组”的经验知识）",
+        "contribution_en": "Babylonian mathematics (for the empirical knowledge of 'Pythagorean triples')"
+      },
+      {
+        "id": "egyptian_geometry_BC1000",
+        "contribution": "埃及几何学（提供了“拉绳人”使用3-4-5直角的实用技术）",
+        "contribution_en": "Egyptian geometry (for the practical use of 3-4-5 right angles by 'rope-stretchers')"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "hippasus_irrational_BC470",
+        "contribution": "希帕索斯（应用该定理于正方形，导致了无理数的发现）",
+        "contribution_en": "Hippasus (applying the theorem to a square led to the discovery of irrational numbers)"
+      },
+      {
+        "id": "eudoxus_exhaustion_BC370",
+        "contribution": "欧多克索斯（其“比例论”是为了解决该定理引发的无理数危机）",
+        "contribution_en": "Eudoxus (his 'Theory of Proportions' was created to solve the crisis of irrationals sparked by this theorem)"
+      },
+      {
+        "id": "plato_forms_BC380",
+        "contribution": "柏拉图（其数学哲学深受毕达哥拉斯主义和无理数危机的影响）",
+        "contribution_en": "Plato (his mathematical philosophy was deeply influenced by Pythagoreanism and the crisis of irrationals)"
+      },
+      {
+        "id": "euclid_elements_BC300",
+        "contribution": "欧几里得（其《几何原本》的核心是为该定理提供了系统性的证明）",
+        "contribution_en": "Euclid (his 'Elements' provided the systematic proof for the theorem, making it a cornerstone)"
+      }
+    ],
+    "legacy_text": "该定理是连接几何（形状）和代数（数字）的第一座桥梁，也是人类逻辑推理能力的最初伟大胜利之一。",
+    "legacy_text_en": "The theorem is the first great bridge between geometry (shapes) and algebra (numbers), and one of the first great triumphs of human logical reasoning."
+    },
+
     "related_concepts": [
         "a² + b² = c²",
         "直角三角形",

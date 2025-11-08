@@ -1,0 +1,150 @@
+{
+    "id": "lobachevskian_geometry_1830",
+    "personId": "nikolai_lobachevsky",
+    "title": "发表非欧几里得几何学",
+    "title_en": "Publishes Non-Euclidean Geometry",
+    "year": 1830,
+    "lat": 55.7963,
+    "lng": 49.1088,
+    "city": "喀山",
+    "city_en": "Kazan",
+    "country": "俄罗斯帝国",
+    "country_en": "Russian Empire",
+    "field": ["数学", "哲学", "物理学"],
+    "field_en": ["Mathematics", "Philosophy", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Comparison_of_geometries.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=nkvVR-sKJT8",
+        "title": "非欧几里得几何学：历史与影响",
+        "title_en": "The History of Non-Euclidean Geometry",
+        "duration": "7:16"
+      }
+    },
+    
+    "summary": {
+      "text": "尼古拉·罗巴切夫斯基（Nikolai Lobachevsky）与亚诺什·鲍耶（János Bolyai，1832年）和卡尔·弗里德里希·高斯（Gauss，未发表）各自独立地开创了“非欧几里得几何学”。他们解决了困扰数学家2000年之久的“欧几里得第五公设”（平行公设）问题。他们没有尝试去“证明”它，而是大胆地“否定”了它，并假设“过线外一点，至少可以作两条（实则无限多条）直线与已知直线平行”。在这种假设下，他们构建了一个全新的、完全自洽的几何体系（“双曲几何”），其中三角形的内角和“小于”180°。",
+      "text_en": "Nikolai Lobachevsky, independently of János Bolyai (1832) and Carl Friedrich Gauss (unpublished), created 'Non-Euclidean Geometry'. They solved the 2,000-year-old problem of Euclid's 'Fifth Postulate' (the Parallel Postulate) not by *proving* it, but by *negating* it. They assumed that 'through a point not on a line, *at least two* (and thus infinite) lines can be drawn parallel to the given line.' From this, they built an entirely new, self-consistent geometry ('Hyperbolic Geometry') where the sum of angles in a triangle is *less* than 180°.",
+      "key_points": [
+        "解决了“平行公设” (Parallel Postulate) 问题",
+        "罗巴切夫斯基和鲍耶 (Bolyai) 独立发表",
+        "高斯 (Gauss) 更早发现但未发表",
+        "创建了“双曲几何” (Hyperbolic Geometry)",
+        "三角形内角和小于 180°"
+      ],
+      "key_points_en": [
+        "Solved the 'Parallel Postulate' problem",
+        "Independently published by Lobachevsky and Bolyai",
+        "Discovered earlier by Gauss (unpublished)",
+        "Created 'Hyperbolic Geometry'",
+        "Sum of angles in a triangle is *less* than 180°"
+      ]
+    },
+  
+    "story": {
+      "text": "自欧几里得（`euclid_elements_BC300`）以来的两千多年里，第五公设（即“平行线公设”）一直被认为是几何学的“污点”。它不像其他公设那样“不证自明”。无数数学家试图用前四个公设来“证明”第五公设，但都失败了。罗巴切夫斯基和鲍耶采取了相反的策略：他们假设第五公设是“错的”，并试图从中推导出一个“逻辑矛盾”（归谬法）。然而，他们非但没有找到矛盾，反而构建了一个全新的、逻辑上无懈可击的“奇异宇宙”。在这个“双曲”空间里，直线会相互“远离”，三角形是“弯曲的”。亚诺什·鲍耶在给父亲的信中写道：“我从‘无’中创造了一个全新的、奇异的宇宙。”",
+      "text_en": "For 2,000 years since Euclid (`euclid_elements_BC300`), the Fifth Postulate was seen as a 'blemish' on geometry; it wasn't 'self-evident' like the others. Countless mathematicians tried to *prove* it from the other four axioms, and all failed. Lobachevsky and Bolyai took the opposite approach: they assumed the Fifth Postulate was *false* and tried to find a *contradiction* (reductio ad absurdum). But instead of a contradiction, they found an entirely new, logically perfect, 'strange universe'. In this 'hyperbolic' space, parallel lines *diverge* from one another, and triangles are 'skinny'. János Bolyai famously wrote to his father, 'I have created a new, strange universe out of nothing.'",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/44/Comparison_of_geometries.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤫",
+        "text": "“数学王子”高斯（Gauss）实际上在1810年代就独立发现了非欧几何，但他从未发表，因为他害怕这个理论“太革命”，会招来同行的“嘲笑”。他称之为“怕那些‘笨蛋’们的聒噪”。",
+        "text_en": "Carl Friedrich Gauss, the 'Prince of Mathematics', had discovered non-Euclidean geometry in the 1810s but never published. He feared the 'uproar of the Boeotians' (the 'idiots'), as the idea was too revolutionary for his contemporaries."
+      },
+      {
+        "icon": "🪐",
+        "text": "非欧几何学在当时被认为是“怪异的数学游戏”。直到70年后，爱因斯坦（`einstein_1915_general_relativity`）才证明：我们生活的宇宙“本身”就是非欧几里得的（黎曼几何）。",
+        "text_en": "Non-Euclidean geometry was considered a 'monstrous mathematical game' at the time. It took 70 years for Einstein (`einstein_1915_general_relativity`) to prove that the universe we *live in* is non-Euclidean (on a Riemannian manifold)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "欧几里得的几何学是你我在学校学的“平面”几何：两条平行线永远不会相交，三角形内角和“永远”是180°。\n罗巴切夫斯基则说：“万一宇宙不是‘平’的呢？” 想象一个“马鞍”或“薯片”的表面（双曲空间）。如果你在上面画“直线”（即两点间的最短路径），你会发现：1. “平行线”会相互“远离”。2. 三角形的内角和会“小于”180°。他证明了，除了“平面”几何，还存在这种完全自洽的“弯曲”几何。",
+      "text_en": "Euclid's geometry is what you learned in school on a flat sheet of paper: parallel lines *never* meet, and a triangle's angles *always* add up to 180°.\nLobachevsky asked, 'What if the universe isn't flat?' Imagine the surface of a 'saddle' or a 'Pringles chip' (hyperbolic space). If you draw 'straight lines' (the shortest path) on it, you find: 1. 'Parallel' lines will actually *curve away* from each other. 2. A triangle's angles will add up to *less* than 180°. He proved this 'curved' geometry was just as logically consistent as 'flat' geometry.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/89/Hyperbolic_triangle.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🌌",
+          "title": "广义相对论 (General Relativity)",
+          "title_en": "General Relativity",
+          "text": "非欧几何（特别是后来的黎曼几何）是爱因斯坦广义相对论（`einstein_1915_general_relativity`）的*唯一*数学语言。爱因斯坦提出，引力“就是”时空的非欧几里得弯曲。",
+          "text_en": "Non-Euclidean geometry (specifically, the later Riemannian version) is the *only* mathematical language for Einstein's General Relativity (`einstein_1915_general_relativity`). Einstein showed that gravity *is* the non-Euclidean curvature of spacetime."
+        },
+        {
+          "icon": "🧠",
+          "title": "现代数学与哲学",
+          "title_en": "Modern Math & Philosophy",
+          "text": "这一发现彻底改变了哲学。它证明了数学不是“绝对真理”，而是基于“任意公理”的“逻辑游戏”。这标志着数学从“对现实的描述”转变为“对形式系统的研究”。",
+          "text_en": "This discovery revolutionized philosophy. It proved that mathematics was not 'Absolute Truth', but rather a 'logical game' based on *arbitrary* axioms. It marked the shift of math from 'description of reality' to 'study of formal systems'."
+        }
+      ],
+  
+    "impact": {
+      "text": "非欧几里得几何学的诞生，是自欧几里得以2000年来，人类思想史上最深刻的革命之一。它将数学从“单一的真理”中解放出来，使其成为一种可以拥有多个平行“宇宙”的创造性学科。它为爱因斯坦的相对论革命提供了必不可少的工具，没有它，现代宇宙学将无法建立。",
+      "text_en": "The birth of non-Euclidean geometry was one of the most profound intellectual revolutions in 2,000 years. It liberated mathematics from being 'The One Truth' and turned it into a creative discipline of multiple, parallel 'universes'. It provided the *essential* toolkit for Einstein's relativistic revolution; modern cosmology could not exist without it.",
+      "stats": [
+          {
+            "number": "2000+",
+            "label": "年 (欧几里得的统治)",
+            "label_en": "Years of Euclidean Dominance"
+          },
+          {
+            "number": 180,
+            "label": "度 (内角和<180°)",
+            "label_en": "Degrees (Sum of angles < 180°)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "euclid_elements_BC300",
+          "contribution": "欧几里得（其“第五公设”是罗巴切夫斯基试图反驳的出发点）",
+          "contribution_en": "Euclid (his 'Fifth Postulate' was the starting point that Lobachevsky sought to disprove)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "riemann_geometry_1854",
+          "contribution": "黎曼（其“黎曼几何”将非欧几何推广到任意维度和曲率，是爱因斯坦的直接工具）",
+          "contribution_en": "Riemann (his 'Riemannian Geometry' generalized non-Euclidean geometry to any dimension and curvature, becoming Einstein's direct tool)"
+        },
+        {
+          "id": "einstein_general_relativity_1915",
+          "contribution": "爱因斯坦（其“广义相对论”证明了宇宙在物理上是非欧几里得的）",
+          "contribution_en": "Einstein (his 'General Relativity' proved that the physical universe *is* non-Euclidean)"
+        }
+      ],
+      "legacy_text": "罗巴切夫斯基和鲍耶证明了，数学家可以创造出在逻辑上完美、但在直觉上“荒谬”的宇宙。",
+      "legacy_text_en": "Lobachevsky and Bolyai proved that mathematicians could create universes that were logically perfect, yet intuitively 'impossible'."
+    },
+  
+    "related_concepts": ["平行公设 (Parallel Postulate)", "双曲几何 (Hyperbolic Geometry)", "黎曼几何 (Riemannian Geometry)", "欧几里得 (Euclid)", "高斯 (Gauss)", "鲍耶 (Bolyai)", "黎曼 (Riemann)", "广义相对论 (General Relativity)"],
+    "related_concepts_en": ["Parallel Postulate", "Hyperbolic Geometry", "Riemannian Geometry", "Euclid", "Gauss", "Bolyai", "Riemann", "General Relativity"],
+  
+    "quiz": {
+      "question": "非欧几里得几何学（如罗巴切夫斯基的）是如何挑战欧几里得的“平行公设”的？",
+      "question_en": "How did Non-Euclidean geometry (like Lobachevsky's) challenge Euclid's 'Parallel Postulate'?",
+      "options": [
+        "它证明了平行线根本不存在",
+        "它假设通过线外一点可以作“无限多条”平行线",
+        "它证明了a² + b² ≠ c²",
+        "它证明了所有直线最终都会相交"
+      ],
+      "options_en": [
+        "It proved parallel lines don't exist",
+        "It assumed that *infinite* parallel lines could be drawn through a point",
+        "It proved that a² + b² ≠ c²",
+        "It proved that all straight lines eventually meet"
+      ],
+      "answer": 1,
+      "explanation": "欧几里得假设“只能作一条”平行线。罗巴切夫斯基的“双曲几何”假设“可以作无限多条”平行线。黎曼的“椭圆几何”则假设“一条也作不出来”（所有直线都会相交）。",
+      "explanation_en": "Euclid assumed 'exactly one' parallel line. Lobachevsky's 'hyperbolic' geometry assumed 'infinitely many' parallel lines. Riemann's 'elliptic' geometry assumed 'zero' parallel lines (all lines meet)."
+    }
+  }
