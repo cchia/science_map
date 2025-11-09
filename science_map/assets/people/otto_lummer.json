@@ -1,0 +1,10 @@
+{
+    "name": "奥托·卢默",
+    "name_en": "Otto Lummer",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Foto%2C_Portr%C3%A4t%2C_Otto_Richard_Lummer_-_Humboldt-Universit%C3%A4t_zu_Berlin.png",
+    "bio_short": "德国实验物理学家。他与恩斯特·普林斯海姆（Ernst Pringsheim）合作，对“黑体辐射”进行了精确测量，为普朗克的量子假说提供了关键的实验数据。",
+    "bio_short_en": "A German experimental physicist. In collaboration with Ernst Pringsheim, his precise measurements of 'black-body radiation' provided the critical experimental data for Max Planck's quantum hypothesis.",
+    "events": [
+      "lummer_black_body_1899"
+    ]
+  }

@@ -1,0 +1,141 @@
+{
+    "id": "lummer_black_body_1899",
+    "personIds": ["otto_lummer", "ernst_pringsheim"],
+    "title": "精确测量黑体辐射",
+    "title_en": "Precisely Measures Black-Body Radiation",
+    "year": 1899,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "德国",
+    "country_en": "Germany",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Black_body.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=7BXvc9W97iU",
+        "title": "黑体辐射与紫外灾难",
+        "title_en": "Blackbody Radiation and the Ultraviolet Catastrophe",
+        "duration": "6:42"
+      }
+    },
+    
+    "summary": {
+      "text": "在柏林的帝国物理技术研究院（PTR），奥托·卢默（Otto Lummer）和恩斯特·普林斯海姆（Ernst Pringsheim）进行了一系列极其精确的实验，以测量“黑体”（一个完美的吸收体和辐射体）在不同温度下发出的光的频谱。他们的数据（尤其是在1899-1900年完善）无可辩驳地证明，当时最好的理论——“维恩定律”(Wien's Law)——在长波长（红外线）区域是**错误**的。这一实验上的“失败”为经典物理学制造了一场深刻的危机（即“紫外灾难”的另一面），并为马克斯·普朗克（Max Planck）在1900年提出他的革命性“量子假说”（`planck_quantum_1900`）提供了至关重要的实验数据。",
+      "text_en": "At the PTR in Berlin, Otto Lummer and Ernst Pringsheim conducted a series of highly precise experiments to measure the spectrum of light emitted by a 'black body' (a perfect absorber/emitter) at different temperatures. Their data, perfected in 1899-1900, proved *definitively* that the best-available theory, 'Wien's Law', was *wrong* in the long-wavelength (infrared) region. This experimental 'failure' created a deep crisis for classical physics and provided the critical data Max Planck needed to formulate his revolutionary 'Quantum Hypothesis' (`planck_quantum_1900`).",
+      "key_points": [
+        "提供了迄今为止最精确的“黑体辐射”实验数据",
+        "使用“空腔辐射”(Hohlraum) 作为完美黑体",
+        "证明了“维恩定律”(Wien's Law) 在长波长（红外）区域失效",
+        "为普朗克（Planck）的量子公式提供了实验基础"
+      ],
+      "key_points_en": [
+        "Provided the most precise experimental data on black-body radiation",
+        "Used a 'cavity radiator' (Hohlraum) as a perfect black body",
+        "Proved Wien's Law fails at long wavelengths (infrared)",
+        "Provided the experimental basis for Planck's formula"
+      ]
+    },
+  
+    "story": {
+      "text": "在19世纪末，物理学家们都试图找到一个能解释“热东西如何发光”的通用公式。威利·维恩（Willy Wien）在1896年提出了一个定律，它在可见光（短波长）区域与实验数据完美吻合。大多数人认为问题已经解决了。但卢默和普林斯海姆是更严谨的实验家。他们建造了特殊的、可精确控制温度的“空腔”（内部涂黑的陶瓷或铂金管），并费力地测量了人眼看不见的“红外线”区域。他们的S数据显示，在红外区，维恩定律的预测曲线与实验数据点**完全偏离**。正是这个“偏离”，这个经典物理学无法解释的“小瑕疵”，迫使他们的同事马克斯·普朗克不得不发明“量子”这个概念来强行“拟合”他们的数据。",
+      "text_en": "In the late 19th century, physicists hunted for a formula to explain how hot objects glow. Willy Wien proposed a law in 1896 that worked *perfectly* for visible light (short wavelengths). Most thought the problem was solved. But Lummer and Pringsheim were rigorous experimentalists. They built special, temperature-controlled 'cavities' (blackened ceramic or platinum tubes) and painstakingly measured into the invisible 'infrared' spectrum. Their data showed a clear *deviation*—Wien's predicted curve completely failed in the infrared. It was this 'failure', this 'glitch' that classical physics could not explain, that forced their colleague Max Planck to invent the 'quantum' to make the math fit their data."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🔥",
+        "text": "他们的“黑体”是一个内部涂黑的空心圆柱体，由电加热到1500°C以上。他们通过一个极小的孔来观察从内部发出的“完美”辐射。",
+        "text_en": "Their 'black body' was a hollow, blackened porcelain or platinum cylinder, electrically heated to over 1500°C. They observed the 'perfect' radiation that escaped from a tiny hole."
+      },
+      {
+        "icon": "🤝",
+        "text": "普朗克和卢默在同一家研究机构（PTR）工作。数据的交流是即时的。卢默和普林斯海姆在1900年10月向柏林物理学会展示了他们的数据，普朗克就在台下。几小时后，普朗克就推导出了他的新公式。",
+        "text_en": "Planck and Lummer worked at the same institute (the PTR). The data flow was immediate. Lummer & Pringsheim presented their data to the Berlin Physical Society in October 1900; Planck was in the audience. Hours later, Planck had derived his new formula."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你有一张“理论藏宝图”（维恩定律），它能完美地告诉你宝藏（光谱能量）在“欧洲”（可见光）的位置。卢默和普林斯海姆是第一批真正去“亚洲”（红外线）的探险家。他们回来报告说：“藏宝图在亚洲是完全错误的！” 他们带回来的“精确地图”（他们的实验数据），迫使普朗克（`planck_quantum_1900`）不得不撕掉旧藏宝图，绘制了一张全新的“全球量子地图”。",
+      "text_en": "Imagine you have a 'theoretical map' (Wien's Law) that perfectly predicts where treasure (light energy) is in 'Europe' (visible light). Lummer and Pringsheim were the first explorers to *actually go* to 'Asia' (infrared light). They came back and reported, 'The map is totally wrong in Asia!' The *new, accurate map* they brought back (their data) is what forced Max Planck (`planck_quantum_1900`) to throw out the old map and draw a completely new, quantum one."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🎯",
+          "title": "量子理论的实验基准",
+          "title_en": "Experimental Benchmark for Quantum Theory",
+          "text": "他们的精确数据是普朗克定律（`planck_quantum_1900`）必须匹配的“黄金标准”。没有这些数据，普朗克的理论就只是一个假说。",
+          "text_en": "Their precise data served as the 'gold standard' that Planck's Law (`planck_quantum_1900`) *had* to match. Without this data, Planck's theory would have just been a hypothesis."
+        },
+        {
+          "icon": "🌡️",
+          "title": "高温测量 (Pyrometry)",
+          "title_en": "Pyrometry (Temperature Measurement)",
+          "text": "他们对黑体辐射定律的精确研究，为“光学高温计”（通过测量物体发光的“颜色”来确定其温度）奠定了基础。",
+          "text_en": "Their precise work on radiation laws laid the foundation for 'optical pyrometers'—devices that measure the temperature of a hot object (like molten steel) by looking at its 'color'."
+        }
+      ],
+  
+    "impact": {
+      "text": "卢默和普林斯海姆的实验是“推翻经典物理学”的最后一根稻草。它是19世纪末最伟大的实验成就之一，它用无可辩驳的数据证明了旧理论的失败，并为马克斯·普朗克开启20世纪的“量子革命”提供了必要的实验基础。它完美地展示了“精确的实验”是如何推动“理论的革命”的。",
+      "text_en": "Lummer and Pringsheim's experiment was the final nail in the coffin of classical physics. It was one of the greatest experimental achievements of the 19th century, proving by irrefutable data that the old theories had failed, and providing the *necessary* experimental foundation for Max Planck to launch the quantum revolution. It is the perfect example of how precise *experiment* forces theoretical *revolution*.",
+      "stats": [
+          {
+            "number": "1900",
+            "label": "年 (关键数据发表)",
+            "label_en": "Year (Key Data Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "kirchhoff_black_body_1859",
+          "contribution": "基尔霍夫（他最早提出了“黑体”的理论概念和挑战）",
+          "contribution_en": "Gustav Kirchhoff (who first proposed the theoretical concept and challenge of the 'black body')"
+        },
+        {
+          "id": "wien_law_1896",
+          "contribution": "威利·维恩（其“维恩定律”是他们试图验证和（最终）推翻的理论）",
+          "contribution_en": "Willy Wien (whose 'Wien's Law' was the theory they were testing and (ultimately) disproved)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "planck_quantum_1900",
+          "contribution": "马克斯·普朗克（其“量子假说”是为“拟合”卢默和普林斯海姆的精确数据而专门发明的）",
+          "contribution_en": "Max Planck (whose 'quantum hypothesis' was invented *specifically* to fit Lummer & Pringsheim's precise data)"
+        }
+      ],
+      "legacy_text": "卢默和普林斯海姆的精确测量，是迫使物理学进入量子时代的“残酷事实”。",
+      "legacy_text_en": "Lummer and Pringsheim's precise measurements were the 'brute facts' that forced physics into the quantum age."
+    },
+  
+    "related_concepts": ["黑体辐射 (Black-body Radiation)", "紫外灾难 (Ultraviolet Catastrophe)", "维恩定律 (Wien's Law)", "普朗克定律 (Planck's Law)", "空腔辐射 (Hohlraum)", "红外线 (Infrared)", "马克斯·普朗克 (Max Planck)"],
+    "related_concepts_en": ["Black-body Radiation", "Ultraviolet Catastrophe", "Wien's Law", "Planck's Law", "Hohlraum", "Infrared", "Max Planck"],
+  
+    "quiz": {
+      "question": "卢默和普林斯海姆（Lummer & Pringsheim）的黑体辐射实验证明了“维恩定律”在哪个光谱区域是错误的？",
+      "question_en": "Lummer & Pringsheim's black-body experiments proved that 'Wien's Law' was incorrect in which part of the spectrum?",
+      "options": [
+        "紫外线 (Ultraviolet) 区域",
+        "可见光 (Visible Light) 区域",
+        "长波长（红外线）(Long-wavelength / Infrared) 区域",
+        "X射线 (X-ray) 区域"
+      ],
+      "options_en": [
+        "The ultraviolet region",
+        "The visible light region",
+        "The long-wavelength (infrared) region",
+        "The X-ray region"
+      ],
+      "answer": 2,
+      "explanation": "维恩定律在短波长（可见光和紫外线）区域非常有效，但卢默和普林斯海姆的精确测量显示，它在长波长（红外线）区域与实验数据严重不符。正是这个“红外线的偏差”迫使普朗克提出了他的新理论。",
+      "explanation_en": "Wien's Law worked very well for short wavelengths (visible and UV), but Lummer & Pringsheim's precise measurements showed it failed badly in the long-wavelength (infrared) region. This 'infrared deviation' is what forced Planck to create his new theory."
+    }
+  }

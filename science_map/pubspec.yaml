@@ -28,11 +28,18 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
+
+  # 确保 'assets:' 部分如下所示
   assets:
-    - assets/events/
+    - assets/
+    - assets/images/   # 包含您所有的本地图片
+
+    # --- (以下是关键) ---
+    # 1. 包含根目录的索引文件
     - assets/events_index.json
-    - assets/story_modes.json
-    - assets/people/
     - assets/people_index.json
-    - assets/images/
+
+    # 2. 包含文件夹中的所有 JSON 文件
+    # (注意：结尾的 / 斜杠 至关重要!)
+    - assets/events/
+    - assets/people/

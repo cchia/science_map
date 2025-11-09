@@ -71,18 +71,20 @@ class MapScreen extends StatefulWidget {
 class _MapScreenState extends State<MapScreen> {
   // ========== 状态变量 ==========
   // 时间控制
-  double selectedYear = 1500;
+  double _minYear = -1000; // 默认值 (会被覆盖)
+  double _maxYear = 2025; // 默认值 (会被覆盖)
+  double selectedYear = -1000; // 默认值 (会被覆盖)
   bool isPlaying = false;
   Timer? _timer;
   
   // 数据
   List<Map<String, dynamic>> events = [];
-  List<Map<String, dynamic>> storyModes = [];
+  //List<Map<String, dynamic>> storyModes = [];
   Map<String, dynamic> people = {}; // <--  modification
   bool isLoading = true;
   
   // 筛选
-  String? selectedStoryMode;
+  //String? selectedStoryMode;
   String searchQuery = '';
   Set<String> selectedFields = {};
   bool showSearchBar = false;
@@ -145,9 +147,8 @@ final Map<String, String> fieldNamesEn = {
     _timer?.cancel();
     super.dispose();
   }
-
-  // ========== 数据加载 ==========
-  // <-- MODIFIED _loadData -->
+  
+// ========== 数据加载 ==========
   Future<void> _loadData() async {
     try {
       // 加载事件索引
@@ -167,30 +168,52 @@ final Map<String, String> fieldNamesEn = {
       }
       
       // 加载学习路径
-      final modesJson = await rootBundle.loadString('assets/story_modes.json');
-      final modesData = json.decode(modesJson);
+      //final modesJson = await rootBundle.loadString('assets/story_modes.json');
+      //final modesData = json.decode(modesJson);
 
       // 加载人物数据
-      // 1. 加载人物索引
       final peopleIndexJson = await rootBundle.loadString('assets/people_index.json');
       final List<dynamic> personIds = json.decode(peopleIndexJson);
 
-      // 2. 迭代加载每个人物
       Map<String, dynamic> loadedPeople = {};
       for (var personId in personIds) {
         try {
           final personJson = await rootBundle.loadString('assets/people/$personId.json');
           final personData = json.decode(personJson);
-          loadedPeople[personId] = personData; // 使用 personId 作为 key
+          loadedPeople[personId] = personData; 
         } catch (e) {
           print('⚠️ 加载人物失败: $personId');
         }
       }
+
+      // --- (新增) 查找年份范围 ---
+      double minYear = -1000; // 默认
+      double maxYear = 2025; // 默认
+      if (loadedEvents.isNotEmpty) {
+         // 我们只关心非“存根”事件的年份范围
+         final years = loadedEvents
+             .where((e) => e['is_stub'] != true) 
+             .map((e) => e['year'] as int);
+             
+         if (years.isNotEmpty) {
+            minYear = years.reduce((a, b) => a < b ? a : b).toDouble();
+            maxYear = years.reduce((a, b) => a > b ? a : b).toDouble();
+         }
+         
+         // 确保最大年份至少是今年，以便动画可以播放
+         if (maxYear < 2025) maxYear = 2025;
+      }
+      // --- (新增结束) ---
       
       setState(() {
         events = loadedEvents;
-        storyModes = modesData.cast<Map<String, dynamic>>();
-        people = loadedPeople; // <-- modification
+        //storyModes = modesData.cast<Map<String, dynamic>>();
+        people = loadedPeople; 
+        
+        _minYear = minYear;       // <-- 设置
+        _maxYear = maxYear;       // <-- 设置
+        selectedYear = minYear; // <-- 在这里设置
+        
         isLoading = false;
       });
       
@@ -202,7 +225,6 @@ final Map<String, String> fieldNamesEn = {
       });
     }
   }
-  // <-- END MODIFIED _loadData -->
 
 
   // ========== 辅助方法 ==========
@@ -243,9 +265,14 @@ final Map<String, String> fieldNamesEn = {
   void _startAnimation() {
     _timer = Timer.periodic(Duration(milliseconds: 100), (timer) {
       setState(() {
-        selectedYear += 2;
-        if (selectedYear >= 2020) {
-          selectedYear = 2020;
+        // (可选) 动态调整步长
+        double step = (_maxYear - _minYear) / 200; // (让动画总是在20秒左右完成)
+        if (step < 2) step = 2; // 最小步长
+
+        selectedYear += step;
+        
+        if (selectedYear >= _maxYear) {
+          selectedYear = _maxYear;
           _stopAnimation();
         }
       });
@@ -262,12 +289,9 @@ final Map<String, String> fieldNamesEn = {
   void _resetAnimation() {
     _stopAnimation();
     setState(() {
-      selectedYear = events.isNotEmpty
-          ? events.map((e) => e['year'] as int).reduce((a, b) => a < b ? a : b).toDouble()
-          : -500;
+      selectedYear = _minYear; // <-- 直接使用已计算的最小值
     });
   }
-
   // ========== 数据筛选 ==========
   List<Map<String, dynamic>> getFilteredEvents() {
     
@@ -280,11 +304,11 @@ final Map<String, String> fieldNamesEn = {
     });
     
     // 学习路径筛选
-    if (selectedStoryMode != null) {
-      var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
-      List<String> modeEventIds = List<String>.from(mode['events']);
-      filtered = filtered.where((event) => modeEventIds.contains(event['id']));
-    }
+    // if (selectedStoryMode != null) {
+    //   var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
+    //   List<String> modeEventIds = List<String>.from(mode['events']);
+    //   filtered = filtered.where((event) => modeEventIds.contains(event['id']));
+    // }
     
     // 学科筛选
 // 学科筛选
@@ -302,8 +326,15 @@ final Map<String, String> fieldNamesEn = {
       filtered = filtered.where((event) {
         String title = isEnglish && event['title_en'] != null 
             ? event['title_en'] : event['title'];
-        String city = isEnglish && event['city_en'] != null 
-            ? event['city_en'] : (event['city'] ?? '');
+        
+        String city = '';
+        var cityEn = event['city_en'];
+        var cityZh = event['city'];
+        if (isEnglish && cityEn != null && cityEn is String) {
+          city = cityEn;
+        } else if (cityZh != null && cityZh is String) {
+          city = cityZh;
+        }
         
         String query = searchQuery.toLowerCase();
         return title.toLowerCase().contains(query) || 
@@ -359,7 +390,7 @@ final Map<String, String> fieldNamesEn = {
       body: Stack(
         children: [
           _buildMap(),
-          _buildLearningPathSelector(l10n, isEnglish),
+          //_buildLearningPathSelector(l10n, isEnglish),
           _buildLegend(l10n, isEnglish),
           _buildTimelineController(l10n, isEnglish),
         ],
@@ -544,9 +575,14 @@ final Map<String, String> fieldNamesEn = {
 
             final bool isEnglish = Localizations.localeOf(context).languageCode == 'en';
             var firstEvent = events[0];
-            String cityName = isEnglish && firstEvent['city_en'] != null && firstEvent['city_en'].isNotEmpty
-                ? firstEvent['city_en']
-                : (firstEvent['city'] ?? ''); // 使用备用值以防 'city' 也为 null
+            String cityName = '';
+            var cityEn = firstEvent['city_en'];
+            var city = firstEvent['city'];
+            if (isEnglish && cityEn != null && cityEn is String && cityEn.isNotEmpty) {
+              cityName = cityEn;
+            } else if (city != null && city is String) {
+              cityName = city;
+            }
 
             return Container(
               padding: EdgeInsets.all(16),
@@ -590,19 +626,45 @@ final Map<String, String> fieldNamesEn = {
                         Color color = getFieldColor(primaryField);
                         String emoji = getFieldEmoji(primaryField);
                         
-                        // --- (新增) 获取人名 ---
-                        String? personName;
-                        final String? personId = event['personId'];
-                        if (personId != null && people.containsKey(personId)) {
-                          final personData = people[personId];
-                          String fullName = isEnglish && personData['name_en'] != null
-                              ? personData['name_en']
-                              : personData['name'];
-                          personName = fullName.split(' ').last;
-                          if (!isEnglish) personName = fullName;
+                  // --- (修改) 获取人名 (支持多人) ---
+                  String? personNames; // 重命名为复数
+
+                  // (新) 解析 personIds (兼容旧的 personId)
+                  List<String> personIdList = [];
+                  var pIds = event['personIds']; // 新的 "personIds" 字段 (数组)
+                  var pId = event['personId'];  // 旧的 "personId" 字段 (字符串)
+                  if (pIds is List) {
+                    personIdList = List<String>.from(pIds);
+                  } else if (pId is String) {
+                    personIdList = [pId];
+                  }
+
+                  if (personIdList.isNotEmpty) {
+                    List<String> names = [];
+                    for (var pid in personIdList) {
+                      if (people.containsKey(pid)) {
+                        final personData = people[pid];
+                        String fullName = isEnglish && personData['name_en'] != null
+                            ? personData['name_en']
+                            : personData['name'];
+
+                        // --- (这是从 _buildSingleEventMarker 复制过来的完整逻辑) ---
+                        String lastName = fullName.split(' ').last;
+                        // 对于中文名，不需要拆分
+                        if (!isEnglish && fullName.length > 2) { 
+                            lastName = fullName;
+                        } else if (!isEnglish) {
+                            lastName = fullName;
                         }
-                        // --- (新增结束) ---
-                        
+                        names.add(lastName);
+                        // --- (完整逻辑结束) ---
+                      }
+                    }
+                    // 用 " & " 或 "和" 连接
+                    personNames = names.join(isEnglish ? ' & ' : '、');
+                  }
+                  // --- (修改结束) ---
+
                         return Card(
                           margin: EdgeInsets.only(bottom: 10),
                           child: ListTile(
@@ -623,10 +685,10 @@ final Map<String, String> fieldNamesEn = {
                               style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                             ),
                             subtitle: Text(
-                              (personName != null)
-                                ? '$personName · ${event['year']}' // "Newton · 1666"
-                                : '${event['year']}', // "1666"
-                              style: TextStyle(fontSize: 13),
+                            (personNames != null)
+                              ? '$personNames · ${event['year']}' // "Watson & Crick · 1953"
+                              : '${event['year']}', // "1666"
+                            style: TextStyle(fontSize: 13),
                             ),
                             trailing: Icon(Icons.arrow_forward_ios, size: 16),
                             onTap: () {
@@ -692,127 +754,130 @@ final Map<String, String> fieldNamesEn = {
 
  
   // ========== 学习路径选择器 ==========
-  Widget _buildLearningPathSelector(AppLocalizations l10n, bool isEnglish) {
-    return Positioned(
-      top: 20,
-      left: 20,
-      child: Card(
-        elevation: 4,
-        child: Container(
-          width: 250,
-          padding: EdgeInsets.all(12),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                l10n.learningPath,
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-              ),
-              SizedBox(height: 8),
-              DropdownButton<String>(
-                isExpanded: true,
-                value: selectedStoryMode,
-                hint: Text(l10n.selectTheme),
-                items: [
-                  DropdownMenuItem<String>(
-                    value: null,
-                    child: Text(l10n.allEvents),
-                  ),
-                  ...storyModes.map((mode) {
-                    String title = isEnglish && mode['title_en'] != null
-                        ? mode['title_en']
-                        : mode['title'];
-                    return DropdownMenuItem<String>(
-                      value: mode['id'] as String,
-                      child: Row(
-                        children: [
-                          Text(mode['emoji'], style: TextStyle(fontSize: 20)),
-                          SizedBox(width: 8),
-                          Expanded(child: Text(title, style: TextStyle(fontSize: 14))),
-                        ],
-                      ),
-                    );
-                  }),
-                ],
-                onChanged: (value) {
-                  setState(() {
-                    selectedStoryMode = value;
-                    if (value != null) {
-                      var mode = storyModes.firstWhere((m) => m['id'] == value);
-                      var firstEventId = mode['events'][0];
-                      var firstEvent = events.firstWhere(
-                        (e) => e['id'] == firstEventId,
-                        orElse: () => {},
-                      );
-                      if (firstEvent.isNotEmpty) {
-                        selectedYear = firstEvent['year'].toDouble();
-                      }
-                    }
-                  });
-                },
-              ),
-              if (selectedStoryMode != null) ...[
-                SizedBox(height: 8),
-                Text(
-                  _getStoryModeDescription(selectedStoryMode!, isEnglish),
-                  style: TextStyle(fontSize: 12, color: Colors.grey[600]),
-                ),
-                SizedBox(height: 8),
-                ElevatedButton.icon(
-                  onPressed: _startStoryMode,
-                  icon: Icon(Icons.play_arrow),
-                  label: Text(l10n.startLearning),
-                  style: ElevatedButton.styleFrom(
-                    minimumSize: Size(double.infinity, 36),
-                  ),
-                ),
-              ],
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+  // Widget _buildLearningPathSelector(AppLocalizations l10n, bool isEnglish) {
+  //   return Positioned(
+  //     top: 20,
+  //     left: 20,
+  //     child: Card(
+  //       elevation: 4,
+  //       child: Container(
+  //         width: 250,
+  //         padding: EdgeInsets.all(12),
+  //         child: Column(
+  //           crossAxisAlignment: CrossAxisAlignment.start,
+  //           mainAxisSize: MainAxisSize.min,
+  //           children: [
+  //             Text(
+  //               l10n.learningPath,
+  //               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+  //             ),
+  //             SizedBox(height: 8),
+  //             DropdownButton<String>(
+  //               isExpanded: true,
+  //               value: selectedStoryMode,
+  //               hint: Text(l10n.selectTheme),
+  //               items: [
+  //                 DropdownMenuItem<String>(
+  //                   value: null,
+  //                   child: Text(l10n.allEvents),
+  //                 ),
+  //                 ...storyModes.map((mode) {
+  //                   String title = isEnglish && mode['title_en'] != null
+  //                       ? mode['title_en']
+  //                       : mode['title'];
+  //                   return DropdownMenuItem<String>(
+  //                     value: mode['id'] as String,
+  //                     child: Row(
+  //                       children: [
+  //                         Text(mode['emoji'], style: TextStyle(fontSize: 20)),
+  //                         SizedBox(width: 8),
+  //                         Expanded(child: Text(title, style: TextStyle(fontSize: 14))),
+  //                       ],
+  //                     ),
+  //                   );
+  //                 }),
+  //               ],
+  //               onChanged: (value) {
+  //                 setState(() {
+  //                   selectedStoryMode = value;
+  //                   if (value != null) {
+  //                     var mode = storyModes.firstWhere((m) => m['id'] == value);
+  //                     var firstEventId = mode['events'][0];
+  //                     var firstEvent = events.firstWhere(
+  //                       (e) => e['id'] == firstEventId,
+  //                       orElse: () => {},
+  //                     );
+  //                     if (firstEvent.isNotEmpty) {
+  //                       selectedYear = firstEvent['year'].toDouble();
+  //                     }
+  //                   }
+  //                 });
+  //               },
+  //             ),
+  //             if (selectedStoryMode != null) ...[
+  //               SizedBox(height: 8),
+  //               Text(
+  //                 _getStoryModeDescription(selectedStoryMode!, isEnglish),
+  //                 style: TextStyle(fontSize: 12, color: Colors.grey[600]),
+  //               ),
+  //               SizedBox(height: 8),
+  //               ElevatedButton.icon(
+  //                 onPressed: _startStoryMode,
+  //                 icon: Icon(Icons.play_arrow),
+  //                 label: Text(l10n.startLearning),
+  //                 style: ElevatedButton.styleFrom(
+  //                   minimumSize: Size(double.infinity, 36),
+  //                 ),
+  //               ),
+  //             ],
+  //           ],
+  //         ),
+  //       ),
+  //     ),
+  //   );
+  // }
 
-  String _getStoryModeDescription(String modeId, bool isEnglish) {
-    var mode = storyModes.firstWhere((m) => m['id'] == modeId);
-    return isEnglish && mode['description_en'] != null
-        ? mode['description_en']
-        : mode['description'];
-  }
+  // String _getStoryModeDescription(String modeId, bool isEnglish) {
+  //   var mode = storyModes.firstWhere((m) => m['id'] == modeId);
+  //   return isEnglish && mode['description_en'] != null
+  //       ? mode['description_en']
+  //       : mode['description'];
+  // }
 
-  void _startStoryMode() {
-    if (selectedStoryMode == null) return;
+  // void _startStoryMode() {
+  //   if (selectedStoryMode == null) return;
     
-    var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
-    List<String> eventIds = List<String>.from(mode['events']);
+  //   var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
+  //   List<String> eventIds = List<String>.from(mode['events']);
     
-    _stopAnimation();
+  //   _stopAnimation();
     
-    var firstEvent = events.firstWhere(
-      (e) => e['id'] == eventIds[0],
-      orElse: () => {},
-    );
+  //   var firstEvent = events.firstWhere(
+  //     (e) => e['id'] == eventIds[0],
+  //     orElse: () => {},
+  //   );
     
-    if (firstEvent.isNotEmpty) {
-      setState(() {
-        selectedYear = firstEvent['year'].toDouble();
-      });
-      Future.delayed(Duration(milliseconds: 500), () {
-        _showEventDialog(firstEvent);
-      });
-    }
-  }
+  //   if (firstEvent.isNotEmpty) {
+  //     setState(() {
+  //       selectedYear = firstEvent['year'].toDouble();
+  //     });
+  //     Future.delayed(Duration(milliseconds: 500), () {
+  //       _showEventDialog(firstEvent);
+  //     });
+  //   }
+  // }
 
   // ========== 图例 ==========
   Widget _buildLegend(AppLocalizations l10n, bool isEnglish) {
     return Positioned(
       top: 20,
       right: 20,
-      child: Card(
-        elevation: 4,
-        child: Padding(
+      child: Opacity( // <-- 新增
+        opacity: 0.9,
+        child: Card(
+          elevation: 2, // <-- 修改
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)), // <-- 新增
+          child: Padding(
           padding: EdgeInsets.all(12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -851,6 +916,7 @@ final Map<String, String> fieldNamesEn = {
           ),
         ),
       ),
+      ),
     );
   }
 
@@ -870,17 +936,18 @@ final Map<String, String> fieldNamesEn = {
               Text(
                 '${l10n.year}: ${selectedYear.round()}',
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 22, // <-- 修改
                   fontWeight: FontWeight.bold,
                   color: Colors.blue[800],
+                  letterSpacing: 0.5, // <-- 新增
                 ),
               ),
               SizedBox(height: 8),
               Slider(
                 value: selectedYear,
-                min: -500,
-                max: 2020,
-                divisions: 2520,
+                min: _minYear, // <-- 使用动态最小值
+                max: _maxYear, // <-- 使用动态最大值
+                divisions: (_maxYear - _minYear).round().clamp(1, 1000000), // <-- 动态计算
                 label: selectedYear.round().toString(),
                 onChanged: isPlaying ? null : (value) {
                   setState(() => selectedYear = value);
@@ -908,6 +975,10 @@ final Map<String, String> fieldNamesEn = {
                       padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                       backgroundColor: isPlaying ? Colors.orange : Colors.green,
                       foregroundColor: Colors.white,
+                      shape: RoundedRectangleBorder( // <-- 新增
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      elevation: 4, // <-- 新增
                     ),
                   ),
                 ],
@@ -1130,23 +1201,40 @@ final Map<String, String> fieldNamesEn = {
         ? event['title_en']
         : event['title'];
 
-    // --- (新增) 获取人名 ---
+    // --- (新增) 获取人名 (支持多人) ---
     String? personName;
-    final String? personId = event['personId'];
-    if (personId != null && people.containsKey(personId)) {
-      final personData = people[personId];
-      // 我们只取姓氏，以免太长
-      String fullName = isEnglish && personData['name_en'] != null
-          ? personData['name_en']
-          : personData['name'];
-      personName = fullName.split(' ').last; // 例如 "Isaac Newton" -> "Newton"
-      
-      // 对于中文名，不需要拆分
-      if (!isEnglish && fullName.length > 2) { 
-          personName = fullName; // 例如 "艾萨克·牛顿"
-      } else if (!isEnglish) {
-          personName = fullName; // 例如 "牛顿"
+    
+    // 解析 personIds (兼容旧的 personId)
+    List<String> personIdList = [];
+    var pIds = event['personIds']; // 新的 "personIds" 字段 (数组)
+    var pId = event['personId'];  // 旧的 "personId" 字段 (字符串)
+    if (pIds is List) {
+      personIdList = List<String>.from(pIds);
+    } else if (pId is String) {
+      personIdList = [pId];
+    }
+    
+    if (personIdList.isNotEmpty) {
+      List<String> names = [];
+      for (var pid in personIdList) {
+        if (people.containsKey(pid)) {
+          final personData = people[pid];
+          String fullName = isEnglish && personData['name_en'] != null
+              ? personData['name_en']
+              : personData['name'];
+          // 只取姓氏
+          String lastName = fullName.split(' ').last;
+          // 对于中文名，不需要拆分
+          if (!isEnglish && fullName.length > 2) {
+            lastName = fullName;
+          } else if (!isEnglish) {
+            lastName = fullName;
+          }
+          names.add(lastName);
+        }
       }
+      // 用 " & " 或 "、" 连接
+      personName = names.join(isEnglish ? ' & ' : '、');
     }
     // --- (新增结束) ---
     
@@ -1173,7 +1261,7 @@ final Map<String, String> fieldNamesEn = {
                   color: color,
                   shape: BoxShape.circle,
                   boxShadow: [
-                    BoxShadow(color: color.withOpacity(0.4), blurRadius: 8, spreadRadius: 2),
+                    BoxShadow(color: color.withOpacity(0.3), blurRadius: 6, spreadRadius: 1), // <-- 修改
                   ],
                 ),
                 child: Center(
@@ -1189,9 +1277,9 @@ final Map<String, String> fieldNamesEn = {
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(8),
-                    border: Border.all(color: color, width: 2),
+                    border: Border.all(color: color.withOpacity(0.7), width: 1.5),
                     boxShadow: [
-                      BoxShadow(color: Colors.black12, blurRadius: 4, offset: Offset(0, 2)),
+                      BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 3, offset: Offset(0, 1)), // <-- 修改
                     ],
                   ),
                   child: Column(
@@ -1268,7 +1356,7 @@ final Map<String, String> fieldNamesEn = {
 // <-- MODIFIED EventData -->
 class EventData {
   final String id; // <-- Added
-  final String? personId; // <-- Added
+  final List<String> personIds; // <-- Added
   final String title;
   final String city;
   final int year;
@@ -1301,7 +1389,7 @@ class EventData {
 
   EventData({
     required this.id, // <-- Added
-    this.personId, // <-- Added
+    required this.personIds, // <-- Added
     required this.title,
     required this.city,
     required this.year,
@@ -1333,9 +1421,14 @@ class EventData {
     String title = isEnglish && json['title_en'] != null
         ? json['title_en']
         : json['title'];
-    String city = isEnglish && json['city_en'] != null
-        ? json['city_en']
-        : (json['city'] ?? '');
+    String city = '';
+    var cityEn = json['city_en'];
+    var cityZh = json['city'];
+    if (isEnglish && cityEn != null && cityEn is String) {
+      city = cityEn;
+    } else if (cityZh != null && cityZh is String) {
+      city = cityZh;
+    }
 
   // --- 新的学科解析逻辑 ---
 
@@ -1558,16 +1651,32 @@ class EventData {
                 ? sourceEvent['title_en']
                 : sourceEvent['title'];
 
-            // 获取人物姓名
-            String? personId = sourceEvent['personId'];
-            if (personId != null && allPeople.containsKey(personId)) {
-              var personData = allPeople[personId];
-              personName = isEnglish && personData['name_en'] != null
-                  ? personData['name_en']
-                  : personData['name'];
+            // --- (修改) 获取人物姓名 (支持多人) ---
+            List<String> personIdList = [];
+            var pIds = sourceEvent['personIds']; // 新的
+            var pId = sourceEvent['personId'];  // 旧的
+            if (pIds is List) {
+              personIdList = List<String>.from(pIds);
+            } else if (pId is String) {
+              personIdList = [pId];
             }
+
+            if (personIdList.isNotEmpty) {
+              List<String> names = [];
+              for (var pid in personIdList) {
+                if (allPeople.containsKey(pid)) {
+                  var personData = allPeople[pid];
+                  // 这里我们用全名，而不是像地图标记那样只用姓氏
+                  names.add(isEnglish && personData['name_en'] != null 
+                      ? personData['name_en'] 
+                      : personData['name']);
+                }
+              }
+              personName = names.join(isEnglish ? ' & ' : '、');
+            }
+            // --- (修改结束) ---
           }
-          
+
           return InfluenceItem(
             id: item['id'],
             personName: personName, // <-- 新增
@@ -1595,14 +1704,30 @@ class EventData {
                 ? targetEvent['title_en']
                 : targetEvent['title'];
             
-            // 获取人物姓名
-            String? personId = targetEvent['personId'];
-            if (personId != null && allPeople.containsKey(personId)) {
-              var personData = allPeople[personId];
-              personName = isEnglish && personData['name_en'] != null
-                  ? personData['name_en']
-                  : personData['name'];
+            // --- (修改) 获取人物姓名 (支持多人) ---
+            List<String> personIdList = [];
+            var pIds = targetEvent['personIds']; // 新的
+            var pId = targetEvent['personId'];  // 旧的
+            if (pIds is List) {
+              personIdList = List<String>.from(pIds);
+            } else if (pId is String) {
+              personIdList = [pId];
             }
+
+            if (personIdList.isNotEmpty) {
+              List<String> names = [];
+              for (var pid in personIdList) {
+                if (allPeople.containsKey(pid)) {
+                  var personData = allPeople[pid];
+                  // 这里我们用全名，而不是像地图标记那样只用姓氏
+                  names.add(isEnglish && personData['name_en'] != null 
+                      ? personData['name_en'] 
+                      : personData['name']);
+                }
+              }
+              personName = names.join(isEnglish ? ' & ' : '、');
+            }
+            // --- (修改结束) ---
           }
           
           return InfluenceItem(
@@ -1638,9 +1763,21 @@ class EventData {
       );
     }
     
+    // --- (新) 解析 personIds (兼容旧的 personId) ---
+    List<String> personIdList = [];
+    var pIds = json['personIds']; // 新的 "personIds" 字段 (数组)
+    var pId = json['personId'];  // 旧的 "personId" 字段 (字符串)
+
+    if (pIds is List) {
+      personIdList = List<String>.from(pIds);
+    } else if (pId is String) {
+      personIdList = [pId]; // 将旧的字符串包装成列表
+    }
+    // --- (新逻辑结束) ---
+
     return EventData(
       id: json['id'] as String, // <-- Added
-      personId: json['personId'] as String?, // <-- Added
+      personIds: personIdList, // <-- Added
       title: title,
       city: city,
       year: json['year'],
@@ -1836,7 +1973,7 @@ class EventDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     // <-- Parse data here
     final EventData data = EventData.fromJson(event, isEnglish, allEvents, people);
-    final String? personId = event['personId'];
+    //final String? personId = event['personId'];
     
     return DefaultTabController(
       length: 4,
@@ -1855,7 +1992,7 @@ class EventDialog extends StatelessWidget {
                       data: data, 
                       color: color, 
                       isEnglish: isEnglish,
-                      personId: personId,
+                      personIds: data.personIds,
                       allEvents: allEvents,
                       people: people,
                       onEventSelected: onEventSelected,
@@ -1880,6 +2017,24 @@ class EventDialog extends StatelessWidget {
   }
 
   Widget _buildHeader(BuildContext context, EventData data) { // <-- Receive data
+    // 获取人物名字（支持多人）
+    String? personNames;
+    if (data.personIds.isNotEmpty) {
+      List<String> names = [];
+      for (var pid in data.personIds) {
+        if (people.containsKey(pid)) {
+          final personData = people[pid];
+          String fullName = isEnglish && personData['name_en'] != null
+              ? personData['name_en']
+              : personData['name'];
+          names.add(fullName);
+        }
+      }
+      if (names.isNotEmpty) {
+        personNames = names.join(isEnglish ? ' & ' : '、');
+      }
+    }
+    
     return Container(
       padding: EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -1902,13 +2057,15 @@ class EventDialog extends StatelessWidget {
                 Text(
                   data.title, // <-- Use data
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                 ),
                 Text(
-                  '${data.year} · ${data.city}', // <-- Use data
+                  personNames != null
+                      ? '${personNames} · ${data.year} · ${data.city}'
+                      : '${data.year} · ${data.city}',
                   style: TextStyle(fontSize: 14, color: Colors.white70),
                 ),
               ],
@@ -1951,7 +2108,7 @@ class OverviewTab extends StatelessWidget {
   final Color color;
   final bool isEnglish;
   // <-- Added -->
-  final String? personId;
+  final List<String> personIds;
   final List<Map<String, dynamic>> allEvents;
   final Map<String, dynamic> people;
   final Function(Map<String, dynamic>) onEventSelected;
@@ -1961,7 +2118,7 @@ class OverviewTab extends StatelessWidget {
     required this.color,
     required this.isEnglish,
     // <-- Added -->
-    this.personId,
+    required this.personIds,
     required this.allEvents,
     required this.people,
     required this.onEventSelected,
@@ -2014,19 +2171,23 @@ class OverviewTab extends StatelessWidget {
           ],          
 
           // <-- START NEW BLOCK -->
-          if (personId != null) ...[
+          if (personIds.isNotEmpty) ...[ // <-- 修改
             SizedBox(height: 20),
-            PersonTimelineWidget(
-              personId: personId!,
-              currentEventId: data.id,
-              allEvents: allEvents,
-              people: people,
-              onEventSelected: onEventSelected,
-              color: color,
-              isEnglish: isEnglish,
-            ),
+            // 遍历所有 personId 并为每个人创建一个时间线
+            ...personIds.map((pid) => Padding( // <-- 新增
+                  padding: const EdgeInsets.only(bottom: 16.0), // <-- 新增
+                  child: PersonTimelineWidget(
+                    personId: pid, // <-- 修改
+                    currentEventId: data.id,
+                    allEvents: allEvents,
+                    people: people,
+                    onEventSelected: onEventSelected,
+                    color: color,
+                    isEnglish: isEnglish,
+                  ),
+                )), // <-- 新增
           ],
-          // <-- END NEW BLOCK -->
+          // <-- END MODIFIED BLOCK -->
         ],
       ),
     );
@@ -2438,7 +2599,7 @@ class SummaryCard extends StatelessWidget {
         children: [
           Text(
             summary.text,
-            style: TextStyle(fontSize: 15, height: 1.5, fontWeight: FontWeight.w500),
+            style: TextStyle(fontSize: 14, height: 1.6, fontWeight: FontWeight.w400),
           ),
           if (summary.keyPoints != null && summary.keyPoints!.isNotEmpty) ...[
             SizedBox(height: 12),
@@ -2544,7 +2705,7 @@ class FunFactsSection extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(fact.icon, style: TextStyle(fontSize: 28)),
+              Text(fact.icon, style: TextStyle(fontSize: 24)),
               SizedBox(width: 12),
               Expanded(
                 child: Text(fact.text, style: TextStyle(fontSize: 14, height: 1.4)),
@@ -3673,9 +3834,14 @@ class PersonTimelineWidget extends StatelessWidget {
             final String title = isEnglish && event['title_en'] != null
                 ? event['title_en']
                 : event['title'];
-            final String city = isEnglish && event['city_en'] != null
-                ? event['city_en']
-                : (event['city'] ?? '');
+            String city = '';
+            var cityEn = event['city_en'];
+            var cityZh = event['city'];
+            if (isEnglish && cityEn != null && cityEn is String) {
+              city = cityEn;
+            } else if (cityZh != null && cityZh is String) {
+              city = cityZh;
+            }
             final int year = event['year'];
             final bool isCurrent = event['id'] == currentEventId;
 
@@ -3774,6 +3940,10 @@ class SmartImage extends StatelessWidget {
           width: width,
           fit: fit,
           placeholderBuilder: (BuildContext context) => placeholder,
+          // 添加错误处理，抑制 <switch> 元素的警告
+          allowDrawingOutsideViewBox: true,
+          // 使用错误构建器来处理不支持的 SVG 元素
+          semanticsLabel: '',
         );
       } else {
         // 2. Network Raster (PNG, JPG)
@@ -3799,6 +3969,10 @@ class SmartImage extends StatelessWidget {
           width: width,
           fit: fit,
           placeholderBuilder: (BuildContext context) => placeholder,
+          // 添加错误处理，抑制 <switch> 元素的警告
+          allowDrawingOutsideViewBox: true,
+          // 使用错误构建器来处理不支持的 SVG 元素
+          semanticsLabel: '',
         );
       } else {
         // 4. Local Asset Raster (PNG, JPG)

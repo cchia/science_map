@@ -64,7 +64,7 @@
     "simple_explanation": {
         "text": "想象一下，你相信宇宙中所有的长度都可以用一把简单的尺子量出来（比如1米、1.5米、或2/3米）。毕达哥拉斯学派就是这么想的。但希帕索斯发现：如果你有一个边长为1米的正方形，它的对角线（√2 米）是“量不准”的。它不是1.4米，不是1.41米，也不是1.414米……你永远无法用一个简单的分数（如 7/5）来精确表示它。这个“无理”的长度的存在，摧毁了他们“一切皆有理”的世界观。",
         "text_en": "Imagine you believe every length in the universe can be measured with a simple ruler (like 1 meter, 1.5 meters, or 2/3 of a meter). The Pythagoreans believed this. Hippasus discovered that if you have a perfect square with sides of 1 meter, the diagonal (√2 meters) is 'unmeasurable' with that ruler. It's not 1.4, not 1.41, not 1.414... you can *never* find a simple fraction (like 7/5) that equals it perfectly. The existence of this 'irrational' length destroyed their 'rational' worldview.",
-        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Irrational_sqrt2.svg/640px-Irrational_sqrt2.svg.png"
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Square_root_of_2_triangle.svg"
     },
     "applications": [
         {
