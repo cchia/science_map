@@ -1,0 +1,137 @@
+{
+    "id": "kirchhoff_circuit_laws_1845",
+    "personId": "gustav_kirchhoff",
+    "title": "发表“基尔霍夫电路定律”",
+    "title_en": "Publishes 'Kirchhoff's Circuit Laws'",
+    "year": 1845,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "普鲁士 (今德国)",
+    "country_en": "Prussia (Modern Germany)",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/46/KCL_-_Kirchhoff%27s_circuit_laws.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FHJWkx5yehE",
+        "title": "基尔霍夫定律",
+        "title_en": "Kirchhoff’s Laws Explained!",
+        "duration": "5:21"
+      }
+    },
+    
+    "summary": {
+      "text": "年仅21岁的基尔霍夫在大学期间就发表了他的博士论文，其中包含了两条关于电路的基本定律，现被称为“基尔霍夫定律”。(1) **电流定律 (KCL)**：流入任何一个“节点”的总电流等于流出的总电流（电荷守恒）。(2) **电压定律 (KVL)**：沿任何一个闭合“回路”的所有电压升降之和为零（能量守恒）。",
+      "text_en": "While still a university student at age 21, Kirchhoff published his dissertation which included two fundamental laws for electrical circuits, now known as 'Kirchhoff's Laws'. (1) **Current Law (KCL)**: The sum of currents flowing *into* any 'node' (junction) is equal to the sum of currents flowing *out* (conservation of charge). (2) **Voltage Law (KVL)**: The sum of all voltage drops and rises around any closed 'loop' in a circuit is zero (conservation of energy).",
+      "key_points": [
+        "电流定律 (KCL - 节点定律)",
+        "电压定律 (KVL - 回路定律)",
+        "基于“电荷守恒”和“能量守恒”",
+        "所有现代电路分析的基础"
+      ],
+      "key_points_en": [
+        "Kirchhoff's Current Law (KCL - Junction Rule)",
+        "Kirchhoff's Voltage Law (KVL - Loop Rule)",
+        "Based on 'Conservation of Charge' and 'Conservation of Energy'",
+        "The foundation of all modern circuit analysis"
+      ]
+    },
+  
+    "story": {
+      "text": "在基尔霍夫的时代，欧姆定律（V=IR）已经存在，但它只适用于“单个”元件。对于由多个电源和电阻组成的“复杂网络”（如一个城市的电网），欧姆定律无能为力。基尔霍夫的天才之处在于他将物理学的基本“守恒定律”应用到了电路中。他的“节点定律”简单地说就是“进来多少，必须出去多少”（电荷不会在节点上堆积）。他的“回路定律”说的是“你从A点出发绕一圈回到A点，你的‘电势能’必须回到原点”（能量不会无中生有）。这两条简单的定律，将复杂的电路网络问题简化为了可以求解的“联立代数方程组”。",
+      "text_en": "In Kirchhoff's time, Ohm's Law (V=IR) was known, but it only worked for *single* components. It was useless for a *complex network* of multiple batteries and resistors. Kirchhoff's genius was to apply fundamental 'conservation laws' to the problem. His 'Junction Rule' simply says, 'What goes in, must come out' (charge doesn't pile up at a junction). His 'Loop Rule' says, 'If you start at point A and walk in a circle back to point A, your electrical potential must be the same' (energy isn't created from nothing). These two simple laws reduce any complex circuit network into a solvable set of linear algebraic equations."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎓",
+        "text": "基尔霍夫是在他21岁时作为博士生发表这些定律的。这是他最早的科学贡献。",
+        "text_en": "Kirchhoff published these laws at age 21 as a doctoral student. This was his very first major scientific contribution."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一个复杂的“水管系统”（电路）：\n1. **定律一（节点）：** 在任何一个“三通管”接头处，所有流进去的水，必须等于所有流出来的水。水不会在接头处“消失”或“堆积”。（KCL：电流定律）\n2. **定律二（回路）：** 想象你在水管的任意一点出发，绕着任意一个“环路”走一圈回到起点。你一路上遇到的所有“水泵”（增加水压）和“窄管”（降低水压）的效果，加起来必须等于零。你回到了起点，所以你的水压必须和出发时一样。（KVL：电压定律）",
+      "text_en": "Imagine a complex system of water pipes (a circuit):\n1. **Law 1 (The Junction):** At any 'T-junction' where pipes meet, the total water flowing *in* must equal the total water flowing *out*. Water can't vanish or pile up at the junction. (KCL: Current Law)\n2. **Law 2 (The Loop):** If you start at any point and walk in a complete *loop* back to where you started, all the 'pumps' (voltage gains) and 'narrow pipes' (voltage drops) you pass must add up to zero. You're back where you started, so your pressure must be the same. (KVL: Voltage Law)",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/77/Kirshhoff-example.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💡",
+          "title": "电路分析 (Circuit Analysis)",
+          "title_en": "Circuit Analysis",
+          "text": "这两条定律是所有电气工程师和物理学家用来分析任何电路（无论多复杂）的基础工具。",
+          "text_en": "These two laws are the fundamental tools used by every electrical engineer and physicist to analyze *any* circuit, no matter how complex."
+        },
+        {
+          "icon": "💻",
+          "title": "电子设计",
+          "title_en": "Electronics Design",
+          "text": "从设计电脑主板到智能手机芯片，基尔霍夫定律被用于确保所有组件都能获得正确的电压和电流。",
+          "text_en": "From designing a computer motherboard to a smartphone chip, Kirchhoff's laws are used to ensure all components receive the correct voltage and current."
+        }
+      ],
+  
+    "impact": {
+      "text": "基尔霍夫定律将电路研究从欧姆定律的“单一元件”时代，带入到了“系统网络”时代。它提供了一套通用的、基于物理学基本守恒定律（电荷和能量）的算法，使得对任何复杂电路的“系统性分析”成为可能。这是电气工程学科的数学基石。",
+      "text_en": "Kirchhoff's laws brought circuit theory from the 'single-component' era of Ohm's Law into the 'system-network' era. It provided a universal algorithm, based on the fundamental conservation laws of physics (charge and energy), that made the *systematic analysis* of any complex circuit possible. It is the mathematical cornerstone of electrical engineering.",
+      "stats": [
+          {
+            "number": "2",
+            "label": "个基本定律",
+            "label_en": "Fundamental Laws"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ohm_law_1827",
+          "contribution": "欧姆定律 (V=IR)（提供了分析单个元件的基础）",
+          "contribution_en": "Ohm's Law (V=IR) (provided the basis for analyzing individual components)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其“电磁场方程”是基尔霍夫定律在更高频（非稳态）下的推广）",
+          "contribution_en": "James Clerk Maxwell (his field equations are the generalization of Kirchhoff's laws for high-frequency, non-static conditions)"
+        },
+        {
+          "id": "modern_electrical_engineering",
+          "contribution": "所有现代电气工程和电子学",
+          "contribution_en": "All of modern electrical engineering and electronics"
+        }
+      ],
+      "legacy_text": "基尔霍夫定律将电路变成了可以“求解”的数学问题。",
+      "legacy_text_en": "Kirchhoff's laws turned electrical circuits into solvable mathematical problems."
+    },
+  
+    "related_concepts": ["电流定律 (KCL)", "电压定律 (KVL)", "节点 (Node)", "回路 (Loop)", "电荷守恒 (Conservation of Charge)", "能量守恒 (Conservation of Energy)", "欧姆定律 (Ohm's Law)"],
+    "related_concepts_en": ["KCL (Current Law)", "KVL (Voltage Law)", "Node", "Loop", "Conservation of Charge", "Conservation of Energy", "Ohm's Law"],
+  
+    "quiz": {
+      "question": "基尔霍夫的“电流定律”(KCL) 是基于哪项基本物理守恒定律？",
+      "question_en": "Kirchhoff's Current Law (KCL) is based on which fundamental physical conservation law?",
+      "options": [
+        "电荷守恒 (Conservation of Charge)",
+        "能量守恒 (Conservation of Energy)",
+        "质量守恒 (Conservation of Mass)",
+        "动量守恒 (Conservation of Momentum)"
+      ],
+      "options_en": [
+        "Conservation of Charge",
+        "Conservation of Energy",
+        "Conservation of Mass",
+        "Conservation of Momentum"
+      ],
+      "answer": 0,
+      "explanation": "电流定律（KCL）指出，流入节点的电流必须等于流出节点的电流。这意味着电荷不能在节点处“堆积”或“消失”，这正是“电荷守恒定律”的体现。",
+      "explanation_en": "The Current Law (KCL) states that current *in* equals current *out* at a junction. This means charge cannot be 'piled up' or 'destroyed' at the node, which is a statement of the Conservation of Charge."
+    }
+  }

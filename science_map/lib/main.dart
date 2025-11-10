@@ -74,6 +74,7 @@ class _MapScreenState extends State<MapScreen> {
   double _minYear = -1000; // 默认值 (会被覆盖)
   double _maxYear = 2025; // 默认值 (会被覆盖)
   double selectedYear = -1000; // 默认值 (会被覆盖)
+  RangeValues _zoomedRange = RangeValues(-1000, 2025); // <-- 新增：缩放范围
   bool isPlaying = false;
   Timer? _timer;
   
@@ -213,6 +214,7 @@ final Map<String, String> fieldNamesEn = {
         _minYear = minYear;       // <-- 设置
         _maxYear = maxYear;       // <-- 设置
         selectedYear = minYear; // <-- 在这里设置
+        _zoomedRange = RangeValues(minYear, maxYear);
         
         isLoading = false;
       });
@@ -290,6 +292,7 @@ final Map<String, String> fieldNamesEn = {
     _stopAnimation();
     setState(() {
       selectedYear = _minYear; // <-- 直接使用已计算的最小值
+      _zoomedRange = RangeValues(_minYear, _maxYear);
     });
   }
   // ========== 数据筛选 ==========
@@ -943,16 +946,53 @@ final Map<String, String> fieldNamesEn = {
                 ),
               ),
               SizedBox(height: 8),
+
+// --- (新) 主时间轴 (已缩放) ---
               Slider(
                 value: selectedYear,
-                min: _minYear, // <-- 使用动态最小值
-                max: _maxYear, // <-- 使用动态最大值
-                divisions: (_maxYear - _minYear).round().clamp(1, 1000000), // <-- 动态计算
+                min: _zoomedRange.start, // <-- (修改) 使用缩放范围
+                max: _zoomedRange.end,   // <-- (修改) 使用缩放范围
+                divisions: (_zoomedRange.end - _zoomedRange.start).round().clamp(1, 1000000),
                 label: selectedYear.round().toString(),
                 onChanged: isPlaying ? null : (value) {
                   setState(() => selectedYear = value);
                 },
               ),
+              
+              // --- (新) 缩放范围控制器 (概览轴) ---
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                child: RangeSlider(
+                  values: _zoomedRange,
+                  min: _minYear,
+                  max: _maxYear,
+                  // (可选) 减少 divisions 以获得更平滑的概览滚动
+                  divisions: (_maxYear - _minYear).round().clamp(1, 1000000) ~/ 50, 
+                  labels: RangeLabels(
+                    _zoomedRange.start.round().toString(),
+                    _zoomedRange.end.round().toString(),
+                  ),
+                  onChanged: isPlaying ? null : (newRange) {
+                    setState(() {
+                      // 确保范围至少为 100 年 (避免缩放得太近)
+                      if (newRange.end - newRange.start < 100) {
+                         // 保持中心点，但扩展范围
+                         final center = (newRange.start + newRange.end) / 2;
+                         _zoomedRange = RangeValues(
+                           (center - 50).clamp(_minYear, _maxYear), 
+                           (center + 50).clamp(_minYear, _maxYear)
+                         );
+                      } else {
+                        _zoomedRange = newRange;
+                      }
+                      
+                      // 确保 "selectedYear" 始终在新范围内
+                      selectedYear = selectedYear.clamp(_zoomedRange.start, _zoomedRange.end);
+                    });
+                  },
+                ),
+              ),
+              
               SizedBox(height: 8),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,

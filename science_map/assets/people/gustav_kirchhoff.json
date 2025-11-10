@@ -1,0 +1,12 @@
+{
+    "name": "古斯塔夫·基尔霍夫",
+    "name_en": "Gustav Kirchhoff",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Gustav_Robert_Kirchhoff.jpg",
+    "bio_short": "德国物理学家，他对电路、光谱学和黑体辐射做出了根本性贡献。他提出了“基尔霍夫电路定律”，与本生一同开创了“光谱分析”，并定义了“黑体辐射”问题。",
+    "bio_short_en": "A German physicist who made fundamental contributions to electrical circuits, spectroscopy, and black-body radiation. He formulated 'Kirchhoff's circuit laws', co-founded 'spectroscopy' with Bunsen, and defined the 'black-body' problem.",
+    "events": [
+      "kirchhoff_circuit_laws_1845",
+      "kirchhoff_black_body_1859",
+      "bunsen_spectroscopy_1859"
+    ]
+  }

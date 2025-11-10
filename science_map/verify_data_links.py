@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-验证科学地图项目中的数据链接完整性。
+验证科学地图项目中的数据链接完整性。(v2 - 支持多人)
 
 检查以下链接：
-1. (Event -> Person): 确保 event.personId 在 people_index 中。
+1. (Event -> Person): 确保 event.personIds 或 event.personId 在 people_index 中。
 2. (Person -> Event): 确保 person.events 数组中的所有 ID 都在 events_index 中。
 3. (Event -> Event): 确保 event.influence_chain 中的所有 ID 都在 events_index 中。
 """
@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 # --- 配置 ---
+# (根据您在 main.dart 和 pubspec.yaml 中的修复更新路径)
 EVENTS_INDEX_FILE = Path("assets/events_index.json")
 PEOPLE_INDEX_FILE = Path("assets/people_index.json")
 EVENTS_DIR = Path("assets/events")
@@ -25,6 +26,7 @@ def load_index(index_file: Path) -> set:
     一个 set 中，以便快速查找。"""
     if not index_file.exists():
         print(f"[FATAL] 索引文件未找到: {index_file}")
+        print("  请确保您在 main.dart 中引用的文件路径与此脚本中的路径一致。")
         sys.exit(1)
 
     with open(index_file, "r", encoding="utf-8") as f:
@@ -52,13 +54,30 @@ def verify_event_links(
         print(f"  [ERROR] 事件文件 {file_path} JSON 格式错误: {e}")
         return 1
 
-    # 1. 检查 Event -> Person (personId)
-    person_id = data.get("personId")
-    if person_id and person_id not in valid_person_ids:
-        print(f"  [ERROR] 事件 '{event_id}' 引用了不存在的人物 'personId': {person_id}")
-        errors += 1
+    # --- (已更新) 检查 Event -> Person (personId 或 personIds) ---
+    person_id_list = []
+    p_ids = data.get("personIds")  # 查找复数 "personIds"
+    p_id = data.get("personId")  # 查找单数 "personId"
 
-    # 2. 检查 Event -> Event (influence_chain)
+    if isinstance(p_ids, list):
+        person_id_list = p_ids
+    elif isinstance(p_id, str):
+        person_id_list = [p_id]
+    elif isinstance(p_id, list):
+        # 处理像 lummer_black_body_1899.json 这样的特殊情况
+        print(f"  [INFO] 事件 '{event_id}' 正在使用 'personId' 字段的列表。")
+        print(f"         推荐使用 'personIds' (复数) 字段以保持一致性。")
+        person_id_list = p_id
+
+    # 现在，验证列表中的每一个 ID
+    if person_id_list:
+        for pid in person_id_list:
+            if pid not in valid_person_ids:
+                print(f"  [ERROR] 事件 '{event_id}' 引用了不存在的人物 ID: {pid}")
+                errors += 1
+    # --- (更新结束) ---
+
+    # 2. 检查 Event -> Event (influence_chain) - (此逻辑不变)
     chain = data.get("influence_chain", {})
     if chain:  # 确保 chain 不是 None
         # 检查 'influenced_by'
@@ -97,7 +116,7 @@ def verify_person_links(person_id: str, valid_event_ids: set) -> int:
         print(f"  [ERROR] 人物文件 {file_path} JSON 格式错误: {e}")
         return 1
 
-    # 1. 检查 Person -> Event (events 数组)
+    # 1. 检查 Person -> Event (events 数组) - (此逻辑不变)
     event_links = data.get("events", [])
     for event_id in event_links:
         if event_id not in valid_event_ids:
@@ -109,7 +128,7 @@ def verify_person_links(person_id: str, valid_event_ids: set) -> int:
 
 def main():
     print("=" * 60)
-    print("开始验证知识图谱链接...")
+    print("开始验证知识图谱链接 (v2 - 支持多人)...")
     print("=" * 60)
 
     total_errors = 0

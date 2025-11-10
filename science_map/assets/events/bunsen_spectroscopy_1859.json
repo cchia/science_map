@@ -1,0 +1,157 @@
+{
+    "id": "bunsen_spectroscopy_1859",
+    "personId": ["robert_bunsen", "gustav_kirchhoff"],
+    "title": "开创光谱分析法",
+    "title_en": "Found Spectroscopy (Spectral Analysis)",
+    "year": 1859,
+    "lat": 49.3988,
+    "lng": 8.6724,
+    "city": "海德堡",
+    "city_en": "Heidelberg",
+    "country": "德国 (巴登大公国)",
+    "country_en": "Germany (Grand Duchy of Baden)",
+    "field": ["化学", "物理学", "天文学"],
+    "field_en": ["Chemistry", "Physics", "Astronomy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Simple_spectroscope.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=aHDzbbnuo1Y",
+        "title": "本生与基尔霍夫：教会我们仰望星辰的人",
+        "title_en": "Decoding Starlight – Part 5: Kirchhoff's Three Laws of Spectroscopy",
+        "duration": "4:58"
+      }
+    },
+    
+    "summary": {
+      "text": "化学家罗伯特·本生（Robert Bunsen）和物理学家古斯塔夫·基尔霍夫（Gustav Kirchhoff）在1859年进行了一项历史性的合作。本生发明了“本生灯”，它能产生一种高温、无色的火焰；基尔霍夫则发明了“光谱仪”（一种先进的棱镜设备）。当他们将不同的化学盐（如钠、锂）放入火焰中，并用光谱仪观察时，他们发现每一种元素都会发出一套独一无二的、彩色的“光谱条码”（发射光谱）。",
+      "text_en": "In a historic 1859 collaboration, chemist Robert Bunsen and physicist Gustav Kirchhoff combined their inventions. Bunsen provided the 'Bunsen burner', which produced a hot, non-luminous flame, and Kirchhoff provided the 'spectroscope', an advanced prism device. When they put different chemical salts (like sodium or lithium) into the clean flame and observed it through the spectroscope, they discovered that *every element* emits a unique 'spectral barcode' of colored lines (an emission spectrum).",
+      "key_points": [
+        "光谱分析 (Spectroscopy) 的诞生",
+        "发明了“本生灯”(Bunsen Burner)",
+        "每种元素都有唯一的光谱“指纹”",
+        "发现了新元素：铯 (Cesium) 和铷 (Rubidium)",
+        "首次分析了太阳大气的化学成分"
+      ],
+      "key_points_en": [
+        "Birth of Spectroscopy",
+        "Invention of the Bunsen Burner",
+        "Every element has a unique spectral 'fingerprint'",
+        "Discovered new elements: Cesium and Rubidium",
+        "First analysis of the Sun's chemical composition"
+      ]
+    },
+  
+    "story": {
+      "text": "本生的创新在于“本生灯”，它的火焰是如此“干净”（无色），以至于不会干扰被测物质发出的颜色。基尔霍夫的创新在于“光谱仪”，它能将火焰的颜色（光）分离成其组成谱线。他们系统地测试了各种元素：钠（Sodium）总是发出两条明亮的黄线；锂（Lithium）总是在红色区域发光。这使他们意识到自己拥有了一种“化学超能力”：通过分析光，就能识别物质。他们立即将光谱仪对准了当地矿泉水蒸发后的残留物，发现了几条“前所未见”的蓝色和红色谱线，从而发现了两种新元素：**铯**（Caesium，拉丁语意为“天蓝色”）和**铷**（Rubidium，拉丁语意为“深红色”）。",
+      "text_en": "Bunsen's innovation was the 'clean' flame; Kirchhoff's was the 'spectroscope' that could split the flame's light into its component lines. They systematically tested elements: sodium *always* produced two bright yellow lines; lithium *always* produced a bright red line. They realized they had a chemical 'superpower': they could identify any substance just by looking at its light. They immediately pointed their spectroscope at the residue from a local mineral water, found 'new' blue and red lines they had never seen before, and thus discovered two new elements: **Cesium** (from *caesius*, Latin for 'sky blue') and **Rubidium** (from *rubidus*, 'deep red').",
+      "diagram": "assets/images/spectrum.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "☀️",
+        "text": "基尔霍夫立即将此应用于天文学。他将太阳光谱中的“夫琅禾费暗线”（`fraunhofer_lines_1814`）与他实验室中“钠”的亮线进行了比对，发现它们**完美重合**。他由此证明了太阳大气中存在钠，**首次证明了太阳和地球是由相同的化学元素构成的**。",
+        "text_en": "Kirchhoff immediately applied this to astronomy. He compared the dark 'Fraunhofer lines' (`fraunhofer_lines_1814`) in the Sun's spectrum to the bright lines of sodium in his lab and found they *matched perfectly*. He thus proved the existence of sodium in the Sun's atmosphere—the first proof that the Sun and Earth are made of the same stuff."
+      },
+      {
+        "icon": "🧪",
+        "text": "光谱分析法是如此强大，以至于在他们发现铯和铷之后的几十年里，它被用于发现了十多种新元素（如氦、铟、镓）。",
+        "text_en": "Spectroscopy was so powerful that it was used to discover over a dozen new elements (like Helium, Indium, and Gallium) in the decades that followed."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "本生和基尔霍夫发明了一个“宇宙条码扫描器”。\n1. **本生灯**（Bunsen Burner）就像一个“干净的”扫描光束。\n2. **光谱仪**（Spectroscope）就是“扫描读取器”。\n他们发现，宇宙中的每一种“元素”（如铁、氢、钠）在被加热时，都会发出一种独一无二的“条形码”（彩色线条）。\n这意味着，科学家们再也不用“触摸”或“品尝”一种物质就能知道它是什么了。他们现在可以简单地“看”它的光——无论是来自实验室的火焰，还是来自太阳。",
+      "text_en": "Bunsen and Kirchhoff invented a 'Universal Barcode Scanner'.\n1. The **Bunsen Burner** was the 'clean' scanning beam.\n2. The **Spectroscope** was the 'scanner' that read the code.\nThey discovered that *every element* in the universe (Iron, Hydrogen, Sodium) glows with its own *unique barcode* of colored lines when heated.\nThis meant scientists no longer had to 'touch' or 'taste' a substance to know what it was. They could now just 'see' its light—whether it came from a flame in their lab or from the Sun.",
+      "diagram": "assets/images/spectrum.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🌌",
+          "title": "天体化学 (Astrochemistry)",
+          "title_en": "Astrochemistry",
+          "text": "光谱学使天文学家能够首次确定恒星、星云和行星大气的化学成分，将天文学从“测量位置”转变为“分析物质”。",
+          "text_en": "Spectroscopy allowed astronomers to determine the chemical composition of stars, nebulas, and planetary atmospheres for the first time, turning astronomy from a science of 'position' to a science of 'substance'."
+        },
+        {
+          "icon": "🔬",
+          "title": "化学分析 (Chemical Analysis)",
+          "title_en": "Chemical Analysis",
+          "text": "光谱分析法成为了（并且至今仍是）化学中最快、最强大的工具之一，用于识别混合物中的痕量元素。",
+          "text_en": "Spectral analysis became (and still is) one of the fastest and most powerful tools in chemistry for identifying trace elements in an unknown mixture."
+        },
+        {
+          "icon": "⚛️",
+          "title": "量子力学的证据",
+          "title_en": "Evidence for Quantum Mechanics",
+          "text": "“为什么”元素只发出这些“特定”的谱线（条码）？这个问题是经典物理学无法回答的，它成为了推动“量子力学”（`bohr_atom_1913`）诞生的核心实验证据。",
+          "text_en": "*Why* do elements *only* emit these *specific* lines? This question was the central puzzle that classical physics could not answer, and it became the core experimental evidence driving the birth of quantum mechanics (`bohr_atom_1913`)."
+        }
+      ],
+  
+    "impact": {
+      "text": "光谱分析法的发明，是19世纪最重大的科学突破之一。它在两个方面是革命性的：(1) 在天文学上，它无可辩驳地证明了“天”和“地”是由相同的化学物质构成的，彻底终结了亚里士多德的“天界-月下界”划分。(2) 在物理学上，它提供的“光谱数据”成为了量子革命的“罗塞塔石碑”，尼尔斯·玻尔（Niels Bohr）正是为了“解密”这些光谱，才提出了他的原子模型。",
+      "text_en": "Spectroscopy was one of the most profound breakthroughs of the 19th century. It was revolutionary in two ways: (1) Astronomically, it proved *definitively* that the 'heavens' and the 'Earth' are made of the same chemical stuff, ending the Aristotelian divide. (2) Physically, the spectral 'barcodes' it provided became the 'Rosetta Stone' for the quantum revolution. Niels Bohr (`bohr_atom_1913`) built his entire model of the atom specifically to *explain* these spectral lines.",
+      "stats": [
+          {
+            "number": "2",
+            "label": "种新发现的元素 (Cs, Rb)",
+            "label_en": "New Elements Discovered (Cs, Rb)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "fraunhofer_lines_1814",
+          "contribution": "夫琅禾费（他发现了太阳光谱中的“暗线”，但无法解释它们）",
+          "contribution_en": "Fraunhofer (who discovered the 'dark lines' in the Sun's spectrum but could not explain them)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "kirchhoff_black_body_1859",
+          "contribution": "基尔霍夫（这项实验工作直接导向了他的“黑体辐射”理论）",
+          "contribution_en": "Gustav Kirchhoff (this experimental work led directly to his 'black-body' radiation theory)"
+        },
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "尼尔斯·玻尔（其“量子化”原子模型，就是为了在数学上“预测”这些光谱‘指纹’而建立的）",
+          "contribution_en": "Niels Bohr (his quantum model of the atom was built specifically to mathematically *predict* these spectral 'fingerprints')"
+        },
+        {
+          "id": "discovery_of_helium_1868",
+          "contribution": "光谱学被用于在太阳光谱中发现“氦”，早于在地球上发现它",
+          "contribution_en": "Spectroscopy was used to discover 'Helium' in the Sun's spectrum *before* it was found on Earth"
+        }
+      ],
+      "legacy_text": "本生和基尔霍夫给了人类一双“化学之眼”，使我们能够仅凭光线就分析出宇宙的构成。",
+      "legacy_text_en": "Bunsen and Kirchhoff gave humanity 'chemical eyes', allowing us to analyze the composition of the universe just by looking at its light."
+    },
+  
+    "related_concepts": ["光谱学 (Spectroscopy)", "发射光谱 (Emission Spectrum)", "吸收光谱 (Absorption Spectrum)", "本生灯 (Bunsen Burner)", "光谱仪 (Spectroscope)", "夫琅禾费线 (Fraunhofer Lines)", "铯 (Cesium)", "铷 (Rubidium)", "基尔霍夫 (Kirchhoff)"],
+    "related_concepts_en": ["Spectroscopy", "Emission Spectrum", "Absorption Spectrum", "Bunsen Burner", "Spectroscope", "Fraunhofer Lines", "Cesium", "Rubidium", "Kirchhoff"],
+  
+    "quiz": {
+      "question": "本生和基尔霍夫开创的光谱分析法，揭示了关于化学元素的什么革命性事实？",
+      "question_en": "What revolutionary fact about chemical elements did Bunsen and Kirchhoff's spectroscopy reveal?",
+      "options": [
+        "所有元素都是由“水”组成的",
+        "元素可以被转变为黄金",
+        "每种元素在加热时都会发出独一无二的“光谱条码”（指纹）",
+        "元素只在太阳上存在"
+      ],
+      "options_en": [
+        "That all elements were made of 'water'",
+        "That elements could be transmuted into gold",
+        "That every element, when heated, emits a unique 'spectral barcode' (fingerprint)",
+        "That elements only exist on the Sun"
+      ],
+      "answer": 2,
+      "explanation": "他们最大的发现是，每种化学元素（如钠、锂、氢）的光谱都是独一无二的，就像人类的指纹一样。这使得光谱学成为了识别元素的黄金标准。",
+      "explanation_en": "Their great discovery was that the spectrum for each chemical element (like sodium, lithium, or hydrogen) is unique, like a fingerprint. This made spectroscopy the gold standard for identifying elements."
+    }
+  }

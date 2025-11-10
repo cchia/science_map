@@ -1,0 +1,161 @@
+{
+    "id": "davy_electrochemistry_1808",
+    "personId": "humphry_davy",
+    "title": "使用电解法发现多种新元素",
+    "title_en": "Discovers New Elements Using Electrolysis",
+    "year": 1808,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["化学", "物理学"],
+    "field_en": ["Chemistry", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Hofmann_voltameter_fr.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ESxTlCzqJKk",
+        "title": "伟大的发明家：汉弗莱·戴维",
+        "title_en": "The Great Inventor: Sir Humphry Davy",
+        "duration": "2:30"
+      }
+    },
+    
+    "summary": {
+      "text": "汉弗莱·戴维（Humphry Davy）是第一个充分利用亚历山德罗·伏打（Alessandro Volta）发明的“伏打电堆”（`volta_battery_1800`，即电池）的人。在1807-1808年间，他利用皇家学会的巨型电池进行“电解”，将强大的电流通过当时被认为是“元素”的物质（如苛性钾和苏打）。电流将这些化合物“撕开”，使他分离出了一系列前所未见的、反应性极强的金属，包括**钾 (Potassium)**、**钠 (Sodium)**、**钙 (Calcium)**、**镁 (Magnesium)**、**钡 (Barium)** 和**锶 (Strontium)**。这开创了“电化学”这一全新领域。",
+      "text_en": "Humphry Davy was the first to realize the full power of Alessandro Volta's 'Voltaic Pile' (`volta_battery_1800`, the battery). In 1807-1808, he used the Royal Institution's massive battery to perform 'electrolysis', passing powerful currents through substances then believed to be elements (like potash and soda). The electricity 'tore apart' these compounds, allowing him to isolate a series of never-before-seen, hyper-reactive metals, including **Potassium**, **Sodium**, **Calcium**, **Magnesium**, **Barium**, and **Strontium**. This effectively founded the new field of 'electrochemistry'.",
+      "key_points": [
+        "电化学 (Electrochemistry) 的奠基人",
+        "使用“电解”(Electrolysis) 分离元素",
+        "第一个分离出 钾 (K) 和 钠 (Na)",
+        "证明了“碱土”(Alkaline earths) 是金属氧化物",
+        "证明了“氯”(Chlorine) 是一种元素"
+      ],
+      "key_points_en": [
+        "Founder of Electrochemistry",
+        "Used 'Electrolysis' to isolate elements",
+        "First to isolate Potassium (K) and Sodium (Na)",
+        "Proved 'alkaline earths' were metal oxides",
+        "Proved 'Chlorine' was an element"
+      ]
+    },
+  
+    "story": {
+      "text": "戴维的突破性时刻发生在1807年10月。当时，所有人都认为“苛性钾”(caustic potash) 是一种基本元素。戴维怀疑它是一种氧化物。他先尝试电解其水溶液，但只得到了氢气和氧气。于是，他决定将其“熔化”成液体，然后将伏打电堆的电极插入熔融的钾碱中。奇迹发生了：在阴极（负极）上，出现了“小小的金属球珠，像水银一样明亮”。这些球珠一接触到空气就立即燃烧，而在水中则发生剧烈爆炸并产生紫色火焰。戴维发现了“钾”(Potassium)。据他的助手说，他当时欣喜若狂，在实验室里手舞足蹈。几天后，他用同样的方法从“苏打”(soda) 中分离出了“钠”(Sodium)。",
+      "text_en": "Davy's breakthrough moment came in October 1807. Everyone believed 'caustic potash' was a fundamental element. Davy suspected it was an oxide. He first tried electrolyzing it in water, but only got hydrogen and oxygen. He then decided to *melt* it and plunge the electrodes of his Voltaic Pile into the molten liquid. At the negative electrode, 'small globules having a high metallic lustre, like mercury' appeared. They burst into flame on contact with air and exploded with a violent, violet flame on contact with water. Davy had discovered Potassium. His assistant noted he danced around the room in ecstasy. Days later, he used the same method on 'soda' to isolate Sodium.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Chloralkali_membrane.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💨",
+        "text": "戴维的职业生涯始于研究“笑气”（一氧化二氮）。他大胆地吸入了他测试的每一种气体，这使他名声大噪，但也严重损害了他的健康。",
+        "text_en": "Davy's career was launched by his self-experiments with 'laughing gas' (Nitrous Oxide). He recklessly inhaled every gas he studied, which made him famous but permanently damaged his health."
+      },
+      {
+        "icon": "👨‍🔬",
+        "text": "戴维最伟大的“发现”之一，可能是在1812年雇佣了迈克尔·法拉第（Michael Faraday）作为他的实验室助手。",
+        "text_en": "Arguably one of Davy's greatest 'discoveries' was hiring a young Michael Faraday as his lab assistant in 1812."
+      },
+      {
+        "icon": "💡",
+        "text": "戴维还是“矿工安全灯”（戴维灯）的发明者，它能防止煤矿中的甲烷（沼气）爆炸，拯救了无数生命。",
+        "text_en": "Davy was also the inventor of the 'Davy Lamp' (a miner's safety lamp), which prevented methane gas explosions in coal mines and saved countless lives."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1800年，人们只知道几种金属。而像“苏打”（soda）这样的常见物质，被认为是“基本元素”。戴维拿到了一样新玩具：世界上最强大的“电池”（伏打电堆）。他就像一个用蛮力拆解乐高积木的小孩。他用电“猛击”苏打，结果“苏打”裂开了，从中跑出了一个前所未见的、闪亮的、一沾水就着火的全新金属——“钠”。他用这个方法，一口气发现了七八种新元素，证明了“电”是分离物质的终极工具。",
+      "text_en": "In 1800, people only knew a few metals, and common things like 'soda' were thought to be 'elements'. Davy got the world's biggest new toy: the 'battery' (Voltaic Pile). He was like a kid using brute force to break a LEGO brick. He 'zapped' soda with electricity, and the soda *split apart*, revealing a shiny new metal no one had ever seen—'Sodium'—which burst into flame on contact with water. He used this trick to discover 7 or 8 new elements, proving that 'electricity' was the ultimate tool for breaking matter apart."
+    },
+  
+    "applications": [
+        {
+          "icon": "🧪",
+          "title": "电化学 (Electrochemistry)",
+          "title_en": "Electrochemistry",
+          "text": "戴维的工作开创了“电化学”这一完整学科，即研究“电”与“化学反应”之间的关系。",
+          "text_en": "Davy's work founded the entire field of 'electrochemistry', the study of the relationship between electricity and chemical reactions."
+        },
+        {
+          "icon": "🏭",
+          "title": "现代工业生产",
+          "title_en": "Modern Industrial Production",
+          "text": "我们今天大规模生产“铝”、“氯气”和“氢气”所使用的“电解”工业流程，都源自戴维的实验。",
+          "text_en": "The modern industrial 'electrolysis' processes used to produce aluminum, chlorine gas, and hydrogen all stem from Davy's experiments."
+        },
+        {
+          "icon": "⚛️",
+          "title": "元素周期表",
+          "title_en": "The Periodic Table",
+          "text": "他发现的“碱金属”（K, Na）和“碱土金属”（Ca, Ba, Mg, Sr）家族，为后来的门捷列夫（Mendeleev）构建元素周期表提供了关键的“积木”。",
+          "text_en": "The family of 'alkali metals' (K, Na) and 'alkaline earth metals' (Ca, Ba, Mg, Sr) he discovered were critical 'building blocks' for Mendeleev when he built the periodic table."
+        }
+      ],
+  
+    "impact": {
+      "text": "戴维的电解实验是化学史上的一次重大革命。它彻底改变了“元素”的定义。它证明了许多被认为是“简单”的物质（如碱和土）实际上是“复合”的（是金属氧化物）。它将“电”引入了化学实验室，使其成为最强大的分析工具，并直接启发了他的助手迈克尔·法拉第（Michael Faraday）去探索电与物质之间更深层的、定量的关系（`faraday_electrolysis_1834`）。",
+      "text_en": "Davy's electrolysis experiments were a revolution in chemistry. They utterly changed the definition of an 'element'. He proved that many 'simple' substances (like alkalis and earths) were in fact 'compound' (metal oxides). He brought electricity into the lab as the single most powerful analytical tool, and directly inspired his assistant, Michael Faraday, to discover the deeper, *quantitative* relationship between electricity and matter (`faray_electrolysis_1834`).",
+      "stats": [
+          {
+            "number": "6",
+            "label": "种新元素 (1807-1808)",
+            "label_en": "New Elements (1807-1808)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "volta_battery_1800",
+          "contribution": "亚历山德罗·伏打（其“伏打电堆”是戴维进行实验所必需的强大电源）",
+          "contribution_en": "Alessandro Volta (his 'Voltaic Pile' was the powerful source of electricity *required* for Davy's experiments)"
+        },
+        {
+          "id": "lavoisier_elements_1789",
+          "contribution": "拉瓦锡（其“元素”的新定义，促使戴维去检验哪些物质是“真正的”元素）",
+          "contribution_en": "Lavoisier (his new definition of 'element' spurred Davy to test which substances were 'truly' elemental)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "faraday_induction_1831",
+          "contribution": "迈克尔·法拉第（戴维的助手和继任者，其所有电学工作都建立在戴维的电化学基础之上）",
+          "contribution_en": "Michael Faraday (Davy's assistant and successor, whose entire life's work on electricity was built on Davy's electrochemical foundation)"
+        },
+        {
+          "id": "faraday_electrolysis_1834",
+          "contribution": "迈克尔·法拉第（其“电解定律”是将戴维的“定性”发现转变为“定量”科学）",
+          "contribution_en": "Michael Faraday (his 'Laws of Electrolysis' were the *quantification* of Davy's *qualitative* discoveries)"
+        }
+      ],
+      "legacy_text": "戴维用伏打的电池作为“魔杖”，从最普通的物质中召唤出了前所未见的、神奇的金属元素。",
+      "legacy_text_en": "Davy used Volta's battery as a 'magic wand' to conjure fantastic, never-before-seen metals out of the most common substances."
+    },
+  
+    "related_concepts": ["电解 (Electrolysis)", "电化学 (Electrochemistry)", "伏打电堆 (Voltaic Pile)", "钾 (Potassium)", "钠 (Sodium)", "碱金属 (Alkali Metals)", "法拉第 (Faraday)", "拉瓦锡 (Lavoisier)"],
+    "related_concepts_en": ["Electrolysis", "Electrochemistry", "Voltaic Pile", "Potassium", "Sodium", "Alkali Metals", "Faraday", "Lavoisier"],
+  
+    "quiz": {
+      "question": "汉弗莱·戴维（Humphry Davy）在1807-1808年使用什么革命性工具来分离出钠和钾等新元素？",
+      "question_en": "What revolutionary new tool did Humphry Davy use in 1807-1808 to isolate new elements like Sodium and Potassium?",
+      "options": [
+        "本生灯 (Bunsen Burner)",
+        "望远镜 (Telescope)",
+        "显微镜 (Microscope)",
+        "伏打电堆 (Voltaic Pile / Battery)"
+      ],
+      "options_en": [
+        "A Bunsen Burner",
+        "A Telescope",
+        "A Microscope",
+        "A Voltaic Pile (Battery)"
+      ],
+      "answer": 3,
+      "explanation": "戴维的突破是“电化学”。他利用了亚历山德罗·伏打（`volta_battery_1800`）新发明的电池，通过强大的电流（电解）来分解那些用传统化学方法无法分解的化合物。",
+      "explanation_en": "Davy's breakthrough was 'electrochemistry'. He used the newly invented battery (the Voltaic Pile, `volta_battery_1800`) to apply a powerful electrical current (electrolysis) to split compounds that were impossible to break apart with normal chemistry."
+    }
+  }

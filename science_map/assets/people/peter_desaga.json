@@ -1,0 +1,9 @@
+{
+    "name": "彼得·德萨加",
+    "name_en": "Peter Desaga",    
+    "bio_short": "德国（普鲁士）仪器制造师，海德堡大学的实验室技师。他与罗伯特·本生（Robert Bunsen）合作，在1855年设计并制造了第一台“本生灯”。",
+    "bio_short_en": "A German (Prussian) instrument maker and laboratory technician at the University of Heidelberg. He collaborated with Robert Bunsen to design and build the first practical 'Bunsen burner' in 1855.",
+    "events": [
+      "bunsen_burner_1855"
+    ]
+  }
