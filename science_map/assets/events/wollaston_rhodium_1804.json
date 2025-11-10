@@ -1,0 +1,138 @@
+{
+    "id": "wollaston_rhodium_1804",
+    "personId": "william_hyde_wollaston",
+    "title": "发现元素“铑” (Rhodium)",
+    "title_en": "Discovers the Element Rhodium",
+    "year": 1804,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["化学"],
+    "field_en": ["Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rhodium_powder_pressed_melted.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=PPSO5798k2I",
+        "title": "铑 (Rh) 元素简介",
+        "title_en": "Rhodium - Periodic Table of Videos",
+        "duration": "4:59"
+      }
+    },
+    
+    "summary": {
+      "text": "在1804年，即他宣布发现“钯”（`wollaston_palladium_1803`）之后不久，沃拉斯顿又宣布了从同一批“铂”(Platinum) 矿石中分离出了第二种新元素。他将这种新金属命名为“铑”(Rhodium)，源自希腊语“rhodon”（意为“玫瑰”），因为这种金属的盐溶液呈现出一种独特的玫瑰红色。",
+      "text_en": "In 1804, shortly after announcing his discovery of Palladium (`wollaston_palladium_1803`), Wollaston announced the isolation of a *second* new element from the same batch of 'Platinum' ore. He named this new metal 'Rhodium', derived from the Greek word *'rhodon'* (meaning 'rose'), because its salt solutions had a distinctive rose-red color.",
+      "key_points": [
+        "发现了第45号元素：铑 (Rhodium, Rh)",
+        "从“铂”(Platinum) 矿石中发现",
+        "在发现“钯”(Palladium) 后不久宣布",
+        "因其“玫瑰色”的盐溶液而得名"
+      ],
+      "key_points_en": [
+        "Discovered Element 45: Rhodium (Rh)",
+        "Found within 'Platinum' ore",
+        "Announced shortly after Palladium",
+        "Named for the 'rose-red' color of its salts"
+      ]
+    },
+  
+    "story": {
+      "text": "沃拉斯顿通过一套极其复杂和严谨的化学流程（包括使用“王水”溶解铂矿）来分离这些新金属。在分离出“铂”和“钯”之后，他在剩余的溶液中加入氯化铵和锌，经过处理后，得到了一种深红色的沉淀物。他将这种沉淀物用氢气还原，最终得到了一种全新的、坚硬的、银白色的金属，这就是“铑”。",
+      "text_en": "Wollaston used a highly complex and rigorous chemical process (involving aqua regia) to separate these new metals. After removing the Platinum and the Palladium from the solution, he treated the remaining liquid (which had a red color) with zinc. This precipitated a new metal, which he isolated and named 'Rhodium' after the Greek 'rhodon' (rose) for the color of its compounds.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/85/Rhodium_78g_sample.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💎",
+        "text": "“铑”是地球上最稀有、最昂贵的贵金属之一，其价格经常远超黄金和铂金。",
+        "text_en": "Rhodium is one of the rarest and most expensive precious metals on Earth, often far exceeding the price of gold and platinum."
+      },
+      {
+        "icon": "💍",
+        "text": "您（或您认识的人）很可能佩戴着铑。“白金”珠宝（以及银饰）的表面通常会镀上一层极薄的“铑”，以使其更亮、更白、更耐刮擦。",
+        "text_en": "You (or someone you know) are probably wearing Rhodium. 'White gold' jewelry (and silver) is often 'rhodium-plated' with an ultra-thin layer to make it whiter, brighter, and more scratch-resistant."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在沃拉斯顿发现了“钯”（`wollaston_palladium_1803`）之后，他继续“淘洗”他用来提纯铂的“化学残渣”。他发现，在分离出铂和钯*之后*，溶液仍然呈现出一种漂亮的“玫瑰红色”。他意识到，这里面还藏着“第三种”新金属。他成功地将其分离出来，并根据这种玫瑰色，将其命名为“铑”(Rhodium)。",
+      "text_en": "After Wollaston found Palladium (`wollaston_palladium_1803`), he kept 'panning' the chemical 'sludge' from his platinum process. He noticed that *after* the platinum and palladium were gone, the remaining liquid was a beautiful 'rose-red' color. He realized a *third* new metal was hiding in there. He successfully isolated it and, inspired by the color, named it 'Rhodium' (from the Greek for 'rose').",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Rhodium_foil_and_wire.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚗",
+          "title": "催化转换器 (Catalytic Converters)",
+          "title_en": "Catalytic Converters",
+          "text": "和“钯”一样，“铑”也是汽车催化转换器的关键成分，它极其擅长“还原”有毒的氮氧化物 (NOx)。",
+          "text_en": "Like Palladium, Rhodium is a critical component in catalytic converters. It is extremely efficient at 'reducing' toxic Nitrogen Oxides (NOx)."
+        },
+        {
+          "icon": "💍",
+          "title": "珠宝电镀 (Jewelry Plating)",
+          "title_en": "Jewelry Plating",
+          "text": "由于其极高的反射率和抗腐蚀性，铑被用于电镀“白金”和“银饰”，使其更亮、更耐用。",
+          "text_en": "Because of its extreme reflectivity and corrosion resistance, Rhodium is 'plated' onto white gold and silver to make it brighter and more durable."
+        }
+      ],
+  
+    "impact": {
+      "text": "“铑”和“钯”的共同发现，开创了“铂族金属”这一全新的化学子领域。这证明了自然界中的元素远比之前想象的要多、也更“隐藏”。沃拉斯顿严谨的化学分离技术，为19世纪的元素大发现设立了新的标准。",
+      "text_en": "The *combined* discovery of Rhodium and Palladium opened up the entire sub-field of 'platinum-group metals' chemistry. It proved that the elements were far more numerous and 'hidden' than previously thought. Wollaston's rigorous chemical separation techniques set a new standard for element discovery in the 19th century.",
+      "stats": [
+          {
+            "number": "45",
+            "label": "号元素 (Rh)",
+            "label_en": "Element (Rh)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "lavoisier_elements_1789",
+          "contribution": "拉瓦锡（其“元素”的新定义，激发了新一代化学家去寻找和分离新元素）",
+          "contribution_en": "Lavoisier (his new definition of 'element' inspired a new generation of chemists to hunt for and isolate them)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "mendeleev_periodic_table_1869",
+          "contribution": "门捷列夫（\"铑\"是门捷列夫构建\"元素周期表\"时的关键数据点）",
+          "contribution_en": "Mendeleev ('Rhodium' was a crucial data point for Mendeleev when constructing the periodic table)"
+        }
+      ],
+      "legacy_text": "沃拉斯顿对铂矿石的细致分析，揭示了“铑”这种隐藏在铂光芒之下的“玫瑰色”新元素。",
+      "legacy_text_en": "Wollaston's meticulous analysis of platinum ore revealed Rhodium, the 'rose-red' new element hidden in plain sight."
+    },
+  
+    "related_concepts": ["铑 (Rhodium)", "钯 (Palladium)", "铂 (Platinum)", "铂族金属 (Platinum-Group Metals)", "元素 (Element)", "催化转换器 (Catalytic Converter)", "电镀 (Electroplating)"],
+    "related_concepts_en": ["Rhodium", "Palladium", "Platinum", "Platinum-Group Metals", "Element", "Catalytic Converter", "Electroplating"],
+  
+    "quiz": {
+      "question": "沃拉斯顿将他发现的第45号元素命名为“铑”(Rhodium) 的原因是什么？",
+      "question_en": "Why did Wollaston name element 45 'Rhodium'?",
+      "options": [
+        "因为它是在罗德岛 (Rhodes) 发现的",
+        "因为它的盐溶液呈“玫瑰红色”",
+        "因为它是从“铑”矿石中提取的",
+        "为了纪念他的同事罗德先生"
+      ],
+      "options_en": [
+        "It was discovered on the island of Rhodes",
+        "Because its salt solutions were 'rose-red'",
+        "It was extracted from 'rhod' ore",
+        "To honor his colleague, Mr. Rhode"
+      ],
+      "answer": 1,
+      "explanation": "他以希腊语 “rhodon”（ῥόδον，意为“玫瑰”）来命名这种元素，因为他在分离过程中发现其氯化物盐在水中会形成美丽的玫瑰红色溶液。",
+      "explanation_en": "He named the element after the Greek word 'rhodon' (ῥόδον), meaning 'rose', because its chloride salts formed a beautiful rose-red solution in water during his separation process."
+    }
+  }

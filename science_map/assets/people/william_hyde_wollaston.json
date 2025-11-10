@@ -1,0 +1,11 @@
+{
+    "name": "威廉·海德·沃拉斯顿",
+    "name_en": "William Hyde Wollaston",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Wollaston_William_Hyde_Jackson_color.jpg",
+    "bio_short": "英国化学家和物理学家。他发现了钯（Palladium）和铑（Rhodium）两种元素，并发明了将铂金加工成可锻造金属的商业方法。",
+    "bio_short_en": "An English chemist and physicist. He discovered the elements Palladium and Rhodium and invented the first commercial process for making platinum malleable.",
+    "events": [
+      "wollaston_palladium_1803",
+      "wollaston_rhodium_1804"
+    ]
+  }

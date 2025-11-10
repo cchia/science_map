@@ -401,6 +401,71 @@ final Map<String, String> fieldNamesEn = {
     );
   }
 
+// ========== 关于对话框 ==========
+  void _showAboutDialog(BuildContext context, bool isEnglish) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Row(
+          children: [
+            Icon(Icons.info_outline, color: Colors.blue[700]),
+            SizedBox(width: 10),
+            Text(isEnglish ? 'About Atlas of Thought' : '关于 Atlas of Thought'),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // 让弹窗自适应内容高度
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              isEnglish 
+                ? 'This app is a curated knowledge graph of scientific and philosophical ideas.'
+                : '这是一个关于科学与哲学思想演变的知识图谱。',
+              style: TextStyle(fontSize: 14),
+            ),
+            SizedBox(height: 20),
+            Text(
+              isEnglish ? 'Curated by:' : '策展人:',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            Text(
+              'C. Chia', // <-- 您可以修改为您希望显示的名字
+              style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
+            ),
+            SizedBox(height: 20),
+            Center(
+              child: ElevatedButton.icon(
+                icon: Icon(Icons.feedback_outlined),
+                label: Text(isEnglish ? 'Provide Feedback' : '提供反馈'),
+                onPressed: () {
+                  // --- 在这里填入您的反馈链接 ---
+                  // 方案 A: Google 表单
+                  final Uri feedbackUrl = Uri.parse('https://docs.google.com/forms/d/e/1FAIpQLSfyrdQW5dgh1TVyZRy5p0KjqO2-QrmmNGF1wHxQNil4FRmmvA/viewform?usp=header');
+                  
+                  // 方案 B: 启动电子邮件
+                  // final Uri feedbackUrl = Uri(
+                  //   scheme: 'mailto',
+                  //   path: 'your-email@gmail.com',
+                  //   query: 'subject=Feedback for Atlas of Thought',
+                  // );
+                  
+                  launchUrl(feedbackUrl);
+                  Navigator.pop(context);
+                },
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(isEnglish ? 'Close' : '关闭'),
+          ),
+        ],
+      ),
+    );
+  }  
+
   // ========== AppBar ==========
   PreferredSizeWidget _buildAppBar(AppLocalizations l10n, bool isEnglish) {
     return AppBar(
@@ -421,6 +486,13 @@ final Map<String, String> fieldNamesEn = {
           icon: Icon(Icons.filter_list),
           onPressed: () => _showFilterDialog(isEnglish),
         ),
+        // --- (新增) “关于”按钮 ---
+        IconButton(
+          icon: Icon(Icons.info_outline),
+          tooltip: isEnglish ? 'About' : '关于',
+          onPressed: () => _showAboutDialog(context, isEnglish),
+        ),
+        // --- (新增结束) ---        
         _buildLanguageMenu(),
       ],
     );
@@ -992,7 +1064,7 @@ final Map<String, String> fieldNamesEn = {
                   },
                 ),
               ),
-              
+
               SizedBox(height: 8),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,

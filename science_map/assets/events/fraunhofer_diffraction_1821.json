@@ -1,0 +1,155 @@
+{
+    "id": "fraunhofer_diffraction_1821",
+    "personId": "joseph_von_fraunhofer",
+    "title": "发明衍射光栅并测量光的波长",
+    "title_en": "Invents the Diffraction Grating & Measures Wavelengths of Light",
+    "year": 1821,
+    "lat": 48.1351,
+    "lng": 11.5820,
+    "city": "慕尼黑",
+    "city_en": "Munich",
+    "country": "巴伐利亚王国 (今德国)",
+    "country_en": "Kingdom of Bavaria (Modern Germany)",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Single_Slit_Diffraction_%28english%29.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=LYLjUgr3XI8",
+        "title": "衍射光栅",
+        "title_en": "Diffraction Grating",
+        "duration": "4:28"
+      }
+    },
+    
+    "summary": {
+      "text": "在1821-1823年间，夫琅禾费为了更精确地研究光谱（`fraunhofer_lines_1814`），发明了“衍射光栅”。他最初是在两根螺丝之间缠绕细线，后来发展到用金刚石在玻璃上刻出每毫米多达300条的精密平行线。通过让光穿过这些光栅，他利用“衍射”和“干涉”原理，首次精确地“测量”出了不同颜色光的“波长”(Wavelength)，尤其是太阳光谱中钠D线的波长。",
+      "text_en": "Between 1821-1823, to better study the spectrum (`fraunhofer_lines_1814`), Fraunhofer invented the 'diffraction grating'. He began by winding fine wire around two screws, but later used a diamond to rule up to 300 precise, parallel lines per millimeter onto glass. By passing light through these gratings, he used the principles of diffraction and interference to *measure* for the first time the precise *wavelengths* of different colors of light, particularly the 'D-line' from the solar spectrum.",
+      "key_points": [
+        "发明了“衍射光栅”(Diffraction Grating)",
+        "首次精确测量了光的“波长”(Wavelength)",
+        "为光的“波动理论” (`huygens_wave_theory_1678`) 提供了决定性的“定量”证据",
+        "衍射分支被命名为“夫琅禾费衍射” (Fraunhofer Diffraction)"
+      ],
+      "key_points_en": [
+        "Invented the 'Diffraction Grating'",
+        "First to precisely *measure* the 'wavelength' of light",
+        "Provided definitive *quantitative* proof for the 'Wave Theory of Light' (`huygens_wave_theory_1678`)",
+        "His work led to the field of 'Fraunhofer Diffraction' (far-field)"
+      ]
+    },
+  
+    "story": {
+      "text": "夫琅禾费的“衍射”工作是继托马斯·杨（Thomas Young, 1803）的双缝干涉实验之后，对“光的波动理论”最强有力的支持。杨氏的实验是“定性”的（显示了条纹，证明了光是波），而夫琅禾费的工作则是“定量”的（精确测量了波*长*）。他建立了一个公式，将光栅的“刻线间距”、“衍射角度”和“光的波长”这三者联系起来。通过这个公式，他能够宣布，太阳光谱中那条著名的黄色“D线”的波长，精确地等于 0.0005893 毫米（即 589.3 纳米）——这个数值至今仍是标准值。他将光从一种哲学概念，转变为一个可以被精确测量的物理实体。",
+      "text_en": "Fraunhofer's work on diffraction was the strongest support for the 'Wave Theory of Light' since Thomas Young's 1803 double-slit experiment. Young's experiment was 'qualitative' (it showed fringes, proving light was a wave). Fraunhofer's was *'quantitative'* (it *measured* the *length* of the wave). He developed the formula linking the 'grating separation', the 'angle of diffraction', and the 'wavelength of light'. With this, he could state that the famous 'D-line' in the solar spectrum had a wavelength of 0.0005893 mm (589.3 nm)—the correct value. He turned light from a concept into a precisely measurable physical entity.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/96/Airy-pattern2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "✨",
+        "text": "夫琅禾费衍射（远场衍射）和菲涅尔衍射（近场衍射）是经典光学中衍射理论的两大分支。",
+        "text_en": "Fraunhofer diffraction (far-field) and Fresnel diffraction (near-field) are the two main branches of classical diffraction theory."
+      },
+      {
+        "icon": "🏭",
+        "text": "夫琅禾费本人首先是一名工业家——他是巴伐利亚一家光学仪器厂的合伙人。他所有的科学发现都是为了一个商业目标：制造出无色差的“完美望远镜”。",
+        "text_en": "Fraunhofer was an industrialist first—a partner in a Bavarian optical institute. All of his scientific discoveries were driven by the commercial goal of building 'perfect', aberration-free telescopes."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你用一张CD或DVD的光盘（它上面有无数条细小的轨道）对着灯光，你会看到它反射出彩虹。夫琅禾费在1821年发明了这张“CD”的科学版本：他在玻璃上刻了成千上万条比头发丝还细的平行线，这叫“衍射光栅”。当光穿过它时，光会像波一样“衍射”（散开）。更重要的是，夫琅禾费发明了一个“尺子”（公式），使他能够通过测量光“散开的角度”，来精确地“测量出”不同颜色光（如红色光）的“波长”。",
+      "text_en": "If you hold a CD or DVD up to a light, you see a rainbow. This is because a CD has thousands of tiny grooves. In 1821, Fraunhofer invented the scientific version of this: he 'scratched' thousands of parallel lines (finer than a hair) onto glass, creating a 'diffraction grating'. When light passes through it, the light 'bends' (diffracts) like a wave. More importantly, Fraunhofer created a 'ruler' (a formula) that allowed him to *measure the wavelength* of red light, just by measuring the *angle* at which it bends.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/95/Diffraction_of_laser_beam_by_grating.jpeg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "现代光谱学",
+          "title_en": "Modern Spectroscopy",
+          "text": "“衍射光栅”至今仍是所有高精度光谱仪（从天文学到化学）的核心部件，它完全取代了棱镜。",
+          "text_en": "The 'diffraction grating' is the core component of *all* modern high-precision spectroscopes, from astronomy to chemistry, having completely replaced the prism."
+        },
+        {
+          "icon": "🛰️",
+          "title": "天文学 (Astronomy)",
+          "title_en": "Astronomy",
+          "text": "天文学家使用衍射光栅来分析遥远恒星和星系的光，测量它们的化学成分、温度和“红移”(Redshift)。",
+          "text_en": "Astronomers use diffraction gratings to analyze the light from distant stars and galaxies, measuring their chemical composition, temperature, and 'redshift'."
+        },
+        {
+          "icon": "📀",
+          "title": "光学技术 (Optical Technology)",
+          "title_en": "Optical Technology",
+          "text": "CD、DVD、蓝光光盘和全息图 (Holograms) 的工作原理，都基于夫琅禾费的衍射光学。",
+          "text_en": "The technology behind CDs, DVDs, Blu-rays, and holograms is based on Fraunhofer's diffraction optics."
+        }
+      ],
+  
+    "impact": {
+      "text": "夫琅禾费的衍射光栅是19世纪光学最重要的发明之一。它为“光的波动理论”提供了最坚实、最精确的定量证据，将光的“波长”从一个理论概念转变为一个可以精确测量的物理量。这一成就为麦克斯韦（Maxwell）的电磁波理论和20世纪的量子力学铺平了道路。",
+      "text_en": "Fraunhofer's diffraction grating was one of the most important inventions in 19th-century optics. It provided the final, definitive, *quantitative* proof for the wave theory of light, turning 'wavelength' from a theoretical concept into a precisely measurable physical quantity. This achievement paved the way for Maxwell's electromagnetic theory and 20th-century quantum mechanics.",
+      "stats": [
+          {
+            "number": "589",
+            "label": "纳米 (他测量的钠D线波长)",
+            "label_en": "nm (Wavelength of Sodium D-Line)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "young_double_slit_1803",
+          "contribution": "托马斯·杨（其“双缝干涉”实验在“定性”上证明了光是波）",
+          "contribution_en": "Thomas Young (whose 'double-slit' experiment proved *qualitatively* that light is a wave)"
+        },
+        {
+          "id": "huygens_wave_theory_1678",
+          "contribution": "惠更斯（其“波动理论”是夫琅禾费工作的理论基础）",
+          "contribution_en": "Huygens (whose 'wave theory' provided the theoretical basis for Fraunhofer's work)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "bunsen_spectroscopy_1859",
+          "contribution": "本生和基尔霍夫（他们使用了夫琅禾费的“光谱仪”设计）",
+          "contribution_en": "Bunsen & Kirchhoff (who used Fraunhofer's 'spectroscope' design)"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（夫琅禾费对“波长”的精确测量，是麦克斯韦将其统一为“电磁波”的关键数据）",
+          "contribution_en": "Maxwell (Fraunhofer's precise measurement of 'wavelength' was key data for Maxwell's unification of light as an electromagnetic wave)"
+        }
+      ],
+      "legacy_text": "夫琅禾费将光从一种哲学概念，转变为一个可以被精确“测量”的物理实体（波长）。",
+      "legacy_text_en": "Fraunhofer transformed light from a philosophical concept into a precisely 'measurable' physical entity (a wavelength)."
+    },
+  
+    "related_concepts": ["衍射 (Diffraction)", "衍射光栅 (Diffraction Grating)", "干涉 (Interference)", "波长 (Wavelength)", "光谱仪 (Spectroscope)", "夫琅禾费线 (Fraunhofer Lines)", "光的波动说 (Wave Theory of Light)", "托马斯·杨 (Thomas Young)"],
+    "related_concepts_en": ["Diffraction", "Diffraction Grating", "Interference", "Wavelength", "Spectroscope", "Fraunhofer Lines", "Wave Theory of Light", "Thomas Young"],
+  
+    "quiz": {
+      "question": "夫琅禾费（Fraunhofer）发明的“衍射光栅”为哪个长期存在争议的理论提供了决定性的“定量”证据？",
+      "question_en": "Fraunhofer's 'diffraction grating' provided definitive *quantitative* proof for which long-disputed theory?",
+      "options": [
+        "光的“波动”理论（惠更斯）",
+        "光的“微粒”理论（牛顿）",
+        "地心说（托勒密）",
+        "万有引力（牛顿）"
+      ],
+      "options_en": [
+        "The 'Wave' Theory of Light (Huygens)",
+        "The 'Particle' Theory of Light (Newton)",
+        "The Geocentric Theory (Ptolemy)",
+        "The Law of Gravitation (Newton)"
+      ],
+      "answer": 0,
+      "explanation": "托马斯·杨的实验（`young_double_slit_1803`）定性地证明了光是波。而夫琅禾费通过他的光栅，第一个“测量”出了光的“波长”这一物理量，从而提供了无可辩驳的“定量”证据，彻底击败了牛顿的微粒说。",
+      "explanation_en": "Thomas Young's experiment (`young_double_slit_1803`) *qualitatively* showed light was a wave. Fraunhofer, with his grating, was the first to *quantitatively measure* its 'wavelength', providing the definitive proof that defeated Newton's particle theory."
+    }
+  }

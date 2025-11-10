@@ -1,0 +1,155 @@
+{
+    "id": "fraunhofer_lines_1814",
+    "personId": "joseph_von_fraunhofer",
+    "title": "系统性绘制“夫琅禾费谱线” (太阳吸收光谱)",
+    "title_en": "Systematically Maps the 'Fraunhofer Lines' (Solar Absorption Spectrum)",
+    "year": 1814,
+    "lat": 48.1351,
+    "lng": 11.5820,
+    "city": "慕尼黑",
+    "city_en": "Munich",
+    "country": "巴伐利亚王国 (今德国)",
+    "country_en": "Kingdom of Bavaria (Modern Germany)",
+    "field": ["物理学", "天文学"],
+    "field_en": ["Physics", "Astronomy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Fraunhofer_lines.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=eSMhVDQtPD4",
+        "title": "夫琅禾费线：200年的科学发现",
+        "title_en": "200 years of Fraunhofer lines",
+        "duration": "4:03"
+      }
+    },
+    
+    "summary": {
+      "text": "约瑟夫·冯·夫琅禾费（Joseph von Fraunhofer）是一位顶尖的光学仪器制造商。在使用他自己制造的高质量棱镜和“光谱仪”观测太阳光谱时，他（继威廉·沃拉斯顿之后）独立地重新发现了太阳光谱并非连续，而是布满了成百上千条“暗线”。他的伟大贡献在于，他*系统性*地测量并绘制了其中约570条暗线的位置，并将最主要的几条用字母（A 到 K）命名。这些“夫琅禾费线”是太阳的“吸收光谱”。",
+      "text_en": "Joseph von Fraunhofer, a master optician, independently rediscovered (after Wollaston) that the solar spectrum was not continuous but was crossed by thousands of 'dark lines'. He was observing the sun with a high-quality prism and an instrument he invented: the 'spectroscope'. His great contribution was to *systematically* measure and map the precise location of ~570 of these lines, labeling the most prominent ones with letters (A through K). These 'Fraunhofer lines' are the sun's 'absorption spectrum'.",
+      "key_points": [
+        "绘制了太阳光谱中的“暗线”（吸收光谱）",
+        "系统性地编录了约570条谱线",
+        "发明了“光谱仪”(Spectroscope)",
+        "为光谱学 (`bunsen_spectroscopy_1859`) 提供了关键数据"
+      ],
+      "key_points_en": [
+        "Mapped the 'dark lines' (absorption spectrum) of the Sun",
+        "Systematically cataloged ~570 lines",
+        "Invented the 'spectroscope'",
+        "Provided the key data for spectroscopy (`bunsen_spectroscopy_1859`)"
+      ]
+    },
+  
+    "story": {
+      "text": "夫琅禾费的初衷并不是进行纯粹的科学研究，而是为了制造“完美”的望远镜。他需要一种“纯色”的单色光来精确测量玻璃的“折射率”，以消除色差（彩虹边）。当他将太阳光通过他的高品质棱镜时，他没有得到一个光滑的彩虹，反而看到了一个布满“黑条纹”的“条形码”。他没有忽视这些“瑕疵”，而是像一个制图师一样，以极高的精度将它们全部绘制了下来。他不知道这些暗线是什么，但他为后来的科学家（如基尔霍夫和本生）提供了一张“藏宝图”，让他们得以“解密”太阳的化学成分。",
+      "text_en": "Fraunhofer's goal was not pure science; it was to build *perfect* telescopes. He needed a pure, single-color light source to precisely measure the 'refractive index' of his glass to eliminate chromatic aberration ('color fringing'). When he passed sunlight through his high-quality prism, instead of a smooth rainbow, he saw a 'barcode' of dark, missing stripes. He didn't ignore these 'flaws'; he mapped them with incredible precision. He didn't know *what* they were, but he provided the 'treasure map' that later scientists (Kirchhoff and Bunsen) would use to 'decode' the chemical composition of the Sun.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cmglee_Cambridge_Science_Festival_2016_sodium_lines.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧪",
+        "text": "夫琅禾费还观察了实验室中钠火焰的光谱，发现它会发出两条明亮的“黄线”。他注意到，这两条亮线与他图谱中太阳的“D线”（暗线）位于*完全相同*的位置。",
+        "text_en": "Fraunhofer also observed the spectrum of a sodium flame in his lab and saw it emitted two bright 'yellow lines'. He noted they were in the *exact same position* as the dark 'D-line' he had mapped in the sun's spectrum."
+      },
+      {
+        "icon": "🇬🇧",
+        "text": "英国科学家威廉·沃拉斯顿（William Wollaston）在1802年就看到了几条暗线，但他错误地认为它们是颜色之间的“自然边界”。",
+        "text_en": "The English scientist William Wollaston had seen a few of the dark lines in 1802, but he dismissed them as 'natural boundaries' between the colors."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你以为太阳光（彩虹）是“完整”的，包含了所有颜色。夫琅禾费是第一个使用“高分辨率”设备（光谱仪）仔细观察的人，他发现：“等等，彩虹里有几百个‘缺口’！” 太阳光就像一张被打了孔的卡片，特定的颜色“丢失了”。他不知道为什么，但他把所有“孔洞”的位置都精确地画了下来。这张“孔洞图”就是“夫琅禾费谱线”，它后来成为了解恒星由什么构成的“钥匙”。",
+      "text_en": "Imagine thinking a rainbow was a 'complete' band of color. Fraunhofer was the first person to look at it in 'high-resolution' (with a spectroscope) and say, 'Wait, there are hundreds of 'gaps' in the rainbow!' The sunlight was like a punch-card with specific colors *missing*. He didn't know why, but he drew a precise map of all the 'holes'. This map *is* the Fraunhofer Lines, and it became the key to figuring out what stars are made of.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Solar_spectral_irradiance.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "光谱学 (Spectroscopy)",
+          "title_en": "Spectroscopy",
+          "text": "夫琅禾费的“谱线图”是 `bunsen_spectroscopy_1859`（本生和基尔霍夫）用来识别元素的“罗塞塔石碑”（Rosetta Stone）。",
+          "text_en": "Fraunhofer's map of lines was the 'Rosetta Stone' that `bunsen_spectroscopy_1859` (Bunsen and Kirchhoff) used to identify elements."
+        },
+        {
+          "icon": "☀️",
+          "title": "天体化学 (Astrochemistry)",
+          "title_en": "Astrochemistry",
+          "text": "基尔霍夫通过将夫琅禾费线与实验室中的元素光谱对比，首次证明了太阳和地球是由相同的化学元素构成的。",
+          "text_en": "By matching Fraunhofer's lines to lab spectra, Kirchhoff proved for the first time that the Sun is made of the same chemical elements as the Earth."
+        },
+        {
+          "icon": "🔭",
+          "title": "精密光学 (Precision Optics)",
+          "title_en": "Precision Optics",
+          "text": "夫琅禾费谱线为光学家们提供了“标准参考波长”（如钠D线），用于精确测量和标准化玻璃的折射率。",
+          "text_en": "The lines gave opticians 'standard reference wavelengths' (like the 'D-line') to precisely measure and standardize the refractive index of glass."
+        }
+      ],
+  
+    "impact": {
+      "text": "夫琅禾费的发现，将牛顿的“光谱”（一种美丽的现象）转变为一种“可测量的、包含隐藏信息的数据集”。虽然他本人未能破解这个“密码”，但他提供的精确数据，是基尔霍夫和本生开创“光谱分析”的绝对前提。光谱分析最终导致了天体化学的诞生，并为尼尔斯·玻尔（Niels Bohr）的量子原子模型（`bohr_atom_1913`）提供了核心的实验证据。",
+      "text_en": "Fraunhofer turned Newton's 'spectrum' (a beautiful phenomenon) into a *measurable dataset* that contained hidden information. Though he didn't crack the code, his precise map was the absolute prerequisite for Kirchhoff and Bunsen to found 'spectroscopy'. Spectroscopy, in turn, led to astrochemistry and provided the core experimental evidence for Niels Bohr's quantum model of the atom (`bohr_atom_1913`).",
+      "stats": [
+          {
+            "number": "570",
+            "label": "条谱线 (被编录)",
+            "label_en": "Lines Cataloged"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "newton_opticks_1704",
+          "contribution": "牛顿（其用棱镜将白光分解为光谱的工作是夫琅禾费的基础）",
+          "contribution_en": "Newton (whose work with prisms splitting white light was the foundation for Fraunhofer)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "bunsen_spectroscopy_1859",
+          "contribution": "本生和基尔霍夫（他们的光谱分析就是为了“解释”夫琅禾费谱线）",
+          "contribution_en": "Bunsen & Kirchhoff (their spectroscopy was created to *explain* the Fraunhofer lines)"
+        },
+        {
+          "id": "kirchhoff_black_body_1859",
+          "contribution": "基尔霍夫（其“黑体辐射”定律解释了夫琅禾费线是如何作为“吸收光谱”形成的）",
+          "contribution_en": "Kirchhoff (his law of radiation explained *how* the Fraunhofer lines formed as an absorption spectrum)"
+        },
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "尼尔斯·玻尔（其原子模型最终在物理上解释了为什么这些谱线只出现在“特定”位置）",
+          "contribution_en": "Niels Bohr (his atomic model finally explained *physically* why the lines appear at those *specific* locations)"
+        }
+      ],
+      "legacy_text": "夫琅禾费是太阳的“指纹采集者”。他绘制的图谱，成为了解密恒星化学成分的罗塞塔石碑。",
+      "legacy_text_en": "Fraunhofer was the 'fingerprint-taker' of the Sun. The map he drew became the Rosetta Stone for decoding the chemistry of the stars."
+    },
+  
+    "related_concepts": ["吸收光谱 (Absorption Spectrum)", "光谱学 (Spectroscopy)", "光谱仪 (Spectroscope)", "基尔霍夫 (Kirchhoff)", "本生 (Bunsen)", "钠D线 (Sodium D-line)", "天体化学 (Astrochemistry)"],
+    "related_concepts_en": ["Absorption Spectrum", "Spectroscopy", "Spectroscope", "Kirchhoff", "Bunsen", "Sodium D-line", "Astrochemistry"],
+  
+    "quiz": {
+      "question": "夫琅禾费（Fraunhofer）在太阳光谱中发现的“暗线”代表什么？",
+      "question_en": "What do the 'dark lines' (Fraunhofer lines) that Fraunhofer found in the Sun's spectrum represent?",
+      "options": [
+        "太阳黑子",
+        "棱镜中的瑕疵",
+        "太阳大气层中较冷化学元素“吸收”掉的特定颜色",
+        "地球大气层中的灰尘"
+      ],
+      "options_en": [
+        "Sunspots",
+        "Flaws in the prism",
+        "Specific colors of light 'absorbed' by cooler chemical elements in the Sun's atmosphere",
+        "Dust in the Earth's atmosphere"
+      ],
+      "answer": 2,
+      "explanation": "这些暗线是“吸收光谱”。太阳的核心发出了“完整”的彩虹（连续光谱），但当光穿过太阳较冷的外层大气时，大气中的化学元素（如氢、钠）会像海绵一样“吸收”掉它们各自“喜欢”的特定颜色，从而在彩虹上留下了“缺口”（暗线）。",
+      "explanation_en": "The dark lines are an 'absorption spectrum'. The Sun's hot core emits a *full* rainbow, but as that light passes through the Sun's *cooler* outer atmosphere, chemical elements (like hydrogen and sodium) 'absorb' their own specific favorite colors, leaving 'gaps' (dark lines) in the rainbow."
+    }
+  }

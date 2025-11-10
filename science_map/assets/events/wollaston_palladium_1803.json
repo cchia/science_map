@@ -1,0 +1,138 @@
+{
+    "id": "wollaston_palladium_1803",
+    "personId": "william_hyde_wollaston",
+    "title": "发现元素“钯” (Palladium)",
+    "title_en": "Discovers the Element Palladium",
+    "year": 1803,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["化学"],
+    "field_en": ["Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4ALTGeqmNFM",
+        "title": "钯 (Pd) 元素简介",
+        "title_en": "Palladium - Periodic Table of Videos",
+        "duration": "7:48"
+      }
+    },
+    
+    "summary": {
+      "text": "在1803年，沃拉斯顿在研究如何提纯“铂”(Platinum) 矿石时，分离出了一种新的贵金属。他没有立即发表论文，而是“匿名”在伦敦的一家商店出售这种新金属，称其为“新白银”(New Silver)，并悬赏挑战任何人来证明它不是新元素。在所有人都失败后，他才宣布自己是发现者。他以当时新发现的小行星“智神星”(Pallas) 来将其命名为“钯”(Palladium)。",
+      "text_en": "In 1803, while working to purify 'Platinum' ore, Wollaston isolated a new precious metal. Instead of publishing, he anonymously sold it in a London shop as 'New Silver' and offered a prize to anyone who could prove it *wasn't* a new element. After all failed, he announced *he* was the discoverer, naming it 'Palladium' after the recently discovered asteroid 'Pallas'.",
+      "key_points": [
+        "发现了第46号元素：钯 (Palladium, Pd)",
+        "通过提纯“铂”(Platinum) 矿石发现",
+        "以“匿名”和“悬赏”的戏剧性方式宣布",
+        "以小行星“智神星”(Pallas) 命名"
+      ],
+      "key_points_en": [
+        "Discovered Element 46: Palladium (Pd)",
+        "Found while purifying 'Platinum' ore",
+        "Announced via an anonymous sale and prize challenge",
+        "Named after the asteroid 'Pallas'"
+      ]
+    },
+  
+    "story": {
+      "text": "沃拉斯顿发现“钯”的方式非常奇特。在1803年，他没有立即发表论文，而是“匿名”在伦敦的一家商店出售这种新金属，称其为“新白银”(New Silver)。他还匿名悬赏，挑战任何化学家来证明这“不是”一种新元素（当时许多人认为这只是铂和汞的合金）。在所有人都失败后，沃拉斯顿才在1804年正式向皇家学会宣布，他就是发现者，并详细阐述了他从铂矿石中分离它的方法。",
+      "text_en": "Wollaston's discovery of Palladium was bizarre. In 1803, instead of publishing a paper, he *anonymously* placed the new metal for sale in a London shop, calling it 'New Silver'. He also anonymously offered a prize to any chemist who could prove it was *not* a new element (many assumed it was a platinum-mercury alloy). After everyone failed, Wollaston formally announced to the Royal Society in 1804 that *he* was the discoverer and detailed his method of separating it from platinum ore.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/05/Platinum-palladium_ore%2C_Stillwater_mine_MT.JPG"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💫",
+        "text": "“钯”(Palladium) 是以当时（1802年）刚被发现的“智神星”(Pallas) 命名，而智神星又是以希腊智慧女神“帕拉斯·雅典娜”命名的。",
+        "text_en": "He named 'Palladium' after the asteroid 'Pallas', which had just been discovered in 1802. The asteroid itself was named after the Greek goddess of wisdom, Pallas Athena."
+      },
+      {
+        "icon": "🤫",
+        "text": "沃拉斯顿对他发明的“铂”提纯工艺严格保密，这使他在有生之年垄断了市场，并获得了巨大利润。",
+        "text_en": "Wollaston kept his method for purifying platinum a closely guarded secret, which gave him a monopoly on the market and made him a great fortune."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "沃拉斯顿在“提纯”铂矿石的“残渣”中，发现了一种闪亮的新金属。但他玩了一个“恶作剧”：他匿名出售它，并悬赏“1英镑”给任何能揭穿这个“骗局”的人。结果，所有化学家都失败了。沃拉斯顿最后才站出来说：“没错，它是一种新元素，是我发现的。” 他以一颗新发现的小行星“智神星”(Pallas) 命名它为“钯”(Palladium)。",
+      "text_en": "Wollaston found a new, shiny metal in the 'sludge' left over from purifying platinum ore. But then he played a trick: he sold it anonymously, offering '£1' to anyone who could 'expose' it as a fake. Every chemist who tried, failed. Wollaston then revealed, 'It's real, and I discovered it.' He named it Palladium, after the new asteroid Pallas.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/71/Sulfidic_serpentintite_%28platinum-palladium_ore%29_Johns-Manville_Reef%2C_Stillwater_Complex.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚗",
+          "title": "催化转换器 (Catalytic Converters)",
+          "title_en": "Catalytic Converters",
+          "text": "如今，“钯”最重要的用途是在汽车的“催化转换器”中，它能将有毒的尾气（如一氧化碳）转化为无害气体。",
+          "text_en": "Today, Palladium's most critical use is in automotive 'catalytic converters', where it turns toxic exhaust gases (like Carbon Monoxide) into harmless gases."
+        },
+        {
+          "icon": "💍",
+          "title": "白金 (White Gold)",
+          "title_en": "White Gold",
+          "text": "钯是一种贵金属，常被用作合金，来制造“白金”珠宝（使黄金变白且更坚硬）。",
+          "text_en": "Palladium is a precious metal often used as an alloy to create 'white gold' jewelry (it bleaches the gold and makes it harder)."
+        }
+      ],
+  
+    "impact": {
+      "text": "钯的发现是19世纪初化学元素大发现浪潮的一部分。它（以及铑）的发现，开创了“铂族金属”这一全新的化学子领域，为工业界提供了具有独特催化性能的新材料。",
+      "text_en": "The discovery of Palladium was part of the great wave of element discoveries in the early 19th century. Its discovery (along with Rhodium) opened up the entire sub-field of 'platinum-group metals' chemistry, providing industry with new materials with unique catalytic properties.",
+      "stats": [
+          {
+            "number": "46",
+            "label": "号元素 (Pd)",
+            "label_en": "Element (Pd)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "lavoisier_elements_1789",
+          "contribution": "拉瓦锡（其“元素”的新定义，激发了新一代化学家去寻找和分离新元素）",
+          "contribution_en": "Lavoisier (his new definition of 'element' inspired a new generation of chemists to hunt for and isolate them)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "mendeleev_periodic_table_1869",
+          "contribution": "门捷列夫（“钯”是门捷列夫构建“元素周期表”时的关键数据点）",
+          "contribution_en": "Mendeleev ('Palladium' was a crucial data point for Mendeleev when constructing the periodic table)"
+        }
+      ],
+      "legacy_text": "沃拉斯顿对铂矿石的细致分析，揭示了“钯”这种隐藏在铂光芒之下的新元素。",
+      "legacy_text_en": "Wollaston's meticulous analysis of platinum ore revealed Palladium, a new element hidden in plain sight."
+    },
+  
+    "related_concepts": ["钯 (Palladium)", "铂 (Platinum)", "铂族金属 (Platinum-Group Metals)", "元素 (Element)", "催化转换器 (Catalytic Converter)", "铑 (Rhodium)", "智神星 (Pallas)"],
+    "related_concepts_en": ["Palladium", "Platinum", "Platinum-Group Metals", "Element", "Catalytic Converter", "Rhodium", "Pallas"],
+  
+    "quiz": {
+      "question": "沃拉斯顿是以什么来命名他发现的新元素“钯”(Palladium) 的？",
+      "question_en": "What did Wollaston name his new element 'Palladium' after?",
+      "options": [
+        "他的助手帕拉 (Palla)",
+        "希腊智慧女神帕拉斯 (Pallas Athena)",
+        "当时新发现的小行星“智神星”(Pallas)",
+        "他妻子的名字"
+      ],
+      "options_en": [
+        "His assistant, Palla",
+        "The Greek goddess Pallas Athena",
+        "The newly discovered asteroid, Pallas",
+        "His wife's name"
+      ],
+      "answer": 2,
+      "explanation": "沃拉斯顿是以1802年刚被发现的小行星“智神星”(Pallas) 来命名“钯”(Palladium) 的，这在当时是一种时髦的做法。",
+      "explanation_en": "Wollaston named 'Palladium' after the asteroid 'Pallas', which had just been discovered in 1802. This was a fashionable practice at the time."
+    }
+  }
