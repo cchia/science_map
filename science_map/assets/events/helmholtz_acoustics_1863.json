@@ -1,7 +1,138 @@
 {
   "id": "helmholtz_acoustics_1863",
-  "title": "Helmholtz Acoustics",
-  "title_en": "Helmholtz Acoustics",
+  "personId": "hermann_von_helmholtz",
+  "title": "发表《论音的感觉》 (声学)",
+  "title_en": "Publishes 'On the Sensations of Tone' (Acoustics)",
   "year": 1863,
-  "is_stub": true
+  "lat": 49.3988,
+  "lng": 8.6724,
+  "city": "海德堡",
+  "city_en": "Heidelberg",
+  "country": "德国 (巴登大公国)",
+  "country_en": "Germany (Grand Duchy of Baden)",
+  "field": ["物理学", "生物学", "医学"],
+  "field_en": ["Physics", "Biology", "Medicine"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Harmonic_partials_on_strings.svg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=DNKaIe3VTy4",
+      "title": "什么是音色？ (泛音)",
+      "title_en": "What makes instruments sound different?",
+      "duration": "5:25"
+    }
+  },
+  
+  "summary": {
+    "text": "亥姆霍兹发表了他的第二部关于“感知”的巨著《论音的感觉》。他将物理学、生理学和心理学结合起来，解释了“声音”是如何被感知为“音乐”的。他证明了“音色”(Timbre)——即钢琴和小提琴演奏同一音高时的区别——是由“泛音”（Harmonics 或 Overtones）的组合决定的。他还提出了“共振理论”(Resonance Theory) 来解释内耳（耳蜗）是如何通过不同部位对不同“频率”产生共鸣来区分音高的。",
+    "text_en": "Helmholtz published his second great masterpiece on 'perception', 'On the Sensations of Tone'. This book fused physics, physiology, and psychology to explain *how* physical 'sound' becomes 'music'. He proved that 'Timbre'—the quality that makes a piano and violin sound different on the same note—is determined by the combination of 'harmonics' or 'overtones'. He also proposed the 'Place Theory' of hearing: that the inner ear (cochlea) distinguishes pitch by having different sections 'resonate' at different frequencies, like tiny piano strings.",
+    "key_points": [
+      "声学 (Acoustics) 和 心理声学 (Psychoacoustics) 的奠基之作",
+      "用“泛音”(Harmonics) 解释了“音色”(Timbre)",
+      "提出了听觉的“共振理论”(Resonance Place Theory)",
+      "用物理学解释了“和谐”与“不和谐”音程"
+    ],
+    "key_points_en": [
+      "Foundational work of Acoustics and Psychoacoustics",
+      "Explained 'Timbre' using 'Harmonics' (overtones)",
+      "Proposed the 'Resonance Place Theory' of hearing",
+      "Used physics to explain musical 'consonance' and 'dissonance'"
+    ]
+  },
+
+  "story": {
+    "text": "亥姆霍兹解决了一个古老的问题：为什么 C 和 G（五度音程）听起来“和谐”，而 C 和 C#（小二度）听起来却“刺耳”？他的答案是纯粹的物理学。他证明了，当两个音的“泛音列”重叠（共享）的音符越多时，它们听起来就越“和谐”。当它们的泛音相互“拍打”（产生“差拍”）时，听起来就很“刺耳”。他甚至制造了一系列“亥姆霍兹共鸣器”（大小不一的空心球），用来像棱镜分解光一样，“分解”声音，并“听”到那些隐藏在主音符中的、微弱的“泛音”。",
+    "text_en": "Helmholtz solved an ancient question: *Why* do C and G (a perfect fifth) sound 'pleasing' (consonant), while C and C# (a minor second) sound 'jarring' (dissonant)? His answer was pure physics. He proved that when the 'harmonic series' (the overtones) of two notes *overlap* a lot, they sound consonant. When their harmonics 'beat' against each other, they sound dissonant. He even built 'Helmholtz Resonators' (hollow spheres of different sizes) that could *dissect* a complex sound and let him 'hear' the individual, hidden 'overtones' inside a single note, just like a prism splits light."    
+  },
+
+  "fun_facts": [
+    {
+      "icon": "👂",
+      "text": "亥姆霍兹的“共振理论”（耳蜗的不同部分感知不同频率）在100年后被格奥尔格·冯·贝凯希（Georg von Békésy）的实验所证实，后者因此获得了诺贝尔奖。",
+      "text_en": "Helmholtz's 'Place Theory' (different parts of the cochlea for different frequencies) was experimentally proven correct 100 years later by Georg von Békésy, who won the Nobel Prize for it."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "亥姆霍兹解开了“音乐”的秘密。他回答了：\n1. **为什么小提琴和钢琴听起来不一样？** 他证明，当你弹一个“Do”时，你听到的不仅仅是“Do”，还混合着一系列微弱的、更高音的“泛音”（Do, Sol, Mi...）。小提琴和钢琴的“泛音配方”不同，所以“音色”不同。\n2. **我们如何听到声音？** 他提出，你的“内耳”就像一架微型的“钢琴”，里面有几千根“琴弦”（毛细胞），每根“琴弦”只对一个特定的音高（频率）产生“共鸣”。",
+    "text_en": "Helmholtz unlocked the physics of 'music'. He answered:\n1. **Why do a violin and piano sound different?** He proved that when you play one note, you're hearing *more* than just that note. You're hearing a 'recipe' of quiet, higher-pitched 'overtones' (harmonics). The violin and piano use a different 'recipe', so they have a different 'timbre'.\n2. **How do we hear?** He proposed your inner ear is like a microscopic 'piano' with thousands of 'strings' (hair cells), and each 'string' is built to *resonate* with (vibrate to) only one specific, tiny frequency."    
+  },
+
+  "applications": [
+      {
+        "icon": "🎶",
+        "title": "音乐理论 (Music Theory)",
+        "title_en": "Music Theory",
+        "text": "他的工作为“和声”、“音程”和“音色”提供了第一个科学的、物理学的解释，是现代音乐理论的基础。",
+        "text_en": "His work provided the first scientific, physical explanation for 'harmony', 'intervals', and 'timbre', and is the foundation of modern music theory."
+      },
+      {
+        "icon": "🗣️",
+        "title": "声学 (Acoustics) 与音频工程",
+        "title_en": "Acoustics & Audio Engineering",
+        "text": "现代音频合成器（Synthesizers）、均衡器（EQ）和“傅里叶分析”（Fourier Analysis）都基于亥姆霍兹对“泛音”如何构成“音色”的理解。",
+        "text_en": "Modern audio synthesizers, equalizers (EQs), and Fourier analysis are all based on Helmholtz's understanding of how 'harmonics' build 'timbre'."
+      },
+      {
+        "icon": "🩺",
+        "title": "听力学 (Audiology)",
+        "title_en": "Audiology",
+        "text": "他对内耳（耳蜗）工作原理的“共振理论”，是现代听力科学和“人工耳蜗”植入物的基础。",
+        "text_en": "His 'place theory' of the cochlea is the foundation of modern hearing science and cochlear implants."
+      }
+    ],
+
+  "impact": {
+    "text": "与他的《生理光学手册》一样，《论音的感觉》将一个主观的、艺术性的领域（音乐和声音）转变为一个严谨的、定量的“心理物理学”科学。他将“美学”（和谐）用“物理学”（泛音）来解释，完成了对人类两大主要感官（视觉和听觉）的科学革命。",
+    "text_en": "Like his 'Handbook of Physiological Optics', this book transformed a subjective, artistic field (music, sound) into a rigorous, quantitative science of 'psychophysics'. He explained 'aesthetics' (harmony) with 'physics' (harmonics), completing the scientific revolution for our two primary senses: sight and sound.",
+    "stats": [
+        {
+          "number": "1863",
+          "label": "年 (声学巨著)",
+          "label_en": "Year (Acoustics Opus)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "pythagoras_philosophy_BC520",
+        "contribution": "毕达哥拉斯（其“天体音乐”和“和谐比例”的理念，是亥姆霍兹试图用物理学验证的）",
+        "contribution_en": "Pythagoras (his idea of 'musical ratios' was what Helmholtz set out to explain physically)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "bell_telephone_1876",
+        "contribution": "亚历山大·格拉汉姆·贝尔（其“电话”的发明，部分是受亥姆霍兹声学研究的启发）",
+        "contribution_en": "Alexander Graham Bell (his invention of the telephone was partly inspired by Helmholtz's work on acoustics)"
+      }
+    ],
+    "legacy_text": "亥姆霍兹解构了“声音”，向我们展示了“音色”和“和谐”的物理学原理。",
+    "legacy_text_en": "Helmholtz deconstructed 'sound' and showed us the physics of 'timbre' and 'harmony'."
+  },
+
+  "related_concepts": ["泛音 (Harmonics)", "音色 (Timbre)", "声学 (Acoustics)", "心理声学 (Psychoacoustics)", "共振 (Resonance)", "耳蜗 (Cochlea)", "音乐理论 (Music Theory)", "亥姆霍兹共鸣器 (Helmholtz Resonator)"],
+  "related_concepts_en": ["Harmonics", "Timbre", "Acoustics", "Psychoacoustics", "Resonance", "Cochlea", "Music Theory", "Helmholtz Resonator"],
+
+  "quiz": {
+    "question": "根据亥姆霍兹的《论音的感觉》，为什么钢琴和小提琴演奏同一个“Do”音，听起来却完全不同？",
+    "question_en": "According to Helmholtz's 'On the Sensations of Tone', why do a piano and a violin sound different, even when playing the same note (a 'C')?",
+    "options": [
+      "因为它们的音高 (Pitch) 不同",
+      "因为它们的响度 (Loudness) 不同",
+      "因为它们混合了不同的“泛音”(Harmonics)，导致“音色”(Timbre) 不同",
+      "因为一个是弦乐器，一个是打击乐器"
+    ],
+    "options_en": [
+      "Because their Pitch is different",
+      "Because their Loudness is different",
+      "Because they mix in different 'Harmonics' (overtones), creating a different 'Timbre'",
+      "Because one is a string and one is percussion"
+    ],
+    "answer": 2,
+    "explanation": "亥姆霍兹证明了，乐器发出的每个音符都不是“纯”的，而是由一个“基音”（决定音高）和一系列“泛音”（决定音色）混合而成的。钢琴和小提琴的“泛音配方”不同。",
+    "explanation_en": "Helmholtz proved that no instrument plays a 'pure' note. Every note is a 'recipe' of one 'fundamental' (which sets the pitch) and a series of 'overtones' (which set the timbre). The 'recipe' of overtones is different for a piano and a violin."
+  }
 }
