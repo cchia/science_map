@@ -1,7 +1,155 @@
 {
   "id": "young_double_slit_1803",
-  "title": "Young Double Slit",
-  "title_en": "Young Double Slit",
+  "personId": "thomas_young",
+  "title": "进行“双缝干涉”实验",
+  "title_en": "Performs the 'Double-Slit Experiment'",
   "year": 1803,
-  "is_stub": true
+  "lat": 51.5098,
+  "lng": -0.1180,
+  "city": "伦敦",
+  "city_en": "London",
+  "country": "英国",
+  "country_en": "United Kingdom",
+  "field": ["物理学"],
+  "field_en": ["Physics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Young-Thomas-Lectures1807-Plate_XXX-fig442-dbl_slit.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=Iuv6hY6zsd0",
+      "title": "双缝干涉实验",
+      "title_en": "The Original Double Slit Experiment",
+      "duration": "7:39"
+    }
+  },
+  
+  "summary": {
+    "text": "托马斯·杨（Thomas Young）进行了一项简单而极其优雅的实验，最终解决了“光是粒子还是波”这一长达百年的争论。他让一束光穿过两道靠得很近的平行狭缝，并观察投射在后方屏幕上的图案。他看到的不是两条亮线（“粒子”理论的预测），而是一系列明暗相间的“干涉条纹”。这无可辩驳地证明了光具有“波”的特性，并最终证实了惠更斯（`huygens_wave_theory_1678`）的波动理论，推翻了牛顿（`newton_opticks_1704`）的微粒说。",
+    "text_en": "Thomas Young performed a simple, elegant experiment that settled the century-long debate over whether light was a particle or a wave. He passed a single beam of light through two narrow, parallel slits and observed the pattern on a screen behind them. Instead of two bright lines (as the 'particle' theory would predict), he saw a series of alternating bright and dark 'interference fringes'. This was definitive proof that light behaves as a *wave*, resurrecting Huygens's wave theory (`huygens_wave_theory_1678`) and toppling Newton's particle theory (`newton_opticks_1704`).",
+    "key_points": [
+      "决定性地证明了“光是一种波”",
+      "观察到了“干涉条纹”(Interference Fringes)",
+      "证实了惠更斯 (`huygens_wave_theory_1678`) 的波动理论",
+      "推翻了牛顿 (`newton_opticks_1704`) 的微粒说",
+      "被誉为“物理学中最优美的实验”"
+    ],
+    "key_points_en": [
+      "Definitively proved 'light is a wave'",
+      "Observed 'interference fringes' (light and dark bands)",
+      "Vindicated Huygens's wave theory (`huygens_wave_theory_1678`)",
+      "Overthrew Newton's particle theory (`newton_opticks_1704`)",
+      "Called 'the most beautiful experiment in physics'"
+    ]
+  },
+
+  "story": {
+    "text": "牛顿的“微粒说”在当时占据了100年的统治地位。该理论预测，当光“粒子”穿过两条狭缝时，它们应该像“子弹”穿过两个洞一样，在后面的屏幕上形成“两条”亮带。然而，杨氏的实验却得到了“多条”明暗相间的条纹。他正确地将此解释为“波的干涉”：当来自两条狭缝的光波“波峰”与“波峰”相遇时，它们会“相长干涉”，形成“亮带”；当“波峰”与“波谷”相遇时，它们会“相消干涉”，相互抵消，形成“暗带”。这个实验在当时遭到了牛顿支持者的猛烈抨击和忽视。",
+    "text_en": "Newton's particle theory had reigned for 100 years. It predicted that if you shoot light 'particles' through two slits, you should get *two bright lines* on the screen, like shooting bullets through two holes. Young's experiment showed *multiple* light and dark bands instead. He correctly identified this as 'wave interference': where wave 'crests' from both slits meet, they add up (constructive interference) to make a *bright* fringe. Where a 'crest' meets a 'trough', they cancel each other out (destructive interference), creating a *dark* fringe. His work was viciously attacked and ignored by Newton's supporters at the time.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ebohr1_IP.svg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🗿",
+      "text": "托马斯·杨是一位“博学家”：他是一位医生、物理学家，还是一位语言学家。他也是“罗塞塔石碑”(Rosetta Stone) 的主要破译者之一。",
+      "text_en": "Thomas Young was a true 'polymath'. He was a physician, physicist, and linguist who was one of the key figures in *deciphering the Rosetta Stone*."
+    },
+    {
+      "icon": "⚛️",
+      "text": "讽刺的是，120年后，当物理学家用“电子”（明确的粒子）重复这个实验时，他们（令人震惊地）也得到了“干涉条纹”。这成为了“量子力学”和“波粒二象性”的核心悖论。",
+      "text_en": "Ironically, 120 years later when physicists re-did this experiment with 'electrons' (which are definite particles), they *also* got an interference pattern. This became the central paradox of quantum mechanics (wave-particle duality)."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象一下，你向一个有两个开口的防波堤扔石头，一次只扔一个（粒子）。你会在后面的墙上看到“两个”湿印记。\n现在，想象一下，你让“水波”同时穿过这两个开口。在后方的墙上，你不会看到“两个”大浪，而是会看到一个“条纹”图案：波峰与波峰相遇的地方（大浪），和波峰与波谷抵消的地方（平静的水）。\n杨氏的实验证明，光通过双缝时，表现得像“水波”，而不是“石头”。",
+    "text_en": "Imagine you throw *rocks* (particles) at a barrier with two openings. You'd expect to see *two* impact marks on the back wall.\nNow, imagine you send *water waves* at the barrier. When the waves pass through the two slits, they interfere. On the back wall, you'd see a *striped pattern* of big waves (crests meeting crests) and calm water (crests meeting troughs).\nYoung's experiment showed that light, when passed through two slits, behaves like the *water waves*, not the rocks.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Young_Diffraction.png"
+  },
+
+  "applications": [
+      {
+        "icon": "🌊",
+        "title": "物理光学 (Physical Optics)",
+        "title_en": "Physical Optics",
+        "text": "这个实验是所有“波动光学”（研究干涉、衍射和偏振）的基石。它允许人们首次测量光的“波长”。",
+        "text_en": "This experiment is the bedrock of all 'wave optics' (the study of interference, diffraction, and polarization). It allowed for the first measurements of the 'wavelength' of light."
+      },
+      {
+        "icon": "⚛️",
+        "title": "量子力学 (Quantum Mechanics)",
+        "title_en": "Quantum Mechanics",
+        "text": "“双缝干涉”后来成为了揭示“波粒二象性”（即电子等粒子也具有波动性）的核心思想实验。",
+        "text_en": "The double-slit experiment later became the central thought experiment that revealed 'wave-particle duality'—the fact that particles like electrons *also* behave as waves."
+      }
+    ],
+
+  "impact": {
+    "text": "杨氏双缝干涉实验是物理学史上最重要、最深刻的实验之一。在当时，它决定性地“杀死”了统治100多年的牛顿微粒说，并确立了“光的波动理论”为新的正统。在现代，它又成为了揭示量子世界奇异（波粒二象性）的核心悖论。物理学家理查德·费曼（Richard Feynman）曾说，这个实验包含了量子力学的“唯一奥秘”。",
+    "text_en": "Young's double-slit experiment is one of the most important and profound experiments in history. In its day, it definitively 'killed' Newton's 100-year-reign of the particle theory, establishing the wave theory as the new orthodoxy. In the modern era, it became the central paradox for revealing the strangeness of the quantum world (wave-particle duality). Richard Feynman said it contains 'the only mystery' of quantum mechanics.",
+    "stats": [
+        {
+          "number": "2",
+          "label": "道狭缝",
+          "label_en": "Slits"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "huygens_wave_theory_1678",
+        "contribution": "惠更斯（其被忽视的“波动理论”是杨氏实验试图验证的）",
+        "contribution_en": "Huygens (his neglected 'wave theory' was what Young's experiment sought to prove)"
+      },
+      {
+        "id": "newton_opticks_1704",
+        "contribution": "牛顿（其“微粒说”是杨氏实验试图推翻的主流理论）",
+        "contribution_en": "Newton (his 'corpuscular theory' was the dominant theory Young sought to disprove)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "fresnel_diffraction_1818",
+        "contribution": "奥古斯丁·菲涅尔（他为杨氏的“定性”实验结果提供了严谨的“定量”数学框架）",
+        "contribution_en": "Augustin-Jean Fresnel (who provided the rigorous 'quantitative' mathematical framework for Young's 'qualitative' result)"
+      },
+      {
+        "id": "maxwell_equations_1861",
+        "contribution": "麦克斯韦（其理论最终解释了光“是”什么波——电磁波）",
+        "contribution_en": "Maxwell (whose theory finally explained *what* the wave was: an electromagnetic wave)"
+      },
+      {
+        "id": "einstein_photoelectric_1905",
+        "contribution": "爱因斯坦（其“光电效应”又反过来证明了光*也*具有粒子性，从而创造了波粒二象性）",
+        "contribution_en": "Einstein (his 'photoelectric effect' conversely proved light *also* has particle properties, creating wave-particle duality)"
+      }
+    ],
+    "legacy_text": "托马斯·杨用两道狭缝，揭示了光最深层的波动本性。",
+    "legacy_text_en": "Thomas Young used two simple slits to reveal the deepest wave-nature of light."
+  },
+
+  "related_concepts": ["干涉 (Interference)", "衍射 (Diffraction)", "光的波动说 (Wave Theory)", "光的微粒说 (Corpuscular Theory)", "惠更斯 (Huygens)", "牛顿 (Newton)", "波粒二象性 (Wave-Particle Duality)", "量子力学"],
+  "related_concepts_en": ["Interference", "Diffraction", "Wave Theory", "Corpuscular Theory", "Huygens", "Newton", "Wave-Particle Duality", "Quantum Mechanics"],
+
+  "quiz": {
+    "question": "托马斯·杨（Thomas Young）的双缝实验观察到了什么现象，从而证明了光是“波”？",
+    "question_en": "What phenomenon did Thomas Young observe in his double-slit experiment that proved light was a 'wave'?",
+    "options": [
+      "光总是走直线",
+      "明暗相间的“干涉条纹”",
+      "光谱（彩虹）",
+      "光电效应"
+    ],
+    "options_en": [
+      "That light travels in straight lines",
+      "A pattern of 'interference fringes' (alternating light and dark bands)",
+      "A spectrum (a rainbow)",
+      "The photoelectric effect"
+    ],
+    "answer": 1,
+    "explanation": "如果光是“粒子”（像子弹），屏幕上应该只出现“两条”亮带。但他观察到的是“多条”明暗条纹，这是“波”（像水波）相互叠加（相长干涉）和相互抵消（相消干涉）的独特标志。",
+    "explanation_en": "If light were *particles* (like bullets), it would only form *two* bright bands. The *multiple* light-and-dark striped pattern he saw is the unique signature of *waves* adding up (constructive interference) and canceling each other out (destructive interference)."
+  }
 }

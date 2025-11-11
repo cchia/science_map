@@ -1,0 +1,10 @@
+{
+    "name": "埃瓦尔德·赫林",
+    "name_en": "Ewald Hering",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ewald_Hering2.jpg",
+    "bio_short": "德国生理学家，他对色觉和空间感知做出了根本性贡献。他提出了“拮抗处理”色觉理论（`hering_opponent_process_1878`），与“杨-亥姆霍兹理论”相辅相成。",
+    "bio_short_en": "A German physiologist who made fundamental contributions to color vision and spatial perception. He is famous for the 'Opponent-Process Theory' of color vision (`hering_opponent_process_1878`), the great rival and complement to the Young-Helmholtz theory.",
+    "events": [
+      "hering_opponent_process_1878"
+    ]
+  }

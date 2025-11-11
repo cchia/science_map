@@ -97,7 +97,7 @@
   
     "impact": {
       "text": "戴维的电解实验是化学史上的一次重大革命。它彻底改变了“元素”的定义。它证明了许多被认为是“简单”的物质（如碱和土）实际上是“复合”的（是金属氧化物）。它将“电”引入了化学实验室，使其成为最强大的分析工具，并直接启发了他的助手迈克尔·法拉第（Michael Faraday）去探索电与物质之间更深层的、定量的关系（`faraday_electrolysis_1834`）。",
-      "text_en": "Davy's electrolysis experiments were a revolution in chemistry. They utterly changed the definition of an 'element'. He proved that many 'simple' substances (like alkalis and earths) were in fact 'compound' (metal oxides). He brought electricity into the lab as the single most powerful analytical tool, and directly inspired his assistant, Michael Faraday, to discover the deeper, *quantitative* relationship between electricity and matter (`faray_electrolysis_1834`).",
+      "text_en": "Davy's electrolysis experiments were a revolution in chemistry. They utterly changed the definition of an 'element'. He proved that many 'simple' substances (like alkalis and earths) were in fact 'compound' (metal oxides). He brought electricity into the lab as the single most powerful analytical tool, and directly inspired his assistant, Michael Faraday, to discover the deeper, *quantitative* relationship between electricity and matter (`faraday_electrolysis_1834`).",
       "stats": [
           {
             "number": "6",

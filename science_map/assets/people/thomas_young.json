@@ -1,0 +1,12 @@
+{
+    "name": "托马斯·杨",
+    "name_en": "Thomas Young",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Thomas_Young_by_Briggs_cropped.jpg",
+    "bio_short": "英国博学家，被誉为“最后一个无所不晓的人”。他在物理学（光的波动理论、杨氏模量）、生物学（三原色视觉）和语言学（破译罗塞塔石碑）上均做出了奠基性贡献。",
+    "bio_short_en": "An English polymath, 'The Last Man Who Knew Everything'. He made foundational contributions in physics (wave theory of light, Young's Modulus), biology (trichromatic color theory), and linguistics (deciphering the Rosetta Stone).",
+    "events": [
+      "young_color_theory_1802",
+      "young_double_slit_1803",
+      "young_modulus_1807"
+    ]
+  }

@@ -1,0 +1,150 @@
+{
+    "id": "helmholtz_optics_1856",
+    "personId": "hermann_von_helmholtz",
+    "title": "发表《生理光学手册》 (杨-亥姆霍兹理论)",
+    "title_en": "Publishes 'Handbook of Physiological Optics' (Young-Helmholtz Theory)",
+    "year": 1856,
+    "lat": 49.3988,
+    "lng": 8.6724,
+    "city": "海德堡 (开始发表)",
+    "city_en": "Heidelberg (Publication started)",
+    "country": "德国 (巴登大公国)",
+    "country_en": "Germany (Grand Duchy of Baden)",
+    "field": ["物理学", "生物学", "医学"],
+    "field_en": ["Physics", "Biology", "Medicine"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Filterstef.JPG",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=WN1yCigL3Hk",
+        "title": "我们是如何看到颜色的？ (杨-亥姆霍兹理论)",
+        "title_en": "How Do We Actually See Color?",
+        "duration": "9:59"
+      }
+    },
+    
+    "summary": {
+      "text": "赫尔曼·冯·亥姆霍兹（Hermann von Helmholtz）发表了他划时代的巨著《生理光学手册》的第一卷。在这部著作中，他（最初是独立地）重提并极大地扩展了托马斯·杨（`young_color_theory_1802`）的三原色假说。亥姆霍兹通过严谨的“色觉匹配”实验，为该理论提供了第一个强大的“定量”和“实验”证据，证明了人眼只需要三种感光器（红、绿、蓝）。这最终将其确立为“杨-亥姆霍兹三原色理论”。",
+      "text_en": "Hermann von Helmholtz published the first volume of his monumental 'Handbook of Physiological Optics'. In this work, he (initially independently) revived and massively expanded Thomas Young's trichromatic hypothesis (`young_color_theory_1802`). Helmholtz provided the first strong 'quantitative' and 'experimental' proof for the theory through rigorous 'color-matching' experiments, proving that human color vision could be explained by just three receptor types (Red, Green, Blue). This cemented it as the 'Young-Helmholtz Theory'.",
+      "key_points": [
+        "“杨-亥姆霍兹三原色理论”的共同创始人",
+        "为托马斯·杨的理论提供了“定量”和“实验”证据",
+        "进行了“色觉匹配”(Color-matching) 实验",
+        "绘制了三种视锥细胞的“响应曲线”",
+        "奠定了现代色觉科学 (Color Science) 的基础"
+      ],
+      "key_points_en": [
+        "Co-founder of the 'Young-Helmholtz Theory'",
+        "Provided the 'quantitative' and 'experimental' proof for Young's idea",
+        "Conducted 'color-matching' experiments",
+        "Plotted the 'response curves' of the three cone types",
+        "Founded modern color science"
+      ]
+    },
+  
+    "story": {
+      "text": "托马斯·杨（`young_color_theory_1802`）在1802年提出了三原色理论，但这个想法在很大程度上被忽视了。50年后，亥姆霍兹（他最初并不知道杨氏的著作）也得出了同样的结论。但他更进一步：他设计了一个实验（“色觉匹配”），让观察者通过旋钮，混合三种“原色光”（红、绿、蓝），来尝试“匹配”光谱中的每一种颜色（如纯黄色或青色）。他发现，通过调整红、绿、蓝三者的比例，他几乎可以制造出“所有”可感知的颜色。他因此得以在数学上绘制出三种感光器（视锥细胞）各自的“敏感度曲线”——即我们JSON中使用的那张图。他用实验证明了杨的天才猜想。",
+      "text_en": "Thomas Young (`young_color_theory_1802`) had proposed the idea in 1802, but it was largely ignored. 50 years later, Helmholtz (unaware of Young's work at first) came to the same conclusion. But he went further: he ran 'color-matching' experiments, having subjects turn knobs to mix three 'primary' lights (Red, Green, Blue) to try and *match* any target color (like a pure yellow or a cyan). He proved that *all* perceivable colors could be 'faked' by a mix of just R, G, and B. This allowed him to mathematically *plot* the 'sensitivity curves' of the three cone types—the very graph used in our JSONs. He had experimentally proven Young's genius guess."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤝",
+        "text": "亥姆霍兹在发表他的研究后，才得知托马斯·杨早在50年前就已提出了基本相同的想法。亥姆霍兹非常慷慨地将杨氏的名字放在自己前面，将该理论命名为“杨-亥姆霍兹理论”。",
+        "text_en": "Only *after* publishing his findings did Helmholtz learn that Thomas Young had proposed the same basic idea 50 years earlier. Helmholtz was incredibly gracious and gave Young full credit, naming the theory the 'Young-Helmholtz Theory'."
+      },
+      {
+        "icon": "🎶",
+        "text": "亥姆霍兹是一位“通才”。在完成《生理光学手册》后，他写了另一本同样具有奠基性的巨著：《论音的感觉》（1863），该书为“声学”、“音乐理论”和“听觉感知”奠定了物理学基础。",
+        "text_en": "Helmholtz was a true polymath. After finishing his 'Handbook of Physiological Optics', he wrote an equally foundational book, 'On the Sensations of Tone' (1863), which did the same thing for acoustics, music theory, and the perception of sound."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "如果说托马斯·杨（`young_color_theory_1802`）是那个“猜想”我们眼睛里有一个“混音台”，并且只有“红、绿、蓝”三个“推子”的人；那么亥姆霍兹就是那个“工程师”，他坐在混音台前，通过无数次实验，第一个精确地“绘制”出了每个“推子”（视锥细胞）的详细“响应曲线图”。他用数据证明了杨是对的。",
+      "text_en": "If Thomas Young (`young_color_theory_1802`) was the one who *guessed* our eye has a 'color mixing board' with three 'faders' (Red, Green, Blue), Helmholtz was the *engineer* who sat down at the board, ran experiments, and *drew the graph* for each fader (cone cell). He used data to prove Young's guess was correct."      
+    },
+  
+    "applications": [
+        {
+          "icon": "📺",
+          "title": "RGB 显示技术",
+          "title_en": "RGB Display Technology",
+          "text": "所有彩色显示技术（电视、电脑显示器、智能手机）都基于“杨-亥姆霍兹三原色理论”，使用红、绿、蓝 (RGB) 三色像素来重现所有颜色。",
+          "text_en": "All color display technology (TVs, monitors, smartphones) is based on the Young-Helmholtz theory, using Red, Green, and Blue (RGB) pixels to create all other colors."
+        },
+        {
+          "icon": "🎨",
+          "title": "色彩科学 (Colorimetry)",
+          "title_en": "Colorimetry",
+          "text": "亥姆霍兹的“色觉匹配”实验开创了“色度学”，即用数学来定义和量化颜色的科学。",
+          "text_en": "Helmholtz's color-matching experiments founded 'colorimetry', the science of measuring and quantifying color."
+        },
+        {
+          "icon": "🧠",
+          "title": "心理物理学 (Psychophysics)",
+          "title_en": "Psychophysics",
+          "text": "他的著作是“心理物理学”的典范，即用定量方法研究“物理刺激”（光波）和“主观感知”（颜色）之间的关系。",
+          "text_en": "His work is the model for 'psychophysics', the quantitative study of the relationship between a physical stimulus (light waves) and a subjective perception (color)."
+        }
+      ],
+  
+    "impact": {
+      "text": "亥姆霍兹的工作将“色觉”从一个纯粹的哲学猜想（如牛顿和歌德的理论）转变为一个严谨的、定量的、可被测量的“生理物理学”分支。他为托马斯·杨的理论提供了坚实的实验基础，使其成为此后100年里解释色觉的“正统”理论，直到被赫林（`hering_opponent_process_1878`）的理论所补充。",
+      "text_en": "Helmholtz's work transformed 'color vision' from a purely philosophical debate (like Newton's or Goethe's) into a rigorous, quantitative branch of 'physiological physics'. He gave Young's theory the experimental foundation it needed to become the 'orthodox' explanation for color for the next 100 years, until it was complemented by Hering's (`hering_opponent_process_1878`) theory.",
+      "stats": [
+          {
+            "number": "3",
+            "label": "种感光器 (视锥细胞)",
+            "label_en": "Photoreceptors (Cones)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "young_color_theory_1802",
+          "contribution": "托马斯·杨（其三原色假说是亥姆霍兹证实和完善的基础）",
+          "contribution_en": "Thomas Young (his trichromatic hypothesis was the foundation Helmholtz proved and refined)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "hering_opponent_process_1878",
+          "contribution": "埃瓦尔德·赫林（其“拮抗理论”是作为对杨-亥姆霍兹理论“不完备性”的回应而提出的）",
+          "contribution_en": "Ewald Hering (his 'Opponent-Process' theory was proposed as a direct response to the 'incompleteness' of the Young-Helmholtz theory)"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其电磁理论和色觉研究受到了亥姆霍兹的平行启发）",
+          "contribution_en": "James Clerk Maxwell (whose own work on electromagnetism and color vision ran parallel to Helmholtz's)"
+        }
+      ],
+      "legacy_text": "亥姆霍兹通过严谨的实验，将杨氏的天才“猜想”变为了牢不可破的“杨-亥姆霍兹理论”。",
+      "legacy_text_en": "Helmholtz, through rigorous experiment, turned Young's brilliant 'hypothesis' into the iron-clad 'Young-Helmholtz Theory'."
+    },
+  
+    "related_concepts": ["杨-亥姆霍兹理论 (Young-Helmholtz)", "三原色 (Trichromacy)", "视锥细胞 (Cone Cells)", "RGB", "色觉匹配 (Color Matching)", "心理物理学 (Psychophysics)", "赫林 (Hering)", "生理光学"],
+    "related_concepts_en": ["Young-Helmholtz Theory", "Trichromacy", "Cone Cells", "RGB", "Color Matching", "Psychophysics", "Hering", "Physiological Optics"],
+  
+    "quiz": {
+      "question": "托马斯·杨（Young）和亥姆霍兹（Helmholtz）在“三原色理论”上的主要贡献区别是什么？",
+      "question_en": "What is the main difference between Young's contribution and Helmholtz's contribution to the 'Trichromatic Theory'?",
+      "options": [
+        "杨提出了理论，亥姆霍兹推翻了它",
+        "杨提出了“定性”的猜想，亥姆霍兹提供了“定量”的实验证明",
+        "杨发现了“视锥细胞”，亥姆霍兹发现了“视杆细胞”",
+        "杨研究的是物理（光），亥姆霍兹只研究了心理（感知）"
+      ],
+      "options_en": [
+        "Young proposed the theory, and Helmholtz disproved it",
+        "Young proposed the 'qualitative' hypothesis, and Helmholtz provided the 'quantitative' experimental proof",
+        "Young discovered 'cones', and Helmholtz discovered 'rods'",
+        "Young studied physics (light), and Helmholtz only studied psychology (perception)"
+      ],
+      "answer": 1,
+      "explanation": "杨氏在1802年提出了这个天才的“猜想”，但缺乏实验证据，因此被忽视了。亥姆霍兹在50年后（最初是独立地）通过“色觉匹配”实验，在数学和实验上“证明”了该理论的正确性。",
+      "explanation_en": "Young proposed the genius 'hypothesis' in 1802, but it lacked experimental proof and was ignored. Helmholtz, 50 years later, *proved* the theory was correct with his quantitative 'color-matching' experiments."
+    }
+  }

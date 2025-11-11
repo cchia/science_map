@@ -1,0 +1,150 @@
+{
+    "id": "helmholtz_energy_conservation_1847",
+    "personId": "hermann_von_helmholtz",
+    "title": "发表《论力的守恒》 (能量守恒定律)",
+    "title_en": "Publishes 'On the Conservation of Force' (Conservation of Energy)",
+    "year": 1847,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林 (发表于)",
+    "city_en": "Berlin (Published in)",
+    "country": "普鲁士 (今德国)",
+    "country_en": "Prussia (Modern Germany)",
+    "field": ["物理学", "哲学", "生物学"],
+    "field_en": ["Physics", "Philosophy", "Biology"],
+    
+    "media": {
+      "event_image": "assets/images/energy_conservation.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4lQrMzjARq8",
+        "title": "什么是能量守恒？",
+        "title_en": "What Is the Conservation of Energy?",
+        "duration": "8:16"
+      }
+    },
+    
+    "summary": {
+      "text": "亥姆霍兹发表了他奠基性的论文《论力的守恒》，为“能量守恒定律”（即“热力学第一定律”）提供了最深刻、最数学化的阐述。他（与焦耳和迈尔独立地）提出，所有形式的能量——机械功、热、电、磁、化学能——都是“同一基本实体（力，即能量）”的不同表现形式，它们可以相互转化，但其“总量”在宇宙中永远守恒。他从数学上证明了“永动机”是不可能的。",
+      "text_en": "Helmholtz provided the most profound mathematical formulation of the 'Law of Conservation of Energy' (the First Law of Thermodynamics). He (along with Joule and Mayer, independently) proposed that all forms of energy—mechanical work, heat, electricity, magnetism, chemical—were just different manifestations of a single, indestructible entity ('Force', or Energy). They could be *converted*, but their total sum was *conserved*. He mathematically proved that perpetual motion machines were impossible.",
+      "key_points": [
+        "奠定了“能量守恒定律” (Conservation of Energy)",
+        "热力学第一定律 (First Law of Thermodynamics)",
+        "统一了热、电、磁和机械功",
+        "证明了“永动机” (Perpetual Motion) 不可能",
+        "反驳了“生命力” (Vitalism) 理论"
+      ],
+      "key_points_en": [
+        "Established the 'Law of Conservation of Energy'",
+        "First Law of Thermodynamics",
+        "Unified Heat, Electricity, Magnetism, and Work",
+        "Proved 'Perpetual Motion' is impossible",
+        "Refuted the 'Vital Force' (Vitalism) theory"
+      ]
+    },
+  
+    "story": {
+      "text": "亥姆霍兹最初的动机来自于“生物学”。作为一名医生，他想知道“肌肉是如何做功的”。当时的流行理论是“生命力”(Vitalism)，即生物体内有一种非物质的“活火”在驱动。亥姆霍兹对此深表怀疑。他通过计算，证明了肌肉收缩所做的“功”和释放的“热”，完全可以由食物的“化学能”来解释。他的1847年论文将这个思想从生物学推广到了整个宇宙：他宣称“生命力”是不必要的，整个宇宙都是一个“能量守恒”的封闭机械系统。这篇论文是如此的激进（因为它近乎于无神论），以至于最初被物理学期刊拒稿。",
+      "text_en": "Helmholtz's motivation was *biological*. As a physician, he wanted to know *how muscles work*. The dominant theory was 'Vitalism'—that a non-physical 'vital spark' powered life. Helmholtz was skeptical. He set out to prove that *all* work and heat produced by a muscle could be accounted for by the *chemical energy* of the food it consumed. His 1847 paper generalized this from biology to the cosmos: he declared the 'vital force' was unnecessary and the universe was a closed mechanical system where energy is *always* conserved. The paper was so radical (bordering on atheistic for its time) that it was initially rejected for publication."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚡",
+        "text": "亥姆霍兹还测量了“神经冲动”（电信号）在青蛙腿上的传播速度，首次证明了“思想”不是瞬时的，而是以一个可测量的、缓慢的速度（约27米/秒）传播的。",
+        "text_en": "Helmholtz also measured the 'speed of a nerve impulse' in a frog's leg, proving for the first time that 'thought' is not instantaneous, but travels at a measurable, finite speed (about 27 m/s)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "亥姆霍兹定律是宇宙的“终极会计准则”：“能量”就像“钱”。你不能“创造”钱，也不能“毁灭”钱，你只能“改变它的形式”。你可以把“化学能”（食物）变成“机械能”（举重）和“热能”（出汗），但宇宙中“钱”的总量（能量）永远不变。这就是热力学第一定律。",
+      "text_en": "Helmholtz's law is the ultimate accounting principle of the universe: 'Energy' is like 'money'. You can't *create* it, and you can't *destroy* it. You can only *change its form*. You can turn 'Chemical Energy' (food) into 'Mechanical Energy' (lifting a weight) and 'Heat Energy' (sweat), but the total amount of 'money' (Energy) in the universe is *always* conserved. This is the First Law of Thermodynamics."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🔥",
+          "title": "热力学 (Thermodynamics)",
+          "title_en": "Thermodynamics",
+          "text": "这一定律（与卡诺和克劳修斯的工作一起）成为了“热力学第一定律”，是所有化学反应和热机（如蒸汽机）分析的基础。",
+          "text_en": "This law (along with work by Carnot and Clausius) *became* the 'First Law of Thermodynamics', the basis for analyzing all chemical reactions and heat engines."
+        },
+        {
+          "icon": "⚛️",
+          "title": "物理学的基础",
+          "title_en": "Foundation of Physics",
+          "text": "“能量守恒”是物理学（从经典力学到量子力学再到相对论）中最核心、最普适的指导原则。",
+          "text_en": "The 'Conservation of Energy' is the single most central and guiding principle in all of physics, from classical mechanics to quantum mechanics and relativity."
+        },
+        {
+          "icon": "🧬",
+          "title": "生物化学 (Biochemistry)",
+          "title_en": "Biochemistry",
+          "text": "他的论文证明了生物体也是“物理系统”，为“新陈代谢”(Metabolism) 和生物化学的研究奠定了理论基础。",
+          "text_en": "His paper proved that living organisms are also physical systems, laying the theoretical groundwork for the study of 'metabolism' and biochemistry."
+        }
+      ],
+  
+    "impact": {
+      "text": "亥姆霍兹的《论力的守恒》是19世纪最重要的物理学论文之一。它在数学上将所有看似无关的物理现象（热、光、电、磁、功）统一在“能量”这一个概念之下。它为“热力学”这门新科学提供了两大支柱之一（另一个是卡诺的第二定律），并为爱因斯坦在1905年将其扩展到“质能守恒”(E=mc²) 铺平了道路。",
+      "text_en": "Helmholtz's 'On the Conservation of Force' is one of the most important papers of the 19th century. It mathematically unified all seemingly disparate fields of physics (heat, light, electricity, work) under the single concept of 'Energy'. It provided one of the two main pillars for the new science of 'Thermodynamics' (the other being Carnot's Second Law) and set the stage for Einstein's 1905 extension of it into Mass-Energy conservation (E=mc²).",
+      "stats": [
+          {
+            "number": "1847",
+            "label": "年 (能量守恒)",
+            "label_en": "Year (Energy Conservation)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "carnot_thermodynamics_1824",
+          "contribution": "萨迪·卡诺（其关于热与功转换的思想）",
+          "contribution_en": "Sadi Carnot (for his ideas on the conversion of heat and work)"
+        },
+        {
+          "id": "joule_heat_1843",
+          "contribution": "詹姆斯·焦耳（其“热功当量”的实验，为亥姆霍兹的理论提供了实验证据）",
+          "contribution_en": "James Prescott Joule (his experiments on the 'mechanical equivalent of heat' provided the experimental proof for Helmholtz's theory)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "clausius_thermodynamics_1850",
+          "contribution": "克劳修斯（他将亥姆霍兹的定律形式化为“热力学第一定律”）",
+          "contribution_en": "Rudolf Clausius (who formalized Helmholtz's law as the 'First Law of Thermodynamics')"
+        },
+        {
+          "id": "einstein_special_relativity_1905",
+          "contribution": "爱因斯坦（其“质能方程” E=mc² 是对“能量守恒”的终极扩展）",
+          "contribution_en": "Albert Einstein (whose 'E=mc²' was the ultimate extension of energy conservation)"
+        }
+      ],
+      "legacy_text": "亥姆霍兹将“能量守恒”从一个经验性的猜想，提升为了宇宙的基本数学定律。",
+      "legacy_text_en": "Helmholtz elevated the 'Conservation of Energy' from an empirical hunch into the fundamental, mathematical law of the cosmos."
+    },
+  
+    "related_concepts": ["能量守恒 (Conservation of Energy)", "热力学第一定律", "热力学 (Thermodynamics)", "焦耳 (Joule)", "克劳修斯 (Clausius)", "永动机 (Perpetual Motion)", "生命力 (Vitalism)"],
+    "related_concepts_en": ["Conservation of Energy", "First Law of Thermodynamics", "Thermodynamics", "Joule", "Clausius", "Perpetual Motion", "Vitalism"],
+  
+    "quiz": {
+      "question": "亥姆霍兹1847年的论文《论力的守恒》是哪一条基本物理定律的数学阐述？",
+      "question_en": "Helmholtz's 1847 paper 'On the Conservation of Force' was the mathematical formulation of which fundamental law?",
+      "options": [
+        "万有引力定律",
+        "能量守恒定律（热力学第一定律）",
+        "熵增定律（热力学第二定律）",
+        "杨氏模量"
+      ],
+      "options_en": [
+        "The Law of Universal Gravitation",
+        "The Law of Conservation of Energy (First Law of Thermodynamics)",
+        "The Law of Entropy (Second Law of Thermodynamics)",
+        "Young's Modulus"
+      ],
+      "answer": 1,
+      "explanation": "亥姆霍兹的论文（与焦耳和迈尔的成果一起）被公认为是“能量守恒定律”（即“宇宙的总能量是一个恒定值”）的最早、最完整的数学和哲学论证。",
+      "explanation_en": "Helmholtz's paper, along with the work of Joule and Mayer, is credited as the first complete mathematical and philosophical argument for the 'Conservation of Energy'—the idea that the total energy in the universe is a constant."
+    }
+  }

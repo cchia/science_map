@@ -17,6 +17,8 @@ from pathlib import Path
 # --- 配置 ---
 EVENTS_INDEX_FILE = Path("assets/events_index.json")
 EVENTS_DIR = Path("assets/events")
+PEOPLE_INDEX_FILE = Path("assets/people_index.json")
+PEOPLE_DIR = Path("assets/people")
 # --- 结束配置 ---
 
 
@@ -35,11 +37,14 @@ def load_index(index_file: Path) -> set:
 
 
 def find_all_referenced_ids(existing_ids: set) -> set:
-    """遍历所有事件，收集 influence_chain 中的所有 ID。"""
+    """遍历所有事件和人物，收集所有被引用的事件 ID。"""
+    import re
+
     all_referenced_ids = set()
 
     print(f"[INFO] 正在扫描 {len(existing_ids)} 个现有事件的链接...")
 
+    # 1. 检查事件文件中的引用
     for event_id in existing_ids:
         file_path = EVENTS_DIR / f"{event_id}.json"
 
@@ -54,7 +59,7 @@ def find_all_referenced_ids(existing_ids: set) -> set:
             print(f"  (Warning: 无法读取 {file_path}, 跳过)")
             continue
 
-        # 检查 Event -> Event (influence_chain)
+        # 1.1 检查 Event -> Event (influence_chain)
         chain = data.get("influence_chain", {})
         if chain:  # 确保 chain 不是 None
             for item in chain.get("influenced_by", []):
@@ -66,6 +71,90 @@ def find_all_referenced_ids(existing_ids: set) -> set:
                 link_id = item.get("id")
                 if link_id:
                     all_referenced_ids.add(link_id)
+
+        # 1.2 检查文本字段中的反引号引用 (如 `event_id`)
+        text_fields = [
+            "summary",
+            "story",
+            "simple_explanation",
+            "impact",
+            "applications",
+            "fun_facts",
+            "quiz",
+        ]
+        for field_name in text_fields:
+            field_data = data.get(field_name)
+            if field_data is None:
+                continue
+
+            # 处理字典类型的字段（如 summary, story, impact）
+            if isinstance(field_data, dict):
+                for key in [
+                    "text",
+                    "text_en",
+                    "description",
+                    "description_en",
+                    "question",
+                    "question_en",
+                    "explanation",
+                    "explanation_en",
+                ]:
+                    text = field_data.get(key, "")
+                    if text and isinstance(text, str):
+                        # 查找反引号中的ID (格式: `event_id`)
+                        matches = re.findall(r"`([a-z_]+_[0-9BC]+)`", text)
+                        all_referenced_ids.update(matches)
+
+            # 处理列表类型的字段（如 applications, fun_facts）
+            elif isinstance(field_data, list):
+                for item in field_data:
+                    if isinstance(item, dict):
+                        for key in [
+                            "text",
+                            "text_en",
+                            "title",
+                            "title_en",
+                            "description",
+                            "description_en",
+                        ]:
+                            text = item.get(key, "")
+                            if text and isinstance(text, str):
+                                matches = re.findall(r"`([a-z_]+_[0-9BC]+)`", text)
+                                all_referenced_ids.update(matches)
+
+            # 处理字符串类型的字段
+            elif isinstance(field_data, str):
+                matches = re.findall(r"`([a-z_]+_[0-9BC]+)`", field_data)
+                all_referenced_ids.update(matches)
+
+    # 2. 检查人物文件中的 events 字段
+    if PEOPLE_INDEX_FILE.exists() and PEOPLE_DIR.exists():
+        try:
+            with open(PEOPLE_INDEX_FILE, "r", encoding="utf-8") as f:
+                person_ids = json.load(f)
+
+            print(f"[INFO] 正在扫描 {len(person_ids)} 个人物文件的事件引用...")
+
+            for person_id in person_ids:
+                person_file = PEOPLE_DIR / f"{person_id}.json"
+                if not person_file.exists():
+                    continue
+
+                try:
+                    with open(person_file, "r", encoding="utf-8") as f:
+                        person_data = json.load(f)
+
+                    # 检查 events 字段
+                    events = person_data.get("events", [])
+                    if isinstance(events, list):
+                        for event_id in events:
+                            if event_id and isinstance(event_id, str):
+                                all_referenced_ids.add(event_id)
+                except Exception:
+                    print(f"  (Warning: 无法读取 {person_file}, 跳过)")
+                    continue
+        except Exception as e:
+            print(f"  (Warning: 无法读取人物索引或文件: {e})")
 
     return all_referenced_ids
 
