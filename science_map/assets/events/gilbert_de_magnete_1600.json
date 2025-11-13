@@ -1,0 +1,167 @@
+{
+    "id": "gilbert_de_magnete_1600",
+    "personId": "william_gilbert",
+    "title": "发表《论磁石》 (De Magnete)",
+    "title_en": "Publishes 'De Magnete' (On the Magnet)",
+    "year": 1600,
+    "lat": 51.515,
+    "lng": -0.117,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学", "天文学"],
+    "field_en": ["Physics", "Astronomy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/37/De_Magnete_Title_Page_1628_edition.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=klAbeLPFZrk",
+        "title": "威廉·吉尔伯特：磁学之父",
+        "title_en": "Discovery of Magnetism | First PUC | William Gilbert",
+        "duration": "5:53"
+      }
+    },
+    
+    "summary": {
+      "text": "英国皇家医师威廉·吉尔伯特（William Gilbert）发表了《论磁石、磁体及大磁石地球》。这是一部里程碑式的著作，标志着“实验科学”的诞生。吉尔伯特通过长达17年、数以百计的严谨实验，(1) **首次将“电”（摩擦琥珀产生的力）与“磁”（磁石产生的力）明确区分开**，(2) 建立了一个模型地球（“小地球”Terrella），并证明了“指南针”指向北极，是因为**地球本身就是一块巨大的磁铁**。",
+      "text_en": "William Gilbert, royal physician, published 'De Magnete', a landmark work that marks the birth of experimental science. Based on 17 years of hundreds of rigorous experiments, Gilbert (1) **was the first to clearly distinguish 'electricity' (from rubbing amber) from 'magnetism' (from lodestone)**, and (2) proved that a compass points north *because the Earth itself is one giant magnet*, which he demonstrated using a model Earth (a 'Terrella').",
+      "key_points": [
+        "现代“实验科学”的奠基之作",
+        "证明了“地球是一个巨大的磁铁”",
+        "首次明确区分了“静电”与“磁力”",
+        "发明了第一个“验电器”(Versorium)",
+        "“电”(Electricity) 一词的命名者（源自希腊语“琥珀”elektron）"
+      ],
+      "key_points_en": [
+        "Foundational work of modern 'experimental science'",
+        "Proved the 'Earth is a giant magnet'",
+        "First to clearly distinguish 'static electricity' from 'magnetism'",
+        "Invented the first 'electroscope' (the Versorium)",
+        "Coined the word 'Electricity' (from *elektron*, Greek for amber)"
+      ]
+    },
+  
+    "story": {
+      "text": "在吉尔伯特之前，电和磁被混为一谈，都归于神秘的“吸引力”。吉尔伯特则坚持“实验”。他制造了一个球形的磁石（他称之为“Terrella”，即“小地球”），并用一个小磁针（指南针）在球体表面移动。他发现，小磁针在“赤道”处平行于表面，而在“两极”处则垂直指向球心。这与水手们观察到的“磁倾角”现象完全一致。他因此得出了一个大胆的结论：地球并非受“北极星”的神秘指引，它**本身**就是一块巨大的磁石，其磁极靠近地理上的南北极。",
+      "text_en": "Before Gilbert, electricity and magnetism were lumped together as a mystical 'attraction'. Gilbert insisted on *experiment*. He fashioned a spherical lodestone (a 'Terrella', or 'little Earth') and moved a tiny compass needle over its surface. He found the needle lay flat at the 'equator' but pointed straight down at the 'poles'. This perfectly matched the 'magnetic dip' observed by sailors. He thus made the bold conclusion: the Earth itself *is* a giant magnet, and compasses point north because they are aligning with the Earth's own magnetic field.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Gilbert_De_Magnete_Illo040.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚡",
+        "text": "吉尔伯特是第一个使用新拉丁词“electricus”（源自希腊语“elektron”，琥珀）来描述“静电”的人。英语中的“Electricity”（电）一词由此而来。",
+        "text_en": "Gilbert was the first person to coin the New Latin word 'electricus' (from *elektron*, the Greek word for 'amber') to describe static attraction. The English word 'Electricity' comes from this."
+      },
+      {
+        "icon": " Galilei",
+        "text": "伽利略（`galileo_motion_1638`）盛赞《论磁石》，并称吉尔伯特是“第一位真正的实验科学家”。",
+        "text_en": "Galileo (`galileo_motion_1638`) deeply admired 'De Magnete' and called Gilbert the 'first true experimental scientist'."
+      },
+      {
+        "icon": "🧭",
+        "text": "为了区分电和磁，吉尔伯特发明了“验电器”(Versorium)，这是一个可自由旋转的金属指针，用于检测“静电荷”，它比指南针（检测磁）更灵敏。",
+        "text_en": "To distinguish electricity from magnetism, Gilbert invented the 'versorium', a pivoting metal needle that was the first electroscope, a sensitive detector of static electric charge."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1600年，人们以为“磁石”和“摩擦过的琥珀（静电）”是同一种“魔法”。吉尔伯特是第一个说：“不，我们来做实验。” 的人。\n1. 他证明“电”能吸引*所有*东西（羽毛、水滴、金属），而“磁”*只*吸引铁。\n2. 他证明“电”可以被（如水汽）阻挡，而“磁”可以穿透大多数物体。\n3. 最重要的是，他造了一个“迷你地球磁铁”，并证明指南针之所以指北，不是因为北极星在“召唤”它，而是因为“地球本身就是一块大磁铁”在“拉”它。",
+      "text_en": "In 1600, people thought magnets and rubbed amber (static) were the same 'magic'. Gilbert was the first to say, 'No, let's experiment.'\n1. He proved 'electricity' attracts *everything* (feathers, water, metal), while 'magnetism' *only* attracts iron.\n2. He proved 'electricity' can be blocked (by moisture), while 'magnetism' goes right through things.\n3. Most importantly, he built a 'mini-Earth' magnet and proved that compasses work *not* because the North Star is 'pulling' them, but because the *Earth itself* is one giant magnet.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Geodynamo_Between_Reversals.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "🗺️",
+          "title": "地理导航 (Navigation)",
+          "title_en": "Navigation",
+          "text": "他的理论（地球是磁铁）为航海家和测量员提供了第一个关于“指南针为何工作”的科学解释。",
+          "text_en": "His theory (Earth as a magnet) provided the first scientific explanation for *why* a compass works, crucial for navigation and surveying."
+        },
+        {
+          "icon": "🔬",
+          "title": "科学方法 (Scientific Method)",
+          "title_en": "Scientific Method",
+          "text": "《论磁石》是第一部完全基于“系统性实验”而非“哲学思辨”的现代科学著作，为伽利略（`galileo_motion_1638`）开创了道路。",
+          "text_en": "De Magnete was the first modern scientific text based entirely on 'systematic experiment' rather than 'philosophical speculation', paving the way for Galileo (`galileo_motion_1638`)."
+        },
+        {
+          "icon": "⚡",
+          "title": "电学 (Electricity)",
+          "title_en": "Electricity",
+          "text": "他将“电”和“磁”区分开，并命名了“电”，这为150年后电学（`guericke_static_generator_1663`）成为一门独立科学奠定了基础。",
+          "text_en": "By separating and naming 'electricity' from magnetism, he laid the conceptual groundwork for electricity (`guericke_static_generator_1663`) to become its own science 150 years later."
+        }
+      ],
+  
+    "impact": {
+      "text": "《论磁石》是“科学革命”的开端之一。它标志着从“亚里士多德式”的哲学思辨（`aristotle_elements_BC350`）向“伽利略式”的实验科学的决定性转变。吉尔伯特用数百个可重复的实验，取代了古代权威的“引经据典”。他还提出了“地球磁性”这一革命性思想，这反过来又为“日心说”（`copernicus_heliocentrism_1543`）提供了支持（开普勒后来试图用磁力来解释行星轨道）。",
+      "text_en": "De Magnete is one of the first true works of the Scientific Revolution. It marks the decisive shift away from Aristotelian speculation (`aristotle_elements_BC350`) and toward Galilean experimentalism. Gilbert replaced reliance on 'ancient authority' with hundreds of repeatable 'experiments'. He also introduced the revolutionary idea of the Earth's magnetism, which in turn lent support to the Copernican model (`copernicus_heliocentrism_1543`), as Kepler would later try to use magnetism to explain planetary orbits.",
+      "stats": [
+          {
+            "number": "17",
+            "label": "年 (实验时间)",
+            "label_en": "Years of Experiments"
+          },
+          {
+            "number": "1600",
+            "label": "年 (现代科学开端)",
+            "label_en": "Year (Start of Modern Science)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ancient_knowledge_of_magnets_BC500",
+          "contribution": "古希腊和中国（对“磁石”和“琥珀”吸引力的早期观察）",
+          "contribution_en": "Ancient Greeks & Chinese (for their early observations of lodestone and amber)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "galileo_motion_1638",
+          "contribution": "伽利略（其“实验方法”深受吉尔伯特的启发）",
+          "contribution_en": "Galileo (whose 'experimental method' was deeply inspired by Gilbert)"
+        },
+        {
+          "id": "kepler_laws_1609",
+          "contribution": "开普勒（其试图用“磁力”来解释行星轨道的努力，是受吉尔伯特“地球磁性”的直接启发）",
+          "contribution_en": "Kepler (his attempt to explain planetary orbits with 'magnetic forces' was directly inspired by Gilbert's 'Earth-magnet')"
+        },
+        {
+          "id": "guericke_static_generator_1663",
+          "contribution": "奥托·冯·格里克（其“静电起电机”是对吉尔伯特“电学”研究的直接继承和发展）",
+          "contribution_en": "Otto von Guericke (his 'electrostatic generator' was the direct successor to Gilbert's work on electricity)"
+        }
+      ],
+      "legacy_text": "威廉·吉尔伯特是“实验物理学之父”。他将“电”与“磁”明确分开，并证明地球本身就是一块巨大的磁铁。",
+      "legacy_text_en": "William Gilbert is the 'father of experimental physics'. He separated electricity from magnetism and proved the Earth itself is a giant magnet."
+    },
+  
+    "related_concepts": ["磁性 (Magnetism)", "静电 (Electricity)", "地球磁场 (Earth's Magnetic Field)", "实验方法 (Experimental Method)", "Terrella (小地球)", "验电器 (Versorium)", "琥珀 (Amber)", "磁石 (Lodestone)"],
+    "related_concepts_en": ["Magnetism", "Electricity", "Earth's Magnetic Field", "Experimental Method", "Terrella", "Versorium", "Amber", "Lodestone"],
+  
+    "quiz": {
+      "question": "威廉·吉尔伯特（William Gilbert）的《论磁石》（1600）最重要的两个结论是什么？",
+      "question_en": "What were the two most important conclusions from William Gilbert's 'De Magnete' (1600)?",
+      "options": [
+        "“电”和“磁”是同一回事；地球是宇宙的中心",
+        "“电”和“磁”是两种不同的力；地球本身是一块巨大的磁铁",
+        "“电”可以产生“磁”；地球绕着太阳转",
+        "“磁”可以产生“电”；地球是一个空心的球体"
+      ],
+      "options_en": [
+        "Electricity and Magnetism are the same thing; the Earth is the center of the universe",
+        "Electricity and Magnetism are *different* forces; the Earth *itself* is a giant magnet",
+        "Electricity creates Magnetism; the Earth orbits the Sun",
+        "Magnetism creates Electricity; the Earth is hollow"
+      ],
+      "answer": 1,
+      "explanation": "吉尔伯特的伟大贡献在于，他通过实验证明了“电”（来自摩擦琥珀）和“磁”（来自磁石）是两种完全不同的现象，并证明了指南针的工作原理是它与“地球”这块大磁铁的磁场相呼应。",
+      "explanation_en": "Gilbert's great contribution was using experiments to prove that 'electricity' (from amber) and 'magnetism' (from lodestone) were two separate phenomena, and that a compass works by aligning with the magnetic field of the Earth itself."
+    }
+  }

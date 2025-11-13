@@ -1,0 +1,10 @@
+{
+    "name": "路易吉·伽伐尼",
+    "name_en": "Luigi Galvani",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/51/Luigi_Galvani%2C_oil-painting.jpg",
+    "bio_short": "意大利医生、物理学家和生物学家。他发现了“动物电”（生物电），即神经通过电信号向肌肉传递命令，这开创了“神经科学”和“生物电磁学”领域。",
+    "bio_short_en": "An Italian physician, physicist, and biologist. He discovered 'animal electricity' (bioelectricity), demonstrating that nerves pass electrical signals to muscles. This founded the fields of neuroscience and bioelectromagnetics.",
+    "events": [
+      "galvani_animal_electricity_1791"
+    ]
+  }

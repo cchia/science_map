@@ -1,7 +1,167 @@
 {
   "id": "volta_battery_1800",
-  "title": "Volta Battery",
-  "title_en": "Volta Battery",
+  "personId": "alessandro_volta",
+  "title": "发明“伏打电堆” (第一个电池)",
+  "title_en": "Invents the 'Voltaic Pile' (The First Battery)",
   "year": 1800,
-  "is_stub": true
+  "lat": 45.4049,
+  "lng": 9.1517,
+  "city": "帕维亚 / 科莫 (地区)",
+  "city_en": "Pavia / Como (region)",
+  "country": "意大利 (奇萨尔皮尼共和国)",
+  "country_en": "Italy (Cisalpine Republic)",
+  "field": ["物理学", "化学", "工程学"],
+  "field_en": ["Physics", "Chemistry", "Engineering"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Voltaic_pile.svg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=edMN7P5oCaY",
+      "title": "伏打电堆",
+      "title_en": "The Voltaic Pile",
+      "duration": "8:03"
+    }
+  },
+  
+  "summary": {
+    "text": "意大利物理学家亚历山德罗·伏打（Alessandro Volta）在1800年宣布了他划时代的发明：“伏打电堆”(Voltaic Pile)。这是一个由交替堆叠的“铜片”、“锌片”和“浸过盐水的纸板”组成的“电堆”。这是人类历史上第一个能够产生“持续、稳定电流”的装置，即第一个“电池”(Battery)。在此之前，人类只能制造和储存“静电”（如莱顿瓶），而无法使其流动。",
+    "text_en": "In 1800, Italian physicist Alessandro Volta announced his epochal invention: the 'Voltaic Pile'. It was a 'pile' or 'battery' of alternating discs of copper, zinc, and cardboard soaked in saltwater. This was the first device in human history capable of producing a *continuous, stable electric current*. Before this, humanity could only create *static* electricity (like in a Leyden jar), not make it *flow*.",
+    "key_points": [
+      "发明了第一个“电池”(Battery)",
+      "产生了第一个“持续电流”(Continuous Current)",
+      "由 铜(Copper) / 锌(Zinc) / 盐水(Brine) 堆叠而成",
+      "推翻了“动物电”理论",
+      "“电压”(Voltage) 单位“伏特”(Volt) 以他命名"
+    ],
+    "key_points_en": [
+      "Invented the first 'Battery'",
+      "Produced the first 'Continuous Current'",
+      "Made of stacked Copper / Zinc / Brine-soaked cardboard",
+      "Disproved the theory of 'animal electricity'",
+      "The 'Volt' (unit of Voltage) is named for him"
+    ]
+  },
+
+  "story": {
+    "text": "伏打的发明源于一场著名的“青蛙腿辩论”。他的同胞路易吉·伽伐尼（Luigi Galvani）在1791年发现，用两种不同的金属接触青蛙的腿，青蛙腿会“抽搐”。伽伐尼认为，青蛙的“肌肉”中产生了一种“动物电”。伏打则持怀疑态度，他认为“电”并非来自“动物”，而是来自“两种不同金属”的接触。为了证明这一点，他决定制造一个“人工青蛙”：他用浸过盐水的纸板（模拟潮湿的蛙腿）隔开铜片和锌片，并将它们堆叠起来。当他触摸电堆的两端时，他感受到了持续的“刺痛感”（电流）。他证明了电是一种“化学”现象，而非“生物”现象。",
+    "text_en": "Volta's invention stemmed from the famous 'frog leg' debate. His countryman, Luigi Galvani, found that touching a frog's leg with two different metals made it twitch (1791). Galvani believed the *muscle* generated 'animal electricity'. Volta was skeptical. He believed the electricity came *not* from the animal, but from the *contact of the two different metals*. To prove this, he built an 'artificial frog': he stacked copper, zinc, and brine-soaked paper (to mimic the wet leg). When he touched the top and bottom of the pile, he received a continuous *shock*. He had proven that electricity was a *chemical* phenomenon, not a biological one.",
+    "diagram": "https://en.wikipedia.org/wiki/Galvanism#/media/File:Galvani-frogs-legs-electricity.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "👑",
+      "text": "伏打的发明使他声名鹊起。1801年，他应邀前往巴黎，在拿破仑·波拿巴（Napoleon Bonaparte）面前亲自演示了他的“电堆”。拿破仑对这个发明印象深刻，当场授予他荣誉勋章和一笔巨额奖金。",
+      "text_en": "Volta's invention made him an international superstar. In 1801, he was invited to Paris to demonstrate his Pile personally to Napoleon Bonaparte, who was so impressed he made him a Count and gave him a large pension."
+    },
+    {
+      "icon": "Unit",
+      "text": "为了纪念他，电势差（“电压”）的国际标准单位被命名为“伏特”(Volt)。",
+      "text_en": "In his honor, the SI unit for electric potential difference ('voltage') is named the 'Volt'."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象一下，“电”就像“水”。在伏打之前，科学家们只能制造“静电”，这就像“从瀑布上倒下一桶水”——瞬间释放，无法控制。伏打发明的“伏打电堆”（电池）是第一个“水龙头”。它通过化学反应（金属和盐水），使“电”能够像水一样，从水龙头里“持续、稳定地流出”。这个“电流”的发明，开启了“电气时代”。",
+    "text_en": "Imagine 'electricity' is like 'water'. Before Volta, scientists could only create 'static electricity', which is like dumping a *single bucket of water* from a waterfall—a powerful, instant splash, but uncontrollable. Volta's 'Voltaic Pile' (the battery) was the first *faucet*. It used chemistry (metals and saltwater) to make electricity *flow steadily and continuously*, like water from a tap. This invention of 'current' is what enabled the entire electrical age.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Volta_batteries.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🧪",
+        "title": "电化学 (Electrochemistry)",
+        "title_en": "Electrochemistry",
+        "text": "伏打电堆一经发明，汉弗莱·戴维（`davy_electrochemistry_1808`）立即用它作为强大电源，通过“电解”发现了钠、钾等一系列新元素。",
+        "text_en": "Almost immediately, Humphry Davy (`davy_electrochemistry_1808`) used the Voltaic Pile as a power source to 'electrolyze' compounds, discovering a host of new elements like sodium and potassium."
+      },
+      {
+        "icon": "💡",
+        "title": "电灯与电报",
+        "title_en": "Electric Light & Telegraph",
+        "text": "“持续电流”的发明，是后来戴维发明“电弧灯”（最早的电灯）以及莫尔斯（Morse）发明“电报”的必要前提。",
+        "text_en": "The existence of a 'continuous current' was the necessary prerequisite for the later invention of the 'electric arc lamp' (by Davy) and the 'telegraph' (by Morse)."
+      },
+      {
+        "icon": "🧲",
+        "title": "电磁学 (Electromagnetism)",
+        "title_en": "Electromagnetism",
+        "text": "奥斯特（Oersted）在1820年发现“电流可以产生磁场”，法拉第（Faraday）在1831年发现“磁场可以产生电流”，这一切都必须基于伏打的“持续电流”。",
+        "text_en": "Oersted's discovery that 'current creates magnetism' (1820) and Faraday's discovery that 'magnetism creates current' (`faraday_induction_1831`) were *impossible* without Volta's steady, continuous current source."
+      }
+    ],
+
+  "impact": {
+    "text": "“伏打电堆”是人类历史上最重要的发明之一。它将“电”从一种转瞬即逝、令人好奇的“自然现象”（静电）转变为一种可控的、可用的“能量来源”（电流）。它直接开创了“电化学”和“电磁学”这两个全新的科学领域，并为法拉第、欧姆、麦克斯韦等人的工作奠定了基础，是整个“电气时代”和“工业革命”的技术起点。",
+    "text_en": "The Voltaic Pile is one of the most important inventions in history. It transformed 'electricity' from a fleeting, curious 'phenomenon' (static) into a controllable, usable 'utility' (current). It single-handedly founded the new fields of 'electrochemistry' and 'electromagnetism' and provided the fundamental tool for Faraday, Ohm, and Maxwell. It is the technological starting point of the entire Age of Electricity.",
+    "stats": [
+        {
+          "number": "1800",
+          "label": "年 (电池诞生)",
+          "label_en": "Year (Birth of the Battery)"
+        },
+        {
+          "number": "2",
+          "label": "种不同的金属",
+          "label_en": "Different Metals"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "galvani_animal_electricity_1791",
+        "contribution": "路易吉·伽伐尼（其“动物电”的青蛙腿实验，是伏打试图反驳的直接动机）",
+        "contribution_en": "Luigi Galvani (his 'animal electricity' frog leg experiment was the direct motivation for Volta's refutation)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "davy_electrochemistry_1808",
+        "contribution": "汉弗莱·戴维（立即使用了伏打电堆作为电源，开创了电化学）",
+        "contribution_en": "Humphry Davy (immediately used the Voltaic Pile as a power source to found electrochemistry)"
+      },
+      {
+        "id": "oersted_electromagnetism_1820",
+        "contribution": "汉斯·奥斯特（使用伏打电堆的“电流”发现了电磁效应）",
+        "contribution_en": "Hans Christian Ørsted (used the 'current' from a Voltaic Pile to discover electromagnetism)"
+      },
+      {
+        "id": "ohm_law_1827",
+        "contribution": "格奥尔·欧姆（其“欧姆定律”是对伏打电堆所产生电流的系统性数学描述）",
+        "contribution_en": "Georg Ohm (his 'Ohm's Law' was the systematic, mathematical description of the current produced by Volta's device)"
+      },
+      {
+        "id": "faraday_induction_1831",
+        "contribution": "迈克尔·法拉第（其所有的电磁学和电化学实验，都依赖于伏打电堆）",
+        "contribution_en": "Michael Faraday (all of his experiments in electromagnetism and electrolysis depended on the Voltaic Pile)"
+      }
+    ],
+    "legacy_text": "伏打发明了第一个电池，将“电”从一种“现象”变成了一种“工具”。",
+    "legacy_text_en": "Volta invented the first battery, turning 'electricity' from a 'phenomenon' into a 'tool'."
+  },
+
+  "related_concepts": ["伏特 (Volt)", "电压 (Voltage)", "电流 (Current)", "电池 (Battery)", "电化学 (Electrochemistry)", "电解 (Electrolysis)", "伽伐尼 (Galvani)", "戴维 (Davy)"],
+  "related_concepts_en": ["Volt", "Voltage", "Current", "Battery", "Electrochemistry", "Electrolysis", "Galvani", "Davy"],
+
+  "quiz": {
+    "question": "亚历山德罗·伏打（Alessandro Volta）的“伏打电堆”是人类历史上第一个能产生什么的发明？",
+    "question_en": "What was Alessandro Volta's 'Voltaic Pile' the first invention in history to produce?",
+    "options": [
+      "静电 (Static Electricity)",
+      "持续、稳定的电流 (A continuous, stable electrical current)",
+      "磁场 (A magnetic field)",
+      "无线电波 (Radio waves)"
+    ],
+    "options_en": [
+      "Static electricity",
+      "A continuous, stable electrical current",
+      "A magnetic field",
+      "Radio waves"
+    ],
+    "answer": 1,
+    "explanation": "在伏打之前，人类只能制造“静电”（如摩擦琥珀或莱顿瓶），它会瞬间释放。伏打电堆是第一个能像“水龙头”一样，让“电”持续稳定地“流动”（即“电流”）的装置。",
+    "explanation_en": "Before Volta, humans could only create 'static electricity' (like a Leyden jar), which discharges instantly. The Voltaic Pile was the first device that could make electricity 'flow' (a 'current') steadily and continuously, like water from a tap."
+  }
 }
