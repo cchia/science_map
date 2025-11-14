@@ -1,0 +1,10 @@
+{
+    "name": "詹姆斯·维姆胡斯特",
+    "name_en": "James Wimshurst",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jameswimshurst.jpg",
+    "bio_short": "英国发明家和工程师。他设计并完善了“维姆胡斯特起电机”（Wimshurst Machine），这是19世纪末最著名、最高效的静电感应发电机。",
+    "bio_short_en": "An English inventor and engineer. He designed and perfected the 'Wimshurst Machine', which became the most popular and efficient type of electrostatic induction generator in the late 19th century.",
+    "events": [
+      "wimshurst_machine_1883"
+    ]
+  }

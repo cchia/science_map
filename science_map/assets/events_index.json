@@ -55,6 +55,7 @@
   "faraday_effect_1845",
   "faraday_electrolysis_1834",
   "faraday_induction_1831",
+  "faraday_ice_pail_1843",
   "fermat_probability_1654",
   "fraunhofer_diffraction_1821",
   "fraunhofer_lines_1814",
@@ -157,5 +158,18 @@
   "zeno_paradoxes_BC450",
   "galvani_animal_electricity_1791",
   "leyden_jar_1745",
-  "guericke_static_generator_1663"
+  "guericke_static_generator_1663",
+  "gilbert_de_magnete_1600",
+  "ancient_knowledge_of_magnets_BC500",
+  "helmholtz_neuroscience_1850",
+  "guericke_vacuum_1654",
+  "franklin_kite_1752",
+  "franklin_charge_1747",
+  "franklin_gulf_stream_1768",
+  "franklin_lightning_rod_1752",
+  "timothy_folger_whalers_1768",
+  "modern_building_codes_1800",
+  "wimshurst_machine_1883",
+  "van_de_graaff_generator_1929"
+  
 ]

@@ -1,0 +1,152 @@
+{
+    "id": "faraday_ice_pail_1843",
+    "personId": "michael_faraday",
+    "title": "进行“冰桶实验” (法拉第笼)",
+    "title_en": "Performs the 'Ice Pail Experiment' (Faraday Cage)",
+    "year": 1843,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Faradays_ice_pail_experiment.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=-mJ1CfLK78o",
+        "title": "法拉第冰桶实验",
+        "title_en": "The Faraday Ice Pail",
+        "duration": "6:10"
+      }
+    },
+    
+    "summary": {
+      "text": "迈克尔·法拉第（Michael Faraday）在1843年进行了一项巧妙的实验，以演示“静电感应”和“电荷分布”的性质。他将一个带电的金属球（用丝线吊着）放入一个导电的金属桶（他当时用的是一个“冰桶”，因此得名）中，但“不”接触它。他发现，(1) 电荷被“感应”到了桶的外表面；(2) 当金属球最终“接触”桶的内壁时，所有电荷（无论桶本身是否带电）都会立即“转移”到桶的“外表面”，而桶的“内表面”则变为完全电中性。这一发现就是“法拉第笼”(Faraday Cage) 的基本原理。",
+      "text_en": "In 1843, Michael Faraday performed an ingenious experiment to demonstrate 'electrostatic induction' and charge distribution. He lowered a charged metal ball (on a silk thread) into a conductive metal pail (an 'ice pail', hence the name) *without* touching it. He showed (1) a charge was 'induced' on the *outside* of the pail. He then showed (2) when the ball *did* touch the inner wall, *all* of its charge transferred *entirely* to the *outer* surface of the pail, leaving the *inner* surface perfectly neutral. This discovery is the fundamental principle of the 'Faraday Cage'.",
+      "key_points": [
+        "法拉第冰桶实验 (Faraday's Ice Pail Experiment)",
+        "法拉第笼 (Faraday Cage) 原理",
+        "电荷只存在于导体的“外表面”",
+        "证明了“静电屏蔽”(Electrostatic Shielding)",
+        "演示了“静电感应”(Electrostatic Induction)"
+      ],
+      "key_points_en": [
+        "Faraday's Ice Pail Experiment",
+        "Principle of the 'Faraday Cage'",
+        "Charge resides *only* on the *outer* surface of a conductor",
+        "Demonstrated 'Electrostatic Shielding'",
+        "Demonstrated 'Electrostatic Induction'"
+      ]
+    },
+  
+    "story": {
+      "text": "法拉第的实验非常具有戏剧性。他先用一个验电器（`gilbert_de_magnete_1600` 中提到的验电器的后代）接触冰桶的“外侧”，验电器显示“没有电”。然后，他将一个（比如）“带正电”的金属球慢慢放入桶中（不接触）。此时，验电器指针猛地张开，显示桶的“外侧”也带上了“正电”（这是“感应”）。最后，他让带电的金属球接触桶的“内壁”。神奇的事情发生了：验电器的指针“保持不动”，完全没有变化。当他取出金属球并测试它时，发现它已经“完全不带电”了。他证明了，电荷会100%地、瞬时地“飞”到导体的最外层表面，将内部空间（法拉第笼）完美地“屏蔽”起来。",
+      "text_en": "Faraday's experiment was theatrical. He first touched an electroscope to the *outside* of the pail (it showed no charge). Then, he slowly lowered a *positively* charged ball *into* the pail (without touching). The electroscope needle *jumped*, showing the *outside* of the pail had become positive (by 'induction'). Finally, he let the charged ball *touch* the *inside* of the pail. The magic moment: the electroscope needle *did not move*. It stayed exactly where it was. When he pulled the ball out, it was now *completely neutral*. He proved that 100% of the charge *instantly* flies to the *outer* surface, perfectly 'shielding' the inside space (the Faraday Cage).",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/09/Faradays_ice_pail_experiment_-_electric_fields.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👨‍🔬",
+        "text": "法拉第在1836年就曾做过一个更大规模的实验：他建造了一个12英尺（约3.7米）的、覆盖着金属箔的“大木箱”（法拉第笼），然后坐在里面，让助手用静电起电机（`guericke_static_generator_1663`）向木箱外侧释放巨大的“人造闪电”。他安然无恙。",
+        "text_en": "In 1836, Faraday built a 12-foot cube covered in metal foil (a 'Faraday Cage'), sat *inside* it, and had his assistants shoot massive sparks from an electrostatic generator (`guericke_static_generator_1663`) at the outside. He was completely unharmed."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一个“金属鸟笼”（法拉第笼）。法拉第证明了，如果你用闪电（`franklin_kite_1752`）去劈这个鸟笼，笼子里的鸟会安然无恙。\n为什么？因为“电荷”有一个特性：它们“不喜欢”彼此（同种电荷相排斥）。当闪电击中笼子时，所有的电荷（电子）为了“尽可能地远离彼此”，会“瞬间”全部跑到笼子的“最外层”表面，然后流入大地。它们永远不会“进入”笼子内部。法拉第的“冰桶实验”就是这个原理的桌面演示版。",
+      "text_en": "Imagine a metal 'bird cage' (a Faraday Cage). Faraday proved that if you hit that cage with 'lightning' (`franklin_kite_1752`), the bird inside will be *perfectly safe*.\nWhy? Because 'electric charges' *hate* each other (like charges repel). When lightning hits the cage, all the charges (electrons), in their quest to get as *far away from each other as possible*, *instantly* spread out *only* on the *outermost surface* of the cage before flowing to the ground. They *never* go *inside* the cage. The 'ice pail experiment' was the desktop version of this proof.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/09/Faradays_ice_pail_experiment_-_electric_fields.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚗",
+          "title": "汽车（防雷）",
+          "title_en": "Cars (Lightning Safety)",
+          "text": "你在雷雨天“待在车里”是安全的原因（不是因为橡胶轮胎），是因为汽车的金属外壳是一个“法拉第笼”，它会将闪电的电荷导入地下。",
+          "text_en": "The reason you are safe 'in a car' during a thunderstorm is *not* the rubber tires. It's because the car's metal body acts as a 'Faraday Cage', conducting the lightning charge around you and into the ground."
+        },
+        {
+          "icon": "📡",
+          "title": "电磁屏蔽 (EMI Shielding)",
+          "title_en": "EMI Shielding",
+          "text": "你手机或电脑里的敏感电子元件，会被“法拉第笼”（金属屏蔽罩）包裹起来，以防止外部的无线电波（`hertz_waves_1887`）对其产生“干扰”。微波炉的网状门也是一个法拉第笼。",
+          "text_en": "Sensitive electronics in your phone or computer are wrapped in 'Faraday Cages' (metal shields) to prevent 'interference' from external radio waves (`hertz_waves_1887`). A microwave oven's door is also a Faraday Cage."
+        },
+        {
+          "icon": "⚛️",
+          "title": "范德格拉夫起电机",
+          "title_en": "Van de Graaff Generator",
+          "text": "范德格拉夫起电机（`van_de_graaff_generator_1929`）的工作原理，就是利用了法拉第冰桶实验的结论：电荷被传送到“内部”后，会立即“跳”到“外表面”，从而实现电荷的不断积累。",
+          "text_en": "The Van de Graaff generator (`van_de_graaff_generator_1929`) works *because* of this experiment. Charge is delivered to the *inside* of the sphere, where it instantly jumps to the *outside*, allowing *more* charge to be delivered."
+        }
+      ],
+  
+    "impact": {
+      "text": "法拉第的冰桶实验是“静电学”的奠基性实验之一。它为“电荷只存在于导体表面”提供了无可辩驳的证明。这一原理不仅催生了“法拉第笼”这一重要工程应用（用于“屏蔽”），还成为了高斯定律（`gauss_electromagnetism_1835`）的实验基础，并最终被麦克斯韦（`maxwell_equations_1861`）纳入其电磁场方程组。",
+      "text_en": "The Ice Pail experiment is one of the foundational experiments of 'electrostatics'. It provided the definitive proof that 'charge resides only on the surface of a conductor'. This principle not only led to the vital engineering application of 'shielding' (the Faraday Cage), but it also became the experimental basis for Gauss's Law (`gauss_electromagnetism_1835`) and was ultimately incorporated into Maxwell's Equations (`maxwell_equations_1861`).",
+      "stats": [
+          {
+            "number": "1843",
+            "label": "年 (实验年份)",
+            "label_en": "Year of Experiment"
+          },
+          {
+            "number": "0",
+            "label": "内部电荷 (导体内)",
+            "label_en": "Charge Inside (a conductor)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "franklin_charge_1747",
+          "contribution": "本杰明·富兰克林（其“单流体”和“电荷守恒”理论是法拉第的出发点）",
+          "contribution_en": "Benjamin Franklin (his 'single-fluid' and 'conservation of charge' theories were Faraday's starting point)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其“高斯定律”是法拉第冰桶实验的数学形式化）",
+          "contribution_en": "James Clerk Maxwell (his 'Gauss's Law' is the mathematical formalization of Faraday's ice pail experiment)"
+        },
+        {
+          "id": "van_de_graaff_generator_1929",
+          "contribution": "范德格拉夫（其起电机的工作原理，完全依赖于法拉第证明的“电荷在外表面”的结论）",
+          "contribution_en": "Van de Graaff (his generator's ability to accumulate charge depends *entirely* on Faraday's proof that charge moves to the outside)"
+        }
+      ],
+      "legacy_text": "法拉第用一个简单的“冰桶”，证明了电荷总是“逃”到导体的外表面，从而发明了“电磁屏蔽”。",
+      "legacy_text_en": "Faraday used a simple 'ice pail' to prove that electricity *always* flees to the outer surface of a conductor, inventing 'electromagnetic shielding' in the process."
+    },
+  
+    "related_concepts": ["法拉第笼 (Faraday Cage)", "静电屏蔽 (Electrostatic Shielding)", "电荷守恒 (Conservation of Charge)", "静电感应 (Electrostatic Induction)", "高斯定律 (Gauss's Law)", "导体 (Conductor)", "验电器 (Electroscope)"],
+    "related_concepts_en": ["Faraday Cage", "Electrostatic Shielding", "Conservation of Charge", "Electrostatic Induction", "Gauss's Law", "Conductor", "Electroscope"],
+  
+    "quiz": {
+      "question": "法拉第冰桶实验（法拉第笼）最关键的证明是，当一个导体被充电时，电荷会分布在哪里？",
+      "question_en": "What is the key proof of Faraday's Ice Pail experiment regarding charge on a conductor?",
+      "options": [
+        "电荷均匀分布在导体的“内部”和“外部”",
+        "电荷只存在于导体的“外表面”",
+        "电荷只存在于导体的“内表面”",
+        "电荷被玻璃绝缘体“吸收”了"
+      ],
+      "options_en": [
+        "Charge distributes evenly on the 'inside' and 'outside'",
+        "Charge resides *only* on the 'outer surface'",
+        "Charge resides *only* on the 'inner surface'",
+        "The charge is 'absorbed' by the glass insulator"
+      ],
+      "answer": 1,
+      "explanation": "该实验证明，由于同种电荷相互排斥，它们会“挤”到离彼此最远的地方，即导体的“最外层表面”。这使得导体的“内部”空间完全没有电场，即“静电屏蔽”。",
+      "explanation_en": "The experiment proves that because like-charges repel, they 'push' each other as far apart as possible, which is the *outermost surface* of the conductor. This leaves the *inside* of the conductor completely free of electric fields, which is 'electrostatic shielding'."
+    }
+  }

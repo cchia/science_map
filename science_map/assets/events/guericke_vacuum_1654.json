@@ -1,0 +1,165 @@
+{
+    "id": "guericke_vacuum_1654",
+    "personId": "otto_von_guericke",
+    "title": "马格德堡半球实验 (真空演示)",
+    "title_en": "Magdeburg Hemispheres Experiment (Vacuum Demonstration)",
+    "year": 1654,
+    "lat": 49.0134,
+    "lng": 12.1016,
+    "city": "雷根斯堡 (演示地点)",
+    "city_en": "Regensburg (Demonstration site)",
+    "country": "神圣罗马帝国 (今德国)",
+    "country_en": "Holy Roman Empire (Modern Germany)",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Magdeburg.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=G7NE19NVaAg",
+        "title": "格里克的马格德堡半球",
+        "title_en": "Guericke's Magdeburg Hemispheres",
+        "duration": "2:14"
+      }
+    },
+    
+    "summary": {
+      "text": "奥托·冯·格里克（Otto von Guericke）是马格德堡市长，他发明了第一台实用的“真空泵”(Air Pump)。为了戏剧性地向世界展示“真空”的存在和“大气压强”的巨大威力，他在1654年（以及1657年）进行了一场公开实验。他将两个严密合缝的铜制“半球”合在一起，并用他的泵将内部的空气抽空。然后，他向两侧各拴上8匹马（共16匹），试图将两个半球拉开，但马队用尽全力也无法将其分离。然而，当格里克打开阀门让空气重新进入时，两个半球“砰”的一声就自动分开了。",
+      "text_en": "Otto von Guericke, the mayor of Magdeburg, invented the first practical 'Air Pump'. To demonstrate the existence of the 'vacuum' and the immense power of 'atmospheric pressure', he performed a dramatic public experiment in 1654 (and 1657). He joined two large copper 'hemispheres', sealed them with grease, and pumped the air out. He then attached teams of horses (8 per side, 16 total) and had them try to pull the spheres apart. They could not. However, when Guericke simply opened a valve to let the air back in, the spheres fell apart on their own.",
+      "key_points": [
+        "发明了“真空泵”(Air Pump)",
+        "“马格德堡半球”实验",
+        "无可辩驳地证明了“大气压强”的威力",
+        "彻底推翻了亚里士多德“自然厌恶真空”(Horror vacui) 的理论"
+      ],
+      "key_points_en": [
+        "Invented the 'Air Pump'",
+        "The 'Magdeburg Hemispheres' experiment",
+        "Definitively proved the power of 'Atmospheric Pressure'",
+        "Overthrew Aristotle's 'Horror vacui' (Nature abhors a vacuum) theory"
+      ]
+    },
+  
+    "story": {
+      "text": "格里克的实验是对统治了2000年的亚里士多德哲学（`aristotle_elements_BC350`）的公开“宣战”。亚里士多德宣称“自然厌恶真空”(Horror vacui)，即“真空”是不可能存在的。格里克在1654年雷根斯堡的帝国议会前，当着所有王公贵族的面前，进行了这场表演。两个直径约50厘米的半球被抽成真空后，16匹马都无法拉开它们。这戏剧性地证明，将半球“压”在一起的，不是内部的“吸力”，而是外部“空气海洋”的巨大“重量”（大气压强）。这个实验的视觉冲击力是如此之大，以至于它成为了科学革命的标志性事件之一。",
+      "text_en": "Guericke's experiment was a public 'declaration of war' on 2,000 years of Aristotelian philosophy (`aristotle_elements_BC350`), which claimed 'Horror vacui' (nature abhors a vacuum) and that a vacuum was impossible. In 1654, in front of the Imperial Diet at Regensburg, Guericke performed his show. Two copper hemispheres, ~50cm in diameter, were sealed and pumped empty. *Sixteen horses* could not pull them apart. This proved, dramatically, that it wasn't a 'suck' from the inside holding them, but the immense *weight* of the 'ocean of air' (atmospheric pressure) on the *outside* pushing them together. The visual power of this demonstration made it one of the most iconic events of the Scientific Revolution.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Magedurger_Halbkugeln_Luftpumpe_Deutsches_Museum.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏛️",
+        "text": "格里克不仅是科学家，他还是马格德堡市的“市长”，当时该市正试图从“三十年战争”的毁灭中恢复。",
+        "text_en": "Guericke was not just a scientist; he was the *Mayor* of Magdeburg, a city trying to recover from its total destruction during the Thirty Years' War."
+      },
+      {
+        "icon": "⚖️",
+        "text": "“大气压强”是如此巨大，作用在他50厘米半球上的总压力，相当于“一头大象的重量”（超过2吨或20,000牛顿）。",
+        "text_en": "The atmospheric pressure holding his 50cm hemispheres together was equal to the *weight of an elephant* (over 2 tons, or 20,000 Newtons)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你试图打开一扇门，但门外有一头“大象”正靠在上面。你当然打不开。\n格里克就是第一个向世界“展示”这头“大象”的人。他把两个铜碗合在一起，然后把他发明的“真空泵”插进去，把里面的“所有东西”（空气）都抽了出来。这时，外面那头看不见的“大象”（即我们头顶几公里高的大气层的“重量”）就紧紧地把两个铜碗“压”在了一起。他甚至让16匹马都拉不开它，以此证明我们周围的“空气”到底有多重。",
+      "text_en": "Imagine trying to open a door, but there's an 'elephant' leaning against the other side. You can't.\nGuericke was the first person to 'show' the world that this invisible 'elephant' exists. He took two metal bowls, put them together, and *pumped all the air out* from the inside. Suddenly, the invisible 'elephant' on the *outside* (which is the *weight* of the miles of air above our heads) pushed the bowls together so tightly that *sixteen horses* couldn't pull them apart. He proved that the air around us is incredibly heavy.",
+      "diagram": "assets/images/atmosphere_pressure.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💨",
+          "title": "真空泵 (Air Pump)",
+          "title_en": "Air Pump",
+          "text": "格里克发明的第一台“真空泵”是所有现代真空技术（从真空包装到粒子加速器）的祖先。",
+          "text_en": "Guericke's invention of the 'air pump' is the ancestor of all modern vacuum technology, from food packaging to particle accelerators."
+        },
+        {
+          "icon": "🔬",
+          "title": "气体科学 (Pneumatics)",
+          "title_en": "Pneumatics",
+          "text": "他的真空泵使得罗伯特·波义耳（`boyle_law_1662`）能够进行实验，以发现“压强”和“体积”之间的数学关系（波义耳定律）。",
+          "text_en": "His air pump allowed Robert Boyle (`boyle_law_1662`) to perform the experiments needed to discover the mathematical relationship between 'pressure' and 'volume' (Boyle's Law)."
+        },
+        {
+          "icon": "⚙️",
+          "title": "蒸汽机 (Steam Engine)",
+          "title_en": "Steam Engine",
+          "text": "他对“真空”和“大气压强”威力的戏剧性展示，是丹尼斯·帕潘（`papin_piston_1690`）和纽科门（`newcomen_engine_1712`）发明“大气蒸汽机”的直接灵感来源。",
+          "text_en": "His dramatic demonstration of the power of a *vacuum* and *atmospheric pressure* was the direct inspiration for the 'atmospheric steam engine' invented by Papin (`papin_piston_1690`) and Newcomen (`newcomen_engine_1712`)."
+        }
+      ],
+  
+    "impact": {
+      "text": "“马格德堡半球”实验是科学革命的标志性事件。它在视觉上无可辩驳地“杀死”了亚里士多德统治2000年的“自然厌恶真空”的教条。它将“大气压强”从一个理论概念（由托里拆利提出）转变为一种可畏的、可被利用的“工程力量”。这一演示直接开启了“气体动力学”(Pneumatics) 的时代，并为蒸汽机的发明铺平了道路。",
+      "text_en": "The 'Magdeburg Hemispheres' experiment is an iconic event of the Scientific Revolution. It visually and irrefutably 'killed' the 2,000-year-old Aristotelian dogma that 'nature abhors a vacuum'. It transformed 'atmospheric pressure' from a theoretical concept (from Torricelli) into an awesome, harnessable *force of engineering*. This demonstration opened the age of pneumatics and led directly to the steam engine.",
+      "stats": [
+          {
+            "number": "16",
+            "label": "匹马 (无法拉开)",
+            "label_en": "Horses (Could Not Pull Apart)"
+          },
+          {
+            "number": "0",
+            "label": "内部吸力 (全是外部压力)",
+            "label_en": "Internal Suction (All External Pressure)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "torricelli_barometer_1643",
+          "contribution": "托里拆利（其“气压计”实验和“大气压”理论，是格里克试图验证和展示的）",
+          "contribution_en": "Torricelli (his barometer experiment and theory of 'atmospheric pressure' was what Guericke set out to prove and demonstrate)"
+        },
+        {
+          "id": "aristotle_elements_BC350",
+          "contribution": "亚里士多德（其“自然厌恶真空”的理论是格里克试图推翻的主要目标）",
+          "contribution_en": "Aristotle (his 'Horror vacui' theory was the primary target Guericke sought to disprove)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "boyle_law_1662",
+          "contribution": "罗伯特·波义耳（其“真空泵”的改进版（波义耳泵）是其进行气体定律实验的基础）",
+          "contribution_en": "Robert Boyle (whose improved version of the 'air pump' was the basis for all his gas law experiments)"
+        },
+        {
+          "id": "papin_piston_1690",
+          "contribution": "丹尼斯·帕潘（其“大气活塞”发动机的灵感，直接来自格里克对大气压强威力的展示）",
+          "contribution_en": "Denis Papin (his 'atmospheric piston' engine was directly inspired by Guericke's demonstration of the power of the atmosphere)"
+        },
+        {
+          "id": "guericke_static_generator_1663",
+          "contribution": "（他自己）对“真空”的研究，使他转向研究“超距作用”，从而发明了“静电起电机”",
+          "contribution_en": "(Himself) His study of the 'vacuum' (action at a distance) led him to study *other* actions at a distance, like electricity, inspiring his 'static generator'"
+        }
+      ],
+      "legacy_text": "奥托·冯·格里克用他的真空泵和两只铜碗，向世界展示了我们生活在一个看不见的、沉重的“空气海洋”的底部。",
+      "legacy_text_en": "Otto von Guericke used his pump and two copper bowls to show the world that we live at the bottom of an invisible, crushingly heavy 'ocean of air'."
+    },
+  
+    "related_concepts": ["真空 (Vacuum)", "大气压强 (Atmospheric Pressure)", "真空泵 (Air Pump)", "马格德堡半球 (Magdeburg Hemispheres)", "亚里士多德 (Aristotle)", "托里拆利 (Torricelli)", "波义耳 (Boyle)", "帕潘 (Papin)"],
+    "related_concepts_en": ["Vacuum", "Atmospheric Pressure", "Air Pump", "Magdeburg Hemispheres", "Aristotle", "Torricelli", "Boyle", "Papin"],
+  
+    "quiz": {
+      "question": "在马格德堡半球实验中，是什么“力”阻止了16匹马将两个半球拉开？",
+      "question_en": "In the Magdeburg Hemispheres experiment, what 'force' prevented the 16 horses from pulling the spheres apart?",
+      "options": [
+        "两个半球之间的“真空”产生的强大“吸力”",
+        "半球之间的“磁力”",
+        "外部“大气压强”（空气的重量）施加的“压力”",
+        "半球边缘的“胶水”"
+      ],
+      "options_en": [
+        "A powerful 'suction force' created by the vacuum inside",
+        "A 'magnetic force' between the hemispheres",
+        "The 'crushing force' of the 'atmospheric pressure' (the weight of the air) on the outside",
+        "The 'glue' used to seal the rims"
+      ],
+      "answer": 2,
+      "explanation": "这是该实验的关键点。“真空”本身没有“力”（它是“无”）。阻止半球分离的，是半球外部的、我们看不见的“空气海洋”的巨大重量，它从四面八方将半球紧紧“压”在了一起。",
+      "explanation_en": "This is the key point of the experiment. The 'vacuum' itself has no 'force' (it is 'nothing'). What held the spheres together was the immense weight of the 'ocean of air' on the *outside*, crushing them together from all directions."
+    }
+  }

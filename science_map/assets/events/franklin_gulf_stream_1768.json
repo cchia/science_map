@@ -1,0 +1,144 @@
+{
+    "id": "franklin_gulf_stream_1768",
+    "personId": "benjamin_franklin",
+    "title": "绘制“湾流” (Gulf Stream) 地图",
+    "title_en": "Charts the Gulf Stream",
+    "year": 1768,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦 (绘制于)",
+    "city_en": "London (Charted in)",
+    "country": "英国 (时任殖民地邮政总长)",
+    "country_en": "United Kingdom (as Postmaster General)",
+    "field": ["地理学", "物理学"],
+    "field_en": ["Geography", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Franklin-Folger_Gulf_Stream_chart%2C_London%2C_1769_version%2C_LOC.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=UuGrBhK2c7U",
+        "title": "湾流地图",
+        "title_en": "The Gulf Stream Explained",
+        "duration": "5:04"
+      }
+    },
+    
+    "summary": {
+      "text": "本杰明·富兰克林在担任英属北美殖民地邮政副总长时，注意到一个奇怪的现象：从英国开往美国的“邮船” (Falmouth packets) 竟然比普通的“商船”要慢上两周。他与他的表弟、楠塔基特捕鲸船船长蒂莫西·福尔杰（Timothy Folger）合作，绘制了第一张详细的“湾流”图。他将湾流描述为“大洋中的一条河”，并建议船长们利用（或避开）这股暖流来缩短航行时间。",
+      "text_en": "While serving as Deputy Postmaster General for the colonies, Benjamin Franklin was puzzled why British mail ships (Falmouth packets) took *two weeks longer* to sail to America than merchant ships. He collaborated with his cousin, Nantucket whaler Timothy Folger, to create the first detailed chart of the 'Gulf Stream'. He identified it as a 'river in the ocean' and advised captains to use (or avoid) this warm current to drastically shorten their voyages.",
+      "key_points": [
+        "绘制了第一张“湾流”(Gulf Stream) 地图",
+        "开创了“物理海洋学”(Physical Oceanography)",
+        "解释了为什么去美国的航行时间会有差异",
+        "首次使用“温度计”来导航和识别洋流"
+      ],
+      "key_points_en": [
+        "Created the first chart of the 'Gulf Stream'",
+        "Founded the science of 'Physical Oceanography'",
+        "Solved the mystery of the slow mail ships",
+        "First to use a 'thermometer' to navigate and identify a current"
+      ]
+    },
+  
+    "story": {
+      "text": "弗兰克林向他的表弟、捕鲸船长蒂莫西·福尔杰（Timothy Folger）询问了这个“邮船悖论”。福尔杰回答说，这是因为英国邮船船长对“湾流”一无所知，他们一直在“逆流”航行。而楠塔基特的捕鲸船（和商船）则非常了解这股暖流（因为鲸鱼总是在暖流的“边缘”觅食），他们知道在向西航行时要“避开”它。弗兰克林立即意识到这些知识的价值，他说服福尔杰将洋流的边界画在海图上，并于1769-1770年在伦敦将此图印制出来，免费分发给邮船船长们——尽管他们中的大多数人最初都忽视了他的建议。",
+      "text_en": "Franklin asked his cousin, whaling captain Timothy Folger, about the paradox. Folger explained that the British packet captains were ignorant of the 'Gulph Stream' and were sailing *directly against it*. Nantucket whalers, however, knew it well (as whales fed on its edges) and *avoided it* on their westward journey. Franklin, realizing the value of this, had Folger sketch the current onto a chart, which he had printed in London (c. 1769-70) and distributed for free—though most of the mail captains ignored his advice at first."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🌡️",
+        "text": "弗兰克林在后来的航行中，系统性地用“温度计”来测量水温。他证明了湾流的水温明显高于周围的海水，从而为水手们提供了一种在没有地图时“找到”或“避开”湾流的简单方法。",
+        "text_en": "On later voyages, Franklin systematically took water temperatures with a thermometer. He proved the Gulf Stream was significantly *warmer* than the surrounding ocean, giving sailors a simple way to 'find' or 'avoid' it even without a map."
+      },
+      {
+        "icon": "📮",
+        "text": "这个发现纯粹是出于“政府效率”的需要——弗兰克林只是想让“邮件”送得快一点。",
+        "text_en": "This discovery was driven purely by the need for 'government efficiency'—Franklin just wanted the mail to be faster."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "弗兰克林发现，大西洋里有一条“隐形的河流”（湾流），它就像机场的“自动人行道”。\n* 去英国的船（向东）可以“站”在自动人行道上，速度翻倍。\n* 从英国回来的船（向西）如果不知道这条路，就可能一直在“逆行”自动人行道，速度减半。\n弗兰克林是第一个画出这张“自动人行道地图”的人，并告诉船长们如何使用它。",
+      "text_en": "Franklin discovered there's an 'invisible river' in the Atlantic Ocean, like one of those 'moving walkways' at an airport.\n* Ships going *to* Europe (East) could 'ride' this walkway and go much faster.\n* Ships coming *from* Europe (West) didn't know it was there and were trying to walk *against* it, making them incredibly slow.\nFranklin was the first person to draw a *map* of this 'moving walkway' and tell captains how to use it.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Gulfstream.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🗺️",
+          "title": "航海与导航",
+          "title_en": "Sailing and Navigation",
+          "text": "他的地图彻底改变了跨大西洋航线，为船只节省了数周的时间，是现代导航路线的开端。",
+          "text_en": "His chart revolutionized transatlantic navigation, saving weeks off voyages and forming the basis for modern shipping lanes."
+        },
+        {
+          "icon": "🌊",
+          "title": "物理海洋学",
+          "title_en": "Physical Oceanography",
+          "text": "这是对“大洋环流”的第一次科学研究。它开创了“物理海洋学”，即用物理学（如温度）来研究海洋。",
+          "text_en": "This was the first scientific study of a major ocean current. It founded 'Physical Oceanography', the use of physics (like temperature) to study the ocean."
+        },
+        {
+          "icon": "🌦️",
+          "title": "气候科学 (Climate Science)",
+          "title_en": "Climate Science",
+          "text": "“湾流”是地球气候系统的“热量传送带”。理解它（始于弗兰克林）对于预测欧洲和北美气候至关重要。",
+          "text_en": "The Gulf Stream is the 'heat conveyor belt' for the planet. Understanding it (which Franklin started) is essential for forecasting the climates of Europe and North America."
+        }
+      ],
+  
+    "impact": {
+      "text": "弗兰克林对湾流的绘制，是“启蒙运动”精神（即通过理性和系统观测来改善人类生活）的完美体现。它将海洋从一个充满未知危险的地方，转变为一个可被理解、可被测量的“物理系统”。它奠定了“物理海洋学”的基础，并且至今仍是气候科学的核心组成部分。",
+      "text_en": "Franklin's charting of the Gulf Stream was a perfect example of the 'Enlightenment' spirit: using reason and systematic observation to improve human life. It transformed the ocean from a place of unknown perils into a knowable, measurable 'physical system'. It laid the foundation for physical oceanography and remains a core component of climate science today.",
+      "stats": [
+          {
+            "number": "2",
+            "label": "周 (节省的航行时间)",
+            "label_en": "Weeks (Voyage Time Saved)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "timothy_folger_whalers_1768",
+          "contribution": "蒂莫西·福尔杰（以及楠塔基特捕鲸人的“口述知识”，他们知道湾流的存在）",
+          "contribution_en": "Timothy Folger (and the 'oral knowledge' of Nantucket whalers, who knew where the current was)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "maury_oceanography_1855",
+          "contribution": "马修·方丹·莫里（其《海洋自然地理》系统性地绘制了全球洋流图，是弗兰克林工作的直接继承者）",
+          "contribution_en": "Matthew Fontaine Maury (his 'Physical Geography of the Sea' systemized Franklin's work for *all* ocean currents)"
+        }
+      ],
+      "legacy_text": "本杰明·富兰克林是第一个“绘制”出大洋中“隐形河流”的人。",
+      "legacy_text_en": "Benjamin Franklin was the first person to 'chart' the invisible rivers of the ocean."
+    },
+  
+    "related_concepts": ["湾流 (Gulf Stream)", "物理海洋学 (Physical Oceanography)", "洋流 (Ocean Current)", "温度计 (Thermometer)", "蒂莫西·福尔杰 (Timothy Folger)", "航海 (Navigation)", "气候学 (Climatology)"],
+    "related_concepts_en": ["Gulf Stream", "Physical Oceanography", "Ocean Current", "Thermometer", "Timothy Folger", "Navigation", "Climatology"],
+  
+    "quiz": {
+      "question": "本杰明·富兰克林最初绘制“湾流”图的“实用主义”动机是什么？",
+      "question_en": "What was Benjamin Franklin's original 'practical' motivation for charting the Gulf Stream?",
+      "options": [
+        "为了找到鲸鱼",
+        "为了证明地球在自转",
+        "为了找出为什么从英国寄来的“邮件”会迟到",
+        "为了寻找通往亚洲的“西北航道”"
+      ],
+      "options_en": [
+        "To find whales",
+        "To prove the Earth's rotation",
+        "To figure out why the 'mail' from Britain was arriving so slowly",
+        "To find the 'Northwest Passage' to Asia"
+      ],
+      "answer": 2,
+      "explanation": "作为邮政副总长，弗兰克林对英国邮船比美国商船慢两周感到困惑。他发现，英国船长（无知地）在逆着湾流航行，而商船船长（从捕鲸人那里学到）则知道如何避开它。",
+      "explanation_en": "As Deputy Postmaster General, Franklin was baffled why the British mail packets were two weeks slower than American merchant ships. He discovered the British captains were (unknowingly) sailing *against* the Gulf Stream, while the merchant captains (who learned from whalers) knew to avoid it."
+    }
+  }

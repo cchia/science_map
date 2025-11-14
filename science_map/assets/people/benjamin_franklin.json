@@ -1,0 +1,13 @@
+{
+    "name": "本杰明·富兰克林",
+    "name_en": "Benjamin Franklin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/87/Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+    "bio_short": "美国开国元勋、博学家、发明家和物理学家。他提出了“电荷守恒”定律，通过“风筝实验”证明了闪电是电，发明了“避雷针”，并绘制了第一张“湾流”图。",
+    "bio_short_en": "A Founding Father of the United States, polymath, inventor, and physicist. He proposed the 'Conservation of Charge', proved lightning is electricity with his 'kite experiment', and charted the 'Gulf Stream'.",
+    "events": [
+      "franklin_charge_1747",
+      "franklin_kite_1752",
+      "franklin_lightning_rod_1752",
+      "franklin_gulf_stream_1768"      
+    ]
+  }

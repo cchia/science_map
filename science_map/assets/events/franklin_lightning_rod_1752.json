@@ -1,0 +1,145 @@
+{
+    "id": "franklin_lightning_rod_1752",
+    "personId": "benjamin_franklin",
+    "title": "发明“避雷针”",
+    "title_en": "Invents the 'Lightning Rod'",
+    "year": 1752,
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "city": "费城",
+    "city_en": "Philadelphia",
+    "country": "英属美洲 (今美国)",
+    "country_en": "British America (Modern USA)",
+    "field": ["工程学", "物理学"],
+    "field_en": ["Engineering", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Lightning-rod-diagram.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=SqI7xSOH3g4",
+        "title": "为什么建筑物需要避雷针？",
+        "title_en": "Earthing - Why do buildings have lightning rods?",
+        "duration": "0:54"
+      }
+    },
+    
+    "summary": {
+      "text": "在本杰明·富兰克林（Benjamin Franklin）通过风筝实验（`franklin_kite_1752`）证明了闪电就是“电”之后，他立即将其转化为一项拯救生命的工程应用：“避雷针”。他提出，在建筑物的最高点安装一根尖锐的金属杆（“尖端放电”），并通过一根粗导线（如铜线）将其连接到深深埋入地下的“接地棒”。这为闪电提供了一条“低电阻”的安全路径，使其电荷在击中建筑物之前就被“吸引”并安全地导入地下，从而保护建筑物免遭火灾和破坏。",
+      "text_en": "Immediately after proving lightning was electricity (`franklin_kite_1752`), Benjamin Franklin translated his scientific discovery into a life-saving engineering application: the 'Lightning Rod'. He proposed that a sharp metal rod (to 'draw off' the charge via corona discharge) be placed on the highest point of a building, connected by a thick conductor (a copper wire) to a 'grounding rod' buried deep in the earth. This provided lightning with a 'low-resistance' path, 'attracting' the strike to the rod and safely conducting its massive charge into the ground, sparing the building from fire and destruction.",
+      "key_points": [
+        "启蒙运动 (Enlightenment) 最伟大的工程发明之一",
+        "“尖端放电”(Pointed Tip) 原理的应用",
+        "将闪电的巨大能量安全地“接地”(Grounding)",
+        "保护建筑物免受火灾",
+        "从“科学发现”到“工程应用”的典范"
+      ],
+      "key_points_en": [
+        "One of the greatest engineering inventions of the Enlightenment",
+        "Application of the 'principle of points' (corona discharge)",
+        "Safely 'grounds' the electrical charge of a lightning strike",
+        "Protects buildings from fire",
+        "The model of 'science-to-engineering' translation"
+      ]
+    },
+  
+    "story": {
+      "text": "弗兰克林对“尖端”的力量非常着迷。他在实验室中注意到，一个“尖锐”的金属物体（如针）比“钝”的金属球，能更有效地、更“安静”地（在接触前）从带电物体（如莱顿瓶）“吸走”电荷——这种现象现在被称为“电晕放电”或“尖端放电”。他因此推断，一个尖锐的“避雷针”不仅能在“被动”被击中时导电，还能“主动”地、悄无声息地“中和”飘过头顶的雷雨云的电荷，从而*防止*雷击的发生。这个理论（虽然仍在辩论中）指导了他最初的设计。",
+      "text_en": "Franklin was fascinated by the 'power of points'. He had noticed in his lab that a *sharp* metal object (like a needle) could 'draw off' a charge from a Leyden jar *silently* and *from a distance*, far more effectively than a blunt object—a phenomenon now called 'corona discharge'. He therefore reasoned that a pointed lightning rod would not just *conduct* a direct hit, but would *actively* and *silently* 'neutralize' a passing storm cloud by 'drawing the fire' out of it, thereby *preventing* a strike from happening at all. This theory guided his initial design.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Pointed_Lightning_Rod.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👑",
+        "text": "英国的乔治三世国王（King George III）曾卷入了“尖头”还是“钝头”避雷针的政治辩论。弗兰克林（作为美国人）支持“尖头”，而国王（出于政治对立）则下令在他的宫殿上安装“钝头”。",
+        "text_en": "King George III of Britain got into a political debate over pointed vs. blunt conductors. Franklin (as an American) supported *pointed* tips. The King, in political opposition, ordered *blunt* conductors to be installed on his palace."
+      },
+      {
+        "icon": "⛪",
+        "text": "避雷针的发明在当时引起了巨大的宗教争议。一些神职人员认为，闪电是“上帝的惩罚”，安装避雷针是“亵渎神灵”和“干预天意”的行为。",
+        "text_en": "The invention was highly controversial among some religious figures, who argued that lightning was 'divine punishment' and that the rod was a 'heretical' and 'impious' attempt to interfere with the will of God."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在弗兰克林的风筝实验（`franklin_kite_1752`）证明了“闪电就是电”之后，他立刻想出了一个“工程解决方案”来对付它。\n他想：“闪电（电）总是想走‘最容易’的路（即电阻最小）进入地下。如果我们在房子上给它造一条‘高速公路’（金属杆），它是不是就不会去走‘乡间小路’（穿过你的木头房子并点燃它）了？”\n“避雷针”就是这条“电的高速公路”，它将闪电从云层“安全地护送”到地下，使房屋免受其害。",
+      "text_en": "After Franklin's kite experiment (`franklin_kite_1752`) proved 'lightning is electricity', he immediately invented an 'engineering solution' for it.\nHe thought: 'Lightning (electricity) always wants to take the *easiest path* (lowest resistance) to the ground. If we build it a *superhighway* (a metal rod), maybe it will take that path instead of the 'country road' (through your wooden house, setting it on fire)?'\nThe 'Lightning Rod' *is* that electrical superhighway. It safely escorts the lightning from the cloud, past the building, and deep into the ground.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Lightning_Rod_Meteora.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏠",
+          "title": "建筑保护 (Building Protection)",
+          "title_en": "Building Protection",
+          "text": "避雷针是（并且至今仍是）保护高层建筑、房屋、教堂和工厂免受雷击火灾的标准工程设备。",
+          "text_en": "The lightning rod is (and remains) the standard engineering device for protecting tall structures, homes, churches, and factories from lightning-induced fires."
+        },
+        {
+          "icon": "🚢",
+          "title": "船舶保护 (Ship Protection)",
+          "title_en": "Ship Protection",
+          "text": "它被迅速应用于高大的木制船桅上，极大地减少了海军和商船在海上因雷击而引发火灾和爆炸（如果击中火药库）的风险。",
+          "text_en": "It was rapidly applied to tall wooden ship masts, drastically reducing the risk of fire and explosions (if it hit the powder magazine) for navies and merchant fleets at sea."
+        }
+      ],
+  
+    "impact": {
+      "text": "“避雷针”是18世纪最伟大的“工程”发明之一，也是“启蒙运动”的象征。这是人类第一次基于“科学实验”（`franklin_kite_1752`）和“物理学理论”（`franklin_charge_1747`），成功地“驯服”了一种曾被认为是“超自然”的、毁灭性的自然力量。它完美地展示了科学如何能直接服务于人类的福祉和安全。",
+      "text_en": "The Lightning Rod was one of the greatest *engineering* inventions of the 18th century and a symbol of the Enlightenment. It was the first time humanity, based on *scientific experiment* (`franklin_kite_1752`) and *physical theory* (`franklin_charge_1747`), successfully *tamed* one of nature's most destructive and 'supernatural' forces. It was the perfect demonstration of how science could be applied directly to human safety and welfare.",
+      "stats": [
+          {
+            "number": "1752",
+            "label": "年 (发明年份)",
+            "label_en": "Year Invented"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "franklin_kite_1752",
+          "contribution": "弗兰克林的风筝实验（提供了“闪电是电”的理论证据）",
+          "contribution_en": "Franklin's Kite Experiment (provided the proof that lightning was electricity)"
+        },
+        {
+          "id": "franklin_charge_1747",
+          "contribution": "弗兰克林的电荷理论（其“尖端放电”的观察是避雷针设计的基础）",
+          "contribution_en": "Franklin's Theory of Charge (his observations of 'the power of points' was the basis for the rod's design)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "modern_building_codes_1800",
+          "contribution": "所有现代建筑的“防雷”和“接地”规范",
+          "contribution_en": "All modern building codes for 'lightning protection' and 'electrical grounding'"
+        }
+      ],
+      "legacy_text": "弗兰克林的避雷针是“科学”战胜“迷信”的第一个伟大工程丰碑。",
+      "legacy_text_en": "Franklin's lightning rod was the first great engineering monument to the triumph of 'science' over 'superstition'."
+    },
+  
+    "related_concepts": ["避雷针 (Lightning Rod)", "闪电 (Lightning)", "接地 (Grounding)", "电荷 (Charge)", "尖端放电 (Corona Discharge)", "本杰明·富兰克林", "启蒙运动 (Enlightenment)"],
+    "related_concepts_en": ["Lightning Rod", "Lightning", "Grounding", "Electric Charge", "Corona Discharge", "Benjamin Franklin", "Enlightenment"],
+  
+    "quiz": {
+      "question": "弗兰克林发明的“避雷针”在工程学上是如何保护建筑物的？",
+      "question_en": "How does Franklin's 'lightning rod' function, as an engineering device, to protect a building?",
+      "options": [
+        "它将闪电“反射”回云层",
+        "它将闪电的能量“储存”在莱顿瓶中",
+        "它在建筑物周围产生一个“力场”",
+        "它为闪电提供一条“低电阻”的安全路径，将其导入地下"
+      ],
+      "options_en": [
+        "It 'reflects' the lightning back into the cloud",
+        "It 'stores' the lightning's energy in a Leyden jar",
+        "It creates a 'force field' around the building",
+        "It provides a 'low-resistance' safe path for the lightning to travel into the ground"
+      ],
+      "answer": 3,
+      "explanation": "避雷针的原理是“传导”和“接地”。闪电（电）总是寻找阻力最小的路径。与其让闪电穿过高电阻的木头或砖石（会产生高热和火灾），避雷针提供了一条低电阻的“高速公路”（金属导线），让电安全地流入大地。",
+      "explanation_en": "The principle is 'conduction' and 'grounding'. Lightning (electricity) always seeks the path of least resistance. Rather than letting it pass through high-resistance wood or masonry (which generates intense heat and fire), the rod provides a low-resistance 'superhighway' (the metal wire) for the electricity to flow safely into the earth."
+    }
+  }

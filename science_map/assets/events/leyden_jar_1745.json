@@ -106,7 +106,7 @@
     "influence_chain": {
       "influenced_by": [
         {
-          "id": "static_generators_1663",
+          "id": "guericke_static_generator_1663",
           "contribution": "奥托·冯·格里克（其“静电起电机”是为莱顿瓶“充电”所必需的设备）",
           "contribution_en": "Otto von Guericke (his 'static generator' was the machine needed to 'charge' the Leyden jar)"
         }
