@@ -1,0 +1,131 @@
+{
+    "id": "reis_telephon_1861",
+    "personId": "johann_philipp_reis",
+    "title": "发明“雷斯电话”(Reis Telephon)",
+    "title_en": "Invents the Reis 'Telephon'",
+    "year": 1861,
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "city": "法兰克福 (演示地点)",
+    "city_en": "Frankfurt (Demonstration site)",
+    "country": "德意志邦联 (今德国)",
+    "country_en": "German Confederation (Modern Germany)",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Johann_Philipp_Reis_telephone.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2zekQOgK11o",
+        "title": "贝尔之前的电话",
+        "title_en": "The Telephone Before Bell — The Story of Philipp Reis (1861)",
+        "duration": "14:13"
+      }
+    },
+    
+    "summary": {
+      "text": "德国教师约翰·菲利普·雷斯（Johann Philipp Reis）在1861年发明并展示了他称之为“Telephon”（电话）的设备。这是“电话”一词的首次使用。他的设备是第一个基于人耳结构（振膜）来“发射”声音的设备，并且能够清晰地传输“音调”(Pitch) 和“音乐”(Music)。然而，它的“发射器”原理是“断-续”(Make-and-Break) 电流，因此在传输“人声”的复杂“波形”(Waveform) 时效果极差，声音模糊且断续。",
+      "text_en": "In 1861, German teacher Johann Philipp Reis invented and demonstrated his 'Telephon', the first use of the word. His device was the first to use an ear-like diaphragm to transmit sound, and it was excellent at transmitting *musical pitch*. However, its transmitter worked on a 'make-and-break' (intermittent) current principle, which was incapable of transmitting the complex *waveforms* of human *speech*, resulting in muffled, broken, and unintelligible words.",
+      "key_points": [
+        "发明了“Telephon”一词",
+        "能清晰传输“音调”和“音乐”",
+        "无法清晰传输“人声” (Speech)",
+        "使用了“断-续” (Make-and-Break) 电流，而非“波动” (Undulating) 电流",
+        "是贝尔 (`bell_telephone_1876`) 之前的重要先驱"
+      ],
+      "key_points_en": [
+        "Coined the word 'Telephon'",
+        "Could transmit 'pitch' and 'music' clearly",
+        "Could *not* transmit human 'speech' clearly",
+        "Used a 'make-and-break' current, not an 'undulating' one",
+        "A key precursor to Bell (`bell_telephone_1876`)"
+      ]
+    },
+  
+    "story": {
+      "text": "雷斯的发明是“一半的天才”。他天才地模仿了人耳的“鼓膜”（振膜）和“听小骨”（接触点）。当他对着振膜说话或唱歌时，振膜会振动，带动一个金属针“敲击”另一个金属触点。这就像一个“声控电报机”（`morse_code_1837`），以声音的“频率”来“接通-断开”电流。这个“断-续”的电流可以完美地让另一端的接收器以相同的“频率”振动，所以它能传输“音乐的音高”。但它无法复制人声中复杂的“音量”和“音色”变化（即声波的“形状”）。为了证明它能传人声，他曾试着传输一句德语：“马不吃黄瓜沙拉”，但据说接收端听到的只是含混不清的“...吃...沙拉...”。",
+      "text_en": "Reis's invention was 'half a genius'. He brilliantly modeled his transmitter on the human ear (a diaphragm 'eardrum' hitting a contact 'bone'). When he spoke, the diaphragm would vibrate, causing a metal pin to *tap* another contact. This created a 'sound-controlled telegraph' (`morse_code_1837`), breaking the circuit at the *frequency* of the sound. This 'make-and-break' current was perfect for making a receiver buzz at the same *pitch*, so it could transmit *music*. But it *failed* to copy the *shape* (amplitude/timbre) of the human voice. His famous attempt to prove it worked for speech was the phrase, 'The horse does not eat cucumber salad,' which was (reportedly) barely intelligible."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚖️",
+        "text": "在贝尔（Bell）和格雷（Gray）的史诗级专利大战中，“雷斯电话”成为了贝尔律师的“关键证据”。贝尔的律师（讽刺地）利用雷斯电话“传不了话”这一点，来证明贝尔的“波动电流”（模拟声波）是一个全新的、革命性的发明。",
+        "text_en": "In the epic Bell vs. Gray patent lawsuits, the Reis telephone was *Bell's* star witness. Bell's lawyers *used* the fact that Reis's phone *failed* to transmit speech to prove that Bell's 'undulating current' (which *could*) was a completely new and different invention."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "雷斯发明了一个“声控电报机”。它能“听到”一个声音的“音高”（比如，C调），然后让电流以这个“音高”的频率“滴-答-滴-答”。这用来传“音乐”很棒。\n但“人声”远比这复杂。人声不仅有“音高”，还有“形状”（波形）。\n雷斯的设备（像电报）只能传输“滴-答”（数字信号）。贝尔的设备（`bell_telephone_1876`）则能传输完整的“波形”（模拟信号）。",
+      "text_en": "Reis invented a 'sound-controlled telegraph'. It could hear the *pitch* of a sound (like a 'C' note) and make the electricity go 'beep-beep-beep' at that *frequency*. This was great for transmitting *music*.\nBut the human *voice* is complex. It doesn't just have pitch; it has *shape* (waveform).\nReis's device (like a telegraph) could only send 'beeps' (digital). Bell's device (`bell_telephone_1876`) could send the entire 'shape' of the voice (analog)."      
+    },
+  
+    "applications": [
+        {
+          "icon": "📞",
+          "title": "电话的先驱",
+          "title_en": "Precursor to the Telephone",
+          "text": "雷斯的设备证明了“用电传输声音”在物理上是可能的，并为后来的发明者（如贝尔和格雷）指明了需要解决的“关键问题”（即“断-续”电流的局限性）。",
+          "text_en": "Reis's device proved that 'transmitting sound electrically' was physically possible and highlighted the *exact problem* (the limitation of 'make-and-break' current) that Bell and Gray needed to solve."
+        }
+      ],
+  
+    "impact": {
+      "text": "雷斯的发明在当时（1860年代）是一个广为人知、但在商业和技术上“失败”的尝试。然而，它的“失败”与它的“成功”同样重要。它成功地将“声音”和“电”联系在一起，并激发了贝尔、格雷和爱迪生等人去寻找一个“更好”的方法（即“波动电流”），从而直接催生了真正的电话（`bell_telephone_1876`）。",
+      "text_en": "Reis's 'Telephon' was a well-known, but commercially and technically 'failed', attempt. Its *failure*, however, was as important as its success. It successfully linked 'sound' to 'electricity' and inspired Bell, Gray, and Edison to find a *better* method (the 'undulating current'), which led directly to the 'real' telephone (`bell_telephone_1876`).",
+      "stats": [
+          {
+            "number": "1861",
+            "label": "年 (首次演示)",
+            "label_en": "Year First Demonstrated"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "faraday_induction_1831",
+          "contribution": "法拉第（其电磁感应原理是所有电子声音设备的基础）",
+          "contribution_en": "Faraday (his principles of electromagnetism were the basis for all electronic sound devices)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "bell_telephone_1876",
+          "contribution": "贝尔（贝尔研究了雷斯的设备，并（在法庭上）将其作为“反例”来证明自己发明的独创性）",
+          "contribution_en": "Alexander Graham Bell (who studied Reis's work and (in court) used it as the 'counter-example' to prove his own invention was novel)"
+        },
+        {
+          "id": "elisha_gray_1876",
+          "contribution": "伊莱沙·格雷（同样了解雷斯的工作，并试图改进它）",
+          "contribution_en": "Elisha Gray (who also knew of Reis's work and was trying to improve upon it)"
+        }
+      ],
+      "legacy_text": "约翰·菲利普·雷斯是那个“几乎”发明了电话的人。他发明了“设备”，但贝尔发明了“原理”。",
+      "legacy_text_en": "Johann Philipp Reis was the man who *almost* invented the telephone. He invented the *device*, but Bell invented the *principle*."
+    },
+  
+    "related_concepts": ["电话 (Telephone)", "Telephon", "断-续电流 (Make-and-Break)", "波动电流 (Undulating Current)", "贝尔 (Bell)", "格雷 (Gray)", "穆奇 (Meucci)", "音高 (Pitch)", "波形 (Waveform)"],
+    "related_concepts_en": ["Telephone", "Telephon", "Make-and-Break Current", "Undulating Current", "Bell", "Gray", "Meucci", "Pitch", "Waveform"],
+  
+    "quiz": {
+      "question": "约翰·菲利普·雷斯（Johann Philipp Reis）的“Telephon”在1861年为什么“失败”了（即无法清晰传输人声）？",
+      "question_en": "Why did Johann Philipp Reis's 'Telephon' (1861) *fail* to transmit clear human speech?",
+      "options": [
+        "他没有使用电线",
+        "他使用了“断-续”电流（像电报），这只能复制“音高”，不能复制“波形”",
+        "他使用了“波动”电流，但这太弱了",
+        "他没有使用“电”"
+      ],
+      "options_en": [
+        "He did not use a wire",
+        "It used a 'make-and-break' (digital) current, which only copies 'pitch', not 'waveform'",
+        "It used an 'undulating' (analog) current, but it was too weak",
+        "It did not use electricity"
+      ],
+      "answer": 1,
+      "explanation": "雷斯的设备（像电报）通过“敲击”来开关电流。这可以完美地复制声音的“频率”（音高），但无法复制人声的“形状”（波形/音色/音量）。贝尔（`bell_telephone_1876`）的突破是发明了一种“永不间断”的“波动”电流，该电流的“形状”可以完美“模仿”声波的“形状”。",
+      "explanation_en": "Reis's device (like a telegraph) *breaks* the circuit. This perfectly copies a sound's *frequency* (pitch), but *not* its *shape* (waveform/timbre/volume). Bell's (`bell_telephone_1876`) breakthrough was an *unbroken*, *undulating* (analog) current whose 'shape' *mimicked* the 'shape' of the sound wave."
+    }
+  }

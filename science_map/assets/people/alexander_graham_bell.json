@@ -1,0 +1,10 @@
+{
+    "name": "亚历山大·格拉汉姆·贝尔",
+    "name_en": "Alexander Graham Bell",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alexander_Graham_Bell.jpg",
+    "bio_short": "苏格兰裔美国发明家、科学家和工程师。他因在1876年获得“电话”专利而闻名于世，这项发明彻底改变了全球通信。",
+    "bio_short_en": "A Scottish-born American inventor, scientist, and engineer. He is credited with patenting the first practical 'telephone' in 1876, revolutionizing global communication.",
+    "events": [
+      "bell_telephone_1876"
+    ]
+  }

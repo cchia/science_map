@@ -1,0 +1,10 @@
+{
+    "name": "约翰·菲利普·雷斯",
+    "name_en": "Johann Philipp Reis",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/4e/JPReis.jpg",
+    "bio_short": "德国物理学家和发明家。他在1861年发明了“雷斯电话”(Reis Telephon)，是电话的早期先驱。他的设备可以传输音乐，但无法清晰传输人声。",
+    "bio_short_en": "A German physicist and inventor. He was an early pioneer of the telephone, inventing the 'Reis Telephon' in 1861. His device could transmit musical pitch but not clear human speech.",
+    "events": [
+      "reis_telephon_1861"
+    ]
+  }

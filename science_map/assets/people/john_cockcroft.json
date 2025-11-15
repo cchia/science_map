@@ -1,0 +1,10 @@
+{
+    "name": "约翰·考克饶夫",
+    "name_en": "John Cockcroft",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cockcroft.jpg",
+    "bio_short": "英国物理学家。他与欧内斯特·沃尔顿（Ernest Walton）合作，建造了第一台“粒子加速器”（科克罗夫特-沃尔顿发电机），并首次用人工加速的粒子“分裂原子核”，因此获得了1951年的诺贝尔物理学奖。",
+    "bio_short_en": "A British physicist who, with Ernest Walton, built one of the first 'particle accelerators' (the Cockcroft-Walton generator). They were the first to 'split the atom' with artificially accelerated particles, for which they won the 1951 Nobel Prize in Physics.",
+    "events": [
+      "cockcroft_walton_1932"
+    ]
+  }

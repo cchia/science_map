@@ -1,0 +1,10 @@
+{
+    "name": "欧内斯特·沃尔顿",
+    "name_en": "Ernest Walton",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/65/Ernest_Walton.jpg",
+    "bio_short": "爱尔兰物理学家。他与约翰·考克饶夫（John Cockcroft）合作，建造了“科克罗夫特-沃尔顿发电机”，并首次用人工加速的粒子“分裂原子核”，因此获得了1951年的诺贝尔物理学奖。",
+    "bio_short_en": "An Irish physicist who, with John Cockcroft, built the 'Cockcroft-Walton generator'. They were the first to 'split the atom' with artificially accelerated particles, for which they won the 1951 Nobel Prize in Physics.",
+    "events": [
+      "cockcroft_walton_1932"
+    ]
+  }

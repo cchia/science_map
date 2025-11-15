@@ -1,0 +1,10 @@
+{
+    "name": "安东尼奥·穆奇",
+    "name_en": "Antonio Meucci",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/75/Antonio_Meucci.jpg",
+    "bio_short": "意大利裔美国发明家。他被广泛认为是“电话”的最早发明者（`meucci_telettrofono_1857`），但因贫困而未能延续其专利告诫书，最终在与贝尔的专利战中败诉。",
+    "bio_short_en": "An Italian-American inventor. He is widely recognized as the *first* inventor of the telephone (`meucci_telettrofono_1857`), but lost the patent rights to Bell after being too poor to renew his patent caveat.",
+    "events": [
+      "meucci_telettrofono_1857"
+    ]
+  }

@@ -1,0 +1,132 @@
+{
+    "id": "meucci_telettrofono_1857",
+    "personId": "antonio_meucci",
+    "title": "设计“电语音”电话 (Telettrofono)",
+    "title_en": "Designs the 'Telettrofono' (Electric Voice Telephone)",
+    "year": 1857,
+    "lat": 40.6180,
+    "lng": -74.0754,
+    "city": "斯塔滕岛 (纽约)",
+    "city_en": "Staten Island (New York)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["工程学", "物理学"],
+    "field_en": ["Engineering", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Telefono_di_Meucci_-_Museo_scienza_tecnologia_Milano_02148-02147_dia.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=L-SQvjNBP-Y",
+        "title": "安东尼奥·穆奇",
+        "title_en": "Antonio Meucci - The true inventor of the telephone",
+        "duration": "2:39"
+      }
+    },
+    
+    "summary": {
+      "text": "意大利移民安东尼奥·穆奇（Antonio Meucci）在1850年代后期（据称早在1857年）就设计并建造了一台“电磁电话”，他称之为“Telettrofono”（电语音）。他建造这台设备是为了将他位于地下室的作坊与二楼卧病在床的妻子联系起来。1871年，他为自己的发明申请了“专利告诫书”(Patent Caveat)，但这只是一种临时专利。1874年，由于极度贫困（一说因实验受伤），他无力支付10美元的续费，导致告诫书失效。仅仅两年后，贝尔（`bell_telephone_1876`）提交了他自己的专利。",
+      "text_en": "The Italian immigrant Antonio Meucci designed and built an 'electromagnetic telephone' in the late 1850s (reportedly as early as 1857), which he called the 'Telettrofono'. He built the device to connect his basement workshop to his wife, who was an invalid bedridden on the second floor. He filed a 'patent caveat' (a temporary patent) in 1871, but in 1874, due to extreme poverty (and injuries from an explosion), he failed to pay the $10 renewal fee, and the caveat lapsed. Just two years later, Bell (`bell_telephone_1876`) filed his patent.",
+      "key_points": [
+        "发明了“Telettrofono”（电语音）",
+        "比贝尔早了近20年",
+        "目的是为了与卧病在床的妻子通话",
+        "因贫困（未能支付10美元）导致1871年的专利告诫书失效",
+        "2002年美国国会承认其“开创性工作”"
+      ],
+      "key_points_en": [
+        "Invented the 'Telettrofono'",
+        "Nearly 20 years before Bell",
+        "Built to communicate with his invalid wife",
+        "Lost his 1871 patent caveat due to poverty (failed to pay $10 fee)",
+        "Recognized by US Congress in 2002 for his 'pioneering work'"
+      ]
+    },
+  
+    "story": {
+      "text": "穆奇的设备使用的是“电磁”原理（`faraday_induction_1831`），这与贝尔的专利和格雷的设计在原理上是相同的。他（据称）在1857年建造了第一个模型。1871年，他提交了临时专利，并试图向西联电报公司（Western Union）展示他的发明，但他储存在那里的模型（据说）被“弄丢”了。1874年，他无力支付10美元的续费。1876年，亚历山大·格拉汉姆·贝尔（当时在西联公司资助的实验室工作）提交了正式专利。穆奇后来起诉贝尔，但在案件最终判决前他就去世了。2002年，美国国会通过第269号决议，正式承认了穆奇在发明电话方面的历史性贡献。",
+      "text_en": "Meucci's device worked on the 'electromagnetic' principle (`faraday_induction_1831`), the same as Bell's patent and Gray's design. He built his first model (reportedly) in 1857. In 1871, he filed his caveat and tried to demonstrate his invention to Western Union, but his models were (allegedly) 'lost'. In 1874, he couldn't afford the $10 renewal. In 1876, Alexander Graham Bell (who was working in a lab funded by Western Union) filed his formal patent. Meucci sued Bell, but died before the case was resolved. In 2002, the U.S. Congress passed Resolution 269, formally recognizing Meucci's historic contributions to the invention of the telephone."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💸",
+        "text": "穆奇的悲剧在于他离成功只差“10美元”——这是他1874年需要支付的专利告诫书续费。当时他因一次轮船锅炉爆炸而严重烧伤，生活极度困窘。",
+        "text_en": "Meucci's tragedy is that he was '$10 away' from history—the renewal fee he couldn't afford to pay in 1874, largely because he was severely burned and impoverished by a steamship boiler explosion."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "穆奇是那个“最早想到并做到了”的人。早在1857年，为了能和楼上生病的妻子说话，他就在他的房子里拉了一根线，造出了一台“电电话”。他很穷，在1871年只申请了一个“临时专利”。当这个“临时专利”在1874年因为他交不起10美元续费而“过期”时，贝尔在两年后带着一个（在数学上）非常相似的设计，申请了“正式专利”并赢得了这场历史性的竞赛。",
+      "text_en": "Meucci was the 'first guy who actually did it'. As early as 1857, he built an electric telephone in his house to talk to his sick wife upstairs. He was poor, so in 1871, he only filed a 'temporary patent'. When that 'temporary' status *expired* in 1874 because he couldn't pay the $10 renewal fee, Bell swooped in two years later with a mathematically similar design, filed a *full* patent, and won the race.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Telefono_di_Meucci_-_Museo_scienza_tecnologia_Milano_02148-02147_dia.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📞",
+          "title": "语音通信",
+          "title_en": "Voice Communication",
+          "text": "穆奇的发明是第一个用于“家庭内部”的语音通信系统。",
+          "text_en": "Meucci's device was the first 'intercom' system, designed for domestic voice communication."
+        }
+      ],
+  
+    "impact": {
+      "text": "虽然穆奇在法律和商业上输给了贝尔，但他的“Telettrofono”被（尤其是在意大利和美国国会）认为是“第一个”真正意义上的电电话。他的故事是（专利法中）“发明”(Invention) 与“优先权”(Priority) 之间残酷竞争的典型案例。",
+      "text_en": "Although Meucci lost the legal and commercial battle to Bell, his 'Telettrofono' is recognized (especially in Italy and by the U.S. Congress) as being the 'first' true electric telephone. His story is the classic, tragic example of the race between 'invention' and 'priority' in patent law.",
+      "stats": [
+          {
+            "number": "1857",
+            "label": "年 (首次设计)",
+            "label_en": "Year Designed"
+          },
+          {
+            "number": "10",
+            "label": "美元 (失去的专利费)",
+            "label_en": "Dollars (Lost Patent Fee)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "faraday_induction_1831",
+          "contribution": "法拉第（其“电磁感应”原理是穆奇电话的物理基础）",
+          "contribution_en": "Faraday (his 'electromagnetic induction' was the physical principle for Meucci's telephone)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "bell_telephone_1876",
+          "contribution": "贝尔（穆奇的诉讼案和设计，是贝尔专利权合法性的最大挑战者）",
+          "contribution_en": "Bell (Meucci's lawsuit and designs were the greatest challenge to the priority of Bell's patent)"
+        }
+      ],
+      "legacy_text": "安东尼奥·穆奇是电话的“悲剧之父”，他第一个发明了它，却眼看着别人获得了所有的荣誉和财富。",
+      "legacy_text_en": "Antonio Meucci is the 'tragic father' of the telephone; the man who invented it first, only to watch another receive the credit and the fortune."
+    },
+  
+    "related_concepts": ["电话 (Telephone)", "Telettrofono", "电磁感应 (Electromagnetic Induction)", "贝尔 (Bell)", "伊莱沙·格雷 (Elisha Gray)", "专利 (Patent)", "专利告诫书 (Caveat)"],
+    "related_concepts_en": ["Telephone", "Telettrofono", "Electromagnetic Induction", "Bell", "Elisha Gray", "Patent", "Caveat"],
+  
+    "quiz": {
+      "question": "安东尼奥·穆奇（Antonio Meucci）在1874年为什么失去了他的“临时专利”（告诫书）？",
+      "question_en": "Why did Antonio Meucci lose his 'temporary patent' (caveat) in 1874?",
+      "options": [
+        "他被贝尔（Bell）在法庭上击败了",
+        "他搬回了意大利",
+        "他因贫困而无力支付10美元的续费",
+        "他发现自己的发明是错的"
+      ],
+      "options_en": [
+        "He was defeated by Bell in court",
+        "He moved back to Italy",
+        "He was too poor to pay the $10 renewal fee",
+        "He discovered his invention was flawed"
+      ],
+      "answer": 2,
+      "explanation": "这是一个历史悲剧。穆奇因为健康问题和贫困，在1874年未能支付10美元的专利告诫书续费，导致其失效。两年后，贝尔（Bell）申请了他的正式专利。",
+      "explanation_en": "It is a historical tragedy. Meucci, suffering from poor health and poverty, failed to pay the $10 renewal fee for his patent caveat in 1874, causing it to lapse. Two years later, Bell filed his full patent."
+    }
+  }

@@ -1,0 +1,172 @@
+{
+    "id": "marconi_radio_1895",
+    "personId": "guglielmo_marconi",
+    "title": "发明实用无线电报",
+    "title_en": "Invents Practical Wireless Telegraphy (Radio)",
+    "year": 1895,
+    "lat": 44.4268,
+    "lng": 11.2334,
+    "city": "蓬泰基奥 (博洛尼亚附近)",
+    "city_en": "Pontecchio (near Bologna)",
+    "country": "意大利",
+    "country_en": "Italy",
+    "field": ["工程学", "物理学"],
+    "field_en": ["Engineering", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Marconi%27s_first_radio_transmitter.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=GpXtQYUwI90",
+        "title": "马可尼的发明：无线电报和无线电",
+        "title_en": "Guglielmo Marconi: The Invention of Wireless Telegraphy & Radio ",
+        "duration": "4:12"
+      }
+    },
+    
+    "summary": {
+      "text": "古列尔莫·马可尼（Guglielmo Marconi）是一位意大利发明家，他将海因里希·赫兹（`hertz_waves_1887`）的“物理学实验”转变为一项“商业通信技术”。他通过将赫兹的“火花隙发射器”与一个“接地”的“天线”(Antenna) 相结合，极大地增加了电磁波的传输距离。1895年，在他父亲的庄园里，他成功地将一个莫尔斯电码信号（字母“S”）发送到了山丘之外约1.5英里（2.4公里）远的地方。这被认为是世界上第一次“无线电”传输。",
+      "text_en": "Guglielmo Marconi, an Italian inventor, was the one to turn Hertz's (`hertz_waves_1887`) *physics experiment* into a *commercial communication technology*. By combining Hertz's spark-gap transmitter with a grounded 'Antenna', Marconi was able to dramatically increase the transmission distance. In 1895, at his father's estate, he successfully transmitted a Morse code signal (the letter 'S') over a hill to a receiver ~1.5 miles (2.4 km) away. This is considered the first 'radio' transmission.",
+      "key_points": [
+        "发明了“实用无线电报”(Practical Radio)",
+        "将赫兹的实验“工程化”和“商业化”",
+        "关键创新：使用了“天线”(Antenna) 和“接地”(Grounding)",
+        "1895年首次实现“超视距”传输",
+        "1901年实现首次“跨大西洋”传输"
+      ],
+      "key_points_en": [
+        "Invented 'Practical Radio'",
+        "Engineered and commercialized Hertz's discovery",
+        "Key innovation: The 'Antenna' and 'Grounding'",
+        "First 'over-the-horizon' transmission in 1895",
+        "First transatlantic transmission in 1901"
+      ]
+    },
+  
+    "story": {
+      "text": "赫兹（`hertz_waves_1887`）发现了电磁波，但他认为它们“毫无用处”。年仅20岁的马可尼在读到赫兹的论文时，立即看到了“无线通信”的未来。他在父亲的庄园里，用维姆胡斯特起电机（`wimshurst_machine_1883`）和赫兹的火花隙发射器进行实验。他发现，如果他把一根长长的电线（天线）连接到发射器，并把另一根线“接地”，他就能把信号传得更远。1895年，他让他的助手带着一个装有“金属屑检波器”(Coherer) 的接收器走到一座小山后面。当马可尼发送信号时，他的助手按约定开了一枪，表示信号已收到。现代通信时代诞生了。",
+      "text_en": "Hertz (`hertz_waves_1887`) discovered the waves but called them 'useless'. Marconi, then only 20, read Hertz's papers and immediately saw the future: 'wireless communication'. He tinkered in his attic, using Hertz's transmitter. His key breakthrough was discovering that if he attached a long wire (an 'antenna') to the transmitter and another wire to the 'ground', the distance increased dramatically. In 1895, he had his assistant carry a receiver (with a 'coherer' detector) over a hill. When Marconi transmitted, his assistant fired a hunting rifle—the signal was received. The modern age of communication was born.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/76/Guglielmo_Marconi_1901_wireless_signal.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🇮🇹🇬🇧",
+        "text": "马可尼最初试图向意大利政府推销他的发明，但遭到了冷遇。他母亲（来自爱尔兰）利用她的家族关系，带他去了英国。英国邮政总局立即看到了其在“航海”上的巨大潜力，并支持了他。",
+        "text_en": "Marconi first offered his invention to the Italian government, who dismissed him. His Irish mother used her family connections to take him to Britain, where the Post Office immediately saw its potential for *naval* communication and backed him."
+      },
+      {
+        "icon": "🚢",
+        "text": "马可尼的无线电系统在1912年的“泰坦尼克号”(Titanic) 灾难中扮演了关键角色，幸存的“卡帕西亚号”(Carpathia) 船上的无线电操作员正是因为收到了泰坦尼克号发出的SOS信号才前去救援。",
+        "text_en": "Marconi's wireless system was the critical technology used during the 'Titanic' disaster in 1912, allowing the rescue ship 'Carpathia' to receive the SOS signals."
+      },
+      {
+        "icon": "🏅",
+        "text": "马可尼与（发现X射线的）伦琴（Röntgen）几乎同时利用了赫兹的发现（高压火花隙）。伦琴将其用于“物理学”，马可尼将其用于“工程学”。马可尼因此获得了1909年的诺贝尔物理学奖。",
+        "text_en": "Marconi and Röntgen (`rontgen_xrays_1895`) both capitalized on Hertz's high-voltage sparks at the same time. Röntgen used them for *physics*; Marconi used them for *engineering*. Marconi won the Nobel Prize in Physics in 1909."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "赫兹（`hertz_waves_1887`）是那个在房间里“制造”出第一束“无线电波”的物理学家，但他只是让它从桌子的一端传到了另一端。\n马可尼是那个“工程师”，他说：“这太酷了！但我打赌我能让它传过一座山。”\n他的天才发明是：在赫兹的发射器上插一根“长长的天线”，并把另一端“接地”。这个简单的改动，就像给赫兹的“嗓音”装上了一个“超级扩音器”。他将一个“实验室玩具”变成了一个“全球通信网络”。",
+      "text_en": "Hertz (`hertz_waves_1887`) was the physicist who 'created' the first radio wave, but he just sent it from one side of his lab bench to the other.\nMarconi was the 'engineer' who said, 'That's cool! I bet I can make it go over a hill.'\nHis genius invention was the 'Antenna' and 'Ground' wire. Attaching these to Hertz's transmitter was like hooking up a 'mega-microphone' to Hertz's voice. He turned a 'lab toy' into a 'global communication network'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/76/Guglielmo_Marconi_1901_wireless_signal.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📡",
+          "title": "无线电 (Radio)",
+          "title_en": "Radio",
+          "text": "马可尼的发明是所有“无线电”广播的直接前身。",
+          "text_en": "Marconi's invention is the direct ancestor of all radio broadcasting."
+        },
+        {
+          "icon": "🚢",
+          "title": "航海与军事通信",
+          "title_en": "Naval and Military Communication",
+          "text": "“船对岸”通信是它的第一个“杀手级应用”，彻底改变了海战和海上安全（如泰坦尼克号）。",
+          "text_en": "Ship-to-shore communication was its first 'killer app', revolutionizing naval warfare and safety at sea (e.g., the Titanic)."
+        },
+        {
+          "icon": "📱",
+          "title": "现代无线技术",
+          "title_en": "Modern Wireless Technology",
+          "text": "虽然技术细节不同，但马可尼“用电磁波发送信息”的基本原理，是Wi-Fi、蓝牙和手机的共同祖先。",
+          "text_en": "Though the technology is different, Marconi's *principle* of sending information via electromagnetic waves is the ancestor of Wi-Fi, Bluetooth, and cell phones."
+        }
+      ],
+  
+    "impact": {
+      "text": "马可尼的发明是20世纪“信息时代”的真正开端。它将赫兹的纯物理发现，转变为一项可以跨越海洋、连接大陆、拯救生命（如泰坦尼克号）的实用技术。它在人类历史上第一次“消灭了距离”，实现了“瞬时全球通信”。",
+      "text_en": "Marconi's invention was the true beginning of the 20th-century 'Information Age'. It converted Hertz's pure physics discovery into a practical technology that could cross oceans, connect continents, and save lives (the Titanic). It 'destroyed distance' and made instantaneous global communication possible for the first time in human history.",
+      "stats": [
+          {
+            "number": "1.5",
+            "label": "英里 (1895年传输距离)",
+            "label_en": "Miles (1895 Transmission)"
+          },
+          {
+            "number": "2100",
+            "label": "英里 (1901年跨大西洋)",
+            "label_en": "Miles (1901 Transatlantic)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "hertz_waves_1887",
+          "contribution": "海因里希·赫兹（其“电磁波”的发现，是马可尼试图“利用”的物理现象）",
+          "contribution_en": "Heinrich Hertz (his *discovery* of EM waves was the physical phenomenon Marconi sought to *use*)"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其“电磁波”的“理论预言”是这一切的起点）",
+          "contribution_en": "James Clerk Maxwell (his *theoretical prediction* of EM waves was the starting point for it all)"
+        },
+        {
+          "id": "wimshurst_machine_1883",
+          "contribution": "维姆胡斯特起电机（或感应线圈，是马可尼发射器的“电源”）",
+          "contribution_en": "Wimshurst Machine (or Induction Coil, which was the 'power supply' for Marconi's transmitter)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "fleming_diode_1904",
+          "contribution": "约翰·弗莱明（其“真空管二极管”的发明，是为了“改进”马可尼系统中那个不可靠的“检波器”）",
+          "contribution_en": "John Ambrose Fleming (his 'vacuum tube diode' was invented to be a *better detector* for Marconi's system)"
+        },
+        {
+          "id": "fessenden_radio_broadcast_1906",
+          "contribution": "范信达（其首次“音频”广播，是对马可尼“莫尔斯电码”系统的重大改进）",
+          "contribution_en": "Reginald Fessenden (his first 'audio' broadcast was the next step up from Marconi's 'Morse code' system)"
+        }
+      ],
+      "legacy_text": "马可尼是那个将赫兹的“物理学”转变为“工程学”和“全球产业”的人。",
+      "legacy_text_en": "Marconi was the man who turned Hertz's *physics* into an *engineering* and *global industry*."
+    },
+  
+    "related_concepts": ["无线电 (Radio)", "天线 (Antenna)", "接地 (Grounding)", "火花隙发射器 (Spark-Gap Transmitter)", "检波器 (Coherer)", "赫兹 (Hertz)", "麦克斯韦 (Maxwell)", "电磁波 (Electromagnetic Waves)", "诺贝尔奖"],
+    "related_concepts_en": ["Radio", "Antenna", "Grounding", "Spark-Gap Transmitter", "Coherer", "Hertz", "Maxwell", "Electromagnetic Waves", "Nobel Prize"],
+  
+    "quiz": {
+      "question": "马可尼（Marconi）在1895年的关键“工程学”创新是什么，它使赫兹的短距离实验变成了长距离通信？",
+      "question_en": "What was Marconi's key *engineering* innovation in 1895 that turned Hertz's short-range experiment into long-range communication?",
+      "options": [
+        "他使用了“电”，而赫兹使用的是“磁”",
+        "他发明了“电池”",
+        "他增加了“天线”(Antenna) 和“接地”(Grounding)",
+        "他发明了“火花隙”"
+      ],
+      "options_en": [
+        "He used 'electricity' while Hertz used 'magnetism'",
+        "He invented the 'battery'",
+        "He added an 'Antenna' and a 'Ground' wire",
+        "He invented the 'spark gap'"
+      ],
+      "answer": 2,
+      "explanation": "赫兹和马可尼都使用了“火花隙”（`hertz_waves_1887`）。马可尼的天才之举是（通过反复试验）发现，将一根长长的“天线”连接到发射器，并“接地”，会使其“广播”的功率和距离呈指数级增长。",
+      "explanation_en": "Both Hertz and Marconi used a 'spark gap' (`hertz_waves_1887`). Marconi's genius (discovered through trial-and-error) was realizing that attaching a long 'Antenna' and a 'Ground' to the transmitter *massively* increased its power and range."
+    }
+  }

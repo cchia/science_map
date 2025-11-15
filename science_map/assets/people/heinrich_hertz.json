@@ -1,0 +1,10 @@
+{
+    "name": "海因里希·赫兹",
+    "name_en": "Heinrich Hertz",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/30/HEINRICH_HERTZ.JPG",
+    "bio_short": "德国物理学家。他首次在实验上“制造”并“探测”到了“电磁波”（无线电波），无可辩驳地证实了麦克斯韦的电磁理论。频率单位“赫兹”(Hz) 以他命名。",
+    "bio_short_en": "A German physicist who was the first to *experimentally* create and detect 'electromagnetic waves' (radio waves), definitively proving Maxwell's theory. The unit of frequency, the 'Hertz' (Hz), is named in his honor.",
+    "events": [
+      "hertz_waves_1887"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "古列尔莫·马可尼",
+    "name_en": "Guglielmo Marconi",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Guglielmo_Marconi.jpg",
+    "bio_short": "意大利发明家和电气工程师，因开创了“长距离无线电传输”（`marconi_radio_1895`）而闻名于世。他将赫兹的物理发现转变为一项全球通信技术，并因此获得了1909年的诺贝尔物理学奖。",
+    "bio_short_en": "An Italian inventor and electrical engineer, known for pioneering 'long-distance radio transmission' (`marconi_radio_1895`). He turned Hertz's physics discovery into a practical, global technology, for which he won the 1909 Nobel Prize in Physics.",
+    "events": [
+      "marconi_radio_1895"
+    ]
+  }
