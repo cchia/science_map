@@ -1,0 +1,11 @@
+{
+    "name": "汉斯·克里斯蒂安·奥斯特",
+    "name_en": "Hans Christian Ørsted",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/3d/C.A._Jensen_-_Portrait_of_the_Physicist_Hans_Christian_%C3%98rsted_-_KMS8176_-_Statens_Museum_for_Kunst.jpg",
+    "bio_short": "丹麦物理学家和化学家。他在1820年的一次课堂演示中，偶然发现了“电流”可以产生“磁场”，从而开创了“电磁学”这一全新领域。",
+    "bio_short_en": "A Danish physicist and chemist. In 1820, he discovered (by accident during a lecture) that an electric current creates a magnetic field, thereby founding the new field of 'electromagnetism'.",
+    "events": [
+      "oersted_electromagnetism_1820",
+      "oersted_aluminum_1825"
+    ]
+  }

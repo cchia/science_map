@@ -1,0 +1,14 @@
+{
+    "name": "弗里德里希·维勒",
+    "name_en": "Friedrich Wöhler",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/32/Friedrich_W%C3%B6hler_Litho.jpg",
+    "bio_short": "德国化学家，被誉为“有机化学之父”。他因在1828年“人工合成了尿素”（`wohler_urea_1828`）而闻名于世，沉重打击了“生命力”理论。他还首次分离出了纯铝（`wohler_aluminum_1827`）、铍（`wohler_beryllium_1828`）和钇（`wohler_yttrium_1828`）。",
+    "bio_short_en": "A German chemist, known as a 'father of organic chemistry'. He is famous for the 'Wöhler synthesis' of urea in 1828 (`wohler_urea_1828`), which struck a major blow to 'Vitalism'. He also isolated pure aluminum (`wohler_aluminum_1827`), beryllium (`wohler_beryllium_1828`), and yttrium (`wohler_yttrium_1828`).",
+    "events": [
+      "wohler_aluminum_1827",
+      "wohler_urea_1828",
+      "wohler_beryllium_1828",
+      "wohler_yttrium_1828",
+      "wohler_liebig_radical_theory_1832"
+    ]
+  }

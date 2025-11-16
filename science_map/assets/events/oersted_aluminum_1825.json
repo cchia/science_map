@@ -1,0 +1,148 @@
+{
+    "id": "oersted_aluminum_1825",
+    "personId": "hans_christian_oersted",
+    "title": "首次分离出“铝” (Aluminum) 元素",
+    "title_en": "First to Isolate the Element 'Aluminum'",
+    "year": 1825,
+    "lat": 55.6761,
+    "lng": 12.5683,
+    "city": "哥本哈根",
+    "city_en": "Copenhagen",
+    "country": "丹麦",
+    "country_en": "Denmark",
+    "field": ["化学"],
+    "field_en": ["Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4AhZ8503WPs",
+        "title": "铝",
+        "title_en": "Aluminium (or Aluminum)",
+        "duration": "11:51"
+      }
+    },
+    
+    "summary": {
+      "text": "继他1820年的电磁学发现（`oersted_electromagnetism_1820`）之后，奥斯特在化学领域也取得了重大突破。在1825年，他是第一个通过“化学还原法”成功“分离”出金属“铝”(Aluminum) 的人。他通过加热“无水氯化铝”(AlCl₃) 与“钾汞齐”(potassium amalgam) 反应，然后蒸馏掉汞，最终得到了一块“颜色和光泽有点像锡”的（不纯的）金属。这是人类第一次获得这种（当时）极其珍贵的金属。",
+      "text_en": "Following his 1820 discovery of electromagnetism (`oersted_electromagnetism_1820`), Ørsted also made a major breakthrough in chemistry. In 1825, he became the first person to successfully 'isolate' metallic 'Aluminum' (Al) via chemical reduction. He reacted anhydrous aluminum chloride (AlCl₃) with a potassium amalgam and distilled the mercury, leaving behind an (impure) lump of metal 'which in color and luster somewhat resembles tin.' This was the first time this (then-precious) metal had ever been produced.",
+      "key_points": [
+        "第一个分离出金属“铝”(Al)",
+        "使用了“化学还原法” (Chemical Reduction)",
+        "用“钾汞齐”还原“氯化铝”",
+        "他的样品是“不纯”的",
+        "为弗里德里希·维勒（Wöhler）的纯化工作铺平了道路"
+      ],
+      "key_points_en": [
+        "First to isolate metallic Aluminum (Al)",
+        "Used a 'Chemical Reduction' method",
+        "Reacted Aluminum Chloride with Potassium Amalgam",
+        "His sample was 'impure'",
+        "Paved the way for Friedrich Wöhler's purification"
+      ]
+    },
+  
+    "story": {
+      "text": "在奥斯特的时代，汉弗莱·戴维（`davy_electrochemistry_1808`）已经证明了“碱土”（如石灰）是金属氧化物，但他未能成功地用电解法分离出“铝”（来自明矾）。奥斯特采用了纯化学方法。他首先制备了“无水氯化铝”（这在当时是一项壮举），然后将其与“钾汞齐”（钾和汞的合金）一起加热。钾（一种强反应性金属）“抢走”了氯，将“铝”释放出来，溶解在汞中。最后，他小心翼翼地通过“蒸馏”将汞加热蒸发掉，留下了一小块不纯的金属铝。这个困难的过程很快被弗里德里希·维勒（Friedrich Wöhler）在1827年改进，维勒最终制得了纯的铝粉末。",
+      "text_en": "In Ørsted's time, Humphry Davy (`davy_electrochemistry_1808`) had proven 'earths' like alumina were metal oxides, but he had failed to isolate aluminum with electrolysis. Ørsted tried a pure chemical route. He first prepared 'anhydrous aluminum chloride' (a feat in itself), then heated it with 'potassium amalgam' (an alloy of potassium and mercury). The potassium 'stole' the chlorine, 'liberating' the aluminum, which dissolved in the mercury. Finally, he carefully 'distilled' the mercury away, leaving a small, impure lump of aluminum. This difficult process was soon improved upon (in 1827) by Friedrich Wöhler, who produced the first pure aluminum powder."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👑",
+        "text": "在1850年代，铝是如此的稀有和珍贵（比黄金还贵），以至于法国皇帝拿破仑三世（Napoleon III）曾用“铝制餐具”来宴请他最尊贵的客人（其他人只能用黄金餐具）。",
+        "text_en": "In the 1850s, aluminum was so rare and expensive (more than gold) that Emperor Napoleon III of France allegedly reserved his 'aluminum cutlery' for his most honored guests (lesser guests had to use gold)."
+      },
+      {
+        "icon": "🇩🇪",
+        "text": "奥斯特的发现立即启发了德国化学家弗里德里希·维勒（Friedrich Wöhler），后者在1827年改进了奥斯特的方法（使用纯钾而不是钾汞齐），从而获得了更纯的铝。",
+        "text_en": "Ørsted's discovery immediately inspired German chemist Friedrich Wöhler, who in 1827 improved the method (using pure potassium instead of amalgam) to obtain a purer sample."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1825年之前，没有人“见过”金属铝。人们只知道它“锁”在蓝宝石、红宝石和普通黏土里。奥斯特是第一个“撬开”这个锁的人。他使用一种“更活泼”的金属（钾），像“小三”一样“抢走”了铝的“伴侣”（氯），从而将“铝”以单身金属的形式“解放”了出来。他得到的只是一小块（不纯的）金属，但这是人类第一次看到它。",
+      "text_en": "Before 1825, no one had *ever seen* metallic aluminum. They just knew it was 'locked up' in sapphires, rubies, and common clay. Ørsted was the first person to 'pick the lock'. He used a *more reactive* metal (Potassium) to 'steal' Aluminum's 'partner' (Chlorine), thus 'liberating' the Aluminum as a free metal. He only got a small, impure lump, but it was the first time it had ever been seen."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "元素发现",
+          "title_en": "Element Discovery",
+          "text": "奥斯特的“化学还原法”被证明是分离那些“用电解法难以分离”的活泼金属的一种有效途径。",
+          "text_en": "Ørsted's 'chemical reduction' method proved to be a viable path for isolating reactive metals that were difficult to separate with simple electrolysis."
+        },
+        {
+          "icon": "✈️",
+          "title": "现代材料（开端）",
+          "title_en": "Modern Materials (The Beginning)",
+          "text": "他的首次分离，开启了长达60年的“竞赛”，最终在1886年导致了“霍尔-埃鲁法”（Hall-Héroult process）的发明，使得铝得以“大规模廉价生产”，从而创造了现代的航空和运输业。",
+          "text_en": "His isolation began the 60-year 'race' that culminated in the 'Hall-Héroult process' (1886), which allowed for the *mass production* of cheap aluminum, creating the modern aerospace and transportation industries."
+        }
+      ],
+  
+    "impact": {
+      "text": "奥斯特的发现（以及维勒的改进）证明了“铝”这种地壳中含量最丰富的金属，是可以被“制造”出来的。虽然他的方法在商业上不可行，但他打开了“轻金属”时代的大门。这激励了全世界的化学家和发明家去寻找一种更便宜的生产方法，这场竞赛最终在1886年由霍尔（Hall）和埃鲁（Héroult）完成，从而彻底改变了20世纪的工程学。",
+      "text_en": "Ørsted's discovery (and Wöhler's refinement) proved that Aluminum—the most abundant metal in Earth's crust—*could be made*. His method was not commercially viable, but it 'opened the door' to the age of light metals. It inspired a global race to find a cheaper process, a race finally won by Hall and Héroult in 1886, which revolutionized 20th-century engineering.",
+      "stats": [
+          {
+            "number": "1825",
+            "label": "年 (首次分离)",
+            "label_en": "Year First Isolated"
+          },
+          {
+            "number": "13",
+            "label": "号元素 (Al)",
+            "label_en": "Element (Al)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "davy_electrochemistry_1808",
+          "contribution": "汉弗莱·戴维（戴维尝试过电解明矾但失败了，他的“碱金属”（如钾）的发现，是奥斯特还原法的基础）",
+          "contribution_en": "Humphry Davy (Davy had *tried* and *failed* to electrolyze alumina; his isolation of *potassium* was the basis for Ørsted's reduction method)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "wohler_aluminum_1827",
+          "contribution": "弗里德里希·维勒（他立即改进了奥斯特的方法，并首次制得了纯的铝粉末）",
+          "contribution_en": "Friedrich Wöhler (who immediately improved Ørsted's method and produced the first *pure* sample of aluminum)"
+        },
+        {
+          "id": "hall_heroult_process_1886",
+          "contribution": "霍尔-埃鲁法（最终解决了“大规模生产”铝的难题）",
+          "contribution_en": "Hall-Héroult Process (which finally solved the problem of *mass-producing* aluminum)"
+        }
+      ],
+      "legacy_text": "奥斯特是第一个“解锁”了（地壳中）最丰富的金属——铝——的人。",
+      "legacy_text_en": "Ørsted was the first person to 'unlock' aluminum, the most abundant metal in Earth's crust."
+    },
+  
+    "related_concepts": ["铝 (Aluminum)", "化学还原 (Chemical Reduction)", "电解 (Electrolysis)", "弗里德里希·维勒 (Friedrich Wöhler)", "汉弗莱·戴维 (Humphry Davy)", "钾 (Potassium)", "氯化铝 (Aluminum Chloride)", "霍尔-埃鲁法 (Hall-Héroult)"],
+    "related_concepts_en": ["Aluminum", "Chemical Reduction", "Electrolysis", "Friedrich Wöhler", "Humphry Davy", "Potassium", "Aluminum Chloride", "Hall-Héroult"],
+  
+    "quiz": {
+      "question": "奥斯特（Ørsted）在1825年是如何“首次”分离出（不纯的）金属铝的？",
+      "question_en": "How did Ørsted first isolate (impure) metallic aluminum in 1825?",
+      "options": [
+        "通过电解熔化的铝土矿（Bauxite）",
+        "通过用“钾”（化学还原法）来“抢走”氯化铝中的“氯”",
+        "通过用本生灯加热一块蓝宝石",
+        "通过将铝从磁铁矿中分离出来"
+      ],
+      "options_en": [
+        "By electrolyzing molten bauxite",
+        "By using 'potassium' (chemical reduction) to 'steal' the chlorine from aluminum chloride",
+        "By heating a sapphire with a Bunsen burner",
+        "By separating it from magnetite"
+      ],
+      "answer": 1,
+      "explanation": "奥斯特使用的是“化学”方法，而非“电解”方法（那是1886年 `hall_heroult_process_1886` 的方法）。他使用了一种比铝更活泼的金属（钾），迫使其“换出”氯，从而将铝“游离”出来。",
+      "explanation_en": "Ørsted used a *chemical* method, not electrolysis (that was the `hall_heroult_process_1886`). He used a metal *more reactive* than aluminum (potassium) to force a 'trade', 'stealing' the chlorine and 'liberating' the aluminum metal."
+    }
+  }

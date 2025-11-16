@@ -1,0 +1,138 @@
+{
+    "id": "wohler_liebig_radical_theory_1832",
+    "personId": ["friedrich_wohler", "justus_von_liebig"],
+    "title": "发表“苯甲酰自由基”理论 (有机化学)",
+    "title_en": "Publishes 'Radical Theory' (Benzoyl Radical)",
+    "year": 1832,
+    "lat": 50.5840,
+    "lng": 8.6784,
+    "city": "吉森 (及哥廷根)",
+    "city_en": "Giessen (and Göttingen)",
+    "country": "德国 (黑森大公国 / 汉诺威王国)",
+    "country_en": "Germany (Grand Duchy of Hesse / Kingdom of Hanover)",
+    "field": ["化学"],
+    "field_en": ["Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Lignin_structure.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=n6JhsN0XYIU",
+        "title": "自由基理论",
+        "title_en": "Free Radicals",
+        "duration": "8:13"
+      }
+    },
+    
+    "summary": {
+      "text": "弗里德里希·维勒（Friedrich Wöhler）与尤斯图斯·冯·李比希（Justus von Liebig）合作发表了一篇关于“苦杏仁油”（苯甲醛）的研究论文。他们发现，一个由多个原子组成的复杂“基团”——（C₇H₅O）——可以在一系列化学反应中“保持不变”，其行为就像一个“单一的元素”。他们将这个“基团”命名为“苯甲酰自由基”(Benzoyl Radical)。这是“有机化学”中“官能团”(Functional Group) 和“结构化学”概念的开端。",
+      "text_en": "Friedrich Wöhler, in collaboration with Justus von Liebig, published a paper on the 'oil of bitter almonds' (benzaldehyde). They demonstrated that a complex group of atoms—(C₇H₅O)—could pass 'unchanged' through a series of chemical reactions, behaving *as if* it were a single element. They named this group the 'benzoyl radical'. This was the birth of 'structural chemistry' and the concept of 'functional groups' in organic chemistry.",
+      "key_points": [
+        "与李比希 (Justus von Liebig) 合作",
+        "奠定了“自由基理论”(Radical Theory) 的基础",
+        "开创了“结构化学”(Structural Chemistry) 领域",
+        "“官能团”(Functional Group) 概念的起源",
+        "证明了“苯甲酰自由基”(C₇H₅O) 在反应中保持不变"
+      ],
+      "key_points_en": [
+        "In collaboration with Justus von Liebig",
+        "Founded 'Radical Theory'",
+        "Launched the field of 'Structural Chemistry'",
+        "Origin of the 'Functional Group' concept",
+        "Showed the 'Benzoyl Radical' (C₇H₅O) persisted through reactions"
+      ]
+    },
+  
+    "story": {
+      "text": "在维勒的“尿素合成”（`wohler_urea_1828`）之后，有机化学家们面临一个新难题：有机分子太复杂了。维勒和李比希（两人是终生的挚友和竞争对手）决定联手攻克“苦杏仁油”。他们让这种油与氯、溴、碘、氧气、氨气等发生反应，在所有这些剧烈的反应中，他们惊讶地发现，那个“C₇H₅O”的核心“基团”始终存在，只是它“附着”的东西（如-H, -Cl, -NH₂）在改变。他们证明了，有机化学就像“搭积木”，你可以保留一个“核心积木”（自由基），只替换它周围的“小零件”。",
+      "text_en": "After the 'Wöhler Synthesis' (`wohler_urea_1828`), chemists faced a new problem: organic molecules were *complicated*. Wöhler and Liebig (who were lifelong best friends and rivals) teamed up to tackle the 'oil of bitter almonds'. They reacted this oil with chlorine, bromine, iodine, oxygen, and ammonia. Through all these violent reactions, they were astonished to find the core 'radical' of (C₇H₅O) *remained intact*. Only the 'attachments' (-H, -Cl, -NH₂) were changing. They proved organic chemistry was like LEGOs: you could have a core 'piece' (the radical) and just swap the 'attachments'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚗️",
+        "text": "“自由基理论”(Radical Theory) 是有机化学的“第一个”重要理论。它使化学家首次能够“理解”和“预测”复杂的有机反应。",
+        "text_en": "The 'Radical Theory' was the *first* great theory of organic chemistry. It gave chemists a framework to *understand* and *predict* complex organic reactions for the first time."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你有一个乐高小人，他戴着“帽子”，拿着“剑”，背着“盾牌”。\n之前的化学家认为，当你对这个小人（分子）加热时，他会“熔化”成一滩“塑料”（原子）。\n维勒和李比希证明了：不是的。当你对他“反应”时，这个“小人本身”（即“苯甲酰自由基”）是“不变”的，你只是把他的“剑”换成了“斧头”，把“盾牌”换成了“斗篷”。\n他们发现了有机化学的“核心积木”，即“官能团”。",
+      "text_en": "Imagine you have a LEGO minifigure, wearing a 'hat', holding a 'sword', and carrying a 'shield'.\nChemists before Wöhler & Liebig thought that when you 'reacted' this minifigure, the whole thing just 'melted' into a puddle of plastic (atoms).\nWöhler & Liebig proved that the *minifigure itself* (the 'Benzoyl Radical') *stays intact*. The reaction just *swaps its accessories*: the 'sword' is replaced by an 'axe', the 'shield' by a 'cape'.\nThey discovered the 'core building blocks', or 'functional groups', of organic chemistry."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "有机化学 (Organic Chemistry)",
+          "title_en": "Organic Chemistry",
+          "text": "“官能团”(Functional Group) 概念至今仍是有机化学的核心。化学家们不是去记忆几百万个分子，而是去学习几十个“官能团”（如醇-OH，胺-NH₂）的行为。",
+          "text_en": "The concept of 'functional groups' is *still* the core of organic chemistry. Chemists don't memorize millions of molecules; they learn the behavior of a few dozen 'functional groups' (like alcohols -OH, or amines -NH₂)."
+        },
+        {
+          "icon": "💊",
+          "title": "药物化学 (Medicinal Chemistry)",
+          "title_en": "Medicinal Chemistry",
+          "text": "现代药物的合成，就是通过在“核心骨架”上添加或修改“官能团”来实现的。",
+          "text_en": "Modern drug synthesis is based on adding or modifying 'functional groups' on a 'core scaffold' (the radical)."
+        }
+      ],
+  
+    "impact": {
+      "text": "这项工作（继 `wohler_urea_1828` 之后）是有机化学的“第二次诞生”。如果说“合成尿素”证明了有机化学“可以被研究”，那么“自由基理论”则展示了“如何去研究它”。它为这门新学科提供了第一个“语法”和“结构”规则，使其从“炼金术”转变为“结构科学”。",
+      "text_en": "This work was the 'second birth' of organic chemistry (after `wohler_urea_1828`). If the Urea synthesis proved organic chemistry *could exist*, the Radical Theory showed *how* to do it. It provided the first 'grammar' and 'structural rules' for the new field, moving it from 'alchemy' to 'structural science'.",
+      "stats": [
+          {
+            "number": "1832",
+            "label": "年 (结构化学开端)",
+            "label_en": "Year (Start of Structural Chemistry)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "wohler_urea_1828",
+          "contribution": "维勒（他自己）对尿素的合成（这开启了他对有机化学的兴趣）",
+          "contribution_en": "Wöhler (his own) Urea Synthesis (which launched his interest in organic chemistry)"
+        },
+        {
+          "id": "berzelius_chemistry_1810",
+          "contribution": "贝采利乌斯（他们的导师，其“二元论”是他们试图修正的）",
+          "contribution_en": "Berzelius (their mentor, whose 'dualistic theory' they were trying to adapt)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "kekule_benzene_1865",
+          "contribution": "凯库勒（其“苯环”的发现，是维勒和李比希“结构化学”的直接继承者）",
+          "contribution_en": "Kekulé (his discovery of the 'benzene ring' was the direct successor to Wöhler & Liebig's 'structural' work)"
+        }
+      ],
+      "legacy_text": "维勒和李比希为有机化学写下了第一章“语法书”。",
+      "legacy_text_en": "Wöhler and Liebig wrote the first 'grammar book' for organic chemistry."
+    },
+  
+    "related_concepts": ["自由基理论 (Radical Theory)", "官能团 (Functional Group)", "结构化学 (Structural Chemistry)", "有机化学 (Organic Chemistry)", "李比希 (Liebig)", "苯甲酰 (Benzoyl)", "化学"],
+    "related_concepts_en": ["Radical Theory", "Functional Group", "Structural Chemistry", "Organic Chemistry", "Liebig", "Benzoyl", "Chemistry"],
+  
+    "quiz": {
+      "question": "维勒（Wöhler）和李比希（Liebig）的“自由基理论”提出的革命性概念是什么？",
+      "question_en": "What revolutionary concept did Wöhler and Liebig's 'Radical Theory' introduce?",
+      "options": [
+        "原子核的存在",
+        "一组原子（“自由基”）可以在化学反应中“保持不变”，像一个单元一样",
+        "所有物质都由四元素构成",
+        "气体压强与体积成反比"
+      ],
+      "options_en": [
+        "The existence of the atomic nucleus",
+        "That a group of atoms (a 'radical') could 'stay together' as a single unit during a chemical reaction",
+        "That all matter was made of four elements",
+        "That gas pressure is inversely proportional to volume"
+      ],
+      "answer": 1,
+      "explanation": "他们证明了，一个复杂的“基团”（如C₇H₅O）在化学反应中可以保持其“身份”，只改变其“附件”。这是“官能团”化学的开端。",
+      "explanation_en": "They proved that a complex 'group' (like C₇H₅O) could persist and maintain its 'identity' throughout a chemical reaction, only changing its 'attachments'. This was the start of 'functional group' chemistry."
+    }
+  }

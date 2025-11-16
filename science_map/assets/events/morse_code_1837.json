@@ -1,0 +1,162 @@
+{
+    "id": "morse_code_1837",
+    "personId": "samuel_morse",
+    "title": "发明“莫尔斯电码”和电报机",
+    "title_en": "Invents 'Morse Code' and the Telegraph",
+    "year": 1837,
+    "lat": 40.7128,
+    "lng": -74.0060,
+    "city": "纽约市 (首次演示)",
+    "city_en": "New York City (First demonstration)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["工程学", "物理学"],
+    "field_en": ["Engineering", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Morse_comparison.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=iy8BaMs_JuI",
+        "title": "莫尔斯电码如何工作?",
+        "title_en": "How Does Morse Code Works?",
+        "duration": "3:28"
+      }
+    },
+    
+    "summary": {
+      "text": "美国画家萨缪尔·莫尔斯（Samuel Morse）与他的助手阿尔弗雷德·韦尔（Alfred Vail）合作，在1837年演示了他们的“电报”(Telegraph) 系统。该系统有两个关键创新：(1) 一个简单的“电键”(Key) 用于“接通/断开”电流 (V=IR, `ohm_law_1827`)。(2) 一套高效的编码系统，即“莫尔斯电码”(Morse Code)，它将字母表中的每个字母分配为“点”（短信号）和“划”（长信号）的独特组合。这使得人类历史上第一次能够通过电线，即时地、跨越长距离发送复杂信息。",
+      "text_en": "American painter Samuel Morse, with his assistant Alfred Vail, demonstrated his 'Telegraph' system in 1837. It had two key innovations: (1) A simple 'Key' to 'make-and-break' an electrical circuit (V=IR, `ohm_law_1827`). (2) A highly efficient coding system, 'Morse Code', which assigned a unique combination of 'dots' (short signals) and 'dashes' (long signals) to every letter. This allowed complex messages to be sent instantly over vast distances for the first time in human history.",
+      "key_points": [
+        "发明了实用的“电报”(Telegraph)",
+        "发明了“莫尔斯电码”(Morse Code) (点和划)",
+        "首次实现了“即时”长距离通信",
+        "使用了简单的“开/关”电路",
+        "1844年发送了第一条城际信息（“上帝创造了何等奇迹！”）"
+      ],
+      "key_points_en": [
+        "Invented the practical 'Telegraph'",
+        "Invented 'Morse Code' (dots and dashes)",
+        "Enabled 'instant' long-distance communication",
+        "Used a simple 'on/off' electrical circuit",
+        "First inter-city message in 1844 ('What hath God wrought!')"
+      ]
+    },
+  
+    "story": {
+      "text": "莫尔斯最初是一位画家。1825年，他在华盛顿画画时，一封关于他妻子病危的信件（通过马匹）送达得太晚，他没能见到妻子最后一面。莫尔斯深受打击，他开始痴迷于寻找一种“即时”通信的方法。1832年，他在一次航行中听说了“电磁感应”（`faraday_induction_1831`）的新发现。他意识到，如果“电”可以“瞬时”通过电线，那么它就可以用来传递信息。他花了五年时间，与阿尔弗雷德·韦尔（Alfred Vail）合作，完善了他的系统。韦尔（Vail）被认为对“莫尔斯电码”的简洁设计（即最常用的字母E和T，分别对应最简单的“.”和“-”）做出了巨大贡献。",
+      "text_en": "Morse was a painter. In 1825, while he was away, a letter (delivered by horse) telling him his wife was ill arrived too late for him to see her alive. Devastated, he became obsessed with finding an *instant* way to communicate. In 1832, on a ship, he heard about the new discovery of 'electromagnetism' (`faraday_induction_1831`). He realized if 'electricity' could travel instantly, it could carry messages. He spent five years, aided by Alfred Vail, perfecting his system. Vail is credited with designing the efficient *code* (e.g., the most common letters, E and T, got the shortest codes: '.' and '-').",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Morsetaste.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "❗️",
+        "text": "第一条正式的长途电报信息是在1844年5月24日，从华盛顿特区发送到巴尔的摩的。莫尔斯发送了《圣经》中的一句话：“上帝创造了何等奇迹！” (What hath God wrought!)",
+        "text_en": "The first official long-distance telegraph message was sent on May 24, 1844, from Washington, D.C. to Baltimore. Morse sent the biblical phrase, 'What hath God wrought!'"
+      },
+      {
+        "icon": " SOS",
+        "text": "国际莫尔斯电码中最著名的信号是“SOS”（... --- ...），它被选为求救信号，不是因为它代表任何缩写，而是因为它在节奏上非常简单和明确。",
+        "text_en": "The most famous Morse Code signal, 'SOS' (... --- ...), was chosen not because it stands for anything, but because the rhythmic pattern is simple and unmistakable."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "莫尔斯的发明就像是“电的鼓点”。他意识到，你不需要通过电线发送“声音”（像电话那样），你只需要发送“开”和“关”的信号就行了。\n* “滴”（点 .）= 手指按一下电键。\n* “嗒”（划 -）= 手指按住电键久一点。\n他为每个字母设计了一套“滴嗒”组合（如 A 是 .-，B 是 -...）。这是人类历史上第一个“数字通信”系统，它把“语言”变成了“二进制”（开/关）的数据流。",
+      "text_en": "Morse's invention was like 'electrical drumbeats'. He realized you don't need to send *sound* down a wire (like a phone). You just need to send 'On' and 'Off'.\n* A 'Dot' (.) = a quick tap on the key.\n* A 'Dash' (-) = a longer hold on the key.\nHe made a 'drumbeat code' for every letter (A is 'dot-dash', B is 'dash-dot-dot-dot'). This was the world's first *digital communication* system. It turned *language* into a stream of *binary* (On/Off) data.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚂",
+          "title": "铁路安全 (Railroad Safety)",
+          "title_en": "Railroad Safety",
+          "text": "电报的第一个“杀手级应用”是铁路。它使车站之间能够“即时”通信，协调火车时刻表，防止火车迎头相撞。",
+          "text_en": "The telegraph's first 'killer app' was for railroads. It allowed stations to communicate *instantly*, coordinating train schedules and preventing head-on collisions."
+        },
+        {
+          "icon": "📰",
+          "title": "新闻业 (Journalism)",
+          "title_en": "Journalism",
+          "text": "电报使得“新闻”能够以“光速”（而不是“马速”）传播。美联社（Associated Press）等新闻机构就是为了共享电报线路而成立的。",
+          "text_en": "The telegraph allowed 'news' to travel at the speed of electricity, not the speed of a horse. News agencies like the Associated Press were formed to share the cost of telegraph lines."
+        },
+        {
+          "icon": "💻",
+          "title": "数字通信 (Digital Communication)",
+          "title_en": "Digital Communication",
+          "text": "莫尔斯电码（开/关）是“数字”通信的鼻祖，是现代计算机“0/1”二进制数据（`leibniz_binary_1703`）的第一个大规模实际应用。",
+          "text_en": "Morse code (On/Off) is the ancestor of all *digital* communication. It was the first large-scale, practical application of the '0/1' binary data concept (`leibniz_binary_1703`)."
+        }
+      ],
+  
+    "impact": {
+      "text": "莫尔斯电报在19世纪的地位，相当于20世纪的“互联网”。它在人类历史上第一次“消灭了距离”，使得信息（商业、政治、军事）的传递从“几天/几周”缩短到了“几秒钟”。它彻底重塑了商业、金融、战争和新闻业，并为后来的电话（`bell_telephone_1876`）和无线电（`marconi_radio_1895`）奠定了“全球有线网络”的基础。",
+      "text_en": "The Morse telegraph was the 'internet' of the 19th century. For the first time in human history, it *annihilated distance*, shrinking the time to send a message (of business, politics, or war) from *days or weeks* to *seconds*. It completely reshaped commerce, finance, warfare, and journalism, and laid the 'global wire network' that the telephone (`bell_telephone_1876`) and radio (`marconi_radio_1895`) would later be built upon.",
+      "stats": [
+          {
+            "number": "1844",
+            "label": "年 (首条长途线路)",
+            "label_en": "Year (First Inter-City Line)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "oersted_electromagnetism_1820",
+          "contribution": "奥斯特（其“电流产生磁力”的发现，是莫尔斯“电磁铁”接收器的工作原理）",
+          "contribution_en": "Ørsted (his discovery that 'current creates magnetism' is the principle behind Morse's 'electromagnet' receiver)"
+        },
+        {
+          "id": "volta_battery_1800",
+          "contribution": "伏打电堆（提供了莫尔斯系统所需的“持续电流”源）",
+          "contribution_en": "Volta's Battery (provided the 'continuous current' source needed for the system)"
+        },
+        {
+          "id": "ohm_law_1827",
+          "contribution": "欧姆定律（为长距离电报的“电阻”问题提供了数学解）",
+          "contribution_en": "Ohm's Law (provided the math to solve the 'resistance' problems of long-distance telegraphy)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "bell_telephone_1876",
+          "contribution": "贝尔（其“电话”最初是作为“谐波电报”——即莫尔斯系统的“升级版”——而开始的）",
+          "contribution_en": "Alexander Graham Bell (his 'telephone' began as an attempt to create a 'harmonic telegraph', an *upgrade* to Morse's system)"
+        },
+        {
+          "id": "marconi_radio_1895",
+          "contribution": "马可尼（其“无线电报”的第一个应用，就是用“无线”的方式发送“莫尔斯电码”）",
+          "contribution_en": "Marconi (his 'wireless' radio's first application was to send *Morse code* without wires)"
+        }
+      ],
+      "legacy_text": "萨缪尔·莫尔斯将电学从“实验室玩具”变成了“全球通信网”。",
+      "legacy_text_en": "Samuel Morse turned electricity from a 'lab toy' into a 'global network'."
+    },
+  
+    "related_concepts": ["莫尔斯电码 (Morse Code)", "电报 (Telegraph)", "电磁铁 (Electromagnet)", "奥斯特 (Ørsted)", "法拉第 (Faraday)", "贝尔 (Bell)", "马可尼 (Marconi)", "数字通信 (Digital Communication)"],
+    "related_concepts_en": ["Morse Code", "Telegraph", "Electromagnet", "Ørsted", "Faraday", "Bell", "Marconi", "Digital Communication"],
+  
+    "quiz": {
+      "question": "萨缪尔·莫尔斯（Samuel Morse）的“电报”系统与亚历山大·贝尔（Alexander Bell）的“电话”系统，在传输信息上最“根本”的区别是什么？",
+      "question_en": "What is the *fundamental* difference between Morse's 'Telegraph' and Bell's 'Telephone'?",
+      "options": [
+        "莫尔斯使用“电”，贝尔使用“磁”",
+        "莫尔斯是“数字”的（开/关），贝尔是“模拟”的（波动）",
+        "莫尔斯是“无线”的，贝尔是“有线”的",
+        "莫尔斯是“美国”的，贝尔是“英国”的"
+      ],
+      "options_en": [
+        "Morse used electricity, Bell used magnetism",
+        "Morse's was 'digital' (on/off), Bell's was 'analog' (undulating)",
+        "Morse's was wireless, Bell's was wired",
+        "Morse's was American, Bell's was British"
+      ],
+      "answer": 1,
+      "explanation": "莫尔斯（`morse_code_1837`）的电报只传输“开”(1) 和“关”(0) 两种状态，即“数字”信号。贝尔（`bell_telephone_1876`）的电话则传输一个“连续波动”的电流，该电流的“形状”“模仿”了声波的“形状”，即“模拟”信号。",
+      "explanation_en": "Morse's telegraph (`morse_code_1837`) only sent two states: 'on' (1) and 'off' (0), a *digital* signal. Bell's telephone (`bell_telephone_1876`) sent a *continuously varying* current whose 'shape' *mimicked* the 'shape' of the sound wave, an *analog* signal."
+    }
+  }
