@@ -1,150 +1,170 @@
 [
-    {
-      "id": "physics_revolution",
-      "title": "物理学革命之旅",
-      "emoji": "⚛️",
-      "description": "从牛顿到爱因斯坦，探索物理学如何改变世界",
-      "events": [
-        "copernicus", 
-        "galileo",
-        "kepler",
-        "newton",
-        "faraday",
-        "maxwell",
-        "roentgen",
-        "planck",
-        "einstein",
-        "einstein_gr",
-        "bohr",
-        "quantum",
-        "transistor",
-        "laser",
-        "gravitational_waves"
-      ]
-    },
-    {
-      "id": "life_science",
-      "title": "生命科学探索",
-      "emoji": "🔬",
-      "description": "从细胞发现到基因编辑",
-      "events": [
-        "vesalius",
-        "harvey",
-        "hooke",
-        "linnaeus",
-        "darwin",
-        "mendel",
-        "pasteur",
-        "dna",
-        "pcr",
-        "crispr"
-      ]
-    },
-    {
-      "id": "ancient_wisdom",
-      "title": "古代智慧",
-      "emoji": "📜",
-      "description": "探索古希腊、中国、阿拉伯的科学成就",
-      "events": [
-        "pythagoras",
-        "euclid",
-        "archimedes",
-        "zhang_heng",
-        "al_khwarizmi",
-        "ibn_al_haytham",
-        "shen_kuo",
-        "fibonacci"
-      ]
-    },
-    {
-      "id": "space_exploration",
-      "title": "探索宇宙",
-      "emoji": "🚀",
-      "description": "从望远镜到登月",
-      "events": [
-        "copernicus",
-        "galileo",
-        "kepler",
-        "newton",
-        "einstein_gr",
-        "hubble",
-        "moon_landing",
-        "gravitational_waves",
-        "black_hole_image"
-      ]
-    },
-    {
-      "id": "medical_breakthroughs",
-      "title": "医学突破",
-      "emoji": "💊",
-      "description": "拯救生命的伟大发现",
-      "events": [
-        "vesalius",
-        "harvey",
-        "pasteur",
-        "roentgen",
-        "curie",
-        "penicillin"
-      ]
-    },
-    {
-      "id": "information_age",
-      "title": "信息时代",
-      "emoji": "💻",
-      "description": "从晶体管到互联网",
-      "events": [
-        "transistor",
-        "laser",
-        "internet",
-        "www",
-        "crispr"
-      ]
-    },
-    {
-      "id": "chemistry_journey",
-      "title": "化学之旅",
-      "emoji": "🧪",
-      "description": "从炼金术到现代化学",
-      "events": [
-        "lavoisier",
-        "dalton",
-        "mendel",
-        "curie",
-        "nuclear_fission"
-      ]
-    },
-    {
-      "id": "math_evolution",
-      "title": "数学演化",
-      "emoji": "📐",
-      "description": "数学思想的发展历程",
-      "events": [
-        "pythagoras",
-        "euclid",
-        "al_khwarizmi",
-        "fibonacci",
-        "descartes",
-        "pascal",
-        "leibniz"
-      ]
-    },
-    {
-      "id": "women_scientists",
-      "title": "女性科学家",
-      "emoji": "👩‍🔬",
-      "description": "改变世界的女性科学家们",
-      "events": [
-        "curie"
-      ]
-    },
-    {
-      "id": "chinese_science",
-      "title": "中国古代科技",
-      "emoji": "🏮",
-      "description": "中华文明的科技贡献",
-      "events": [
-        "zhang_heng",
-        "shen_kuo"
-      ]
-    }
-  ]
+  {
+    "id": "physics_revolution",
+    "title": "物理学革命之旅",
+    "title_en": "Physics Revolution Journey",
+    "emoji": "⚛️",
+    "description": "从牛顿到爱因斯坦，探索物理学如何改变世界",
+    "description_en": "From Newton to Einstein, explore how physics changed the world",
+    "events": [
+      "copernicus",
+      "galileo",
+      "kepler",
+      "newton",
+      "faraday",
+      "maxwell",
+      "roentgen",
+      "planck",
+      "einstein",
+      "einstein_gr",
+      "bohr",
+      "quantum",
+      "transistor",
+      "laser",
+      "gravitational_waves"
+    ]
+  },
+  {
+    "id": "life_science",
+    "title": "生命科学探索",
+    "title_en": "Life Science Exploration",
+    "emoji": "🔬",
+    "description": "从细胞发现到基因编辑",
+    "description_en": "From cell discovery to gene editing",
+    "events": [
+      "vesalius",
+      "harvey",
+      "hooke",
+      "linnaeus",
+      "darwin",
+      "mendel",
+      "pasteur",
+      "dna",
+      "pcr",
+      "crispr"
+    ]
+  },
+  {
+    "id": "ancient_wisdom",
+    "title": "古代智慧",
+    "title_en": "Ancient Wisdom",
+    "emoji": "📜",
+    "description": "探索古希腊、中国、阿拉伯的科学成就",
+    "description_en": "Explore scientific achievements of Ancient Greece, China, and Arabia",
+    "events": [
+      "pythagoras",
+      "euclid",
+      "archimedes",
+      "zhang_heng",
+      "al_khwarizmi",
+      "ibn_al_haytham",
+      "shen_kuo",
+      "fibonacci"
+    ]
+  },
+  {
+    "id": "space_exploration",
+    "title": "探索宇宙",
+    "title_en": "Space Exploration",
+    "emoji": "🚀",
+    "description": "从望远镜到登月",
+    "description_en": "From telescope to Moon landing",
+    "events": [
+      "copernicus",
+      "galileo",
+      "kepler",
+      "newton",
+      "einstein_gr",
+      "hubble",
+      "moon_landing",
+      "gravitational_waves",
+      "black_hole_image"
+    ]
+  },
+  {
+    "id": "medical_breakthroughs",
+    "title": "医学突破",
+    "title_en": "Medical Breakthroughs",
+    "emoji": "💊",
+    "description": "拯救生命的伟大发现",
+    "description_en": "Great discoveries that saved lives",
+    "events": [
+      "vesalius",
+      "harvey",
+      "pasteur",
+      "roentgen",
+      "curie",
+      "penicillin"
+    ]
+  },
+  {
+    "id": "information_age",
+    "title": "信息时代",
+    "title_en": "Information Age",
+    "emoji": "💻",
+    "description": "从晶体管到互联网",
+    "description_en": "From transistor to Internet",
+    "events": [
+      "transistor",
+      "laser",
+      "internet",
+      "www",
+      "crispr"
+    ]
+  },
+  {
+    "id": "chemistry_journey",
+    "title": "化学之旅",
+    "title_en": "Chemistry Journey",
+    "emoji": "🧪",
+    "description": "从炼金术到现代化学",
+    "description_en": "From alchemy to modern chemistry",
+    "events": [
+      "lavoisier",
+      "dalton",
+      "mendel",
+      "curie",
+      "nuclear_fission"
+    ]
+  },
+  {
+    "id": "math_evolution",
+    "title": "数学演化",
+    "title_en": "Mathematics Evolution",
+    "emoji": "📐",
+    "description": "数学思想的发展历程",
+    "description_en": "The evolution of mathematical thought",
+    "events": [
+      "pythagoras",
+      "euclid",
+      "al_khwarizmi",
+      "fibonacci",
+      "descartes",
+      "pascal",
+      "leibniz"
+    ]
+  },
+  {
+    "id": "women_scientists",
+    "title": "女性科学家",
+    "title_en": "Women Scientists",
+    "emoji": "👩‍🔬",
+    "description": "改变世界的女性科学家们",
+    "description_en": "Women scientists who changed the world",
+    "events": [
+      "curie"
+    ]
+  },
+  {
+    "id": "chinese_science",
+    "title": "中国古代科技",
+    "title_en": "Ancient Chinese Science",
+    "emoji": "🏮",
+    "description": "中华文明的科技贡献",
+    "description_en": "Scientific contributions of Chinese civilization",
+    "events": [
+      "zhang_heng",
+      "shen_kuo"
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+{
+    "id": "hooke_inverse_square_1679",
+    "personId": "robert_hooke",
+    "title": "提出引力的平方反比定律",
+    "title_en": "Proposes the Inverse-Square Law for Gravity",
+    "year": 1679,
+    "lat": 51.515,
+    "lng": -0.117,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": [
+        "天文学",
+        "物理学"
+    ],
+    "field_en": [
+        "Astronomy",
+        "Physics"
+    ],
+    "media": {
+        "video": {
+            "url": "https://www.youtube.com/watch?v=yGJSOxzQHGU",
+            "title": "牛顿与胡克关于引力的辩论",
+            "title_en": "The Newton-Hooke Debate Over Gravity",
+            "duration": "14:48"
+        }
+    },
+    "summary": {
+        "text": "1679年，时任英国皇家学会秘书的胡克与牛顿进行了一系列关键的信件交流。在信中，胡克明确提出了行星运动的两个关键原则：(1) 行星的运动是其“沿直线运动的惯性”与“来自太阳的中心吸引力”的结合。(2) 他大胆地**猜想**，这种来自太阳的吸引力遵循“平方反比定律” (F ∝ 1/r²)，即引力大小随距离的平方而减弱。",
+        "text_en": "In 1679, Hooke, acting as Secretary of the Royal Society, engaged in a pivotal correspondence with Newton. In the letters, Hooke clearly laid out two key principles of planetary motion: (1) An object's motion is a compound of its 'inertial motion in a straight line' and a 'central attractive force' from the Sun. (2) He boldly **hypothesized** that this attraction followed an 'Inverse-Square Law' (F ∝ 1/r²), meaning the force weakens with the square of the distance.",
+        "key_points": [
+            "提出了“平方反比定律”的猜想 (F ∝ 1/r²)",
+            "将行星运动正确地描述为“惯性 + 中心引力”",
+            "这封信激发了牛顿去解决这个问题",
+            "导致了与牛顿之间关于“谁先发现”的激烈争论"
+        ],
+        "key_points_en": [
+            "Hypothesized the 'Inverse-Square Law' (F ∝ 1/r²)",
+            "Correctly described planetary motion as 'Inertia + Central Force'",
+            "The correspondence spurred Newton to solve the problem",
+            "Led to a bitter priority dispute with Newton"
+        ]
+    },
+    "story": {
+        "text": "胡克写信给牛顿，是为了将隐居的牛顿重新拉回皇家学会的科学讨论中。胡克在信中提出了他的引力猜想，并谦虚地（或者说是试探性地）询问牛顿，如果引力是平方反比的，那么行星的轨道会是什么形状。胡克自己缺乏数学工具来证明这一点。正是这个“挑战”，激发了牛顿动用他强大的微积分（`newton_calculus_1666`）去计算，并最终证明了——这条轨道**必定是椭圆**，这与开普勒的定律（`kepler_laws_1609`）完美吻合。可以说，胡克的“问题”是牛顿《原理》（`newton_gravity_1687`）诞生的直接导火索。",
+        "text_en": "Hooke wrote to Newton to draw the reclusive genius back into scientific discourse. In his letter, Hooke laid out his hypothesis and humbly (or perhaps baitingly) asked Newton what the path of a planet would be, *assuming* an inverse-square force. Hooke himself lacked the mathematical tools to prove it. This 'challenge' is what spurred Newton to apply his mighty calculus (`newton_calculus_1666`) and prove that the path *must* be an ellipse, perfectly matching Kepler's Laws (`kepler_laws_1609`). Hooke's 'question' was the direct spark that ignited Newton's 'Principia' (`newton_gravity_1687`).",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/10/13_Portrait_of_Robert_Hooke.JPG"
+    },
+    "fun_facts": [
+        {
+            "icon": "😡",
+            "text": "胡克只有“猜想”，而牛顿拿出了“数学证明”。但当牛顿在1687年发表《原理》时，他几乎没有给胡克任何功劳。这导致了一场极其激烈的学术纷争，两人至死都未和解。",
+            "text_en": "Hooke had the 'hypothesis', but Newton had the mathematical 'proof'. When Newton published 'Principia' in 1687, he gave Hooke almost no credit, leading to a bitter feud that lasted until their deaths."
+        },
+        {
+            "icon": "🖼️",
+            "text": "我们今天没有任何罗伯特·胡克的肖像存世。一个流传甚广的传言是，牛顿在成为皇家学会主席后，出于怨恨，销毁（或“弄丢”）了胡克的唯一画像。",
+            "text_en": "No portrait of Robert Hooke survives today. A popular (though debated) rumor is that Newton, upon becoming President of the Royal Society, had Hooke's only portrait destroyed or 'lost' out of spite."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象你把一个球系在绳子上旋转。球想“直线飞走”（惯性），但绳子把它“拉住”了（中心力）。胡克是第一个给牛顿写信说：“嘿，牛顿，我打赌行星运动就是这么回事！而且我猜这根‘引力绳’的拉力，如果你离太阳远两倍，拉力就会弱四倍（2²）；远三倍，就弱九倍（3²）。” 牛顿听了之后，回家拿出了他的超级计算器（微积分），证明了：“天啊，你是对的！而且只有这样，轨道才能是椭圆！”",
+        "text_en": "Imagine swinging a ball on a string. The ball *wants* to fly off straight (inertia), but the string *pulls* it back (central force). Hooke was the first person to write to Newton and say, 'Hey, I bet planets work exactly like that! And I bet the 'pull' of that gravity string gets *four* times weaker (2²) if you're *twice* as far away, and *nine* times weaker (3²) if you're *three* times as far.' Newton took that idea, did the math (calculus), and proved, 'My god, you're right! And that's the *only* way the orbits can be ellipses!'",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/28/Inverse_square_law.svg"
+    },
+    "applications": [
+        {
+            "icon": "🪐",
+            "title": "《原理》的催化剂",
+            "title_en": "Catalyst for the 'Principia'",
+            "text": "胡克的猜想是牛顿写作《原理》的直接动机。天文学家埃德蒙·哈雷（Edmond Halley）后来正是问了牛顿同样的问题（胡克是否正确），才促使牛顿发表了他的成果。",
+            "text_en": "Hooke's hypothesis was the direct motivation for Newton's 'Principia'. It was the astronomer Edmond Halley, asking Newton this same question (if Hooke was right), who finally convinced Newton to publish his results."
+        },
+        {
+            "icon": "🌌",
+            "title": "天体力学的基础",
+            "title_en": "Basis of Celestial Mechanics",
+            "text": "“惯性运动”与“中心平方反比力”的结合，构成了天体力学的核心概念，至今未变。",
+            "text_en": "The concept of combining inertial motion with a central, inverse-square force forms the core concept of celestial mechanics to this day."
+        }
+    ],
+    "impact": {
+        "text": "胡克的“猜想”是科学革命的“点火器”。它将行星运动问题从一个“几何学”问题（开普勒：它们如何运动？）转变为一个“动力学”问题（牛顿：是什么“力”导致它们如此运动？）。这一提问，直接导致了牛顿万有引力定律的诞生。",
+        "text_en": "Hooke's 'hypothesis' was the 'spark' for the Scientific Revolution. It transformed the problem of planetary motion from one of *geometry* (Kepler: *How* do they move?) to one of *dynamics* (Newton: What *force* makes them move that way?). This question led directly to the Law of Universal Gravitation.",
+        "stats": [
+            {
+                "number": "1/r²",
+                "label": "平方反比定律",
+                "label_en": "The Inverse-Square Law"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "kepler_laws_1609",
+                "contribution": "开普勒（其“椭圆轨道”是胡克试图用物理学解释的现象）",
+                "contribution_en": "Kepler (whose 'elliptical orbits' were the phenomenon Hooke was trying to explain with physics)"
+            },
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "伽利略（其“惯性”概念是胡克行星运动模型的第一部分）",
+                "contribution_en": "Galileo (whose concept of 'inertia' was the first part of Hooke's model of planetary motion)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_gravity_1687",
+                "contribution": "牛顿（胡克的信件是牛顿证明万有引力定律的直接催化剂）",
+                "contribution_en": "Isaac Newton (Hooke's letter was the direct catalyst for Newton's proof of universal gravitation)"
+            }
+        ],
+        "legacy_text": "胡克提出了物理学中最深刻的问题之一（引力如何随距离变化？），而牛顿用数学回答了它。",
+        "legacy_text_en": "Hooke asked one of the most profound questions in physics (How does gravity weaken with distance?), and Newton answered it with mathematics."
+    },
+    "related_concepts": [
+        "平方反比定律",
+        "天体力学 (Celestial Mechanics)",
+        "牛顿 (Newton)",
+        "《原理》 (Principia)",
+        "皇家学会 (Royal Society)",
+        "优先权之争 (Priority Dispute)"
+    ],
+    "related_concepts_en": [
+        "Inverse-Square Law",
+        "Celestial Mechanics",
+        "Newton",
+        "Principia",
+        "Royal Society",
+        "Priority Dispute"
+    ],
+    "quiz": {
+        "question": "罗伯特·胡克在1679年写给牛顿的信中，提出了什么关键的物理学“猜想”？",
+        "question_en": "What key physical 'hypothesis' did Robert Hooke propose to Newton in his 1679 letters?",
+        "options": [
+            "弹性定律 (F = -kx)",
+            "生物细胞的存在",
+            "引力随距离的“平方”成反比 (F ∝ 1/r²)",
+            "光是一种波"
+        ],
+        "options_en": [
+            "The Law of Elasticity (F = -kx)",
+            "The existence of biological cells",
+            "That gravity weakens with the 'square' of the distance (F ∝ 1/r²)",
+            "That light is a wave"
+        ],
+        "answer": 2,
+        "explanation": "虽然胡克也研究过弹性和细胞，但他1679年与牛顿的通信是专门关于“天体力学”的。他明确提出了行星运动是“惯性”和“中心平方反比引力”的结合。",
+        "explanation_en": "Although Hooke also worked on elasticity and cells, his 1679 correspondence with Newton was specifically about celestial mechanics. He proposed that planetary motion was a compound of inertia and a central, inverse-square law of gravity."
+    }
+}

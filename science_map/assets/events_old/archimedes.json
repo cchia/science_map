@@ -1,0 +1,214 @@
+{
+    "id": "archimedes",
+    "title": "阿基米德与浮力定律",
+    "title_en": "Archimedes and the Law of Buoyancy",
+    "year": -250,
+    "lat": 37.0755,
+    "lng": 15.2866,
+    "city": "叙拉古",
+    "city_en": "Syracuse",
+    "country": "古希腊(今意大利西西里)",
+    "country_en": "Ancient Greece (now Sicily, Italy)",
+    "field": "物理学",
+    "field_en": "Physics",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/9xSaupsPnA4",
+        "title": "阿基米德原理演示",
+        "title_en": "Archimedes Principle Demonstration",
+        "duration": "5:30"
+      }
+    },
+    
+    "summary": {
+      "text": "阿基米德发现了浮力定律！物体在水中受到的浮力等于它排开水的重量。他还发明了杠杆原理、螺旋提水器，是古代最伟大的科学家。",
+      "text_en": "Archimedes discovered the law of buoyancy! The buoyant force on an object equals the weight of water it displaces. He also invented lever principle and Archimedes screw, greatest scientist of antiquity.",
+      "key_points": [
+        "浮力等于排开液体的重量",
+        "杠杆原理：给我一个支点，我能撬动地球",
+        "发明螺旋提水器等机械装置"
+      ],
+      "key_points_en": [
+        "Buoyancy equals weight of displaced fluid",
+        "Lever principle: Give me a place to stand and I will move the Earth",
+        "Invented Archimedes screw and mechanical devices"
+      ]
+    },
+    
+    "story": {
+      "text": "公元前250年，国王让阿基米德检验王冠是否纯金。阿基米德苦思不得其解。一天他泡澡时，看到水溢出浴缸，突然灵光一现！他光着身子跑上街大喊：'尤里卡！尤里卡！'(我发现了！)他意识到可以用排水法测量王冠体积，从而算出密度。",
+      "text_en": "Around 250 BC, the king asked Archimedes to verify if crown was pure gold. Archimedes pondered without solution. One day bathing, seeing water overflow, he had epiphany! He ran naked through streets shouting: 'Eureka! Eureka!' (I found it!) He realized he could measure crown volume by water displacement, thus calculating density.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Archimedes_in_the_bath.jpg"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "🛁",
+        "text": "'尤里卡'(Eureka)现在成了表示重大发现的感叹词，源自阿基米德的浴缸故事。",
+        "text_en": "'Eureka' now means major discovery exclamation, originating from Archimedes' bathtub story."
+      },
+      {
+        "icon": "🔥",
+        "text": "传说他用巨大的镜子聚焦阳光，点燃了罗马军队的战船！",
+        "text_en": "Legend says he used giant mirrors to focus sunlight, setting Roman warships ablaze!"
+      },
+      {
+        "icon": "⚔️",
+        "text": "他在罗马士兵攻入时还在地上画几何图，说：'别弄乱我的圆！'随后被杀害。",
+        "text_en": "When Roman soldier invaded, he was drawing geometry, saying: 'Don't disturb my circles!' Then was killed."
+      }
+    ],
+    
+    "principle": {
+      "title": "阿基米德原理核心",
+      "title_en": "Archimedes Principle Core",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Archimedes_principle.svg",
+      "key_points": [
+        {
+          "icon": "💧",
+          "title": "浮力定律",
+          "title_en": "Buoyancy Law",
+          "text": "浸在液体中的物体受到向上的浮力，大小等于排开液体的重量",
+          "text_en": "Object immersed in fluid experiences upward buoyant force equal to weight of displaced fluid"
+        },
+        {
+          "icon": "⚖️",
+          "title": "杠杆原理",
+          "title_en": "Lever Principle",
+          "text": "力×力臂 = 阻力×阻力臂，小力可以撬动大物",
+          "text_en": "Force × arm = resistance × resistance arm, small force can move large object"
+        },
+        {
+          "icon": "🌀",
+          "title": "螺旋原理",
+          "title_en": "Screw Principle",
+          "text": "旋转螺旋可以把水从低处提到高处",
+          "text_en": "Rotating screw can lift water from low to high place"
+        },
+        {
+          "icon": "📐",
+          "title": "圆周率计算",
+          "title_en": "Pi Calculation",
+          "text": "用多边形逼近法算出π在3.1408到3.1429之间",
+          "text_en": "Used polygon approximation to calculate π between 3.1408 and 3.1429"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "🚢",
+        "title": "船舶设计",
+        "title_en": "Ship Design",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Container_ship_Hanjin_Marseille.jpg",
+        "text": "根据浮力原理设计船体，使钢铁巨轮能漂浮在水面。",
+        "text_en": "Design hulls based on buoyancy principle, making steel ships float on water."
+      },
+      {
+        "icon": "🎈",
+        "title": "热气球与飞艇",
+        "title_en": "Hot Air Balloons & Airships",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Hot_air_balloon_flight_over_Canberra.jpg",
+        "text": "利用空气浮力原理，热空气密度小于冷空气而上升。",
+        "text_en": "Use air buoyancy principle, hot air less dense than cold air rises."
+      },
+      {
+        "icon": "🏗️",
+        "title": "起重机与杠杆",
+        "title_en": "Cranes & Levers",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Crane_and_Empire_State_Building.jpg",
+        "text": "建筑工地的起重机应用杠杆原理，小力举起重物。",
+        "text_en": "Construction cranes apply lever principle, small force lifts heavy objects."
+      },
+      {
+        "icon": "💧",
+        "title": "水泵与灌溉",
+        "title_en": "Water Pumps & Irrigation",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Archimedes_screw.JPG",
+        "text": "阿基米德螺旋至今仍用于农业灌溉和污水处理。",
+        "text_en": "Archimedes screw still used today for irrigation and sewage treatment."
+      }
+    ],
+    
+    "experiment": {
+      "title": "经典实验：王冠真伪鉴定",
+      "title_en": "Classic Experiment: Crown Authenticity Test",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Archimedes_water_balance.svg",
+      "description": "阿基米德把王冠和等重的纯金分别放入水中，测量排开的水量。如果王冠掺了银，体积会更大，排开的水就更多。通过比较排水量，就能判断王冠是否纯金。这是人类历史上第一次用科学方法检测材料纯度！",
+      "description_en": "Archimedes placed crown and equal-weight pure gold separately in water, measuring displaced water volume. If crown mixed with silver, volume larger, displacing more water. By comparing water displacement, could determine if crown pure gold. First time in human history using scientific method to test material purity!",
+      "why": "相同质量的不同物质，密度不同，体积就不同，排开的水量也不同。",
+      "why_en": "Same mass of different substances, different densities, different volumes, different water displacement."
+    },
+    
+    "simple_explanation": {
+      "text": "想象你坐在浴缸里，水会溢出来对吧？你的身体把水挤开了，水就会向上推你，这就是浮力！水推你的力量，正好等于你挤开的那些水的重量。这就是为什么你在水里感觉变轻了！",
+      "text_en": "Imagine sitting in bathtub, water overflows right? Your body pushes water away, water pushes you up - that's buoyancy! Water's push force exactly equals weight of water you displaced. That's why you feel lighter in water!",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Buoyancy.svg"
+    },
+    
+    "impact": {
+      "text": "阿基米德被誉为'古代最伟大的数学家和科学家'。他的浮力定律、杠杆原理奠定了流体力学和机械学基础。他的思想方法影响了伽利略、牛顿等后世科学家，开创了用数学研究物理的传统。",
+      "text_en": "Archimedes hailed as 'greatest mathematician and scientist of antiquity'. His buoyancy law and lever principle laid foundation for fluid mechanics and mechanics. His thinking influenced later scientists like Galileo and Newton, pioneering tradition of studying physics with mathematics.",
+      "stats": [
+        {
+          "number": "2200+年",
+          "label": "影响至今",
+          "label_en": "Influence to present"
+        },
+        {
+          "number": "π≈3.14",
+          "label": "首次精确计算",
+          "label_en": "First accurate calculation"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "euclid",
+          "contribution": "几何学基础和严格证明方法",
+          "contribution_en": "Geometry foundation and rigorous proof methods"
+        },
+        {
+          "id": "pythagoras",
+          "contribution": "数学与自然规律的联系",
+          "contribution_en": "Connection between mathematics and natural laws"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "galileo",
+          "contribution": "继承用数学研究物理的方法",
+          "contribution_en": "Inherited method of studying physics with mathematics"
+        },
+        {
+          "id": "newton",
+          "contribution": "流体力学和微积分发展",
+          "contribution_en": "Fluid mechanics and calculus development"
+        },
+        {
+          "id": "pascal",
+          "contribution": "发展流体静力学",
+          "contribution_en": "Developed hydrostatics"
+        }
+      ],
+      "legacy_text": "阿基米德继承了欧几里得的几何学传统，将数学应用于物理问题。他的浮力定律和杠杆原理成为经典力学的基石。2000年后，伽利略重新发现了他的著作，牛顿在此基础上建立了完整的力学体系。帕斯卡进一步发展了流体静力学。",
+      "legacy_text_en": "Archimedes inherited Euclid's geometry tradition, applying mathematics to physical problems. His buoyancy law and lever principle became classical mechanics cornerstones. 2000 years later, Galileo rediscovered his works, Newton built complete mechanics system on this foundation. Pascal further developed hydrostatics."
+    },
+    
+    "related_concepts": ["浮力", "杠杆", "密度", "流体力学"],
+    "related_concepts_en": ["Buoyancy", "Lever", "Density", "Fluid Mechanics"],
+    
+    "quiz": {
+      "question": "根据阿基米德原理，物体在水中受到的浮力等于什么？",
+      "question_en": "According to Archimedes' principle, buoyant force on object in water equals what?",
+      "options": ["物体的重量", "物体的体积", "排开水的重量", "水的总重量"],
+      "options_en": ["Object's weight", "Object's volume", "Weight of displaced water", "Total water weight"],
+      "answer": 2,
+      "explanation": "阿基米德原理指出：浸在液体中的物体受到向上的浮力，其大小等于物体排开液体的重量。这就是著名的'尤里卡'时刻的发现。",
+      "explanation_en": "Archimedes' principle states: object immersed in fluid experiences upward buoyant force equal to weight of fluid displaced by object. This is the famous 'Eureka' moment discovery."
+    }
+  }

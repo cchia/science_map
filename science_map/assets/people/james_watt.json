@@ -1,0 +1,10 @@
+{
+    "name": "詹姆斯·瓦特",
+    "name_en": "James Watt",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/15/Watt_James_von_Breda.jpg",
+    "bio_short": "苏格兰发明家和机械工程师。他对纽科门蒸汽机的“分离式冷凝器”等改进，极大地提高了效率，使蒸汽机成为工业革命的动力心脏。",
+    "bio_short_en": "A Scottish inventor and mechanical engineer. His improvements to the Newcomen engine, chiefly the 'separate condenser', dramatically increased its efficiency, making the steam engine the power source of the Industrial Revolution.",
+    "events": [
+      "watt_steam_engine_1776"
+    ]
+  }

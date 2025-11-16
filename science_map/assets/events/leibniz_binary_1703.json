@@ -1,0 +1,145 @@
+{
+    "id": "leibniz_binary_1703",
+    "personId": "gottfried_leibniz",
+    "title": "阐述二进制算术",
+    "title_en": "Explains Binary Arithmetic",
+    "year": 1703,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎 (发表于)",
+    "city_en": "Paris (Published in)",
+    "country": "法国",
+    "country_en": "France",
+    "field": ["数学", "哲学", "计算机"],
+    "field_en": ["Mathematics", "Philosophy", "Computer Science"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2D_Binary_Index.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=xfkNwdjp3W0",
+        "title": "二进制的故事",
+        "title_en": "The Surprising Story of Binary Code",
+        "duration": "8:19"
+      }
+    },
+    
+    "summary": {
+      "text": "莱布尼茨发表了他关于“二进制算术”的论文（《二进制算术详解》）。在这篇论文中，他系统性地展示了如何仅使用两个数字——“0”和“1”——来表示所有数字，并执行加、减、乘、除等所有数学运算。他认为这个系统不仅是数学上的一个创举，更是一个深刻的哲学模型，象征着上帝（1）从“无”（0）中创造出“万物”。",
+      "text_en": "Leibniz published his paper 'Explication de l'Arithmétique Binaire' (Explanation of Binary Arithmetic). He systematically demonstrated how all numbers could be represented, and all mathematical operations (add, subtract, multiply, divide) performed, using only two digits: 0 and 1. He saw this not just as a mathematical curiosity, but as a profound philosophical model of *creatio ex nihilo*: the creation of all things (the universe) by God (1) from Nothingness (0).",
+      "key_points": [
+        "系统化了“二进制”(Binary) 算术 (0 和 1)",
+        "展示了二进制的加、减、乘、除运算",
+        "将其与中国的“易经”八卦和六十四卦相联系",
+        "将其视为“上帝(1)从无(0)中创世”的哲学模型",
+        "奠定了现代计算机逻辑的基础"
+      ],
+      "key_points_en": [
+        "Systematized binary arithmetic (0 and 1)",
+        "Demonstrated binary addition, subtraction, multiplication, and division",
+        "Linked it to the Chinese 'I Ching' (Yi Jing) hexagrams",
+        "Saw it as a philosophical model of 'God (1) creating from Nothing (0)'",
+        "Laid the foundational logic for all modern computers"
+      ]
+    },
+  
+    "story": {
+      "text": "莱布尼茨对二进制的研究长达数十年。最终促使他发表的，是他与在中国的耶稣会传教士白晋（Joachim Bouvet）的通信。白晋向他介绍了《易经》的六十四卦（由“阳爻”——实线，和“阴爻”——断线构成）。莱布尼茨惊讶地发现，如果将“阳爻”视为“1”，“阴爻”视为“0”，那么《易经》的伏羲六十四卦次序图，就完美地对应了从0到63的二进制数字。他认为，这证明了他发明的二进制系统是一种宇宙共通的、神圣的语言，连古代中国圣人（伏羲）都已经掌握。这给了他巨大的信心，最终在1703年发表了他的理论。",
+      "text_en": "Leibniz had worked on binary for decades, but what finally prompted him to publish was his correspondence with Joachim Bouvet, a Jesuit missionary in China. Bouvet sent him the 64 hexagrams of the 'I Ching' (Book of Changes), which are made of solid (Yang) and broken (Yin) lines. Leibniz was astonished to realize that if he treated the solid line as '1' and the broken line as '0', the ancient Fuxi arrangement of the hexagrams perfectly corresponded to the binary numbers from 0 to 63. He took this as proof that binary was a universal, divine language understood even by ancient sages, which gave him the confidence to finally publish his work in 1703.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bagua-name-earlier.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚙️",
+        "text": "莱布尼茨曾梦想建造一台完全基于二进制的机械计算器，使用滚珠（代表1）和孔洞（代表0），但他当时的技术（十进制的“步进计算器”）已经太复杂了。",
+        "text_en": "Leibniz dreamed of building a mechanical calculator that ran *only* on binary, using moving balls (1s) and holes (0s), but his decimal-based 'Stepped Reckoner' was already complex enough."
+      },
+      {
+        "icon": "🏅",
+        "text": "他设计了一枚纪念章来庆祝他的发现，上面刻着拉丁文 'Imago Creationis'（“创世的肖像”），以及“所有事物都源于1和0”。",
+        "text_en": "He designed a commemorative medal to celebrate his discovery, inscribed with the words 'Imago Creationis' (Image of Creation) and 'All things come from 1 and 0'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "我们平时用“十进制”（0-9）数数。莱布尼茨展示了只用“二进制”（0 和 1）也能完成一切计算。\n十进制的 0 = 二进制的 0\n十进制的 1 = 二进制的 1\n十进制的 2 = 二进制的 10 (没有“2”了，必须进位)\n十进制的 3 = 二进制的 11\n十进制的 4 = 二进制的 100\n莱布尼茨是第一个将这个“开/关”或“是/否”的简单系统，发展成一门完备数学的人。虽然在他那个时代只是个“哲学玩具”，但300年后，这成为了所有电脑、手机和数字设备的“母语”。",
+      "text_en": "We normally count using 'decimal' (digits 0-9). Leibniz showed you can do *all* math using just 'binary' (digits 0 and 1).\n0 in decimal = 0 in binary\n1 in decimal = 1 in binary\n2 in decimal = 10 in binary (you have no '2', so you carry the one)\n3 in decimal = 11 in binary\n4 in decimal = 100 in binary\nLeibniz was the first to formalize this simple 'On/Off' or 'Yes/No' system into a complete branch of math. It was a 'philosophical toy' in his day, but 300 years later, it became the native language of every computer, phone, and digital device on Earth.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/af/Binary_to_Hexadecimal_or_Decimal.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💻",
+          "title": "计算机科学 (Computer Science)",
+          "title_en": "Computer Science",
+          "text": "莱布尼茨的二进制算术是现代“布尔代数”和所有数字计算机逻辑门的基础。计算机芯片中的晶体管就是通过“开”(1) 和“关”(0) 的状态来执行二进制运算的。",
+          "text_en": "Leibniz's binary arithmetic is the direct ancestor of 'Boolean Algebra' and all digital computer logic gates. A transistor in a computer chip simply executes binary math by being in an 'On' (1) or 'Off' (0) state."
+        },
+        {
+          "icon": "☯️",
+          "title": "哲学与汉学 (Philosophy & Sinology)",
+          "title_en": "Philosophy & Sinology",
+          "text": "他将二进制与《易经》的联系，是西方哲学史上第一次重大的、试图用数学来理解东方哲学的尝试。",
+          "text_en": "His connection of binary to the 'I Ching' was one of the first major attempts in Western philosophy to mathematically understand and bridge to Eastern philosophy."
+        }
+      ],
+  
+    "impact": {
+      "text": "在莱布尼茨的时代，二进制算术被视为一种数学和哲学上的“奇技淫巧”，在接下来的150年里几乎无人问津。然而，它为后来的乔治·布尔（George Boole）发展“布尔代数”提供了灵感。最终，在20世纪，克劳德·香农（Claude Shannon）将莱布尼茨的“0/1”与电子开关的“开/关”联系起来，从而点燃了数字计算机革命。莱布尼茨1703年的这篇论文，可以说是“信息时代”的哲学奠基石。",
+      "text_en": "In Leibniz's time, binary was seen as a mathematical and philosophical curiosity and was largely ignored for 150 years. However, it inspired George Boole, who developed 'Boolean Algebra' (the math of 0s and 1s). Finally, in the 20th century, Claude Shannon linked Leibniz's 0/1 to an electric switch's 'Off/On', igniting the digital computer revolution. Leibniz's 1703 paper is, in effect, the philosophical cornerstone of the information age.",
+      "stats": [
+          {
+            "number": "2",
+            "label": "个数字 (0 和 1)",
+            "label_en": "Digits (0 and 1)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "i_ching_BC1000",
+          "contribution": "中国的《易经》（通过白晋的通信，为莱布尼茨的二进制提供了哲学和神学上的“确证”）",
+          "contribution_en": "The Chinese 'I Ching' (via Bouvet, provided the philosophical and theological 'confirmation' of his system)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "boole_logic_1854",
+          "contribution": "乔治·布尔（其“布尔代数”是对莱布尼茨二进制逻辑的数学化）",
+          "contribution_en": "George Boole (whose 'Boolean Algebra' was the mathematization of Leibniz's binary logic)"
+        },
+        {
+          "id": "shannon_circuits_1937",
+          "contribution": "克劳德·香农（将莱布尼茨/布尔的“0/1”逻辑应用于电子开关，开创了数字电路）",
+          "contribution_en": "Claude Shannon (who applied Leibniz/Boole's 0/1 logic to electrical switches, creating the digital circuit)"
+        }
+      ],
+      "legacy_text": "莱布尼茨将“无”和“一”这两个最简单的符号，转变成了能够描述和计算万物的强大数学语言。",
+      "legacy_text_en": "Leibniz turned the simplest symbols, 'Nothing' (0) and 'One' (1), into a powerful mathematical language capable of describing and calculating everything."
+    },
+  
+    "related_concepts": ["二进制 (Binary)", "0和1 (0 and 1)", "易经 (I Ching)", "布尔代数 (Boolean Algebra)", "计算机 (Computer Science)", "创世 (Creatio ex nihilo)", "克劳德·香农 (Claude Shannon)", "逻辑门 (Logic Gate)"],
+    "related_concepts_en": ["Binary", "0 and 1", "I Ching", "Boolean Algebra", "Computer Science", "Creatio ex nihilo", "Claude Shannon", "Logic Gate"],
+  
+    "quiz": {
+      "question": "莱布尼茨系统化的“二进制”算术，是基于哪两个数字？",
+      "question_en": "Leibniz's 'Binary' arithmetic, which he systematized, is based on which two digits?",
+      "options": [
+        "0 和 1",
+        "1 和 2",
+        "0 和 10",
+        "1 和 -1"
+      ],
+      "options_en": [
+        "0 and 1",
+        "1 and 2",
+        "0 and 10",
+        "1 and -1"
+      ],
+      "answer": 0,
+      "explanation": "二进制（Base-2）系统只使用“0”（代表“无”或“关”）和“1”（代表“一”或“开”）来表示所有数字。这是所有现代数字计算机的基础。",
+      "explanation_en": "The binary (Base-2) system uses only '0' (representing 'nothing' or 'off') and '1' (representing 'one' or 'on') to represent all numbers. This is the foundation of all modern digital computers."
+    }
+  }

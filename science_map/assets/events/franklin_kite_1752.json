@@ -1,0 +1,152 @@
+{
+    "id": "franklin_kite_1752",
+    "personId": "benjamin_franklin",
+    "title": "风筝实验 (证明闪电是电)",
+    "title_en": "The Kite Experiment (Proving Lightning is Electricity)",
+    "year": 1752,
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "city": "费城",
+    "city_en": "Philadelphia",
+    "country": "英属美洲 (今美国)",
+    "country_en": "British America (Modern USA)",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Benjamin_West%2C_English_%28born_America%29_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=f0oc4gUCOQI",
+        "title": "弗兰克林的风筝实验",
+        "title_en": "The TRUE Story of Ben Franklin & His Kite",
+        "duration": "9:25"
+      }
+    },
+    
+    "summary": {
+      "text": "本杰明·弗兰克林（Benjamin Franklin）进行了一项危险的实验，在雷暴中放飞了一只带有金属钥匙的风筝。当他从钥匙上引出“电火花”时，他无可辩驳地证明了“闪电”和“静电”（来自莱顿瓶）是同一种物理现象。这一发现使他能够发明“避雷针”(Lightning Rod)，这也是18世纪最重大的实用发明之一。",
+      "text_en": "Benjamin Franklin conducted his dangerous kite experiment during a thunderstorm. By drawing an 'electric spark' from a metal key attached to the wet kite string, he proved definitively that 'lightning' and 'static electricity' (from a Leyden jar) were the exact same phenomenon. This discovery led directly to his invention of the 'Lightning Rod', one of the most significant practical inventions of the 18th century.",
+      "key_points": [
+        "证明了闪电就是电",
+        "风筝和钥匙实验",
+        "导致了“避雷针”(Lightning Rod) 的发明",
+        "将“天上的电”与“地上的电”统一起来"
+      ],
+      "key_points_en": [
+        "Proved lightning *is* electricity",
+        "The Kite and Key experiment",
+        "Led to the invention of the 'Lightning Rod'",
+        "Unified 'celestial' and 'terrestrial' electricity"
+      ]
+    },
+  
+    "story": {
+      "text": "弗兰克林假设闪电是一种大规模的“放电”，与莱顿瓶（`leyden_jar_1745`）的火花相同。为了“捕捉”它，他将风筝（顶部有金属尖）放入雷雨云中。雨水浸湿了风筝线（麻绳），使其导电。电荷沿着湿麻绳流下，停在了系在绳子末端的“钥匙”上。弗兰克林则手握着一根“干燥的丝绸リボン”（绝缘体）来保护自己。当他用指关节靠近钥匙时，一道“电火花”从钥匙跳到了他的手上。他用这股“天火”为莱顿瓶充了电，证明了它与实验室里的电具有完全相同的特性。",
+      "text_en": "Franklin hypothesized lightning was a massive electrical discharge, identical to a spark from a Leyden jar (`leyden_jar_1745`). To 'catch' it, he flew a kite (with a metal wire at the top) into a storm cloud. The rain wet the hemp kite string, making it conductive. The charge flowed down the string and stopped at a metal 'key', which was attached to an insulating 'silk ribbon' that Franklin held to protect himself. When he brought his knuckle near the key, a *spark* jumped. He then used this 'celestial fire' to charge a Leyden jar, proving it had all the same properties as laboratory-made electricity."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🇫🇷",
+        "text": "弗兰克林在1752年6月进行实验时，并不知道一个月前（5月）在法国，一位名叫托马斯-弗朗索瓦·达利巴德的植物学家已经根据弗兰克林的“提议”，成功地用一根40英尺的铁杆“捕捉”到了闪电。",
+        "text_en": "When Franklin performed his experiment in June 1752, he didn't know that a month earlier, a Frenchman named Thomas-François Dalibard had *already* successfully drawn 'lightning' from the sky using a 40-foot iron rod, based on Franklin's *proposal*."
+      },
+      {
+        "icon": "☠️",
+        "text": "这个实验极其危险。一年后，一位名叫格奥尔格·里奇曼的俄罗斯科学家在圣彼得堡尝试复制这个实验时，被一道球状闪电击中身亡。",
+        "text_en": "This experiment was incredibly dangerous. A year later, a scientist in St. Petersburg, Georg Richmann, was killed by a bolt of ball lightning while attempting to replicate the experiment."
+      },
+      {
+        "icon": "⛪",
+        "text": "“避雷针”的发明是“启蒙运动”战胜“迷信”的象征。它证明了闪电不是“上帝的愤怒”，而是一种可以被人类理性和工程学所“驯服”的自然力量。",
+        "text_en": "The lightning rod was a symbol of the Enlightenment's triumph over superstition. It proved lightning wasn't 'divine anger', but a *natural force* that could be *tamed* by human reason and engineering."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在弗兰克林之前，人们认为“闪电”是神的武器，“静电”（摩擦气球）是小孩的玩具。弗兰克林是第一个说：“我觉得它们是同一种东西”的人。为了证明这一点，他做了一个疯狂的实验：他在雷雨天“放风筝”，并把家门钥匙系在风筝线上。他成功地从钥匙上“引下了”电火花。他“抓住”了闪电，证明了天上的“神力”和地上的“电力”是完全一样的。",
+      "text_en": "Before Franklin, people thought 'lightning' was a weapon of the gods, and 'static electricity' (from rubbing a balloon) was a toy. Franklin was the first to say, 'I think they're the same thing.' To prove it, he did something crazy: he *flew a kite in a thunderstorm* with a metal key tied to the string. He successfully 'drew a spark' from the key. He 'caught' lightning, proving the 'divine fire' from the sky was the exact same stuff as the 'electricity' in his lab.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/09/CN_Tower_struck_by_lightning-Edit%28Taxi%29.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🌩️",
+          "title": "避雷针 (Lightning Rod)",
+          "title_en": "Lightning Rod",
+          "text": "这是该实验的直接、即时的应用。弗兰克林发明了避雷针，将建筑物的电荷安全地导入地下，从而拯救了无数建筑和生命。",
+          "text_en": "This was the immediate application. Franklin invented the lightning rod, which safely conducted a building's electrical charge into the ground, saving countless buildings and lives from fire."
+        },
+        {
+          "icon": "⚡",
+          "title": "大气物理学",
+          "title_en": "Atmospheric Physics",
+          "text": "开创了对“大气电学”的研究，将其从神学领域带入到了物理学领域。",
+          "text_en": "It founded the study of 'atmospheric electricity', moving it from the realm of theology into the realm of physics."
+        }
+      ],
+  
+    "impact": {
+      "text": "弗兰克林的风筝实验是18世纪最著名的科学实验。它将“电”从一种“神秘流体”转变为一种可被研究的“统一现象”。它证明了人类理性可以理解和控制最强大、最可怕的自然力量之一，这极大地推动了“启蒙运动”的精神。",
+      "text_en": "Franklin's kite experiment was the most famous scientific experiment of the 18th century. It unified 'electricity' into a single phenomenon, rather than a mysterious fluid. It proved that human reason could understand and control one of nature's most powerful and terrifying forces, which was a massive boost to the spirit of 'The Enlightenment'.",
+      "stats": [
+          {
+            "number": "1752",
+            "label": "年 (实验年份)",
+            "label_en": "Year of Experiment"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "leyden_jar_1745",
+          "contribution": "莱顿瓶（为他提供了“储存”和“比较”电荷的工具）",
+          "contribution_en": "The Leyden Jar (provided the tool to 'store' and 'compare' the charge)"
+        },
+        {
+          "id": "guericke_static_generator_1663",
+          "contribution": "静电起电机（提供了研究静电的基础）",
+          "contribution_en": "Electrostatic Generator (provided the basis for studying static electricity)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "galvani_animal_electricity_1791",
+          "contribution": "伽伐尼（其工作是建立在富兰克林“电是一种流体”的概念上的）",
+          "contribution_en": "Galvani (his work was built on Franklin's concept of electricity as a single 'fluid')"
+        },
+        {
+          "id": "volta_battery_1800",
+          "contribution": "伏打（其电池的发明是电学研究的下一步）",
+          "contribution_en": "Volta (his battery was the next step in electrical research)"
+        }
+      ],
+      "legacy_text": "弗兰克林“抓住”了闪电，将“天火”变成了可被研究的“地火”，并向人类展示了如何驯服它。",
+      "legacy_text_en": "Franklin 'caught' the lightning, turning 'celestial fire' into 'terrestrial fire' and showing humanity how to tame it."
+    },
+  
+    "related_concepts": ["闪电 (Lightning)", "电 (Electricity)", "避雷针 (Lightning Rod)", "莱顿瓶 (Leyden Jar)", "电荷 (Charge)", "启蒙运动 (Enlightenment)", "本杰明·富兰克林"],
+    "related_concepts_en": ["Lightning", "Electricity", "Lightning Rod", "Leyden Jar", "Charge", "Enlightenment", "Benjamin Franklin"],
+  
+    "quiz": {
+      "question": "弗兰克林的风筝实验最主要、最根本的“证明”是什么？",
+      "question_en": "What was the single, fundamental thing Franklin's kite experiment *proved*?",
+      "options": [
+        "风筝可以飞得很高",
+        "闪电和静电是同一种东西",
+        "发明了电池",
+        "发现了磁场"
+      ],
+      "options_en": [
+        "That kites can fly high",
+        "That lightning and static electricity are the same thing",
+        "That he had invented the battery",
+        "That he had discovered magnetism"
+      ],
+      "answer": 1,
+      "explanation": "在弗兰克林之前，人们不知道“闪电”和“摩擦琥珀产生的静电”是否相关。他用风筝将“闪电”（天上的电）导入一个“莱顿瓶”（地上的电的容器），证明了它们是完全相同的。",
+      "explanation_en": "Before Franklin, nobody knew if 'lightning' and 'static electricity' (from rubbing amber) were related. He used the kite to channel 'lightning' (celestial electricity) into a 'Leyden jar' (a container for terrestrial electricity), proving they were identical."
+    }
+  }

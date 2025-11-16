@@ -1,0 +1,10 @@
+{
+    "name": "格奥尔·欧姆",
+    "name_en": "Georg Ohm",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Georg_Simon_Ohm_%281789-1854%29.jpg",
+    "bio_short": "德国物理学家和数学家。他最著名的成就是发现了“欧姆定律”（V=IR），该定律阐明了电压、电流和电阻之间的关系，是电路理论的基石。",
+    "bio_short_en": "A German physicist and mathematician. He is best known for 'Ohm's Law' (V=IR), which defines the fundamental relationship between voltage, current, and resistance and is the foundation of circuit theory.",
+    "events": [
+      "ohm_law_1827"
+    ]
+  }

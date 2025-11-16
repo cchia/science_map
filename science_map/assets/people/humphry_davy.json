@@ -1,0 +1,11 @@
+{
+    "name": "汉弗莱·戴维",
+    "name_en": "Humphry Davy",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sir_Humphry_Davy%2C_Bt_by_Thomas_Phillips.jpg",
+    "bio_short": "英国化学家和发明家，电化学的先驱。他利用电解法发现了多种新元素（如钠和钾），发明了“矿工安全灯”（戴维灯），并且是迈克尔·法拉第的导师。",
+    "bio_short_en": "A British chemist and inventor. He was a pioneer of electrochemistry, discovered several new elements (like sodium and potassium) using electrolysis, invented the 'Davy lamp' for miners, and was Michael Faraday's mentor.",
+    "events": [
+        "davy_laughing_gas_1799",
+        "davy_electrochemistry_1808"
+    ]
+  }

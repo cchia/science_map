@@ -1,0 +1,168 @@
+{
+    "id": "hooke_micrographia_1665",
+    "personId": "robert_hooke",
+    "title": "发表《显微图谱》",
+    "title_en": "Publishes 'Micrographia'",
+    "year": 1665,
+    "lat": 51.515,
+    "lng": -0.117,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": [
+        "工程学",
+        "物理学",
+        "生物学"
+    ],
+    "field_en": [
+        "Biology",
+        "Engineering",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hooke-microscope.png",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=pWk0cNAnC0c",
+            "title": "胡克的《显微图谱》",
+            "title_en": "Robert Hooke. Micrographia",
+            "duration": "10:11"
+        }
+    },
+    "summary": {
+        "text": "罗伯特·胡克出版了《显微图谱》(Micrographia)，这是有史以来第一本专门介绍显微镜观测的科学巨著。书中包含了胡克亲手绘制的、极其精美复杂的插图，首次向公众揭示了一个肉眼看不见的微观世界。在观察软木塞时，他发现了蜂窝状的小隔间，并将其命名为“**细胞**”(Cells)，这个术语沿用至今。",
+        "text_en": "Robert Hooke published 'Micrographia', the first major scientific work dedicated to observations through a microscope. The book contained stunningly detailed, intricate illustrations drawn by Hooke himself, revealing for the first time a hidden microscopic world. When observing cork, he discovered small, box-like compartments which he named '**cells**', coining the biological term we still use today.",
+        "key_points": [
+            "第一本关于显微镜观测的重要著作",
+            "首次命名生物“细胞”(Cell)",
+            "精美的插图（如跳蚤和苍蝇的眼睛）震撼了公众",
+            "展示了显微镜作为科学仪器的强大力量"
+        ],
+        "key_points_en": [
+            "First major book of microscopic observations",
+            "Coined the biological term 'Cell'",
+            "Stunning illustrations (like the flea) shocked the public",
+            "Demonstrated the power of the microscope as a scientific instrument"
+        ]
+    },
+    "story": {
+        "text": "胡克使用他自己制造的复合显微镜，观察了他能找到的一切：雪花、针尖、刀锋、昆虫的眼睛、植物，甚至尿液结晶。他最著名的观察对象是一只跳蚤，他将其画成了一幅巨大的、令人恐惧的折叠插图，仿佛一只怪物。但最*重要*的观察对象是软木塞。他看到软木塞是由无数个“多孔的小盒子”组成的，这让他想起了僧侣在修道院里住的“小房间”(cells)。他因此将这些结构命名为“细胞”(cells)。他当时看到的只是死去的植物细胞壁，但他为生物学的一个基本单元命了名。",
+        "text_en": "Hooke used his own compound microscope to look at everything he could find: snowflakes, the point of a needle, a razor's edge, insects' eyes, plants, and even urine crystals. His most *famous* observation was of a flea, which he drew in a giant, terrifying fold-out illustration, making it look like a monster. His most *important* observation, however, was of cork. He saw it was made of a 'great many little Boxes'. This reminded him of the 'cells' (small rooms) that monks lived in at a monastery. He therefore named the structures 'cells'. He was only seeing the dead cell walls of a plant, but he had named the fundamental unit of life.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f0/HookeFlea01.jpg"
+    },
+    "fun_facts": [
+        {
+            "icon": "📖",
+            "text": "《显微图谱》是英国皇家学会出版的第一本主要著作，也是有史以来第一本科学“畅销书”，在公众中引起了巨大轰动。",
+            "text_en": "'Micrographia' was the first major publication of the Royal Society and became the first-ever scientific 'bestseller', causing a sensation with the public.",
+            "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/08/Micrographia_title_page.gif"
+        },
+        {
+            "icon": "🧬",
+            "text": "胡克在书中观察软木塞时写道：“...这些孔洞或‘细胞’...是空的...”，他并不知道这些“细胞”是生命的基本组成部分。",
+            "text_en": "When observing cork, Hooke wrote that the pores or 'cells' were '...empty...', having no idea they were the fundamental building blocks of life."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一下，胡克是第一个买到“超高清放大镜”的人。他立刻把这个新玩具对准了他能找到的所有东西，然后惊叹道：“哇！” 他看到一只跳蚤像一只盔甲怪物，一只苍蝇的眼睛由几百个小眼睛组成，甚至一片软木塞也像蜂窝。他把他看到的画了下来，出版成书。这本书就像是人类第一次收到的“来自微观世界的明信片”，让所有人大开眼界。当他看到软T木塞上的“小房间”时，他称之为“细胞”，这个名字就此流传下来。",
+        "text_en": "Imagine Hooke was the first person to get a super-powered magnifying glass, and he immediately pointed it at everything he could find. He saw a flea looked like an armored monster, a fly's eye was made of hundreds of tiny eyes, and even a piece of cork looked like a honeycomb. He drew what he saw and published it. His book was like the first 'postcard from the microscopic world' ever sent to humanity, and it blew everyone's mind. When he saw the 'little rooms' in the cork, he called them 'cells', and the name stuck.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/fe/RobertHookeMicrographia1665.jpg"
+    },
+    "applications": [
+        {
+            "icon": "🔬",
+            "title": "生物学 (细胞理论)",
+            "title_en": "Biology (Cell Theory)",
+            "text": "他命名的“细胞”概念，是150年后施莱登和施旺建立“细胞理论”（所有生命都由细胞构成）的绝对基础。",
+            "text_en": "His term 'cell' became the absolute foundation for the 'Cell Theory' developed 150 years later by Schleiden and Schwann (that all life is made of cells)."
+        },
+        {
+            "icon": "🧬",
+            "title": "微生物学",
+            "title_en": "Microbiology",
+            "text": "《显微图谱》的插图和成功，直接激励了安东尼·范·列文虎克（Leeuwenhoek）去制造他自己的、更强大的显微镜，从而发现了细菌和原生动物。",
+            "text_en": "The illustrations and success of 'Micrographia' directly inspired Antonie van Leeuwenhoek to build his own, more powerful microscopes, leading to his discovery of bacteria and protozoa."
+        },
+        {
+            "icon": "🎨",
+            "title": "科学插画",
+            "title_en": "Scientific Illustration",
+            "text": "这本书为“科学插画”设立了黄金标准，证明了精确的视觉图像在传达科学发现时与文字同样重要。",
+            "text_en": "The book set the gold standard for scientific illustration, proving that accurate visual images are just as important as text in communicating scientific discoveries."
+        }
+    ],
+    "impact": {
+        "text": "《显微图谱》向人类揭示了一个全新的、与我们平行的宇宙——微观宇宙。它不仅引入了“细胞”这个词，还彻底改变了科学的尺度，证明了通过仪器（如显微镜和望远镜）可以扩展人类的感官，去探索肉眼无法企及的领域。这是科学革命中仪器驱动型发现的典范。",
+        "text_en": "'Micrographia' revealed an entirely new universe running parallel to our own: the microscopic world. It didn't just coin the word 'cell'; it changed the scale of science, proving that instruments (like the microscope and telescope) could extend human senses into realms previously invisible and unknowable. It was a masterpiece of instrument-driven discovery in the Scientific Revolution.",
+        "stats": [
+            {
+                "number": "1665",
+                "label": "年 (出版年份)",
+                "label_en": "Year Published"
+            },
+            {
+                "number": "1",
+                "label": "个新词\"细胞\"",
+                "label_en": "New Word: 'Cell'"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "galileo_telescope_1610",
+                "contribution": "伽利略（其使用望远镜证明了“仪器”可以扩展感官）",
+                "contribution_en": "Galileo (whose use of the telescope proved that 'instruments' could extend the senses)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "leeuwenhoek_bacteria_1676",
+                "contribution": "列文虎克（其制造显微镜并发现微生物的灵感来源）",
+                "contribution_en": "Antonie van Leeuwenhoek (was inspired by the book to build his own microscopes and discover microbes)"
+            },
+            {
+                "id": "newton_opticks_1704",
+                "contribution": "牛顿（其光学研究，包括“牛顿环”，部分建立在《显微图谱》中对薄膜颜色的观察之上）",
+                "contribution_en": "Newton (his work on optics, including 'Newton's Rings', built upon Hooke's observations of thin-film colors in 'Micrographia')"
+            }
+        ],
+        "legacy_text": "胡克用《显微图谱》打开了通往微观世界的大门，并为生物学提供了最基本的词汇——“细胞”。",
+        "legacy_text_en": "Hooke's 'Micrographia' opened the door to the microscopic world and gave biology its most fundamental word: the 'cell'."
+    },
+    "related_concepts": [
+        "细胞 (Cell)",
+        "显微镜 (Microscope)",
+        "细胞理论 (Cell Theory)",
+        "皇家学会 (Royal Society)",
+        "列文虎克 (Leeuwenhoek)",
+        "科学插画"
+    ],
+    "related_concepts_en": [
+        "Cell",
+        "Microscope",
+        "Cell Theory",
+        "Royal Society",
+        "Leeuwenhoek",
+        "Scientific Illustration"
+    ],
+    "quiz": {
+        "question": "罗伯特·胡克在《显微图谱》中观察什么时，首次创造了“细胞”(Cell) 这个词？",
+        "question_en": "What was Robert Hooke observing in 'Micrographia' when he coined the term 'Cell'?",
+        "options": [
+            "一只跳蚤 (A flea)",
+            "一片软木塞 (A thin slice of cork)",
+            "一滴池塘水 (A drop of pond water)",
+            "他自己的血液 (His own blood)"
+        ],
+        "options_en": [
+            "A flea",
+            "A thin slice of cork",
+            "A drop of pond water",
+            "His own blood"
+        ],
+        "answer": 1,
+        "explanation": "他观察到软木塞是由无数个“多孔的小盒子”或“小房间”组成的，这让他想起了僧侣在修道院里住的“小房间”(cells)，因此他将这些结构命名为“细胞”。",
+        "explanation_en": "He observed that the cork was made of countless 'little boxes' or 'rooms', which reminded him of the 'cells' (small rooms) monks lived in at a monastery. He therefore named the structures 'cells'."
+    }
+}

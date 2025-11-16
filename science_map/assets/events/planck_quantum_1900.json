@@ -1,0 +1,165 @@
+{
+  "id": "planck_quantum_1900",
+  "personId": "max_planck",
+  "title": "提出量子假说 (黑体辐射)",
+  "title_en": "Proposes the Quantum Hypothesis (Black-Body Radiation)",
+  "year": 1900,
+  "lat": 52.5200,
+  "lng": 13.4050,
+  "city": "柏林",
+  "city_en": "Berlin",
+  "country": "德国",
+  "country_en": "Germany",
+  "field": ["物理学"],
+  "field_en": ["Physics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Black_body.svg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=7BXvc9W97iU",
+      "title": "普朗克常数与黑体辐射",
+      "title_en": "Blackbody Radiation and the Ultraviolet Catastrophe",
+      "duration": "6:42"
+    }
+  },
+  
+  "summary": {
+    "text": "马克斯·普朗克（Max Planck）为了解决“黑体辐射”问题（特别是“紫外灾难”），提出了一个革命性的假说。他假设，能量的释放和吸收不是连续的，而是以不连续的“能量包”或“量子”(Quanta) 的形式进行的。他提出了一个连接能量(E)和频率(f)的公式：E = hf，其中 h 是一个极小的基本常数，即“普朗克常数”。这被认为是“量子力学”的诞生日。",
+    "text_en": "To solve the 'black-body radiation' problem (specifically the 'ultraviolet catastrophe'), Max Planck proposed a revolutionary hypothesis. He assumed that energy was not emitted or absorbed continuously, but in discrete 'packets' or 'quanta'. He introduced the formula E = hf, relating energy (E) to frequency (f) via a new fundamental constant, 'h', known as Planck's constant. This event is considered the birth of quantum mechanics.",
+    "key_points": [
+      "量子力学的诞生 (Birth of Quantum Mechanics)",
+      "能量是“量子化”的 (Energy is 'quantized')",
+      "解决了“紫外灾难”(Ultraviolet Catastrophe)",
+      "提出了 E = hf (普朗克公式)",
+      "h = 普朗克常数 (Planck's constant)"
+    ],
+    "key_points_en": [
+      "Birth of Quantum Mechanics",
+      "Energy is 'quantized'",
+      "Solved the 'Ultraviolet Catastrophe'",
+      "Introduced E = hf (Planck's formula)",
+      "h = Planck's constant"
+    ]
+  },
+
+  "story": {
+    "text": "在1900年，经典物理学（牛顿和麦克斯韦）在解释“黑体”（完美吸收和辐射所有光的热体）如何发光时，遭遇了巨大失败。经典理论预测，黑体在紫外线波段将释放出“无限”的能量，这显然是荒谬的，被称为“紫外灾难”。普朗克在1900年底，作为“一个绝望的举动”，尝试了一个数学“技巧”：他假设能量只能像“整数包”一样一份一份地发出（如 1hf, 2hf, 3hf...）。令他自己都感到惊讶的是，这个激进的假设（能量不连续）所推导出的公式，与所有实验数据完美吻合。他并不清楚这在物理上意味着什么，但他已经打开了量子世界的大门。",
+    "text_en": "In 1900, classical physics (Newton's and Maxwell's laws) failed spectacularly to explain how a 'black-body' (a perfect absorber/emitter of light) radiates heat. Classical theory predicted *infinite* energy would be radiated in the ultraviolet frequencies—an absurdity known as the 'ultraviolet catastrophe'. In late 1900, as 'an act of desperation', Planck tried a mathematical 'trick': he assumed energy could only be emitted in discrete packets, or 'quanta' (like 1hf, 2hf, 3hf...). To his own surprise, the formula this assumption produced *perfectly* matched all the experimental data. He didn't fully understand the physical implications, but he had just unlocked the door to the quantum world."    
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🤷",
+      "text": "普朗克本人最初并不相信他自己的理论。他认为“量子化”只是一个暂时的数学工具，并试图在接下来的几年里将其“修复”，使其回归经典物理学，但失败了。",
+      "text_en": "Planck himself didn't believe his own theory at first. He considered 'quantization' a temporary mathematical tool and spent the next several years trying (and failing) to 'fix' it to fit classical physics."
+    },
+    {
+      "icon": "💡",
+      "text": "正是阿尔伯特·爱因斯坦（Albert Einstein）在1905年（`einstein_photoelectric_1905`）第一个“严肃地”对待了普朗克的量子概念，并提出光本身就是由这些量子（“光子”）组成的，从而解释了光电效应。",
+      "text_en": "It was Albert Einstein in 1905 (`einstein_photoelectric_1905`) who first took Planck's quantum concept *seriously* as a physical reality, proposing that light *itself* is made of these quanta ('photons') to explain the photoelectric effect."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象一下，经典物理学认为能量就像一条“光滑的斜坡”：你可以拥有任意数量的能量，比如1.1、1.2、1.25... \n而普朗克则说：“不对，能量更像是一排‘楼梯’。” 你可以站在第1级台阶，或者第2级台阶，但你永远不能站在“第1.5级台阶”。你只能以“一整包”（量子）的形式获得或失去能量。这个看似微小的“台阶”概念，就是整个量子革命的开端。",
+    "text_en": "Imagine classical physics thought energy was a smooth 'ramp'. You could have any amount of energy, like 1.1, 1.2, 1.25... \nPlanck came along and said, 'No, energy is a 'staircase'.' You can be on Step 1, or Step 2, but *never* on Step 1.5. You can only gain or lose energy in 'packets', or 'quanta'. This simple idea of 'steps' (quantization) was the start of the entire quantum revolution."    
+  },
+
+  "applications": [
+      {
+        "icon": "☀️",
+        "title": "光电效应 (Photoelectric Effect)",
+        "title_en": "Photoelectric Effect",
+        "text": "爱因斯坦立即使用了普朗克的 E = hf 公式来解释光电效应（`einstein_photoelectric_1905`），并因此获得了诺贝尔奖。",
+        "text_en": "Einstein immediately used Planck's E = hf formula to explain the photoelectric effect (`einstein_photoelectric_1905`), for which he won the Nobel Prize."
+      },
+      {
+        "icon": "⚛️",
+        "title": "原子模型 (Atomic Model)",
+        "title_en": "Atomic Model",
+        "text": "尼尔斯·玻尔（Niels Bohr）在1913年（`bohr_atom_1913`）提出，电子的轨道也是“量子化”的，它们通过“跃迁”来吸收或释放普朗克的“能量包”（光子）。",
+        "text_en": "Niels Bohr (in 1913, `bohr_atom_1913`) proposed that electron orbits were *also* quantized, and they 'jumped' between orbits by absorbing or emitting Planck's 'energy packets' (photons)."
+      },
+      {
+        "icon": "💻",
+        "title": "所有现代电子学",
+        "title_en": "All Modern Electronics",
+        "text": "量子力学（由普朗克开启）是理解半导体和晶体管（计算机芯片的基础）如何工作的唯一理论。",
+        "text_en": "Quantum mechanics (which Planck started) is the only theory that explains how semiconductors and transistors—the basis of every computer chip—work."
+      }
+    ],
+
+  "impact": {
+    "text": "普朗克的量子假说是“经典物理学”时代的终结，和“现代物理学”时代的开启。它引入了“不连续性”和“概率性”作为宇宙的基本特征，与牛顿的“连续”和“确定性”宇宙观形成了根本性的决裂。20世纪的所有物理学——从原子到宇宙学——都建立在普朗克在1900年点燃的这场革命之上。",
+    "text_en": "Planck's hypothesis was the 'end' of classical physics and the 'beginning' of modern physics. It introduced discontinuity and probability as fundamental features of the universe, a radical break from Newton's continuous and deterministic cosmos. All of 20th-century physics, from atoms to cosmology, is built on the revolution Planck started in 1900.",
+    "stats": [
+        {
+          "number": "1900",
+          "label": "年 (量子力学诞辰)",
+          "label_en": "Year (Birth of Quantum)"
+        },
+        {
+          "number": "6.626 x 10⁻³⁴",
+          "label": "普朗克常数 (h)",
+          "label_en": "Planck's Constant (h)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "boltzmann_statistical_mechanics_1877",
+        "contribution": "玻尔兹曼（其“统计力学”的方法启发了普朗克使用统计方法来描述能量分布）",
+        "contribution_en": "Boltzmann (his methods in 'statistical mechanics' inspired Planck to use statistics to describe energy distribution)"
+      },
+      {
+        "id": "lummer_black_body_1899",
+        "contribution": "卢默尔和普林斯海姆（其“黑体辐射”的精确实验数据是普朗克试图在理论上匹配的）",
+        "contribution_en": "Lummer & Pringsheim (their precise experimental data on black-body radiation was what Planck's theory had to match)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "einstein_photoelectric_1905",
+        "contribution": "爱因斯坦（其“光电效应”是将普朗克的“量子”从数学假说转变为物理现实的第一步）",
+        "contribution_en": "Einstein (his 'photoelectric effect' was the first step in taking Planck's 'quanta' from a mathematical hypothesis to a physical reality)"
+      },
+      {
+        "id": "bohr_atom_1913",
+        "contribution": "尼尔斯·玻尔（将其“量子化”思想应用于原子结构）",
+        "contribution_en": "Niels Bohr (applied the 'quantization' idea to the structure of the atom)"
+      },
+      {
+        "id": "schrodinger_equation_1926",
+        "contribution": "薛定谔（其“波动力学”是普朗克量子假说的最终数学形式）",
+        "contribution_en": "Schrödinger (his 'wave mechanics' was the final mathematical formulation of Planck's quantum hypothesis)"
+      }
+    ],
+    "legacy_text": "马克斯·普朗克违背了自己的所有经典物理直觉，极不情愿地开启了量子革命。",
+    "legacy_text_en": "Max Planck, against all his own classical instincts, reluctantly started the quantum revolution."
+  },
+
+  "related_concepts": ["量子 (Quanta)", "E = hf", "普朗克常数 (Planck's Constant)", "黑体辐射 (Black-body Radiation)", "紫外灾难 (Ultraviolet Catastrophe)", "爱因斯坦 (Einstein)", "玻尔 (Bohr)"],
+  "related_concepts_en": ["Quanta", "E = hf", "Planck's Constant", "Black-body Radiation", "Ultraviolet Catastrophe", "Einstein", "Bohr"],
+
+  "quiz": {
+    "question": "马克斯·普朗克（Max Planck）在1900年提出他的“量子假说”是为了解决哪个物理学难题？",
+    "question_en": "What problem in physics was Max Planck trying to solve when he proposed his 'quantum hypothesis' in 1900?",
+    "options": [
+      "“紫外灾难”（黑体辐射）",
+      "“阿喀琉斯与乌龟”悖论",
+      "“希帕索斯”的无理数危机",
+      "“水星近日点”的进动"
+    ],
+    "options_en": [
+      "The 'Ultraviolet Catastrophe' (in black-body radiation)",
+      "The 'Achilles and the Tortoise' paradox",
+      "Hippasus's 'irrational number' crisis",
+      "The precession of Mercury's perihelion"
+    ],
+    "answer": 0,
+    "explanation": "“紫外灾难”是经典物理学的著名失败，它错误地预测一个热物体会释放出无限的紫外线能量。普朗克的“量子化”假说（能量不连续）完美地解决了这个矛盾。",
+    "explanation_en": "The 'Ultraviolet Catastrophe' was the famous failure of classical physics to predict black-body radiation (it wrongly predicted infinite energy). Planck's 'quantization' hypothesis (that energy is not continuous) fixed this."
+  }
+}

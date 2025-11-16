@@ -1,0 +1,136 @@
+{
+    "id": "wohler_beryllium_1828",
+    "personId": "friedrich_wohler",
+    "title": "首次分离出“铍” (Beryllium) 元素",
+    "title_en": "First to Isolate the Element Beryllium",
+    "year": 1828,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "普鲁士 (今德国)",
+    "country_en": "Prussia (Modern Germany)",
+    "field": ["化学"],
+    "field_en": ["Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Be-140g.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=qy8JyQShZRA",
+        "title": "铍 (Be) 元素简介",
+        "title_en": "Beryllium - Periodic Table of Videos",
+        "duration": "3:38"
+      }
+    },
+    
+    "summary": {
+      "text": "在1828年，弗里德里希·维勒（Friedrich Wöhler）应用了他为分离铝（`wohler_aluminum_1827`）而完善的“化学还原法”，成功地从“氯化铍”中首次分离出了金属“铍”(Beryllium)。他通过在铂金坩埚中加热氯化铍和纯金属钾，制得了灰色的“铍”粉末。这一发现（与同年分离出钇）巩固了他作为19世纪最重要“元素猎人”之一的地位。",
+      "text_en": "In 1828, Friedrich Wöhler applied the 'chemical reduction' method he had perfected for aluminum (`wohler_aluminum_1827`) to 'beryllium chloride'. By heating it with pure metallic potassium in a platinum crucible, he successfully isolated the element 'Beryllium' (Be) for the first time, producing it as a grey powder. This discovery, along with his isolation of yttrium in the same year, cemented his status as one of the 19th century's foremost element hunters.",
+      "key_points": [
+        "首次分离出“铍”(Beryllium, Be)",
+        "使用了“化学还原法”",
+        "使用“金属钾”还原“氯化铍”",
+        "与弗里德里希·比西 (Friedrich Bussy) “同时”独立发现"
+      ],
+      "key_points_en": [
+        "First to isolate 'Beryllium' (Be)",
+        "Used the 'Chemical Reduction' method",
+        "Used 'metallic potassium' to reduce 'beryllium chloride'",
+        "Discovered independently and *simultaneously* by Friedrich Bussy"
+      ]
+    },
+  
+    "story": {
+      "text": "在维勒的时代，人们已经知道矿物“绿柱石”（Beryl，祖母绿和海蓝宝石的来源）中含有一种未知的“土”（氧化物）。汉弗莱·戴维（`davy_electrochemistry_1808`）曾尝试电解它，但失败了。维勒采用了他为“铝”（`wohler_aluminum_1827`）改进的化学方法：他将纯金属钾与“氯化铍”一同加热。反应非常剧烈，最终他从灰色的熔渣中冲洗出了细小的、闪亮的“铍粉末”。巧合的是，法国化学家安托万·比西（Antoine Bussy）在同一年也使用完全相同的方法独立地发现了铍。",
+      "text_en": "In Wöhler's time, it was known that the mineral 'beryl' (the source of emeralds) contained an unknown 'earth' (oxide). Humphry Davy (`davy_electrochemistry_1808`) had tried to electrolyze it and failed. Wöhler applied his chemical method: he heated pure metallic potassium with 'beryllium chloride'. After the reaction, he washed the product with water, which dissolved the byproducts and left the new 'beryllium powder' behind. In a remarkable coincidence, the French chemist Antoine Bussy independently discovered Beryllium using the *exact same method* in the *exact same year*."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💎",
+        "text": "“铍”是一种非常轻（比铝还轻）且极其坚硬的金属。它存在于“绿柱石”(Beryl) 矿物中，其珍贵的宝石形态就是“祖母绿”(Emerald) 和“海蓝宝石”(Aquamarine)。",
+        "text_en": "'Beryllium' is an extremely light (lighter than aluminum) and very stiff metal. It is found in the mineral 'beryl', whose gemstone forms are 'Emerald' and 'Aquamarine'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1828年，维勒基本上把他提纯铝（`wohler_aluminum_1827`）的“配方”（金属钾 + 某种氯化物）又试了一次，这次用的是“氯化铍”。他成功了，制成了“铍”金属粉末——也就是构成“祖母绿”宝石的核心金属。",
+      "text_en": "In 1828, Wöhler essentially re-used his 'recipe' from his aluminum discovery (`wohler_aluminum_1827`): (Metallic Potassium + a chloride). This time, he used 'Beryllium Chloride'. It worked, and he produced 'beryllium' powder—the metal at the heart of the gemstone 'Emerald'."      
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "核能 (Nuclear Energy)",
+          "title_en": "Nuclear Energy",
+          "text": "“铍”在现代核反应堆中被用作“中子反射体”和“慢化剂”。",
+          "text_en": "'Beryllium' is used in modern nuclear reactors as a 'neutron reflector' and 'moderator'."
+        },
+        {
+          "icon": "🚀",
+          "title": "航空航天 (Aerospace)",
+          "title_en": "Aerospace",
+          "text": "由于“铍”既“轻”又“硬”，它被用于制造超轻、超坚固的合金，用于航天器（如詹姆斯·韦伯太空望远镜的镜片）和导弹。",
+          "text_en": "'Beryllium' is used in ultra-light, super-stiff alloys for spacecraft (like the mirrors of the James Webb Space Telescope) and missiles, due to its low weight and high rigidity."
+        }
+      ],
+  
+    "impact": {
+      "text": "维勒对“铍”的分离，展示了他的“化学还原法”是一种发现新元素的“通用工具”。它（以及同年发现的钇）为门捷列夫（`mendeleev_periodic_table_1869`）在几十年后构建“元素周期表”提供了必要的“拼图”。",
+      "text_en": "Wöhler's isolation of Beryllium demonstrated his 'chemical reduction' method was a 'general-purpose tool' for discovering new elements. It (and his discovery of Yttrium) provided essential 'puzzle pieces' for Mendeleev (`mendeleev_periodic_table_1869`) when he built the Periodic Table.",
+      "stats": [
+          {
+            "number": "4",
+            "label": "号元素 (Be)",
+            "label_en": "Element (Be)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "davy_electrochemistry_1808",
+          "contribution": "汉弗莱·戴维（其“钾”元素的发现，为维勒提供了必要的“化学还原剂”）",
+          "contribution_en": "Humphry Davy (his discovery of 'potassium' provided Wöhler with the necessary 'chemical reagent')"
+        },
+        {
+          "id": "berzelius_chemistry_1810",
+          "contribution": "贝采利乌斯（维勒的导师，指导了他的化学研究）",
+          "contribution_en": "Berzelius (Wöhler's mentor, who guided his chemical research)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "mendeleev_periodic_table_1869",
+          "contribution": "门捷列夫（“铍”是构建“元素周期表”的必要数据）",
+          "contribution_en": "Mendeleev ('Beryllium' was necessary data for constructing the Periodic Table)"
+        }
+      ],
+      "legacy_text": "维勒是那个将“祖母绿”中的神秘“土”，转变为一种真正的金属元素的人。",
+      "legacy_text_en": "Wöhler was the man who turned the mystery 'earth' inside an 'Emerald' into a real, tangible element."
+    },
+  
+    "related_concepts": ["铍 (Beryllium)", "维勒 (Wöhler)", "化学还原 (Chemical Reduction)", "钾 (Potassium)", "戴维 (Davy)", "元素 (Element)", "祖母绿 (Emerald)", "绿柱石 (Beryl)"],
+    "related_concepts_en": ["Beryllium", "Wöhler", "Chemical Reduction", "Potassium", "Davy", "Element", "Emerald", "Beryl"],
+  
+    "quiz": {
+      "question": "弗里德里希·维勒（Wöhler）在1828年使用什么化学方法首次分离出了“铍”？",
+      "question_en": "What chemical method did Friedrich Wöhler use to first isolate Beryllium in 1828?",
+      "options": [
+        "电解法 (Electrolysis)",
+        "光谱分析 (Spectroscopy)",
+        "用纯钾进行化学还原 (Chemical reduction with pure potassium)",
+        "蒸馏法 (Distillation)"
+      ],
+      "options_en": [
+        "Electrolysis",
+        "Spectroscopy",
+        "Chemical reduction with pure potassium",
+        "Distillation"
+      ],
+      "answer": 2,
+      "explanation": "维勒使用了与他分离铝（`wohler_aluminum_1827`）相同的“化学还原”技术：他用反应性极强的金属钾（K）“抢走”了氯化铍（BeCl₂）中的氯，从而“解放”了金属铍。",
+      "explanation_en": "Wöhler used the same 'chemical reduction' technique he used for aluminum (`wohler_aluminum_1827`): he took highly reactive *potassium* (K) and used it to 'steal' the chlorine from 'beryllium chloride' (BeCl₂), 'liberating' the metallic beryllium."
+    }
+  }

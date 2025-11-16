@@ -1,0 +1,10 @@
+{
+    "name": "彼得·范·穆森布鲁克",
+    "name_en": "Pieter van Musschenbroek",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/06/P_v_Musschenbroek_t-E.jpg",
+    "bio_short": "荷兰科学家和物理学家。他是“莱顿瓶”（第一个电容器）的共同发明人，该发明使人类首次能储存和释放大量静电荷。",
+    "bio_short_en": "A Dutch scientist and physicist. He was the co-inventor of the 'Leyden Jar', the first capacitor, which allowed for the storage and discharge of large amounts of static electricity.",
+    "events": [
+      "leyden_jar_1745"
+    ]
+  }

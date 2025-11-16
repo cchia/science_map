@@ -1,0 +1,10 @@
+{
+    "name": "托马斯·纽科门",
+    "name_en": "Thomas Newcomen",
+    "portrait": "https://commons.wikimedia.org/wiki/File:Thomas_Newcomen_and_his_engine_-_Black_Country_Living_Museum_-_geograph.org.uk_-_3039321.jpg",
+    "bio_short": "英国发明家和铁匠。他发明了第一台具有商业实用价值的蒸汽机——“大气蒸汽机”，主要用于从矿井中抽水，为工业革命奠定了基础。",
+    "bio_short_en": "An English inventor and ironmonger. He invented the first commercially practical steam engine, the 'Atmospheric Engine', which was used to pump water from mines and laid the foundation for the Industrial Revolution.",
+    "events": [
+      "newcomen_engine_1712"
+    ]
+  }

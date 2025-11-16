@@ -1,0 +1,155 @@
+{
+    "id": "guericke_static_generator_1663",
+    "personId": "otto_von_guericke",
+    "title": "发明第一台静电起电机",
+    "title_en": "Invents the First Electrostatic Generator",
+    "year": 1663,
+    "lat": 52.1205,
+    "lng": 11.6276,
+    "city": "马格德堡 (发表于柏林)",
+    "city_en": "Magdeburg (Published in Berlin)",
+    "country": "德国 (勃兰登堡-普鲁士)",
+    "country_en": "Germany (Brandenburg-Prussia)",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://commons.wikimedia.org/wiki/File:Elektrisiermaschine.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=odce4SrcYoA",
+        "title": "奥托·冯·格里克的静电发电机",
+        "title_en": "Otto von Guericke's Electrostatic Generator",
+        "duration": "2:33"
+      }
+    },
+    
+    "summary": {
+      "text": "奥托·冯·格里克（Otto von Guericke）在他1672年出版的《新马格德堡实验》一书中，描述了他大约在1663年发明的“静电起电机”。这是人类历史上第一台能够“产生”大量静电荷的机器。该装置由一个安装在曲柄上的“硫磺球”组成。当用干燥的手摩擦旋转的硫磺球时，它会积聚起强大的静电荷，能够产生可见的电火花，并吸引（然后排斥）羽毛等小物。",
+      "text_en": "In his 1672 book 'Experimenta Nova Magdeburgica', Otto von Guericke described his 'electrostatic generator' (invented around 1663). It was the first machine in history capable of *producing* a large, reliable supply of static electricity. The device consisted of a large 'sulfur globe' mounted on a crank. When the globe was spun and rubbed with a dry hand, it built up a powerful static charge, capable of producing visible sparks and attracting (and then repelling) small objects like feathers.",
+      "key_points": [
+        "发明了第一台“静电起电机”",
+        "使用一个可旋转的“硫磺球”",
+        "首次实现了“静电排斥”(Electrostatic Repulsion) 的演示",
+        "将“电”从一种微弱现象变为可供实验的强大力量",
+        "为莱顿瓶 (`leyden_jar_1745`) 提供了“充电”工具"
+      ],
+      "key_points_en": [
+        "Invented the first 'electrostatic generator'",
+        "Used a rotating 'sulfur globe'",
+        "First demonstration of 'electrostatic repulsion'",
+        "Turned electricity from a weak curiosity into a strong experimental force",
+        "Provided the 'charging' tool for the Leyden Jar (`leyden_jar_1745`)"
+      ]
+    },
+  
+    "story": {
+      "text": "格里克（Guericke）因其著名的“马格德堡半球”真空实验（`guericke_vacuum_1654`）而闻名。他对“超距作用”（如引力）非常着迷。他错误地认为引力是一种“静电力”，并试图制造一个“模型地球”来演示它。他选择“硫磺”，因为它被认为是地球的核心成分。他将硫磺铸成一个球，安在铁杆上，然后快速转动它，同时用手摩擦。他惊讶地发现，这个球产生了比“摩擦琥珀”强大得多的“电”。他不仅能吸引羽毛，而且在羽毛接触硫磺球后，会立即被“猛地推开”。这是人类历史上第一次清晰地观察和记录“同种电荷相排斥”的现象。",
+      "text_en": "Guericke was famous for his 'Magdeburg Hemispheres' vacuum experiment (`guericke_vacuum_1654`). He was fascinated by 'action at a distance' (like gravity) and wrongly believed gravity was an *electrostatic* force. He built his device as a 'model Earth' to demonstrate this. He chose sulfur, believing it was a key component of the Earth. He cast it into a globe, mounted it on an axle, and rubbed it with his hand while turning the crank. He was amazed to find it generated a *huge* charge, far stronger than rubbing amber. He not only attracted a feather, but saw that *after* it touched the globe, the feather was 'violently repelled'. This was the first clear observation of 'like charges repel'.",
+      "diagram": "https://commons.wikimedia.org/wiki/File:Guericke_Schwefelkugel.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚡",
+        "text": "格里克的机器能产生可见的“电火花”，并伴有噼啪声。这是人类第一次“制造”出（尽管很小的）“闪电”。",
+        "text_en": "Guericke's machine could produce visible 'sparks' several centimeters long, accompanied by a crackling sound. It was the first time humans had *manufactured* (albeit tiny) 'lightning'."
+      },
+      {
+        "icon": "💡",
+        "text": "他还注意到，这个硫磺球在黑暗中摩擦时会“发光”（静电辉光放电），这进一步增强了它的神秘感和吸引力。",
+        "text_en": "He also noted that the sulfur ball would 'glow' in the dark (a static corona discharge) as it was being rubbed, adding to its mystery and appeal."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你使劲在头发上摩擦一个“气球”，气球可以粘在墙上。这就是“静电”。在格里克之前，这是人们所知道的“电”的全部——一种微弱的、转瞬即逝的现象。\n格里克则发明了第一台“静电制造机”。他造了一个巨大的“硫磺球”（就像一个保龄球），安上一个摇柄。当他一边摇动摇柄，一边用手摩擦这个球时，它能产生比气球“强一百万倍”的静电。他能制造出真正的“电火花”。他将“电”从一个“小把戏”变成了一种可以被严肃研究的“强大力量”。",
+      "text_en": "Imagine rubbing a 'balloon' on your hair to make it stick to a wall. That's 'static electricity'. Before Guericke, this was all that 'electricity' was—a tiny, weak curiosity.\nGuericke invented the first 'Static-Making-Machine'. He built a giant ball of 'sulfur' (like a bowling ball), attached a crank, and rubbed it with his hand as it spun. This machine built up a *million times more* static electricity than the balloon. He could create actual *sparks*. He turned electricity from a 'parlor trick' into a *powerful force* that could be seriously studied.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Spark_With_New_Winquist_Neutralizers_%2849693486901%29.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "电学研究 (Electrical Research)",
+          "title_en": "Electrical Research",
+          "text": "格里克的起电机（及其后继者）是18世纪所有电学研究（如富兰克林、卡文迪什）的“电源”。",
+          "text_en": "Guericke's generator (and its successors) was the 'power supply' for all electrical research in the 18th century (e.g., Franklin, Cavendish)."
+        },
+        {
+          "icon": "🔋",
+          "title": "为莱顿瓶充电",
+          "title_en": "Charging the Leyden Jar",
+          "text": "当莱顿瓶（`leyden_jar_1745`）在1745年被发明时，格里克的这种起电机是唯一能够为其“充入”大量电荷的工具。",
+          "text_en": "When the Leyden Jar (`leyden_jar_1745`) was invented in 1745, Guericke-style generators were the *only* tool powerful enough to 'charge' them with a significant amount of electricity."
+        }
+      ],
+  
+    "impact": {
+      "text": "奥托·冯·格里克的起电机是“电气时代”的第一个“发动机”。它将“电学”从一个关于“吸引力”的微弱哲学观察，转变为一个关于“火花”、“斥力”和“传导”的、令人兴奋的实验科学新领域。没有这台机器，18世纪的电学革命（如富兰克林的风筝实验和莱顿瓶）将无从谈起。",
+      "text_en": "Otto von Guericke's generator was the 'first engine' of the Electrical Age. It transformed 'electricity' from a weak, philosophical observation about 'attraction' into an exciting new field of experimental science with 'sparks', 'repulsion', and 'conduction'. Without this machine, the 18th-century electrical revolution (Franklin's kite, the Leyden jar) could not have happened.",
+      "stats": [
+          {
+            "number": "1",
+            "label": "台静电起电机",
+            "label_en": "First Electrostatic Generator"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "gilbert_de_magnete_1600",
+          "contribution": "威廉·吉尔伯特（其著作《论磁石》将“电”（摩擦琥珀）与“磁”区分开，是电学研究的开端）",
+          "contribution_en": "William Gilbert (whose book 'De Magnete' separated 'electricity' (from amber) from 'magnetism', starting the field)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "leyden_jar_1745",
+          "contribution": "莱顿瓶（格里克的起电机是为莱顿瓶充电的必要工具）",
+          "contribution_en": "The Leyden Jar (Guericke's generator was the essential tool used to charge it)"
+        },
+        {
+          "id": "franklin_kite_1752",
+          "contribution": "本杰明·富兰克林（其所有电学实验都依赖于格里克式起电机的后继改进型号）",
+          "contribution_en": "Benjamin Franklin (all his electrical experiments relied on improved versions of Guericke's generator)"
+        },
+        {
+          "id": "wimshurst_machine_1883",
+          "contribution": "维姆胡斯特起电机（基于“静电感应”的高效后继产品）",
+          "contribution_en": "Wimshurst Machine (a more efficient successor based on electrostatic induction)"
+        },
+        {
+          "id": "van_de_graaff_generator_1929",
+          "contribution": "范德格拉夫起电机（用于产生极高电压的现代粒子加速器电源）",
+          "contribution_en": "Van de Graaff Generator (a modern successor used to create extremely high voltages for particle accelerators)"
+        }
+      ],
+      "legacy_text": "格里克发明了“制造”静电的方法，为人类提供了一种可供研究的、全新的“力”。",
+      "legacy_text_en": "Guericke invented a way to *manufacture* static electricity, giving humanity a new fundamental 'force' to experiment with."
+    },
+  
+    "related_concepts": ["静电 (Electrostatics)", "静电起电机 (Electrostatic Generator)", "电荷 (Charge)", "斥力 (Repulsion)", "马格德堡半球 (Magdeburg Hemispheres)", "硫磺 (Sulfur)", "莱顿瓶 (Leyden Jar)"],
+    "related_concepts_en": ["Electrostatics", "Electrostatic Generator", "Electric Charge", "Repulsion", "Magdeburg Hemispheres", "Sulfur", "Leyden Jar"],
+  
+    "quiz": {
+      "question": "奥托·冯·格里克（Otto von Guericke）的静电起电机（硫磺球）首次清晰地向世界展示了哪种电现象？",
+      "question_en": "What electrical phenomenon did Otto von Guericke's sulfur-ball generator demonstrate clearly for the first time?",
+      "options": [
+        "电流 (Electric Current)",
+        "静电排斥 (Electrostatic Repulsion)",
+        "电磁感应 (Electromagnetic Induction)",
+        "电阻 (Resistance)"
+      ],
+      "options_en": [
+        "Electric current",
+        "Electrostatic repulsion",
+        "Electromagnetic induction",
+        "Resistance"
+      ],
+      "answer": 1,
+      "explanation": "在格里克之前，人们主要知道静电的“吸引力”（如琥珀吸引羽毛）。格里克的机器电荷如此强大，以至于他能清楚地看到羽毛在接触硫磺球后，会立即被“推开”（排斥），这是因为它们带上了同种电荷。",
+      "explanation_en": "Before Guericke, people primarily knew about static *attraction* (like amber attracting feathers). Guericke's machine was so powerful he could clearly see that *after* a feather touched the ball, it would be *pushed away* (repelled), having taken on the same charge."
+    }
+  }

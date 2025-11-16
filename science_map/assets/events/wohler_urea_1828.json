@@ -1,0 +1,146 @@
+{
+    "id": "wohler_urea_1828",
+    "personId": "friedrich_wohler",
+    "title": "人工合成尿素 (有机化学的诞生)",
+    "title_en": "Wöhler Synthesis of Urea (Birth of Organic Chemistry)",
+    "year": 1828,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "普鲁士 (今德国)",
+    "country_en": "Prussia (Modern Germany)",
+    "field": ["化学", "生物学", "哲学"],
+    "field_en": ["Chemistry", "Biology", "Philosophy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Urea_3D_ball.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=AUPbNoy5DXo",
+        "title": "有机化学简介",
+        "title_en": "Introduction to organic chemistry",
+        "duration": "2:44"
+      }
+    },
+    
+    "summary": {
+      "text": "弗里德里希·维勒（Friedrich Wöhler）在1828年进行了一项意外但具有划时代意义的实验。他试图合成“氰酸铵”（一种**无机盐**），但在加热时，他发现产物结晶成了“**尿素**”(Urea)。尿素是一种明确的“**有机**”物质，当时被认为**只能**由生命体（如肾脏）通过一种神秘的“**生命力**”(Vital Force) 才能产生。维勒的实验证明了，一种“无机”物质，可以在实验室中“不借助生命力”而转变为“有机”物质。这被广泛认为是“现代有机化学”的诞生日。",
+      "text_en": "In 1828, Friedrich Wöhler conducted an accidental but epoch-making experiment. He was attempting to synthesize ammonium cyanate (an *inorganic* salt). Upon heating it, he discovered the resulting crystals were identical to 'Urea', a definitively *organic* compound previously thought to be creatable *only* by living organisms (like a kidney) via a mysterious 'Vital Force'. Wöhler's experiment proved that an *inorganic* substance could be converted into an *organic* one in a lab, *without* a 'life force'. This is widely considered the birth of modern 'Organic Chemistry'.",
+      "key_points": [
+        "“有机化学”(Organic Chemistry) 的诞生日",
+        "首次在实验室中从“无机物”合成了“有机物”",
+        "沉重打击了“生命力”(Vitalism) 理论",
+        "证明了有机物和无机物遵循相同的化学定律"
+      ],
+      "key_points_en": [
+        "Birth of 'Organic Chemistry'",
+        "First lab synthesis of an 'organic' compound from an 'inorganic' one",
+        "Dealt a massive blow to the theory of 'Vitalism'",
+        "Proved organic and inorganic matter follow the same chemical laws"
+      ]
+    },
+  
+    "story": {
+      "text": "维勒当时正在尝试混合氰酸银和氯化铵，希望能制造出氰酸铵晶体。但他得到的晶体看起来完全不像氰酸铵，反而像尿素（一种刚在尿液中被发现不久的物质）。他意识到自己“无意中”做到了化学家们认为不可能的事。他兴奋地给他的导师（也是“生命力”理论的主要支持者）贝尔塞柳斯（Berzelius）写信说：“**我必须告诉您，我可以在不借助人或狗的肾脏的情况下，制造出尿素！**” 这个实验将“有机化学”（研究生命的化学）从一个“神圣”的领域，转变为一个“可被研究”的物理科学领域。",
+      "text_en": "Wöhler was trying to mix silver cyanate and ammonium chloride, hoping to make ammonium cyanate. The crystals he got looked like 'urea' (recently isolated from urine). He realized he had *accidentally* done what chemists thought was impossible. He famously wrote to his mentor, Berzelius (a chief proponent of Vitalism): **'I must tell you that I can make urea without the use of kidneys, either man or dog!'** This experiment transformed 'organic chemistry' from a 'divine' subject (the study of life) into a 'physical' one (the study of carbon compounds)."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💥",
+        "text": "这是科学史上最著名的“意外发现”（Serendipity）之一。维勒的目标并非是推翻“生命力”理论。",
+        "text_en": "This is one of the most famous examples of 'serendipity' in science. Wöhler was not *trying* to disprove Vitalism; he just stumbled upon the evidence."
+      },
+      {
+        "icon": "⚗️",
+        "text": "“有机化学”在维勒之后被重新定义了。之前，它指的是“生命体的化学”；之后，它被重新定义为“碳化合物的化学”。",
+        "text_en": "The definition of 'Organic Chemistry' was forced to change. Before Wöhler: 'The chemistry of life'. After Wöhler: 'The chemistry of carbon compounds'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1828年之前，所有人都相信“生命”是“有魔力的”。科学家们认为，像“尿素”（尿液中的物质）这样的“有机”分子，只能由一种特殊的“生命力”在生物体内制造。\n维勒就像一个“魔术揭秘师”。他在实验室里，只用“非生命”的化学品（`氰酸铵`，一种盐），通过“加热”，就“意外”地制造出了“尿素”。\n他证明了，“生命”的化学反应和“非生命”的化学反应，遵循的是“同一套规则”，并没有什么“魔力”。这就是“有机化学”的真正开端。",
+      "text_en": "Before 1828, everyone believed 'life' was 'magical'. Scientists thought 'organic' molecules like 'urea' (from urine) could *only* be made inside a living body by a special 'Life Force' (Vitalism).\nWöhler was the 'magician-debunker'. In his lab, using *only non-living chemicals* (ammonium cyanate, a salt), he *accidentally* 'cooked' them and *created* 'urea'.\nHe proved that the chemistry of 'life' and the chemistry of 'non-life' follow the *exact same rules*. There is no 'magic'. This was the true beginning of 'Organic Chemistry'."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "有机化学 (Organic Chemistry)",
+          "title_en": "Organic Chemistry",
+          "text": "该实验开创了“有机合成”领域。今天，制药、塑料、染料和化肥工业，都建立在维勒证明的“无机物可以合成有机物”这一原理之上。",
+          "text_en": "This experiment founded the field of 'organic synthesis'. The entire pharmaceutical, plastics, dye, and fertilizer industry is built on the principle Wöhler proved: we can *make* organic molecules from inorganic ones."
+        },
+        {
+          "icon": "🔬",
+          "title": "生物化学 (Biochemistry)",
+          "title_en": "Biochemistry",
+          "text": "通过打破“生命力”的壁垒，它允许科学家（如后来的巴斯德）开始在实验室中研究“新陈代谢”等生命过程的“化学基础”。",
+          "text_en": "By breaking the 'Vitalism' barrier, it allowed scientists (like later Pasteur) to start studying the *chemical basis* of life processes, like metabolism, in the lab."
+        }
+      ],
+  
+    "impact": {
+      "text": "维勒的“尿素合成”是19世纪最重要的化学实验，也许是化学史上最重要的实验。它在“生物学”和“化学”之间架起了一座桥梁，并彻底推翻了“生命力”这一古老的哲学（和伪科学）壁垒。它将“生命”重新定义为一个极其复杂的“化学系统”，从而为现代生物学、生物化学和医学铺平了道路。",
+      "text_en": "The 'Wöhler synthesis' is one of the most important experiments in the history of chemistry. It built the bridge between 'Biology' and 'Chemistry' by fatally wounding 'Vitalism', the ancient philosophical barrier. It redefined 'life' as a highly complex 'chemical system', paving the way for modern biology, biochemistry, and medicine.",
+      "stats": [
+          {
+            "number": "1828",
+            "label": "年 (有机化学诞生)",
+            "label_en": "Year (Birth of Organic Chemistry)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "berzelius_chemistry_1810",
+          "contribution": "永斯·贝采利乌斯（维勒的导师，也是“生命力”理论的主要倡导者）",
+          "contribution_en": "Jöns Jacob Berzelius (Wöhler's mentor, and the chief proponent of the 'Vitalism' theory he disproved)"
+        },
+        {
+          "id": "lavoisier_elements_1789",
+          "contribution": "拉瓦锡（其“化学革命”为维勒的定量分析提供了框架）",
+          "contribution_en": "Lavoisier (his 'Chemical Revolution' provided the framework for Wöhler's quantitative analysis)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "wohler_liebig_radical_theory_1832",
+          "contribution": "（他自己）与李比希的合作（尿素合成使他转向了有机化学，并与李比希共同开创了“自由基理论”）",
+          "contribution_en": "(Himself) & Liebig (the urea synthesis launched his career in organic chemistry, leading to his work on 'Radical Theory' with Liebig)"
+        },
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德（其“发酵”实验最终证明了“生命”的独特性，部分修正了维勒的（过度）化学主义）",
+          "contribution_en": "Louis Pasteur (his work on fermentation *modified* Wöhler's (over)reductionism by proving the unique role of 'life' (microbes))"
+        }
+      ],
+      "legacy_text": "维勒是那个“打破了”无机和有机世界之间高墙的人。",
+      "legacy_text_en": "Wöhler was the man who 'tore down the wall' between the inorganic and the organic worlds."
+    },
+  
+    "related_concepts": ["有机化学 (Organic Chemistry)", "无机化学 (Inorganic Chemistry)", "生命力 (Vitalism)", "尿素 (Urea)", "氰酸铵 (Ammonium Cyanate)", "贝采利乌斯 (Berzelius)", "李比希 (Liebig)"],
+    "related_concepts_en": ["Organic Chemistry", "Inorganic Chemistry", "Vitalism", "Urea", "Ammonium Cyanate", "Berzelius", "Liebig"],
+  
+    "quiz": {
+      "question": "弗里德里希·维勒（Wöhler）在1828年“意外”合成了“尿素”，为什么这个发现在哲学上如此重要？",
+      "question_en": "When Friedrich Wöhler *accidentally* synthesized 'Urea' in 1828, why was it so philosophically important?",
+      "options": [
+        "他发现了一种新元素",
+        "他证明了“有机”物质（来自生命）可以由“无机”物质（非生命）在实验室中制造出来",
+        "他发明了第一个塑料",
+        "他发现了尿素的化学式"
+      ],
+      "options_en": [
+        "He had discovered a new element",
+        "He proved that an 'organic' (life) molecule could be made from 'inorganic' (non-life) chemicals in a lab",
+        "He had invented the first plastic",
+        "He had discovered the formula for urea"
+      ],
+      "answer": 1,
+      "explanation": "在1828年之前，科学界普遍认为“有机”分子（如尿素）只能由生物体内的“生命力”(Vital Force) 制造。维勒的实验证明了“生命”的化学物质和“非生命”的化学物质遵循相同的物理定律，从而推翻了“生命力”理论。",
+      "explanation_en": "Before 1828, it was believed 'organic' molecules (like urea) could *only* be made by a 'Vital Force' inside a living being. Wöhler's experiment proved that the chemicals of 'life' and 'non-life' obey the exact same laws, overthrowing the 'Vitalism' theory."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "埃瓦尔德·格奥尔格·冯·克莱斯特",
+    "name_en": "Ewald Georg von Kleist",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Heinrich_von_Kleist3.png",
+    "bio_short": "德国法学家和物理学家。他在1745年独立发明了“莱顿瓶”（Kleistian jar），是第一个电容器的共同发明人。",
+    "bio_short_en": "A German jurist and physicist. In 1745, he independently invented the 'Kleistian jar', the first electrical capacitor, which became known as the Leyden jar.",
+    "events": [
+      "leyden_jar_1745"
+    ]
+  }

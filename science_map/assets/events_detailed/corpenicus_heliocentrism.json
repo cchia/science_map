@@ -1,0 +1,870 @@
+{
+    "id": "copernicus_heliocentrism",
+    "title": "哥白尼日心说",
+    "title_en": "Copernican Heliocentrism",
+    "year": 1543,
+    "lat": 54.3520,
+    "lng": 18.6466,
+    "city": "弗龙堡",
+    "city_en": "Frombork",
+    "country": "波兰王国",
+    "country_en": "Kingdom of Poland",
+    "field": "天文学",
+    "field_en": "Astronomy",
+    "description": "哥白尼提出太阳而非地球是宇宙的中心，地球和其他行星围绕太阳运转。这一革命性理论推翻了统治1400年的地心说，开启了科学革命",
+    "description_en": "Copernicus proposed that the Sun, not Earth, is the center of the universe, with Earth and other planets orbiting the Sun. This revolutionary theory overthrew geocentrism that had dominated for 1400 years, initiating the Scientific Revolution",
+    
+    "story": {
+        "brief": "哥白尼用30年时间秘密研究天文学，提出了太阳是宇宙中心的大胆理论。他直到临终前才出版《天体运行论》，这本书引发了人类思想史上最伟大的革命！",
+        
+        "detailed": "**教士天文学家的诞生**\n\n尼古拉·哥白尼（Nicolaus Copernicus，1473-1543）出生在波兰托伦的一个富裕商人家庭。10岁时父亲去世，舅舅卢卡斯（后来成为主教）收养了他。\n\n年轻的哥白尼接受了最好的教育：\n- 📚 在克拉科夫大学学习数学和天文学\n- 🇮🇹 在意大利学习法律和医学\n- 🎓 获得教会法博士学位\n- ⛪ 成为弗龙堡大教堂的教士\n\n但他真正的热情在天文学。\n\n**古老理论的困境**\n\n当时统治天文学的是托勒密的地心说：\n- 🌍 地球是宇宙的中心，静止不动\n- 🌙 月亮、太阳、行星、恒星都围绕地球转\n- ⭕ 行星运动用本轮和均轮解释\n- 📐 需要80多个圆圈才能解释观测数据\n\n这个理论越来越复杂，问题越来越多：\n- 🔄 行星有时会逆行（向后运动）\n- 📊 预测越来越不准确\n- 🤔 为什么需要这么多圆圈？\n- 💭 这真的是上帝创造的完美宇宙吗？\n\n**革命性的想法**\n\n大约在1510年，哥白尼开始思考一个大胆的想法：\n> 如果不是地球，而是太阳在中心呢？\n\n这个想法并非完全原创。古希腊的阿里斯塔克斯曾提出过类似理论，但被忽视了。哥白尼重新发现并发展了这个想法。\n\n**日心说的核心观点**\n\n哥白尼的新理论包括六个基本原理：\n\n1. **太阳是宇宙的中心**\n   - ☀️ 太阳静止不动\n   - 🌍 地球和其他行星围绕太阳运转\n\n2. **地球有三种运动**\n   - 🔄 每天自转一周（解释昼夜交替）\n   - 🌍 每年绕太阳公转一周（解释四季变化）\n   - 🎯 地轴缓慢摆动（岁差现象）\n\n3. **行星轨道的顺序**\n   - 从内到外：水星、金星、地球、火星、木星、土星\n   - 🌟 恒星在最外层，非常遥远\n\n4. **逆行现象的解释**\n   - 🔄 行星逆行是地球超越外行星时的视觉效果\n   - 不需要复杂的本轮和均轮\n\n5. **距离与周期的关系**\n   - 📏 离太阳越远，公转周期越长\n   - 这是一个简单而优美的规律\n\n6. **宇宙的巨大尺度**\n   - 🌌 恒星非常遥远，所以看不到视差\n   - 宇宙比人们想象的大得多\n\n**理论的优势**\n\n日心说比地心说简单得多：\n- ✅ 只需要34个圆圈（而不是80多个）\n- ✅ 自然解释了行星逆行\n- ✅ 解释了金星和水星总在太阳附近\n- ✅ 符合和谐与简洁的美学原则\n\n**30年的秘密研究**\n\n哥白尼知道这个理论有多危险：\n- ⛪ 与《圣经》的字面意思矛盾\n- 📚 挑战亚里士多德的权威\n- 🌍 贬低了地球和人类的地位\n- 😱 可能被指控为异端\n\n所以他选择了沉默。他只在1514年写了一份简短的手稿《短论》，在朋友间秘密传阅。\n\n在弗龙堡大教堂的塔楼上，哥白尼建立了简陋的观测站：\n- 🔭 用简单的仪器观测天体\n- 📝 记录行星的位置\n- 📊 计算轨道参数\n- ✍️ 撰写《天体运行论》\n\n这一写就是30年。\n\n**《天体运行论》的诞生**\n\n1539年，一位年轻的数学家雷蒂库斯来到弗龙堡，恳求哥白尼出版他的著作。在雷蒂库斯的坚持下，哥白尼终于同意了。\n\n1543年5月24日，《天体运行论》（De revolutionibus orbium coelestium）终于出版。\n\n讽刺的是，就在这一天，70岁的哥白尼中风去世。传说他在临终前看到了刚印刷出来的书，然后安详地闭上了眼睛。\n\n**书中的妥协**\n\n为了避免争议，出版商安德烈亚斯·奥西安德在未经哥白尼同意的情况下，加了一篇匿名序言：\n> 这只是一个数学假设，用来简化计算，不一定是真实的。\n\n这个序言保护了这本书，但也削弱了它的革命性。\n\n哥白尼自己在献给教皇保罗三世的序言中写道：\n> 我知道，一旦人们知道我让地球运动，他们会立即谴责我...但真理的力量最终会战胜一切。\n\n**理论的局限**\n\n哥白尼的理论虽然革命性，但并不完美：\n\n❌ **仍然使用圆形轨道**\n- 实际上行星轨道是椭圆的\n- 这是开普勒后来发现的\n\n❌ **仍然需要本轮**\n- 为了让圆形轨道符合观测\n- 仍然有一定复杂性\n\n❌ **预测精度不高**\n- 在某些方面甚至不如托勒密体系\n- 这削弱了说服力\n\n❌ **缺乏物理解释**\n- 没有解释为什么行星会绕太阳转\n- 这要等到牛顿的万有引力\n\n❌ **无法观测到恒星视差**\n- 如果地球真的在运动，应该能看到恒星位置的变化\n- 哥白尼解释说恒星太远了\n- 但这在当时难以验证\n\n**缓慢的接受过程**\n\n日心说的接受经历了漫长而曲折的过程：\n\n**第一阶段：冷淡（1543-1600）**\n- 📚 大多数天文学家将其视为计算工具\n- 🤔 很少有人相信它是真实的\n- ⛪ 教会最初没有强烈反对\n\n**第二阶段：支持者出现（1600-1633）**\n- 🔭 伽利略用望远镜发现了支持证据\n- 🌙 木星的卫星证明不是所有天体都绕地球转\n- 🌙 金星的相位变化符合日心说预测\n- ⭐ 开普勒发现了行星运动三大定律\n\n**第三阶段：迫害（1616-1633）**\n- ⛪ 教会开始感到威胁\n- 📕 1616年，《天体运行论》被列入禁书目录\n- ⚖️ 1633年，伽利略被宗教裁判所审判\n- 🔒 伽利略被软禁终身\n\n**第四阶段：逐渐胜利（1687-1758）**\n- 🍎 1687年，牛顿的《自然哲学的数学原理》\n- 🔬 万有引力定律解释了行星运动\n- 📐 数学证明了日心说的正确性\n- 🌟 1728年，布拉德雷发现光行差，证明地球在运动\n- 📚 1758年，教会从禁书目录中删除《天体运行论》\n\n**第五阶段：完全确认（1838-）**\n- 🔭 1838年，贝塞尔首次测量到恒星视差\n- ✅ 最终证明地球确实在运动\n- 🌍 日心说成为公认的事实\n\n**哥白尼革命的意义**\n\n哥白尼的理论不仅改变了天文学，更引发了思想革命：\n\n🌍 **宇宙观的改变**\n- 地球不再是宇宙中心\n- 人类不再是造物的中心\n- 宇宙比想象的大得多\n\n🔬 **科学方法的确立**\n- 观测和数学比权威更重要\n- 简洁性是真理的标志\n- 敢于挑战传统\n\n💭 **哲学影响**\n- 康德称之为哥白尼式革命\n- 改变了人类的自我认知\n- 启发了启蒙运动\n\n📚 **科学革命的开端**\n- 开普勒、伽利略、牛顿继承发展\n- 建立了现代科学\n- 改变了人类文明\n\n**现代的理解**\n\n今天我们知道，哥白尼的理论既对又不完全对：\n\n✅ **正确的部分**\n- 地球确实绕太阳转\n- 地球确实在自转\n- 行星轨道的顺序正确\n\n❌ **需要修正的部分**\n- 太阳不是宇宙中心，只是银河系中的一颗普通恒星\n- 轨道不是圆形，而是椭圆\n- 太阳也在运动，绕银河系中心转\n\n但这些修正不影响哥白尼的伟大。他迈出了最关键的一步：让地球动起来。\n\n**永恒的遗产**\n\n哥白尼去世后，他的影响越来越大：\n\n🏛️ **纪念**\n- 月球上有哥白尼环形山\n- 小行星1322号以他命名\n- 化学元素鎶（Copernicium）以他命名\n- 波兰到处都有他的雕像和纪念碑\n\n📚 **文化影响**\n- 哥白尼式革命成为思想转变的代名词\n- 启发了无数科学家和思想家\n- 象征着理性战胜迷信\n\n🔬 **科学精神**\n- 敢于质疑权威\n- 追求简洁和谐\n- 坚持真理\n\n2008年，考古学家在弗龙堡大教堂发现了哥白尼的遗骨。DNA检测和面部重建确认了身份。2010年，哥白尼被重新安葬在大教堂，墓碑上刻着：\n> 我不求与保罗同等的恩典，也不求与彼得同等的宽恕，但我恳求你赐予在十字架上的盗贼的仁慈。\n\n这是哥白尼生前写的祷文，体现了他的谦逊。但历史证明，他的贡献远超他的想象。",
+        
+        "historical_context": "**文艺复兴时代**\n\n哥白尼生活在文艺复兴时期（15-16世纪）：\n- 📅 1473-1543年\n- 🎨 艺术和科学的复兴\n- 📚 古希腊罗马文化的重新发现\n- 🌍 地理大发现时代\n- 🖨️ 印刷术促进知识传播\n\n**宗教改革**\n\n哥白尼的时代也是宗教动荡的时期：\n- ⛪ 1517年，马丁·路德发起宗教改革\n- 📜 天主教会权威受到挑战\n- 🔥 新教与天主教的冲突\n- 📚 《圣经》的字面解释成为争议焦点\n\n**天文学的状况**\n\n16世纪初的天文学：\n- 📐 托勒密地心说统治1400年\n- 📊 预测精度下降，需要不断修正\n- 🔭 观测仪器简陋，没有望远镜\n- 📚 天文学主要用于编制历法和占星\n\n**科学与宗教**\n\n当时科学与宗教的关系复杂：\n- ⛪ 教会支持科学研究（在一定范围内）\n- 📚 但《圣经》的权威不容挑战\n- 🤔 自然哲学必须符合神学\n- ⚖️ 异端思想可能导致严重后果",
+        
+        "mystery_box": "🔍 **未解之谜**\n\n1. **哥白尼何时产生日心说的想法？**\n   他在1514年的《短论》中已经提出，但具体是什么时候、如何想到的？是突然的灵感还是长期思考的结果？\n\n2. **为什么等了30年才出版？**\n   仅仅是害怕迫害吗？还是他一直在完善理论？或者他本来就不打算出版？\n\n3. **他真的在临终前看到了书吗？**\n   这个广为流传的故事是真的吗？还是后人的美化？当时他已经中风，意识是否清醒？\n\n4. **他知道自己理论的革命性吗？**\n   他是否意识到这会引发思想革命？还是只把它当作一个更好的数学模型？\n\n5. **古希腊的日心说对他有多大影响？**\n   他是独立发现还是受到阿里斯塔克斯的启发？他如何接触到这些古代文献？",
+        
+        "timeline": [
+            {
+                "year": "1473年",
+                "event": "2月19日出生于波兰托伦"
+            },
+            {
+                "year": "1491年",
+                "event": "进入克拉科夫大学学习"
+            },
+            {
+                "year": "1496年",
+                "event": "前往意大利学习法律和医学"
+            },
+            {
+                "year": "1503年",
+                "event": "获得教会法博士学位，成为教士"
+            },
+            {
+                "year": "约1510年",
+                "event": "开始思考日心说理论"
+            },
+            {
+                "year": "1514年",
+                "event": "写成《短论》，在朋友间传阅"
+            },
+            {
+                "year": "1539年",
+                "event": "雷蒂库斯来访，说服他出版著作"
+            },
+            {
+                "year": "1543年5月24日",
+                "event": "《天体运行论》出版，同日哥白尼去世"
+            },
+            {
+                "year": "1616年",
+                "event": "《天体运行论》被列入禁书目录"
+            },
+            {
+                "year": "1758年",
+                "event": "从禁书目录中删除"
+            }
+        ]
+    },
+    
+    "story_en": {
+        "brief": "Copernicus spent 30 years secretly studying astronomy, proposing the bold theory that the Sun is the center of the universe. He only published De revolutionibus orbium coelestium on his deathbed, a book that sparked the greatest revolution in human intellectual history!",
+        
+        "detailed": "**Birth of a Priest-Astronomer**\n\nNicolaus Copernicus (1473-1543) was born into a wealthy merchant family in Toruń, Poland. When his father died at age 10, his uncle Lucas (who later became a bishop) adopted him.\n\nYoung Copernicus received the best education:\n- 📚 Studied mathematics and astronomy at Jagiellonian University in Kraków\n- 🇮🇹 Studied law and medicine in Italy\n- 🎓 Earned doctorate in canon law\n- ⛪ Became canon at Frombork Cathedral\n\nBut his true passion was astronomy.\n\n**The Dilemma of Ancient Theory**\n\nPtolemy's geocentrism dominated astronomy at the time:\n- 🌍 Earth is the center of the universe, motionless\n- 🌙 Moon, Sun, planets, stars all orbit Earth\n- ⭕ Planetary motion explained by epicycles and deferents\n- 📐 Required over 80 circles to explain observational data\n\nThis theory grew increasingly complex with mounting problems:\n- 🔄 Planets sometimes retrograde (move backward)\n- 📊 Predictions increasingly inaccurate\n- 🤔 Why so many circles needed?\n- 💭 Is this really the perfect universe God created?\n\n**Revolutionary Idea**\n\nAround 1510, Copernicus began contemplating a bold idea:\n> What if not Earth, but the Sun is at the center?\n\nThis idea wasn't entirely original. Ancient Greek Aristarchus had proposed a similar theory, but it was ignored. Copernicus rediscovered and developed this idea.\n\n**Core Principles of Heliocentrism**\n\nCopernicus's new theory included six basic principles:\n\n1. **Sun is the center of the universe**\n   - ☀️ Sun is motionless\n   - 🌍 Earth and other planets orbit the Sun\n\n2. **Earth has three motions**\n   - 🔄 Daily rotation (explains day-night cycle)\n   - 🌍 Annual revolution around Sun (explains seasons)\n   - 🎯 Slow axis wobble (precession)\n\n3. **Order of planetary orbits**\n   - From inside out: Mercury, Venus, Earth, Mars, Jupiter, Saturn\n   - 🌟 Stars in outermost layer, very distant\n\n4. **Explanation of retrograde motion**\n   - 🔄 Planetary retrograde is visual effect when Earth overtakes outer planets\n   - No need for complex epicycles and deferents\n\n5. **Relationship between distance and period**\n   - 📏 Farther from Sun, longer orbital period\n   - A simple and elegant pattern\n\n6. **Vast scale of universe**\n   - 🌌 Stars very distant, so no visible parallax\n   - Universe much larger than imagined\n\n**Theory's Advantages**\n\nHeliocentrism was much simpler than geocentrism:\n- ✅ Only needed 34 circles (not 80+)\n- ✅ Naturally explained planetary retrograde\n- ✅ Explained why Venus and Mercury always near Sun\n- ✅ Conformed to aesthetic principles of harmony and simplicity\n\n**30 Years of Secret Research**\n\nCopernicus knew how dangerous this theory was:\n- ⛪ Contradicted literal meaning of the Bible\n- 📚 Challenged Aristotle's authority\n- 🌍 Demoted Earth and humanity's status\n- 😱 Could be accused of heresy\n\nSo he chose silence. He only wrote a brief manuscript Commentariolus in 1514, secretly circulated among friends.\n\nIn Frombork Cathedral's tower, Copernicus established a crude observatory:\n- 🔭 Observed celestial bodies with simple instruments\n- 📝 Recorded planetary positions\n- 📊 Calculated orbital parameters\n- ✍️ Wrote De revolutionibus orbium coelestium\n\nThis writing took 30 years.\n\n**Birth of De revolutionibus**\n\nIn 1539, a young mathematician Rheticus came to Frombork, begging Copernicus to publish his work. Under Rheticus's insistence, Copernicus finally agreed.\n\nOn May 24, 1543, De revolutionibus orbium coelestium was finally published.\n\nIronically, on this very day, 70-year-old Copernicus died of a stroke. Legend says he saw the freshly printed book on his deathbed, then peacefully closed his eyes.\n\n**Compromise in the Book**\n\nTo avoid controversy, publisher Andreas Osiander added an anonymous preface without Copernicus's consent:\n> This is merely a mathematical hypothesis to simplify calculations, not necessarily true.\n\nThis preface protected the book but also weakened its revolutionary nature.\n\nCopernicus himself wrote in his dedication to Pope Paul III:\n> I know that once people learn I set Earth in motion, they will immediately condemn me... But truth's power will ultimately triumph over all.\n\n**Theory's Limitations**\n\nThough revolutionary, Copernicus's theory wasn't perfect:\n\n❌ **Still used circular orbits**\n- Actually planetary orbits are elliptical\n- This was Kepler's later discovery\n\n❌ **Still needed epicycles**\n- To make circular orbits fit observations\n- Still had some complexity\n\n❌ **Prediction accuracy not high**\n- In some aspects even inferior to Ptolemaic system\n- This weakened persuasiveness\n\n❌ **Lacked physical explanation**\n- Didn't explain why planets orbit Sun\n- Had to wait for Newton's universal gravitation\n\n❌ **Couldn't observe stellar parallax**\n- If Earth truly moves, should see changes in star positions\n- Copernicus explained stars are too distant\n- But this was hard to verify at the time\n\n**Slow Acceptance Process**\n\nHeliocentrism's acceptance went through a long, tortuous process:\n\n**Phase 1: Indifference (1543-1600)**\n- 📚 Most astronomers viewed it as calculation tool\n- 🤔 Few believed it was real\n- ⛪ Church initially didn't strongly oppose\n\n**Phase 2: Supporters Emerge (1600-1633)**\n- 🔭 Galileo discovered supporting evidence with telescope\n- 🌙 Jupiter's moons proved not all bodies orbit Earth\n- 🌙 Venus's phase changes matched heliocentric predictions\n- ⭐ Kepler discovered three laws of planetary motion\n\n**Phase 3: Persecution (1616-1633)**\n- ⛪ Church began feeling threatened\n- 📕 1616, De revolutionibus added to Index of Forbidden Books\n- ⚖️ 1633, Galileo tried by Inquisition\n- 🔒 Galileo placed under house arrest for life\n\n**Phase 4: Gradual Victory (1687-1758)**\n- 🍎 1687, Newton's Principia Mathematica\n- 🔬 Law of universal gravitation explained planetary motion\n- 📐 Mathematics proved heliocentrism correct\n- 🌟 1728, Bradley discovered aberration of light, proving Earth moves\n- 📚 1758, Church removed De revolutionibus from forbidden books\n\n**Phase 5: Complete Confirmation (1838-)**\n- 🔭 1838, Bessel first measured stellar parallax\n- ✅ Finally proved Earth indeed moves\n- 🌍 Heliocentrism became accepted fact\n\n**Significance of Copernican Revolution**\n\nCopernicus's theory not only changed astronomy but sparked intellectual revolution:\n\n🌍 **Change in Cosmology**\n- Earth no longer center of universe\n- Humanity no longer center of creation\n- Universe much larger than imagined\n\n🔬 **Establishment of Scientific Method**\n- Observation and mathematics more important than authority\n- Simplicity is mark of truth\n- Dare to challenge tradition\n\n💭 **Philosophical Impact**\n- Kant called it Copernican Revolution\n- Changed human self-perception\n- Inspired Enlightenment\n\n📚 **Beginning of Scientific Revolution**\n- Kepler, Galileo, Newton inherited and developed\n- Established modern science\n- Changed human civilization\n\n**Modern Understanding**\n\nToday we know Copernicus's theory was both right and not entirely right:\n\n✅ **Correct Parts**\n- Earth indeed orbits Sun\n- Earth indeed rotates\n- Planetary orbital order correct\n\n❌ **Parts Needing Correction**\n- Sun not center of universe, just ordinary star in Milky Way\n- Orbits not circular but elliptical\n- Sun also moves, orbiting galactic center\n\nBut these corrections don't diminish Copernicus's greatness. He took the most crucial step: setting Earth in motion.\n\n**Eternal Legacy**\n\nAfter Copernicus's death, his influence grew:\n\n🏛️ **Memorials**\n- Copernicus crater on Moon\n- Asteroid 1322 named after him\n- Chemical element Copernicium named after him\n- Statues and monuments throughout Poland\n\n📚 **Cultural Impact**\n- Copernican Revolution became synonym for paradigm shift\n- Inspired countless scientists and thinkers\n- Symbolizes reason triumphing over superstition\n\n🔬 **Scientific Spirit**\n- Dare to question authority\n- Pursue simplicity and harmony\n- Persist in truth\n\nIn 2008, archaeologists discovered Copernicus's remains in Frombork Cathedral. DNA testing and facial reconstruction confirmed identity. In 2010, Copernicus was reburied in the cathedral, tombstone inscribed:\n> I do not seek grace equal to Paul's, nor forgiveness equal to Peter's, but I beg the mercy you showed the thief on the cross.\n\nThis was Copernicus's prayer during life, reflecting his humility. But history proved his contribution far exceeded his imagination.",
+        
+        "historical_context": "**Renaissance Era**\n\nCopernicus lived during the Renaissance (15th-16th centuries):\n- 📅 1473-1543\n- 🎨 Revival of art and science\n- 📚 Rediscovery of ancient Greek and Roman culture\n- 🌍 Age of Discovery\n- 🖨️ Printing press promoted knowledge dissemination\n\n**Protestant Reformation**\n\nCopernicus's era was also period of religious turmoil:\n- ⛪ 1517, Martin Luther initiated Protestant Reformation\n- 📜 Catholic Church authority challenged\n- 🔥 Conflict between Protestantism and Catholicism\n- 📚 Literal interpretation of Bible became controversial\n\n**State of Astronomy**\n\nEarly 16th-century astronomy:\n- 📐 Ptolemaic geocentrism dominated for 1400 years\n- 📊 Prediction accuracy declining, constant corrections needed\n- 🔭 Observational instruments crude, no telescopes\n- 📚 Astronomy mainly used for calendar-making and astrology\n\n**Science and Religion**\n\nComplex relationship between science and religion at the time:\n- ⛪ Church supported scientific research (within limits)\n- 📚 But Biblical authority not to be challenged\n- 🤔 Natural philosophy must conform to theology\n- ⚖️ Heretical thoughts could lead to serious consequences",
+        
+        "mystery_box": "🔍 **Unsolved Mysteries**\n\n1. **When did Copernicus conceive heliocentrism?**\n   He already proposed it in 1514's Commentariolus, but exactly when and how did he think of it? Sudden inspiration or result of long contemplation?\n\n2. **Why wait 30 years to publish?**\n   Was it merely fear of persecution? Or was he continuously perfecting the theory? Or did he never intend to publish?\n\n3. **Did he really see the book on his deathbed?**\n   Is this widely circulated story true? Or later embellishment? He had already suffered a stroke—was he conscious?\n\n4. **Did he know his theory's revolutionary nature?**\n   Did he realize this would spark intellectual revolution? Or did he just see it as a better mathematical model?\n\n5. **How much did ancient Greek heliocentrism influence him?**\n   Did he discover independently or was he inspired by Aristarchus? How did he access these ancient texts?",
+        
+        "timeline": [
+            {
+                "year": "1473",
+                "event": "Born February 19 in Toruń, Poland"
+            },
+            {
+                "year": "1491",
+                "event": "Entered Jagiellonian University in Kraków"
+            },
+            {
+                "year": "1496",
+                "event": "Went to Italy to study law and medicine"
+            },
+            {
+                "year": "1503",
+                "event": "Earned doctorate in canon law, became canon"
+            },
+            {
+                "year": "c. 1510",
+                "event": "Began contemplating heliocentric theory"
+            },
+            {
+                "year": "1514",
+                "event": "Wrote Commentariolus, circulated among friends"
+            },
+            {
+                "year": "1539",
+                "event": "Rheticus visited, persuaded him to publish work"
+            },
+            {
+                "year": "May 24, 1543",
+                "event": "De revolutionibus published, Copernicus died same day"
+            },
+            {
+                "year": "1616",
+                "event": "De revolutionibus added to Index of Forbidden Books"
+            },
+            {
+                "year": "1758",
+                "event": "Removed from Index of Forbidden Books"
+            }
+        ]
+    },
+    
+    "fun_fact": {
+        "brief": "哥白尼直到临终前才出版《天体运行论》，传说他在看到刚印刷的书后就去世了。他的理论被禁了200多年，但最终改变了整个世界！",
+        
+        "extended": [
+            {
+                "title": "📚 最危险的书",
+                "content": "《天体运行论》被称为历史上最危险的书之一。出版商为了保护这本书，偷偷加了一篇匿名序言，说这只是数学假设，不是真理。这个序言保护了书，但也让很多人误解了哥白尼的真实意图。直到开普勒发现这个序言不是哥白尼写的，真相才大白。"
+            },
+            {
+                "title": "🔭 没有望远镜的天文学家",
+                "content": "哥白尼提出日心说时，望远镜还没有发明！他只用肉眼和简单的仪器观测。伽利略在1609年才发明望远镜，那时哥白尼已经去世66年了。想象一下，没有望远镜，仅凭数学推理和简陋观测，就推翻了1400年的理论，这需要多大的勇气和智慧！"
+            },
+            {
+                "title": "⛪ 教士革命家",
+                "content": "哥白尼是天主教教士，他的理论却挑战了教会的权威。讽刺的是，他把书献给了教皇保罗三世！更有趣的是，教会最初并没有强烈反对，直到70多年后伽利略大力宣传日心说，教会才开始迫害。哥白尼的谨慎保护了他，但也延缓了真理的传播。"
+            },
+            {
+                "title": "🌍 地球不是中心的震撼",
+                "content": "对当时的人来说，地球不是宇宙中心是难以接受的。这意味着人类不再特殊，地球只是众多行星之一。马丁·路德甚至说：这个傻瓜想要颠覆整个天文学！但历史证明，正是这个颠覆，开启了现代科学。"
+            },
+            {
+                "title": "🎯 预测不如托勒密？",
+                "content": "讽刺的是，哥白尼的日心说在预测行星位置方面，有时还不如托勒密的地心说准确！这是因为他坚持用圆形轨道，而实际轨道是椭圆的。直到开普勒发现椭圆轨道，日心说的预测才真正超越地心说。这说明科学进步不是一蹴而就的。"
+            },
+            {
+                "title": "💀 失踪的遗骨",
+                "content": "哥白尼去世后被埋在弗龙堡大教堂，但具体位置不详。2005年，考古学家在教堂地下发现了一具遗骨。通过DNA对比（从哥白尼的头发中提取）和面部重建，确认这就是哥白尼！2010年，他被隆重重新安葬，距离第一次安葬已经467年。"
+            },
+            {
+                "title": "🌙 月球上的哥白尼",
+                "content": "月球上有一个巨大的环形山以哥白尼命名，直径93公里！这是月球上最显眼的环形山之一，用小型望远镜就能看到。讽刺的是，哥白尼生前从未用过望远镜，但他的名字却永远留在了月球上。"
+            }
+        ]
+    },
+    
+    "fun_fact_en": {
+        "brief": "Copernicus only published De revolutionibus on his deathbed; legend says he died after seeing the freshly printed book. His theory was banned for over 200 years but ultimately changed the entire world!",
+        
+        "extended": [
+            {
+                "title": "📚 The Most Dangerous Book",
+                "content": "De revolutionibus was called one of history's most dangerous books. To protect it, the publisher secretly added an anonymous preface saying it was just a mathematical hypothesis, not truth. This preface protected the book but also caused many to misunderstand Copernicus's true intent. Not until Kepler discovered this preface wasn't written by Copernicus did the truth emerge."
+            },
+            {
+                "title": "🔭 Astronomer Without Telescope",
+                "content": "When Copernicus proposed heliocentrism, the telescope hadn't been invented! He only used naked eye and simple instruments for observation. Galileo didn't invent the telescope until 1609, 66 years after Copernicus's death. Imagine—without a telescope, using only mathematical reasoning and crude observations, overthrowing a 1400-year theory. What courage and wisdom this required!"
+            },
+            {
+                "title": "⛪ Priest Revolutionary",
+                "content": "Copernicus was a Catholic canon, yet his theory challenged Church authority. Ironically, he dedicated his book to Pope Paul III! More interestingly, the Church initially didn't strongly oppose it—not until 70+ years later when Galileo vigorously promoted heliocentrism did persecution begin. Copernicus's caution protected him but also delayed truth's spread."
+            },
+            {
+                "title": "🌍 Shock of Earth Not Being Center",
+                "content": "For people then, Earth not being universe's center was unacceptable. This meant humanity was no longer special—Earth just one of many planets. Martin Luther even said: This fool wants to overturn all astronomy! But history proved this very overturning initiated modern science."
+            },
+            {
+                "title": "🎯 Predictions Worse Than Ptolemy?",
+                "content": "Ironically, Copernican heliocentrism sometimes predicted planetary positions less accurately than Ptolemaic geocentrism! This was because he insisted on circular orbits, while actual orbits are elliptical. Not until Kepler discovered elliptical orbits did heliocentric predictions truly surpass geocentric. This shows scientific progress isn't instantaneous."
+            },
+            {
+                "title": "💀 Lost Remains",
+                "content": "After death, Copernicus was buried in Frombork Cathedral, but exact location unknown. In 2005, archaeologists found remains under the cathedral. Through DNA comparison (extracted from Copernicus's hair) and facial reconstruction, confirmed this was Copernicus! In 2010, he was ceremoniously reburied, 467 years after first burial."
+            },
+            {
+                "title": "🌙 Copernicus on the Moon",
+                "content": "There's a huge crater on the Moon named after Copernicus, 93 km in diameter! One of the Moon's most prominent craters, visible with small telescope. Ironically, Copernicus never used a telescope in life, but his name remains forever on the Moon."
+            }
+        ]
+    },
+    
+    "impact": {
+        "brief": "哥白尼日心说推翻了统治1400年的地心说，引发了科学革命，改变了人类对宇宙和自身的认知，被称为人类思想史上最伟大的革命之一。",
+        
+        "detailed": "**对天文学的直接影响**\n\n哥白尼的理论彻底改变了天文学：\n\n🌍 **宇宙模型的转变**\n- 从地心说到日心说\n- 简化了行星运动的解释\n- 建立了正确的太阳系结构\n- 为现代天文学奠定基础\n\n📐 **数学方法的应用**\n- 强调数学在天文学中的重要性\n- 用几何学描述天体运动\n- 开创了数理天文学\n\n🔭 **观测天文学的发展**\n- 激发了更精确的观测需求\n- 促进了观测仪器的改进\n- 导致了望远镜的发明和应用\n\n**对后续科学家的影响**\n\n哥白尼开启了一系列伟大发现：\n\n⭐ **第谷·布拉赫（1546-1601）**\n- 进行了前所未有的精确观测\n- 积累了大量行星位置数据\n- 虽然不完全接受日心说，但数据支持了它\n\n🔭 **伽利略（1564-1642）**\n- 用望远镜发现了支持日心说的证据\n- 木星的四颗卫星证明不是所有天体都绕地球转\n- 金星的相位变化符合日心说预测\n- 为日心说辩护而遭受迫害\n\n⭐ **开普勒（1571-1630）**\n- 发现行星轨道是椭圆而非圆形\n- 提出行星运动三大定律\n- 完善了日心说理论\n- 使预测精度大大提高\n\n🍎 **牛顿（1643-1727）**\n- 用万有引力定律解释了行星运动\n- 从物理学角度证明了日心说\n- 建立了经典力学体系\n- 完成了哥白尼革命\n\n**对科学方法的影响**\n\n哥白尼革命确立了现代科学方法：\n\n1. **观测优先于权威**\n   - 实际观测比古代权威更重要\n   - 数据胜于教条\n   - 经验主义的胜利\n\n2. **数学是自然的语言**\n   - 用数学描述自然规律\n   - 定量分析取代定性描述\n   - 数学预测可以检验理论\n\n3. **简洁性原则**\n   - 简单的理论优于复杂的理论\n   - 奥卡姆剃刀原则\n   - 和谐与美是真理的标志\n\n4. **敢于挑战传统**\n   - 质疑权威是科学进步的动力\n   - 批判性思维的重要性\n   - 真理高于一切\n\n**对哲学的影响**\n\n哥白尼革命引发了深刻的哲学变革：\n\n💭 **认识论革命**\n- 康德称之为哥白尼式革命\n- 主体与客体关系的重新思考\n- 人类认知能力的反思\n\n🌍 **宇宙观的改变**\n- 从人类中心到太阳中心\n- 再到认识到太阳也不是中心\n- 宇宙的无限性\n- 人类地位的重新定位\n\n🤔 **存在论问题**\n- 什么是真实的？\n- 感觉可靠吗？\n- 理性与信仰的关系\n\n**对宗教的影响**\n\n日心说挑战了宗教权威：\n\n⛪ **《圣经》解释的争议**\n- 字面解释 vs 比喻解释\n- 科学与宗教的关系\n- 信仰与理性的冲突\n\n📚 **教会权威的削弱**\n- 教会不再是知识的唯一来源\n- 理性开始挑战启示\n- 世俗化进程加速\n\n🔥 **宗教宽容的必要性**\n- 迫害科学家的后果\n- 不同观点共存的可能\n- 思想自由的重要性\n\n**对社会文化的影响**\n\n哥白尼革命改变了整个文明：\n\n📚 **启蒙运动**\n- 理性主义的兴起\n- 科学精神的传播\n- 人文主义的发展\n\n🎨 **艺术与文学**\n- 新的宇宙观影响艺术创作\n- 科学主题进入文学\n- 人类地位的重新思考\n\n🏛️ **政治思想**\n- 挑战权威的精神\n- 民主思想的萌芽\n- 个人理性的重视\n\n**现代科学的建立**\n\n哥白尼革命是科学革命的开端：\n\n🔬 **科学革命（16-17世纪）**\n- 哥白尼：天文学革命\n- 伽利略：物理学革命\n- 牛顿：力学革命\n- 哈维：生理学革命\n\n📊 **科学体制化**\n- 科学院的建立\n- 科学期刊的出现\n- 科学共同体的形成\n- 科学方法的标准化\n\n🌍 **科学的全球化**\n- 科学知识的国际交流\n- 科学仪器的改进和传播\n- 科学教育的普及\n\n**对现代天文学的影响**\n\n哥白尼的遗产延续至今：\n\n🌌 **现代宇宙学**\n- 太阳系只是银河系中的一个小点\n- 银河系只是宇宙中数千亿星系之一\n- 宇宙没有中心\n- 哥白尼原理：我们的位置不特殊\n\n🚀 **空间探索**\n- 理解行星轨道才能发射探测器\n- 登月、火星探测都基于日心说\n- 深空探测依赖精确的轨道计算\n\n🔭 **天文观测**\n- 现代望远镜观测遥远星系\n- 发现系外行星\n- 研究宇宙起源和演化\n\n**教育意义**\n\n哥白尼革命在教育中的重要性：\n\n📚 **科学教育**\n- 科学史的重要案例\n- 科学方法的典范\n- 批判性思维的培养\n\n💭 **思维训练**\n- 挑战常识的勇气\n- 逻辑推理能力\n- 证据与理论的关系\n\n🌍 **世界观教育**\n- 理解人类在宇宙中的位置\n- 科学与人文的关系\n- 谦逊与求知精神\n\n**统计数据**\n\n- 📖 《天体运行论》被翻译成几十种语言\n- 🎓 全球数亿学生学习日心说\n- 🏛️ 数百个纪念碑和机构以哥白尼命名\n- 🌍 改变了70亿人对宇宙的认知\n- 📚 数万篇学术论文研究哥白尼革命\n\n**哲学意义**\n\n哥白尼革命的深层意义：\n\n- 🌍 **去中心化**：人类不是宇宙的中心\n- 🔬 **科学理性**：理性可以认识世界\n- 💭 **思想解放**：敢于质疑权威\n- 🌌 **宇宙观**：宇宙比想象的更宏大\n- 🎯 **真理追求**：真理高于一切",
+        
+        "modern_examples": [
+            {
+                "field": "空间探索",
+                "example": "NASA的火星探测器能够精确着陆，完全依赖于对行星轨道的准确理解。这些轨道计算基于哥白尼的日心说模型。如果我们还相信地心说，根本不可能进行太空探索。"
+            },
+            {
+                "field": "GPS导航",
+                "example": "GPS卫星的轨道设计和定位计算，都基于日心说的太阳系模型。卫星需要考虑地球的自转和公转，这些都是哥白尼首先提出的。你每次用手机导航，都在应用哥白尼的理论。"
+            },
+            {
+                "field": "气候研究",
+                "example": "理解地球的四季变化、气候模式，需要知道地球绕太阳公转，地轴倾斜23.5度。这些都是日心说的核心内容。气候科学家用这些知识预测气候变化，研究全球变暖。"
+            },
+            {
+                "field": "系外行星搜索",
+                "example": "天文学家已经发现了5000多颗系外行星，许多都有自己的行星系统。这些发现证实了哥白尼的洞见：太阳系不是唯一的，宇宙中有无数类似的系统。"
+            },
+            {
+                "field": "科学教育",
+                "example": "哥白尼革命是科学史课程的核心内容，用来教导学生批判性思维、科学方法和挑战权威的勇气。它展示了一个人的想法如何改变整个世界。"
+            },
+            {
+                "field": "哲学思考",
+                "example": "哥白尼式革命成为哲学术语，指认知方式的根本转变。康德用它来描述自己的哲学革命。今天，我们仍用这个词来描述思维方式的重大转变。"
+            }
+        ]
+    },
+    
+    "impact_en": {
+        "brief": "Copernican heliocentrism overthrew geocentrism that had dominated for 1400 years, sparked the Scientific Revolution, changed humanity's understanding of the universe and itself, called one of the greatest revolutions in human intellectual history.",
+        
+        "detailed": "**Direct Impact on Astronomy**\n\nCopernicus's theory completely changed astronomy:\n\n🌍 **Transformation of Cosmic Model**\n- From geocentrism to heliocentrism\n- Simplified explanation of planetary motion\n- Established correct solar system structure\n- Laid foundation for modern astronomy\n\n📐 **Application of Mathematical Methods**\n- Emphasized mathematics' importance in astronomy\n- Used geometry to describe celestial motion\n- Pioneered mathematical astronomy\n\n🔭 **Development of Observational Astronomy**\n- Sparked need for more precise observations\n- Promoted improvement of observational instruments\n- Led to telescope invention and application\n\n**Influence on Subsequent Scientists**\n\nCopernicus initiated series of great discoveries:\n\n⭐ **Tycho Brahe (1546-1601)**\n- Conducted unprecedented precise observations\n- Accumulated vast planetary position data\n- Though not fully accepting heliocentrism, data supported it\n\n🔭 **Galileo (1564-1642)**\n- Discovered evidence supporting heliocentrism with telescope\n- Jupiter's four moons proved not all bodies orbit Earth\n- Venus's phase changes matched heliocentric predictions\n- Suffered persecution for defending heliocentrism\n\n⭐ **Kepler (1571-1630)**\n- Discovered planetary orbits are elliptical not circular\n- Proposed three laws of planetary motion\n- Perfected heliocentric theory\n- Greatly improved prediction accuracy\n\n🍎 **Newton (1643-1727)**\n- Explained planetary motion with law of universal gravitation\n- Proved heliocentrism from physics perspective\n- Established classical mechanics system\n- Completed Copernican Revolution\n\n**Impact on Scientific Method**\n\nCopernican Revolution established modern scientific method:\n\n1. **Observation Over Authority**\n   - Actual observation more important than ancient authority\n   - Data over dogma\n   - Victory of empiricism\n\n2. **Mathematics is Nature's Language**\n   - Describe natural laws with mathematics\n   - Quantitative analysis replaces qualitative description\n   - Mathematical predictions can test theories\n\n3. **Principle of Simplicity**\n   - Simple theories superior to complex ones\n   - Occam's Razor principle\n   - Harmony and beauty are marks of truth\n\n4. **Dare to Challenge Tradition**\n   - Questioning authority drives scientific progress\n   - Importance of critical thinking\n   - Truth above all\n\n**Impact on Philosophy**\n\nCopernican Revolution sparked profound philosophical changes:\n\n💭 **Epistemological Revolution**\n- Kant called it Copernican Revolution\n- Rethinking subject-object relationship\n- Reflection on human cognitive abilities\n\n🌍 **Change in Cosmology**\n- From anthropocentrism to heliocentrism\n- Then recognizing Sun isn't center either\n- Universe's infinity\n- Repositioning humanity's status\n\n🤔 **Ontological Questions**\n- What is real?\n- Are senses reliable?\n- Relationship between reason and faith\n\n**Impact on Religion**\n\nHeliocentrism challenged religious authority:\n\n⛪ **Biblical Interpretation Controversy**\n- Literal vs. figurative interpretation\n- Relationship between science and religion\n- Conflict between faith and reason\n\n📚 **Weakening of Church Authority**\n- Church no longer sole source of knowledge\n- Reason began challenging revelation\n- Secularization process accelerated\n\n🔥 **Necessity of Religious Tolerance**\n- Consequences of persecuting scientists\n- Possibility of different views coexisting\n- Importance of intellectual freedom\n\n**Impact on Society and Culture**\n\nCopernican Revolution changed entire civilization:\n\n📚 **Enlightenment**\n- Rise of rationalism\n- Spread of scientific spirit\n- Development of humanism\n\n🎨 **Art and Literature**\n- New cosmology influenced artistic creation\n- Scientific themes entered literature\n- Rethinking humanity's status\n\n🏛️ **Political Thought**\n- Spirit of challenging authority\n- Germination of democratic thought\n- Emphasis on individual reason\n\n**Establishment of Modern Science**\n\nCopernican Revolution was beginning of Scientific Revolution:\n\n🔬 **Scientific Revolution (16th-17th centuries)**\n- Copernicus: Astronomical revolution\n- Galileo: Physics revolution\n- Newton: Mechanics revolution\n- Harvey: Physiological revolution\n\n📊 **Institutionalization of Science**\n- Establishment of scientific academies\n- Emergence of scientific journals\n- Formation of scientific community\n- Standardization of scientific method\n\n🌍 **Globalization of Science**\n- International exchange of scientific knowledge\n- Improvement and dissemination of scientific instruments\n- Popularization of scientific education\n\n**Impact on Modern Astronomy**\n\nCopernicus's legacy continues today:\n\n🌌 **Modern Cosmology**\n- Solar system just small point in Milky Way\n- Milky Way just one of hundreds of billions of galaxies\n- Universe has no center\n- Copernican Principle: Our position isn't special\n\n🚀 **Space Exploration**\n- Understanding planetary orbits enables probe launches\n- Moon landing, Mars exploration all based on heliocentrism\n- Deep space exploration relies on precise orbital calculations\n\n🔭 **Astronomical Observation**\n- Modern telescopes observe distant galaxies\n- Discover exoplanets\n- Study universe's origin and evolution\n\n**Educational Significance**\n\nImportance of Copernican Revolution in education:\n\n📚 **Science Education**\n- Important case in history of science\n- Model of scientific method\n- Cultivation of critical thinking\n\n💭 **Thinking Training**\n- Courage to challenge common sense\n- Logical reasoning ability\n- Relationship between evidence and theory\n\n🌍 **Worldview Education**\n- Understanding humanity's place in universe\n- Relationship between science and humanities\n- Humility and spirit of inquiry\n\n**Statistics**\n\n- 📖 De revolutionibus translated into dozens of languages\n- 🎓 Hundreds of millions of students worldwide learn heliocentrism\n- 🏛️ Hundreds of monuments and institutions named after Copernicus\n- 🌍 Changed 7 billion people's understanding of universe\n- 📚 Tens of thousands of academic papers study Copernican Revolution\n\n**Philosophical Significance**\n\nDeeper meaning of Copernican Revolution:\n\n- 🌍 **Decentralization**: Humanity not center of universe\n- 🔬 **Scientific Rationality**: Reason can understand world\n- 💭 **Intellectual Liberation**: Dare to question authority\n- 🌌 **Cosmology**: Universe grander than imagined\n- 🎯 **Pursuit of Truth**: Truth above all",
+        
+        "modern_examples": [
+            {
+                "field": "Space Exploration",
+                "example": "NASA's Mars rovers can land precisely, completely relying on accurate understanding of planetary orbits. These orbital calculations based on Copernican heliocentric model. If we still believed geocentrism, space exploration would be impossible."
+            },
+            {
+                "field": "GPS Navigation",
+                "example": "GPS satellite orbit design and positioning calculations all based on heliocentric solar system model. Satellites must consider Earth's rotation and revolution, all first proposed by Copernicus. Every time you use phone navigation, you're applying Copernicus's theory."
+            },
+            {
+                "field": "Climate Research",
+                "example": "Understanding Earth's seasonal changes and climate patterns requires knowing Earth orbits Sun with 23.5-degree axial tilt. These are core content of heliocentrism. Climate scientists use this knowledge to predict climate change and study global warming."
+            },
+            {
+                "field": "Exoplanet Search",
+                "example": "Astronomers have discovered over 5000 exoplanets, many with their own planetary systems. These discoveries confirm Copernicus's insight: Solar system isn't unique—universe has countless similar systems."
+            },
+            {
+                "field": "Science Education",
+                "example": "Copernican Revolution is core content of history of science courses, used to teach students critical thinking, scientific method, and courage to challenge authority. It shows how one person's idea can change entire world."
+            },
+            {
+                "field": "Philosophical Reflection",
+                "example": "Copernican Revolution became philosophical term referring to fundamental shift in cognitive approach. Kant used it to describe his own philosophical revolution. Today, we still use this term to describe major shifts in thinking."
+            }
+        ]
+    },
+    
+    "kid_friendly_explanation": {
+        "simple": "哥白尼发现了一个大秘密：不是太阳绕着地球转，而是地球绕着太阳转！这个发现改变了人们对宇宙的看法，就像发现地球不是平的，而是圆的一样震撼！",
+        
+        "detailed": "让我们一起了解哥白尼的伟大发现：\n\n**哥白尼是谁？**\n\n哥白尼是500多年前波兰的一位教士，也是天文学家。他白天在教堂工作，晚上在塔楼上观察星星。\n\n**古老的错误想法**\n\n在哥白尼之前，人们相信了1400年的错误理论：\n- 🌍 地球是宇宙的中心，不会动\n- ☀️ 太阳、月亮、星星都绕着地球转\n- 🔄 为了解释行星的奇怪运动，需要画80多个圆圈\n- 📐 越来越复杂，越来越难理解\n\n想象一下，就像你以为全世界都围着你转，其实是你在动！\n\n**哥白尼的大发现**\n\n哥白尼想：如果换个角度看呢？\n> 如果太阳在中心，地球和其他行星绕着太阳转呢？\n\n他发现这样解释简单多了：\n- ☀️ 太阳在中心不动\n- 🌍 地球和其他行星绕着太阳转\n- 🔄 地球每天自转一圈（白天和黑夜）\n- 🌍 地球每年绕太阳转一圈（春夏秋冬）\n\n**为什么这个想法很危险？**\n\n在那个时代，说地球不是中心是很危险的：\n- 📚 《圣经》说太阳绕地球转\n- ⛪ 教会认为人类和地球是特殊的\n- 😱 挑战这个想法可能被惩罚\n\n所以哥白尼把这个秘密藏了30年！\n\n**秘密研究**\n\n哥白尼在教堂的塔楼上：\n- 🔭 用简单的仪器观察星星\n- 📝 记录行星的位置\n- 📊 计算它们的轨道\n- ✍️ 写了一本大书《天体运行论》\n\n他一直等到快去世才出版这本书。传说他在看到刚印出来的书后就去世了。\n\n**为什么哥白尼是对的？**\n\n后来的科学家证明了哥白尼是对的：\n\n🔭 **伽利略（70年后）**\n- 发明了望远镜\n- 看到木星有自己的卫星\n- 证明不是所有东西都绕地球转\n\n⭐ **开普勒**\n- 发现行星轨道是椭圆形的\n- 让预测更准确\n\n🍎 **牛顿**\n- 发现了万有引力\n- 解释了为什么行星绕太阳转\n\n🔭 **现代天文学家**\n- 用望远镜看到其他星系\n- 发现宇宙比我们想象的大得多\n\n**太阳系是什么样的？**\n\n哥白尼告诉我们太阳系的真实样子：\n\n☀️ **太阳**：在中心，最大最亮\n\n从里到外的行星：\n- 💫 水星：最小，离太阳最近，跑得最快\n- 🌟 金星：最亮，早上和晚上能看到\n- 🌍 地球：我们的家，有生命\n- 🔴 火星：红色的，有两个小卫星\n- 🌈 木星：最大的行星，有很多卫星\n- 💍 土星：有美丽的光环\n\n（天王星和海王星在哥白尼时代还没发现）\n\n**地球的三种运动**\n\n哥白尼发现地球有三种运动：\n\n1. **自转**（每天转一圈）\n   - 🌅 造成白天和黑夜\n   - 🌄 太阳看起来从东边升起，西边落下\n   - 实际上是地球在转，不是太阳在动\n\n2. **公转**（每年绕太阳一圈）\n   - 🌸 造成春夏秋冬四季\n   - ☀️ 因为地球是斜着转的\n   - 不同季节阳光照射角度不同\n\n3. **地轴摆动**（很慢很慢）\n   - 🎯 地轴像陀螺一样慢慢摆动\n   - 需要26000年才摆动一圈\n   - 这叫岁差现象\n\n**为什么我们感觉不到地球在动？**\n\n这是个好问题！\n- 🚄 就像坐在平稳行驶的火车上\n- 🛫 或者坐在飞机上\n- 🌍 地球转得很平稳，所以我们感觉不到\n- 💨 空气和我们一起动，所以没有风\n\n**哥白尼的发现有多重要？**\n\n🌍 **改变了世界观**\n- 地球不是宇宙中心\n- 人类不是最特殊的\n- 宇宙比想象的大得多\n\n🔬 **开启了科学革命**\n- 人们开始用观察和实验寻找真理\n- 不再盲目相信古书\n- 科学方法诞生了\n\n🚀 **让太空探索成为可能**\n- 理解了行星轨道\n- 才能发射卫星和火箭\n- 才能登上月球和探索火星\n\n**今天我们知道的更多**\n\n哥白尼是对的，但我们现在知道：\n- ☀️ 太阳也不是宇宙中心\n- 🌌 太阳只是银河系中的一颗普通星星\n- 🌟 银河系有2000多亿颗星星\n- 🌌 宇宙中有数千亿个星系\n- 🌍 地球真的很小很小\n\n但这让宇宙更神奇了！\n\n**哥白尼教给我们什么？**\n\n- 🤔 敢于质疑，即使是大家都相信的事\n- 🔍 仔细观察，寻找真相\n- 📐 用数学和逻辑思考\n- 💪 坚持真理，即使很困难\n- 🌟 简单的解释往往是对的",
+        
+        "interactive_challenge": "🎮 动手试试：\n\n**活动1：制作太阳系模型**\n材料：\n- 不同大小的球（或橡皮泥）\n- 颜料\n- 铁丝或木棍\n- 纸板底座\n\n步骤：\n1. 用最大的球做太阳，涂成黄色\n2. 做8个行星（大小按比例）\n3. 按顺序排列：水、金、地、火、木、土、天、海\n4. 用铁丝固定在底座上\n5. 标注每个行星的名字\n\n**活动2：地球自转实验**\n材料：\n- 地球仪（或球）\n- 手电筒\n- 黑暗的房间\n\n步骤：\n1. 用手电筒代表太阳\n2. 地球仪代表地球\n3. 慢慢转动地球仪\n4. 观察哪一面是白天，哪一面是黑夜\n5. 理解为什么有昼夜交替\n\n**活动3：观察行星**\n活动：\n- 🌟 晚上找找金星（最亮的星）\n- 🔴 寻找火星（红色的）\n- 🌙 观察月亮的变化\n- 📱 用天文APP识别星星\n- 📝 记录你的观察\n\n**活动4：模拟公转**\n游戏：\n- ☀️ 一个人站在中间当太阳\n- 🌍 其他人当行星，绕着太阳转\n- 💫 离太阳近的转得快\n- 🪐 离太阳远的转得慢\n- 体会行星运动的规律\n\n**活动5：制作翻页动画**\n材料：\n- 小本子\n- 铅笔\n\n步骤：\n1. 在每一页画地球绕太阳转的不同位置\n2. 快速翻页\n3. 看到地球运动的动画\n4. 理解公转的概念",
+        
+        "deeper_thinking": "🤔 思考题：\n\n1. **为什么古人会认为地球是中心？**\n   提示：站在地上，看起来太阳在动，对吧？\n\n2. **如果地球在转，为什么我们感觉不到？**\n   提示：想想坐在平稳的车上的感觉\n\n3. **为什么哥白尼的想法那么危险？**\n   提示：如果地球不是中心，人类还特殊吗？\n\n4. **怎么证明地球真的在转？**\n   提示：能看到什么证据？\n\n5. **如果你是哥白尼，你会怎么做？**\n   提示：立即公布还是等待时机？\n\n💡 有趣的问题：\n- 如果地球突然停止自转会怎样？\n- 为什么行星都在同一个平面上？\n- 太阳系外还有其他行星系统吗？\n- 宇宙有中心吗？\n- 外星人存在吗？",
+        
+        "visual_aids": [
+            {
+                "type": "动画对比",
+                "description": "并排展示地心说和日心说的动画，对比两种模型的复杂程度"
+            },
+            {
+                "type": "3D太阳系",
+                "description": "可旋转的3D太阳系模型，显示行星轨道和运动"
+            },
+            {
+                "type": "时间轴",
+                "description": "从托勒密到哥白尼到现代天文学的发展历程"
+            },
+            {
+                "type": "AR体验",
+                "description": "用手机AR看到太阳系在房间里的样子，可以走近观察每个行星"
+            }
+        ]
+    },
+    
+    "kid_friendly_explanation_en": {
+        "simple": "Copernicus discovered a big secret: it's not the Sun orbiting Earth, but Earth orbiting the Sun! This discovery changed how people view the universe, as shocking as discovering Earth isn't flat but round!",
+        
+        "detailed": "Let's learn about Copernicus's great discovery:\n\n**Who was Copernicus?**\n\nCopernicus was a Polish priest and astronomer from over 500 years ago. He worked in a cathedral during the day and observed stars from the tower at night.\n\n**The Old Wrong Idea**\n\nBefore Copernicus, people believed a wrong theory for 1400 years:\n- 🌍 Earth is the center of the universe, doesn't move\n- ☀️ Sun, Moon, stars all orbit Earth\n- 🔄 To explain planets' strange movements, needed to draw 80+ circles\n- 📐 Increasingly complex, increasingly hard to understand\n\nImagine thinking the whole world revolves around you, when actually you're the one moving!\n\n**Copernicus's Great Discovery**\n\nCopernicus thought: What if we look at it differently?\n> What if the Sun is at the center, and Earth and other planets orbit the Sun?\n\nHe found this explanation much simpler:\n- ☀️ Sun at center, motionless\n- 🌍 Earth and other planets orbit Sun\n- 🔄 Earth rotates once daily (day and night)\n- 🌍 Earth orbits Sun once yearly (four seasons)\n\n**Why Was This Idea Dangerous?**\n\nIn that era, saying Earth wasn't the center was dangerous:\n- 📚 Bible said Sun orbits Earth\n- ⛪ Church believed humanity and Earth were special\n- 😱 Challenging this idea could bring punishment\n\nSo Copernicus kept this secret for 30 years!\n\n**Secret Research**\n\nIn the cathedral tower, Copernicus:\n- 🔭 Observed stars with simple instruments\n- 📝 Recorded planetary positions\n- 📊 Calculated their orbits\n- ✍️ Wrote a big book De revolutionibus\n\nHe waited until near death to publish. Legend says he died after seeing the freshly printed book.\n\n**Why Was Copernicus Right?**\n\nLater scientists proved Copernicus correct:\n\n🔭 **Galileo (70 years later)**\n- Invented telescope\n- Saw Jupiter has its own moons\n- Proved not everything orbits Earth\n\n⭐ **Kepler**\n- Discovered planetary orbits are elliptical\n- Made predictions more accurate\n\n🍎 **Newton**\n- Discovered universal gravitation\n- Explained why planets orbit Sun\n\n🔭 **Modern Astronomers**\n- Used telescopes to see other galaxies\n- Discovered universe much larger than imagined\n\n**What Does the Solar System Look Like?**\n\nCopernicus told us the solar system's true appearance:\n\n☀️ **Sun**: At center, largest and brightest\n\nPlanets from inside out:\n- 💫 Mercury: Smallest, closest to Sun, fastest\n- 🌟 Venus: Brightest, visible morning and evening\n- 🌍 Earth: Our home, has life\n- 🔴 Mars: Red, has two small moons\n- 🌈 Jupiter: Largest planet, many moons\n- 💍 Saturn: Has beautiful rings\n\n(Uranus and Neptune not yet discovered in Copernicus's time)\n\n**Earth's Three Motions**\n\nCopernicus discovered Earth has three motions:\n\n1. **Rotation** (once daily)\n   - 🌅 Creates day and night\n   - 🌄 Sun appears to rise in east, set in west\n   - Actually Earth rotating, not Sun moving\n\n2. **Revolution** (once yearly around Sun)\n   - 🌸 Creates four seasons\n   - ☀️ Because Earth tilts\n   - Different seasons have different sunlight angles\n\n3. **Axial Precession** (very very slow)\n   - 🎯 Earth's axis wobbles like a top\n   - Takes 26,000 years for one wobble\n   - Called precession\n\n**Why Don't We Feel Earth Moving?**\n\nGood question!\n- 🚄 Like sitting on smoothly moving train\n- 🛫 Or sitting on airplane\n- 🌍 Earth rotates very smoothly, so we don't feel it\n- 💨 Air moves with us, so no wind\n\n**How Important Was Copernicus's Discovery?**\n\n🌍 **Changed Worldview**\n- Earth not center of universe\n- Humanity not most special\n- Universe much larger than imagined\n\n🔬 **Started Scientific Revolution**\n- People began using observation and experiment to find truth\n- No longer blindly believing old books\n- Scientific method was born\n\n🚀 **Made Space Exploration Possible**\n- Understood planetary orbits\n- Could launch satellites and rockets\n- Could land on Moon and explore Mars\n\n**We Know More Today**\n\nCopernicus was right, but now we know:\n- ☀️ Sun also not center of universe\n- 🌌 Sun just ordinary star in Milky Way\n- 🌟 Milky Way has 200+ billion stars\n- 🌌 Universe has hundreds of billions of galaxies\n- 🌍 Earth is really really small\n\nBut this makes the universe even more amazing!\n\n**What Does Copernicus Teach Us?**\n\n- 🤔 Dare to question, even what everyone believes\n- 🔍 Observe carefully, seek truth\n- 📐 Think with mathematics and logic\n- 💪 Persist in truth, even when difficult\n- 🌟 Simple explanations often correct",
+        
+        "interactive_challenge": "🎮 Try This:\n\n**Activity 1: Make Solar System Model**\nMaterials:\n- Different sized balls (or clay)\n- Paint\n- Wire or sticks\n- Cardboard base\n\nSteps:\n1. Use largest ball for Sun, paint yellow\n2. Make 8 planets (proportional sizes)\n3. Arrange in order: Mer, Ven, Ear, Mar, Jup, Sat, Ura, Nep\n4. Fix with wire on base\n5. Label each planet's name\n\n**Activity 2: Earth Rotation Experiment**\nMaterials:\n- Globe (or ball)\n- Flashlight\n- Dark room\n\nSteps:\n1. Flashlight represents Sun\n2. Globe represents Earth\n3. Slowly rotate globe\n4. Observe which side is day, which is night\n5. Understand why day-night cycle exists\n\n**Activity 3: Observe Planets**\nActivity:\n- 🌟 Find Venus at night (brightest star)\n- 🔴 Look for Mars (red)\n- 🌙 Observe Moon's changes\n- 📱 Use astronomy app to identify stars\n- 📝 Record your observations\n\n**Activity 4: Simulate Revolution**\nGame:\n- ☀️ One person stands in middle as Sun\n- 🌍 Others are planets, orbit Sun\n- 💫 Closer to Sun moves faster\n- 🪐 Farther from Sun moves slower\n- Experience planetary motion patterns\n\n**Activity 5: Make Flip Animation**\nMaterials:\n- Small notebook\n- Pencil\n\nSteps:\n1. Draw Earth at different positions orbiting Sun on each page\n2. Flip pages quickly\n3. See Earth motion animation\n4. Understand revolution concept",
+        
+        "deeper_thinking": "🤔 Think About:\n\n1. **Why did ancients think Earth was center?**\n   Hint: Standing on ground, Sun appears to move, right?\n\n2. **If Earth is rotating, why don't we feel it?**\n   Hint: Think about feeling in smoothly moving car\n\n3. **Why was Copernicus's idea so dangerous?**\n   Hint: If Earth isn't center, is humanity still special?\n\n4. **How to prove Earth really rotates?**\n   Hint: What evidence can we see?\n\n5. **If you were Copernicus, what would you do?**\n   Hint: Announce immediately or wait for right time?\n\n💡 Interesting Questions:\n- What if Earth suddenly stopped rotating?\n- Why are all planets on same plane?\n- Are there other planetary systems outside solar system?\n- Does universe have a center?\n- Do aliens exist?",
+        
+        "visual_aids": [
+            {
+                "type": "Comparison Animation",
+                "description": "Side-by-side display of geocentric and heliocentric animations, comparing complexity of two models"
+            },
+            {
+                "type": "3D Solar System",
+                "description": "Rotatable 3D solar system model showing planetary orbits and motion"
+            },
+            {
+                "type": "Timeline",
+                "description": "Development from Ptolemy to Copernicus to modern astronomy"
+            },
+            {
+                "type": "AR Experience",
+                "description": "Use phone AR to see solar system in room, can walk close to observe each planet"
+            }
+        ]
+    },
+    
+    "related_concepts": [
+        "地心说",
+        "日心说",
+        "行星运动",
+        "地球自转",
+        "地球公转",
+        "科学革命",
+        "天文观测",
+        "万有引力"
+    ],
+    
+    "related_concepts_en": [
+        "Geocentrism",
+        "Heliocentrism",
+        "Planetary Motion",
+        "Earth's Rotation",
+        "Earth's Revolution",
+        "Scientific Revolution",
+        "Astronomical Observation",
+        "Universal Gravitation"
+    ],
+    
+    "quiz": {
+        "question": "哥白尼日心说的核心观点是什么？",
+        "question_en": "What is the core principle of Copernican heliocentrism?",
+        "options": [
+            "地球是宇宙的中心",
+            "太阳是宇宙的中心，地球和其他行星绕太阳运转",
+            "月亮是宇宙的中心",
+            "所有天体都围绕北极星转"
+        ],
+        "options_en": [
+            "Earth is the center of the universe",
+            "Sun is the center of the universe, Earth and other planets orbit the Sun",
+            "Moon is the center of the universe",
+            "All celestial bodies orbit Polaris"
+        ],
+        "answer": 1,
+        "explanation": "哥白尼提出太阳而非地球是宇宙的中心，地球和其他行星都围绕太阳运转。这个理论推翻了统治1400年的托勒密地心说，虽然后来我们知道太阳也不是宇宙中心，但哥白尼迈出了最关键的一步：让地球动起来。",
+        "explanation_en": "Copernicus proposed that the Sun, not Earth, is the center of the universe, with Earth and other planets orbiting the Sun. This theory overthrew Ptolemaic geocentrism that had dominated for 1400 years. Though we later learned Sun isn't universe's center either, Copernicus took the most crucial step: setting Earth in motion."
+    },
+    
+    "additional_quizzes": [
+        {
+            "question": "哥白尼为什么等了30年才出版《天体运行论》？",
+            "question_en": "Why did Copernicus wait 30 years to publish De revolutionibus?",
+            "options": [
+                "他在不断完善理论",
+                "他害怕被教会迫害",
+                "他想等待更好的观测数据",
+                "以上都有可能"
+            ],
+            "options_en": [
+                "He was continuously perfecting the theory",
+                "He feared persecution by the Church",
+                "He wanted to wait for better observational data",
+                "All of the above are possible"
+            ],
+            "answer": 3,
+            "explanation": "哥白尼延迟出版的原因可能是多方面的：他知道这个理论会引起争议甚至迫害；他可能在不断完善和验证理论；他也可能本来就不打算出版，是学生雷蒂库斯说服了他。直到临终前，这本书才出版。",
+            "explanation_en": "Copernicus's delay in publishing may have multiple reasons: he knew this theory would cause controversy or even persecution; he may have been continuously perfecting and verifying the theory; he may never have intended to publish, persuaded by student Rheticus. Not until his deathbed was the book published.",
+            "difficulty": "medium"
+        },
+        {
+            "question": "下列哪位科学家用望远镜发现了支持日心说的证据？",
+            "question_en": "Which scientist discovered evidence supporting heliocentrism with a telescope?",
+            "options": [
+                "哥白尼",
+                "伽利略",
+                "牛顿",
+                "爱因斯坦"
+            ],
+            "options_en": [
+                "Copernicus",
+                "Galileo",
+                "Newton",
+                "Einstein"
+            ],
+            "answer": 1,
+            "explanation": "伽利略在1609年用望远镜观测天空，发现了木星的四颗卫星，证明不是所有天体都绕地球转。他还观察到金星的相位变化，这符合日心说的预测。哥白尼生前没有望远镜，牛顿和爱因斯坦生活在日心说已被接受之后。",
+            "explanation_en": "Galileo observed the sky with telescope in 1609, discovered Jupiter's four moons, proving not all bodies orbit Earth. He also observed Venus's phase changes, matching heliocentric predictions. Copernicus had no telescope in life; Newton and Einstein lived after heliocentrism was accepted.",
+            "difficulty": "easy"
+        },
+        {
+            "question": "哥白尼的理论在哪方面还不完善？",
+            "question_en": "In what aspect was Copernicus's theory still imperfect?",
+            "options": [
+                "他认为行星轨道是圆形的",
+                "他没有解释为什么行星会绕太阳转",
+                "他的预测精度有时不如托勒密体系",
+                "以上都是"
+            ],
+            "options_en": [
+                "He thought planetary orbits were circular",
+                "He didn't explain why planets orbit the Sun",
+                "His prediction accuracy was sometimes inferior to Ptolemaic system",
+                "All of the above"
+            ],
+            "answer": 3,
+            "explanation": "哥白尼的理论虽然革命性，但确实有局限：他坚持用圆形轨道（实际是椭圆），这导致预测不够准确；他没有提供物理解释（要等到牛顿的万有引力）；他仍然需要一些本轮来修正。但这些不影响他的伟大——他迈出了最关键的一步。",
+            "explanation_en": "Though revolutionary, Copernicus's theory had limitations: he insisted on circular orbits (actually elliptical), leading to inaccurate predictions; he provided no physical explanation (had to wait for Newton's gravitation); he still needed some epicycles for corrections. But these don't diminish his greatness—he took the most crucial step.",
+            "difficulty": "hard"
+        },
+        {
+            "question": "《天体运行论》什么时候被从禁书目录中删除？",
+            "question_en": "When was De revolutionibus removed from the Index of Forbidden Books?",
+            "options": [
+                "1543年（出版当年）",
+                "1633年（伽利略受审后）",
+                "1758年",
+                "1992年"
+            ],
+            "options_en": [
+                "1543 (year of publication)",
+                "1633 (after Galileo's trial)",
+                "1758",
+                "1992"
+            ],
+            "answer": 2,
+            "explanation": "《天体运行论》在1616年被列入禁书目录，直到1758年才被删除，被禁了142年。这时牛顿的万有引力定律已经证明了日心说的正确性。教会最终不得不承认科学的胜利。1992年，教皇约翰·保罗二世正式为伽利略平反。",
+            "explanation_en": "De revolutionibus was added to Index of Forbidden Books in 1616, not removed until 1758—banned for 142 years. By then Newton's law of universal gravitation had proven heliocentrism correct. Church ultimately had to acknowledge science's victory. In 1992, Pope John Paul II officially rehabilitated Galileo.",
+            "difficulty": "medium"
+        },
+        {
+            "question": "哥白尼提出地球有几种运动？",
+            "question_en": "How many motions did Copernicus propose for Earth?",
+            "options": [
+                "一种（只有自转）",
+                "两种（自转和公转）",
+                "三种（自转、公转和岁差）",
+                "四种"
+            ],
+            "options_en": [
+                "One (only rotation)",
+                "Two (rotation and revolution)",
+                "Three (rotation, revolution, and precession)",
+                "Four"
+            ],
+            "answer": 2,
+            "explanation": "哥白尼提出地球有三种运动：1)每天自转一周，造成昼夜交替；2)每年绕太阳公转一周，造成四季变化；3)地轴缓慢摆动（岁差），周期约26000年。这三种运动的提出是对地心说的彻底颠覆。",
+            "explanation_en": "Copernicus proposed three motions for Earth: 1) Daily rotation, causing day-night cycle; 2) Annual revolution around Sun, causing seasonal changes; 3) Slow axial wobble (precession), period about 26,000 years. Proposing these three motions was complete overthrow of geocentrism.",
+            "difficulty": "easy"
+        }
+    ],
+    
+    "practical_activities": [
+        {
+            "title": "🌍 制作太阳系轨道模型",
+            "title_en": "🌍 Make Solar System Orbital Model",
+            "description": "用简单材料制作太阳系模型，理解行星轨道。",
+            "description_en": "Make solar system model with simple materials, understand planetary orbits.",
+            "materials": ["大纸板", "圆规", "颜料", "小球或橡皮泥", "铁丝"],
+            "materials_en": ["Large cardboard", "Compass", "Paint", "Small balls or clay", "Wire"],
+            "steps": [
+                "在纸板中心画一个大圆代表太阳",
+                "用圆规画出8个同心圆代表行星轨道",
+                "按比例标注：水星、金星、地球、火星、木星、土星、天王星、海王星",
+                "用不同颜色的球代表各个行星",
+                "用铁丝固定行星在轨道上",
+                "转动模型，观察行星如何绕太阳运转"
+            ],
+            "steps_en": [
+                "Draw large circle in cardboard center representing Sun",
+                "Use compass to draw 8 concentric circles representing planetary orbits",
+                "Label proportionally: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+                "Use different colored balls representing each planet",
+                "Fix planets on orbits with wire",
+                "Rotate model, observe how planets orbit Sun"
+            ]
+        },
+        {
+            "title": "🔭 模拟地心说vs日心说",
+            "title_en": "🔭 Simulate Geocentrism vs Heliocentrism",
+            "description": "用角色扮演对比两种宇宙模型。",
+            "description_en": "Use role-playing to compare two cosmic models.",
+            "materials": ["开阔空间", "标签牌", "绳子"],
+            "materials_en": ["Open space", "Label cards", "Rope"],
+            "steps": [
+                "地心说：一人站中间当地球，其他人绕着转（太阳、月亮、行星）",
+                "观察：很混乱，需要复杂的路径",
+                "日心说：一人站中间当太阳，其他人按轨道绕太阳转",
+                "观察：简单有序，每个人都有自己的轨道",
+                "讨论：哪个模型更简单？更合理？",
+                "理解为什么哥白尼的理论更好"
+            ],
+            "steps_en": [
+                "Geocentrism: One person stands in middle as Earth, others orbit (Sun, Moon, planets)",
+                "Observe: Very chaotic, needs complex paths",
+                "Heliocentrism: One person stands in middle as Sun, others orbit Sun in orbits",
+                "Observe: Simple and orderly, everyone has own orbit",
+                "Discuss: Which model is simpler? More reasonable?",
+                "Understand why Copernicus's theory is better"
+            ]
+        },
+        {
+            "title": "🌅 观察日出日落",
+            "title_en": "🌅 Observe Sunrise and Sunset",
+            "description": "通过观察理解地球自转。",
+            "description_en": "Understand Earth's rotation through observation.",
+            "materials": ["指南针", "相机", "笔记本", "手表"],
+            "materials_en": ["Compass", "Camera", "Notebook", "Watch"],
+            "steps": [
+                "选择一个可以看到地平线的地方",
+                "记录日出的准确时间和位置",
+                "用指南针确定方向（东方）",
+                "傍晚观察日落的时间和位置（西方）",
+                "思考：是太阳在动还是地球在转？",
+                "计算：地球自转一周需要多长时间？"
+            ],
+            "steps_en": [
+                "Choose place where you can see horizon",
+                "Record exact time and position of sunrise",
+                "Use compass to determine direction (east)",
+                "Observe sunset time and position in evening (west)",
+                "Think: Is Sun moving or Earth rotating?",
+                "Calculate: How long does Earth take to rotate once?"
+            ]
+        },
+        {
+            "title": "📐 计算行星周期",
+            "title_en": "📐 Calculate Planetary Periods",
+            "description": "用数学理解行星运动规律。",
+            "description_en": "Use mathematics to understand planetary motion patterns.",
+            "materials": ["计算器", "行星数据表", "图表纸"],
+            "materials_en": ["Calculator", "Planetary data table", "Graph paper"],
+            "steps": [
+                "查找各行星的公转周期数据",
+                "查找各行星到太阳的距离",
+                "制作表格记录数据",
+                "画图：距离vs周期",
+                "发现规律：离太阳越远，周期越长",
+                "这就是开普勒第三定律的基础"
+            ],
+            "steps_en": [
+                "Look up orbital period data for each planet",
+                "Look up distance from each planet to Sun",
+                "Make table to record data",
+                "Draw graph: distance vs period",
+                "Discover pattern: farther from Sun, longer period",
+                "This is basis of Kepler's third law"
+            ]
+        }
+    ],
+    
+    "connections_to_other_discoveries": [
+        {
+            "id": "ptolemy_geocentrism",
+            "title": "托勒密地心说",
+            "title_en": "Ptolemaic Geocentrism",
+            "relationship": "哥白尼的日心说推翻了托勒密统治1400年的地心说，这是科学史上最重要的范式转变之一",
+            "relationship_en": "Copernican heliocentrism overthrew Ptolemaic geocentrism that dominated for 1400 years, one of most important paradigm shifts in scientific history"
+        },
+        {
+            "id": "galileo_telescope",
+            "title": "伽利略望远镜观测",
+            "title_en": "Galileo's Telescope Observations",
+            "relationship": "伽利略用望远镜发现的证据（木星卫星、金星相位）有力支持了哥白尼的日心说",
+            "relationship_en": "Evidence Galileo discovered with telescope (Jupiter's moons, Venus phases) strongly supported Copernican heliocentrism"
+        },
+        {
+            "id": "kepler_laws",
+            "title": "开普勒行星运动定律",
+            "title_en": "Kepler's Laws of Planetary Motion",
+            "relationship": "开普勒发现行星轨道是椭圆的，完善了哥白尼的日心说理论，使预测更加准确",
+            "relationship_en": "Kepler discovered planetary orbits are elliptical, perfecting Copernican heliocentric theory, making predictions more accurate"
+        },
+        {
+            "id": "newton_gravitation",
+            "title": "牛顿万有引力定律",
+            "title_en": "Newton's Law of Universal Gravitation",
+            "relationship": "牛顿的万有引力定律从物理学角度解释了为什么行星绕太阳运转，完成了哥白尼革命",
+            "relationship_en": "Newton's law of universal gravitation explained from physics perspective why planets orbit Sun, completing Copernican Revolution"
+        },
+        {
+            "id": "stellar_parallax",
+            "title": "恒星视差的测量",
+            "title_en": "Measurement of Stellar Parallax",
+            "relationship": "1838年贝塞尔首次测量到恒星视差，最终证明地球确实在运动，彻底确认了日心说",
+            "relationship_en": "In 1838 Bessel first measured stellar parallax, finally proving Earth indeed moves, completely confirming heliocentrism"
+        },
+        {
+            "id": "modern_cosmology",
+            "title": "现代宇宙学",
+            "title_en": "Modern Cosmology",
+            "relationship": "现代宇宙学发现太阳也不是宇宙中心，而是银河系中的普通恒星，进一步发展了哥白尼的去中心化思想",
+            "relationship_en": "Modern cosmology discovered Sun also isn't universe's center but ordinary star in Milky Way, further developing Copernicus's decentralization thought"
+        }
+    ],
+    
+    "multimedia_resources": [
+        {
+            "type": "video",
+            "title": "哥白尼革命：改变世界的理论",
+            "title_en": "Copernican Revolution: Theory That Changed the World",
+            "duration": "20:00",
+            "description": "详细讲述哥白尼的生平、理论的提出、遭遇的阻力和最终的胜利"
+        },
+        {
+            "type": "interactive",
+            "title": "地心说vs日心说模拟器",
+            "title_en": "Geocentrism vs Heliocentrism Simulator",
+            "description": "交互式对比两种宇宙模型，用户可以调整参数，观察行星运动的复杂程度"
+        },
+        {
+            "type": "ar_experience",
+            "title": "AR太阳系探索",
+            "title_en": "AR Solar System Explorer",
+            "description": "用AR在房间里展示太阳系，可以从不同角度观察行星轨道和运动"
+        },
+        {
+            "type": "animation",
+            "title": "从地心说到日心说的演变",
+            "title_en": "Evolution from Geocentrism to Heliocentrism",
+            "description": "动画展示天文学理论的历史演变，从托勒密到哥白尼到现代"
+        },
+        {
+            "type": "documentary",
+            "title": "科学革命：哥白尼的遗产",
+            "title_en": "Scientific Revolution: Copernicus's Legacy",
+            "duration": "50:00",
+            "description": "探讨哥白尼革命对科学、哲学、宗教和社会的深远影响"
+        },
+        {
+            "type": "game",
+            "title": "行星轨道挑战",
+            "title_en": "Planetary Orbit Challenge",
+            "description": "游戏中玩家需要正确安排行星轨道，理解日心说的原理"
+        }
+    ],
+    
+    "discussion_questions": [
+        {
+            "question": "为什么哥白尼的理论在当时如此难以被接受？今天我们是否也有类似的思维定势？",
+            "question_en": "Why was Copernicus's theory so difficult to accept at the time? Do we have similar mental fixations today?",
+            "level": "critical_thinking"
+        },
+        {
+            "question": "如果你生活在哥白尼的时代，你会支持日心说还是地心说？为什么？",
+            "question_en": "If you lived in Copernicus's era, would you support heliocentrism or geocentrism? Why?",
+            "level": "historical_empathy"
+        },
+        {
+            "question": "哥白尼选择在临终前才出版著作，这是明智还是懦弱？科学家应该如何平衡真理与安全？",
+            "question_en": "Was Copernicus wise or cowardly to publish only on his deathbed? How should scientists balance truth and safety?",
+            "level": "ethical_thinking"
+        },
+        {
+            "question": "哥白尼革命对人类自我认知有什么影响？我们今天如何看待人类在宇宙中的地位？",
+            "question_en": "What impact did Copernican Revolution have on human self-perception? How do we view humanity's place in universe today?",
+            "level": "philosophical"
+        },
+        {
+            "question": "科学与宗教的冲突是必然的吗？如何处理科学发现与传统信仰的矛盾？",
+            "question_en": "Is conflict between science and religion inevitable? How to handle contradictions between scientific discoveries and traditional beliefs?",
+            "level": "interdisciplinary"
+        }
+    ],
+    
+    "influences": [
+        {
+            "title": "伽利略的望远镜观测",
+            "title_en": "Galileo's Telescope Observations",
+            "description": "伽利略用望远镜发现木星卫星和金星相位，为日心说提供了关键证据，并因坚持日心说遭受宗教裁判所迫害",
+            "description_en": "Galileo discovered Jupiter's moons and Venus's phases with telescope, providing key evidence for heliocentrism, and suffered Inquisition persecution for insisting on heliocentrism"
+        },
+        {
+            "title": "开普勒行星运动定律",
+            "title_en": "Kepler's Laws of Planetary Motion",
+            "description": "开普勒在哥白尼日心说基础上发现行星轨道是椭圆的，提出三大定律，完善了日心说理论，使预测精度大大提高",
+            "description_en": "Kepler discovered planetary orbits are elliptical based on Copernican heliocentrism, proposed three laws, perfecting heliocentric theory and greatly improving prediction accuracy"
+        },
+        {
+            "title": "牛顿万有引力定律",
+            "title_en": "Newton's Law of Universal Gravitation",
+            "description": "牛顿用万有引力定律从物理学角度解释了为什么行星绕太阳运转，完成了哥白尼革命，建立了经典力学体系",
+            "description_en": "Newton explained from physics perspective why planets orbit Sun using law of universal gravitation, completing Copernican Revolution and establishing classical mechanics system"
+        },
+        {
+            "title": "笛卡尔机械论宇宙观",
+            "title_en": "Descartes's Mechanistic Cosmology",
+            "description": "笛卡尔发展了机械论宇宙观，将哥白尼的天文学革命扩展到整个自然哲学，用物质和运动解释宇宙",
+            "description_en": "Descartes developed mechanistic cosmology, extending Copernican astronomical revolution to entire natural philosophy, explaining universe with matter and motion"
+        },
+        {
+            "title": "启蒙运动",
+            "title_en": "Enlightenment Movement",
+            "description": "哥白尼革命成为理性战胜迷信的象征，启发了启蒙思想家挑战传统权威，推动了科学理性主义的传播",
+            "description_en": "Copernican Revolution became symbol of reason triumphing over superstition, inspired Enlightenment thinkers to challenge traditional authority, promoting spread of scientific rationalism"
+        },
+        {
+            "title": "康德的哲学革命",
+            "title_en": "Kant's Philosophical Revolution",
+            "description": "康德用哥白尼式革命来描述自己的认识论转向，强调主体在认识中的能动作用，开创了德国古典哲学",
+            "description_en": "Kant used Copernican Revolution to describe his epistemological turn, emphasizing subject's active role in cognition, pioneering German classical philosophy"
+        },
+        {
+            "title": "达尔文进化论",
+            "title_en": "Darwin's Theory of Evolution",
+            "description": "进化论对生物学的影响类似哥白尼革命对天文学的影响，都贬低了人类的特殊地位，改变了人类的自我认知",
+            "description_en": "Evolution's impact on biology similar to Copernican Revolution's on astronomy—both demoted humanity's special status, changing human self-perception"
+        },
+        {
+            "title": "现代宇宙学",
+            "title_en": "Modern Cosmology",
+            "description": "哥白尼原理（我们的位置不特殊）成为现代宇宙学的基本假设，宇宙学原理认为宇宙在大尺度上各处相同",
+            "description_en": "Copernican Principle (our position isn't special) became basic assumption of modern cosmology; cosmological principle states universe is same everywhere on large scales"
+        },
+        {
+            "title": "太空探索",
+            "title_en": "Space Exploration",
+            "description": "正确理解行星轨道是太空探索的基础，从人造卫星、登月到火星探测，都依赖于日心说建立的太阳系模型",
+            "description_en": "Correct understanding of planetary orbits is foundation of space exploration; from artificial satellites, Moon landing to Mars exploration, all rely on solar system model established by heliocentrism"
+        },
+        {
+            "title": "科学方法论",
+            "title_en": "Scientific Methodology",
+            "description": "哥白尼革命确立了观测和数学优于权威的原则，简洁性作为真理标准，成为现代科学方法的基础",
+            "description_en": "Copernican Revolution established principle that observation and mathematics superior to authority, simplicity as criterion of truth, becoming foundation of modern scientific method"
+        },
+        {
+            "title": "范式转变理论",
+            "title_en": "Paradigm Shift Theory",
+            "description": "库恩以哥白尼革命为例提出科学革命和范式转变理论，解释科学理论如何发生根本性变革",
+            "description_en": "Kuhn used Copernican Revolution as example to propose theory of scientific revolutions and paradigm shifts, explaining how scientific theories undergo fundamental transformation"
+        }
+    ],   
+    
+    "influenced_by": [
+        {
+            "civilization": "古希腊",
+            "contribution": "阿里斯塔克斯的日心说思想，虽然被忽视，但启发了哥白尼",
+            "civilization_en": "Ancient Greece",
+            "contribution_en": "Aristarchus's heliocentric ideas, though ignored, inspired Copernicus"
+        },
+        {
+            "civilization": "托勒密",
+            "contribution": "地心说体系的复杂性促使哥白尼寻找更简单的解释",
+            "civilization_en": "Ptolemy",
+            "contribution_en": "Complexity of geocentric system prompted Copernicus to seek simpler explanation"
+        },
+        {
+            "civilization": "阿拉伯天文学",
+            "contribution": "保存和发展了古希腊天文学，提供了更精确的观测数据",
+            "civilization_en": "Arab Astronomy",
+            "contribution_en": "Preserved and developed ancient Greek astronomy, provided more precise observational data"
+        },
+        {
+            "civilization": "文艺复兴",
+            "contribution": "人文主义精神和对古典知识的重新发现为新思想提供了土壤",
+            "civilization_en": "Renaissance",
+            "contribution_en": "Humanist spirit and rediscovery of classical knowledge provided soil for new ideas"
+        }
+    ],
+    
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Nikolaus_Kopernikus.jpg/400px-Nikolaus_Kopernikus.jpg",
+    
+    "additional_images": [
+        {
+            "url": "de_revolutionibus_diagram.jpg",
+            "caption": "《天体运行论》中的太阳系图解",
+            "caption_en": "Solar system diagram from De revolutionibus"
+        },
+        {
+            "url": "geocentric_vs_heliocentric.jpg",
+            "caption": "地心说与日心说模型对比",
+            "caption_en": "Comparison of geocentric and heliocentric models"
+        },
+        {
+            "url": "frombork_cathedral.jpg",
+            "caption": "弗龙堡大教堂，哥白尼工作和研究的地方",
+            "caption_en": "Frombork Cathedral, where Copernicus worked and researched"
+        },
+        {
+            "url": "copernicus_monument.jpg",
+            "caption": "华沙的哥白尼纪念碑",
+            "caption_en": "Copernicus monument in Warsaw"
+        }
+    ],
+    
+    "age_appropriate_content": {
+        "ages_6_9": {
+            "explanation": "哥白尼发现了一个大秘密：不是太阳绕着地球转，而是地球绕着太阳转！就像你坐在旋转木马上，看起来周围在转，其实是你在转。地球每天转一圈，所以有白天和黑夜；每年绕太阳转一圈，所以有春夏秋冬。",
+            "activity": "用手电筒当太阳，地球仪当地球，转动地球仪观察白天黑夜的变化"
+        },
+        "ages_10_13": {
+            "explanation": "哥白尼提出了革命性的日心说：太阳在中心，地球和其他行星绕太阳运转。这个理论比托勒密的地心说简单得多，只需要34个圆圈而不是80多个。但这个想法在当时很危险，因为与《圣经》和教会的教导矛盾。哥白尼等了30年才出版，直到临终前。后来伽利略、开普勒、牛顿等科学家证明了他是对的。",
+            "activity": "制作太阳系模型，模拟地心说和日心说，对比两种模型的复杂程度"
+        },
+        "ages_14_18": {
+            "explanation": "哥白尼的日心说不仅是天文学理论的转变，更是人类思想史上的革命。它挑战了亚里士多德-托勒密体系和教会权威，开启了科学革命。虽然哥白尼的理论还不完善（仍用圆形轨道，缺乏物理解释），但他确立了简洁性原则和数学方法在科学中的重要性。日心说的接受经历了漫长过程，涉及科学、宗教、哲学的复杂互动。哥白尼革命的意义超越天文学，它改变了人类对自身在宇宙中地位的认知，确立了理性和观测优于权威的科学精神。",
+            "activity": "深入研究哥白尼革命的历史背景，分析科学与宗教的关系，探讨范式转变的哲学意义，计算行星轨道参数"
+        }
+    },
+    
+    "common_misconceptions": [
+        {
+            "misconception": "哥白尼发明了望远镜",
+            "misconception_en": "Copernicus invented the telescope",
+            "correction": "哥白尼从未使用过望远镜，因为望远镜是在他去世66年后（1609年）才由伽利略发明的。哥白尼只用肉眼和简单仪器观测，完全依靠数学推理提出日心说。",
+            "correction_en": "Copernicus never used telescope because it was invented by Galileo 66 years after his death (1609). Copernicus only used naked eye and simple instruments for observation, relying entirely on mathematical reasoning to propose heliocentrism."
+        },
+        {
+            "misconception": "日心说立即被接受",
+            "misconception_en": "Heliocentrism was immediately accepted",
+            "correction": "日心说的接受经历了漫长过程。最初大多数人只把它当作计算工具，不相信它是真实的。直到伽利略的望远镜观测、开普勒的行星定律、牛顿的万有引力，日心说才逐渐被接受。从1543年出版到完全确认，用了近300年。",
+            "correction_en": "Heliocentrism's acceptance was long process. Initially most people only viewed it as calculation tool, didn't believe it was real. Not until Galileo's telescope observations, Kepler's planetary laws, Newton's gravitation did heliocentrism gradually gain acceptance. From 1543 publication to complete confirmation took nearly 300 years."
+        },
+        {
+            "misconception": "哥白尼因为日心说被烧死",
+            "misconception_en": "Copernicus was burned at stake for heliocentrism",
+            "correction": "哥白尼自然死亡，没有因为日心说受到迫害。他在临终前才出版著作，而且出版商加了保护性序言。真正因为支持日心说受迫害的是伽利略（被软禁）和布鲁诺（被烧死，但主要因为其他异端思想）。",
+            "correction_en": "Copernicus died naturally, wasn't persecuted for heliocentrism. He only published on deathbed, and publisher added protective preface. Those truly persecuted for supporting heliocentrism were Galileo (house arrest) and Bruno (burned, but mainly for other heretical thoughts)."
+        },
+        {
+            "misconception": "日心说完全正确",
+            "misconception_en": "Heliocentrism is completely correct",
+            "correction": "哥白尼的日心说虽然革命性，但不完全正确。太阳不是宇宙中心，只是银河系中的一颗普通恒星；行星轨道不是圆形而是椭圆；太阳本身也在运动。但哥白尼迈出了最关键的一步：让地球动起来，建立了正确的太阳系结构。",
+            "correction_en": "Though revolutionary, Copernican heliocentrism isn't completely correct. Sun isn't universe's center, just ordinary star in Milky Way; planetary orbits aren't circular but elliptical; Sun itself also moves. But Copernicus took most crucial step: setting Earth in motion, establishing correct solar system structure."
+        }
+    ],
+    
+    "extension_topics": [
+        {
+            "topic": "开普勒行星运动三定律",
+            "topic_en": "Kepler's Three Laws of Planetary Motion",
+            "description": "开普勒发现行星轨道是椭圆的，完善了哥白尼的日心说，使预测精度大大提高。三大定律描述了行星运动的精确规律。",
+            "description_en": "Kepler discovered planetary orbits are elliptical, perfecting Copernican heliocentrism, greatly improving prediction accuracy. Three laws describe precise patterns of planetary motion."
+        },
+        {
+            "topic": "牛顿万有引力定律",
+            "topic_en": "Newton's Law of Universal Gravitation",
+            "description": "牛顿用万有引力定律从物理学角度解释了为什么行星绕太阳运转，完成了哥白尼革命，建立了经典力学体系。",
+            "description_en": "Newton explained from physics perspective why planets orbit Sun using law of universal gravitation, completing Copernican Revolution, establishing classical mechanics system."
+        },
+        {
+            "topic": "恒星视差与地球运动的证明",
+            "topic_en": "Stellar Parallax and Proof of Earth's Motion",
+            "description": "1838年贝塞尔首次测量到恒星视差，最终直接证明了地球在运动，彻底确认了日心说。",
+            "description_en": "In 1838 Bessel first measured stellar parallax, finally directly proving Earth moves, completely confirming heliocentrism."
+        },
+        {
+            "topic": "哥白尼原理与现代宇宙学",
+            "topic_en": "Copernican Principle and Modern Cosmology",
+            "description": "哥白尼原理认为我们在宇宙中的位置不特殊。现代宇宙学发现宇宙没有中心，各处大致相同，这是哥白尼思想的延伸。",
+            "description_en": "Copernican Principle states our position in universe isn't special. Modern cosmology discovered universe has no center, roughly same everywhere—extension of Copernican thought."
+        },
+        {
+            "topic": "科学革命与范式转变",
+            "topic_en": "Scientific Revolution and Paradigm Shift",
+            "description": "哥白尼革命是科学革命的开端，也是库恩范式转变理论的经典案例，展示了科学理论如何发生根本性变革。",
+            "description_en": "Copernican Revolution was beginning of Scientific Revolution, also classic case of Kuhn's paradigm shift theory, showing how scientific theories undergo fundamental transformation."
+        }
+    ]
+}

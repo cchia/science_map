@@ -1,0 +1,14 @@
+{
+    "name": "戈特弗里德·威廉·莱布尼茨",
+    "name_en": "Gottfried Wilhelm Leibniz",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+    "bio_short": "德国哲学家、数学家和逻辑学家。他与牛顿独立发明了微积分，发明了二进制数系统，提出了单子论哲学体系，是启蒙时代最重要的思想家之一。",
+    "bio_short_en": "German philosopher, mathematician, and logician. He independently invented calculus alongside Newton, invented the binary number system, proposed the Monadology philosophical system, and was one of the most important thinkers of the Enlightenment.",
+    "events": [
+      "leibniz_calculus_1684",
+      "leibniz_philosophy_1710",
+      "leibniz_binary_1703",
+      "leibniz_calculator_1694"      
+    ]
+  }
+

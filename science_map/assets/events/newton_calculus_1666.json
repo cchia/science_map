@@ -1,0 +1,221 @@
+{
+    "id": "newton_calculus_1666",
+    "personId": "isaac_newton",
+    "title": "发明微积分 (流数法)",
+    "title_en": "Invention of Calculus (Method of Fluxions)",
+    "year": 1666,
+    "lat": 52.843,
+    "lng": -0.627,
+    "city": "乌尔索普庄园",
+    "city_en": "Woolsthorpe Manor",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": [
+        "数学",
+        "物理学"
+    ],
+    "field_en": [
+        "Mathematics",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Fundamental_Theorem_of_Calculus.svg",
+        "video": {
+            "url": "https://www.youtube.com/embed/ObHJJYvu3RE",
+            "title": "微分 (Crash Course)",
+            "title_en": "Derivatives (Crash Course)",
+            "duration": "10:01"
+        }
+    },
+    "summary": {
+        "text": "在躲避瘟疫期间，牛顿在他乡下的家中发展出了“流数法”，这套理论最终演变成了现代微积分。它提供了研究变化率（导数）和累积量（积分）的数学工具。",
+        "text_en": "While avoiding the plague, Newton developed his 'Method of Fluxions' at his country home. This theory became modern calculus, providing tools to study rates of change (derivatives) and accumulation (integrals).",
+        "key_points": [
+            "发展了导数（流数）的概念",
+            "发展了积分的概念",
+            "证明了导数和积分是互逆运算"
+        ],
+        "key_points_en": [
+            "Developed the concept of the derivative (fluxion)",
+            "Developed the concept of the integral",
+            "Proved that differentiation and integration are inverse operations"
+        ]
+    },
+    "story": {
+        "text": "1665年，伦敦大瘟疫爆发，剑桥大学关闭。23岁的牛顿回到了乌尔索普庄园。在这18个月的“奇迹年”里，他不仅奠定了微积分的基础，还包括万有引力和光学理论。他称微积分为“流数法”，用于描述物体运动的瞬时变化。",
+        "text_en": "In 1665, the Great Plague shut down Cambridge University. A 23-year-old Newton returned to Woolsthorpe Manor. In this 18-month 'Year of Miracles' (Annus mirabilis), he laid the foundations for calculus, as well as universal gravitation and optics. He called calculus the 'Method of Fluxions' to describe the instantaneous change of a moving object."
+    },
+    "fun_facts": [
+        {
+            "icon": "⚗️",
+            "text": "牛顿（Newton）和莱布尼茨（Leibniz）就谁先发明了微积分而展开了激烈的学术论战。现在历史学家认为他们是各自独立发明的。",
+            "text_en": "Newton and Leibniz had a bitter academic dispute over who invented calculus first. Historians now agree they both discovered it independently."
+        },
+        {
+            "icon": "⏳",
+            "text": "牛顿称导数为“流数”（Fluxion），意为“流逝的量”，称积分为“流量”（Fluent）。这个术语现在已不再使用。",
+            "text_en": "Newton called the derivative a 'Fluxion' (flowing quantity) and the integral a 'Fluent'. These terms are no longer used today."
+        },
+        {
+            "icon": "🤫",
+            "text": "尽管牛顿在1666年就有了微积分的思想，但他直到1704年才正式发表，比莱布尼茨晚了很多年。",
+            "text_en": "Although Newton had the idea in 1666, he didn't formally publish it until 1704, many years after Leibniz."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一下你在开车。微积分的“导数”就像你车上的速度表，告诉你此刻开得有多快（瞬时变化率）。微积分的“积分”就像里程表，告诉你总共开了多远（累积的总量）。微积分基本定理就是说：你的速度（速度表）决定了你的总里程（里程表）是如何增加的！",
+        "text_en": "Imagine you're driving. The 'derivative' in calculus is like your speedometer: it tells you *how fast* you are going right now (instantaneous rate of change). The 'integral' is like your odometer: it tells you *how far* you have gone (total accumulation). The Fundamental Theorem of Calculus just says that your speed (speedometer) is what *causes* your total distance (odometer) to change!"
+    },
+    "principle": {
+        "title": "微积分基本定理",
+        "title_en": "The Fundamental Theorem of Calculus",
+        "key_points": [
+            {
+                "icon": "📈",
+                "title": "微分 (导数)",
+                "title_en": "Differentiation (Derivative)",
+                "text": "测量函数在某一点的瞬时变化率，即曲线的斜率。",
+                "text_en": "Measures the instantaneous rate of change of a function, i.e., the slope of the curve."
+            },
+            {
+                "icon": "📉",
+                "title": "积分 (积分)",
+                "title_en": "Integration (Integral)",
+                "text": "计算曲线下的面积，代表总累积量。",
+                "text_en": "Calculates the area under a curve, representing total accumulation."
+            },
+            {
+                "icon": "🤝",
+                "title": "基本定理",
+                "title_en": "Fundamental Theorem",
+                "text": "微分和积分是互为逆运算。这二者联系起来，彻底改变了数学。",
+                "text_en": "Differentiation and integration are inverse operations. This connection revolutionized mathematics."
+            }
+        ]
+    },
+    "applications": [
+        {
+            "icon": "🪐",
+            "title": "物理与天文学",
+            "title_en": "Physics & Astronomy",
+            "text": "描述行星运动、流体动力学和电磁场。",
+            "text_en": "Describes planetary motion, fluid dynamics, and electromagnetic fields."
+        },
+        {
+            "icon": "🏗️",
+            "title": "工程学",
+            "title_en": "Engineering",
+            "text": "设计桥梁、飞机和优化系统。",
+            "text_en": "Used to design bridges, aircraft, and optimize systems."
+        },
+        {
+            "icon": "💰",
+            "title": "经济学",
+            "title_en": "Economics",
+            "text": "用于计算“边际成本”和“边际收益”。",
+            "text_en": "Used to calculate 'marginal cost' and 'marginal revenue'."
+        },
+        {
+            "icon": "💻",
+            "title": "计算机图形学",
+            "title_en": "Computer Graphics",
+            "text": "用于创建复杂的3D模型和光影渲染。",
+            "text_en": "Used to create complex 3D models and render light and shadow."
+        }
+    ],
+    "experiment": {
+        "title": "动手实验：用方格纸计算面积",
+        "title_en": "Experiment: Calculate Area with Graph Paper",
+        "materials": [
+            "一张方格纸",
+            "一支笔",
+            "你的手"
+        ],
+        "materials_en": [
+            "Graph Paper",
+            "A Pen",
+            "Your Hand"
+        ],
+        "description": "1. 把你的手放在方格纸上，用笔沿着边缘画出轮廓。\n2. 统计轮廓内完整的方格有多少个 (A)。\n3. 统计被轮廓线穿过的方格有多少个 (B)。\n4. 你的手的估算面积 ≈ A + (B / 2)。",
+        "description_en": "1. Place your hand on graph paper and trace its outline with a pen.\n2. Count all the *full* squares inside the outline (A).\n3. Count all the squares that the outline *touches* or crosses (B).\n4. Your hand's estimated area ≈ A + (B / 2).",
+        "why": "这就是积分的基本思想！你把一个不规则的形状（你的手）分解成了无数个可以计算的小方格，然后把它们的面积加起来。微积分就是用无限小的“方格”来得到精确答案的方法。",
+        "why_en": "This is the basic idea of integration! You are breaking an irregular shape (your hand) into many small, countable squares and adding their areas. Calculus is a method to get the *exact* answer by using infinitely small 'squares'."
+    },
+    "impact": {
+        "text": "微积分被认为是人类思想史上最伟大的成就之一。它为经典力学提供了数学语言，并直接推动了工业革命。没有微积分，就没有现代物理学、工程学、金融学或数据科学。",
+        "text_en": "Calculus is considered one of the greatest achievements in human thought. It provided the mathematical language for classical mechanics and directly fueled the Industrial Revolution. Without calculus, modern physics, engineering, finance, or data science would not exist.",
+        "stats": [
+            {
+                "number": "2",
+                "label": "独立发明者",
+                "label_en": "Independent Inventors"
+            },
+            {
+                "number": "300+",
+                "label": "年科学基石",
+                "label_en": "Years of Scientific Bedrock"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "archimedes_calculus_BC240",
+                "contribution": "用“穷竭法”计算曲线下面积，是积分思想的雏形",
+                "contribution_en": "Used 'Method of Exhaustion' to calculate area under curves, an early form of integration"
+            },
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "用数学描述运动，提出了瞬时速度的问题",
+                "contribution_en": "Described motion mathematically, posing the problem of instantaneous velocity"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_gravity_1687",
+                "contribution": "提供了计算行星运动和万有引力所需的数学工具",
+                "contribution_en": "Provided the mathematical tools needed to calculate universal gravitation"
+            },
+            {
+                "id": "einstein_general_relativity_1915",
+                "contribution": "广义相对论中使用的张量分析是微积分的延伸",
+                "contribution_en": "Tensor analysis used in General Relativity is an extension of calculus"
+            }
+        ],
+        "legacy_text": "牛顿的微积分（流数法）与莱布尼茨独立发明的微积分一起，成为了现代科学、工程和经济学几乎所有分支的数学基础。",
+        "legacy_text_en": "Newton's calculus (Method of Fluxions), along with Leibniz's independent invention, became the mathematical foundation for nearly all branches of modern science, engineering, and economics."
+    },
+    "related_concepts": [
+        "极限",
+        "导数",
+        "积分",
+        "流数法",
+        "莱布尼茨"
+    ],
+    "related_concepts_en": [
+        "Limit",
+        "Derivative",
+        "Integral",
+        "Method of Fluxions",
+        "Leibniz"
+    ],
+    "quiz": {
+        "question": "微积分基本定理连接了哪两个核心概念？",
+        "question_en": "The Fundamental Theorem of Calculus connects which two core concepts?",
+        "options": [
+            "代数与几何",
+            "曲线的斜率与曲线下的面积",
+            "速度与加速度",
+            "行星与苹果"
+        ],
+        "options_en": [
+            "Algebra and Geometry",
+            "The slope of a curve and the area under it",
+            "Velocity and Acceleration",
+            "Planets and Apples"
+        ],
+        "answer": 1,
+        "explanation": "基本定理的伟大之处在于它证明了“求斜率”（微分）和“求面积”（积分）是彼此相反的运算，就像加法和减法一样。",
+        "explanation_en": "The greatness of the theorem is that it proves 'finding the slope' (differentiation) and 'finding the area' (integration) are inverse operations, just like addition and subtraction."
+    }
+}

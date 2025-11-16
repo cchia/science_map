@@ -1,0 +1,11 @@
+{
+    "name": "伽利略·伽利莱",
+    "name_en": "Galileo Galilei",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Justus_Sustermans_-_Portrait_of_Galileo_Galilei_%28Uffizi%29.jpg",
+    "bio_short": "意大利天文学家、物理学家和工程师。他因开创性的天文观测和对运动学的研究，被誉为“观测天文学之父”和“现代科学之父”。",
+    "bio_short_en": "An Italian astronomer, physicist and engineer. His pioneering astronomical observations and studies of motion have earned him the titles 'father of observational astronomy' and 'father of modern science'.",
+    "events": [
+      "galileo_telescope_1610",
+      "galileo_motion_1638"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "毕达哥拉斯",
+    "name_en": "Pythagoras",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg",
+    "bio_short": "古希腊哲学家、数学家和神秘主义者，毕达哥拉斯学派的创始人。他以“万物皆数”的理念、毕达哥拉斯定理和灵魂轮回说而闻名。",
+    "bio_short_en": "A Greek philosopher, mathematician, and mystic who founded the Pythagorean brotherhood. He is famous for the concept 'All is number,' the Pythagorean theorem, and the doctrine of metempsychosis (transmigration of souls).",
+    "events": [
+      "pythagoras_philosophy_BC520"
+    ]
+  }

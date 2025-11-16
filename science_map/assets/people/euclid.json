@@ -1,0 +1,10 @@
+{
+    "name": "欧几里得",
+    "name_en": "Euclid",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+    "bio_short": "古希腊数学家，生活在亚历山大，被誉为“几何学之父”。他的巨著《几何原本》是西方数学史上最具影响力的作品，它建立了严谨的公理化方法。",
+    "bio_short_en": "An ancient Greek mathematician who lived in Alexandria, often referred to as the 'Father of Geometry'. His treatise, 'The Elements', is one of the most influential works in the history of mathematics, establishing the rigorous axiomatic method.",
+    "events": [
+      "euclid_elements_BC300"
+    ]
+  }

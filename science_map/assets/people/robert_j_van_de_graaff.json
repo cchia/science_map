@@ -1,0 +1,10 @@
+{
+    "name": "罗伯特·J·范德格拉夫",
+    "name_en": "Robert J. Van de Graaff",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Robert_Van_de_Graaff.jpg",
+    "bio_short": "美国物理学家和工程师。他发明了“范德格拉夫起电机”，一种能够产生极高电压（数百万伏特）的设备，并将其用作早期“粒子加速器”的电源，以推动核物理研究。",
+    "bio_short_en": "An American physicist and engineer. He invented the 'Van de Graaff generator', a device capable of producing extremely high voltages (millions of volts), which was used as a power supply for early 'particle accelerators' to advance nuclear physics.",
+    "events": [
+      "van_de_graaff_generator_1929"
+    ]
+  }

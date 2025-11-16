@@ -1,0 +1,172 @@
+{
+    "id": "cockcroft_walton_1932",
+    "personId": ["john_cockcroft", "ernest_walton"],
+    "title": "首次“用人工加速粒子”分裂原子核",
+    "title_en": "First to 'Split the Atom' with Artificially Accelerated Particles",
+    "year": 1932,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥",
+    "city_en": "Cambridge",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/atom_split.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=3XCoGsm7kZ0",
+        "title": "首次“用人工加速粒子”分裂原子核",
+        "title_en": "How the Atom Was Split for the First Time",
+        "duration": "8:13"
+      }
+    },
+    
+    "summary": {
+      "text": "在欧内斯特·卢瑟福（Ernest Rutherford）的指导下，约翰·科克罗夫特（John Cockcroft）和欧内斯特·沃尔顿（Ernest Walton）建造了第一台实用的“粒子加速器”，即“科克罗夫特-沃尔顿发电机”。这台机器能产生极高的直流电压（约70万伏特）。1932年，他们用这台机器加速“质子”（Protons），并用其“轰击”一块“锂”(Lithium) 靶。他们成功地将锂原子核“分裂”成了两个“阿尔法粒子”（Alpha particles，即氦原子核）。这是人类历史上第一次“用人工加速的粒子”分裂原子核，并首次在实验上验证了爱因斯坦的“质能方程”(E=mc²)。",
+      "text_en": "Working under Ernest Rutherford, John Cockcroft and Ernest Walton built one of the first practical 'particle accelerators', the 'Cockcroft-Walton generator', which created a massive DC voltage (~700,000 Volts). In 1932, they used this machine to accelerate *protons* and fire them at a *lithium* target. They succeeded in 'splitting the atom': the lithium nucleus broke apart into two 'alpha particles' (helium nuclei). This was the first time in history an atom had been split by an *artificially accelerated* particle and the first experimental verification of Einstein's E=mc².",
+      "key_points": [
+        "首次用“人工加速”的粒子“分裂原子核”",
+        "建造了“科克罗夫特-沃尔顿发电机”（一种粒子加速器）",
+        "用“质子”轰击“锂”，产生了“氦”",
+        "首次在实验上验证了爱因斯坦的 E=mc²",
+        "获得了1951年诺贝尔物理学奖"
+      ],
+      "key_points_en": [
+        "First to 'Split the Atom' with *artificially* accelerated particles",
+        "Built the 'Cockcroft-Walton generator' (a particle accelerator)",
+        "Fired protons at lithium, producing helium",
+        "First experimental proof of Einstein's E=mc²",
+        "Won the 1951 Nobel Prize in Physics"
+      ]
+    },
+  
+    "story": {
+      "text": "在1930年代，核物理学家们都在进行一场“竞赛”：如何“分裂原子核”。“原子核之父”卢瑟福相信，他们需要极高能量的“子弹”（粒子）才能“敲开”原子核。科克罗夫特和沃尔顿建造了一台“电压倍增器”（`van_de_graaff_generator_1929` 的竞争对手），它能将电压层层叠加，产生巨大的能量。他们将质子（氢原子核）加速，并射向一块薄薄的锂靶。在靶的另一侧，他们放置了一个“荧光屏”。当实验进行时，他们在荧光屏上看到了微小的“闪光”！这些闪光是由两个背向飞出的“阿尔法粒子”（氦）撞击屏幕引起的。他们测量了这两个氦粒子的总能量，发现它“大于”他们射入的质子的能量。这个“多出来的”能量，不多不少，正好等于反应中“损失的”那一点点“质量”——完美地验证了爱因斯坦的 E=mc²。",
+      "text_en": "In the 1930s, the race was on to 'split the atom'. Rutherford, the 'father of the nucleus', believed they needed high-energy 'bullets' (particles) to crack it open. Cockcroft and Walton built a 'voltage multiplier' (a rival to the `van_de_graaff_generator_1929`) that could stack voltage up to enormous levels. They accelerated protons (hydrogen nuclei) and aimed them at a thin lithium target. On the other side, they placed a 'scintillation screen'. When they ran the experiment, they saw *tiny flashes of light* on the screen. These were the two alpha particles (helium) flying apart back-to-back. When they measured the *total energy* of these two helium particles, they found it was *greater* than the energy of the proton they shot in. This 'extra' energy *perfectly* matched the tiny amount of 'mass' that was *lost* in the reaction—a perfect proof of Einstein's E=mc².",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/56/Proton-proton_reaction_chain.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚛️",
+        "text": "这是人类历史上第一次“人造核裂变”。",
+        "text_en": "This was the first 'artificial' nuclear fission in human history."
+      },
+      {
+        "icon": " Nobel",
+        "text": "他们因为这项1932年的开创性工作，在近20年后的1951年才获得了诺贝尔物理学奖。",
+        "text_en": "They won the Nobel Prize in Physics for this work in 1951, almost 20 years after the experiment."
+      },
+      {
+        "icon": "⚡",
+        "text": "他们的“科克罗夫特-沃尔顿发电机”设计非常成功，至今仍被用于世界各地的粒子加速器（如CERN）中，作为“预加速器”（即“起步”阶段）来使用。",
+        "text_en": "Their 'Cockcroft-Walton generator' design was so successful that it is *still* used today in particle accelerators (like at CERN) as a 'pre-accelerator' stage."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你用一颗“BB弹”（质子）去射一块“薄饼干”（锂原子）。\n科克罗夫特和沃尔顿是第一个把“BB弹”加速到如此之快，以至于这颗“BB弹”不仅打穿了“饼干”，还把它“打碎”成了**两块**（两个氦原子）。\n更神奇的是，当他们“称量”这两块碎片的“重量”（能量）时，发现它们加起来竟然比原来的“饼干”和“BB弹”还要“重”（能量更高）！这些“多出来的”能量，正是爱因斯坦（`einstein_special_relativity_1905`）预言的、由“损失的质量”转化而来的：E=mc²。",
+      "text_en": "Imagine trying to shoot a 'BB pellet' (a proton) at a 'wafer cookie' (a lithium atom).\nCockcroft and Walton were the first to accelerate that 'BB' so fast that it didn't just punch a hole—it *shattered* the 'cookie' into *two new pieces* (two helium atoms).\nThe magic was, when they 'weighed' the energy of those two new pieces, they found they had *more energy* than the original proton and cookie combined! This 'extra' energy was exactly the amount *mass* that had been 'lost' in the crash, perfectly proving Einstein's (`einstein_special_relativity_1905`) E=mc².",
+      "diagram": "assets/images/atom_split.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "核物理 (Nuclear Physics)",
+          "title_en": "Nuclear Physics",
+          "text": "这个实验开创了“粒子加速器物理学”的时代，使科学家能够系统性地“探测”和“分裂”原子核。",
+          "text_en": "This experiment launched the entire field of 'accelerator physics', giving scientists a tool to systematically 'probe' and 'split' the atomic nucleus."
+        },
+        {
+          "icon": "💥",
+          "title": "验证 E=mc²",
+          "title_en": "Verification of E=mc²",
+          "text": "这是“质能方程”的第一个“人工”实验证明，证明了“质量”可以被“转化”为“能量”。",
+          "text_en": "This was the first *artificial* experimental proof of the mass-energy equivalence formula, proving that 'mass' could be 'converted' into 'energy'."
+        },
+        {
+          "icon": "⚡",
+          "title": "高压工程",
+          "title_en": "High-Voltage Engineering",
+          "text": "“科克罗夫特-沃尔顿发电机”（或称“电压倍增器”）至今仍被广泛用于X射线机、电视机和粒子加速器中以产生高电压。",
+          "text_en": "The 'Cockcroft-Walton generator' (or 'voltage multiplier') is still a standard engineering design used in X-ray machines, televisions, and particle accelerators to generate high voltage."
+        }
+      ],
+  
+    "impact": {
+      "text": "科克罗夫特和沃尔顿的实验是“核时代”的开端。它（与范德格拉夫起电机 `van_de_graaff_generator_1929` 同期）标志着物理学从“观察”自然转向了“改变”自然。通过首次“分裂”原子核，他们释放了“核能”，并为10年后的“曼哈顿计划”和“核能时代”提供了最初的实验基础。",
+      "text_en": "Cockcroft and Walton's experiment (along with the `van_de_graaff_generator_1929`) was the starting gun for the 'Nuclear Age'. It marked the moment physics shifted from *observing* nature to *changing* it. By being the first to 'split' the atom, they unleashed 'nuclear energy' and provided the initial experimental basis that would lead to the Manhattan Project and the age of nuclear power 10 years later.",
+      "stats": [
+          {
+            "number": "700,000",
+            "label": "伏特 (电压)",
+            "label_en": "Volts"
+          },
+          {
+            "number": "1",
+            "label": "个被分裂的原子 (锂)",
+            "label_en": "Atom Split (Lithium)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "rutherford_nucleus_1911",
+          "contribution": "卢瑟福（他的导师，他发现了原子核，并设定了“分裂它”的挑战）",
+          "contribution_en": "Ernest Rutherford (their mentor, who discovered the nucleus and set the challenge to 'split it')"
+        },
+        {
+          "id": "einstein_special_relativity_1905",
+          "contribution": "爱因斯坦（其 E=mc² 公式是科克罗夫特和沃尔顿试图在实验上验证的）",
+          "contribution_en": "Einstein (his E=mc² formula was what they were trying to experimentally verify)"
+        },
+        {
+          "id": "van_de_graaff_generator_1929",
+          "contribution": "范德格拉夫（其“起电机”是“直流电”加速器的竞争设计方案）",
+          "contribution_en": "Van de Graaff (his generator was the 'competing design' for a DC particle accelerator)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "lawrence_cyclotron_1932",
+          "contribution": "欧内斯特·劳伦斯（其“回旋加速器”是另一种更强大的加速器设计，很快超越了科克罗夫特-沃尔顿发电机）",
+          "contribution_en": "Ernest Lawrence (his 'Cyclotron' was an alternative, more powerful accelerator design that soon surpassed it)"
+        },
+        {
+          "id": "manhattan_project_1942",
+          "contribution": "曼哈顿计划（所有“核裂变”研究都源于科克罗夫特和沃尔顿的这次“首裂”）",
+          "contribution_en": "The Manhattan Project (all 'nuclear fission' research stems from this first artificial splitting of the atom)"
+        }
+      ],
+      "legacy_text": "科克罗夫特和沃尔顿建造了一台“人造火山”（加速器），并首次利用它“分裂”了原子，释放了被锁在质量中的能量。",
+      "legacy_text_en": "Cockcroft and Walton built an 'artificial volcano' (an accelerator) and used it to 'split' the atom for the first time, unleashing the energy locked inside mass."
+    },
+  
+    "related_concepts": ["分裂原子 (Splitting the Atom)", "粒子加速器 (Particle Accelerator)", "科克罗夫特-沃尔顿发电机 (Cockcroft-Walton generator)", "E=mc²", "质子 (Proton)", "锂 (Lithium)", "阿尔法粒子 (Alpha Particle)", "卢瑟福 (Rutherford)", "核物理 (Nuclear Physics)"],
+    "related_concepts_en": ["Splitting the Atom", "Particle Accelerator", "Cockcroft-Walton generator", "E=mc²", "Proton", "Lithium", "Alpha Particle", "Rutherford", "Nuclear Physics"],
+  
+    "quiz": {
+      "question": "科克罗夫特和沃尔顿1932年的实验，首次在“实验上”验证了哪一个著名的“理论”方程？",
+      "question_en": "The 1932 Cockcroft-Walton experiment was the first *experimental* verification of which famous *theoretical* equation?",
+      "options": [
+        "F = ma (牛顿第二定律)",
+        "E = mc² (爱因斯坦质能等价)",
+        "V = IR (欧姆定律)",
+        "E = hf (普朗克量子假说)"
+      ],
+      "options_en": [
+        "F = ma (Newton's Second Law)",
+        "E = mc² (Einstein's Mass-Energy Equivalence)",
+        "V = IR (Ohm's Law)",
+        "E = hf (Planck's Quantum Hypothesis)"
+      ],
+      "answer": 1,
+      "explanation": "他们通过测量，发现反应“后”的粒子（两个氦）的总能量，大于反应“前”的粒子（一个质子）的能量。这个“多出来的”能量，等于反应中“消失了的”那部分质量。这是 E=mc² 的第一个实验证据。",
+      "explanation_en": "They measured the energy of the particles *after* the reaction (two helium) and found it was *greater* than the energy of the particle *before* (one proton). This 'new' energy perfectly matched the tiny amount of *mass* that was 'lost' in the reaction. It was the first experimental proof of E=mc²."
+    }
+  }

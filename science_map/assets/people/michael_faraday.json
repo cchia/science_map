@@ -1,0 +1,15 @@
+{
+    "name": "迈克尔·法拉第",
+    "name_en": "Michael Faraday",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Michael_Faraday_sitting_crop.jpg",
+    "bio_short": "英国物理学家和化学家，被誉为“实验科学史上最伟大的实验学家”。他发现了“电磁感应”（发电机原理）、“电解定律”和“法拉第效应”，是电磁学领域的奠基人。",
+    "bio_short_en": "An English physicist and chemist, widely hailed as one of the greatest experimentalists in history. He discovered electromagnetic induction (the principle of the electric generator), the laws of electrolysis, and the Faraday effect, laying the foundation for electromagnetism.",
+    "events": [
+        "faraday_burner_1825",
+        "faraday_benzene_1825",
+        "faraday_induction_1831",
+        "faraday_electrolysis_1834",
+        "faraday_ice_pail_1843",
+        "faraday_effect_1845"
+    ]
+  }

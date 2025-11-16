@@ -1,0 +1,10 @@
+{
+    "name": "萨摩斯的阿里斯塔克斯",
+    "name_en": "Aristarchus of Samos",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/98/Aristarchos_von_Samos_%28Denkmal%29.jpeg",
+    "bio_short": "古希腊天文学家和数学家，第一个提出完整日心说模型的人，比哥白尼早了约1800年。",
+    "bio_short_en": "An ancient Greek astronomer and mathematician who was the first to propose a complete heliocentric model, ~1,800 years before Copernicus.",
+    "events": [
+      "aristarchus_heliocentrism_BC270"
+    ]
+  }

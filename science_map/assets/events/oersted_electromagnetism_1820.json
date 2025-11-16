@@ -1,0 +1,160 @@
+{
+    "id": "oersted_electromagnetism_1820",
+    "personId": "hans_christian_oersted",
+    "title": "发现电流产生磁场 (电磁学)",
+    "title_en": "Discovers Current Creates Magnetism (Electromagnetism)",
+    "year": 1820,
+    "lat": 55.6761,
+    "lng": 12.5683,
+    "city": "哥本哈根",
+    "city_en": "Copenhagen",
+    "country": "丹麦",
+    "country_en": "Denmark",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/electromagnetism.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=V-irinjvhmc",
+        "title": "奥斯特的实验：电与磁的联系",
+        "title_en": "Oersted's experiment (& magnetic field due to current)",
+        "duration": "9:05"
+      }
+    },
+    
+    "summary": {
+      "text": "丹麦物理学家汉斯·克里斯蒂安·奥斯特（Hans Christian Ørsted）在一次课堂演示中，偶然发现了一个划时代的现象：当他将一根载有“电流”（来自伏打电堆 `volta_battery_1800`）的导线靠近“指南针”时，指南针的磁针会发生“偏转”。这是人类历史上第一次在实验上证明了“电”和“磁”这两种（以前被认为是完全独立的）力之间存在着深刻的联系。这一发现开创了“电磁学”(Electromagnetism) 这一全新领域。",
+      "text_en": "During a lecture demonstration, Danish physicist Hans Christian Ørsted accidentally discovered an epochal phenomenon: when a wire carrying an 'electric current' (from a Voltaic Pile, `volta_battery_1800`) was brought near a 'magnetic compass', the compass needle *deflected*. This was the first time in history that a *link* was experimentally proven between 'electricity' and 'magnetism'—two forces previously thought to be completely separate. This discovery founded the entire field of 'Electromagnetism'.",
+      "key_points": [
+        "发现了“电磁学”(Electromagnetism)",
+        "证明了“电流”会产生“磁场”",
+        "统一了“电”和“磁”",
+        "实验：电流使指南针偏转",
+        "启发了法拉第 (`faraday_induction_1831`)"
+      ],
+      "key_points_en": [
+        "Discovered 'Electromagnetism'",
+        "Proved that an electric *current* produces a *magnetic field*",
+        "Unified electricity and magnetism",
+        "Experiment: Current deflects a compass needle",
+        "Inspired Faraday (`faraday_induction_1831`)"
+      ]
+    },
+  
+    "story": {
+      "text": "1820年4月，奥斯特正在给学生们讲授“电”（来自伏打电池）和“磁”（来自磁铁）的知识。当时，人们认为这两种力是完全独立的。为了好玩，他决定在打开“电流”的瞬间，将导线放到指南针上方，看看会发生什么。令他（和全班学生）震惊的是，当电流接通时，磁针“猛地”偏转了90度，指向与导线垂直。当他切断电流，磁针又指回了北方。他发现了“电”可以“产生”“磁”。他花了三个月的时间来验证这个实验，并在1820年7月发表了他简短的拉丁文论文，在整个欧洲科学界引发了一场“风暴”。",
+      "text_en": "In April 1820, Ørsted was giving a lecture on electricity (from a battery) and magnetism (from a lodestone), which everyone assumed were separate. On a whim, he decided to see what would happen if he passed a current *over* a compass needle. To his (and his students') astonishment, the moment the current from the `volta_battery_1800` was switched on, the compass needle *violently deflected* 90 degrees, perpendicular to the wire. He turned the current off; the needle returned to north. He had discovered that *electricity creates magnetism*. He spent three months confirming the effect, then published his short Latin paper in July 1820, setting off a firestorm across the European scientific world."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👨‍🏫",
+        "text": "这个改变世界的发现，是在一次（可能准备不足的）课堂演示中“偶然”发生的。",
+        "text_en": "This world-changing discovery was made 'by accident' during a (possibly badly-prepared) lecture to students."
+      },
+      {
+        "icon": "Unit",
+        "text": "为了纪念他，“磁场强度”的CGS单位（厘米-克-秒）被命名为“奥斯特”(Oersted, Oe)。",
+        "text_en": "In his honor, the CGS unit of magnetic field strength is named the 'Oersted' (Oe)."
+      },
+      {
+        "icon": "🧭",
+        "text": "奥斯特还发现，磁场是“环绕”着导线的（即“右手定则”），这是一种全新的“力”的形式，它不像引力那样指向中心。",
+        "text_en": "Ørsted also discovered the magnetic field was *circular* around the wire (the 'right-hand rule'), a completely new kind of force that didn't point 'to' or 'from' the source, like gravity."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1820年之前，人们认为“电”（来自电池）和“磁”（来自磁铁）是两种完全不同的东西，就像“苹果”和“橙子”。\n奥斯特在一次课上，偶然把一根“通电的电线”放在了一个“指南针”上。指南针疯了似的转了个弯。\n这个实验证明了：“电”和“磁”是“亲戚”！他证明了，当“电”在导线中“流动”时，它会在导线周围“产生”一个“看不见的磁场”。\n这个发现就是“电磁学”的诞生日。",
+      "text_en": "Before 1820, everyone thought 'electricity' (from a battery) and 'magnetism' (from a magnet) were totally separate things, like 'apples' and 'oranges'.\nØrsted, during a lecture, accidentally put a *wire with electricity flowing through it* over a *compass*. The compass needle *went crazy*.\nThis proved: electricity and magnetism are *related*! He showed that when electricity *flows* (a current), it *creates* an invisible magnetic field around the wire. This was the birth of 'electromagnetism'."
+    },
+  
+    "applications": [
+        {
+          "icon": "⚙️",
+          "title": "电动机 (Electric Motor)",
+          "title_en": "The Electric Motor",
+          "text": "奥斯特的发现（电生磁）是“电动机”的理论基础。法拉第在几个月后，就利用这个原理制造了第一个“电动机”原型。",
+          "text_en": "Ørsted's discovery (electricity makes magnetism) is the theoretical basis for the 'electric motor'. Michael Faraday used this principle to build the first prototype *months* later."
+        },
+        {
+          "icon": "🧲",
+          "title": "电磁铁 (Electromagnet)",
+          "title_en": "The Electromagnet",
+          "text": "威廉·斯特金（William Sturgeon）在1825年利用奥斯特的原理，将通电的导线缠绕在铁芯上，发明了“电磁铁”，这是所有现代电子设备（如继电器、扬声器）的基础。",
+          "text_en": "William Sturgeon (1825) used Ørsted's principle to invent the 'electromagnet' (by wrapping a current-carrying wire around an iron core), the basis for all modern electronics (relays, loudspeakers)."
+        },
+        {
+          "icon": "📡",
+          "title": "电磁理论",
+          "title_en": "Electromagnetic Theory",
+          "text": "这一发现是法拉第（`faraday_induction_1831`）和麦克斯韦（`maxwell_equations_1861`）建立“电磁学”统一理论的“第一块多米诺骨牌”。",
+          "text_en": "This discovery was the 'first domino' that led Faraday (`faraday_induction_1831`) and Maxwell (`maxwell_equations_1861`) to build the unified theory of electromagnetism."
+        }
+      ],
+  
+    "impact": {
+      "text": "奥斯特的发现是19世纪最重要的科学突破之一。它在“电”和“磁”之间架起了一座桥梁，从而开创了“电磁学”这一全新学科。这一发现直接导致了法拉第发明“电动机”和“发电机”，以及麦克斯韦将“光”也统一进来的“电磁场理论”。可以说，我们整个现代电气化和通信（无线电、互联网）的世界，都始于奥斯特课堂上那根偏转的磁针。",
+      "text_en": "Ørsted's discovery was one of the most important of the 19th century. It built the 'bridge' between electricity and magnetism, founding the new science of 'electromagnetism'. It led *directly* to Faraday's invention of the motor and generator, and to Maxwell's unified field theory (which included light). Our entire modern world of electricity and communication (radio, internet) began with that twitching compass needle in his classroom.",
+      "stats": [
+          {
+            "number": "1820",
+            "label": "年 (电磁学诞生)",
+            "label_en": "Year (Birth of Electromagnetism)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "volta_battery_1800",
+          "contribution": "伏打电堆（提供了实验所需的、第一个“持续稳定”的电流源）",
+          "contribution_en": "Volta's Battery (provided the first 'steady, continuous' source of current needed for the experiment)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "faraday_induction_1831",
+          "contribution": "法拉第（奥斯特证明了“电生磁”，法拉第受其启发，去证明了“磁生电”）",
+          "contribution_en": "Michael Faraday (Ørsted showed 'electricity creates magnetism'; Faraday, inspired, set out to prove 'magnetism creates electricity')"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其“麦克斯韦方程组”的第一个方程，就是对奥斯特“电生磁”现象的数学化）",
+          "contribution_en": "James Clerk Maxwell (his 'First Equation' is the mathematical formalization of Ørsted's 'current creates magnetism' discovery)"
+        },
+        {
+          "id": "morse_code_1837",
+          "contribution": "莫尔斯（其“电报”的“电磁铁”接收器，是基于奥斯特的原理工作的）",
+          "contribution_en": "Samuel Morse (his telegraph 'sounder'—an electromagnet—worked on Ørsted's principle)"
+        }
+      ],
+      "legacy_text": "奥斯特偶然地将“电”和“磁”连接在了一起，开创了“电磁学”时代。",
+      "legacy_text_en": "Ørsted accidentally connected 'electricity' and 'magnetism', launching the age of electromagnetism."
+    },
+  
+    "related_concepts": ["电磁学 (Electromagnetism)", "磁场 (Magnetic Field)", "电流 (Electric Current)", "指南针 (Compass)", "右手定则 (Right-Hand Rule)", "法拉第 (Faraday)", "麦克斯韦 (Maxwell)", "伏打电堆 (Voltaic Pile)"],
+    "related_concepts_en": ["Electromagnetism", "Magnetic Field", "Electric Current", "Compass", "Right-Hand Rule", "Faraday", "Maxwell", "Voltaic Pile"],
+  
+    "quiz": {
+      "question": "汉斯·克里斯蒂安·奥斯特（Hans Christian Ørsted）在1820年的实验中，发现了“电”和“磁”之间的什么关系？",
+      "question_en": "What relationship between electricity and magnetism did Hans Christian Ørsted discover in his 1820 experiment?",
+      "options": [
+        "“磁场”可以产生“电流”（磁生电）",
+        "“电流”可以产生“磁场”（电生磁）",
+        "“电”和“磁”是两种完全无关的力",
+        "“电”可以被“磁”中和"
+      ],
+      "options_en": [
+        "That a magnetic field can create an electric current (Magnetism creates Electricity)",
+        "That an electric current can create a magnetic field (Electricity creates Magnetism)",
+        "That electricity and magnetism are two totally separate forces",
+        "That electricity can be neutralized by magnetism"
+      ],
+      "answer": 1,
+      "explanation": "奥斯特的实验证明了“电生磁”：当他接通“电流”时，一个“磁场”就出现了，并使指南针偏转。这是（`faraday_induction_1831`）“磁生电”的“反向”发现。",
+      "explanation_en": "Ørsted's experiment proved 'Electricity creates Magnetism': when he turned the 'current' on, a 'magnetic field' appeared and moved the compass. This is the inverse of Faraday's (`faraday_induction_1831`) discovery ('Magnetism creates Electricity')."
+    }
+  }

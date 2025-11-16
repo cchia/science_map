@@ -1,0 +1,134 @@
+{
+    "id": "wohler_aluminum_1827",
+    "personId": "friedrich_wohler",
+    "title": "首次分离出“纯铝”粉末",
+    "title_en": "First to Isolate 'Pure Aluminum' Powder",
+    "year": 1827,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "普鲁士 (今德国)",
+    "country_en": "Prussia (Modern Germany)",
+    "field": ["化学"],
+    "field_en": ["Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4AhZ8503WPs",
+        "title": "铝",
+        "title_en": "Aluminium (or Aluminum) ",
+        "duration": "11:51"
+      }
+    },
+    
+    "summary": {
+      "text": "德国化学家弗里德里希·维勒（Friedrich Wöhler，中文也译作“维勒”）在1827年改进了汉斯·克里斯蒂安·奥斯特（`oersted_aluminum_1825`）两年前的分离方法。奥斯特使用的是“钾汞齐”，得到的铝样品不纯且混有汞。维勒则使用了“纯的金属钾”(pure potassium) 与“无水氯化铝”反应，这是一种更强烈、更清洁的反应。通过这种方法，他成功制得了第一批“纯的铝粉末”，并首次得以准确地描述这种新金属的特性（如：极轻、银白色）。",
+      "text_en": "In 1827, German chemist Friedrich Wöhler improved upon the isolation method used by Hans Christian Ørsted (`oersted_aluminum_1825`) two years earlier. Where Ørsted had used a potassium *amalgam* (mixed with mercury), Wöhler used *pure potassium metal* to react with anhydrous aluminum chloride. This cleaner, more powerful reaction successfully produced the first samples of *pure aluminum powder*, allowing Wöhler to be the first to accurately describe the new metal's properties (e.g., its extreme lightness and silver-white color).",
+      "key_points": [
+        "首次制得了“纯铝”(Pure Aluminum) 样品（粉末）",
+        "改进了奥斯特 (`oersted_aluminum_1825`) 的方法",
+        "使用“纯钾”代替“钾汞齐”",
+        "首次得以准确描述铝的物理特性（如密度）"
+      ],
+      "key_points_en": [
+        "First to produce *pure* samples of aluminum (as a powder)",
+        "Improved upon Ørsted's (`oersted_aluminum_1825`) method",
+        "Used 'pure potassium' instead of 'potassium amalgam'",
+        "First to accurately describe aluminum's physical properties (like density)"
+      ]
+    },
+  
+    "story": {
+      "text": "维勒在1825年得知了奥斯特（`oersted_aluminum_1825`）的发现，并立即尝试重复该实验，但失败了。他没有放弃，而是改进了方法。他意识到奥斯特的“钾汞齐”反应不够剧烈，且容易污染样品。维勒冒险使用了反应性极强的“纯金属钾”（由戴维 `davy_electrochemistry_1808` 刚刚发现不久），将其与氯化铝一同加热。反应非常剧烈，最终他从灰色的熔渣中冲洗出了细小的、闪亮的“铝粉末”。他因此被（尤其在德国）广泛誉为铝的“真正”发现者，因为他是第一个制得纯样品并描述其特性的人。",
+      "text_en": "After hearing of Ørsted's (`oersted_aluminum_1825`) discovery, Wöhler tried to replicate it and failed. He then improved the method, realizing the potassium-amalgam was not reactive enough and contaminated the sample. Wöhler used *pure metallic potassium* (itself a recent discovery by Davy, `davy_electrochemistry_1808`) and heated it with aluminum chloride. The reaction was violent. After washing away the slag, he was left with fine, shiny 'aluminum powder'. He is often (especially in Germany) credited as the 'true' discoverer of aluminum, as he was the first to produce a *pure* sample and describe its properties."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💥",
+        "text": "维勒的这项工作是如此的“次要”，以至于它完全被他“第二年”（1828年）的另一项发现所掩盖：他“人工合成了尿素”(Urea)，沉重打击了“生命力”理论。",
+        "text_en": "This work was so 'minor' for Wöhler that it was completely overshadowed by his discovery *the following year* (1828): the artificial synthesis of 'Urea', which dealt a massive blow to the theory of 'Vitalism' in biology."
+      },
+      {
+        "icon": "⚗️",
+        "text": "维勒还用类似的方法，在1828年首次分离出了“铍”(Beryllium) 和“钇”(Yttrium) 元素。",
+        "text_en": "Wöhler used a similar chemical reduction method to become the first person to isolate the elements 'Beryllium' and 'Yttrium' in 1828."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "如果说奥斯特（`oersted_aluminum_1825`）是第一个“从矿石中（混着泥沙）淘出了几粒金沙”的人，那么维勒就是第一个“提炼”出“纯金粉末”的人。奥斯特的“铝”里混着“汞”，而维勒通过使用“纯钾”作为更强的“化学试剂”，成功地制造出了第一批“纯铝”。有了纯铝，科学家们才终于知道这种新金属到底有多轻、多亮。",
+      "text_en": "If Ørsted (`oersted_aluminum_1825`) was the first to 'pan for gold' and find a few flakes mixed with dirt, Wöhler was the first to 'refine' it into *pure gold powder*. Ørsted's aluminum was contaminated with mercury. Wöhler used a *stronger* chemical (pure potassium) to successfully produce the first *pure* samples. Only then did scientists finally know how light and bright this new metal truly was."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "材料科学 (Materials Science)",
+          "title_en": "Materials Science",
+          "text": "维勒的纯样品，使科学家得以首次测量铝的“真实”物理特性（如极低的密度），激发了人们寻找大规模生产方法的兴趣。",
+          "text_en": "Wöhler's pure sample allowed scientists to measure aluminum's *true* physical properties (like its very low density) for the first time, sparking the race for mass-production."
+        }
+      ],
+  
+    "impact": {
+      "text": "维勒的工作将“铝”从一个“不纯的、被汞污染的”实验室奇观，转变为一个“被确认的、纯净的”新元素。他是奥斯特和“霍尔-埃鲁法”（`hall_heroult_process_1886`）工业化量产之间的关键一步。他证明了“铝”是真实存在的，并且具有惊人的特性（极轻），从而激励了下一代人去寻找“更便宜”的生产方法。",
+      "text_en": "Wöhler's work transformed 'aluminum' from an 'impure, mercury-contaminated' lab curiosity into a *'confirmed, pure'* new element. He was the critical step between Ørsted's discovery and the industrial 'Hall-Héroult process' (`hall_heroult_process_1886`). He proved aluminum was *real* and had *amazing properties* (like being light), inspiring the next generation to find a *cheaper* way to make it.",
+      "stats": [
+          {
+            "number": "1827",
+            "label": "年 (首次获得纯铝)",
+            "label_en": "Year (First Pure Aluminum)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "oersted_aluminum_1825",
+          "contribution": "奥斯特（其1825年的发现，是维勒试图“复制”和“改进”的直接对象）",
+          "contribution_en": "Hans Christian Ørsted (his 1825 discovery was the direct experiment Wöhler was trying to 'replicate' and 'improve')"
+        },
+        {
+          "id": "davy_electrochemistry_1808",
+          "contribution": "汉弗莱·戴维（其“钾”元素的发现，为维勒提供了必要的“化学还原剂”）",
+          "contribution_en": "Humphry Davy (his discovery of 'potassium' provided Wöhler with the necessary 'chemical reagent')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "hall_heroult_process_1886",
+          "contribution": "霍尔-埃鲁法（维勒证明了铝的优良特性，激励了霍尔和埃鲁法去寻找“电解法”来实现大规模生产）",
+          "contribution_en": "Hall & Héroult (Wöhler's proof of aluminum's properties inspired the race that Hall and Héroult won with 'electrolysis')"
+        }
+      ],
+      "legacy_text": "弗里德里希·维勒是那个“提纯”了铝的人，他向世界展示了这种未来金属的真正形态。",
+      "legacy_text_en": "Friedrich Wöhler was the man who 'purified' aluminum, showing the world what this metal of the future truly looked like."
+    },
+  
+    "related_concepts": ["铝 (Aluminum)", "弗里德里希·维勒 (Friedrich Wöhler)", "奥斯特 (Ørsted)", "化学还原 (Chemical Reduction)", "钾 (Potassium)", "尿素 (Urea)", "霍尔-埃鲁法 (Hall-Héroult)"],
+    "related_concepts_en": ["Aluminum", "Friedrich Wöhler", "Ørsted", "Chemical Reduction", "Potassium", "Urea", "Hall-Héroult"],
+  
+    "quiz": {
+      "question": "弗里德里希·维勒（Wöhler）在1827年对奥斯特（Ørsted）的“铝分离法”做出了什么关键改进？",
+      "question_en": "What was Friedrich Wöhler's key improvement in 1827 to Ørsted's method for isolating aluminum?",
+      "options": [
+        "他使用了电解法",
+        "他使用了纯金属钾（代替钾汞齐）",
+        "他使用了本生灯",
+        "他使用了“图西圆偶”"
+      ],
+      "options_en": [
+        "He used electrolysis",
+        "He used *pure metallic potassium* (instead of potassium amalgam)",
+        "He used a Bunsen burner",
+        "He used a Tusi Couple"
+      ],
+      "answer": 1,
+      "explanation": "奥斯特（`oersted_aluminum_1825`）使用的是“钾汞齐”（钾和汞的合金），反应不完全且污染了样品。维勒使用了“纯钾”，反应更剧烈、更彻底，从而得到了第一批纯铝粉末。",
+      "explanation_en": "Ørsted (`oersted_aluminum_1825`) used a 'potassium amalgam' (an alloy with mercury), which reacted incompletely and contaminated the sample. Wöhler used *pure potassium*, which was far more reactive and clean, yielding the first pure aluminum powder."
+    }
+  }

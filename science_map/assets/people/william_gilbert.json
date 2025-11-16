@@ -1,0 +1,10 @@
+{
+    "name": "威廉·吉尔伯特",
+    "name_en": "William Gilbert",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/3e/William_Gilbert_45626i.jpg",
+    "bio_short": "英国皇家医师和物理学家，被誉为“实验科学之父”。他发表了《论磁石》，证明了地球是一块巨大的磁铁，并首次区分了电与磁。",
+    "bio_short_en": "An English royal physician and physicist, known as the 'father of experimental science'. He published 'De Magnete', proved the Earth is a giant magnet, and was the first to distinguish electricity from magnetism.",
+    "events": [
+      "gilbert_de_magnete_1600"
+    ]
+  }

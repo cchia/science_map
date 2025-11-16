@@ -1,0 +1,10 @@
+{
+    "name": "雅克·查理",
+    "name_en": "Jacques Charles",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/80/Portrait_du_physicien_Charles_%28cropped%29.jpg",
+    "bio_short": "法国发明家、科学家和数学家。他是人类历史上第一位氢气球飞行家，并（在未发表的情况下）发现了查理定律（气体体积-温度关系）。",
+    "bio_short_en": "A French inventor, scientist, and mathematician. He was the world's first hydrogen balloon pilot and the (unpublished) discoverer of Charles's Law (the volume-temperature gas law).",
+    "events": [
+      "charles_law_1787"
+    ]
+  }

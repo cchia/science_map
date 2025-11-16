@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "wikipedia": {
+      "command": "node",
+      "args": [
+        "/Users/cchia/projects/science_map/mcp-wikipedia-server/index.js"
+      ],
+      "env": {
+        "WIKI_API_URL": "https://en.wikipedia.org/api/rest_v1",
+        "WIKI_LANG": "en"
+      }
+    }
+  }
+}
+
+

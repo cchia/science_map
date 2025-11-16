@@ -1,0 +1,143 @@
+{
+    "id": "leibniz_calculator_1694",
+    "personId": "gottfried_leibniz",
+    "title": "完成“步进计算器” (Stepped Reckoner)",
+    "title_en": "Completes the 'Stepped Reckoner' Calculator",
+    "year": 1694,
+    "lat": 52.3759,
+    "lng": 9.7320,
+    "city": "汉诺威",
+    "city_en": "Hanover",
+    "country": "德国 (布伦瑞克-吕讷堡)",
+    "country_en": "Germany (Brunswick-Lüneburg)",
+    "field": ["数学", "工程学", "计算机"],
+    "field_en": ["Mathematics", "Engineering", "Computer Science"],
+    
+    "media": {
+      "event_image": "hhttps://upload.wikimedia.org/wikipedia/commons/9/92/Leibnitzrechenmaschine.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hYYfOKrkHis&t=41s",
+        "title": "莱布尼茨的步进计算器",
+        "title_en": "Leibniz's Calculator",
+        "duration": "8:22"
+      }
+    },
+    
+    "summary": {
+      "text": "戈特弗里德·威廉·莱布尼茨设计并（在1694年）完成了一台革命性的机械计算器，称为“步进计算器”(Stepped Reckoner)。这是第一台能够执行所有四种基本算术运算（加、减、乘、除）的计算器。其核心创新是一个名为“莱布尼茨轮”或“步进鼓”的精巧齿轮，它能够通过机械方式实现“重复加法”（即乘法）。",
+      "text_en": "Gottfried Wilhelm Leibniz designed and (in 1694) completed a revolutionary mechanical calculator called the 'Stepped Reckoner'. It was the *first* calculator capable of performing all four basic arithmetic operations: addition, subtraction, multiplication, and division. Its core innovation was a new mechanism called the 'Leibniz Wheel' or 'Stepped Drum', which allowed for repeated addition (multiplication) to be performed mechanically.",
+      "key_points": [
+        "第一台“四则运算”计算器 (能乘除)",
+        "发明了“莱布尼茨轮” (Leibniz Wheel) 步进鼓",
+        "极大地超越了帕斯卡的加法器",
+        "现代机械计算器的原型"
+      ],
+      "key_points_en": [
+        "First 'four-function' calculator (could multiply/divide)",
+        "Invented the 'Leibniz Wheel' (stepped drum)",
+        "Vastly superior to Pascal's adding machine",
+        "Prototype for all modern mechanical calculators"
+      ]
+    },
+  
+    "story": {
+      "text": "莱布尼茨在1672年见到了帕斯卡的计算器（`pascal_calculator_1645`），他称赞了这台机器，但立即开始思考如何改进它。帕斯卡的机器只能做加减法，而乘除法仍然需要人工重复操作。莱布尼茨的目标是“自动化”这个重复的过程。他的天才发明“步进鼓”是一个带有9个长度不等（从1到9）的齿的圆柱体。当你设置一个数字（比如“7”），一个辅助齿轮会移动到鼓上，使其在旋转一周时，只与其中7个齿啮合。通过转动曲柄，机器就可以自动、快速地重复执行加法，从而实现乘法。他曾说过一句名言：“让杰出的人才像奴隶一样在计算的苦役中浪费时间，这是不值得的。”",
+      "text_en": "After seeing Pascal's calculator (`pascal_calculator_1645`) in 1672, Leibniz set out to improve it. Pascal's machine could only add and subtract; multiplication still required tedious manual repetition. Leibniz's goal was to *automate* the repetition. His genius was the 'Stepped Drum': a cylinder with 9 teeth of increasing length. When you set a dial to '7', a small gear would slide along the drum to a position where, on one full turn, it would engage with *seven* teeth. By turning a crank, the machine could perform this repeated addition automatically, thus achieving multiplication. He famously said, 'It is unworthy of excellent men to lose hours like slaves in the labour of calculation.'",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Leibniz_Stepped_Reckoner_drawing.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🗣️",
+        "text": "莱布尼茨的名言：“让杰出的人才像奴隶一样在计算的苦役中浪费时间，这是不值得的，因为如果使用机器，任何人都可以胜任这项工作。”",
+        "text_en": "Leibniz's famous quote: 'It is unworthy of excellent men to lose hours like slaves in the labour of calculation which could safely be relegated to anyone else if machines were used.'"
+      },
+      {
+        "icon": "🏛️",
+        "text": "莱布尼茨在1673年向伦敦皇家学会展示了一个原型机，胡克（Robert Hooke）等人对其进行了审查。今天只有两台原始的“步进计算器”幸存下来。",
+        "text_en": "Leibniz demonstrated a prototype to the Royal Society in London in 1673, where it was examined by Robert Hooke. Only two original examples of the machine survive today."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "帕斯卡的计算器（`pascal_calculator_1645`）就像一个只能做“加法”的简单计算器。如果你想计算 5 × 3，你必须手动按“+5”三次。\n莱布尼茨的计算器则高级得多。你只需在转盘上设置好“5”，再在另一个转盘上设置好“3”，然后“摇动曲柄”，机器就会“自动”为你做三次“+5”的运算。他发明的“步进鼓”齿轮是第一个能让机器自动完成“乘法”的装置。",
+      "text_en": "Pascal's calculator (`pascal_calculator_1645`) was a simple adding machine. To calculate 5 x 3, you had to manually press '+5' three times.\nLeibniz's calculator was far more advanced. You just set one dial to '5', another to '3', and *turned the crank*. The machine would *automatically* do the '+5' operation three times for you. His 'stepped drum' gear was the first device that could 'automate' multiplication.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pascaline-CnAM_823-1-IMG_1506-black.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚙️",
+          "title": "机械计算器",
+          "title_en": "Mechanical Calculators",
+          "text": "“莱布尼茨轮”机制是如此成功，它成为了此后近300年里（直到1970年代电子计算器出现）所有机械计算器（如“Curta”手摇计算器）的设计基础。",
+          "text_en": "The 'Leibniz Wheel' mechanism was so successful it became the foundation for *all* mechanical calculators (like the 'Curta' hand-held calculator) for the next 300 years, until the electronic age."
+        },
+        {
+          "icon": "🤖",
+          "title": "计算的自动化",
+          "title_en": "Automation of Logic",
+          "text": "这是继帕斯卡之后，又一个证明“复杂的、基于规则的逻辑”（如乘法）可以被“机械化”和“自动化”的伟大范例。",
+          "text_en": "This was the next great proof, after Pascal, that complex, rule-based logic (like multiplication) could be 'mechanized' and 'automated'."
+        }
+      ],
+  
+    "impact": {
+      "text": "虽然“步进计算器”在当时过于昂贵和精密，无法大规模生产，但它的“概念”是革命性的。“莱布尼茨轮”的发明，是“计算硬件”历史上的一次重大飞跃。它证明了机器不仅可以“计数”，还可以“计算”。这一思想直接启发了后来的查尔斯·巴贝奇（Charles Babbage），并最终通向了现代计算机。",
+      "text_en": "While the Stepped Reckoner was too expensive and delicate to be mass-produced at the time, its *concept* was revolutionary. The 'Leibniz Wheel' was a major leap in the history of computing hardware. It proved that a machine could not just 'count', but *'compute'*. This idea directly inspired later figures like Charles Babbage and ultimately led to the modern computer.",
+      "stats": [
+          {
+            "number": "4",
+            "label": "则运算 (加减乘除)",
+            "label_en": "Arithmetic Functions"
+          },
+          {
+            "number": "300",
+            "label": "年 (统治性设计)",
+            "label_en": "Years of Dominant Design"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pascal_calculator_1645",
+          "contribution": "帕斯卡的计算器（作为莱布尼茨研究和改进的起点）",
+          "contribution_en": "Pascal's Calculator (which Leibniz studied and was inspired to improve upon)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "babbage_difference_engine_1822",
+          "contribution": "查尔斯·巴贝奇（其“差分机”和“分析机”是莱布尼茨“机械化计算”梦想的逻辑延伸）",
+          "contribution_en": "Charles Babbage (whose 'Difference' and 'Analytical' engines were the logical extension of Leibniz's dream of mechanized computation)"
+        }
+      ],
+      "legacy_text": "莱布尼茨的“步进计算器”是第一个能够自动执行乘除法的机器，是计算机硬件的真正鼻祖。",
+      "legacy_text_en": "Leibniz's 'Stepped Reckoner' was the first machine that could automate multiplication and division, making it a true ancestor of computer hardware."
+    },
+  
+    "related_concepts": ["步进计算器 (Stepped Reckoner)", "莱布尼茨轮 (Leibniz Wheel)", "机械计算器 (Mechanical Calculator)", "四则运算", "帕斯卡计算器 (Pascaline)", "巴贝奇 (Babbage)", "计算历史"],
+    "related_concepts_en": ["Stepped Reckoner", "Leibniz Wheel", "Mechanical Calculator", "Four-function calculator", "Pascaline", "Babbage", "History of Computing"],
+  
+    "quiz": {
+      "question": "莱布尼茨的“步进计算器”相比帕斯卡的计算器，实现了哪两项关键的新功能？",
+      "question_en": "What two critical new functions could Leibniz's 'Stepped Reckoner' perform that Pascal's calculator could not?",
+      "options": [
+        "加法和减法",
+        "乘法和除法",
+        "平方根和三角函数",
+        "二进制和十进制"
+      ],
+      "options_en": [
+        "Addition and Subtraction",
+        "Multiplication and Division",
+        "Square Roots and Trigonometry",
+        "Binary and Decimal"
+      ],
+      "answer": 1,
+      "explanation": "帕斯卡的计算器（Pascaline）是一台精巧的“加法器”，可以通过重复加法来实现乘法（但需要手动操作）。莱布尼茨的“步进鼓”是第一个能“自动”执行乘法（重复加法）和除法（重复减法）的机械装置。",
+      "explanation_en": "Pascal's Pascaline was a brilliant *adding machine* (multiplication was manual and repetitive). Leibniz's 'Stepped Drum' was the first mechanism that could *automate* multiplication (repeated addition) and division (repeated subtraction)."
+    }
+  }

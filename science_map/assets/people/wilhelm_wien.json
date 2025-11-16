@@ -1,0 +1,10 @@
+{
+    "name": "威廉·维恩",
+    "name_en": "Wilhelm Wien",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Wien2.jpg",
+    "bio_short": "德国物理学家，因其对热辐射定律（黑体辐射）的研究而获得了1911年的诺贝尔物理学奖。他的“维恩位移定律”和“维恩近似”是普朗克量子理论的关键垫脚石。",
+    "bio_short_en": "A German physicist who won the 1911 Nobel Prize in Physics for his work on thermal radiation (black-body radiation). His 'Wien's Displacement Law' and 'Wien Approximation' were critical stepping stones to Planck's quantum theory.",
+    "events": [
+      "wien_law_1896"
+    ]
+  }

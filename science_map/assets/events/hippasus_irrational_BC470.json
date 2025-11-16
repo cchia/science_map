@@ -1,0 +1,163 @@
+{
+    "id": "hippasus_irrational_BC470",
+    "personId": "hippasus",
+    "title": "发现无理数",
+    "title_en": "Discovers Irrational Numbers",
+    "year": -470,
+    "lat": 39.0833,
+    "lng": 17.1167,
+    "city": "克罗顿 (或在海上)",
+    "city_en": "Croton (or at sea)",
+    "country": "大希腊 (今意大利)",
+    "country_en": "Magna Graecia (Modern Italy)",
+    "field": [
+        "哲学",
+        "数学"
+    ],
+    "field_en": [
+        "Mathematics",
+        "Philosophy"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Square_root_of_2_triangle.svg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=sbGjr_awePE",
+            "title": "理解无理数",
+            "title_en": "Making sense of irrational numbers",
+            "duration": "4:47"
+        }
+    },
+    "summary": {
+        "text": "希帕索斯（Hippasus）是毕达哥拉斯学派的成员，他（据传说）在应用毕达哥拉斯定理研究边长为1的正方形时，发现了其对角线长度 (√2) 无法表示为两个整数的比率（分数）。这一发现被称为“不可通约性”(Incommensurability)，即“无理数”的发现。这动摇了毕达哥拉斯学派“万物皆数（有理数）”的哲学根基，引发了数学史上的第一次重大危机。",
+        "text_en": "Hippasus, a member of the Pythagorean school, allegedly applied the Pythagorean theorem to a square with sides of length 1 and discovered its diagonal (√2) could not be expressed as a ratio of two integers (a fraction). This discovery of 'incommensurability', or 'irrational numbers', shattered the core Pythagorean philosophy that 'All is number (ratio)' and created the first great foundational crisis in mathematics.",
+        "key_points": [
+            "发现了“不可通约性” (Incommensurability)",
+            "证明了 √2 是无理数",
+            "打破了毕达哥拉斯“万物皆数（有理数）”的信条",
+            "引发了古希腊数学的第一次“ foundational crisis”",
+            "传说希帕索斯因此被淹死"
+        ],
+        "key_points_en": [
+            "Discovered 'incommensurability'",
+            "Proved that √2 is irrational",
+            "Shattered the Pythagorean belief that 'All is number (ratio)'",
+            "Caused the first 'foundational crisis' of Greek mathematics",
+            "Legend says Hippasus was drowned for this discovery"
+        ]
+    },
+    "story": {
+        "text": "毕达哥拉斯学派是一个秘密兄弟会，其宇宙观建立在“万物皆为整数及其比例（分数）”的信念之上。希帕索斯的发现是致命的。他通过一个无可辩驳的数学证明（归谬法）表明，存在一种长度（如 √2），它根本“不存在”于他们的数字系统中。这个发现是如此具有颠覆性和“渎神”，以至于传说毕达哥拉斯学派的成员们将希帕索斯扔进海里淹死，作为他泄露这个“宇宙缺陷”的惩罚，试图保守这个秘密。",
+        "text_en": "The Pythagoreans were a secret brotherhood whose worldview was built on the belief that 'All is number' (meaning all is integer ratios, or fractions). Hippasus's discovery was lethal. He provided an irrefutable mathematical proof (reductio ad absurdum) that there are lengths (like √2) that simply *do not exist* in their number system. The discovery was so subversive and 'impious' that legend claims the Pythagoreans drowned Hippasus at sea as punishment for revealing this 'flaw' in the universe."
+    },
+    "fun_facts": [
+        {
+            "icon": "🤫",
+            "text": "希帕索斯的发现被认为是“渎神的”。毕达哥拉斯学派试图掩盖这个秘密，因为它从根本上否定了他们的哲学。",
+            "text_en": "Hippasus's discovery was considered 'heretical'. The Pythagoreans tried to suppress this secret as it fundamentally contradicted their entire philosophy."
+        },
+        {
+            "icon": "📐",
+            "text": "这个危机导致希腊数学家在接下来的一个世纪里，从信任“数字”（算术）转向了信任“几何”（长度和大小），因为几何图形可以直观地表示 √2（如正方形的对角线），即使它无法用数字写出来。",
+            "text_en": "This crisis caused Greek mathematicians for the next century to shift their trust from 'number' (arithmetic) to 'geometry' (magnitudes), because geometry could *show* √2 (as a square's diagonal) even when it couldn't be *written* as a number."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一下，你相信宇宙中所有的长度都可以用一把简单的尺子量出来（比如1米、1.5米、或2/3米）。毕达哥拉斯学派就是这么想的。但希帕索斯发现：如果你有一个边长为1米的正方形，它的对角线（√2 米）是“量不准”的。它不是1.4米，不是1.41米，也不是1.414米……你永远无法用一个简单的分数（如 7/5）来精确表示它。这个“无理”的长度的存在，摧毁了他们“一切皆有理”的世界观。",
+        "text_en": "Imagine you believe every length in the universe can be measured with a simple ruler (like 1 meter, 1.5 meters, or 2/3 of a meter). The Pythagoreans believed this. Hippasus discovered that if you have a perfect square with sides of 1 meter, the diagonal (√2 meters) is 'unmeasurable' with that ruler. It's not 1.4, not 1.41, not 1.414... you can *never* find a simple fraction (like 7/5) that equals it perfectly. The existence of this 'irrational' length destroyed their 'rational' worldview.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Square_root_of_2_triangle.svg"
+    },
+    "applications": [
+        {
+            "icon": " crisis",
+            "title": "数学的第一次基础危机",
+            "title_en": "First Foundational Crisis of Math",
+            "text": "这个发现迫使数学家重新思考“数”的定义，并认识到“数轴”上存在着比有理数多得多的“空隙”。",
+            "text_en": "This discovery forced mathematicians to rethink what 'number' means and to realize the number line was full of 'holes' that were not rational numbers."
+        },
+        {
+            "icon": "📐",
+            "title": "转向几何学",
+            "title_en": "The Primacy of Geometry",
+            "text": "由于算术（数字）失败了，希腊数学转向几何学（图形和大小），因为几何学可以处理“不可通约”的量。",
+            "text_en": "Because arithmetic (numbers) had failed, Greek mathematics turned to geometry (shapes and magnitudes), which could handle 'incommensurable' quantities."
+        }
+    ],
+    "impact": {
+        "text": "无理数的发现是西方思想史上的一个关键转折点。它摧毁了毕达哥拉斯学派的简单和谐，并为数学引入了“严谨性”的必要。这场危机直接导致了欧多克索斯（Eudoxus）的“比例论”和欧几里得（Euclid）的公理化几何学，他们试图在不依赖“数字”的情况下重建数学的基础。",
+        "text_en": "The discovery of irrational numbers was a key turning point in Western thought. It destroyed the simple harmony of the Pythagoreans and forced the need for 'rigor' into mathematics. This crisis led directly to Eudoxus's Theory of Proportions and Euclid's axiomatic geometry, which were attempts to rebuild mathematics on a logical foundation *without* relying on 'number'.",
+        "stats": [
+            {
+                "number": "2",
+                "label": "√2",
+                "label_en": "√2"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "pythagoras_theorem_BC500",
+                "contribution": "毕达哥拉斯定理（应用该定理于正方形，导致了此发现）",
+                "contribution_en": "The Pythagorean Theorem (applying it to a square led to the discovery)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "eudoxus_exhaustion_BC370",
+                "contribution": "欧多克索斯（其“比例论”就是为了解决这场无理数危机而发明的）",
+                "contribution_en": "Eudoxus (his 'Theory of Proportions' was invented specifically to solve this crisis)"
+            },
+            {
+                "id": "plato_forms_BC380",
+                "contribution": "柏拉图（其哲学强调理念世界高于感官世界，部分受到了数学中这种“不完美性”的启发）",
+                "contribution_en": "Plato (his philosophy, emphasizing Forms over the sensory world, was inspired by this 'imperfection' in numbers)"
+            },
+            {
+                "id": "euclid_elements_BC300",
+                "contribution": "欧几里得（其《几何原本》第十卷详细讨论了不可通约性）",
+                "contribution_en": "Euclid (Book X of his 'Elements' is dedicated to classifying incommensurable magnitudes)"
+            }
+        ],
+        "legacy_text": "希帕索斯的发现证明了“真理”（数学）可能与我们的直觉（万物皆有比例）相悖，这是科学精神的早期体现。",
+        "legacy_text_en": "Hippasus's discovery proved that mathematical truth could be counter-intuitive and contradict common belief ('all is ratio'), an early hallmark of the scientific spirit."
+    },
+    "related_concepts": [
+        "无理数",
+        "不可通约性",
+        "√2",
+        "希帕索斯",
+        "毕达哥拉斯学派",
+        "归谬法",
+        "数学危机"
+    ],
+    "related_concepts_en": [
+        "Irrational Numbers",
+        "Incommensurability",
+        "√2",
+        "Hippasus",
+        "Pythagoreanism",
+        "Reductio ad absurdum",
+        "Foundational Crisis"
+    ],
+
+    "quiz": {
+    "question": "希帕索斯的什么发现，动摇了毕达哥拉斯学派“万物皆数（有理数）”的信念？",
+    "question_en": "What discovery by Hippasus shattered the Pythagorean belief that 'All is number (rational)'?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Square_root_of_2_triangle.svg",
+    "options": [
+      "发现√2是一个“无理数”（无法表示为分数）",
+      "发现了“零”的存在",
+      "证明了杠杆原理",
+      "证明了地球是球形的"
+    ],
+    "options_en": [
+      "Discovering that √2 is an 'irrational number' (cannot be a fraction)",
+      "Discovering the existence of 'zero'",
+      "Proving the law of the lever",
+      "Proving the Earth is a sphere"
+    ],
+    "answer": 0,
+    "explanation": "毕达哥拉斯学派认为宇宙万物都可以用整数及其比例（分数）来解释。希帕索斯证明了边长为1的正方形的对角线（√2）无法用分数表示，这从根本上摧毁了他们的哲学。",
+    "explanation_en": "The Pythagoreans believed the entire universe was governed by integers and their ratios (fractions). Hippasus proved that the diagonal of a unit square (√2) could not be expressed as a fraction, which fundamentally destroyed their philosophy."
+  }    
+}

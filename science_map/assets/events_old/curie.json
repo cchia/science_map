@@ -1,0 +1,208 @@
+{
+    "id": "curie",
+    "title": "居里夫人发现镭",
+    "title_en": "Marie Curie Discovers Radium",
+    "year": 1898,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": "化学",
+    "field_en": "Chemistry",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Marie_Curie_c._1920s.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/w6JFRi0Qm_s",
+        "title": "居里夫人的故事",
+        "title_en": "Marie Curie's Story",
+        "duration": "5:20"
+      }
+    },
+    
+    "summary": {
+      "text": "玛丽·居里发现了放射性元素镭和钋，是第一位获得诺贝尔奖的女性，也是唯一获得两次诺贝尔奖（物理学和化学）的女性科学家。",
+      "text_en": "Marie Curie discovered radioactive elements radium and polonium, becoming the first woman to win a Nobel Prize and the only woman to win twice (Physics and Chemistry).",
+      "key_points": [
+        "发现镭和钋两种放射性元素",
+        "第一位女性诺贝尔奖得主",
+        "唯一两次获得诺贝尔奖的女性"
+      ],
+      "key_points_en": [
+        "Discovered radium and polonium",
+        "First woman to win Nobel Prize",
+        "Only woman to win Nobel Prize twice"
+      ]
+    },
+    
+    "story": {
+      "text": "居里夫人和丈夫在简陋的棚屋里，处理了几吨沥青铀矿，最终提炼出0.1克镭。工作条件极其艰苦，但她从不放弃。她的笔记本至今还有放射性！可惜长期接触放射性物质，她最终死于白血病。",
+      "text_en": "Marie Curie and her husband processed tons of pitchblende in a crude shed, finally extracting 0.1 grams of radium. Working conditions were extremely harsh, but she never gave up. Her notebooks are still radioactive today! Sadly, long-term radiation exposure led to her death from leukemia.",
+      "image": "https://source.unsplash.com/600x400/?laboratory,scientist,vintage"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "🏆",
+        "text": "她的女儿伊雷娜也获得了诺贝尔化学奖！居里家族共获得5次诺贝尔奖。",
+        "text_en": "Her daughter Irène also won the Nobel Prize in Chemistry! The Curie family won 5 Nobel Prizes total."
+      },
+      {
+        "icon": "💍",
+        "text": "她用诺贝尔奖金买了1克镭继续研究，而不是改善生活条件。",
+        "text_en": "She used Nobel Prize money to buy 1 gram of radium for research, not to improve living conditions."
+      },
+      {
+        "icon": "🇵🇱",
+        "text": "她把发现的元素命名为'钋'（Polonium），纪念她的祖国波兰。",
+        "text_en": "She named the element 'Polonium' after her homeland Poland."
+      }
+    ],
+    
+    "principle": {
+      "title": "放射性",
+      "title_en": "Radioactivity",
+      "diagram": "https://source.unsplash.com/600x400/?radioactive,atom,radiation",
+      "key_points": [
+        {
+          "icon": "⚛️",
+          "title": "原子核衰变",
+          "title_en": "Nuclear Decay",
+          "text": "不稳定的原子核自发放出射线，转变成其他元素",
+          "text_en": "Unstable nuclei spontaneously emit radiation, transforming into other elements"
+        },
+        {
+          "icon": "📡",
+          "title": "三种射线",
+          "title_en": "Three Types of Rays",
+          "text": "α射线（氦核）、β射线（电子）、γ射线（高能光子）",
+          "text_en": "α-rays (helium nuclei), β-rays (electrons), γ-rays (high-energy photons)"
+        },
+        {
+          "icon": "⏱️",
+          "title": "半衰期",
+          "title_en": "Half-life",
+          "text": "镭-226的半衰期是1600年，意味着1600年后剩一半",
+          "text_en": "Radium-226 half-life is 1600 years, meaning half remains after 1600 years"
+        },
+        {
+          "icon": "💡",
+          "title": "能量释放",
+          "title_en": "Energy Release",
+          "text": "放射性衰变释放能量，镭会自己发光发热",
+          "text_en": "Radioactive decay releases energy, radium glows and heats itself"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "🏥",
+        "title": "癌症治疗",
+        "title_en": "Cancer Treatment",
+        "image": "https://source.unsplash.com/300x200/?medical,treatment,hospital",
+        "text": "放射性同位素用于放疗，杀死癌细胞。",
+        "text_en": "Radioactive isotopes used in radiotherapy to kill cancer cells."
+      },
+      {
+        "icon": "🔬",
+        "title": "医学诊断",
+        "title_en": "Medical Diagnosis",
+        "image": "https://source.unsplash.com/300x200/?medical,scan,imaging",
+        "text": "PET扫描用放射性示踪剂检测疾病。",
+        "text_en": "PET scans use radioactive tracers to detect diseases."
+      },
+      {
+        "icon": "📅",
+        "title": "考古测年",
+        "title_en": "Archaeological Dating",
+        "image": "https://source.unsplash.com/300x200/?archaeology,fossil,ancient",
+        "text": "碳-14测年法确定文物和化石的年代。",
+        "text_en": "Carbon-14 dating determines age of artifacts and fossils."
+      },
+      {
+        "icon": "🔋",
+        "title": "核能发电",
+        "title_en": "Nuclear Power",
+        "image": "https://source.unsplash.com/300x200/?nuclear,power,energy",
+        "text": "核电站利用放射性元素衰变产生电力。",
+        "text_en": "Nuclear plants use radioactive decay to generate electricity."
+      }
+    ],
+    
+    "experiment": {
+      "title": "云室观察放射线",
+      "title_en": "Cloud Chamber Observing Radiation",
+      "image": "https://source.unsplash.com/600x300/?cloud-chamber,radiation",
+      "materials": ["干冰", "酒精", "透明容器"],
+      "materials_en": ["Dry ice", "Alcohol", "Clear container"],
+      "description": "在云室中可以看到放射线的径迹！α粒子留下粗短的轨迹，β粒子留下细长曲折的轨迹。这让看不见的放射线变得可见。",
+      "description_en": "In a cloud chamber you can see radiation tracks! α-particles leave thick short trails, β-particles leave thin winding trails. This makes invisible radiation visible.",
+      "why": "带电粒子穿过过饱和蒸汽时，会使蒸汽凝结成小液滴，形成可见的轨迹。",
+      "why_en": "Charged particles passing through supersaturated vapor cause condensation into droplets, forming visible tracks."
+    },
+    
+    "simple_explanation": {
+      "text": "有些元素会自己发光发热，这叫'放射性'。镭就是这样的元素，它的原子核不稳定，会放出射线。这些射线能穿透物体，可以用来治疗癌症！",
+      "text_en": "Some elements glow and heat themselves—this is 'radioactivity'. Radium is such an element; its nucleus is unstable and emits rays. These rays can penetrate objects and treat cancer!",
+      "diagram": "https://source.unsplash.com/500x300/?atom,radiation,nucleus"
+    },
+    
+    "impact": {
+      "text": "放射性的发现开启了原子时代，在医学、能源、考古等领域有重要应用。居里夫人的勇气和坚持激励了无数女性投身科学事业。",
+      "text_en": "Radioactivity discovery opened the atomic age, with important applications in medicine, energy, archaeology. Marie Curie's courage and persistence inspired countless women to pursue science.",
+      "stats": [
+        {
+          "number": "2×",
+          "label": "诺贝尔奖",
+          "label_en": "Nobel Prizes"
+        },
+        {
+          "number": "1st",
+          "label": "女性获奖者",
+          "label_en": "woman winner"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "roentgen",
+          "contribution": "X射线的发现启发了放射性研究",
+          "contribution_en": "X-ray discovery inspired radioactivity research"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "rutherford",
+          "contribution": "用放射性研究原子结构",
+          "contribution_en": "Used radioactivity to study atomic structure"
+        },
+        {
+          "id": "nuclear_fission",
+          "contribution": "放射性研究导致核裂变发现",
+          "contribution_en": "Radioactivity research led to nuclear fission discovery"
+        }
+      ],
+      "legacy_text": "居里夫人的放射性研究开启了原子时代。她的工作启发了卢瑟福发现原子核，最终导致了核裂变的发现和核能的应用。她不仅是伟大的科学家，更是女性科学家的先驱和榜样。",
+      "legacy_text_en": "Marie Curie's radioactivity research opened the atomic age. Her work inspired Rutherford to discover the atomic nucleus, ultimately leading to nuclear fission discovery and nuclear energy applications. She was not only a great scientist but also a pioneer and role model for women scientists."
+    },
+    
+    "related_concepts": ["放射性", "镭", "钋", "核物理", "原子核"],
+    "related_concepts_en": ["Radioactivity", "Radium", "Polonium", "Nuclear Physics", "Atomic Nucleus"],
+    
+    "quiz": {
+      "question": "居里夫人获得了几次诺贝尔奖？",
+      "question_en": "How many Nobel Prizes did Marie Curie win?",
+      "options": ["1次", "2次", "3次", "4次"],
+      "options_en": ["1", "2", "3", "4"],
+      "answer": 1,
+      "explanation": "居里夫人获得了2次诺贝尔奖：1903年物理学奖（与丈夫皮埃尔·居里共同获得）和1911年化学奖（独自获得）。",
+      "explanation_en": "Marie Curie won 2 Nobel Prizes: 1903 Physics (shared with husband Pierre Curie) and 1911 Chemistry (alone)."
+    },
+    
+    "influences": ["roentgen"]
+}

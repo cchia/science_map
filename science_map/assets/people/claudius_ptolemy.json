@@ -1,0 +1,10 @@
+{
+    "name": "克劳狄斯·托勒密",
+    "name_en": "Claudius Ptolemy",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ptolemy_1476_with_armillary_sphere_model.jpg",
+    "bio_short": "罗马时期埃及亚历山大的希腊数学家、天文学家和地理学家。他创立的“地心说”模型（托勒密体系）统治了西方天文学超过1400年。",
+    "bio_short_en": "A Greco-Roman mathematician, astronomer, and geographer in Alexandria, Egypt. He authored the 'Geocentric' model (Ptolemaic system), which dominated Western astronomy for over 1400 years.",
+    "events": [
+      "ptolemy_geocentrism_150"
+    ]
+  }

@@ -1,0 +1,143 @@
+{
+  "id": "helmholtz_electrodynamics_1870",
+  "personId": "hermann_von_helmholtz",
+  "title": "推广电磁理论并激励电磁波的发现",
+  "title_en": "Promotes Electrodynamic Theory & Spurs Discovery of EM Waves",
+  "year": 1870,
+  "lat": 52.5200,
+  "lng": 13.4050,
+  "city": "柏林",
+  "city_en": "Berlin",
+  "country": "德国",
+  "country_en": "Germany",
+  "field": ["物理学"],
+  "field_en": ["Physics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/VFPt_helmholtz_coil_thumb.svg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=K40lNL3KsJ4",
+      "title": "麦克斯韦方程组",
+      "title_en": "Maxwell's Equations: Crash Course Physics",
+      "duration": "10:48"
+    }
+  },
+  
+  "summary": {
+    "text": "在詹姆斯·克拉克·麦克斯韦（`maxwell_equations_1861`）发表其理论后，亥姆霍兹成为了德国物理学界推广、分析和检验该理论的核心人物。他将麦克斯韦的理论分解为更易于理解的形式，并发展了他自己的电动力学理论。最重要的是，亥姆霍兹在1879年设立了一项奖金，挑战德国的年轻物理学家“实验性地证明电磁波的存在”。他的学生海因里希·赫兹（Heinrich Hertz）接受了这一挑战。",
+    "text_en": "After James Clerk Maxwell (`maxwell_equations_1861`) published his theory, Helmholtz became the central figure in Germany for promoting, analyzing, and testing it. He broke Maxwell's theory down into more understandable forms and developed his own theory of electrodynamics. Most importantly, Helmholtz established a prize in 1879, challenging young German physicists to *experimentally prove* the existence of electromagnetic waves. His student, Heinrich Hertz, took up that challenge.",
+    "key_points": [
+      "推广并检验了麦克斯韦的电磁理论",
+      "提出了亥姆霍兹方程 (Helmholtz Equation)（波物理学）",
+      "设立奖项，激励了“电磁波”的发现",
+      "指导了海因里希·赫兹 (Heinrich Hertz)"
+    ],
+    "key_points_en": [
+      "Promoted and tested Maxwell's electromagnetic theory",
+      "Developed the 'Helmholtz Equation' (wave physics)",
+      "Established the prize that spurred the discovery of electromagnetic waves",
+      "Mentored Heinrich Hertz"
+    ]
+  },
+
+  "story": {
+    "text": "亥姆霍兹是麦克斯韦理论在欧洲大陆的主要“引路人”。虽然他本人对麦克斯韦的“位移电流”持怀疑态度，并试图建立一个（最终错误的）竞争理论，但他敏锐地意识到实验验证的重要性。他在柏林科学院设立了一个奖项，要求“实验性地证明电磁效应的传播速度是有限的”。他的学生海因里希·赫兹（Heinrich Hertz）在1886年（`hertz_waves_1887`）接受了这个挑战，并最终成功地在实验室中“制造”并发射了电磁波（无线电波）。",
+    "text_en": "Helmholtz was the primary 'champion' of Maxwell's theory on the continent. While he was skeptical of Maxwell's 'displacement current' and tried to build a competing (and ultimately wrong) theory, he was the one who saw the critical need for experimental proof. He set the Berlin Academy Prize to 'experimentally prove a finite propagation speed of electromagnetic effects.' His student, Heinrich Hertz, took up this challenge and, in 1886 (`hertz_waves_1887`), succeeded in *creating* electromagnetic waves (radio waves) in his lab.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Helmholtz_coil%2C_B_magnitude_cross_section.svg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "⚡",
+      "text": "“亥姆霍兹方程”(Helmholtz Equation) 是一个偏微分方程，它至今仍是物理学中用于描述“波”（如光波、声波、地震波）传播的基础工具。",
+      "text_en": "The 'Helmholtz Equation' is a partial differential equation that is still a fundamental tool in physics for describing waves of all kinds (light, sound, seismic)."
+    },
+    {
+      "icon": " coil",
+      "text": "他还发明了“亥姆霍兹线圈”(Helmholtz Coil)，这是一种能产生高度均匀磁场的装置，至今仍在物理实验室中广泛使用。",
+      "text_en": "He also invented the 'Helmholtz Coil', a device that produces a highly uniform magnetic field, which is still widely used in physics labs today."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "麦克斯韦（`maxwell_equations_1861`）在数学上“预言”了“无线电波”的存在，但没有人见过它们。\n亥姆霍兹是当时德国的“物理学教父”，他说：“这个理论很棒，但‘眼见为实’。我悬赏，谁能‘在实验室里把它造出来’？”\n他的学生赫兹（Hertz）说：“我来试试！” 几年后，赫兹成功了。\n因此，亥姆霍兹是那个“发起了终极挑战”的人，他激励并指导了“电磁波”的发现。",
+    "text_en": "Maxwell (`maxwell_equations_1861`) *predicted* radio waves existed using pure math, but no one had ever seen one.\nHelmholtz was the 'godfather' of German physics. He said, 'Great theory, but *show me*.' He offered a prize: 'Who can *build* one of these waves in a lab?'\nHis student, Hertz, said, 'I'll try.' And a few years later, Hertz succeeded.\nHelmholtz was the one who 'set the challenge' and *mentored* the discovery of electromagnetic waves.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/46/Helmholtz_coil%2C_Brookhaven_National_Laboratory.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "📡",
+        "title": "无线电波的发现",
+        "title_en": "Discovery of Radio Waves",
+        "text": "他的挑战和指导，直接导致了海因里希·赫兹（`hertz_waves_1887`）发现电磁波（无线电波）。",
+        "text_en": "His challenge and mentorship led *directly* to Heinrich Hertz's (`hertz_waves_1887`) discovery of electromagnetic (radio) waves."
+      },
+      {
+        "icon": "🧲",
+        "title": "亥姆霍兹线圈",
+        "title_en": "Helmholtz Coil",
+        "text": "他发明的“亥姆霍兹线圈”是现代物理学（如核磁共振 MRI）中用于创建均匀磁场的标准设备。",
+        "text_en": "The 'Helmholtz Coil' he invented is a standard piece of equipment in physics (e.g., in MRI development) for creating uniform magnetic fields."
+      }
+    ],
+
+  "impact": {
+    "text": "亥姆霍兹在电磁学上的最大影响，是作为麦克斯韦理论的“推广者”和“验证者”。他将麦克斯韦深奥的理论，转变成了德国物理学界的核心研究课题。他发起的“实验挑战”最终证实了麦克斯韦是正确的，并开启了“无线电时代”。",
+    "text_en": "Helmholtz's greatest impact in electromagnetism was as the 'promoter' and 'verifier' of Maxwell's theory. He turned Maxwell's obscure theory into the central research program of German physics. The experimental challenge he set *proved* Maxwell right and opened the door to the radio age.",
+    "stats": [
+        {
+          "number": "1879",
+          "label": "年 (设立柏林奖)",
+          "label_en": "Year (Berlin Prize Established)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "maxwell_equations_1861",
+        "contribution": "麦克斯韦（其电磁理论是亥姆霍兹试图理解、推广和检验的对象）",
+        "contribution_en": "James Clerk Maxwell (whose theory was the subject Helmholtz sought to understand, promote, and test)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "hertz_waves_1887",
+        "contribution": "海因里希·赫兹（他的学生，接受了亥姆霍兹的挑战并发现了电磁波）",
+        "contribution_en": "Heinrich Hertz (his student, who took his challenge and discovered EM waves)"
+      },
+      {
+        "id": "planck_quantum_1900",
+        "contribution": "马克斯·普朗克（普朗克是亥姆霍兹的学生和继任者，深受其热力学和电磁学思想的影响）",
+        "contribution_en": "Max Planck (Planck was Helmholtz's student and successor, deeply influenced by his thermodynamics and electromagnetism)"
+      }
+    ],
+    "legacy_text": "亥姆霍兹是将麦克斯韦的“理论”转变为“实验事实”的关键桥梁。",
+    "legacy_text_en": "Helmholtz was the critical bridge that turned Maxwell's 'theory' into an 'experimental fact'."
+  },
+
+  "related_concepts": ["麦克斯韦方程组 (Maxwell's Equations)", "电磁波 (Electromagnetic Waves)", "海因里希·赫兹 (Heinrich Hertz)", "亥姆霍兹方程 (Helmholtz Equation)", "亥姆霍兹线圈 (Helmholtz Coil)", "马克斯·普朗克 (Max Planck)"],
+  "related_concepts_en": ["Maxwell's Equations", "Electromagnetic Waves", "Heinrich Hertz", "Helmholtz Equation", "Helmholtz Coil", "Max Planck"],
+
+  "quiz": {
+    "question": "亥姆霍兹在电磁学上的最大贡献之一，是激励并指导了他的学生完成了哪项发现？",
+    "question_en": "One of Helmholtz's greatest contributions to electromagnetism was mentoring and challenging his student to make what discovery?",
+    "options": [
+      "发现X射线",
+      "发现电子",
+      "在实验中证实“电磁波”（无线电波）的存在",
+      "发明电话"
+    ],
+    "options_en": [
+      "The discovery of X-rays",
+      "The discovery of the electron",
+      "The experimental proof of 'electromagnetic waves' (radio waves)",
+      "The invention of the telephone"
+    ],
+    "answer": 2,
+    "explanation": "亥姆霍兹设立了一个奖项，挑战物理学家去“证明”麦克斯韦的理论。他的学生海因里希·赫兹（Heinrich Hertz）接受了挑战，并在1886-1888年间首次在实验室中制造和探测到了电磁波。",
+    "explanation_en": "Helmholtz set a prize challenging physicists to *prove* Maxwell's theory. His student, Heinrich Hertz, took up the challenge and, in 1886-1888, was the first to successfully create and detect electromagnetic waves in a lab."
+  }
+}

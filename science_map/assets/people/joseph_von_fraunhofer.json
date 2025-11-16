@@ -1,0 +1,12 @@
+{
+    "name": "约瑟夫·冯·夫琅禾费",
+    "name_en": "Joseph von Fraunhofer",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/41/Joseph_v_Fraunhofer.jpg",
+    "bio_short": "德国光学家和物理学家。他是一位顶尖的透镜制造商，发明了“光谱仪”，并系统性地绘制了太阳光谱中的“夫琅禾费（吸收）谱线”，为光谱学的诞生奠定了基础。",
+    "bio_short_en": "A German optician and physicist. He was a master lens maker who invented the 'spectroscope' and systematically mapped the 'Fraunhofer (absorption) lines' in the solar spectrum, laying the foundation for spectroscopy.",
+    "events": [
+      "fraunhofer_lines_1814",
+      "fraunhofer_wavelength_1821",
+      "fraunhofer_diffraction_1821"
+    ]
+  }

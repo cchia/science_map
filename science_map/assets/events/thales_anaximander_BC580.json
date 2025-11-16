@@ -1,0 +1,167 @@
+{
+    "id": "thales_anaximander_BC580",
+    "personId": "thales",
+    "title": "创立米利都学派 (自然哲学)",
+    "title_en": "Founds the Milesian School (Natural Philosophy)",
+    "year": -580,
+    "lat": 37.5306,
+    "lng": 27.2797,
+    "city": "米利都",
+    "city_en": "Miletus",
+    "country": "爱奥尼亚 (今土耳其)",
+    "country_en": "Ionia (Modern Turkey)",
+    "field": [
+        "哲学",
+        "天文学"
+    ],
+    "field_en": [
+        "Astronomy",
+        "Philosophy"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Floating_Earth_Thales_Anaximander.svg",
+        "video": {
+            "url": "https://www.youtube.com/embed/Waw_ce62qsw",
+            "title": "泰勒斯与自然哲学的诞生",
+            "title_en": "Thales of Miletus: Birth of Philosophy & Water as the Universe's Core",
+            "duration": "11:03"
+        }
+    },
+    "summary": {
+        "text": "泰勒斯被认为是西方第一位哲学家。他开创了米利都学派，首次尝试用“自然主义”（而非神话）来解释世界。他提出了一个核心问题：“万物的本原（Arche）是什么？” 他的答案是“水”。他的学生阿那克西曼德则提出了更抽象的“阿派朗”（Apeiron，无定形者）。这标志着从“神话思维”到“理性思维”的转变。",
+        "text_en": "Thales is considered the first Western philosopher. He founded the Milesian School, making the first attempt to explain the world using naturalism rather than mythology. He asked the core question: 'What is the Arche (fundamental substance)?' His answer was 'Water'. His student, Anaximander, proposed the more abstract 'Apeiron' (the boundless). This marked the shift from 'mythos' to 'logos' (myth to reason).",
+        "key_points": [
+            "自然主义的诞生：用自然解释自然",
+            "寻找“本原”(Arche)",
+            "泰勒斯提出“水是万物之源”",
+            "阿那克西曼德提出“阿派朗”(Apeiron)",
+            "泰勒斯因成功预测公元前585年的日食而闻名"
+        ],
+        "key_points_en": [
+            "Birth of Naturalism: explaining nature with nature",
+            "Search for the 'Arche' (first principle)",
+            "Thales proposed 'Water is the source of all things'",
+            "Anaximander proposed the 'Apeiron' (the boundless)",
+            "Thales famously predicted the solar eclipse of 585 BC"
+        ]
+    },
+    "story": {
+        "text": "泰勒斯最著名的成就是成功预测了公元前585年5月28日的日食，这（据说是）通过他从巴比伦人那里学到的天文学知识实现的。这次日食恰好发生在吕底亚人和米底人交战时，双方被这一天象吓坏，立即停止了战争。这一事件极大地提升了泰勒斯的声望，并证明了通过理性和观察来理解宇宙（而非将其归于神的愤怒）是可能的。这种“世界是可理解的”信念，是米利都学派（包括泰勒斯、阿那克西曼德和阿那克西美尼）的核心，也是科学的开端。",
+        "text_en": "Thales's most famous achievement was predicting the solar eclipse of May 28, 585 BC, allegedly using astronomical knowledge he learned from the Babylonians. The eclipse occurred during a battle between the Lydians and the Medes, who were so terrified they immediately stopped fighting. This event cemented Thales's reputation and demonstrated that the cosmos was understandable through reason and observation, not just the whims of gods. This belief—that the cosmos is knowable—was the core of the Milesian School (Thales, Anaximander, Anaximenes) and the beginning of science."
+    },
+    "fun_facts": [
+        {
+            "icon": "😂",
+            "text": "柏拉图在《泰阿泰德篇》中讲了一个故事：泰勒斯在仰望星空时，不慎掉进了一口井里，一位路过的色雷斯女仆嘲笑他：“只顾着看天上的东西，却连脚下的井都看不见。”",
+            "text_en": "Plato tells a story that Thales fell into a well while gazing at the stars, and a Thracian serving girl mocked him, saying he was so eager to know what was in the sky that he failed to see what was at his feet."
+        },
+        {
+            "icon": "🫒",
+            "text": "据亚里士多德说，为了证明哲学并非无用，泰勒斯利用他对天气的知识，预测到某年橄榄将大丰收。于是他提前租下了米利都所有的橄榄压榨机，垄断了市场，赚了一大笔钱。",
+            "text_en": "According to Aristotle, to prove philosophy wasn't useless, Thales used his knowledge of weather to predict an olive bumper crop. He rented all the olive presses in Miletus, cornered the market, and made a fortune."
+        }
+    ],
+    "simple_explanation": {
+        "text": "泰勒斯是第一个“打破砂锅问到底”的人。在他之前，人们遇到问题（比如“为什么会下雨？”）的答案总是“因为宙斯在发怒”。泰勒斯则第一个说：“等一下，也许跟神无关呢？也许世界是像一台机器一样运转的？” 他开始寻找事物的“总开关”或“基本原料”，并猜想是“水”（因为万物生长都需要水）。他的学生阿那克西曼德不同意，认为“总开关”是某种无限的、看不见的东西。他们谁对谁错不重要，重要的是，他们开创了用“争论”和“证据”取代“神话”的传统。",
+        "text_en": "Thales was the first person to ask 'But why?' and not accept 'Because the gods did it' as an answer. Before him, 'Why did it rain?' was answered with 'Zeus is angry.' Thales was the first to say, 'Hold on, maybe it's *not* about the gods? Maybe the world works like a machine?' He looked for the 'main ingredient' of everything and guessed 'Water' (since everything needs it). His student Anaximander disagreed and guessed it was something infinite and abstract. Whether they were right or wrong doesn't matter; they started the tradition of *debate and evidence* over *myth*."
+    },
+    "applications": [
+        {
+            "icon": "🔬",
+            "title": "科学方法的诞生",
+            "title_en": "Birth of the Scientific Method",
+            "text": "开创了“自然主义”——即宇宙万物都应在自然界内部寻找解释，而不是诉诸超自然力量。",
+            "text_en": "Pioneered 'Naturalism'—the idea that the universe should be explained by causes found *within* nature, not supernatural forces."
+        },
+        {
+            "icon": "💬",
+            "title": "批判性思维传统",
+            "title_en": "Tradition of Critical Debate",
+            "text": "阿那克西曼德公开批评并改进了他老师泰勒斯的理论，开启了科学和哲学中“通过批判来进步”的宝贵传统。",
+            "text_en": "Anaximander openly critiqued and improved his teacher's (Thales's) theory, starting the invaluable tradition of progress-through-criticism in science and philosophy."
+        },
+        {
+            "icon": "🌍",
+            "title": "宇宙学和地理学",
+            "title_en": "Cosmology and Geography",
+            "text": "阿那克西曼德绘制了（已知的）第一幅世界地图，并提出了一个（错误的，但很理性的）宇宙模型，认为地球是一个悬浮在中心的圆柱体。",
+            "text_en": "Anaximander created the first known map of the world and proposed a (wrong, but rational) cosmic model of the Earth as a cylinder floating in the center."
+        }
+    ],
+    "impact": {
+        "text": "米利都学派标志着西方思想史的开端。泰勒斯、阿那克西曼德和阿那克西美尼（他认为“气”是本原）是第一批“物理学家”（即“自然的哲学家”）。他们提出的问题——“什么是实在？”“变化是如何发生的？”“万物由什么构成？”——定义了此后2500年所有哲学和科学的核心议程。",
+        "text_en": "The Milesian School marks the beginning of Western intellectual history. Thales, Anaximander, and Anaximenes ('Air' as arche) were the first 'physicists' (philosophers of nature). The questions they asked—'What is reality?', 'How does change happen?', 'What is everything made of?'—defined the central agenda for all philosophy and science for the next 2,500 years."
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "babylonian_astronomy_BC600",
+                "contribution": "巴比伦的天文观测数据（用于预测日食）",
+                "contribution_en": "Babylonian astronomical observations (used for eclipse prediction)"
+            },
+            {
+                "id": "egyptian_geometry_BC1000",
+                "contribution": "埃及的几何学知识（用于土地测量和工程）",
+                "contribution_en": "Egyptian geometry (used for land surveying and engineering)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "pythagoras_philosophy_BC520",
+                "contribution": "毕达哥拉斯（继承了他们对宇宙秩序和数学的兴趣）",
+                "contribution_en": "Pythagoras (who inherited their interest in cosmic order and mathematics)"
+            },
+            {
+                "id": "parmenides_philosophy_BC475",
+                "contribution": "巴门尼德（回应了他们关于“变化”和“本原”的问题）",
+                "contribution_en": "Parmenides (who responded to their questions about 'change' and the 'arche')"
+            },
+            {
+                "id": "aristotle_elements_BC350",
+                "contribution": "亚里士多德（将他们尊为“第一批哲学家”，并系统性地研究和批判了他们的理论）",
+                "contribution_en": "Aristotle (who named them the 'first philosophers' and systemically studied and critiqued their theories)"
+            }
+        ],
+        "legacy_text": "泰勒斯和米利都学派的革命性贡献，是将世界的解释权从“神话”交给了“理性”。",
+        "legacy_text_en": "The revolutionary contribution of Thales and the Milesian School was to take the explanation of the world away from 'myth' and give it to 'reason'."
+    },
+    "related_concepts": [
+        "本原 (Arche)",
+        "自然主义",
+        "神话思维 (Mythos)",
+        "理性思维 (Logos)",
+        "米利都学派",
+        "前苏格拉底哲学",
+        "阿派朗 (Apeiron)",
+        "日食预测"
+    ],
+    "related_concepts_en": [
+        "Arche",
+        "Naturalism",
+        "Mythos",
+        "Logos",
+        "Milesian School",
+        "Pre-Socratic Philosophy",
+        "Apeiron",
+        "Eclipse Prediction"
+    ],
+    "quiz": {
+        "question": "泰勒斯和米利都学派与他们之前的人（如荷马）相比，最根本的区别是什么？",
+        "question_en": "What was the fundamental difference between Thales (and the Milesian School) and thinkers before him (like Homer)?",
+        "options": [
+            "他们相信地球是圆的",
+            "他们用超自然的神来解释自然现象",
+            "他们试图用自然原因（如水）来解释自然现象",
+            "他们发明了民主"
+        ],
+        "options_en": [
+            "They believed the Earth was round",
+            "They used supernatural gods to explain natural events",
+            "They tried to explain natural events with natural causes (like water)",
+            "They invented democracy"
+        ],
+        "answer": 2,
+        "explanation": "在泰勒斯之前，世界的解释是“神话思维”（Mythos），例如“地震是波塞冬在发怒”。泰勒斯开创了“理性思维”（Logos），试图寻找自然界内部的原因，例如“地震可能是因为地球漂浮在水上，水波荡引起的”。",
+        "explanation_en": "Before Thales, explanations were 'Mythos' (e.g., 'An earthquake is Poseidon being angry'). Thales began 'Logos' (reason) by looking for causes *within* nature (e.g., 'Maybe earthquakes are the Earth, which floats on water, being rocked by a wave')."
+    }
+}

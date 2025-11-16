@@ -1,0 +1,10 @@
+{
+    "name": "伊莱沙·格雷",
+    "name_en": "Elisha Gray",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Portrait_elisha_gray.jpg",
+    "bio_short": "美国电气工程师和发明家。他是“电话”的共同发明人之一，在1876年与贝尔（Bell）在“同一天”提交了专利文件（`elisha_gray_1876`），但以几小时之差败诉。他后来共同创立了“西电制造公司”(Western Electric)。",
+    "bio_short_en": "An American electrical engineer and inventor. He was a co-inventor of the telephone, famously filing a patent caveat for his design on the *same day* as Alexander Graham Bell in 1876 (`elisha_gray_1876`), losing the patent by a matter of hours. He later co-founded the Western Electric Company.",
+    "events": [
+      "elisha_gray_1876"
+    ]
+  }

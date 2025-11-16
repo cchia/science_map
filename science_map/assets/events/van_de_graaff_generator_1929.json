@@ -1,0 +1,150 @@
+{
+    "id": "van_de_graaff_generator_1929",
+    "personId": "robert_j_van_de_graaff",
+    "title": "发明范德格拉夫起电机",
+    "title_en": "Invents the Van de Graaff Generator",
+    "year": 1929,
+    "lat": 42.3736,
+    "lng": -71.1097,
+    "city": "剑桥 (麻省)",
+    "city_en": "Cambridge, MA",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Van_de_graaff_generator_sm.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=PboZPDP6wGQ",
+        "title": "范德格拉夫起电机的工作原理",
+        "title_en": "The Physics of a Van de Graaff Generator",
+        "duration": "5:17"
+      }
+    },
+    
+    "summary": {
+      "text": "美国物理学家罗伯特·J·范德格拉夫（Robert J. Van de Graaff）在1929年发明了一种全新的“静电起电机”。该装置使用一条“橡胶传送带”将电荷不断地“运送”到一个空心的金属球上，从而在球体上积累起极其巨大的“电压”（高达数百万伏特）。这个发明的**唯一目的**是作为“粒子加速器”的电源，为亚原子粒子（如质子）提供巨大的能量，以便“轰击”和“分裂”原子核。",
+      "text_en": "In 1929, American physicist Robert J. Van de Graaff invented a new type of 'electrostatic generator'. The device uses a moving 'rubber belt' to continuously 'convey' electrical charge onto a hollow metal sphere, accumulating an *enormous* 'voltage' (millions of volts). The *sole purpose* of this invention was to create a power supply for a 'particle accelerator', a machine powerful enough to accelerate subatomic particles (like protons) to 'smash' and 'split' the atomic nucleus.",
+      "key_points": [
+        "发明了“范德格拉夫起电机”",
+        "使用“传送带”来积累电荷",
+        "能产生极高的电压（数百万伏特）",
+        "作为“粒子加速器” (Particle Accelerator) 的电源",
+        "开启了“核物理” (Nuclear Physics) 的实验时代"
+      ],
+      "key_points_en": [
+        "Invented the 'Van de Graaff Generator'",
+        "Uses a 'conveyor belt' to accumulate charge",
+        "Generates extremely high voltages (Millions of Volts)",
+        "Designed as a power supply for 'Particle Accelerators'",
+        "Enabled the era of experimental 'Nuclear Physics'"
+      ]
+    },
+  
+    "story": {
+      "text": "在1920年代，物理学家（如卢瑟福）已经知道了原子核的存在，但他们缺乏“工具”来“敲开”它。他们需要“子弹”（如质子），并用极高的电压来加速这些“子弹”。范德格拉夫在普林斯顿大学时构思了这台机器。它的原理非常巧妙：在底部，一个滚轮摩擦“橡胶传送带”，使传送带带上电荷（摩擦起电）；传送带将电荷“运送”到顶部的空心金属球内部；在球内部，一个“电刷”将电荷“扒拉”下来，并转移到空心金属球的“外表面”（根据法拉第的“冰桶实验”，电荷总是在导体外表面，无论球体本身已经有多高的电压）。这个过程不断重复，电压也随之不断攀升。",
+      "text_en": "In the 1920s, physicists like Rutherford *knew* the atomic nucleus existed, but they had no 'tool' to *smash* it open. They needed 'bullets' (like protons) and a massive voltage to accelerate them. Van de Graaff, while at Princeton, conceived his machine. Its principle is ingenious: a 'rubber belt' is charged at the bottom by friction (triboelectric effect). The belt *physically carries* the charge up into a hollow metal sphere. Inside the sphere, a 'comb' (brush) *pulls* the charge off the belt and transfers it to the *outside* of the sphere (based on Faraday's ice pail experiment, charge *always* moves to the outside of a conductor, regardless of how high the voltage already is). This cycle repeats, accumulating a gigantic voltage.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/ed/President_Jimmy_Carter_in_Oak_Ridge_%287071648945%29_%282%29.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚡",
+        "text": "范德格拉夫起电机在科学博物馆中“让人的头发竖起来”的著名演示，正是“静电排斥”的一个完美例子：电荷通过人的身体，转移到每一根头发上，由于“同种电荷相排斥”，头发便会尽可能地“远离”彼此。",
+        "text_en": "The famous museum demonstration where the generator makes your 'hair stand on end' is a perfect example of 'electrostatic repulsion': the charge spreads over your body to every hair. Since each hair has the *same charge*, they all 'repel' each other and try to get as far apart as possible."
+      },
+      {
+        "icon": "⚛️",
+        "text": "范德格拉夫起电机（作为粒子加速器）在1932年被用于一项诺贝尔奖级别的实验中（由科克罗夫特和沃尔顿完成，他们使用的是另一台加速器），首次“用人工加速的粒子”分裂了原子核。",
+        "text_en": "In 1932, a Van de Graaff accelerator was used in the first Nobel Prize-winning experiment that 'split the atom' using artificially accelerated particles (though the prize went to Cockcroft and Walton for using a *different* accelerator design)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "范德格拉夫起电机就像一个“电的自动扶梯”。\n1. 在“楼下”（底部），一个滚轮（像摩擦地毯一样）把“电荷”（乘客）“扔”到“橡胶传送带”（自动扶梯）上。\n2. “扶梯”把“电荷”向上运送，进入一个巨大的“金属球”（顶层大厅）。\n3. 在“楼上”（顶部），一个“电刷”（梳子）把“电荷”从“扶梯”上“扫”下来，电荷随即跑到“大厅”的“外表面”。\n这个“扶梯”不停地运送乘客，直到“大厅”里挤满了“电荷”，电压高到几百万伏特，足以产生巨大的人造闪电。",
+      "text_en": "A Van de Graaff generator is like an 'electrical escalator'.\n1. At the *bottom*, a roller 'rubs' a rubber belt, 'loading' electrical charges (passengers) onto it.\n2. The *belt* (the escalator) *carries* these charges up into a big hollow metal sphere (the top floor).\n3. At the *top*, a 'comb' (brush) *scrapes* the charges *off* the belt, and they immediately run to the *outside* of the sphere.\nThis escalator runs continuously, 'piling up' more and more charge until the voltage is *millions* of volts, high enough to make giant artificial lightning bolts.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Van_de_Graaff_Generator.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "核物理 (Nuclear Physics)",
+          "title_en": "Nuclear Physics",
+          "text": "它的主要目的是作为“粒子加速器”的直流高压电源，用于轰击原子核，研究“核力”。",
+          "text_en": "Its primary, intended purpose was to be the high-voltage DC power supply for a 'particle accelerator', used to 'smash atoms' and study the 'nuclear force'."
+        },
+        {
+          "icon": "🏫",
+          "title": "物理学教学",
+          "title_en": "Physics Education",
+          "text": "它至今仍是全世界科学博物馆和教室中，用来演示“静电”、“电压”、“放电”和“电晕”的最壮观、最有效的工具。",
+          "text_en": "It remains the most spectacular and effective tool in science museums and classrooms for demonstrating 'electrostatics', 'voltage', 'discharge', and 'corona'."
+        }
+      ],
+  
+    "impact": {
+      "text": "范德格拉夫起电机是20世纪30年代“核物理”黄金时代的“发动机”之一。在“回旋加速器”(Cyclotron) 出现之前，它是物理学家（如科克罗夫特和沃尔顿）用来获得“分裂原子”所需的高能粒子的主要工具。它将19世纪的“静电玩具”（如维姆胡斯特起电机 `wimshurst_machine_1883`）转变成了20世纪的“核研究工具”。",
+      "text_en": "The Van de Graaff generator was one of the 'workhorses' of the 1930s 'Nuclear Physics' golden age. Before the Cyclotron, it was the primary tool physicists used to get the high-energy particles needed to 'split the atom'. It transformed the 19th-century 'electrostatic toy' (like the Wimshurst machine, `wimshurst_machine_1883`) into a 20th-century *tool for nuclear research*.",
+      "stats": [
+          {
+            "number": "1,000,000+",
+            "label": "伏特 (电压)",
+            "label_en": "Volts Generated"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "guericke_static_generator_1663",
+          "contribution": "奥托·冯·格里克（其“摩擦起电”的硫磺球是静电发生器的鼻祖）",
+          "contribution_en": "Otto von Guericke (his 'friction' sulfur-ball generator was the ancestor of all electrostatic generators)"
+        },
+        {
+          "id": "faraday_ice_pail_1843",
+          "contribution": "法拉第的“冰桶实验”（证明了电荷只存在于导体“外”表面，这是范德格拉夫起电机能够“积累”电荷的核心原理）",
+          "contribution_en": "Faraday's 'Ice Pail Experiment' (which proved charge *only* resides on the *outside* of a conductor, the key principle that allows the generator to accumulate charge)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "cockcroft_walton_1932",
+          "contribution": "科克罗夫特和沃尔顿（其“核裂变”实验使用了他们自己设计的、与范德格拉夫起电机竞争的“电压倍增器”）",
+          "contribution_en": "Cockcroft and Walton (whose atom-smashing experiment used their *competing* 'voltage multiplier' design, though Van de Graaff's became more popular)"
+        },
+        {
+          "id": "modern_particle_accelerators",
+          "contribution": "现代粒子物理学（范德格拉夫起电机是“直流电”粒子加速器的开端）",
+          "contribution_en": "Modern Particle Accelerators (the Van de Graaff generator was the start of 'DC' particle acceleration)"
+        }
+      ],
+      "legacy_text": "范德格拉夫将“静电”的电压从几万伏特提高到了几百万伏特，为人类提供了“轰击原子核”所需的能量。",
+      "legacy_text_en": "Van de Graaff scaled up electrostatic voltage from 'thousands' to 'millions' of volts, giving humanity the energy needed to 'smash the atom'."
+    },
+  
+    "related_concepts": ["静电 (Electrostatics)", "静电起电机 (Electrostatic Generator)", "高电压 (High Voltage)", "粒子加速器 (Particle Accelerator)", "核物理 (Nuclear Physics)", "电晕放电 (Corona Discharge)", "法拉第冰桶实验 (Faraday Ice Pail)"],
+    "related_concepts_en": ["Electrostatics", "Electrostatic Generator", "High Voltage", "Particle Accelerator", "Nuclear Physics", "Corona Discharge", "Faraday Ice Pail"],
+  
+    "quiz": {
+      "question": "范德格拉夫起电机（Van de Graaff generator）的主要“发明目的”是什么？",
+      "question_en": "What was the primary *inventive purpose* of the Van de Graaff generator?",
+      "options": [
+        "作为博物馆展品，让人的头发竖起来",
+        "作为“粒子加速器”的高压电源，用于“轰击原子核”",
+        "作为“无线电”的发射器",
+        "作为“电池”使用"
+      ],
+      "options_en": [
+        "As a museum exhibit to make hair stand on end",
+        "To be the high-voltage power supply for a 'particle accelerator' to 'smash atoms'",
+        "To be a transmitter for 'radio' waves",
+        "To be used as a 'battery'"
+      ],
+      "answer": 1,
+      "explanation": "虽然它现在是著名的博物馆展品，但范德格拉夫发明它的唯一目的是为了“核物理”。在1930年代，物理学家需要极高的“直流电压”来加速质子，以“分裂”原子核。这台机器就是为此而生的。",
+      "explanation_en": "Although it's a famous museum piece now, Van de Graaff invented it for one purpose: *nuclear physics*. In the 1930s, physicists needed millions of *direct-current (DC)* volts to accelerate protons to 'split' the nucleus. This machine was built to do that."
+    }
+  }

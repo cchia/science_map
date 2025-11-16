@@ -1,0 +1,214 @@
+{
+    "id": "faraday",
+    "title": "法拉第电磁感应定律",
+    "title_en": "Faraday's Law of Electromagnetic Induction",
+    "year": 1831,
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": "物理学",
+    "field_en": "Physics",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/8/88/M_Faraday_Th_Phillips_oil_1842.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/N7tIi71-AjA",
+        "title": "电磁感应简介",
+        "title_en": "Introduction to Electromagnetic Induction",
+        "duration": "6:45"
+      }
+    },
+    
+    "summary": {
+      "text": "法拉第发现变化的磁场能产生电流！这就是发电机的原理。磁生电，电生磁，电和磁其实是一回事。",
+      "text_en": "Faraday discovered changing magnetic fields generate electric current! This is the principle of generators. Magnetism creates electricity, electricity creates magnetism - they're interconnected.",
+      "key_points": [
+        "变化的磁场产生电流",
+        "电磁感应定律",
+        "电和磁可以相互转换"
+      ],
+      "key_points_en": [
+        "Changing magnetic fields generate current",
+        "Law of electromagnetic induction",
+        "Electricity and magnetism are interconvertible"
+      ]
+    },
+    
+    "story": {
+      "text": "1831年8月29日，法拉第在实验室里转动一个磁铁，惊讶地发现线圈里产生了电流！这个简单的发现改变了世界。他出身贫寒，只受过小学教育，却成为最伟大的实验物理学家。",
+      "text_en": "On August 29, 1831, Faraday rotated a magnet in his lab and was amazed to find current in a coil! This simple discovery changed the world. From humble origins with only elementary education, he became the greatest experimental physicist.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Faraday-Millikan-Gale-1913.jpg"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "📚",
+        "text": "法拉第只上过小学，13岁就去当书店学徒，靠自学成才。",
+        "text_en": "Faraday only attended elementary school, became a bookshop apprentice at 13, self-taught to greatness."
+      },
+      {
+        "icon": "🎫",
+        "text": "他听了化学家戴维的讲座后写信求职，戴维被他的热情打动，雇用了他。",
+        "text_en": "After attending chemist Davy's lecture, he wrote seeking employment. Davy was moved by his passion and hired him."
+      },
+      {
+        "icon": "💷",
+        "text": "他拒绝了很多赚钱机会，说：'我必须保持一个普通的迈克尔·法拉第。'",
+        "text_en": "He refused many lucrative opportunities, saying: 'I must remain plain Michael Faraday.'"
+      }
+    ],
+    
+    "principle": {
+      "title": "电磁感应核心原理",
+      "title_en": "Core Principles of Electromagnetic Induction",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Faraday_emf_experiment.svg",
+      "key_points": [
+        {
+          "icon": "🧲",
+          "title": "磁通量变化",
+          "title_en": "Magnetic Flux Change",
+          "text": "磁场穿过线圈的强度变化时，就会产生电流",
+          "text_en": "When magnetic field strength through a coil changes, current is generated"
+        },
+        {
+          "icon": "⚡",
+          "title": "感应电动势",
+          "title_en": "Induced EMF",
+          "text": "电动势大小与磁通量变化率成正比：ε = -dΦ/dt",
+          "text_en": "EMF magnitude proportional to flux change rate: ε = -dΦ/dt"
+        },
+        {
+          "icon": "🔄",
+          "title": "楞次定律",
+          "title_en": "Lenz's Law",
+          "text": "感应电流的方向总是阻碍磁通量的变化",
+          "text_en": "Induced current direction always opposes flux change"
+        },
+        {
+          "icon": "🔌",
+          "title": "发电原理",
+          "title_en": "Generation Principle",
+          "text": "转动线圈或磁铁，就能持续产生电流",
+          "text_en": "Rotating coil or magnet continuously generates current"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "⚡",
+        "title": "发电机",
+        "title_en": "Generators",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Turbogenerator01.jpg",
+        "text": "全世界的电力都来自法拉第的发现！水力、火力、核电站都用发电机。",
+        "text_en": "All world electricity comes from Faraday's discovery! Hydro, thermal, nuclear plants all use generators."
+      },
+      {
+        "icon": "🔌",
+        "title": "变压器",
+        "title_en": "Transformers",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Polemount-singlephase-closeup.jpg",
+        "text": "改变电压高低，让电力能远距离传输。",
+        "text_en": "Changes voltage levels, enabling long-distance power transmission."
+      },
+      {
+        "icon": "🎸",
+        "title": "电吉他拾音器",
+        "title_en": "Guitar Pickups",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Fender_Telecaster_Pickups.jpg",
+        "text": "琴弦振动改变磁场，产生电信号，发出声音。",
+        "text_en": "String vibration changes magnetic field, generating electrical signal for sound."
+      },
+      {
+        "icon": "💳",
+        "title": "无线充电",
+        "title_en": "Wireless Charging",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Wireless_Charging_Pad.jpg",
+        "text": "手机无线充电就是利用电磁感应原理。",
+        "text_en": "Phone wireless charging uses electromagnetic induction principle."
+      }
+    ],
+    
+    "experiment": {
+      "title": "经典实验：磁铁与线圈",
+      "title_en": "Classic Experiment: Magnet and Coil",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Faraday_emf_experiment.svg",
+      "description": "把一个磁铁快速插入线圈，电流表指针会偏转！拔出磁铁，指针反向偏转。磁铁不动时，没有电流。这证明：只有磁场变化才能产生电流。",
+      "description_en": "Quickly insert a magnet into a coil, the ammeter needle deflects! Remove the magnet, needle deflects opposite direction. When magnet is still, no current. This proves: only changing magnetic fields generate current.",
+      "why": "变化的磁场在导线中产生电场，推动电子流动形成电流。",
+      "why_en": "Changing magnetic field creates electric field in wire, pushing electrons to flow as current."
+    },
+    
+    "simple_explanation": {
+      "text": "想象磁铁是一个看不见的力场。当你移动磁铁靠近线圈时，这个力场的变化会推动线圈里的电子跑起来，就产生了电流！这就像你挥手产生风一样。",
+      "text_en": "Imagine a magnet as an invisible force field. When you move the magnet near a coil, this field change pushes electrons in the coil to move, generating current! Like waving your hand creates wind.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f4/VFPt_Solenoid_correct2.svg"
+    },
+    
+    "impact": {
+      "text": "法拉第的发现开启了电气时代！没有他，就没有发电机、电动机、变压器，现代文明将不复存在。他把电从实验室的好奇心变成了改变世界的力量。",
+      "text_en": "Faraday's discovery launched the electrical age! Without him, no generators, motors, transformers - modern civilization wouldn't exist. He transformed electricity from lab curiosity to world-changing force.",
+      "stats": [
+        {
+          "number": "1831",
+          "label": "发现电磁感应",
+          "label_en": "Discovered electromagnetic induction"
+        },
+        {
+          "number": "100%",
+          "label": "全球电力基于此原理",
+          "label_en": "Global electricity based on this"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "oersted",
+          "contribution": "发现电流产生磁场",
+          "contribution_en": "Discovered electric current creates magnetic field"
+        },
+        {
+          "id": "ampere",
+          "contribution": "电流与磁场的定量关系",
+          "contribution_en": "Quantitative relationship between current and magnetic field"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "maxwell",
+          "contribution": "将法拉第定律数学化，建立电磁理论",
+          "contribution_en": "Mathematized Faraday's law, established electromagnetic theory"
+        },
+        {
+          "id": "tesla",
+          "contribution": "发明交流电发电机和电动机",
+          "contribution_en": "Invented AC generators and motors"
+        },
+        {
+          "id": "edison",
+          "contribution": "建立电力系统，电气化世界",
+          "contribution_en": "Built power systems, electrified the world"
+        }
+      ],
+      "legacy_text": "奥斯特发现电生磁，法拉第发现磁生电，完成了电磁统一的关键一步。麦克斯韦用数学方程总结了法拉第的实验，预言了电磁波。特斯拉和爱迪生则把这些理论变成了实用的电力系统。",
+      "legacy_text_en": "Oersted discovered electricity creates magnetism, Faraday discovered magnetism creates electricity, completing key step in electromagnetic unification. Maxwell summarized Faraday's experiments mathematically, predicting electromagnetic waves. Tesla and Edison transformed these theories into practical power systems."
+    },
+    
+    "related_concepts": ["电磁感应", "磁通量", "发电机", "变压器"],
+    "related_concepts_en": ["Electromagnetic Induction", "Magnetic Flux", "Generator", "Transformer"],
+    
+    "quiz": {
+      "question": "什么情况下线圈中会产生感应电流？",
+      "question_en": "When does induced current occur in a coil?",
+      "options": ["磁铁静止在线圈旁", "磁铁在线圈中移动", "线圈在均匀磁场中静止", "线圈不在磁场中"],
+      "options_en": ["Magnet stationary near coil", "Magnet moving in coil", "Coil stationary in uniform field", "Coil not in magnetic field"],
+      "answer": 1,
+      "explanation": "只有当穿过线圈的磁通量发生变化时，才会产生感应电流。磁铁移动会改变磁通量。",
+      "explanation_en": "Induced current only occurs when magnetic flux through the coil changes. Moving magnet changes the flux."
+    }
+  }

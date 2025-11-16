@@ -1,0 +1,173 @@
+{
+    "id": "einstein_special_relativity_1905",
+    "personId": "albert_einstein",
+    "title": "发表狭义相对论",
+    "title_en": "Publishes Special Theory of Relativity",
+    "year": 1905,
+    "lat": 46.948,
+    "lng": 7.4474,
+    "city": "伯尔尼",
+    "city_en": "Bern",
+    "country": "瑞士",
+    "country_en": "Switzerland",
+    "field": [
+        "物理学"
+    ],
+    "field_en": [
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/16/World_line.svg",
+        "video": {
+            "url": "https://www.youtube.com/embed/AInCqm5nCzw",
+            "title": "爱因斯坦狭义相对论 (Crash Course)",
+            "title_en": "Einstein's Special Relativity (Crash Course)",
+            "duration": "8:58"
+        }
+    },
+    "summary": {
+        "text": "爱因斯坦在他1905“奇迹年”的论文《论动体的电动力学》中提出了狭义相对论。该理论建立在两个公设之上：1. 相对性原理；2. 光速不变原理。它革命性地指出，空间和时间不是绝对的，而是相互交织成一个“时空”结构，并随观察者的运动状态而改变。",
+        "text_en": "In his 1905 'Miracle Year' paper 'On the Electrodynamics of Moving Bodies', Einstein proposed Special Relativity. It is based on two postulates: 1. The principle of relativity; 2. The principle of the constancy of the speed of light. It revolutionized physics by showing that space and time are not absolute, but are interwoven into a 'spacetime' structure that changes relative to the observer's motion.",
+        "key_points": [
+            "光速在所有惯性系中恒定",
+            "物理定律对所有惯性系都一样",
+            "时间膨胀 (Time Dilation)",
+            "长度收缩 (Length Contraction)",
+            "质能等价 ($E=mc^2$)"
+        ],
+        "key_points_en": [
+            "The speed of light is constant in all inertial frames",
+            "The laws of physics are the same for all inertial frames",
+            "Time Dilation",
+            "Length Contraction",
+            "Mass-energy equivalence ($E=mc^2$)"
+        ]
+    },
+    "story": {
+        "text": "爱因斯坦著名的思想实验：想象一列高速行驶的火车，两道闪电“同时”击中火车的头部和尾部（根据站台上的观测者）。在火车中间的乘客会先“迎上”来自车头的闪电。因此，对于火车上的乘客，车头的闪电先发生。这个实验表明，对于不同运动状态的观察者来说，“同时发生”是相对的。",
+        "text_en": "Einstein's famous thought experiment: Imagine a person on a train platform sees two lightning bolts strike the front and back of a fast-moving train 'simultaneously'. However, for a passenger in the middle of the train, they are moving towards the light from the front bolt and away from the back. They will see the front bolt strike *first*. This experiment shows that 'simultaneity' is relative."
+    },
+    "fun_facts": [
+        {
+            "icon": "📜",
+            "text": "这是爱因斯坦1905“奇迹年”发表的四篇论文之一，其他三篇包括光电效应、布朗运动和 $E=mc^2$ 的推导。",
+            "text_en": "This was one of the four 'Annus Mirabilis' (Miracle Year) papers Einstein published in 1905. The others were on the photoelectric effect, Brownian motion, and the derivation of $E=mc^2$."
+        },
+        {
+            "icon": "⚛️",
+            "text": "著名的质能方程 $E=mc^2$ 是在这篇论文之后几个月，作为一篇名为《物体的惯性是否取决于其能量含量？》的简短附录发表的。",
+            "text_en": "The famous equation $E=mc^2$ was published a few months *after* this paper, as a short addendum titled 'Does the Inertia of a Body Depend Upon Its Energy Content?'"
+        }
+    ],
+    "simple_explanation": {
+        "text": "著名的“双生子佯谬”：想象一对双胞胎。一个留在地球，另一个乘坐接近光速的火箭去太空旅行。当旅行者回来时，他会发现自己比留在地球上的双胞胎兄弟更年轻。这是因为对于高速运动的物体，时间流逝得更慢（时间膨胀）。",
+        "text_en": "The famous 'Twin Paradox': Imagine identical twins. One stays on Earth, while the other takes a trip on a rocket near the speed of light. When the traveling twin returns, they will be younger than the twin who stayed home. This is because time itself passes slower for fast-moving objects (time dilation).",
+        "diagram": "assets/images/twin_paradox.jpg"
+    },
+    "applications": [
+        {
+            "icon": "🛰️",
+            "title": "GPS 全球定位系统",
+            "title_en": "GPS Global Positioning System",
+            "text": "GPS卫星高速飞行，它们上的时钟比地面时钟走得慢。必须使用狭义相对论（和广义相对论）进行校正，否则GPS定位每天会偏差数公里。",
+            "text_en": "GPS satellites move at high speeds, causing their clocks to run slower than clocks on Earth. Special Relativity (and General Relativity) must be used to correct this, or GPS would be off by several kilometers every day."
+        },
+        {
+            "icon": "💥",
+            "title": "核能与核武器",
+            "title_en": "Nuclear Energy & Weapons",
+            "text": "方程 $E=mc^2$ 解释了核反应（裂变或聚变）中，微小的质量损失如何转化为极其巨大的能量。",
+            "text_en": "The equation $E=mc^2$ explains how a tiny amount of mass is converted into an enormous amount of energy during nuclear reactions (fission and fusion)."
+        },
+        {
+            "icon": "🔬",
+            "title": "粒子加速器",
+            "title_en": "Particle Accelerators",
+            "text": "在CERN等加速器中，粒子被加速到 $99.99\\%$ 的光速，它们的质量会急剧增加（相对论质量），时间会减慢。设计必须完全依赖相对论。",
+            "text_en": "In accelerators like CERN, particles reach $99.99\\%$ the speed of light. Their mass increases dramatically (relativistic mass) and their time slows down. The design relies entirely on relativity."
+        }
+    ],
+    "impact": {
+        "text": "狭义相对论彻底改变了人类对空间、时间、质量和能量的根本理解。它将空间和时间统一为“时空”，是所有现代物理学（包括广义相对论和量子场论）的基础。",
+        "text_en": "Special relativity fundamentally changed humanity's understanding of space, time, mass, and energy. It unified space and time into 'spacetime' and serves as the foundation for all of modern physics (including General Relativity and Quantum Field Theory).",
+        "stats": [
+            {
+                "number": "2",
+                "label": "基本公设",
+                "label_en": "Core Postulates"
+            },
+            {
+                "number": "4",
+                "label": "维时空",
+                "label_en": "D Spacetime"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "michelson_morley_1887",
+                "contribution": "迈克尔逊-莫雷实验，未能探测到“以太”，暗示光速是绝对的",
+                "contribution_en": "The Michelson-Morley experiment, which failed to detect the 'aether' and implied the speed of light is absolute"
+            },
+            {
+                "id": "lorentz_transformations_1904",
+                "contribution": "洛伦兹提出了描述时空变换的数学公式",
+                "contribution_en": "Hendrik Lorentz developed the mathematical formulas (transformations) for spacetime"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "einstein_general_relativity_1915",
+                "contribution": "狭义相对论是广义相对论在没有引力时的特例和基础",
+                "contribution_en": "Special Relativity is the foundation and special case (without gravity) of General Relativity"
+            },
+            {
+                "id": "dirac_equation_1928",
+                "contribution": "狄拉克方程结合了狭义相对论和量子力学，成功预测了反物质的存在",
+                "contribution_en": "The Dirac Equation combined Special Relativity with quantum mechanics, successfully predicting antimatter"
+            }
+        ],
+        "legacy_text": "空间和时间不再是绝对不变的背景舞台，而是与物质和能量相互作用的、统一且动态的‘时空’结构。",
+        "legacy_text_en": "Space and time are no longer an absolute, static background stage, but a unified, dynamic 'spacetime' structure that interacts with matter and energy."
+    },
+    "related_concepts": [
+        "时空",
+        "时间膨胀",
+        "长度收缩",
+        "E=mc^2",
+        "相对性原理",
+        "光速不变",
+        "双生子佯谬",
+        "同时的相对性"
+    ],
+    "related_concepts_en": [
+        "Spacetime",
+        "Time Dilation",
+        "Length Contraction",
+        "E=mc^2",
+        "Principle of Relativity",
+        "Constancy of Light Speed",
+        "Twin Paradox",
+        "Relativity of Simultaneity"
+    ],
+    "quiz": {
+        "question": "在著名的“双生子佯谬”中，乘坐高速火箭旅行的宇航员返回地球后，与他留在地球的双胞胎兄弟相比会怎样？",
+        "question_en": "In the famous 'Twin Paradox', what happens to the twin who travels on a high-speed rocket when they return to Earth, compared to the twin who stayed?",
+        "options": [
+            "他会更年轻",
+            "他会更老",
+            "他们的年龄会完全相同",
+            "他们会瞬间消失"
+        ],
+        "options_en": [
+            "He will be younger",
+            "He will be older",
+            "They will be the exact same age",
+            "They will both disappear"
+        ],
+        "answer": 0,
+        "explanation": "根据狭义相对论的“时间膨胀”效应，高速运动的参考系（火箭）中的时间流逝得比“静止”参考系（地球）慢。",
+        "explanation_en": "According to the 'time dilation' effect of Special Relativity, time passes slower for an object in a fast-moving reference frame (the rocket) than for one in a 'stationary' frame (Earth)."
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "id": "galvani_animal_electricity_1791",
+    "personId": "luigi_galvani",
+    "title": "发表“动物电”理论 (Bioelectromagnetics)",
+    "title_en": "Publishes 'Animal Electricity' (Bioelectromagnetics)",
+    "year": 1791,
+    "lat": 44.4949,
+    "lng": 11.3426,
+    "city": "博洛尼亚",
+    "city_en": "Bologna",
+    "country": "教皇国 (今意大利)",
+    "country_en": "Papal States (Modern Italy)",
+    "field": ["生物学", "物理学", "医学"],
+    "field_en": ["Biology", "Physics", "Medicine"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Galvani-frogs-legs-electricity.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=W1GLTVv8joQ",
+        "title": "青蛙腿如何导致电池的发明！",
+        "title_en": "How a Frog Led to the Invention of Batteries!",
+        "duration": "7:13"
+      }
+    },
+    
+    "summary": {
+      "text": "意大利医生和物理学家路易吉·伽伐尼（Luigi Galvani）发表了他的实验报告，描述了一个惊人的现象：当他用两种不同的金属（如铜和铁）同时接触青蛙腿的神经和肌肉时，死青蛙的腿会猛烈“抽搐”。伽伐尼错误地（但富有成果地）得出结论，认为这种电来自于动物组织本身，他称之为“动物电”(Animal Electricity)。这一发现开创了“生物电磁学”和“神经科学”的领域。",
+      "text_en": "Italian physician and physicist Luigi Galvani published his findings on a startling phenomenon: when he touched a dissected frog's leg with two different metals (like copper and iron), the dead frog's muscles would 'twitch' violently. Galvani concluded, incorrectly but fruitfully, that the electricity was an 'animal electricity' generated *within* the tissue itself. This discovery founded the fields of bioelectromagnetics and neuroscience.",
+      "key_points": [
+        "发现死青蛙的腿会因金属接触而抽搐",
+        "提出了“动物电”(Animal Electricity) 理论",
+        "开创了“生物电磁学”(Bioelectromagnetics) 领域",
+        "引发了与伏打 (Volta) 的著名辩论",
+        "“电镀”(Galvanism) 一词以他命名"
+      ],
+      "key_points_en": [
+        "Discovered that metal contact made dead frog legs twitch",
+        "Proposed the theory of 'Animal Electricity'",
+        "Founded the field of 'Bioelectromagnetics'",
+        "Sparked the famous debate with Volta",
+        "The word 'Galvanism' is named after him"
+      ]
+    },
+  
+    "story": {
+      "text": "伽伐尼的实验始于一个偶然的观察。他的助手在用手术刀接触一只剥了皮的青蛙的神经时，附近的一台“静电起电机”刚好产生了火花，青蛙腿随即抽搐。伽伐尼对此产生了兴趣，并开始系统性地研究。他发现，即使没有静电机，只要用“两种不同金属”（如一个铜钩子和一个铁栅栏）连接青蛙的神经和肌肉，也会产生同样的效果。他因此相信，青蛙的肌肉和神经就像一个“莱顿瓶”（一种早期的电容器），储存着一种“生命流体”或“动物电”。",
+      "text_en": "Galvani's experiments began by chance. An assistant touched a frog's nerve with a scalpel at the *same moment* a nearby 'static electricity' machine sparked, and the leg twitched. Intrigued, Galvani began systematic tests. He found he could get the same effect *without* the machine, simply by touching the frog's nerve and muscle with *two different metals* (like a copper hook and an iron railing). He became convinced the frog's muscle was a 'Leyden Jar' (an early capacitor) storing a vital 'electric fluid', or 'animal electricity'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧛",
+        "text": "伽伐尼的侄子乔瓦尼·阿尔迪尼（Giovanni Aldini）继承了他的工作，并在（刚被处决的）人类尸体上进行更骇人听闻的“电流复活”公开表演，这直接启发了玛丽·雪莱（Mary Shelley）在1818年创作《弗兰肯斯坦》（Frankenstein）。",
+        "text_en": "Galvani's nephew, Giovanni Aldini, continued his work with gruesome public demonstrations on the corpses of executed criminals, 're-animating' them with electricity. This directly inspired Mary Shelley to write 'Frankenstein' in 1818."
+      },
+      {
+        "icon": "⚡",
+        "text": "英语中“galvanize”（镀锌，或“通电刺激/激励”）一词，就是源于伽伐尼的名字。",
+        "text_en": "The English word 'to galvanize' (to shock or excite into action, or to plate metal) comes from Galvani's name."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "伽伐尼在解剖青蛙时，偶然用两种不同的金属碰了它一下，结果“死青蛙”的腿竟然“踢”了一下！他惊呆了，以为自己发现了“生命的秘密”——一种储存在肌肉里的“动物电”。他虽然“猜错了”（电其实来自两种金属的化学反应），但他的这个“错误”却极其重要：它激励了他的对手伏打（Volta）去证明他是错的，从而发明了第一个“电池”。同时，伽伐尼也（无意中）开创了“神经科学”，因为他证明了“神经”是通过“电”来向“肌肉”下达命令的。",
+      "text_en": "Galvani was dissecting a frog when he accidentally touched it with two different metals. The *dead frog's leg kicked!* He was astonished and thought he had discovered the 'secret of life'—an 'animal electricity' stored in the muscle. He was *wrong* (the electricity actually came from the metals), but his mistake was crucial. It inspired his rival, Volta, to *prove him wrong* by inventing the first *battery*. At the same time, Galvani (accidentally) founded neuroscience, by proving that 'nerves' command 'muscles' using *electricity*.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/82/Galvani_frog_legs_experiment_setup.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧠",
+          "title": "神经科学 (Neuroscience)",
+          "title_en": "Neuroscience",
+          "text": "伽伐尼的实验是第一个证明“生物电”存在的实验。它表明，神经系统是使用“电信号”来向肌肉传递命令的。这是所有现代神经科学和神经生理学的基础。",
+          "text_en": "Galvani's experiment was the first to demonstrate 'bioelectricity'. It showed that the nervous system uses *electrical signals* to communicate commands to muscles. This is the foundation of all modern neuroscience and neurophysiology."
+        },
+        {
+          "icon": "🔋",
+          "title": "电池 (The Battery)",
+          "title_en": "The Battery",
+          "text": "这场关于“动物电”的辩论，直接激励了亚历山德罗·伏打（`volta_battery_1800`）去证明电可以“非生物地”产生，从而发明了“伏打电堆”（第一个电池）。",
+          "text_en": "The debate over 'animal electricity' directly spurred Alessandro Volta (`volta_battery_1800`) to prove electricity could be generated *non-biologically*, leading to his invention of the Voltaic Pile (the first battery)."
+        }
+      ],
+  
+    "impact": {
+      "text": "伽伐尼的发现是18世纪末最轰动的科学事件之一。尽管他对“动物电”的“理论”是错误的，但他的“实验”是正确的、革命性的。这个“抽搐的青蛙腿”实验，同时开创了两个全新的领域：(1) “生物电磁学”（即身体如何使用电），以及 (2) “电化学”（即伏打的电池）。",
+      "text_en": "Galvani's discovery was one of the most sensational scientific events of the late 18th century. Although his 'theory' (animal electricity) was wrong, his 'experiment' was revolutionary. The twitching frog leg launched *two* new fields at the same time: (1) Bioelectromagnetics (how bodies use electricity) and (2) Electrochemistry (Volta's battery).",
+      "stats": [
+          {
+            "number": "1791",
+            "label": "年 (论文发表)",
+            "label_en": "Year Published"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "leyden_jar_1745",
+          "contribution": "莱顿瓶（提供了“静电”可以被储存和释放的早期模型）",
+          "contribution_en": "The Leyden Jar (provided the early model of 'static electricity' being stored and discharged)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "volta_battery_1800",
+          "contribution": "亚历山德罗·伏打（其“伏打电堆”的发明，是作为对伽伐尼“动物电”理论的“反驳”而诞生的）",
+          "contribution_en": "Alessandro Volta (his invention of the battery was a *direct refutation* of Galvani's 'animal electricity' theory)"
+        },        
+        {
+          "id": "helmholtz_neuroscience_1850",
+          "contribution": "现代神经生理学（所有关于神经冲动是“电信号”的研究，都源于伽伐尼）",
+          "contribution_en": "Modern Neurophysiology (all work on nerve impulses as 'electrical signals' descends from Galvani)"
+        }
+      ],
+      "legacy_text": "伽伐尼错误地发现了“动物电”，但却正确地揭示了“生物电”——即生命本身是依靠电运行的。",
+      "legacy_text_en": "Galvani *mistakenly* discovered 'animal electricity', but in doing so, he *correctly* revealed 'bioelectricity'—that life itself runs on electricity."
+    },
+  
+    "related_concepts": ["生物电 (Bioelectricity)", "动物电 (Animal Electricity)", "神经科学 (Neuroscience)", "伏打 (VoltaCSSa)", "伏打电堆 (Voltaic Pile)", "电化学 (Electrochemistry)", "弗兰肯斯坦 (Frankenstein)"],
+    "related_concepts_en": ["Bioelectricity", "Animal Electricity", "Neuroscience", "Volta", "Voltaic Pile", "Electrochemistry", "Frankenstein"],
+  
+    "quiz": {
+      "question": "伽伐尼（Galvani）观察到青蛙腿抽搐，他（错误地）认为电的来源是什么？",
+      "question_en": "When Galvani saw the frog leg twitch, what did he *incorrectly* believe was the source of the electricity?",
+      "options": [
+        "来自两种不同金属的化学反应",
+        "来自青蛙肌肉本身储存的“动物电”",
+        "来自天空中的闪电",
+        "来自附近一台静电机的火花"
+      ],
+      "options_en": [
+        "A chemical reaction between the two different metals",
+        "An 'animal electricity' stored inside the frog's muscle",
+        "Lightning from the sky",
+        "A spark from a nearby static machine"
+      ],
+      "answer": 1,
+      "explanation": "虽然静电机*引发*了他的实验，但伽伐尼的最终结论是，电（他称之为“动物电”）是生物体固有的“生命流体”，储存在肌肉中。而伏打（Volta）后来证明，电其实来自于“两种不同金属”的接触。",
+      "explanation_en": "While a static machine *started* his experiments, Galvani's final theory was that the electricity ('animal electricity') was a 'vital fluid' inherent to the organism and stored in the muscle. Volta later proved the electricity *actually* came from the contact of the two different metals."
+    }
+  }

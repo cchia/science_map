@@ -1,0 +1,167 @@
+{
+    "id": "galileo_motion_1638",
+    "personId": "galileo_galilei",
+    "title": "发表《两门新科学》",
+    "title_en": "Publishes 'Two New Sciences'",
+    "year": 1638,
+    "lat": 52.1583,
+    "lng": 4.4931,
+    "city": "莱顿",
+    "city_en": "Leiden",
+    "country": "荷兰",
+    "country_en": "Netherlands",
+    "field": [
+        "物理学"
+    ],
+    "field_en": [
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pisa_experiment.png",
+        "video": {
+            "url": "https://www.youtube.com/embed/ZBr8Q2ROX9s",
+            "title": "伽利略的斜面实验",
+            "title_en": "Galileo's Inclined Plane Experiment",
+            "duration": "5:01"
+        }
+    },
+    "summary": {
+        "text": "伽利略在《关于两门新科学的对话》一书中，奠定了现代运动学和材料力学的基础。他通过实验和数学推导，提出了自由落体定律（下落距离与时间的平方成正比）和惯性原理。",
+        "text_en": "In his book 'Discourses and Mathematical Demonstrations Relating to Two New Sciences', Galileo laid the foundation for modern kinematics and strength of materials. Through experiment and mathematics, he described the law of falling bodies (distance proportional to time squared) and the principle of inertia.",
+        "key_points": [
+            "惯性原理（牛顿第一定律的基础）",
+            "自由落体定律 ($d \\propto t^2$)",
+            "抛体运动是水平和垂直运动的结合",
+            "建立了科学方法（实验+数学）"
+        ],
+        "key_points_en": [
+            "Principle of Inertia (basis for Newton's 1st Law)",
+            "Law of Falling Bodies ($d \\propto t^2$)",
+            "Projectile motion is a combination of horizontal and vertical motion",
+            "Established the Scientific Method (Experiment + Mathematics)"
+        ]
+    },
+    "story": {
+        "text": "传说伽利略从比萨斜塔上扔下了两个不同重量的球，以证明亚里士多德（认为重物下落更快）是错的。这个故事可能只是一个思想实验。伽利略真正的天才在于他使用了斜面实验：他让球从斜面上滚下，巧妙地“减慢”了重力，使其可以用简陋的工具（如他自己的脉搏或水钟）来测量时间。他发现，下落距离与所用时间的平方成正比，并由此推断出所有物体，无论轻重，在真空中下落速度都相同。",
+        "text_en": "The story of Galileo dropping two balls of different masses from the Leaning Tower of Pisa to disprove Aristotle (who said heavier objects fall faster) is likely a myth. Galileo's true genius was his inclined plane experiment: by rolling balls down a ramp, he cleverly 'slowed down' gravity enough to measure the time with crude tools (like his own pulse or a water clock). He discovered that the distance fallen is proportional to the *square* of the time taken, and deduced that all objects, regardless of mass, fall at the same rate in a vacuum."
+    },
+    "fun_facts": [
+        {
+            "icon": " banned",
+            "text": "这本书在荷兰莱顿出版，因为伽利略此时正因支持哥白尼的“日心说”而被罗马宗教裁判所软禁在佛罗伦萨，他的著作在意大利被禁止出版。",
+            "text_en": "This book was published in Leiden, Netherlands, because Galileo was under house arrest by the Roman Inquisition in Florence for his support of Copernican heliocentrism. His works were banned in Italy."
+        },
+        {
+            "icon": " dialogue",
+            "text": "与他早期的天文学著作一样，这本书也是以三个人（萨尔维亚蒂、萨格雷多和辛普利西奥）之间对话的形式写成的。",
+            "text_en": "Like his earlier astronomical work, this book is written as a dialogue between three characters: Salviati, Sagredo, and Simplicio."
+        }
+    ],
+    "simple_explanation": {
+        "text": "阿波罗15号的宇航员大卫·斯科特在月球上（没有空气阻力）同时扔下了一把锤子和一根羽毛。它们同时落地，完美地验证了伽利略400年前的理论：重力对所有物体的“拉力”都是一样的，轻物体并不会下落得更慢。",
+        "text_en": "On the Moon (where there is no air), Apollo 15 astronaut David Scott dropped a hammer and a feather at the same time. They hit the ground *simultaneously*. This perfectly proved Galileo's 400-year-old theory: gravity pulls all objects the same way, and lighter objects don't fall slower.",
+        "video": {
+            "url": "https://www.youtube.com/embed/QyeF-_QPSbk",
+            "title": "伽利略的自由落体实验",
+            "title_en": "Galileo's Free Fall Experiment",
+            "duration": "3:34"
+        }
+    },
+    "applications": [
+        {
+            "icon": " 🚀",
+            "title": "所有现代力学",
+            "title_en": "All Modern Mechanics",
+            "text": "伽利略的惯性定律和加速度定律是牛顿三定律的直接前提和基础。",
+            "text_en": "Galileo's laws of inertia and acceleration are the direct precursors and foundation for Newton's Three Laws of Motion."
+        },
+        {
+            "icon": " 🎯",
+            "title": "弹道学",
+            "title_en": "Ballistics",
+            "text": "他发现抛物线运动是匀速水平运动和匀加速垂直运动的叠加，这使得计算大炮和投掷物体的轨迹成为可能。",
+            "text_en": "His discovery that projectile motion is a combination of uniform horizontal motion and accelerated vertical motion made it possible to calculate the trajectories of cannons and thrown objects."
+        },
+        {
+            "icon": " 🌉",
+            "title": "材料科学",
+            "title_en": "Material Science",
+            "text": "书中的“第二门新科学”是关于材料强度的，分析了梁和杆为何会断裂，这是现代土木和机械工程的开端。",
+            "text_en": "The 'second new science' in the book was about the strength of materials, analyzing why beams and rods break, which is the beginning of modern civil and mechanical engineering."
+        }
+    ],
+    "impact": {
+        "text": "这本书被认为是现代物理学的奠基之作。伽利略用数学语言描述了运动，并坚持实验是检验理论的唯一标准，从而开创了“科学方法”。爱因斯坦称他为“现代科学之父”。",
+        "text_en": "This book is considered the foundation of modern physics. Galileo created the 'scientific method' by describing motion in the language of mathematics and insisting that experiment was the only arbiter of truth. Einstein called him 'the father of modern science'."
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "aristotle_elements_BC350",
+                "contribution": "亚里士多德的物理学（作为被推翻的主要理论）",
+                "contribution_en": "Aristotelian physics (as the primary theory to be disproven)"
+            },
+            {
+                "id": "archimedes_principle_BC250",
+                "contribution": "阿基米德（作为使用数学描述物理世界的榜样）",
+                "contribution_en": "Archimedes (as the model for using mathematics to describe the physical world)"
+            },
+            {
+                "id": "copernicus_heliocentrism_1543",
+                "contribution": "哥白尼（伽利略的惯性定律是为“地球运动”的日心说模型提供物理辩护所必需的）",
+                "contribution_en": "Copernicus (Galileo's law of inertia was necessary to provide a physical defense for a moving-Earth, heliocentric model)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_motion_laws_1687",
+                "contribution": "为牛顿第一定律（惯性）和第二定律（加速度）提供了概念和实验基础",
+                "contribution_en": "Provided the conceptual and experimental basis for Newton's First Law (Inertia) and Second Law (acceleration)"
+            },
+            {
+                "id": "newton_gravity_1687",
+                "contribution": "他测量的常数 $g$（重力加速度）是牛顿引力定律在地球表面的直接体现",
+                "contribution_en": "His measurement of a constant $g$ (gravitational acceleration) is the direct manifestation of Newton's law of gravity at the Earth's surface"
+            }
+        ],
+        "legacy_text": "伽利略用实验和数学取代了亚里士多德基于“目的”的哲学思辨，将物理学从哲学中分离出来，使其成为一门独立的实证科学。",
+        "legacy_text_en": "Galileo replaced Aristotle's philosophical, 'purpose-based' speculation with experiments and mathematics, separating physics from philosophy and turning it into an empirical science."
+    },
+    "related_concepts": [
+        "惯性",
+        "自由落体",
+        "运动学",
+        "抛体运动",
+        "科学方法",
+        "比萨斜塔实验",
+        "斜面实验"
+    ],
+    "related_concepts_en": [
+        "Inertia",
+        "Free Fall",
+        "Kinematics",
+        "Projectile Motion",
+        "Scientific Method",
+        "Pisa Experiment",
+        "Inclined Plane Experiment"
+    ],
+    "quiz": {
+        "question": "伽利略著名的斜面实验，揭示了物体滚下距离（d）和时间（t）之间的什么关键数学关系？",
+        "question_en": "What key mathematical relationship between distance (d) and time (t) did Galileo's famous inclined plane experiment reveal?",
+        "options": [
+            "距离与时间成正比 ($d \\propto t$)",
+            "距离与时间的平方成正比 ($d \\propto t^2$)",
+            "距离与时间成反比 ($d \\propto 1/t$)",
+            "距离与时间无关"
+        ],
+        "options_en": [
+            "Distance is proportional to time ($d \\propto t$)",
+            "Distance is proportional to the square of time ($d \\propto t^2$)",
+            "Distance is inversely proportional to time ($d \\propto 1/t$)",
+            "Distance is unrelated to time"
+        ],
+        "answer": 1,
+        "explanation": "这是伽利略的伟大发现。匀速运动是 $d \\propto t$，而他证明了重力引起的匀加速运动是 $d \\propto t^2$。例如，如果1秒内下落1米，2秒内将下落4米，3秒内将下落9米。",
+        "explanation_en": "This was Galileo's great discovery. Constant velocity is $d \\propto t$, but he proved that constant acceleration (from gravity) follows $d \\propto t^2$. For example, if it falls 1 meter in 1 second, it will fall 4 meters in 2 seconds and 9 meters in 3 seconds."
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "id": "wohler_yttrium_1828",
+    "personId": "friedrich_wohler",
+    "title": "首次分离出“钇” (Yttrium) 元素",
+    "title_en": "First to Isolate the Element Yttrium",
+    "year": 1828,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "普鲁士 (今德国)",
+    "country_en": "Prussia (Modern Germany)",
+    "field": ["化学"],
+    "field_en": ["Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Yttrium_sublimed_dendritic_and_1cm3_cube.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=NxbOQ1FhqdQ",
+        "title": "钇 (Y) 元素简介",
+        "title_en": "Yttrium - Periodic Table of Videos",
+        "duration": "11:48"
+      }
+    },
+    
+    "summary": {
+      "text": "在1828年这个“奇迹年”，继提纯“铝”和发现“铍”之后，弗里德里希·维勒（Friedrich Wöhler）又分离出了第三种金属元素：“钇”(Yttrium)。“钇土”（Yttria，氧化钇）早在1794年就已被发现，但无人能将其还原为金属。维勒应用了他标志性的“化学还原法”，用“纯金属钾”与“无水氯化钇”反应，成功制得了（不纯的）“钇”金属粉末。这是“稀土元素”(Rare Earth Elements) 历史上的一项重要突破。",
+      "text_en": "In his 'miracle year' of 1828—after isolating aluminum (`wohler_aluminum_1827`) and beryllium (`wohler_beryllium_1828`)—Friedrich Wöhler isolated a *third* metal: 'Yttrium'. The 'earth' Yttria (Yttrium oxide) had been known since 1794, but no one could reduce it. Wöhler applied his signature 'chemical reduction' method, reacting *pure potassium* with *anhydrous yttrium chloride* to produce the first (impure) sample of Yttrium metal powder. This was a major breakthrough in the history of 'Rare Earth Elements'.",
+      "key_points": [
+        "首次分离出“钇”(Yttrium, Y)",
+        "使用了“化学还原法”",
+        "使用“金属钾”还原“氯化钇”",
+        "“稀土元素”(Rare Earth) 发现史上的关键一步"
+      ],
+      "key_points_en": [
+        "First to isolate 'Yttrium' (Y)",
+        "Used the 'Chemical Reduction' method",
+        "Used 'metallic potassium' to reduce 'yttrium chloride'",
+        "A key step in the discovery of 'Rare Earth Elements'"
+      ]
+    },
+  
+    "story": {
+      "text": "1828年，维勒连续取得突破。他将他为分离铝（`wohler_aluminum_1827`）和铍（`wohler_beryllium_1828`）而完善的“强力还原法”应用到了另一种已知的“土”——“钇土”（Yttria）。和前两次一样，他将纯金属钾（`davy_electrochemistry_1808`）与氯化钇一同加热。反应成功了，他获得了一种暗灰色的金属粉末，当在空气中加热时，它会燃烧并发出“极其明亮的白光”。他成功分离了第一种“稀土元素”。",
+      "text_en": "In 1828, Wöhler was on a roll. He applied his powerful reduction method—perfected for aluminum (`wohler_aluminum_1827`) and beryllium (`wohler_beryllium_1828`)—to another known 'earth': 'Yttria'. Just as before, he heated pure potassium (`davy_electrochemistry_1808`) with yttrium chloride. The reaction worked. He obtained a dark-grey metallic powder which, when heated in air, burned with 'an exceedingly brilliant white light'. He had successfully isolated the first of the 'rare earth' metals."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🇸🇪",
+        "text": "“钇”(Yttrium) 是以瑞典的一个村庄“伊特比”(Ytterby) 命名的。这个村庄旁的采石场是化学史上最著名的“宝库”，总共有**七种**新元素（包括 钇, 镱, 铒, 铽）在这里被发现，并以该村庄命名。",
+        "text_en": "'Yttrium' is named after Ytterby, a village in Sweden. The quarry near this one village is the most famous 'treasure chest' in chemistry, as *seven* new elements (including Yttrium, Ytterbium, Erbium, Terbium) were discovered there and named after it."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1828年，维勒简直是“如有神助”。在合成了尿素（`wohler_urea_1828`）的同一年，他还顺便发现了两种新金属。他基本上是把他提纯铝（`wohler_aluminum_1827`）的“配方”（金属钾 + 某种氯化物）又试了两次。\n* “配方” + “氯化铍” = “铍”金属粉末（祖母绿中的金属）。\n* “配方” + “氯化钇” = “钇”金属粉末。\n他成为了19世纪最高产的“元素发现者”之一。",
+      "text_en": "In 1828, Wöhler was just on fire. In the *same year* he synthesized urea (`wohler_urea_1828`), he also casually isolated two new metals. He basically just re-used his 'recipe' from his aluminum discovery (`wohler_aluminum_1827`): (Metallic Potassium + a chloride).\n* Recipe + 'Beryllium Chloride' = 'Beryllium' powder (the metal in Emeralds).\n* Recipe + 'Yttrium Chloride' = 'Yttrium' powder.\nHe became one of the most prolific 'element hunters' of the 19th century."      
+    },
+  
+    "applications": [
+        {
+          "icon": "💡",
+          "title": "电子与显示 (Electronics & Displays)",
+          "title_en": "Electronics & Displays",
+          "text": "“钇”(Yttrium) 被广泛用作“红色荧光粉”（如在旧式电视显像管和现代LED中）的关键成分。",
+          "text_en": "'Yttrium' is a key component of the 'red phosphor' used to create the color red in old CRT televisions and in modern LEDs."
+        },
+        {
+          "icon": "🔬",
+          "title": "稀土元素化学 (Rare Earth Chemistry)",
+          "title_en": "Rare Earth Chemistry",
+          "text": "“钇”的发现和分离，是“稀土元素”化学的开端，这一族元素对所有现代高科技（如磁铁、激光、智能手机）都至关重要。",
+          "text_en": "The discovery and isolation of Yttrium began 'Rare Earth Chemistry', a family of elements critical for all modern high-technology (magnets, lasers, smartphones)."
+        }
+      ],
+  
+    "impact": {
+      "text": "维勒对“钇”的分离，（与他分离“铝”和“铍”一样）展示了“化学还原法”在发现新元素方面的巨大威力。这些新发现的元素，为门捷列夫（`mendeleev_periodic_table_1869`）在几十年后构建“元素周期表”提供了必要的“拼图”。",
+      "text_en": "Wöhler's isolation of Yttrium (along with Beryllium and Aluminum) demonstrated the power of 'chemical reduction' for discovering new elements. These discoveries provided essential 'puzzle pieces' for Mendeleev (`mendeleev_periodic_table_1869`) when he built the Periodic Table decades later.",
+      "stats": [
+          {
+            "number": "39",
+            "label": "号元素 (Y)",
+            "label_en": "Element (Y)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "davy_electrochemistry_1808",
+          "contribution": "汉弗莱·戴维（其“钾”元素的发现，为维勒提供了必要的“化学还原剂”）",
+          "contribution_en": "Humphry Davy (his discovery of 'potassium' provided Wöhler with the necessary 'chemical reagent')"
+        },
+        {
+          "id": "berzelius_chemistry_1810",
+          "contribution": "贝采利乌斯（维勒的导师，指导了他的化学研究）",
+          "contribution_en": "Berzelius (Wöhler's mentor, who guided his chemical research)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "mendeleev_periodic_table_1869",
+          "contribution": "门捷列夫（“钇”和“铍”是构建“元素周期表”的必要数据）",
+          "contribution_en": "Mendeleev ('Yttrium' and 'Beryllium' were necessary data for constructing the Periodic Table)"
+        }
+      ],
+      "legacy_text": "在1828年这个“奇迹年”，维勒不仅开创了有机化学，还发现了两种新的金属元素。",
+      "legacy_text_en": "In his 'miracle year' of 1828, Wöhler not only founded organic chemistry but also isolated two new metallic elements."
+    },
+  
+    "related_concepts": ["钇 (Yttrium)", "铍 (Beryllium)", "维勒 (Wöhler)", "化学还原 (Chemical Reduction)", "钾 (Potassium)", "稀土元素 (Rare Earth Elements)", "伊特比 (Ytterby)"],
+    "related_concepts_en": ["Yttrium", "Beryllium", "Wöhler", "Chemical Reduction", "Potassium", "Rare Earth Elements", "Ytterby"],
+  
+    "quiz": {
+      "question": "弗里德里希·维勒（Wöhler）在1828年使用什么化学方法首次分离出了“钇”？",
+      "question_en": "What chemical method did Friedrich Wöhler use to first isolate Yttrium in 1828?",
+      "options": [
+        "电解法 (Electrolysis)",
+        "光谱分析 (Spectroscopy)",
+        "用纯钾进行化学还原 (Chemical reduction with pure potassium)",
+        "蒸馏法 (Distillation)"
+      ],
+      "options_en": [
+        "Electrolysis",
+        "Spectroscopy",
+        "Chemical reduction with pure potassium",
+        "Distillation"
+      ],
+      "answer": 2,
+      "explanation": "维勒使用了与他分离铝（`wohler_aluminum_1827`）和铍（`wohler_beryllium_1828`）相同的“化学还原”技术：他用反应性极强的金属钾（K）“抢走”了氯化钇（YCl₃）中的氯，从而“解放”了金属钇。",
+      "explanation_en": "Wöhler used the same 'chemical reduction' technique he used for aluminum (`wohler_aluminum_1827`) and beryllium (`wohler_beryllium_1828`): he took highly reactive *potassium* (K) and used it to 'steal' the chlorine from 'yttrium chloride' (YCl₃), 'liberating' the metallic yttrium."
+    }
+  }

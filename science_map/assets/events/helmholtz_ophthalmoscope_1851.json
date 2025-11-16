@@ -1,0 +1,133 @@
+{
+  "id": "helmholtz_ophthalmoscope_1851",
+  "personId": "hermann_von_helmholtz",
+  "title": "发明检眼镜",
+  "title_en": "Invents the Ophthalmoscope",
+  "year": 1851,
+  "lat": 54.7954,
+  "lng": 20.5109,
+  "city": "柯尼斯堡",
+  "city_en": "Königsberg",
+  "country": "普鲁士 (今俄罗斯加里宁格勒)",
+  "country_en": "Prussia (Modern Kaliningrad, Russia)",
+  "field": ["医学", "工程学"],
+  "field_en": ["Medicine", "Engineering"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ophthalmoscope_Otoscope08.JPG",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=QT0rl-0bkz8",
+      "title": "亥姆霍兹发明检眼镜",
+      "title_en": "Hermann von Helmholtz Introduces the Ophthalmoscope",
+      "duration": "3:02"
+    }
+  },
+  
+  "summary": {
+    "text": "作为一名生理学教授，亥姆霍兹发明了“检眼镜”(Ophthalmoscope)。这是一个简单但极其巧妙的装置，它使用一面镜子（或部分镀银的玻璃）来反射光线，使观察者（医生）能够“通过”光源，第一次“直视”到活人眼睛的内部，并清晰地看到“视网膜”(Retina)。这一发明单枪匹马地开创了现代“眼科学”(Ophthalmology)。",
+    "text_en": "While working as a professor of physiology, Helmholtz invented the 'Ophthalmoscope'. It is a simple but ingenious device that uses a mirror (or partially-silvered glass) to reflect light in such a way that the observer (doctor) can look *through* the light source, *into* a living patient's eye, and see the 'retina' clearly for the first time. This invention single-handedly created the modern field of ophthalmology.",
+    "key_points": [
+      "发明了“检眼镜”(Ophthalmoscope)",
+      "开创了现代“眼科学”(Ophthalmology)",
+      "使医生能够首次看到活体的“视网膜”(Retina)",
+      "使用了“光轴重合”的原理"
+    ],
+    "key_points_en": [
+      "Invented the 'Ophthalmoscope'",
+      "Founded the field of modern 'Ophthalmology'",
+      "Allowed doctors to see the living 'retina' for the first time",
+      "Used the principle of 'coaxial illumination'"
+    ]
+  },
+
+  "story": {
+    "text": "亥姆霍兹面临一个难题：为什么我们看别人的瞳孔是“黑”的？（“红眼”效应只在强光直射时出现）。他意识到，这是因为观察者自己的头挡住了进入眼睛的唯一光路。要看到视网膜，观察者的眼睛“必须”位于光源和视网膜之间的同一直线上。为了解决这个问题，他使用了一块“半透明”的镜子（“分束器”）：他从“侧面”用灯照射镜子，镜子将光线“反射”进病人的眼睛；而病人的视网膜反射回来的光，则会“穿过”这块半透明的镜子，进入亥姆霍兹的眼睛。他终于看到了那片“红色的土地”。",
+    "text_en": "Helmholtz faced a puzzle: why is the pupil always 'black'? (The 'red-eye' effect only happens with direct flashes). He realized it's because the observer's *own head* blocks the only light that could illuminate the retina. To see the retina, the observer's eye *must* be in the same line as the light source. He solved this by using a 'beam splitter' (a half-silvered mirror): He shone a lamp from the *side* onto the mirror, which *reflected* light into the patient's eye. The light from the patient's retina then traveled *back through* the mirror and into Helmholtz's eye. He could finally see the 'red fundus'.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/48/Fundus_photograph_of_normal_left_eye.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "⏱️",
+      "text": "据说亥姆霍兹仅仅用了8天时间就构思、建造并测试了第一台检眼镜。",
+      "text_en": "It is said that it took Helmholtz only 8 days to conceive of, build, and test the first ophthalmoscope."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "亥姆霍兹发明了眼科医生用的那个“小手电筒”。在他发明之前，医生的眼睛无法“进入”病人的瞳孔去看清眼底。亥姆霍兹的巧妙发明就像是在你的额头正中央（双眼之间）装了一盏灯，让你能“顺着”光线看进去，从而第一次清晰地看到了视网膜、血管和视神经。",
+    "text_en": "Helmholtz invented the 'little flashlight' your eye doctor uses. Before him, a doctor could never get their *own* eye in the right position to see *inside* a patient's pupil. Helmholtz's ingenious device was like mounting a light *directly in the center of the doctor's own eyeball*, allowing them to 'look down the beam' of light and see the retina, blood vessels, and optic nerve clearly for the first time.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ophthalmoscopy.JPG"
+  },
+
+  "applications": [
+      {
+        "icon": "👀",
+        "title": "眼科学 (Ophthalmology)",
+        "title_en": "Ophthalmology",
+        "text": "检眼镜是（并且至今仍是）眼科医生的核心诊断工具。",
+        "text_en": "The ophthalmoscope is (and remains) the central diagnostic tool for all ophthalmologists."
+      },
+      {
+        "icon": "🩺",
+        "title": "诊断医学 (Diagnostic Medicine)",
+        "title_en": "Diagnostic Medicine",
+        "text": "通过观察视网膜上的血管，医生可以诊断出全身性疾病的早期征兆，如“糖尿病”、“高血压”和“脑瘤”（视神经肿胀）。",
+        "text_en": "By looking at the retina's blood vessels, doctors can diagnose early signs of systemic diseases like 'diabetes', 'high blood pressure', and 'brain tumors' (swelling of the optic nerve)."
+      }
+    ],
+
+  "impact": {
+    "text": "检眼镜的发明，是19世纪医学最重要的技术突破之一。它将“眼睛”这个“黑匣子”变成了一个透明的“窗口”，使医生能够首次直接观察到活体内的血管和神经组织。这单枪匹马地将“眼科学”从一个猜测的领域，转变为一个现代的、以诊断为基础的医学专科。",
+    "text_en": "The invention of the ophthalmoscope was one of the most important medical-technical breakthroughs of the 19th century. It turned the 'black box' of the eye into a transparent 'window', allowing direct observation of living blood vessels and nerve tissue for the first time. It single-handedly transformed ophthalmology from a field of guesswork into a modern, diagnostic specialty.",
+    "stats": [
+        {
+          "number": "1851",
+          "label": "年 (发明年份)",
+          "label_en": "Year Invented"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "helmholtz_optics_1856",
+        "contribution": "（他自己）对生理光学的深刻理解是发明检眼镜的理论基础",
+        "contribution_en": "(Himself) His deep understanding of physiological optics was the theoretical basis for the invention"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "modern_medicine_1900",
+        "contribution": "所有现代眼科学和神经内科的诊断",
+        "contribution_en": "All of modern ophthalmology and neurology diagnostics"
+      }
+    ],
+    "legacy_text": "亥姆霍兹的检眼镜打开了通往“活体大脑”（视神经是大脑的延伸）的唯一窗口。",
+    "legacy_text_en": "Helmholtz's ophthalmoscope opened the only window into the living brain (the optic nerve)."
+  },
+
+  "related_concepts": ["检眼镜 (Ophthalmoscope)", "眼科学 (Ophthalmology)", "视网膜 (Retina)", "生理光学 (Physiological Optics)", "分束器 (Beam Splitter)", "医学"],
+  "related_concepts_en": ["Ophthalmoscope", "Ophthalmology", "Retina", "Physiological Optics", "Beam Splitter", "Medicine"],
+
+  "quiz": {
+    "question": "亥姆霍兹发明的“检眼镜”解决了什么光学难题？",
+    "question_en": "What optical problem did Helmholtz's 'Ophthalmoscope' solve?",
+    "options": [
+      "如何放大微小的物体",
+      "如何将光分解为光谱",
+      "如何将观察者的“视线”与“光源”置于同一条直线上，以看到视网膜",
+      "如何测量光的波长"
+    ],
+    "options_en": [
+      "How to magnify tiny objects",
+      "How to split light into a spectrum",
+      "How to get the observer's 'line of sight' onto the *same path* as the 'light source' to see the retina",
+      "How to measure the wavelength of light"
+    ],
+    "answer": 2,
+    "explanation": "难题在于，要看到视网膜，光必须原路返回，但观察者的头会挡住光路。亥姆霍兹使用“半透明镜子”（分束器）巧妙地解决了这个问题，使他能够“顺着”光束看进去。",
+    "explanation_en": "The problem was that to see the retina, light must travel back along its original path, but the observer's head blocks that path. Helmholtz used a 'half-mirror' (beam splitter) to 'look down the beam' of light."
+  }
+}

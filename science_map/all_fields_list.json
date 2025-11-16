@@ -1,0 +1,800 @@
+{
+  "fields_zh": [
+    "三角学",
+    "仪器制造",
+    "伦理学",
+    "光学",
+    "几何学",
+    "力学",
+    "化学",
+    "发明",
+    "哲学",
+    "地理学",
+    "天文学",
+    "宇宙学",
+    "宗教",
+    "工业革命",
+    "工程学",
+    "引力",
+    "形而上学",
+    "微积分",
+    "微积分 (雏形)",
+    "数学",
+    "时空",
+    "本体论",
+    "材料力学",
+    "材料科学",
+    "概率论",
+    "气体动力学",
+    "气象学",
+    "流体静力学",
+    "液压学",
+    "热力学",
+    "物理学",
+    "生物学",
+    "神秘主义",
+    "科学插画",
+    "科学方法",
+    "组合数学",
+    "统计力学",
+    "自然哲学",
+    "观测",
+    "认识论",
+    "运动学",
+    "逻辑",
+    "逻辑学",
+    "量子力学",
+    "静力学",
+    "音乐"
+  ],
+  "fields_en": [
+    "Astronomy",
+    "Biology",
+    "Calculus",
+    "Calculus (Proto)",
+    "Chemistry",
+    "Combinatorics",
+    "Cosmology",
+    "Engineering",
+    "Epistemology",
+    "Ethics",
+    "Geography",
+    "Geometry",
+    "Gravitation",
+    "Hydraulics",
+    "Hydrostatics",
+    "Industrial Revolution",
+    "Instrumentation",
+    "Invention",
+    "Kinematics",
+    "Logic",
+    "Materials Science",
+    "Mathematics",
+    "Mechanics",
+    "Mechanics of Materials",
+    "Metaphysics",
+    "Meteorology",
+    "Music",
+    "Mysticism",
+    "Natural Philosophy",
+    "Observation",
+    "Ontology",
+    "Optics",
+    "Philosophy",
+    "Physics",
+    "Pneumatics",
+    "Probability Theory",
+    "Quantum Mechanics",
+    "Religion",
+    "Scientific Illustration",
+    "Scientific Method",
+    "Spacetime",
+    "Statics",
+    "Statistical Mechanics",
+    "Thermodynamics",
+    "Trigonometry"
+  ],
+  "field_combinations": [
+    {
+      "event": "orphicism_BC550",
+      "fields_zh": [
+        "哲学",
+        "宗教",
+        "神秘主义"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Religion",
+        "Mysticism"
+      ]
+    },
+    {
+      "event": "galileo_telescope_1610",
+      "fields_zh": [
+        "天文学",
+        "光学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Optics"
+      ]
+    },
+    {
+      "event": "pythagoras_theorem_BC500",
+      "fields_zh": [
+        "数学",
+        "几何学"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Geometry"
+      ]
+    },
+    {
+      "event": "lippershey_telescope_1608",
+      "fields_zh": [
+        "光学",
+        "天文学"
+      ],
+      "fields_en": [
+        "Optics",
+        "Astronomy"
+      ]
+    },
+    {
+      "event": "eudoxus_exhaustion_BC370",
+      "fields_zh": [
+        "天文学",
+        "数学",
+        "哲学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Mathematics",
+        "Philosophy"
+      ]
+    },
+    {
+      "event": "ideal_gas_law_1834",
+      "fields_zh": [
+        "物理学",
+        "化学",
+        "热力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Chemistry",
+        "Thermodynamics"
+      ]
+    },
+    {
+      "event": "newcomen_engine_1712",
+      "fields_zh": [
+        "工程学",
+        "发明",
+        "工业革命"
+      ],
+      "fields_en": [
+        "Engineering",
+        "Invention",
+        "Industrial Revolution"
+      ]
+    },
+    {
+      "event": "einstein_special_relativity_1905",
+      "fields_zh": [
+        "物理学",
+        "时空"
+      ],
+      "fields_en": [
+        "Physics",
+        "Spacetime"
+      ]
+    },
+    {
+      "event": "leibniz_philosophy_1710",
+      "fields_zh": [
+        "哲学",
+        "数学",
+        "逻辑学",
+        "形而上学"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Mathematics",
+        "Logic",
+        "Metaphysics"
+      ]
+    },
+    {
+      "event": "hippasus_irrational_BC470",
+      "fields_zh": [
+        "数学",
+        "哲学"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Philosophy"
+      ]
+    },
+    {
+      "event": "euclid_elements_BC300",
+      "fields_zh": [
+        "数学",
+        "几何学",
+        "逻辑"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Geometry",
+        "Logic"
+      ]
+    },
+    {
+      "event": "hooke_inverse_square_1679",
+      "fields_zh": [
+        "物理学",
+        "天文学",
+        "力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Astronomy",
+        "Mechanics"
+      ]
+    },
+    {
+      "event": "hipparchus_precession_BC150",
+      "fields_zh": [
+        "天文学",
+        "地理学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Geography"
+      ]
+    },
+    {
+      "event": "aristotle_elements_BC350",
+      "fields_zh": [
+        "物理学",
+        "哲学",
+        "自然哲学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Philosophy",
+        "Natural Philosophy"
+      ]
+    },
+    {
+      "event": "gay_lussac_law_1802",
+      "fields_zh": [
+        "化学",
+        "物理学",
+        "气体动力学"
+      ],
+      "fields_en": [
+        "Chemistry",
+        "Physics",
+        "Pneumatics"
+      ]
+    },
+    {
+      "event": "ibn_al_shatir_model_1350",
+      "fields_zh": [
+        "天文学",
+        "数学",
+        "仪器制造"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Mathematics",
+        "Instrumentation"
+      ]
+    },
+    {
+      "event": "socrates_dialogues_BC420",
+      "fields_zh": [
+        "哲学",
+        "伦理学",
+        "认识论"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Ethics",
+        "Epistemology"
+      ]
+    },
+    {
+      "event": "papin_piston_1690",
+      "fields_zh": [
+        "物理学",
+        "发明",
+        "工程学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Invention",
+        "Engineering"
+      ]
+    },
+    {
+      "event": "copernicus_heliocentrism_1543",
+      "fields_zh": [
+        "天文学",
+        "宇宙学",
+        "数学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Cosmology",
+        "Mathematics"
+      ]
+    },
+    {
+      "event": "plato_forms_BC380",
+      "fields_zh": [
+        "哲学",
+        "形而上学",
+        "认识论",
+        "本体论"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Metaphysics",
+        "Epistemology",
+        "Ontology"
+      ]
+    },
+    {
+      "event": "hipparchus_trigonometry_BC150",
+      "fields_zh": [
+        "数学",
+        "三角学",
+        "天文学"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Trigonometry",
+        "Astronomy"
+      ]
+    },
+    {
+      "event": "ptolemy_geocentrism_150",
+      "fields_zh": [
+        "天文学",
+        "数学",
+        "地理学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Mathematics",
+        "Geography"
+      ]
+    },
+    {
+      "event": "leibniz_calculus_1684",
+      "fields_zh": [
+        "数学",
+        "微积分"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Calculus"
+      ]
+    },
+    {
+      "event": "hooke_micrographia_1665",
+      "fields_zh": [
+        "生物学",
+        "光学",
+        "科学插画"
+      ],
+      "fields_en": [
+        "Biology",
+        "Optics",
+        "Scientific Illustration"
+      ]
+    },
+    {
+      "event": "aristarchus_heliocentrism_BC270",
+      "fields_zh": [
+        "天文学",
+        "宇宙学",
+        "数学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Cosmology",
+        "Mathematics"
+      ]
+    },
+    {
+      "event": "pascal_pressure_1653",
+      "fields_zh": [
+        "物理学",
+        "流体静力学",
+        "液压学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Hydrostatics",
+        "Hydraulics"
+      ]
+    },
+    {
+      "event": "pythagoras_philosophy_BC520",
+      "fields_zh": [
+        "哲学",
+        "数学",
+        "神秘主义",
+        "音乐"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Mathematics",
+        "Mysticism",
+        "Music"
+      ]
+    },
+    {
+      "event": "kepler_laws_1609",
+      "fields_zh": [
+        "天文学",
+        "数学",
+        "物理学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Mathematics",
+        "Physics"
+      ]
+    },
+    {
+      "event": "aristotle_geocentrism_BC350",
+      "fields_zh": [
+        "天文学",
+        "宇宙学",
+        "哲学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Cosmology",
+        "Philosophy"
+      ]
+    },
+    {
+      "event": "galileo_motion_1638",
+      "fields_zh": [
+        "物理学",
+        "运动学",
+        "材料力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Kinematics",
+        "Mechanics of Materials"
+      ]
+    },
+    {
+      "event": "archimedes_principle_BC250",
+      "fields_zh": [
+        "物理学",
+        "流体静力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Hydrostatics"
+      ]
+    },
+    {
+      "event": "parmenides_philosophy_BC475",
+      "fields_zh": [
+        "哲学",
+        "形而上学",
+        "本体论"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Metaphysics",
+        "Ontology"
+      ]
+    },
+    {
+      "event": "einstein_photoelectric_1905",
+      "fields_zh": [
+        "物理学",
+        "量子力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Quantum Mechanics"
+      ]
+    },
+    {
+      "event": "newton_gravity_1687",
+      "fields_zh": [
+        "物理学",
+        "天文学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Astronomy"
+      ]
+    },
+    {
+      "event": "anaxagoras_philosophy_BC460",
+      "fields_zh": [
+        "哲学",
+        "宇宙学",
+        "形而上学"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Cosmology",
+        "Metaphysics"
+      ]
+    },
+    {
+      "event": "torricelli_barometer_1643",
+      "fields_zh": [
+        "物理学",
+        "气象学",
+        "流体静力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Meteorology",
+        "Hydrostatics"
+      ]
+    },
+    {
+      "event": "nasir_al_din_al_tusi_1250",
+      "fields_zh": [
+        "天文学",
+        "数学",
+        "哲学"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Mathematics",
+        "Philosophy"
+      ]
+    },
+    {
+      "event": "einstein_general_relativity_1915",
+      "fields_zh": [
+        "物理学",
+        "引力",
+        "宇宙学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Gravitation",
+        "Cosmology"
+      ]
+    },
+    {
+      "event": "einstein_brownian_motion_1905",
+      "fields_zh": [
+        "物理学",
+        "统计力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Statistical Mechanics"
+      ]
+    },
+    {
+      "event": "newton_motion_laws_1687",
+      "fields_zh": [
+        "物理学",
+        "数学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Mathematics"
+      ]
+    },
+    {
+      "event": "newton_calculus_1666",
+      "fields_zh": [
+        "数学",
+        "物理学"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Physics"
+      ]
+    },
+    {
+      "event": "empedocles_elements_BC450",
+      "fields_zh": [
+        "哲学",
+        "自然哲学",
+        "宇宙学"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Natural Philosophy",
+        "Cosmology"
+      ]
+    },
+    {
+      "event": "pascal_triangle_1654",
+      "fields_zh": [
+        "数学",
+        "概率论",
+        "组合数学"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Probability Theory",
+        "Combinatorics"
+      ]
+    },
+    {
+      "event": "tycho_brahe_astronomical_data_1580",
+      "fields_zh": [
+        "天文学",
+        "观测",
+        "仪器制造"
+      ],
+      "fields_en": [
+        "Astronomy",
+        "Observation",
+        "Instrumentation"
+      ]
+    },
+    {
+      "event": "archimedes_lever_BC260",
+      "fields_zh": [
+        "物理学",
+        "静力学",
+        "工程学",
+        "数学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Statics",
+        "Engineering",
+        "Mathematics"
+      ]
+    },
+    {
+      "event": "boyle_law_1662",
+      "fields_zh": [
+        "化学",
+        "物理学",
+        "气体动力学"
+      ],
+      "fields_en": [
+        "Chemistry",
+        "Physics",
+        "Pneumatics"
+      ]
+    },
+    {
+      "event": "archimedes_calculus_BC240",
+      "fields_zh": [
+        "数学",
+        "几何学",
+        "微积分 (雏形)"
+      ],
+      "fields_en": [
+        "Mathematics",
+        "Geometry",
+        "Calculus (Proto)"
+      ]
+    },
+    {
+      "event": "charles_law_1787",
+      "fields_zh": [
+        "物理学",
+        "化学",
+        "气体动力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Chemistry",
+        "Pneumatics"
+      ]
+    },
+    {
+      "event": "watt_steam_engine_1776",
+      "fields_zh": [
+        "工程学",
+        "发明",
+        "工业革命",
+        "热力学"
+      ],
+      "fields_en": [
+        "Engineering",
+        "Invention",
+        "Industrial Revolution",
+        "Thermodynamics"
+      ]
+    },
+    {
+      "event": "newton_opticks_1704",
+      "fields_zh": [
+        "物理学",
+        "光学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Optics"
+      ]
+    },
+    {
+      "event": "aristotle_logic_BC350",
+      "fields_zh": [
+        "哲学",
+        "逻辑学",
+        "科学方法"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Logic",
+        "Scientific Method"
+      ]
+    },
+    {
+      "event": "hooke_law_1678",
+      "fields_zh": [
+        "物理学",
+        "材料科学",
+        "力学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Materials Science",
+        "Mechanics"
+      ]
+    },
+    {
+      "event": "carnot_thermodynamics_1824",
+      "fields_zh": [
+        "热力学",
+        "物理学",
+        "工程学"
+      ],
+      "fields_en": [
+        "Thermodynamics",
+        "Physics",
+        "Engineering"
+      ]
+    },
+    {
+      "event": "thales_anaximander_BC580",
+      "fields_zh": [
+        "哲学",
+        "自然哲学",
+        "宇宙学",
+        "天文学"
+      ],
+      "fields_en": [
+        "Philosophy",
+        "Natural Philosophy",
+        "Cosmology",
+        "Astronomy"
+      ]
+    },
+    {
+      "event": "huygens_centrifugal_force_1673",
+      "fields_zh": [
+        "物理学",
+        "数学",
+        "力学",
+        "天文学"
+      ],
+      "fields_en": [
+        "Physics",
+        "Mathematics",
+        "Mechanics",
+        "Astronomy"
+      ]
+    }
+  ]
+}

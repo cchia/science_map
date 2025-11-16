@@ -1,0 +1,152 @@
+{
+    "id": "bunsen_burner_1855",
+    "personId": ["robert_bunsen", "peter_desaga"],
+    "title": "发明本生灯",
+    "title_en": "Invents the Bunsen Burner",
+    "year": 1855,
+    "lat": 49.3988,
+    "lng": 8.6724,
+    "city": "海德堡",
+    "city_en": "Heidelberg",
+    "country": "德国 (巴登大公国)",
+    "country_en": "Germany (Grand Duchy of Baden)",
+    "field": ["化学", "工程学"],
+    "field_en": ["Chemistry", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Bunsen_burner_flame_types.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=N1InF2P0FdY",
+        "title": "本生灯是如何工作的？",
+        "title_en": "What is a Bunsen Burner? How does it work? ",
+        "duration": "1:53"
+      }
+    },
+    
+    "summary": {
+      "text": "罗伯特·本生与他的实验室助手彼得·德萨加（Peter Desaga）在1855年共同完善了“本生灯”的设计。这是一种燃气灯，其关键创新是底部的“可调节空气阀门”（进气孔）。它允许煤气在燃烧前与空气（氧气）充分混合，从而实现“完全燃烧”。这产生了一种温度极高（可达1500°C）、干净无烟灰、且几乎无色的火焰。",
+      "text_en": "In 1855, Robert Bunsen and his laboratory assistant, Peter Desaga, perfected the design of the 'Bunsen Burner'. Its key innovation is an adjustable 'air valve' at the base, which allows gas to pre-mix with air (oxygen) *before* combustion. This 'pre-mixing' results in a complete combustion, producing a flame that is extremely hot (up to 1500°C), clean (soot-free), and non-luminous (nearly colorless).",
+      "key_points": [
+        "高温、无色、干净的火焰",
+        "可调节的空气阀门（进气孔）",
+        "允许气体与空气预先混合（完全燃烧）",
+        "成为光谱分析 (`bunsen_spectroscopy_1859`) 的关键工具",
+        "成为实验室的标准加热设备"
+      ],
+      "key_points_en": [
+        "Hot, non-luminous, clean flame",
+        "Adjustable air valve (collar)",
+        "Allows pre-mixing of gas and air (complete combustion)",
+        "Critical tool for Spectroscopy (`bunsen_spectroscopy_1859`)",
+        "Standard laboratory heating equipment"
+      ]
+    },
+  
+    "story": {
+      "text": "当本生在1854年到达海德堡大学时，该市刚安装了煤气管道。但所有的旧式煤气灯都会产生明亮、低温且“充满烟灰”的黄色火焰。本生需要一种用于化学分析的“完美火焰”。他向大学的仪器制造师彼得·德萨加（Peter Desaga）提出了他的要求。德萨加在1855年设计出了一个原型：一个带有可调节气孔的立管，它在气体喷出前将其与空气混合。这导致了“完全燃烧”，产生了本生所需要的、无色且极热的火焰。这个设计是如此的成功和高效，以至于它立即成为了全世界实验室的标准配置。",
+      "text_en": "When Bunsen arrived at the University of Heidelberg in 1854, the city was installing gas lighting. All existing gas lamps (like the Argand lamp) produced a bright, cool, and *sooty* yellow flame. Bunsen needed a 'perfect flame' for chemical analysis. He took his requirements to the university's instrument-maker, Peter Desaga, who in 1855 designed the prototype: a vertical tube with an adjustable air hole at the bottom. By drawing in air and pre-mixing it with the gas, it produced the complete, non-luminous, and intensely hot flame Bunsen needed. The design was so successful it became the standard for labs worldwide.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Mechero_Bunsen.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤷",
+        "text": "本生灯的设计非常出色，以至于本生从未为它申请过专利。他认为它应该免费供科学界使用。",
+        "text_en": "Bunsen never patented the design. He believed it should be freely available for the good of the scientific community."
+      },
+      {
+        "icon": "🇬🇧",
+        "text": "虽然本生和德萨加完善了它，但其“预混合”的基本原理是由英国科学家迈克尔·法拉第（Michael Faraday）在1820年代早期的工作中提出的。",
+        "text_en": "Although Bunsen and Desaga perfected the design, the basic principle of 'pre-mixing' air and gas was based on an earlier device developed by Michael Faraday in the 1820s."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "本生灯是科学实验室的“终极炉灶”。它不像蜡烛那样产生又黄又脏的火焰，而是通过在底部吸入空气，让煤气和氧气“预先混合”。这就像给火焰“增压”一样，使其燃烧得更完全、温度更高（蓝色火焰）、也更干净（没有黑烟灰）。",
+      "text_en": "A Bunsen burner is the ultimate 'stove' for a science lab. Instead of a yellow, sooty flame like a candle, it has an air hole at the bottom. This sucks in air and 'pre-mixes' it with the gas *before* it burns. This 'supercharges' the flame, making it burn completely, which means it's much hotter (the blue flame) and cleaner (no soot).",
+      "diagram": "hhttps://upload.wikimedia.org/wikipedia/commons/4/47/Laboratory_tripod_with_other_lab_equipments.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔥",
+          "title": "光谱分析 (Spectroscopy)",
+          "title_en": "Spectroscopy",
+          "text": "本生灯的“无色”火焰是光谱分析（`bunsen_spectroscopy_1859`）的必要工具。它使本生和基尔霍夫能够清楚地看到元素本身发出的“特有颜色”，而不被火焰的颜色干扰。",
+          "text_en": "The burner's 'non-luminous' (colorless) flame was the *essential tool* for spectroscopy (`bunsen_spectroscopy_1859`). It allowed Bunsen and Kirchhoff to see the 'true colors' emitted by elements without interference from the flame itself."
+        },
+        {
+          "icon": "🧪",
+          "title": "化学加热 (Chemical Heating)",
+          "title_en": "Chemical Heating",
+          "text": "在本生灯出现后的150多年里，它一直是全球所有化学实验室中用于加热、煮沸和熔化物质的标准、可控工具。",
+          "text_en": "For over 150 years, it was the standard, controllable tool for heating, boiling, and melting substances in every chemistry lab worldwide."
+        },
+        {
+          "icon": "🔬",
+          "title": "灭菌 (Sterilization)",
+          "title_en": "Sterilization",
+          "text": "它的高温火焰是生物和医学实验室中用于“火焰灭菌”（如给接种环消毒）的标准方法，至今仍在使用。",
+          "text_en": "Its hot, open flame is the standard method for 'flame sterilization' in biology and medical labs (e.g., sterilizing inoculation loops), a practice still used today."
+        }
+      ],
+  
+    "impact": {
+      "text": "本生灯是19世纪最重要的科学工具之一。它为化学实验提供了一个标准化的、可重复的、清洁的高温热源。更重要的是，它作为“光谱分析法”的关键部件，直接促成了新元素的发现、天体化学的诞生以及量子力学的早期数据收集。",
+      "text_en": "The Bunsen burner is one of the most important scientific instruments of the 19th century. It provided a standardized, repeatable, and clean high-temperature heat source for chemistry. More importantly, by enabling spectroscopy (`bunsen_spectroscopy_1859`), it became a key component in the discovery of new elements, the birth of astrochemistry, and the gathering of the data that led to quantum mechanics.",
+      "stats": [
+          {
+            "number": "1500",
+            "label": "°C (最高温度)",
+            "label_en": "°C (Max Temperature)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "faraday_burner_1825",
+          "contribution": "迈克尔·法拉第（其早期的可调节燃气灯是本生灯的“原型”）",
+          "contribution_en": "Michael Faraday (whose early adjustable gas burner was the 'prototype' for Bunsen's design)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "bunsen_spectroscopy_1859",
+          "contribution": "光谱分析法（没有本生灯的“清洁火焰”，就不可能实现光谱分析）",
+          "contribution_en": "Spectroscopy (which was impossible without the 'clean flame' of the burner)"
+        },
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德和科赫（其“细菌理论”的实验，依赖本生灯进行高温灭菌）",
+          "contribution_en": "Pasteur and Koch (their experiments for 'Germ Theory' relied on the Bunsen burner for high-heat sterilization)"
+        }
+      ],
+      "legacy_text": "本生灯将“火焰”从一个不可控的元素，变成了一种精确、可靠的科学仪器。",
+      "legacy_text_en": "The Bunsen burner transformed 'flame' from an unpredictable element into a precise, reliable, scientific instrument."
+    },
+  
+    "related_concepts": ["本生灯", "罗伯特·本生", "彼得·德萨加", "光谱学", "完全燃烧", "火焰测试", "灭菌"],
+    "related_concepts_en": ["Bunsen Burner", "Robert Bunsen", "Peter Desaga", "Spectroscopy", "Complete Combustion", "Flame Test", "Sterilization"],
+  
+    "quiz": {
+      "question": "本生灯底部的“空气阀门”（进气孔）的关键作用是什么？",
+      "question_en": "What is the key purpose of the 'air valve' (collar) at the base of a Bunsen burner?",
+      "options": [
+        "为了扑灭火焰",
+        "允许气体在燃烧前与空气（氧气）预先混合",
+        "为了改变火焰的颜色",
+        "为了过滤煤气中的杂质"
+      ],
+      "options_en": [
+        "To extinguish the flame",
+        "To allow the gas to 'pre-mix' with air (oxygen) before it burns",
+        "To change the color of the flame",
+        "To filter impurities from the gas"
+      ],
+      "answer": 1,
+      "explanation": "通过调节空气阀门，可以让适量的空气（氧气）吸入并与煤气混合。这种“预混合”使得燃烧更完全，从而产生更热、更干净的蓝色火焰。",
+      "explanation_en": "The air valve allows the right amount of air (oxygen) to be sucked in and mixed with the gas. This 'pre-mixing' leads to a more complete combustion, which results in a much hotter, cleaner, blue flame."
+    }
+  }

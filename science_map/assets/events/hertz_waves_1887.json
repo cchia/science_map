@@ -1,0 +1,165 @@
+{
+    "id": "hertz_waves_1887",
+    "personId": "heinrich_hertz",
+    "title": "实验性地证明了电磁波的存在",
+    "title_en": "Experimentally Proves the Existence of Electromagnetic Waves",
+    "year": 1887,
+    "lat": 49.4123,
+    "lng": 8.6800,
+    "city": "卡尔斯鲁厄",
+    "city_en": "Karlsruhe",
+    "country": "德国",
+    "country_en": "Germany",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Circular.Polarization.Circularly.Polarized.Light_Right.Handed.Animation.305x190.255Colors.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=9gDFll6Ge7g",
+        "title": "赫兹实验演示",
+        "title_en": "Hertz Experiment on Electromagnetic Waves",
+        "duration": "4:09"
+      }
+    },
+    
+    "summary": {
+      "text": "海因里希·赫兹（Heinrich Hertz）进行了一项开创性的实验，最终在实验上证实了詹姆斯·克拉克·麦克斯韦（`maxwell_equations_1861`）在1860年代所作的“电磁波”（包括“无线电波”）存在的数学预测。赫兹使用一个“火花隙发射器”（由维姆胡斯特起电机 `wimshurst_machine_1883` 或感应线圈供电）来“制造”电磁波，并使用一个简单的“接收环”在房间的另一端“探测”到了它们。他还证明了这些“看不见的波”与“光”具有完全相同的特性（如反射、折射）。",
+      "text_en": "Heinrich Hertz conducted a groundbreaking experiment that provided the definitive experimental *proof* for James Clerk Maxwell's (`maxwell_equations_1861`) mathematical prediction that 'electromagnetic waves' (including 'radio waves') existed. Hertz used a 'spark-gap transmitter' (powered by a Wimshurst machine, `wimshurst_machine_1883`, or an induction coil) to *create* the waves and a simple 'receiving loop' to *detect* them across his laboratory. He then proved these 'invisible waves' had all the same properties as light (like reflection and refraction).",
+      "key_points": [
+        "实验性地“发现”了“无线电波”(Radio Waves)",
+        "证实了麦克斯韦 (`maxwell_equations_1861`) 的电磁理论",
+        "证明了“光”就是一种“电磁波”",
+        "使用了“火花隙发射器”(Spark-gap transmitter)",
+        "测量了电磁波的速度（等于光速）"
+      ],
+      "key_points_en": [
+        "Experimentally *discovered* 'radio waves'",
+        "Confirmed Maxwell's (`maxwell_equations_1861`) electromagnetic theory",
+        "Proved that 'light' is just a form of electromagnetic wave",
+        "Used a 'spark-gap transmitter'",
+        "Measured the speed of the waves (found it equal to light speed)"
+      ]
+    },
+  
+    "story": {
+      "text": "这个实验源于亥姆霍兹（`helmholtz_electrodynamics_1870`）设立的一个“挑战”。赫兹的装置是：(1) **发射器**：一个感应线圈（或维姆胡斯特起电机）连接到两个金属球（火花隙），当电压足够高时，电荷会“跳过”间隙，产生“火花”（一种高频振荡）。(2) **接收器**：一个简单的“铜线环”，末端有一个微小的间隙，放在房间的另一头。当赫兹启动“发射器”时，他（在黑暗中）惊讶地发现，“接收器”的微小间隙中也“同步”跳出了微弱的电火花。这证明了能量以一种“看不见的波”的形式，穿过了房间。接着，他将波反射、折射，并测量了其波长，从而计算出其速度——它等于光速。",
+      "text_en": "The experiment was a 'challenge' set by his mentor, Helmholtz (`helmholtz_electrodynamics_1870`). Hertz's setup: (1) **The Transmitter**: An induction coil (or Wimshurst machine) connected to two metal spheres (a spark gap). When the voltage was high, a spark would 'jump' the gap, creating a high-frequency oscillation. (2) **The Receiver**: A simple loop of copper wire with a tiny gap, placed across the room. When Hertz fired the transmitter, he was amazed to see a *tiny, corresponding spark* jump across the gap of the *receiver*. This proved that energy had traveled *invisibly* across the room as a wave. He then reflected, refracted, and measured the wavelength of these waves, calculating their speed: the speed of light.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hertz_transmitter_and_receiver_-_English.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤷",
+        "text": "当赫兹被问及他发现的“无线电波”有何“实际用途”时，他回答说：“没什么用处。这只是一个实验，它证明了麦克斯韦大师是对的。我们只是有了这种神秘的电磁波，我们在肉眼之外什么也看不见。但它们就在那里。”",
+        "text_en": "When asked what the 'practical use' of his new radio waves was, Hertz replied, 'Nothing, I guess. It's just an experiment that proves Maestro Maxwell was right. We just have these mysterious electromagnetic waves that we cannot see with the naked eye. But they are there.'"
+      },
+      {
+        "icon": "Unit",
+        "text": "为了纪念他的发现，“频率”(Frequency) 的国际标准单位被命名为“赫兹”(Hz)。",
+        "text_en": "In his honor, the SI unit for 'frequency' (cycles per second) is named the 'Hertz' (Hz)."
+      },
+      {
+        "icon": " photoelectric",
+        "text": "在进行这个实验时，赫兹“无意中”发现了“光电效应”(`einstein_photoelectric_1905`)：他注意到，当紫外线照射到他的“接收器”火花隙时，火花会跳得“更容易”。但他没有追究这个“小瑕疵”。",
+        "text_en": "During this experiment, Hertz *also* accidentally discovered the 'Photoelectric Effect' (`einstein_photoelectric_1905`): he noticed his receiver's spark jumped *more easily* when it was illuminated by UV light. He noted it, but did not pursue this 'side effect'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "麦克斯韦（`maxwell_equations_1861`）是一个“理论数学家”，他通过计算预言：“如果我摇晃一块磁铁，我就能‘在空间中’制造出一种看不见的‘电磁波’，它会以光速传播。”\n赫兹是那个“实验工程师”，他接受了挑战。他建造了一个“发射器”（一个能产生电火花的装置）来“猛烈地摇晃电”，并在房间的另一头放了一个“接收器”（一个带小缺口的线圈）。\n当“发射器”产生火花时，“接收器”的缺口处也*同时*产生了微小的火花。\n赫兹“制造”并“捕捉”了世界上第一束“无线电波”，证明了麦克斯韦是对的，也开启了我们的“无线”时代。",
+      "text_en": "Maxwell (`maxwell_equations_1861`) was the 'math theorist' who predicted, 'If I shake a magnet, I can create an invisible 'electromagnetic wave' that travels at the speed of light.'\nHertz was the 'engineer' who took that challenge. He built a 'transmitter' (a spark-maker) to 'shake' electricity violently. Across the room, he put a 'receiver' (a loop of wire with a tiny gap).\nWhen the transmitter sparked, the receiver *sparked too*.\nHertz had *created* and *caught* the world's first 'radio wave', proving Maxwell right and kicking off the wireless age.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hertz_transmitter_and_receiver_-_English.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📡",
+          "title": "无线电通信 (Radio)",
+          "title_en": "Radio Communication",
+          "text": "赫兹的实验是“无线电”的诞生日。马可尼（Marconi）在几年后，将赫兹的“实验装置”变成了“全球通信系统”。",
+          "text_en": "Hertz's experiment *was* the birth of 'radio'. Guglielmo Marconi simply took Hertz's *physics experiment* and turned it into a *global communication system* a few years later."
+        },
+        {
+          "icon": "📺",
+          "title": "所有无线技术",
+          "title_en": "All Wireless Technology",
+          "text": "雷达、电视、Wi-Fi、手机、GPS——所有这些技术，都是基于赫兹在1887年首次“捕获”的这种“看不见的波”。",
+          "text_en": "Radar, television, Wi-Fi, cell phones, GPS—*all* wireless technology is based on the 'invisible waves' that Hertz first generated and detected in 1887."
+        }
+      ],
+  
+    "impact": {
+      "text": "赫兹的实验是19世纪物理学的“加冕时刻”。它在实验上将“电”、“磁”和“光”统一起来，无可辩驳地证实了“麦克斯韦方程组”（`maxwell_equations_1861`）是正确的。这一发现不仅是“经典物理学”的顶峰，它还（讽刺地）通过“光电效应”这个副产品，为20世纪的“量子革命”（`planck_quantum_1900`）埋下了种子。",
+      "text_en": "Hertz's experiment was the 'coronation moment' of 19th-century physics. It experimentally unified *electricity*, *magnetism*, and *light* into a single phenomenon, definitively proving Maxwell's equations (`maxwell_equations_1861`) were correct. This discovery was not only the capstone of *classical* physics, but it also (ironically) planted the seed for the *quantum* revolution (`planck_quantum_1900`) via its accidental byproduct, the photoelectric effect.",
+      "stats": [
+          {
+            "number": "1887",
+            "label": "年 (发现无线电波)",
+            "label_en": "Year (Radio Waves Discovered)"
+          },
+          {
+            "number": "1",
+            "label": "个单位 (赫兹 Hz)",
+            "label_en": "Unit (The Hertz, Hz)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其“电磁波”的数学预言是赫兹试图“验证”的唯一目标）",
+          "contribution_en": "James Clerk Maxwell (his mathematical *prediction* of EM waves was the sole thing Hertz was trying to *prove*)"
+        },
+        {
+          "id": "helmholtz_electrodynamics_1870",
+          "contribution": "亥姆霍兹（他的导师，他设立的“柏林奖”是赫兹实验的直接动机）",
+          "contribution_en": "Hermann von Helmholtz (his mentor, who set the 'Berlin Prize' that provided the direct motivation for the experiment)"
+        },
+        {
+          "id": "wimshurst_machine_1883",
+          "contribution": "维姆胡斯特起电机（或感应线圈，是赫兹实验所需的高压“电源”）",
+          "contribution_en": "Wimshurst Machine (or Induction Coil, which was the 'power supply' for his spark-gap transmitter)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "marconi_radio_1895",
+          "contribution": "马可尼（将赫兹的“物理实验”转变为“商业无线电报”）",
+          "contribution_en": "Guglielmo Marconi (who turned Hertz's 'physics experiment' into a 'commercial radiotelegraph')"
+        },
+        {
+          "id": "einstein_photoelectric_1905",
+          "contribution": "爱因斯坦（其“光电效应”理论，是对赫兹实验中那个“被忽视的”副产品的解释）",
+          "contribution_en": "Einstein (his 'photoelectric effect' theory was the explanation for the 'side effect' Hertz had *ignored*)"
+        }
+      ],
+      "legacy_text": "赫兹在实验室中“制造”了光，证明了光只是一种电磁波，并开启了无线电时代。",
+      "legacy_text_en": "Hertz 'made' light in a lab, proved it was just an electromagnetic wave, and opened the door to the radio age."
+    },
+  
+    "related_concepts": ["电磁波 (Electromagnetic Waves)", "无线电波 (Radio Waves)", "麦克斯韦方程组 (Maxwell's Equations)", "火花隙发射器 (Spark-Gap Transmitter)", "赫兹 (Hertz, Hz)", "光速 (Speed of Light)", "光电效应 (Photoelectric Effect)", "马可尼 (Marconi)"],
+    "related_concepts_en": ["Electromagnetic Waves", "Radio Waves", "Maxwell's Equations", "Spark-Gap Transmitter", "Hertz (Hz)", "Speed of Light", "Photoelectric Effect", "Marconi"],
+  
+    "quiz": {
+      "question": "海因里希·赫兹（Heinrich Hertz）在1887年的实验，在实验上“证实”了哪位科学家的“理论预言”？",
+      "question_en": "Heinrich Hertz's 1887 experiment *experimentally confirmed* the *theoretical prediction* of which scientist?",
+      "options": [
+        "詹姆斯·克拉克·麦克斯韦 (James Clerk Maxwell)",
+        "艾萨克·牛顿 (Isaac Newton)",
+        "迈克尔·法拉第 (Michael Faraday)",
+        "托马斯·杨 (Thomas Young)"
+      ],
+      "options_en": [
+        "James Clerk Maxwell",
+        "Isaac Newton",
+        "Michael Faraday",
+        "Thomas Young"
+      ],
+      "answer": 0,
+      "explanation": "麦克斯韦（`maxwell_equations_1861`）在1860年代通过纯数学，预言了“电磁波”的存在及其速度（光速）。赫兹在20多年后，才第一个在实验室中“制造”和“探测”到了这种波（即无线电波），从而证实了麦克斯韦的理论。",
+      "explanation_en": "Maxwell (`maxwell_equations_1861`), through pure math in the 1860s, *predicted* 'electromagnetic waves' and their speed. Hertz, over 20 years later, was the first person to *experimentally create* and *detect* those waves (radio waves) in a lab, thus proving Maxwell's theory."
+    }
+  }

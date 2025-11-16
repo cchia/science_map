@@ -1,0 +1,166 @@
+{
+    "id": "eudoxus_exhaustion_BC370",
+    "personId": "eudoxus_of_cnidus",
+    "title": "创立数学天文学与穷竭法",
+    "title_en": "Founds Mathematical Astronomy & the Method of Exhaustion",
+    "year": -370,
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "city": "雅典 (柏拉图学院)",
+    "city_en": "Athens (Plato's Academy)",
+    "country": "古希腊",
+    "country_en": "Ancient Greece",
+    "field": [
+        "哲学",
+        "天文学",
+        "数学"
+    ],
+    "field_en": [
+        "Astronomy",
+        "Mathematics",
+        "Philosophy"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Animated_Hippopede_of_Eudoxus.gif",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=2btgMtOn0iE",
+            "title": "欧多克索斯的穷竭法",
+            "title_en": "Eudoxus' Method of Exhaustion Explained",
+            "duration": "11:17"
+        }
+    },
+    "summary": {
+        "text": "欧多克索斯是柏拉图学院中最杰出的数学家和天文学家。他解决了两个世纪性的难题：1. 在天文学上，他创立了第一个数学化的宇宙模型（“同心球”模型），试图用27个嵌套球体的组合运动来解释行星的逆行。2. 在数学上，他发明了“穷竭法”（微积分的雏形）来计算曲线面积和体积，并创立了“比例论”，解决了毕达哥拉斯学派发现无理数（如√2）后引发的数学危机。",
+        "text_en": "Eudoxus was the most brilliant mathematician and astronomer at Plato's Academy. He solved two major crises: 1. In astronomy, he created the first mathematical model of the cosmos (the 'Homocentric Spheres'), using 27 nested spheres to explain planetary retrograde motion. 2. In mathematics, he invented the 'Method of Exhaustion' (a precursor to calculus) to find areas and volumes of curves, and his 'Theory of Proportions' resolved the crisis caused by the discovery of irrational numbers (like √2).",
+        "key_points": [
+            "同心球模型 (Homocentric Spheres)：第一个数学天文模型",
+            "穷竭法 (Method of Exhaustion)：微积分的先驱",
+            "比例论 (Theory of Proportions)：解决了无理数危机",
+            "证明了圆锥体积是同底等高圆柱体积的1/3"
+        ],
+        "key_points_en": [
+            "Homocentric Spheres: The first mathematical model of astronomy",
+            "Method of Exhaustion: A precursor to Integral Calculus",
+            "Theory of Proportions: Solved the irrational number crisis",
+            "Proved a cone's volume is 1/3 that of its corresponding cylinder"
+        ]
+    },
+    "story": {
+        "text": "毕达哥拉斯学派发现 √2 无法表示为整数比（分数）时，整个希腊数学的基础崩溃了。欧多克索斯的“比例论”（后被欧几里得编入《几何原本》第五卷）拯救了这一切。他绕过了“数字”，重新定义了“比例”。他提出，两个比例（如 a/b 和 c/d）相等，*不是*因为它们的值相等，而是因为它们在与所有其他整数的比较中表现出*相同*的行为。这使得数学家可以严谨地比较有理数和无理数的比例，为几何学提供了坚实的逻辑基础。",
+        "text_en": "When the Pythagoreans found √2 could not be a ratio of integers, Greek mathematics collapsed. Eudoxus's 'Theory of Proportions' (later Book V of Euclid's Elements) saved it. He bypassed 'numbers' and redefined 'ratio'. He argued that two ratios (a/b and c/d) are equal *not* if their values are equal, but if they behave *identically* when compared to all other integer ratios. This allowed mathematicians to rigorously compare rational and irrational ratios, providing a solid logical foundation for geometry."
+    },
+    "fun_facts": [
+        {
+            "icon": "♾️",
+            "text": "他的“穷竭法”是现代微积分中“极限”概念的源头。他通过在圆内不断内接边数更多的多边形，直到多边形“穷尽”圆的面积，从而证明了圆的面积与其半径的平方成正比。",
+            "text_en": "His 'Method of Exhaustion' is the origin of the modern calculus concept of a 'limit'. He proved the area of a circle is proportional to its radius squared by inscribing polygons with more and more sides, until the polygon 'exhausted' the area of the circle."
+        },
+        {
+            "icon": "🪐",
+            "text": "欧多克索斯的“同心球”模型虽然在预测上并不完全准确，但亚里士多德将其采纳并“物理化”了，认为这些球是真实的水晶球，构成了其宇宙观的核心。",
+            "text_en": "Although Eudoxus's 'Homocentric Spheres' model was not perfectly predictive, Aristotle adopted and *physicalized* it, turning the spheres into actual crystal spheres that formed the basis of his cosmology."
+        }
+    ],
+    "simple_explanation": {
+        "text": "欧多克索斯是古代最强的“问题解决者”。\n问题1：行星在天空中“后退”（逆行）怎么办？他设计了一个精巧的“宇宙齿轮”系统（同心球），用不同球体的旋转组合，模拟出了这种奇怪的舞蹈。\n问题2：数学家发现了 √2 这样的“无理数”，导致无法比较长度怎么办？他发明了一套新规则（比例论），允许你在不直接测量的情况下，也能证明“这个矩形”和“那个矩形”的比例是相等的。",
+        "text_en": "Eudoxus was antiquity's greatest problem-solver.\nProblem 1: The planets move 'backwards' (retrograde). His solution: He built a complex celestial 'gearbox' (homocentric spheres), using the combined rotations of multiple spheres to mimic this strange dance.\nProblem 2: Mathematicians found 'irrational numbers' like √2, breaking all measurement. His solution: He invented a new set of rules (theory of proportions) that let you prove 'this rectangle' has the same ratio as 'that rectangle' without ever having to use a 'broken' number.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Eudoxus_spheres_for_Mars_animation.gif/640px-Eudoxus_spheres_for_Mars_animation.gif"
+    },
+    "applications": [
+        {
+            "icon": "🌌",
+            "title": "数学天文学",
+            "title_en": "Mathematical Astronomy",
+            "text": "他开创了用几何模型来“拟合”天文观测数据的传统，这是所有现代天文学和物理学的核心方法。",
+            "text_en": "He started the tradition of using geometric models to 'fit' observational data, a core method of all modern astronomy and physics."
+        },
+        {
+            "icon": "📐",
+            "title": "积分学 (微积分)",
+            "title_en": "Integral Calculus",
+            "text": "他的“穷竭法”是阿基米德计算曲线面积和体积的直接工具，也是1900年后牛顿和莱布尼茨发明微积分的逻辑基础。",
+            "text_en": "His 'Method of Exhaustion' was the direct tool Archimedes used to calculate areas/volumes, and it was the logical foundation for Newton and Leibniz's invention of calculus 1,900 years later."
+        },
+        {
+            "icon": "📚",
+            "title": "欧几里得《几何原本》",
+            "title_en": "Euclid's 'Elements'",
+            "text": "《几何原本》中最深奥、最重要的两卷（第五卷-比例论，第十二卷-穷竭法）被认为完全是基于欧多克索斯的著作。",
+            "text_en": "The two most profound and important books of Euclid's 'Elements' (Book V - Proportions, and Book XII - Exhaustion) are considered to be based entirely on the work of Eudoxus."
+        }
+    ],
+    "impact": {
+        "text": "欧多克索斯是继毕达哥拉斯之后，古希腊数学的第二次飞跃。他解决了无理数危机，为严格的数学证明铺平了道路，并且他是第一个将数学作为工具来系统性地解释物理世界（行星运动）的人。阿基米德称他为古代最伟大的数学家之一。",
+        "text_en": "Eudoxus represents the second great leap in Greek mathematics after Pythagoras. He solved the crisis of irrational numbers, paving the way for rigorous proof, and he was the first to systematically apply mathematics as a tool to explain the physical world (planetary motion). Archimedes considered him one of the greatest mathematicians of antiquity."
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "plato_forms_BC380",
+                "contribution": "柏拉图（其哲学思想强调通过数学来理解宇宙秩序）",
+                "contribution_en": "Plato (whose philosophy emphasized mathematics as the way to understand cosmic order)"
+            },
+            {
+                "id": "hippasus_irrational_BC470",
+                "contribution": "希帕索斯（其“无理数”的发现，构成了欧多克索斯需要解决的核心问题）",
+                "contribution_en": "Hippasus of Metapontum (whose discovery of 'irrational numbers' created the core problem Eudoxus had to solve)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "aristotle_geocentrism_BC350",
+                "contribution": "亚里士多德（将其“同心球”模型作为其物理宇宙观的基础）",
+                "contribution_en": "Aristotle (who adopted his 'Homocentric Spheres' as the basis for his physical cosmology)"
+            },
+            {
+                "id": "euclid_elements_BC300",
+                "contribution": "欧几里得（其《几何原本》第V卷和第XII卷是对欧多克索斯工作的汇编）",
+                "contribution_en": "Euclid (whose 'Elements' Book V and XII are compilations of Eudoxus's work)"
+            },
+            {
+                "id": "archimedes_calculus_BC240",
+                "contribution": "阿基米德（使用欧多克索斯的“穷竭法”来计算面积和体积）",
+                "contribution_en": "Archimedes (who used Eudoxus's 'Method of Exhaustion' to calculate areas and volumes)"
+            }
+        ],
+        "legacy_text": "欧多克索斯将数学从对数字的迷恋，转变为对“连续统”（几何和无理数）的严谨研究，并首次将其用作天文学的语言。",
+        "legacy_text_en": "Eudoxus turned mathematics from a mystical study of numbers into a rigorous study of the 'continuum' (geometry and irrationals) and was the first to use it as the language of astronomy."
+    },
+    "related_concepts": [
+        "穷竭法",
+        "比例论",
+        "无理数",
+        "同心球模型",
+        "柏拉图学院",
+        "阿基米德",
+        "欧几里得《几何原本》第五卷"
+    ],
+    "related_concepts_en": [
+        "Method of Exhaustion",
+        "Theory of Proportions",
+        "Irrational Numbers",
+        "Homocentric Spheres",
+        "Plato's Academy",
+        "Archimedes",
+        "Euclid's Elements Book V"
+    ],
+    "quiz": {
+        "question": "欧多克索斯发明的“穷竭法”(Method of Exhaustion) 是现代哪一数学分支的雏形？",
+        "question_en": "Eudoxus's 'Method of Exhaustion' was the precursor to which modern branch of mathematics?",
+        "options": [
+            "代数 (Algebra)",
+            "数论 (Number Theory)",
+            "微积分 (Calculus)",
+            "逻辑 (Logic)"
+        ],
+        "options_en": [
+            "Algebra",
+            "Number Theory",
+            "Calculus",
+            "Logic"
+        ],
+        "answer": 2,
+        "explanation": "“穷竭法”通过使用边数越来越多的内接多边形来“穷尽”一个曲线（如圆）的面积，这个思想是现代“积分微积分”中“极限”概念的直接祖先。",
+        "explanation_en": "The 'Method of Exhaustion' involved 'using up' the area of a curve (like a circle) by inscribing polygons with an infinite number of sides. This idea is the direct ancestor of the concept of 'limits' in modern integral calculus."
+    }
+}

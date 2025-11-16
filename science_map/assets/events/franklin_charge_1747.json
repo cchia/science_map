@@ -1,0 +1,156 @@
+{
+    "id": "franklin_charge_1747",
+    "personId": "benjamin_franklin",
+    "title": "提出“电荷守恒”定律 (单流体理论)",
+    "title_en": "Proposes 'Conservation of Charge' (Single-Fluid Theory)",
+    "year": 1747,
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "city": "费城",
+    "city_en": "Philadelphia",
+    "country": "英属美洲 (今美国)",
+    "country_en": "British America (Modern USA)",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/charge_conservation.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=-k7YY0d3NtA",
+        "title": "电荷守恒定律",
+        "title_en": "Conservation of Electric Charge",
+        "duration": "6:06"
+      }
+    },
+    
+    "summary": {
+      "text": "在本杰明·富兰克林（Benjamin Franklin）的风筝实验（`franklin_kite_1752`）之前，他首先对“莱顿瓶”（`leyden_jar_1745`）进行了系统性研究。在1747年左右，他提出了一种革命性的“单流体理论”来解释电。他猜想“电”是一种单一的、看不见的“流体”，存在于所有物质中。他首次引入了“**正**”(Positive)（代表“多余”的电）和“**负**”(Negative)（代表“亏缺”的电）的术语。基于此，他提出了一个永恒的物理定律：“**电荷守恒定律**”，即电荷不能被创造或毁灭，只能从一个物体“转移”到另一个物体。",
+      "text_en": "Before his famous kite experiment (`franklin_kite_1752`), Benjamin Franklin systematically studied the Leyden jar (`leyden_jar_1745`). Around 1747, he proposed a revolutionary 'Single-Fluid Theory' of electricity. He hypothesized 'electricity' was a single, invisible 'fluid' present in all matter. He was the first to coin the terms '**Positive**' (an *excess* of this fluid) and '**Negative**' (a *deficit* of it). From this, he formulated one of the eternal laws of physics: the '**Conservation of Charge**'—that an electric charge can be neither created nor destroyed, only *transferred*.",
+      "key_points": [
+        "提出了“电荷守恒定律”",
+        "发明了“正”(Positive, +) 和“负”(Negative, -) 的术语",
+        "提出了“单流体理论”(Single-Fluid Theory)",
+        "解释了“莱顿瓶”的工作原理"
+      ],
+      "key_points_en": [
+        "Formulated the 'Conservation of Charge'",
+        "Coined the terms 'Positive' (+) and 'Negative' (-)",
+        "Proposed the 'Single-Fluid Theory'",
+        "Explained *how* the Leyden Jar works"
+      ]
+    },
+  
+    "story": {
+      "text": "弗兰克林在实验中发现，当他用“莱顿瓶”（`leyden_jar_1745`）给一个人充电时，如果那个人站在绝缘的蜡块上，他就只能积聚少量电荷。但如果另一个人站在地上“接触”他，他就能积聚“大量”电荷。弗兰克林意识到：电不是被“创造”出来的，而是被“转移”的。当莱顿瓶给这个人充“正电”时，它正在从另一个人（通过大地）“抽取”等量的“负电”。他因此得出了“电荷守恒”的结论：在一个孤立系统中，总电荷永远为零。他还正确地解释了莱顿瓶的原理：电荷不是储存在“瓶中水”里，而是储存在“玻璃”（绝缘体）的*两侧*。",
+      "text_en": "Franklin discovered that when he 'charged' a person standing on an insulating block of wax, they could only build up a small charge. But if *another* person, standing on the ground, *touched* them, they could build up a *massive* charge. Franklin realized the electricity wasn't being *created*, it was being *moved*. The Leyden jar was 'pumping' the electrical fluid *out* of the second person (leaving them 'negative') and *into* the first (making them 'positive'). He deduced the total charge was always conserved. He also was the first to correctly explain the Leyden jar: the charge wasn't stored *in* the water, but *on the two surfaces* of the glass insulator."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚡",
+        "text": "弗兰克林定义“正电”和“负电”时，只是“猜”了电流的方向。他猜错了。他假设“正电”（+）流向“负电”（-）。",
+        "text_en": "Franklin's choice of 'positive' and 'negative' was a 50/50 guess, and he guessed *wrong*. He assumed the charge flowed from (+) to (-). We now know that in metals, the 'electrons' (which are negative) flow from (-) to (+). This is called 'conventional current' vs. 'electron flow'."
+      },
+      {
+        "icon": "🔋",
+        "text": "弗兰克林是第一个使用“电池”(Battery) 一词来描述多个莱顿瓶（电容器）连接在一起的人，他将其比作“炮兵连”(a battery of cannons)。",
+        "text_en": "Franklin was the first to use the word 'Battery' to describe multiple capacitors (Leyden jars) linked together, comparing them to 'a battery of cannons'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "弗兰克林是“电”的“会计师”。在他之前，人们认为摩擦能“创造”出电。\n弗兰克林说：“不，电不能被创造或毁灭，它只是‘转移’了。”\n他发明了“正电”（+）和“负电”（-）这两个词。当你摩擦地毯时，你没有“创造”电；你只是把“电”（电子）从“地毯”（现在带正电）“偷”到了“你的脚”（现在带负电）。宇宙中的总电荷不变。这就是“电荷守恒”。",
+      "text_en": "Franklin was the 'accountant' for electricity. Before him, people thought you 'created' electricity by rubbing things.\nFranklin said, 'No, electricity is never created or destroyed, it just *moves around*.'\nHe invented the terms 'Positive' (+) and 'Negative' (-). When you rub a carpet, you don't *create* charge. You just *steal* the electrical fluid (electrons) *from* the carpet (making it positive) and *to* your feet (making you negative). The total amount of charge in the universe stays the same. That is 'Conservation of Charge'."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "电气理论的基础",
+          "title_en": "Foundation of Electrical Theory",
+          "text": "“电荷守恒”是物理学最基本的定律之一，也是后来“基尔霍夫电流定律”（`kirchhoff_circuit_laws_1845`）和“麦克斯韦方程组”（`maxwell_equations_1861`）的数学基础。",
+          "text_en": "The 'Conservation of Charge' is one of the most fundamental laws of physics. It is the mathematical basis for 'Kirchhoff's Current Law' (`kirchhoff_circuit_laws_1845`) and 'Maxwell's Equations' (`maxwell_equations_1861`)."
+        },
+        {
+          "icon": "💡",
+          "title": "电路设计 (Circuit Design)",
+          "title_en": "Circuit Design",
+          "text": "他发明的“正/负”概念和“守恒”原理，使科学家们能够首次“系统性地”思考电路，而不是将其视为一种魔法。",
+          "text_en": "His 'positive/negative' convention and 'conservation' principle allowed scientists to think about electrical circuits *systematically* for the first time, rather than as a form of magic."
+        }
+      ],
+  
+    "impact": {
+      "text": "弗兰克林的“单流体理论”和“电荷守恒定律”，是自吉尔伯特（`gilbert_de_magnete_1600`）将电与磁区分开以来，电学理论中最重要的进步。他将电学从一种“表演奇观”转变为一门真正的“定量科学”。他发明的术语（正、负、电池）和定律（守恒）至今仍是我们理解电学的基础。",
+      "text_en": "Franklin's 'Single-Fluid Theory' and 'Conservation of Charge' was the single most important theoretical advance in electricity since Gilbert (`gilbert_de_magnete_1600`) separated it from magnetism. It transformed electricity from a 'showman's spectacle' into a true 'quantitative science'. His terminology (positive, negative, battery) and his law (conservation) are *still* the foundation of how we understand electricity today.",
+      "stats": [
+          {
+            "number": "2",
+            "label": "个术语 (正/负)",
+            "label_en": "Terms (Positive/Negative)"
+          },
+          {
+            "number": "1",
+            "label": "个守恒定律",
+            "label_en": "Conservation Law"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "leyden_jar_1745",
+          "contribution": "莱顿瓶（是弗兰克林进行所有电学实验的核心工具）",
+          "contribution_en": "The Leyden Jar (which was the central tool for all of his electrical experiments)"
+        },
+        {
+          "id": "guericke_static_generator_1663",
+          "contribution": "静电起电机（为莱顿瓶充电的“电源”）",
+          "contribution_en": "Electrostatic Generator (the 'power source' used to charge the Leyden jars)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "franklin_kite_1752",
+          "contribution": "（他自己）风筝实验（他的电荷理论，是风筝实验的“理论基础”）",
+          "contribution_en": "(Himself) The Kite Experiment (his theory of charge was the 'theoretical basis' for the kite experiment)"
+        },
+        {
+          "id": "galvani_animal_electricity_1791",
+          "contribution": "伽伐尼（其“动物电”理论是基于弗兰克林的“电是一种流体”的概念）",
+          "contribution_en": "Galvani (his 'animal electricity' theory was based on Franklin's concept of electricity as a 'fluid')"
+        },
+        {
+          "id": "volta_battery_1800",
+          "contribution": "伏打（其电池的发明，是建立在弗兰克林对电荷和电势的理解之上的）",
+          "contribution_en": "Volta (his battery was built upon the understanding of charge and potential established by Franklin)"
+        }
+      ],
+      "legacy_text": "本杰明·富兰克林为“电”这门新科学提供了它的“基本语法”——正、负和守恒定律。",
+      "legacy_text_en": "Benjamin Franklin gave the new science of electricity its 'basic grammar': the concepts of positive, negative, and conservation."
+    },
+  
+    "related_concepts": ["电荷守恒 (Conservation of Charge)", "正电 (Positive)", "负电 (Negative)", "莱顿瓶 (Leyden Jar)", "单流体理论 (Single-Fluid Theory)", "电荷 (Charge)", "导体 (Conductor)"],
+    "related_concepts_en": ["Conservation of Charge", "Positive", "Negative", "Leyden Jar", "Single-Fluid Theory", "Charge", "Conductor"],
+  
+    "quiz": {
+      "question": "本杰明·富兰克林提出的“电荷守恒定律”是什么意思？",
+      "question_en": "What does Benjamin Franklin's 'Law of Conservation of Charge' state?",
+      "options": [
+        "电荷只能是正的",
+        "电荷可以被创造，但不能被毁灭",
+        "电荷不能被创造或毁灭，只能被转移",
+        "电荷就是闪电"
+      ],
+      "options_en": [
+        "That charge can only be positive",
+        "That charge can be created, but not destroyed",
+        "That charge can be neither created nor destroyed, only transferred",
+        "That charge *is* lightning"
+      ],
+      "answer": 2,
+      "explanation": "弗兰克林的“单流体”理论的核心思想是，宇宙中的“电的总量”是固定的。当你摩擦两个物体时，你只是把“电”从一个物体“转移”到了另一个物体，使一个带正电（多余），一个带负电（亏缺）。",
+      "explanation_en": "The core of Franklin's 'single-fluid' theory was that the total amount of 'electrical fluid' in the universe is fixed. When you rub two objects, you just *transfer* the fluid from one to the other, making one positive (a surplus) and one negative (a deficit)."
+    }
+  }

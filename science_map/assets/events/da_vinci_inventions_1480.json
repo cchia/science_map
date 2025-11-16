@@ -1,0 +1,164 @@
+{
+    "id": "da_vinci_inventions_1480",
+    "personId": "leonardo_da_vinci",
+    "title": "设计飞行器与未来机器 (米兰时期)",
+    "title_en": "Designs Flying Machines & Future Tech (Milanese Period)",
+    "year": 1482,
+    "lat": 45.4642,
+    "lng": 9.1900,
+    "city": "米兰",
+    "city_en": "Milan",
+    "country": "米兰公国 (今意大利)",
+    "country_en": "Duchy of Milan (Modern Italy)",
+    "field": ["工程学", "生物学", "物理学", "医学", "综合"],
+    "field_en": ["Engineering", "Biology", "Physics", "Medicine", "Comprehensive"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Museo_leonardiano_di_vinci%2C_04.JPG",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Sm84wLGZbjA",
+        "title": "列奥纳多·达·芬奇：天才的发明",
+        "title_en": "Leonardo da Vinci's GENIUS Inventions",
+        "duration": "16:12"
+      }
+    },
+    
+    "summary": {
+      "text": "在1482年左右移居米兰后，列奥纳多·达·芬奇作为工程师（而非画家）的才能达到了顶峰。在接下来的近20年里，他填满了数千页的笔记（手稿），其中充满了对未来几个世纪的远见卓识：包括“飞行器”（基于鸟类解剖学的扑翼机）、“直升机”（空气螺旋桨）、“装甲车”（坦克）、潜水服，以及对人体解剖学的精确研究。他将机械工程学与对自然的细致观察独特地结合了起来。",
+      "text_en": "After moving to Milan around 1482, Leonardo da Vinci's genius as an engineer—not just an artist—flourished. For nearly two decades, he filled thousands of notebook pages (codices) with designs centuries ahead of their time: 'flying machines' (ornithopters based on bird anatomy), 'helicopters' (the aerial screw), 'armored cars' (tanks), diving suits, and precise studies of human anatomy. He uniquely merged mechanical engineering with meticulous observation of nature.",
+      "key_points": [
+        "设计了“扑翼机”(Ornithopter)",
+        "设计了“空气螺旋桨”(Aerial Screw) (直升机雏形)",
+        "设计了“装甲车”(Armored Car) (坦克雏形)",
+        "绘制了第一批科学的人体解剖图",
+        "将生物学和工程学（生物力学）联系起来",
+        "手稿（Codices）以“镜像书写”完成"
+      ],
+      "key_points_en": [
+        "Designed the 'Ornithopter' (flying machine)",
+        "Designed the 'Aerial Screw' (helicopter concept)",
+        "Designed the 'Armored Car' (tank concept)",
+        "Drew the first scientific anatomical studies",
+        "Linked biology and engineering (biomechanics)",
+        "Wrote notes in 'mirror script'"
+      ]
+    },
+  
+    "story": {
+      "text": "达·芬奇的“求职信”：当他写信给米兰公爵卢多维科·斯福尔扎请求工作时，他列出了一长串他能制造的军事和民用工程设备（如轻便桥梁、攻城武器、水道系统）。在信的末尾，他才“顺便”提了一句：“在和平时期，我还能在建筑、水道方面满足您的要求；我还能画画。” 他首先将自己视为一名工程师。在米兰期间，他痴迷于飞行，通过解剖鸟类来理解其翅膀的肌肉和骨骼结构，坚信“鸟是一台遵循数学规律运转的机器”，因此人类也可以制造机器来飞行。",
+      "text_en": "Leonardo's 'Job Application': When he wrote to Ludovico Sforza, Duke of Milan, for a job, he listed a long catalog of military and civil engineering projects he could build (portable bridges, siege weapons, water systems). Only at the *very end* of the letter did he add, '...in painting, also, I can do everything that may be done.' He saw himself as an engineer first. In Milan, he became obsessed with flight, dissecting birds to understand their muscle and bone structure, convinced that 'a bird is an instrument working in accordance with mathematical law,' and that humans could therefore build a machine to fly.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Leonardo_da_vinci%2C_Drawing_of_a_flying_machine.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤫",
+        "text": "达·芬奇用“镜像书写”（从右到左）的方式写满了他的数千页笔记，可能是为了保密，也可能仅仅因为他是左撇子，这样写墨水不会被弄脏。",
+        "text_en": "Da Vinci wrote his thousands of notebook pages in 'mirror script' (right-to-left), possibly to keep his ideas secret, or perhaps just because he was left-handed and this avoided smudging the ink."
+      },
+      {
+        "icon": "💀",
+        "text": "为了绘制精确的解剖图，达·芬奇在夜间秘密解剖了30多具人类和动物的尸体，这在当时是被教会严格禁止的。",
+        "text_en": "To make his anatomical drawings, Leonardo secretly dissected over 30 human and animal corpses at night, an act strictly forbidden by the Church at the time."
+      },
+      {
+        "icon": "⏳",
+        "text": "他的绝大多数发明在他生前从未被制造出来，他的手稿在他死后被封存并散失了数百年。因此，他对伽利略或牛顿等人的“直接”科学影响非常小。",
+        "text_en": "The vast majority of his inventions were never built in his lifetime, and his notebooks were locked away and scattered for centuries after his death. Because of this, his *direct* scientific influence on people like Galileo or Newton was minimal."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "达·芬奇是第一个真正把“大自然”当作“工程学教科书”来读的人。他看到一只鸟，他想的不是“多美的生物”，而是“这台飞行机器是如何工作的？” 他看到一条鱼，就去设计潜水服。他看到人的手臂，就去设计起重机。他把所有这些想法都画在了笔记本上，设计出了400多年后才真正被发明出来的直升机、坦克和机器人。他是一个来自未来的工程师，恰好也是一位伟大的画家。",
+      "text_en": "Leonardo was the first person to read 'Nature' like an engineering textbook. He didn't just see a bird; he saw a 'flying machine' and asked how it worked. He saw a fish and designed a scuba suit. He saw a human arm and designed a crane. He drew all these ideas in notebooks, effectively designing helicopters, tanks, and robots 400+ years before they were actually built. He was an engineer from the future who just happened to be a great painter.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Leonardo_da_Vinci_-_RCIN_919000%2C_Verso_The_bones_and_muscles_of_the_arm_c.1510-11.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🦾",
+          "title": "生物力学 (Biomechanics)",
+          "title_en": "Biomechanics",
+          "text": "达·芬奇对肌肉、骨骼和关节的工程学分析，使他成为“生物力学”和现代“机器人学”的鼻祖。",
+          "text_en": "Da Vinci's engineering analysis of muscles, bones, and joints makes him the father of 'biomechanics' and modern 'robotics'."
+        },
+        {
+          "icon": "🌊",
+          "title": "流体力学与土木工程",
+          "title_en": "Hydraulics & Civil Engineering",
+          "text": "他关于水流、涡旋的详细研究，以及他设计的运河闸门和可旋转桥梁，都是现代土木工程的典范。",
+          "text_en": "His detailed studies of water flow, eddies, and his designs for canal locks and revolving bridges were models of modern civil engineering."
+        },
+        {
+          "icon": "🗺️",
+          "title": "制图学 (Cartography)",
+          "title_en": "Cartography",
+          "text": "他绘制的《伊莫拉地图》(Imola map)，是第一张采用“鸟瞰视角”（平面俯视）的现代城市地图，彻底改变了制图学。",
+          "text_en": "His 1502 map of Imola was the first 'ichnographic' (overhead plan view) map of a city, a technique that revolutionized cartography."
+        }
+      ],
+  
+    "impact": {
+      "text": "达·芬奇代表了“文艺复兴人”(Renaissance Man) 的顶峰——艺术与科学的完美融合。虽然他的工程学发现因手稿的散失而“迟到”了几个世纪，但他确立了一种新的思想：**“观察与经验”** (Observation and Experience) 是知识的源泉。他将机械师的实践与学者的理论结合起来，为伽利略（`galileo_motion_1638`）的“实验科学”铺平了思想道路。",
+      "text_en": "Leonardo represents the pinnacle of the 'Renaissance Man'—the fusion of art and science. While his engineering discoveries were 'delayed' for centuries, he established the idea that **Observation and Experience** were the source of all knowledge. He united the hands-on practice of the artisan with the theory of the scholar, paving the intellectual way for the 'experimental science' of Galileo (`galileo_motion_1638`).",
+      "stats": [
+          {
+            "number": "7,000+",
+            "label": "页手稿 (幸存)",
+            "label_en": "Notebook Pages (Survive)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "archimedes_lever_BC260",
+          "contribution": "阿基米德（达·芬奇深入研究了阿基米德的手稿，尤其是其杠杆和机械原理）",
+          "contribution_en": "Archimedes (Da Vinci intensely studied manuscripts of Archimedes, especially his levers and mechanics)"
+        },
+        {
+          "id": "brunelleschi_dome_1436",
+          "contribution": "菲利波·布鲁内莱斯基（佛罗伦萨的工程师，其圣母百花大教堂穹顶的发明，是达·芬奇的直接工程启发）",
+          "contribution_en": "Filippo Brunelleschi (The engineer in Florence whose inventions for the Duomo served as Leonardo's immediate engineering inspiration)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "galileo_motion_1638",
+          "contribution": "伽利略（伽利略研究了达·芬奇关于力学和运动的手稿，并深受其“数学化自然”思想的影响）",
+          "contribution_en": "Galileo (who studied Leonardo's manuscripts on mechanics and was influenced by his drive to mathematize nature)"
+        },
+        {
+          "id": "vesalius_anatomy_1543",
+          "contribution": "维萨里（虽然达·芬奇的解剖图未发表，但其“艺术-科学”结合的解剖方法开创了先河，影响了后来的解剖学）",
+          "contribution_en": "Vesalius (Leonardo's unpublished but groundbreaking synthesis of art and anatomy set the standard for later anatomists)"
+        }
+      ],
+      "legacy_text": "达·芬奇向世界证明，最敏锐的“眼睛”（艺术）和最严谨的“大脑”（工程）是同一件事的两个侧面。",
+      "legacy_text_en": "Leonardo da Vinci proved to the world that the keenest 'eye' (art) and the most rigorous 'mind' (engineering) were two sides of the same coin."
+    },
+  
+    "related_concepts": ["维特鲁威人 (Vitruvian Man)", "扑翼机 (Ornithopter)", "空气螺旋桨 (Aerial Screw)", "生物力学 (Biomechanics)", "镜像书写 (Mirror Script)", "手稿 (Codices)", "文艺复兴 (Renaissance)", "最后的晚餐"],
+    "related_concepts_en": ["Vitruvian Man", "Ornithopter", "Aerial Screw", "Biomechanics", "Mirror Script", "Codices", "Renaissance", "The Last Supper"],
+  
+    "quiz": {
+      "question": "达·芬奇在他的手稿中，将哪两门看似无关的学科（“艺术”和“科学”）开创性地结合在了一起？",
+      "question_en": "What two seemingly unrelated fields did Leonardo da Vinci pioneer the combination of in his notebooks?",
+      "options": [
+        "天文学和占星术",
+        "神学和政治学",
+        "解剖学（生物学）和机械工程学",
+        "化学（炼金术）和数学"
+      ],
+      "options_en": [
+        "Astronomy and Astrology",
+        "Theology and Politics",
+        "Anatomy (Biology) and Mechanical Engineering",
+        "Chemistry (Alchemy) and Mathematics"
+      ],
+      "answer": 2,
+      "explanation": "达·芬奇的独特之处在于他将“生物”视为“机械”。他解剖鸟类是为了制造飞行器，解剖人眼是为了理解光学，解剖肌肉是为了理解杠杆。他开创了“生物力学”。",
+      "explanation_en": "Da Vinci's unique genius was seeing 'biology' as 'mechanics'. He dissected birds to build flying machines, human eyes to understand optics, and muscles to understand levers. He was the founder of 'biomechanics'."
+    }
+  }

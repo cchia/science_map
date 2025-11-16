@@ -1,0 +1,117 @@
+{
+    "id": "aristotle_elements_BC350",
+    "personId": "aristotle",
+    "title": "提出四元素说与运动理论",
+    "title_en": "Proposes Four Elements Theory and Theory of Motion",
+    "year": -350,
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "city": "雅典",
+    "city_en": "Athens",
+    "country": "古希腊",
+    "country_en": "Ancient Greece",
+    "field": [
+        "哲学",
+        "物理学"
+    ],
+    "field_en": [
+        "Philosophy",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "assets/images/aristotle_elements.jpg",
+        "video": {
+            "url": "https://www.youtube.com/embed/yW0bO_lwvqY",
+            "title": "亚里士多德的四元素说",
+            "title_en": "4 Elements",
+            "duration": "0:53"
+        }
+    },
+    "summary": {
+        "text": "亚里士多德在他的著作《物理学》中提出，地球（月下界）上的所有物质都是由四种元素构成的：土、水、气、火。他的物理学核心是“目的论”，认为所有运动要么是“自然运动”（物体寻求其自然位置），要么是“受迫运动”（由外力推动）。",
+        "text_en": "In his work 'Physics', Aristotle proposed that all 'sublunary' matter is composed of four elements: Earth, Water, Air, and Fire. The core of his physics was teleological, arguing all motion is either 'Natural' (objects seeking their natural place) or 'Violent' (forced by an external push/pull).",
+        "key_points": [
+            "四元素：土、水、气、火",
+            "自然位置：土和水在中心（下），气和火在上方（上）",
+            "自然运动：物体向其自然位置的运动（如石头下落）",
+            "受迫运动：外力强加的运动（如投掷石头）",
+            "错误结论：重物比轻物下落得更快"
+        ],
+        "key_points_en": [
+            "Four Elements: Earth, Water, Air, Fire",
+            "Natural Place: Earth/Water are at the center (down), Air/Fire are above (up)",
+            "Natural Motion: Movement towards an element's natural place (e.g., a rock falling)",
+            "Violent Motion: Movement imposed by an external force (e.g., throwing a rock)",
+            "False Conclusion: Heavy objects fall faster than light objects"
+        ]
+    },
+    "story": {
+        "text": "亚里士多德的物理学试图回答“为什么”物体会运动。他认为物体运动是为了实现其“目的”。石头（由“土”构成）的目的地是宇宙中心，所以它的“自然运动”是下落。火焰的目的地是远离中心，所以它“自然地”向上升。与此相反，“受迫运动”（如投掷长矛）则需要一个持续的推动者。他错误地认为，长矛之所以能飞，是因为它后面的空气在不断推动它。",
+        "text_en": "Aristotle's physics sought to answer 'why' objects move. He believed they move to fulfill their 'purpose' (telos). A rock (made of 'Earth') 'wants' to be at the center of the universe, so its 'natural motion' is to fall. Fire 'wants' to be high up, so it 'naturally' rises. In contrast, 'Violent motion' (like throwing a spear) required a continuous mover. He incorrectly argued the spear kept flying because the air it displaced rushed behind it to keep pushing it."
+    },
+    "simple_explanation": {
+        "text": "亚里士多德认为，地球上的一切都有一个“家”。石头（土）的家在最底下，水的家在土之上，空气的家在水之上，火的家在最顶上。你一松手，石头就会“跑回家”（下落）。烟（气和火）也会“跑回家”（上升）。这就是“自然运动”。如果你想让石头“离家”（向上扔），你就必须用力“推”它，这就是“受迫运动”。",
+        "text_en": "Aristotle believed everything on Earth has a 'home'. A rock's (Earth) home is at the very bottom. Water's home is on top of Earth. Air's home is on top of Water. Fire's home is at the very top. When you let go of a rock, it 'runs home' (falls). Smoke (Air/Fire) also 'runs home' (rises). This is 'Natural Motion'. If you force the rock *away* from home (throw it up), you must use a force, which is 'Violent Motion'."
+    },
+    "applications": [
+        {
+            "icon": "⚖️",
+            "title": "解释重力（错误）",
+            "title_en": "Explanation for Gravity (Incorrect)",
+            "text": "他的“自然位置”理论是第一个关于重力的系统解释，认为重力是物体的一种内在倾向，而非一种力。",
+            "text_en": "His 'natural place' theory provided the first systematic explanation for gravity, seeing it as an internal tendency of an object, not an external force."
+        },
+        {
+            "icon": "⚗️",
+            "title": "炼金术的基础",
+            "title_en": "Basis for Alchemy",
+            "text": "“万物由四元素构成”的理念，是中世纪炼金术（试图将一种物质转化为另一种物质，如铅变金）的理论基础。",
+            "text_en": "The idea that all matter is a mix of four elements was the theoretical basis for medieval alchemy (the attempt to transform substances, like lead into gold)."
+        }
+    ],
+    "impact": {
+        "text": "亚里士多德的元素说和运动理论构成了“前科学时代”的物理学基础。它统治了近两千年，直到伽利略通过斜面实验和自由落体观测，用数学和实验的方法系统地将其推翻，从而开启了现代物理学（运动学）的大门。",
+        "text_en": "Aristotle's theory of elements and motion formed the bedrock of physics for the entire 'pre-scientific' era. It reigned for nearly 2,000 years until Galileo systematically disproved it with his inclined plane and free-fall experiments, opening the door to modern physics (kinematics)."
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "empedocles_elements_BC450",
+                "contribution": "恩培多克勒（或其他前苏格拉底哲学家）最早提出的四元素说",
+                "contribution_en": "Empedocles (and other pre-Socratics) who first proposed the four elements"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "作为伽利略实验和惯性定律所要推翻的主要（错误）物理理论",
+                "contribution_en": "As the primary (incorrect) physical theory that Galileo's experiments and law of inertia were designed to disprove"
+            },
+            {
+                "id": "newton_motion_laws_1687",
+                "contribution": "伽利略和牛顿的力学是对亚里士多德“运动需要力来维持”这一核心思想的彻底颠覆",
+                "contribution_en": "The mechanics of Galileo and Newton were a complete overthrow of Aristotle's core idea that 'motion requires a continuous force'"
+            }
+        ],
+        "legacy_text": "亚里士多德的“四元素”和“自然运动”理论是历史上第一个完整的物理学体系，是科学革命必须超越的“第一座大山”。",
+        "legacy_text_en": "Aristotle's theory of 'Four Elements' and 'Natural Motion' was the first complete physical system in history, and the 'first great mountain' the Scientific Revolution had to overcome."
+    },
+    "related_concepts": [
+        "四元素",
+        "自然运动",
+        "受迫运动",
+        "目的论",
+        "物理学",
+        "炼金术",
+        "伽利略"
+    ],
+    "related_concepts_en": [
+        "Four Elements",
+        "Natural Motion",
+        "Violent Motion",
+        "Teleology",
+        "Physics",
+        "Alchemy",
+        "Galileo"
+    ]
+}

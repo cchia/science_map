@@ -1,0 +1,179 @@
+{
+    "id": "ideal_gas_law_1834",
+    "personId": "emile_clapeyron",
+    "title": "合并波义耳-查理定律 (理想气体定律)",
+    "title_en": "Combines Boyle's & Charles's Laws (Ideal Gas Law)",
+    "year": 1834,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": [
+        "化学",
+        "物理学"
+    ],
+    "field_en": [
+        "Chemistry",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Gaz_molecules.gif",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=ir64EcRkf5Q",
+            "title": "理想气体定律: PV=nRT",
+            "title_en": "Ideal Gas Law: PV=nRT",
+            "duration": "5:35"
+        }
+    },
+    "summary": {
+        "text": "法国工程师埃米尔·克拉佩龙（Émile Clapeyron）发表了一篇奠基性的论文（《论热的推动力》），在论文中，他首次将波义耳定律 (V ∝ 1/P) 和查理/盖-吕萨克定律 (V ∝ T) 这两个独立的气体定律，合并为一个单一的、更强大的方程。这个方程（后经克劳修斯完善为 PV = nRT）被称为“理想气体定律”，它完美地描述了“理想气体”的压强(P)、体积(V)和温度(T)之间的宏观关系。",
+        "text_en": "In his foundational paper 'Memoir on the Motive Power of Heat', French engineer Émile Clapeyron was the first to combine the two great gas laws—Boyle's Law (V ∝ 1/P) and Charles's/Gay-Lussac's Law (V ∝ T)—into a single, powerful equation. This equation (later refined by Clausius as PV = nRT), known as the 'Ideal Gas Law', perfectly describes the macroscopic relationship between Pressure (P), Volume (V), and Temperature (T) for an 'ideal' gas.",
+        "key_points": [
+            "PV = nRT (理想气体定律)",
+            "将波义耳定律 (V ∝ 1/P) 和查理定律 (V ∝ T) 合并",
+            "引入了“气体常数 R” (Gas Constant R)",
+            "奠定了“热力学” (Thermodynamics) 的基础"
+        ],
+        "key_points_en": [
+            "PV = nRT (The Ideal Gas Law)",
+            "Combined Boyle's Law (V ∝ 1/P) and Charles's Law (V ∝ T)",
+            "Introduced the Gas Constant, R",
+            "Laid the foundation for Thermodynamics"
+        ]
+    },
+    "story": {
+        "text": "在克拉佩龙之前，气体定律是零散的：波义耳（`boyle_law_1662`）说压强和体积的关系，查理（`charles_law_1787`）说体积和温度的关系。克拉佩龙的工作是基于已故工程师萨迪·卡诺（Sadi Carnot）关于热机效率的天才思想。为了将卡诺的理论数学化，克拉佩龙需要一个能同时处理压强、体积和温度的方程。他巧妙地将两个定律“黏合”在一起，创造了这个“状态方程”(Equation of State)。他最初的形式是 PV = k(t + 267)，他已经非常接近“绝对零度”的概念（-273.15°C）。",
+        "text_en": "Before Clapeyron, the gas laws were separate: Boyle (`boyle_law_1662`) related P and V; Charles (`charles_law_1787`) related V and T. Clapeyron was building on the genius ideas of the late Sadi Carnot on heat engines. To put Carnot's theory into mathematical form, Clapeyron *needed* an equation that handled P, V, and T all at once. He skillfully 'glued' the two laws together to create this 'Equation of State'. His original form was PV = k(t + 267), showing he was already incredibly close to the concept of Absolute Zero (-273.15°C).",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ideal_gas_law_relationships.svg"
+    },
+    "fun_facts": [
+        {
+            "icon": "🚂",
+            "text": "克拉佩龙是一位铁路工程师，他对气体定律的兴趣主要来自于实际问题：如何提高“蒸汽机”的效率。",
+            "text_en": "Clapeyron was a railway engineer. His interest in the gas laws was driven by a very practical problem: how to make 'steam engines' more efficient."
+        },
+        {
+            "icon": "🔥",
+            "text": "他的论文还首次用P-V图（“克拉佩龙图”）来可视化热机的“卡诺循环”，这至今仍是热力学教学的标准工具。",
+            "text_en": "His paper also introduced the 'P-V diagram' (Clapeyron diagram) to visualize the 'Carnot cycle' of a heat engine, which is still the standard tool for teaching thermodynamics."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一个气球。波义耳定律告诉你：如果你“挤压”它（P 增大），它会“缩小”（V 减小）。查理定律告诉你：如果你“加热”它（T 增大），它会“膨胀”（V 增大）。\n克拉佩龙的“理想气体定律”(PV=nRT) 是第一个将所有这些因素放在**一个**“主方程”中的定律。它就像一个“气体计算器”，告诉你：如果你既挤压它 *又* 加热它，它到底会变大还是变小。",
+        "text_en": "Imagine a balloon. Boyle's Law tells you: if you *squeeze* it (Pressure up), it *shrinks* (Volume down). Charles's Law tells you: if you *heat* it (Temperature up), it *expands* (Volume up).\nClapeyron's 'Ideal Gas Law' (PV=nRT) was the first 'master equation' that put *all* of those factors together. It's like a 'gas calculator' that tells you exactly what happens if you squeeze the balloon *and* heat it at the same time.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ideal_gas_law_relationships.svg"
+    },
+    "applications": [
+        {
+            "icon": "💨",
+            "title": "化学 (Chemistry)",
+            "title_en": "Chemistry",
+            "text": "PV=nRT 是化学计量的核心。它允许化学家通过测量气体的P, V, T来“称量”它（计算其摩尔数 n）。",
+            "text_en": "PV=nRT is the heart of stoichiometry. It allows a chemist to 'weigh' a gas (calculate its moles, n) simply by measuring its pressure, volume, and temperature."
+        },
+        {
+            "icon": "☁️",
+            "title": "气象学 (Meteorology)",
+            "title_en": "Meteorology",
+            "text": "该定律是理解和预测天气的基础，它解释了为什么热空气（密度低）会上升，以及高压/低压系统是如何形成的。",
+            "text_en": "The law is fundamental to understanding and forecasting weather, explaining why hot air (less dense) rises and how high and low-pressure systems form."
+        },
+        {
+            "icon": "🔥",
+            "title": "热力学与工程学",
+            "title_en": "Thermodynamics & Engineering",
+            "text": "所有热机（如内燃机、蒸汽轮机）的设计和效率分析，都从理想气体定律开始。",
+            "text_en": "The design and efficiency analysis of all heat engines (internal combustion, steam turbines) begins with the Ideal Gas Law."
+        }
+    ],
+    "impact": {
+        "text": "理想气体定律是19世纪物理学和化学的基石之一。它将三个独立的经验定律（波义耳、查理、盖-吕萨克）统一为一个简洁的数学方程。它不仅极其实用，而且为“热力学”（研究热与功的关系）和“统计力学”（研究原子如何产生P, V, T）这两门新科学的诞生奠定了数学基础。",
+        "text_en": "The Ideal Gas Law is one of the cornerstones of 19th-century physics and chemistry. It unified three separate, empirical laws (Boyle, Charles, Gay-Lussac) into a single, concise mathematical equation. Beyond its immense practical use, it provided the mathematical foundation for the new sciences of 'Thermodynamics' (the study of heat and work) and 'Statistical Mechanics' (the study of *how* atoms create P, V, and T).",
+        "stats": [
+            {
+                "number": "1",
+                "label": "个气体“主方程”",
+                "label_en": "Master Equation for Gases"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "boyle_law_1662",
+                "contribution": "波义耳定律 (V ∝ 1/P)",
+                "contribution_en": "Boyle's Law (V ∝ 1/P)"
+            },
+            {
+                "id": "charles_law_1787",
+                "contribution": "查理定律 (V ∝ T)",
+                "contribution_en": "Charles's Law (V ∝ T)"
+            },
+            {
+                "id": "gay_lussac_law_1802",
+                "contribution": "盖-吕萨克定律 (P ∝ T)",
+                "contribution_en": "Gay-Lussac's Law (P ∝ T)"
+            },
+            {
+                "id": "carnot_thermodynamics_1824",
+                "contribution": "萨迪·卡诺（其关于热机效率的理论是克拉佩龙的直接灵感来源）",
+                "contribution_en": "Sadi Carnot (whose theory of heat engine efficiency was Clapeyron's direct inspiration)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "clausius_thermodynamics_1850",
+                "contribution": "克劳修斯（他完善了理想气体定律，并用它来建立热力学第二定律）",
+                "contribution_en": "Rudolf Clausius (who refined the Ideal Gas Law and used it to formulate the Second Law of Thermodynamics)"
+            },
+            {
+                "id": "boltzmann_statistical_mechanics_1877",
+                "contribution": "玻尔兹曼（其“统计力学”的宏伟目标之一就是在微观上解释PV=nRT）",
+                "contribution_en": "Boltzmann (one of the grand goals of his 'Statistical Mechanics' was to explain *why* PV=nRT works on a microscopic level)"
+            }
+        ],
+        "legacy_text": "克拉佩龙的方程将三个零散的定律统一为一个强大的“状态方程”，将气体研究从实验物理学转变为成熟的理论科学。",
+        "legacy_text_en": "Clapeyron's equation unified three separate laws into one powerful 'Equation of State', transforming the study of gases from experimental physics into a mature theoretical science."
+    },
+    "related_concepts": [
+        "PV=nRT",
+        "气体常数 R",
+        "波义耳定律",
+        "查理定律",
+        "盖-吕萨克定律",
+        "热力学",
+        "绝对零度",
+        "卡诺循环"
+    ],
+    "related_concepts_en": [
+        "PV=nRT",
+        "Gas Constant R",
+        "Boyle's Law",
+        "Charles's Law",
+        "Gay-Lussac's Law",
+        "Thermodynamics",
+        "Absolute Zero",
+        "Carnot Cycle"
+    ],
+    "quiz": {
+        "question": "理想气体定律 (PV=nRT) 是由哪两个更早的气体定律合并而来的？",
+        "question_en": "The Ideal Gas Law (PV=nRT) is a combination of which two earlier gas laws?",
+        "options": [
+            "波义耳定律 (P-V) 和 查理定律 (V-T)",
+            "牛顿定律 (F=ma) 和 胡克定律 (F=-kx)",
+            "阿基米德原理 (浮力) 和 帕斯卡原理 (压强)",
+            "开普勒定律 (椭圆) 和 万有引力定律"
+        ],
+        "options_en": [
+            "Boyle's Law (P-V) and Charles's Law (V-T)",
+            "Newton's Law (F=ma) and Hooke's Law (F=-kx)",
+            "Archimedes' Principle (Buoyancy) and Pascal's Principle (Pressure)",
+            "Kepler's Laws (Ellipses) and the Law of Gravitation"
+        ],
+        "answer": 0,
+        "explanation": "克拉佩龙将描述压强-体积关系的“波义耳定律”和描述体积-温度关系的“查理定律”（或盖-吕萨克定律）合并成了单一的理想气体定律。",
+        "explanation_en": "Clapeyron combined Boyle's Law (which relates Pressure-Volume) and Charles's/Gay-Lussac's Law (which relates Volume-Temperature) into the single Ideal Gas Law."
+    }
+}

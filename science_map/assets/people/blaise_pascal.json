@@ -1,0 +1,11 @@
+{
+    "name": "布莱兹·帕斯卡",
+    "name_en": "Blaise Pascal",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/98/Blaise_Pascal_Versailles.JPG",
+    "bio_short": "法国数学家、物理学家、发明家和哲学家。他是一位神童，在流体静力学（帕斯卡原理）、概率论和射影几何学方面做出了奠基性贡献，并发明了第一台机械计算器。",
+    "bio_short_en": "A French mathematician, physicist, inventor, and philosopher. A child prodigy, he made foundational contributions to hydrostatics (Pascal's Principle), probability theory, and projective geometry, and invented the first mechanical calculator.",
+    "events": [
+      "pascal_pressure_1653",
+      "pascal_triangle_1654"
+    ]
+  }

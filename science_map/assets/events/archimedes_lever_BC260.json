@@ -1,0 +1,161 @@
+{
+    "id": "archimedes_lever_BC260",
+    "personId": "archimedes",
+    "title": "阐明杠杆原理 (静力学)",
+    "title_en": "Formulates the Law of the Lever (Statics)",
+    "year": -260,
+    "lat": 38.0782,
+    "lng": 15.2982,
+    "city": "叙拉古",
+    "city_en": "Syracuse",
+    "country": "大希腊 (今意大利西西里岛)",
+    "country_en": "Magna Graecia (Modern Sicily, Italy)",
+    "field": [
+        "工程学",
+        "数学",
+        "物理学"
+    ],
+    "field_en": [
+        "Engineering",
+        "Mathematics",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Archimedes_lever_%28Small%29.jpg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=VRtLLUp2GOo",
+            "title": "阿基米德的战争机器、杠杆和发明",
+            "title_en": "Archimedes' War Machines, Levers, and Inventions",
+            "duration": "14:12"
+        }
+    },
+    "summary": {
+        "text": "阿基米德是第一个用数学语言严格阐述“杠杆原理”的人。他建立了“静力学”(Statics) 的基础，并提出了“重心”(Center of Gravity) 的概念。他自信地宣称：“给我一个支点，我就能撬动地球。”(Δός μοι πᾶ στῶ καὶ τὰν γᾶν κινάσω)。",
+        "text_en": "Archimedes was the first to rigorously describe the 'Law of the Lever' in mathematical terms, laying the foundation for the science of 'Statics'. He formalized the concept of the 'Center of Gravity' and famously declared, 'Give me a place to stand, and I will move the Earth.' (Δός μοι πᾶ στῶ καὶ τὰν γᾶν κινάσω).",
+        "key_points": [
+            "杠杆原理 (Law of the Lever)",
+            "“给我一个支点，我就能撬动地球”",
+            "静力学 (Statics) 的奠基人",
+            "重心 (Center of Gravity) 概念的形式化",
+            "发明了复合滑轮组 (Compound Pulleys)"
+        ],
+        "key_points_en": [
+            "Law of the Lever",
+            "'Give me a place to stand, and I will move the Earth'",
+            "Founder of Statics",
+            "Formalized the concept of Center of Gravity",
+            "Invented the Compound Pulley system"
+        ]
+    },
+    "story": {
+        "text": "为了向希罗国王展示杠杆和滑轮的巨大威力，阿基米德设计了一套复杂的“复合滑轮组”。据传说，他独自一人，仅仅通过拉动一根绳子，就将一艘满载乘客和货物的巨型三桅战舰（一说为“叙拉古号”）从船坞拖入海中。国王见此情景，惊叹不已，并立即下令在叙拉古的城防中部署阿基米德的机械。",
+        "text_en": "To demonstrate the power of his principles to King Hiero, Archimedes designed a complex 'compound pulley' system. According to legend, he single-handedly pulled a massive, fully-loaded three-masted warship (some say the 'Syracusia') out of the dock and into the sea, simply by pulling on a rope. The king was so astounded he immediately commissioned Archimedes's machines for the defense of Syracuse.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Palanca-ejemplo.jpg"
+    },
+    "fun_facts": [
+        {
+            "icon": "⚙️",
+            "text": "阿基米德螺旋泵是一种能“逆重力”提水的简单机械，至今仍在农业灌溉和污水处理中广泛使用。",
+            "text_en": "The Archimedes' Screw is a simple machine he invented that 'screws' water uphill against gravity. It is still widely used today for irrigation and wastewater treatment."
+        },
+        {
+            "icon": "⚔️",
+            "text": "在罗马围攻叙拉古期间，他设计的“阿基米德之爪”是一种巨型起重机，它能将罗马战舰吊出水面，然后再砸碎。",
+            "text_en": "During the siege of Syracuse, his 'Claw of Archimedes' was a giant crane that could lift Roman warships out of the water and smash them."
+        }
+    ],
+    "simple_explanation": {
+        "text": "阿基米德是第一个发现“给我一根足够长的棍子和一个支点，我一个人就能举起一头大象”的数学原理的人。他证明了，只要距离（从支点到你手的位置）足够长，你就可以用很小的力（你的手）来平衡一个非常大的力（大象的重量）。这就是杠杆原理，也是所有起重机和扳手的工作原理。",
+        "text_en": "Archimedes was the first to figure out the math behind 'give me a long enough stick and a pivot point, and I can lift an elephant.' He proved that a small force (your hand) can balance a huge force (the elephant's weight) just by being farther away from the pivot. This is the Law of the Lever, and it's how all cranes and wrenches work.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Lever_principle.svg/640px-Lever_principle.svg.png"
+    },
+    "applications": [
+        {
+            "icon": "🏗️",
+            "title": "机械工程",
+            "title_en": "Mechanical Engineering",
+            "text": "杠杆和滑轮原理是所有现代机械（如起重机、发动机活塞、齿轮系统）的基础。",
+            "text_en": "The principle of the lever and pulley is the basis for all modern machinery, including cranes, engine pistons, and gear systems."
+        },
+        {
+            "icon": "⚖️",
+            "title": "天平与测量",
+            "title_en": "Balances and Measurement",
+            "text": "他的静力学原理是所有精密天平的设计基础，用于精确测量质量。",
+            "text_en": "His principles of statics are the foundation for the design of all precision balances used to measure mass."
+        }
+    ],
+    "impact": {
+        "text": "阿基米德将“机械学”从工匠的经验提升为一门严谨的数学科学。他证明了物理世界中的力是可以通过几何学来精确计算和预测的，从而开创了“静力学”和“机械工程学”。他是第一个数学物理学家。",
+        "text_en": "Archimedes elevated 'mechanics' from a craftsman's empirical art to a rigorous mathematical science. He proved that physical forces could be precisely calculated and predicted using geometry, thereby founding the fields of statics and mechanical engineering. He was the first mathematical physicist.",
+        "stats": [
+            {
+                "number": "1",
+                "label": "个支点撬动地球",
+                "label_en": "Fulcrum to Move the World"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "euclid_elements_BC300",
+                "contribution": "欧几里得的几何学（提供了他进行静力学证明的公理化方法）",
+                "contribution_en": "Euclidean Geometry (provided the axiomatic method for his proofs in statics)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "伽利略（其对力学和运动的研究，是阿基米德静力学方法的直接继承和发扬）",
+                "contribution_en": "Galileo (his study of mechanics and motion was a direct successor to Archimedes's methods in statics)"
+            },
+            {
+                "id": "da_vinci_inventions_1480",
+                "contribution": "达·芬奇（其大量的机械发明和手稿深受阿基米德的影响）",
+                "contribution_en": "Leonardo da Vinci (whose vast mechanical inventions and codices were heavily influenced by Archimedes)"
+            }
+        ],
+        "legacy_text": "阿基米德的杠杆定律是人类历史上第一个被数学化的物理定律，它展示了数学解释物理现实的无上能力。",
+        "legacy_text_en": "The Law of the Lever was the first law of physics to be fully mathematized, demonstrating the supreme power of mathematics to explain physical reality."
+    },
+    "related_concepts": [
+        "杠杆",
+        "静力学",
+        "重心",
+        "机械利益",
+        "复合滑轮组",
+        "力矩 (Torque)",
+        "阿基米德螺旋泵",
+        "阿基米德之爪"
+    ],
+    "related_concepts_en": [
+        "Lever",
+        "Statics",
+        "Center of Gravity",
+        "Mechanical Advantage",
+        "Compound Pulley",
+        "Torque",
+        "Archimedes' Screw",
+        "Claw of Archimedes"
+    ],
+    "quiz": {
+        "question": "阿基米德说“给我一个支点，我就能撬动地球”是在阐述什么原理？",
+        "question_en": "When Archimedes said 'Give me a place to stand, and I will move the Earth,' what principle was he illustrating?",
+        "options": [
+            "浮力原理 (Archimedes' Principle)",
+            "杠杆原理 (The Law of the Lever)",
+            "穷竭法 (The Method of Exhaustion)",
+            "日心说 (Heliocentrism)"
+        ],
+        "options_en": [
+            "Archimedes' Principle (Buoyancy)",
+            "The Law of the Lever",
+            "The Method of Exhaustion",
+            "Heliocentrism"
+        ],
+        "answer": 1,
+        "explanation": "这句话完美地概括了“杠杆原理”：通过增加杠杆的长度（力臂），理论上可以用无限小的力撬动无限大的重量。",
+        "explanation_en": "This famous quote perfectly illustrates the 'Law of the Lever': by increasing the length of the lever arm, a theoretically infinite weight can be moved by a finite force."
+    }
+}

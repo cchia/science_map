@@ -1,0 +1,13 @@
+{
+    "name": "阿尔伯特·爱因斯坦",
+    "name_en": "Albert Einstein",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/14/Albert_Einstein_1947.jpg",
+    "bio_short": "德裔理论物理学家，被公认为是有史以来最重要和最具影响力的科学家之一。他以创立相对论而闻名。",
+    "bio_short_en": "A German-born theoretical physicist, widely acknowledged as one of the most important and influential scientists of all time. He is best known for developing the theory of relativity.",
+    "events": [
+      "einstein_photoelectric_1905",
+      "einstein_special_relativity_1905",
+      "einstein_brownian_motion_1905",
+      "einstein_general_relativity_1915"
+    ]
+  }

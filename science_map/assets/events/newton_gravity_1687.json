@@ -1,0 +1,171 @@
+{
+    "id": "newton_gravity_1687",
+    "personId": "isaac_newton",
+    "title": "发表万有引力定律",
+    "title_en": "Publishes Law of Universal Gravitation",
+    "year": 1687,
+    "lat": 51.515,
+    "lng": -0.117,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": [
+        "天文学",
+        "物理学"
+    ],
+    "field_en": [
+        "Astronomy",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/NewtonsLawOfUniversalGravitation.svg",
+        "video": {
+            "url": "https://www.youtube.com/embed/7gf6YpdvtE0",
+            "title": "牛顿的万有引力定律 (Crash Course)",
+            "title_en": "Newtonian Gravity (Crash Course)",
+            "duration": "9:19"
+        }
+    },
+    "summary": {
+        "text": "牛顿在《自然哲学的数学原理》一书中发表了万有引力定律。该定律指出，宇宙中任何两个物体都相互吸引，引力与它们质量的乘积成正比，与距离的平方成反比。",
+        "text_en": "Newton published his law of universal gravitation in 'Principia Mathematica'. It states that any two objects in the universe attract each other with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers.",
+        "key_points": [
+            "引力是宇宙通用的",
+            "F = G * (m1*m2) / r^2",
+            "统一了解释苹果落地和行星运行的规律"
+        ],
+        "key_points_en": [
+            "Gravitation is universal",
+            "F = G * (m1*m2) / r^2",
+            "Unified the laws governing falling apples and orbiting planets"
+        ]
+    },
+    "story": {
+        "text": "著名的“苹果砸中牛顿”的故事是后来的一个简化版。但牛顿确实曾思考过，为什么苹果总是垂直掉向地面？他推断，吸引苹果的力一定与吸引月球绕地球运行的力是同一种力。通过他的微积分工具，他最终证明了行星的椭圆轨道正是由平方反比的引力定律导致的。",
+        "text_en": "The famous 'apple hitting Newton' story is a later simplification. But Newton did ponder why apples always fall perpendicular to the ground. He reasoned that the force drawing the apple must be the same type of force keeping the Moon in orbit around the Earth. Using his tools of calculus, he finally proved that an elliptical orbit was the result of an inverse-square force law."
+    },
+    "fun_facts": [
+        {
+            "icon": "🍎",
+            "text": "苹果树的故事是为了向人解释引力而编造的，但它确实启发了牛顿思考为什么物体总是垂直下落。",
+            "text_en": "The famous apple tree story was a simplification he used for explanation, but it did inspire him to think about why objects always fall perpendicularly to the ground."
+        },
+        {
+            "icon": "☄️",
+            "text": "天文学家埃德蒙·哈雷（Edmond Halley）是牛顿的朋友，正是他敦促并资助牛顿出版了《原理》。牛顿使用他的定律成功预测了哈雷彗星的回归周期。",
+            "text_en": "Astronomer Edmond Halley, Newton's friend, was the one who urged and financed the publication of 'Principia'. Newton used his laws to successfully predict the periodic return of Halley's Comet."
+        }
+    ],
+    "simple_explanation": {
+        "text": "你往上跳，总会掉下来，对吧？这就是地球的引力在拉你。牛顿的伟大发现是：这种拉你的力，和拉着月亮绕着地球转的力，是同一种力！它就像一根看不见的橡皮筋，地球用它拉着苹果，也用一根更长的橡皮筋拉着月亮。",
+        "text_en": "You jump up, you always come down, right? That's Earth's gravity pulling you. Newton's big idea was that this same pull is what keeps the Moon orbiting the Earth. It's like an invisible rubber band. The Earth pulls the apple with it, and it also pulls the Moon with a much longer, stretched-out rubber band.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gravity_moon_earth.svg/640px-Gravity_moon_earth.svg.png"
+    },
+    "applications": [
+        {
+            "icon": "🛰️",
+            "title": "卫星轨道",
+            "title_en": "Satellite Orbits",
+            "text": "我们可以精确计算人造卫星、月球和行星的轨道，使GPS、天气预报和太空探索成为可能。",
+            "text_en": "We can precisely calculate the orbits of satellites, the Moon, and planets, enabling GPS, weather forecasting, and space exploration."
+        },
+        {
+            "icon": "🌊",
+            "title": "解释潮汐",
+            "title_en": "Explaining Tides",
+            "text": "牛顿的定律解释了月球和太阳的引力如何导致地球上的海洋潮起潮落。",
+            "text_en": "Newton's law explains how the gravitational pull of the Moon and Sun causes the rise and fall of ocean tides on Earth."
+        },
+        {
+            "icon": "💫",
+            "title": "发现新行星",
+            "title_en": "Discovering Planets",
+            "text": "通过观察天王星轨道的异常，天文学家利用牛顿定律反推出了海王星的存在并成功找到了它。",
+            "text_en": "By observing irregularities in Uranus's orbit, astronomers used Newton's law to predict the existence of Neptune and successfully found it."
+        }
+    ],
+    "impact": {
+        "text": "《原理》被认为是科学史上最重要的著作。它奠定了经典力学的基础，并主导了未来三个世纪的科学宇宙观。",
+        "text_en": "'Principia' is considered one of the most important works in scientific history. It laid the foundation for classical mechanics and dominated the scientific view of the universe for the next three centuries."
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "newton_calculus_1666",
+                "contribution": "提供了证明引力定律所需的数学框架",
+                "contribution_en": "Provided the mathematical framework needed to prove the laws of gravity"
+            },
+            {
+                "id": "kepler_laws_1609",
+                "contribution": "开普勒的行星运动三大定律（经验公式）",
+                "contribution_en": "Kepler's three laws of planetary motion (empirical formulas)"
+            },
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "提供了自由落体和惯性定律的基础",
+                "contribution_en": "Provided the basis for the laws of free fall and inertia"
+            },
+            {
+                "id": "hooke_inverse_square_1679",
+                "contribution": "罗伯特·胡克（提出了引力平方反比的猜想，并激发牛顿去证明它）",
+                "contribution_en": "Robert Hooke (proposed the inverse-square hypothesis and spurred Newton to prove it)"
+            },
+            {
+                "id": "huygens_centrifugal_force_1673",
+                "contribution": "惠更斯（其离心力公式是计算轨道所需向心力的数学基础）",
+                "contribution_en": "Huygens (his formula for centrifugal force was a mathematical basis for calculating orbital motion)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "lagrange_mechanics_1788",
+                "contribution": "拉格朗日（将牛顿力学发展为更强大、更抽象的“分析力学”）",
+                "contribution_en": "Lagrange (who developed Newtonian mechanics into the more powerful and abstract 'analytical mechanics')"
+            },
+            {
+                "id": "laplace_celestial_mechanics_1799",
+                "contribution": "拉普拉斯（运用牛顿定律证明了太阳系的长期稳定性，完善了天体力学）",
+                "contribution_en": "Laplace (used Newton's laws to prove the long-term stability of the solar system, perfecting celestial mechanics)"
+            },
+            {
+                "id": "einstein_general_relativity_1915",
+                "contribution": "广义相对论（在强引力场和高速下对牛顿引力理论的扩展和修正）",
+                "contribution_en": "General relativity (an extension and refinement of Newton's theory of gravity in strong fields and at high speeds)"
+            }
+        ],
+        "legacy_text": "牛顿的引力定律首次将“天上的”物理学（行星轨道）和“地上的”物理学（苹果落地）统一在同一个数学框架下。",
+        "legacy_text_en": "Newton's law of gravity was the first to unify 'celestial' physics (planetary orbits) and 'terrestrial' physics (falling apples) under a single mathematical framework."
+    },
+    "related_concepts": [
+        "经典力学",
+        "开普勒定律",
+        "广义相对论",
+        "平方反比定律"
+    ],
+    "related_concepts_en": [
+        "Classical Mechanics",
+        "Kepler's Laws",
+        "General Relativity",
+        "Inverse-square Law"
+    ],
+    "quiz": {
+        "question": "牛顿的万有引力定律说明，如果两个物体之间的距离增加一倍（变为2r），它们之间的引力会变为多少？",
+        "question_en": "According to Newton's law, if the distance between two objects is doubled (to 2r), what happens to the gravitational force between them?",
+        "options": [
+            "变为一半 (1/2 F)",
+            "变为原来的两倍 (2 F)",
+            "变为原来的四分之一 (1/4 F)",
+            "变为原来的四倍 (4 F)"
+        ],
+        "options_en": [
+            "Becomes half (1/2 F)",
+            "Becomes double (2 F)",
+            "Becomes one-quarter (1/4 F)",
+            "Becomes four times (4 F)"
+        ],
+        "answer": 2,
+        "explanation": "引力与距离的“平方”成反比。如果距离变为2，2的平方是4，所以引力变为原来的 1/4。",
+        "explanation_en": "The force is inversely proportional to the 'square' of the distance. If the distance becomes 2, the square of 2 is 4, so the force becomes 1/4 of the original."
+    }
+}

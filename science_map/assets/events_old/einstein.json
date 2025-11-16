@@ -1,0 +1,214 @@
+{
+    "id": "einstein",
+    "title": "爱因斯坦相对论",
+    "title_en": "Einstein's Theory of Relativity",
+    "year": 1905,
+    "lat": 46.9481,
+    "lng": 7.4474,
+    "city": "伯尔尼",
+    "city_en": "Bern",
+    "country": "瑞士",
+    "country_en": "Switzerland",
+    "field": "物理学",
+    "field_en": "Physics",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Albert_Einstein_1947.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/ajhFNcUTJI0",
+        "title": "相对论简介",
+        "title_en": "Introduction to Relativity",
+        "duration": "5:12"
+      }
+    },
+    
+    "summary": {
+      "text": "爱因斯坦发现时间和空间不是绝对的！运动越快，时间越慢。质量和能量可以互相转换（E=mc²）。",
+      "text_en": "Einstein discovered time and space aren't absolute! Faster motion means slower time. Mass and energy are interconvertible (E=mc²).",
+      "key_points": [
+        "时间会膨胀（运动越快越慢）",
+        "空间会收缩",
+        "质能等价 E=mc²"
+      ],
+      "key_points_en": [
+        "Time dilates (faster motion = slower time)",
+        "Space contracts",
+        "Mass-energy equivalence E=mc²"
+      ]
+    },
+    
+    "story": {
+      "text": "1905年，26岁的爱因斯坦在专利局当小职员。这一年他发表了4篇论文，每一篇都改变了物理学！这被称为'奇迹年'。他想象自己骑在光束上旅行，由此发现了相对论。",
+      "text_en": "In 1905, 26-year-old Einstein was a patent clerk. That year he published 4 papers, each changing physics! Called his 'miracle year'. He imagined riding on a light beam, thus discovering relativity.",
+      "image": "https://source.unsplash.com/600x400/?light,beam,physics"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "🗣️",
+        "text": "爱因斯坦小时候说话很晚，父母还担心他智力有问题。",
+        "text_en": "Einstein spoke late as a child, worrying his parents about his intelligence."
+      },
+      {
+        "icon": "🎻",
+        "text": "他是小提琴高手，常说：'想象力比知识更重要。'",
+        "text_en": "He was a skilled violinist, often saying: 'Imagination is more important than knowledge.'"
+      },
+      {
+        "icon": "🧦",
+        "text": "他从不穿袜子，认为袜子总是破洞很麻烦！",
+        "text_en": "He never wore socks, finding holes in them too troublesome!"
+      }
+    ],
+    
+    "principle": {
+      "title": "狭义相对论核心",
+      "title_en": "Special Relativity Core",
+      "diagram": "https://source.unsplash.com/600x400/?spacetime,relativity",
+      "key_points": [
+        {
+          "icon": "⚡",
+          "title": "光速不变",
+          "title_en": "Constant Light Speed",
+          "text": "无论你如何运动，光速永远是c = 299,792,458 m/s",
+          "text_en": "Regardless of your motion, light speed is always c = 299,792,458 m/s"
+        },
+        {
+          "icon": "⏱️",
+          "title": "时间膨胀",
+          "title_en": "Time Dilation",
+          "text": "运动越快，时间越慢。GPS卫星每天快38微秒！",
+          "text_en": "Faster motion = slower time. GPS satellites gain 38 μs daily!"
+        },
+        {
+          "icon": "📏",
+          "title": "长度收缩",
+          "title_en": "Length Contraction",
+          "text": "高速运动的物体在运动方向上变短",
+          "text_en": "High-speed objects shorten in direction of motion"
+        },
+        {
+          "icon": "💥",
+          "title": "E = mc²",
+          "title_en": "E = mc²",
+          "text": "质量和能量可以互换。1克物质 = 2万吨TNT能量！",
+          "text_en": "Mass and energy interconvert. 1g matter = 20,000 tons TNT!"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "📱",
+        "title": "GPS导航",
+        "title_en": "GPS",
+        "image": "https://source.unsplash.com/300x200/?gps,navigation",
+        "text": "GPS必须修正相对论效应，否则每天误差10公里！",
+        "text_en": "GPS must correct for relativistic effects, or 10km error daily!"
+      },
+      {
+        "icon": "⚡",
+        "title": "核能",
+        "title_en": "Nuclear Energy",
+        "image": "https://source.unsplash.com/300x200/?nuclear,energy",
+        "text": "E=mc²解释核反应如何释放巨大能量。",
+        "text_en": "E=mc² explains how nuclear reactions release enormous energy."
+      },
+      {
+        "icon": "🏥",
+        "title": "医学成像",
+        "title_en": "Medical Imaging",
+        "image": "https://source.unsplash.com/300x200/?medical,scan",
+        "text": "PET扫描利用正电子湮灭（质量转能量）诊断疾病。",
+        "text_en": "PET scans use positron annihilation (mass to energy) for diagnosis."
+      },
+      {
+        "icon": "🌌",
+        "title": "宇宙学",
+        "title_en": "Cosmology",
+        "image": "https://source.unsplash.com/300x200/?universe,galaxy",
+        "text": "理解黑洞、中子星等极端天体。",
+        "text_en": "Understanding black holes, neutron stars, extreme objects."
+      }
+    ],
+    
+    "experiment": {
+      "title": "思想实验：光速火车",
+      "title_en": "Thought Experiment: Light-Speed Train",
+      "image": "https://source.unsplash.com/600x300/?train,speed",
+      "description": "想象你在接近光速的火车上。你的手表正常走，但地球上的人看你的手表变慢了！火车长100米，但地球上的人看只有44米长。这就是相对论的神奇之处！",
+      "description_en": "Imagine you're on a near-light-speed train. Your watch runs normally, but Earth observers see it slow! Train is 100m long, but Earth observers see only 44m. That's relativity's magic!",
+      "why": "时间和空间是相对的，取决于观察者的运动状态。",
+      "why_en": "Time and space are relative, depending on observer's motion state."
+    },
+    
+    "simple_explanation": {
+      "text": "时间和空间不是固定的！如果你跑得够快（接近光速），时间会变慢。还有，质量和能量其实是一回事（E=mc²）！",
+      "text_en": "Time and space aren't fixed! If you run fast enough (near light speed), time slows down. Also, mass and energy are the same thing (E=mc²)!",
+      "diagram": "https://source.unsplash.com/500x300/?spacetime,relativity"
+    },
+    
+    "impact": {
+      "text": "相对论改变了人类对时间、空间的认识，为核能、GPS、粒子物理等技术提供了理论基础。爱因斯坦成为20世纪最伟大的科学家。",
+      "text_en": "Relativity changed humanity's understanding of time and space, providing theoretical foundation for nuclear energy, GPS, particle physics. Einstein became the 20th century's greatest scientist.",
+      "stats": [
+        {
+          "number": "1921",
+          "label": "诺贝尔奖",
+          "label_en": "Nobel Prize"
+        },
+        {
+          "number": "100年",
+          "label": "后验证引力波",
+          "label_en": "later verified gravitational waves"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "newton",
+          "contribution": "经典力学和引力概念",
+          "contribution_en": "Classical mechanics and gravity concept"
+        },
+        {
+          "id": "maxwell",
+          "contribution": "光速恒定的发现",
+          "contribution_en": "Discovery of constant light speed"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "quantum",
+          "contribution": "启发量子力学发展",
+          "contribution_en": "Inspired quantum mechanics development"
+        },
+        {
+          "id": "gravitational_waves",
+          "contribution": "预言引力波（100年后被证实）",
+          "contribution_en": "Predicted gravitational waves (confirmed 100 years later)"
+        },
+        {
+          "id": "black_hole_image",
+          "contribution": "广义相对论预言黑洞存在",
+          "contribution_en": "General relativity predicted black holes"
+        }
+      ],
+      "legacy_text": "爱因斯坦从牛顿那里继承了引力概念，从麦克斯韦那里学到光速恒定。他发现：当速度接近光速时，牛顿定律不再适用！相对论不是推翻牛顿，而是在更广范围内包含了牛顿理论。",
+      "legacy_text_en": "Einstein inherited gravity from Newton, learned constant light speed from Maxwell. He found: at near-light speeds, Newton's laws no longer apply! Relativity didn't overthrow Newton but encompassed his theory in broader scope."
+    },
+    
+    "related_concepts": ["相对论", "时空", "光速", "质能方程"],
+    "related_concepts_en": ["Relativity", "Spacetime", "Light Speed", "Mass-Energy Equivalence"],
+    
+    "quiz": {
+      "question": "爱因斯坦的质能方程是什么？",
+      "question_en": "What is Einstein's mass-energy equation?",
+      "options": ["E=mc", "E=mc²", "E=m²c", "E=m+c"],
+      "options_en": ["E=mc", "E=mc²", "E=m²c", "E=m+c"],
+      "answer": 1,
+      "explanation": "E=mc²表示能量等于质量乘以光速的平方。",
+      "explanation_en": "E=mc² means energy equals mass times the square of light speed."
+    }
+  }

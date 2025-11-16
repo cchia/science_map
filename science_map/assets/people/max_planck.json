@@ -1,0 +1,10 @@
+{
+    "name": "马克斯·普朗克",
+    "name_en": "Max Planck",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg",
+    "bio_short": "德国理论物理学家，量子力学的创始人。他因在1900年提出“量子假说”（E=hf）以解决黑体辐射问题而获得了1918年的诺贝尔物理学奖。",
+    "bio_short_en": "A German theoretical physicist who originated quantum theory. He won the 1918 Nobel Prize in Physics for his 'quantum hypothesis' (E=hf), which he proposed in 1900 to solve the black-body radiation problem.",
+    "events": [
+      "planck_quantum_1900"
+    ]
+  }

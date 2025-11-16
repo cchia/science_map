@@ -1,0 +1,11 @@
+{
+    "name": "罗伯特·本生",
+    "name_en": "Robert Bunsen",
+    "portrait": "https://en.wikipedia.org/wiki/Robert_Bunsen#/media/File:Robert_Wilhelm_Bunsen_(HeidICON_53016)_(cropped).jpg",
+    "bio_short": "德国化学家和发明家。他发明了“本生灯”，并与基尔霍夫一同开创了“光谱分析法”，从而发现了新元素铯和铷。",
+    "bio_short_en": "A German chemist and inventor. He invented the 'Bunsen burner' and, with Gustav Kirchhoff, co-founded 'spectroscopy', which led to their discovery of the elements Cesium and Rubidium.",
+    "events": [
+        "bunsen_burner_1855",        
+        "bunsen_spectroscopy_1859"
+    ]
+  }

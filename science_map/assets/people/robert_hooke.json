@@ -1,0 +1,12 @@
+{
+    "name": "罗伯特·胡克",
+    "name_en": "Robert Hooke",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Portrait_of_a_Mathematician_1680c.jpg",
+    "bio_short": "17世纪英国科学家、发明家和博学家，被誉为“英国的达·芬奇”。他以胡克定律（弹性定律）和《显微图谱》一书闻名，并与牛顿在引力理论上有过激烈的争论。",
+    "bio_short_en": "A 17th-century English scientist, inventor, and polymath, known as 'England's Leonardo'. He is famous for Hooke's Law (elasticity), his book 'Micrographia', and his intense priority dispute with Newton over gravity.",
+    "events": [
+      "hooke_micrographia_1665",
+      "hooke_law_1678",
+      "hooke_inverse_square_1679"
+    ]
+  }

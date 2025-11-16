@@ -1,0 +1,135 @@
+{
+    "id": "young_modulus_1807",
+    "personId": "thomas_young",
+    "title": "定义“杨氏模量” (弹性模量)",
+    "title_en": "Defines 'Young's Modulus' (Modulus of Elasticity)",
+    "year": 1807,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flexural_modulus_measurement.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=5sgZ9fMzN9E",
+        "title": "杨氏模量",
+        "title_en": "Young's Modulus Explained",
+        "duration": "2:37"
+      }
+    },
+    
+    "summary": {
+      "text": "在1807年出版的《自然哲学与机械工艺讲义》一书中，托马斯·杨首次引入了一个用于描述固体材料“刚度”(Stiffness) 的概念，即“弹性模量”，现被称为“杨氏模量”(Young's Modulus, E)。该模量是一个恒定的比率，它将施加在材料上的“应力”(Stress, σ) 与其产生的“应变”(Strain, ε) 联系起来 (E = σ/ε)。这个概念是材料科学和结构工程的绝对基石。",
+      "text_en": "In his 1807 'Course of Lectures on Natural Philosophy and the Mechanical Arts', Thomas Young introduced a concept to describe the 'stiffness' of a solid material, now known as 'Young's Modulus' (E). The modulus is a constant ratio linking the 'Stress' (σ) applied to a material to the 'Strain' (ε) it endures (E = σ/ε). This concept is the absolute cornerstone of material science and structural engineering.",
+      "key_points": [
+        "定义了“杨氏模量”(Young's Modulus, E)",
+        "材料科学 (Materials Science) 的奠基石",
+        "建立了“应力”(Stress) 与“应变”(Strain) 之间的数学关系",
+        "E = σ/ε",
+        "是对胡克定律 (`hooke_law_1678`) 的推广"
+      ],
+      "key_points_en": [
+        "Defined 'Young's Modulus' (E)",
+        "Cornerstone of Materials Science",
+        "Mathematized the relationship between 'Stress' and 'Strain'",
+        "E = σ/ε",
+        "A generalization of Hooke's Law (`hooke_law_1678`)"
+      ]
+    },
+  
+    "story": {
+      "text": "胡克定律（`hooke_law_1678`）已经描述了弹簧“整体”的拉伸 (F ∝ x)。但杨氏的天才之处在于他将这个定律“普遍化”了。他问：为什么一根粗铁棒比一根细铁棒更难拉伸？他意识到，重要的不是总的“力”(F)，而是“单位面积上的力”（即“应力”, σ）；也不是总的“伸长量”(x)，而是“单位长度上的伸长比例”（即“应变”, ε）。他发现，对于“同一种材料”（如钢），应力与应变的比值是一个“常数”，这个常数就代表了这种材料“独有的刚度”。他将一个模糊的属性（“硬度”）转变为一个可以精确测量的物理量。",
+      "text_en": "Hooke's Law (`hooke_law_1678`) described the stretch of a whole spring (F ∝ x). Young's genius was to *generalize* this. He asked: why is a thick iron bar harder to stretch than a thin one? He realized what mattered wasn't the total 'Force' (F), but the 'Force *per area*' (Stress, σ). And it wasn't the total 'stretch' (x), but the 'stretch *per unit of length*' (Strain, ε). He found that for any *material* (like steel), the ratio of Stress to Strain is a *constant*. This constant *is* the material's unique stiffness. He turned a vague property ('stiffness') into a precise, measurable quantity.",
+      "diagram": "hhttps://upload.wikimedia.org/wikipedia/commons/e/e6/Flexural_modulus_measurement.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💪",
+        "text": "钢的杨氏模量（约200 GPa）是铝（约70 GPa）的近三倍，这就是为什么钢感觉比铝“硬”得多的数学原因。",
+        "text_en": "The Young's Modulus of Steel (200 GPa) is almost 3x that of Aluminum (70 GPa). This is the mathematical reason why steel *feels* so much stiffer than aluminum."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你试图拉伸一根“橡皮筋”和一根“钢丝”。它们在相同的拉力下，伸长的程度完全不同。杨氏模量就是用来描述这种“材料有多硬（或多有弹性）”的“数字”。这个数字越高，材料就越“硬”（越难拉伸）。",
+      "text_en": "Imagine trying to stretch a rubber band and a steel wire. They stretch *very* differently under the same force. 'Young's Modulus' is the *number* that tells you exactly 'how stiff' a material is. A high number means it's very stiff (like steel); a low number means it's very flexible (like rubber).",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%28356-365%29_Snapback_to_reality_%286283432546%29.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏗️",
+          "title": "土木工程 (Civil Engineering)",
+          "title_en": "Civil Engineering",
+          "text": "工程师在设计桥梁、大坝和摩天大楼时，必须使用杨氏模量来计算钢梁和混凝土在负载（如风或重量）下会“弯曲”多少。",
+          "text_en": "Engineers designing bridges, dams, and skyscrapers *must* use Young's Modulus to calculate how much a steel beam or concrete slab will bend under a load (like wind or weight)."
+        },
+        {
+          "icon": "✈️",
+          "title": "航空航天工程",
+          "title_en": "Aerospace Engineering",
+          "text": "在设计机翼时，工程师需要选择一种材料，它既要“坚硬”（高杨氏模量）以抵抗弯曲，又要“轻便”。",
+          "text_en": "When designing an airplane wing, engineers must select materials with a high Young's Modulus (to resist bending) but also low weight."
+        }
+      ],
+  
+    "impact": {
+      "text": "杨氏模量将“材料科学”从一门经验手艺转变为一门定量的、可预测的数学学科。它与胡克定律（`hooke_law_1678`）共同构成了弹性力学的基础，使得19世纪和20世纪的大型工程（如埃菲尔铁塔、金门大桥）成为可能。",
+      "text_en": "Young's Modulus transformed 'materials science' from an empirical craft into a quantitative, predictive, mathematical discipline. Along with Hooke's Law (`hooke_law_1678`), it forms the basis of elasticity and made the massive engineering projects of the 19th and 20th centuries possible.",
+      "stats": [
+          {
+            "number": "1807",
+            "label": "年 (发表)",
+            "label_en": "Year Published"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "hooke_law_1678",
+          "contribution": "胡克定律（其F∝x是杨氏模量(σ∝ε)的宏观版本）",
+          "contribution_en": "Hooke's Law (his F∝x is the macroscopic version of Young's σ∝ε)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "eiffel_tower_1889",
+          "contribution": "所有现代结构工程（如埃菲尔铁塔的桁架设计）",
+          "contribution_en": "All modern structural engineering (like the truss design of the Eiffel Tower)"
+        }
+      ],
+      "legacy_text": "托马斯·杨为“材料刚度”这个属性定义了一个精确的、可测量的数值。",
+      "legacy_text_en": "Thomas Young gave the property of 'material stiffness' a precise, measurable number."
+    },
+  
+    "related_concepts": ["杨氏模量 (Young's Modulus)", "弹性 (Elasticity)", "应力 (Stress)", "应变 (Strain)", "胡克定律 (Hooke's Law)", "材料科学 (Materials Science)", "工程学"],
+    "related_concepts_en": ["Young's Modulus", "Elasticity", "Stress", "Strain", "Hooke's Law", "Materials Science", "Engineering"],
+  
+    "quiz": {
+      "question": "“杨氏模量”(E = σ/ε) 是用来衡量材料的哪一种物理特性？",
+      "question_en": "What physical property does 'Young's Modulus' (E = σ/ε) measure?",
+      "options": [
+        "密度（Density）",
+        "刚度/硬度 (Stiffness)",
+        "导热性 (Thermal Conductivity)",
+        "导电性 (Electrical Conductivity)"
+      ],
+      "options_en": [
+        "Density",
+        "Stiffness",
+        "Thermal Conductivity",
+        "Electrical Conductivity"
+      ],
+      "answer": 1,
+      "explanation": "杨氏模量是一个描述材料“有多硬”或“有多难被拉伸”的数字。钢的模量高，所以它很硬；橡皮筋的模量低，所以它很有弹性。",
+      "explanation_en": "Young's Modulus is the number that describes how 'stiff' or 'resistant to stretching' a material is. Steel has a high modulus (very stiff), while a rubber band has a very low modulus (very flexible)."
+    }
+  }

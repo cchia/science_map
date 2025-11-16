@@ -1,0 +1,10 @@
+{
+    "name": "列奥纳多·达·芬奇",
+    "name_en": "Leonardo da Vinci",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png",
+    "bio_short": "意大利文艺复兴时期的博学家（画家、工程师、科学家、发明家）。他被认为是“文艺复兴人”的终极典范，以《蒙娜丽莎》和《最后的晚餐》，以及充满未来发明的科学手稿而闻名。",
+    "bio_short_en": "An Italian Renaissance polymath (painter, engineer, scientist, inventor). Considered the ultimate 'Renaissance Man', he is famous for the 'Mona Lisa' and 'The Last Supper', as well as his scientific notebooks filled with future inventions.",
+    "events": [
+      "da_vinci_inventions_1480"
+    ]
+  }

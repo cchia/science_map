@@ -1,0 +1,10 @@
+{
+    "name": "萨缪尔·莫尔斯",
+    "name_en": "Samuel Morse",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/60/Samuel_Morse_portrait.jpg",
+    "bio_short": "美国画家和发明家。他从一位成功的画家转型为发明家，开创了“单线电报”系统（`morse_code_1837`），并发明了以他命名的“莫尔斯电码”。",
+    "bio_short_en": "An American painter and inventor. He transitioned from a successful career as a painter to invent the 'single-wire telegraph' system (`morse_code_1837`) and the corresponding 'Morse Code' used to send messages.",
+    "events": [
+      "morse_code_1837"
+    ]
+  }

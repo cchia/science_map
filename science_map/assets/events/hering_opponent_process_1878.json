@@ -1,0 +1,150 @@
+{
+    "id": "hering_opponent_process_1878",
+    "personId": "ewald_hering",
+    "title": "提出“拮抗处理”色觉理论",
+    "title_en": "Proposes 'Opponent-Process' Theory of Color Vision",
+    "year": 1878,
+    "lat": 50.0755,
+    "lng": 14.4378,
+    "city": "布拉格",
+    "city_en": "Prague",
+    "country": "奥匈帝国 (今捷克)",
+    "country_en": "Austro-Hungarian Empire (Modern Czechia)",
+    "field": ["生物学", "医学", "物理学"],
+    "field_en": ["Biology", "Medicine", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Opponent_process_theory_of_drug_addiction.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=zAXVgl7SDJk",
+        "title": "拮抗处理色觉理论",
+        "title_en": "Opponent-Process Theory of Color Vision",
+        "duration": "1:59"
+      }
+    },
+    
+    "summary": {
+      "text": "埃瓦尔德·赫林（Ewald Hering）是一位生理学家，他提出了一个与“杨-亥姆霍兹三原色理论”（`young_color_theory_1802`）相竞争的色觉理论。赫林指出，三原色理论无法解释“后像”（staring at red leaves a green afterimage）或“不存在的颜色”（如“红绿色”）。他提出，色觉不是基于三种独立的颜色，而是基于三个“拮抗”通道：**红-绿**、**蓝-黄** 和 **黑-白**（明暗）。",
+      "text_en": "Ewald Hering, a physiologist, proposed a rival theory to the Young-Helmholtz trichromatic theory (`young_color_theory_1802`). Hering noted that trichromacy could not explain phenomena like 'afterimages' (staring at red leaves a green afterimage) or 'forbidden colors' (like 'reddish-green'). He proposed that color vision was not based on three independent colors, but on three 'opponent' channels: a **Red-Green** channel, a **Blue-Yellow** channel, and a **Black-White** (luminance) channel.",
+      "key_points": [
+        "拮抗处理理论 (Opponent-Process Theory)",
+        "作为对“杨-亥姆霍兹”理论的回应",
+        "解释了“后像”(Afterimages)",
+        "解释了“不存在的颜色”（如红绿色）",
+        "提出了三个通道：红-绿，蓝-黄，黑-白"
+      ],
+      "key_points_en": [
+        "Opponent-Process Theory",
+        "A response to Young-Helmholtz theory",
+        "Explained 'afterimages'",
+        "Explained 'forbidden colors' (like reddish-green)",
+        "Proposed three channels: Red-Green, Blue-Yellow, Black-White"
+      ]
+    },
+  
+    "story": {
+      "text": "赫林的理论是基于“心理物理学”观察的。他观察到，当一个人过度兴奋地盯着红色看时，该通道的“红色”一侧会“疲劳”，导致当他移开视线看白墙时，该通道会向相反方向“反弹”，产生“绿色”的后像。同理，盯着蓝色会产生“黄色”后像。他的理论还解释了为什么“黄色”感觉上是一种“纯色”，就像红、绿、蓝一样。在杨-亥姆霍兹模型中，“黄色”只是“红”和“绿”的混合；而在赫林的模型中，“黄色”是与“蓝色”相对立的一个基本极点。",
+      "text_en": "Hering's theory was based on psychophysical observation. He noted that when you stare at Red, the 'Red' side of that channel gets 'tired'. When you look away at a white wall, the channel 'rebounds' in the opposite direction, causing you to see a 'Green' afterimage. Likewise, staring at Blue produces a 'Yellow' afterimage. His theory also explained why 'Yellow' *feels* like a 'primary' color, just as much as red, green, or blue. In the Young-Helmholtz model, yellow is just a 'mix' of red and green; in Hering's model, it is a fundamental pole, opposite to blue."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏆",
+        "text": "在长达一个世纪的时间里，杨-亥姆霍兹理论和赫林理论被认为是“死对头”。直到20世纪中叶，科学家们才证明**两者都是正确的**。",
+        "text_en": "For nearly a century, the Young-Helmholtz theory and the Hering theory were seen as bitter rivals. It wasn't until the mid-20th century that scientists proved *both* are correct."
+      },
+      {
+        "icon": "🤝",
+        "text": "“真相”是：**视网膜**（`young_color_theory_1802`）上的视锥细胞有三种（红、绿、蓝）；但**神经节细胞**（连接视网膜和大脑的神经元）则将这些“RGB”信号“重新编码”为赫林的“拮抗”通道（红-绿，蓝-黄）。",
+        "text_en": "The truth: The *cone cells* in the retina (`young_color_theory_1802`) are trichromatic (RGB). But the *ganglion cells* (the neurons connecting the retina to the brain) *re-wire* that RGB signal into Hering's 'opponent' channels (R-G, B-Y)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "杨-亥姆霍兹理论（`young_color_theory_1802`）解释了你眼睛里的“硬件”：你有三种颜色的“麦克风”（红、绿、蓝视锥细胞）。\n赫林理论则解释了这些“麦克风”的“线路”是如何连接的。它说，“红色麦克风”和“绿色麦克风”被连接到了同一个“开关”上：这个开关要么“偏向红”，要么“偏向绿”，但**不能同时**偏向两者。这就是为什么你永远无法想象一种“红绿色”。",
+      "text_en": "The Young-Helmholtz theory (`young_color_theory_1802`) explains the 'hardware' in your eye: you have three 'microphones' (cones) for Red, Green, and Blue.\nHering's theory explains how those microphones are *wired* together. It says the 'Red' and 'Green' microphones are wired to the *same switch*. This switch can flip *either* to 'Red' *or* to 'Green', but it *cannot be both at once*. This is why you can't imagine a 'reddish-green' color."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🧠",
+          "title": "神经科学 (Neuroscience)",
+          "title_en": "Neuroscience",
+          "text": "赫林的理论是现代“神经编码”和“计算神经科学”的先驱。它表明，大脑不是被动地“记录”世界，而是主动地“处理”和“压缩”信号。",
+          "text_en": "Hering's theory was a pioneer of modern 'neural coding' and 'computational neuroscience'. It showed the brain doesn't just 'record' the world, it actively 'processes' and 'compresses' signals."
+        },
+        {
+          "icon": "🎨",
+          "title": "色彩空间 (Color Spaces)",
+          "title_en": "Color Spaces",
+          "text": "现代色彩模型（如 `CIELAB`）是基于赫林的“拮抗”轴（明-暗, 红-绿, 蓝-黄）构建的，因为它更符合人类的“感知”。",
+          "text_en": "Modern color models (like `CIELAB`) are built on Hering's 'opponent' axes (Light-Dark, Red-Green, Blue-Yellow) because it is a more 'perceptually' accurate model of how humans see."
+        },
+        {
+          "icon": "🖥️",
+          "title": "计算机视觉 (Computer Vision)",
+          "title_en": "Computer Vision",
+          "text": "受赫林理论启发的色彩模型，被用于计算机视觉和图像处理，以更接近人类的方式来分离“亮度”和“颜色”。",
+          "text_en": "Color models inspired by Hering are used in computer vision and image processing to separate 'luminance' (brightness) from 'color' in a way that mimics human vision."
+        }
+      ],
+  
+    "impact": {
+      "text": "赫林的拮抗处理理论是19世纪生理学和心理物理学的重大成就。它为杨-亥姆霍兹的三原色理论提供了必要的“补充”，证明了色觉是一个“两阶段”的过程（视锥细胞的“三原色”阶段，和神经节细胞的“拮抗”阶段）。这两个理论的统一，是现代色觉科学的完整基础。",
+      "text_en": "Hering's Opponent-Process theory was a major achievement of 19th-century physiology. It provided the *necessary second half* to the Young-Helmholtz theory, proving that color vision is a 'two-stage' process: a 'trichromatic' stage at the cones, and an 'opponent' stage at the ganglion cells. The synthesis of these two theories is the complete foundation of modern color science.",
+      "stats": [
+          {
+            "number": "3",
+            "label": "个拮抗通道",
+            "label_en": "Opponent Channels"
+          },
+          {
+            "number": "2",
+            "label": "个阶段 (理论)",
+            "label_en": "Stage (Theory)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "young_color_theory_1802",
+          "contribution": "杨-亥姆霍兹理论（作为赫林试图反驳和补充的理论）",
+          "contribution_en": "Young-Helmholtz Theory (as the theory Hering was responding to and attempting to complete)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "modern_color_science_1950",
+          "contribution": "现代色觉科学（最终将杨氏理论和赫林理论统一为“两阶段模型”）",
+          "contribution_en": "Modern Color Science (which finally synthesized Young's and Hering's theories into the 'two-stage model')"
+        }
+      ],
+      "legacy_text": "赫林证明了，我们的“感知”（如后像）与我们眼睛的“物理硬件”（视锥细胞）同样重要。",
+      "legacy_text_en": "Hering proved that our *perception* (like afterimages) is just as important as our physical *hardware* (the cones)."
+    },
+  
+    "related_concepts": ["拮抗过程 (Opponent-Process)", "后像 (Afterimage)", "杨-亥姆霍兹理论 (Young-Helmholtz)", "三原色 (Trichromacy)", "色觉 (Color Vision)", "视锥细胞 (Cone Cells)", "神经节细胞 (Ganglion Cells)", "心理物理学 (Psychophysics)"],
+    "related_concepts_en": ["Opponent-Process", "Afterimage", "Young-Helmholtz Theory", "Trichromacy", "Color Vision", "Cone Cells", "Ganglion Cells", "Psychophysics"],
+  
+    "quiz": {
+      "question": "赫林的“拮抗处理理论”是为了解释哪一个杨-亥姆霍兹理论（`young_color_theory_1802`）无法解释的现象？",
+      "question_en": "Hering's 'Opponent-Process Theory' was created to explain which phenomenon that Young-Helmholtz (`young_color_theory_1802`) could not?",
+      "options": [
+        "为什么彩虹有多种颜色",
+        "为什么红光和绿光混合会产生黄光",
+        "为什么盯着红色看，会产生“绿色”的后像",
+        "为什么光是一种波"
+      ],
+      "options_en": [
+        "Why the rainbow has many colors",
+        "Why mixing red and green light makes yellow light",
+        "Why staring at a red object produces a 'green' afterimage",
+        "Why light is a wave"
+      ],
+      "answer": 2,
+      "explanation": "杨-亥姆霍兹理论（三原色）无法解释“后像”。赫林的“拮抗”理论（红-绿通道）则完美地解释了它：当“红色”神经元疲劳时，通道会向相反的“绿色”反弹。",
+      "explanation_en": "The Young-Helmholtz (trichromatic) theory had no good explanation for 'afterimages'. Hering's 'opponent' theory (the Red-Green channel) explained it perfectly: the 'Red' neurons get tired, and the channel rebounds in the opposite 'Green' direction."
+    }
+  }

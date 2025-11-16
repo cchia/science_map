@@ -1,0 +1,149 @@
+{
+    "id": "wien_law_1896",
+    "personId": "wilhelm_wien",
+    "title": "发表维恩辐射定律 (维恩近似)",
+    "title_en": "Publishes Wien's Radiation Law (Wien Approximation)",
+    "year": 1896,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "德国",
+    "country_en": "Germany",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Wiens_law.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=qjM73TlVkTo",
+        "title": "维恩位移定律",
+        "title_en": "Wien's Displacement Law",
+        "duration": "3:27"
+      }
+    },
+    
+    "summary": {
+      "text": "威廉·维恩（Wilhelm Wien）提出了一项基于经典热力学的定律，试图描述“黑体辐射”的光谱分布。他的公式（后称“维恩近似”）在短波长（高频，如可见光和紫外线）区域与实验数据*完美*吻合，并成功避免了“紫外灾难”。然而，它在长波长（红外线）区域却与实验（如 `lummer_black_body_1899`）存在明显偏差。这个“成功一半，失败一半”的定律，是马克斯·普朗克（Max Planck）推导其最终量子公式（`planck_quantum_1900`）的“最后一块垫脚石”。",
+      "text_en": "Wilhelm Wien proposed a formula, based on classical thermodynamics, to describe the spectral distribution of 'black-body radiation'. His formula (the 'Wien Approximation') worked *perfectly* for experimental data at *short* wavelengths (high frequencies, like visible light and UV), and successfully avoided the 'Ultraviolet Catastrophe'. However, it *failed* at *long* wavelengths (infrared), as shown by the experiments of Lummer and Pringsheim (`lummer_black_body_1899`). This 'half-right' law was the final, critical stepping stone for Max Planck's quantum formula (`planck_quantum_1900`).",
+      "key_points": [
+        "维恩近似 (Wien Approximation)",
+        "解决了“紫外灾难”(Solved the Ultraviolet Catastrophe)",
+        "在短波长（高频）区域与实验吻合",
+        "但在长波长（红外）区域与实验不符",
+        "普朗克（Planck）在此基础上发展出了他的定律"
+      ],
+      "key_points_en": [
+        "Wien Approximation",
+        "Solved the 'Ultraviolet Catastrophe'",
+        "Worked perfectly for short wavelengths (high frequencies)",
+        "Failed for long wavelengths (infrared)",
+        "Planck built his law directly upon it"
+      ]
+    },
+  
+    "story": {
+      "text": "19世纪末，物理学的最大难题是“黑体辐射”。当时的“瑞利-金斯定律”(Rayleigh-Jeans Law) 预测，热物体应在紫外线波段释放无限能量（“紫外灾难”），这显然是错的。维恩通过热力学论证，提出了一个新公式。这个公式在短波长（紫外和可见光）区域表现完美，成功地让能量在无穷大处降为零。一时间，物理学家们（包括普朗克本人）都认为维恩已经解决了这个问题。然而，`lummer_black_body_1899` 的高精度实验很快就表明，维恩的公式在“红外线”区域是错的。物理学陷入了僵局：一个公式（瑞利-金斯）在长波长正确，另一个公式（维恩）在短波长正确。普朗克的工作就是找到一个能“统一”这两者的公式。",
+      "text_en": "In the late 19th century, the 'black-body' problem was physics' biggest mystery. The classical 'Rayleigh-Jeans Law' predicted infinite energy at short wavelengths (the 'Ultraviolet Catastrophe'), which was absurd. Wien, using arguments from thermodynamics, proposed a new formula. This formula was *perfect* at short wavelengths (UV/visible) and correctly predicted the energy would fall to zero, solving the catastrophe. For a brief time, physicists (including Planck) thought Wien had solved it. But the high-precision experiments of `lummer_black_body_1899` soon proved Wien's law was *wrong* in the 'infrared' (long-wavelength) region. Physics was now stuck: one law (Rayleigh-Jeans) worked for red, and one (Wien) worked for blue. Planck's job was to find one law that worked for both."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏅",
+        "text": "维恩在1911年获得了诺贝尔物理学奖，但主要是为了表彰他更早（1893年）发现的、完全正确的“维恩位移定律”。",
+        "text_en": "Wien won the Nobel Prize in Physics in 1911, but it was primarily for his *different* (and correct) 1893 discovery: 'Wien's Displacement Law'."
+      },
+      {
+        "icon": "🔥",
+        "text": "“维恩位移定律”(λ_max ∝ 1/T) 是一个不同的定律，它解释了为什么物体越热，其发光颜色越“蓝”（峰值波长越短）。这个定律是完全正确的，并且至今仍在使用。",
+        "text_en": "The 'Wien's Displacement Law' (λ_max ∝ 1/T) is a *separate* law that explains *why* hot objects glow from red, to yellow, to blue-white as they get hotter. This law is correct and still used today."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，物理学家试图为“热铁块发出的光”画一张“藏宝图”（光谱）。\n* 一个理论（瑞利-金斯）说，宝藏（能量）在“蓝色/紫外”区域有“无限多”。—— 错了。\n* 维恩来了，画了一张新地图。这张地图在“蓝色/紫外”区域画得**非常完美**，但在“红色/红外”区域却**画错了**。\n\n卢默（`lummer_black_body_1899`）是那个拿着维恩的地图，去“红外”区域挖宝，结果发现地图是错的探险家。普朗克（`planck_quantum_1900`）则是那个拿过维恩的地图，将其“修正”后，使之在所有区域都正确的“终极制图师”。",
+      "text_en": "Imagine physicists trying to draw a 'treasure map' (spectrum) for light from a hot iron.\n* One theory (Rayleigh-Jeans) said there was 'infinite' treasure (energy) in the 'blue/UV' area. This was wrong.\n* Wien drew a new map. His map was **perfect** for the 'blue/UV' area. But his map was **wrong** for the 'red/infrared' area.\n\nLummer (`lummer_black_body_1899`) was the explorer who took Wien's map, went to the 'infrared' area, and reported the map was wrong. Planck (`planck_quantum_1900`) was the master cartographer who took Wien's map, *corrected* it, and made it accurate everywhere.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blacksmith_at_work02.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🌡️",
+          "title": "高温测量 (Pyrometry)",
+          "title_en": "Pyrometry",
+          "text": "虽然维恩的“近似”公式（1896）是错的，但他更早的“位移定律”（1893）是光学高温计（通过颜色测温）的理论基础。",
+          "text_en": "While his 'Approximation' (1896) was flawed, his *other* law, the 'Displacement Law' (1893), is the basis for optical pyrometers (measuring temperature by color)."
+        },
+        {
+          "icon": "🧩",
+          "title": "量子理论的垫脚石",
+          "title_en": "Stepping Stone to Quantum Theory",
+          "text": "普朗克的第一步，就是将维恩定律（短波长）和瑞利-金斯定律（长波长）用一个“内插法”公式连接起来，然后才反推出这个公式背后的“量子”假设。",
+          "text_en": "Planck's first step was to find one 'interpolation formula' that connected Wien's Law (short wavelengths) and the Rayleigh-Jeans Law (long wavelengths). Only *after* finding the formula did he deduce the quantum hypothesis behind it."
+        }
+      ],
+  
+    "impact": {
+      "text": "维恩定律是经典物理学在量子革命前夜的“最后一次英勇尝试”。它的巨大成功（在短波长处）和它的微小失败（在长波长处）同样重要。这个“微小的失败”（由卢默和普林斯海姆精确测得）是物理学史上最重大的失败之一，因为它无可辩驳地证明了经典物理学已经走到了尽头，必须有新理论（量子力学）来取代它。",
+      "text_en": "Wien's Law was classical physics' 'last heroic attempt' before the quantum revolution. Its success (at short wavelengths) was just as important as its failure (at long wavelengths). That 'small failure', when precisely measured by Lummer & Pringsheim, became one of the most important failures in history, as it proved classical physics was fundamentally broken and a new theory *must* be found.",
+      "stats": [
+          {
+            "number": "1911",
+            "label": "年诺贝尔奖",
+            "label_en": "Nobel Prize"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "kirchhoff_black_body_1859",
+          "contribution": "基尔霍夫（其“黑体辐射”的挑战是维恩试图解决的问题）",
+          "contribution_en": "Kirchhoff (whose 'black-body challenge' was the problem Wien was trying to solve)"
+        },
+        {
+          "id": "boltzmann_statistical_mechanics_1877",
+          "contribution": "玻尔兹曼（维恩的推导是基于玻尔兹曼的统计力学思想）",
+          "contribution_en": "Boltzmann (Wien's derivation was based on Boltzmann's ideas in statistical mechanics)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "lummer_black_body_1899",
+          "contribution": "卢默和普林斯海姆（他们的实验是为了“验证”维恩定律，但最终“推翻”了它）",
+          "contribution_en": "Lummer & Pringsheim (their experiment was designed to *test* Wien's Law, but ended up *disproving* it)"
+        },
+        {
+          "id": "planck_quantum_1900",
+          "contribution": "马克斯·普朗克（其量子定律是对维恩定律的直接修正和推广）",
+          "contribution_en": "Max Planck (whose quantum law was a direct correction and generalization of Wien's law)"
+        }
+      ],
+      "legacy_text": "维恩定律是那把“几乎”能打开量子世界大门的钥匙，它指明了正确的方向，但最终在门锁处卡住了。",
+      "legacy_text_en": "Wien's Law was the 'almost-key' to quantum mechanics. It pointed in the right direction but ultimately got stuck in the lock, forcing Planck to build a new one."
+    },
+  
+    "related_concepts": ["黑体辐射 (Black-body Radiation)", "维恩位移定律 (Wien's Displacement Law)", "紫外灾难 (Ultraviolet Catastrophe)", "普朗克定律 (Planck's Law)", "瑞利-金斯定律 (Rayleigh-Jeans Law)", "卢默 (Lummer)", "普朗克 (Planck)"],
+    "related_concepts_en": ["Black-body Radiation", "Wien's Displacement Law", "Ultraviolet Catastrophe", "Planck's Law", "Rayleigh-Jeans Law", "Lummer", "Planck"],
+  
+    "quiz": {
+      "question": "威廉·维恩（Wilhelm Wien）1896年的“维恩近似”定律，在哪个光谱区域与实验数据*不*吻合？",
+      "question_en": "Wien's Approximation Law (1896) *failed* to match experimental data in which part of the spectrum?",
+      "options": [
+        "短波长（红外线）",
+        "短波长（紫外线）",
+        "长波长（红外线）",
+        "长波长（紫外线）"
+      ],
+      "options_en": [
+        "Short wavelengths (Infrared)",
+        "Short wavelengths (Ultraviolet)",
+        "Long wavelengths (Infrared)",
+        "Long wavelengths (Ultraviolet)"
+      ],
+      "answer": 2,
+      "explanation": "维恩定律在短波长（紫外线、可见光）区域非常成功，但卢默和普林斯海姆（`lummer_black_body_1899`）的精确实验证明，它在长波长（红外线）区域是错误的。普朗克（`planck_quantum_1900`）的定律则在所有区域都有效。",
+      "explanation_en": "Wien's Law was very successful at short wavelengths (UV, visible), but the precise experiments of Lummer and Pringsheim (`lummer_black_body_1899`) proved it was wrong at *long* wavelengths (infrared). Planck's Law (`planck_quantum_1900`) worked for all wavelengths."
+    }
+  }

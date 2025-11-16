@@ -1,0 +1,155 @@
+{
+    "id": "kirchhoff_black_body_1859",
+    "personId": "gustav_kirchhoff",
+    "title": "提出“黑体辐射”概念与挑战",
+    "title_en": "Formulates the 'Black-Body' Concept and Challenge",
+    "year": 1859,
+    "lat": 49.3988,
+    "lng": 8.6724,
+    "city": "海德堡",
+    "city_en": "Heidelberg",
+    "country": "德国 (巴登大公国)",
+    "country_en": "Germany (Grand Duchy of Baden)",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Black_body_realization.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=DHG61XPuWyk&t=199s",
+        "title": "黑体辐射",
+        "title_en": "Blackbody Radiation",
+        "duration": "14:17"
+      }
+    },
+    
+    "summary": {
+      "text": "古斯塔夫·基尔霍夫（Gustav Kirchhoff）在1859年提出了一个理想化的理论物体，他称之为“黑体”(Schwarzer Körper)，即一个能100%吸收所有入射辐射的物体。他通过热力学推导出，这样一个完美的吸收体也必然是“完美的辐射体”。最重要的是，他证明了黑体发出的辐射光谱*只*取决于其“温度”，而与它的形状或构成材料*无关*。他向物理学界提出了一个巨大的挑战：找出这个只与温度和波长有关的“通用函数” (Universal Function)。",
+      "text_en": "In 1859, Gustav Kirchhoff proposed the concept of an idealized 'black body' (Schwarzer Körper), an object that absorbs 100% of all incident radiation. He deduced thermodynamically that such a perfect absorber must also be a perfect emitter. Critically, he proved that the spectrum of radiation from this body depends *only* on its 'Temperature', not on its shape or material. He then issued a grand challenge to the physics community: find this 'Universal Function' that describes the spectrum.",
+      "key_points": [
+        "定义了“黑体”(Black Body) 的概念",
+        "基尔霍夫热辐射定律 (Kirchhoff's Law of Thermal Radiation)",
+        "黑体辐射只取决于“温度”，与材料无关",
+        "向物理学界“挑战”，要求找到这个“通用函数”",
+        "提出“空腔”(Hohlraum) 是最好的黑体近似"
+      ],
+      "key_points_en": [
+        "Defined the 'Black Body' concept",
+        "Kirchhoff's Law of Thermal Radiation (Emissivity = Absorptivity)",
+        "Radiation depends *only* on temperature, not material",
+        "Issued a 'challenge' to find the universal function f(T, λ)",
+        "Proposed a 'hohlraum' (cavity) as the best approximation"
+      ]
+    },
+  
+    "story": {
+      "text": "基尔霍夫当时正在与罗伯特·本生（Robert Bunsen）合作，研究“光谱学”。他们发现，当一种元素（如钠）被加热时，它会发出特定颜色的“亮线”（发射光谱）；而当白光穿过冷的钠蒸气时，它会“吸收”掉*完全相同*颜色的“暗线”（吸收光谱）。这使基尔霍夫得出了他的定律：一个物体在特定温度下吸收辐射的能力，等于它在相同温度下发射辐射的能力。他将这个定律推向了极致：一个“完美的吸收体”（黑体）也必须是“完美的辐射体”。他向物理学家提出的挑战——“找到这个黑体公式”——成为了此后40年（1860-1900）物理学最重要的任务。",
+      "text_en": "Kirchhoff was working with Robert Bunsen on 'spectroscopy'. They discovered that an element (like sodium) emits bright 'emission lines' at specific colors when heated, and absorbs *exactly the same colors* (as dark 'absorption lines') when cold. This led Kirchhoff to his general law: an object's ability to absorb radiation is equal to its ability to emit it at the same temperature. He took this to its logical extreme: a *perfect* absorber (a 'black body') must also be a *perfect* emitter. His challenge to physicists—'Find the formula for this black body'—became the single most important quest in physics for the next 40 years (1860-1900).",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/19/Black_body.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧪",
+        "text": "基尔霍夫和本生（`bunsen_spectroscopy_1859`）通过分析光谱，发现了两种新元素：铯 (Caesium) 和铷 (Rubidium)。",
+        "text_en": "Through spectroscopy, Kirchhoff and Bunsen (`bunsen_spectroscopy_1859`) discovered two new elements: Caesium and Rubidium."
+      },
+      {
+        "icon": "☀️",
+        "text": "基尔霍夫利用他的定律，成为第一个正确解释太阳光谱中“夫琅禾费暗线”(Fraunhofer lines) 的人：这些暗线是太阳核心发出的“黑体辐射”穿过较冷的太阳大气层时，被特定元素（如氢、氦）“吸收”掉的光谱。",
+        "text_en": "Kirchhoff was the first to correctly explain the dark 'Fraunhofer lines' in the Sun's spectrum: they are absorption lines created when the 'black-body' light from the Sun's core passes through its cooler outer atmosphere, which absorbs specific colors."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "基尔霍夫问了一个看似简单的问题：“为什么所有热的东西（无论是铁块、木炭还是陶瓷）在达到相同温度时，发出的‘光’（颜色）都是一样的？”（例如，都是“樱桃红”）。他推断，一定有一个“通用的”、只与温度有关的“发光规则”。为了研究这个规则，他发明了一个“理想”物体，叫“黑体”（一个完美的吸收/辐射体）。然后他向全世界的物理学家发出了一个挑战：“去把这个通用的发光规则（公式）找出来！” 这个挑战最终导致了量子力学的诞生。",
+      "text_en": "Kirchhoff asked a simple question: 'Why do *all* hot objects (iron, charcoal, ceramic) glow the *same* 'color' at the *same* temperature?' (e.g., 'cherry red'). He deduced there must be a 'universal rule' for glowing that only depends on temperature. To study this rule, he invented an 'ideal' object called a 'black body' (a perfect absorber/emitter). He then issued a challenge to all physicists: 'Go find the universal formula for this glow!' This challenge is what led directly to the birth of quantum mechanics.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Black_Body_Curves.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧪",
+          "title": "光谱学 (Spectroscopy)",
+          "title_en": "Spectroscopy",
+          "text": "他的定律（发射=吸收）是光谱学的基础，使天文学家能够通过分析恒星发出的光来确定它们的化学成分。",
+          "text_en": "His law (emission = absorption) is the foundation of spectroscopy, allowing astronomers to determine the chemical composition of distant stars by analyzing their light."
+        },
+        {
+          "icon": "🔥",
+          "title": "量子力学的催化剂",
+          "title_en": "Catalyst for Quantum Mechanics",
+          "text": "他提出的“黑体辐射挑战”，是19世纪物理学最大的“乌云”。为了解决这个挑战，普朗克（`planck_quantum_1900`）被迫在1900年提出了革命性的“量子”假说。",
+          "text_en": "His 'black-body challenge' was the single biggest 'problem' in 19th-century physics. Solving it forced Max Planck (`planck_quantum_1900`) to invent the 'quantum' hypothesis in 1900."
+        }
+      ],
+  
+    "impact": {
+      "text": "基尔霍夫将“热辐射”问题从一个混乱的工程问题，转变为一个精确的、基础的“物理学”问题。他提出的“黑体”概念，为物理学家提供了一个可以进行精确理论计算的“理想模型”。他发出的“寻找通用函数”的挑战，最终导致了经典物理学的崩溃和量子力学的诞生。",
+      "text_en": "Kirchhoff transformed the study of heat radiation from a messy engineering problem into a precise, fundamental *physics* problem. His 'black body' concept gave physicists the 'ideal model' they needed to perform exact calculations. His challenge to find the universal function led directly to the failure of classical physics and the birth of quantum mechanics.",
+      "stats": [
+          {
+            "number": "1859",
+            "label": "年 (提出挑战)",
+            "label_en": "Year (Challenge Issued)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "bunsen_spectroscopy_1859",
+          "contribution": "罗伯特·本生（他的实验合作者，共同研究光谱）",
+          "contribution_en": "Robert Bunsen (his experimental collaborator in spectroscopy)"
+        },
+        {
+          "id": "fraunhofer_lines_1814",
+          "contribution": "夫琅禾费（其发现的太阳光谱“暗线”，是基尔霍夫试图解释的现象）",
+          "contribution_en": "Fraunhofer (whose 'dark lines' in the solar spectrum were the phenomenon Kirchhoff explained)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "wien_law_1896",
+          "contribution": "威廉·维恩（其“维恩定律”是对基尔霍夫“通用函数”的第一次伟大尝试）",
+          "contribution_en": "Wilhelm Wien (his 'Wien's Law' was the first great attempt to find Kirchhoff's 'universal function')"
+        },
+        {
+          "id": "lummer_black_body_1899",
+          "contribution": "卢默和普林斯海姆（他们建造了基尔霍夫设想的“空腔”黑体，并精确测量了其光谱）",
+          "contribution_en": "Lummer & Pringsheim (they built Kirchhoff's 'cavity' black body and precisely measured its spectrum)"
+        },
+        {
+          "id": "planck_quantum_1900",
+          "contribution": "马克斯·普朗克（其“量子定律”是基尔霍夫“通用函数”的最终、正确的答案）",
+          "contribution_en": "Max Planck (his 'Quantum Law' was the final, correct answer to Kirchhoff's 'universal function')"
+        }
+      ],
+      "legacy_text": "基尔霍夫提出了19世纪物理学的“终极问题”，而这个问题的答案（普朗克定律）开启了20世纪的物理学革命。",
+      "legacy_text_en": "Kirchhoff asked the 'final question' of 19th-century physics, and its answer (Planck's Law) started the 20th-century revolution."
+    },
+  
+    "related_concepts": ["黑体 (Black Body)", "热辐射 (Thermal Radiation)", "光谱学 (Spectroscopy)", "发射光谱 (Emission Spectrum)", "吸收光谱 (Absorption Spectrum)", "本生 (Bunsen)", "普朗克 (Planck)", "维恩 (Wien)"],
+    "related_concepts_en": ["Black Body", "Thermal Radiation", "Spectroscopy", "Emission Spectrum", "Absorption Spectrum", "Bunsen", "Planck", "Wien"],
+  
+    "quiz": {
+      "question": "古斯塔夫·基尔霍夫（Gustav Kirchhoff）在1859年向物理学界提出的“挑战”是什么？",
+      "question_en": "What 'challenge' did Gustav Kirchhoff issue to the physics community in 1859?",
+      "options": [
+        "找到一个能解释“黑体辐射”光谱的通用公式",
+        "证明“以太”的存在",
+        "计算地球的准确年龄",
+        "发现一种新元素"
+      ],
+      "options_en": [
+        "To find the single, universal formula for the 'black-body radiation' spectrum",
+        "To prove the existence of the 'aether'",
+        "To calculate the exact age of the Earth",
+        "To discover a new element"
+      ],
+      "answer": 0,
+      "explanation": "基尔霍夫证明了黑体辐射只与温度有关，并挑战物理学家们去找到这个“通用函数”。这个挑战最终由马克斯·普朗克（`planck_quantum_1900`）在1900年完成。",
+      "explanation_en": "Kirchhoff proved that black-body radiation depends *only* on temperature, and he challenged physicists to find this 'universal function'. This challenge was finally met by Max Planck (`planck_quantum_1900`) in 1900."
+    }
+  }

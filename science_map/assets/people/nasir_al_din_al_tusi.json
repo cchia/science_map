@@ -1,0 +1,10 @@
+{
+    "name": "纳西尔丁·图西",
+    "name_en": "Nasir al-Din al-Tusi",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nasir_al-Din_Tusi.jpg",
+    "bio_short": "波斯博学家、天文学家和数学家。他建立了马拉盖天文台，发起了对托勒密模型的系统性批判，并发明了“图西圆偶”。",
+    "bio_short_en": "A Persian polymath, astronomer, and mathematician. He founded the Maragha Observatory, initiated a systematic critique of the Ptolemaic model, and invented the 'Tusi Couple'.",
+    "events": [
+      "nasir_al_din_al_tusi_1250"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "亚历山德罗·伏打",
+    "name_en": "Alessandro Volta",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/52/Alessandro_Volta.jpeg",
+    "bio_short": "意大利物理学家和化学家，“电气时代”的先驱。他发明了“伏打电堆”（第一个电池），从而提供了第一个持续的电流源。“伏特”（电压单位）以他命名。",
+    "bio_short_en": "An Italian physicist and chemist, a pioneer of the electrical age. He invented the 'Voltaic Pile', the first electrical battery, which provided the first source of continuous current. The unit of voltage, the 'Volt', is named in his honor.",
+    "events": [
+      "volta_battery_1800"
+    ]
+  }

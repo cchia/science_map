@@ -1,0 +1,11 @@
+{
+    "name": "奥托·冯·格里克",
+    "name_en": "Otto von Guericke",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Otto-von-Guericke-TS.jpg",
+    "bio_short": "德国科学家、发明家和政治家。他发明了第一台静电起电机（`guericke_static_generator_1663`），并用他著名的“马格德堡半球”实验（`guericke_vacuum_1654`）证明了真空的存在和大气压强的威力。",
+    "bio_short_en": "A German scientist, inventor, and politician. He invented the first electrostatic generator (`guericke_static_generator_1663`) and demonstrated the power of atmospheric pressure and the existence of a vacuum with his famous 'Magdeburg hemispheres' experiment (`guericke_vacuum_1654`).",
+    "events": [
+      "guericke_vacuum_1654",
+      "guericke_static_generator_1663"
+    ]
+  }

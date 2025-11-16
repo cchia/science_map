@@ -1,0 +1,229 @@
+{
+    "id": "euclid",
+    "title": "欧几里得与几何学",
+    "title_en": "Euclid and Geometry",
+    "year": -300,
+    "lat": 31.2001,
+    "lng": 29.9187,
+    "city": "亚历山大",
+    "city_en": "Alexandria",
+    "country": "古埃及(希腊化时期)",
+    "country_en": "Ancient Egypt (Hellenistic Period)",
+    "field": "数学",
+    "field_en": "Mathematics",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Euklid-von-Alexandria_1.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/V8jGwZVn2s4",
+        "title": "欧几里得几何学",
+        "title_en": "Euclidean Geometry",
+        "duration": "8:10"
+      }
+    },
+    
+    "summary": {
+      "text": "欧几里得是'几何学之父'！他写的《几何原本》是历史上最有影响力的数学著作。从5个简单公理出发，用严格的逻辑推导出整个几何学体系。这本书使用了2300年，仅次于《圣经》的印刷量！",
+      "text_en": "Euclid is 'Father of Geometry'! His 'Elements' is most influential mathematics work in history. Starting from 5 simple axioms, using rigorous logic to derive entire geometry system. This book used for 2300 years, second only to Bible in print copies!",
+      "key_points": [
+        "著有《几何原本》",
+        "建立公理化演绎体系",
+        "奠定欧几里得几何基础"
+      ],
+      "key_points_en": [
+        "Authored 'Elements'",
+        "Established axiomatic deductive system",
+        "Laid foundation of Euclidean geometry"
+      ]
+    },
+    
+    "story": {
+      "text": "公元前300年左右，欧几里得在亚历山大城教授数学。据说托勒密国王问他：'学习几何有没有捷径？'欧几里得回答：'几何学中没有王者之路。'意思是即使是国王，也必须一步步学习，没有捷径。他收集整理了前人的数学知识，用严密的逻辑体系写成《几何原本》，共13卷，包含465个命题。",
+      "text_en": "Around 300 BC, Euclid taught mathematics in Alexandria. Legend says King Ptolemy asked: 'Is there shortcut to learning geometry?' Euclid replied: 'There is no royal road to geometry.' Meaning even kings must learn step by step, no shortcuts. He collected and organized predecessors' mathematical knowledge, writing 'Elements' with rigorous logical system, 13 books containing 465 propositions.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Euclid_flowercrop.jpg"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "📚",
+        "text": "《几何原本》是仅次于《圣经》的世界第二大畅销书，印刷超过1000版！",
+        "text_en": "'Elements' is world's second bestseller after Bible, printed over 1000 editions!"
+      },
+      {
+        "icon": "🎓",
+        "text": "直到20世纪初，欧美学校还在用《几何原本》作为几何教科书。",
+        "text_en": "Until early 20th century, Western schools still used 'Elements' as geometry textbook."
+      },
+      {
+        "icon": "👑",
+        "text": "他对国王说'几何学中没有王者之路'，成为教育史上的名言。",
+        "text_en": "His saying 'no royal road to geometry' to king became famous quote in education history."
+      },
+      {
+        "icon": "❓",
+        "text": "关于欧几里得的生平几乎没有记载，连出生和死亡日期都不确定！",
+        "text_en": "Almost no records of Euclid's life exist, even birth and death dates uncertain!"
+      }
+    ],
+    
+    "principle": {
+      "title": "欧几里得几何核心",
+      "title_en": "Euclidean Geometry Core",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Euclid%27s_postulates.svg",
+      "key_points": [
+        {
+          "icon": "📐",
+          "title": "五大公设",
+          "title_en": "Five Postulates",
+          "text": "从5个不证自明的公理出发：如两点确定一条直线、所有直角相等等",
+          "text_en": "Starting from 5 self-evident axioms: like two points determine line, all right angles equal, etc."
+        },
+        {
+          "icon": "🔺",
+          "title": "演绎推理",
+          "title_en": "Deductive Reasoning",
+          "text": "从公理出发，通过逻辑推导证明所有定理，形成完整体系",
+          "text_en": "From axioms, prove all theorems through logical deduction, forming complete system"
+        },
+        {
+          "icon": "📏",
+          "title": "平行公设",
+          "title_en": "Parallel Postulate",
+          "text": "过直线外一点，有且只有一条直线与已知直线平行",
+          "text_en": "Through point outside line, exactly one line parallel to given line"
+        },
+        {
+          "icon": "✨",
+          "title": "勾股定理",
+          "title_en": "Pythagorean Theorem",
+          "text": "直角三角形中，斜边平方等于两直角边平方和：a²+b²=c²",
+          "text_en": "In right triangle, hypotenuse squared equals sum of other sides squared: a²+b²=c²"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "🏗️",
+        "title": "建筑设计",
+        "title_en": "Architecture",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Parthenon_from_west.jpg",
+        "text": "从古希腊神庙到现代摩天大楼，都基于欧几里得几何原理。",
+        "text_en": "From ancient Greek temples to modern skyscrapers, all based on Euclidean geometry principles."
+      },
+      {
+        "icon": "🗺️",
+        "title": "地图测绘",
+        "title_en": "Cartography",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Equirectangular_projection_SW.jpg",
+        "text": "测量土地、绘制地图使用欧几里得几何的距离和角度概念。",
+        "text_en": "Land surveying and map making use Euclidean geometry's distance and angle concepts."
+      },
+      {
+        "icon": "🎨",
+        "title": "透视绘画",
+        "title_en": "Perspective Drawing",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Leonardo_da_Vinci_-_Adorazione_dei_Magi.jpg",
+        "text": "文艺复兴时期艺术家用几何学创造三维透视效果。",
+        "text_en": "Renaissance artists used geometry to create three-dimensional perspective effects."
+      },
+      {
+        "icon": "🔬",
+        "title": "物理学",
+        "title_en": "Physics",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Optics_diagram.svg",
+        "text": "光学、力学等经典物理学建立在欧几里得空间概念上。",
+        "text_en": "Optics, mechanics and classical physics built on Euclidean space concepts."
+      }
+    ],
+    
+    "experiment": {
+      "title": "经典证明：勾股定理",
+      "title_en": "Classic Proof: Pythagorean Theorem",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Pythagorean.svg",
+      "description": "欧几里得在《几何原本》中给出了勾股定理的严格证明。他构造了一个巧妙的图形：在直角三角形的三条边上分别作正方形。通过面积关系的推导，证明斜边上的正方形面积等于两直角边上正方形面积之和。这个证明展示了几何推理的优雅和力量，成为数学史上最著名的证明之一。",
+      "description_en": "Euclid provided rigorous proof of Pythagorean theorem in 'Elements'. He constructed clever diagram: drawing squares on all three sides of right triangle. Through area relationship derivation, proved square on hypotenuse equals sum of squares on other two sides. This proof demonstrated elegance and power of geometric reasoning, becoming one of most famous proofs in mathematics history.",
+      "why": "通过几何图形的面积关系，可以直观地证明代数等式，这是几何学的魅力所在。",
+      "why_en": "Through geometric figure area relationships, can intuitively prove algebraic equations - this is geometry's charm."
+    },
+    
+    "simple_explanation": {
+      "text": "想象你在玩积木。欧几里得说：'我给你5块最基本的积木(公理)，然后告诉你怎么拼。'从这5块积木开始，他教你怎么一步步拼出所有可能的形状。每一步都有严格的规则，不能乱来。最神奇的是：只用这5块基础积木和拼接规则，就能造出整个几何学的大厦！这就是数学的美妙之处。",
+      "text_en": "Imagine playing with building blocks. Euclid says: 'I give you 5 basic blocks (axioms), then tell you how to assemble.' Starting from these 5 blocks, he teaches you step-by-step to build all possible shapes. Each step has strict rules, no randomness. Most amazing: using just these 5 basic blocks and assembly rules, can construct entire geometry edifice! This is mathematics' beauty.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/69/Euclid%27s_algorithm_Book_VII_Proposition_2.png"
+    },
+    
+    "impact": {
+      "text": "《几何原本》是人类历史上最有影响力的教科书之一！它不仅奠定了几何学基础，更重要的是建立了'公理化演绎体系'——从少数公理出发，用逻辑推导出整个知识体系。这种方法影响了整个科学和哲学，成为理性思维的典范。牛顿的《自然哲学的数学原理》就模仿了欧几里得的体系。",
+      "text_en": "'Elements' one of most influential textbooks in human history! It not only laid geometry foundation, more importantly established 'axiomatic deductive system' - from few axioms, logically deriving entire knowledge system. This method influenced all science and philosophy, becoming paradigm of rational thinking. Newton's 'Principia' imitated Euclidean system.",
+      "stats": [
+        {
+          "number": "2300年",
+          "label": "使用时间",
+          "label_en": "Usage duration"
+        },
+        {
+          "number": "1000+",
+          "label": "印刷版本数",
+          "label_en": "Printed editions"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pythagoras",
+          "contribution": "勾股定理和数学证明方法",
+          "contribution_en": "Pythagorean theorem and mathematical proof methods"
+        },
+        {
+          "id": "plato",
+          "contribution": "理想化的几何形体概念",
+          "contribution_en": "Idealized geometric form concepts"
+        },
+        {
+          "id": "eudoxus",
+          "contribution": "比例理论和穷竭法",
+          "contribution_en": "Proportion theory and method of exhaustion"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "archimedes",
+          "contribution": "应用几何学解决物理问题",
+          "contribution_en": "Applied geometry to solve physics problems"
+        },
+        {
+          "id": "descartes",
+          "contribution": "发明解析几何，代数化几何学",
+          "contribution_en": "Invented analytic geometry, algebraized geometry"
+        },
+        {
+          "id": "newton",
+          "contribution": "《原理》模仿欧几里得公理化体系",
+          "contribution_en": "'Principia' imitated Euclidean axiomatic system"
+        },
+        {
+          "id": "gauss",
+          "contribution": "发展非欧几何，突破平行公设",
+          "contribution_en": "Developed non-Euclidean geometry, breaking parallel postulate"
+        }
+      ],
+      "legacy_text": "欧几里得综合了毕达哥拉斯、柏拉图、欧多克索斯等前人的数学成果，建立了完整的几何学体系。阿基米德在此基础上发展了应用几何学。笛卡尔发明解析几何，将几何与代数结合。牛顿模仿欧几里得的公理化方法写作《原理》。19世纪，高斯等人发现非欧几何，突破了欧几里得的平行公设，开辟了新的数学领域。",
+      "legacy_text_en": "Euclid synthesized mathematical achievements of predecessors like Pythagoras, Plato, Eudoxus, establishing complete geometry system. Archimedes developed applied geometry on this foundation. Descartes invented analytic geometry, combining geometry with algebra. Newton imitated Euclidean axiomatic method writing 'Principia'. In 19th century, Gauss and others discovered non-Euclidean geometry, breaking Euclidean parallel postulate, opening new mathematical fields."
+    },
+    
+    "related_concepts": ["几何学", "公理化体系", "演绎推理", "勾股定理"],
+    "related_concepts_en": ["Geometry", "Axiomatic System", "Deductive Reasoning", "Pythagorean Theorem"],
+    
+    "quiz": {
+      "question": "欧几里得几何的基础是什么？",
+      "question_en": "What is the foundation of Euclidean geometry?",
+      "options": ["实验观察", "5个公理", "国王命令", "神的启示"],
+      "options_en": ["Experimental observation", "5 axioms", "King's command", "Divine revelation"],
+      "answer": 1,
+      "explanation": "欧几里得几何建立在5个公理(公设)的基础上。这些公理是不证自明的基本假设，如'两点确定一条直线'、'所有直角相等'等。从这5个公理出发，通过严格的逻辑推理，可以证明所有几何定理。这种'公理化演绎体系'是数学和科学的典范。",
+      "explanation_en": "Euclidean geometry built on foundation of 5 axioms (postulates). These axioms are self-evident basic assumptions, like 'two points determine a line', 'all right angles equal', etc. From these 5 axioms, through rigorous logical reasoning, can prove all geometric theorems. This 'axiomatic deductive system' is paradigm of mathematics and science."
+    }
+  }

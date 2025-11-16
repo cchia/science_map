@@ -1,0 +1,219 @@
+{
+    "id": "crick",
+    "title": "弗朗西斯·克里克与DNA结构",
+    "title_en": "Francis Crick and DNA Structure",
+    "year": 1953,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥",
+    "city_en": "Cambridge",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": "生物学",
+    "field_en": "Biology",
+    
+    "media": {
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Francis_Crick_crop.jpg",
+      "video": {
+        "url": "https://www.youtube.com/embed/3KhVGYCKJY0",
+        "title": "克里克讲述DNA发现",
+        "title_en": "Crick on DNA Discovery",
+        "duration": "6:40"
+      }
+    },
+    
+    "summary": {
+      "text": "克里克与华生共同发现DNA双螺旋结构！他用物理学思维解开了生命的密码。后来又提出'中心法则'：DNA→RNA→蛋白质，揭示遗传信息流动方向。",
+      "text_en": "Crick and Watson discovered DNA double helix structure! He used physics thinking to unlock life's code. Later proposed 'Central Dogma': DNA→RNA→Protein, revealing genetic information flow direction.",
+      "key_points": [
+        "DNA双螺旋结构的共同发现者",
+        "提出遗传信息的'中心法则'",
+        "破译遗传密码子"
+      ],
+      "key_points_en": [
+        "Co-discoverer of DNA double helix",
+        "Proposed genetic 'Central Dogma'",
+        "Deciphered genetic codons"
+      ]
+    },
+    
+    "story": {
+      "text": "1953年2月28日，37岁的物理学家克里克与年轻的华生在剑桥卡文迪许实验室完成DNA模型。中午，克里克冲进老鹰酒吧大喊：'我们发现了生命的秘密！'那天他们喝了很多啤酒庆祝。克里克的物理学背景帮助他理解X射线衍射数据。",
+      "text_en": "On February 28, 1953, 37-year-old physicist Crick and young Watson completed DNA model at Cambridge Cavendish Lab. At noon, Crick rushed into Eagle Pub shouting: 'We have found the secret of life!' They drank much beer celebrating. Crick's physics background helped him understand X-ray diffraction data.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Crick%2C_Watson%2C_and_Stokes.png"
+    },
+    
+    "fun_facts": [
+      {
+        "icon": "🎓",
+        "text": "克里克原本学物理，二战期间研究地雷，35岁才转行研究生物学！",
+        "text_en": "Crick originally studied physics, researched mines during WWII, switched to biology at 35!"
+      },
+      {
+        "icon": "🍺",
+        "text": "他宣布发现的老鹰酒吧现在有块蓝色牌匾纪念那个历史时刻。",
+        "text_en": "The Eagle Pub where he announced discovery now has blue plaque commemorating that historic moment."
+      },
+      {
+        "icon": "🧠",
+        "text": "晚年他转向研究意识的神经科学基础，试图用科学解释意识之谜。",
+        "text_en": "In later years he turned to neuroscience of consciousness, trying to scientifically explain consciousness mystery."
+      }
+    ],
+    
+    "principle": {
+      "title": "中心法则与遗传密码",
+      "title_en": "Central Dogma and Genetic Code",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/68/Central_Dogma_of_Molecular_Biochemistry_with_Enzymes.jpg",
+      "key_points": [
+        {
+          "icon": "➡️",
+          "title": "中心法则",
+          "title_en": "Central Dogma",
+          "text": "遗传信息流动：DNA→RNA→蛋白质，单向不可逆",
+          "text_en": "Genetic information flow: DNA→RNA→Protein, unidirectional irreversible"
+        },
+        {
+          "icon": "🔤",
+          "title": "遗传密码",
+          "title_en": "Genetic Code",
+          "text": "三个碱基(密码子)编码一个氨基酸，共64种组合",
+          "text_en": "Three bases (codon) encode one amino acid, 64 combinations total"
+        },
+        {
+          "icon": "📝",
+          "title": "转录",
+          "title_en": "Transcription",
+          "text": "DNA信息复制到RNA，像抄写文件",
+          "text_en": "DNA information copied to RNA, like copying documents"
+        },
+        {
+          "icon": "🏭",
+          "title": "翻译",
+          "title_en": "Translation",
+          "text": "RNA指导合成蛋白质，像按图纸生产产品",
+          "text_en": "RNA guides protein synthesis, like producing from blueprints"
+        }
+      ]
+    },
+    
+    "applications": [
+      {
+        "icon": "💉",
+        "title": "mRNA疫苗",
+        "title_en": "mRNA Vaccines",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/MRNA-vaccine.svg",
+        "text": "新冠mRNA疫苗直接利用中心法则，让细胞自己生产抗原。",
+        "text_en": "COVID mRNA vaccines directly use Central Dogma, making cells produce antigens."
+      },
+      {
+        "icon": "🧬",
+        "title": "基因表达调控",
+        "title_en": "Gene Expression Regulation",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Gene_expression.png",
+        "text": "理解基因如何开关，治疗癌症等疾病。",
+        "text_en": "Understanding gene on/off switches, treating diseases like cancer."
+      },
+      {
+        "icon": "🔬",
+        "title": "合成生物学",
+        "title_en": "Synthetic Biology",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Synthetic_biology_-_design_of_a_genetic_circuit.png",
+        "text": "人工设计DNA序列，创造新的生物功能。",
+        "text_en": "Artificially design DNA sequences, create new biological functions."
+      },
+      {
+        "icon": "🌱",
+        "title": "蛋白质工程",
+        "title_en": "Protein Engineering",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Protein_engineering.svg",
+        "text": "修改基因序列，生产工业酶、药物蛋白。",
+        "text_en": "Modify gene sequences, produce industrial enzymes, therapeutic proteins."
+      }
+    ],
+    
+    "experiment": {
+      "title": "密码子破译实验",
+      "title_en": "Codon Deciphering Experiment",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Genetic_code.svg",
+      "description": "克里克和同事用人工合成的RNA序列做实验。他们发现：三个碱基编码一个氨基酸。比如UUU编码苯丙氨酸，GGG编码甘氨酸。通过系统实验，破译了全部64个密码子对应的氨基酸。",
+      "description_en": "Crick and colleagues experimented with synthetic RNA sequences. They found: three bases encode one amino acid. For example, UUU encodes phenylalanine, GGG encodes glycine. Through systematic experiments, deciphered all 64 codons' corresponding amino acids.",
+      "why": "三联体密码刚好能编码20种氨基酸(4³=64>20)，而二联体不够(4²=16<20)。",
+      "why_en": "Triplet code just enough to encode 20 amino acids (4³=64>20), while doublet insufficient (4²=16<20)."
+    },
+    
+    "simple_explanation": {
+      "text": "DNA就像一本菜谱，RNA是抄写的副本，蛋白质是做出来的菜。DNA上每三个字母(碱基)代表一种食材(氨基酸)。细胞按照这个菜谱，一步步做出各种蛋白质'菜肴'，维持生命活动。",
+      "text_en": "DNA is like a recipe book, RNA is the copied version, protein is the cooked dish. Every three letters (bases) on DNA represent one ingredient (amino acid). Cells follow this recipe, step by step making various protein 'dishes', maintaining life activities.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Genetic_code_diagram.png"
+    },
+    
+    "impact": {
+      "text": "克里克不仅发现了DNA结构，还提出中心法则和破译遗传密码，奠定了分子生物学的理论基础。他的工作让人类能够读懂、编辑生命的语言，开启了基因工程和合成生物学时代。",
+      "text_en": "Crick not only discovered DNA structure, but proposed Central Dogma and deciphered genetic code, laying molecular biology's theoretical foundation. His work enabled humans to read and edit life's language, opening genetic engineering and synthetic biology era.",
+      "stats": [
+        {
+          "number": "1962",
+          "label": "诺贝尔奖",
+          "label_en": "Nobel Prize"
+        },
+        {
+          "number": "64",
+          "label": "遗传密码子总数",
+          "label_en": "Total genetic codons"
+        }
+      ]
+    },
+    
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "schrodinger",
+          "contribution": "《生命是什么》启发用物理学研究生命",
+          "contribution_en": "'What is Life?' inspired studying life with physics"
+        },
+        {
+          "id": "pauling",
+          "contribution": "化学键理论和蛋白质结构研究",
+          "contribution_en": "Chemical bond theory and protein structure research"
+        },
+        {
+          "id": "franklin",
+          "contribution": "X射线衍射数据提供关键证据",
+          "contribution_en": "X-ray diffraction data provided key evidence"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "brenner",
+          "contribution": "发现mRNA，验证中心法则",
+          "contribution_en": "Discovered mRNA, verified Central Dogma"
+        },
+        {
+          "id": "nirenberg",
+          "contribution": "完成遗传密码表的破译",
+          "contribution_en": "Completed genetic code table deciphering"
+        },
+        {
+          "id": "crispr",
+          "contribution": "基因编辑技术应用中心法则",
+          "contribution_en": "Gene editing technology applies Central Dogma"
+        }
+      ],
+      "legacy_text": "克里克受薛定谔《生命是什么》启发，用物理学方法研究生命。他与华生发现DNA结构后，继续研究遗传信息如何表达，提出中心法则。布伦纳发现mRNA，尼伦伯格破译密码表，都是在克里克理论框架下完成的。",
+      "legacy_text_en": "Crick inspired by Schrödinger's 'What is Life?', studied life with physics methods. After discovering DNA structure with Watson, he continued researching genetic information expression, proposing Central Dogma. Brenner's mRNA discovery and Nirenberg's code table deciphering were completed within Crick's theoretical framework."
+    },
+    
+    "related_concepts": ["DNA", "中心法则", "遗传密码", "转录翻译"],
+    "related_concepts_en": ["DNA", "Central Dogma", "Genetic Code", "Transcription Translation"],
+    
+    "quiz": {
+      "question": "克里克提出的中心法则描述的是什么？",
+      "question_en": "What does Crick's Central Dogma describe?",
+      "options": ["能量流动方向", "遗传信息流动方向", "物质循环方向", "进化发展方向"],
+      "options_en": ["Energy flow direction", "Genetic information flow direction", "Material cycle direction", "Evolution direction"],
+      "answer": 1,
+      "explanation": "中心法则描述遗传信息的流动方向：DNA→RNA→蛋白质。这是分子生物学的核心原理。",
+      "explanation_en": "Central Dogma describes genetic information flow direction: DNA→RNA→Protein. This is molecular biology's core principle."
+    }
+  }

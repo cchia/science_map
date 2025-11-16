@@ -1,0 +1,142 @@
+{
+  "id": "ohm_law_1827",
+  "personId": "georg_ohm",
+  "title": "发表“欧姆定律” (V = IR)",
+  "title_en": "Publishes 'Ohm's Law' (V = IR)",
+  "year": 1827,
+  "lat": 52.5200,
+  "lng": 13.4050,
+  "city": "柏林 (发表于)",
+  "city_en": "Berlin (Published in)",
+  "country": "普鲁士 (今德国)",
+  "country_en": "Prussia (Modern Germany)",
+  "field": ["物理学", "工程学"],
+  "field_en": ["Physics", "Engineering"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ohm_law_mnemonic_principle.svg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=uZ-m91IEkjQ",
+      "title": "欧姆定律是什么？",
+      "title_en": "What is Ohm's Law?",
+      "duration": "4:42"
+    }
+  },
+  
+  "summary": {
+    "text": "德国物理学家格奥尔·欧姆（Georg Ohm）发表了他的著作《伽伐尼电路的数学研究》。通过一系列艰苦的实验，他发现并用数学公式阐明了“电压”、“电流”和“电阻”之间的基本关系。他证明了，在电路中，通过一个导体的“电流”(I) 与施加在它两端的“电压”(V) 成正比，与导体的“电阻”(R) 成反比。这个定律 (V = IR) 是所有“电路分析”的出发点。",
+    "text_en": "German physicist Georg Ohm published his book 'The Galvanic Circuit Investigated Mathematically'. Through a series of painstaking experiments, he discovered and formulated the fundamental relationship between Voltage, Current, and Resistance. He proved that the 'current' (I) flowing through a conductor is directly proportional to the 'voltage' (V) across it and inversely proportional to its 'resistance' (R). This law, (V = IR), is the starting point for all electrical circuit analysis.",
+    "key_points": [
+      "欧姆定律 (Ohm's Law): V = IR",
+      "定义了“电压”(V)、“电流”(I) 和“电阻”(R) 的关系",
+      "奠定了“电路理论”(Circuit Theory) 的基础",
+      "电阻 (R) 的单位“欧姆”(Ω) 以他命名"
+    ],
+    "key_points_en": [
+      "Ohm's Law: V = IR",
+      "Defined the relationship between Voltage (V), Current (I), and Resistance (R)",
+      "Founded the field of 'Circuit Theory'",
+      "The unit of Resistance (R), the 'Ohm' (Ω), is named for him"
+    ]
+  },
+
+  "story": {
+    "text": "欧姆的实验在当时是极其困难的。伏打电堆（`volta_battery_1800`）的电压会随着使用而迅速衰减，导致测量数据极其不稳定。欧姆转而使用“热电偶”（thermoelectric couple）来产生一个微弱但*极其稳定*的电压源。然后，他用不同长度、不同材料的金属丝连接电路，并测量通过它们的电流（用一个简易的电流计测量磁偏转）。通过系统性地改变金属丝的长度，他第一个用数学证明了“电阻”与“导线长度”成正比，并最终推导出了 V = IR 这个简洁的“大一统”公式。",
+    "text_en": "Ohm's experiments were incredibly difficult. The Voltaic Pile (`volta_battery_1800`) was an unstable power source, its voltage dropping rapidly. Ohm switched to using a 'thermoelectric couple', which produced a tiny but *extremely stable* voltage. He then connected wires of different lengths and materials to his circuit and measured the resulting current (using a galvanometer). By systematically changing the *length* of the wire, he was the first to prove that 'resistance' was proportional to 'length' and finally derived the single, elegant formula: V = IR."    
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🤷",
+      "text": "欧姆的著作最初在德国遭到了猛烈的抨击和嘲笑。当时的德国物理学界深受康德哲学的影响，认为物理学应该基于纯粹的“哲学演绎”，而欧姆这种基于“实验”和“经验拟合”的“泥腿子”方法被斥为异端。他因此丢了工作，并陷入了长达十年的贫困和默默无闻。",
+      "text_en": "Ohm's work was initially met with ridicule in Germany. The German physics establishment was dominated by Kantian philosophy, which believed physics should be derived from pure 'philosophical deduction'. Ohm's 'empirical' (experimental) approach was dismissed, costing him his job and sending him into obscurity for a decade."
+    },
+    {
+      "icon": "🏆",
+      "text": "他的工作直到1841年才在英国（通过法拉第等人）得到认可，并被授予“科普利奖章”(Copley Medal)，这是当时科学界的最高荣誉。",
+      "text_en": "His work was finally recognized in Britain (thanks to Faraday and others) in 1841, when he was awarded the 'Copley Medal', the highest scientific prize of its day."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象一下，你试图用一根“水管”（电阻 R）来输水。\n* **电压 (V)** 就是你打开水龙头时的“水压”。\n* **电流 (I)** 就是流过水管的“水流速度”。\n欧姆定律就是这三者间的关系：\n1. **V = I × R**： 水压 (V) 越高，水流 (I) 就越快。\n2. **I = V / R**： 水管越“细”（电阻 R 越大），水流 (I) 就越慢。\n欧姆是第一个为“电”写下这个简单、基本规则的人。",
+    "text_en": "Imagine water flowing through a garden hose (the Resistance, R).\n* **Voltage (V)** is the 'water pressure' from the tap.\n* **Current (I)** is the 'flow rate' of the water through the hose.\nOhm's Law is the relationship between them:\n1. **V = I × R**: The higher the *pressure* (V), the faster the *flow* (I).\n2. **I = V / R**: The *narrower* the hose (higher Resistance, R), the *slower* the *flow* (I).\nOhm was the first person to write down this simple, fundamental rule for electricity.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/51/Internal_resistance_model.svg"
+  },
+
+  "applications": [
+      {
+        "icon": "💡",
+        "title": "电气工程 (Electrical Engineering)",
+        "title_en": "Electrical Engineering",
+        "text": "欧姆定律是所有“电气工程学”的基础。没有它，就无法设计任何电路，无论是简单的灯泡还是复杂的计算机芯片。",
+        "text_en": "Ohm's Law is the *foundation* of all electrical engineering. No circuit, from a simple lightbulb to a complex computer chip, can be designed without it."
+      },
+      {
+        "icon": "🔧",
+        "title": "日常电子产品",
+        "title_en": "Everyday Electronics",
+        "text": "你手机充电器上的“电阻器”(Resistor) 就是用来精确控制电压和电流，以防止电池爆炸的，其设计完全依赖欧姆定律。",
+        "text_en": "The 'resistors' in your phone charger are designed *using* Ohm's Law to precisely control the voltage and current to prevent your battery from exploding."
+      }
+    ],
+
+  "impact": {
+    "text": "欧姆定律是“电学”的“牛顿定律”。它将“电”的研究从一系列奇怪的“定性”现象（如摩擦起电、青蛙腿抽搐），转变为一门精确的、可预测的“定量”科学。它为后来的基尔霍夫（`kirchhoff_circuit_laws_1845`）和麦克斯韦（`maxwell_equations_1861`）建立更复杂的电路和电磁理论提供了最基本的“数学积木”。",
+    "text_en": "Ohm's Law is the 'Newton's Law' for electricity. It transformed the study of 'electricity' from a collection of strange, *qualitative* phenomena (static cling, twitching frog legs) into a precise, predictable, *quantitative* science. It provided the fundamental 'mathematical building block' that Kirchhoff (`kirchhoff_circuit_laws_1845`) and Maxwell (`maxwell_equations_1861`) needed to build their more complex theories of circuits and electromagnetism.",
+    "stats": [
+        {
+          "number": "1",
+          "label": "个定律 (V=IR)",
+          "label_en": "Law (V=IR)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "volta_battery_1800",
+        "contribution": "伏打电堆（提供了第一个“持续电流”源，使欧姆的测量成为可能）",
+        "contribution_en": "Volta's Battery (provided the first 'continuous current' source, making Ohm's measurements possible)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "kirchhoff_circuit_laws_1845",
+        "contribution": "基尔霍夫（其“电路定律”是将欧姆定律推广到了复杂的“网络”上）",
+        "contribution_en": "Kirchhoff (his 'Circuit Laws' are the generalization of Ohm's Law to complex 'networks')"
+      },
+      {
+        "id": "maxwell_equations_1861",
+        "contribution": "麦克斯韦（其电磁理论需要欧姆定律来定义“电导率”）",
+        "contribution_en": "Maxwell (his theory of electromagnetism relies on Ohm's Law to define 'conductivity')"
+      }
+    ],
+    "legacy_text": "欧姆定律是电学的“语法”，它将电压、电流和电阻这三个基本“单词”组合成了一个有意义的句子。",
+    "legacy_text_en": "Ohm's Law is the 'grammar' of electricity, linking the three basic 'words'—Voltage, Current, and Resistance—into one meaningful sentence."
+  },
+
+  "related_concepts": ["V=IR", "电压 (Voltage)", "电流 (Current)", "电阻 (Resistance)", "欧姆 (Ohm, Ω)", "电路理论 (Circuit Theory)", "基尔霍夫定律 (Kirchhoff's Laws)", "伏打电堆 (Voltaic Pile)"],
+  "related_concepts_en": ["V=IR", "Voltage", "Current", "Resistance", "Ohm (Ω)", "Circuit Theory", "Kirchhoff's Laws", "Voltaic Pile"],
+
+  "quiz": {
+    "question": "欧姆定律 (V=IR) 描述了哪三个物理量之间的关系？",
+    "question_en": "Ohm's Law (V=IR) describes the relationship between which three quantities?",
+    "options": [
+      "电压 (Voltage), 电流 (Current), 和 电阻 (Resistance)",
+      "力 (Force), 质量 (Mass), 和 加速度 (Acceleration)",
+      "压强 (Pressure), 体积 (Volume), 和 温度 (Temperature)",
+      "能量 (Energy), 质量 (Mass), 和 光速 (Speed of Light)"
+    ],
+    "options_en": [
+      "Voltage, Current, and Resistance",
+      "Force, Mass, and Acceleration",
+      "Pressure, Volume, and Temperature",
+      "Energy, Mass, and Speed of Light"
+    ],
+    "answer": 0,
+    "explanation": "欧姆定律是电路的基本定律，它指出电压(V)等于电流(I)乘以电阻(R)。",
+    "explanation_en": "Ohm's Law is the fundamental law of electrical circuits, stating that Voltage (V) is equal to Current (I) multiplied by Resistance (R)."
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "柏拉图",
+    "name_en": "Plato",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png",
+    "bio_short": "古希腊哲学家，雅典学院的创始人。他是苏格拉底的学生，亚里士多德的老师。他以“理念论”和“洞穴寓言”而闻名，被认为是西方哲学传统的奠基人之一。",
+    "bio_short_en": "An ancient Greek philosopher and founder of the Academy in Athens. He was the student of Socrates and the teacher of Aristotle. Best known for his Theory of Forms and Allegory of the Cave, he is a foundational figure of the Western philosophical tradition.",
+    "events": [
+      "plato_forms_BC380"
+    ]
+  }

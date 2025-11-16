@@ -1,0 +1,166 @@
+{
+    "id": "torricelli_barometer_1643",
+    "personId": "evangelista_torricelli",
+    "title": "发明水银气压计 (托里拆利实验)",
+    "title_en": "Invents the Mercury Barometer (Torricellian Experiment)",
+    "year": 1643,
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "city": "佛罗伦萨",
+    "city_en": "Florence",
+    "country": "托斯卡纳大公国 (今意大利)",
+    "country_en": "Grand Duchy of Tuscany (Modern Italy)",
+    "field": [
+        "物理学"
+    ],
+    "field_en": [
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/83/MercuryBarometer.svg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=EkDhlzA-lwI",
+            "title": "气压计的历史",
+            "title_en": "The history of the barometer (and how it works) ",
+            "duration": "4:45"
+        }
+    },
+    "summary": {
+        "text": "托里拆利是伽利略晚年的学生和助手。在1643年，他进行了一项著名的实验：将一根一端封闭、装满水银（汞）的长玻璃管倒插入一个盛有水银的盆中。他观察到管中的水银柱下降到约76厘米的高度，而玻璃管的顶端则留出了一段空间。他正确地推断出，是管外的“大气压强”（空气的重量）支撑住了76厘米的水银柱，而管顶的空间是“真空”(Vacuum)。",
+        "text_en": "Torricelli, a student and assistant to the aged Galileo, conducted a famous experiment in 1643. He filled a long glass tube (sealed at one end) with mercury and inverted it into a dish of mercury. He observed the column fell to a height of ~76 cm, leaving an empty space at the top of the tube. He correctly deduced that the 'atmospheric pressure' (the weight of the air) on the outside dish was supporting the 76 cm column, and that the space at the top was a 'vacuum'.",
+        "key_points": [
+            "发明了水银气压计 (Barometer)",
+            "首次在实验室中制造出持续的“真空”",
+            "证明了“大气压强” (Atmospheric Pressure) 的存在",
+            "推翻了亚里士多德“自然厌恶真空”(Horror vacui) 的理论",
+            "水银柱高度约为760毫米 (mmHg)"
+        ],
+        "key_points_en": [
+            "Invented the mercury barometer",
+            "Created the first sustained vacuum in a laboratory",
+            "Proved the existence of 'atmospheric pressure'",
+            "Refuted Aristotle's theory of 'Horror vacui' (Nature abhors a vacuum)",
+            "Column height was ~760 mmHg"
+        ]
+    },
+    "story": {
+        "text": "这个实验的灵感来自于一个现实问题：佛罗伦萨的矿工发现，他们的抽水泵最多只能把水抽到10米高。伽利略曾思考过这个问题，但未解。托里拆利猜想，这是因为“大气压强”只能支撑起10米高的水柱。由于水银比水重约13.6倍，他推断大气压应该只能支撑起约 (10 / 13.6) ≈ 0.76米（76厘米）的水银柱。他的实验完美地证实了这一点。管顶留下的空间，即“托里拆利真空”，无可辩驳地证明了亚里士多德“自然厌恶真空”的信条是错误的。",
+        "text_en": "The experiment was inspired by a real-world problem: miners in Florence found their suction pumps could not lift water more than 10 meters (34 feet). Galileo had pondered this, but Torricelli hypothesized it was because the 'weight of the air' could only support a 10m column of water. Since mercury is ~13.6 times denser than water, he reasoned the air should only be able to support a column of mercury ~76 cm (10m / 13.6) high. His experiment proved this perfectly. The space left at the top, the 'Torricellian vacuum', was definitive proof that Aristotle's dogma 'nature abhors a vacuum' was wrong."
+    },
+    "fun_facts": [
+        {
+            "icon": "🗻",
+            "text": "托里拆利预测，如果在山顶做这个实验，水银柱会更低，因为山顶的“空气海洋”更浅。这个实验后来由帕斯卡（Pascal）在多姆山（Puy de Dôme）上证实。",
+            "text_en": "Torricelli predicted that if his experiment were done on a mountaintop (where the 'sea of air' is shallower), the mercury column would be lower. This was later famously confirmed by Pascal at the Puy de Dôme."
+        },
+        {
+            "icon": "Unit",
+            "text": "为了纪念他，压强的一个单位被命名为“托”(Torr)。1 Torr 等于 1 毫米水银柱 (mmHg) 的压强。",
+            "text_en": "In his honor, a unit of pressure is named the 'Torr'. 1 Torr is equal to the pressure of 1 millimeter of mercury (mmHg)."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一下，我们生活在一个几公里深的“空气海洋”的底部。我们感觉不到，但这些空气是有“重量”的，它在一直“往下压”我们。托里拆利是第一个“称”出这个重量的人。他发现，空气的重量（大气压强）刚好可以托起一根76厘米高的水银柱。管子里水银柱上方的空白空间，就是“真空”——亚里士多德认为不可能存在的东西。",
+        "text_en": "Imagine we are living at the bottom of a 'sea of air' that is miles deep. We don't feel it, but all that air has *weight* and is pressing down on us. Torricelli was the first person to 'weigh' this air. He found that the weight of the air (atmospheric pressure) is just strong enough to hold up a column of mercury 76 cm (30 in) high. The empty space left at the top of the tube was a *vacuum*—the very thing Aristotle said was impossible.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Baro_1.png"
+    },
+    "applications": [
+        {
+            "icon": "☁️",
+            "title": "气象学 (天气预报)",
+            "title_en": "Meteorology (Weather Forecasting)",
+            "text": "气压计（Barometer）的诞生。托里拆利注意到水银柱每天都会轻微波动，他正确地将其归因于天气（大气压强）的变化。这是天气预报的开端。",
+            "text_en": "This was the invention of the 'barometer'. Torricelli noticed the column's height changed slightly each day, which he correctly attributed to changes in the weather (atmospheric pressure). This was the beginning of weather forecasting."
+        },
+        {
+            "icon": "✈️",
+            "title": "高度计 (Altimeter)",
+            "title_en": "Altimeter",
+            "text": "由于压强随海拔高度而变化，气压计成为了飞机、登山者和徒步旅行者用于测量海拔高度的“高度计”的基础。",
+            "text_en": "Since pressure changes with altitude, the barometer became the basis for the 'altimeter', the tool used by airplanes, mountaineers, and hikers to measure their elevation."
+        },
+        {
+            "icon": "💨",
+            "title": "真空泵",
+            "title_en": "Vacuum Pumps",
+            "text": "他证明了真空是可以在实验室中被创造和维持的，这直接导致了真空泵的发明以及对气体定律的研究。",
+            "text_en": "His proof that a vacuum could be created and sustained in a lab led directly to the invention of vacuum pumps and the study of gas laws."
+        }
+    ],
+    "impact": {
+        "text": "托里拆利的实验是17世纪科学革命的决定性时刻之一。它一举推翻了亚里士多德统治2000年的“自然厌恶真空”的教条，并证明了我们周围看不见的“空气”是一种具有重量和压强的物理实体。这一发现为帕斯卡（Pascal）、波义耳（Boyle）和牛顿（Newton）研究流体、气体和大气奠定了基础。",
+        "text_en": "Torricelli's experiment was a defining moment of the 17th-century Scientific Revolution. In one stroke, it shattered the 2,000-year-old Aristotelian dogma that 'nature abhors a vacuum' and proved that the invisible 'air' around us is a physical substance with weight and pressure. This discovery laid the foundation for Pascal, Boyle, and Newton in their study of fluids, gases, and the atmosphere.",
+        "stats": [
+            {
+                "number": "760",
+                "label": "毫米汞柱 (mmHg)",
+                "label_en": "mmHg (Atmospheric Pressure)"
+            },
+            {
+                "number": "1",
+                "label": "个持久真空",
+                "label_en": "Sustained Vacuum"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "galileo_motion_1638",
+                "contribution": "伽利略（其晚年对“真空”问题的思考和对矿工水泵问题的困惑，直接启发了托里拆利）",
+                "contribution_en": "Galileo (his late-life thoughts on the 'vacuum' and the miners' pump problem directly inspired Torricelli)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "pascal_pressure_1653",
+                "contribution": "帕斯卡（其流体静力学和“多姆山”实验，完全是建立在托里拆利的气压计和大气压强概念之上的）",
+                "contribution_en": "Blaise Pascal (his work on hydrostatics and the Puy de Dôme experiment were built directly on Torricelli's barometer and concept of pressure)"
+            },
+            {
+                "id": "boyle_law_1662",
+                "contribution": "罗伯特·波义耳（其关于气体压强和体积关系（波义耳定律）的实验，依赖于托里拆利对大气压强的理解）",
+                "contribution_en": "Robert Boyle (his experiments on the relationship between gas pressure and volume (Boyle's Law) relied on Torricelli's understanding of atmospheric pressure)"
+            }
+        ],
+        "legacy_text": "托里拆利“称”出了空气的重量，并向世界展示了“虚无”（真空）是真实存在的。",
+        "legacy_text_en": "Torricelli 'weighed' the air and showed the world that 'nothing' (a vacuum) was something real."
+    },
+    "related_concepts": [
+        "大气压强 (Atmospheric Pressure)",
+        "气压计 (Barometer)",
+        "真空 (Vacuum)",
+        "托 (Torr)",
+        "毫米汞柱 (mmHg)",
+        "亚里士多德 (Aristotle)",
+        "帕斯卡 (Pascal)"
+    ],
+    "related_concepts_en": [
+        "Atmospheric Pressure",
+        "Barometer",
+        "Vacuum",
+        "Torr",
+        "mmHg",
+        "Aristotle",
+        "Pascal"
+    ],
+    "quiz": {
+        "question": "在托里拆利的气压计实验中，是什么力量支撑住了76厘米高的水银柱？",
+        "question_en": "In Torricelli's barometer experiment, what force held up the 76cm column of mercury?",
+        "options": [
+            "“自然厌恶真空”的力量",
+            "玻璃管顶部的吸力",
+            "管外空气的重量（大气压强）",
+            "月球的引力"
+        ],
+        "options_en": [
+            "The force of 'nature abhorring a vacuum'",
+            "Suction from the top of the tube",
+            "The weight of the air outside the tube (atmospheric pressure)",
+            "The gravitational pull of the Moon"
+        ],
+        "answer": 2,
+        "explanation": "托里拆利的伟大见解是：水银柱没有掉下来，不是因为管顶的真空在“吸”它，而是因为管外整个“空气海洋”的重量在“压”着盆里的水银，从而把它“托”住了。",
+        "explanation_en": "Torricelli's great insight was that the column stayed up *not* because the vacuum was 'sucking' it, but because the weight of the entire 'sea of air' was *pushing* down on the mercury in the open dish, holding the column up."
+    }
+}

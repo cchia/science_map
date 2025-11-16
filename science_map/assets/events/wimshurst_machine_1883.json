@@ -1,0 +1,162 @@
+{
+    "id": "wimshurst_machine_1883",
+    "personId": "james_wimshurst",
+    "title": "发明维姆胡斯特起电机",
+    "title_en": "Invents the Wimshurst Machine",
+    "year": 1883,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Wimshurst.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=nA4aCd5qFWs",
+        "title": "维姆胡斯特起电机的工作原理",
+        "title_en": "How the Wimshurst Machine Works",
+        "duration": "10:06"
+      }
+    },
+    
+    "summary": {
+      "text": "英国发明家詹姆斯·维姆胡斯特（James Wimshurst）在1883年完善并推广了“维姆胡斯特起电机”。这是一种高效的“静电感应”(Electrostatic Induction) 发电机，它有两片贴有金属箔片的、反向旋转的玻璃圆盘。与格里克（`guericke_static_generator_1663`）依赖“摩擦”的低效机器不同，它利用“感应”原理来“放大”微小的初始电荷，从而在两个莱顿瓶（`leyden_jar_1745`）电容器上积累起极高的“电压”，并产生长而猛烈的电火花。",
+      "text_en": "In 1883, English inventor James Wimshurst perfected the 'Wimshurst Machine'. It is an 'electrostatic induction' generator with two counter-rotating glass discs with metal sectors. Unlike Guericke's (`guericke_static_generator_1663`) inefficient *friction* machine, the Wimshurst uses *induction* to 'amplify' a tiny initial charge, building up an extremely high 'voltage' in two Leyden jar (`leyden_jar_1745`) capacitors, which it discharges as a long, powerful spark.",
+      "key_points": [
+        "基于“静电感应”(Electrostatic Induction) 原理",
+        "两片“反向旋转”的圆盘",
+        "能产生极高的“电压”(Voltage) 和长电火花",
+        "19世纪末实验室的“标配”高压电源",
+        "为X射线和无线电波实验提供了动力"
+      ],
+      "key_points_en": [
+        "Based on 'Electrostatic Induction' (not friction)",
+        "Two 'counter-rotating' discs",
+        "Generates very high 'voltage' and long sparks",
+        "The standard high-voltage source for late 19th-c. labs",
+        "Powered X-ray and radio wave experiments"
+      ]
+    },
+  
+    "story": {
+      "text": "维姆胡斯特起电机是19世纪静电发生器的巅峰之作。它的工作原理是“正反馈”：假设A盘上的一个金属箔片（Sector）带有一点微弱的“正电荷”。当它旋转经过B盘的电刷时，它会“感应”出“负电荷”；B盘的这个“负电荷”扇区接着旋转，又会“感应”出A盘的“正电荷”。这个“电荷回声”在两盘之间来回放大，电荷被中和梳（neutralizing combs）分离并被收集梳（collecting combs）收集，储存在两个莱顿瓶（`leyden_jar_1745`）中。当电压高到足以击穿空气时，就会在两个放电球之间产生一道明亮的“闪电”。",
+      "text_en": "The Wimshurst machine was the pinnacle of 19th-c. electrostatic generators. It works by 'positive feedback'. A tiny 'positive' charge on one sector of Disc A, as it spins past Disc B's brushes, 'induces' a 'negative' charge. This 'negative' sector on Disc B then spins around and 'induces' *more* 'positive' charge on Disc A. This 'charge-echo' amplifies, is separated by neutralizing combs, and is siphoned off by collecting combs into two Leyden jars (`leyden_jar_1745`). When the voltage is high enough to break down the air, a massive spark jumps between the terminals.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/35/Wimshurst.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💧",
+        "text": "与格里克的硫磺球（`guericke_static_generator_1663`）等摩擦起电机不同，维姆胡斯特起电机（基于感应）在潮湿的天气里也能可靠地工作。",
+        "text_en": "Unlike friction generators like Guericke's sulfur ball (`guericke_static_generator_1663`), the Wimshurst machine (based on induction) works reliably even in damp weather."
+      },
+      {
+        "icon": "✨",
+        "text": "这台机器是“自启动”的。它不需要外部电源，它能“放大”空气中微小的、随机的静电荷。",
+        "text_en": "The machine is 'self-starting'. It needs no external power source; it can amplify the tiny, random ambient static charges in the air."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "维姆胡斯特起电机是19世纪的“闪电制造机”。它有两张“唱片”（圆盘）面对面地反向旋转。它们利用一种叫做“静电感应”的技巧，就像“电荷的回声”，把空气中一个微小的静电荷，在几秒钟内“放大”成一个巨大的电荷。这些电荷被储存在两个“莱顿瓶”（电池）里，直到存满，然后“砰”的一声，在两个小球之间跳出一道几英寸长的“人造闪电”。",
+      "text_en": "The Wimshurst machine is a 19th-century 'lightning generator'. It has two 'records' (discs) spinning in opposite directions. They use a trick called 'induction'—like a 'charge echo'—to 'amplify' one tiny bit of static electricity in the air into a *massive* charge in just a few seconds. This charge is stored in two 'Leyden jars' (batteries) until they are full, and then—*ZAP!*—an artificial lightning bolt jumps inches between the two spark knobs.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/51/Side_view_of_homemade_12%22_Quadruple_Bonetti_Electrostatic_Generator_%28Sector-less_Wimshurst_Machine%29.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📡",
+          "title": "无线电波实验 (Radio Waves)",
+          "title_en": "Radio Wave Experiments",
+          "text": "海因里希·赫兹（`hertz_waves_1887`）在1880年代进行其开创性的“火花隙”实验时，就是使用这种起电机（或一个感应线圈）来产生“电火花”，从而“广播”出世界上第一束无线电波。",
+          "text_en": "This machine (or an induction coil) was the 'power supply' used by Heinrich Hertz (`hertz_waves_1887`) for his 'spark-gap transmitter'. The spark it created *broadcast* the world's first radio waves."
+        },
+        {
+          "icon": "⚕️",
+          "title": "X射线 (X-Rays)",
+          "title_en": "X-Rays",
+          "text": "威廉·伦琴（`rontgen_xrays_1895`）在1895年发现X射线时，他所使用的“阴极射线管”所需的高电压，就是由这种起电机提供的。",
+          "text_en": "When Wilhelm Röntgen discovered X-rays in 1895, the high voltage needed to power his 'cathode ray tube' was supplied by a Wimshurst machine."
+        },
+        {
+          "icon": "🏫",
+          "title": "物理学教学",
+          "title_en": "Physics Education",
+          "text": "在一个多世纪里，它一直是全世界物理课堂上用于演示所有静电现象（吸引、排斥、火花、电晕）的标准设备。",
+          "text_en": "For over a century, it was the standard classroom device for demonstrating all electrostatic phenomena (attraction, repulsion, sparks, corona discharge)."
+        }
+      ],
+  
+    "impact": {
+      "text": "维姆胡斯特起电机是19世纪末物理学革命的“关键赋能技术”。它为实验室提供了一个可靠、廉价、易于操作的“高压电源”。没有这个电源，赫兹就无法发现无线电波，伦琴也无法发现X射线。它为20世纪的“隐形射线”物理学（无线电、X射线、电子）提供了动力。",
+      "text_en": "The Wimshurst machine was a 'key enabling technology' for the physics revolution of the late 19th century. It gave labs a *reliable, cheap, and easy* source of *high voltage*. Without this power supply, Hertz could not have discovered radio waves, and Röntgen could not have discovered X-rays. It provided the 'power' for the 20th century's new physics of invisible rays.",
+      "stats": [
+          {
+            "number": "1883",
+            "label": "年 (发明年份)",
+            "label_en": "Year Invented"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "guericke_static_generator_1663",
+          "contribution": "奥托·冯·格里克（其“摩擦”起电机是静电发生器的鼻祖）",
+          "contribution_en": "Otto von Guericke (his 'friction' generator was the first in the lineage)"
+        },
+        {
+          "id": "leyden_jar_1745",
+          "contribution": "莱顿瓶（被用作该机器的“电容器”来储存和放大电荷）",
+          "contribution_en": "The Leyden Jar (which is integrated into the machine as its 'capacitor' to store the charge)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "hertz_waves_1887",
+          "contribution": "海因里希·赫兹（作为其“火花隙发射器”的电源）",
+          "contribution_en": "Heinrich Hertz (as the power source for his 'spark-gap transmitter')"
+        },
+        {
+          "id": "rontgen_xrays_1895",
+          "contribution": "威廉·伦琴（作为其“阴极射线管”的高压电源）",
+          "contribution_en": "Wilhelm Röntgen (as the high-voltage power source for his 'cathode ray tube')"
+        },
+        {
+          "id": "thomson_electron_1897",
+          "contribution": "J.J. 汤姆孙（其阴极射线管实验也依赖于此类高压电源）",
+          "contribution_en": "J.J. Thomson (his cathode ray tube experiments also relied on such high-voltage sources)"
+        }
+      ],
+      "legacy_text": "维姆胡斯特起电机将“静电感应”原理，从一个理论转变为一台为20世纪物理学革命提供动力的可靠机器。",
+      "legacy_text_en": "The Wimshurst machine turned the principle of 'electrostatic induction' into a reliable machine that powered the physics revolution of the 20th century."
+    },
+  
+    "related_concepts": ["静电感应 (Electrostatic Induction)", "静电起电机 (Electrostatic Generator)", "高电压 (High Voltage)", "火花隙 (Spark Gap)", "莱顿瓶 (Leyden Jar)", "赫兹 (Hertz)", "伦琴 (Röntgen)", "X射线 (X-Rays)"],
+    "related_concepts_en": ["Electrostatic Induction", "Electrostatic Generator", "High Voltage", "Spark Gap", "Leyden Jar", "Hertz", "Röntgen", "X-Rays"],
+  
+    "quiz": {
+      "question": "维姆胡斯特起电机（1883）与奥托·冯·格里克的起电机（1663）最关键的区别是什么？",
+      "question_en": "What was the key difference between the Wimshurst machine (1883) and Guericke's generator (1663)?",
+      "options": [
+        "维姆胡斯特的机器使用“静电感应”，而格里克的机器使用“摩擦”",
+        "维姆胡斯特的机器使用“蒸汽”，而格里克的机器使用“人力”",
+        "维姆胡斯特的机器产生“电流”，而格里克的机器产生“静电”",
+        "维姆胡斯特的机器使用“磁铁”，而格里克的机器使用“硫磺”"
+      ],
+      "options_en": [
+        "Wimshurst's used 'electrostatic induction', while Guericke's used 'friction'",
+        "Wimshurst's used 'steam power', while Guericke's used 'hand power'",
+        "Wimshurst's produced 'current', while Guericke's produced 'static'",
+        "Wimshurst's used 'magnets', while Guericke's used 'sulfur'"
+      ],
+      "answer": 0,
+      "explanation": "格里克的机器（`guericke_static_generator_1663`）需要“摩擦”（手摩擦硫磺球）来产生电荷。维姆胡斯特的机器则利用“静电感应”（电荷的相互影响）来“自我放大”电荷，这要高效和可靠得多。",
+      "explanation_en": "Guericke's machine (`guericke_static_generator_1663`) relied on *friction* (a hand rubbing a sulfur ball) to create charge. The Wimshurst machine used *electrostatic induction* (the influence of charges on each other) to 'self-amplify' the charge, which was far more efficient and reliable."
+    }
+  }

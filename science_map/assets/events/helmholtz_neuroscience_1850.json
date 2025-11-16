@@ -1,0 +1,156 @@
+{
+    "id": "helmholtz_neuroscience_1850",
+    "personId": "hermann_von_helmholtz",
+    "title": "测量神经冲动速度",
+    "title_en": "Measures the Speed of the Nerve Impulse",
+    "year": 1850,
+    "lat": 54.7954,
+    "lng": 20.5109,
+    "city": "柯尼斯堡",
+    "city_en": "Königsberg",
+    "country": "普鲁士 (今俄罗斯加里宁格勒)",
+    "country_en": "Prussia (Modern Kaliningrad, Russia)",
+    "field": ["生物学", "物理学", "医学"],
+    "field_en": ["Biology", "Physics", "Medicine"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Blausen_0657_MultipolarNeuron.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=liSlFOvVt7s",
+        "title": "我们如何知道神经不是魔法？",
+        "title_en": "How Do We Know Nerves Aren't Magic? ",
+        "duration": "6:29"
+      }
+    },
+    
+    "summary": {
+      "text": "亥姆霍兹（Hermann von Helmholtz）进行了一项奠基性的实验，首次测量了“神经冲动”的传播速度。在此之前，人们普遍认为“思想”或“意志”的传递是“瞬时”的（即无限快）。亥姆霍兹通过分离青蛙的坐骨神经和肌肉，并用一个“肌动描记器”（Myograph）来记录刺激和收缩之间的时间差，他计算出神经信号的传播速度是一个惊人地“缓慢”的、可测量的物理值：约27米/秒（约合60英里/小时）。",
+      "text_en": "Hermann von Helmholtz conducted a foundational experiment that, for the first time, measured the *speed* of a nerve impulse. It was previously assumed that 'thought' or 'will' was transmitted *instantaneously* (at infinite speed). By isolating a frog's sciatic nerve and its attached muscle and using a 'myograph' to record the time-lag between stimulus and contraction, Helmholtz calculated the speed to be a surprisingly *slow*, measurable, physical velocity: about 27 meters per second (or 60 miles per hour).",
+      "key_points": [
+        "现代“神经科学”(Neuroscience) 的诞生日",
+        "证明了“思想”和“感知”不是瞬时的",
+        "计算出神经冲动速度约为 27 米/秒",
+        "使用了青蛙的坐骨神经-腓肠肌标本",
+        "推翻了“生命力”(Vitalism) 理论"
+      ],
+      "key_points_en": [
+        "The birth of modern 'Neuroscience'",
+        "Proved that thought and sensation are *not* instantaneous",
+        "Calculated nerve impulse speed at ~27 m/s",
+        "Used a frog sciatic-nerve-gastrocnemius-muscle preparation",
+        "Overthrew the theory of 'Vitalism'"
+      ]
+    },
+  
+    "story": {
+      "text": "在1850年，主流的“生命力”(Vitalism) 理论认为，驱动身体的是一种“非物质的生命火花”，它不受物理定律的约束，并且是瞬时传播的。亥姆霍兹是一个坚定的“物理主义者”，他相信生物体也必须遵守他所阐明的“能量守恒定律”（`helmholtz_energy_conservation_1847`）。为了证明这一点，他设计了一个巧妙的实验：他取下一条青蛙腿（腓肠肌）及其相连的、长长的坐骨神经。他用一个计时器（肌动描记器）来测量，当他刺激神经“靠近”肌肉的A点时，肌肉需要多久才收缩；然后，他再测量刺激神经“远离”肌肉的B点时，肌肉需要多久才收缩。他发现，刺激B点（更远）总是会有一个“微小的延迟”。通过用“距离差”(B-A) 除以这个“时间差”(Delay)，他计算出了这个“生命火花”的物理速度。",
+      "text_en": "In 1850, the dominant 'Vitalism' theory held that a non-physical 'vital spark' animated the body, was not subject to physical laws, and traveled instantaneously. Helmholtz, a firm 'materialist', believed living bodies *must* obey the laws of physics, like his own 'Conservation of Energy' (`helmholtz_energy_conservation_1847`). To prove it, he designed an ingenious experiment: He dissected a frog's leg (gastrocnemius muscle) with its long sciatic nerve attached. He used a timer (myograph) to measure the lag between stimulating the nerve at point A (close to the muscle) and the muscle twitch. He then measured the lag from point B (farther up the nerve). He found that stimulating point B *always* resulted in a *tiny delay* compared to point A. By dividing the *distance* (B-A) by the *time delay*, he had clocked the physical speed of the 'vital spark'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤯",
+        "text": "亥姆霍兹的发现（神经信号速度约27米/秒）在当时是“骇人听闻”的。它证明了思想的速度（约60英里/小时）比“声音”（约760英里/小时）慢得多。",
+        "text_en": "Helmholtz's finding of ~27 m/s was *scandalous* at the time. It proved that the speed of thought (about 60 mph) was significantly *slower* than the speed of sound (about 760 mph)."
+      },
+      {
+        "icon": "⏱️",
+        "text": "这项实验开创了一个全新的领域：“心理学”中的“反应时间”(Reaction Time) 研究。",
+        "text_en": "This experiment founded the entire field of 'Reaction Time' studies in psychology."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1850年，人们认为你的“灵魂”或“意志”是“即时”移动的——当你决定动手指时，信号是瞬间到达的。\n亥姆霍兹是第一个说：“真的吗？我们来测一下速。”的人。\n他用青蛙的神经（就像一根电线）和肌肉（就像一个灯泡）做实验。他测量了信号从“电线”的一端传到另一端所需的时间。他发现，这个“生命信号”的速度慢得惊人，只有大约每秒27米（60英里/小时）。\n他证明了，“思想”不是什么神奇的火花，而是一个缓慢的、可测量的、物理的（电）过程。",
+      "text_en": "In 1850, people thought your 'soul' or 'will' moved *instantly*—when you decided to move your finger, the signal arrived at the same moment.\nHelmholtz was the first to say, 'Really? Let's time it.'\nHe took a frog nerve (a wire) and its muscle (a lightbulb). He timed how long it took the signal to get from one end of the 'wire' to the other. He discovered the 'vital signal' was shockingly slow: only about 27 meters per second (60 mph).\nHe proved that 'thought' is not a magical spark, but a *slow, measurable, physical (electrical) process*.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0d/GFPneuron.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧠",
+          "title": "神经生理学 (Neurophysiology)",
+          "title_en": "Neurophysiology",
+          "text": "这项工作开创了“神经生理学”，即用物理学和化学的工具来测量和理解神经系统功能的学科。",
+          "text_en": "This work founded 'neurophysiology', the science of measuring and understanding the function of the nervous system using the tools of physics and chemistry."
+        },
+        {
+          "icon": "🩺",
+          "title": "神经病学 (Neurology)",
+          "title_en": "Neurology",
+          "text": "现代所有的神经诊断工具（如“肌电图”EMG 和“神经传导速度”NCV 测试）都是亥姆霍兹这项开创性测量的直系后代。",
+          "text_en": "All modern neurological diagnostic tools, like Electromyography (EMG) and Nerve Conduction Velocity (NCV) tests, are the direct descendants of this first measurement."
+        },
+        {
+          "icon": "🤔",
+          "title": "实验心理学 (Experimental Psychology)",
+          "title_en": "Experimental Psychology",
+          "text": "亥姆霍兹后来将这项技术应用于人类，测量“反应时间”，从而开创了“实验心理学”。",
+          "text_en": "Helmholtz later applied this technique to humans to measure 'reaction time', effectively founding experimental psychology."
+        }
+      ],
+  
+    "impact": {
+      "text": "亥姆霍兹的这项实验是19世纪生物学最重要的实验之一。它将“神经系统”（以及“思想”和“灵魂”）从一个神圣的、哲学的领域，拉入到了一个可测量的、唯物主义的“物理学”领域。它无可辩驳地证明了，生命过程（如思考和反应）也必须遵守（他自己提出的）能量守恒等物理定律。这是“神经科学”的真正诞生日。",
+      "text_en": "This experiment was one of the most important in 19th-century biology. It dragged the 'nervous system' (and by extension, the 'mind' and 'soul') from the realm of sacred philosophy into the realm of measurable, materialist *physics*. It was the definitive proof that life processes obey the same laws of physics (like his Conservation of Energy) as the non-living world. This is the true birthdate of 'Neuroscience'.",
+      "stats": [
+          {
+            "number": "27",
+            "label": "米/秒 (神经冲动速度)",
+            "label_en": "m/s (Speed of Nerve Impulse)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "galvani_animal_electricity_1791",
+          "contribution": "伽伐尼（其“动物电”理论是亥姆霍兹试图去“量化”和“物理化”的）",
+          "contribution_en": "Luigi Galvani (his 'animal electricity' was the phenomenon Helmholtz sought to 'quantify' and 'physicalize')"
+        },
+        {
+          "id": "helmholtz_energy_conservation_1847",
+          "contribution": "（他自己）能量守恒定律（该实验是他“生物体必须服从物理定律”这一信念的延伸）",
+          "contribution_en": "(Himself) The Conservation of Energy (this experiment was an extension of his belief that life must obey physical laws)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "wundt_psychology_lab_1879",
+          "contribution": "威廉·冯特（其“实验心理学”实验室，是基于亥姆霍兹的“反应时间”研究建立的）",
+          "contribution_en": "Wilhelm Wundt (his 'experimental psychology' lab was founded on Helmholtz's 'reaction time' work)"
+        },
+        {
+          "id": "hodgkin_huxley_model_1952",
+          "contribution": "霍奇金和赫胥黎（他们最终在数学上解释了亥姆霍兹所测量的“电信号”是如何产生的）",
+          "contribution_en": "Hodgkin & Huxley (who finally explained *mathematically* *how* the electrical signal Helmholtz measured is generated)"
+        }
+      ],
+      "legacy_text": "亥姆霍兹是第一个“给思想测速”的人，并证明了它是一个缓慢的物理过程。",
+      "legacy_text_en": "Helmholtz was the first person to 'put a stopwatch on thought' and prove it was a slow, physical process."
+    },
+  
+    "related_concepts": ["神经冲动 (Nerve Impulse)", "神经生理学 (Neurophysiology)", "反应时间 (Reaction Time)", "生命力 (Vitalism)", "唯物主义 (Materialism)", "伽伐尼 (Galvani)", "肌动描记器 (Myograph)"],
+    "related_concepts_en": ["Nerve Impulse", "Neurophysiology", "Reaction Time", "Vitalism", "Materialism", "Galvani", "Myograph"],
+  
+    "quiz": {
+      "question": "亥姆霍兹在1850年对青蛙神经的实验，推翻了哪一个长期存在的哲学信念？",
+      "question_en": "What long-held philosophical belief did Helmholtz's 1850 frog nerve experiment overthrow?",
+      "options": [
+        "“生命力”和神经信号是“瞬时”传播的",
+        "神经是中空的管道",
+        "肌肉是由水构成的",
+        "青蛙没有灵魂"
+      ],
+      "options_en": [
+        "That the 'vital force' and nerve signals were 'instantaneous'",
+        "That nerves were hollow tubes",
+        "That muscles were made of water",
+        "That frogs do not have souls"
+      ],
+      "answer": 0,
+      "explanation": "在亥姆霍兹之前，人们普遍认为“意志”或“生命力”的传播是无限快的（瞬时的）。亥姆霍兹通过测量，证明了它是一个相对缓慢的（约27米/秒）、完全符合物理学规律的过程。",
+      "explanation_en": "Before Helmholtz, it was assumed the 'will' or 'vital force' traveled infinitely fast (instantaneously). Helmholtz *measured* it and proved it was a relatively slow (approx. 27 m/s), entirely physical process."
+    }
+  }

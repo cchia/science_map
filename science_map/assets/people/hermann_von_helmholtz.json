@@ -1,0 +1,15 @@
+{
+    "name": "赫尔曼·冯·亥姆霍兹",
+    "name_en": "Hermann von Helmholtz",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hermann_von_Helmholtz.jpg",
+    "bio_short": "德国物理学家和医生，19世纪最伟大的科学家之一。他对“能量守恒定律”（热力学）、“生理光学”（三原色理论）、“声学”（音乐理论）、“医学”（发明检眼镜）和“电磁学”都做出了奠基性的贡献。",
+    "bio_short_en": "A German physicist and physician, one of the 19th century's foremost scientists. He made foundational contributions to the 'Conservation of Energy' (Thermodynamics), 'Physiological Optics' (Color Theory), 'Acoustics' (Music Theory), 'Medicine' (inventing the Ophthalmoscope), and 'Electromagnetism'.",
+    "events": [
+      "helmholtz_energy_conservation_1847",
+      "helmholtz_ophthalmoscope_1851",
+      "helmholtz_optics_1856",
+      "helmholtz_acoustics_1863",
+      "helmholtz_electrodynamics_1870",
+      "helmholtz_neuroscience_1850"
+    ]
+  }

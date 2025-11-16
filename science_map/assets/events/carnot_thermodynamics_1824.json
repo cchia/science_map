@@ -1,0 +1,166 @@
+{
+    "id": "carnot_thermodynamics_1824",
+    "personId": "nicolas_carnot",
+    "title": "发表《论火的推动力》",
+    "title_en": "Publishes 'Reflections on the Motive Power of Fire'",
+    "year": 1824,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": [
+        "工程学",
+        "物理学"
+    ],
+    "field_en": [
+        "Engineering",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Carnot_heat_engine_3.svg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=_nscxze9nB8",
+            "title": "卡诺循环解释",
+            "title_en": "Carnot cycle explanation",
+            "duration": "10:58"
+        }
+    },
+    "summary": {
+        "text": "萨迪·卡诺，一位法国军事工程师，发表了《论火的推动力》，这是“热力学”(Thermodynamics) 这门科学的奠基之作。在书中，他提出了一个理想化的热机模型——“卡诺循环”(Carnot Cycle)。他证明了，任何热机的效率（能将“热”转化为“功”的比例）都有一个绝对的上限，这个上限*仅*取决于其高温热源和低温冷源的温度差，而与所使用的工作物质（如蒸汽、空气）无关。",
+        "text_en": "Sadi Carnot, a French military engineer, published 'Reflections on the Motive Power of Fire', the foundational work of 'Thermodynamics'. In it, he proposed an idealized theoretical heat engine, the 'Carnot Cycle'. He proved that the efficiency of *any* heat engine (how much 'heat' it can turn into 'work') has an absolute maximum limit. This limit depends *only* on the temperature difference between its hot source and its cold sink, regardless of the working substance (like steam or air).",
+        "key_points": [
+            "热力学 (Thermodynamics) 的奠基之作",
+            "提出了“卡诺循环”(Carnot Cycle) 理想热机",
+            "卡诺效率 (Carnot Efficiency)：热机效率的理论上限",
+            "奠定了“热力学第二定律”的基础",
+            "证明了效率仅取决于温差"
+        ],
+        "key_points_en": [
+            "Foundational work of Thermodynamics",
+            "Proposed the 'Carnot Cycle' (an ideal engine)",
+            "Carnot Efficiency: The theoretical maximum efficiency of a heat engine",
+            "Laid the foundation for the Second Law of Thermodynamics",
+            "Proved efficiency depends *only* on temperature difference"
+        ]
+    },
+    "story": {
+        "text": "卡诺的时代是“蒸汽机革命”的时代，但当时的工程师们对“热”如何做功完全不了解。他们只是盲目地尝试，不知道效率的极限在哪里。卡诺提出了一个“思想实验”：他将“热”类比为“水”，将“温度差”（从热锅炉到冷凝器）类比为“瀑布的高度”。他指出，正如水车的动力不取决于“水的总量”，而取决于“瀑布的高度”一样，热机的动力（功）也不取决于“热的总量”，而取决于“热从高温流向低温的‘落差’”。他因此得出了一个惊人结论：100% 效率的热机是不可能的，因为你永远需要一个“冷源”（如河流）来倾倒废热。",
+        "text_en": "Carnot lived in the age of the Steam Engine, but no one understood *how* heat did work. They were just building engines, unaware of their limits. Carnot created a 'thought experiment'. He made an analogy: 'heat' is like 'water', and the 'temperature difference' (from hot boiler to cold condenser) is like the 'height of a waterfall'. He argued that just as a waterwheel's power comes *not* from the total amount of water, but from the *height it falls*, a heat engine's power comes *not* from the total heat, but from the 'fall' of heat from high temperature to low temperature. This led to his stunning conclusion: a 100% efficient engine is impossible, because you *always* need a 'cold sink' (like a river) to dump the waste heat.",
+        "diagram": "assets/events/Carnot-Engine-Diagram.jpg"
+    },
+    "fun_facts": [
+        {
+            "icon": "📚",
+            "text": "卡诺的这本书在他生前几乎无人问津，完全被学术界忽视了。直到10年后（`ideal_gas_law_1834`），埃米尔·克拉佩龙（Clapeyron）才重新发现了它，并将其数学化。",
+            "text_en": "Carnot's book was almost completely ignored by the scientific community during his lifetime. It was 'lost' until Émile Clapeyron (`ideal_gas_law_1834`) rediscovered it 10 years later and put its ideas into mathematical form."
+        },
+        {
+            "icon": " cholera",
+            "text": "卡诺英年早逝，年仅36岁。他在1832年巴黎的一场霍乱疫情中去世。",
+            "text_en": "Carnot died tragically young at age 36 during the 1832 cholera epidemic in Paris."
+        }
+    ],
+    "simple_explanation": {
+        "text": "卡诺是第一个问“为什么蒸汽机这么浪费？”的人。他发现，热机就像一个“瀑布”。“热”就像是水，“高温”（锅炉）是瀑布顶端，“低温”（冷凝器）是瀑布底端。发动机的“动力”就来自于热量从高温“下落”到低温。卡诺证明：**“瀑布”的高度差（温差）越大，发动机的效率就越高**。但无论如何，你永远无法让效率达到100%，因为你总需要一个“瀑布底端”（冷源）来让“水”（热量）流下去。",
+        "text_en": "Carnot was the first person to ask, 'Why are steam engines so wasteful?' He realized a heat engine is like a 'waterfall'. 'Heat' is the water. 'High Temperature' (the boiler) is the top of the falls. 'Low Temperature' (the cold air) is the bottom. The 'work' you get is the power of the heat 'falling' from high to low. Carnot proved: **the taller the 'waterfall' (the bigger the temperature difference), the more efficient the engine**. But no matter what, you can *never* be 100% efficient, because you *always* need a 'bottom' (a cold place) for the heat to fall *to*.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/09/Carnot_Cycle_Figure_-_Step_1.jpg"
+    },
+    "applications": [
+        {
+            "icon": "🚂",
+            "title": "发动机设计",
+            "title_en": "Engine Design",
+            "text": "卡诺效率（η = 1 - T_cold/T_hot）为所有工程师提供了一个“理论最高分”。它告诉工程师，与其徒劳地追求100%的效率，不如专注于“提高锅炉温度”和“降低冷凝器温度”。",
+            "text_en": "Carnot Efficiency (η = 1 - T_cold/T_hot) gives engineers a 'perfect score' to aim for. It told them to stop trying to get 100% efficiency, and instead focus on *making the boiler hotter* and *the condenser colder*."
+        },
+        {
+            "icon": "🔥",
+            "title": "热力学第二定律",
+            "title_en": "Second Law of Thermodynamics",
+            "text": "他“热量必须从高温流向低温才能做功”的思想，是克劳修斯（Clausius）和开尔文（Kelvin）后来将其形式化为“热力学第二定律”（熵增）的直接基础。",
+            "text_en": "His idea that heat *must* flow from hot to cold to do work was the direct basis for Clausius and Kelvin, who formalized this concept into the 'Second Law of Thermodynamics' (entropy)."
+        },
+        {
+            "icon": "❄️",
+            "title": "冰箱与空调",
+            "title_en": "Refrigerators and A/C",
+            "text": "冰箱就是一个“反向”的卡诺循环：它消耗“功”（压缩机）来强迫“热”从“低温”（冰箱内）流向“高温”（你的厨房）。",
+            "text_en": "A refrigerator is just a Carnot cycle running in *reverse*: it uses 'work' (the compressor) to force heat to move from a 'cold' place (inside the fridge) to a 'hot' place (your kitchen)."
+        }
+    ],
+    "impact": {
+        "text": "《论火的推动力》是“热力学”这门学科的出生证明。卡诺是第一个将“热机”从一个纯粹的工程问题，转变为一个受普适定律制约的、深刻的“物理学”问题的人。他的工作（经由克拉佩龙和克劳修斯）引发了热力学革命，这与牛顿的力学革命同等重要。",
+        "text_en": "'Reflections on the Motive Power of Fire' is the birth certificate of 'Thermodynamics'. Carnot was the first person to see the 'heat engine' not as an engineering problem, but as a deep 'physics' problem governed by universal laws. His work (via Clapeyron and Clausius) sparked the thermodynamic revolution, which was just as profound as Newton's mechanical one.",
+        "stats": [
+            {
+                "number": "1824",
+                "label": "年 (热力学诞生)",
+                "label_en": "Year (Birth of Thermodynamics)"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "newcomen_engine_1712",
+                "contribution": "蒸汽机（如纽科门和瓦特的发明，是卡诺试图解释的“物理现象”）",
+                "contribution_en": "The Steam Engine (e.g., Newcomen and Watt, which was the 'physical phenomenon' Carnot sought to explain)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "ideal_gas_law_1834",
+                "contribution": "埃米尔·克拉佩龙（其“理想气体定律”正是为了将卡诺的理论数学化而提出的）",
+                "contribution_en": "Émile Clapeyron (whose 'Ideal Gas Law' was formulated specifically to put Carnot's theory into mathematical terms)"
+            },
+            {
+                "id": "clausius_thermodynamics_1850",
+                "contribution": "克劳修斯（其“热力学第二定律”和“熵”的概念，是卡诺思想的直接数学化）",
+                "contribution_en": "Rudolf Clausius (whose 'Second Law of Thermodynamics' and concept of 'Entropy' are the direct formalization of Carnot's ideas)"
+            }
+        ],
+        "legacy_text": "萨迪·卡诺被称为“热力学之父”。他发现了控制所有“热”与“功”转换的宇宙基本限制。",
+        "legacy_text_en": "Sadi Carnot is known as the 'father of thermodynamics'. He discovered the fundamental cosmic limits that govern all conversions of heat into work."
+    },
+    "related_concepts": [
+        "热力学 (Thermodynamics)",
+        "卡诺循环 (Carnot Cycle)",
+        "卡诺效率 (Carnot Efficiency)",
+        "热力学第二定律",
+        "熵 (Entropy)",
+        "热机 (Heat Engine)",
+        "克拉佩龙",
+        "克劳修斯"
+    ],
+    "related_concepts_en": [
+        "Thermodynamics",
+        "Carnot Cycle",
+        "Carnot Efficiency",
+        "Second Law of Thermodynamics",
+        "Entropy",
+        "Heat Engine",
+        "Clapeyron",
+        "Clausius"
+    ],
+    "quiz": {
+        "question": "根据卡诺的理论，提高热机（如蒸汽机）效率的最有效方法是什么？",
+        "question_en": "According to Carnot's theory, what is the most effective way to increase the efficiency of a heat engine (like a steam engine)?",
+        "options": [
+            "使用更大的活塞",
+            "增加锅炉和冷凝器之间的“温差”",
+            "使用蒸汽而不是空气",
+            "让发动机转得更快"
+        ],
+        "options_en": [
+            "Use a larger piston",
+            "Increase the 'temperature difference' between the boiler and the condenser",
+            "Use steam instead of air as the substance",
+            "Make the engine run faster"
+        ],
+        "answer": 1,
+        "explanation": "卡诺证明了，热机的最大理论效率 η = 1 - (T_cold / T_hot)。要使效率(η)最大化，你必须使 (T_cold / T_hot) 这个比值尽可能小，这需要 T_hot（热源）尽可能热，T_cold（冷源）尽可能冷。",
+        "explanation_en": "Carnot proved that the maximum theoretical efficiency is η = 1 - (T_cold / T_hot). To maximize efficiency (η), you must make the ratio (T_cold / T_hot) as small as possible. This requires making T_hot (the boiler) as hot as possible, and T_cold (the condenser) as cold as possible."
+    }
+}

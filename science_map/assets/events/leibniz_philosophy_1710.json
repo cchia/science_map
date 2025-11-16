@@ -1,0 +1,156 @@
+{
+    "id": "leibniz_philosophy_1710",
+    "personId": "gottfried_leibniz",
+    "title": "发表《神义论》与单子论",
+    "title_en": "Publishes 'Theodicy' and Monadology",
+    "year": 1710,
+    "lat": 52.1205,
+    "lng": 11.6276,
+    "city": "汉诺威",
+    "city_en": "Hanover",
+    "country": "德国",
+    "country_en": "Germany",
+    "field": [
+        "哲学",
+        "数学"
+    ],
+    "field_en": [
+        "Mathematics",
+        "Philosophy"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Leibniz_Monadology_2.jpg",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=1sSbxFj5nH8",
+            "title": "莱布尼茨的哲学思考：单子论",
+            "title_en": "Leibniz and the Elements of Reality: The Monadology",
+            "duration": "6:55"
+        }
+    },
+    "summary": {
+        "text": "戈特弗里德·威廉·莱布尼茨在1710年发表了他的重要哲学著作《神义论》(Theodicy)，系统阐述了他的单子论(Monadology)哲学体系。莱布尼茨认为，宇宙由无数个不可分割的、具有感知能力的“单子”(monads)组成，每个单子都是独立的、自足的实体。他提出了“前定和谐”(pre-established harmony)的概念，认为所有单子都在上帝的预先安排下和谐共存。",
+        "text_en": "In 1710, Gottfried Wilhelm Leibniz published his important philosophical work 'Theodicy', systematically expounding his philosophical system of Monadology. Leibniz believed that the universe consists of countless indivisible, perceptive 'monads', each being an independent, self-sufficient entity. He proposed the concept of 'pre-established harmony', believing that all monads coexist harmoniously under God's pre-arrangement.",
+        "key_points": [
+            "单子论哲学体系",
+            "前定和谐理论",
+            "最佳可能世界理论",
+            "对现代逻辑学和数学的影响"
+        ],
+        "key_points_en": [
+            "Monadology philosophical system",
+            "Pre-established harmony theory",
+            "Best of all possible worlds theory",
+            "Influence on modern logic and mathematics"
+        ]
+    },
+    "story": {
+        "text": "莱布尼茨不仅是伟大的数学家（与牛顿独立发明微积分），也是深刻的哲学家。他的单子论试图解释宇宙的本质：每个单子都是“没有窗户”的独立实体，它们之间不直接相互作用，而是通过上帝的“前定和谐”来协调。这意味着，虽然单子之间看似有因果关系，但实际上它们只是按照上帝预先设定的程序在运行。这个理论试图解决身心问题，并解释为什么世界如此有序。",
+        "text_en": "Leibniz was not only a great mathematician (who independently invented calculus alongside Newton) but also a profound philosopher. His Monadology attempted to explain the nature of the universe: each monad is an independent entity 'without windows', they do not directly interact with each other, but coordinate through God's 'pre-established harmony'. This means that although monads appear to have causal relationships, they are actually just running according to a program pre-set by God. This theory attempted to solve the mind-body problem and explain why the world is so orderly."
+    },
+    "fun_facts": [
+        {
+            "icon": "📚",
+            "text": "莱布尼茨的《神义论》试图解决恶的问题：如果上帝是全善全能的，为什么世界上还有邪恶？他的答案是：我们生活在所有可能世界中最好的一个。",
+            "text_en": "Leibniz's 'Theodicy' attempted to solve the 'problem of evil': If God is all-good and all-powerful, why does evil exist? His answer: We live in 'the best of all possible worlds'."
+        },
+        {
+            "icon": "🔗",
+            "text": "莱布尼茨的单子论影响了后来的德国哲学传统，特别是康德和黑格尔，成为德国古典哲学的重要源头。",
+            "text_en": "Leibniz's Monadology influenced the later German philosophical tradition, especially Kant and Hegel, becoming an important source of German classical philosophy."
+        }
+    ],
+    "simple_explanation": {
+        "text": "莱布尼茨认为，世界就像一台巨大的、精确的时钟。每个“单子”都是时钟里的一个小齿轮，它们不直接接触，但都在按照上帝预先设计好的程序运行，所以整个时钟（宇宙）才能如此和谐地运转。这就是“前定和谐”。",
+        "text_en": "Leibniz believed that the world is like a huge, precise clock. Each 'monad' is a small gear in the clock. They don't directly touch, but all run according to a program pre-designed by God, so the entire clock (universe) can operate so harmoniously. This is 'pre-established harmony'."
+    },
+    "applications": [
+        {
+            "icon": "📖",
+            "title": "德国古典哲学",
+            "title_en": "German Classical Philosophy",
+            "text": "莱布尼茨的哲学思想直接影响了康德和黑格尔，成为德国古典哲学的重要基础。",
+            "text_en": "Leibniz's philosophical thought directly influenced Kant and Hegel, becoming an important foundation of German classical philosophy."
+        },
+        {
+            "icon": "🧠",
+            "title": "现代形而上学",
+            "title_en": "Modern Metaphysics",
+            "text": "他的单子论和前定和谐理论对现代哲学中的身心问题、因果关系等讨论仍有重要影响。",
+            "text_en": "His Monadology and pre-established harmony theory still have important influence on modern philosophical discussions of mind-body problems and causality."
+        }
+    ],
+    "impact": {
+        "text": "莱布尼茨的哲学思想对后来的德国哲学（特别是康德和黑格尔）产生了深远影响。他的单子论虽然看似神秘，但其中包含的关于系统、和谐和秩序的思想，对现代科学和哲学仍有启发意义。作为数学家和哲学家，莱布尼茨是启蒙时代最重要的思想家之一。",
+        "text_en": "Leibniz's philosophical thought had a profound influence on later German philosophy (especially Kant and Hegel). Although his Monadology seems mysterious, the ideas about systems, harmony, and order it contains still inspire modern science and philosophy. As both a mathematician and philosopher, Leibniz was one of the most important thinkers of the Enlightenment.",
+        "stats": [
+            {
+                "number": "1710",
+                "label": "年 (发表《神义论》)",
+                "label_en": "Year (Theodicy Published)"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "descartes_analytic_geometry_1637",
+                "contribution": "笛卡尔（其理性主义哲学和数学方法影响了莱布尼茨）",
+                "contribution_en": "Descartes (his rationalist philosophy and mathematical methods influenced Leibniz)"
+            },
+            {
+                "id": "aristotle_logic_BC350",
+                "contribution": "亚里士多德（其逻辑学为莱布尼茨的逻辑思想提供了基础）",
+                "contribution_en": "Aristotle (his logic provided the foundation for Leibniz's logical thinking)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "kant_critique_1781",
+                "contribution": "伊曼努尔·康德（莱布尼茨的理性主义哲学是康德批判哲学的重要背景，康德在《纯粹理性批判》中回应了莱布尼茨-沃尔夫体系）",
+                "contribution_en": "Immanuel Kant (Leibniz's rationalist philosophy was an important background for Kant's critical philosophy; Kant responded to the Leibniz-Wolff system in 'Critique of Pure Reason')"
+            },
+            {
+                "id": "hegel_dialectics_1807",
+                "contribution": "格奥尔格·威廉·弗里德里希·黑格尔（莱布尼茨的单子论和辩证法思想影响了黑格尔的绝对精神理论）",
+                "contribution_en": "Georg Wilhelm Friedrich Hegel (Leibniz's Monadology and dialectical thinking influenced Hegel's theory of Absolute Spirit)"
+            }
+        ],
+        "legacy_text": "莱布尼茨是数学、哲学和逻辑学的巨人，他的思想连接了古代哲学和现代科学。",
+        "legacy_text_en": "Leibniz was a giant in mathematics, philosophy, and logic, whose thinking connected ancient philosophy and modern science."
+    },
+    "related_concepts": [
+        "单子论 (Monadology)",
+        "前定和谐 (Pre-established Harmony)",
+        "神义论 (Theodicy)",
+        "康德 (Kant)",
+        "黑格尔 (Hegel)",
+        "德国古典哲学 (German Classical Philosophy)"
+    ],
+    "related_concepts_en": [
+        "Monadology",
+        "Pre-established Harmony",
+        "Theodicy",
+        "Kant",
+        "Hegel",
+        "German Classical Philosophy"
+    ],
+    "quiz": {
+        "question": "莱布尼茨的单子论中，单子之间如何相互作用？",
+        "question_en": "In Leibniz's Monadology, how do monads interact with each other?",
+        "options": [
+            "直接相互作用",
+            "通过前定和谐间接协调",
+            "通过物理力相互作用",
+            "完全不相互作用"
+        ],
+        "options_en": [
+            "Directly interact",
+            "Indirectly coordinate through pre-established harmony",
+            "Interact through physical forces",
+            "Do not interact at all"
+        ],
+        "answer": 1,
+        "explanation": "莱布尼茨认为单子是“没有窗户”的，它们不直接相互作用，而是通过上帝的“前定和谐”来协调，使得它们看起来像是在相互作用。",
+        "explanation_en": "Leibniz believed that monads are 'windowless' and do not directly interact, but coordinate through God's 'pre-established harmony', making them appear to interact."
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "id": "gay_lussac_law_1802",
+    "personId": "gay-lussac",
+    "title": "发表盖-吕萨克定律 (气体定律)",
+    "title_en": "Publishes Gay-Lussac's Law (Gas Laws)",
+    "year": 1802,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "field": [
+        "化学",
+        "物理学"
+    ],
+    "field_en": [
+        "Chemistry",
+        "Physics"
+    ],
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ley_de_Gay-Lussac.gif",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=N6DZRiSIK3s",
+            "title": "盖-吕萨克定律",
+            "title_en": "Gay-Lussac's Law of Ideal Gases",
+            "duration": "10:50"
+        }
+    },
+    "summary": {
+        "text": "1802年，盖-吕萨克发表了他的重要论文，阐述了气体与温度的关系。他做了两件事：1. 他精确地、公开地验证了雅克·查理（Jacques Charles）在1787年未发表的发现，即在恒定压强下，气体的体积(V)与其温度(T)成正比（V ∝ T），并将其归功于查理。2. 他自己发现了“第二定律”（现在常被称为盖-吕萨克定律），即在恒定体积下，气体的压强(P)也与其绝对温度(T)成正比（P ∝ T）。",
+        "text_en": "In 1802, Gay-Lussac published his critical paper on the relationship between gases and temperature. He did two things: 1. He precisely and publicly verified Jacques Charles's unpublished 1787 finding that at constant pressure, a gas's Volume (V) is proportional to its Temperature (T) (V ∝ T), giving Charles credit. 2. He discovered a second law, often called Gay-Lussac's Law, stating that at constant volume, a gas's Pressure (P) is *also* proportional to its Absolute Temperature (T) (P ∝ T).",
+        "key_points": [
+            "压强-温度定律 (P ∝ T，在V恒定时)",
+            "验证并发表了“查理定律” (V ∝ T，在P恒定时)",
+            "证明了所有气体的热膨胀系数都相同",
+            "为“绝对零度”提供了更精确的计算 (-273.15°C)"
+        ],
+        "key_points_en": [
+            "Pressure-Temperature Law (P ∝ T, at constant V)",
+            "Verified and published 'Charles's Law' (V ∝ T, at constant P)",
+            "Proved the coefficient of thermal expansion was the same for all gases",
+            "Provided a precise calculation for 'Absolute Zero' (-273.15°C)"
+        ]
+    },
+    "story": {
+        "text": "盖-吕萨克是一位严谨的实验主义者。他重复了查理的实验，但使用了更精确的仪器，并排除了水蒸气等干扰因素。他证明了所有气体（如空气、氧气、氢气、氮气）在从0°C加热到100°C时，其体积膨胀率都是一个完全相同的常数（约 3/8）。然后，他将一个固定体积的气体容器从冰浴（0°C）加热到沸水（100°C），并测量其内部压强的增加。他发现压强的增加比例与体积的膨胀比例是完全一样的。这证明了温度对压强和体积的影响是平行的，为“理想气体定律”铺平了最后一块砖。",
+        "text_en": "Gay-Lussac was a rigorous experimentalist. He repeated Charles's experiments with more precise instruments, carefully excluding moisture. He proved that *all* gases (air, oxygen, hydrogen, nitrogen) had the exact same coefficient of expansion when heated from 0°C to 100°C (about 3/8ths of their volume). He then took a fixed volume of gas and heated it from an ice bath (0°C) to boiling water (100°C), measuring the rise in its internal pressure. He found the pressure increased by the *exact same proportion* as the volume did in the first experiment. This proved the parallel effect of temperature on pressure and volume, laying the final brick for the Ideal Gas Law.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ley_de_Gay-Lussac.gif"
+    },
+    "fun_facts": [
+        {
+            "icon": "🎈",
+            "text": "盖-吕萨克是一位极其勇敢的科学家。1804年，为了研究高空的大气成分和磁场，他乘坐一个氢气球独自升到了7016米（23,018英尺）的惊人高度，这是当时的世界纪录。",
+            "text_en": "Gay-Lussac was an incredibly daring scientist. In 1804, to study the atmosphere's composition and magnetism, he ascended *alone* in a hydrogen balloon to a stunning 7,016 meters (23,018 feet), a world altitude record."
+        },
+        {
+            "icon": "⚗️",
+            "text": "他还是元素“碘”(Iodine) 的共同发现者。他还证明了“氯”(Chlorine) 是一种元素，而不是（当时认为的）一种氧化物。",
+            "text_en": "He was the co-discoverer of the element 'iodine'. He also proved that 'chlorine' was an element, not an oxide as was previously believed."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象一个密封的压力锅（体积恒定）。如果你把它放在炉子上（T 升高），锅内的压强(P)会急剧上升（非常危险！）。这就是盖-吕萨克定律：**温度越高，压强越大**。\n再想象一个带活塞的气缸（压强恒定）。如果你加热它（T 升高），活塞会向上移动（V 增大）。这就是查理定律（由盖-吕萨克发表）。\n他证明了温度对气体“体积”和“压强”的影响是成正比的。",
+        "text_en": "Imagine a sealed pressure cooker (constant volume). If you put it on the stove (T increases), the pressure (P) inside builds up dramatically (which is why it's dangerous!). That's Gay-Lussac's Law: **the hotter the gas, the higher the pressure**.\nNow imagine a balloon (constant pressure). If you heat it (T increases), it expands (V increases). That's Charles's Law (which Gay-Lussac published).\nHe proved temperature affects both pressure and volume proportionally.",
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Ley_de_Gay-Lussac.svg"
+    },
+    "applications": [
+        {
+            "icon": "💨",
+            "title": "理想气体定律 (Ideal Gas Law)",
+            "title_en": "Ideal Gas Law",
+            "text": "他的两个定律（V ∝ T 和 P ∝ T）与波义耳定律（P ∝ 1/V）最终被克拉佩龙（Clapeyron）合并为单一的、极其强大的“理想气体定律”(PV=nRT)。",
+            "text_en": "His two laws (V ∝ T and P ∝ T), combined with Boyle's Law (P ∝ 1/V), were merged by Clapeyron into the single, powerful 'Ideal Gas Law' (PV=nRT)."
+        },
+        {
+            "icon": "🔥",
+            "title": "内燃机 (Internal Combustion Engine)",
+            "title_en": "Internal Combustion Engine",
+            "text": "发动机的气缸在一个（几乎）恒定的体积内点燃燃料，温度的急剧升高（T 增大）导致压强(P)的巨大增加，从而推动活塞做功。",
+            "text_en": "An engine cylinder ignites fuel in a (mostly) constant volume. The massive increase in Temperature (T) causes a massive increase in Pressure (P), which drives the piston."
+        },
+        {
+            "icon": "🍳",
+            "title": "压力锅 (Pressure Cooker)",
+            "title_en": "Pressure Cooker",
+            "text": "通过密封（体积恒定），加热水（T 增大）会使内部压强（P）升高，从而使水的沸点超过100°C，更快地烹饪食物。",
+            "text_en": "By sealing the volume, heating the water (T increases) raises the internal pressure (P), which allows the water to boil *above* 100°C, cooking food faster."
+        }
+    ],
+    "impact": {
+        "text": "盖-吕萨克的工作是迈向“理想气体定律”的最后一步。他将气体研究从单一变量（波义耳）扩展到了多变量（压强、体积、温度）之间的系统关系。他对“所有气体膨胀率相同”的发现，也为阿伏伽德罗（Avogadro）在几年后提出“同温同压下，同体积的气体含有相同数目的分子”这一假说奠定了基础。",
+        "text_en": "Gay-Lussac's work was the final step toward the Ideal Gas Law. He expanded the study of gases from a single relationship (Boyle) to a systematic relationship between all three variables (P, V, T). His discovery that *all* gases expand equally also laid the foundation for Avogadro's hypothesis a few years later ('equal volumes of gases at the same temperature and pressure contain equal numbers of molecules').",
+        "stats": [
+            {
+                "number": "7016",
+                "label": "米 (热气球高度)",
+                "label_en": "Meters (Balloon Altitude)"
+            },
+            {
+                "number": "1802",
+                "label": "年 (定律发表)",
+                "label_en": "Year Law Published"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "charles_law_1787",
+                "contribution": "雅克·查理（其未发表的V ∝ T研究，是盖-吕萨克验证和发表的对象）",
+                "contribution_en": "Jacques Charles (whose unpublished V ∝ T work was the basis for Gay-Lussac's verification and publication)"
+            },
+            {
+                "id": "boyle_law_1662",
+                "contribution": "波义耳（其P-V定律是气体定律的开端）",
+                "contribution_en": "Boyle (whose P-V law started the field of gas laws)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "ideal_gas_law_1834",
+                "contribution": "克拉佩龙（其“理想气体定律”PV=nRT是盖-吕萨克定律的直接数学概括）",
+                "contribution_en": "Clapeyron (whose 'Ideal Gas Law' PV=nRT is the direct mathematical combination of Gay-Lussac's laws)"
+            },
+            {
+                "id": "avogadro_law_1811",
+                "contribution": "阿伏伽德罗（盖-吕萨克关于气体“反应体积成简单整数比”的发现，直接启发了阿伏伽德罗假说）",
+                "contribution_en": "Avogadro (Gay-Lussac's *other* law, on combining gas volumes, directly inspired Avogadro's hypothesis)"
+            }
+        ],
+        "legacy_text": "盖-吕萨克完成了气体“三巨头”（P, V, T）关系的拼图，为19世纪的热力学和物理化学铺平了道路。",
+        "legacy_text_en": "Gay-Lussac completed the puzzle relating the 'big three' of gases (P, V, T), paving the way for 19th-century thermodynamics and physical chemistry."
+    },
+    "related_concepts": [
+        "理想气体定律 (Ideal Gas Law)",
+        "压强 (Pressure)",
+        "温度 (Temperature)",
+        "体积 (Volume)",
+        "绝对零度 (Absolute Zero)",
+        "查理定律 (Charles's Law)",
+        "热力学 (Thermodynamics)"
+    ],
+    "related_concepts_en": [
+        "Ideal Gas Law",
+        "Pressure",
+        "Temperature",
+        "Volume",
+        "Absolute Zero",
+        "Charles's Law",
+        "Thermodynamics"
+    ],
+    "quiz": {
+        "question": "盖-吕萨克定律 (P ∝ T) 成立的关键前提条件是什么？",
+        "question_en": "What is the key condition that must be met for Gay-Lussac's Law (P ∝ T) to be true?",
+        "options": [
+            "气体的“体积”必须保持恒定",
+            "气体的“压强”必须保持恒定",
+            "气体的“温度”必须保持恒定",
+            "气体必须是氢气"
+        ],
+        "options_en": [
+            "The 'volume' of the gas must be held constant",
+            "The 'pressure' of the gas must be held constant",
+            "The 'temperature' of the gas must be held constant",
+            "The gas must be hydrogen"
+        ],
+        "answer": 0,
+        "explanation": "盖-吕萨克定律（P ∝ T）描述的是压强和温度的关系（如压力锅）。这必须在一个密闭的、体积不变的容器中才能成立。如果体积可以改变（如气球），那么压强会保持恒定，而体积会膨胀（这遵循查理定律）。",
+        "explanation_en": "Gay-Lussac's Law (P ∝ T) describes the pressure-temperature relationship (like a pressure cooker). This only works if the gas is in a sealed, rigid container where the volume cannot change. If the volume *can* change (like a balloon), the pressure will stay constant and the volume will expand (which is Charles's Law)."
+    }
+}

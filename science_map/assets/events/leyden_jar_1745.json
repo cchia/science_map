@@ -1,0 +1,157 @@
+{
+    "id": "leyden_jar_1745",
+    "personId": ["pieter_van_musschenbroek", "ewald_georg_von_kleist"],
+    "title": "发明“莱顿瓶” (第一个电容器)",
+    "title_en": "Invents the 'Leyden Jar' (The First Capacitor)",
+    "year": 1745,
+    "lat": 52.1583,
+    "lng": 4.4931,
+    "city": "莱顿",
+    "city_en": "Leiden",
+    "country": "荷兰",
+    "country_en": "Netherlands",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Leidse_flessen_Museum_Boerhave_december_2003_2.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=X6FQvrVLx5I",
+        "title": "莱顿瓶如何工作？",
+        "title_en": "How does a Leyden Jar work?",
+        "duration": "0:59"
+      }
+    },
+    
+    "summary": {
+      "text": "莱顿瓶是第一个“电容器”(Capacitor)，即能够“储存”和“释放”静电荷的装置。它由荷兰莱顿大学的彼得·范·穆森布鲁克（Pieter van Musschenbroek）在1745-1746年间独立发明（德国的Ewald Georg von Kleist在1745年也独立发明了类似装置）。其经典构造是一个玻璃瓶，内外两面都贴有金属箔，瓶口由一个绝缘塞子塞住，一根金属杆穿过塞子与内部的金属箔相连。它首次使人类能够储存大量电荷，以供后续实验使用。",
+      "text_en": "The Leyden jar was the first 'capacitor'—a device that could *store* and *discharge* a significant electrical charge. It was invented independently by Pieter van Musschenbroek of Leiden University (1745-46) and Ewald Georg von Kleist of Germany (1745). Its classic form is a glass jar coated inside and out with metal foil. A rod passes through an insulating stopper to make contact with the inner foil. It allowed experimenters, for the first time, to build up and store a large charge for later use.",
+      "key_points": [
+        "发明了第一个“电容器”(Capacitor)",
+        "首次实现了“储存”大量静电荷",
+        "由 Musschenbroek 和 Von Kleist 独立发明",
+        "经典构造：玻璃瓶 + 内外金属箔",
+        "使得强大的“电击”实验成为可能"
+      ],
+      "key_points_en": [
+        "Invented the first 'Capacitor'",
+        "First device to 'store' a large static electrical charge",
+        "Invented independently by Musschenbroek and Von Kleist",
+        "Classic design: Glass jar with foil inside and out",
+        "Made powerful 'electric shock' experiments possible"
+      ]
+    },
+  
+    "story": {
+      "text": "莱顿瓶的发现是一个“意外事故”。穆森布鲁克（或他的学生）试图将一台“静电起电机”产生的“电”储存在一个玻璃“水”瓶中。他一手握着玻璃瓶，另一只手去触碰从水中伸出的金属丝，结果遭到了极其猛烈（甚至痛苦）的电击。他（和他同事）意识到，玻璃瓶（作为绝缘体）隔开了他握瓶的手（外导体）和瓶中的水（内导体），从而“储存”了巨大的电荷。这个装置迅速传遍欧洲，本杰明·富兰克林（Benjamin Franklin）后来将其命名为“莱顿瓶”（Leyden Jar），并用它来进行他著名的风筝实验。",
+      "text_en": "The discovery was an *accident*. Musschenbroek (or his student) was trying to 'store' electricity from a 'static generator' in a jar of *water*. He held the jar in one hand and touched the wire coming from the water with his other hand, receiving a severe, painful shock. He realized the glass jar (the insulator) had separated his hand *outside* (outer conductor) from the *water inside* (inner conductor), 'storing' a massive charge. The device spread rapidly, was named the 'Leyden Jar' by Benjamin Franklin, and was the tool Franklin used for his famous kite experiment.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/15/Andreas_Cunaeus_discovering_the_Leyden_jar.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💥",
+        "text": "莱顿瓶是18世纪的“派对玩具”。科学家们会手拉手排成一排，让第一个人接触莱顿瓶，强大的电击会同时穿过所有人，使他们猛烈跳起。",
+        "text_en": "Leyden jars were 18th-century 'party tricks'. Experimenters would have a line of people hold hands, and the first person would touch the jar, sending a powerful shock through the entire line, making them all jump simultaneously."
+      },
+      {
+        "icon": " terminology",
+        "text": "本杰明·富兰克林在描述他的莱顿瓶实验时，首次使用了“电池”(Battery) 这个词，他将多个莱顿瓶排成一排（a battery of jars），就像一个“炮兵阵列”(battery of cannons)。",
+        "text_en": "Benjamin Franklin coined the term 'Battery' while describing his experiments with *multiple* Leyden jars linked together, which he compared to a 'battery of cannons'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在莱顿瓶发明之前，“电”就像“闪电”一样，你刚造出来它就消失了，你抓不住它。\n莱顿瓶是第一个“电的瓶子”。它是一个玻璃瓶，里面和外面都贴着锡纸。你可以把“静电”不断地“泵”进瓶子里，它就会被“储存”在玻璃的两侧。然后，你可以把这个“瓶装闪电”带到别处，在需要的时候，用一根金属棒“砰”地一下把它释放出来。",
+      "text_en": "Before the Leyden Jar, 'electricity' was like 'lightning'—the moment you made it (by rubbing amber or a glass rod), it was gone. You couldn't *hold* it.\nThe Leyden Jar was the first 'Bottle for Electricity'. It's a glass jar with foil on the inside and foil on the outside. You can 'pump' static electricity *into* the jar, and it gets *stored* on the two sides of the glass. You can then carry this 'bottled lightning' around and *discharge* it with a 'BANG!' whenever you want.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Leyden_jar_showing_construction.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚡",
+          "title": "静电研究",
+          "title_en": "Static Electricity Research",
+          "text": "莱顿瓶是18世纪所有电学实验（如本杰明·富兰克林的风筝实验）的核心工具，它提供了可控的、强大的电荷源。",
+          "text_en": "The Leyden jar was the central tool for *all* electrical experiments in the 18th century, including Benjamin Franklin's kite experiment. It provided a controllable, powerful source of charge."
+        },
+        {
+          "icon": " Sparks",
+          "title": "火花隙发射器",
+          "title_en": "Spark-Gap Transmitters",
+          "text": "莱顿瓶的“充-放电”循环，是赫兹（`hertz_waves_1887`）和马可尼（Marconi）后来发明的“火花隙发射器”（最早的无线电发射器）的原理基础。",
+          "text_en": "The 'charge-and-discharge' cycle of the Leyden jar is the basic principle behind the 'spark-gap transmitter', the first radio transmitters built by Hertz (`hertz_waves_1887`) and Marconi."
+        },
+        {
+          "icon": "💻",
+          "title": "现代电容器",
+          "title_en": "Modern Capacitors",
+          "text": "莱顿瓶是“电容器”(Capacitor) 的鼻祖。你现在使用的每一块电路板（手机、电脑）上都有数百个微型“莱顿瓶”（电容器），用于储存和调节电荷。",
+          "text_en": "The Leyden jar is the direct ancestor of the 'Capacitor'. Every circuit board you own (phone, computer) has hundreds of microscopic 'Leyden jars' (capacitors) on it, used to store and regulate charge."
+        }
+      ],
+  
+    "impact": {
+      "text": "莱顿瓶的发明，将“电学”从一种“哲学奇观”（摩擦琥珀）转变为一门“实验科学”。它首次使人类能够“积聚”和“储存”大量的电，从而系统性地研究其特性（如电击、火花、传导）。这是通往伽伐尼（`galvani_animal_electricity_1791`）、伏打（`volta_battery_1800`）和法拉第（`faraday_induction_1831`）的“电气时代”的第一步。",
+      "text_en": "The invention of the Leyden jar transformed 'electricity' from a 'philosophical curiosity' (rubbing amber) into an 'experimental science'. For the first time, it allowed humans to *accumulate* and *store* a large amount of electricity, making it possible to systematically study its properties (shocks, sparks, conduction). This was the first step on the road to Galvani (`galvani_animal_electricity_1791`), Volta (`volta_battery_1800`), and the entire Age of Electricity.",
+      "stats": [
+          {
+            "number": "1",
+            "label": "个电容器",
+            "label_en": "First Capacitor"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "guericke_static_generator_1663",
+          "contribution": "奥托·冯·格里克（其“静电起电机”是为莱顿瓶“充电”所必需的设备）",
+          "contribution_en": "Otto von Guericke (his 'static generator' was the machine needed to 'charge' the Leyden jar)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "franklin_kite_1752",
+          "contribution": "本杰明·富兰克林（其著名的“风筝实验”就是用莱顿瓶来“储存”闪电的电荷）",
+          "contribution_en": "Benjamin Franklin (his famous 'kite experiment' used a Leyden jar to 'store' the charge from the lightning)"
+        },
+        {
+          "id": "galvani_animal_electricity_1791",
+          "contribution": "伽伐尼（其“动物电”实验将生物体比作莱顿瓶）",
+          "contribution_en": "Galvani (his 'animal electricity' experiments compared the muscle to a Leyden jar)"
+        },
+        {
+          "id": "hertz_waves_1887",
+          "contribution": "海因里希·赫兹（其“火花隙发射器”的原理是基于莱顿瓶的快速充放电）",
+          "contribution_en": "Heinrich Hertz (his 'spark-gap transmitter' was based on the rapid charge/discharge principle of a Leyden jar)"
+        }
+      ],
+      "legacy_text": "莱顿瓶是第一个“电的捕鼠器”——它向世界展示了如何“捕捉”和“储存”电。",
+      "legacy_text_en": "The Leyden jar was the first 'mousetrap for electricity'—it showed the world how to 'catch' and 'store' electrical charge."
+    },
+  
+    "related_concepts": ["电容器 (Capacitor)", "静电 (Static Electricity)", "电荷 (Charge)", "本杰明·富兰克林 (Benjamin Franklin)", "伏打电堆 (Voltaic Pile)", "电容 (Capacitance)", "穆森布鲁克 (Musschenbroek)"],
+    "related_concepts_en": ["Capacitor", "Static Electricity", "Electric Charge", "Benjamin Franklin", "Voltaic Pile", "Capacitance", "Musschenbroek"],
+  
+    "quiz": {
+      "question": "“莱顿瓶”（Leyden Jar）是人类历史上第一个用来做什么的装置？",
+      "question_en": "The 'Leyden Jar' was the first device in history invented to do what?",
+      "options": [
+        "产生持续的电流",
+        "储存大量的静电荷",
+        "测量电压",
+        "将光分解为光谱"
+      ],
+      "options_en": [
+        "Create a continuous electric current",
+        "Store a large amount of static electricity",
+        "Measure voltage",
+        "Split light into a spectrum"
+      ],
+      "answer": 1,
+      "explanation": "在莱顿瓶之前，人们能“制造”静电（如摩擦），但无法“储存”它。莱顿瓶是第一个“电容器”，能像“瓶子”一样把电荷储存起来，以供日后使用。",
+      "explanation_en": "Before the Leyden jar, people could 'make' static electricity (via friction), but they couldn't *store* it. The Leyden jar was the first 'capacitor', allowing charge to be 'bottled up' for later use."
+    }
+  }

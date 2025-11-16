@@ -1,0 +1,13 @@
+{
+    "name": "艾萨克·牛顿",
+    "name_en": "Isaac Newton",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+    "bio_short": "英国数学家、物理学家、天文学家和神学家，被广泛认为是有史以来最伟大的科学家之一。",
+    "bio_short_en": "An English mathematician, physicist, astronomer, and theologian, widely recognized as one of the greatest scientists of all time.",
+    "events": [
+      "newton_calculus_1666",
+      "newton_gravity_1687",
+      "newton_motion_laws_1687",
+      "newton_opticks_1704"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "伊本·沙蒂尔",
+    "name_en": "Ibn al-Shatir",
+    "portrait": "assets/images/ibnuasshatir.png",
+    "bio_short": "阿拉伯天文学家、数学家和工程师。他是伊斯兰黄金时代马拉盖学派的杰出代表，他建立的行星模型在数学上与哥白尼的模型惊人地相似。",
+    "bio_short_en": "An Arab astronomer, mathematician, and engineer. He was a leading figure of the Maragha school, and his planetary models were mathematically identical to those later used by Copernicus.",
+    "events": [
+      "ibn_al_shatir_model_1350"
+    ]
+  }

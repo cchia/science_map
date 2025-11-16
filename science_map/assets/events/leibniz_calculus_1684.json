@@ -1,0 +1,151 @@
+{
+    "id": "leibniz_calculus_1684",
+    "personId": "gottfried_leibniz",
+    "title": "发表微积分论文《新方法》",
+    "title_en": "Publishes Calculus Paper 'Nova Methodus'",
+    "year": 1684,
+    "lat": 52.1205,
+    "lng": 11.6276,
+    "city": "汉诺威",
+    "city_en": "Hanover",
+    "country": "德国",
+    "country_en": "Germany",
+    "field": [
+        "数学"
+    ],
+    "field_en": [
+        "Mathematics"
+    ],
+    "media": {
+        "video": {
+            "url": "https://www.youtube.com/watch?v=NLU9U8-wJrM",
+            "title": "微积分基本定理",
+            "title_en": "The Fundamental Theorem of Calculus: Redefining Integration",
+            "duration": "9:37"
+        }
+    },
+    "summary": {
+        "text": "戈特弗里德·威廉·莱布尼茨在1684年发表了题为《一种求极大值与极小值以及切线的新方法》（Nova Methodus pro Maximis et Minimis）的论文，这是历史上第一篇公开发表的微积分论文。莱布尼茨独立于牛顿发明了微积分，并创造了我们今天使用的微积分符号系统，包括微分符号dx、dy和积分符号∫。他的符号系统比牛顿的流数法记号更加清晰和实用，最终被全世界采用。",
+        "text_en": "In 1684, Gottfried Wilhelm Leibniz published the paper 'Nova Methodus pro Maximis et Minimis' (A New Method for Maxima and Minima, and for Tangents), the first published paper on calculus in history. Leibniz independently invented calculus alongside Newton and created the calculus notation system we use today, including the differential symbols dx, dy, and the integral symbol ∫. His notation was clearer and more practical than Newton's fluxion notation, and was eventually adopted worldwide.",
+        "key_points": [
+            "第一篇公开发表的微积分论文",
+            "独立发明微积分（与牛顿同时）",
+            "创造了现代微积分符号系统（dx, dy, ∫）",
+            "符号系统比牛顿的更清晰实用"
+        ],
+        "key_points_en": [
+            "First published paper on calculus",
+            "Independently invented calculus (alongside Newton)",
+            "Created modern calculus notation (dx, dy, ∫)",
+            "Notation system was clearer and more practical than Newton's"
+        ]
+    },
+    "story": {
+        "text": "莱布尼茨在1675年就已经完成了微积分的基本体系，但直到1684年才正式发表。他发明的符号系统——用dx表示无穷小的变化量，用∫表示求和（积分）——比牛顿的点记号（流数法）更加直观和易于使用。这导致了历史上著名的“微积分优先权争议”：牛顿的支持者声称牛顿在1665-1666年就已经发明了微积分（虽然直到1704年才发表），而莱布尼茨的支持者则指出莱布尼茨是第一个公开发表的。现代历史学家普遍认为两人是独立发明的，但莱布尼茨的符号系统最终胜出，成为现代数学的标准。",
+        "text_en": "Leibniz had completed the basic system of calculus by 1675, but did not formally publish until 1684. His notation system—using dx to represent infinitesimal changes and ∫ to represent summation (integration)—was more intuitive and easier to use than Newton's dot notation (method of fluxions). This led to the famous 'calculus priority dispute': Newton's supporters claimed Newton had invented calculus in 1665-1666 (though not published until 1704), while Leibniz's supporters pointed out that Leibniz was the first to publish. Modern historians generally agree both invented it independently, but Leibniz's notation system ultimately won out and became the standard in modern mathematics."
+    },
+    "fun_facts": [
+        {
+            "icon": "📝",
+            "text": "莱布尼茨的积分符号∫来自拉丁文“summa”（求和）的首字母S的拉长形式，而微分符号d来自拉丁文“differentia”（差异）。",
+            "text_en": "Leibniz's integral symbol ∫ comes from an elongated form of the letter S, the first letter of the Latin word 'summa' (sum), while the differential symbol d comes from the Latin word 'differentia' (difference)."
+        },
+        {
+            "icon": "⚔️",
+            "text": "微积分优先权争议导致英国数学界长期拒绝使用莱布尼茨的符号，坚持使用牛顿的流数法，这使英国数学发展落后于欧洲大陆近一个世纪。",
+            "text_en": "The calculus priority dispute led British mathematicians to refuse to use Leibniz's notation, insisting on Newton's fluxion notation, which caused British mathematics to lag behind continental Europe for nearly a century."
+        }
+    ],
+    "simple_explanation": {
+        "text": "想象你在画一条曲线，想知道曲线在某一点的“陡峭程度”（斜率）。莱布尼茨发明了“微分”来计算这个斜率。反过来，如果你知道每个点的斜率，想求出整条曲线的“面积”，莱布尼茨发明了“积分”。这两个操作是互逆的，就像加法和减法一样。",
+        "text_en": "Imagine you're drawing a curve and want to know how 'steep' it is at a certain point (the slope). Leibniz invented 'differentiation' to calculate this slope. Conversely, if you know the slope at each point and want to find the 'area' under the entire curve, Leibniz invented 'integration'. These two operations are inverse to each other, like addition and subtraction."
+    },
+    "applications": [
+        {
+            "icon": "📐",
+            "title": "现代数学基础",
+            "title_en": "Foundation of Modern Mathematics",
+            "text": "微积分是现代数学、物理学、工程学和经济学的基础工具。",
+            "text_en": "Calculus is the fundamental tool of modern mathematics, physics, engineering, and economics."
+        },
+        {
+            "icon": "🚀",
+            "title": "科学计算",
+            "title_en": "Scientific Computing",
+            "text": "莱布尼茨的符号系统使微积分计算更加直观和高效，至今仍是标准。",
+            "text_en": "Leibniz's notation system made calculus calculations more intuitive and efficient, and remains the standard today."
+        }
+    ],
+    "impact": {
+        "text": "莱布尼茨的微积分论文标志着现代数学分析的开端。虽然他与牛顿就优先权发生了争议，但两人都是微积分的独立发明者。莱布尼茨的符号系统最终成为国际标准，使微积分成为所有科学和工程领域的基础工具。没有微积分，就没有现代物理学、工程学、经济学和计算机科学。",
+        "text_en": "Leibniz's calculus paper marked the beginning of modern mathematical analysis. Although he had a priority dispute with Newton, both independently invented calculus. Leibniz's notation system ultimately became the international standard, making calculus the fundamental tool for all fields of science and engineering. Without calculus, there would be no modern physics, engineering, economics, or computer science.",
+        "stats": [
+            {
+                "number": "1684",
+                "label": "年 (发表微积分论文)",
+                "label_en": "Year (Calculus Paper Published)"
+            },
+            {
+                "number": "∫",
+                "label": "积分符号（莱布尼茨发明）",
+                "label_en": "Integral Symbol (Invented by Leibniz)"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "archimedes_calculus_BC240",
+                "contribution": "阿基米德（其“穷竭法”为微积分提供了基础）",
+                "contribution_en": "Archimedes (his 'Method of Exhaustion' provided the foundation for calculus)"
+            },
+            {
+                "id": "eudoxus_exhaustion_BC370",
+                "contribution": "欧多克索斯（其“穷竭法”是微积分的前身）",
+                "contribution_en": "Eudoxus (his 'Method of Exhaustion' was a precursor to calculus)"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "newton_calculus_1666",
+                "contribution": "牛顿（两人独立发明微积分，引发了优先权争议，但莱布尼茨的符号系统最终被采用）",
+                "contribution_en": "Newton (both independently invented calculus, leading to a priority dispute, but Leibniz's notation system was ultimately adopted)"
+            }
+        ],
+        "legacy_text": "莱布尼茨与牛顿共同发明了微积分，但莱布尼茨的符号系统成为了现代数学的标准。",
+        "legacy_text_en": "Leibniz and Newton co-invented calculus, but Leibniz's notation system became the standard in modern mathematics."
+    },
+    "related_concepts": [
+        "微积分 (Calculus)",
+        "微分 (Differentiation)",
+        "积分 (Integration)",
+        "牛顿 (Newton)",
+        "符号系统 (Notation)"
+    ],
+    "related_concepts_en": [
+        "Calculus",
+        "Differentiation",
+        "Integration",
+        "Newton",
+        "Notation"
+    ],
+    "quiz": {
+        "question": "莱布尼茨与牛顿的微积分优先权争议主要涉及什么？",
+        "question_en": "What did the calculus priority dispute between Leibniz and Newton mainly concern?",
+        "options": [
+            "谁先发明了微积分",
+            "谁的符号系统更好",
+            "谁的哲学思想更深刻",
+            "谁的应用更广泛"
+        ],
+        "options_en": [
+            "Who invented calculus first",
+            "Whose notation system was better",
+            "Whose philosophical ideas were deeper",
+            "Whose applications were broader"
+        ],
+        "answer": 0,
+        "explanation": "争议的核心是谁先发明了微积分。牛顿的支持者声称牛顿在1665-1666年就已发明（但未发表），而莱布尼茨在1684年第一个公开发表。现代历史学家认为两人是独立发明的。",
+        "explanation_en": "The core of the dispute was who invented calculus first. Newton's supporters claimed Newton had invented it in 1665-1666 (but not published), while Leibniz was the first to publish in 1684. Modern historians believe both invented it independently."
+    }
+}
