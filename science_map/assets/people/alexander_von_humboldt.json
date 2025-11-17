@@ -1,0 +1,11 @@
+{
+    "name": "亚历山大·冯·洪堡",
+    "name_en": "Alexander von Humboldt",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/36/Stieler%2C_Joseph_Karl_-_Alexander_von_Humboldt_-_1843.jpg",
+    "bio_short": "普鲁士博学家、地理学家、博物学家和探险家。他被认为是“现代地理学之父”，其“美洲探险” (`humboldt_americas_1799`) 和“等温线” (`humboldt_isotherms_1817`) 的发明，开创了生物地理学和比较气候学。",
+    "bio_short_en": "A Prussian polymath, geographer, naturalist, and explorer. Considered the 'father of modern geography', his scientific expedition to the Americas (`humboldt_americas_1799`) and his invention of 'isotherms' (`humboldt_isotherms_1817`) founded biogeography and comparative climatology.",
+    "events": [
+      "humboldt_americas_1799",
+      "humboldt_isotherms_1817"
+    ]
+  }

@@ -36,7 +36,10 @@ for event_file in EVENTS_DIR.glob("*.json"):
     if event_id:
         all_person_ids[event_id] = person_id
         if person_id:
-            referenced_people.add(person_id)
+            if isinstance(person_id, list):
+                referenced_people.update(person_id)
+            else:
+                referenced_people.add(person_id)
 
     # 检查influence_chain
     influence_chain = event_data.get("influence_chain", {})
@@ -60,9 +63,12 @@ missing_people = referenced_people - existing_people
 # 为缺失的event找出对应的person_id
 missing_people_from_events = set()
 for event_id in missing_events:
-    person_id = all_person_ids.get(event_id)
-    if person_id and person_id not in existing_people:
-        missing_people_from_events.add(person_id)
+    person_id_val = all_person_ids.get(event_id)
+    if person_id_val:
+        p_ids = person_id_val if isinstance(person_id_val, list) else [person_id_val]
+        for p_id in p_ids:
+            if p_id and p_id not in existing_people:
+                missing_people_from_events.add(p_id)
 
 # 合并缺失的people
 all_missing_people = missing_people | missing_people_from_events

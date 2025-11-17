@@ -1,0 +1,10 @@
+{
+    "name": "苏布拉马尼扬·钱德拉塞卡",
+    "name_en": "Subrahmanyan Chandrasekhar",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Subrahmanyan_Chandrasekhar.jpg",
+    "bio_short": "印度裔美国天体物理学家。他因在恒星结构和演化方面的理论研究而闻名，特别是计算出了“钱德拉塞卡极限”（`chandrasekhar_limit_1931`），该极限决定了白矮星的命运，并因此获得了1983年的诺贝尔物理学奖。",
+    "bio_short_en": "An Indian-American astrophysicist. He was awarded the 1983 Nobel Prize for his theoretical studies of the physical processes of importance to the structure and evolution of stars, particularly his calculation of the 'Chandrasekhar Limit' (`chandrasekhar_limit_1931`) which determines the fate of white dwarfs.",
+    "events": [
+      "chandrasekhar_limit_1931"
+    ]
+  }

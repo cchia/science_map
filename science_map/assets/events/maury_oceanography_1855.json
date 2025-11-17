@@ -1,0 +1,150 @@
+{
+    "id": "maury_oceanography_1855",
+    "personId": "matthew_fontaine_maury",
+    "title": "发表《海洋自然地理》",
+    "title_en": "Publishes 'The Physical Geography of the Sea'",
+    "year": 1855,
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "city": "华盛顿特区 (及伦敦)",
+    "city_en": "Washington, D.C. (and London)",
+    "country": "美国 / 英国",
+    "country_en": "USA / UK",
+    "field": ["地理学", "物理学"],
+    "field_en": ["Geography", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Rear_map.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=RZ-orNolP9g",
+        "title": "马修·莫里：海洋探路者",
+        "title_en": "Matthew Fontaine Maury: Pathfinder of the Seas",
+        "duration": "27:46"
+      }
+    },
+    
+    "summary": {
+      "text": "美国海军军官马修·方丹·莫里（Matthew Fontaine Maury）发表了《海洋自然地理》，这被认为是“现代物理海洋学”的第一本教科书。莫里是第一个系统性地“数据挖掘”了数千份“旧船长日志”的人。通过汇编这些关于“风”和“洋流”的数据，他绘制了第一张全球“风与洋流图”，为水手们指明了海洋中的“高速公路”。",
+      "text_en": "Matthew Fontaine Maury, an American naval officer, published 'The Physical Geography of the Sea', considered the first textbook of modern 'physical oceanography'. Maury was the first person to systematically 'data mine' thousands of 'old ship's logs'. By compiling this data on winds and currents, he created the first comprehensive 'Wind and Current Charts', effectively showing sailors the 'highways' of the ocean.",
+      "key_points": [
+        "开创了“物理海洋学”(Physical Oceanography)",
+        "“海洋探路者”(Pathfinder of the Seas)",
+        "绘制了第一张全球“风与洋流图”",
+        "首次“数据挖掘”了“船长日志”",
+        "极大地缩短了全球航海时间"
+      ],
+      "key_points_en": [
+        "Founded 'Physical Oceanography'",
+        "Known as the 'Pathfinder of the Seas'",
+        "Created the first global 'Wind and Current Charts'",
+        "First to 'data mine' 'ship's logs'",
+        "Dramatically shortened global sailing times"
+      ]
+    },
+  
+    "story": {
+      "text": "莫里在1842年被任命为美国海军“海图与仪器库”（后来的海军天文台）的负责人。他发现储藏室里堆满了成千上万本“布满灰尘”的旧“航海日志”。在他之前，这些日志被视为“废纸”。但莫里意识到，它们是“大数据的金矿”：每一本日志都记录了在特定日期、特定地点的“风向”和“洋流”信息。他雇佣了一个团队，将这些数据“提取”并“可视化”到一张海图上。结果令人震惊：海洋并非一片混乱，而是充满了“可预测”的“河流”（洋流）和“风带”。他出版的这些海图，立即将从纽约到加利福尼亚的航行时间（绕过合恩角）缩短了“30天”以上。",
+      "text_en": "In 1842, Maury was put in charge of the U.S. Navy's 'Depot of Charts and Instruments'. He found a storage room filled with thousands of 'dusty old ship's logs'. Everyone else saw them as 'junk'. Maury saw a 'big data goldmine'. Every log was a data point for *wind* and *current* at a specific *place* and *time*. He hired a team to *extract* this data and *visualize* it on a chart. The result was stunning: the ocean was not chaos, but a predictable system of 'rivers' (currents) and 'belts' (winds). His published charts *immediately* cut the voyage time from New York to California (around Cape Horn) by *over 30 days*."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🐋",
+        "text": "莫里还将他的数据应用于“捕鲸业”，他绘制了“鲸鱼迁徙图”，告诉捕鲸船在什么“季节”去什么“地点”能找到鲸鱼。",
+        "text_en": "Maury also applied his data to the whaling industry, creating 'whale charts' that showed whalers *where* to go in which *season* to find their prey."
+      },
+      {
+        "icon": " Kabel",
+        "text": "莫里利用他的海图（特别是对“平静”海底高原的发现），帮助规划了第一条“跨大西洋电报电缆” (`transatlantic_cable_1858`) 的“最佳路径”。",
+        "text_en": "Maury used his charts (finding a 'calm' underwater plateau) to help plot the *optimal route* for the first 'Transatlantic Telegraph Cable' (`transatlantic_cable_1858`)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在莫里之前，航海就像“在没有地图的情况下开车穿越沙漠”。\n莫里是第一个“发明地图”的人。他没有自己去探险，而是找到了“一万份”旧的“旅行日记”（船长日志），并把它们全部读完。他把“A点到B点”的所有信息（风向、水流）“平均”起来，画出了一条“高速公路”。\n他告诉船长们：“如果你走这条‘高速公路’（湾流），你就能早到一个月。如果你走错了，你就是在‘逆行’。”\n他是“海洋学”的“数据科学家”。",
+      "text_en": "Before Maury, sailing was like 'driving across a desert with no map'.\nMaury was the first person to *invent the map*. He didn't explore himself. Instead, he found '10,000 old travel diaries' (ship logs) and read them all. He 'averaged' all the information (wind, current) for the trip from 'A to B' and drew the 'interstate highway'.\nHe told captains: 'If you take this highway (the Gulf Stream), you'll get there a month faster. If you don't, you're driving in the wrong direction.'\nHe was the 'data scientist' of the ocean."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🚢",
+          "title": "商业航运",
+          "title_en": "Commercial Shipping",
+          "text": "他的海图为全球航运业节省了数百万美元（以当时计），并使航行变得更安全、更可预测。",
+          "text_en": "His charts saved the global shipping industry millions of dollars (in 1850s money) and made sailing far safer and more predictable."
+        },
+        {
+          "icon": " Kabel",
+          "title": "海底电缆 (Submarine Cables)",
+          "title_en": "Submarine Cables",
+          "text": "他绘制的海底地形图对于铺设“跨大西洋电报电缆”（`transatlantic_cable_1858`）至关重要。",
+          "text_en": "His charts of the ocean floor were essential for laying the Transatlantic Telegraph Cable (`transatlantic_cable_1858`)."
+        },
+        {
+          "icon": "🌦️",
+          "title": "气象学 (Meteorology)",
+          "title_en": "Meteorology",
+          "text": "莫里在1853年组织了“第一次”国际气象会议（布鲁塞尔），推动了“标准化的”气象数据记录，这是所有现代“天气预报”的开端。",
+          "text_en": "Maury organized the *first* international meteorological conference (Brussels, 1853) to *standardize* weather data logging, which is the beginning of all modern weather forecasting."
+        }
+      ],
+  
+    "impact": {
+      "text": "马修·莫里是“大数据”的19世纪先驱。他将“海洋学”和“气象学”从“轶事”的集合转变为“定量”的、“系统性”的科学。他证明了“海洋”是一个“全球性的、相互关联的循环系统”。他的工作是继本杰明·富兰克林（`franklin_gulf_stream_1768`）之后最伟大的飞跃，并为所有现代“地球系统科学”奠定了基础。",
+      "text_en": "Matthew Maury was the 19th-century pioneer of 'Big Data'. He transformed 'oceanography' and 'meteorology' from a collection of 'anecdotes' into a 'quantitative, systematic science'. He proved the ocean was a 'global, interconnected, circulating system'. His work was the greatest leap in ocean science since Benjamin Franklin (`franklin_gulf_stream_1768`) and laid the groundwork for all modern 'Earth system science'.",
+      "stats": [
+          {
+            "number": "1855",
+            "label": "年 (海洋学诞生)",
+            "label_en": "Year (Birth of Oceanography)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "franklin_gulf_stream_1768",
+          "contribution": "本杰明·富兰克林（其对“湾流”的“单条”洋流绘制，是莫里“全球”绘制的先驱）",
+          "contribution_en": "Benjamin Franklin (his charting of a *single* current, the Gulf Stream, was the precursor to Maury's *global* charts)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "transatlantic_cable_1858",
+          "contribution": "跨大西洋电报电缆（其“海底高原”的发现，是该项目成功的关键）",
+          "contribution_en": "The Transatlantic Cable (his discovery of the 'Telegraphic Plateau' was key to the project's success)"
+        },
+        {
+          "id": "modern_weather_forecasting",
+          "contribution": "现代天气预报（其“国际数据标准化”的倡议，是现代气象学的基础）",
+          "contribution_en": "Modern Weather Forecasting (his initiative for 'standardized international data' is the basis of modern meteorology)"
+        }
+      ],
+      "legacy_text": "马修·莫里通过“数据挖掘”旧的航海日志，发现了海洋中的“高速公路”。",
+      "legacy_text_en": "Matthew Maury 'data-mined' old ship's logs to find the 'highways' of the ocean."
+    },
+  
+    "related_concepts": ["物理海洋学 (Physical Oceanography)", "洋流 (Ocean Current)", "湾流 (Gulf Stream)", "风图 (Wind Chart)", "制图学 (Cartography)", "大数据 (Big Data)", "跨大西洋电缆 (Transatlantic Cable)"],
+    "related_concepts_en": ["Physical Oceanography", "Ocean Current", "Gulf Stream", "Wind Chart", "Cartography", "Big Data", "Transatlantic Cable"],
+  
+    "quiz": {
+      "question": "马修·莫里（Matthew Maury）在1855年发表的《海洋自然地理》一书，其数据主要来源于哪里？",
+      "question_en": "Where did Matthew Maury get the data for his 1855 book, 'The Physical Geography of the Sea'?",
+      "options": [
+        "他自己的三次环球航行",
+        "废弃的旧“船长日志”",
+        "亚历山大·冯·洪堡的笔记",
+        "詹姆斯·库克的地图"
+      ],
+      "options_en": [
+        "His own three global voyages",
+        "Discarded old 'ship's logs'",
+        "Alexander von Humboldt's notes",
+        "James Cook's maps"
+      ],
+      "answer": 1,
+      "explanation": "莫里的天才之处在于“数据挖掘”（Data Mining）。他没有自己去航行，而是意识到美国海军天文台仓库里成千上万的旧“船长日志”是一个“大数据”金矿，他从中提取了风和洋流的模式。",
+      "explanation_en": "Maury's genius was 'data mining'. Instead of sailing himself, he realized the thousands of old 'ship's logs' in the Naval Observatory's warehouse were a 'big data' goldmine, from which he extracted the patterns of wind and currents."
+    }
+  }

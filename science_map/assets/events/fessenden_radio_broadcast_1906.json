@@ -1,0 +1,155 @@
+{
+    "id": "fessenden_radio_broadcast_1906",
+    "personId": "reginald_fessenden",
+    "title": "首次“AM”广播 (传输语音和音乐)",
+    "title_en": "First 'AM' Radio Broadcast (Voice & Music)",
+    "year": 1906,
+    "lat": 42.1523,
+    "lng": -70.6698,
+    "city": "布兰特岩 (Brant Rock)",
+    "city_en": "Brant Rock, MA",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["工程学", "物理学"],
+    "field_en": ["Engineering", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Fessenden_alternator_transmitter_%281906%29.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=eLRW_jXpY_c",
+        "title": "范信达 - 无线电历史中被遗忘的重要人物",
+        "title_en": "Fessenden -The Forgotten, Indispensable Man In Radio History",
+        "duration": "10:19"
+      }
+    },
+    
+    "summary": {
+      "text": "加拿大发明家雷金纳德·范信达（Reginald Fessenden）在1906年圣诞节前夕，进行了历史上第一次“音频”广播。与马可尼（`marconi_radio_1895`）只能发送“滴-答”声（莫尔斯电码）的“火花隙”发射器不同，范信达发明了“高频交流发电机”(Alternator-Transmitter)。这台机器能产生“连续波”(Continuous Wave)，他随后用麦克风将“声音”（语音和音乐）的波形“叠加”在这条连续波上。这就是“调幅”(AM) 广播的诞生。当晚，远至弗吉尼亚州海面上的船只（本以为只会收到莫尔斯电码），惊讶地听到了范信达用小提琴演奏《O Holy Night》和朗读圣经。",
+      "text_en": "On Christmas Eve 1906, Canadian inventor Reginald Fessenden conducted the first-ever 'audio' broadcast. Unlike Marconi's (`marconi_radio_1895`) 'spark-gap' transmitter, which could only send 'beeps' (Morse code), Fessenden invented the 'alternator-transmitter'. This machine produced a 'continuous wave', and he then used a microphone to 'superimpose' the *waveform* of sound (speech and music) onto it. This was the birth of 'Amplitude Modulation' (AM) radio. That night, ships at sea as far as Virginia, expecting Morse code, were stunned to hear Fessenden playing 'O Holy Night' on his violin and reading from the Bible.",
+      "key_points": [
+        "发明了“调幅”(AM) 广播",
+        "首次在“无线电”上传输“语音”和“音乐”",
+        "发明了“高频交流发电机”(High-Frequency Alternator) 来产生“连续波”",
+        "将“无线电报”变成了“广播”(Broadcasting)",
+        "在1906年圣诞节前夕进行了历史性广播"
+      ],
+      "key_points_en": [
+        "Invented 'Amplitude Modulation' (AM) radio",
+        "First to transmit *voice and music* over radio",
+        "Invented the 'Alternator-Transmitter' (a continuous wave source)",
+        "Turned 'wireless telegraphy' into 'broadcasting'",
+        "Historic broadcast on Christmas Eve, 1906"
+      ]
+    },
+  
+    "story": {
+      "text": "马可尼（`marconi_radio_1895`）的“火花隙”系统就像一个“电报机”（`morse_code_1837`），它只能“开”或“关”。范信达的目标是实现“无线电话”（`bell_telephone_1876`）。他意识到，你不能把声音“印”在一个“开-关”的信号上；你需要一个“连续的载体”（就像一条平稳的河）。他委托通用电气公司（GE）建造了一台巨大的“高频交流发电机”，它能产生50,000赫兹的“连续波”（那条“河”）。然后，他用麦克风将“声波”“印”在这条“河”上，使其“幅度”(Amplitude) 随声音而“调制”(Modulate)——这就是“AM 调幅”。1906年圣诞节前夕，他告诉该地区所有的无线电报员“打开耳机”，他们听到的不是“滴-答”声，而是“音乐”和“人声”。“广播”诞生了。",
+      "text_en": "Marconi's (`marconi_radio_1895`) 'spark-gap' system was a *telegraph* (`morse_code_1837`): it was 'ON' or 'OFF'. Fessenden wanted a *wireless telephone* (`bell_telephone_1876`). He realized you can't put a voice on an 'ON/OFF' signal; you need a *continuous carrier*. He commissioned GE to build a massive 'high-frequency alternator' that produced a 50,000 Hz 'continuous wave' (the 'river'). He then used a microphone to 'imprint' the *sound wave* onto this 'river', making its *Amplitude Modulate* (AM) with his voice. On Christmas Eve 1906, he told all ship radio operators in the area to 'listen in'. Instead of 'dots and dashes', they heard *music* and *speech*. 'Broadcasting' was born."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": " violin",
+        "text": "范信达自己（据称）就是广播中那个拉小提琴的人。他还播放了唱片机，使之成为（可能）第一个“唱片骑师”(Disc Jockey)。",
+        "text_en": "Fessenden himself (allegedly) was the one who played the violin. He also played a phonograph record, making him (arguably) the first 'disc jockey' (DJ)."
+      },
+      {
+        "icon": "⚙️",
+        "text": "范信达的“交流发电机”是一个巨大的“机械”设备。它很快就被李·德富雷斯特（`de_forest_audion_1907`）发明的、更小、更便宜、更高效的“真空管”（Audion）所取代。",
+        "text_en": "Fessenden's 'alternator' was a massive, *mechanical* brute-force machine. It was quickly made obsolete by the smaller, cheaper, and more elegant 'vacuum tube' (the Audion) developed by Lee de Forest (`de_forest_audion_1907`)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "马可尼（`marconi_radio_1895`）发明了“无线电报”：他能发送“滴...嗒...滴...”（SOS）。\n范信达发明了“无线电广播”：他能发送“圣诞快乐！现在请听这段小提琴独奏...”\n马可尼的系统是“开/关”（数字），而范信达的系统是“连续的”（模拟），他能将“声音的形状”印在“电磁波”上。",
+      "text_en": "Marconi (`marconi_radio_1895`) invented the 'Wireless Telegraph': he could send 'Dot... Dash... Dot...' (SOS).\nFessenden invented 'Radio *Broadcasting*': he could send 'Merry Christmas! And now, a violin solo...'\nMarconi's system was 'ON/OFF' (digital). Fessenden's system was 'continuous' (analog), allowing him to imprint the *shape* of a *sound* onto an electromagnetic wave."      
+    },
+  
+    "applications": [
+        {
+          "icon": "📻",
+          "title": "广播 (Broadcasting)",
+          "title_en": "Broadcasting",
+          "text": "范信达的实验，将无线电从“点对点”的“电报”转变为“点对多点”的“广播”媒体（如新闻、音乐、娱乐）。",
+          "text_en": "Fessenden's experiment turned radio from a 'point-to-point' *telegraph* into a 'point-to-multipoint' *broadcast* medium (for news, music, and entertainment)."
+        },
+        {
+          "icon": " AM",
+          "title": "AM 调幅",
+          "title_en": "AM Radio",
+          "text": "他发明了“调幅”(Amplitude Modulation, AM) 技术，这是20世纪前半叶占主导地位的广播技术。",
+          "text_en": "He invented 'Amplitude Modulation' (AM), which was the dominant form of radio broadcasting for the first half of the 20th century."
+        },
+        {
+          "icon": " SONAR",
+          "title": "声纳 (SONAR)",
+          "title_en": "SONAR",
+          "text": "范信达后来还发明了“声纳”的雏形（“范信达振荡器”），用于探测冰山（在泰坦尼克号灾难后）。",
+          "text_en": "Fessenden later invented the first form of 'SONAR' (the 'Fessenden Oscillator') to detect icebergs (following the Titanic disaster)."
+        }
+      ],
+  
+    "impact": {
+      "text": "范信达的1906年广播是“电子媒体”的诞生日。马可尼（`marconi_radio_1895`）实现了“无线”通信，但范信达实现了“无线*广播*”。他证明了这项技术不仅可以用于“信息”（莫尔斯电码），还可以用于“文化”（语音和音乐）。这一（在当时被低估的）事件，开创了我们今天所知的“大众媒体”时代。",
+      "text_en": "Fessenden's 1906 broadcast was the birth of 'electronic mass media'. Marconi (`marconi_radio_1895`) made communication *wireless*, but Fessenden made it *broadcast*. He proved the technology could be used not just for *information* (Morse code) but for *culture* (voice and music). This single (and at the time, under-reported) event started the age of mass media as we know it.",
+      "stats": [
+          {
+            "number": "1906",
+            "label": "年 (首次音频广播)",
+            "label_en": "Year (First Audio Broadcast)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "marconi_radio_1895",
+          "contribution": "马可尼（其“火花隙”系统是范信达试图“超越”的）",
+          "contribution_en": "Marconi (his 'spark-gap' system was what Fessenden was trying to 'beat')"
+        },
+        {
+          "id": "bell_telephone_1876",
+          "contribution": "贝尔（其“电话”的“模拟语音”原理，是范信达试图“搬到”无线电上的）",
+          "contribution_en": "Bell (his 'analog voice' principle was what Fessenden sought to put *on the air*)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "de_forest_audion_1907",
+          "contribution": "李·德富雷斯特（其“真空管”将很快取代范信达“笨重”的机械发电机）",
+          "contribution_en": "Lee de Forest (his 'vacuum tube' would soon replace Fessenden's 'clunky' mechanical generator)"
+        },
+        {
+          "id": "radio_broadcasting_1920s",
+          "contribution": "1920年代的“广播热潮”（如KDKA和BBC）",
+          "contribution_en": "The 'Radio Boom' of the 1920s (KDKA, BBC, etc.)"
+        }
+      ],
+      "legacy_text": "范信达是那个将马可尼的“无线电报”变成了真正的“收音机”的人。",
+      "legacy_text_en": "Fessenden was the man who turned Marconi's 'wireless telegraph' into a true 'radio'."
+    },
+  
+    "related_concepts": ["调幅 (AM)", "连续波 (Continuous Wave)", "广播 (Broadcasting)", "无线电 (Radio)", "交流发电机 (Alternator)", "马可尼 (Marconi)", "赫兹 (Hertz)", "李·德富雷斯特 (Lee de Forest)"],
+    "related_concepts_en": ["Amplitude Modulation (AM)", "Continuous Wave (CW)", "Broadcasting", "Radio", "Alternator", "Marconi", "Hertz", "Lee de Forest"],
+  
+    "quiz": {
+      "question": "范信达（Fessenden）1906年的广播与马可尼（Marconi）的广播，最根本的区别是什么？",
+      "question_en": "What was the fundamental difference between Fessenden's 1906 broadcast and Marconi's broadcasts?",
+      "options": [
+        "范信达使用了“天线”，而马可尼没有",
+        "范信达传输了“语音和音乐”（模拟信号），而马可尼只能传“滴-答”声（数字信号）",
+        "范信达的距离更短",
+        "范信达使用的是“电池”，而马可尼使用的是“发电机”"
+      ],
+      "options_en": [
+        "Fessenden used an antenna, Marconi did not",
+        "Fessenden transmitted *voice and music* (analog), while Marconi could only transmit *dots and dashes* (digital)",
+        "Fessenden's transmission was shorter distance",
+        "Fessenden used a 'battery', Marconi used a 'generator'"
+      ],
+      "answer": 1,
+      "explanation": "马可尼（`marconi_radio_1895`）的“火花隙”系统只能“开/关”，发送莫尔斯电码。范信达发明了“连续波”发电机，允许他“调制”波形，从而发送“模拟”信号，如语音和音乐。他将“电报”变成了“广播”。",
+      "explanation_en": "Marconi's (`marconi_radio_1895`) 'spark-gap' system was 'on/off' (digital) for Morse code. Fessenden invented a 'continuous wave' generator, which allowed him to *modulate* the waveform and send *analog* signals, like voice and music. He turned the 'telegraph' into the 'radio'."
+    }
+  }

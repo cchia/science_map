@@ -1,0 +1,11 @@
+{
+    "name": "维尔纳·海森堡",
+    "name_en": "Werner Heisenberg",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Bundesarchiv_Bild183-R57262%2C_Werner_Heisenberg.jpg",
+    "bio_short": "德国理论物理学家，量子力学的先驱之一。他因创立“矩阵力学”（`heisenberg_matrix_mechanics_1925`）和发现“测不准原理”（`heisenberg_uncertainty_1927`）而获得了1932年的诺贝尔物理学奖。",
+    "bio_short_en": "A German theoretical physicist and one of the key pioneers of quantum mechanics. He was awarded the 1932 Nobel Prize in Physics for the creation of 'matrix mechanics' (`heisenberg_matrix_mechanics_1925`) and his discovery of the 'Uncertainty Principle' (`heisenberg_uncertainty_1927`).",
+    "events": [
+      "heisenberg_matrix_mechanics_1925",
+      "heisenberg_uncertainty_1927"
+    ]
+  }

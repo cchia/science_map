@@ -1,0 +1,149 @@
+{
+    "id": "edison_effect_1883",
+    "personId": "thomas_edison",
+    "title": "发现“爱迪生效应” (热电子发射)",
+    "title_en": "Discovers the 'Edison Effect' (Thermionic Emission)",
+    "year": 1883,
+    "lat": 40.5187,
+    "lng": -74.4610,
+    "city": "门洛帕克",
+    "city_en": "Menlo Park, NJ",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Thermionic_filament.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=_PQyGILCb6c",
+        "title": "发现“爱迪生效应” (热电子发射)",
+        "title_en": "Thermionic Emission and the Edison Effect ",
+        "duration": "16:35"
+      }
+    },
+    
+    "summary": {
+      "text": "托马斯·爱迪生（Thomas Edison）在试图改进他的“白炽灯泡”时，偶然发现了一个关键的物理现象。他在灯泡内部、靠近灯丝的地方额外插入了一块“金属板”。他观察到，如果这块金属板连接到灯丝的“正极”，就会有一股“看不见的电流”从“热灯丝”（阴极）穿过“真空”，“跳”到“金属板”（阳极）上。如果金属板连接到“负极”，则什么也不发生。这个“电流只在一个方向上流动”的现象，就是“爱迪生效应”，现在被称为“热电子发射”(Thermionic Emission)。",
+      "text_en": "While trying to improve his incandescent light bulb, Thomas Edison stumbled upon a key physical phenomenon. He inserted an extra 'metal plate' near the filament. He observed that if this plate was connected to the *positive* side of the filament, an invisible 'current' would *flow* from the *hot filament* (the cathode) *through the vacuum* to the *plate* (the anode). If the plate was connected to the *negative* side, nothing happened. This 'one-way flow' of electricity through a vacuum was the 'Edison Effect', now known as 'Thermionic Emission'.",
+      "key_points": [
+        "发现了“热电子发射”(Thermionic Emission)",
+        "证明了电流可以“穿过真空”",
+        "电流只能“单向”流动（从热灯丝到正极板）",
+        "这是爱迪生唯一的“纯科学”发现",
+        "为“真空管”(Vacuum Tube) 奠定了基础"
+      ],
+      "key_points_en": [
+        "Discovered 'Thermionic Emission'",
+        "Proved current can flow *through a vacuum*",
+        "Current only flows *one way* (hot filament to positive plate)",
+        "Edison's only major 'pure science' discovery",
+        "The foundational principle of the 'Vacuum Tube'"
+      ]
+    },
+  
+    "story": {
+      "text": "爱迪生当时正被一个问题所困扰：他的灯泡在使用几小时后，玻璃内部会“变黑”（被碳沉积）。他以为是灯丝上“蒸发”下来的碳粒子。为了“捕捉”这些粒子，他在灯泡里加了一块金属板。令他惊讶的是，当他给这块板通上“正电”时，电流计显示有电流通过；而通上“负电”时，则没有电流。他（错误地）认为这是碳粒子在流动。但他还是在1883年为这个“效应”申请了专利（美国专利307,031），并将其作为一种“电压指示器”，但他自己并没有看到它的真正潜力。他发现的其实是“电子”的流动，即“热电子发射”。",
+      "text_en": "Edison was trying to solve why his light bulbs turned 'black' on the inside (carbon deposits). He added a metal plate, thinking it would 'catch' the carbon particles. He was amazed to see that when the plate was given a *positive* charge, a current flowed. When it was *negative*, no current flowed. He (incorrectly) assumed this was the carbon flow. He patented the effect in 1883 (U.S. 307,031) as a 'voltage indicator', but he saw no further potential in it. He had, in fact, discovered the flow of *electrons*—thermionic emission."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤷",
+        "text": "“爱迪生效应”是爱迪生一生中“唯一”的重大“科学发现”。他本质上是一位“发明家”和“工程师”，而不是“理论科学家”。他发现了这个现象，却（讽刺地）忽视了它。",
+        "text_en": "The 'Edison Effect' was Edison's *only* major 'scientific discovery'. He was an 'inventor' and 'engineer', not a 'theoretical scientist'. He found it, and (ironically) ignored it."
+      },
+      {
+        "icon": "⏳",
+        "text": "这个发现在科学界被当作“奇闻”忽视了近20年。直到1904年，约翰·弗莱明（John Fleming）才将其应用，发明了“二极管”（`fleming_diode_1904`）。",
+        "text_en": "This discovery sat on a shelf as a 'scientific curiosity' for 20 years, until John Fleming (`fleming_diode_1904`) finally found a use for it in 1904."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一个“烤面包机”（热灯丝）在一个“密封的真空盒子”里。爱迪生发现，如果你在盒子旁边放一块“金属板”：\n1. 如果你给金属板通“正电”（+），“电子”（面包屑）会从“烤面包机”（热灯丝）上“沸腾”出来，穿过“真空”，“粘”在金属板上，形成“电流”。\n2. 如果你给金属板通“负电”（-），电子会被“推开”，什么也不发生。\n\n他发现了一个“单向阀门”：电流只能“从热到冷”单向流动。这个“阀门”就是所有“真空管”的基础。",
+      "text_en": "Imagine a 'toaster' (a hot filament) inside a 'sealed vacuum box'. Edison discovered that if you put a 'metal plate' next to it:\n1. If you give the plate a *Positive* (+) charge, 'electrons' (crumbs) will 'boil off' the hot toaster, fly *through the vacuum*, and *stick* to the plate, creating a *current*.\n2. If you give the plate a *Negative* (-) charge, the electrons are *repelled*, and *nothing* happens.\n\nHe had discovered a 'one-way valve' for electricity: current can *only* flow from the hot filament to the positive plate. This 'valve' is the basis for *all* vacuum tubes.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a0/EdisonEffect-side-by-side.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📻",
+          "title": "二极管/弗莱明阀 (Diode/Fleming Valve)",
+          "title_en": "The Diode (Fleming Valve)",
+          "text": "约翰·弗莱明（`fleming_diode_1904`）利用“爱迪生效应”的“单向”特性，发明了“弗莱明阀”（二极管），它可以将无线电波的“交流电”信号“整流”为“直流电”信号。",
+          "text_en": "John Fleming (`fleming_diode_1904`) used the 'one-way' nature of the Edison Effect to invent the 'Fleming Valve' (the Diode), which could 'rectify' an AC radio signal into a DC signal."
+        },
+        {
+          "icon": "📺",
+          "title": "电子时代的开端",
+          "title_en": "Start of the Electronic Age",
+          "text": "“爱迪生效应”是李·德富雷斯特（`de_forest_audion_1907`）发明的“三极管”（第一个放大器）的“物理学原理”。所有真空管技术（收音机、电视、早期计算机）都始于此。",
+          "text_en": "The 'Edison Effect' is the *physical principle* behind Lee de Forest's (`de_forest_audion_1907`) 'Triode' (the first amplifier). All vacuum tube technology—radio, TV, early computers—starts here."
+        }
+      ],
+  
+    "impact": {
+      "text": "“爱迪生效应”是“电子学”诞生的“物理基础”。虽然爱迪生自己忽视了它，但他发现了“电子”可以“在真空中被控制”的现象。这一发现（经由弗莱明和德富雷斯特）将“电”从一个只能用于“动力”（马达）和“照明”（灯泡）的“蛮力”，转变为一种可以用于“信息处理”（放大和开关）的“精细工具”。它开启了“电子时代”。",
+      "text_en": "The 'Edison Effect' is the *physical foundation* for the birth of 'electronics'. Though Edison missed it, he had discovered that electrons could be *controlled in a vacuum*. This discovery (via Fleming and De Forest) is what turned electricity from a 'brute force'—used for *power* (motors) and *light* (bulbs)—into a 'fine tool' that could be used for *information* (amplifying and switching). It enabled the Electronic Age.",
+      "stats": [
+          {
+            "number": "307,031",
+            "label": "号美国专利",
+            "label_en": "U.S. Patent Number"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "edison_light_bulb_1879",
+          "contribution": "爱迪生的白炽灯泡（“爱迪生效应”是他在试图“改进”灯泡时偶然发现的副产品）",
+          "contribution_en": "Edison's Light Bulb (the 'Edison Effect' was an accidental byproduct of trying to *improve* the bulb)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "fleming_diode_1904",
+          "contribution": "约翰·弗莱明（他将“爱迪生效应”应用到了“第一个实用”的真空管——二极管上）",
+          "contribution_en": "John Ambrose Fleming (who found the *first practical application* for the effect: the 'diode' vacuum tube)"
+        },
+        {
+          "id": "de_forest_audion_1907",
+          "contribution": "李·德富雷斯特（其“三极管”是基于“爱迪生效应”的“放大器”发明）",
+          "contribution_en": "Lee de Forest (his 'triode' amplifier was built upon the 'Edison Effect' principle)"
+        },
+        {
+          "id": "thomson_electron_1897",
+          "contribution": "J.J. 汤姆孙（其“电子”的发现，在“理论上”解释了“爱迪生效应”中流动的到底“是什么”）",
+          "contribution_en": "J.J. Thomson (his discovery of the 'electron' provided the *theoretical explanation* for *what* was flowing in the Edison Effect)"
+        }
+      ],
+      "legacy_text": "爱迪生偶然发现的“爱迪生效应”，成为了20世纪“电子革命”的基石。",
+      "legacy_text_en": "The 'Edison Effect', which Edison himself discovered and ignored, became the foundational principle of the 20th-century 'Electronic Revolution'."
+    },
+  
+    "related_concepts": ["热电子发射 (Thermionic Emission)", "真空管 (Vacuum Tube)", "二极管 (Diode)", "三极管 (Triode)", "电子 (Electron)", "阴极 (Cathode)", "阳极 (Anode)", "弗莱明 (Fleming)", "德富雷斯特 (De Forest)"],
+    "related_concepts_en": ["Thermionic Emission", "Vacuum Tube", "Diode", "Triode", "Electron", "Cathode", "Anode", "Fleming", "De Forest"],
+  
+    "quiz": {
+      "question": "“爱迪生效应”（热电子发射）描述了电流在真空中的哪种“单向”流动？",
+      "question_en": "The 'Edison Effect' (Thermionic Emission) describes which *one-way* flow of current in a vacuum?",
+      "options": [
+        "从“冷板”流向“热灯丝”",
+        "从“热灯丝”流向“带正电的板”",
+        "从“北极”流向“南极”",
+        "从“负极板”流向“正极板”（两者都是冷的）"
+      ],
+      "options_en": [
+        "From a 'cold plate' to a 'hot filament'",
+        "From a 'hot filament' to a 'positive plate'",
+        "From a 'north pole' to a 'south pole'",
+        "From a 'negative plate' to a 'positive plate' (when both are cold)"
+      ],
+      "answer": 1,
+      "explanation": "该效应的关键是“热电子发射”。只有“热”的灯丝才能“沸腾”出电子。这些电子（带负电）只会被“带正电”的金属板所“吸引”，从而形成单向电流。如果金属板是“负电”，它会“排斥”电子，电流为零。",
+      "explanation_en": "The key is 'thermionic emission'. Only the *hot* filament 'boils off' electrons. These negative electrons are then *attracted* *only* to the *positive* plate, completing the circuit. If the plate is negative, it *repels* the electrons, and no current flows."
+    }
+  }

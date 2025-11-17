@@ -1,0 +1,154 @@
+{
+    "id": "fleming_diode_1904",
+    "personId": "john_ambrose_fleming",
+    "title": "发明“弗莱明阀” (真空管二极管)",
+    "title_en": "Invents the 'Fleming Valve' (Vacuum Tube Diode)",
+    "year": 1904,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Diode-closeup.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hndz08wDPsA",
+        "title": "真空管二极管如何工作",
+        "title_en": "Vacuum Diode Working Explained with 3D Animation",
+        "duration": "1:12"
+      }
+    },
+    
+    "summary": {
+      "text": "约翰·安布罗斯·弗莱明（John Ambrose Fleming）在为马可尼（`marconi_radio_1895`）的公司工作时，发明了“弗莱明阀”。这是“第一个”实用的“真空管”(Vacuum Tube)，也是“二极管”(Diode)。弗莱明将爱迪生（`edison_effect_1883`）20年前发现的、但被忽视的“爱迪生效应”（热电子发射）付诸实践。他意识到这个“单向阀门”效应，可以完美地“检测”微弱的、高频的无线电波信号，将其“整流”（Rectify）为可被耳机听到的“直流电”信号。这开启了“电子学”(Electronics) 时代。",
+      "text_en": "While working for Marconi's (`marconi_radio_1895`) company, John Ambrose Fleming invented the 'Fleming Valve'. This was the *first* practical 'vacuum tube' and the first 'diode'. Fleming put the 'Edison Effect' (`edison_effect_1883`)—which Edison had discovered and ignored 20 years prior—to practical use. He realized this 'one-way valve' for current was the *perfect* tool to 'detect' faint, high-frequency radio waves by 'rectifying' their AC signal into a usable DC signal for a headset. This was the birth of 'electronics'.",
+      "key_points": [
+        "发明了“真空管二极管”(Vacuum Tube Diode)",
+        "“电子学”(Electronics) 的诞生日",
+        "应用了“爱迪生效应”(`edison_effect_1883`)",
+        "作为“无线电波”的“整流器”(Rectifier) / “检测器”(Detector)",
+        "将“交流电”(AC) 信号转变为“直流电”(DC) 信号"
+      ],
+      "key_points_en": [
+        "Invented the 'Vacuum Tube Diode'",
+        "Birth of 'Electronics'",
+        "Applied the 'Edison Effect' (`edison_effect_1883`)",
+        "Used as a 'Rectifier' / 'Detector' for radio waves",
+        "Turns an AC signal into a DC signal"
+      ]
+    },
+  
+    "story": {
+      "text": "马可尼（`marconi_radio_1895`）的无线电系统有一个“弱点”：它的“接收器”（一种叫做“金属屑检波器”(Coherer) 的装置）非常不可靠且不灵敏。弗莱明（作为马可尼的顾问）受命寻找一个更好的“检测器”。他想起了20年前爱迪生（`edison_effect_1883`）发现的那个“奇怪的”效应：在一个灯泡中，电流只能“单向”从热灯丝流向金属板。\n弗莱明意识到：无线电波（`hertz_waves_1887`）是一种“交流电”(AC)，它“来回”振荡。而人的“耳机”（`bell_telephone_1876`）只能响应“直流电”(DC)。他需要的正是一个“单向阀门”！\n“弗莱明阀”就是这个阀门。它只允许无线电波“一半”的振荡（正半周）通过，而“阻止”另一半（负半周），从而将“交流电”变成了“脉动的直流电”，使耳机（或电流计）能够“听到”信号。",
+      "text_en": "Marconi's (`marconi_radio_1895`) radio system had a *huge* weak point: its 'receiver', a device called a 'coherer', was unreliable and insensitive. Fleming (as a consultant for Marconi) was tasked with finding a better 'detector'. He remembered the 'odd' effect Edison (`edison_effect_1883`) had discovered 20 years earlier: current *only* flows *one way* in a vacuum, from the hot filament to the plate.\nFleming realized: a radio wave (`hertz_waves_1887`) is an 'Alternating Current' (AC)—it 'wiggles' back and forth. But a *headphone* (`bell_telephone_1876`) can *only* hear 'Direct Current' (DC). He needed a *one-way valve*!\nThe 'Fleming Valve' *was* that valve. It let *only one half* of the radio wave's wiggle (the positive part) pass through, while *blocking* the other half (the negative part). This 'rectified' the AC signal into a 'pulsing DC' signal that a headphone or galvanometer could actually detect."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤷",
+        "text": "弗莱明对他的发明非常“短视”。他只将其视为一个“无线电报检测器”，而没有看到它（作为“电子”开关）的更大潜力。",
+        "text_en": "Fleming was very 'short-sighted' about his invention. He *only* saw it as a 'radio telegraphy detector' and failed to see its much greater potential (as an 'electronic' switch)."
+      },
+      {
+        "icon": " lawsuits",
+        "text": "李·德富雷斯特（`de_forest_audion_1907`）在两年后将弗莱明的“二极管”（2个元件）改进为了“三极管”（3个元件），这引发了长达20年的专利诉讼。",
+        "text_en": "Lee de Forest (`de_forest_audion_1907`) improved Fleming's 'diode' (2-elements) into a 'triode' (3-elements) just two years later, sparking a 20-year-long patent war."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，无线电信号（`hertz_waves_1887`）就像“来回摆动的秋千”（交流电AC）。但你的“耳机”只懂“向前推”（直流电DC）。\n弗莱明利用“爱迪生效应”（`edison_effect_1883`）发明了一个“单向旋转门”。\n这个“旋转门”（二极管）只允许“向前推”的秋千通过，而“挡住”所有“向后摆”的。这就把“来回摆动”变成了“向前...向前...向前...”的“脉冲”。\n这个“脉冲”信号（直流电）是耳机可以“听懂”的。弗莱明发明了“电子学”的“基石”。",
+      "text_en": "Imagine a radio signal (`hertz_waves_1887`) is a 'swing' going *back and forth* (AC).\nBut your 'headphones' can *only* understand 'pushes in one direction' (DC).\nFleming used the 'Edison Effect' (`edison_effect_1883`) to build a 'one-way turnstile'.\nThis 'turnstile' (the diode) *only* let the 'forward' part of the swing pass through, while *blocking* all the 'backward' swings. This turned the 'back-and-forth' motion into a 'push... push... push...' (pulsing DC).\n*This* was a signal the headphones could 'hear'. Fleming had invented the 'cornerstone' of electronics.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2-50A_2_%282%29.JPG"
+    },
+  
+    "applications": [
+        {
+          "icon": "📻",
+          "title": "无线电检测器 (Radio Detector)",
+          "title_en": "Radio Detector",
+          "text": "这是“二极管”的第一个应用，它取代了马可尼（`marconi_radio_1895`）系统中不可靠的“金属屑检波器”。",
+          "text_en": "The diode's first use was as a vastly superior 'detector' for radio, replacing Marconi's (`marconi_radio_1895`) unreliable 'coherer'."
+        },
+        {
+          "icon": "⚡",
+          "title": "整流器 (Rectifier)",
+          "title_en": "Rectifier",
+          "text": "“二极管”是所有“整流器”（将“交流电”AC 转变为“直流电”DC 的设备）的鼻祖。你手机的“充电器”本质上就是一个（现代固态）整流器。",
+          "text_en": "The diode is the ancestor of *all* 'rectifiers' (devices that turn AC into DC). Your phone 'charger' is, in essence, a modern (solid-state) rectifier."
+        }
+      ],
+  
+    "impact": {
+      "text": "“弗莱明阀”是“电子革命”的真正开端。爱迪生（`edison_effect_1883`）发现了“物理现象”，但弗莱明是第一个将其“工程化”为“电子元件”(Electronic Component) 的人。这个简单的“真空管二极管”是第一个“没有活动部件”的电子设备，它直接导致了李·德富雷斯特（`de_forest_audion_1907`）发明“三极管”（放大器），从而开启了无线电广播、电视和早期计算机（`eniac_1946`）的时代。",
+      "text_en": "The 'Fleming Valve' was the *true start* of the 'Electronic Revolution'. Edison (`edison_effect_1883`) found the *physics*, but Fleming was the first to *engineer* it into an *'electronic component'*. This simple 'vacuum tube diode' was the first device with *no moving parts*, and it led *directly* to Lee de Forest's (`de_forest_audion_1907`) 'triode' (the amplifier), which enabled *all* radio broadcasting, television, and early computers (`eniac_1946`).",
+      "stats": [
+          {
+            "number": "1",
+            "label": "个真空管",
+            "label_en": "First Vacuum Tube (Diode)"
+          },
+          {
+            "number": "2",
+            "label": "个电极 (二极管)",
+            "label_en": "Electrodes (Diode)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "edison_effect_1883",
+          "contribution": "爱迪生效应（弗莱明将其从“科学奇观”转变为“实用工具”）",
+          "contribution_en": "The Edison Effect (the 'scientific curiosity' that Fleming turned into a 'useful device')"
+        },
+        {
+          "id": "marconi_radio_1895",
+          "contribution": "马可尼（其“无线电报”对“更好检测器”的迫切需求，是弗莱明发明的动机）",
+          "contribution_en": "Marconi (his radio's 'need for a better detector' was Fleming's motivation)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "de_forest_audion_1907",
+          "contribution": "李·德富雷斯特（其“三极管”是在弗莱明的“二极管”中“加入第三个元件”的直接改进）",
+          "contribution_en": "Lee de Forest (his 'Triode' was a *direct modification* of Fleming's 'Diode', by adding a 3rd element)"
+        },
+        {
+          "id": "electronics_revolution_1920",
+          "contribution": "20世纪的“电子革命”（所有真空管技术都始于此）",
+          "contribution_en": "The 20th Century Electronics Revolution (all vacuum tube technology starts here)"
+        }
+      ],
+      "legacy_text": "弗莱明将爱迪生效应“武器化”，发明了第一个“真空管”，开启了“电子时代”。",
+      "legacy_text_en": "Fleming 'weaponized' the Edison Effect, invented the first vacuum tube, and started the Electronic Age."
+    },
+  
+    "related_concepts": ["二极管 (Diode)", "真空管 (Vacuum Tube)", "电子学 (Electronics)", "整流器 (Rectifier)", "爱迪生效应 (Edison Effect)", "热电子发射 (Thermionic Emission)", "马可尼 (Marconi)", "三极管 (Triode)"],
+    "related_concepts_en": ["Diode", "Vacuum Tube", "Electronics", "Rectifier", "Edison Effect", "Thermionic Emission", "Marconi", "Triode"],
+  
+    "quiz": {
+      "question": "约翰·弗莱明（John Fleming）的“二极管”（弗莱明阀）利用“爱迪生效应”实现了什么关键功能？",
+      "question_en": "What key function did John Fleming's 'Diode' (Fleming Valve) use the 'Edison Effect' to perform?",
+      "options": [
+        "将电信号“放大” (Amplify signals)",
+        "将“交流电”(AC) “整流”为“直流电”(DC)",
+        "产生“X射线” (Produce X-rays)",
+        "产生“光” (Produce light)"
+      ],
+      "options_en": [
+        "Amplify signals",
+        "Rectify an AC signal into a DC signal",
+        "Produce X-rays",
+        "Produce light"
+      ],
+      "answer": 1,
+      "explanation": "“爱迪生效应”(`edison_effect_1883`) 证明了电流在真空中只能“单向”流动（从热灯丝到正极板）。弗莱明利用这个“单向阀门”的特性，来“过滤”掉无线电波（AC）信号的“负半周”，使其变为“脉动的直流电”(DC)，从而被耳机“检测”到。",
+      "explanation_en": "The 'Edison Effect' (`edison_effect_1883`) proved current only flows *one way* in a vacuum. Fleming used this 'one-way valve' to 'filter out' the negative half of an AC radio wave, turning it into a pulsing DC signal that could be 'detected' by a headset."
+    }
+  }

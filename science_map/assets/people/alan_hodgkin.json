@@ -1,0 +1,10 @@
+{
+    "name": "艾伦·霍奇金",
+    "name_en": "Alan Lloyd Hodgkin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/07/Alan_Lloyd_Hodgkin_nobel.jpg",
+    "bio_short": "英国生理学家和生物物理学家。他与安德鲁·赫胥黎（Andrew Huxley）合作，建立了“霍奇金-赫胥黎模型”，揭示了神经冲动（动作电位）是“离子通道”中钠和钾离子流动的结果，并因此获得了1963年的诺贝尔奖。",
+    "bio_short_en": "A British physiologist and biophysicist. He and Andrew Huxley created the 'Hodgkin-Huxley model', which explained the nerve impulse (action potential) as the result of sodium and potassium ion flows through 'ion channels'. He won the 1963 Nobel Prize for this work.",
+    "events": [
+      "hodgkin_huxley_model_1952"
+    ]
+  }

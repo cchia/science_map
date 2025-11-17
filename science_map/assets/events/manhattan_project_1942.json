@@ -1,0 +1,184 @@
+{
+    "id": "manhattan_project_1942",
+    "personId": ["j_robert_oppenheimer", "leslie_groves"],
+    "title": "启动“曼哈顿计划”",
+    "title_en": "Launches the 'Manhattan Project'",
+    "year": 1942,
+    "lat": 35.8795,
+    "lng": -106.3213,
+    "city": "洛斯阿拉莫斯 (及橡树岭, 汉福德)",
+    "city_en": "Los Alamos (and Oak Ridge, Hanford)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Trinity_Detonation_T%26B.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=r4RBdi72g60",
+        "title": "曼哈顿计划",
+        "title_en": "The First Nuclear Bomb - Manhattan Project",
+        "duration": "10:05"
+      }
+    },
+    
+    "summary": {
+      "text": "“曼哈顿计划”是第二次世界大战期间，美国、英国和加拿大发起的一项绝密的研发项目。其**唯一目标**是（在纳粹德国之前）开发出第一颗“原子弹”。该项目由莱斯利·格罗夫斯（Leslie Groves）将军领导军事和后勤，由J·罗伯特·奥本海默（J. Robert Oppenheimer）领导“洛斯阿拉莫斯”(Los Alamos) 实验室负责炸弹的设计。该项目基于1938年发现的“核裂变”（`hahn_meitner_fission_1938`）原理，即“中子”（`chadwick_neutron_1932`）可以“分裂”重原子核（如铀），释放出巨大的能量。",
+      "text_en": "The 'Manhattan Project' was a top-secret research and development undertaking during WWII (by the US, UK, and Canada) with the *sole goal* of developing the first 'atomic bomb' before Nazi Germany. Led by General Leslie Groves (military) and J. Robert Oppenheimer (scientific, at Los Alamos), the project was based on the 1938 discovery of 'nuclear fission' (`hahn_meitner_fission_1938`)—the idea that 'neutrons' (`chadwick_neutron_1932`) could 'split' heavy nuclei (like Uranium), releasing enormous amounts of energy.",
+      "key_points": [
+        "制造了第一颗“原子弹”(Atomic Bomb)",
+        "基于“核裂变”(Nuclear Fission) 原理",
+        "由J·罗伯特·奥本海默 (J. Robert Oppenheimer) 领导科学",
+        "由莱斯利·格罗夫斯 (Leslie Groves) 将军领导军事",
+        "在1945年7月16日进行了“三位一体”(Trinity) 核试验",
+        "导致了对广岛和长崎的轰炸"
+      ],
+      "key_points_en": [
+        "Built the first 'Atomic Bomb'",
+        "Based on the principle of 'Nuclear Fission'",
+        "Scientifically led by J. Robert Oppenheimer",
+        "Militarily led by General Leslie Groves",
+        "Culminated in the 'Trinity' Test on July 16, 1945",
+        "Led to the bombings of Hiroshima and Nagasaki"
+      ]
+    },
+  
+    "story": {
+      "text": "这场“竞赛”始于1939年，当时爱因斯坦（`einstein_special_relativity_1905`）致信罗斯福总统，警告德国可能正在利用“核裂变”制造超级武器。1942年，该项目正式移交军方，并命名为“曼哈顿计划”。它迅速成为历史上最庞大的工业和科学事业。恩里科·费米（`fermi_nuclear_reactor_1942`）在芝加哥建造了第一个“核反应堆”，证明了“链式反应”是可能的，并为生产“钚”(Plutonium) 提供了方法。与此同时，在橡树岭（Oak Ridge），巨大的工厂被用来“浓缩”稀有的“铀-235”。在洛斯阿拉莫斯的沙漠中，奥本海默领导着一个由费米、费曼、玻尔（`bohr_atom_1913`）等顶尖科学家组成的“梦之队”，负责解决如何“引爆”这些材料的物理学难题。",
+      "text_en": "The 'race' began in 1939 when Einstein (`einstein_special_relativity_1905`) signed a letter to President Roosevelt, warning that Germany might be weaponizing 'fission'. In 1942, the project was formalized under the military. It became the largest industrial/scientific undertaking in history. Enrico Fermi (`fermi_nuclear_reactor_1942`) built the first 'nuclear reactor' in Chicago, proving a 'chain reaction' was possible and providing a path to *Plutonium*. Meanwhile, massive factories in Oak Ridge *enriched* rare 'Uranium-235'. In the deserts of Los Alamos, Oppenheimer led a 'dream team' of scientists (Fermi, Feynman, Bohr (`bohr_atom_1913`), etc.) to solve the physics problem of *how* to detonate it.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1c/ChicagoPileTeam.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤫",
+        "text": "“曼哈顿计划”是历史上最“绝密”的项目。“橡树岭”镇在1943年还不存在，到1945年，它已是一个拥有75,000人口的秘密城市，而大多数居民都不知道他们到底在生产什么。",
+        "text_en": "The project was the biggest secret in history. The city of Oak Ridge, TN, didn't exist in 1943. By 1945, it was a secret city of 75,000 people, most of whom had no idea what they were actually making."
+      },
+      {
+        "icon": " Trinity",
+        "text": "第一次核试验（“三位一体” Trinity）的代号是奥本海默（Oppenheimer）选的，他（后来）说灵感来自一首14世纪的圣诗。",
+        "text_en": "The codename for the first atomic test, 'Trinity', was chosen by Oppenheimer, who (later) said it was inspired by a 14th-century holy poem."
+      },
+      {
+        "icon": "⚛️",
+        "text": "该项目实际上制造了“两种”不同类型的炸弹：一种是“枪式”的“铀”弹（“小男孩”，投于广岛），另一种是更复杂的“内爆式”的“钚”弹（“胖子”，投于长崎）。",
+        "text_en": "The project built *two* different types of bombs: a 'gun-type' *Uranium* bomb ('Little Boy', used on Hiroshima) and a much more complex 'implosion-type' *Plutonium* bomb ('Fat Man', used on Nagasaki)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你发现了一种“超级火药”——核裂变（`hahn_meitner_fission_1938`）。问题是：你如何点燃它来制造“超级炸弹”？\n“曼哈顿计划”就是美国在二战期间，为了“抢在”希特勒之前“造出”这颗炸弹而发起的一个“绝密”项目。\n他们雇用了最聪明的人（如奥本海默 `j_robert_oppenheimer` 和费米 `enrico_fermi`），在一个“秘密城市”（洛斯阿拉莫斯）里，成功地设计并引爆了第一颗原子弹。这个项目开启了“核时代”。",
+      "text_en": "Imagine discovering a 'super-gunpowder'—nuclear fission (`hahn_meitner_fission_1938`). The problem: how do you light the fuse to make a 'super-bomb'?\nThe 'Manhattan Project' was America's *top-secret race* during WWII to build that bomb *before* Hitler did.\nThey hired the smartest people alive (like Oppenheimer `j_robert_oppenheimer` and Fermi `enrico_fermi`), put them in a 'secret city' (Los Alamos), and they successfully designed and detonated the first atomic bomb. This project started the 'Nuclear Age'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Los_Alamos_Primer_assembly_methods.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🇯🇵",
+          "title": "结束第二次世界大战",
+          "title_en": "Ending World War II",
+          "text": "1945年8月，对日本广岛（“小男孩”）和长崎（“胖子”）使用原子弹，迫使日本投降，从而结束了第二次世界大战。",
+          "text_en": "The use of the bombs on Hiroshima ('Little Boy') and Nagasaki ('Fat Man') in August 1945 forced the surrender of Japan and ended WWII."
+        },
+        {
+          "icon": "🌍",
+          "title": "核时代与冷战",
+          "title_en": "The Nuclear Age & Cold War",
+          "text": "该项目开启了“核时代”，并立即引发了美国与苏联之间长达50年的“核军备竞赛”（冷战）。",
+          "text_en": "The project began the 'Nuclear Age' and immediately triggered the 50-year 'Nuclear Arms Race' (the Cold War) between the USA and the Soviet Union."
+        },
+        {
+          "icon": "🏭",
+          "title": "核能 (Nuclear Power)",
+          "title_en": "Nuclear Power",
+          "text": "曼哈顿计划（特别是费米 `fermi_nuclear_reactor_1942` 的反应堆）所发展的“受控核裂变”技术，是战后“核能”发电的基础。",
+          "text_en": "The 'controlled' fission technology developed for the project (especially Fermi's `fermi_nuclear_reactor_1942`) became the basis for post-war 'nuclear power' generation."
+        }
+      ],
+  
+    "impact": {
+      "text": "“曼哈顿计划”是20世纪的“决定性”事件，其影响至今仍在。它在科学上是“E=mc²”（`einstein_special_relativity_1905`）的最终、可怕的“证明”。在军事上，它永远地改变了“战争”的性质。在政治上，它开创了“核威慑”和“全球超级大国”的时代。它是科学、政治、军事和工程学在人类历史上最大规模的一次交汇。",
+      "text_en": "The Manhattan Project is *the* defining event of the 20th century. Scientifically, it was the final, terrifying *proof* of E=mc² (`einstein_special_relativity_1905`). Militarily, it changed the nature of 'war' forever. Politically, it ushered in the era of 'nuclear deterrence' and the 'global superpower'. It is the single largest intersection of science, politics, military, and engineering in human history.",
+      "stats": [
+          {
+            "number": "2",
+            "label": "十亿美元 (1945年)",
+            "label_en": "Billion Dollars (in 1945)"
+          },
+          {
+            "number": "130,000",
+            "label": "名参与人员",
+            "label_en": "Personnel"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "einstein_epr_1935",
+          "contribution": "爱因斯坦（其1939年致罗斯福的“警告信”是该项目的政治催化剂）",
+          "contribution_en": "Einstein (his 1939 'letter' to Roosevelt was the political catalyst)"
+        },
+        {
+          "id": "hahn_meitner_fission_1938",
+          "contribution": "哈恩和迈特纳（其“核裂变”的发现，是该项目的“物理学基础”）",
+          "contribution_en": "Hahn & Meitner (their 'discovery of fission' was the *physical basis* for the project)"
+        },
+        {
+          "id": "chadwick_neutron_1932",
+          "contribution": "查德威克（其“中子”的发现，提供了启动“链式反应”的“子弹”）",
+          "contribution_en": "Chadwick (his 'neutron' was the 'bullet' needed to start the 'chain reaction')"
+        },
+        {
+          "id": "fermi_nuclear_reactor_1942",
+          "contribution": "恩里科·费米（其“芝加哥1号堆”是该计划的一部分，证明了“链式反应”的可行性）",
+          "contribution_en": "Enrico Fermi (his 'Chicago Pile-1' was *part of* the project and proved a *chain reaction* was possible)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "cold_war_1947",
+          "contribution": "冷战（原子弹的出现，直接导致了美苏之间的核军备竞赛）",
+          "contribution_en": "The Cold War (the existence of the bomb directly caused the nuclear arms race)"
+        },
+        {
+          "id": "nuclear_power_1954",
+          "contribution": "核能（战后的“和平利用原子能”计划，是将该项目的反应堆技术用于发电）",
+          "contribution_en": "Nuclear Power (the post-war 'Atoms for Peace' program adapted the project's reactor technology for civilian energy)"
+        },
+        {
+          "id": "quantum_electrodynamics_1948",
+          "contribution": "量子电动力学（许多在洛斯阿拉莫斯工作的物理学家（如费曼），在战后立即利用“新”的计算方法开创了QED）",
+          "contribution_en": "QED (many physicists at Los Alamos, like Feynman, used their new skills to found QED immediately after the war)"
+        }
+      ],
+      "legacy_text": "曼哈顿计划将一个深奥的物理方程（E=mc²）转变为了一种重塑全球地缘政治的力量。",
+      "legacy_text_en": "The Manhattan Project turned an esoteric physics equation (E=mc²) into the force that reshaped global geopolitics."
+    },
+  
+    "related_concepts": ["核裂变 (Nuclear Fission)", "链式反应 (Chain Reaction)", "原子弹 (Atomic Bomb)", "J·罗伯特·奥本海默 (J. Robert Oppenheimer)", "恩里科·费米 (Enrico Fermi)", "洛斯阿拉莫斯 (Los Alamos)", "三位一体核试验 (Trinity Test)", "广岛 (Hiroshima)", "E=mc²"],
+    "related_concepts_en": ["Nuclear Fission", "Chain Reaction", "Atomic Bomb", "J. Robert Oppenheimer", "Enrico Fermi", "Los Alamos", "Trinity Test", "Hiroshima", "E=mc²"],
+  
+    "quiz": {
+      "question": "“曼哈顿计划”的“科学目标”是什么？",
+      "question_en": "What was the 'scientific goal' of the Manhattan Project?",
+      "options": [
+        "建造第一个核反应堆以实现“和平利用原子能”",
+        "在美国登月之前抢先一步",
+        "利用“核裂变”原理，在纳粹德国之前“制造出第一颗原子弹”",
+        "证明爱因斯坦的 E=mc² 是错误的"
+      ],
+      "options_en": [
+        "To build the first nuclear reactor for 'Atoms for Peace'",
+        "To beat the Soviets to the Moon",
+        "To use 'nuclear fission' to 'build the first atomic bomb' before Nazi Germany",
+        "To prove Einstein's E=mc² was wrong"
+      ],
+      "answer": 2,
+      "explanation": "曼哈顿计划是一个“军事”项目，其唯一目标是“武器化”核裂变。它始于对“德国也在制造原子弹”的恐惧（`einstein_epr_1935` 中爱因斯坦的信件）。第一个“受控”的核反应堆（`fermi_nuclear_reactor_1942`）是该计划中一个“必要的中间步骤”，用于制造“钚”。",
+      "explanation_en": "The Manhattan Project was a *military* project with one goal: *weaponize* nuclear fission. It was motivated by the fear that Nazi Germany was doing the same (Einstein's letter, `einstein_epr_1935`). The first *controlled* reactor (`fermi_nuclear_reactor_1942`) was a *necessary middle-step* in the project, used to *create plutonium*."
+    }
+  }

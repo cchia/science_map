@@ -1,0 +1,164 @@
+{
+    "id": "heisenberg_matrix_mechanics_1925",
+    "personId": ["werner_heisenberg", "max_born", "pascual_jordan"],
+    "title": "创立“矩阵力学” (量子力学的第一个形式)",
+    "title_en": "Founds 'Matrix Mechanics' (First Form of Quantum Mechanics)",
+    "year": 1925,
+    "lat": 51.5381,
+    "lng": 9.9356,
+    "city": "哥廷根 / 黑尔戈兰岛",
+    "city_en": "Göttingen / Heligoland",
+    "country": "德国",
+    "country_en": "Germany",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {      
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Q0l9ic7y05g",
+        "title": "波动力学 vs 矩阵力学",
+        "title_en": "Quantum Breakthrough Wave Mechanics vs Matrix Mechanics",
+        "duration": "9:01"
+      }
+    },
+    
+    "summary": {
+      "text": "1925年，年仅23岁的维尔纳·海森堡（Werner Heisenberg）提出了一项极其激进的理论，开创了“量子力学”。他主张，物理学应**彻底抛弃**所有“不可观测”的图像（如玻尔的“电子轨道”，`bohr_atom_1913`），而只应基于“可观测”的量（如原子发出的“光谱线”的“频率”和“强度”，`fraunhofer_lines_1814`）。他（与马克斯·玻恩和帕斯库尔·约当合作）将这些“可观测”的量，用一种在当时对物理学家来说非常陌生的数学工具——“**矩阵**”(Matrices)——来表示。这是量子力学的“第一个”数学形式，并证明了在微观世界中 `p × q` **不等于** `q × p`（非交换性）。",
+      "text_en": "In 1925, a 23-year-old Werner Heisenberg proposed a radical theory that founded 'Quantum Mechanics'. He argued physics must *abandon* all unobservable pictures (like Bohr's 'orbits', `bohr_atom_1913`) and be built *only* on 'observable' quantities (like the 'frequency' and 'intensity' of spectral lines, `fraunhofer_lines_1814`). He (with Max Born and Pascual Jordan) formulated these observables using a strange new mathematical tool: 'Matrices'. This 'Matrix Mechanics' was the *first* mathematical form of quantum theory and proved that at the atomic scale, `p × q` does *not* equal `q × p` (non-computation).",
+      "key_points": [
+        "量子力学的第一个数学形式 (First mathematical form of quantum mechanics)",
+        "抛弃了“不可观测”的轨道 (Abandoned unobservable 'orbits')",
+        "基于“可观测”的光谱线 (Based on 'observable' spectral lines)",
+        "使用了“矩阵”(Matrices) (一种非交换代数)",
+        "证明了 p × q ≠ q × p",
+        "直接导致了“测不准原理” (`heisenberg_uncertainty_1927`)"
+      ],
+      "key_points_en": [
+        "First mathematical form of quantum mechanics",
+        "Abandoned unobservable 'orbits'",
+        "Based on 'observable' spectral lines",
+        "Used 'Matrices' (non-commutative algebra)",
+        "Proved p × q ≠ q × p",
+        "Led directly to the 'Uncertainty Principle' (`heisenberg_uncertainty_1927`)"
+      ]
+    },
+  
+    "story": {
+      "text": "1925年，海森堡因“花粉热”（Hay Fever）发作，独自跑到“黑尔戈兰岛”休养。在那里，他摆脱了所有关于“轨道”的直观图像，开始只用“可观测”的数字（光谱）进行“数学计算”。他发现，为了使数学成立，他必须使用一种“奇怪的乘法规则”——即“A乘以B”不等于“B乘以A”。他被这个结果吓到了，在给朋友的信中写道：“我都不敢把这篇论文寄出去了。” 他把论文寄给了他的导师马克斯·玻恩（`max_born`）。玻恩在研究了海森堡的“奇怪乘法”后，震惊地意识到——这“就是”数学家早已发明的“**矩阵代数**”。玻恩和他的助手帕斯库尔·约当（Pascual Jordan）立即将海森堡的“猜想”发展成了一套完整的“矩阵力学”理论。",
+      "text_en": "In 1925, suffering from severe hay fever, Heisenberg retreated to the island of Heligoland. Free from distractions, he abandoned all 'pictures' of orbits and focused only on the 'observable' numbers (the spectra). He found that to make the math work, he had to invent a *'weird multiplication rule'* where 'A times B' did *not* equal 'B times A'. He was so terrified by this result he wrote 'I hardly dare to publish this.' He sent the paper to his mentor, Max Born (`max_born`). Born studied Heisenberg's 'weird' multiplication and had a flash of insight: it was *'matrix algebra'*, a tool mathematicians already knew. Born and his assistant Pascual Jordan immediately formalized Heisenberg's 'guess' into the complete theory of 'Matrix Mechanics'."
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤷",
+        "text": "海森堡在23岁时，为了“发明”量子力学，他（在不知道的情况下）“重新发明”了数学中的“矩阵乘法”。",
+        "text_en": "At 23, Heisenberg literally 're-invented' matrix multiplication, a branch of mathematics he was not familiar with, in order to 'invent' quantum mechanics."
+      },
+      {
+        "icon": "⚔️",
+        "text": "几个月后，薛定谔（`schrodinger_equation_1926`）发表了他的“波动力学”。海森堡“极其讨厌”薛定谔的理论，因为它“倒退”回了“可观测”的“波”的图像。而薛定谔则称海森堡的“矩阵”是“令人反感的”。（最终，薛定谔证明了两者在数学上是等价的）。",
+        "text_en": "Months later, Schrödinger (`schrodinger_equation_1926`) published his 'Wave Mechanics'. Heisenberg *hated* it, calling it 'disgusting' because it 'regressed' to visualizable 'waves'. Schrödinger, in turn, found Heisenberg's matrices 'repugnant'. (Later, Schrödinger proved the two were mathematically identical)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1925年之前，物理学家（如玻尔 `bohr_atom_1913`）试图“想象”原子：他们把电子想象成“行星”，绕着“轨道”转。\n海森堡说：“我们‘永远’不可能‘看到’电子的轨道。所以，让我们‘停止想象’！物理学不应该研究‘我们看不到的东西’。”\n相反，他创造了一种“只”基于“我们能看到的东西”（即原子发出的“光谱线”）的“新数学”。\n这种新数学（矩阵）非常奇怪。它说，在量子世界里，“A × B”不等于“B × A”。例如：测量“位置”再测量“动量”，与“先测量动量再测量位置”，得到的结果是“不同”的。这就是后来“测不准原理”的数学根源。",
+      "text_en": "Before 1925, physicists tried to 'picture' the atom (like Bohr's 'orbits', `bohr_atom_1913`).\nHeisenberg said: 'We can *never* 'see' an electron's orbit. So, *stop trying to picture it*! Physics shouldn't be based on things we can't see.'\nInstead, he built a 'new math' based *only* on what we *can* see (the 'spectral lines' of light the atom emits).\nThis new math (matrices) was bizarre. It said that `A x B` does *not* equal `B x A`. For example: 'measuring the *Position* THEN the *Momentum*' gives a *different* result than 'measuring the *Momentum* THEN the *Position*'. This was the mathematical root of his 'Uncertainty Principle'."      
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "量子力学 (Quantum Mechanics)",
+          "title_en": "Quantum Mechanics",
+          "text": "“矩阵力学”是量子力学的“第一个”数学形式。它（与薛定谔的波动力学）是所有现代物理学和化学的基础。",
+          "text_en": "Matrix Mechanics was the *first* mathematical formulation of quantum mechanics. It (along with Schrödinger's wave mechanics) is the foundation of all modern physics and chemistry."
+        },
+        {
+          "icon": "🌀",
+          "title": "测不准原理",
+          "title_en": "The Uncertainty Principle",
+          "text": "“测不准原理”（`heisenberg_uncertainty_1927`）是“矩阵力学”中“非交换性”（px ≠ xp）的直接“哲学推论”。",
+          "text_en": "The 'Uncertainty Principle' (`heisenberg_uncertainty_1927`) is the direct 'philosophical consequence' of the 'non-commutativity' (px ≠ xp) at the heart of matrix mechanics."
+        }
+      ],
+  
+    "impact": {
+      "text": "“矩阵力学”是物理学史上最深刻的革命之一。它标志着物理学从“基于直觉和图像”（如牛顿的行星）彻底转向了“基于抽象数学和可观测数据”。它（与薛定谔的理论一起）成功地解释了玻尔模型（`bohr_atom_1913`）无法解释的光谱问题，并为“量子力学”——20世纪的“核心物理理论”——提供了第一个坚实的数学基础。",
+      "text_en": "Matrix Mechanics was one of the most profound revolutions in the history of physics. It marked the final shift *away* from 'intuitive, visual' physics (like Newton's planets) and *toward* 'abstract, mathematical' physics based *only* on what is measurable. It (along with Schrödinger's theory) successfully explained the spectral problems Bohr's model (`bohr_atom_1913`) couldn't, and provided the first solid mathematical foundation for 'Quantum Mechanics', the master theory of the 20th century.",
+      "stats": [
+          {
+            "number": "1925",
+            "label": "年 (量子力学诞生)",
+            "label_en": "Year (Quantum Mechanics is Born)"
+          },
+          {
+            "number": "23",
+            "label": "岁 (海森堡的年龄)",
+            "label_en": "Years Old (Heisenberg's Age)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "玻尔（其“原子模型”的“失败”和“光谱线”之谜，是海森堡试图解决的“问题”）",
+          "contribution_en": "Niels Bohr (his model's *failures* and its 'spectral line' mystery was the *problem* Heisenberg solved)"
+        },
+        {
+          "id": "planck_quantum_1900",
+          "contribution": "普朗克（其“量子化”概念是海森堡的出发点）",
+          "contribution_en": "Max Planck (his 'quantization' concept was the starting point)"
+        },
+        {
+          "id": "einstein_photoelectric_1905",
+          "contribution": "爱因斯坦（其“光子”概念，证实了“量子”是真实存在的）",
+          "contribution_en": "Einstein (his 'photon' concept confirmed that 'quanta' were physically real)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "heisenberg_uncertainty_1927",
+          "contribution": "（他自己）测不准原理（是“矩阵力学”数学（非交换性）的直接推论）",
+          "contribution_en": "(Himself) The Uncertainty Principle (which is the direct consequence of the mathematics (non-commutativity) of matrix mechanics)"
+        },
+        {
+          "id": "schrodinger_equation_1926",
+          "contribution": "薛定谔（其“波动力学”是作为对“矩阵力学”的“竞争”理论而提出的，后被证明是等价的）",
+          "contribution_en": "Schrödinger (his 'Wave Mechanics' was presented as a *rival* theory to 'Matrix Mechanics', before being proven equivalent)"
+        },
+        {
+          "id": "dirac_equation_1928",
+          "contribution": "保罗·狄拉克（他将“矩阵力学”与“狭义相对论”结合，创造了“狄拉克方程”）",
+          "contribution_en": "Paul Dirac (who unified 'Matrix Mechanics' with 'Special Relativity' to create the 'Dirac Equation')"
+        }
+      ],
+      "legacy_text": "海森堡是第一个“放弃”了“眼见为实”的物理学家，他将量子力学建立在了纯粹的“抽象数学”和“可观测数据”之上。",
+      "legacy_text_en": "Heisenberg was the first physicist to 'give up' on 'pictures' of reality, building quantum mechanics on pure 'abstract mathematics' and 'observable data' alone."
+    },
+  
+    "related_concepts": ["矩阵力学 (Matrix Mechanics)", "量子力学 (Quantum Mechanics)", "矩阵 (Matrix)", "非交换性 (Non-commutativity)", "可观测 (Observables)", "薛定谔 (Schrödinger)", "玻尔 (Bohr)", "玻恩 (Born)", "测不准原理 (Uncertainty Principle)"],
+    "related_concepts_en": ["Matrix Mechanics", "Quantum Mechanics", "Matrix", "Non-commutativity", "Observables", "Schrödinger", "Bohr", "Born", "Uncertainty Principle"],
+  
+    "quiz": {
+      "question": "海森堡（Heisenberg）的“矩阵力学”（1925）与玻尔（Bohr）的“原子模型”（1913）最根本的区别是什么？",
+      "question_en": "What was the *fundamental* difference between Heisenberg's 'Matrix Mechanics' (1925) and Bohr's 'Atomic Model' (1913)?",
+      "options": [
+        "海森堡使用了“电”，玻尔使用了“磁”",
+        "海森堡证明了原子核的存在",
+        "海森堡“彻底抛弃”了“可视图形”（如轨道），只使用“抽象数学”（矩阵）",
+        "海森堡的理论适用于“行星”，玻尔的理论适用于“原子”"
+      ],
+      "options_en": [
+        "Heisenberg used electricity, Bohr used magnetism",
+        "Heisenberg proved the nucleus exists",
+        "Heisenberg *abandoned all pictures* (like orbits) and used *only abstract math* (matrices)",
+        "Heisenberg's theory was for planets, Bohr's was for atoms"
+      ],
+      "answer": 2,
+      "explanation": "玻尔（`bohr_atom_1913`）的模型仍然是一个“混合”模型：它有“经典”的“轨道”（一个“图像”），但又“强加”了“量子”规则。海森堡（`heisenberg_matrix_mechanics_1925`）则“彻底”抛弃了所有“图像”，他说我们“唯一”能讨论的，就是“可测量”的“数字”（光谱），以及“连接”这些数字的“数学（矩阵）”。",
+      "explanation_en": "Bohr's model (`bohr_atom_1913`) was a 'hybrid': it had classical 'orbits' (a *picture*) with quantum rules *forced* onto them. Heisenberg (`heisenberg_matrix_mechanics_1925`) *threw away the picture* entirely, saying the *only* thing we can talk about are the *measurable numbers* (the spectra) and the *math (matrices)* that connects them."
+    }
+  }

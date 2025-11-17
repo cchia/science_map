@@ -1,0 +1,11 @@
+{
+  "name": "欧内斯特·卢瑟福",
+  "name_en": "Ernest Rutherford",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg",
+  "bio_short": "新西兰裔英国物理学家，被誉为“核物理之父”。他发现了“原子核”（`rutherford_nucleus_1911`），证明了放射性的本质（α和β射线），并首次“分裂”原子，发现了“质子”（`rutherford_proton_1919`）。",
+  "bio_short_en": "A New Zealand-born British physicist, the 'father of nuclear physics'. He discovered the 'atomic nucleus' (`rutherford_nucleus_1911`), explained radioactivity (alpha & beta rays), and was the first to 'split the atom', discovering the 'proton' (`rutherford_proton_1919`).",
+  "events": [
+    "rutherford_nucleus_1911",
+    "rutherford_proton_1919"
+  ]
+}

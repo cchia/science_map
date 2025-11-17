@@ -1,0 +1,10 @@
+{
+    "name": "弗拉基米尔·福克",
+    "name_en": "Vladimir Fock",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/0/0f/Vladimir_Fock_-_photo.jpg",
+    "bio_short": "苏联物理学家。他因在“哈特里-福克方法”（`hartree_fock_method_1930`）中加入了“泡利不相容原理”（`pauli_exclusion_principle_1925`），从而在数学上完善了该理论而闻名。",
+    "bio_short_en": "A Soviet physicist. He is renowned for mathematically refining the Hartree method into the 'Hartree-Fock method' (`hartree_fock_method_1930`) by correctly incorporating the 'Pauli Exclusion Principle' (`pauli_exclusion_principle_1925`).",
+    "events": [
+      "hartree_fock_method_1930"
+    ]
+  }

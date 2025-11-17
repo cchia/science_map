@@ -1,0 +1,10 @@
+{
+    "name": "马修·方丹·莫里",
+    "name_en": "Matthew Fontaine Maury",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/06/Lt._Matthew_Maury.jpg",
+    "bio_short": "美国海军军官、天文学家和海洋学家，被誉为“海洋探路者”和“现代海洋学之父”。他通过“数据挖掘”旧的船长日志，绘制了第一张全球“风与洋流图”。",
+    "bio_short_en": "An American naval officer, astronomer, and oceanographer, known as the 'Pathfinder of the Seas' and a 'father of modern oceanography'. He 'data-mined' old ship's logs to create the first global charts of winds and ocean currents.",
+    "events": [
+      "maury_oceanography_1855"
+    ]
+  }

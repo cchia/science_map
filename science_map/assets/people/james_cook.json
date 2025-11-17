@@ -1,0 +1,10 @@
+{
+    "name": "詹姆斯·库克",
+    "name_en": "James Cook",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/76/Captainjamescookportrait.jpg",
+    "bio_short": "英国探险家、航海家和制图师。他指挥了三次意义非凡的太平洋探险（`cook_voyages_1770s`），首次绘制了新西兰和澳大利亚东海岸的地图，并首次在实践中解决了“经度问题”。",
+    "bio_short_en": "A British explorer, navigator, and cartographer. He commanded three monumental voyages to the Pacific (`cook_voyages_1770s`), creating the first charts of New Zealand and Australia's east coast and being the first to solve the 'longitude problem' in practice.",
+    "events": [
+      "cook_voyages_1770s"
+    ]
+  }

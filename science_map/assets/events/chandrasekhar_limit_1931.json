@@ -1,0 +1,158 @@
+{
+    "id": "chandrasekhar_limit_1931",
+    "personId": "subrahmanyan_chandrasekhar",
+    "title": "计算“钱德拉塞卡极限”",
+    "title_en": "Calculates the 'Chandrasekhar Limit'",
+    "year": 1931,
+    "lat": 51.5098,
+    "lng": -0.1180,
+    "city": "在海上 (前往英国途中)",
+    "city_en": "At Sea (En route to England)",
+    "country": "印度/英国",
+    "country_en": "India/UK",
+    "field": ["物理学", "天文学"],
+    "field_en": ["Physics", "Astronomy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Size_IK_Peg.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=NucdlR9EGbA",
+        "title": "黑洞、中子星和白矮星",
+        "title_en": "Black Holes, Neutron Stars, and White Dwarfs",
+        "duration": "2:42"
+      }
+    },
+    
+    "summary": {
+      "text": "1930年，年仅19岁的苏布拉马尼扬·钱德拉塞卡（Subrahmanyan Chandrasekhar）在从印度航向英国的船上，将爱因斯坦的“狭义相对论”（`einstein_special_relativity_1905`）与“量子力学”（`planck_quantum_1900`）相结合，计算了恒星的最终命运。他发现，当一颗恒星耗尽燃料后，如果其“核心质量”超过一个临界值——约**1.44倍太阳质量**——那么“电子简并压力”（一种量子力）将**无法**支撑其自身引力。这意味着这颗恒星注定会发生灾难性的“引力坍缩”。这个质量上限，就是“钱德拉塞卡极限”。",
+      "text_en": "In 1930, on a steamship from India to England, the 19-year-old Subrahmanyan Chandrasekhar combined Einstein's 'Special Relativity' (`einstein_special_relativity_1905`) with 'Quantum Mechanics' (`planck_quantum_1900`) to calculate the final fate of stars. He discovered that if a star's remnant core is *above* a critical mass—about **1.44 times the mass of the Sun**—the 'electron degeneracy pressure' (a quantum force) will *fail* to support it against its own gravity. This means the star is doomed to catastrophic gravitational collapse. This mass ceiling is the 'Chandrasekhar Limit'.",
+      "key_points": [
+        "恒星演化的临界质量上限",
+        "极限：约为 1.44 倍太阳质量 (M☉)",
+        "结合了“狭义相对论”和“量子力学”",
+        "低于极限：成为“白矮星”(White Dwarf)",
+        "高于极限：发生“引力坍缩”（成为中子星或黑洞）"
+      ],
+      "key_points_en": [
+        "Critical mass limit for stellar evolution",
+        "The limit is ~1.44 Solar Masses (M☉)",
+        "Combined 'Special Relativity' and 'Quantum Mechanics'",
+        "Below limit: Star becomes a 'White Dwarf'",
+        "Above limit: Star *must* collapse (into a Neutron Star or Black Hole)"
+      ]
+    },
+  
+    "story": {
+      "text": "钱德拉塞卡（“钱德拉”）在1930年的航行中，思考着一个问题：是什么支撑着“白矮星”（一种死去的恒星）？答案是“电子简并压力”——一种量子效应，即电子（`thomson_electron_1897`）“讨厌”被挤在同一个地方。但钱德拉意识到，当恒星质量越来越大，电子会被迫运动得越来越快，最终接近“光速”。他将爱因斯坦的“狭义相对论”（`einstein_special_relativity_1905`）——即没有物体能快过光速——加入计算。他发现，在1.44倍太阳质量时，这种量子压力“达到了极限”并“失效”了。它再也无法抵抗引力。这一发现（在1931-1935年发表）遭到了当时天文学界的领袖人物亚瑟·爱丁顿（Arthur Eddington）的猛烈抨击和嘲笑，爱丁顿认为这个“灾难性”的结论是荒谬的。",
+      "text_en": "On his 1930 voyage, 'Chandra' pondered what holds up a 'white dwarf' star. The answer was 'electron degeneracy pressure'—a quantum rule that electrons (`thomson_electron_1897`) 'hate' being in the same place. But Chandra realized that as the star gets *heavier*, the electrons are forced to move *faster*, approaching the speed of light. He added Einstein's 'Special Relativity' (`einstein_special_relativity_1905`) to his quantum calculations. He found that at 1.44 solar masses, this quantum pressure *fails*. It can no longer fight gravity. His discovery (published 1931-35) was viciously attacked and ridiculed by the leading astronomer of the day, Sir Arthur Eddington, who found the conclusion of total collapse to be 'absurd'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🚢",
+        "text": "钱德拉塞卡是在他19岁时，在从印度到英国的“轮船”上完成这项诺贝尔奖级别的核心计算的。",
+        "text_en": "Chandra was 19 years old when he performed the core, Nobel-Prize-winning calculations for this discovery... on a *steamship*."
+      },
+      {
+        "icon": "⏳",
+        "text": "由于爱丁顿的权威性反对，钱德拉塞卡的理论被忽视了几十年。他最终在1983年（即发现50多年后）因此项工作获得了诺贝尔物理学奖。",
+        "text_en": "Because of Eddington's authoritative opposition, Chandra's theory was ignored for decades. He finally won the Nobel Prize for this work in 1983, *over 50 years* after the discovery."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你试图“挤压”一个“床垫”（电子简并压力）。它会“反抗”你。这就是“白矮星”（死去的恒星）不坍缩的原因。\n钱德拉塞卡的发现是：如果你用“足够大的重量”（超过1.44倍太阳质量）去压这个床垫，那么在某一点，床垫的“弹簧”会“彻底失效”（因为相对论效应），而你的“重量”（引力）将会“无限地”坍缩下去。\n**他的极限就是“床垫失效”的那个临界点。**",
+      "text_en": "Imagine trying to 'squash' a 'mattress' (electron degeneracy pressure). It 'pushes back'. This is what holds up a 'white dwarf' (a dead star).\nChandra's discovery was that if you use *too much weight* (a core mass > 1.44x the Sun), the mattress's springs *fail* (due to relativity). The 'weight' (gravity) then *wins*, and the mattress collapses *infinitely*.\n**His 'limit' is the breaking point of that mattress.**"      
+    },
+  
+    "applications": [
+        {
+          "icon": "🌌",
+          "title": "恒星演化 (Stellar Evolution)",
+          "title_en": "Stellar Evolution",
+          "text": "“钱德拉塞卡极限”是所有现代天体物理学的基石。它决定了一颗恒星的“命运”：是“平静地死去”（成为白矮星），还是“灾难性地坍缩”（成为中子星或黑洞）。",
+          "text_en": "The Chandrasekhar Limit is the *cornerstone* of all modern astrophysics. It *dictates* the fate of a star: whether it dies 'quietly' (as a white dwarf) or 'catastrophically' (as a neutron star or black hole)."
+        },
+        {
+          "icon": "💥",
+          "title": "Ia 型超新星 (Type Ia Supernovae)",
+          "title_en": "Type Ia Supernovae",
+          "text": "当一颗白矮星（在双星系统中）从其伴星“窃取”物质，使其质量“超过”钱德拉塞卡极限时，它就会发生“热核爆炸”，即“Ia型超新星”。这些“标准烛光”被用来测量宇宙的膨胀。",
+          "text_en": "A 'Type Ia Supernova' happens when a white dwarf in a binary system 'steals' enough matter from its partner to *exceed* the Chandrasekhar Limit. It then *explodes*. These 'standard candles' are used to measure the expansion of the universe."
+        }
+      ],
+  
+    "impact": {
+      "text": "钱德拉塞卡的发现是20世纪天文学最重要的理论成就。它（与奥本海默等人的后续工作一起）在“数学上”预言了宇宙中最奇异的天体——“中子星”(Neutron Stars) 和“黑洞”(Black Holes) ——的“必然存在性”。它将爱因斯坦的相对论和普朗克的量子论结合起来，开创了“相对论性天体物理学”这一领域。",
+      "text_en": "Chandra's discovery was the most important *theoretical* achievement in 20th-century astronomy. It (along with later work by Oppenheimer) *mathematically predicted* the *necessary existence* of the universe's strangest objects: 'Neutron Stars' and 'Black Holes'. It united Einstein's relativity with Planck's quantum theory to create the field of 'Relativistic Astrophysics'.",
+      "stats": [
+          {
+            "number": "1.44",
+            "label": "倍太阳质量 (M☉)",
+            "label_en": "Solar Masses (M☉)"
+          },
+          {
+            "number": "19",
+            "label": "岁 (发现者年龄)",
+            "label_en": "Years Old (at discovery)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "einstein_special_relativity_1905",
+          "contribution": "爱因斯坦（其“狭义相对论”是钱德拉计算中不可或缺的一部分）",
+          "contribution_en": "Einstein (his 'Special Relativity' was the essential ingredient for the calculation)"
+        },
+        {
+          "id": "fowler_white_dwarfs_1926",
+          "contribution": "拉尔夫·福勒（其工作表明“白矮星”是由“简并态”物质支撑的，这是钱德拉的出发点）",
+          "contribution_en": "Ralph Fowler (his work showed 'white dwarfs' were supported by 'degenerate matter', which was Chandra's starting point)"
+        },
+        {
+          "id": "pauli_exclusion_principle_1925",
+          "contribution": "泡利（其“不相容原理”是“电子简并压力”的根本来源）",
+          "contribution_en": "Wolfgang Pauli (his 'Exclusion Principle' is the fundamental source of 'electron degeneracy pressure')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "oppenheimer_neutron_star_1939",
+          "contribution": "奥本海默（其关于“中子星”和“黑洞”坍缩的论文，是钱德拉工作的直接逻辑延伸）",
+          "contribution_en": "Oppenheimer (his papers on 'Neutron Stars' and 'Black Hole' collapse were the direct logical continuation of Chandra's work)"
+        },
+        {
+          "id": "type_ia_supernovae_1998",
+          "contribution": "Ia型超新星宇宙学（用于发现“暗能量”的“标准烛光”，其爆炸机制依赖于钱德拉塞卡极限）",
+          "contribution_en": "Type Ia Supernovae Cosmology (the 'standard candles' used to discover 'Dark Energy' explode *because* of this limit)"
+        }
+      ],
+      "legacy_text": "钱德拉塞卡极限是“生”与“死”的界限：它定义了一颗恒星的质量何时会压倒量子力学，并屈服于引力，坍缩成一个奇点。",
+      "legacy_text_en": "The Chandrasekhar Limit is the boundary between life and death for a star: the point where mass overwhelms quantum mechanics and gravity wins, crushing the star into oblivion."
+    },
+  
+    "related_concepts": ["白矮星 (White Dwarf)", "中子星 (Neutron Star)", "黑洞 (Black Hole)", "电子简并压力 (Electron Degeneracy)", "狭义相对论 (Special Relativity)", "量子力学 (Quantum Mechanics)", "Ia型超新星 (Type Ia Supernova)"],
+    "related_concepts_en": ["White Dwarf", "Neutron Star", "Black Hole", "Electron Degeneracy Pressure", "Special Relativity", "Quantum Mechanics", "Type Ia Supernova"],
+  
+    "quiz": {
+      "question": "“钱德拉塞卡极限”（~1.44倍太阳质量）是哪两种“力”之间斗争的“临界点”？",
+      "question_en": "The 'Chandrasekhar Limit' (~1.44 solar masses) is the tipping point in the battle between which two forces?",
+      "options": [
+        "“电磁力”和“核力”",
+        "“引力”（向内）和“电子简并压力”（向外）",
+        "“离心力”（向外）和“引力”（向内）",
+        "“大气压强”和“真空”"
+      ],
+      "options_en": [
+        "Electromagnetism and the Nuclear Force",
+        "Gravity (pushing *in*) and Electron Degeneracy Pressure (pushing *out*)",
+        "Centrifugal Force (pushing *out*) and Gravity (pushing *in*)",
+        "Atmospheric Pressure and a Vacuum"
+      ],
+      "answer": 1,
+      "explanation": "在白矮星中，“引力”试图将其无限压缩。“电子简并压力”（一种量子力）则向外抵抗。钱德拉塞卡证明，如果质量超过1.44倍太阳质量，“引力”就会获胜，导致灾难性坍缩。",
+      "explanation_en": "In a white dwarf, 'Gravity' tries to crush it flat. 'Electron Degeneracy Pressure' (a quantum force) pushes back. Chandra proved that if the mass is *over* 1.44 solar masses, 'Gravity' *wins*, and the star collapses catastrophically."
+    }
+  }

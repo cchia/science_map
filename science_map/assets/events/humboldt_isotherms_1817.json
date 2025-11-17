@@ -1,0 +1,153 @@
+{
+  "id": "humboldt_isotherms_1817",
+  "personId": "alexander_von_humboldt",
+  "title": "发明“等温线” (Isotherms)",
+  "title_en": "Invents 'Isotherms' and Comparative Climatology",
+  "year": 1817,
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "city": "巴黎",
+  "city_en": "Paris",
+  "country": "法国",
+  "country_en": "France",
+  "field": ["地理学", "物理学"],
+  "field_en": ["Geography", "Physics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Woodbridge_isothermal_chart3.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=fYrXE_umWCw",
+      "title": "亚历山大·冯·洪堡与气候变化",
+      "title_en": "Alexander von Humboldt and the Discovery of Climate Change",
+      "duration": "2:26"
+    }
+  },
+  
+  "summary": {
+    "text": "亚历山大·冯·洪堡（Alexander von Humboldt）发表了奠基性的论文《论等温线》(Des Lignes Isothermes)，开创了“比较气候学”这一全新学科。他收集了全球数千个地点的年平均温度数据，并发明了一种革命性的视觉工具：“**等温线**”(Isotherm)，即连接所有平均温度相同的地点的线。这是科学史上第一次使用“数据可视化”（Thematic Map）来揭示宏观的自然规律。他的地图清晰地显示了，一个地方的气候不仅取决于“纬度”，还取决于“大陆性”（离海洋的远近）和“海拔”。",
+    "text_en": "Alexander von Humboldt published his foundational treatise, 'On Isothermal Lines', creating the new science of 'Comparative Climatology'. He collected thousands of mean annual temperature readings from around the world and invented a revolutionary visual tool: the 'Isotherm', a line connecting all points with the same average temperature. This was the first time in history that 'data visualization' (a thematic map) was used to reveal large-scale patterns in nature. His map clearly showed that climate depends not just on latitude, but also on 'continentality' (distance from the sea) and altitude.",
+    "key_points": [
+      "发明了“等温线”(Isotherm)（等值线）",
+      "开创了“比较气候学”(Comparative Climatology)",
+      "制作了第一张“专题地图”(Thematic Map)（数据可视化）",
+      "证明了气候也取决于“大陆性”和“海拔”"
+    ],
+    "key_points_en": [
+      "Invented the 'Isotherm' (isoline)",
+      "Founded 'Comparative Climatology'",
+      "Created the first 'Thematic Map' (data visualization)",
+      "Proved climate also depends on 'continentality' and 'altitude'"
+    ]
+  },
+
+  "story": {
+    "text": "在洪堡之前，人们（如亚里士多德 `aristotle_physics_BC350`）简单地认为气候只由“纬度”决定（赤道热，两极冷）。洪堡在他史诗般的“美洲之旅”（`humboldt_americas_1799`）中，亲身测量了安第斯山脉的温度、气压和植物，他意识到这个模型是错的。回到巴黎后，他花了十多年时间整理他的海量数据，并说服全球的科学家（通过邮件）向他发送他们的数据。为了理解这些“杂乱无章”的数字，他发明了“等温线”。当他将这些线画在世界地图上时，一个美丽的规律出现了：这些线不是“直的”，而是在大陆上向“赤道”弯曲（冬天），在海洋上向“两极”弯曲。他用一张图，就证明了“海洋”是地球的“大空调”。",
+    "text_en": "Before Humboldt, people (like Aristotle, `aristotle_physics_BC350`) assumed climate was simple: hot at the equator, cold at the poles. Humboldt *knew* this was wrong from his epic American voyage (`humboldt_americas_1799`), where he measured temperature, pressure, and plants up the side of the Andes. Back in Paris, he spent over a decade compiling his mountains of data. To make sense of the 'chaos' of numbers, he invented the 'isotherm'. When he drew these lines on a map, a beautiful pattern emerged: the lines *bent*. They dipped *south* over continents (in winter) and *north* over oceans. He had *proven* (with one map) that oceans act as giant 'climate moderators' for the planet."    
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🗺️",
+      "text": "“等温线”是所有现代“等高线图”和“天气预报图”（如“等压线”）的“鼻祖”。",
+      "text_en": "The 'isotherm' is the 'grandfather' of *all* modern contour maps, including topographic maps (isohypses) and weather maps (isobars)."
+    },
+    {
+      "icon": " Darwin",
+      "text": "查尔斯·达尔文（Charles Darwin）在“小猎犬号”航行中，随身携带的就是洪堡的《个人手稿》（其美洲之旅的游记）。达尔文称洪堡是“最伟大的科学旅行家”。",
+      "text_en": "Charles Darwin took Humboldt's 'Personal Narrative' (his travel journal) with him on the Beagle. Darwin called Humboldt 'the greatest scientific traveler who ever lived.'"
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "在洪堡之前，“气象学”就是“记日记”（“今天很热”）。洪堡是第一个“数据科学家”。\n他收集了全世界的“年平均温度”，然后发明了一种“数据可视化”的方法。他就像一个“连连看”玩家，把地图上所有“10度”的点连成一条线，所有“20度”的点连成另一条线。这些线就是“等温线”。\n这张地图一画出来，规律就“自己跳了出来”：这些线不是直的！他证明了，为什么“伦敦”（靠海）的冬天比“哈尔滨”（内陆）暖和得多，即使它们的纬度差不多。",
+    "text_en": "Before Humboldt, meteorology was just 'keeping a diary' ('Today was hot'). Humboldt was the first 'data scientist'.\nHe collected the *average annual temperature* from all over the world. Then, he invented 'data visualization'. He played 'connect-the-dots', drawing a line between all the 10°C cities, another line for all the 20°C cities, etc. These are 'isotherms'.\nThe moment he drew the map, the pattern *jumped out*: the lines *weren't straight*! He proved *why* London (on the ocean) has a mild winter, while Winnipeg (inland) is frozen, even though they have a similar latitude."    
+  },
+
+  "applications": [
+      {
+        "icon": "🌦️",
+        "title": "气候学与气象学",
+        "title_en": "Climatology & Meteorology",
+        "text": "“等值线图”（Isoline maps）至今仍是气象学家和气候学家用来显示压强（等压线）、温度（等温线）和降水（等雨线）的标准工具。",
+        "text_en": "Isoline maps (isotherms, isobars, isohyets) are *still* the standard tool meteorologists and climatologists use to visualize pressure, temperature, and rainfall."
+      },
+      {
+        "icon": "📊",
+        "title": "数据可视化 (Data Visualization)",
+        "title_en": "Data Visualization",
+        "text": "洪堡开创了“专题制图学”(Thematic Cartography)，即“用地图来讲数据故事”。所有现代的“数据地图”（如显示选举结果或疫情传播的地图）都源于此。",
+        "text_en": "Humboldt founded 'Thematic Cartography': using maps to tell a *data story*. Every modern 'data map' (like election maps or virus maps) is a descendant of this idea."
+      },
+      {
+        "icon": "🌱",
+        "title": "生物地理学 (Biogeography)",
+        "title_en": "Biogeography",
+        "text": "洪堡使用他的等温线，首次科学地解释了“为什么某些植物只在特定的气候带（海拔或纬度）生长”。",
+        "text_en": "Humboldt used his isotherms to explain, for the first time, *why* certain plants only grow in certain climate zones (defined by altitude or latitude)."
+      }
+    ],
+
+  "impact": {
+    "text": "洪堡的“等温线图”是科学史上的一个重大转折点。它将“地球科学”从简单的“博物采集”转变为一门“分析性的、定量的”物理科学。它引入了一种全新的“科学方法”：通过“可视化”海量数据来发现宏观规律。这种“系统思维”（认为大气、海洋和生命是一个相互联系的整体）直接启发了达尔文（`darwin_origin_of_species_1859`），并奠定了现代“生态学”和“地球系统科学”的基础。",
+    "text_en": "Humboldt's isotherm map was a turning point. It transformed 'Earth Science' from simple 'natural history collecting' into an 'analytical, quantitative' physical science. It introduced a new scientific method: *finding patterns* by *visualizing massive datasets*. This 'systems thinking'—seeing the atmosphere, oceans, and life as one interconnected whole—was a direct inspiration for Charles Darwin (`darwin_origin_of_species_1859`) and forms the basis of modern 'ecology' and 'Earth system science'.",
+    "stats": [
+        {
+          "number": "1817",
+          "label": "年 (气候学诞生)",
+          "label_en": "Year (Birth of Climatology)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "humboldt_americas_1799",
+        "contribution": "（他自己）美洲探险（提供了绘制地图所需的第一手海量数据）",
+        "contribution_en": "(Himself) His American Expedition (provided the massive, first-hand dataset he needed to draw the map)"
+      },
+      {
+        "id": "halley_isogonic_chart_1701",
+        "contribution": "埃德蒙·哈雷（哈雷在1701年绘制了“等磁偏线图”，是“等值线”概念的早期先驱）",
+        "contribution_en": "Edmond Halley (Halley had drawn a map of 'isogonic' lines (equal magnetic declination) in 1701, an early precursor to the isoline concept)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "darwin_origin_of_species_1859",
+        "contribution": "查尔斯·达尔文（其“生物地理学”和“生态系统”的观点深受洪堡“整体自然观”的影响）",
+        "contribution_en": "Charles Darwin (his views on biogeography and ecosystems were profoundly shaped by Humboldt's holistic 'web of nature' approach)"
+      },
+      {
+        "id": "modern_data_visualization_1950",
+        "contribution": "现代数据可视化（洪堡是“用图形讲故事”的科学鼻祖）",
+        "contribution_en": "Modern Data Visualization (Humboldt is the scientific father of 'telling stories with data graphics')"
+      }
+    ],
+    "legacy_text": "亚历山大·冯·洪堡发明了“等温线”，将“气候”从一种“感觉”转变为一门“科学”。",
+    "legacy_text_en": "Alexander von Humboldt invented the 'isotherm', turning 'climate' from a 'feeling' into a 'science'."
+  },
+
+  "related_concepts": ["等温线 (Isotherm)", "等值线 (Isoline)", "比较气候学 (Comparative Climatology)", "数据可视化 (Data Visualization)", "专题地图 (Thematic Map)", "生物地理学 (Biogeography)", "大陆性 (Continentality)", "达尔文 (Darwin)"],
+  "related_concepts_en": ["Isotherm", "Isoline", "Comparative Climatology", "Data Visualization", "Thematic Map", "Biogeography", "Continentality", "Darwin"],
+
+  "quiz": {
+    "question": "亚历山大·冯·洪堡（Humboldt）发明的“等温线”(Isotherm) 是一种什么工具？",
+    "question_en": "What is an 'isotherm', the tool invented by Alexander von Humboldt?",
+    "options": [
+      "一种测量温度的精密温度计",
+      "一种测量海拔高度的仪器",
+      "一种在地图上连接所有“等温点”的线，用于“数据可视化”",
+      "一种解释闪电的理论"
+    ],
+    "options_en": [
+      "A precise thermometer for measuring temperature",
+      "An instrument for measuring altitude",
+      "A line on a map connecting points of *equal average temperature*, used for 'data visualization'",
+      "A theory to explain lightning"
+    ],
+    "answer": 2,
+    "explanation": "“Isotherm”源自希腊语“isos”（相等）和“therme”（热）。它不是一个物理仪器，而是一种“数据可视化”技术——在地图上绘制的“等温线”，用于揭示全球的气候模式。",
+    "explanation_en": "An 'isotherm' (from Greek *isos* 'equal' and *therme* 'heat') is not a physical tool, but a *data visualization technique*. It is a *line drawn on a map* to reveal patterns in global climate."
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "欧内斯特·劳伦斯",
+    "name_en": "Ernest O. Lawrence",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ernest_Lawrence.jpg",
+    "bio_short": "美国物理学家，因发明“回旋加速器”(Cyclotron) 而获得了1939年的诺贝尔物理学奖。他是“大科学”(Big Science) 的先驱，其发明的加速器开创了高能物理学，并在曼哈顿计划中用于分离铀。",
+    "bio_short_en": "An American physicist who won the 1939 Nobel Prize for his invention of the 'Cyclotron'. He was a pioneer of 'Big Science', and his accelerator founded high-energy physics and was used in the Manhattan Project to separate uranium.",
+    "events": [
+      "lawrence_cyclotron_1932"
+    ]
+  }

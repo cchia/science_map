@@ -1,0 +1,153 @@
+{
+    "id": "hartree_fock_method_1930",
+    "personId": ["douglas_hartree", "vladimir_fock"],
+    "title": "发展“哈特里-福克方法” (HF方法)",
+    "title_en": "Develops the 'Hartree-Fock Method' (HF Method)",
+    "year": 1930,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥 / 列宁格勒",
+    "city_en": "Cambridge / Leningrad",
+    "country": "英国 / 苏联",
+    "country_en": "UK / Soviet Union",
+    "field": ["物理学", "化学", "计算机"],
+    "field_en": ["Physics", "Chemistry", "Computer Science"],
+    
+    "media": {            
+    },
+    
+    "summary": {
+      "text": "道格拉斯·哈特里（Douglas Hartree）(1927) 和弗拉基米尔·福克（Vladimir Fock）(1930) 发展了第一个实用的“近似”方法，用于求解薛定谔方程（`schrodinger_equation_1926`）在“多电子”原子和分子中的应用。这就是“哈特里-福克”(HF)方法。它将一个“不可能”的多体问题（计算每个电子与所有其他电子的相互作用）简化为一个“可解”的单体问题。它假设每个电子都在一个由“所有其他”电子产生的“平均、模糊的电场”（即“平均场”）中运动。福克的关键贡献是，他将“泡利不相容原理”（`pauli_exclusion_principle_1925`）在数学上（通过“反对称性”）纳入了该方法。",
+      "text_en": "Douglas Hartree (1927) and Vladimir Fock (1930) developed the first practical 'approximation method' for solving the Schrödinger equation (`schrodinger_equation_1926`) for multi-electron atoms and molecules. The 'Hartree-Fock' (HF) method simplifies the 'impossible' many-body problem (all electrons interacting) into a 'solvable' one-body problem. It assumes each electron moves in the *average, 'smeared-out' field* ('mean field') created by all *other* electrons. Fock's key contribution was to mathematically incorporate the 'Pauli Exclusion Principle' (`pauli_exclusion_principle_1925`) using 'anti-symmetry'.",
+      "key_points": [
+        "“计算化学”(Computational Chemistry) 的诞生日",
+        "第一个“第一性原理”(Ab Initio) 的计算方法",
+        "“平均场”(Mean-Field) 近似法",
+        "“自洽场”(Self-Consistent Field, SCF) 迭代法",
+        "福克（Fock）加入了“泡利不相容原理”"
+      ],
+      "key_points_en": [
+        "Birth of 'Computational Chemistry'",
+        "The first 'Ab Initio' computational method",
+        "'Mean-Field' Approximation",
+        "'Self-Consistent Field' (SCF) iterative method",
+        "Fock added the 'Pauli Exclusion Principle'"
+      ]
+    },
+  
+    "story": {
+      "text": "薛定谔方程（`schrodinger_equation_1926`）对于“氢原子”（1个电子）是完美的，但对于“氦原子”（2个电子）就已经“无法精确求解”了。哈特里-福克方法是一个巧妙的“迭代”过程：\n1. **猜测**：你先“猜测”所有电子的“轨道”（波函数）是什么样的。\n2. **计算**：你“冻结”除“电子1”之外的所有电子，并将它们“模糊”成一个“平均电云”。\n3. **求解**：你现在只需求解“电子1”在这个“平均电云”中的“新轨道”。\n4. **重复**：你再用“电子1”的新轨道，去求解“电子2”的新轨道……依此类推，直到所有电子的轨道都更新一遍。\n5. **自洽**：你不断重复第2-4步，直到“轨道”不再发生变化——即“电云”产生了“轨道”，而“轨道”也产生了“电云”。这个最终的“自洽场”(Self-Consistent Field, SCF) 解，就是HF的答案。",
+      "text_en": "Schrödinger's equation (`schrodinger_equation_1926`) was perfect for *one* electron (Hydrogen), but 'unsolvable' for *two* (Helium). The Hartree-Fock method is an ingenious *iterative* process:\n1. **Guess:** You 'guess' what the 'orbits' (wavefunctions) of all electrons look like.\n2. **Calculate:** You 'freeze' all electrons *except* Electron 1, and 'smear' them into an 'average cloud' (the 'mean field').\n3. **Solve:** You now solve the Schrödinger equation for *only* Electron 1 moving *in* that 'average cloud', giving you a *new, better* orbit.\n4. **Repeat:** You use this new orbit for Electron 1 to help you solve for Electron 2, and so on, for all electrons.\n5. **Self-Consistency:** You *keep repeating* steps 2-4 until the 'orbits' stop changing—the 'cloud' creates the 'orbits', and the 'orbits' create the 'cloud'. This final 'Self-Consistent Field' (SCF) is the Hartree-Fock answer."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚙️",
+        "text": "道格拉斯·哈特里（Douglas Hartree）在1930年代（在电子计算机出现之前）建造了一台用“Meccano”积木（一种铁制拼装玩具）搭建的“微分分析机”（机械模拟计算机），专门用于计算他的原子方程。",
+        "text_en": "In the 1930s, *before* electronic computers, Douglas Hartree built a 'differential analyser' (a mechanical analog computer) out of 'Meccano' (an Erector Set) specifically to help solve his atomic equations."
+      },
+      {
+        "icon": " foundation",
+        "text": "HF方法本身“忽略”了电子间的“瞬时”相关性（它只考虑“平均”相关性），因此它始终是“近似”的。所有“更高级”的现代计算化学方法，几乎都是在HF方法的基础之上，再去“加上”那些被忽略的相关性。",
+        "text_en": "The HF method *ignores* the 'instantaneous' correlation between electrons (it only sees the *average*), so it's always an approximation. *All* 'higher-level' modern computational methods are built *on top* of the HF method, adding back in the correlation it missed."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你试图“计算”一个“蜂群”（分子）中“每一只蜜蜂”（电子）的“飞行路径”。这是“不可能”的，因为“每一只”蜜蜂的飞行，都会“瞬间”影响“所有其他”蜜蜂。\n“玻恩-奥本海默近似”（`born_oppenheimer_approximation_1927`）说：“别管蜂巢（原子核）了，假装它是静止的。”\n“哈特里-福克方法”则更进一步，说：“我们来‘作弊’。我们只计算‘蜜蜂A’的路径。至于‘所有其他’蜜蜂，我们不看它们，我们把它们想象成一团‘模糊的、平均的云’（平均场）。计算‘蜜蜂A’穿过这团‘云’的路径就容易多了。”\nHF方法就是第一个能让我们（在计算机上）“近似”计算出“分子形状”和“化学键”的“作弊码”。",
+      "text_en": "Imagine trying to 'calculate' the *exact flight path* of *every bee* (electron) in a *giant swarm* (a molecule). It's *impossible*, because *every* bee instantly affects *every other* bee.\nThe 'Born-Oppenheimer' (`born_oppenheimer_approximation_1927`) approximation said: 'Freeze the beehive (nuclei) in place.'\nThe 'Hartree-Fock Method' went further: 'Let's cheat. Let's only calculate the path for *Bee A*. For *all the other bees*, let's just pretend they are a *blurry, average cloud* (the 'mean field'). It's *much* easier to calculate Bee A's path through that *cloud*.'\nHF was the first 'cheat code' that allowed us to *actually calculate* 'molecular shapes' and 'chemical bonds' on a computer."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "计算化学 (Computational Chemistry)",
+          "title_en": "Computational Chemistry",
+          "text": "HF方法是“第一性原理”(ab initio) 计算化学的“起点”。所有更精确的方法（如 CI, MP2, CCSD）都从HF波函数开始。",
+          "text_en": "The HF method is the 'starting point' for *all* 'ab initio' computational chemistry. All more-accurate methods (like CI, MP2, CCSD) *begin* with the HF wavefunction."
+        },
+        {
+          "icon": "⚛️",
+          "title": "原子物理学 (Atomic Physics)",
+          "title_en": "Atomic Physics",
+          "text": "它提供了第一种“计算”出多电子原子的“电子排布”（轨道能量）的方法。",
+          "text_en": "It provided the first method to *calculate* the 'electron configuration' (orbital energies) of multi-electron atoms."
+        },
+        {
+          "icon": "💊",
+          "title": "药物与材料设计（基础）",
+          "title_en": "Drug & Materials Design (Basis)",
+          "text": "虽然DFT（`dft_1964`）现在更常用，但HF方法是建立“分子轨道理论”和“化学键”的“第一个”定量工具。",
+          "text_en": "Although DFT (`dft_1964`) is more common now, the HF method was the *first* quantitative tool used to build 'molecular orbital theory' and understand the 'chemical bond' (`pauling_chemical_bond_1931`)."
+        }
+      ],
+  
+    "impact": {
+      "text": "哈特里-福克方法将“量子力学”从一个“理论物理学”的抽象概念，转变为一个“化学家”和“材料科学家”可以用来“计算真实分子”的“实用工具”。它是“计算化学”和“计算物理学”这两大领域的“开山鼻祖”，其重要性可与后来的“密度泛函理论”（`dft_1964`）相媲美。",
+      "text_en": "The Hartree-Fock method is what turned 'quantum mechanics' from an abstract 'theory' into a *practical tool* that 'chemists' and 'materials scientists' could *use* to *calculate* things about *real molecules*. It is the 'grandfather' of the entire fields of 'computational chemistry' and 'computational physics', and is of equal importance to the later 'Density Functional Theory' (`dft_1964`).",
+      "stats": [
+          {
+            "number": "1930",
+            "label": "年 (Fock 论文)",
+            "label_en": "Year (Fock's Paper)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "schrodinger_equation_1926",
+          "contribution": "薛定谔（提供了HF方法试图“近似求解”的基础方程）",
+          "contribution_en": "Schrödinger (provided the fundamental equation that HF attempts to 'approximately solve')"
+        },
+        {
+          "id": "born_oppenheimer_approximation_1927",
+          "contribution": "玻恩-奥本海默（其“冻结原子核”的近似，是HF方法的第一步）",
+          "contribution_en": "Born-Oppenheimer (their 'frozen nuclei' approximation is the *first step* that HF relies on)"
+        },
+        {
+          "id": "pauli_exclusion_principle_1925",
+          "contribution": "泡利不相容原理（福克（Fock）将其数学化并加入了哈特里（Hartree）的方法中）",
+          "contribution_en": "Pauli Exclusion Principle (which *Fock* incorporated mathematically into Hartree's original method)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "dft_1964",
+          "contribution": "密度泛函理论（作为HF方法的“主要替代方案”和“竞争对手”而发展起来）",
+          "contribution_en": "Density Functional Theory (which was developed as the 'main alternative' and 'competitor' to the HF method)"
+        },
+        {
+          "id": "computational_chemistry_1970",
+          "contribution": "计算化学（整个领域都建立在HF方法及其“后HF”改进方法之上）",
+          "contribution_en": "Computational Chemistry (the entire field is built on HF and 'post-HF' methods)"
+        }
+      ],
+      "legacy_text": "哈特里-福克方法是“计算化学”的“创世纪”，是人类首次尝试在计算机上（最初是机械的）从“第一性原理”出发构建分子。",
+      "legacy_text_en": "The Hartree-Fock method is the 'Genesis' of computational chemistry, the first attempt to build molecules *ab initio* (from scratch) on a computer."
+    },
+  
+    "related_concepts": ["平均场理论 (Mean-Field Theory)", "自洽场 (Self-Consistent Field, SCF)", "第一性原理 (Ab Initio)", "量子化学 (Quantum Chemistry)", "薛定谔方程 (Schrödinger Equation)", "泡利不相容原理 (Pauli Exclusion Principle)", "斯莱特行列式 (Slater Determinant)"],
+    "related_concepts_en": ["Mean-Field Theory", "Self-Consistent Field (SCF)", "Ab Initio", "Quantum Chemistry", "Schrödinger Equation", "Pauli Exclusion Principle", "Slater Determinant"],
+  
+    "quiz": {
+      "question": "哈特里-福克(HF)方法的核心“近似”（或“作弊”）是什么？",
+      "question_en": "What is the central 'approximation' (or 'cheat') of the Hartree-Fock (HF) method?",
+      "options": [
+        "它假设原子核是静止的",
+        "它用一个“平均、模糊的电云”来代替“所有其他电子”的瞬时相互作用",
+        "它假设电子是粒子，而不是波",
+        "它假设能量是连续的"
+      ],
+      "options_en": [
+        "It assumes the nucleus is stationary",
+        "It replaces the interaction of *all other* electrons with a single *'average, blurry cloud'* (a mean field)",
+        "It assumes electrons are particles, not waves",
+        "It assumes energy is continuous"
+      ],
+      "answer": 1,
+      "explanation": "（A）是“玻恩-奥本海默近似”（`born_oppenheimer_approximation_1927`），这是HF方法的第一步。HF方法本身的核心“近似”是（B）“平均场”近似，它将一个“多体”问题（N个电子）简化为了N个“单体”问题。",
+      "explanation_en": "(A) is the 'Born-Oppenheimer approximation' (`born_oppenheimer_approximation_1927`), which is the *first step* HF uses. The core approximation of the HF method *itself* is (B), the 'mean-field' approximation, which simplifies the 'many-body' problem into N 'one-body' problems."
+    }
+  }

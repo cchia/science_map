@@ -1,0 +1,14 @@
+{
+    "name": "托马斯·爱迪生",
+    "name_en": "Thomas Edison",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Thomas_Edison2.jpg",
+    "bio_short": "美国发明家和商人，被誉为“门洛帕克的奇才”。他发明了留声机（`edison_phonograph_1877`）、实用的白炽灯泡（`edison_light_bulb_1879`）、电影摄影机（`edison_kinetoscope_1891`）和第一个配电系统（`edison_pearl_street_1882`）。",
+    "bio_short_en": "An American inventor and businessman, the 'Wizard of Menlo Park'. He invented the phonograph (`edison_phonograph_1877`), the practical incandescent light bulb (`edison_light_bulb_1879`), the motion picture camera (`edison_kinetoscope_1891`), and the first electrical distribution system (`edison_pearl_street_1882`).",
+    "events": [
+      "edison_phonograph_1877",
+      "edison_light_bulb_1879",
+      "edison_pearl_street_1882",
+      "edison_effect_1883",
+      "edison_kinetoscope_1891"
+    ]
+  }

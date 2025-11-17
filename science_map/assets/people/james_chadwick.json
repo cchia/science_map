@@ -1,0 +1,10 @@
+{
+    "name": "詹姆斯·查德威克",
+    "name_en": "James Chadwick",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/b8/James_Chadwick.jpg",
+    "bio_short": "英国物理学家，欧内斯特·卢瑟福的学生。他因在1932年发现了“中子”（`chadwick_neutron_1932`）而获得了1935年的诺贝尔物理学奖，这一发现为核裂变和原子弹铺平了道路。",
+    "bio_short_en": "A British physicist and student of Ernest Rutherford. He won the 1935 Nobel Prize in Physics for his 1932 discovery of the 'neutron' (`chadwick_neutron_1932`), which paved the way for nuclear fission and the atomic bomb.",
+    "events": [
+      "chadwick_neutron_1932"
+    ]
+  }

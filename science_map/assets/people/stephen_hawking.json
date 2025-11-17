@@ -1,0 +1,11 @@
+{
+    "name": "斯蒂芬·霍金",
+    "name_en": "Stephen Hawking",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg",
+    "bio_short": "英国理论物理学家、宇宙学家。他以其在“黑洞”和“奇点”理论上的突破性贡献而闻名，包括“奇点定理”（`penrose_singularity_1965`）和“霍金辐射”（`hawking_radiation_1974`）。",
+    "bio_short_en": "An English theoretical physicist and cosmologist. He was renowned for his groundbreaking contributions to the theories of 'black holes' and 'singularities', including the 'singularity theorems' (`penrose_singularity_1965`) and 'Hawking radiation' (`hawking_radiation_1974`).",
+    "events": [
+      "penrose_singularity_1965",
+      "hawking_radiation_1974"
+    ]
+  }

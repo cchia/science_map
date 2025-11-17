@@ -1,0 +1,9 @@
+{
+    "name": "卢杰·沉",
+    "name_en": "Lu Jeu Sham",    
+    "bio_short": "美籍华裔物理学家。他与瓦尔特·科恩（Walter Kohn）合作，在1965年提出了“科恩-沉方程”(Kohn-Sham Equations)，这是将“密度泛函理论”(DFT) 从一个“抽象理论”转变为“实用计算工具”的关键一步。",
+    "bio_short_en": "A Chinese-American physicist. He collaborated with Walter Kohn to formulate the 'Kohn-Sham Equations' (1965), the critical step that transformed 'Density Functional Theory' (DFT) from an 'abstract theory' into a 'practical computational tool'.",
+    "events": [
+      "kohn_sham_equations_1965"
+    ]
+  }

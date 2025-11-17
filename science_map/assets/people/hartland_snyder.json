@@ -1,0 +1,9 @@
+{
+    "name": "哈特兰·斯奈德",
+    "name_en": "Hartland Snyder",    
+    "bio_short": "美国物理学家。他是J·罗伯特·奥本海默（J. Robert Oppenheimer）的学生，两人共同发表了1939年的开创性论文（`oppenheimer_snyder_black_hole_1939`），该论文首次从理论上预言了“黑洞”的存在。",
+    "bio_short_en": "An American physicist. As a student of J. Robert Oppenheimer, he co-authored the groundbreaking 1939 paper (`oppenheimer_snyder_black_hole_1939`) that provided the first theoretical model for the formation of a 'black hole'.",
+    "events": [
+      "oppenheimer_snyder_black_hole_1939"
+    ]
+  }

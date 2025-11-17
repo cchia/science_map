@@ -1,0 +1,158 @@
+{
+    "id": "hawking_radiation_1974",
+    "personId": "stephen_hawking",
+    "title": "发表“霍金辐射”理论 (黑洞蒸发)",
+    "title_en": "Publishes 'Hawking Radiation' (Black Hole Evaporation)",
+    "year": 1974,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥",
+    "city_en": "Cambridge",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学", "天文学"],
+    "field_en": ["Physics", "Astronomy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Andrew_Hamilton_schwarzchild_waterfall.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=qPKj0YnKANw",
+        "title": "霍金辐射",
+        "title_en": "Hawking Radiation",
+        "duration": "12:05"
+      }
+    },
+    
+    "summary": {
+      "text": "斯蒂芬·霍金（Stephen Hawking）发表了一篇划时代的论文，震惊了物理学界。他首次将“广义相对论”（`einstein_1915_general_relativity`）和“量子力学”（`planck_quantum_1900`）这两大理论结合起来，应用于“黑洞”的“事件视界”。他计算出，由于量子效应（“虚拟粒子对”），黑洞**并非**是“只进不出”的，而是会缓慢地、持续地向外“辐射”能量，导致其“丢失质量”并最终“蒸发”殆尽。这种辐射被命名为“霍金辐射”。",
+      "text_en": "Stephen Hawking published a landmark paper that shocked the physics world. He was the first to combine 'General Relativity' (`einstein_1915_general_relativity`) and 'Quantum Mechanics' (`planck_quantum_1900`) at the 'event horizon' of a black hole. He calculated that, due to quantum effects ('virtual particle pairs'), black holes are *not* entirely 'black'—they must slowly *radiate* energy, lose mass, and eventually 'evaporate'. This radiation was named 'Hawking Radiation'.",
+      "key_points": [
+        "黑洞会“蒸发”(Black holes 'evaporate')",
+        "黑洞不是“全黑”的，而是会发光（辐射）",
+        "首次成功地结合了“广义相对论”和“量子力学”",
+        "源于“事件视界”(Event Horizon) 附近的“量子涨落”",
+        "引发了“黑洞信息悖论”(Information Paradox)"
+      ],
+      "key_points_en": [
+        "Black holes 'evaporate'",
+        "Black holes are not *entirely* black, they *glow*",
+        "First successful combination of General Relativity and Quantum Mechanics",
+        "Caused by 'quantum fluctuations' near the 'event horizon'",
+        "Created the 'Black Hole Information Paradox'"
+      ]
+    },
+  
+    "story": {
+      "text": "霍金的灵感，源于他对量子理论（`heisenberg_uncertainty_1927`）中“真空涨落”的思考。在“空无一物”的真空中，“虚拟粒子-反粒子对”会不断地“凭空”产生，并在瞬间（根据 ΔE·Δt ≥ ħ/2）相互“湮灭”。\n霍金问：如果这对粒子“恰好”产生在黑洞的“事件视界”（即“不归点”）上，会发生什么？\n他发现，有可能“粒子A”（带负能量）掉入黑洞，而“粒子B”（带正能量）逃逸了。由于它们无法再湮灭，逃逸的“粒子B”就成为了“真实”的粒子，飞向宇宙。这就是“霍金辐射”。\n而那个掉进去的“负能量”粒子，则使黑洞的“总质量”减少了。其效果就是：黑洞在“辐射”，同时在“变小”。",
+      "text_en": "Hawking was thinking about 'vacuum fluctuations' from quantum theory (`heisenberg_uncertainty_1927`): in 'empty' space, 'virtual particle-antiparticle pairs' constantly pop into existence and annihilate each other instantly (per ΔE·Δt ≥ ħ/2).\nHawking asked: What happens if a pair pops into existence *right on the edge* of a black hole's 'event horizon' (the point-of-no-return)?\nHe found it was possible for 'Particle A' (with *negative* energy) to fall *in*, while 'Particle B' (with *positive* energy) *escapes*. Because it can no longer annihilate, the escaping 'Particle B' becomes *real* and flies off into space. *That is Hawking Radiation*.\nThe 'negative energy' particle that falls *in* *reduces* the black hole's total mass. The net effect: the black hole 'radiates' and 'shrinks'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🌡️",
+        "text": "霍金辐射的“温度”与黑洞的“质量”成“反比”。一个“太阳质量”的黑洞，其温度仅比“绝对零度”高百万分之一度，而一个“小行星质量”的黑洞，其辐射温度会高得多。",
+        "text_en": "The *temperature* of Hawking radiation is *inversely* proportional to the black hole's mass. A solar-mass black hole is fractions of a degree above absolute zero, while an asteroid-mass black hole would be much, much hotter."
+      },
+      {
+        "icon": "⏳",
+        "text": "一个“太阳质量”的黑洞，需要花 10⁶⁷ 年（1后面跟67个0）才能“蒸发”完毕。这个时间远超目前宇宙的年龄（10¹⁰年）。",
+        "text_en": "It would take 10⁶⁷ years (a '1' followed by 67 zeros) for a solar-mass black hole to evaporate. The universe is only 10¹⁰ years old."
+      },
+      {
+        "icon": " paradox",
+        "text": "这个理论引发了“黑洞信息悖论”：量子力学说“信息”永远不会被“摧毁”，但霍金辐射（是随机的）似乎“摧毁”了掉入黑洞的“信息”。这场辩论至今仍是理论物理学的核心。",
+        "text_en": "This created the 'Information Paradox': Quantum mechanics insists 'information' can *never* be destroyed. But Hawking radiation (which is random) *seems* to destroy the 'information' of what fell in. This debate is still at the heart of theoretical physics."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "霍金发现，“黑洞”其实并不“黑”。他证明了黑洞会“漏气”（辐射）。\n想象一下，“真空”就像一片“嘶嘶作响”的苏打水，充满了不断产生和破灭的“虚拟气泡”（粒子对）。\n当这些“气泡”恰好在黑洞的“边缘”（事件视界）上产生时，一个“气泡”可能掉进去，另一个“气泡”则“逃”了出来。\n这个“逃出来的气泡”就是“霍金辐射”。\n因为黑洞（为了守恒）必须为这个“逃出来的”气泡“买单”，所以它会“丢失”一点点自己的“质量”。这个过程极其缓慢，但最终，黑洞会完全“蒸发”消失。",
+      "text_en": "Hawking discovered that black holes *aren't* perfectly black. They 'leak'.\nImagine 'empty space' is like a 'fizzing soda', full of 'virtual bubbles' (particle pairs) that pop into existence and instantly pop back out.\nIf a 'bubble' pops into existence *right on the edge* of a black hole (the event horizon), one half of the bubble might *fall in* while the other half *escapes*.\nThat 'escaped' half *is* Hawking Radiation.\nBecause the black hole has to 'pay' for the escaped bubble (to conserve energy), it *loses* a tiny bit of its own *mass*. Over trillions of years, this 'leak' causes the black hole to *completely evaporate* and disappear."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🌌",
+          "title": "黑洞热力学",
+          "title_en": "Black Hole Thermodynamics",
+          "text": "霍金的发现证明了黑洞具有“温度”(Temperature) 和“熵”(Entropy)。这首次在“热力学”（`carnot_thermodynamics_1824`）、“广义相对论”和“量子力学”之间建立了深刻的数学联系。",
+          "text_en": "Hawking's discovery proved that black holes have a 'temperature' and an 'entropy'. This, for the first time, created a deep mathematical link between Thermodynamics (`carnot_thermodynamics_1824`), General Relativity, and Quantum Mechanics."
+        },
+        {
+          "icon": "🔬",
+          "title": "量子引力 (Quantum Gravity)",
+          "title_en": "Quantum Gravity",
+          "text": "“霍金辐射”和“信息悖论”是所有“量子引力”和“弦理论”研究者试图解决的“核心问题”和“指导原则”。",
+          "text_en": "Hawking radiation and the 'Information Paradox' it creates are the *central problems* and *guiding principles* for all researchers working on 'Quantum Gravity' and 'String Theory'."
+        }
+      ],
+  
+    "impact": {
+      "text": "“霍金辐射”是20世纪下半叶最重要的理论物理学发现。它是人类在“统一”爱因斯坦的“引力”（`einstein_1915_general_relativity`）和普朗克的“量子”（`planck_quantum_1900`）这两大支柱理论上，迈出的“第一步”，也是“最坚实”的一步。它将“黑洞”从一个“数学奇点”转变为一个“动态的、有生命的”物理系统，并为“万有理论”的研究设定了议程。",
+      "text_en": "Hawking Radiation is the most important theoretical physics discovery of the late 20th century. It is the *first* and *most solid* step ever taken toward uniting Einstein's 'Gravity' (`einstein_1915_general_relativity`) and Planck's 'Quantum' (`planck_quantum_1900`). It transformed black holes from 'mathematical oddities' into 'dynamic, living' physical systems, and it set the entire agenda for the modern search for a 'Theory of Everything'.",
+      "stats": [
+          {
+            "number": "1974",
+            "label": "年 (论文发表)",
+            "label_en": "Year Published"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "einstein_general_relativity_1915",
+          "contribution": "广义相对论（提供了“黑洞”和“事件视界”的经典物理框架）",
+          "contribution_en": "General Relativity (provided the 'black hole' and 'event horizon' framework)"
+        },
+        {
+          "id": "heisenberg_uncertainty_1927",
+          "contribution": "海森堡（其“测不准原理”导致了“真空涨落”和“虚拟粒子”的概念）",
+          "contribution_en": "Heisenberg (his 'Uncertainty Principle' leads to the concept of 'vacuum fluctuations' and 'virtual particles')"
+        },
+        {
+          "id": "bekenstein_black_hole_entropy_1973",
+          "contribution": "雅各布·贝肯斯坦（他首先“猜想”黑洞具有“熵”，霍金最初试图“反驳”他，但最终“证实”了他）",
+          "contribution_en": "Jacob Bekenstein (who first *hypothesized* black holes have 'entropy', which Hawking tried to *disprove* but ended up *proving*)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "black_hole_information_paradox_1976",
+          "contribution": "（霍金自己）黑洞信息悖论（其理论的直接、矛盾的推论）",
+          "contribution_en": "(Himself) The Black Hole Information Paradox (the direct, paradoxical consequence of his theory)"
+        },
+        {
+          "id": "string_theory_1984",
+          "contribution": "弦理论（现代“弦理论”的主要目标之一，就是在一个“全息”宇宙中“解决”霍金的信息悖论）",
+          "contribution_en": "String Theory (a primary goal of modern 'String Theory' is to 'solve' Hawking's Information Paradox, e.g., with holography)"
+        }
+      ],
+      "legacy_text": "斯蒂芬·霍金证明了，即使是“黑洞”也无法摆脱“量子力学”的法则，它们必须“死亡”。",
+      "legacy_text_en": "Stephen Hawking proved that not even 'black holes' are safe from the laws of quantum mechanics—they, too, must die."
+    },
+  
+    "related_concepts": ["黑洞 (Black Hole)", "事件视界 (Event Horizon)", "量子力学 (Quantum Mechanics)", "广义相对论 (General Relativity)", "虚拟粒子 (Virtual Particles)", "黑洞蒸发 (Evaporation)", "信息悖论 (Information Paradox)", "贝肯斯坦 (Bekenstein)"],
+    "related_concepts_en": ["Black Hole", "Event Horizon", "Quantum Mechanics", "General Relativity", "Virtual Particles", "Evaporation", "Information Paradox", "Bekenstein"],
+  
+    "quiz": {
+      "question": "斯蒂芬·霍金（Stephen Hawking）1974年的理论，是如何结合“广义相对论”和“量子力学”的？",
+      "question_en": "How did Stephen Hawking's 1974 theory combine 'General Relativity' and 'Quantum Mechanics'?",
+      "options": [
+        "他证明了引力是一种“量子”力",
+        "他将“量子力学”（虚拟粒子）应用到了“广义相对论”（黑洞事件视界）的背景中",
+        "他证明了黑洞中没有“引力”",
+        "他证明了“光”是“引力”的一种形式"
+      ],
+      "options_en": [
+        "He proved that gravity *is* a quantum force",
+        "He applied 'Quantum Mechanics' (virtual particles) to a 'General Relativity' background (the event horizon)",
+        "He proved there is no gravity inside a black hole",
+        "He proved that light is a form of gravity"
+      ],
+      "answer": 1,
+      "explanation": "霍金的突破是将这两个（通常不相容的）理论“放在一起”研究。他没有“完全”统一它们，但他将“量子力学”的效应（`heisenberg_uncertainty_1927` 的虚拟粒子）应用到了一个“广义相对论”的“物体”（黑洞的事件视界）上，并得出了“黑洞蒸发”这一惊人结论。",
+      "explanation_en": "Hawking's breakthrough was to *use both theories together*. He didn't *fully* unify them, but he applied a 'Quantum' effect (Heisenberg's virtual particles, `heisenberg_uncertainty_1927`) to a 'General Relativity' *object* (the black hole's event horizon), which led to the shocking conclusion that black holes must evaporate."
+    }
+  }

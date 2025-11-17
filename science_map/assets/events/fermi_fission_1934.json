@@ -1,0 +1,152 @@
+{
+    "id": "fermi_fission_1934",
+    "personId": "enrico_fermi",
+    "title": "首次“诱发”核裂变 (但未被识别)",
+    "title_en": "First to 'Induce' Nuclear Fission (But Misinterprets It)",
+    "year": 1934,
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "city": "罗马",
+    "city_en": "Rome",
+    "country": "意大利",
+    "country_en": "Italy",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Nuclear_fission.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=pAtYaCT-9fg",
+        "title": "核裂变的发现",
+        "title_en": "How Nuclear Fission Was Discovered",
+        "duration": "9:02"
+      }
+    },
+    
+    "summary": {
+      "text": "恩里科·费米（Enrico Fermi）和他在罗马的团队，在用“中子”（`chadwick_neutron_1932`）系统性地轰击周期表中的所有元素时，也轰击了“铀”(Uranium)。他们发现了一种新的、强烈的放射性，并（错误地）将其解释为创造了“超铀元素”（Transuranic Elements），即比铀（92号）更重的元素。**费米实际上在1934年“诱发”了核裂变**，但他自己“没有意识到”这一点。这一“错误的解释”在物理学界被广泛接受了四年，费米甚至因此获得了1938年的诺贝尔奖。",
+      "text_en": "Enrico Fermi and his team in Rome were systematically bombarding every element with the newly-discovered 'neutron' (`chadwick_neutron_1932`). When they bombarded 'Uranium', they found new, intense radioactivity. They *incorrectly* interpreted this as the creation of 'Transuranic Elements' (elements heavier than Uranium, #92). **Fermi had, in fact, *induced* nuclear fission in 1934, but he *failed to recognize it*.** This 'misinterpretation' was accepted by the physics community for four years, and Fermi was even awarded the 1938 Nobel Prize for this 'discovery'.",
+      "key_points": [
+        "首次“诱发”但“未识别”核裂变",
+        "用“中子”轰击“铀”",
+        "错误地将其解释为“超铀元素” (Transuranic Elements)",
+        "德国化学家“艾达·诺达克” (Ida Noddack) 在1934年“正确地”提出了“裂变”的猜想，但被忽视了",
+        "该成就（错误地）使费米获得了1938年诺贝尔奖"
+      ],
+      "key_points_en": [
+        "First to 'induce' but *not recognize* nuclear fission",
+        "Bombarded 'Uranium' with 'Neutrons'",
+        "Misinterpreted the results as 'Transuranic Elements'",
+        "German chemist 'Ida Noddack' *correctly* hypothesized 'fission' in 1934, but was ignored",
+        "Fermi was (incorrectly) awarded the 1938 Nobel Prize for this"
+      ]
+    },
+  
+    "story": {
+      "text": "费米的“罗马小组”是1930年代核物理学的先驱。在查德威克（`chadwick_neutron_1932`）发现中子后，费米立即意识到这种“不带电”的粒子是“轰击”原子核的“完美子弹”。他从头开始，系统性地轰击每一种元素。当他轰击最重的元素“铀”时，他发现产生的放射性物质，其化学性质与“铀”或其“邻近”元素（如铅）都不相符。他因此得出了一个“合乎逻辑”的结论：他创造了93号或94号元素。\n德国化学家**艾达·诺达克 (Ida Noddack)** 立即发表论文（`noddack_fission_1934`）反驳了这一点，她指出费米的化学分析不完整，并（正确地）提出：“原子核**分裂**成了几个‘大的碎片’（即已知元素）”是完全可能的。但这个想法在当时太过激进（违背了所有已知的核物理学），因此被费米和其他所有人**忽视**了。\n直到1938年，奥托·哈恩（Otto Hahn）和弗里茨·施特拉斯曼（Fritz Strassmann）才用更精确的化学方法证明，这些“新元素”实际上是“**钡**”(Barium)——一种质量只有铀一半的“轻”元素。费米（当时正在斯德哥尔摩领取诺贝尔奖）立即意识到，是诺达克，而不是他，最初猜对了。",
+      "text_en": "Fermi's 'Rome group' were the pioneers of nuclear physics. After Chadwick (`chadwick_neutron_1932`) discovered the neutron, Fermi realized this 'neutral' particle was the 'perfect bullet' to shoot at nuclei. He started at hydrogen and worked his way up. When he hit the heaviest element, *Uranium*, he found radioactive products that *didn't* behave chemically like Uranium or any of its 'neighbors' (like lead). He concluded he must have created element 93 or 94.\nThe German chemist **Ida Noddack** (`noddack_fission_1934`) immediately published a paper arguing that Fermi's chemical analysis was incomplete, and *correctly* suggested it was 'conceivable that the nucleus *breaks up* into several large fragments' (i.e., *known* elements). This idea was too radical (it violated all known physics) and was *ignored* by everyone, including Fermi.\nIt wasn't until 1938 that Otto Hahn and Fritz Strassmann proved with chemistry that the 'new element' was, in fact, **Barium**—a *light* element about half the size of Uranium. Fermi (who was literally in Stockholm accepting his Nobel Prize for it) immediately realized Noddack had been right all along."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏅",
+        "text": "费米是极少数（如果不是唯一）因“错误的发现”而获得诺贝尔奖的科学家。他后来不得不在他的诺贝尔奖演讲发表稿中加入一个“脚注”，以承认“核裂变”的后续发现。",
+        "text_en": "Fermi is one of the only scientists (if not the only one) to win a Nobel Prize for a *misinterpretation*. He later had to add a *footnote* to his published Nobel lecture acknowledging the subsequent discovery of fission."
+      },
+      {
+        "icon": "💡",
+        "text": "费米在1934年（同年）的另一个发现——“慢中子”（Slow Neutrons）——是完全正确的，并且是实现核裂变和核反应堆的“真正”关键。",
+        "text_en": "Fermi's *other* discovery from 1934—'slow neutrons'—was completely correct and was the *actual* key to unlocking practical nuclear fission and building a reactor."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你用“中子”（一颗BB弹）去射一个“西瓜”（铀原子核）。\n费米在1934年这样做了。他看到西瓜“裂开了”，但他以为自己只是“把BB弹粘在了西瓜上”，创造了一个“超级西瓜”（超铀元素）。\n艾达·诺达克（Ida Noddack）当时就说：“你确定你不是把西瓜‘打碎’成了‘两块哈密瓜’吗？” 费米和所有人都忽视了她。\n四年后，其他人（奥托·哈恩）再次进行了这个实验，并仔细“称量”了碎片，惊讶地发现：“天啊，这真的是‘哈密瓜’（钡）！”\n所以，费米是第一个“分裂”原子的人，但他“不知道”自己做了什么。",
+      "text_en": "Imagine shooting a 'BB pellet' (a neutron) at a 'watermelon' (a Uranium nucleus).\nFermi did this in 1934. He saw the watermelon 'split', but he *thought* he had just *stuck the BB pellet to it*, creating a 'Super-Watermelon' (a Transuranic element).\nIda Noddack shouted from the sidelines, 'Are you *sure* you didn't just *smash it* into *two cantaloupes*?' Fermi (and everyone else) ignored her.\nFour years later, other scientists (Hahn & Strassmann) did the experiment again, looked closely at the pieces, and yelled, 'My God, it *is* a cantaloupe (Barium)!'\nSo, Fermi was the first person to *split* the atom, but he *didn't know he had done it*.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Fission_chain_reaction.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "核物理竞赛",
+          "title_en": "The Nuclear Race",
+          "text": "费米对“超铀元素”的（错误）搜寻，在欧洲引发了一场长达四年的激烈“研究竞赛”，最终导致哈恩和施特拉斯曼发现了“真相”——核裂变。",
+          "text_en": "Fermi's (mistaken) quest for 'transuranic elements' sparked an intense, 4-year research race across Europe that led directly to Hahn and Strassmann's discovery of the truth: fission."
+        }
+      ],
+  
+    "impact": {
+      "text": "费米1934年的实验（及其错误的解释）是“核裂变”发现史上最关键的“第一步”。它（无意中）启动了那条最终导致奥托·哈恩（Otto Hahn）和莉泽·迈特纳（Lise Meitner）在1938年正确识别“核裂变”的连锁反应。艾达·诺达克（Ida Noddack）的被忽视的论文，也成为了科学史上“直觉正确但缺乏证据”的典型案例。",
+      "text_en": "Fermi's 1934 experiment (and its misinterpretation) was the *critical first step* in the discovery of fission. It (unintentionally) started the chain of events that led Otto Hahn and Lise Meitner to *correctly* identify fission in 1938. Ida Noddack's ignored 1934 paper remains a classic case of correct intuition that lacked the necessary experimental or theoretical backing at the time.",
+      "stats": [
+          {
+            "number": "4",
+            "label": "年 (误解持续时间)",
+            "label_en": "Years (Misinterpreted)"
+          },
+          {
+            "number": "1938",
+            "label": "年 (诺贝尔奖)",
+            "label_en": "Nobel Prize (for the misinterpretation)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "chadwick_neutron_1932",
+          "contribution": "查德威克（其“中子”的发现，为费米提供了“轰击”原子核的“完美子弹”）",
+          "contribution_en": "James Chadwick (his discovery of the 'neutron' gave Fermi the 'perfect bullet' to bombard nuclei)"
+        },
+        {
+          "id": "joliot_curie_artificial_radioactivity_1934",
+          "contribution": "约里奥-居里夫妇（他们“人工放射性”的发现，是费米开始中子轰击实验的直接动机）",
+          "contribution_en": "Joliot-Curies (their discovery of 'artificial radioactivity' was the immediate motivation for Fermi's neutron experiments)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "noddack_fission_1934",
+          "contribution": "艾达·诺达克（她的论文是“第一个”反驳费米并“猜想”了“裂变”的人）",
+          "contribution_en": "Ida Noddack (her paper was the *first* to contradict Fermi and *hypothesize* fission)"
+        },
+        {
+          "id": "hahn_meitner_fission_1938",
+          "contribution": "哈恩、迈特纳和施特拉斯曼（他们的工作是“为了”复制和理解费米的“超铀元素”实验，并最终“推翻”了它，发现了“裂变”）",
+          "contribution_en": "Hahn, Meitner, & Strassmann (their work was a *direct attempt* to replicate and understand Fermi's 'transuranics', which led to them *disproving* it and finding fission)"
+        },
+        {
+          "id": "fermi_nuclear_reactor_1942",
+          "contribution": "（他自己）费米核反应堆（当“裂变”被证实后，费米立即利用他（在1934年发现）的“慢中子”知识，建造了第一个核反应堆）",
+          "contribution_en": "(Himself) The Nuclear Reactor (once fission was confirmed, Fermi *immediately* used his *other* 1934 discovery ('slow neutrons') to build the first reactor)"
+        }
+      ],
+      "legacy_text": "恩里科·费米是第一个“敲开”核裂变大门的人，但他当时以为自己找到了另一扇门。",
+      "legacy_text_en": "Enrico Fermi was the first to 'knock on the door' of nuclear fission, but he thought he had found a different door."
+    },
+  
+    "related_concepts": ["核裂变 (Nuclear Fission)", "超铀元素 (Transuranic Elements)", "中子 (Neutron)", "艾达·诺达克 (Ida Noddack)", "奥托·哈恩 (Otto Hahn)", "莉泽·迈特纳 (Lise Meitner)", "诺贝尔奖 (Nobel Prize)", "慢中子 (Slow Neutrons)"],
+    "related_concepts_en": ["Nuclear Fission", "Transuranic Elements", "Neutron", "Ida Noddack", "Otto Hahn", "Lise Meitner", "Nobel Prize", "Slow Neutrons"],
+  
+    "quiz": {
+      "question": "当恩里科·费米（Enrico Fermi）在1934年用中子轰击铀时，他（错误地）认为自己发现了什么？",
+      "question_en": "When Enrico Fermi bombarded uranium with neutrons in 1934, what did he *incorrectly* think he had discovered?",
+      "options": [
+        "核聚变 (Nuclear Fusion)",
+        "“超铀元素”（比铀更重的元素）",
+        "X射线 (X-Rays)",
+        "电子 (The Electron)"
+      ],
+      "options_en": [
+        "Nuclear Fusion",
+        "'Transuranic Elements' (elements *heavier* than uranium)",
+        "X-Rays",
+        "The Electron"
+      ],
+      "answer": 1,
+      "explanation": "费米认为中子被“吸收”了，创造出了93号元素。他没有想到，原子核会“分裂”成更小的碎片（如钡）。艾达·诺达克（`noddack_fission_1934`）当时就提出了“裂变”的猜想，但遭到了忽视。",
+      "explanation_en": "Fermi assumed the neutron was *absorbed*, creating element 93. He did not conceive that the nucleus would *split* into smaller fragments (like Barium). Ida Noddack (`noddack_fission_1934`) hypothesized fission at the time, but was ignored."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "安德鲁·赫胥黎",
+    "name_en": "Andrew Huxley",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Andrew_Fielding_Huxley_nobel.jpg",
+    "bio_short": "英国生理学家和生物物理学家，因与艾伦·霍奇金共同创建了构成神经冲动的离子机制的定量模型而分享了1963年的诺贝尔奖。",
+    "bio_short_en": "An English physiologist and biophysicist who shared the 1963 Nobel Prize for creating a quantitative model of the ionic mechanisms underlying nerve impulses with Alan Hodgkin.",
+    "events": [
+        "hodgkin_huxley_model_1952"
+    ]
+}

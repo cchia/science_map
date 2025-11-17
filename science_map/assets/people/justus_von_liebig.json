@@ -1,0 +1,10 @@
+{
+    "name": "尤斯图斯·冯·李比希",
+    "name_en": "Justus von Liebig",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/87/Justus_von_Liebig_NIH.jpg",
+    "bio_short": "德国化学家，被誉为“有机化学之父”之一，也是“农业化学”的创始人。他与维勒（Wöhler）共同提出了“自由基理论”（`wohler_liebig_radical_theory_1832`），并发明了“氮肥”（Nitrogen-based fertilizer）。",
+    "bio_short_en": "A German chemist, one of the 'fathers of organic chemistry' and the founder of 'agricultural chemistry'. He co-developed 'Radical Theory' with Wöhler (`wohler_liebig_radical_theory_1832`) and invented nitrogen-based fertilizer.",
+    "events": [
+      "wohler_liebig_radical_theory_1832"
+    ]
+  }

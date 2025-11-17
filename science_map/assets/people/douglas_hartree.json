@@ -1,0 +1,10 @@
+{
+    "name": "道格拉斯·哈特里",
+    "name_en": "Douglas Hartree",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/0/09/Douglas_Hartree.jpg",
+    "bio_short": "英国数学家和物理学家。他发展了“自洽场”方法（哈特里法），这是“量子化学”和“计算物理学”的第一个实用计算方法，后被弗拉基米尔·福克（Vladimir Fock）改进为“哈特里-福克方法”。",
+    "bio_short_en": "A British mathematician and physicist. He developed the 'self-consistent field' method (Hartree method), the first practical computational method for 'quantum chemistry' and 'computational physics', which was later refined by Vladimir Fock into the 'Hartree-Fock method'.",
+    "events": [
+      "hartree_fock_method_1930"
+    ]
+  }

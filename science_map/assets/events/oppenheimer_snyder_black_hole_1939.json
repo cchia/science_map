@@ -1,0 +1,153 @@
+{
+    "id": "oppenheimer_snyder_black_hole_1939",
+    "personId": ["j_robert_oppenheimer", "hartland_snyder"],
+    "title": "发表“持续引力坍缩”论文 (黑洞)",
+    "title_en": "Publishes 'On Continued Gravitational Contraction' (Black Hole)",
+    "year": 1939,
+    "lat": 37.8719,
+    "lng": -122.2585,
+    "city": "伯克利 / 普林斯顿",
+    "city_en": "Berkeley / Princeton",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["物理学", "天文学"],
+    "field_en": ["Physics", "Astronomy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BH_LMC.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=-3dtMQhJwAI",
+        "title": "宇宙启示：奥本海默-斯奈德模型",
+        "title_en": "Cosmic Revelation: The Oppenheimer-Snyder Model",
+        "duration": "4:33"
+      }
+    },
+    
+    "summary": {
+      "text": "在1939年，J·罗伯特·奥本海默（J. Robert Oppenheimer）和他的学生哈特兰·斯奈德（Hartland Snyder）发表了一篇论文，这是人类历史上“第一个”关于“黑洞”形成的理论模型。在钱德拉塞卡（`chandrasekhar_limit_1931`）证明了超质量恒星“必须”坍缩之后，奥本海默和斯奈德“回答了”接下来的问题：“它会坍缩成什么？” 通过求解爱因斯坦的广义相对论方程（`einstein_1915_general_relativity`），他们证明了坍缩是“无限的”。恒星会无可阻挡地“压碎”自己，形成一个“奇点”（Singularity，密度无限大），并被一个“事件视界”(Event Horizon) 包围——这是一个“不归点”，连“光”都无法逃脱。",
+      "text_en": "In 1939, J. Robert Oppenheimer and his student Hartland Snyder published the 'first' theoretical model for the formation of a 'black hole'. After Chandrasekhar (`chandrasekhar_limit_1931`) proved massive stars *must* collapse, Oppenheimer & Snyder answered *what* they collapse *into*. By solving Einstein's equations of General Relativity (`einstein_1915_general_relativity`), they proved the collapse is 'infinite'. The star crushes itself into a 'singularity' (a point of infinite density) surrounded by an 'event horizon'—a point-of-no-return from which not even 'light' can escape.",
+      "key_points": [
+        "“黑洞”(Black Hole) 的第一个理论模型",
+        "回答了“钱德拉塞卡极限”之后的问题",
+        "基于“广义相对论”(`einstein_1915_general_relativity`)",
+        "预言了“无限坍缩”成一个“奇点”(Singularity)",
+        "预言了“事件视界”(Event Horizon) 的形成"
+      ],
+      "key_points_en": [
+        "First theoretical model of a 'Black Hole'",
+        "Answered the question 'what happens *after*' the Chandrasekhar Limit",
+        "Based on 'General Relativity' (`einstein_1915_general_relativity`)",
+        "Predicted 'infinite collapse' to a 'Singularity'",
+        "Predicted the formation of an 'Event Horizon'"
+      ]
+    },
+  
+    "story": {
+      "text": "钱德拉（`chandrasekhar_limit_1931`）证明了，一颗质量超过1.44倍太阳的恒星，其“电子简并压力”无法抵抗引力。奥本海默（和Volkoff）首先在1939年初计算出，这颗恒星会坍缩成一个“中子星”（由“中子简并压力”支撑）。但他们立即意识到：如果恒星的质量“更大”（约超过3倍太阳质量），那么“连中子压力也支撑不住”。\n于是，奥本海默和斯奈德开始计算“最终坍缩”。他们采用了爱因斯坦的广义相对论，并建立了一个理想化的“恒星尘埃云”模型。他们的计算结果是“灾难性的”：没有任何已知的物理力量可以阻止这场坍缩。恒星会“消失”在它自己创造的一个“时空裂缝”中，从外部宇宙“切断”所有联系。对于一个“外部”的观察者来说，恒星的“时间”会“冻结”在“事件视界”上，而恒星本身则会坍缩成一个密度无限大的“奇点”。",
+      "text_en": "Chandra (`chandrasekhar_limit_1931`) proved a star >1.44 solar masses *must* collapse. Oppenheimer (with Volkoff) first calculated (early 1939) this would form a 'neutron star' (supported by 'neutron degeneracy pressure'). But they immediately realized: if the star was *even bigger* (> ~3 solar masses), *nothing* could stop the collapse.\nOppenheimer and Snyder then calculated this *final* collapse. They used Einstein's General Relativity for an idealized 'dust cloud' star. Their math was catastrophic: *no force in physics* could stop it. The star would 'wink out' of existence, 'severing' itself from the rest of the universe inside an 'event horizon' (a term coined later). For an outside observer, 'time' on the star would *freeze* at this 'event horizon', while the star itself crushed down to an infinitely dense 'singularity'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📰",
+        "text": "这篇论文发表于1939年9月1日——**这一天，希特勒入侵波兰，第二次世界大战爆发**。这篇预言了“黑洞”的论文，被“战争”的新闻彻底淹没了，在学术界被忽视了几十年。",
+        "text_en": "This paper was published on September 1, 1939—the *exact day* Hitler invaded Poland, starting World War II. The discovery of 'black holes' was completely buried by the news and ignored for decades."
+      },
+      {
+        "icon": " terminology",
+        "text": "奥本海默和斯奈德从未用过“黑洞”(Black Hole) 这个词。他们称之为“持续引力坍缩的物体”。“黑洞”这个词是在1967年才由约翰·惠勒（John Wheeler）推广开来的。",
+        "text_en": "Oppenheimer and Snyder *never* used the term 'Black Hole'. They called it an 'object of continued gravitational contraction'. The term 'Black Hole' was coined much later (1967) by John Wheeler."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，恒星的“生命”就是一场“引力”（向内压）和“核聚变”（向外推）的“拔河比赛”。\n1. `chandrasekhar_limit_1931` (钱德拉塞卡极限) 证明了：当恒星“死亡”（核聚变停止）时，如果它“足够重”，那么“引力”会“获胜”。\n2. 奥本海默则计算了“获胜之后”会发生什么。他发现“引力”不仅是“获胜”，而是“彻底的胜利”。它会把恒星的“尸体”无限地“压缩”，直到“压”成一个“密度无限大”的“点”（奇点），并在这个“点”的周围形成一个“时空瀑布”的“边缘”（事件视界），任何东西（包括光）一旦掉进去，就永远出不来了。",
+      "text_en": "Imagine a star's life is a 'tug-of-war' between 'Gravity' (pulling in) and 'Fusion' (pushing out).\n1. The `chandrasekhar_limit_1931` proved that when the star *dies* (fusion stops), if it's 'heavy enough', *Gravity wins*.\n2. Oppenheimer calculated *what happens after* Gravity wins. He found it doesn't *just* win, it *conquers*. It crushes the star's corpse *infinitely*, down to a 'point' of 'infinite density' (a singularity), and creates an 'edge' (the event horizon) where the 'waterfall of spacetime' is so fast that not even light can swim out."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🌌",
+          "title": "黑洞天体物理学 (Black Hole Astrophysics)",
+          "title_en": "Black Hole Astrophysics",
+          "text": "这篇论文是“所有”现代黑洞研究的“理论起点”。它为后来的霍金（`hawking_radiation_1974`）、彭罗斯（`penrose_singularity_1965`）等人提供了“研究对象”。",
+          "text_en": "This paper is the 'ground zero' for *all* modern black hole research. It provided the 'object' that Hawking (`hawking_radiation_1974`), Penrose (`penrose_singularity_1965`), and others would later study."
+        },
+        {
+          "icon": "🌟",
+          "title": "恒星演化 (Stellar Evolution)",
+          "title_en": "Stellar Evolution",
+          "text": "它（与钱德拉塞卡的工作一起）完成了“大质量恒星演化”的“最终阶段”：白矮星 -> 中子星 -> 黑洞。",
+          "text_en": "This work (with Chandra's) 'completed the map' for massive star death: White Dwarf -> Neutron Star -> Black Hole."
+        }
+      ],
+  
+    "impact": {
+      "text": "奥本海默-斯奈德的这篇论文是20世纪理论物理学的“里程碑”。它是“广义相对论”的第一个“真正”的、令人震惊的“预测”。在此之前，广义相对论只是对牛顿引力（`newton_gravity_1687`）的一个“微小修正”（如水星轨道）。而这篇论文则展示了，爱因斯坦的理论在一个“新”的、“强引力”领域，预言了一个牛顿闻所未闻的“全新怪物”（黑洞）。它将“黑洞”从一个数学上的“奇谈”，变为了一个“物理上不可避免”的现实。",
+      "text_en": "The Oppenheimer-Snyder paper is a *landmark* of 20th-century theoretical physics. It was the *first* true, shocking 'prediction' of General Relativity. Before this, Relativity was just a 'tiny correction' to Newton's gravity (`newton_gravity_1687`). This paper showed that in the *new* regime of 'strong gravity', Einstein's theory predicted a *brand new monster* that Newton never dreamed of. It turned the 'black hole' from a mathematical 'oddity' into a 'physical inevitability'.",
+      "stats": [
+          {
+            "number": "1939",
+            "label": "年 (论文发表)",
+            "label_en": "Year Published"
+          },
+          {
+            "number": "09/01",
+            "label": "日 (二战爆发)",
+            "label_en": "Date (WWII Began)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "einstein_general_relativity_1915",
+          "contribution": "广义相对论（提供了奥本海默和斯奈德求解的“核心方程”）",
+          "contribution_en": "General Relativity (provided the 'core equations' that Oppenheimer and Snyder solved)"
+        },
+        {
+          "id": "chandrasekhar_limit_1931",
+          "contribution": "钱德拉塞卡极限（证明了“坍缩是不可避免的”，为奥本海默“必须”去解决这个问题）",
+          "contribution_en": "Chandrasekhar Limit (which *proved* that collapse *must* happen, 'forcing' Oppenheimer to solve what happens next)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "penrose_singularity_1965",
+          "contribution": "罗杰·彭罗斯（他在数学上证明了“奇点”是广义相对论的“普遍”结果，而不仅仅是奥本海默“理想化”模型的结果）",
+          "contribution_en": "Roger Penrose (who mathematically proved that singularities were a 'generic' result of GR, not just a fluke of Oppenheimer's 'perfect' model)"
+        },
+        {
+          "id": "hawking_radiation_1974",
+          "contribution": "斯蒂芬·霍金（其“霍金辐射”理论，正是研究奥本海默预言的“事件视界”的“量子”属性）",
+          "contribution_en": "Stephen Hawking (his 'Hawking Radiation' theory was the study of the *quantum* properties of the 'event horizon' Oppenheimer had predicted)"
+        }
+      ],
+      "legacy_text": "奥本海默和斯奈德是“广义相对论”的“第一个信徒”，他们第一个敢于“相信”爱因斯坦的方程，并跟随它一路走到了“奇点”。",
+      "legacy_text_en": "Oppenheimer and Snyder were the 'first true believers' in General Relativity, the first to 'trust' Einstein's equations and follow them all the way down to the 'singularity'."
+    },
+  
+    "related_concepts": ["黑洞 (Black Hole)", "广义相对论 (General Relativity)", "事件视界 (Event Horizon)", "奇点 (Singularity)", "钱德拉塞卡极限 (Chandrasekhar Limit)", "中子星 (Neutron Star)", "J·罗伯特·奥本海默 (J. Robert Oppenheimer)", "引力坍缩 (Gravitational Collapse)"],
+    "related_concepts_en": ["Black Hole", "General Relativity", "Event Horizon", "Singularity", "Chandrasekhar Limit", "Neutron Star", "J. Robert Oppenheimer", "Gravitational Collapse"],
+  
+    "quiz": {
+      "question": "奥本海默-斯奈德（1939）的论文“预言”了，当一颗质量超过“钱德拉塞卡极限”的恒星死亡时，它的“最终”命运是什么？",
+      "question_en": "What did the Oppenheimer-Snyder (1939) paper predict as the *final* fate of a star that dies *above* the Chandrasekhar Limit?",
+      "options": [
+        "它会“反弹”并爆炸",
+        "它会“永远”坍缩，形成一个“奇点”和“事件视界”（即“黑洞”）",
+        "它会稳定地成为一颗“白矮星”",
+        "它会分裂成“两颗”中子星"
+      ],
+      "options_en": [
+        "It would 'bounce' and explode",
+        "It would collapse *forever* into a 'singularity' and form an 'event horizon' (a black hole)",
+        "It would stabilize as a 'white dwarf'",
+        "It would split into 'two' neutron stars"
+      ],
+      "answer": 1,
+      "explanation": "钱德拉塞卡（`chandrasekhar_limit_1931`）证明了它“必须”坍缩。奥本海默和斯奈德则证明了，在广义相对论中，这种坍缩是“不可阻挡的”，它不会停在中子星（如果质量足够大），而是会“无限地”坍缩下去。",
+      "explanation_en": "Chandrasekhar (`chandrasekhar_limit_1931`) proved it *must* collapse. Oppenheimer and Snyder proved that in General Relativity, this collapse is *unstoppable*. It doesn't even stop at the neutron star (if massive enough), it just continues *infinitely*."
+    }
+  }
