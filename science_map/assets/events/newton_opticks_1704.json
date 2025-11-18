@@ -17,7 +17,7 @@
         "Physics"
     ],
     "media": {
-        "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newton%27s_experimentum_crucis.png/640px-Newton%27s_experimentum_crucis.png",
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Opticks.jpg",
         "video": {
             "url": "https://www.youtube.com/embed/RcClhonSllQ",
             "title": "牛顿对光学的理解天才",
@@ -48,7 +48,7 @@
     "simple_explanation": {
         "text": "你看到的白光，其实是“伪装”的彩虹。牛顿发现，如果让白光穿过一个玻璃三棱镜，它就会“解散”，变回它本来的样子——一道彩虹（光谱）。这就像白光是一个合唱团，所有颜色（高音、中音、低音）一起唱同一个音；而棱镜则是一个指挥，让每个人按顺序（从红到紫）分开站队。",
         "text_en": "The white light you see is actually a rainbow in 'disguise'. Newton found that if you pass white light through a glass prism, it 'unpacks' back into its original form: a rainbow (spectrum). It's like white light is a choir where all the colors (sopranos, tenors, basses) are singing one note together; the prism acts like a conductor who makes them line up in order (from red to violet).",
-        "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Newton_prism_experiment.svg/640px-Newton_prism_experiment.svg.png"
+        "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Light_dispersion_of_a_mercury-vapor_lamp_with_a_flint_glass_prism_IPNr%C2%B00125.jpg"
     },
     "applications": [
         {

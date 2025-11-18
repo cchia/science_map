@@ -14,7 +14,7 @@
     "field_en": ["Mathematics", "Philosophy", "Computer Science"],
     
     "media": {
-      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2D_Binary_Index.svg",
+      "event_image": "assets/images/binary_system.jpg",
       "video": {
         "url": "https://www.youtube.com/watch?v=xfkNwdjp3W0",
         "title": "二进制的故事",
