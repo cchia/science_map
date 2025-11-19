@@ -1,0 +1,10 @@
+{
+    "name": "伊雷娜·约里奥-居里",
+    "name_en": "Irène Joliot-Curie",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/79/Joliot-curie.jpg",
+    "bio_short": "法国物理学家和化学家，玛丽·居里（Marie Curie）的女儿。她与丈夫弗雷德里克·约里奥-居里（Frédéric Joliot-Curie）共同发现了“人工放射性”（`joliot_curie_artificial_radioactivity_1934`），并因此获得了1935年的诺贝尔化学奖。",
+    "bio_short_en": "A French physicist and chemist, the daughter of Marie Curie. She and her husband, Frédéric Joliot-Curie, jointly discovered 'artificial radioactivity' (`joliot_curie_artificial_radioactivity_1934`), for which they won the 1935 Nobel Prize in Chemistry.",
+    "events": [
+      "joliot_curie_artificial_radioactivity_1934"
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "name": "J·罗伯特·奥本海默",
+    "name_en": "J. Robert Oppenheimer",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/85/Oppenheimer_%28cropped%29.jpg",
+    "bio_short": "美国理论物理学家。他因在“曼哈顿计划”（`manhattan_project_1942`）中担任“洛斯阿拉莫斯实验室”主任，领导研制了第一颗原子弹，而被誉为“原子弹之父”。他还在理论天体物理学（`oppenheimer_snyder_black_hole_1939`）和量子化学（`born_oppenheimer_approximation_1927`）方面做出了早期贡献。",
+    "bio_short_en": "An American theoretical physicist. He is known as the 'father of the atomic bomb' for his role as director of the Los Alamos Laboratory during the 'Manhattan Project' (`manhattan_project_1942`). He also made early contributions to theoretical astrophysics (`oppenheimer_snyder_black_hole_1939`) and quantum chemistry (`born_oppenheimer_approximation_1927`).",
+    "events": [
+      "born_oppenheimer_approximation_1927",
+      "oppenheimer_snyder_black_hole_1939",
+      "manhattan_project_1942"
+    ]
+  }

@@ -1,0 +1,165 @@
+{
+    "id": "hall_heroult_process_1886",
+    "personId": ["charles_martin_hall", "paul_heroult"],
+    "title": "发明“霍尔-埃鲁法” (铝电解) 工艺",
+    "title_en": "Invents the Hall-Héroult Process (Aluminum Electrolysis)",
+    "year": 1886,
+    "lat": 41.2928,
+    "lng": -82.2185,
+    "city": "奥伯林 (俄亥俄州) / 巴黎",
+    "city_en": "Oberlin, OH / Paris",
+    "country": "美国 / 法国",
+    "country_en": "USA / France",
+    "field": ["化学", "工程学"],
+    "field_en": ["Chemistry", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Hall-heroult-kk-2008-12-31.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6P90li2PHfA",
+        "title": "铝的提取 (霍尔-埃鲁法工艺)",
+        "title_en": "Extraction Of Aluminium Using Electrolysis",
+        "duration": "3:10"
+      }
+    },
+    
+    "summary": {
+      "text": "在1886年，年仅22岁的美国人查尔斯·马丁·霍尔（Charles Martin Hall）和法国人保罗·埃鲁（Paul Héroult）**各自独立地**、在**同一年**发明了“霍尔-埃鲁法”工艺。这是第一个能“大规模、廉价”生产金属“铝”的方法。在此之前，铝（由 `wohler_aluminum_1827` 分离）比黄金还贵。该工艺使用“电解法”（`davy_electrochemistry_1808`），通过将“氧化铝”(Al₂O₃) 溶解在“熔融的冰晶石”(Molten Cryolite) 中，然后通入强大的直流电，使纯铝在阴极（容器底部）沉积下来。这一发明开启了“铝时代”。",
+      "text_en": "In 1886, American Charles Martin Hall and Frenchman Paul Héroult *independently* and *simultaneously* invented the 'Hall-Héroult process'—the first *cheap, industrial-scale* method for producing metallic aluminum. Before this, aluminum (isolated by `wohler_aluminum_1827`) was more valuable than gold. The process uses 'electrolysis' (`davy_electrochemistry_1808`) by *dissolving* 'alumina' (Al₂O₃) in 'molten cryolite' (Na₃AlF₆) and passing a massive electric current through it, causing pure liquid aluminum to collect at the bottom.",
+      "key_points": [
+        "发明了“铝”的“大规模廉价生产”方法",
+        "由 Hall (美国) 和 Héroult (法国) 在1886年“独立”发现",
+        "使用“电解法”(Electrolysis)",
+        "关键：使用“熔融的冰晶石”(Molten Cryolite) 作为“溶剂”来溶解“氧化铝”(Alumina)",
+        "使铝的价格暴跌，从“贵金属”变为“日用金属”"
+      ],
+      "key_points_en": [
+        "Invented the 'mass-production' of cheap Aluminum",
+        "Discovered 'independently' by Hall (USA) and Héroult (France) in 1886",
+        "Uses the 'Electrolysis' method",
+        "Key: Uses 'Molten Cryolite' as a 'solvent' for 'Alumina'",
+        "Caused the price of aluminum to crash, from 'precious' to 'common' metal"
+      ]
+    },
+  
+    "story": {
+      "text": "在1880年代，制造“铝”是化学界面临的最大挑战。科学家（如 `wohler_aluminum_1827`）已经知道如何用“化学法”（如用钾）制造出“少量”的铝，但这极其昂贵，铝的价格堪比黄金。问题在于“氧化铝”（Al₂O₃，铝土矿的主要成分）的熔点高达“2045°C”，无法用电解法来“熔化”它。\n年仅22岁的霍尔（Héroult也是22岁）在奥伯林学院（Oberlin College）读化学时，他的教授说：“谁能发明一种廉价的制铝法，谁就能发大财。” 霍尔意识到，关键不在于“熔化”氧化铝，而在于找到一种能“溶解”氧化铝的“溶剂”。1886年，在无数次失败后，他（和在法国的埃鲁）各自独立地发现了“冰晶石”(Cryolite) 就是那个“神奇溶剂”。冰晶石在约1000°C时熔化，并且能像“糖溶于水”一样“溶解”氧化铝。一旦溶解，电解就变得轻而易举了。",
+      "text_en": "In the 1880s, 'making aluminum' was the biggest prize in chemistry. Scientists (`wohler_aluminum_1827`) knew *how* to make *tiny* amounts using *chemical* reduction, but it was astronomically expensive (literally, aluminum was priced like gold). The problem: Alumina (Al₂O₃), the main ore, has a melting point of over 2000°C—too high to be practical for electrolysis.\nThe breakthrough came from 22-year-old Charles Martin Hall. His college professor remarked, 'He who discovers a cheap way to make aluminum will make a fortune.' Hall realized the key was not to *melt* the alumina, but to *dissolve* it. In 1886, he (and Héroult, independently) discovered the 'magic solvent': *Cryolite*. Cryolite melts at a much cooler ~1000°C and *dissolves* alumina just like salt dissolves in water. Once it was dissolved, the electrolysis became easy."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🇺🇸🇫🇷",
+        "text": "霍尔和埃鲁不仅在同一年（1886年）发现了同一个工艺，他们还都出生在同一年（1863年），并在同一年去世（1914年）。",
+        "text_en": "Hall and Héroult not only discovered the same process in the same year (1886), they were also both born in the same year (1863) and died in the same year (1914)."
+      },
+      {
+        "icon": "🏛️",
+        "text": "在“霍尔-埃鲁法”发明之前，铝是如此珍贵，以至于“华盛顿纪念碑”的“尖顶”（1884年）就是用（当时）世界上最大的、重100盎司（2.8公斤）的“纯铝”铸造的。",
+        "text_en": "Before this process, aluminum was so precious that the *capstone* of the Washington Monument (cast in 1884) was made of 100 ounces (2.8 kg) of pure aluminum, the largest single piece in the world at the time."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，“铝”被“锁”在一种叫做“氧化铝”的“白色粉末”里，而这个“锁”的“熔点”高达2000°C。\n奥斯特（`oersted_aluminum_1825`）和维勒（`wohler_aluminum_1827`）用“化学钥匙”（金属钾）“撬开”了锁，但成本极高，所以“铝”比黄金还贵。\n霍尔和埃鲁发现，他们不需要“撬锁”。他们发现了一种“神奇的溶剂”（熔化的冰晶石），它可以“溶解”这种白色粉末，就像“水溶解盐”一样。一旦“溶解”了，他们就可以用“电”（电解）轻松地将“纯铝”沉淀出来。\n他们将铝从“珠宝”变成了“饮料罐”。",
+      "text_en": "Imagine 'Aluminum' is 'locked' inside a 'white powder' (Alumina), and the 'lock' melts at 2000°C.\nØrsted (`oersted_aluminum_1825`) and Wöhler (`wohler_aluminum_1827`) 'picked the lock' with an *expensive chemical key* (potassium), making aluminum *more expensive than gold*.\nHall and Héroult found they didn't need to 'pick the lock'. They found a 'magic solvent' (molten cryolite) that could *dissolve* the white powder, just like *salt dissolving in water*. Once it was dissolved, they could easily 'zap' it with electricity (electrolysis) to get pure aluminum.\nThey turned aluminum from 'jewelry' into 'soda cans'."      
+    },
+  
+    "applications": [
+        {
+          "icon": "✈️",
+          "title": "航空航天 (Aerospace)",
+          "title_en": "Aerospace",
+          "text": "廉价铝的出现，使得制造“轻质”合金成为可能，这是“莱特兄弟”（`wright_flyer_1903`）飞机发动机和所有现代“飞机”制造的“必要材料”。",
+          "text_en": "The availability of cheap aluminum made 'lightweight' alloys possible. This was the *essential material* for the Wright Brothers' (`wright_flyer_1903`) engine and *all* modern aircraft."
+        },
+        {
+          "icon": "🥫",
+          "title": "日用产品 (Everyday Products)",
+          "title_en": "Everyday Products",
+          "text": "该工艺使得“铝箔”、“易拉罐”、炊具和轻质建筑材料成为可能。",
+          "text_en": "This process is responsible for aluminum foil, beverage cans, cookware, and lightweight construction materials."
+        },
+        {
+          "icon": "⚡",
+          "title": "电线 (Electrical Wires)",
+          "title_en": "Electrical Wires",
+          "text": "铝的“导电性”好（虽然不如铜）且“轻”得多，因此被广泛用于高压“输电线”。",
+          "text_en": "Aluminum is a good (though not *as* good as copper) conductor, but it is *much* lighter, making it ideal for high-voltage 'electrical transmission lines'."
+        }
+      ],
+  
+    "impact": {
+      "text": "“霍尔-埃鲁法”工艺是19世纪末最重要的“电化学”工程应用。它将一种“稀有贵金属”转变为20世纪“最重要”的“工业金属”之一。它通过提供一种“轻质、坚固、耐腐蚀”的材料，从根本上推动了“航空航天”、“建筑”和“电力”行业的发展。没有廉价的铝，20世纪的“现代世界”将无从谈起。",
+      "text_en": "The Hall-Héroult process was the most important 'electrochemical' engineering application of the late 19th century. It transformed aluminum from a 'precious metal' into one of the *most important industrial metals* of the 20th century. It fundamentally enabled the *aerospace*, *construction*, and *electrical* industries by providing a *lightweight, strong, corrosion-resistant* material. The 'modern world' of the 20th century is built on cheap aluminum.",
+      "stats": [
+          {
+            "number": "1886",
+            "label": "年 (发明年份)",
+            "label_en": "Year Invented"
+          },
+          {
+            "number": "22",
+            "label": "岁 (发明者年龄)",
+            "label_en": "Age of Inventors"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "wohler_aluminum_1827",
+          "contribution": "维勒（他首次制得了纯铝，证明了其“轻盈”的优良特性，从而“激发”了寻找廉价制法的竞赛）",
+          "contribution_en": "Wöhler (his *pure* sample proved aluminum's *amazing properties* (lightness), which *created the demand* and sparked the race for a cheap method)"
+        },
+        {
+          "id": "davy_electrochemistry_1808",
+          "contribution": "戴维（其“电解法”是霍尔-埃鲁法工艺的“核心物理原理”）",
+          "contribution_en": "Davy (his 'electrolysis' was the *core physical principle* of the process)"
+        },
+        {
+          "id": "faraday_electrolysis_1834",
+          "contribution": "法拉第（其“电解定律”为该工艺提供了“定量”的数学基础）",
+          "contribution_en": "Faraday (his 'Laws of Electrolysis' provided the *quantitative math* for the process)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "wright_flyer_1903",
+          "contribution": "莱特兄弟（其“飞行者一号”的“发动机缸体”就是用霍尔-埃鲁法工艺生产的“铝”制造的）",
+          "contribution_en": "The Wright Brothers (the 'engine block' for the 'Wright Flyer' was cast from 'aluminum' made using the Hall-Héroult process)"
+        },
+        {
+          "id": "modern_aerospace_1950s",
+          "contribution": "现代航空航天工业（所有飞机和火箭都依赖于这种廉价的轻质金属）",
+          "contribution_en": "Modern Aerospace Industry (all aircraft and rockets depend on this cheap, lightweight metal)"
+        }
+      ],
+      "legacy_text": "霍尔和埃鲁将“铝”从一种“珠宝”变成了一种“建材”。",
+      "legacy_text_en": "Hall and Héroult turned 'aluminum' from 'jewelry' into a 'building material'."
+    },
+  
+    "related_concepts": ["铝 (Aluminum)", "电解 (Electrolysis)", "熔盐电解 (Molten Salt Electrolysis)", "氧化铝 (Alumina)", "冰晶石 (Cryolite)", "电化学 (Electrochemistry)", "法拉第 (Faraday)", "维勒 (Wöhler)"],
+    "related_concepts_en": ["Aluminum", "Electrolysis", "Molten Salt Electrolysis", "Alumina", "Cryolite", "Electrochemistry", "Faraday", "Wöhler"],
+  
+    "quiz": {
+      "question": "“霍尔-埃鲁法”工艺（1886）的关键“化学突破”是什么，它使“电解法”制铝成为可能？",
+      "question_en": "What was the key 'chemical breakthrough' of the Hall-Héroult process (1886) that made the electrolysis of aluminum possible?",
+      "options": [
+        "他们发现了“铝”元素",
+        "他们发明了“电”",
+        "他们发现了“熔融的冰晶石”可以作为“溶剂”来溶解“氧化铝”",
+        "他们使用了“金属钾”"
+      ],
+      "options_en": [
+        "They discovered the element aluminum",
+        "They invented electricity",
+        "They discovered that 'molten cryolite' could be used as a 'solvent' for 'alumina'",
+        "They used metallic potassium"
+      ],
+      "answer": 2,
+      "explanation": "“铝”早已被发现（`wohler_aluminum_1827`）。“电解法”也早已存在（`davy_electrochemistry_1808`）。难题是“氧化铝”的熔点超过2000°C。霍尔和埃鲁的突破是发现“熔融的冰晶石”（~1000°C）可以像水溶解盐一样“溶解”氧化铝，使其可以在低得多的温度下被电解。",
+      "explanation_en": "Aluminum was already known (`wohler_aluminum_1827`) and electrolysis was known (`davy_electrochemistry_1808`). The problem was Alumina's 2000°C melting point. Hall & Héroult's breakthrough was finding that 'molten cryolite' (~1000°C) could *dissolve* the alumina (like salt in water), allowing it to be electrolyzed at a much lower, cheaper temperature."
+    }
+  }

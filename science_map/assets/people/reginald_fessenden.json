@@ -1,0 +1,10 @@
+{
+    "name": "雷金纳德·范信达",
+    "name_en": "Reginald Fessenden",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/01/Fessenden.JPG",
+    "bio_short": "加拿大发明家和物理学家，“广播”的先驱。他发明了“调幅”(AM) 技术和“高频交流发电机”，并在1906年进行了历史上首次“语音和音乐”的无线电广播。",
+    "bio_short_en": "A Canadian inventor and physicist, a pioneer of 'broadcasting'. He invented 'Amplitude Modulation' (AM) and the 'high-frequency alternator', which he used to conduct the world's first 'voice and music' radio broadcast in 1906.",
+    "events": [
+      "fessenden_radio_broadcast_1906"
+    ]
+  }

@@ -1,0 +1,161 @@
+{
+    "id": "dalton_atomic_theory_1803",
+    "personId": "john_dalton",
+    "title": "提出“道尔顿原子理论”",
+    "title_en": "Proposes 'Dalton's Atomic Theory'",
+    "year": 1803,
+    "lat": 53.4839,
+    "lng": -2.2446,
+    "city": "曼彻斯特",
+    "city_en": "Manchester",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["化学", "物理学"],
+    "field_en": ["Chemistry", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/72/John_Dalton%27s_symbols_for_the_elements..jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=OUoV--CuLDA",
+        "title": "道尔顿的原子理论",
+        "title_en": "Dalton's Atomic Theory",
+        "duration": "4:01"
+      }
+    },
+    
+    "summary": {
+      "text": "英国化学家约翰·道尔顿（John Dalton）在1803年首次提出了一套完整的、基于“实验证据”（尤其是“倍比定律”）的“原子理论”。他复兴了古希腊的“原子论”思想，并将其转变为一门“定量科学”。他提出：(1) 所有物质都由不可分割的“原子”构成；(2) 同一“元素”的原子，其“质量”和“性质”完全相同；(3) 不同“元素”的原子，其“质量”不同；(4) “化合物”是不同元素的原子以“简单的整数比”结合而成的。",
+      "text_en": "In 1803, English chemist John Dalton proposed the first complete 'Atomic Theory' based on *experimental evidence* (especially the 'Law of Multiple Proportions'). He resurrected the ancient Greek idea of 'atoms' and turned it into a *quantitative science*. He postulated that: (1) All matter is composed of indivisible 'atoms'. (2) Atoms of the *same* element are identical in *mass* and properties. (3) Atoms of *different* elements have *different* masses. (4) 'Compounds' are formed when atoms combine in *simple, whole-number ratios*.",
+      "key_points": [
+        "现代“原子理论” (Atomic Theory) 的奠基人",
+        "所有物质都由“原子”构成",
+        "每种“元素”都有其独特的“原子量”(Atomic Weight)",
+        "化合物由原子的“简单整数比”构成",
+        "解释了“质量守恒定律”和“倍比定律”",
+        "首次为元素创建了一套“符号系统”"
+      ],
+      "key_points_en": [
+        "Founder of modern 'Atomic Theory'",
+        "All matter is composed of 'atoms'",
+        "Each 'element' has a unique 'Atomic Weight'",
+        "Compounds are formed by 'simple whole-number ratios' of atoms",
+        "Explained the 'Law of Conservation of Mass' and 'Law of Multiple Proportions'",
+        "Created the first symbolic system for elements"
+      ]
+    },
+  
+    "story": {
+      "text": "道尔顿的灵感来自于他对“气体”的研究（`boyle_law_1662`）。他发现，当两种元素（如碳和氧）可以结合成“多种”化合物时（如 CO 和 CO₂），它们之间的质量比总是“简单的整数比”。例如，CO₂ 中的“氧”恰好是 CO 中“氧”的两倍。道尔顿推断：这“必定”是因为物质是由“不可分割”的“微粒”（原子）组成的。你不能加入“1.5个”氧原子，你只能加入“1个”或“2个”。他因此着手计算第一张“相对原子量表”（尽管他的许多数值是错的，比如他认为水是 HO 而不是 H₂O），但他开创了“化学计量学”(Stoichiometry) 这一学科。",
+      "text_en": "Dalton's inspiration came from his study of gases (like `boyle_law_1662`). He discovered the 'Law of Multiple Proportions': when two elements (like Carbon and Oxygen) form *multiple* compounds (like CO and CO₂), the ratio of their masses is *always* a *simple whole number*. (e.g., CO₂ has *exactly twice* the oxygen as CO). Dalton deduced this *must* be because matter is made of *indivisible* 'atoms'. You can't add '1.5 atoms' of oxygen; you can only add '1 atom' or '2 atoms'. He then set about calculating the first-ever 'Table of Relative Atomic Weights'. (Many of his values were wrong—he assumed water was HO, not H₂O—but he had invented the science of 'Stoichiometry'.)"      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎨",
+        "text": "道尔顿本人是“色盲”（红绿色盲）。他对“色觉”的科学研究，是历史上最早对该主题进行描述的论文之一，因此“色盲”曾一度被称为“道尔顿症”(Daltonism)。",
+        "text_en": "Dalton was 'color-blind' (red-green colorblind). His scientific paper on his own 'color vision' was one of the first-ever descriptions of the topic, and for a time, color-blindness was known as 'Daltonism'."
+      },
+      {
+        "icon": "⚛️",
+        "text": "道尔顿的“原子”模型是一个简单的“实心球”，像一个微型的“台球”。这个模型在近100年后，才被 J.J. 汤姆孙（`thomson_electron_1897`）的“葡萄干布丁模型”所取代。",
+        "text_en": "Dalton's model of the atom was a simple 'solid sphere', like a tiny, indivisible 'billiard ball'. This model would last for nearly 100 years before being replaced by J.J. Thomson's 'plum pudding model' (`thomson_electron_1897`)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "道尔顿是那个说：“化学就是‘乐高’(LEGO)”的人。\n在他之前，化学家们（如拉瓦锡 `lavoisier_elements_1789`）知道“水”是由“氢”和“氧”组成的，但不知道“为什么”它们总是以“8:1”的“重量比”结合。\n道尔顿提出了一个天才的（源自古希腊的）想法：万物都是由“不可分割的乐高积木”（原子）组成的。\n* 每种“颜色”（元素）的积木都有“固定的重量”。\n* 你只能用“一整块”积木来搭建（“倍比定律”）。\n* “水”分子（HO）就是“一块氢积木”和“一块氧积木”搭在一起。\n他将化学从“神秘的混合”变成了“数积木”的科学。",
+      "text_en": "Dalton was the man who said: 'Chemistry is just LEGOs'.\nBefore him, chemists (like Lavoisier, `lavoisier_elements_1789`) knew 'water' was made of 'hydrogen' and 'oxygen', but they didn't know *why* they *always* combined in an '8-to-1' *weight* ratio.\nDalton revived an ancient Greek idea: What if everything is made of tiny, 'indivisible LEGO bricks' (atoms)?\n* Every 'color' (element) of brick has its own *fixed weight*.\n* You can only build using *whole bricks* (the Law of Multiple Proportions).\n* A 'water' molecule (he thought HO) is just 'one hydrogen brick' snapped to 'one oxygen brick'.\nHe turned chemistry from 'mystical mixing' into a science of 'counting bricks'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/97/A_New_System_of_Chemical_Philosophy_fp.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "化学计量学 (Stoichiometry)",
+          "title_en": "Stoichiometry",
+          "text": "道尔顿的理论（原子以整数比结合）是“化学计量学”（即“化学反应中的数学计算”）的“全部”基础。它使化学家能够“预测”反应物的用量和产物的产量。",
+          "text_en": "Dalton's theory (that atoms combine in whole-number ratios) is the *entire* basis for 'Stoichiometry' (the 'math' of chemical reactions). It allows chemists to *predict* how much reactant is needed and how much product will be formed."
+        },
+        {
+          "icon": "⚖️",
+          "title": "原子量 (Atomic Weights)",
+          "title_en": "Atomic Weights",
+          "text": "他开创了“相对原子量表”的编制工作，这是19世纪化学家（如门捷列夫 `mendeleev_periodic_table_1869`）组织元素周期表的核心数据。",
+          "text_en": "He began the work of creating a 'Table of Relative Atomic Weights', which was the core data used by 19th-century chemists (like Mendeleev, `mendeleev_periodic_table_1869`) to organize the periodic table."
+        }
+      ],
+  
+    "impact": {
+      "text": "道尔顿的原子理论是继拉瓦锡（`lavoisier_elements_1789`）“化学革命”之后，现代化学的“第二个”奠基支柱。拉瓦锡证明了“什么”是元素，而道尔顿则解释了“为什么”元素会以特定的、可预测的比例（质量）结合在一起。他将“原子”从一个“哲学概念”（`democritus_atomism_BC400`）转变为一个具有“可测量属性”（即“重量”）的“科学实体”，从而为19世纪的整个化学（包括“元素周期表”）奠定了基础。",
+      "text_en": "Dalton's Atomic Theory was the *second* great pillar of modern chemistry, after Lavoisier's 'Chemical Revolution' (`lavoisier_elements_1789`). Lavoisier had defined *what* an element was; Dalton explained *why* elements combine in specific, predictable ratios of *mass*. He transformed the 'atom' from a 'philosophical concept' (`democritus_atomism_BC400`) into a *'scientific entity'* with a *'measurable property'* (its 'weight'). This provided the foundation for all of 19th-century chemistry, including the Periodic Table.",
+      "stats": [
+          {
+            "number": "1803",
+            "label": "年 (理论首次提出)",
+            "label_en": "Year (Theory First Proposed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "democritus_atomism_BC400",
+          "contribution": "德谟克利特（其古希腊的“原子论”哲学，是道尔顿的灵感来源）",
+          "contribution_en": "Democritus (his ancient Greek 'atomism' was the philosophical inspiration)"
+        },
+        {
+          "id": "lavoisier_elements_1789",
+          "contribution": "拉瓦锡（其“质量守恒定律”是道尔顿理论试图解释的核心定律之一）",
+          "contribution_en": "Lavoisier (his 'Law of Conservation of Mass' was a key law Dalton's theory had to explain)"
+        },
+        {
+          "id": "proust_definite_proportions_1794",
+          "contribution": "普鲁斯特（其“定比定律”——化合物的组分比例固定——是道尔顿理论的实验基础）",
+          "contribution_en": "Proust (his 'Law of Definite Proportions'—that compounds have fixed ratios—was the experimental basis)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "avogadro_law_1811",
+          "contribution": "阿伏伽德罗（其“分子假说”是对道尔顿理论的修正和补充，用于区分“原子”和“分子”）",
+          "contribution_en": "Avogadro (his 'molecular hypothesis' was a crucial correction to Dalton's theory, distinguishing 'atoms' from 'molecules')"
+        },
+        {
+          "id": "mendeleev_periodic_table_1869",
+          "contribution": "门捷列夫（其“元素周期表”就是按照道尔顿的“原子量”来排列的）",
+          "contribution_en": "Mendeleev (his 'Periodic Table' was arranged according to Dalton's 'atomic weights')"
+        },
+        {
+          "id": "thomson_electron_1897",
+          "contribution": "J.J. 汤姆孙（其“电子”的发现，最终证明了道尔顿“不可分割的”原子模型是“可分割的”）",
+          "contribution_en": "J.J. Thomson (his discovery of the 'electron' finally proved Dalton's 'indivisible' atom was, in fact, *divisible*)"
+        }
+      ],
+      "legacy_text": "约翰·道尔顿为化学提供了它的“基本粒子”——具有可测量“重量”的“原子”。",
+      "legacy_text_en": "John Dalton gave chemistry its 'fundamental particle': the 'atom' with a measurable 'weight'."
+    },
+  
+    "related_concepts": ["原子 (Atom)", "原子理论 (Atomic Theory)", "原子量 (Atomic Weight)", "元素 (Element)", "化合物 (Compound)", "倍比定律 (Law of Multiple Proportions)", "定比定律 (Law of Definite Proportions)", "化学计量学 (Stoichiometry)", "色盲 (Daltonism)"],
+    "related_concepts_en": ["Atom", "Atomic Theory", "Atomic Weight", "Element", "Compound", "Law of Multiple Proportions", "Law of Definite Proportions", "Stoichiometry", "Daltonism"],
+  
+    "quiz": {
+      "question": "约翰·道尔顿（John Dalton）的原子理论，是如何解释“为什么”化合物（如CO和CO₂）总是以“简单整数比”结合的？",
+      "question_en": "How did Dalton's atomic theory explain *why* compounds (like CO and CO₂) always form in 'simple whole-number ratios'?",
+      "options": [
+        "因为“电荷”是守恒的",
+        "因为“能量”是量子化的",
+        "因为“原子”是不可分割的“积木”，你只能用“1个”或“2个”",
+        "因为“万物皆为水”"
+      ],
+      "options_en": [
+        "Because 'charge' is conserved",
+        "Because 'energy' is quantized",
+        "Because 'atoms' are indivisible 'bricks', and you can only use '1' or '2' of them, not '1.5'",
+        "Because 'all is water'"
+      ],
+      "answer": 2,
+      "explanation": "道尔顿的理论核心是，化学反应是“原子的重新组合”。你不能使用“半个”氧原子。因此，一氧化碳(CO)是“1个碳 + 1个氧”，二氧化碳(CO₂)是“1个碳 + 2个氧”。它们之间的氧质量比“必定”是 1:2 的整数比。",
+      "explanation_en": "Dalton's core idea was that chemical reactions are 'rearrangements of atoms'. You cannot use 'half an oxygen atom'. Therefore, Carbon Monoxide (CO) is '1 Carbon + 1 Oxygen', and Carbon Dioxide (CO₂) is '1 Carbon + 2 Oxygens'. The mass ratio of oxygen between them *must* be a simple integer ratio of 1:2."
+    }
+  }

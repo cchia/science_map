@@ -1,0 +1,167 @@
+{
+    "id": "thomson_electron_1897",
+    "personId": "j_j_thomson",
+    "title": "发现“电子” (Electron)",
+    "title_en": "Discovers the 'Electron'",
+    "year": 1897,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥",
+    "city_en": "Cambridge",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Thomson_cathode_ray_exp.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=J4ai5bV8Qko",
+        "title": "J.J. 汤姆孙发现电子",
+        "title_en": "Discovery Of Electron | How JJ Thomson discover electron",
+        "duration": "2:58"
+      }
+    },
+    
+    "summary": {
+      "text": "J.J. 汤姆孙（J.J. Thomson）通过一系列巧妙的“阴极射线管”(Cathode Ray Tube) 实验，证明了“阴极射线”不是“波”（如赫兹 `hertz_waves_1887` 所认为的），而是一种“粒子流”。最重要的是，他通过测量这些粒子在“磁场”和“电场”中的“偏转”，成功地计算出了它们的“质荷比”(charge-to-mass ratio)。他发现，这些粒子（他称之为“微粒”corpuscles）的质量还不到“最轻”的“氢原子”的**千分之一**。他因此证明了，**原子不是不可分割的**（`dalton_atomic_theory_1803`），他发现了“第一个”亚原子粒子——“**电子**”(Electron)。",
+      "text_en": "J.J. Thomson, through a series of ingenious 'Cathode Ray Tube' experiments, proved that cathode rays were *not* waves (as Hertz, `hertz_waves_1887`, had thought) but a stream of *particles*. By measuring their 'deflection' in magnetic and electric fields, he calculated their 'charge-to-mass ratio'. He discovered these particles (which he called 'corpuscles') were over *1,000 times lighter* than the *lightest* atom, hydrogen. He had proved the atom was *not* indivisible (`dalton_atomic_theory_1803`) and had discovered the first subatomic particle: the '**Electron**'.",
+      "key_points": [
+        "发现了“电子”(The Electron)",
+        "证明了“原子是可分割的”",
+        "推翻了道尔顿 (`dalton_atomic_theory_1803`) 的“实心球”模型",
+        "使用了“阴极射线管”(Cathode Ray Tube)",
+        "计算出了电子的“质荷比”(charge-to-mass ratio)",
+        "提出了“葡萄干布丁模型”(Plum Pudding Model)"
+      ],
+      "key_points_en": [
+        "Discovered the 'Electron'",
+        "Proved the 'atom is divisible'",
+        "Overthrew Dalton's (`dalton_atomic_theory_1803`) 'solid ball' model",
+        "Used a 'Cathode Ray Tube'",
+        "Calculated the 'charge-to-mass' (m/e) ratio",
+        "Proposed the 'Plum Pudding Model'"
+      ]
+    },
+  
+    "story": {
+      "text": "在1890年代，物理学家们在争论“阴极射线”（在真空中通电时发出的神秘射线）到底是什么。德国物理学家（如赫兹 `hertz_waves_1887`）认为是“波”，而英国物理学家则认为是“粒子”。汤姆孙设计了一个决定性的实验。他用“电场”和“磁场”同时作用于阴极射线。他调整磁场，使磁力（`oersted_electromagnetism_1820`）“恰好”抵消了电场（`franklin_charge_1747`）的偏转，使射线“径直”射中屏幕。通过这个“平衡”的数学计算，他得以求出粒子的“质荷比”。当他发现这个粒子的“质量”比“氢原子”小1000多倍时，他意识到自己发现了一种“全新的”东西，一个“原子”的“组成部分”。为了解释这一点，他提出了“葡萄干布丁模型”：原子是一个“带正电的布丁”，里面嵌着“带负电的电子”（葡萄干）。",
+      "text_en": "In the 1890s, physicists debated what 'cathode rays' were. German physicists (like Hertz, `hertz_waves_1887`) thought 'waves'; British physicists thought 'particles'. J.J. Thomson designed the definitive experiment. He applied *both* an electric field and a magnetic field at the same time. He 'balanced' them perfectly, so the magnetic force (`oersted_electromagnetism_1820`) *exactly* cancelled the electric force (`franklin_charge_1747`), making the beam hit 'straight on'. This 'balancing act' allowed him to *calculate* the particle's 'charge-to-mass ratio'. When he found the mass was *1000x lighter* than a *hydrogen atom*, he knew he had found something *new*—a 'piece' of an atom. To explain this, he proposed the 'Plum Pudding Model': a 'pudding' of positive charge, with tiny, negative 'plum' electrons embedded inside."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏅",
+        "text": "汤姆孙因“发现电子”（一个“粒子”）获得了1906年的诺贝尔物理学奖。讽刺的是，他的“儿子”乔治·佩吉特·汤姆孙（George Paget Thomson）在1937年也获得了诺贝尔奖，因为他“证明了电子是一种波”（波粒二象性）。",
+        "text_en": "J.J. Thomson won the 1906 Nobel Prize for discovering the electron (a *particle*). Ironically, his son, George Paget Thomson, won the Nobel Prize in 1937 for proving the electron is a *wave* (wave-particle duality)."
+      },
+      {
+        "icon": "👨‍🔬",
+        "text": "汤姆孙的实验室（卡文迪许实验室）是“诺贝尔奖工厂”。在他的领导下，他的“学生”和“同事”中，有八位最终获得了诺贝尔奖（包括卢瑟福 `rutherford_nucleus_1911`）。",
+        "text_en": "Thomson's lab (the Cavendish) was a 'Nobel Prize factory'. *Eight* of his research assistants and colleagues (including Rutherford, `rutherford_nucleus_1911`) went on to win Nobel Prizes after working under him."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1897年之前，所有人都认为“原子”（`dalton_atomic_theory_1803`）是“不可分割”的“最小积木”。\n汤姆孙就像是第一个“敲开”这块“乐高积木”的人。他用“电”和“磁”在一个“真空管”（旧电视机显像管）里“玩弄”一种神秘的“阴极射线”。\n他发现，这些“射线”是由一种“微小的、带负电的“碎屑””组成的。当他“称量”这些“碎屑”时，他发现它们比“最小的积木”（氢原子）还要“轻”1000多倍！\n他证明了“原子”不是“实心”的，而是由“更小”的“零件”组成的。他发现了“电子”。",
+      "text_en": "Before 1897, everyone thought 'atoms' (`dalton_atomic_theory_1803`) were the 'smallest possible thing'—like an indivisible LEGO brick.\nJ.J. Thomson was the first person to *smash the brick*. He 'zapped' a vacuum tube (an old TV tube) and played with the 'cathode rays' inside using magnets and electricity.\nHe discovered these 'rays' were made of *tiny, negative 'chips'*. When he 'weighed' these 'chips', he found they were *1,000 times lighter* than the *smallest known atom* (Hydrogen)!\nHe had proved the 'atom' was *not* solid, but was made of *even smaller parts*. He had discovered the 'electron'."      
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "原子模型 (Atomic Model)",
+          "title_en": "The Atomic Model",
+          "text": "汤姆孙的“葡萄干布丁模型”（电子嵌在正电荷“凝胶”中）是第一个“有结构”的原子模型，取代了道尔顿的“实心球”模型。",
+          "text_en": "Thomson's 'Plum Pudding Model' (electrons embedded in a positive 'goo') was the *first* structured model of the atom, replacing Dalton's 'solid ball'."
+        },
+        {
+          "icon": "📺",
+          "title": "阴极射线管 (CRT)",
+          "title_en": "Cathode Ray Tube (CRT)",
+          "text": "他证明了阴极射线（电子束）可以被“电场”和“磁场”精确“操纵”。这成为了所有“旧式电视机”和“电脑显示器”的工作原理。",
+          "text_en": "He proved that cathode rays (beams of electrons) could be *steered* by electric and magnetic fields. This is the principle that made all 'old' televisions and computer monitors work."
+        },
+        {
+          "icon": "🔬",
+          "title": "质谱仪 (Mass Spectrometer)",
+          "title_en": "Mass Spectrometer",
+          "text": "汤姆孙（和阿斯顿）后来改进了他的“质荷比”设备，发明了“质谱仪”，这是一种能“称量”不同原子的“同位素”的“天平”。",
+          "text_en": "Thomson (and Aston) later refined his 'm/e' apparatus into the 'Mass Spectrometer', a 'scale' that can 'weigh' different 'isotopes' of an atom."
+        }
+      ],
+  
+    "impact": {
+      "text": "“电子”的发现，是“经典物理学”的终结，也是“量子革命”（`planck_quantum_1900`）的开端。它证明了“原子”不是“最终的”现实，而是由“更小”的、神秘的“亚原子粒子”构成的。它开创了“粒子物理学”，并提出了一个全新的问题：“如果电子是负的，那么原子的‘正电荷’藏在哪里？” 这个问题最终由他的学生卢瑟福（`rutherford_nucleus_1911`）在1911年解答。",
+      "text_en": "The discovery of the 'electron' was the *end* of classical physics and the *beginning* of the quantum revolution (`planck_quantum_1900`). It proved the 'atom' was *not* the fundamental reality, but was a *composite* object made of *smaller, stranger* 'subatomic particles'. It opened the field of 'particle physics' and posed the *next great question*: 'If the electrons are negative, where is the *positive* charge hiding?' His student, Rutherford (`rutherford_nucleus_1911`), would answer that in 1911.",
+      "stats": [
+          {
+            "number": "1897",
+            "label": "年 (发现电子)",
+            "label_en": "Year (Electron Discovered)"
+          },
+          {
+            "number": "1",
+            "label": "个亚原子粒子",
+            "label_en": "First Subatomic Particle"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "hertz_waves_1887",
+          "contribution": "赫兹（其“阴极射线”实验（错误地）得出“射线是波”的结论，是汤姆孙试图“反驳”的）",
+          "contribution_en": "Heinrich Hertz (his experiments on cathode rays, which *incorrectly* concluded they were waves, were what Thomson 'disproved')"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其“电磁理论”是汤姆孙计算“质荷比”的数学基础）",
+          "contribution_en": "Maxwell (his 'electromagnetic theory' provided the mathematical basis for Thomson's e/m calculations)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "rutherford_nucleus_1911",
+          "contribution": "卢瑟福（他的学生，其“金箔实验”就是为了“验证”（并最终“推翻”）汤姆孙的“葡萄干布丁模型”）",
+          "contribution_en": "Ernest Rutherford (his student, whose 'gold foil experiment' was designed to *test* (and *disproved*) Thomson's 'plum pudding model')"
+        },
+        {
+          "id": "einstein_photoelectric_1905",
+          "contribution": "爱因斯坦（其“光电效应”理论，解释了“电子”是如何从金属中被“光子”释放出来的）",
+          "contribution_en": "Einstein (his 'photoelectric effect' theory explained *how* Thomson's 'electrons' were liberated from metal by 'photons')"
+        },
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "尼尔斯·玻尔（其“原子模型”就是试图解释汤姆孙发现的“电子”是如何“绕着”卢瑟福发现的“原子核”转动的）",
+          "contribution_en": "Niels Bohr (his 'atomic model' was the attempt to explain how Thomson's 'electrons' orbit Rutherford's 'nucleus')"
+        }
+      ],
+      "legacy_text": "J.J. 汤姆孙“分裂”了（道尔顿的）原子，发现了“电子”，并提出了第一个（尽管是错误的）“原子模型”（葡萄干布丁）。",
+      "legacy_text_en": "J.J. Thomson 'split' the (Dalton's) atom, discovered the 'electron', and proposed the *first* (though incorrect) 'model' of its structure: the 'plum pudding'."
+    },
+  
+    "related_concepts": ["电子 (Electron)", "阴极射线管 (Cathode Ray Tube)", "质荷比 (Charge-to-Mass Ratio)", "葡萄干布丁模型 (Plum Pudding Model)", "原子 (Atom)", "卢瑟福 (Rutherford)", "亚原子粒子 (Subatomic Particle)", "粒子物理学 (Particle Physics)"],
+    "related_concepts_en": ["Electron", "Cathode Ray Tube", "Charge-to-Mass Ratio", "Plum Pudding Model", "Atom", "Rutherford", "Subatomic Particle", "Particle Physics"],
+  
+    "quiz": {
+      "question": "J.J. 汤姆孙（J.J. Thomson）1897年的实验，如何证明了“原子”（`dalton_atomic_theory_1803`）不是“不可分割的”？",
+      "question_en": "How did J.J. Thomson's 1897 experiment prove the 'atom' (`dalton_atomic_theory_1803`) was *not* indivisible?",
+      "options": [
+        "他发现了“中子”",
+        "他发现了“原子核”",
+        "他发现了一种“粒子”（电子），其“质量”比“最小的”氢原子“小1000多倍”",
+        "他用化学方法合成了尿素"
+      ],
+      "options_en": [
+        "He discovered the 'neutron'",
+        "He discovered the 'nucleus'",
+        "He discovered a particle (the 'electron') that was *over 1000 times lighter* than the *smallest* atom (Hydrogen)",
+        "He synthesized urea in a lab"
+      ],
+      "answer": 2,
+      "explanation": "道尔顿（Dalton）的理论认为“原子”是“最小的”基本粒子。汤姆孙通过计算“质荷比”，证明了存在一种“更小”的粒子（他称之为“微粒”，我们称之为“电子”），它必定是从“原子”内部“剥离”出来的。",
+      "explanation_en": "Dalton's theory held that the 'atom' was the smallest, fundamental particle. Thomson's calculation of the charge-to-mass ratio proved the existence of a *much smaller* particle (the 'corpuscle', or 'electron') that must have been 'chipped off' from *inside* the atom."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "查尔斯·马丁·霍尔",
+    "name_en": "Charles Martin Hall",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/07/Charles_Martin_Hall_1880s.jpg",
+    "bio_short": "美国发明家和化学家。他在1886年（与保罗·埃鲁同时）独立发明了“霍尔-埃鲁法”电解工艺（`hall_heroult_process_1886`），这是第一个能大规模、廉价生产“铝”的方法。",
+    "bio_short_en": "An American inventor and chemist. In 1886, he co-independently invented (with Paul Héroult) the 'Hall-Héroult process' (`hall_heroult_process_1886`), the first commercial, inexpensive method for mass-producing aluminum.",
+    "events": [
+      "hall_heroult_process_1886"
+    ]
+  }

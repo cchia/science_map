@@ -1,0 +1,160 @@
+{
+    "id": "rutherford_nucleus_1911",
+    "personId": "ernest_rutherford",
+    "title": "发现“原子核” (卢瑟福模型)",
+    "title_en": "Discovers the 'Atomic Nucleus' (Rutherford Model)",
+    "year": 1911,
+    "lat": 53.4839,
+    "lng": -2.2446,
+    "city": "曼彻斯特",
+    "city_en": "Manchester",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Geiger-Marsden_experiment_expectation_and_result.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=WEPMwhNsLbU",
+        "title": "卢瑟福的金箔实验",
+        "title_en": "Rutherford's Gold Foil Experiment",
+        "duration": "4:32"
+      }
+    },
+    
+    "summary": {
+      "text": "欧内斯特·卢瑟福（Ernest Rutherford）发表了“金箔实验”(Gold Foil Experiment) 的革命性结果。他的学生（盖革和马斯登）将“阿尔法粒子”（α-particles）射向一片极薄的金箔。根据J.J. 汤姆孙的“葡萄干布丁模型”（`thomson_electron_1897`），所有粒子都应该“直接穿过”。然而，他们（在1909年）震惊地发现，有极少数（约1/8000）的粒子被“大角度反弹”了回来。卢瑟福在1911年正确地将其解释为：原子的“正电荷”和“绝大部分质量”都集中在一个“极其微小”的“中心核”（即“**原子核**”，Nucleus）上，而原子的大部分都是“**空旷空间**”。",
+      "text_en": "Ernest Rutherford published the revolutionary results of the 'Gold Foil Experiment'. His students (Geiger and Marsden) had fired 'alpha particles' at a thin sheet of gold foil. According to J.J. Thomson's 'Plum Pudding Model' (`thomson_electron_1897`), the particles should have passed straight through. They were shocked (in 1909) to find a tiny fraction (1 in 8000) were deflected at *large angles*, some even bouncing *straight back*. In 1911, Rutherford correctly interpreted this: the atom's positive charge and almost all its mass must be concentrated in a *tiny, dense* 'central core', the '**Nucleus**', while the rest of the atom is **'mostly empty space'**.",
+      "key_points": [
+        "发现了“原子核”(The Nucleus)",
+        "“卢瑟福模型”(Rutherford Model)（行星模型）",
+        "证明了原子“绝大部分是空旷空间”",
+        "基于“金箔实验”(Gold Foil Experiment)",
+        "推翻了J.J. 汤姆孙的“葡萄干布丁模型”"
+      ],
+      "key_points_en": [
+        "Discovered the 'Atomic Nucleus'",
+        "The 'Rutherford Model' (Planetary Model)",
+        "Proved the atom is 'mostly empty space'",
+        "Based on the 'Gold Foil Experiment'",
+        "Overthrew J.J. Thomson's 'Plum Pudding Model'"
+      ]
+    },
+  
+    "story": {
+      "text": "卢瑟福后来说：“这是我一生中遇到的最不可思议的事件。这几乎就像你对着一张‘纸巾’发射一颗“15英寸的炮弹”，结果它“反弹”回来并击中了你。”\n在汤姆孙的模型（`thomson_electron_1897`）中，原子的正电荷是“均匀地”分布在整个原子中的，就像“布丁”一样，电子则像“葡萄干”一样嵌在其中。阿尔法粒子（带正电）穿过它，就像“子弹穿过云雾”，只会发生微小的偏转。\n卢瑟福的“反弹”数据表明，原子的正电荷“必须”集中在一个“极其微小”（比原子小10万倍）但“极其沉重”的点上。当阿尔法粒子“恰好”撞向这个“核”时，就会被强大的“静电斥力”猛烈地反弹回来。他就此发明了“行星模型”：一个微小的、沉重的“太阳”（原子核），周围环绕着“行星”（电子）。",
+      "text_en": "Rutherford later said, 'It was quite the most incredible event that has ever happened to me in my life. It was almost as incredible as if you fired a 15-inch shell at a piece of *tissue paper* and it came *back* and hit you.'\nIn Thomson's model (`thomson_electron_1897`), the positive charge was 'smeared out' evenly, like a 'pudding'. An alpha particle (a bullet) should pass right through it like 'a bullet through mist'.\nRutherford's 'bouncing' data showed the positive charge *had* to be concentrated in one *tiny* (100,000x smaller than the atom) but *massive* point. When an alpha particle *hit* this 'nucleus' dead-on, it was violently repelled. He had just invented the 'Planetary Model': a tiny, heavy 'sun' (the nucleus) orbited by tiny 'planets' (the electrons).",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/7d/AlphaTrackRutherfordScattering3.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚛️",
+        "text": "卢瑟福的模型有一个“致命缺陷”：经典物理学（`maxwell_equations_1861`）规定，一个“加速运动”的电荷（如“绕圈”的电子）必须“持续辐射能量”，并会在“一瞬间”螺旋式“坠入”原子核。原子不应该存在！",
+        "text_en": "Rutherford's model had a *fatal* flaw: classical physics (`maxwell_equations_1861`) demanded that an 'accelerating' charge (like an orbiting electron) *must* radiate energy, causing it to spiral *into* the nucleus in a fraction of a second. The atom shouldn't be stable!"
+      },
+      {
+        "icon": " Bohr",
+        "text": "正是这个“缺陷”，激发了尼尔斯·玻尔（Niels Bohr）（`bohr_atom_1913`）在1913年将“量子力学”（`planck_quantum_1900`）引入，提出了“量子化的”轨道来“拯救”卢瑟福的模型。",
+        "text_en": "It was this *exact flaw* that forced Niels Bohr (`bohr_atom_1913`) to apply 'quantum mechanics' (`planck_quantum_1900`) and propose 'quantized' orbits just two years later, 'saving' Rutherford's model."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你以为一个“干草堆”是“均匀、松软”的（汤姆孙的“葡萄干布丁”模型）。你用“BB弹”（阿尔法粒子）射它，所有子弹都该“穿过去”。\n但卢瑟福的实验发现，每隔几千次，就有一颗BB弹“砰”的一声，像是“撞到了钢珠”一样“反弹”了回来。\n卢瑟福立刻意识到：这个“干草堆”（原子）的“中心”一定藏着一个“微小但极其沉重”的“钢珠”（原子核）。\n他证明了，原子99.9%都是“空”的，它所有的“质量”都集中在那个微小的“核心”上。",
+      "text_en": "Imagine you think a 'haystack' is 'soft and uniform' all the way through (Thomson's 'Plum Pudding' model). If you shoot 'BB pellets' (alpha particles) at it, they should *all* go right through.\nRutherford's experiment found that, every few thousand shots, a pellet *ricocheted* 'BANG!'—as if it had hit a *tiny steel ball* hidden inside.\nRutherford realized: the 'haystack' (atom) must be *mostly empty space*, with a *tiny, super-dense 'steel ball'* (the nucleus) at its center.\nHe proved the atom is 99.9% empty space.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rutherford_scattering_geometry_2.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "核物理 (Nuclear Physics)",
+          "title_en": "Nuclear Physics",
+          "text": "卢瑟福的发现，将物理学的研究从“原子”（化学）转向了“原子核”（核物理）。“原子核”成为了一个新的“大陆”等待被探索（例如 `chadwick_neutron_1932`）。",
+          "text_en": "Rutherford's discovery shifted the focus of physics from the 'atom' (chemistry) to the 'nucleus' (nuclear physics). The nucleus became a new 'continent' to explore (leading to `chadwick_neutron_1932`)."
+        },
+        {
+          "icon": "🔬",
+          "title": "量子模型 (Quantum Model)",
+          "title_en": "The Quantum Model",
+          "text": "卢瑟福的“行星模型”在经典物理学中是“不稳定”的，这迫使尼尔斯·玻尔（`bohr_atom_1913`）必须“发明”一个“量子”模型来解释为什么原子是稳定的。",
+          "text_en": "The 'instability' of Rutherford's classical 'planetary model' *forced* Niels Bohr (`bohr_atom_1913`) to *invent* a 'quantum' model to explain why atoms don't collapse."
+        }
+      ],
+  
+    "impact": {
+      "text": "卢瑟福的“金箔实验”是20世纪最重要的实验之一。它彻底推翻了“葡萄干布丁模型”（`thomson_electron_1897`），并建立了我们至今仍在使用的“核原子”(Nuclear Atom) 模型。它开创了“核物理学”这一全新领域，并为尼尔斯·玻尔（Niels Bohr）和整个“量子革命”设定了“舞台”和“必须解决的问题”。",
+      "text_en": "The Gold Foil Experiment is one of the most important experiments of the 20th century. It *destroyed* the 'plum pudding model' (`thomson_electron_1897`) and established the 'Nuclear Atom' model we use today. It *founded* the field of 'nuclear physics' and 'set the stage'—and the *problem to be solved*—for Niels Bohr and the entire quantum revolution.",
+      "stats": [
+          {
+            "number": "1/8000",
+            "label": "的粒子被反弹",
+            "label_en": "Particles Bounced Back (approx.)"
+          },
+          {
+            "number": "100,000x",
+            "label": "倍 (原子核比原子小的倍数)",
+            "label_en": "Times Smaller (Nucleus vs. Atom)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "thomson_electron_1897",
+          "contribution": "J.J. 汤姆孙（其“葡萄干布丁模型”是卢瑟福试图“验证”（并最终“推翻”）的理论）",
+          "contribution_en": "J.J. Thomson (his 'plum pudding model' was the theory Rutherford was testing and ultimately *disproved*)"
+        },
+        {
+          "id": "becquerel_radioactivity_1896",
+          "contribution": "贝克勒尔（其“放射性”的发现，为卢瑟福提供了“阿尔法粒子”这种“子弹”）",
+          "contribution_en": "Becquerel (his discovery of 'radioactivity' provided Rutherford with the 'alpha particle bullets' for his experiment)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "尼尔斯·玻尔（其“玻尔模型”是“为了”解决卢瑟福“行星模型”的“不稳定性”而提出的）",
+          "contribution_en": "Niels Bohr (his 'Bohr Model' was created *specifically* to 'fix' the 'instability' of Rutherford's planetary model)"
+        },
+        {
+          "id": "chadwick_neutron_1932",
+          "contribution": "詹姆斯·查德威克（卢瑟福的学生，他“预言”了中子，查德威克则“发现”了它）",
+          "contribution_en": "James Chadwick (Rutherford's student; Rutherford *predicted* the neutron, and Chadwick *found* it)"
+        },
+        {
+          "id": "cockcroft_walton_1932",
+          "contribution": "科克罗夫特和沃尔顿（卢瑟福的学生，他们首次“分裂”了卢瑟福发现的“原子核”）",
+          "contribution_en": "Cockcroft & Walton (Rutherford's students, who were the first to 'split' the nucleus he had discovered)"
+        }
+      ],
+      "legacy_text": "卢瑟福发现了“原子核”，将原子从一个“布丁”变成了一个“微型太阳系”，并因此开创了“核物理学”。",
+      "legacy_text_en": "Rutherford discovered the 'atomic nucleus', turning the atom from a 'pudding' into a 'miniature solar system' and founding nuclear physics."
+    },
+  
+    "related_concepts": ["原子核 (Nucleus)", "金箔实验 (Gold Foil Experiment)", "卢瑟福模型 (Rutherford Model)", "葡萄干布丁模型 (Plum Pudding Model)", "阿尔法粒子 (Alpha Particle)", "汤姆孙 (Thomson)", "玻尔 (Bohr)", "查德威克 (Chadwick)"],
+    "related_concepts_en": ["Nucleus", "Gold Foil Experiment", "Rutherford Model", "Plum Pudding Model", "Alpha Particle", "Thomson", "Bohr", "Chadwick"],
+  
+    "quiz": {
+      "question": "卢瑟福（Rutherford）的金箔实验中，哪个“意外”的观测结果推翻了“葡萄干布丁模型”？",
+      "question_en": "What *unexpected* observation in Rutherford's Gold Foil Experiment disproved the 'Plum Pudding Model'?",
+      "options": [
+        "所有的阿尔法粒子都“穿过”了金箔",
+        "所有的阿尔法粒子都“卡”在了金箔里",
+        "有“极少数”的阿尔法粒子被“大角度反弹”了回来",
+        "阿尔法粒子变成了“电子”"
+      ],
+      "options_en": [
+        "That *all* the alpha particles passed through",
+        "That *all* the alpha particles got stuck in the foil",
+        "That a *tiny few* alpha particles bounced *backwards* at a large angle",
+        "That the alpha particles turned into electrons"
+      ],
+      "answer": 2,
+      "explanation": "“葡萄干布丁模型”（`thomson_electron_1897`）预测所有粒子都应该“直接穿过”。“反弹”这个现象是无法解释的，它意味着原子内部有一个“微小、坚硬、带正电”的“核心”（原子核）。",
+      "explanation_en": "The 'Plum Pudding Model' (`thomson_electron_1897`) predicted *all* particles would pass straight through. The 'bouncing' was impossible *unless* the atom's positive charge was concentrated in a *tiny, hard, positive 'core'* (the nucleus)."
+    }
+  }

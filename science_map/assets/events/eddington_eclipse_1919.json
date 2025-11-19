@@ -1,0 +1,13 @@
+{
+    "id": "eddington_eclipse_1919",
+    "title": "爱丁顿日全食观测",
+    "title_en": "Eddington Solar Eclipse Expedition",
+    "year": 1919,
+    "lat": 1.94,
+    "lng": 7.42,
+    "city": "普林西比岛",
+    "city_en": "Príncipe",
+    "field": ["天文学", "物理学"],
+    "storyline_ids": ["gravity_story"],
+    "is_stub": true
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "约翰·安布罗斯·弗莱明",
+    "name_en": "John Ambrose Fleming",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/53/John_Ambrose_Fleming_1890.png",
+    "bio_short": "英国电气工程师和物理学家。他将“爱迪生效应”（`edison_effect_1883`）付诸实践，发明了“弗莱明阀”（`fleming_diode_1904`），即第一个“真空管二极管”，开启了电子学时代。",
+    "bio_short_en": "An English electrical engineer and physicist. He put the 'Edison effect' (`edison_effect_1883`) to practical use by inventing the 'Fleming Valve' (`fleming_diode_1904`), the first vacuum tube diode, which started the age of electronics.",
+    "events": [
+      "fleming_diode_1904"
+    ]
+  }

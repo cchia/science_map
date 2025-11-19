@@ -1,0 +1,11 @@
+{
+    "name": "瓦尔特·科恩",
+    "name_en": "Walter Kohn",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/47/Walter_Kohn.jpg",
+    "bio_short": "奥地利裔美国理论物理学家和化学家。他因开创了“密度泛函理论”（DFT）（`dft_1964`），而获得了1998年的诺贝尔化学奖。这一理论彻底改变了计算化学和材料科学。",
+    "bio_short_en": "An Austrian-American theoretical physicist and chemist. He was awarded the 1998 Nobel Prize in Chemistry for his development of 'Density Functional Theory' (DFT) (`dft_1964`), which revolutionized computational chemistry and materials science.",
+    "events": [
+      "dft_1964",
+      "kohn_sham_equations_1965"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "约翰·道尔顿",
+    "name_en": "John Dalton",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/00/John_Dalton_by_Thomas_Phillips%2C_1835.jpg",
+    "bio_short": "英国化学家、物理学家和气象学家。他以开创“现代原子理论”（`dalton_atomic_theory_1803`）和编制第一张“原子量表”而闻名于世。他还对“色盲”（道尔顿症）进行了最早的科学研究。",
+    "bio_short_en": "An English chemist, physicist, and meteorologist. He is famous for pioneering the 'modern atomic theory' (`dalton_atomic_theory_1803`) and creating the first 'table of atomic weights'. He also conducted the first scientific study of 'color blindness' (Daltonism).",
+    "events": [
+      "dalton_atomic_theory_1803"
+    ]
+  }

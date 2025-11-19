@@ -1,0 +1,9 @@
+{
+    "name": "皮埃尔·霍恩伯格",
+    "name_en": "Pierre Hohenberg",
+    "bio_short": "奥地利裔美国理论物理学家。他与瓦尔特·科恩（Walter Kohn）合作，在1964年共同提出了“霍恩伯格-科恩定理”，这为“密度泛函理论”（DFT）奠定了严格的数学基础。",
+    "bio_short_en": "An Austrian-American theoretical physicist. He is best known for the 'Hohenberg-Kohn theorems', which he co-developed with Walter Kohn in 1964, establishing the rigorous mathematical foundation for Density Functional Theory (DFT).",
+    "events": [
+      "dft_1964"
+    ]
+  }

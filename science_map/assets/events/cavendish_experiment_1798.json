@@ -1,0 +1,13 @@
+{
+    "id": "cavendish_experiment_1798",
+    "title": "卡文迪许扭秤实验",
+    "title_en": "Cavendish Experiment",
+    "year": 1798,
+    "lat": 51.46,
+    "lng": -0.14,
+    "city": "伦敦",
+    "city_en": "London",
+    "field": ["物理学"],
+    "storyline_ids": ["gravity_story"],
+    "is_stub": true
+  }

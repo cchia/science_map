@@ -1,0 +1,10 @@
+{
+    "name": "李·德富雷斯特",
+    "name_en": "Lee de Forest",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/65/Lee_De_Forest.jpg",
+    "bio_short": "美国发明家，自称为“广播之父”。他最重要的发明是1907年的“Audion”（三极真空管），这是“第一个”电子放大器，开启了“电子时代”，并使无线电广播、长途电话和早期计算机成为可能。",
+    "bio_short_en": "An American inventor who styled himself the 'Father of Radio'. His most important invention was the 1907 'Audion' (triode vacuum tube), the *first* electronic amplifier, which started the 'Electronic Age' and made radio, long-distance telephony, and early computers possible.",
+    "events": [
+      "de_forest_audion_1907"
+    ]
+  }

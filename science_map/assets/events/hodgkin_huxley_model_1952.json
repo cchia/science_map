@@ -1,0 +1,155 @@
+{
+    "id": "hodgkin_huxley_model_1952",
+    "personId": ["alan_hodgkin", "andrew_huxley"],
+    "title": "发表“霍奇金-赫胥黎模型” (神经冲动)",
+    "title_en": "Publishes the 'Hodgkin-Huxley Model' (Nerve Impulse)",
+    "year": 1952,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥",
+    "city_en": "Cambridge",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["生物学", "物理学", "医学", "计算机"],
+    "field_en": ["Biology", "Physics", "Medicine", "Computer Science"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Hodgkin-Huxley.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=7UEID-qJcZE",
+        "title": "霍奇金-赫胥黎模型",
+        "title_en": "Hodgkin–Huxley Model | Action Potential physiology ",
+        "duration": "8:33"
+      }
+    },
+    
+    "summary": {
+      "text": "艾伦·霍奇金（Alan Hodgkin）和安德鲁·赫胥黎（Andrew Huxley）发表了一系列论文，提出了一个“数学模型”，首次在“定量”上解释了“神经冲动”（即“动作电位”）是如何产生的。他们利用“枪乌贼巨型轴突”进行实验，并使用“电压钳”技术，证明了神经信号是由于“钠离子”(Na⁺) 和“钾离子”(K⁺) “选择性地”流过“离子通道”（细胞膜上的门控）而产生的。这个模型是“计算神经科学”的诞生日，并为他们赢得了1963年的诺贝尔奖。",
+      "text_en": "Alan Hodgkin and Andrew Huxley published a series of papers with a 'mathematical model' that—for the first time—*quantitatively* explained *how* a 'nerve impulse' (the 'action potential') is generated. Using the 'giant squid axon' and a 'voltage clamp' technique, they proved the nerve signal is an electrical event caused by the *selective flow* of 'sodium' (Na⁺) and 'potassium' (K⁺) ions through 'gated channels' in the cell membrane. This model is the birth of 'computational neuroscience' and won them the 1963 Nobel Prize.",
+      "key_points": [
+        "“计算神经科学”(Computational Neuroscience) 的诞生日",
+        "第一个“动作电位”(Action Potential) 的“数学模型”",
+        "证明了神经信号是“钠(Na⁺)/钾(K⁺)”离子的流动",
+        "使用了“枪乌贼巨型轴突”(Squid Giant Axon) 进行实验",
+        "发明了“电压钳”(Voltage Clamp) 技术",
+        "因此获得了1963年诺贝尔奖"
+      ],
+      "key_points_en": [
+        "Birth of 'Computational Neuroscience'",
+        "First 'mathematical model' of the 'action potential'",
+        "Proved nerve signals are based on Na⁺/K⁺ ion flow",
+        "Used the 'Squid Giant Axon'",
+        "Invented the 'Voltage Clamp' technique",
+        "Won the 1963 Nobel Prize for this"
+      ]
+    },
+  
+    "story": {
+      "text": "在1950年代，科学家们知道神经冲动是“电”信号（`helmholtz_neuroscience_1850`），但不知道它是“如何”产生的。霍奇金和赫胥黎（以及伯纳德·卡茨）使用了一种完美的“模式生物”——“枪乌贼”，它拥有“巨型”的神经纤维（轴突），大到可以“将一根银线（电极）插入其中”。他们发明了“电压钳”技术，这就像一个“恒温器”，可以“锁定”细胞膜的电压。通过“锁定”电压并测量“需要多少电流”来维持它，他们得以在数学上“分离”出两种不同的电流：一个“快速流入”的“钠”电流（使信号“上升”）和一个“缓慢流出”的“钾”电流（使信号“下降”）。然后，他们为控制这些电流的“门控”编写了微分方程——这就是霍奇金-赫胥黎模型。",
+      "text_en": "In the 1950s, scientists knew nerve impulses were 'electrical' (`helmholtz_neuroscience_1850`), but not *how* they worked. Hodgkin and Huxley (with Bernard Katz) used the perfect 'model organism': the 'Squid', which has a 'Giant Axon' (nerve fiber) so large you can *stick a wire electrode inside it*. They invented the 'voltage clamp', a 'thermostat' for locking the cell's voltage. By 'locking' the voltage and measuring 'how much current it took' to keep it there, they were able to *mathematically separate* the two different currents: a *fast, inward* 'sodium' (Na⁺) current (the 'rising' spike) and a *slow, outward* 'potassium' (K⁺) current (the 'falling' spike). They then wrote the differential equations for the 'gates' that control these flows—that is the H-H Model."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🦑",
+        "text": "“枪乌贼巨型轴突”是二战后神经科学取得巨大突破的“秘密武器”。它非常巨大（直径0.5-1毫米），而人类的轴突直径约为1-20“微米”（小1000倍）。",
+        "text_en": "The 'squid giant axon' was the 'secret weapon' of post-WWII neuroscience. It is *enormous* (0.5-1.0 mm in diameter), whereas a human axon is ~1-20 *micrometers* (1000x smaller)."
+      },
+      {
+        "icon": "💻",
+        "text": "霍奇金-赫胥黎模型是生物学中“第一个”如此成功的“数学模型”，它展示了“计算”可以用来完美地“预测”复杂的生物现象。它开创了“计算生物学”/“系统生物学”。",
+        "text_en": "The H-H model was the *first* hyper-successful 'mathematical model' in biology. It showed that *computation* could be used to *perfectly predict* a complex biological event. It founded computational/systems biology."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你的“神经”是一根“电线”，而“神经信号”是一股“电流”。\n在1950年之前，没人知道这股“电”是“如何”流动的。\n霍奇金和赫胥黎（通过实验）证明了，这根“电线”（细胞膜）上有两种“自动门”：\n1. “钠门”(Na⁺)：当信号开始时，“钠门”**快速打开**，让“正电荷”**涌入**，使信号“飙升”（动作电位的上升）。\n2. “钾门”(K⁺)：稍后，“钾门”**缓慢打开**，让“正电荷”**涌出**，使信号“回落”（动作电位的下降）。\n他们的“模型”就是描述这些“门”何时以及如何“打开”和“关闭”的“数学规则手册”。",
+      "text_en": "Imagine your 'nerve' is a 'wire' and the 'nerve signal' is an 'electric pulse'.\nBefore 1950, no one knew *how* this pulse was made.\nHodgkin and Huxley proved (by experimenting on a squid) that the 'wire' (the cell membrane) has two tiny, automatic 'gates':\n1. A 'Sodium Gate' (Na⁺): It *opens fast*, letting 'positive charge' *RUSH IN*. This is the *rising* spike of the signal.\n2. A 'Potassium Gate' (K⁺): It *opens slow*, letting 'positive charge' *FLOW OUT*. This is the *falling* spike of the signal.\nTheir 'model' is the *mathematical rulebook* that describes exactly *when* and *how fast* those two gates open and close."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🧠",
+          "title": "计算神经科学 (Computational Neuroscience)",
+          "title_en": "Computational Neuroscience",
+          "text": "“霍奇金-赫胥黎模型”是所有现代“神经网络”和“大脑模拟”的“第一个神经元”。所有关于“大脑如何计算”的研究都始于此。",
+          "text_en": "The H-H model is the 'original neuron' for *all* modern 'neural networks' and 'brain simulations'. All research into 'how the brain computes' starts here."
+        },
+        {
+          "icon": "🩺",
+          "title": "神经病学与麻醉学 (Neurology & Anesthesia)",
+          "title_en": "Neurology & Anesthesia",
+          "text": "我们对“癫痫”（神经元过度放电）和“多发性硬化症”的理解，以及“局部麻醉剂”（如利多卡因，它通过“阻断钠通道”来起作用）的设计，都基于此模型。",
+          "text_en": "Our understanding of epilepsy (neurons firing too much) and multiple sclerosis, and the design of 'local anesthetics' (like Lidocaine, which *blocks the sodium channel*), are all based on this model."
+        }
+      ],
+  
+    "impact": {
+      "text": "“霍奇金-赫胥黎模型”是20世纪生物学的“里程碑”。它将“神经科学”从一门“定性”的、基于“生命力”的学科（`helmholtz_neuroscience_1850`），转变为一门“定量”的、基于“离子通道物理学”的“计算”学科。它证明了“思想”和“感知”的最基本单元——“动作电位”——可以用“数学”来完美地描述和预测。",
+      "text_en": "The Hodgkin-Huxley model is a *landmark* of 20th-century biology. It *transformed* neuroscience from a 'qualitative' science of 'vital forces' (`helmholtz_neuroscience_1850`) into a 'quantitative', *computational* science of 'ion channel physics'. It proved that the most fundamental unit of 'thought'—the action potential—could be perfectly described and *predicted* with *mathematics*.",
+      "stats": [
+          {
+            "number": "1963",
+            "label": "年诺贝尔奖",
+            "label_en": "Nobel Prize"
+          },
+          {
+            "number": "4",
+            "label": "个微分方程 (构成模型)",
+            "label_en": "Differential Equations (in the model)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "helmholtz_neuroscience_1850",
+          "contribution": "亥姆霍兹（他“定性”地证明了神经信号是一个“缓慢的”电过程）",
+          "contribution_en": "Helmholtz (who 'qualitatively' proved the nerve signal was a 'slow' electrical process)"
+        },
+        {
+          "id": "galvani_animal_electricity_1791",
+          "contribution": "伽伐尼（他第一个证明了“生物电”的存在）",
+          "contribution_en": "Galvani (who first proved the existence of 'bioelectricity')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "neher_sakmann_patch_clamp_1976",
+          "contribution": "内尔和萨克曼（他们发明的“膜片钳”技术，最终在“单个”离子通道上“证实”了霍奇金-赫胥黎模型的预测）",
+          "contribution_en": "Neher & Sakmann (their 'patch clamp' technique finally *proved* the H-H model's predictions by recording a *single* ion channel)"
+        },
+        {
+          "id": "artificial_neural_networks_1980s",
+          "contribution": "人工智能神经网络（其“神经元”模型，是霍奇金-赫胥黎模型的“简化”版本）",
+          "contribution_en": "Artificial Neural Networks (their 'neuron' models are *simplified* versions of the Hodgkin-Huxley model)"
+        }
+      ],
+      "legacy_text": "霍奇金和赫胥黎为“神经冲动”编写了“操作手册”，开创了“计算神经科学”。",
+      "legacy_text_en": "Hodgkin and Huxley wrote the 'operating manual' for the nerve impulse, founding 'computational neuroscience'."
+    },
+  
+    "related_concepts": ["动作电位 (Action Potential)", "神经科学 (Neuroscience)", "计算神经科学 (Computational Neuroscience)", "电压钳 (Voltage Clamp)", "离子通道 (Ion Channel)", "钠 (Sodium)", "钾 (Potassium)", "枪乌贼巨型轴突 (Squid Giant Axon)"],
+    "related_concepts_en": ["Action Potential", "Neuroscience", "Computational Neuroscience", "Voltage Clamp", "Ion Channel", "Sodium", "Potassium", "Squid Giant Axon"],
+  
+    "quiz": {
+      "question": "“霍奇金-赫胥黎模型”在数学上描述了哪两种“离子”的流动，从而产生了“动作电位”？",
+      "question_en": "The Hodgkin-Huxley model mathematically describes the flow of which two *ions* to create the 'action potential'?",
+      "options": [
+        "氧 (Oxygen) 和 碳 (Carbon)",
+        "钠 (Sodium) 和 钾 (Potassium)",
+        "铁 (Iron) 和 钙 (Calcium)",
+        "氯 (Chlorine) 和 氢 (Hydrogen)"
+      ],
+      "options_en": [
+        "Oxygen and Carbon",
+        "Sodium (Na⁺) and Potassium (K⁺)",
+        "Iron (Fe²⁺) and Calcium (Ca²⁺)",
+        "Chlorine (Cl⁻) and Hydrogen (H⁺)"
+      ],
+      "answer": 1,
+      "explanation": "该模型的核心是，动作电位的“上升”阶段是由“钠”(Na⁺) 离子“涌入”细胞引起的，而“下降”阶段是由“钾”(K⁺) 离子“涌出”细胞引起的。",
+      "explanation_en": "The core of the model is that the 'rising' phase of the action potential is caused by 'Sodium' (Na⁺) *rushing in* to the cell, and the 'falling' phase is caused by 'Potassium' (K⁺) *rushing out*."
+    }
+  }

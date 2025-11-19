@@ -1,0 +1,10 @@
+{
+    "name": "J.J. 汤姆孙",
+    "name_en": "J.J. Thomson",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/J.J_Thomson.jpg",
+    "bio_short": "英国物理学家，因发现“电子”（`thomson_electron_1897`）而获得了1906年的诺贝尔物理学奖。他证明了原子的可分割性，并提出了“葡萄干布丁模型”。",
+    "bio_short_en": "A British physicist who won the 1906 Nobel Prize for his discovery of the 'electron' (`thomson_electron_1897`). He proved the atom was divisible and proposed the 'plum pudding model'.",
+    "events": [
+      "thomson_electron_1897"
+    ]
+  }

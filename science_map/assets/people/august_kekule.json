@@ -1,0 +1,11 @@
+{
+    "name": "奥古斯特·凯库勒",
+    "name_en": "August Kekulé",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Frkekul%C3%A9.jpg",
+    "bio_short": "德国有机化学家，“结构化学”的奠基人之一。他提出了“碳的四价性”理论，并（据传说）在梦中发现了“苯环”的环状结构（`kekule_benzene_1865`）。",
+    "bio_short_en": "A German organic chemist and a principal founder of 'Structural Chemistry'. He proposed the 'tetravalency of carbon' and famously discovered the 'ring structure of benzene' (`kekule_benzene_1865`), allegedly in a dream.",
+    "events": [
+      "kekule_carbon_1857",
+      "kekule_benzene_1865"
+    ]
+  }

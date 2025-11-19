@@ -1,0 +1,13 @@
+{
+    "name": "恩里科·费米",
+    "name_en": "Enrico Fermi",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Enrico_Fermi_1943-49.jpg",
+    "bio_short": "意大利裔美国物理学家，“核时代的设计师”。他在理论物理学（费米-狄拉克统计、贝塔衰变理论）和实验物理学（核裂变、建造第一个核反应堆）上都做出了奠基性贡献。",
+    "bio_short_en": "An Italian-American physicist, the 'architect of the nuclear age'. He made foundational contributions to both theoretical physics (Fermi-Dirac statistics, Beta-decay theory) and experimental physics (nuclear fission, building the first nuclear reactor).",
+    "events": [
+      "fermi_statistics_1926",
+      "fermi_beta_decay_1933",
+      "fermi_fission_1934",
+      "fermi_nuclear_reactor_1942"
+    ]
+  }

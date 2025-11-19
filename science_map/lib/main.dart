@@ -10,6 +10,9 @@ import 'l10n/app_localizations.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
+import 'package:graphview/GraphView.dart';
+
+enum FocusMode { none, simple, evolution }
 
 void main() {
   runApp(ScienceMapApp());
@@ -77,11 +80,22 @@ class _MapScreenState extends State<MapScreen> {
   RangeValues _zoomedRange = RangeValues(-1000, 2025); // <-- 新增：缩放范围
   bool isPlaying = false;
   Timer? _timer;
-  
+  String? _focusedEventId; // <-- 新增：用于跟踪被选中的事件
+  Map<String, dynamic>? _focusedEvent;
+  Set<String> _focalEventIds = {}; // <-- (新增) 存储焦点链中的所有ID  
+  FocusMode _currentFocusMode = FocusMode.none;
+
+// --- (新增) 侧边栏宽度控制 ---
+  double _panelWidth = 450.0; // 默认宽度
+  final double _minPanelWidth = 350.0; // 最小宽度
+  final double _maxPanelWidth = 800.0; // 最大宽度
+  // --- (新增结束) ---
+
   // 数据
   List<Map<String, dynamic>> events = [];
   //List<Map<String, dynamic>> storyModes = [];
   Map<String, dynamic> people = {}; // <--  modification
+  Map<String, dynamic> storylines = {};
   bool isLoading = true;
   
   // 筛选
@@ -187,11 +201,16 @@ final Map<String, String> fieldNamesEn = {
         }
       }
 
+      // --- (新增) 加载故事线 ---
+      final storylinesJson = await rootBundle.loadString('assets/storylines.json');
+      final Map<String, dynamic> loadedStorylines = json.decode(storylinesJson);
+      // --- (新增结束) ---      
+
       // --- (新增) 查找年份范围 ---
       double minYear = -1000; // 默认
       double maxYear = 2025; // 默认
       if (loadedEvents.isNotEmpty) {
-         // 我们只关心非“存根”事件的年份范围
+         // 我们只关心非"存根"事件的年份范围
          final years = loadedEvents
              .where((e) => e['is_stub'] != true) 
              .map((e) => e['year'] as int);
@@ -210,7 +229,7 @@ final Map<String, String> fieldNamesEn = {
         events = loadedEvents;
         //storyModes = modesData.cast<Map<String, dynamic>>();
         people = loadedPeople; 
-        
+        storylines = loadedStorylines;
         _minYear = minYear;       // <-- 设置
         _maxYear = maxYear;       // <-- 设置
         selectedYear = minYear; // <-- 在这里设置
@@ -296,29 +315,31 @@ final Map<String, String> fieldNamesEn = {
     });
   }
   // ========== 数据筛选 ==========
+// ========== 数据筛选 (已修改为支持焦点模式) ==========
   List<Map<String, dynamic>> getFilteredEvents() {
     
     var filtered = events.where((event) {
-      // 检查 'is_stub' 字段，如果为 true，则不显示在地图上
       final bool isStub = event['is_stub'] ?? false;
       if (isStub) return false;
+
+      // --- (新) 可见性规则 ---
+      // 规则1：事件是否在焦点链中？
+      bool isInFocusSet = _focalEventIds.contains(event['id']);
       
-      return event['year'] <= selectedYear && event['year'] > (selectedYear - 100);
+      // 规则2：事件是否在100年时间窗口内？
+      bool isInTimeWindow = event['year'] <= selectedYear && event['year'] > (selectedYear - 100);
+
+      // 只要满足任一规则，事件就可见
+      return isInTimeWindow || isInFocusSet;
+      // --- (新规则结束) ---
     });
     
-    // 学习路径筛选
-    // if (selectedStoryMode != null) {
-    //   var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
-    //   List<String> modeEventIds = List<String>.from(mode['events']);
-    //   filtered = filtered.where((event) => modeEventIds.contains(event['id']));
-    // }
-    
+    // (以下过滤器保持不变，它们会作用于上面的结果集)
+
     // 学科筛选
-// 学科筛选
     if (selectedFields.isNotEmpty) {
       filtered = filtered.where((event) {
         List<String> eventFields = _getFieldsFromEvent(event);
-        // 检查两个列表是否有任何交集
         return eventFields.any((field) => selectedFields.contains(field));
       });
     }
@@ -346,37 +367,76 @@ final Map<String, String> fieldNamesEn = {
     }
     
     return filtered.toList();
-  }
+  }  
 
+// ========== (修改) 获取连线逻辑 (带时间过滤) ==========
   List<Map<String, dynamic>> getInfluenceLines() {
     List<Map<String, dynamic>> lines = [];
-    var filteredEvents = getFilteredEvents();
-    
-    for (var event in filteredEvents) {
-      var influences = event['influences'] ?? [];
-      for (var influenceId in influences) {
-        var sourceEvent = events.firstWhere(
-          (e) => e['id'] == influenceId,
-          orElse: () => {},
-        );
-        
-        if (sourceEvent.isNotEmpty && sourceEvent['year'] <= selectedYear && sourceEvent['year'] > (selectedYear - 100)) {
+
+    // 情况 A: 没有焦点事件 -> 不画线
+    if (_focusedEvent == null) return [];
+
+    // 情况 B: 演化/故事模式
+    if (_currentFocusMode == FocusMode.evolution && _focalEventIds.isNotEmpty) {
+      
+      // 1. 获取所有相关事件
+      List<Map<String, dynamic>> storyEvents = events
+          .where((e) => _focalEventIds.contains(e['id']))
+          .toList();
+      
+      // 2. 排序
+      storyEvents.sort((a, b) => (a['year'] as int).compareTo(b['year'] as int));
+
+      // 3. 两两连接
+      for (int i = 0; i < storyEvents.length - 1; i++) {
+        var start = storyEvents[i];
+        var end = storyEvents[i + 1];
+
+        // --- (新增) 核心修改：时间过滤器 ---
+        // 如果当前时间轴还没走到“终点”事件的年份，就不画这条线
+        // 效果：线会随着时间推移一段一段出现
+        if ((end['year'] as int) > selectedYear) {
+          continue; 
+        }
+        // --- (修改结束) ---
+
+        // 确保都有坐标
+        if (start['lat'] != null && start['lng'] != null && 
+            end['lat'] != null && end['lng'] != null) {
+            
           lines.add({
-            'from': LatLng(sourceEvent['lat'], sourceEvent['lng']),
-            'to': LatLng(event['lat'], event['lng']),
-            'fromTitle': sourceEvent['title'],
-            'toTitle': event['title'],
-            'fromYear': sourceEvent['year'],
-            'toYear': event['year'],
+            'from': LatLng(start['lat'], start['lng']),
+            'to': LatLng(end['lat'], end['lng']),
+            'color': Colors.amber[700], 
+            'strokeWidth': 4.0,
+            'isDashed': false,
           });
         }
       }
+      return lines;
     }
-    
-    return lines;
+
+    // 情况 C: 简单模式 (不画线)
+    return []; 
+  }
+
+// (新) 侧边栏拖动回调
+  void _onPanelDrag(DragUpdateDetails details) {
+    setState(() {
+      // 拖动 (details.delta.dx)
+      // 向左拖动 (dx 为负) = 减小宽度
+      // 向右拖动 (dx 为正) = 增大宽度
+      // 我们的手柄在左侧，所以向左拖（负）应该减小宽度
+      _panelWidth -= details.delta.dx;
+      
+      // 限制最小/最大宽度
+      _panelWidth = _panelWidth.clamp(_minPanelWidth, _maxPanelWidth);
+    });
   }
 
   // ========== UI构建 ==========
+  @override
+ // ========== UI构建 ==========
   @override
   Widget build(BuildContext context) {
     if (isLoading) {
@@ -390,14 +450,35 @@ final Map<String, String> fieldNamesEn = {
 
     return Scaffold(
       appBar: _buildAppBar(l10n, isEnglish),
-      body: Stack(
+      // --- (修改) 从 Stack 改为 Row 布局 ---
+      body: Row(
         children: [
-          _buildMap(),
-          //_buildLearningPathSelector(l10n, isEnglish),
-          _buildLegend(l10n, isEnglish),
-          _buildTimelineController(l10n, isEnglish),
+          // (新) 地图和控制器
+          Expanded( // <-- 地图现在会占据所有剩余空间
+            child: Stack(
+              children: [
+                _buildMap(),
+                _buildLegend(l10n, isEnglish),
+                _buildTimelineController(l10n, isEnglish),
+                _buildStoryButton(isEnglish), // <-- (新增) 添加故事模式按钮
+                _buildStoryTimelineRail(),
+              ],
+            ),
+          ),
+          
+          // (新) 详情面板
+          // 如果 _focusedEvent 不是 null，则构建并显示侧边栏
+          if (_focusedEvent != null)
+            _buildDetailsPanel(
+              context, 
+              _focusedEvent!, 
+              isEnglish,
+              _panelWidth,    // <-- (新增) 传递当前宽度
+              _onPanelDrag,   // <-- (新增) 传递拖动回调
+            ),
         ],
       ),
+      // --- (修改结束) ---
     );
   }
 
@@ -486,7 +567,7 @@ final Map<String, String> fieldNamesEn = {
           icon: Icon(Icons.filter_list),
           onPressed: () => _showFilterDialog(isEnglish),
         ),
-        // --- (新增) “关于”按钮 ---
+        // --- (新增) "关于"按钮 ---
         IconButton(
           icon: Icon(Icons.info_outline),
           tooltip: isEnglish ? 'About' : '关于',
@@ -553,7 +634,7 @@ final Map<String, String> fieldNamesEn = {
           userAgentPackageName: 'com.example.science_map',
         ),
         _buildPolylineLayer(),
-        _buildArrowLayer(),
+        // _buildArrowLayer(),
 
 // <-- 新的聚类图层 -->
         MarkerClusterLayerWidget(
@@ -603,17 +684,73 @@ final Map<String, String> fieldNamesEn = {
     );
   }
 
+// (新) 递归图遍历函数
+  Set<String> _getRecursiveEventChain(Map<String, dynamic> startingEvent) {
+    
+    final Set<String> allRelatedIds = {}; // 存储所有找到的ID
+    final List<Map<String, dynamic>> queue = []; // 用于广度优先搜索 (BFS)
+
+    // --- 1. 向后遍历 (Follow 'influenced_by') ---
+    queue.add(startingEvent);
+    while (queue.isNotEmpty) {
+      final currentEvent = queue.removeAt(0);
+      if (allRelatedIds.contains(currentEvent['id'])) continue;
+      allRelatedIds.add(currentEvent['id']);
+
+      final chain = currentEvent['influence_chain'];
+      if (chain != null && chain is Map && chain['influenced_by'] != null) {
+        for (var item in (chain['influenced_by'] as List)) {
+          var sourceId = item['id'];
+          if (sourceId != null) {
+            var sourceEvent = events.firstWhere(
+              (e) => e['id'] == sourceId, 
+              orElse: () => {}
+            );
+            if (sourceEvent.isNotEmpty) {
+              queue.add(sourceEvent);
+            }
+          }
+        }
+      }
+    }
+
+    // --- 2. 向前遍历 (Follow 'influenced') ---
+    queue.add(startingEvent); // 重新从起点开始
+    while (queue.isNotEmpty) {
+      final currentEvent = queue.removeAt(0);
+      if (allRelatedIds.contains(currentEvent['id'])) continue;
+      allRelatedIds.add(currentEvent['id']);
+
+      final chain = currentEvent['influence_chain'];
+      if (chain != null && chain is Map && chain['influenced'] != null) {
+        for (var item in (chain['influenced'] as List)) {
+          var targetId = item['id'];
+          if (targetId != null) {
+            var targetEvent = events.firstWhere(
+              (e) => e['id'] == targetId, 
+              orElse: () => {}
+            );
+            if (targetEvent.isNotEmpty) {
+              queue.add(targetEvent);
+            }
+          }
+        }
+      }
+    }
+    
+    return allRelatedIds;
+  }
+
 // 当一个聚类被点击时的回调
   void _onClusterTapped(MarkerClusterNode cluster) {
     
     // 1. 从 Marker 列表中提取坐标 *值* 的一个 Set
-    // 我们创建一个唯一的字符串 "纬度_经度" Set，以便快速查找。
     final Set<String> clusterPoints = cluster.markers.map((m) {
       return '${m.point.latitude}_${m.point.longitude}';
     }).toSet();
 
-    // 2. 从主 'events' 列表中找到所有匹配的事件
-    final List<Map<String, dynamic>> clusterEvents = events.where((event) {
+    // 2. (已修复) 搜索 *已经过时间过滤* 的列表
+    final List<Map<String, dynamic>> clusterEvents = getFilteredEvents().where((event) {
       // 为事件的坐标创建相同的字符串
       String eventPointKey = '${event['lat']}_${event['lng']}';
       
@@ -626,7 +763,7 @@ final Map<String, String> fieldNamesEn = {
       _showClusterBottomSheet(clusterEvents);
     } else {
       // (用于调试)
-      print("Cluster tapped, but no matching events found in 'events' list.");
+      print("Cluster tapped, but no matching *filtered* events found.");
     }
   }
 
@@ -766,11 +903,41 @@ final Map<String, String> fieldNamesEn = {
                             style: TextStyle(fontSize: 13),
                             ),
                             trailing: Icon(Icons.arrow_forward_ios, size: 16),
-                            onTap: () {
-                              Navigator.pop(context); // 关闭 Bottom Sheet
-                              _showEventDialog(event); // 打开事件详情
-                            },
-                          ),
+                          onTap: () {
+                          Navigator.pop(context); // 1. 关闭 Bottom Sheet
+
+                          // 2. (新) 复制 _buildSingleEventMarker 中的焦点逻辑
+                          // --- 在点击时计算所有相关的ID ---
+                          Set<String> newFocalIds = {};
+                          newFocalIds.add(event['id']); // 添加被点击的事件本身
+
+                          var chain = event['influence_chain'];
+                          if (chain != null && chain is Map) {
+                            // 添加所有 "influenced_by" 的事件
+                            var influencedByList = chain['influenced_by'];
+                            if (influencedByList != null && influencedByList is List) {
+                              for (var item in influencedByList) {
+                                if (item['id'] != null) newFocalIds.add(item['id']);
+                              }
+                            }
+                            // 添加所有 "influenced" 的事件
+                            var influencedList = chain['influenced'];
+                            if (influencedList != null && influencedList is List) {
+                              for (var item in influencedList) {
+                                if (item['id'] != null) newFocalIds.add(item['id']);
+                              }
+                            }
+                          }
+                          // --- 逻辑结束 ---
+
+                          // 3. (新) 设置状态以打开侧边栏
+                          setState(() {
+                            _focusedEvent = event;
+                            _focalEventIds = newFocalIds;
+                            _currentFocusMode = FocusMode.simple;
+                            _panelWidth = 450.0; 
+                          });
+                        },                          ),
                         );
                       },
                     ),
@@ -785,14 +952,17 @@ final Map<String, String> fieldNamesEn = {
   }
 
   PolylineLayer _buildPolylineLayer() {
+    final lines = getInfluenceLines();
+    if (lines.isEmpty) return PolylineLayer(polylines: []);
+
     return PolylineLayer(
-      polylines: getInfluenceLines().map((line) {
+      polylines: lines.map((line) {
         return Polyline(
           points: [line['from'], line['to']],
-          strokeWidth: 3.0,
-          color: Colors.blue.withOpacity(0.7),
-          borderStrokeWidth: 1.0,
-          borderColor: Colors.white.withOpacity(0.5),
+          strokeWidth: line['strokeWidth'] ?? 3.0, // 使用自定义宽度
+          color: (line['color'] as Color? ?? Colors.blue).withOpacity(0.7), // 使用自定义颜色
+          borderStrokeWidth: 2.0, // 加个白边，让线在地图上更清楚
+          borderColor: Colors.white, 
         );
       }).toList(),
     );
@@ -827,120 +997,119 @@ final Map<String, String> fieldNamesEn = {
     );
   }
 
- 
-  // ========== 学习路径选择器 ==========
-  // Widget _buildLearningPathSelector(AppLocalizations l10n, bool isEnglish) {
-  //   return Positioned(
-  //     top: 20,
-  //     left: 20,
-  //     child: Card(
-  //       elevation: 4,
-  //       child: Container(
-  //         width: 250,
-  //         padding: EdgeInsets.all(12),
-  //         child: Column(
-  //           crossAxisAlignment: CrossAxisAlignment.start,
-  //           mainAxisSize: MainAxisSize.min,
-  //           children: [
-  //             Text(
-  //               l10n.learningPath,
-  //               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-  //             ),
-  //             SizedBox(height: 8),
-  //             DropdownButton<String>(
-  //               isExpanded: true,
-  //               value: selectedStoryMode,
-  //               hint: Text(l10n.selectTheme),
-  //               items: [
-  //                 DropdownMenuItem<String>(
-  //                   value: null,
-  //                   child: Text(l10n.allEvents),
-  //                 ),
-  //                 ...storyModes.map((mode) {
-  //                   String title = isEnglish && mode['title_en'] != null
-  //                       ? mode['title_en']
-  //                       : mode['title'];
-  //                   return DropdownMenuItem<String>(
-  //                     value: mode['id'] as String,
-  //                     child: Row(
-  //                       children: [
-  //                         Text(mode['emoji'], style: TextStyle(fontSize: 20)),
-  //                         SizedBox(width: 8),
-  //                         Expanded(child: Text(title, style: TextStyle(fontSize: 14))),
-  //                       ],
-  //                     ),
-  //                   );
-  //                 }),
-  //               ],
-  //               onChanged: (value) {
-  //                 setState(() {
-  //                   selectedStoryMode = value;
-  //                   if (value != null) {
-  //                     var mode = storyModes.firstWhere((m) => m['id'] == value);
-  //                     var firstEventId = mode['events'][0];
-  //                     var firstEvent = events.firstWhere(
-  //                       (e) => e['id'] == firstEventId,
-  //                       orElse: () => {},
-  //                     );
-  //                     if (firstEvent.isNotEmpty) {
-  //                       selectedYear = firstEvent['year'].toDouble();
-  //                     }
-  //                   }
-  //                 });
-  //               },
-  //             ),
-  //             if (selectedStoryMode != null) ...[
-  //               SizedBox(height: 8),
-  //               Text(
-  //                 _getStoryModeDescription(selectedStoryMode!, isEnglish),
-  //                 style: TextStyle(fontSize: 12, color: Colors.grey[600]),
-  //               ),
-  //               SizedBox(height: 8),
-  //               ElevatedButton.icon(
-  //                 onPressed: _startStoryMode,
-  //                 icon: Icon(Icons.play_arrow),
-  //                 label: Text(l10n.startLearning),
-  //                 style: ElevatedButton.styleFrom(
-  //                   minimumSize: Size(double.infinity, 36),
-  //                 ),
-  //               ),
-  //             ],
-  //           ],
-  //         ),
-  //       ),
-  //     ),
-  //   );
-  // }
+ // ========== (新增) 显示故事列表 ==========
+  void _showStoryListDialog(bool isEnglish) {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Row(
+            children: [
+              Icon(Icons.auto_stories, color: Colors.amber[800]),
+              SizedBox(width: 10),
+              Text(isEnglish ? 'Curated Storylines' : '精选演化故事'),
+            ],
+          ),
+          content: Container(
+            width: double.maxFinite,
+            child: storylines.isEmpty
+                ? Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Text(isEnglish ? "No storylines loaded." : "暂无故事数据"),
+                  )
+                : ListView.builder(
+                    shrinkWrap: true,
+                    itemCount: storylines.length,
+                    itemBuilder: (context, index) {
+                      String key = storylines.keys.elementAt(index);
+                      Map<String, dynamic> story = storylines[key];
+                      
+                      String title = isEnglish && story['title_en'] != null 
+                          ? story['title_en'] 
+                          : story['title_zh'];
+                      String desc = isEnglish && story['description_en'] != null 
+                          ? story['description_en'] 
+                          : (story['description_zh'] ?? "");
+                      String emoji = story['emoji'] ?? "📚";
+                      int count = (story['events'] as List).length;
 
-  // String _getStoryModeDescription(String modeId, bool isEnglish) {
-  //   var mode = storyModes.firstWhere((m) => m['id'] == modeId);
-  //   return isEnglish && mode['description_en'] != null
-  //       ? mode['description_en']
-  //       : mode['description'];
-  // }
+                      return ListTile(
+                        leading: Text(emoji, style: TextStyle(fontSize: 32)),
+                        title: Text(title, style: TextStyle(fontWeight: FontWeight.bold)),
+                        subtitle: desc.isNotEmpty 
+                            ? Text(desc, maxLines: 2, overflow: TextOverflow.ellipsis) 
+                            : null,
+                        trailing: Chip(
+                          label: Text('$count', style: TextStyle(color: Colors.white, fontSize: 12)),
+                          backgroundColor: Colors.blue[300],
+                          padding: EdgeInsets.all(0),
+                        ),
+                        onTap: () {
+                          Navigator.pop(context); // 关闭弹窗
+                          _launchStoryMode(story); // 启动故事
+                        },
+                      );
+                    },
+                  ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text(isEnglish ? 'Close' : '关闭'),
+            ),
+          ],
+        );
+      },
+    );
+  }
 
-  // void _startStoryMode() {
-  //   if (selectedStoryMode == null) return;
-    
-  //   var mode = storyModes.firstWhere((m) => m['id'] == selectedStoryMode);
-  //   List<String> eventIds = List<String>.from(mode['events']);
-    
-  //   _stopAnimation();
-    
-  //   var firstEvent = events.firstWhere(
-  //     (e) => e['id'] == eventIds[0],
-  //     orElse: () => {},
-  //   );
-    
-  //   if (firstEvent.isNotEmpty) {
-  //     setState(() {
-  //       selectedYear = firstEvent['year'].toDouble();
-  //     });
-  //     Future.delayed(Duration(milliseconds: 500), () {
-  //       _showEventDialog(firstEvent);
-  //     });
-  //   }
-  // }
+// 👇👇👇 把 _launchStoryMode 放在这里 👇👇👇
+  // ========== (新增) 启动故事模式 ==========
+  void _launchStoryMode(Map<String, dynamic> story) {
+    // 1. 获取故事的事件列表
+    List<String> eventIds = List<String>.from(story['events']);
+    if (eventIds.isEmpty) return;
+
+    // 2. 找到第一个事件 (作为入口点)
+    String firstEventId = eventIds.first;
+    Map<String, dynamic> firstEvent = events.firstWhere(
+      (e) => e['id'] == firstEventId,
+      orElse: () => {},
+    );
+
+    if (firstEvent.isNotEmpty) {
+      setState(() {
+        // A. 将时间轴跳转到该事件的年份
+        selectedYear = (firstEvent['year'] as int).toDouble();
+        
+        // B. 设置焦点事件 (打开侧边栏)
+        _focusedEvent = firstEvent;
+        
+        // C. 关键：直接设置演化模式的数据！
+        _focalEventIds = eventIds.toSet();
+        _currentFocusMode = FocusMode.evolution;
+        
+        // D. 调整侧边栏宽度
+        _panelWidth = 600.0; 
+      });
+    }
+  }  
+
+// ========== (新增) 故事模式按钮 ==========
+  Widget _buildStoryButton(bool isEnglish) {
+    return Positioned(
+      top: 20,
+      left: 20, // 放在左上角
+      child: FloatingActionButton.extended(
+        heroTag: "story_btn", // 避免 tag 冲突
+        onPressed: () => _showStoryListDialog(isEnglish),
+        icon: Icon(Icons.auto_stories),
+        label: Text(isEnglish ? 'Storylines' : '精选故事'),
+        backgroundColor: Colors.amber[800],
+        foregroundColor: Colors.white,
+      ),
+    );
+  }
 
   // ========== 图例 ==========
   Widget _buildLegend(AppLocalizations l10n, bool isEnglish) {
@@ -1217,36 +1386,113 @@ final Map<String, String> fieldNamesEn = {
     );
   }
 
+// ========== (新增) 故事线选择对话框 ==========
+  Future<String?> _showStorylineSelectionDialog(List<String> storylineIds) async {
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
+    final l10n = AppLocalizations.of(context);
+
+    return showDialog<String>(
+      context: context,
+      builder: (BuildContext context) {
+        return SimpleDialog(
+          title: Text(isEnglish ? 'Select Storyline' : '选择故事线'),
+          children: storylineIds.map((id) {
+            // 从已加载的 map 中获取故事详情
+            final story = storylines[id];
+            if (story == null) {
+              return SizedBox.shrink(); // 无效 ID, 跳过
+            }
+
+            final String emoji = story['emoji'] ?? '📚';
+            final String title = isEnglish && story['title_en'] != null 
+                ? story['title_en'] 
+                : story['title_zh'];
+
+            return SimpleDialogOption(
+              onPressed: () {
+                Navigator.pop(context, id); // 返回被选中的 story id
+              },
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8.0),
+                child: Row(
+                  children: [
+                    Text(emoji, style: TextStyle(fontSize: 24)),
+                    SizedBox(width: 16),
+                    Expanded(
+                      child: Text(title, style: TextStyle(fontSize: 16)),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          }).toList(),
+        );
+      },
+    );
+  }
   // ========== 事件详情对话框 ==========
   // <-- MODIFIED _showEventDialog -->
+// ========== 事件详情对话框 (已修改为从右侧滑入) ==========
   void _showEventDialog(Map<String, dynamic> event) {
     final isEnglish = Localizations.localeOf(context).languageCode == 'en';
     
-    // 提取数据
-    // final data = EventData.fromJson(event, isEnglish, events); // This moves to EventDialog
     String primaryField = _getFieldsFromEvent(event).first;
     final color = getFieldColor(primaryField);
     final emoji = getFieldEmoji(primaryField);
 
-    showDialog(
+    // 1. (逻辑不变) 设置焦点，触发 'getInfluenceLines' 重绘
+    setState(() {
+      _focusedEventId = event['id'];
+    });
+
+    // 2. (修改) 从 'showDialog' 替换为 'showGeneralDialog'
+    showGeneralDialog(
       context: context,
-      builder: (context) => EventDialog(
-        // data: data, // <-- Removed
-        event: event, // <-- Added
-        allEvents: events, // <-- Added
-        people: people, // <-- Added
-        color: color,
-        emoji: emoji,
-        isEnglish: isEnglish,
-        // <-- Added -->
-        onEventSelected: (Map<String, dynamic> selectedEvent) {
-          Navigator.pop(context); // 关闭当前弹窗
-          _showEventDialog(selectedEvent); // 打开新弹窗
-        },
-      ),
-    );
+      // (新) 让背景变暗，但点击背景时可以关闭
+      barrierDismissible: true,
+      barrierLabel: MaterialLocalizations.of(context).modalBarrierDismissLabel,
+      barrierColor: Colors.black.withOpacity(0.3), // 调暗背景
+      
+      // (新) 动画时长
+      transitionDuration: const Duration(milliseconds: 300),
+      
+      // (新) 页面构建器 (返回我们的 EventDialog)
+      pageBuilder: (context, animation, secondaryAnimation) {
+        return EventDialog(
+          event: event,
+          allEvents: events,
+          people: people,
+          color: color,
+          emoji: emoji,
+          isEnglish: isEnglish,
+          onEventSelected: (Map<String, dynamic> selectedEvent) {
+            Navigator.pop(context); // 关闭当前弹窗
+            _showEventDialog(selectedEvent); // 打开新弹窗
+          },
+        );
+      },
+      
+      // (新) 动画构建器 (从右侧滑入)
+      transitionBuilder: (context, animation, secondaryAnimation, child) {
+        return Align(
+          alignment: Alignment.centerRight, // <-- 关键：对齐到右侧
+          child: SlideTransition(
+            // <-- 关键：从右侧 (1.0) 滑动到屏幕内 (0.0)
+            position: Tween<Offset>(
+              begin: const Offset(1.0, 0.0), 
+              end: Offset.zero,
+            ).animate(CurvedAnimation(parent: animation, curve: Curves.easeInOut)),
+            child: child, // 'child' 就是上面 pageBuilder 返回的 EventDialog
+          ),
+        );
+      },
+    ).then((_) {
+      // 3. (逻辑不变) 当弹窗关闭时，清除焦点
+      setState(() {
+        _focusedEventId = null;
+      });
+    });
   }
-  // <-- END MODIFIED _showEventDialog -->
 
 
   void _showInfluenceDialog(Map<String, dynamic> line) {
@@ -1297,6 +1543,336 @@ final Map<String, String> fieldNamesEn = {
             onPressed: () => Navigator.pop(context),
             child: Text(isEnglish ? 'Close' : '关闭'),
           ),
+        ],
+      ),
+    );
+  }
+
+// ========== 详情侧边栏 ==========
+
+  // (新) 详情面板 Widget (代替 EventDialog)
+  Widget _buildDetailsPanel(BuildContext context, Map<String, dynamic> event, bool isEnglish, 
+    double panelWidth, Function(DragUpdateDetails) onPanelDrag) {
+    
+    // 1. (从 _showEventDialog 复制) 获取颜色
+    String primaryField = _getFieldsFromEvent(event).first;
+    final color = getFieldColor(primaryField);
+    final emoji = getFieldEmoji(primaryField);
+
+    // 2. (从 EventDialog.build 复制) 解析数据
+    final EventData data = EventData.fromJson(event, isEnglish, events, people);
+    final List<String> personIds = data.personIds;
+
+    // 3. (新) 创建一个 DefaultTabController
+    return DefaultTabController(
+      length: 4,
+      child: Container(
+        width: panelWidth, // <-- (修改) 使用动态宽度
+        height: double.infinity,
+        decoration: BoxDecoration(
+          color: Theme.of(context).canvasColor,
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.2),
+              blurRadius: 10,
+              offset: Offset(-5, 0),
+            )
+          ],
+        ),
+        // --- (修改) child 现在是一个 Row ---
+        child: Row(
+          children: [
+            // --- (新增) 拖动手柄 ---
+            GestureDetector(
+              onHorizontalDragUpdate: onPanelDrag, // <-- 使用回调
+              child: Container(
+                width: 8, // 手柄宽度
+                height: double.infinity,
+                color: Colors.grey.shade200, // 背景色
+                child: Center(
+                  child: Icon(
+                    Icons.drag_indicator, 
+                    size: 16, 
+                    color: Colors.grey.shade700,
+                  ),
+                ),
+              ),
+            ),
+            // --- (新增结束) ---
+
+            // --- (旧的 Column 现在在 Expanded 内部) ---
+            Expanded(
+              child: Column(
+                children: [
+                  _buildDetailsPanelHeader(context, data, color, emoji),
+                  _buildDetailsPanelTabBar(color, isEnglish),
+                  Expanded(
+                    child: TabBarView(
+                      children: [
+                        OverviewTab(
+                          data: data, 
+                          color: color, 
+                          isEnglish: isEnglish,
+                          personIds: personIds,
+                          allEvents: events,
+                          people: people,
+                          onEventSelected: (Map<String, dynamic> selectedEvent) {
+                            setState(() {
+                              _focusedEvent = selectedEvent;
+                              _panelWidth = 450.0; // (可选) 切换事件时重置宽度
+                            });
+                          },
+                        ),
+                        ScienceTab(data: data, color: color, isEnglish: isEnglish),
+                        ImpactTab(
+                          data: data, 
+                          color: color, 
+                          isEnglish: isEnglish,
+                          allEvents: events,
+                          onEventSelected: (Map<String, dynamic> selectedEvent) {
+                            setState(() {
+                              _focusedEvent = selectedEvent;
+                              _panelWidth = 450.0; // (可选) 切换事件时重置宽度
+                            });
+                          },
+                          // --- (新增属性) ---
+                          currentFocusMode: _currentFocusMode,
+                          focalEventIds: _focalEventIds,
+                          focusedEvent: _focusedEvent!,
+                          // --- (新增结束) ---              
+// --- (新增这两个属性) ---
+                          people: people,
+                          selectedYear: selectedYear,
+                          // --- (新增结束) ---                                      
+                        ),
+                        QuizTab(data: data, color: color, isEnglish: isEnglish),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            // --- (修改结束) ---
+          ],
+        ),
+      ),
+    );
+  }
+
+// ... 在 _MapScreenState 内部 ...
+
+// (新 - 从 EventDialog._buildHeader 复制而来)
+// ... 在 _MapScreenState 内部 ...
+
+  Widget _buildDetailsPanelHeader(BuildContext context, EventData data, Color color, String emoji) {
+    final bool isEnglish = Localizations.localeOf(context).languageCode == 'en';
+
+    // --- (新增) 导航逻辑准备 ---
+    bool showNav = _currentFocusMode == FocusMode.evolution;
+    Map<String, dynamic>? prevEvent;
+    Map<String, dynamic>? nextEvent;
+
+    if (showNav) {
+      // 1. 获取当前故事的所有事件并排序
+      List<Map<String, dynamic>> storyEvents = events
+          .where((e) => _focalEventIds.contains(e['id']))
+          .toList();
+      storyEvents.sort((a, b) => (a['year'] as int).compareTo(b['year'] as int));
+
+      // 2. 找到当前事件的索引
+      int currentIndex = storyEvents.indexWhere((e) => e['id'] == data.id);
+
+      // 3. 确定前后事件
+      if (currentIndex > 0) prevEvent = storyEvents[currentIndex - 1];
+      if (currentIndex < storyEvents.length - 1) nextEvent = storyEvents[currentIndex + 1];
+    }
+    // --- (准备结束) ---
+
+    return Container(
+      padding: EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [color.withOpacity(0.7), color],
+        ),
+      ),
+      child: Row(
+        children: [
+          Text(emoji, style: TextStyle(fontSize: 32)),
+          SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  data.title,
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                Text(
+                  '${data.year} · ${data.city}',
+                  style: TextStyle(fontSize: 14, color: Colors.white70),
+                ),
+              ],
+            ),
+          ),
+
+          // --- (新增) 导航按钮组 ---
+          if (showNav) ...[
+            // 上一个
+            IconButton(
+              icon: Icon(Icons.chevron_left, size: 30),
+              color: prevEvent != null ? Colors.white : Colors.white30, // 禁用态变暗
+              tooltip: isEnglish ? 'Previous Event' : '上一个事件',
+              onPressed: prevEvent == null ? null : () {
+                setState(() {
+                  _focusedEvent = prevEvent;
+                  // 可选：同时把时间轴移过去，让演化图高亮状态跟随
+                  selectedYear = (prevEvent!['year'] as int).toDouble();
+                });
+              },
+            ),
+            
+            // 下一个
+            IconButton(
+              icon: Icon(Icons.chevron_right, size: 30),
+              color: nextEvent != null ? Colors.white : Colors.white30,
+              tooltip: isEnglish ? 'Next Event' : '下一个事件',
+              onPressed: nextEvent == null ? null : () {
+                setState(() {
+                  _focusedEvent = nextEvent;
+                  // 可选：同时把时间轴移过去
+                  selectedYear = (nextEvent!['year'] as int).toDouble();
+                });
+              },
+            ),
+            // 分隔线
+            Container(height: 24, width: 1, color: Colors.white30, margin: EdgeInsets.symmetric(horizontal: 4)),
+          ],
+          // --- (新增结束) ---
+          
+          // 模式切换按钮 (保持不变，稍微精简显示逻辑)
+          if (_currentFocusMode == FocusMode.simple)
+            IconButton(
+              icon: Icon(Icons.auto_graph_outlined),
+              color: Colors.white,
+              tooltip: isEnglish ? 'Show Full Evolution Path' : '显示完整演化路径',
+              onPressed: () async {
+                 // ... (您现有的 complex onPressed 逻辑，保持不变) ...
+                 // ... 为了节省篇幅，这里不重复粘贴，请保留您上一步写好的完整逻辑 ...
+                 // ... (查找 storyline_ids, 弹窗选择等) ...
+                 
+                 // 友情提示：如果您还没保存上一步的代码，需要我再次提供吗？
+                 // 假设您这里已经有了那个 async 逻辑。
+                 _handleEvolutionButtonPress(); // <-- 建议把那大段逻辑抽离成一个函数
+              },
+            )
+          else if (_currentFocusMode == FocusMode.evolution)
+            IconButton(
+              icon: Icon(Icons.filter_center_focus),
+              color: Colors.white,
+              tooltip: isEnglish ? 'Show Simple View' : '显示简单视图',
+              onPressed: () {
+                // (降级逻辑保持不变)
+                Set<String> newFocalIds = {};
+                newFocalIds.add(_focusedEvent!['id']);
+                var chain = _focusedEvent!['influence_chain'];
+                if (chain != null && chain is Map) {
+                   // ... (现有逻辑) ...
+                   var influencedBy = chain['influenced_by'] as List?;
+                   if (influencedBy != null) newFocalIds.addAll(influencedBy.map((e) => e['id'] as String));
+                   var influenced = chain['influenced'] as List?;
+                   if (influenced != null) newFocalIds.addAll(influenced.map((e) => e['id'] as String));
+                }
+                setState(() {
+                  _focalEventIds = newFocalIds;
+                  _currentFocusMode = FocusMode.simple;
+                  _panelWidth = 450.0; // 恢复窄宽度
+                });
+              },
+            ),
+
+          // 关闭按钮
+          IconButton(
+            icon: Icon(Icons.close, color: Colors.white),
+            onPressed: () {
+              setState(() {
+                _focusedEvent = null; 
+                _focalEventIds = {}; 
+                _currentFocusMode = FocusMode.none;
+              });
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  // (可选) 为了代码整洁，建议把刚才那个很长的演化按钮逻辑抽离出来
+  Future<void> _handleEvolutionButtonPress() async {
+    final event = _focusedEvent!;
+    List<String> storyIds = [];
+    var storyData = event['storyline_ids'];
+    
+    if (storyData is List && storyData.isNotEmpty) {
+      storyIds = List<String>.from(storyData);
+    } else {
+      var oldStoryId = event['storyline_id'];
+      if (oldStoryId is String && oldStoryId.isNotEmpty) {
+        storyIds = [oldStoryId];
+      }
+    }
+
+    String? selectedStoryId;
+
+    if (storyIds.isEmpty) {
+      setState(() {
+        _focalEventIds = _getRecursiveEventChain(event);
+        _currentFocusMode = FocusMode.evolution;
+      });
+      return;
+    } else if (storyIds.length == 1) {
+      selectedStoryId = storyIds.first;
+    } else {
+      selectedStoryId = await _showStorylineSelectionDialog(storyIds);
+      if (selectedStoryId == null) return;
+    }
+
+    if (storylines.containsKey(selectedStoryId)) {
+      final List<String> eventIds = List<String>.from(storylines[selectedStoryId!]['events']);
+      setState(() {
+        _focalEventIds = eventIds.toSet();
+        _currentFocusMode = FocusMode.evolution;
+      });
+    } else {
+       setState(() {
+        _focalEventIds = _getRecursiveEventChain(event);
+        _currentFocusMode = FocusMode.evolution;
+      });
+    }
+  }
+
+  // (新 - 从 EventDialog._buildTabBar 复制而来)
+// (新 - 从 EventDialog._buildTabBar 复制而来)
+  Widget _buildDetailsPanelTabBar(Color color, bool isEnglish) {
+    // final l10n = AppLocalizations.of(context); // <-- (错误) 我们不需要这一行
+
+    return Container(
+      color: color.withOpacity(0.1),
+      child: TabBar(
+        labelColor: color,
+        unselectedLabelColor: Colors.grey,
+        indicatorColor: color,
+        tabs: [
+          // --- (修复) 恢复为使用 'isEnglish' 的硬编码字符串 ---
+          Tab(icon: Icon(Icons.info_outline, size: 20), text: isEnglish ? 'Overview' : '概览'),
+          Tab(icon: Icon(Icons.science, size: 20), text: isEnglish ? 'Science' : '科学'),
+          Tab(icon: Icon(Icons.account_tree, size: 20), text: isEnglish ? 'Impact' : '影响'),
+          Tab(icon: Icon(Icons.quiz, size: 20), text: isEnglish ? 'Quiz' : '测验'),
         ],
       ),
     );
@@ -1360,8 +1936,38 @@ final Map<String, String> fieldNamesEn = {
         message: '$title\n$personName · ${event['year']}', // Tooltip 也更新
         
         child: GestureDetector(
-          onTap: () => _showEventDialog(event),
-          
+          onTap: () {
+            // --- (新) 在点击时计算所有相关的ID ---
+            Set<String> newFocalIds = {};
+            newFocalIds.add(event['id']); // 1. 添加被点击的事件本身
+            
+            var chain = event['influence_chain'];
+            if (chain != null && chain is Map) {
+              // 2. 添加所有 "influenced_by" 的事件
+              var influencedByList = chain['influenced_by']; //
+              if (influencedByList != null && influencedByList is List) {
+                for (var item in influencedByList) {
+                  if (item['id'] != null) newFocalIds.add(item['id']);
+                }
+              }
+              // 3. 添加所有 "influenced" 的事件
+              var influencedList = chain['influenced']; //
+              if (influencedList != null && influencedList is List) {
+                for (var item in influencedList) {
+                  if (item['id'] != null) newFocalIds.add(item['id']);
+                }
+              }
+            }
+            // --- (新逻辑结束) ---
+
+            setState(() {
+              _focusedEvent = event;
+              _focalEventIds = newFocalIds; // <-- (新) 设置这个 Set 状态
+              _currentFocusMode = FocusMode.simple;
+              _panelWidth = 450.0; 
+            });
+          },
+
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
@@ -1459,6 +2065,143 @@ final Map<String, String> fieldNamesEn = {
       ),
     );
   }  
+
+  // ========== (新增) 故事线进度栏 ==========
+ // ========== (新增) 故事线进度栏 (已修复溢出问题) ==========
+  Widget _buildStoryTimelineRail() {
+    if (_currentFocusMode != FocusMode.evolution || _focalEventIds.isEmpty) {
+      return SizedBox.shrink();
+    }
+
+    List<Map<String, dynamic>> storyEvents = events
+        .where((e) => _focalEventIds.contains(e['id']))
+        .toList();
+    storyEvents.sort((a, b) => (a['year'] as int).compareTo(b['year'] as int));
+    
+    String currentId = _focusedEvent?['id'] ?? '';
+
+    return Positioned(
+      bottom: 190, 
+      left: 0,
+      right: 0,
+      child: Center(
+        child: Container(
+          height: 90, // <--- 修改 1: 增加高度 (从 85 改为 90)
+          width: MediaQuery.of(context).size.width * 0.95, 
+          constraints: BoxConstraints(maxWidth: 1000), 
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+          decoration: BoxDecoration(
+            color: Colors.black.withOpacity(0.7), 
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: Colors.white.withOpacity(0.2)),
+          ),
+          child: ListView.builder(
+            scrollDirection: Axis.horizontal,
+            itemCount: storyEvents.length,
+            itemBuilder: (context, index) {
+              final event = storyEvents[index];
+              bool isActive = event['id'] == currentId;
+              bool isPast = (event['year'] as int) <= selectedYear;
+              
+              String primaryField = _getFieldsFromEvent(event).first;
+              Color nodeColor = getFieldColor(primaryField);
+
+              return GestureDetector(
+                onTap: () {
+                  setState(() {
+                    _focusedEvent = event;
+                    selectedYear = (event['year'] as int).toDouble();
+                  });
+                },
+                child: Container(
+                  width: 100, 
+                  color: Colors.transparent, 
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      // 1. 年份
+                      Text(
+                        '${event['year']}',
+                        style: TextStyle(
+                          color: isActive ? Colors.white : Colors.white70,
+                          fontWeight: isActive ? FontWeight.bold : FontWeight.normal,
+                          fontSize: 12,
+                        ),
+                      ),
+                      
+                      SizedBox(height: 4), // <--- 修改 2: 减小间距 (从 8 改为 4)
+                      
+                      // 2. 点和线
+                      Container(
+                        height: 20,
+                        child: Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    height: 2,
+                                    color: index == 0 
+                                        ? Colors.transparent 
+                                        : (isPast ? nodeColor.withOpacity(0.8) : Colors.grey.withOpacity(0.5)),
+                                  ),
+                                ),
+                                Expanded(
+                                  child: Container(
+                                    height: 2,
+                                    color: index == storyEvents.length - 1 
+                                        ? Colors.transparent 
+                                        : (isPast && currentId != event['id'] ? nodeColor.withOpacity(0.8) : Colors.grey.withOpacity(0.5)),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            AnimatedContainer(
+                              duration: Duration(milliseconds: 300),
+                              width: isActive ? 16 : 10,
+                              height: isActive ? 16 : 10,
+                              decoration: BoxDecoration(
+                                color: isPast ? nodeColor : Colors.grey,
+                                shape: BoxShape.circle,
+                                border: isActive ? Border.all(color: Colors.white, width: 2) : null,
+                                boxShadow: isActive ? [
+                                  BoxShadow(color: nodeColor.withOpacity(0.8), blurRadius: 8, spreadRadius: 2)
+                                ] : null,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      
+                      SizedBox(height: 4), // <--- 修改 3: 减小间距 (从 8 改为 4)
+                      
+                      // 3. 标题
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 4.0),
+                        child: Text(
+                          Localizations.localeOf(context).languageCode == 'en' 
+                              ? (event['title_en'] ?? event['title']) 
+                              : event['title'],
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: isActive ? Colors.white : Colors.white60,
+                            fontSize: 10,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            },
+          ),
+        ),
+      ),
+    );
+  }
 
 }
 
@@ -2116,6 +2859,13 @@ class EventDialog extends StatelessWidget {
                       isEnglish: isEnglish,
                       allEvents: allEvents,         // <-- 新增
                       onEventSelected: onEventSelected, // <-- 新增
+                      // --- (ADD THESE 3 LINES) ---
+                      currentFocusMode: FocusMode.simple, // Default to simple mode
+                      focalEventIds: { data.id },       // Default to just this event
+                      focusedEvent: event,              // Pass the event
+                      people: people,
+                      selectedYear: data.year.toDouble(),                      
+                      // --- (END ADD) ---                      
                     ),
                     QuizTab(data: data, color: color, isEnglish: isEnglish),
                   ],
@@ -2390,19 +3140,36 @@ class ScienceTab extends StatelessWidget {
 // ============================================
 // 影响标签页
 // ============================================
+// ============================================
+// 影响标签页
+// ============================================
 class ImpactTab extends StatelessWidget {
   final EventData data;
   final Color color;
   final bool isEnglish;
-  final List<Map<String, dynamic>> allEvents;         // <-- 新增
-  final Function(Map<String, dynamic>) onEventSelected; // <-- 新增
+  final List<Map<String, dynamic>> allEvents;
+  final Function(Map<String, dynamic>) onEventSelected;
+  
+  // 这些参数虽然现在不用了，但保留着也不会报错，
+  // 或者您可以删掉它们（同时也得去 EventDialog 和 _buildDetailsPanel 删掉传入的参数）
+  // 为了改动最小，我们先保留接收，只是不用。
+  final FocusMode currentFocusMode;
+  final Set<String> focalEventIds;
+  final Map<String, dynamic> focusedEvent;
+  final Map<String, dynamic> people;
+  final double selectedYear;
 
   const ImpactTab({
     required this.data,
     required this.color,
     required this.isEnglish,
-    required this.allEvents,         // <-- 新增
-    required this.onEventSelected, // <-- 新增
+    required this.allEvents,
+    required this.onEventSelected,
+    required this.currentFocusMode,
+    required this.focalEventIds,
+    required this.focusedEvent,
+    required this.people,
+    required this.selectedYear,
   });
 
   @override
@@ -2412,19 +3179,20 @@ class ImpactTab extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // 影响
+          // 1. 影响文字描述
           if (data.impact != null)
             ImpactCard(impact: data.impact!, color: color, isEnglish: isEnglish),
           
-          // 影响关系网络
+          // 2. (修改) 始终只显示原来的“影响关系网络”列表
+          // 不再判断 FocusMode.evolution，也不再显示 EvolutionTreeView
           if (data.influenceChain != null) ...[
             SizedBox(height: 20),
             InfluenceNetworkCard(
               influenceChain: data.influenceChain!,
               color: color,
               isEnglish: isEnglish,
-              allEvents: allEvents,         // <-- 新增
-              onEventSelected: onEventSelected, // <-- 新增
+              allEvents: allEvents,
+              onEventSelected: onEventSelected,
             ),
           ],
         ],
@@ -3437,7 +4205,7 @@ class InfluenceNetworkCard extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 10),
-...influenceChain.influencedBy!.map((item) {
+                  ...influenceChain.influencedBy!.map((item) {
                     // --- 新增：查找要跳转的事件 ---
                     final Map<String, dynamic> targetEvent = allEvents.firstWhere(
                       (e) => e['id'] == item.id,
@@ -4109,3 +4877,390 @@ class SmartImage extends StatelessWidget {
   }
 }
 // END New Widget
+
+// ============================================
+// (新) 演化树状图 (完整版)
+// ============================================
+
+class EvolutionTreeView extends StatefulWidget {
+  final Map<String, dynamic> focusedEvent;
+  final Set<String> focalEventIds;
+  final List<Map<String, dynamic>> allEvents;
+  final Function(Map<String, dynamic>) onEventSelected;
+  final Color color; // 这是 "focusedEvent" 的颜色
+  final bool isEnglish;
+  final Map<String, dynamic> people; // (新增) 完整的人物 map
+  final double selectedYear;         // (新增) 当前时间轴年份
+
+  const EvolutionTreeView({
+    required this.focusedEvent,
+    required this.focalEventIds,
+    required this.allEvents,
+    required this.onEventSelected,
+    required this.color,
+    required this.isEnglish,
+    required this.people,      // (新增)
+    required this.selectedYear, // (新增)
+  });
+
+  @override
+  State<EvolutionTreeView> createState() => _EvolutionTreeViewState();
+}
+
+class _EvolutionTreeViewState extends State<EvolutionTreeView> {
+  final Graph graph = Graph();
+  late SugiyamaAlgorithm builder;
+  final Map<String, Node> eventNodeMap = {};
+
+  // --- (新增) ---
+  final TransformationController _transformationController = TransformationController();
+  // --- (新增结束) ---  
+
+  // ====================
+  // 辅助数据 (从 MapScreen 复制)
+  // ====================
+  final Map<String, Color> fieldColors = {
+    '物理学': Colors.red, '化学': Colors.green, '生物学': Colors.blue, '数学': Colors.purple,
+    '天文学': Colors.orange, '医学': Colors.pink, '计算机': Colors.cyan, '航天': Colors.indigo,
+    '哲学': Colors.teal, '工程学': Colors.grey[700]!, '地理学': Colors.lightGreen, '综合': Colors.brown,
+  };
+  final Map<String, String> fieldEmojis = {
+    '物理学': '⚛️', '化学': '🧪', '生物学': '🔬', '数学': '📐', '天文学': '🔭', '医学': '💊',
+    '计算机': '💻', '航天': '🚀', '哲学': '🏛️', '工程学': '⚙️', '地理学': '🌍', '综合': '📚',
+  };
+  
+  List<String> _getFieldsFromEvent(Map<String, dynamic> event) {
+    var fieldData = event['field']; 
+    if (fieldData == null) return ['综合'];
+    if (fieldData is List) return List<String>.from(fieldData.isNotEmpty ? fieldData : ['综合']);
+    if (fieldData is String) return [fieldData];
+    return ['综合'];
+  }
+  Color getFieldColor(String field) => fieldColors[field] ?? Colors.grey;
+  String getFieldEmoji(String field) => fieldEmojis[field] ?? '💡';
+  
+  // ====================
+  // 生命周期
+  // ====================
+
+  @override
+  void initState() {
+    super.initState();
+    _buildGraph();
+  }
+
+  @override
+  void didUpdateWidget(EvolutionTreeView oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // 如果焦点事件、ID 集合或年份发生变化，重建图
+    if (oldWidget.focusedEvent['id'] != widget.focusedEvent['id'] ||
+        oldWidget.focalEventIds != widget.focalEventIds ||
+        oldWidget.selectedYear != widget.selectedYear) {
+      
+      // 如果只是年份变化，我们不需要重建整个图，只需要重建节点
+      // 但为了简单起见，我们先全部重建。
+      // (优化：如果只是年份变了，可以只调用 setState() 来触发 _buildNodeWidget 重绘)
+      
+      // 暂时先全部重建
+      _buildGraph();
+    }
+  }
+
+  // ====================
+  // 图构建逻辑
+  // ====================
+// ====================
+  // 图构建逻辑 (已修改：强制线性故事模式)
+  // ====================
+  void _buildGraph() {
+    graph.nodes.clear();
+    graph.edges.clear();
+    eventNodeMap.clear();
+
+    // --- 步骤 1: 准备并排序数据 ---
+    // 获取所有相关事件
+    List<Map<String, dynamic>> sortedEvents = [];
+    for (String eventId in widget.focalEventIds) {
+      final event = widget.allEvents.firstWhere(
+        (e) => e['id'] == eventId,
+        orElse: () => {},
+      );
+      if (event.isNotEmpty) {
+        sortedEvents.add(event);
+      }
+    }
+
+    // 关键修复：强制按年份排序 (从小到大)
+    sortedEvents.sort((a, b) {
+      int yearA = a['year'] as int;
+      int yearB = b['year'] as int;
+      return yearA.compareTo(yearB);
+    });
+
+    // --- 步骤 2: 创建节点 (Nodes) ---
+    for (var event in sortedEvents) {
+      final node = Node(
+        _buildNodeWidget(event), 
+        key: ValueKey(event['id']), 
+      );
+      eventNodeMap[event['id']] = node;
+      graph.addNode(node);
+    }
+
+    // --- 步骤 3: 创建连线 (Edges) ---
+    // 逻辑判断：这是一条“故事线”还是“自动探索”？
+    // 如果节点数量大于1，且我们通过故事模式进来，我们使用“强制线性”模式
+    
+    // 为了简化，我们这里采用混合策略：
+    // 1. 始终画出“时间骨架” (A->B->C)，保证直线结构。
+    // 2. (可选) 如果您想完全消除杂乱，就注释掉下面的 "B. 原始影响关系" 部分。
+    
+    // A. 强制时间主线 (The Backbone) - 这保证了从左到右的直线
+    for (int i = 0; i < sortedEvents.length - 1; i++) {
+      final currentEvent = sortedEvents[i];
+      final nextEvent = sortedEvents[i + 1];
+      
+      final Node source = eventNodeMap[currentEvent['id']]!;
+      final Node dest = eventNodeMap[nextEvent['id']]!;
+      
+      graph.addEdge(source, dest, paint: Paint()
+        ..color = Colors.blue.withOpacity(0.8)
+        ..strokeWidth = 3 // 主线稍微粗一点
+        ..style = PaintingStyle.stroke
+      );
+    }
+
+    /* // B. (可选) 原始影响关系 
+    // 如果您觉得图太乱，请【注释掉】下面这段代码。
+    // 注释掉后，图表将只显示上面创建的一条直线。
+    
+    for (var event in sortedEvents) {
+      final sourceNode = eventNodeMap[event['id']];
+      var chain = event['influence_chain'];
+      
+      if (sourceNode != null && chain != null && chain is Map) {
+        var influencedList = chain['influenced'];
+        if (influencedList != null && influencedList is List) {
+          for (var item in influencedList) {
+            String targetId = item['id'];
+            // 只有当目标也在当前显示的列表中时，才画线
+            if (eventNodeMap.containsKey(targetId)) {
+              final targetNode = eventNodeMap[targetId]!;
+              
+              // 检查是否已经有骨架线连接了 (避免重复画线)
+              bool hasEdge = graph.edges.any((e) => e.source == sourceNode && e.destination == targetNode);
+              
+              if (!hasEdge) {
+                 // 画细一点的次要连线
+                 graph.addEdge(sourceNode, targetNode, paint: Paint()
+                  ..color = Colors.grey.withOpacity(0.4) // 灰色，淡一点
+                  ..strokeWidth = 1
+                  ..style = PaintingStyle.stroke
+                );
+              }
+            }
+          }
+        }
+      }
+    }
+    */ // <--- B 部分结束
+
+    // --- 步骤 4: 配置算法 ---
+    builder = SugiyamaAlgorithm(SugiyamaConfiguration()
+      ..orientation = SugiyamaConfiguration.ORIENTATION_LEFT_RIGHT
+      ..nodeSeparation = 40 // 增加节点间距
+      ..levelSeparation = 80 // 增加层级间距
+    );
+  }
+
+  // (新) 构建节点 UI (已升级)
+  Widget _buildNodeWidget(Map<String, dynamic> event) {
+    String title = widget.isEnglish && event['title_en'] != null
+        ? event['title_en']
+        : event['title'];
+    
+    // 状态
+    final bool isFocused = event['id'] == widget.focusedEvent['id'];
+    final bool isInThePast = event['year'] <= widget.selectedYear;
+
+    // 学科信息
+    String primaryField = _getFieldsFromEvent(event).first;
+    Color nodeColor = getFieldColor(primaryField);
+    String emoji = getFieldEmoji(primaryField);
+
+    // 人物信息
+    String? personName;
+    List<String> personIdList = [];
+    var pIds = event['personIds'];
+    var pId = event['personId'];
+    if (pIds is List) personIdList = List<String>.from(pIds);
+    else if (pId is String) personIdList = [pId];
+
+    if (personIdList.isNotEmpty) {
+      List<String> names = [];
+      for (var pid in personIdList) {
+        if (widget.people.containsKey(pid)) {
+          final personData = widget.people[pid];
+          // 在图中使用姓氏 (或中文全名)，就像地图标记一样
+          String fullName = widget.isEnglish && personData['name_en'] != null
+              ? personData['name_en']
+              : personData['name'];
+          String lastName = fullName.split(' ').last;
+          if (!widget.isEnglish) lastName = fullName;
+          names.add(lastName);
+        }
+      }
+      personName = names.join(widget.isEnglish ? ' & ' : '、');
+    }
+
+    return Opacity(
+      opacity: isInThePast ? 1.0 : 0.4, // <-- 2. 时间轴联动
+      child: GestureDetector(
+        onTap: () {
+          if (!isFocused) {
+            widget.onEventSelected(event);
+          }
+        },
+        child: Card(
+          elevation: (isFocused && isInThePast) ? 6 : 2,
+          color: (isFocused && isInThePast) ? nodeColor.withOpacity(0.2) : Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10),
+            side: BorderSide(
+              color: (isFocused && isInThePast) ? nodeColor : nodeColor.withOpacity(0.7),
+              width: (isFocused && isInThePast) ? 3 : 1.5,
+            ),
+          ),
+          child: Container(
+            width: 180, // 固定宽度
+            padding: EdgeInsets.all(10), // 减小一点 padding
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min, // 确保卡片包裹内容
+              children: [
+                // 第一行：年份
+                Text(
+                  event['year'].toString(),
+                  style: TextStyle(
+                    fontSize: 11,
+                    fontWeight: FontWeight.bold,
+                    color: nodeColor,
+                  ),
+                ),
+                SizedBox(height: 5),
+
+                // 第二行：Emoji + 标题
+                Text(
+                  "$emoji $title",
+                  style: TextStyle(
+                    fontSize: 13,
+                    fontWeight: (isFocused && isInThePast) ? FontWeight.bold : FontWeight.normal,
+                  ),
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                SizedBox(height: 5),
+
+                // 第三行：人物
+                if (personName != null)
+                  Text(
+                    personName,
+                    style: TextStyle(
+                      fontSize: 11,
+                      color: Colors.grey[700],
+                      fontStyle: FontStyle.italic,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  // ====================
+  // 构建 (Build)
+  // ====================
+  @override
+  Widget build(BuildContext context) {
+    if (graph.nodes.isEmpty) {
+      return Center(child: Text("Building evolution path..."));
+    }
+
+    return Container(
+      padding: EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Colors.blue.withOpacity(0.05),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.blue.withOpacity(0.3), width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+           Row(
+            children: [
+              Icon(Icons.auto_graph_outlined, color: Colors.blue[700], size: 24),
+              SizedBox(width: 8),
+              Expanded( // <-- (修改) 用 Expanded 包裹 Text
+                child: Text(
+                  widget.isEnglish ? 'Theoretical Evolution' : '理论演化路径',
+                  style: TextStyle(
+                    fontSize: 17,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue[900],
+                  ),
+                ),
+              ),
+              // --- (新增) ---
+              IconButton(
+                icon: Icon(Icons.zoom_out_map, color: Colors.blue[700]),
+                tooltip: widget.isEnglish ? 'Reset View' : '重置视图',
+                onPressed: () {
+                  setState(() {
+                    _transformationController.value = Matrix4.identity(); // 重置为 1:1 缩放
+                  });
+                },
+              ),
+              // --- (新增结束) ---
+            ],
+          ),
+          SizedBox(height: 16),
+          Text(
+            widget.isEnglish
+              ? "This diagram shows the full intellectual lineage (past to future, left to right). The path dims based on the main timeline."
+              : "此图表显示了完整的知识传承（从左到右，从过去到未来）。路径会根据主时间轴动态点亮。",
+            style: TextStyle(fontSize: 13, color: Colors.grey[700]),
+          ),
+          SizedBox(height: 16),
+
+          // 渲染图
+          Container(
+            height: 600, // 给图一个固定的高度
+            child: InteractiveViewer(
+              transformationController: _transformationController,  // <-- (新增)                   
+              constrained: false, // 允许无限平移/缩放
+              boundaryMargin: EdgeInsets.all(100),
+              minScale: 0.1,
+              maxScale: 2.0,
+              child: GraphView(
+                graph: graph,
+                algorithm: builder,
+                paint: Paint()
+                  ..color = Colors.blue.withOpacity(0.6) // (修改) 线的颜色
+                  ..strokeWidth = 2
+                  ..style = PaintingStyle.stroke,
+                builder: (Node node) {
+                  return node.data ?? SizedBox.shrink();
+                },
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+

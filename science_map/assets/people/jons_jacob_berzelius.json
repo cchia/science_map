@@ -1,0 +1,10 @@
+{
+  "name": "永斯·贝采利乌斯",
+  "name_en": "Jöns Jacob Berzelius",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a4/J%C3%B6ns_Jacob_Berzelius_1826.jpg",
+  "bio_short": "瑞典化学家，被誉为“现代化学之父”之一。他发明了现代化学“元素符号”系统（如 H, O, Fe），发现了多种新元素（如硅、硒），并提出了“电化学二元论”。",
+  "bio_short_en": "A Swedish chemist, considered one of the 'fathers of modern chemistry'. He invented the modern system of 'chemical notation' (H, O, Fe), discovered several new elements (like Silicon and Selenium), and proposed the 'electrochemical dualism' theory.",
+  "events": [
+    "berzelius_notation_1813"
+  ]
+}

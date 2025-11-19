@@ -1,0 +1,169 @@
+{
+    "id": "lawrence_cyclotron_1932",
+    "personId": "ernest_lawrence",
+    "title": "发明“回旋加速器” (Cyclotron)",
+    "title_en": "Invents the 'Cyclotron'",
+    "year": 1932,
+    "lat": 37.8719,
+    "lng": -122.2585,
+    "city": "伯克利",
+    "city_en": "Berkeley, CA",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["物理学", "工程学", "医学"],
+    "field_en": ["Physics", "Engineering", "Medicine"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Cyclotron_diagram.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=YICNjkNZlLc",
+        "title": "回旋加速器如何工作",
+        "title_en": "How Does a Cyclotron Works",
+        "duration": "4:44"
+      }
+    },
+    
+    "summary": {
+      "text": "欧内斯特·劳伦斯（Ernest O. Lawrence）在1932年发明并完善了“回旋加速器”。这是一个巧妙的“粒子加速器”，它解决了“直流电”加速器（如 `cockcroft_walton_1932`）需要极高电压且体积庞大的问题。回旋加速器使用一个“D形”磁铁和一个“交变电场”，将粒子（如质子）“重复”加速，使其在“螺旋”轨道上越转越快，最终以极高能量射出。这一发明使“高能物理学”成为可能，并为他赢得了1939年的诺贝尔物理学奖。",
+      "text_en": "In 1932, Ernest O. Lawrence invented and perfected the 'Cyclotron', a compact 'particle accelerator' that solved the problem of linear accelerators (`cockcroft_walton_1932`), which required impractically high voltages. The cyclotron uses a large 'D-shaped' magnet and an 'alternating' electric field to 'kick' particles (like protons) *repeatedly*, accelerating them in a *spiral* path to achieve enormous energies in a small space. This invention made 'high-energy physics' possible and won Lawrence the 1939 Nobel Prize.",
+      "key_points": [
+        "发明了“回旋加速器”(Cyclotron)（一种紧凑型粒子加速器）",
+        "使用“磁场”使粒子“转圈”（螺旋轨道）",
+        "使用“交变电场”对粒子进行“重复”加速",
+        "在小空间内实现了“极高”能量",
+        "开创了“高能物理学”(High-Energy Physics)",
+        "因此获得了1939年诺贝尔物理学奖"
+      ],
+      "key_points_en": [
+        "Invented the 'Cyclotron' (a compact particle accelerator)",
+        "Uses a 'magnetic field' to bend particles in a *spiral*",
+        "Uses an 'alternating electric field' to *repeatedly* 'kick' them",
+        "Achieved *extremely high* energies in a *small space*",
+        "Founded 'High-Energy Physics'",
+        "Won the 1939 Nobel Prize for this"
+      ]
+    },
+  
+    "story": {
+      "text": "在1930年代，核物理学家们（如 `cockcroft_walton_1932`）都在竞赛，看谁能“分裂原子”。他们的方法是“直线加速”，即用“一个”极高的电压（如70万伏特）来“猛推”一次粒子。这种机器（如科克罗夫特-沃尔顿发电机）体积庞大且有触电危险。\n劳伦斯的灵感（据说是在图书馆读到的一篇论文）是：**“为什么只推一次？”**\n他设计了两个D形的空心电极（“Dees”），并用一个巨大的“磁铁”使粒子（质子）在其中“转圈”。他再施加一个“交变电场”，这个电场会“同步”变化：当质子“恰好”穿过两个D形电极的“间隙”时，电场就“踢”它一脚，使其加速。质子转了100圈，就被“踢”了200次。通过这种“积少成多”的“重复踢腿”，劳伦斯可以用“几千伏”的低电压，制造出“几百万伏”的高能粒子。",
+      "text_en": "In the 1930s, physicists like Cockcroft and Walton (`cockcroft_walton_1932`) were racing to 'split the atom' using 'linear accelerators'—giant machines that used *one* massive, dangerous voltage (700,000V) to 'push' a particle *once*.\nLawrence's insight was: **'Why push it only once?'**\nHe designed two D-shaped hollow electrodes (the 'Dees') and used a giant *magnet* to force the particles (protons) to travel in a *circle*. He then applied an *alternating* electric field that 'kicked' the protons *every single time* they crossed the 'gap' between the Dees. A proton that made 100 circles got 'kicked' 200 times. By using *many small kicks*, Lawrence could use a *low, safe* voltage (a few thousand volts) to create particles with the energy of *millions* of volts.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/39/Cyclotron_patent.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚛️",
+        "text": "劳伦斯的回旋加速器是“元素制造机”。它被用来“人工制造”出第一批“人造元素”，如“锝”(Technetium, 43) 和“镎/钚”(Neptunium/Plutonium, 93/94)，填补了元素周期表的空白。",
+        "text_en": "Lawrence's Cyclotron was an 'element factory'. It was used to *artificially create* the first 'man-made elements'—like Technetium (43) and Neptunium/Plutonium (93/94)—filling gaps in the periodic table."
+      },
+      {
+        "icon": "🎗️",
+        "text": "劳伦斯的母亲是第一批受益于“核医学”的人。回旋加速器制造出的“放射性同位素”（如 磷-32），被用于“癌症”的实验性治疗。",
+        "text_en": "Lawrence's own mother was one of the first beneficiaries of 'nuclear medicine'. The 'radioisotopes' created by his cyclotron (like Phosphorus-32) were used in the first experimental *cancer treatments*."
+      },
+      {
+        "icon": "💥",
+        "text": "在“曼哈顿计划”中，劳伦斯的回旋加速器被改造为“Calutrons”（电磁型同位素分离器），用于“大规模分离”炸弹所需的“铀-235”。",
+        "text_en": "During the Manhattan Project, Lawrence's cyclotrons were converted into 'Calutrons' (mass spectrometers) and were used to 'separate' the vast quantities of Uranium-235 needed for the atomic bomb."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你想把一个“保龄球”（质子）加速到极高的速度。\n* **科克罗夫特-沃尔顿（`cockcroft_walton_1932`）的方法是**：建造一个“一英里长”的“直线跑道”，并在终点用“一次”巨大的“爆炸”来推动它。\n* **劳伦斯（回旋加速器）的方法是**：建造一个“圆形的溜冰场”（磁场），让保龄球“转圈”。然后，你站在中间，在保龄球“每一次”经过你面前时，都“踢”它一脚。几百次“小踢”之后，这个保龄球的速度就会变得快得惊人。\n劳伦斯的方法更“聪明”、更“小巧”，也更“强大”。",
+      "text_en": "Imagine you want to accelerate a 'bowling ball' (a proton) to an insane speed.\n* **The Cockcroft-Walton (`cockcroft_walton_1932`) way**: Build a 'mile-long' *straight* track and give the ball *one* giant 'cannon blast' at the start.\n* **The Lawrence (Cyclotron) way**: Build a 'circular ice rink' (a magnet) and have the ball skate in *circles*. You stand in the middle and *kick* the ball *every single time it passes you*. After a few hundred 'small kicks', the ball is moving incredibly fast.\nLawrence's way was 'smarter', 'smaller', and 'more powerful'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/71/Spiral-fermat-1.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "高能物理学 (High-Energy Physics)",
+          "title_en": "High-Energy Physics",
+          "text": "回旋加速器是“大型强子对撞机”(LHC) 等所有“现代圆形粒子加速器”的“直系祖先”。",
+          "text_en": "The Cyclotron is the direct 'grandfather' of *all* modern 'circular' particle accelerators, like the Large Hadron Collider (LHC)."
+        },
+        {
+          "icon": "🧪",
+          "title": "制造新元素",
+          "title_en": "Creating New Elements",
+          "text": "它是用来“制造”元素周期表中“人造元素”（如镎、钚、锝）的主要工具。",
+          "text_en": "It was the primary tool used to 'create' the artificial elements on the periodic table (like Neptunium, Plutonium, and Technetium)."
+        },
+        {
+          "icon": "🩺",
+          "title": "核医学 (Nuclear Medicine)",
+          "title_en": "Nuclear Medicine",
+          "text": "它至今仍被医院广泛用于“制造”短半衰期的“放射性同位素”，用于“PET”扫描等医学成像和癌症治疗。",
+          "text_en": "Cyclotrons are *still* used in hospitals today to *create* short-lived 'radioisotopes' for medical imaging (like PET scans) and cancer therapy."
+        }
+      ],
+  
+    "impact": {
+      "text": "“回旋加速器”是20世纪最重要的科学“工具”之一。它将“核物理学”从一个“小规模”的实验台，转变为“大规模”的“高能物理学”。它为人类提供了“制造”和“探测”新粒子和新元素的能力，是“核时代”和“粒子物理学”的真正发动机。",
+      "text_en": "The Cyclotron is one of the most important 'tools' of the 20th century. It transformed 'nuclear physics' from a 'bench-top' experiment into 'big science' ('high-energy physics'). It gave humanity the power to *create* and *probe* new particles and new elements. It was the true engine of the 'Nuclear Age' and 'Particle Physics'.",
+      "stats": [
+          {
+            "number": "1939",
+            "label": "年诺贝尔奖",
+            "label_en": "Nobel Prize"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "cockcroft_walton_1932",
+          "contribution": "科克罗夫特-沃尔顿（其“直线加速器”是劳伦斯试图“改进”的竞争对手）",
+          "contribution_en": "Cockcroft-Walton (their 'linear accelerator' was the competing design Lawrence sought to improve upon)"
+        },
+        {
+          "id": "rutherford_nucleus_1911",
+          "contribution": "卢瑟福（其“原子核”的发现，是劳伦斯试图“探测”的目标）",
+          "contribution_en": "Rutherford (his 'nucleus' was the *target* Lawrence was trying to probe)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "manhattan_project_1942",
+          "contribution": "曼哈顿计划（劳伦斯的回旋加速器被改造为“Calutrons”，用于“分离”铀-235）",
+          "contribution_en": "Manhattan Project (Lawrence's cyclotrons were adapted into 'Calutrons' to 'separate' Uranium-235 for the bomb)"
+        },
+        {
+          "id": "cern_lhc_2008",
+          "contribution": "大型强子对撞机（LHC）（所有现代“同步回旋加速器”都是劳伦斯基本原理的后代）",
+          "contribution_en": "The Large Hadron Collider (LHC) (all modern 'synchrotrons' are descendants of Lawrence's basic principle)"
+        },
+        {
+          "id": "nuclear_medicine_1950s",
+          "contribution": "核医学（其“医用同位素”的生产，依赖于回旋加速器）",
+          "contribution_en": "Nuclear Medicine (the creation of 'medical isotopes' depends on cyclotrons)"
+        }
+      ],
+      "legacy_text": "欧内斯特·劳伦斯发明了一种“螺旋跑道”，使粒子物理学能够“加速”进入未来。",
+      "legacy_text_en": "Ernest Lawrence invented the 'spiral racetrack' that allowed particle physics to 'accelerate' into the future."
+    },
+  
+    "related_concepts": ["粒子加速器 (Particle Accelerator)", "高能物理学 (High-Energy Physics)", "磁场 (Magnetic Field)", "电场 (Electric Field)", "质子 (Proton)", "核物理 (Nuclear Physics)", "人造元素 (Transuranic Elements)", "核医学 (Nuclear Medicine)", "曼哈顿计划"],
+    "related_concepts_en": ["Particle Accelerator", "High-Energy Physics", "Magnetic Field", "Electric Field", "Proton", "Nuclear Physics", "Transuranic Elements", "Nuclear Medicine", "Manhattan Project"],
+  
+    "quiz": {
+      "question": "劳伦斯的“回旋加速器”与科克罗夫特-沃尔顿的“直线加速器”相比，其“核心创新”是什么？",
+      "question_en": "What was the *core innovation* of Lawrence's 'Cyclotron' compared to the 'Linear Accelerator' of Cockcroft & Walton?",
+      "options": [
+        "它使用了“磁场”使粒子“转圈”，并用“交变电场”进行“重复”加速",
+        "它使用了“蒸汽动力”",
+        "它只使用“一个”巨大的“直流”电压",
+        "它使用了“重力”来加速粒子"
+      ],
+      "options_en": [
+        "It used a *magnet* to make particles *spiral*, allowing for *repeated* 'kicks' from an *alternating* electric field",
+        "It was powered by steam",
+        "It used *one* giant, *direct* voltage (DC)",
+        "It used gravity to accelerate particles"
+      ],
+      "answer": 0,
+      "explanation": "直线加速器（如 `cockcroft_walton_1932`）是“一次性”的猛推。回旋加速器的天才之处在于“重复利用”：它用磁铁将粒子“折叠”回同一个“加速间隙”数百次，用“许多次小推”累积成“一次巨推”。",
+      "explanation_en": "The linear accelerator (`cockcroft_walton_1932`) was a 'one-shot' push. The genius of the cyclotron was 'recycling': it used a magnet to *bend* the particle back through the *same* accelerating gap hundreds of times, accumulating 'many small kicks' into 'one giant kick'."
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "马克斯·玻恩",
+    "name_en": "Max Born",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Max_Born.jpg",
+    "bio_short": "德国物理学家，量子力学的奠基人之一。他提出了波函数的“概率诠释”（玻恩定则 `born_wavefunction_1926`），并发展了“玻恩-奥本海默近似” (`born_oppenheimer_approximation_1927`)，因此获得了1954年的诺贝尔物理学奖。",
+    "bio_short_en": "A German physicist and a foundational figure in quantum mechanics. He established the 'Born rule' (`born_wavefunction_1926`, the probabilistic interpretation of the wavefunction) and co-developed the 'Born-Oppenheimer approximation' (`born_oppenheimer_approximation_1927`), winning the Nobel Prize in 1954.",
+    "events": [
+      "born_wavefunction_1926",
+      "born_oppenheimer_approximation_1927"
+    ]
+  }

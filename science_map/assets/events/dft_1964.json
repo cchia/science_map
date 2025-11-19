@@ -1,0 +1,160 @@
+{
+    "id": "dft_1964",
+    "personId": ["pierre_hohenberg", "walter_kohn"],
+    "title": "发表“霍恩伯格-科恩”定理 (密度泛函理论)",
+    "title_en": "Publishes Hohenberg-Kohn Theorems (Density Functional Theory)",
+    "year": 1964,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎 (研究地点)",
+    "city_en": "Paris (Research location)",
+    "country": "法国",
+    "country_en": "France",
+    "field": ["物理学", "化学", "计算机"],
+    "field_en": ["Physics", "Chemistry", "Computer Science"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/C60_isosurface.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=wtB50-si1hI",
+        "title": "密度泛函理论 (DFT)",
+        "title_en": "What is Density Functional Theory (DFT)",
+        "duration": "4:40"
+      }
+    },
+    
+    "summary": {
+      "text": "皮埃尔·霍恩伯格（Pierre Hohenberg）和瓦尔特·科恩（Walter Kohn）发表了两项定理，它们共同构成了“密度泛函理论”(Density Functional Theory, DFT) 的严格数学基础。在此之前，解决一个分子的量子问题（`schrodinger_equation_1926`）需要计算其极其复杂的“波函数”（一个N×3维的函数）。而“霍恩伯格-科恩定理”证明，这个分子的所有基态性质（包括其能量）都可以由其“电子密度”（一个仅有3维的简单函数）**唯一**确定。这一发现彻底改变了计算化学和物理学。",
+      "text_en": "Pierre Hohenberg and Walter Kohn published two theorems that form the rigorous mathematical foundation of 'Density Functional Theory' (DFT). Before this, solving a molecule's quantum mechanics (`schrodinger_equation_1926`) required calculating its impossibly complex 'wavefunction' (a 3N-dimensional function). The 'Hohenberg-Kohn theorems' *proved* that all ground-state properties of that molecule (including its energy) are *uniquely* determined by its 'electron density'—a simple, 3-dimensional function. This discovery revolutionized computational chemistry and physics.",
+      "key_points": [
+        "“密度泛函理论”(DFT) 的数学基础",
+        "“霍恩伯格-科恩定理”(Hohenberg-Kohn Theorems)",
+        "证明了“电子密度”(Electron Density) 是唯一基本变量",
+        "将“3N维”问题简化为“3维”问题",
+        "为瓦尔特·科恩赢得了1998年诺贝尔化学奖"
+      ],
+      "key_points_en": [
+        "The mathematical foundation of 'Density Functional Theory' (DFT)",
+        "The 'Hohenberg-Kohn Theorems'",
+        "Proved 'electron density' is the *unique* fundamental variable",
+        "Simplified the '3N-dimensional' problem to a '3-dimensional' one",
+        "Led to the 1998 Nobel Prize in Chemistry for Walter Kohn"
+      ]
+    },
+  
+    "story": {
+      "text": "自1926年薛定谔方程（`schrodinger_equation_1926`）问世以来，理论化学就陷入了一个“计算灾难”：薛定谔方程对于“氢原子”（1个电子）是完美的，但对于“苯”（42个电子），你需要计算一个126维的波函数，这在数学上是不可能的。物理学家们一直使用“电子密度”作为一种“近似”工具。而霍恩伯格和科恩在1964年的这篇论文中，通过两个简短而优美的证明，一举将“电子密度”从一个“近似工具”提升为了“基本变量”。他们证明，你*不*需要知道那个复杂的波函数，你*只*需要找到那个“正确的”3D电子密度图，就能（在理论上）知道关于这个分子的一切。这个问题虽然还是很难，但至少从“不可能”变成了“可能”。",
+      "text_en": "Since Schrödinger's equation (`schrodinger_equation_1926`), theoretical chemistry was stuck. The equation was perfect for *one* electron (Hydrogen), but for *benzene* (42 electrons), you'd have to solve a 126-dimensional wavefunction—a mathematical impossibility. Physicists had used 'electron density' as an 'approximation' for years. Hohenberg and Kohn's 1964 paper, with two short, elegant proofs, elevated 'density' from an 'approximation' to the *fundamental variable*. They proved you *don't need* the complex wavefunction. If you could just find the *correct* 3D 'electron-cloud map' (the density), you could (in principle) know *everything* about the molecule. This turned the problem from 'impossible' to just 'extremely difficult'."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💡",
+        "text": "这篇1964年的论文只“证明”了理论是可能的。直到1965年，科恩（Kohn）与“卢杰·沉”(Lu Jeu Sham) 合作发表了“科恩-沉方程”(Kohn-Sham Equations)，才提供了“如何”在实践中“计算”这个密度的“实用方法”。",
+        "text_en": "The 1964 paper only *proved* the theory was possible. It was the *next* paper, Kohn and Lu Jeu Sham in 1965, that provided the *practical recipe* (the 'Kohn-Sham Equations') for *how* to actually *calculate* the density."
+      },
+      {
+        "icon": "🏅",
+        "text": "瓦尔特·科恩（Walter Kohn）因此项工作获得了1998年的“诺贝尔化学奖”，这在当时很有趣，因为科恩一生都是一名“物理学家”。",
+        "text_en": "Walter Kohn was awarded the 1998 Nobel Prize in *Chemistry* for this work, which was amusing because he was a *physicist* his entire life."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你试图“计算”一个“大公司”（分子）的“健康状况”（能量）。\n* **旧方法（波函数）**：你需要追踪“每一个员工”（电子）在“每一秒钟”与“所有其他员工”的“每一次互动”（一个N维问题）。这是不可能的。\n* **DFT（密度泛函）**：霍恩伯格和科恩证明，你不需要追踪“每个员工”。你只需要一张“公司每个部门有多少人”（电子密度）的“分布图”。他们证明了，这张“分布图”以一种神秘的方式“唯一地”决定了公司的“健康状况”。\nDFT将一个“社会学”难题，转变为一个（更简单的）“人口统计学”问题。",
+      "text_en": "Imagine trying to 'calculate' the 'health' (energy) of a 'giant corporation' (a molecule).\n* **The Old Way (Wavefunction)**: You would have to track *every single employee* (electron) and *every interaction* they have with *every other employee* at *every second* (an N-dimensional problem). Impossible.\n* **DFT (Density Functional)**: Hohenberg andKohn proved you *don't* need to track every employee. You *only* need a 'population map' that shows 'how many employees are in each department' (the electron density). They proved this 'map' *uniquely* determines the company's total health.\nDFT turns an impossible 'sociology' problem into a much simpler 'demographics' problem."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "计算化学 (Computational Chemistry)",
+          "title_en": "Computational Chemistry",
+          "text": "DFT是现代“计算化学”中使用“最广泛”的方法。它使得在计算机上模拟大型分子（如蛋白质、催化剂）的“化学反应”成为可能。",
+          "text_en": "DFT is the *most widely used method* in modern computational chemistry. It makes it possible to simulate chemical reactions for large molecules (like proteins or catalysts) on a computer."
+        },
+        {
+          "icon": "💊",
+          "title": "药物设计 (Drug Design)",
+          "title_en": "Drug Design",
+          "text": "制药公司使用DFT来计算“药物分子”将如何“结合”到病毒或细菌的“蛋白质”上，从而大大加快了新药的研发速度。",
+          "text_en": "Pharmaceutical companies use DFT to calculate how a 'drug' molecule will 'bind' to a 'protein' on a virus or bacterium, dramatically speeding up drug discovery."
+        },
+        {
+          "icon": "🔩",
+          "title": "材料科学 (Materials Science)",
+          "title_en": "Materials Science",
+          "text": "DFT被用于“从零开始”(ab initio) 设计具有特定属性（如硬度、导电性）的新材料，例如用于“电池”（`volta_battery_1800`）或“半导体”的材料。",
+          "text_en": "DFT is used to design new materials 'from scratch' (ab initio) with specific properties (like hardness or conductivity) for things like batteries (`volta_battery_1800`) or semiconductors."
+        }
+      ],
+  
+    "impact": {
+      "text": "“霍恩伯格-科恩定理”是20世纪下半叶最重要的理论物理学突破之一。它为“计算革命”进入“化学”和“材料科学”领域提供了理论基础。它将量子力学从一个只能用于“氢原子”的“理论”，转变为一个可以（近似地）用于“设计药物”和“新材料”的“实用工程工具”。",
+      "text_en": "The Hohenberg-Kohn theorems are one of the most important theoretical physics breakthroughs of the late 20th century. They provided the theoretical justification for the 'computational revolution' to enter chemistry and materials science. It turned quantum mechanics from a 'theory' that only worked for *hydrogen* into a *practical engineering tool* that could (approximately) design *drugs* and *materials*.",
+      "stats": [
+          {
+            "number": "3N",
+            "label": "维 (波函数)",
+            "label_en": "Dimensions (Wavefunction)"
+          },
+          {
+            "number": "3",
+            "label": "维 (电子密度)",
+            "label_en": "Dimensions (Electron Density)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "thomas_fermi_model_1927",
+          "contribution": "托马斯-费米模型（一种早期的、不太准确的“密度泛函”理论）",
+          "contribution_en": "Thomas-Fermi Model (an earlier, much less accurate, form of density functional theory)"
+        },
+        {
+          "id": "schrodinger_equation_1926",
+          "contribution": "薛定谔方程（DFT是求解该方程的一种“替代”方法）",
+          "contribution_en": "Schrödinger's Equation (DFT is an 'alternative' method of solving it)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "kohn_sham_equations_1965",
+          "contribution": "科恩-沉方程（使DFT从“理论”走向“实用”的关键一步）",
+          "contribution_en": "Kohn-Sham Equations (the critical step that made DFT 'practical' instead of just 'theoretical')"
+        },
+        {
+          "id": "computational_chemistry_1970",
+          "contribution": "计算化学（DFT成为了该领域最主流的计算方法）",
+          "contribution_en": "Computational Chemistry (DFT became the dominant method in the entire field)"
+        }
+      ],
+      "legacy_text": "霍恩伯格和科恩将“电子密度”——一个“可观测”的量——置于量子化学的中心，取代了那个“不可观测”的波函数。",
+      "legacy_text_en": "Hohenberg and Kohn placed the 'electron density'—an 'observable' quantity—at the center of quantum chemistry, replacing the 'unobservable' wavefunction."
+    },
+  
+    "related_concepts": ["密度泛函理论 (DFT)", "电子密度 (Electron Density)", "波函数 (Wavefunction)", "霍恩伯格-科恩定理 (Hohenberg-Kohn)", "科恩-沉方程 (Kohn-Sham)", "薛定谔方程 (Schrödinger Equation)", "计算化学 (Computational Chemistry)"],
+    "related_concepts_en": ["Density Functional Theory (DFT)", "Electron Density", "Wavefunction", "Hohenberg-Kohn Theorems", "Kohn-Sham Equations", "Schrödinger Equation", "Computational Chemistry"],
+  
+    "quiz": {
+      "question": "“密度泛函理论”(DFT) 的核心思想，是用哪个“更简单”的量来取代“极其复杂”的“波函数”？",
+      "question_en": "What is the central idea of DFT: to replace the 'impossibly complex' *wavefunction* with the *much simpler*...?",
+      "options": [
+        "“电子密度”(Electron Density)",
+        "“中子”(Neutron)",
+        "“原子核”(Nucleus)",
+        "“光子”(Photon)"
+      ],
+      "options_en": [
+        "Electron Density",
+        "The Neutron",
+        "The Atomic Nucleus",
+        "The Photon"
+      ],
+      "answer": 0,
+      "explanation": "DFT的整个革命性突破在于，它证明了你不需要“波函数”（一个3N维的噩梦），你只需要“电子密度”（一个简单的3D“云图”），就能在理论上计算出分子的所有基态性质。",
+      "explanation_en": "The entire revolution of DFT is the proof that you don't need the 'wavefunction' (a 3N-dimensional nightmare). You *only* need the 'electron density' (a simple 3D 'cloud map') to theoretically calculate all ground-state properties."
+    }
+  }

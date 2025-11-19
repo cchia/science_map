@@ -1,0 +1,174 @@
+{
+    "id": "cook_voyages_1770s",
+    "personId": "james_cook",
+    "title": "詹姆斯·库克船长的太平洋探险",
+    "title_en": "Captain James Cook's Pacific Voyages",
+    "year": 1770,
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "city": "植物湾 (新南威尔士)",
+    "city_en": "Botany Bay (New South Wales)",
+    "country": "澳大利亚 (新荷兰)",
+    "country_en": "Australia (New Holland)",
+    "field": ["地理学", "生物学", "天文学", "医学"],
+    "field_en": ["Geography", "Biology", "Astronomy", "Medicine"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cook%27sFirstVoyage54.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2yXNrLTddME",
+        "title": "詹姆斯·库克船长的探险 (Crash Course)",
+        "title_en": "The Amazing Life and Strange Death of Captain Cook",
+        "duration": "10:32"
+      }
+    },
+    
+    "summary": {
+      "text": "詹姆斯·库克（James Cook）船长是一位英国探险家和制图师，他指挥了三次意义非凡的太平洋探险。在他的“第一次”航行（1768-1771）中，他首次绘制了“新西兰”的完整环岛地图，并于1770年抵达“澳大利亚”东海岸，将其命名为“新南威尔士”并宣布为英国领土。他的航行是“科学探险”的典范，船上载有天文学家和植物学家（如约瑟夫·班克斯）。他还首次成功地在长途航行中通过饮食（如“酸菜”）预防了“坏血病”(Scurvy)，并首次使用“航海天文钟”(Chronometer) 精确地测定了“经度”。",
+      "text_en": "Captain James Cook, a British explorer and cartographer, commanded three monumental voyages to the Pacific. On his *first* voyage (1768-1771), he created the first complete map of *New Zealand* and, in 1770, landed on the east coast of *Australia*, naming it 'New South Wales' and claiming it for Britain. His voyages were models of *scientific exploration*, carrying astronomers and botanists (like Joseph Banks). He was also the first to successfully prevent *Scurvy* on a long voyage through diet (like sauerkraut) and the first to use a 'Marine Chronometer' to accurately calculate *longitude* at sea.",
+      "key_points": [
+        "绘制了“新西兰”和“澳大利亚东海岸”的精确地图 (1770)",
+        "开创了“科学探险”(Scientific Exploration) 的模式",
+        "首次在实践中解决了“经度问题”(Longitude Problem)",
+        "首次通过饮食（维生素C）在远航中战胜了“坏血病”(Scurvy)",
+        "在第二次航行中首次穿过“南极圈”",
+        "在第三次航行中“发现”了夏威夷群岛"
+      ],
+      "key_points_en": [
+        "Charted New Zealand and East Coast of Australia (1770)",
+        "Pioneered the model of 'Scientific Exploration'",
+        "First to practically solve the 'Longitude Problem' (with a chronometer)",
+        "First to conquer 'Scurvy' on a long voyage (with diet/Vitamin C)",
+        "First to cross the 'Antarctic Circle' (Second Voyage)",
+        "'Discovered' the Hawaiian Islands (Third Voyage)"
+      ]
+    },
+  
+    "story": {
+      "text": "库克的航行是18世纪的“阿波罗计划”。他的“第一次”航行（1768-1771）的公开任务是前往塔希提（Tahiti）观测“金星凌日”（`transit_of_venus_1761`，一项天文学任务）。但他的“秘密任务”是去寻找传说中的“未知的南方大陆”(Terra Australis Incognita)。他没有找到那块神话大陆，但他却系统性地、以近乎现代的精度绘制了新西兰和澳大利亚东海岸的地图。\n在他的“第二次”航行（1772-1775）中，他携带了约翰·哈里森（`harrison_chronometer_1761`）的“航海天文钟”的复制品 (K1)。这块“钟”使他能够（在任何天气下）精确地知道自己的“经度”（东西位置）。他利用这台设备，大胆地向南航行，多次穿过“南极圈”，证明了那个“伟大的南方大陆”如果存在，也只是一片冰封的荒原。他一举“解决了”经度问题和南方大陆之谜。",
+      "text_en": "Cook's voyages were the 'Apollo Missions' of the 18th century. His *First Voyage* (1768-71) had a public mission: sail to Tahiti to observe the 'Transit of Venus' (`transit_of_venus_1761`), an astronomical task. His *secret* orders: find the mythical 'Terra Australis Incognita'. He didn't find *that*, but he *did* systematically map New Zealand and Australia's east coast with near-modern precision.\nOn his *Second Voyage* (1772-75), he carried a copy (K1) of John Harrison's (`harrison_chronometer_1761`) 'marine chronometer'. This 'clock' allowed him to *know his longitude* (East-West position) accurately for the first time. Using this, he deliberately sailed south *into* the ice, becoming the first human to cross the Antarctic Circle, proving the 'great southern continent' was a frozen wasteland. He solved the longitude problem and the southern continent myth in one go.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Landing_of_Lieutenant_James_Cook_at_Botany_Bay%2C_29_April_1770_%28painting_by_E_Phillips_Fox%29.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🥬",
+        "text": "库克通过强迫他的船员（即使他们抱怨）吃“酸菜”(Sauerkraut) 来预防“坏血病”(Scurvy)。他因此在三年航行中（第一次航行）几乎没有损失一个人手。",
+        "text_en": "Cook famously prevented scurvy by *forcing* his men to eat 'sauerkraut' (rich in Vitamin C). As a result, he didn't lose a single man to the disease on his first voyage, a feat then unheard of."
+      },
+      {
+        "icon": " botanist",
+        "text": "他的船上总是有顶尖的科学家。在“奋进号”航行中，植物学家约瑟夫·班克斯（Joseph Banks）和丹尼尔·索兰德（Daniel Solander）收集了3000多种植物物种，并绘制了它们的图谱。",
+        "text_en": "His ship was a floating laboratory. On the *Endeavour*, the botanist Joseph Banks and Daniel Solander collected over 3,000 plant species."
+      },
+      {
+        "icon": "☠️",
+        "text": "库克在他的第三次航行（1779年）中，在夏威夷群岛（他称之为“三明治群岛”）与岛民发生冲突时被杀害。",
+        "text_en": "Cook was killed in 1779 during his Third Voyage, in a skirmish with the islanders of Hawaii (which he had named the 'Sandwich Islands')."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，在1770年，世界地图上“澳大利亚”和“新西兰”的位置还是一片“空白”或“画错了”。\n詹姆斯·库克船长是第一个驾驶“科学考察船”去“填补”这些空白的人。他就像“星际迷航”中的“柯克船长”，他的任务是“探索新世界”并“绘制星图”（海图）。\n他成功的秘诀有二：\n1. **他有了一块“超级手表”**（航海天文钟 `harrison_chronometer_1761`），这使他（在海上）第一次能“精确地知道自己在哪”。\n2. **他有“酸菜”**，这使他的船员（在海上）第一次能“保持健康”（不生坏血病）。",
+      "text_en": "Imagine a world map from 1770 where 'Australia' and 'New Zealand' are just big blank smudges.\nCaptain James Cook was the man who took a 'science ship' to 'fill in those blanks'. He was like Captain Kirk of the *Enterprise*, on a mission to 'explore new worlds' and 'map the stars' (or in his case, the oceans).\nHe succeeded because of two things:\n1. He had a **super-watch** (the 'Chronometer', `harrison_chronometer_1761`), which, for the first time, let him know *exactly where he was* East-to-West.\n2. He had **sauerkraut**, which, for the first time, kept his *crew alive* from scurvy.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/86/Cooks_Karte_von_Neufundland.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🗺️",
+          "title": "现代制图学 (Cartography)",
+          "title_en": "Modern Cartography",
+          "text": "库克的太平洋地图是如此精确，以至于在一个多世纪里都是“黄金标准”，奠定了整个太平洋地区的现代地理学基础。",
+          "text_en": "Cook's maps of the Pacific were the 'gold standard' for over a century and form the basis of all modern geography of the region."
+        },
+        {
+          "icon": "🧭",
+          "title": "解决了“经度问题”",
+          "title_en": "Solved the 'Longitude Problem'",
+          "text": "他通过（`harrison_chronometer_1761`）天文钟在实践中证明了“经度”是可以被精确测量的，从而彻底改变了海上导航，使其变得安全可靠。",
+          "text_en": "His practical use of the chronometer (`harrison_chronometer_1761`) *proved* longitude could be known, transforming maritime navigation from guesswork into a safe, reliable science."
+        },
+        {
+          "icon": "🍊",
+          "title": "预防坏血病 (Scurvy Prevention)",
+          "title_en": "Scurvy Prevention",
+          "text": "他的实验（虽然他错误地认为是“新鲜度”而非“维生素C”在起作用）证明了“坏血病”是一种“饮食缺陷病”，而不是一种“传染病”，为现代营养学（`lind_scurvy_1747`）奠定了实践基础。",
+          "text_en": "His experiments (though he misattributed the cure to 'freshness' not Vitamin C) proved scurvy was a *dietary deficiency*, not a disease, saving countless lives and building on the work of `lind_scurvy_1747`."
+        }
+      ],
+  
+    "impact": {
+      "text": "詹姆斯·库克的航海是“启蒙运动”(Enlightenment) 精神的缩影。他将探险从“寻找黄金和香料”转变为“追求科学知识”。他绘制的地图完成了“世界地图”的最后一块拼图（太平洋），他解决了“经度问题”，他战胜了“坏血病”。他的航行（以及船上科学家如约瑟夫·班克斯的工作）开创了“生物地理学”和“人种学”，并直接启发了下一代科学探险家，如洪堡（`humboldt_isotherms_1817`）和达尔文（`darwin_origin_of_species_1859`）。",
+      "text_en": "James Cook's voyages were the Enlightenment in action. He transformed exploration from a quest for 'gold and spices' into a quest for 'scientific knowledge'. He 'completed the map' of the world, solved the 'longitude problem', and conquered 'scurvy'. His work (and that of his onboard scientists like Joseph Banks) founded the fields of biogeography and ethnography, and directly inspired the next generation of scientific explorers, most notably Humboldt (`humboldt_isotherms_1817`) and Darwin (`darwin_origin_of_species_1859`).",
+      "stats": [
+          {
+            "number": "3",
+            "label": "次太平洋探险",
+            "label_en": "Major Pacific Voyages"
+          },
+          {
+            "number": "1",
+            "label": "个天文钟 (K1)",
+            "label_en": "Chronometer (K1)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "harrison_chronometer_1761",
+          "contribution": "约翰·哈里森（其“航海天文钟”是库克解决经度问题的关键“工具”）",
+          "contribution_en": "John Harrison (his 'marine chronometer' was the *tool* Cook needed to solve longitude)"
+        },
+        {
+          "id": "halley_comet_1705",
+          "contribution": "埃德蒙·哈雷（其对“金星凌日”的倡议，是库克第一次航行的“科学动机”）",
+          "contribution_en": "Edmond Halley (his advocacy for observing the 'Transit of Venus' was the 'scientific motive' for the first voyage)"
+        },
+        {
+          "id": "lind_scurvy_1747",
+          "contribution": "詹姆斯·林德（其关于“柑橘类水果”治疗坏血病的临床试验，是库克饮食改革的基础）",
+          "contribution_en": "James Lind (his clinical trial on citrus fruits was the basis for Cook's dietary reforms)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "humboldt_isotherms_1817",
+          "contribution": "亚历山大·冯·洪堡（其“科学探险”的模式，深受库克（和班克斯）的启发）",
+          "contribution_en": "Alexander von Humboldt (his model of the 'scientific explorer' was directly inspired by Cook and Banks)"
+        },
+        {
+          "id": "darwin_origin_of_species_1859",
+          "contribution": "查尔斯·达尔文（其“小猎犬号”航行，在方法论和精神上都是库克航行的“直系后裔”）",
+          "contribution_en": "Charles Darwin (his voyage on the *Beagle* was the direct methodological and spiritual successor to Cook's voyages)"
+        }
+      ],
+      "legacy_text": "詹姆斯·库克船长将“探险”转变为“科学”，并用航海天文钟和酸菜，为人类“填满”了地球上最后的未知海洋。",
+      "legacy_text_en": "Captain James Cook turned 'exploration' into 'science', and used a clock and sauerkraut to 'fill in the map' of the last unknown ocean."
+    },
+  
+    "related_concepts": ["经度问题 (Longitude Problem)", "航海天文钟 (Chronometer)", "坏血病 (Scurvy)", "新西兰 (New Zealand)", "澳大利亚 (Australia)", "夏威夷 (Hawaii)", "南极圈 (Antarctic Circle)", "约瑟夫·班克斯 (Joseph Banks)", "金星凌日 (Transit of Venus)"],
+    "related_concepts_en": ["Longitude Problem", "Chronometer", "Scurvy", "New Zealand", "Australia", "Hawaii", "Antarctic Circle", "Joseph Banks", "Transit of Venus"],
+  
+    "quiz": {
+      "question": "詹姆斯·库克（James Cook）的航行对“海上航行”的两大“实用主义”贡献是什么？",
+      "question_en": "What were James Cook's two great *practical* contributions to maritime navigation?",
+      "options": [
+        "发明了望远镜和指南针",
+        "证明了地球是圆的，并发明了蒸汽船",
+        "证明了“坏血病”可通过饮食（酸菜）预防，并首次“实用”了“天文钟”来确定经度",
+        "发现了“电”和“磁”"
+      ],
+      "options_en": [
+        "Inventing the telescope and the compass",
+        "Proving the Earth was round and inventing the steamboat",
+        "Proving 'scurvy' was preventable with diet (sauerkraut) and *practically* using the 'chronometer' to find longitude",
+        "Discovering electricity and magnetism"
+      ],
+      "answer": 2,
+      "explanation": "库克的航行是历史上第一次，船员们“没有”死于坏血病（`lind_scurvy_1747`），并且船长“始终”知道自己的确切位置（`harrison_chronometer_1761`）。这两项突破使长距离的、可预测的海洋探险成为可能。",
+      "explanation_en": "Cook's voyages were the first in history where the crew *didn't* die of scurvy (`lind_scurvy_1747`) and the captain *always* knew his exact location (`harrison_chronometer_1761`). These two breakthroughs made long-distance, predictable ocean exploration possible."
+    }
+  }
