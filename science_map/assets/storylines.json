@@ -1,0 +1,29 @@
+{
+    "gravity_story": {
+      "id": "gravity_story",
+      "title_zh": "引力的故事",
+      "title_en": "The Story of Gravity",
+      "emoji": "🍎",
+      "description_zh": "从地心说的直觉得到广义相对论的弯曲时空，探索人类如何理解宇宙中最神秘的力量。",
+      "description_en": "From geocentric intuition to curved spacetime, explore how humanity unraveled the mystery of the cosmos's most pervasive force.",
+      "events": [
+        "aristotle_geocentrism_BC350",
+        "archimedes_principle_BC250",
+        "ptolemy_geocentrism_150",
+        "copernicus_heliocentrism_1543",
+        "tycho_brahe_astronomical_data_1580",
+        "galileo_motion_1638",
+        "kepler_laws_1609",
+        "hooke_inverse_square_1679",
+        "newton_gravity_1687",
+        "halley_comet_1705",
+        "cavendish_experiment_1798",
+        "discovery_of_neptune_1846",
+        "mercury_perihelion_1859",
+        "einstein_general_relativity_1915",
+        "eddington_eclipse_1919",
+        "oppenheimer_snyder_black_hole_1939",
+        "ligo_gravitational_waves_2015"
+      ]
+    }
+  }

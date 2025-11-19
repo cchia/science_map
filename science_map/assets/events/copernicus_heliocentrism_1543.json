@@ -10,6 +10,7 @@
     "city_en": "Nuremberg",
     "country": "神圣罗马帝国 (今德国)",
     "country_en": "Holy Roman Empire (Modern Germany)",
+    "storyline_ids": ["gravity_story"],
     "field": [
         "天文学",
         "数学"

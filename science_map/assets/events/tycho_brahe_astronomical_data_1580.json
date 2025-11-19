@@ -10,6 +10,7 @@
     "city_en": "Hven",
     "country": "丹麦 (今瑞典)",
     "country_en": "Denmark (Modern Sweden)",
+    "storyline_ids": ["gravity_story"],
     "field": [
         "天文学",
         "工程学"

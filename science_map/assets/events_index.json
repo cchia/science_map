@@ -73,7 +73,6 @@
   "helmholtz_ophthalmoscope_1851",
   "helmholtz_optics_1856",
   "hering_opponent_process_1878",
-  "hertz_experiment_1887",
   "hipparchus_precession_BC150",
   "hipparchus_trigonometry_BC150",
   "hippasus_irrational_BC470",
@@ -187,7 +186,6 @@
   "wohler_urea_1828",
   "wohler_liebig_radical_theory_1832",
   "berzelius_chemistry_1810",
-  "edison_phonograph_1877",
   "rutherford_nucleus_1911",
   "thomson_electron_1897",
   "fessenden_radio_broadcast_1906",
@@ -213,5 +211,9 @@
   "hawking_radiation_1974",
   "heisenberg_uncertainty_1927",
   "heisenberg_matrix_mechanics_1925",
-  "humboldt_isotherms_1817"
+  "humboldt_isotherms_1817",
+  "cavendish_experiment_1798",
+  "discovery_of_neptune_1846",
+  "mercury_perihelion_1859",
+  "eddington_eclipse_1919"
 ]

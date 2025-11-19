@@ -1,7 +1,13 @@
 {
   "id": "ligo_gravitational_waves_2015",
-  "title": "Ligo Gravitational Waves",
-  "title_en": "Ligo Gravitational Waves",
+  "title": "LIGO探测引力波",
+  "title_en": "LIGO Detects Gravitational Waves",
   "year": 2015,
+  "lat": 46.455,
+  "lng": -119.407,
+  "city": "汉福德",
+  "city_en": "Hanford",
+  "field": ["物理学", "天文学"],
+  "storyline_ids": ["gravity_story"],
   "is_stub": true
 }

@@ -10,6 +10,7 @@
     "city_en": "Syracuse",
     "country": "大希腊 (今意大利西西里岛)",
     "country_en": "Magna Graecia (Modern Sicily, Italy)",
+    "storyline_ids": ["gravity_story"],    
     "field": [
         "物理学"
     ],
@@ -17,7 +18,7 @@
         "Physics"
     ],
     "media": {
-        "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Archimedes_principle.svg",
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Buoyancy.svg",
         "video": {
             "url": "https://www.youtube.com/watch?v=ijj58xD5fDI",
             "title": "洗澡如何带来了阿基米德原理",

@@ -10,6 +10,7 @@
     "city_en": "London",
     "country": "英国",
     "country_en": "United Kingdom",
+    "storyline_ids": ["gravity_story"],
     "field": ["天文学", "物理学"],
     "field_en": ["Astronomy", "Physics"],
     
