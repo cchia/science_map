@@ -1,0 +1,10 @@
+{
+    "name": "亚瑟·爱丁顿",
+    "name_en": "Arthur Eddington",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/24/Arthur_Stanley_Eddington.jpg",
+    "bio_short": "英国天文学家、物理学家和数学家。他通过1919年的日全食观测证实了广义相对论（`eddington_eclipse_1919`），并建立了恒星结构理论（质量-光度关系）。",
+    "bio_short_en": "A British astronomer, physicist, and mathematician. He confirmed General Relativity via the 1919 solar eclipse (`eddington_eclipse_1919`) and established the theory of stellar structure (mass-luminosity relation).",
+    "events": [
+      "eddington_eclipse_1919"
+    ]
+  }

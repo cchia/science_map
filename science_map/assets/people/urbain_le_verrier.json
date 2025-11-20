@@ -1,0 +1,11 @@
+{
+    "name": "勒维耶",
+    "name_en": "Urbain Le Verrier",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/47/Le_Verrier_colored.jpg",
+    "bio_short": "法国天文学家和数学家。他最著名的成就是通过纯数学计算预测了海王星的存在和位置，被称为“笔尖下的发现者”。他还发现了水星轨道的近日点进动异常。",
+    "bio_short_en": "A French astronomer and mathematician. He is most famous for predicting the existence and position of Neptune using only mathematics, known as the 'discovery at the point of a pen'. He also discovered the anomalous perihelion precession of Mercury.",
+    "events": [
+      "discovery_of_neptune_1846",
+      "mercury_perihelion_1859"
+    ]
+  }

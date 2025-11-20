@@ -1,13 +1,144 @@
 {
-    "id": "mercury_perihelion_1859",
-    "title": "水星近日点进动",
-    "title_en": "Perihelion Precession of Mercury",
-    "year": 1859,
-    "lat": 48.85,
-    "lng": 2.35,
-    "city": "巴黎",
-    "city_en": "Paris",
-    "field": ["天文学"],
-    "storyline_ids": ["gravity_story"],
-    "is_stub": true
+  "id": "mercury_perihelion_1859",
+  "personId": "urbain_le_verrier",
+  "title": "发现水星近日点进动异常",
+  "title_en": "Discovery of the Anomalous Perihelion Precession of Mercury",
+  "year": 1859,
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "city": "巴黎",
+  "city_en": "Paris",
+  "country": "法国",
+  "country_en": "France",
+  "storyline_ids": ["gravity_story"],
+  "field": ["天文学", "物理学"],
+  "field_en": ["Astronomy", "Physics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Apsidendrehung.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=hSXNE0pNtr8",
+      "title": "水星近日点进动之谜",
+      "title_en": "The Mysterious Orbit of Mercury I The Great Courses",
+      "duration": "4:54"
+    }
+  },
+  
+  "summary": {
+    "text": "在成功预测海王星（`discovery_of_neptune_1846`）之后，勒维耶（Le Verrier）将目光转向了水星。他重新计算了水星的轨道，并仔细扣除了金星、地球、木星等所有已知行星对水星的引力影响。他震惊地发现，水星的轨道每世纪仍然多转动了“43角秒”。虽然这个偏差极小，但在牛顿力学体系下是“无法解释”的。为了解释这个异常，勒维耶预言在水星轨道内侧还有一颗未被发现的行星，并将其命名为“祝融星”(Vulcan)。",
+    "text_en": "Fresh from his triumph with Neptune (`discovery_of_neptune_1846`), Le Verrier turned his attention to Mercury. He recalculated its orbit, meticulously subtracting the gravitational pull of Venus, Earth, Jupiter, etc. He was shocked to find a tiny leftover discrepancy: Mercury's orbit was precessing '43 arcseconds per century' faster than Newton's laws allowed. This deviation was 'inexplicable'. To solve it, Le Verrier predicted yet another undiscovered planet inside Mercury's orbit, which he named 'Vulcan'.",
+    "key_points": [
+      "发现了水星轨道的“43角秒”异常进动",
+      "这是牛顿引力理论出现的第一个“裂痕”",
+      "勒维耶错误地预言了“祝融星”(Vulcan) 的存在",
+      "直到1915年才由爱因斯坦的“广义相对论”完美解释"
+    ],
+    "key_points_en": [
+      "Discovered the '43 arcsecond' anomalous precession of Mercury",
+      "The first 'crack' in Newtonian gravitational theory",
+      "Le Verrier incorrectly predicted the planet 'Vulcan'",
+      "Only explained in 1915 by Einstein's 'General Relativity'"
+    ]
+  },
+
+  "story": {
+    "text": "对于当时的科学家来说，牛顿定律就是真理。如果观测数据不符，那一定是有“看不见的物质”在干扰。勒维耶就是用这个逻辑找到了海王星，所以他自信地再次运用这个逻辑。他宣布：“必有一颗内行星，或者一圈小行星带，位于水星和太阳之间。” 全世界的天文学家开始疯狂地寻找“祝融星”，甚至有人声称看到了它。然而，随着时间的推移，没有人能证实它的存在。这个“幽灵行星”困扰了天文学界半个多世纪，直到爱因斯坦指出：没有祝融星，是牛顿的公式在强引力场（太阳附近）下“不够精确”。",
+    "text_en": "To scientists of the time, Newton's laws were absolute truth. If data didn't fit, there *must* be invisible matter responsible. Le Verrier had used this logic to find Neptune, so he confidently applied it again. He announced, 'There must be an inner planet, or a belt of asteroids, between Mercury and the Sun.' Astronomers worldwide hunted for 'Vulcan', and some even claimed to see it. However, as decades passed, no one could confirm it. This 'ghost planet' haunted astronomy for 50 years until Einstein pointed out: There is no Vulcan; it is Newton's formula that is 'inaccurate' in strong gravity (near the Sun).",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mercury_transit_2.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🖖",
+      "text": "虽然勒维耶的“祝融星”(Vulcan) 并不存在，但这个名字后来被科幻剧《星际迷航》借用，成为了斯波克（Spock）的故乡。",
+      "text_en": "Although Le Verrier's planet 'Vulcan' didn't exist, the name was later adopted by 'Star Trek' as the home world of Mr. Spock."
+    },
+    {
+      "icon": "📏",
+      "text": "“43角秒”是多么小？它相当于你在100英里外看一枚硬币的宽度。勒维耶能从手写的数据中把这个微小的误差“抠”出来，其计算能力令人叹为观止。",
+      "text_en": "How small is '43 arcseconds'? It's like the width of a coin viewed from 30 miles away. That Le Verrier could tease this tiny error out of handwritten data is a computational miracle."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "根据牛顿的理论，行星绕太阳转一圈后，应该回到原来的位置（闭合椭圆）。但受其他行星干扰，轨道会慢慢转动（进动），画出一个像“花瓣”一样的图案。\n勒维耶把所有已知行星的干扰都算进去了，发现水星转得“还是太快了那么一点点”。\n他认为：一定有个躲猫猫的“祝融星”在拉它。\n爱因斯坦后来证明：没有祝融星。是因为太阳太重了，把水星周围的空间“压弯”了，所以水星要走的路程变了。",
+    "text_en": "According to Newton, a planet should return to the same spot after each orbit. But due to other planets pulling on it, the orbit slowly rotates (precesses), tracing a 'flower petal' pattern.\nLe Verrier calculated all the pulls from known planets and found Mercury was *still* spinning 'a tiny bit too fast'.\nHe thought: A hidden planet 'Vulcan' must be pulling it.\nEinstein later proved: There is no Vulcan. The Sun is so heavy it 'curves' the space around Mercury, changing the path it has to travel.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/19/Apsidendrehung.png"
+  },
+
+  "applications": [
+      {
+        "icon": "🧠",
+        "title": "广义相对论的验证",
+        "title_en": "Proof of General Relativity",
+        "text": "1915年，当爱因斯坦用他的新公式计算出水星进动值“恰好”是43角秒时，他兴奋得心悸。这是广义相对论的第一个证据。",
+        "text_en": "In 1915, when Einstein used his new formula to calculate Mercury's shift and got *exactly* 43 arcseconds, he had heart palpitations from joy. This was the first proof of General Relativity."
+      },
+      {
+        "icon": "🛰️",
+        "title": "GPS卫星",
+        "title_en": "GPS Satellites",
+        "text": "要让GPS精准定位，工程师必须考虑相对论效应。水星进动是人类第一次察觉到这种效应。",
+        "text_en": "For GPS to work, engineers must account for relativistic effects. Mercury's precession was humanity's first glimpse of these effects."
+      }
+    ],
+
+  "impact": {
+    "text": "勒维耶的这项“失败”发现（未找到祝融星），其科学价值甚至高于他“成功”发现海王星。因为它揭示了牛顿力学的局限性。它是经典物理学大厦上的第一道裂痕，这道裂痕最终导致了爱因斯坦对时空观的彻底重塑。",
+    "text_en": "Le Verrier's 'failed' discovery (not finding Vulcan) was scientifically more valuable than his 'success' with Neptune. It revealed the limits of Newtonian mechanics. It was the first crack in the edifice of classical physics, a crack that would eventually lead to Einstein's complete reconstruction of space and time.",
+    "stats": [
+        {
+          "number": "43",
+          "label": "角秒/世纪 (异常值)",
+          "label_en": "Arcseconds/century (The Anomaly)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "newton_gravity_1687",
+        "contribution": "牛顿（其引力定律是勒维耶计算的基础，也是最终被证明“不够精确”的理论）",
+        "contribution_en": "Isaac Newton (his law was the basis of the calculation, and the theory ultimately proven 'insufficient')"
+      },
+      {
+        "id": "discovery_of_neptune_1846",
+        "contribution": "（他自己）发现海王星（这给了他使用同样方法寻找祝融星的绝对信心）",
+        "contribution_en": "(Himself) Discovery of Neptune (this gave him the absolute confidence to use the same method to hunt for Vulcan)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "einstein_1915_general_relativity",
+        "contribution": "爱因斯坦（水星进动问题是爱因斯坦在建立广义相对论时唯一可用的“实测数据”验证）",
+        "contribution_en": "Einstein (the Mercury problem was the *only* available 'hard data' Einstein had to verify his new theory against)"
+      }
+    ],
+    "legacy_text": "勒维耶在天空中寻找一颗新行星，结果却（无意中）指出了这一套物理法则的终结。",
+    "legacy_text_en": "Le Verrier looked for a new planet, but (unwittingly) pointed to the end of the laws of physics as we knew them."
+  },
+
+  "related_concepts": ["近日点进动 (Perihelion Precession)", "祝融星 (Vulcan)", "广义相对论 (General Relativity)", "勒维耶 (Le Verrier)", "牛顿力学", "异常 (Anomaly)"],
+  "related_concepts_en": ["Perihelion Precession", "Vulcan", "General Relativity", "Le Verrier", "Newtonian Mechanics", "Anomaly"],
+
+  "quiz": {
+    "question": "勒维耶（Le Verrier）提出“祝融星”(Vulcan) 假说是为了解释什么现象？",
+    "question_en": "Le Verrier proposed the 'Vulcan' hypothesis to explain what phenomenon?",
+    "options": [
+      "太阳黑子的周期",
+      "水星轨道的异常进动（转动）",
+      "海王星的颜色",
+      "恐龙的灭绝"
+    ],
+    "options_en": [
+      "The cycle of sunspots",
+      "The anomalous precession (rotation) of Mercury's orbit",
+      "The color of Neptune",
+      "The extinction of the dinosaurs"
+    ],
+    "answer": 1,
+    "explanation": " 水星的轨道每世纪比牛顿定律预测的“多”转了43角秒。勒维耶认为这是另一颗未知行星的引力造成的。实际上，这是太阳巨大质量造成的时空弯曲引起的（广义相对论）。",
+    "explanation_en": " Mercury's orbit rotated 43 arcseconds/century *more* than Newton predicted. Le Verrier thought another planet caused this. In reality, it was caused by the curvature of spacetime around the massive Sun (General Relativity)."
   }
+}

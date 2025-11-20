@@ -1,0 +1,152 @@
+{
+    "id": "cavendish_hydrogen_1766",
+    "personId": "henry_cavendish",
+    "title": "发现“氢气” (易燃空气)",
+    "title_en": "Discovers 'Hydrogen' (Inflammable Air)",
+    "year": 1766,
+    "lat": 51.515,
+    "lng": -0.117,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["化学", "物理学"],
+    "field_en": ["Chemistry", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hydrogen_discharge_tube.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6rdmpx39PRk",
+        "title": "氢气 (H) 元素简介",
+        "title_en": "Hydrogen - Periodic Table of Videos",
+        "duration": "4:46"
+      }
+    },
+    
+    "summary": {
+      "text": "1766年，亨利·卡文迪许发表了《人造空气实验》，详细描述了他如何通过“金属”（如锌、铁）与“酸”反应，收集到一种全新的气体。他称之为“易燃空气”(Inflammable Air)。他证明了这种气体与普通空气完全不同，它极易燃烧，且密度极低（比空气轻约11倍）。更重要的是，他在随后的实验中（1781年）发现，当这种气体燃烧时，会生成“水”。这导致拉瓦锡后来将其命名为“氢”（Hydrogen，意为“水的生成者”）。",
+      "text_en": "In 1766, Henry Cavendish published 'Three Papers Containing Experiments on Factitious Air', detailing how he isolated a new gas by reacting metals (like zinc or iron) with acids. He called it 'Inflammable Air'. He proved it was distinct from common air, highly combustible, and incredibly light (about 11 times lighter than air). Crucially, in later experiments (1781), he discovered that when this gas burned, it produced 'water'. This led Lavoisier to later name it 'Hydrogen' (water-former).",
+      "key_points": [
+        "首次识别并分离出“氢气” (Hydrogen)",
+        "称其为“易燃空气” (Inflammable Air)",
+        "通过金属与酸反应制得",
+        "发现氢气燃烧生成“水” (1781)",
+        "测量了其密度（已知最轻的气体）"
+      ],
+      "key_points_en": [
+        "First identification and isolation of 'Hydrogen'",
+        "Called it 'Inflammable Air'",
+        "Produced by reacting metals with acids",
+        "Discovered that burning it produces 'water' (1781)",
+        "Measured its density (lightest known gas)"
+      ]
+    },
+  
+    "story": {
+      "text": "在卡文迪许之前，化学家们（如波义耳）也见过这种气泡，但通常认为这只是“改性”的空气。卡文迪许是第一个相信它是“一种独特的物质”的人。他不仅收集了它，还极其精确地测量了它的比重。作为“燃素说”（Phlogiston theory）的信徒，他最初认为这种气体就是纯净的“燃素”本身。当他在1781年点燃这种气体并收集到“露珠”（水）时，他不仅震惊了自己，也震惊了世界——因为在两千年的历史中，“水”一直被认为是一种不可分割的“基本元素”。卡文迪许证明了水实际上是一种“化合物”。",
+      "text_en": "Chemists before Cavendish (like Boyle) had seen these bubbles, but thought they were just 'modified' air. Cavendish was the first to treat it as a 'distinct substance'. He not only collected it but measured its specific gravity with extreme precision. A believer in 'Phlogiston theory', he initially thought this gas was pure 'Phlogiston' itself. When he ignited it in 1781 and collected 'dew' (water), he shocked the world—because for 2,000 years, 'water' was considered an indivisible 'element'. Cavendish proved water was actually a 'compound'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cavendish_hydrogen.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎈",
+        "text": "由于卡文迪许发现氢气“比空气轻得多”，法国科学家雅克·查理（`charles_law_1787`）在仅仅十几年后（1783年）就利用这一特性制造了第一个“氢气球”，实现了人类升空。",
+        "text_en": "Because Cavendish discovered hydrogen was 'much lighter than air', French scientist Jacques Charles (`charles_law_1787`) used this property just over a decade later (1783) to build the first 'hydrogen balloon' and achieve human flight."
+      },
+      {
+        "icon": "💧",
+        "text": "“Hydrogen”这个名字并非卡文迪许所取，而是由拉瓦锡（Lavoisier）命名的。Hydro（水）+ Gen（产生），即“燃烧后产生水的东西”。",
+        "text_en": "The name 'Hydrogen' was not coined by Cavendish, but by Lavoisier. Hydro (water) + Gen (maker), meaning 'the thing that makes water when burned'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "卡文迪许就像一个拥有精密天平的魔术师。他把金属扔进酸里，抓住了冒出来的“气泡”。\n1. 他称了称这些气泡，发现它们轻得不可思议（如果你松手，它们会飞向太空）。\n2. 他点燃了这些气泡，发现它们会爆炸。\n3. 最神奇的是，爆炸后留下的不是灰烬，而是“水”。\n他发现了宇宙中最基本、最轻的元素——氢，并证明了水不是一种元素，而是这种气体燃烧后的“灰烬”。",
+      "text_en": "Cavendish was like a magician with a precision scale. He threw metal into acid and caught the 'bubbles'.\n1. He weighed the bubbles and found them incredibly light (they would float to space).\n2. He lit them on fire, and they exploded.\n3. The magic trick: after the explosion, all that was left was 'water'.\nHe discovered the universe's most basic, lightest element—Hydrogen—and proved that water is not an element, but the 'ash' of burning this gas.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cavendish_hydrogen.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚀",
+          "title": "火箭燃料",
+          "title_en": "Rocket Fuel",
+          "text": "液氢是现代火箭（如航天飞机、土星五号）最强大的燃料之一。",
+          "text_en": "Liquid hydrogen is one of the most powerful fuels for modern rockets (like the Space Shuttle and Saturn V)."
+        },
+        {
+          "icon": "🎈",
+          "title": "飞艇与气球",
+          "title_en": "Airships & Balloons",
+          "text": "由于其极低的密度，氢气曾是齐柏林飞艇（Zeppelins）和早期气球的主要升力气体。",
+          "text_en": "Due to its extremely low density, hydrogen was the primary lifting gas for Zeppelins and early balloons."
+        },
+        {
+          "icon": "🔋",
+          "title": "清洁能源",
+          "title_en": "Clean Energy",
+          "text": "氢燃料电池利用氢气和氧气反应生成电（和水），是未来的清洁能源技术。",
+          "text_en": "Hydrogen fuel cells generate electricity (and water) by reacting hydrogen with oxygen, a key technology for future clean energy."
+        }
+      ],
+  
+    "impact": {
+      "text": "卡文迪许发现氢气是“化学革命”的序曲。他证明了“气体”有不同的种类，而不仅仅是空气的变体。他对“水由氢和氧组成”的发现，为拉瓦锡（`lavoisier_elements_1789`）推翻“燃素说”、建立现代化学元素列表提供了最关键的弹药。他是从“炼金术时代”迈向“现代化学”的最后一位巨人。",
+      "text_en": "Cavendish's discovery of hydrogen was the prelude to the 'Chemical Revolution'. He proved that 'gases' were distinct substances, not just variations of air. His discovery that 'water is made of hydrogen and oxygen' provided the critical ammunition for Lavoisier (`lavoisier_elements_1789`) to overthrow the 'Phlogiston theory' and establish the modern list of elements. He was the last giant bridging the 'Age of Alchemy' and 'Modern Chemistry'.",
+      "stats": [
+          {
+            "number": "1",
+            "label": "号元素 (H)",
+            "label_en": "Element Number 1 (H)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "boyle_law_1662",
+          "contribution": "波义耳（其对气体性质的研究和工具（如气动槽）是卡文迪许实验的基础）",
+          "contribution_en": "Robert Boyle (his study of gas properties and tools like the pneumatic trough were the basis for Cavendish's work)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "charles_law_1787",
+          "contribution": "雅克·查理（他利用卡文迪许发现的这种“轻气体”发明了氢气球）",
+          "contribution_en": "Jacques Charles (he used this 'light gas' discovered by Cavendish to invent the hydrogen balloon)"
+        },
+        {
+          "id": "lavoisier_elements_1789",
+          "contribution": "拉瓦锡（他利用卡文迪许的数据，解释了水的成分，并命名了“氢”和“氧”，完成了化学革命）",
+          "contribution_en": "Lavoisier (he used Cavendish's data to explain the composition of water, naming 'Hydrogen' and 'Oxygen', completing the Chemical Revolution)"
+        }
+      ],
+      "legacy_text": "卡文迪许不仅“称量了地球”（`cavendish_experiment_1798`），他还“分解了水”，发现了宇宙中最丰富的元素。",
+      "legacy_text_en": "Cavendish not only 'weighed the Earth' (`cavendish_experiment_1798`), he 'broke water' and found the most abundant element in the universe."
+    },
+  
+    "related_concepts": ["氢 (Hydrogen)", "易燃空气 (Inflammable Air)", "水 (Water)", "燃素说 (Phlogiston Theory)", "拉瓦锡 (Lavoisier)", "密度 (Density)", "气球 (Balloon)"],
+    "related_concepts_en": ["Hydrogen", "Inflammable Air", "Water", "Phlogiston Theory", "Lavoisier", "Density", "Balloon"],
+  
+    "quiz": {
+      "question": "当亨利·卡文迪许（Henry Cavendish）点燃他发现的“易燃空气”（氢气）时，产生的结果是什么，这让他感到震惊？",
+      "question_en": "What happened when Henry Cavendish ignited his 'Inflammable Air' (Hydrogen), shocking him with the result?",
+      "options": [
+        "它变成了黄金",
+        "它消失了，什么也没留下",
+        "它生成了“水”",
+        "它变成了石头"
+      ],
+      "options_en": [
+        "It turned into gold",
+        "It disappeared into nothing",
+        "It produced 'water'",
+        "It turned into stone"
+      ],
+      "answer": 2,
+      "explanation": "这是化学史上最重要的发现之一。在当时，水被认为是一种基本的“元素”（水、火、土、气）。卡文迪许证明了“气体”燃烧可以生成“液体”（水），从而证明水是一种“化合物”（由氢和氧组成）。",
+      "explanation_en": "This was one of the most important discoveries in chemistry. At the time, water was thought to be a basic 'element'. Cavendish proved that burning a 'gas' could create a 'liquid' (water), proving water is a 'compound' (of hydrogen and oxygen)."
+    }
+  }
