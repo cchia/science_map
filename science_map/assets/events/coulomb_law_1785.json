@@ -1,0 +1,156 @@
+{
+    "id": "coulomb_law_1785",
+    "personId": "charles_augustin_de_coulomb",
+    "title": "发表“库仑定律” (静电力)",
+    "title_en": "Publishes 'Coulomb's Law' (Electrostatic Force)",
+    "year": 1785,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "storyline_ids": ["electricity_story"],
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/CoulombsLaw_scal.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=TFlVWf8JX4A",
+        "title": "电荷与库仑定律 (Crash Course)",
+        "title_en": "Electric Charge: Crash Course Physics",
+        "duration": "9:41"
+      }
+    },
+    
+    "summary": {
+      "text": "法国物理学家查尔斯·库仑（Charles-Augustin de Coulomb）通过精密的实验，确立了静电学的基本定律。他发明了极其灵敏的“扭秤”(Torsion Balance)，测量了两个带电球体之间的微弱斥力和引力。他发现，电荷之间的力与它们电荷量的乘积成正比，与它们距离的平方成反比 (F ∝ q₁q₂/r²)。这一发现被称为“库仑定律”，它证明了电力遵循与万有引力相同的数学形式。",
+      "text_en": "French physicist Charles-Augustin de Coulomb established the fundamental law of electrostatics through precise experimentation. He invented the ultra-sensitive 'Torsion Balance' to measure the tiny repulsive and attractive forces between charged spheres. He discovered that the force between charges is proportional to the product of the charges and inversely proportional to the square of the distance (F ∝ q₁q₂/r²). This 'Coulomb's Law' proved that electrical force follows the same mathematical form as gravity.",
+      "key_points": [
+        "确立了“库仑定律”(Coulomb's Law)",
+        "F = k (q₁q₂ / r²)",
+        "证明电力遵循“平方反比定律”(Inverse-Square Law)",
+        "发明了“扭秤”(Torsion Balance)",
+        "使电学成为一门“定量”科学"
+      ],
+      "key_points_en": [
+        "Established 'Coulomb's Law'",
+        "F = k (q₁q₂ / r²)",
+        "Proved electric force follows the 'Inverse-Square Law'",
+        "Invented the 'Torsion Balance'",
+        "Turned electricity into a 'quantitative' science"
+      ]
+    },
+  
+    "story": {
+      "text": "在库仑之前，科学家（如富兰克林 `franklin_charge_1747`）只知道电有“吸引”和“排斥”的定性性质。库仑想要“测量”这种力到底有多大。他曾是一名军事工程师，擅长精密机械。他利用一根极细的银丝悬挂一根横杆，横杆一端有一个带电小球。当另一个带电球靠近时，斥力会使横杆转动，扭曲银丝。通过测量银丝“扭转的角度”，库仑能够精确计算出微小的电力。他惊讶地发现，电力的数学公式与牛顿的万有引力公式惊人地相似，只是把“质量”换成了“电荷”。",
+      "text_en": "Before Coulomb, scientists (like Franklin `franklin_charge_1747`) only knew the *qualitative* nature of electric attraction and repulsion. Coulomb wanted to *measure* exactly how strong this force was. A former military engineer skilled in precision mechanics, he suspended a needle on a fine silver wire. When a charged ball was brought near the needle's charged tip, the repulsion caused the needle to spin, twisting the wire. By measuring the 'angle of the twist', Coulomb could calculate the tiny electric force. He was amazed to find the math perfectly mirrored Newton's Gravity, just swapping 'mass' for 'charge'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bcoulomb.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "Unit",
+        "text": "为了纪念他的贡献，国际单位制中“电荷量”的单位被命名为“库仑”(Coulomb, C)。",
+        "text_en": "In his honor, the SI unit of 'electric charge' is named the 'Coulomb' (C)."
+      },
+      {
+        "icon": "⚖️",
+        "text": "库仑发明的“扭秤”非常灵敏和成功，以至于13年后，亨利·卡文迪许（`cavendish_experiment_1798`）直接借用了这个设计来测量（微弱得多的）引力，从而“称量了地球”。",
+        "text_en": "Coulomb's 'torsion balance' was so sensitive and successful that 13 years later, Henry Cavendish (`cavendish_experiment_1798`) borrowed the exact design to measure the (much weaker) force of gravity, 'weighing the Earth'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "库仑定律告诉我们“电”的推力或拉力有多强。它和引力非常像：\n1. 电荷越多，力越大。\n2. 距离越远，力越小（而且小得很快！）。\n如果你把两个带电体之间的距离拉大到原来的2倍，它们之间的力就会减弱到原来的1/4。库仑是第一个用精密的“扭秤”测出这个数学关系的人。",
+      "text_en": "Coulomb's Law tells us how strong the push or pull of electricity is. It's just like gravity:\n1. More charge means more force.\n2. More distance means less force (much less!).\nIf you move two charged objects twice as far apart, the force drops to 1/4. Coulomb was the first to measure this math using his precise 'twisting scale'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1f/CoulombsLaw_scal.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚡",
+          "title": "静电学 (Electrostatics)",
+          "title_en": "Electrostatics",
+          "text": "这是设计所有高压设备、复印机（利用静电吸附碳粉）和喷墨打印机的基础物理定律。",
+          "text_en": "This is the foundational law for designing high-voltage equipment, photocopiers (using static to hold toner), and inkjet printers."
+        },
+        {
+          "icon": "⚛️",
+          "title": "原子物理 (Atomic Physics)",
+          "title_en": "Atomic Physics",
+          "text": "库仑力是原子核（正电）“抓住”电子（负电）使其绕轨道运行的力，它是原子结构稳定的根本原因（直到量子力学修正它）。",
+          "text_en": "The Coulomb force is what holds the electron (negative) in orbit around the nucleus (positive); it is the fundamental glue of the atom."
+        }
+      ],
+  
+    "impact": {
+      "text": "库仑定律是电磁学的第一个定量定律。它将电学从“富兰克林时代”的定性描述，转变为“数学物理”的精密科学。它揭示了自然界中两种基本力（引力和电力）之间惊人的数学对称性，并直接为后来高斯（Gauss）、泊松（Poisson）和麦克斯韦（Maxwell）的理论大厦奠定了基石。",
+      "text_en": "Coulomb's Law was the first quantitative law of electromagnetism. It moved electricity from the qualitative descriptions of Franklin's era into the rigorous science of 'mathematical physics'. It revealed the stunning mathematical symmetry between nature's forces (gravity and electricity) and laid the cornerstone for the theoretical edifices of Gauss, Poisson, and Maxwell.",
+      "stats": [
+          {
+            "number": "1785",
+            "label": "年 (定律发表)",
+            "label_en": "Year (Law Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "newton_gravity_1687",
+          "contribution": "牛顿（其万有引力定律的“平方反比”形式是库仑预期的数学模型）",
+          "contribution_en": "Isaac Newton (his inverse-square law of gravity was the mathematical model Coulomb expected to find)"
+        },
+        {
+          "id": "franklin_charge_1747",
+          "contribution": "富兰克林（其“电荷守恒”和正负电概念是库仑测量的对象）",
+          "contribution_en": "Benjamin Franklin (his concept of 'charge conservation' and positive/negative were the objects of Coulomb's measurement)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "cavendish_experiment_1798",
+          "contribution": "卡文迪许（直接采用了库仑发明的“扭秤”来测量万有引力）",
+          "contribution_en": "Henry Cavendish (adopted Coulomb's 'torsion balance' directly to measure gravity)"
+        },
+        {
+          "id": "poisson_equation_1813",
+          "contribution": "泊松（将库仑定律推广为更强大的“泊松方程”，用于处理电势）",
+          "contribution_en": "Siméon Denis Poisson (generalized Coulomb's Law into the powerful 'Poisson's Equation' for electric potential)"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（库仑定律（高斯定律形式）是麦克斯韦方程组的第一条）",
+          "contribution_en": "Maxwell (Coulomb's Law, in the form of Gauss's Law, is the first of Maxwell's Equations)"
+        }
+      ],
+      "legacy_text": "库仑证明了电力不是魔法，而是遵循严格数学规律的自然力，就像引力一样。",
+      "legacy_text_en": "Coulomb proved electricity was not magic, but a force of nature obeying strict mathematical laws, just like gravity."
+    },
+  
+    "related_concepts": ["库仑定律 (Coulomb's Law)", "扭秤 (Torsion Balance)", "平方反比定律 (Inverse-Square Law)", "电荷 (Electric Charge)", "静电学 (Electrostatics)", "卡文迪许 (Cavendish)"],
+    "related_concepts_en": ["Coulomb's Law", "Torsion Balance", "Inverse-Square Law", "Electric Charge", "Electrostatics", "Cavendish"],
+  
+    "quiz": {
+      "question": "根据库仑定律，如果将两个带电粒子之间的距离增加到原来的2倍，它们之间的静电力会发生什么变化？",
+      "question_en": "According to Coulomb's Law, if you double the distance between two charged particles, what happens to the electrostatic force between them?",
+      "options": [
+        "力变为原来的 1/2",
+        "力变为原来的 1/4",
+        "力变为原来的 2 倍",
+        "力保持不变"
+      ],
+      "options_en": [
+        "The force becomes 1/2",
+        "The force becomes 1/4",
+        "The force becomes 2x",
+        "The force stays the same"
+      ],
+      "answer": 1,
+      "explanation": "库仑定律遵循“平方反比定律”(1/r²)。如果距离 r 变为 2r，那么力 F 就会变为 1/(2²) = 1/4。",
+      "explanation_en": "Coulomb's Law follows an 'inverse-square' relationship (1/r²). If the distance r becomes 2r, the force F becomes 1/(2²) = 1/4."
+    }
+  }

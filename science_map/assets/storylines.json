@@ -25,5 +25,36 @@
         "oppenheimer_snyder_black_hole_1939",
         "ligo_gravitational_waves_2015"
       ]
-    }
+    },
+
+    "electricity_story": {
+        "id": "electricity_story",
+        "title_zh": "电的革命",
+        "title_en": "The Revolution of Electricity",
+        "emoji": "⚡️",
+        "description_zh": "从摩擦琥珀的微弱火花，到照亮世界的电网和驱动信息的芯片。",
+        "description_en": "From the faint spark of amber to the grid that lights the world and the chips that drive information.",
+        "events": [
+        "thales_anaximander_BC580",
+        "gilbert_de_magnete_1600",
+        "guericke_static_generator_1663",
+        "leyden_jar_1745",
+        "franklin_kite_1752",
+        "coulomb_law_1785",
+        "galvani_animal_electricity_1791",
+        "volta_battery_1800",
+        "oersted_electromagnetism_1820",
+        "ampere_law_1826",
+        "faraday_induction_1831",
+        "maxwell_equations_1861",
+        "edison_light_bulb_1879",
+        "tesla_ac_motor_1887",
+        "hertz_waves_1887",
+        "marconi_radio_1895",
+        "fleming_diode_1904",
+        "de_forest_audion_1907",
+        "transistor_invention_1947"
+        ]
+    } 
+  
   }

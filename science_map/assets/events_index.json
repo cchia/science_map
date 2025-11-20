@@ -106,7 +106,6 @@
   "lobachevskian_geometry_1830",
   "lorentz_transformations_1904",
   "lummer_black_body_1899",
-  "maxwell_equations_1861",
   "medieval_scholasticism",
   "mendeleev_periodic_table_1869",
   "michelson_morley_1887",
@@ -215,5 +214,12 @@
   "cavendish_experiment_1798",
   "discovery_of_neptune_1846",
   "mercury_perihelion_1859",
-  "eddington_eclipse_1919"
+  "eddington_eclipse_1919",
+  "coulomb_law_1785",
+  "ampere_law_1826",
+  "maxwell_equations_1861",
+  "edison_light_bulb_1879",
+  "tesla_ac_motor_1887",
+  "bcs_theory_1957",
+  "transistor_invention_1947"
 ]

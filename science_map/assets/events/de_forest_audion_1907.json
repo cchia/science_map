@@ -10,6 +10,7 @@
     "city_en": "New York City (Patent Filed)",
     "country": "美国",
     "country_en": "United States",
+    "storyline_ids": ["electricity_story"],
     "field": ["物理学", "工程学", "计算机"],
     "field_en": ["Physics", "Engineering", "Computer Science"],
     

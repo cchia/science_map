@@ -1,0 +1,12 @@
+{
+    "name": "尼古拉·特斯拉",
+    "name_en": "Nikola Tesla",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d4/N.Tesla.JPG",
+    "bio_short": "塞尔维亚裔美国发明家、电气工程师和物理学家。他最著名的成就是设计了现代交流电 (AC) 供电系统，发明了感应电动机（`tesla_ac_motor_1887`）和特斯拉线圈，被誉为“创造20世纪的人”。",
+    "bio_short_en": "A Serbian-American inventor, electrical engineer, and physicist. He is best known for his contributions to the design of the modern alternating current (AC) electricity supply system, the induction motor (`tesla_ac_motor_1887`), and the Tesla coil. He is often called 'the man who invented the 20th century'.",
+    "events": [
+      "tesla_ac_motor_1887",
+      "tesla_coil_1891",
+      "tesla_remote_control_1898"
+    ]
+  }

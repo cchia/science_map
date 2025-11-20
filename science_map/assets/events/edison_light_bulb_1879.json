@@ -1,0 +1,173 @@
+{
+    "id": "edison_light_bulb_1879",
+    "personId": "thomas_edison",
+    "title": "发明实用的白炽灯泡",
+    "title_en": "Invents the Practical Incandescent Light Bulb",
+    "year": 1879,
+    "lat": 40.5187,
+    "lng": -74.4610,
+    "city": "门洛帕克",
+    "city_en": "Menlo Park, NJ",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_ids": ["electricity_story"],
+    "field": ["工程学", "物理学", "发明"],
+    "field_en": ["Engineering", "Physics", "Invention"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Light-bulbs.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=XWWgDn0C6DA",
+        "title": "托马斯·爱迪生发明灯泡",
+        "title_en": "Invention Of BULB",
+        "duration": "5:24"
+      }
+    },
+    
+    "summary": {
+      "text": "托马斯·爱迪生并没有“发明”第一个灯泡（斯旺等人更早），但他发明了第一个“商业实用”的白炽灯泡。在尝试了数千种材料（包括铂金和胡须）后，他发现“碳化棉线”（后来是碳化竹丝）在“高真空”玻璃泡中可以持续发光而不烧断。他在1879年10月22日进行的成功测试（持续亮了13.5小时）标志着“电气照明时代”的真正开始。",
+      "text_en": "Thomas Edison didn't 'invent' the first light bulb (Swan and others were earlier), but he invented the first 'commercially practical' incandescent bulb. After testing thousands of materials (including platinum and beard hair), he discovered that a 'carbonized cotton thread' (later carbonized bamboo) filament inside a 'high vacuum' glass bulb could glow without burning out. His successful test on October 22, 1879 (lasting 13.5 hours), marked the true beginning of the 'Age of Electric Lighting'.",
+      "key_points": [
+        "发明了第一个“实用”且“持久”的白炽灯",
+        "关键创新：高电阻碳丝 + 高真空",
+        "成功测试日期：1879年10月22日",
+        "使用了碳化棉线（后改为竹丝）",
+        "取代了煤气灯，开启了电气时代"
+      ],
+      "key_points_en": [
+        "Invented the first 'practical' and 'long-lasting' incandescent bulb",
+        "Key innovations: High-resistance carbon filament + High vacuum",
+        "Date of success: October 22, 1879",
+        "Used carbonized cotton thread (later bamboo)",
+        "Replaced gas lighting, starting the Electric Age"
+      ]
+    },
+  
+    "story": {
+      "text": "爱迪生的天才在于他不仅仅是在发明一个“灯”，而是在发明一个“系统”。其他的发明家（如斯旺）制造的灯泡电阻很低，这意味着它们需要巨大的电流和极粗的铜线，成本高得离谱。爱迪生反其道而行之，他寻找一种“高电阻”的灯丝。根据欧姆定律（`ohm_law_1827`，V=IR），高电阻意味着可以用较高的电压和较小的电流来获得同样的光，这使得铺设细铜线成为可能。经过对6000多种植物纤维的测试（所谓的“寻找合适的材料”），他终于找到了碳化竹丝，这种灯泡可以亮1200小时，使得电力照明在经济上变得可行。",
+      "text_en": "Edison's genius was that he wasn't just inventing a 'light', but a 'system'. Other inventors (like Swan) made bulbs with low resistance, which required massive currents and thick, expensive copper wires. Edison did the opposite: he hunted for a 'high resistance' filament. Based on Ohm's Law (`ohm_law_1827`, V=IR), high resistance meant he could use higher voltage and lower current to get the same light, making thin copper wires affordable. After testing over 6,000 plant fibers (the famous 'perspiration' vs. 'inspiration'), he found carbonized bamboo, which could burn for 1,200 hours, making electric light economically viable.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/76/Edison_bulb.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎋",
+        "text": "为了寻找完美的灯丝，爱迪生派探险队去世界各地的丛林（包括日本和亚马逊）寻找特殊的竹子。日本京都附近的“马达克竹”(Madake bamboo) 最终成为了赢家，被使用了十多年。",
+        "text_en": "To find the perfect filament, Edison sent expeditions to jungles worldwide (including Japan and the Amazon). 'Madake bamboo' from near Kyoto, Japan, was the winner and was used for over a decade."
+      },
+      {
+        "icon": "😴",
+        "text": "爱迪生以每晚只睡4小时而闻名。在研发灯泡的冲刺阶段，他和他的团队经常在实验室里连续工作数天，累了就在桌子底下打个盹。",
+        "text_en": "Edison was famous for sleeping only 4 hours a night. During the intense 'light bulb' research sprint, he and his team often worked for days straight, napping under lab benches."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在爱迪生之前，如果你想把电变成光，你只能制造“电弧”（像闪电一样），这太亮也太刺眼了，不适合在家里用。\n爱迪生想制造一种“温和”的光。他想：“如果我能让电流通过一根很细很细的线，把它‘烧’得发光，但不让它‘烧断’，那该多好？”\n秘密武器是：\n1. **碳**：这种材料能耐高温。\n2. **真空**：把玻璃泡里的空气全部抽走，没有氧气，碳丝就“无法燃烧”，只能一直“发光”。",
+      "text_en": "Before Edison, if you wanted electric light, you had to use an 'arc light' (like a welding spark)—too bright and harsh for a home.\nEdison wanted a 'gentle' light. He thought: 'What if I force electricity through a tiny thread, making it get so hot it glows, but keep it from burning up?'\nThe secret weapons were:\n1. **Carbon**: A material that can handle high heat.\n2. **Vacuum**: Pumping all the air out of the glass bulb. With no oxygen, the thread couldn't 'burn'; it could only sit there and 'glow'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/45/Light_bulb_Edison_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏠",
+          "title": "家庭照明",
+          "title_en": "Home Lighting",
+          "text": "这是第一个可以安全进入普通家庭的电灯，它终结了蜡烛和煤气灯的时代，改变了人类的作息时间。",
+          "text_en": "This was the first electric light safe for homes, ending the era of candles and gas lamps and changing human sleep patterns."
+        },
+        {
+          "icon": "🏭",
+          "title": "夜间生产",
+          "title_en": "Nighttime Productivity",
+          "text": "工厂现在可以通宵达旦地运转，极大地提高了工业生产力。",
+          "text_en": "Factories could now operate safely and efficiently 24/7, massively boosting industrial productivity."
+        },
+        {
+          "icon": "🔌",
+          "title": "电力网 (The Grid)",
+          "title_en": "The Electric Grid",
+          "text": "为了卖灯泡，爱迪生不得不建立发电站和电网（`edison_pearl_street_1882`），这奠定了现代公用事业的基础。",
+          "text_en": "To sell the bulbs, Edison had to build power stations and the grid (`edison_pearl_street_1882`), founding the modern utility industry."
+        }
+      ],
+  
+    "impact": {
+      "text": "爱迪生的灯泡不仅照亮了夜晚，它还“发明”了电力需求。为了让灯泡亮起来，必须建设发电厂、输电线路和家庭布线。这引发了第二次工业革命的电力高潮。虽然尼古拉·特斯拉（Nikola Tesla）后来改进了电力传输方式（交流电），但爱迪生的灯泡是这一切的“杀手级应用”——它是人们最初想要用电的*原因*。",
+      "text_en": "Edison's bulb didn't just light the night; it *invented* the demand for electricity. To run the bulbs, power plants, transmission lines, and home wiring had to be built, sparking the electric phase of the Industrial Revolution. While Nikola Tesla would later improve the delivery (AC), Edison's bulb was the 'killer app'—the reason people wanted electricity in the first place.",
+      "stats": [
+          {
+            "number": "13.5",
+            "label": "小时 (首次成功时长)",
+            "label_en": "Hours (First Success)"
+          },
+          {
+            "number": "1879",
+            "label": "年 (发明)",
+            "label_en": "Year (Invented)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "volta_battery_1800",
+          "contribution": "伏打（提供了早期实验所需的电流源）",
+          "contribution_en": "Alessandro Volta (provided the source of current for early experiments)"
+        },
+        {
+          "id": "davy_chemistry_1808",
+          "contribution": "戴维（汉弗莱·戴维实际上制造了第一个电弧灯，证明了电可以发光）",
+          "contribution_en": "Humphry Davy (who actually built the first electric 'arc lamp', proving electricity could make light)"
+        },
+        {
+          "id": "ohm_law_1827",
+          "contribution": "欧姆（爱迪生利用欧姆定律 V=IR，推导出必须使用“高电阻”灯丝才能降低铜线成本）",
+          "contribution_en": "Georg Ohm (Edison used Ohm's Law V=IR to deduce that a 'high resistance' filament was required to save copper costs)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "edison_pearl_street_1882",
+          "contribution": "（他自己）珍珠街发电站（为了供电给灯泡而建造的第一个中央发电系统）",
+          "contribution_en": "(Himself) Pearl Street Station (the first central power system built specifically to power these bulbs)"
+        },
+        {
+          "id": "edison_effect_1883",
+          "contribution": "（他自己）爱迪生效应（在改进灯泡时偶然发现了热电子发射，开启了电子时代）",
+          "contribution_en": "(Himself) The Edison Effect (accidentally discovered thermionic emission while trying to improve the bulb, starting the electronics age)"
+        },
+        {
+          "id": "tesla_ac_motor_1887",
+          "contribution": "特斯拉（为了将电力传输得更远以点亮更多灯泡，促使了交流电系统的发展）",
+          "contribution_en": "Nikola Tesla (the need to transmit power further to light more bulbs drove the development of AC systems)"
+        }
+      ],
+      "legacy_text": "爱迪生并没有发明光，但他发明了让光“廉价、安全且随手可得”的方法。",
+      "legacy_text_en": "Edison didn't invent light, but he invented the way to make light 'cheap, safe, and available at the flip of a switch'."
+    },
+  
+    "related_concepts": ["白炽灯 (Incandescent Bulb)", "灯丝 (Filament)", "真空 (Vacuum)", "碳化竹 (Carbonized Bamboo)", "约瑟夫·斯旺 (Joseph Swan)", "欧姆定律 (Ohm's Law)", "高电阻 (High Resistance)"],
+    "related_concepts_en": ["Incandescent Bulb", "Filament", "Vacuum", "Carbonized Bamboo", "Joseph Swan", "Ohm's Law", "High Resistance"],
+  
+    "quiz": {
+      "question": "托马斯·爱迪生的灯泡之所以能商业成功（而之前的灯泡失败了），关键的“技术突破”是什么？",
+      "question_en": "What was the key 'technical breakthrough' that made Edison's bulb commercially successful where others had failed?",
+      "options": [
+        "他使用了更强的电流",
+        "他使用了“高电阻”灯丝和“高真空”",
+        "他发明了玻璃",
+        "他使用了交流电"
+      ],
+      "options_en": [
+        "He used a stronger current",
+        "He used a 'high resistance' filament and a 'high vacuum'",
+        "He invented glass",
+        "He used Alternating Current (AC)"
+      ],
+      "answer": 1,
+      "explanation": "以前的灯泡（如斯旺的）电阻低，需要昂贵的粗铜线传输大电流。爱迪生利用欧姆定律，设计了“细长”的“高电阻”碳丝，这使得虽然电流小（省铜线），但发光效率高，且在高真空中不易烧断。",
+      "explanation_en": "Previous bulbs (like Swan's) had low resistance, requiring expensive thick copper wires for high current. Edison used Ohm's Law to design a 'thin, high-resistance' carbon filament. This allowed for low current (saving copper money) while still glowing brightly, and the high vacuum stopped it from burning out."
+    }
+  }

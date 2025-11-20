@@ -1,0 +1,10 @@
+{
+    "name": "詹姆斯·克拉克·麦克斯韦",
+    "name_en": "James Clerk Maxwell",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/b0/James-Clerk-Maxwell-1831-1879.jpg",
+    "bio_short": "苏格兰理论物理学家。他完成了物理学史上最伟大的统一之一，将电、磁和光统一为“电磁场”现象。他的方程组预言了电磁波的存在，并奠定了20世纪物理学的基石。",
+    "bio_short_en": "A Scottish theoretical physicist. He achieved one of the greatest unifications in physics history, uniting electricity, magnetism, and light as manifestations of the 'electromagnetic field'. His equations predicted electromagnetic waves and laid the foundation for 20th-century physics.",
+    "events": [
+      "maxwell_equations_1861"
+    ]
+  }

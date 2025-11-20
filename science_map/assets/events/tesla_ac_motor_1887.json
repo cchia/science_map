@@ -1,0 +1,158 @@
+{
+    "id": "tesla_ac_motor_1887",
+    "personId": "nikola_tesla",
+    "title": "发明交流感应电动机",
+    "title_en": "Invents the AC Induction Motor",
+    "year": 1887,
+    "lat": 40.7128,
+    "lng": -74.0060,
+    "city": "纽约市",
+    "city_en": "New York City",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_ids": ["electricity_story"],
+    "field": ["工程学", "物理学"],
+    "field_en": ["Engineering", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Silniki_by_Zureks.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=AQqyGNOP_3o",
+        "title": "特斯拉的交流感应电机是如何工作的？",
+        "title_en": "How does an Induction Motor work?",
+        "duration": "6:45"
+      }
+    },
+    
+    "summary": {
+      "text": "尼古拉·特斯拉（Nikola Tesla）发明了第一台实用的“交流感应电动机”(AC Induction Motor) 和相关的“多相交流电系统”。在此之前，电力工业主要由爱迪生的“直流电”(DC) 主导，但直流电无法长距离传输，且直流电机需要易损坏的“电刷”。特斯拉利用“旋转磁场”(Rotating Magnetic Field) 的原理，设计了一种不需要物理接触（无电刷）就能转动的马达。这一发明解决了交流电的“最后一公里”问题，使其能够驱动工厂机器，从而赢得了“电流之战”，确立了现代电力网的基础。",
+      "text_en": "Nikola Tesla invented the first practical 'AC Induction Motor' and the associated 'Polyphase System'. Before this, the industry was dominated by Edison's 'Direct Current' (DC), which could not be transmitted over long distances, and DC motors required high-maintenance 'brushes'. Tesla utilized the principle of the 'Rotating Magnetic Field' to design a motor that turned without physical contact (brushless). This invention solved the 'last mile' problem for AC, allowing it to power factories, winning the 'War of Currents' and establishing the foundation of the modern electric grid.",
+      "key_points": [
+        "发明了“感应电动机”(Induction Motor)",
+        "发现了“旋转磁场”(Rotating Magnetic Field) 原理",
+        "消除了电机中的“电刷”和“换向器”",
+        "赢得了“电流之战”(War of Currents)",
+        "使“交流电”(AC) 成为全球标准"
+      ],
+      "key_points_en": [
+        "Invented the 'Induction Motor'",
+        "Discovered the 'Rotating Magnetic Field' principle",
+        "Eliminated 'brushes' and 'commutators' in motors",
+        "Won the 'War of Currents'",
+        "Made 'Alternating Current' (AC) the global standard"
+      ]
+    },
+  
+    "story": {
+      "text": "特斯拉的灵感来源于他在布达佩斯公园散步时的一次顿悟。当他背诵歌德《浮士德》的诗句时，他脑海中突然浮现出一个“旋转的磁场”。当时的直流电机需要“电刷”来不断切换电流方向以保持旋转，这会产生火花并磨损。特斯拉的想法是：与其改变转子上的电流，不如改变定子上的磁场。他设计了一个使用“多相”交流电（相位错开的电流）的系统，使得线圈产生的磁场在空间中“旋转”。转子为了“追赶”这个旋转的磁场，就会自动转动起来。1888年，他将专利卖给了乔治·威斯汀豪斯（George Westinghouse），后者利用它在尼亚加拉大瀑布建造了世界上第一个大型交流发电站。",
+      "text_en": "Tesla's inspiration came in a flash of insight while walking in a park in Budapest. As he recited poetry from Goethe's 'Faust', he visualized a 'Rotating Magnetic Field'. DC motors of the time needed 'brushes' to mechanically switch current direction. Tesla's idea: instead of changing the current on the rotor, change the magnetic field on the stator. He designed a system using 'polyphase' AC (currents out of step with each other) so that the magnetic field 'rotated' in space. The rotor, trying to 'catch up' with this field, would spin automatically. In 1888, he sold the patents to George Westinghouse, who used them to build the first major AC power plant at Niagara Falls.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Rotatingfield.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🥚",
+        "text": "为了向投资者演示“旋转磁场”的原理，特斯拉在这个展览上表演了“哥伦布立蛋”：他把一个铜蛋放在桌子上，开启线圈，铜蛋不仅旋转起来，而且因为陀螺效应稳稳地“站”了起来。",
+        "text_en": "To demonstrate the 'rotating magnetic field' to investors, Tesla performed the 'Egg of Columbus' trick: he put a copper egg on a table and turned on the coils. The egg spun and, due to the gyroscopic effect, stood up on its end."
+      },
+      {
+        "icon": "🐘",
+        "text": "爱迪生为了抹黑特斯拉的交流电，发动了肮脏的宣传战，公开用交流电电死动物（包括一头名叫Topsy的大象），试图证明交流电“太危险”。但特斯拉最终还是赢了。",
+        "text_en": "To discredit Tesla's AC, Edison launched a dirty propaganda campaign, publicly electrocuting animals (including Topsy the elephant) to prove AC was 'too dangerous'. Tesla won anyway."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在特斯拉之前，马达就像一个必须有人（电刷）在后面推才能转的旋转木马，推的人很累且容易出错。\n特斯拉发明了一种“幽灵旋转木马”。他在木马周围放了一圈磁铁，让磁铁的力量像波浪一样“转圈”（旋转磁场）。中间的转子（木马）并没有接触任何东西，但它为了“追逐”周围那个看不见的磁场，就开始自己疯转起来。因为没有摩擦部件（电刷），这种马达非常耐用且强大。",
+      "text_en": "Before Tesla, electric motors were like a merry-go-round that needed someone (brushes) to physically push it every time it went around. It was messy and broke easily.\nTesla invented a 'ghost merry-go-round'. He put magnets around the outside and made their magnetic pull 'rotate' like a wave. The rotor in the middle didn't touch anything, but it started spinning to 'chase' the invisible magnetic field circling around it. Because there were no rubbing parts, it was incredibly durable and powerful.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Asynchronmotor_animation.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏭",
+          "title": "工业动力",
+          "title_en": "Industrial Power",
+          "text": "感应电机是现代工业的主力军。从传送带、水泵、风扇到大型机床，几乎所有工厂设备都由它驱动。",
+          "text_en": "The induction motor is the workhorse of modern industry. Conveyor belts, pumps, fans, and heavy machinery are almost all powered by it."
+        },
+        {
+          "icon": "🚗",
+          "title": "电动汽车 (Tesla)",
+          "title_en": "Electric Cars (Tesla)",
+          "text": "特斯拉汽车公司（Tesla, Inc.）的名字正是为了纪念他。其早期车型（如Model S）使用的正是改进版的“交流感应电机”。",
+          "text_en": "Tesla, Inc. is named after him. Its early cars (like the Model S) used an updated version of his 'AC induction motor'."
+        },
+        {
+          "icon": "🏠",
+          "title": "家用电器",
+          "title_en": "Home Appliances",
+          "text": "你家里的洗衣机、冰箱压缩机、空调风扇，里面装的都是特斯拉发明的电机。",
+          "text_en": "Your washing machine, refrigerator compressor, and A/C fans all contain the motor Tesla invented."
+        }
+      ],
+  
+    "impact": {
+      "text": "特斯拉的交流电机是第二次工业革命的核心技术之一。它打破了爱迪生直流电的距离限制，使得电力可以从遥远的发电厂（如水电站）高效地传输到数百英里外的城市和工厂。它奠定了现代“电网”的基础，让电力成为了像水和空气一样普及的资源。",
+      "text_en": "Tesla's AC motor was a core technology of the Second Industrial Revolution. It broke the distance limit of Edison's DC, allowing power to be transmitted efficiently from remote sources (like hydroelectric dams) to cities and factories hundreds of miles away. It laid the foundation for the modern 'Electric Grid', making electricity as ubiquitous as air and water.",
+      "stats": [
+          {
+            "number": "1887",
+            "label": "年 (申请专利)",
+            "label_en": "Year (Patent Filed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "faraday_induction_1831",
+          "contribution": "法拉第（其“电磁感应”是特斯拉电机的核心物理原理，电机名字由此而来）",
+          "contribution_en": "Faraday (his 'electromagnetic induction' is the core physics of the motor, hence the name)"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（其场论帮助特斯拉理解磁场在空间中的行为）",
+          "contribution_en": "Maxwell (his field theory helped Tesla understand how magnetic fields behave in space)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "westinghouse_niagara_1895",
+          "contribution": "乔治·威斯汀豪斯（购买了特斯拉的专利，并建造了尼亚加拉水电站，确立了交流电的胜利）",
+          "contribution_en": "George Westinghouse (bought Tesla's patents and built the Niagara Falls power plant, sealing the victory of AC)"
+        },
+        {
+          "id": "modern_power_grid_1900",
+          "contribution": "现代电网（完全建立在特斯拉的三相交流电系统之上）",
+          "contribution_en": "The Modern Power Grid (built entirely on Tesla's polyphase AC system)"
+        }
+      ],
+      "legacy_text": "尼古拉·特斯拉让世界通了“交流电”，并给了它一颗跳动的“心脏”（感应电机）。",
+      "legacy_text_en": "Nikola Tesla wired the world for 'AC' and gave it a beating 'heart' (the induction motor)."
+    },
+  
+    "related_concepts": ["感应电机 (Induction Motor)", "交流电 (Alternating Current)", "旋转磁场 (Rotating Magnetic Field)", "电流之战 (War of Currents)", "多相系统 (Polyphase System)", "爱迪生 (Edison)", "威斯汀豪斯 (Westinghouse)"],
+    "related_concepts_en": ["Induction Motor", "Alternating Current", "Rotating Magnetic Field", "War of Currents", "Polyphase System", "Edison", "Westinghouse"],
+  
+    "quiz": {
+      "question": "特斯拉的“感应电机”解决了当时直流电机（DC Motor）的什么主要缺陷？",
+      "question_en": "What major flaw of existing DC motors did Tesla's 'Induction Motor' solve?",
+      "options": [
+        "直流电机太小了",
+        "直流电机需要“电刷”和“换向器”，容易产生火花且易磨损",
+        "直流电机不能使用电池",
+        "直流电机转得太快"
+      ],
+      "options_en": [
+        "DC motors were too small",
+        "DC motors needed 'brushes' and 'commutators' which sparked and wore out",
+        "DC motors couldn't use batteries",
+        "DC motors spun too fast"
+      ],
+      "answer": 1,
+      "explanation": "特斯拉利用“旋转磁场”的原理，使得转子可以“感应”电流并旋转，而不需要任何物理接触（电刷）来传输电流。这使得电机更耐用、更高效，且无需维护。",
+      "explanation_en": "Tesla used the 'rotating magnetic field' to induce current in the rotor, eliminating the need for physical contacts (brushes) to transfer electricity. This made the motor durable, efficient, and maintenance-free."
+    }
+  }

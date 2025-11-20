@@ -1,7 +1,168 @@
 {
   "id": "maxwell_equations_1861",
-  "title": "Maxwell Equations",
-  "title_en": "Maxwell Equations",
+  "personId": "james_clerk_maxwell",
+  "title": "发表麦克斯韦方程组 (统一电磁学)",
+  "title_en": "Publishes Maxwell's Equations (Unification of Electromagnetism)",
   "year": 1861,
-  "is_stub": true
+  "lat": 51.5115,
+  "lng": -0.1160,
+  "city": "伦敦",
+  "city_en": "London",
+  "country": "英国",
+  "country_en": "United Kingdom",
+  "storyline_ids": ["electricity_story"],
+  "field": ["物理学", "数学"],
+  "field_en": ["Physics", "Mathematics"],
+  
+  "media": {
+    "event_image": "assets/images/maxwell_equations.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=K40lNL3KsJ4&t=10s",
+      "title": "麦克斯韦方程组",
+      "title_en": "Maxwell's Equations: Crash Course Physics",
+      "duration": "10:48"
+    }
+  },
+  
+  "summary": {
+    "text": "苏格兰物理学家詹姆斯·克拉克·麦克斯韦（James Clerk Maxwell）在1861年至1865年间发表了一系列论文，完成了物理学史上最伟大的“统一”。他将高斯（电场/磁场）、安培（电流）和法拉第（感应）的实验定律汇编在一起，并添加了一个关键的数学修正项——“位移电流”(Displacement Current)。这组方程（麦克斯韦方程组）不仅统一了电和磁，还预言了“电磁波”的存在，并计算出这种波的速度恰好等于“光速”。麦克斯韦因此得出结论：光本身就是一种电磁波。",
+    "text_en": "Scottish physicist James Clerk Maxwell published a series of papers between 1861 and 1865 that achieved the greatest 'unification' in physics history. He synthesized the experimental laws of Gauss (electric/magnetic fields), Ampère (current), and Faraday (induction), and added a crucial mathematical correction: the 'Displacement Current'. This set of equations (Maxwell's Equations) not only unified electricity and magnetism but also predicted the existence of 'electromagnetic waves' and calculated their speed to be exactly the 'speed of light'. Maxwell thus concluded: Light itself is an electromagnetic wave.",
+    "key_points": [
+      "统一了“电”和“磁”为“电磁学”(Electromagnetism)",
+      "引入了“位移电流”(Displacement Current) 修正安培定律",
+      "预言了“电磁波”(Electromagnetic Waves) 的存在",
+      "计算出电磁波速度 = 光速 (c = 1/√(ε₀μ₀))",
+      "结论：“光”是一种电磁波"
+    ],
+    "key_points_en": [
+      "Unified 'Electricity' and 'Magnetism' into 'Electromagnetism'",
+      "Introduced 'Displacement Current' to fix Ampère's Law",
+      "Predicted the existence of 'Electromagnetic Waves'",
+      "Calculated wave speed = Speed of Light (c = 1/√(ε₀μ₀))",
+      "Conclusion: 'Light' is an electromagnetic wave"
+    ]
+  },
+
+  "story": {
+    "text": "在麦克斯韦之前，法拉第（`faraday_induction_1831`）提出了“场”的概念，但他不懂数学。安培（`ampere_law_1826`）的定律在处理电容器（断路）时会在数学上失效（电荷守恒被打破）。麦克斯韦为了修复这个数学漏洞，天才地引入了一个名为“位移电流”的虚拟电流项。当他整理好这组方程后，他发现它们可以组合成一个“波动方程”。当他把当时已知的电学常数（介电常数和磁导率）代入公式计算波速时，得到的数值（约310,740 km/s）与当时测量的光速惊人地接近。他激动地写道：“我们难以回避这样的推论：光就是...以波的形式传播的电磁场。”",
+    "text_en": "Before Maxwell, Faraday (`faraday_induction_1831`) had the concept of 'fields' but no math. Ampère's Law (`ampere_law_1826`) mathematically 'broke' when applied to a capacitor (breaking charge conservation). To fix this hole, Maxwell brilliantly introduced a virtual current called 'Displacement Current'. When he arranged his corrected equations, he found they could be combined into a 'Wave Equation'. When he plugged in the known electrical constants (permittivity and permeability) to calculate the speed, the result (~310,740 km/s) was shockingly close to the measured speed of light. He famously wrote: 'We can scarcely avoid the conclusion that light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena.'",
+    "diagram": "assets/images/em_waves.png"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "📝",
+      "text": "麦克斯韦最初的论文中有20个复杂的方程。我们今天看到的优美的“4个方程”版本，实际上是由奥利弗·黑维塞（Oliver Heaviside）后来简化和重写的（使用矢量分析）。",
+      "text_en": "Maxwell's original papers contained 20 complex equations. The elegant '4 equations' we see today were actually simplified and rewritten (using vector calculus) later by Oliver Heaviside."
+    },
+    {
+      "icon": "🖼️",
+      "text": "爱因斯坦的书房墙上挂着三位科学家的照片：牛顿、法拉第和麦克斯韦。爱因斯坦说：“狭义相对论起源于麦克斯韦方程组。”",
+      "text_en": "Einstein kept photos of three scientists on his study wall: Newton, Faraday, and Maxwell. Einstein said, 'The special theory of relativity owes its origins to Maxwell's equations of the electromagnetic field.'"
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "麦克斯韦发现了“电”和“磁”是如何“跳舞”的。法拉第告诉我们“变化的磁场产生电”，麦克斯韦补充说“变化的电场也能产生磁”。这意味着，电场和磁场可以像两个舞伴一样，互相“产生”对方，在空间中不仅不需要导线，甚至不需要空气，就能一直传下去。这种“自我维持的波”跑得飞快，麦克斯韦一算：“嘿，这跑得和光一样快！” 于是他发现了天大的秘密：光就是飞行的电磁波。",
+    "text_en": "Maxwell figured out how 'Electricity' and 'Magnetism' dance together. Faraday showed 'changing magnets make electricity'. Maxwell added 'changing electricity makes magnetism'. This means an electric field and a magnetic field can create *each other*, leapfrogging through empty space without any wires. This 'self-sustaining wave' travels incredibly fast. Maxwell did the math and said, 'Hey, that's the speed of light!' He discovered the big secret: Light *is* a flying electromagnetic wave.",
+    "diagram": "assets/images/light_spectrum.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "📡",
+        "title": "无线通信",
+        "title_en": "Wireless Communication",
+        "text": "麦克斯韦预言了“无线电波”的存在，这直接导致了赫兹（`hertz_waves_1887`）的发现和后来马可尼（`marconi_radio_1895`）的发明。",
+        "text_en": "Maxwell predicted the existence of 'radio waves', leading directly to Hertz's discovery (`hertz_waves_1887`) and Marconi's invention (`marconi_radio_1895`)."
+      },
+      {
+        "icon": "💡",
+        "title": "光学",
+        "title_en": "Optics",
+        "text": "通过证明光是电磁波，他将“光学”和“电磁学”统一了起来，解释了偏振、反射和折射的本质。",
+        "text_en": "By proving light is an EM wave, he unified 'Optics' and 'Electromagnetism', explaining the nature of polarization, reflection, and refraction."
+      },
+      {
+        "icon": "🚀",
+        "title": "相对论",
+        "title_en": "Relativity",
+        "text": "麦克斯韦方程组中“光速恒定”（c）的特性，是爱因斯坦推导“狭义相对论”（`einstein_special_relativity_1905`）的直接出发点。",
+        "text_en": "The feature of Maxwell's equations that the 'speed of light is constant' (c) was the direct starting point for Einstein's 'Special Relativity' (`einstein_special_relativity_1905`)."
+      }
+    ],
+
+  "impact": {
+    "text": "麦克斯韦方程组是经典物理学的巅峰，被诺贝尔奖得主费曼称为“19世纪最重大的事件”。它完成了继牛顿之后的第二次大统一（电、磁、光）。它不仅开启了电气和通讯时代，更因为其与牛顿力学的内在矛盾（光速不变 vs 速度叠加），直接孕育了20世纪的相对论革命。",
+    "text_en": "Maxwell's Equations are the summit of classical physics, called 'the most significant event of the 19th century' by Feynman. It achieved the second great unification (Electricity, Magnetism, Light) after Newton. It not only launched the age of electronics and comms but, due to its conflict with Newtonian mechanics (constant light speed), directly birthed the 20th-century revolution of Relativity.",
+    "stats": [
+        {
+          "number": "4",
+          "label": "个方程 (现代形式)",
+          "label_en": "Equations (Modern Form)"
+        },
+        {
+          "number": "299,792",
+          "label": "km/s (预测光速)",
+          "label_en": "km/s (Predicted Speed)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "faraday_induction_1831",
+        "contribution": "法拉第（麦克斯韦的数学不仅解释了法拉第的“感应”，还采用了法拉第的“场”的概念）",
+        "contribution_en": "Michael Faraday (Maxwell's math explained Faraday's 'induction' and adopted his concept of 'fields')"
+      },
+      {
+        "id": "ampere_law_1826",
+        "contribution": "安培（麦克斯韦修正了安培定律，加入了位移电流）",
+        "contribution_en": "André-Marie Ampère (Maxwell corrected Ampère's Law by adding the displacement current)"
+      },
+      {
+        "id": "coulomb_law_1785",
+        "contribution": "库仑（麦克斯韦方程组的第一组——高斯定律——包含了库仑定律）",
+        "contribution_en": "Coulomb (The first of Maxwell's equations—Gauss's Law—encapsulates Coulomb's Law)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "hertz_waves_1887",
+        "contribution": "赫兹（其实验的唯一目的就是“证实”麦克斯韦关于电磁波的预言）",
+        "contribution_en": "Heinrich Hertz (whose experiment's sole purpose was to 'verify' Maxwell's prediction of EM waves)"
+      },
+      {
+        "id": "einstein_special_relativity_1905",
+        "contribution": "爱因斯坦（狭义相对论是为了解决麦克斯韦方程组与牛顿力学之间的矛盾而诞生的）",
+        "contribution_en": "Einstein (Special Relativity was born to resolve the conflict between Maxwell's Equations and Newtonian mechanics)"
+      }
+    ],
+    "legacy_text": "麦克斯韦用数学点亮了世界，他证明了光只是电和磁的波动。",
+    "legacy_text_en": "Maxwell lit up the world with mathematics, proving that light is just a ripple of electricity and magnetism."
+  },
+
+  "related_concepts": ["电磁波 (Electromagnetic Waves)", "光速 (Speed of Light)", "位移电流 (Displacement Current)", "法拉第 (Faraday)", "安培 (Ampère)", "高斯定律 (Gauss's Law)", "黑维塞 (Heaviside)"],
+  "related_concepts_en": ["Electromagnetic Waves", "Speed of Light", "Displacement Current", "Faraday", "Ampère", "Gauss's Law", "Heaviside"],
+
+  "quiz": {
+    "question": "麦克斯韦在整合电磁定律时，引入了什么关键概念，从而预言了电磁波的存在？",
+    "question_en": "What key concept did Maxwell introduce when unifying the laws of electromagnetism, which led to the prediction of electromagnetic waves?",
+    "options": [
+      "电子 (Electron)",
+      "位移电流 (Displacement Current)",
+      "以太 (Aether)",
+      "引力波 (Gravitational Wave)"
+    ],
+    "options_en": [
+      "The Electron",
+      "Displacement Current",
+      "The Aether",
+      "Gravitational Wave"
+    ],
+    "answer": 1,
+    "explanation": "安培定律在断开的电路（如电容器）中不成立。麦克斯韦引入了“位移电流”项来修补这个漏洞。正是这一项表明，变化的电场可以产生磁场，从而允许电场和磁场在空间中相互激发，形成波。",
+    "explanation_en": "Ampère's Law failed in open circuits (like capacitors). Maxwell added the 'Displacement Current' term to fix this. It was *this* term that showed a changing electric field creates a magnetic field, allowing the two fields to propagate each other as a wave."
+  }
 }

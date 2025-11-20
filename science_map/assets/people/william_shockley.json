@@ -1,0 +1,10 @@
+{
+    "name": "威廉·肖克利",
+    "name_en": "William Shockley",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shockley.jpg",
+    "bio_short": "美国物理学家和发明家。他领导了贝尔实验室的晶体管研发团队，并独立发明了更先进的“结型晶体管”。他因晶体管的发明（`transistor_invention_1947`）获得1956年诺贝尔奖，并被誉为“硅谷之父”。",
+    "bio_short_en": "An American physicist and inventor. He led the Bell Labs transistor team and independently invented the superior 'junction transistor'. He shared the 1956 Nobel Prize for the invention of the transistor (`transistor_invention_1947`) and is known as the 'Father of Silicon Valley'.",
+    "events": [
+      "transistor_invention_1947"
+    ]
+  }
