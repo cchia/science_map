@@ -1,0 +1,12 @@
+{
+    "name": "勒内·笛卡尔",
+    "name_en": "René Descartes",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+    "bio_short": "法国哲学家、数学家和物理学家，被誉为“现代哲学之父”。他发明了“解析几何”（笛卡尔坐标系），将代数与几何结合，并确立了光的折射定律（`descartes_optics_1637`）。",
+    "bio_short_en": "A French philosopher, mathematician, and physicist, known as the 'Father of Modern Philosophy'. He invented 'Analytic Geometry' (Cartesian coordinates), bridging algebra and geometry, and established the law of light refraction (`descartes_optics_1637`).",
+    "events": [
+      "descartes_optics_1637",
+      "descartes_geometry_1637",
+      "descartes_philosophy_1641"
+    ]
+  }

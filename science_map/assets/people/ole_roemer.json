@@ -1,0 +1,10 @@
+{
+    "name": "奥勒·罗默",
+    "name_en": "Ole Rømer",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/b3/R%C3%B8mer%2C_Ole_%28ur_Ber%C3%B8mte_danske_maend%29.jpg",
+    "bio_short": "丹麦天文学家。他在1676年通过观测木星卫星（木卫一）的掩食现象，历史上首次证明了“光速是有限的”，推翻了光是瞬间传播的旧观念。",
+    "bio_short_en": "A Danish astronomer. In 1676, he became the first person in history to demonstrate that the speed of light is finite (not instantaneous) by observing the eclipses of Jupiter's moon Io.",
+    "events": [
+      "roemer_speed_of_light_1676"
+    ]
+  }

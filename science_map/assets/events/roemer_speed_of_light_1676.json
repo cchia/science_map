@@ -1,0 +1,153 @@
+{
+    "id": "roemer_speed_of_light_1676",
+    "personId": "ole_roemer",
+    "title": "首次测定光速 (光是有限速度)",
+    "title_en": "First Determination of the Speed of Light (Light has Finite Speed)",
+    "year": 1676,
+    "lat": 48.8361,
+    "lng": 2.3372,
+    "city": "巴黎 (巴黎天文台)",
+    "city_en": "Paris (Paris Observatory)",
+    "country": "法国",
+    "country_en": "France",
+    "field": ["天文学", "物理学"],
+    "field_en": ["Astronomy", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Earth_to_Sun_-_en.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Jl1I4MA-TaU",
+        "title": "罗默如何测量光速",
+        "title_en": "How Rømer Measured the Speed of Light",
+        "duration": "16:26"
+      }
+    },
+    
+    "summary": {
+      "text": "丹麦天文学家奥勒·罗默（Ole Rømer）在巴黎天文台工作时，通过长期观测木星卫星“木卫一”(Io) 的“食”（Eclipse），做出了物理学史上的一个根本性发现。他注意到，当地球远离木星时，木卫一的食会出现“延迟”；当地球靠近木星时，食会“提前”。他正确地推断出，这不是卫星运动的不规则，而是因为“光需要时间”来跨越地球和木星之间增加的距离。他计算出光穿越地球轨道直径大约需要22分钟（实际约16.5分钟）。这是人类历史上第一次证明“光速是有限的”，而非瞬间传播。",
+      "text_en": "Danish astronomer Ole Rømer, working at the Paris Observatory, made a fundamental discovery by observing the eclipses of Jupiter's moon 'Io'. He noticed that the eclipses happened 'later' than predicted when Earth was moving away from Jupiter, and 'earlier' when Earth was moving closer. He correctly deduced this was not an irregularity in the moon's orbit, but because 'light takes time' to travel the extra distance. He calculated it took light about 22 minutes to cross Earth's orbit diameter. This was the first proof in history that the speed of light is *finite*, not instantaneous.",
+      "key_points": [
+        "证明了光速是“有限的”(Finite)",
+        "利用了“木卫一”(Io) 的掩食现象作为“时钟”",
+        "观察到了“时间延迟”(Time Lag) 与距离的关系",
+        "推翻了亚里士多德和笛卡尔“光是瞬间传播”的观点"
+      ],
+      "key_points_en": [
+        "Proved the speed of light is 'Finite'",
+        "Used 'Io's eclipses' as a cosmic 'clock'",
+        "Observed the correlation between 'Time Lag' and distance",
+        "Disproved the Aristotelian/Cartesian view that light is 'instantaneous'"
+      ]
+    },
+  
+    "story": {
+      "text": "罗默最初的任务其实很实用：他想利用木卫一频繁且规律的“食”（每42.5小时一次）作为一个“宇宙时钟”，来帮助海上的水手确定“经度”。为了编制精确的时间表，他收集了多年的观测数据。他发现了一个令人困惑的模式：如果根据地球最近时的观测来预测，那么当地球运行到太阳对面（离木星最远）时，木卫一的食总是比预定时间晚了约22分钟（实际上是16分钟左右）。他的老板卡西尼（Cassini）也注意到了这一点，但不想放弃旧理论。罗默则大胆地宣布：这22分钟是光走过地球轨道直径所需的时间。他在1676年向法国科学院预言了下一次食的确切“延迟”时间，结果分秒不差。",
+      "text_en": "Rømer's original task was practical: to use the frequent, regular eclipses of Io (every 42.5 hours) as a 'cosmic clock' to help sailors find 'longitude'. He gathered years of data to make a schedule. He found a puzzling pattern: if he made predictions based on when Earth was closest, the eclipses were ~22 minutes *late* when Earth was on the other side of the Sun (farthest away). His boss, Cassini, noticed this too but hesitated to abandon old theories. Rømer boldly announced: that 22 minutes is the time light takes to cross Earth's orbit. He predicted the exact 'delay' for the next eclipse in 1676 to the French Academy, and he was exactly right.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/79/Illustration_from_1676_article_on_Ole_R%C3%B8mer%27s_measurement_of_the_speed_of_light.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🙅‍♂️",
+        "text": "尽管罗默的证据确凿，但他著名的上司乔瓦尼·卡西尼（Giovanni Cassini）直到去世都拒绝接受“光速有限”的观点。",
+        "text_en": "Despite Rømer's solid evidence, his famous boss, Giovanni Cassini, refused to accept the idea of 'finite light speed' until his death."
+      },
+      {
+        "icon": "🧮",
+        "text": "罗默并没有计算出光速的具体数值（如 300,000 km/s），因为当时还没人知道地球轨道的精确直径。是克里斯蒂安·惠更斯后来利用罗默的数据计算出了具体的数值。",
+        "text_en": "Rømer didn't actually calculate a speed in km/s (like 300,000), because no one knew the exact diameter of Earth's orbit yet. It was Christiaan Huygens who later used Rømer's data to calculate the actual number."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你在给远方的朋友寄信。如果你搬家搬得离朋友更远了，信就需要更长的时间才能到达。\n罗默发现，“光”就像这封信。木卫一就像一个定期发出的“闪光信号”。当我们将地球移到离木星更远的地方时，我们看到那个“闪光”的时间就变晚了。这证明光不是“瞬间”到达的，它像信使一样，需要时间来跑过这段路程。",
+      "text_en": "Imagine sending a letter to a friend. If you move further away from your friend, the letter takes longer to arrive.\nRømer found that 'light' is like that letter. Io acts like a 'flash signal' sent on a schedule. When Earth moved further away from Jupiter, we saw that 'flash' later than expected. This proved light doesn't arrive 'instantly'; it takes time to travel the distance, like a messenger.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/79/Illustration_from_1676_article_on_Ole_R%C3%B8mer%27s_measurement_of_the_speed_of_light.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔭",
+          "title": "天文学测量",
+          "title_en": "Astronomical Measurement",
+          "text": "确立了光速是有限的，这意味着当我们看遥远的宇宙时，我们看到的是“过去”。这是现代天文学的基础。",
+          "text_en": "Establishing that light speed is finite meant that looking at the distant universe is looking into the *past*. This is the basis of modern astronomy."
+        },
+        {
+          "icon": "📡",
+          "title": "导航与GPS",
+          "title_en": "Navigation & GPS",
+          "text": "虽然罗默是为了经度而研究，但光速有限这一事实，正是现代GPS定位（通过测量信号延迟）的核心原理。",
+          "text_en": "Although Rømer was working on longitude, the fact of finite light speed is the core principle of modern GPS (which works by measuring signal delay)."
+        }
+      ],
+  
+    "impact": {
+      "text": "罗默的发现是物理学认识论的一次巨大飞跃。在此之前，包括开普勒和笛卡尔在内的大多数思想家都认为光是瞬间传播的。证明光有速度，意味着它是一种“物理实体”，在空间中运动。这一发现直接影响了惠更斯的波动理论（`huygens_wave_theory_1690`）和后来麦克斯韦（`maxwell_equations_1861`）对光速的计算。",
+      "text_en": "Rømer's discovery was a massive leap in physics epistemology. Before this, most thinkers (including Kepler and Descartes) thought light was instantaneous. Proving it had speed meant it was a 'physical entity' moving through space. This directly influenced Huygens's wave theory (`huygens_wave_theory_1690`) and later Maxwell's calculation (`maxwell_equations_1861`) of light speed.",
+      "stats": [
+          {
+            "number": "22",
+            "label": "分钟 (当时测得的延迟)",
+            "label_en": "Minutes (Calculated Delay)"
+          },
+          {
+            "number": "1676",
+            "label": "年 (发现年份)",
+            "label_en": "Year Discovered"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "galileo_telescope_1610",
+          "contribution": "伽利略（发现木星卫星，提供了罗默所需的“时钟”）",
+          "contribution_en": "Galileo (discovered the moons of Jupiter, providing the 'clock' Rømer needed)"
+        },
+        {
+          "id": "cassini_saturn_moons_1671",
+          "contribution": "卡西尼（作为罗默的导师，制定了观测木星卫星的计划）",
+          "contribution_en": "Cassini (as Rømer's mentor, set up the program to observe Jupiter's moons)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "huygens_wave_theory_1690",
+          "contribution": "惠更斯（利用罗默的数据，首次计算出了光速的数值，并将其作为波动说的证据）",
+          "contribution_en": "Huygens (used Rømer's data to calculate the numerical speed of light for the first time, supporting his wave theory)"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（当他计算出电磁波速度与罗默/惠更斯的光速一致时，确认了光是电磁波）",
+          "contribution_en": "Maxwell (when his calculated EM wave speed matched Rømer/Huygens's light speed, it confirmed light was an EM wave)"
+        }
+      ],
+      "legacy_text": "罗默是第一个告诉我们，当我们仰望星空时，我们看到的不是“现在”，而是“历史”。",
+      "legacy_text_en": "Rømer was the first to tell us that when we look at the stars, we are seeing 'history', not the 'present'."
+    },
+  
+    "related_concepts": ["光速 (Speed of Light, c)", "木卫一 (Io)", "经度 (Longitude)", "多普勒效应 (Doppler Effect)", "日食/月食 (Eclipse)"],
+    "related_concepts_en": ["Speed of Light (c)", "Io", "Longitude", "Doppler Effect", "Eclipse"],
+  
+    "quiz": {
+      "question": "奥勒·罗默（Ole Rømer）通过观测什么现象，发现了光速是有限的？",
+      "question_en": "What phenomenon did Ole Rømer observe to discover that the speed of light is finite?",
+      "options": [
+        "地球上的灯塔信号延迟",
+        "木星卫星（木卫一）的食发生时间的延迟",
+        "太阳黑子的移动速度",
+        "月球表面的阴影变化"
+      ],
+      "options_en": [
+        "The delay of lighthouse signals on Earth",
+        "The time delay in the eclipses of Jupiter's moon (Io)",
+        "The movement speed of sunspots",
+        "The changing shadows on the Moon"
+      ],
+      "answer": 1,
+      "explanation": "罗默发现，当地球运行到离木星较远的位置时，木卫一进入阴影（食）的时间比预期的要晚。这额外的时间就是光跨越额外距离所需的时间。",
+      "explanation_en": "Rømer noticed that when Earth was farther from Jupiter, the eclipse of Io happened later than expected. This extra time was the time light took to travel the extra distance."
+    }
+  }

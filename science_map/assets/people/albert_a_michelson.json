@@ -1,0 +1,11 @@
+{
+    "name": "阿尔伯特·A·迈克尔逊",
+    "name_en": "Albert A. Michelson",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Albert_Abraham_Michelson2.jpg",
+    "bio_short": "美国物理学家，第一位获得诺贝尔科学奖的美国人。他以对光速的精密测量和著名的“迈克尔逊-莫雷实验”（否定了以太的存在）而闻名。",
+    "bio_short_en": "An American physicist and the first American to win a Nobel Prize in science. He is famous for his precise measurements of the speed of light and the 'Michelson-Morley experiment' which disproved the existence of the aether.",
+    "events": [
+      "michelson_morley_1887",
+      "michelson_speed_of_light_1879"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "罗杰·培根",
+    "name_en": "Roger Bacon",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Roger-bacon-statue.jpg",
+    "bio_short": "英国中世纪哲学家和方济各会修士，被称为“奇异博士”(Doctor Mirabilis)。他是实验科学方法的早期倡导者，在光学（`roger_bacon_optics_1267`）和火药配方方面做出了重要贡献，并预言了未来的机械技术。",
+    "bio_short_en": "An English medieval philosopher and Franciscan friar, known as 'Doctor Mirabilis'. He was an early advocate of the experimental scientific method, made significant contributions to optics (`roger_bacon_optics_1267`) and gunpowder formulas, and predicted future mechanical technologies.",
+    "events": [
+      "roger_bacon_optics_1267"
+    ]
+  }

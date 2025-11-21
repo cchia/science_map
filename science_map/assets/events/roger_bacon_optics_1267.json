@@ -1,0 +1,150 @@
+{
+    "id": "roger_bacon_optics_1267",
+    "personId": "roger_bacon",
+    "title": "完成《大著作》(Opus Majus) 与光学研究",
+    "title_en": "Completes 'Opus Majus' (Optics and Experimental Science)",
+    "year": 1267,
+    "lat": 51.7520,
+    "lng": -1.2577,
+    "city": "牛津",
+    "city_en": "Oxford",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学", "光学", "哲学"],
+    "field_en": ["Physics", "Optics", "Philosophy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Roger_Bacon-1.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6NzHLz5l4vM",
+        "title": "罗杰·培根：实验科学之父",
+        "title_en": "ROGER BACON - Advocate of Experimental Science",
+        "duration": "2:35"
+      }
+    },
+    
+    "summary": {
+      "text": "罗杰·培根（Roger Bacon），被称为“奇异博士”(Doctor Mirabilis)，在1267年完成了他的巨著《大著作》(Opus Majus) 并将其秘密寄给了教皇克莱门特四世。在这本书中，他大力提倡“实验科学”(Scientia Experimentalis)，反对仅凭盲从权威（如亚里士多德）。在光学部分，他深受阿拉伯学者海什木（Alhazen）的影响，详细描述了眼睛的解剖结构、光的折射和反射，并正确地提出凸透镜可以用于矫正视力（即眼镜的原理）。",
+      "text_en": "Roger Bacon, known as 'Doctor Mirabilis', completed his magnum opus 'Opus Majus' in 1267 and secretly sent it to Pope Clement IV. In it, he passionately advocated for 'Experimental Science' (Scientia Experimentalis) over blind reliance on authority. In the section on optics, heavily influenced by the Arab scholar Ibn al-Haytham (Alhazen), he detailed the anatomy of the eye, reflection, and refraction, and correctly proposed that convex lenses could be used to correct vision (the principle of eyeglasses).",
+      "key_points": [
+        "提倡“实验科学”方法",
+        "将海什木 (`ibn_al_haytham_optics_1021`) 的光学引入欧洲",
+        "描述了透镜矫正视力的原理（眼镜）",
+        "预言了望远镜、显微镜和动力机械",
+        "记录了火药的配方"
+      ],
+      "key_points_en": [
+        "Advocated for the 'Experimental Science' method",
+        "Introduced Ibn al-Haytham's (`ibn_al_haytham_optics_1021`) optics to Europe",
+        "Described the principle of lenses correcting vision (eyeglasses)",
+        "Predicted telescopes, microscopes, and powered machines",
+        "Recorded the formula for gunpowder"
+      ]
+    },
+  
+    "story": {
+      "text": "培根是方济各会修士，但他的修会禁止在未经上级批准的情况下出版书籍。幸运的是，教皇克莱门特四世是他的秘密支持者，命令他秘密写下他的知识。培根在极度保密和缺乏资金的情况下写出了《大著作》。在书中，他不仅解释了彩虹的成因（反射和折射），还惊人地预言了未来的科技：“有些工具可以制造出来，使我们在极远的地方看东西就像在近处一样（望远镜）……还可以制造没有牲畜牵引也能行驶的车辆（汽车）和能像鸟一样飞行的机器（飞机）。” 这本书是中世纪科学思想的一座灯塔。",
+      "text_en": "Bacon was a Franciscan friar, but his order banned publishing books without approval. Luckily, Pope Clement IV was a secret admirer and ordered Bacon to write down his knowledge in secret. Working in secrecy and poverty, Bacon produced the 'Opus Majus'. In it, he not only explained the rainbow (reflection and refraction) but made stunning technological predictions: 'Instruments may be made so that things far away appear close (telescopes)... carriages without animals to move them (cars), and machines for flying like a bird.' The book was a beacon of scientific thought in the Middle Ages.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/52/Roger_Bacon_in_his_observatory_at_Merton_College%2C_Oxford._Oi_Wellcome_M0001840.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🕶️",
+        "text": "培根在书中写道，透镜对“老年人和视力弱的人”很有用。就在他写下这句话后的几十年内（约1280年代），眼镜在意大利被发明了出来，很可能是受了他的启发。",
+        "text_en": "Bacon wrote that lenses would be useful for 'old men and those with weak sight'. Within decades of his writing (c. 1280s), eyeglasses were invented in Italy, likely influenced by his theories."
+      },
+      {
+        "icon": "💥",
+        "text": "他是欧洲最早记录“火药”配方的人之一。为了保密，他将配方写成了一个拉丁文的“字谜”(Anagram)。",
+        "text_en": "He was one of the first Europeans to record the formula for 'gunpowder'. To keep it secret, he wrote the recipe as a Latin 'anagram'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在中世纪，如果你有问题，你会去查“亚里士多德是怎么说的”。培根说：“别只听古人的，去做实验！” 他对“光”特别着迷。他读了阿拉伯科学家海什木的书，然后告诉欧洲人：“光是可以被弯曲的。” 他提出，如果你把玻璃磨成凸起的形状（凸透镜），它就能让小字变大。虽然他没有造出望远镜，但他已经把“说明书”写好了，告诉人们这是可能的。",
+      "text_en": "In the Middle Ages, if you had a question, you checked 'what Aristotle said'. Bacon said, 'Don't just listen to the ancients, do an experiment!' He was obsessed with light. He read the Arab scientist Ibn al-Haytham and told Europe: 'Light can be bent.' He proposed that if you shape glass into a curve (convex lens), it makes small letters look big. Although he didn't build a telescope, he basically wrote the 'instruction manual' saying it was possible.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Roger_Bacon_optics01.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "👓",
+          "title": "眼镜 (Eyeglasses)",
+          "title_en": "Eyeglasses",
+          "text": "这是培根光学理论最直接的应用。他在书中明确指出透镜可以矫正视力。",
+          "text_en": "This was the direct application of Bacon's optical theory. He explicitly stated lenses could correct vision."
+        },
+        {
+          "icon": "🔬",
+          "title": "科学方法 (Scientific Method)",
+          "title_en": "Scientific Method",
+          "text": "他是欧洲最早倡导“归纳法”和“实验验证”的人之一，为后来的伽利略和培根（弗朗西斯）奠定了基础。",
+          "text_en": "He was one of the first in Europe to advocate for 'induction' and 'experimental verification', laying the groundwork for the later Galileo and Francis Bacon."
+        }
+      ],
+  
+    "impact": {
+      "text": "罗杰·培根是连接“伊斯兰黄金时代科学”（特别是海什木）与“欧洲文艺复兴”的关键桥梁。他将严谨的光学几何引入了欧洲，并植入了“实验胜于权威”的种子。尽管他在生前多次入狱，著作被禁，但他的思想（尤其是关于透镜和实验的）最终在几个世纪后开花结果。",
+      "text_en": "Roger Bacon was the crucial bridge between 'Islamic Golden Age Science' (especially Al-Haytham) and the 'European Renaissance'. He introduced rigorous optical geometry to Europe and planted the seed that 'experiment beats authority'. Though imprisoned and banned during his life, his ideas (especially on lenses and experiment) bore fruit centuries later.",
+      "stats": [
+          {
+            "number": "1267",
+            "label": "年 (大著作完成)",
+            "label_en": "Year (Opus Majus Completed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ibn_al_haytham_optics_1021",
+          "contribution": "海什木（培根在书中频繁引用“Alhacen”，他的光学理论几乎全部基于海什木的著作）",
+          "contribution_en": "Ibn al-Haytham (Bacon quotes 'Alhacen' frequently; his optical theory is almost entirely based on Haytham's work)"
+        },
+        {
+          "id": "aristotle_physics_BC350",
+          "contribution": "亚里士多德（虽然培根批评盲从，但他深受亚里士多德逻辑体系的训练）",
+          "contribution_en": "Aristotle (While Bacon criticized blind adherence, he was deeply trained in the Aristotelian logical system)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "invention_of_eyeglasses_1286",
+          "contribution": "眼镜的发明（意大利工匠很可能受到了培根著作传播的启发）",
+          "contribution_en": "Invention of Eyeglasses (Italian craftsmen were likely inspired by the dissemination of Bacon's writings)"
+        },
+        {
+          "id": "descartes_optics_1637",
+          "contribution": "笛卡尔（其光学研究继承了培根建立的几何光学传统）",
+          "contribution_en": "Descartes (his work on optics followed the geometric optical tradition established by Bacon)"
+        }
+      ],
+      "legacy_text": "罗杰·培根是中世纪黑暗中的一位科学先知，他预言了望远镜、汽车和飞机的未来。",
+      "legacy_text_en": "Roger Bacon was a scientific prophet in the medieval darkness, foreseeing a future of telescopes, cars, and planes."
+    },
+  
+    "related_concepts": ["实验科学 (Scientia Experimentalis)", "光学 (Optics)", "透镜 (Lens)", "海什木 (Alhazen)", "眼镜 (Eyeglasses)", "火药 (Gunpowder)", "方济各会"],
+    "related_concepts_en": ["Scientia Experimentalis", "Optics", "Lens", "Alhazen", "Eyeglasses", "Gunpowder", "Franciscans"],
+  
+    "quiz": {
+      "question": "罗杰·培根在《大著作》中依据光学原理，建议使用透镜来做什么？",
+      "question_en": "In 'Opus Majus', what did Roger Bacon suggest lenses could be used for, based on optical principles?",
+      "options": [
+        "生火",
+        "帮助视力弱的人看清文字（眼镜）",
+        "作为武器",
+        "与上帝沟通"
+      ],
+      "options_en": [
+        "To start fires",
+        "To help the weak-sighted read (Eyeglasses)",
+        "As a weapon",
+        "To communicate with God"
+      ],
+      "answer": 1,
+      "explanation": "培根正确地推断出，凸透镜可以放大物体，因此“这种工具对老年人和视力较弱的人非常有用”。这直接预示了眼镜的发明。",
+      "explanation_en": "Bacon correctly deduced that convex lenses magnify objects, stating 'this instrument is useful to old men and those with weak eyes'. This directly foreshadowed the invention of spectacles."
+    }
+  }

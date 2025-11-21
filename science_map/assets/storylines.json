@@ -55,6 +55,35 @@
         "de_forest_audion_1907",
         "transistor_invention_1947"
         ]
-    } 
+    },
+
+    "light_story": {
+    "id": "light_story",
+    "title_zh": "光的故事",
+    "title_en": "The Nature of Light",
+    "emoji": "🌈",
+    "description_zh": "是粒子还是波？一场持续300年的物理学大辩论，最终催生了量子力学。",
+    "description_en": "Particle or Wave? A 300-year debate that birthed Quantum Mechanics.",
+    "events": [
+        "mozi_optics_BC400",          
+        "ibn_al_haytham_optics_1021",
+        "roger_bacon_optics_1267",    
+        "descartes_optics_1637",
+        "grimaldi_diffraction_1665",
+        "roemer_speed_of_light_1676",
+        "huygens_wave_theory_1678",
+        "newton_opticks_1704",
+        "young_double_slit_1803",
+        "fraunhofer_lines_1814",
+        "fresnel_diffraction_1818",
+        "fizeau_speed_of_light_1849",
+        "maxwell_equations_1861",
+        "michelson_morley_1887",
+        "planck_quantum_1900",
+        "einstein_photoelectric_1905",
+        "laser_invention_1960",
+        "fiber_optics_1966"
+    ]
+  }
   
   }

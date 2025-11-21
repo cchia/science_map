@@ -1,0 +1,10 @@
+{
+    "name": "墨子",
+    "name_en": "Mozi",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg",
+    "bio_short": "中国战国时期的哲学家、科学家和军事工程师，墨家学派的创始人。他在《墨经》中对光学（小孔成像）、力学和几何学进行了开创性的科学观察。",
+    "bio_short_en": "A Chinese philosopher, scientist, and military engineer during the Warring States period, and founder of Mohism. He recorded pioneering scientific observations on optics (pinhole imaging), mechanics, and geometry in the 'Mojing'.",
+    "events": [
+      "mozi_optics_BC400"
+    ]
+  }

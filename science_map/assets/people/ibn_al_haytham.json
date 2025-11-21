@@ -1,0 +1,10 @@
+{
+    "name": "伊本·海什木",
+    "name_en": "Ibn al-Haytham",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ibn_al-Haytham_crop.jpg",
+    "bio_short": "阿拉伯数学家、天文学家和物理学家，伊斯兰黄金时代的巨匠，被誉为“现代光学之父”。他通过巨著《光学书》（`ibn_al_haytham_optics_1021`）推翻了古代的视觉理论，并系统性地引入了实验科学方法。",
+    "bio_short_en": "An Arab mathematician, astronomer, and physicist of the Islamic Golden Age, known as the 'Father of Modern Optics'. He revolutionized the understanding of vision in his 'Book of Optics' (`ibn_al_haytham_optics_1021`) and systematically introduced the experimental scientific method.",
+    "events": [
+      "ibn_al_haytham_optics_1021"
+    ]
+  }

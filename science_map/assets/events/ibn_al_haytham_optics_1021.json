@@ -1,0 +1,160 @@
+{
+    "id": "ibn_al_haytham_optics_1021",
+    "personId": "ibn_al_haytham",
+    "title": "发表《光学书》 (现代光学之父)",
+    "title_en": "Publishes 'Book of Optics' (Father of Modern Optics)",
+    "year": 1021,
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "city": "开罗",
+    "city_en": "Cairo",
+    "country": "法蒂玛王朝 (今埃及)",
+    "country_en": "Fatimid Caliphate (Modern Egypt)",
+    "field": ["物理学", "数学", "医学"],
+    "field_en": ["Physics", "Mathematics", "Medicine"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Book_of_Optics_Cover_Page.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4Dk2CfO5PAY",
+        "title": "光的实验",
+        "title_en": "The Brilliant Experiment That Changed The Way We See Light",
+        "duration": "3:35"
+      }
+    },
+    
+    "summary": {
+      "text": "伊本·海什木（Ibn al-Haytham，西方称为Alhazen）在被软禁期间完成了巨著《光学书》(Kitab al-Manazir)。他彻底推翻了古希腊（托勒密和欧几里得）关于视觉的“发射说”（即眼睛发出光线），通过严谨的实验证明了“射入说”（即光线从物体反射进入眼睛）。他详细描述了眼睛的解剖结构，并正确解释了“暗箱”（Camera Obscura）原理。更重要的是，他系统性地使用了“实验方法”来验证假设，因此常被誉为“第一位真正的科学家”。",
+      "text_en": "Ibn al-Haytham (known in the West as Alhazen) completed his magnum opus, 'Book of Optics' (Kitab al-Manazir), while under house arrest. He completely overthrew the ancient Greek (Ptolemy and Euclid) 'Emission Theory' of vision (that eyes shoot out light beams), proving through rigorous experimentation the 'Intromission Theory' (light reflects off objects into the eye). He detailed the anatomy of the eye and correctly explained the 'Camera Obscura' principle. Crucially, he systematically used the 'scientific method' to test hypotheses, earning him the title of the 'First True Scientist'.",
+      "key_points": [
+        "推翻了视觉的“发射说” (Emission Theory)",
+        "确立了“射入说” (Intromission Theory)：光进入眼睛",
+        "数学化了“暗箱” (Camera Obscura) 原理",
+        "系统应用了“科学实验方法” (Scientific Method)",
+        "被誉为“现代光学之父”"
+      ],
+      "key_points_en": [
+        "Refuted the 'Emission Theory' of vision",
+        "Established 'Intromission Theory': light enters the eye",
+        "Mathematized the 'Camera Obscura' principle",
+        "Systematically applied the 'Scientific Method'",
+        "Known as the 'Father of Modern Optics'"
+      ]
+    },
+  
+    "story": {
+      "text": "海什木的故事充满了戏剧性。他曾夸口说自己能治理尼罗河的洪水，结果被法蒂玛王朝的哈里发（“疯王”阿尔-哈基姆）召见。当海什木发现这项工程无法完成时，为了免于死刑，他不得不“装疯”。哈里发将他软禁在开罗。在长达十年的黑暗软禁中，他注意到光线穿过窗户上的一个小孔，在对面的墙上投射出了外面景物的“倒像”。这让他想通了光是沿直线传播的，且视觉是由外部光线进入眼睛引起的，而不是眼睛发出的。他在黑暗中撰写了改变物理学历史的七卷本《光学书》。",
+      "text_en": "Al-Haytham's story is dramatic. He boasted he could regulate the Nile's floods and was summoned by the Fatimid Caliph (the 'Mad Caliph' Al-Hakim). Upon realizing the task was impossible, Al-Haytham had to 'feign madness' to avoid execution. The Caliph placed him under house arrest in Cairo. During ten years of dark confinement, he observed light passing through a pinhole in his shutters, projecting an 'inverted image' of the outside world onto the wall. This epiphany convinced him that light travels in straight lines and vision is caused by external light entering the eye, not leaving it. In the darkness, he wrote the seven-volume 'Book of Optics' that changed physics forever."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📷",
+        "text": "单词“Camera”（照相机）来源于拉丁语“Camera Obscura”（暗室），而这正是对海什木用来研究光学的阿拉伯语词汇“Qamara”（暗室/私室）的直接翻译。",
+        "text_en": "The word 'Camera' comes from 'Camera Obscura' (Dark Room), which is a direct translation of the Arabic word 'Qamara' (dark/private room), the term Al-Haytham used for his optical experiments."
+      },
+      {
+        "icon": "🧠",
+        "text": "他不仅是物理学家，还是心理学家。他正确地指出，眼睛只是“接收”图像，而“看”这个动作（图像识别）实际上是发生在大脑中的。",
+        "text_en": "He was a psychologist as well as a physicist. He correctly identified that while the eye 'receives' the image, the act of 'seeing' (recognition) actually happens in the brain."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在海什木之前，像欧几里得和托勒密这样的天才都认为，人的眼睛像“超人”一样，会发射出看不见的“激光束”来扫描物体。海什木说：“这不合理。如果是这样，为什么我们睁眼就能看到遥远的星星？眼睛哪来那么大能量？”\n他做了一个简单的实验：直视太阳会痛。如果光是眼睛发出的，为什么太阳会伤害眼睛？\n他证明了：眼睛不是“手电筒”，而是“照相机”。光从物体上反射回来，穿过瞳孔（镜头），在视网膜（底片）上成像。",
+      "text_en": "Before Al-Haytham, geniuses like Euclid and Ptolemy thought human eyes were like 'Superman'—shooting out invisible 'laser beams' to scan objects. Al-Haytham said, 'That makes no sense. If so, why can we see distant stars the instant we open our eyes? Where does the eye get that energy?'\nHe used a simple proof: Staring at the sun hurts. If the eye projects light, why would the sun hurt it?\nHe proved: The eye is not a 'flashlight', it is a 'camera'. Light reflects off objects, goes through the pupil (lens), and paints an image on the retina (film)."      
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "科学方法 (Scientific Method)",
+          "title_en": "Scientific Method",
+          "text": "海什木坚持“任何理论都必须经过实验验证”，这实际上确立了现代科学方法论的原型。",
+          "text_en": "Al-Haytham insisted that 'any theory must be verified by experiment', effectively establishing the prototype of the modern scientific method."
+        },
+        {
+          "icon": "📷",
+          "title": "照相机与透镜",
+          "title_en": "Cameras and Lenses",
+          "text": "他对“暗箱”和透镜折射的数学分析，是后来照相机发明和眼镜制造的直接理论基础。",
+          "text_en": "His mathematical analysis of the 'Camera Obscura' and lens refraction was the direct theoretical basis for the later invention of cameras and eyeglasses."
+        },
+        {
+          "icon": "👀",
+          "title": "视觉心理学",
+          "title_en": "Visual Psychology",
+          "text": "他研究了视错觉（如月亮错觉），开创了对视觉感知心理学的研究。",
+          "text_en": "He studied optical illusions (like the Moon Illusion), pioneering the study of the psychology of visual perception."
+        }
+      ],
+  
+    "impact": {
+      "text": "《光学书》在12世纪被翻译成拉丁文（名为 *Opticae Thesaurus*），对欧洲产生了深远影响。罗杰·培根（Roger Bacon）、达·芬奇、开普勒和牛顿都深受其启发。海什木将光学从“几何学的一个分支”转变为一门基于“物理实验”和“生理学”的独立科学。他被公认为“光学之父”。",
+      "text_en": "'Book of Optics' was translated into Latin (as *Opticae Thesaurus*) in the 12th century and had a profound impact on Europe. Roger Bacon, Da Vinci, Kepler, and Newton were all deeply influenced by it. Al-Haytham transformed optics from a 'branch of geometry' into an independent science based on 'physical experiment' and 'physiology'. He is universally recognized as the 'Father of Optics'.",
+      "stats": [
+          {
+            "number": "7",
+            "label": "卷 (著作规模)",
+            "label_en": "Volumes (in the Book)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ptolemy_geocentrism_150",
+          "contribution": "托勒密（其《光学》是海什木主要批判和修正的对象）",
+          "contribution_en": "Ptolemy (whose 'Optics' was the main work Al-Haytham critiqued and corrected)"
+        },
+        {
+          "id": "aristotle_physics_BC350",
+          "contribution": "亚里士多德（提供了“光是外部介质运动”的物理直觉，反对发射说）",
+          "contribution_en": "Aristotle (provided the physical intuition that 'light is motion in a medium', opposing emission theory)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "kepler_laws_1609",
+          "contribution": "开普勒（他完成了海什木未竟的事业，正确解释了视网膜上的倒像）",
+          "contribution_en": "Kepler (he finished what Al-Haytham started, correctly explaining the inverted image on the retina)"
+        },
+        {
+          "id": "newton_opticks_1704",
+          "contribution": "牛顿（其光学的实验方法深受海什木传统的熏陶）",
+          "contribution_en": "Newton (whose experimental method in optics was steeped in the tradition of Al-Haytham)"
+        },
+        {
+          "id": "da_vinci_inventions_AD1480",
+          "contribution": "达·芬奇（深入研究了海什木的暗箱理论，用于绘画和透视）",
+          "contribution_en": "Da Vinci (deeply studied Al-Haytham's camera obscura theory for painting and perspective)"
+        }
+      ],
+      "legacy_text": "伊本·海什木教导世界：不要相信古人的话，要相信你自己的眼睛（和实验）。",
+      "legacy_text_en": "Ibn al-Haytham taught the world: Do not trust the ancients; trust your own eyes (and experiments)."
+    },
+  
+    "related_concepts": ["暗箱 (Camera Obscura)", "射入说 (Intromission Theory)", "发射说 (Emission Theory)", "科学方法 (Scientific Method)", "折射 (Refraction)", "视网膜 (Retina)", "托勒密 (Ptolemy)"],
+    "related_concepts_en": ["Camera Obscura", "Intromission Theory", "Emission Theory", "Scientific Method", "Refraction", "Retina", "Ptolemy"],
+  
+    "quiz": {
+      "question": "伊本·海什木（Alhazen）推翻了关于视觉的什么古老理论？",
+      "question_en": "What ancient theory of vision did Ibn al-Haytham (Alhazen) disprove?",
+      "options": [
+        "射入说（光线进入眼睛）",
+        "发射说（眼睛发出光线）",
+        "波动说（光是波）",
+        "微粒说（光是粒子）"
+      ],
+      "options_en": [
+        "Intromission Theory (Light enters the eye)",
+        "Emission Theory (Eyes emit light)",
+        "Wave Theory (Light is a wave)",
+        "Corpuscular Theory (Light is a particle)"
+      ],
+      "answer": 1,
+      "explanation": "在他之前，欧几里得和托勒密认为眼睛会发出“视线”来感知物体（发射说）。海什木通过实验（如注视太阳会痛、暗室实验）证明了光是独立于眼睛存在的，视觉是光线“进入”眼睛的结果。",
+      "explanation_en": "Before him, Euclid and Ptolemy believed the eye emitted 'visual rays' to sense objects (Emission Theory). Al-Haytham proved through experiment (e.g., pain from looking at the sun, the dark room) that light exists independently and vision is light *entering* the eye."
+    }
+  }

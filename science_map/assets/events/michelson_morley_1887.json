@@ -1,7 +1,156 @@
 {
   "id": "michelson_morley_1887",
-  "title": "Michelson Morley",
-  "title_en": "Michelson Morley",
+  "personId": ["albert_a_michelson", "edward_w_morley"],
+  "title": "迈克尔逊-莫雷实验 (寻找“以太”)",
+  "title_en": "The Michelson-Morley Experiment (Searching for the Aether)",
   "year": 1887,
-  "is_stub": true
+  "lat": 41.5043,
+  "lng": -81.6084,
+  "city": "克利夫兰",
+  "city_en": "Cleveland, OH",
+  "country": "美国",
+  "country_en": "United States",
+  "field": ["物理学"],
+  "field_en": ["Physics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Michelson1881c.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=DFQtVFEp_3E",
+      "title": "迈克尔逊-莫雷实验",
+      "title_en": "The Michelson-Morley Experiment ",
+      "duration": "9:47"
+    }
+  },
+  
+  "summary": {
+    "text": "阿尔伯特·迈克尔逊（Albert Michelson）和爱德华·莫雷（Edward Morley）在凯斯西储大学进行了一项旨在探测“发光以太”(Luminiferous Aether) 的实验。当时的物理学认为，光波必须在一种名为“以太”的介质中传播。他们设计了一个精密的“干涉仪”，试图测量地球在以太中穿行时产生的“以太风”(Aether Wind) 对光速的影响。结果令人震惊：他们**没有**探测到任何以太风。这个著名的“零结果”证明了光速在所有方向上都是恒定的，从而否定了以太的存在，并为爱因斯坦的“狭义相对论”铺平了道路。",
+    "text_en": "Albert Michelson and Edward Morley conducted an experiment at Case Western Reserve University designed to detect the 'luminiferous aether'. Physics at the time held that light waves must travel through a medium called 'aether'. They designed a precise 'interferometer' to measure the effect of the 'aether wind' on the speed of light as Earth moved through it. The result was shocking: they detected **no** aether wind. This famous 'null result' proved that the speed of light is constant in all directions, disproving the existence of the aether and paving the way for Einstein's 'Special Relativity'.",
+    "key_points": [
+      "史上最著名的“失败”实验 (The most famous 'failed' experiment)",
+      "试图探测“以太风”(Aether Wind)",
+      "使用了“迈克尔逊干涉仪”(Michelson Interferometer)",
+      "结果为“零”(Null result)：光速恒定",
+      "否定了“以太”的存在，导向了相对论"
+    ],
+    "key_points_en": [
+      "The most famous 'failed' experiment in history",
+      "Attempted to detect the 'Aether Wind'",
+      "Used the 'Michelson Interferometer'",
+      "Result was 'Null': Speed of light is constant",
+      "Disproved the 'Aether', leading to Relativity"
+    ]
+  },
+
+  "story": {
+    "text": "在1887年，科学家们认为宇宙中充满了一种看不见的流体叫“以太”，就像空气传播声音一样，以太传播光。既然地球在绕太阳公转，我们应该能感觉到“迎面吹来”的“以太风”。迈克尔逊建造了一个极其灵敏的装置，他把光分成两束，一束“迎风”跑再跑回来，另一束“垂直于风”跑。为了消除震动，他把整个装置放在一块巨大的砂岩板上，浮在**水银池**中。理论上，两条光束回来的时间应该不同。但无论他怎么旋转装置，无论什么季节，两条光束总是同时到达。他们以为实验失败了，但实际上，他们无意中揭示了宇宙的一个深层真理：并没有以太，光速在任何参照系下都是不变的。",
+    "text_en": "In 1887, scientists believed the universe was filled with an invisible fluid called 'aether'. Just as air carries sound, aether carried light. Since Earth orbits the Sun, we should feel an 'aether wind' blowing against us. Michelson built an incredibly sensitive device. He split a beam of light: one beam raced 'into the wind' and back, the other raced 'across the wind'. To dampen vibrations, he floated the massive sandstone slab apparatus in a pool of **mercury**. Theoretically, the beams should arrive at different times. But no matter how he rotated it, or what season it was, the beams always arrived together. They thought they had failed, but they had unwittingly revealed a deep cosmic truth: there is no aether, and the speed of light is constant in all frames.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/fc/AetherWind.svg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text": "阿尔伯特·迈克尔逊因其在精密光学仪器（干涉仪）方面的成就，于1907年成为**第一位**获得诺贝尔科学奖的**美国人**。",
+      "text_en": "Albert Michelson became the **first American** to win a Nobel Prize in science (1907) for his optical precision instruments (the interferometer)."
+    },
+    {
+      "icon": "🌊",
+      "text": "虽然他们没有找到以太，但他们发明的“干涉仪”技术极其强大。100多年后，LIGO（`ligo_gravitational_waves_2015`）正是使用这种技术的“巨型版本”探测到了引力波。",
+      "text_en": "Although they didn't find the aether, the 'interferometer' technology they invented was incredibly powerful. Over 100 years later, LIGO (`ligo_gravitational_waves_2015`) used a 'giant version' of this exact setup to detect gravitational waves."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象两个游泳者在比赛。一个在“河里”逆流而上再游回来（受水流影响），另一个在“静止的池塘”里游（或者垂直于水流游）。按理说，受水流影响的那个应该比较慢。\n迈克尔逊认为光就是那个“游泳者”，以太就是“河水”。\n实验结果却发现：不管怎么游，两束光的速度**完全一样**！\n这意味着：要么地球没有动（不可能），要么根本就没有“河水”（以太）。光不需要介质，它在真空中自己跑。",
+    "text_en": "Imagine two swimmers racing. One swims up a 'river' against the current and back (affected by flow). The other swims across the current. Logically, the one fighting the current should be slower.\nMichelson thought Light was the swimmer and Aether was the river.\nThe experiment found: No matter which way they swam, the light beams had the **exact same speed**!\nThis meant: Either the Earth isn't moving (impossible), or there is no 'river' (Aether). Light doesn't need a medium; it travels by itself.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/06/Michelson-Morley_experiment_%28en%29.svg"
+  },
+
+  "applications": [
+      {
+        "icon": "📏",
+        "title": "干涉测量术 (Interferometry)",
+        "title_en": "Interferometry",
+        "text": "迈克尔逊干涉仪成为了现代物理学中最精密的测量工具之一，用于测量微小的长度变化、折射率和引力波。",
+        "text_en": "The Michelson Interferometer became one of the most precise measuring tools in modern physics, used for measuring tiny length changes, refractive index, and gravitational waves."
+      },
+      {
+        "icon": "🌌",
+        "title": "狭义相对论",
+        "title_en": "Special Relativity",
+        "text": "这个实验的“零结果”是爱因斯坦推导狭义相对论的实验基础（光速不变原理）。",
+        "text_en": "The 'null result' of this experiment was the experimental foundation for Einstein's Special Relativity (the principle of constant light speed)."
+      }
+    ],
+
+  "impact": {
+    "text": "这是物理学史上最重要的“否定性”实验。它终结了统治物理学界两个世纪的“以太”概念。虽然迈克尔逊本人对结果感到失望，但这个实验迫使洛伦兹（Lorentz）提出了“长度收缩”，并最终导致爱因斯坦（`einstein_special_relativity_1905`）彻底重写了时间和空间的概念。",
+    "text_en": "This is the most important 'negative' experiment in the history of physics. It killed the concept of the 'aether' which had ruled physics for two centuries. Although Michelson himself was disappointed, this result forced Lorentz to propose 'length contraction' and eventually led Einstein (`einstein_special_relativity_1905`) to completely rewrite the concepts of time and space.",
+    "stats": [
+        {
+          "number": "1887",
+          "label": "年 (实验年份)",
+          "label_en": "Year of Experiment"
+        },
+        {
+          "number": "0",
+          "label": "以太风速 (测量结果)",
+          "label_en": "Aether Wind Speed (Measured)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "maxwell_equations_1861",
+        "contribution": "麦克斯韦（其理论认为光是电磁波，这暗示了传播介质“以太”的存在）",
+        "contribution_en": "Maxwell (his theory that light is an EM wave implied the existence of a medium, the 'aether')"
+      },
+      {
+        "id": "huygens_wave_theory_1690",
+        "contribution": "惠更斯（最早提出光是在“以太”中传播的波）",
+        "contribution_en": "Huygens (first proposed that light is a wave traveling through 'aether')"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "einstein_special_relativity_1905",
+        "contribution": "爱因斯坦（狭义相对论解释了“为什么”检测不到以太：因为光速恒定）",
+        "contribution_en": "Einstein (Special Relativity explained *why* no aether was detected: because the speed of light is constant)"
+      },
+      {
+        "id": "ligo_gravitational_waves_2015",
+        "contribution": "LIGO（其探测器本质上就是一个巨大的迈克尔逊干涉仪）",
+        "contribution_en": "LIGO (its detector is essentially a gigantic Michelson Interferometer)"
+      }
+    ],
+    "legacy_text": "迈克尔逊和莫雷试图寻找宇宙的“背景”，却发现宇宙并没有固定的舞台。",
+    "legacy_text_en": "Michelson and Morley tried to find the 'background' of the universe, only to discover that the universe has no fixed stage."
+  },
+
+  "related_concepts": ["以太 (Luminiferous Aether)", "干涉仪 (Interferometer)", "光速不变", "相对论 (Relativity)", "洛伦兹收缩 (Lorentz Contraction)"],
+  "related_concepts_en": ["Luminiferous Aether", "Interferometer", "Constant Speed of Light", "Relativity", "Lorentz Contraction"],
+
+  "quiz": {
+    "question": "迈克尔逊-莫雷实验的“零结果”（Null Result）意味着什么？",
+    "question_en": "What did the 'Null Result' of the Michelson-Morley experiment imply?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Michelson-morley-experiment.svg/640px-Michelson-morley-experiment.svg.png",
+    "options": [
+      "光速是无限的",
+      "地球是静止不动的",
+      "不存在“以太”，光速在不同方向上是相同的",
+      "实验设备坏了"
+    ],
+    "options_en": [
+      "The speed of light is infinite",
+      "The Earth is stationary",
+      "There is no 'aether', and the speed of light is the same in all directions",
+      "The equipment was broken"
+    ],
+    "answer": 2,
+    "explanation": "他们预期光在“逆风”（以太风）方向会变慢。结果发现，无论朝哪个方向测量，光速都是一样的。这证明了不需要“以太”作为介质，光速是一个普适常数。",
+    "explanation_en": "They expected light to be slower when moving 'against the wind' (aether). The result showed light speed was the *same* in all directions. This proved that 'aether' was not needed as a medium and that light speed is a universal constant."
+  }
 }
