@@ -1,0 +1,11 @@
+{
+    "name": "克劳德·香农",
+    "name_en": "Claude Shannon",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/98/C.E._Shannon._Tekniska_museet_43069_%28cropped%29.jpg",
+    "bio_short": "美国数学家、电子工程师和密码学家，被誉为“信息论之父”。他在1948年发表的论文定义了“比特”和“信息熵”（`shannon_entropy_1948`），奠定了现代数字通信的基础。他还在1937年开创了数字电路设计理论（`shannon_circuits_1937`）。",
+    "bio_short_en": "An American mathematician, electrical engineer, and cryptographer, known as the 'Father of Information Theory'. His 1948 paper defined the 'bit' and 'information entropy' (`shannon_entropy_1948`), laying the foundation for modern digital communication. He also pioneered digital circuit design theory in 1937 (`shannon_circuits_1937`).",
+    "events": [
+      "shannon_circuits_1937",
+      "shannon_entropy_1948"
+    ]
+  }

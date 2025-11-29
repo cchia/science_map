@@ -1,0 +1,150 @@
+{
+    "id": "maxwell_distribution_1860",
+    "personId": "james_clerk_maxwell",
+    "title": "发表“麦克斯韦速度分布律” (气体动理论)",
+    "title_en": "Publishes 'Maxwell Speed Distribution' (Kinetic Theory of Gases)",
+    "year": 1860,
+    "lat": 51.5115,
+    "lng": -0.1160,
+    "city": "伦敦 (发表于)",
+    "city_en": "London (Published in)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学", "数学"],
+    "field_en": ["Physics", "Mathematics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Simulation_of_gas_for_relaxation_demonstration.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=xQ9D4Jz95-A",
+        "title": "麦克斯韦-玻尔兹曼分布",
+        "title_en": "The Maxwell-Boltzmann Distribution",
+        "duration": "9:29"
+      }
+    },
+    
+    "summary": {
+      "text": "詹姆斯·克拉克·麦克斯韦发表了里程碑式的论文《气体动力学理论的说明》。在这篇论文中，他引入了概率论来描述气体分子的运动。他推导出了著名的“麦克斯韦分布律”，这是一个数学公式，描述了在特定温度下，气体中以各种不同速度运动的分子的比例（多少分子跑得快，多少跑得慢）。这是物理学史上第一个“统计定律”，它将宏观的“温度”与微观分子的“平均速度”精确地联系了起来。",
+      "text_en": "James Clerk Maxwell published his landmark paper 'Illustrations of the Dynamical Theory of Gases'. In it, he introduced probability theory to the study of gas molecules. He derived the famous 'Maxwell Distribution Law', a mathematical formula describing the proportion of molecules moving at various speeds at a given temperature (how many are fast, how many are slow). This was the first 'statistical law' in the history of physics, precisely linking macroscopic 'temperature' to the 'average speed' of microscopic molecules.",
+      "key_points": [
+        "物理学史上第一个“统计定律”",
+        "推导出了分子速度的分布曲线 (钟形曲线)",
+        "定义了温度是分子“平均动能”的度量",
+        "奠定了“气体动理论”(Kinetic Theory of Gases) 的基础",
+        "启发了玻尔兹曼 (`boltzmann_statistical_mechanics_1877`)"
+      ],
+      "key_points_en": [
+        "The first 'statistical law' in physics history",
+        "Derived the distribution curve of molecular speeds (Bell curve)",
+        "Defined temperature as a measure of 'average kinetic energy'",
+        "Laid the foundation for the 'Kinetic Theory of Gases'",
+        "Inspired Boltzmann (`boltzmann_statistical_mechanics_1877`)"
+      ]
+    },
+  
+    "story": {
+      "text": "在麦克斯韦之前，科学家们（如克劳修斯）虽然接受气体由分子组成，但他们通常假设所有分子都以“相同”的平均速度运动。麦克斯韦认为这是不现实的，因为分子会不断碰撞，有些会被撞快，有些会被撞慢。他天才地将“社会统计学”（当时用于计算人口死亡率的数学）应用到了物理学中。他计算出，虽然无法预知“单个”分子的速度，但对于“亿万个”分子，其速度分布会形成一个稳定的、不对称的“钟形曲线”。这意味着在任何时刻，总有极少数分子几乎静止，也总有极少数分子跑得极快。这是物理学第一次承认“确定性”是不够的，“概率”才是真理。",
+      "text_en": "Before Maxwell, scientists (like Clausius) accepted gases were molecules but often assumed they all moved at the 'same' average speed. Maxwell realized this was unrealistic; collisions would speed some up and slow others down. He brilliantly applied 'social statistics' (math used for mortality rates) to physics. He calculated that while you can't know the speed of a *single* molecule, for *billions* of them, the speeds would form a stable, asymmetrical 'bell curve'. This meant at any moment, a tiny few are stopped, and a tiny few are super-fast. This was the first time physics admitted 'determinism' wasn't enough; 'probability' was the truth.",
+      "diagram": "assets/images/maxwell_boltzmann_distribution.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🌡️",
+        "text": "这个定律解释了为什么水即使在室温下（没有沸腾）也会“蒸发”：因为根据分布曲线，总有少部分“跑得极快”的分子拥有足够的能量逃离水面。",
+        "text_en": "This law explains why water 'evaporates' even at room temperature (without boiling): according to the distribution curve, there is always a small fraction of 'super-fast' molecules with enough energy to escape the surface."
+      },
+      {
+        "icon": "🎲",
+        "text": "麦克斯韦是受到天文学家奎特莱（Quetelet）关于“人类特征分布”（如身高）统计研究的启发，才想到把这种数学用在分子上的。",
+        "text_en": "Maxwell was inspired to apply this math to molecules after reading the work of astronomer Adolphe Quetelet on the statistics of 'human characteristics' (like height)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一个操场上有一群乱跑的小学生（气体分子）。他们有的跑得快，有的跑得慢，而且还在不停地互相撞。\n如果你问：“小明跑得有多快？”这是没法回答的，因为他下一秒撞到人就会变慢。\n但麦克斯韦画出了一张图，告诉我们：“不管他们怎么撞，总是有 5% 的人跑得飞快，10% 的人跑得极慢，大多数人（60%）跑得不快不慢。”\n这张图就是麦克斯韦分布。当你把火开大（升温），这张图就会向右平移——意味着“大多数人”都跑得更快了。",
+      "text_en": "Imagine a playground full of kids running wildly (gas molecules). Some are fast, some are slow, and they keep bumping into each other.\nIf you ask, 'How fast is Johnny running?', it's impossible to say, because he'll bump into someone and slow down in a second.\nBut Maxwell drew a chart that says: 'No matter how much they bump, there will *always* be 5% running super fast, 10% super slow, and most (60%) running at medium speed.'\nThat chart is the Maxwell Distribution. If you turn up the heat, the whole chart shifts right—meaning 'most kids' are now running faster.",
+      "diagram": "assets/images/maxwell_distribution_kid.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧪",
+          "title": "化学反应速率",
+          "title_en": "Chemical Reaction Rates",
+          "text": "只有那些能量超过特定“门槛”（活化能）的分子才能发生反应。麦克斯韦分布可以精确计算出有多少比例的分子符合这个条件。",
+          "text_en": "Only molecules with energy above a certain 'threshold' (activation energy) can react. The Maxwell distribution calculates exactly what percentage of molecules meet this criteria."
+        },
+        {
+          "icon": "🪐",
+          "title": "行星大气层",
+          "title_en": "Planetary Atmospheres",
+          "text": "它解释了为什么月球没有大气：月球引力太小，抓不住那些在麦克斯韦分布“尾端”跑得极快的气体分子，久而久之它们都逃逸了。",
+          "text_en": "It explains why the Moon has no atmosphere: its gravity is too weak to hold onto the 'super-fast' molecules at the tail end of the Maxwell distribution, so they all escaped over time."
+        }
+      ],
+  
+    "impact": {
+      "text": "这是物理学方法论的一次巨大飞跃。麦克斯韦证明了，对于复杂的系统，我们不需要知道每一个粒子的确切命运，只需要知道它们的“统计规律”。这一思想直接奠定了玻尔兹曼（`boltzmann_statistical_mechanics_1877`）的“统计力学”，并最终通向了量子力学的概率解释。",
+      "text_en": "This was a massive leap in physics methodology. Maxwell proved that for complex systems, we don't need to know the fate of every particle, only their 'statistical laws'. This idea directly laid the foundation for Boltzmann's 'Statistical Mechanics' (`boltzmann_statistical_mechanics_1877`) and ultimately led to the probabilistic interpretation of Quantum Mechanics.",
+      "stats": [
+          {
+            "number": "1860",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Paper Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "clausius_thermodynamics_1850",
+          "contribution": "克劳修斯（他引入了“平均自由程”的概念，是麦克斯韦推导的基础）",
+          "contribution_en": "Clausius (he introduced the concept of 'mean free path', which was the basis for Maxwell's derivation)"
+        },
+        {
+          "id": "bernoulli_hydrodynamica_1738",
+          "contribution": "丹尼尔·伯努利（早在1738年就提出了“气体压强是由分子撞击产生的”这一基本思想）",
+          "contribution_en": "Daniel Bernoulli (proposed the basic idea that 'gas pressure is caused by molecular impacts' back in 1738)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "boltzmann_statistical_mechanics_1877",
+          "contribution": "玻尔兹曼（他将麦克斯韦的分布推广到了更一般的情况，建立了完整的统计力学）",
+          "contribution_en": "Ludwig Boltzmann (he generalized Maxwell's distribution and built the complete framework of Statistical Mechanics)"
+        },
+        {
+          "id": "maxwell_demon_1867",
+          "contribution": "（他自己）麦克斯韦妖（这个思想实验正是基于他对分子速度分布不均匀的深刻理解）",
+          "contribution_en": "(Himself) Maxwell's Demon (this thought experiment was based entirely on his understanding of the uneven distribution of molecular speeds)"
+        }
+      ],
+      "legacy_text": "麦克斯韦将“概率”引入了物理学，甚至早于量子力学半个世纪。",
+      "legacy_text_en": "Maxwell introduced 'probability' into physics, half a century before quantum mechanics."
+    },
+  
+    "related_concepts": ["气体动理论 (Kinetic Theory)", "麦克斯韦-玻尔兹曼分布", "统计力学", "温度 (Temperature)", "熵 (Entropy)", "方均根速度"],
+    "related_concepts_en": ["Kinetic Theory", "Maxwell-Boltzmann Distribution", "Statistical Mechanics", "Temperature", "Entropy", "Root Mean Square Speed"],
+  
+    "quiz": {
+      "question": "根据麦克斯韦的速度分布律，当气体的“温度”升高时，分子的运动速度会发生什么变化？",
+      "question_en": "According to Maxwell's Speed Distribution law, what happens to the speed of molecules when the 'temperature' of a gas increases?",
+      "options": [
+        "所有分子的速度都变得完全一样",
+        "分子的平均速度增加，速度分布曲线变得“更宽、更平”",
+        "分子的平均速度减小",
+        "分子停止运动"
+      ],
+      "options_en": [
+        "All molecules move at exactly the same speed",
+        "The average speed increases, and the distribution curve becomes 'wider and flatter'",
+        "The average speed decreases",
+        "The molecules stop moving"
+      ],
+      "answer": 1,
+      "explanation": "温度是分子平均动能的度量。温度升高，平均速度增加，且速度的“离散度”也变大（有的极快，有的还是慢），导致分布曲线向右移动并变扁。",
+      "explanation_en": "Temperature is a measure of average kinetic energy. As temperature rises, the average speed increases, and the 'spread' of speeds also gets wider (some very fast, some still slow), causing the curve to shift right and flatten out."
+    }
+  }

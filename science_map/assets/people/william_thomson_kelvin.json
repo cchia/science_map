@@ -1,0 +1,10 @@
+{
+    "name": "威廉·汤姆孙 (开尔文勋爵)",
+    "name_en": "William Thomson (Lord Kelvin)",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sir_William_Thomson%2C_Baron_Kelvin_by_T._%26_R._Annan_%26_Sons.jpg",
+    "bio_short": "英国数学物理学家和工程师。他是热力学的奠基人之一，提出了绝对温标（开尔文温标），阐明了热力学第一和第二定律，并在跨大西洋电报电缆工程中发挥了关键作用。",
+    "bio_short_en": "A British mathematical physicist and engineer. A founding father of thermodynamics, he proposed the absolute temperature scale (Kelvin scale), formulated the first and second laws of thermodynamics, and played a key role in the transatlantic telegraph cable.",
+    "events": [
+      "kelvin_absolute_zero_1848"
+    ]
+  }

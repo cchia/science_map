@@ -84,6 +84,29 @@
         "laser_invention_1960",
         "fiber_optics_1966"
     ]
+  },
+
+    "thermo_story": {
+    "id": "thermo_story",
+    "title_zh": "热力学与时间之矢",
+    "title_en": "Thermodynamics & The Arrow of Time",
+    "emoji": "🔥",
+    "description_zh": "从蒸汽机的轰鸣到宇宙的热寂，探索能量、混乱度与时间的单向流动。",
+    "description_en": "From the roar of steam engines to the heat death of the universe, exploring energy, entropy, and the flow of time.",
+    "events": [
+      "hero_aeolipile_AD60",
+      "papin_piston_1690",        
+      "newcomen_engine_1712",
+      "watt_steam_engine_1776",
+      "carnot_thermodynamics_1824",
+      "joule_heat_1843",
+      "kelvin_absolute_zero_1848",
+      "clausius_thermodynamics_1850",
+      "maxwell_demon_1867",
+      "heat_death_theory_1867",    
+      "boltzmann_statistical_mechanics_1877",
+      "shannon_entropy_1948"      
+    ]
   }
   
   }

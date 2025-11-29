@@ -10,6 +10,7 @@
     "city_en": "Marburg",
     "country": "德国 (黑森-卡塞尔)",
     "country_en": "Germany (Hesse-Kassel)",
+    "storyline_ids": ["thermo_story"],
     "field": [
         "工程学",
         "物理学"

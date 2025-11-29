@@ -1,0 +1,10 @@
+{
+    "name": "路德维希·玻尔兹曼",
+    "name_en": "Ludwig Boltzmann",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Boltzmann2.jpg",
+    "bio_short": "奥地利物理学家和数学家，统计力学的奠基人。他将宏观的热力学定律与微观的原子运动联系起来，提出了著名的熵公式 S=klogW，彻底改变了物理学对不可逆过程的理解。",
+    "bio_short_en": "An Austrian physicist and mathematician, the founding father of statistical mechanics. He bridged macroscopic thermodynamics with microscopic atomic motion and formulated the famous entropy equation S=klogW, revolutionizing the understanding of irreversible processes.",
+    "events": [
+      "boltzmann_statistical_mechanics_1877"
+    ]
+  }

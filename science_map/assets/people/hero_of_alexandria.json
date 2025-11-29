@@ -1,0 +1,10 @@
+{
+    "name": "亚历山大港的希罗",
+    "name_en": "Hero of Alexandria",
+    "portrait": "https://en.wikipedia.org/wiki/Hero_of_Alexandria#/media/File:Heron_Alexandrie.jpg",
+    "bio_short": "古希腊数学家和工程师。他以发明“汽转球”（第一台蒸汽机）和“希罗公式”（计算三角形面积）而闻名，被认为是古代最伟大的实验家之一。",
+    "bio_short_en": "An ancient Greek mathematician and engineer. He is best known for inventing the 'Aeolipile' (the first steam engine) and 'Heron's formula' (for triangle area), and is considered one of the greatest experimenters of antiquity.",
+    "events": [
+      "hero_aeolipile_AD60"
+    ]
+  }
