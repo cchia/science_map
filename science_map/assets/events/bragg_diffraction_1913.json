@@ -1,0 +1,158 @@
+{
+    "id": "bragg_diffraction_1913",
+    "personId": ["william_henry_bragg", "william_lawrence_bragg"],
+    "title": "提出布拉格定律 (X射线晶体学)",
+    "title_en": "Formulates Bragg's Law (X-ray Crystallography)",
+    "year": 1913,
+    "lat": 52.2053,
+    "lng": 0.1218,
+    "city": "剑桥 / 利兹",
+    "city_en": "Cambridge / Leeds",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_ids": ["quantum_story"],
+    "field": ["物理学", "化学"],
+    "field_en": ["Physics", "Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/32/DifraccionElectronesMET.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QHMzFUo0NL8&t=4s",
+        "title": "X射线衍射",
+        "title_en": "What is X-ray Diffraction?",
+        "duration": "4:07"
+      }
+    },
+    
+    "summary": {
+      "text": "威廉·亨利·布拉格(父亲)和威廉·劳伦斯·布拉格(儿子)这对父子档, 将马克斯·冯·劳厄(Max von Laue)发现的X射线衍射现象转化为了一个精确的数学工具。年轻的劳伦斯(当时仅22岁)提出了著名的“布拉格定律” ($n\\lambda = 2d \\sin \\theta$),该定律解释了X射线是如何在晶体内部的原子“平面”上发生反射的。利用这一原理，他们建造了第一台X射线光谱仪，并首次“看见”了原子的排列结构（如食盐和钻石）。这标志着“X射线晶体学”的诞生。",
+      "text_en": "The father-and-son team of William Henry Bragg and William Lawrence Bragg transformed Max von Laue's discovery of X-ray diffraction into a precise mathematical tool. The young Lawrence (only 22) formulated the famous 'Bragg's Law' ($n\\lambda = 2d \\sin \\theta$), which explains how X-rays reflect off atomic 'planes' inside a crystal. Using this principle, they built the first X-ray spectrometer and, for the first time in history, 'saw' the arrangement of atoms (in salt and diamond). This marked the birth of 'X-ray Crystallography'.",
+      "key_points": [
+        "创立了“X射线晶体学”(X-ray Crystallography)",
+        "提出了“布拉格定律” ($n\\lambda = 2d \\sin \\theta$)",
+        "首次测定了晶体（如NaCl, 金刚石）的原子结构",
+        "父子共同获得1915年诺贝尔物理学奖",
+        "劳伦斯·布拉格至今仍是史上最年轻的物理诺奖得主（25岁）"
+      ],
+      "key_points_en": [
+        "Founded 'X-ray Crystallography'",
+        "Formulated 'Bragg's Law' ($n\\lambda = 2d \\sin \\theta$)",
+        "First to determine atomic structures of crystals (NaCl, Diamond)",
+        "Father and son shared the 1915 Nobel Prize in Physics",
+        "Lawrence Bragg remains the youngest Physics Nobel laureate ever (25)"
+      ]
+    },
+  
+    "story": {
+      "text": "1912年，劳厄发现X射线通过晶体时会产生斑点，但他无法简单解释为什么。当时还是剑桥大学学生的劳伦斯·布拉格在河边散步时顿悟：不需要复杂的干涉理论，只要把晶体中的原子层想象成“镜子”即可。X射线照射到这些层上会被“反射”，只有当反射光程差等于波长的整数倍时，才会形成亮点。他写下了简洁的公式 $n\\lambda = 2d \\sin \\theta$。他的父亲亨利·布拉格随后制造了高精度的仪器来验证儿子的理论。他们一起解开了食盐（氯化钠）的结构，证明了并不存在“NaCl分子”，只有钠离子和氯离子的晶格。化学家们的世界观被重塑了。",
+      "text_en": "In 1912, Laue discovered X-ray diffraction but couldn't easily explain the pattern. Lawrence Bragg, a student at Cambridge, had an epiphany while walking by the river: You don't need complex interference theory; just imagine atomic layers as 'mirrors'. X-rays reflect off these layers, and bright spots appear only when the path difference equals a whole number of wavelengths. He wrote the simple formula $n\\lambda = 2d \\sin \\theta$. His father, Henry, then built the precision instrument to verify his son's theory. Together, they solved the structure of table salt (NaCl), proving there are no 'NaCl molecules', only a lattice of sodium and chlorine ions. The chemists' worldview was reshaped.",
+      "diagram": "assets/images/bragg_diffraction.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👶",
+        "text": "威廉·劳伦斯·布拉格获得诺贝尔奖时年仅25岁，至今仍是历史上最年轻的诺贝尔物理学奖得主。他在战壕里服役时得知了获奖的消息。",
+        "text_en": "William Lawrence Bragg was only 25 when he won the Nobel Prize, remaining the youngest Physics laureate in history. He received the news while serving in the trenches of WWI."
+      },
+      {
+        "icon": "🧬",
+        "text": "没有布拉格定律，就没有DNA双螺旋的发现。罗莎琳德·富兰克林用来拍摄“照片51号”的技术，正是布拉格父子发明的X射线晶体学。",
+        "text_en": "Without Bragg's Law, there would be no discovery of the DNA double helix. The technique Rosalind Franklin used to take 'Photo 51' was the X-ray crystallography invented by the Braggs."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一叠整齐的半透明镜子（原子层）。如果你用激光（X射线）斜着照过去，大部分光会穿过去，但每一层都会反射一点点光。\n布拉格发现，如果在特定的角度照射，所有这些反射光会“叠加”在一起，变得非常亮。通过测量这个“最亮的角度”，你就可以反推出这些镜子（原子层）之间的距离($d$)是多少。\n这就像是通过听回声来测量墙壁的距离，只不过他们测量的是原子之间的距离。",
+      "text_en": "Imagine a stack of semi-transparent mirrors (atomic layers). If you shine a laser (X-ray) through them at an angle, most light goes through, but each layer reflects a little bit.\nBragg found that at a *specific angle*, all these reflected beams 'add up' to become very bright. By measuring this 'brightest angle', you can calculate exactly how far apart the mirrors (atoms) are ($d$).\nIt's like measuring the distance to a wall by listening to the echo, but for atoms.",
+      "diagram": "assets/images/bragg_diffraction_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💊",
+          "title": "药物研发",
+          "title_en": "Drug Discovery",
+          "text": "现代制药公司利用X射线晶体学来确定蛋白质和病毒的三维结构，从而设计出能精确“卡入”其中的药物分子。",
+          "text_en": "Modern pharma uses X-ray crystallography to determine the 3D structure of proteins and viruses, designing drugs that fit into them like a key."
+        },
+        {
+          "icon": "🧬",
+          "title": "DNA结构",
+          "title_en": "DNA Structure",
+          "text": "沃森和克里克利用布拉格定律（通过富兰克林的数据）推导出了生命的秘密——DNA的双螺旋结构。",
+          "text_en": "Watson and Crick used Bragg's Law (via Franklin's data) to deduce the secret of life—the double helix structure of DNA."
+        },
+        {
+          "icon": "✈️",
+          "title": "材料科学",
+          "title_en": "Materials Science",
+          "text": "工程师利用它来检查金属部件（如飞机引擎叶片）的内部晶体结构，以确保它们没有微观裂纹或应力。",
+          "text_en": "Engineers use it to inspect the internal crystal structure of metal parts (like jet engine blades) to ensure there are no microscopic cracks or stress."
+        }
+      ],
+  
+    "impact": {
+      "text": "布拉格父子的工作给了人类一双“看见原子”的眼睛。在此之前，原子结构只是推测；在此之后，它是可测量的现实。这项技术直接催生了分子生物学（DNA、蛋白质），彻底改变了化学（化学键），并成为现代材料科学的基石。至今，超过20个诺贝尔奖是基于X射线晶体学的发现。",
+      "text_en": "The Braggs gave humanity eyes to 'see atoms'. Before this, atomic structure was speculation; after, it was measurable reality. This technique directly birthed molecular biology (DNA, proteins), revolutionized chemistry (bonds), and is the bedrock of modern materials science. To date, over 20 Nobel Prizes have been awarded for discoveries made using X-ray crystallography.",
+      "stats": [
+          {
+            "number": "25",
+            "label": "岁 (劳伦斯获奖年龄)",
+            "label_en": "Years Old (Lawrence's Nobel)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "laue_diffraction_1912",
+          "contribution": "冯·劳厄（他发现了X射线通过晶体会有衍射现象，但未能给出简单的解释）",
+          "contribution_en": "Max von Laue (he discovered that X-rays diffract through crystals, but failed to give a simple explanation)"
+        },
+        {
+          "id": "rontgen_xrays_1895",
+          "contribution": "伦琴（发现了X射线，提供了光源）",
+          "contribution_en": "Röntgen (discovered X-rays, providing the light source)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "dna_double_helix_1953",
+          "contribution": "沃森、克里克和富兰克林（利用X射线晶体学解开了DNA结构）",
+          "contribution_en": "Watson, Crick, & Franklin (used X-ray crystallography to solve the structure of DNA)"
+        },
+        {
+          "id": "hodgkin_penicillin_1945",
+          "contribution": "多萝西·霍奇金（利用该技术确定了青霉素和维生素B12的复杂结构）",
+          "contribution_en": "Dorothy Hodgkin (used the technique to determine the complex structures of Penicillin and Vitamin B12)"
+        }
+      ],
+      "legacy_text": "布拉格父子不仅发现了定律，还发明了透视物质微观灵魂的工具。",
+      "legacy_text_en": "The Braggs didn't just find a law; they invented the tool to peer into the microscopic soul of matter."
+    },
+  
+    "related_concepts": ["布拉格定律 (Bragg's Law)", "X射线晶体学", "衍射 (Diffraction)", "晶格 (Crystal Lattice)", "DNA结构", "罗莎琳德·富兰克林", "冯·劳厄"],
+    "related_concepts_en": ["Bragg's Law", "X-ray Crystallography", "Diffraction", "Crystal Lattice", "DNA Structure", "Rosalind Franklin", "Max von Laue"],
+  
+    "quiz": {
+      "question": "布拉格定律 ($n\\lambda = 2d \\sin \\theta$) 允许科学家通过测量X射线的反射角度，计算出什么关键数据？",
+      "question_en": "Bragg's Law ($n\\lambda = 2d \\sin \\theta$) allows scientists to calculate what key data by measuring the reflection angle of X-rays?",
+      "options": [
+        "原子的重量",
+        "晶体中原子层之间的距离 ($d$)",
+        "电子的速度",
+        "X射线的温度"
+      ],
+      "options_en": [
+        "The weight of the atom",
+        "The distance between atomic layers in the crystal ($d$)",
+        "The speed of the electron",
+        "The temperature of the X-ray"
+      ],
+      "answer": 1,
+      "explanation": "布拉格定律的核心用途就是利用已知的X射线波长($\\lambda$)和测得的角度($\\theta$)，反推出晶体内部看不见的原子间距($d$)，从而揭示物质的结构。",
+      "explanation_en": "The core use of Bragg's Law is to use the known X-ray wavelength ($\\lambda$) and the measured angle ($\\theta$) to deduce the invisible spacing between atoms ($d$), thereby revealing the structure of matter."
+    }
+  }

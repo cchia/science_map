@@ -1,7 +1,168 @@
 {
   "id": "bohr_atom_1913",
-  "title": "Bohr Atom",
-  "title_en": "Bohr Atom",
+  "personId": "niels_bohr",
+  "title": "提出“玻尔原子模型” (量子化轨道)",
+  "title_en": "Proposes the 'Bohr Model' (Quantized Orbits)",
   "year": 1913,
-  "is_stub": true
+  "lat": 55.6761,
+  "lng": 12.5683,
+  "city": "哥本哈根",
+  "city_en": "Copenhagen",
+  "country": "丹麦",
+  "country_en": "Denmark",
+  "storyline_ids": ["quantum_story"],
+  "field": ["物理学", "化学"],
+  "field_en": ["Physics", "Chemistry"],
+  
+  "media": {
+    "event_image": "assets/images/bohr_model.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=au2HCVn9IJI",
+      "title": "玻尔原子模型",
+      "title_en": "Bohr Model of the Hydrogen Atom",
+      "duration": "4:49"
+    }
+  },
+  
+  "summary": {
+    "text": "尼尔斯·玻尔（Niels Bohr）在1913年发表了著名的“三部曲”论文，拯救了卢瑟福的“原子核”模型。他大胆地将普朗克（`planck_quantum_1900`）的“量子”概念引入原子内部。他提出：(1) 电子只能在特定的、离散的“轨道”（定态）上运行；(2) 电子在这些轨道上运动时**不辐射**能量；(3) 电子只有在不同轨道之间“跃迁”（Quantum Jump）时，才会吸收或释放能量（光子）。这个模型完美地解释了氢原子的光谱线。",
+    "text_en": "In 1913, Niels Bohr published his famous 'trilogy' of papers, saving Rutherford's 'nuclear' model. He boldly introduced Planck's (`planck_quantum_1900`) 'quantum' concept into the atom. He proposed: (1) Electrons can only orbit in specific, discrete 'tracks' (stationary states); (2) Electrons do **not radiate** energy while in these orbits; (3) Energy is absorbed or emitted (as a photon) only when an electron 'jumps' between these orbits (Quantum Jump). This model perfectly explained the spectral lines of Hydrogen.",
+    "key_points": [
+      "提出了“玻尔模型”(Bohr Model)",
+      "引入了“量子化轨道”(Quantized Orbits)",
+      "提出了“量子跃迁”(Quantum Jump)",
+      "解释了“氢原子光谱”(Hydrogen Spectrum) / 巴耳末系",
+      "解决了卢瑟福原子的“不稳定性”问题"
+    ],
+    "key_points_en": [
+      "Proposed the 'Bohr Model'",
+      "Introduced 'Quantized Orbits'",
+      "Proposed the 'Quantum Jump'",
+      "Explained the 'Hydrogen Spectrum' / Balmer Series",
+      "Solved the 'instability' of the Rutherford atom"
+    ]
+  },
+
+  "story": {
+    "text": "卢瑟福（`rutherford_nucleus_1911`）发现了原子核，但经典物理学预言：绕核运动的电子会因辐射能量而迅速“坠毁”在原子核上。玻尔在卢瑟福的曼彻斯特实验室工作时，不仅接受了原子核模型，还决定“打破”经典物理定律。他的灵感来自于一位朋友随口提到的“巴耳末公式”（Balmer formula）——一个描述氢原子光谱规律的简单数学公式。玻尔一看公式，顿时顿悟：“一切都清楚了！” 他意识到，光谱线就是电子在不同“能级”之间跳跃时发出的光。他仅仅通过假设“角动量量子化”，就从理论上完美推导出了巴耳末公式。爱因斯坦称赞这是“最高形式的音乐性”。",
+    "text_en": "Rutherford (`rutherford_nucleus_1911`) found the nucleus, but classical physics predicted that orbiting electrons would radiate energy and crash into the nucleus instantly. Working in Rutherford's lab, Bohr decided to 'break' the laws of classical physics. His inspiration came when a friend mentioned the 'Balmer formula'—a simple math formula describing Hydrogen's spectral lines. As soon as Bohr saw the formula, 'everything became clear'. He realized spectral lines were light emitted when electrons jumped between 'energy levels'. By simply assuming 'quantized angular momentum', he derived the Balmer formula perfectly from theory. Einstein called this 'the highest form of musicality'.",
+    "diagram": "assets/images/bohr_model_2.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🍺",
+      "text": "传说嘉士伯（Carlsberg）啤酒厂为了表彰玻尔的贡献，送给了他一栋房子，这栋房子有一条直通啤酒厂的管道，可以终身免费喝啤酒。（虽然房子是真的，但“直通管道”可能是都市传说，但他确实能免费喝啤酒）。",
+      "text_en": "Legend has it that the Carlsberg brewery gave Bohr a house next to the brewery with a direct pipeline for free beer for life. (The house was real—an honorary residence—and he did get free beer, though the 'pipeline' is likely a myth)."
+    },
+    {
+      "icon": "☯️",
+      "text": "玻尔在被封爵时，选择了中国的“太极图”（阴阳）作为他的族徽，以此象征他的“互补原理”（波粒二象性）。",
+      "text_en": "When he was knighted, Bohr chose the Chinese 'Tai Chi' symbol (Yin-Yang) for his coat of arms to represent his principle of 'Complementarity' (wave-particle duality)."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "玻尔把原子想象成一个“微型太阳系”，但有一条奇怪的“交通规则”：\n电子是“行星”，原子核是“太阳”。\n但是，电子不能想在哪飞就在哪飞。它们只能在几条特定的“轨道”（像梯子的横格）上飞。\n电子可以从一条轨道“瞬间跳”到另一条轨道（量子跃迁）。\n当它从高处跳到低处时，它会“吐出”一颗光子（这就是为什么霓虹灯会发光）。\n当它吸收光子时，它会“跳”到高处。\n在轨道上“飞行”时，它是绝对安全的，不会掉下来。",
+    "text_en": "Bohr imagined the atom as a 'mini solar system' with strange 'traffic rules':\nElectrons are planets, the Nucleus is the Sun.\nBut electrons can't fly just anywhere. They can only fly on specific 'tracks' (like rungs on a ladder).\nThey can 'teleport' (jump) from one track to another.\nWhen they jump *down*, they spit out a photon of light (this is why neon lights glow).\nWhen they catch a photon, they jump *up*.\nWhile on a track, they are safe and never crash.",
+    "diagram": "assets/images/bohr_model_3.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🌈",
+        "title": "光谱分析",
+        "title_en": "Spectroscopy",
+        "text": "玻尔模型解释了为什么每种元素都有独特的“颜色”（光谱）。这使得天文学家可以通过分析光线知道恒星是由什么做成的（`bunsen_spectroscopy_1859` 的理论解释）。",
+        "text_en": "The Bohr model explained *why* every element has unique 'colors' (spectrum). This allows astronomers to know what stars are made of just by analyzing their light (the theory behind `bunsen_spectroscopy_1859`)."
+      },
+      {
+        "icon": "🔦",
+        "title": "激光原理",
+        "title_en": "Lasers",
+        "text": "理解电子如何在能级之间“跳跃”和“受激辐射”，是后来发明激光（`laser_invention_1960`）的物理基础。",
+        "text_en": "Understanding how electrons 'jump' levels and emit light (stimulated emission) was the physical basis for the later invention of the Laser (`laser_invention_1960`)."
+      },
+      {
+        "icon": "🧪",
+        "title": "化学键",
+        "title_en": "Chemical Bonds",
+        "text": "“电子壳层”（Shells）的概念源于玻尔模型。它解释了为什么原子会结合成分子（化学价），是现代化学的基础。",
+        "text_en": "The concept of 'Electron Shells' comes from the Bohr model. It explains why atoms bond to form molecules (valency), the foundation of modern chemistry."
+      }
+    ],
+
+  "impact": {
+    "text": "玻尔模型是“旧量子论”的巅峰。它是连接“经典物理”（牛顿/麦克斯韦）和“现代量子力学”（海森堡/薛定谔）的桥梁。虽然它后来被证明是不完全正确的（电子不是小球），但它引入的“能级”、“量子数”和“跃迁”概念，至今仍是物理学和化学的核心语言。",
+    "text_en": "The Bohr Model was the zenith of the 'Old Quantum Theory'. It was the bridge between 'Classical Physics' (Newton/Maxwell) and 'Modern Quantum Mechanics' (Heisenberg/Schrödinger). Although later proven technically incorrect (electrons aren't little balls), the concepts it introduced—Energy Levels, Quantum Numbers, and Jumps—remain the core language of physics and chemistry today.",
+    "stats": [
+        {
+          "number": "1922",
+          "label": "年诺贝尔奖",
+          "label_en": "Nobel Prize"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "rutherford_nucleus_1911",
+        "contribution": "卢瑟福（玻尔的导师，其“有核原子”模型是玻尔工作的起点）",
+        "contribution_en": "Ernest Rutherford (Bohr's mentor, whose 'nuclear atom' was the starting point)"
+      },
+      {
+        "id": "planck_quantum_1900",
+        "contribution": "普朗克（其 E=hf 的量子概念是玻尔用来“锁定”电子轨道的工具）",
+        "contribution_en": "Max Planck (his E=hf quantum concept was the tool Bohr used to 'lock' the electron orbits)"
+      },
+      {
+        "id": "fraunhofer_lines_1814",
+        "contribution": "夫琅禾费（其发现的光谱线是玻尔模型试图解释的“数据”）",
+        "contribution_en": "Fraunhofer (whose spectral lines were the 'data' the Bohr model sought to explain)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "heisenberg_matrix_mechanics_1925",
+        "contribution": "海森堡（玻尔的学生，他为了解决玻尔模型的局限性，创立了矩阵力学）",
+        "contribution_en": "Heisenberg (Bohr's student, who invented Matrix Mechanics to fix the limitations of Bohr's model)"
+      },
+      {
+        "id": "pauli_exclusion_principle_1925",
+        "contribution": "泡利（其不相容原理是基于玻尔的“电子壳层”概念发展出来的）",
+        "contribution_en": "Wolfgang Pauli (his Exclusion Principle was developed based on Bohr's concept of 'electron shells')"
+      },
+      {
+        "id": "schrodinger_equation_1926",
+        "contribution": "薛定谔（其波动力学最终用“电子云”取代了玻尔的“电子轨道”）",
+        "contribution_en": "Schrödinger (his wave mechanics finally replaced Bohr's 'orbits' with 'electron clouds')"
+      }
+    ],
+    "legacy_text": "玻尔不仅拯救了原子，他还给了我们一把解开元素周期表秘密的钥匙。",
+    "legacy_text_en": "Bohr didn't just save the atom; he gave us the key to unlock the secrets of the Periodic Table."
+  },
+
+  "related_concepts": ["量子跃迁 (Quantum Jump)", "能级 (Energy Level)", "普朗克常数", "巴耳末系 (Balmer Series)", "光谱 (Spectrum)", "互补原理 (Complementarity)", "哥本哈根诠释"],
+  "related_concepts_en": ["Quantum Jump", "Energy Level", "Planck's Constant", "Balmer Series", "Spectrum", "Complementarity", "Copenhagen Interpretation"],
+
+  "quiz": {
+    "question": "玻尔模型为了解决卢瑟福模型中“电子会坠入原子核”的问题，引入了什么革命性的假设？",
+    "question_en": "What revolutionary assumption did the Bohr Model introduce to solve the problem of 'electrons crashing into the nucleus' in the Rutherford model?",
+    "options": [
+      "电子静止不动",
+      "电子只能在特定的、离散的“轨道”上运动，且不辐射能量",
+      "原子核带负电",
+      "引力在原子内部不起作用"
+    ],
+    "options_en": [
+      "Electrons are stationary",
+      "Electrons can only move in specific, discrete 'orbits' and do not radiate energy",
+      "The nucleus is negatively charged",
+      "Gravity doesn't work inside the atom"
+    ],
+    "answer": 1,
+    "explanation": "经典物理学认为加速电荷（绕圈的电子）必须辐射能量并坠毁。玻尔通过“命令”（假设）电子在特定轨道上“不辐射”，强行引入了量子规则，从而保证了原子的稳定性。",
+    "explanation_en": "Classical physics said accelerating charges (orbiting electrons) must radiate and crash. Bohr *imposed* a quantum rule (postulate) that electrons simply *do not radiate* while in specific 'allowed' orbits, ensuring stability."
+  }
 }

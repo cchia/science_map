@@ -1,0 +1,10 @@
+{
+    "name": "威廉·劳伦斯·布拉格",
+    "name_en": "William Lawrence Bragg",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Wl-bragg.jpg",
+    "bio_short": "澳大利亚裔英国物理学家。他在22岁时提出了“布拉格定律”，与父亲威廉·亨利·布拉格共同开创了X射线晶体学。他在25岁时获得诺贝尔物理学奖，至今仍是史上最年轻的物理学诺奖得主。",
+    "bio_short_en": "an Australian-born British physicist. He formulated 'Bragg's Law' at age 22 and co-founded X-ray crystallography with his father, William Henry Bragg. He won the Nobel Prize in Physics at 25, remaining the youngest-ever laureate in Physics.",
+    "events": [
+      "bragg_diffraction_1913"
+    ]
+  }

@@ -9,6 +9,7 @@
     "city": "伯尔尼",
     "city_en": "Bern",
     "country": "瑞士",
+    "storyline_ids": ["quantum_story"],
     "country_en": "Switzerland",
     "field": [
         "物理学"

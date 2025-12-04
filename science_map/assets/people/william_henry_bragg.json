@@ -1,0 +1,10 @@
+{
+    "name": "威廉·亨利·布拉格",
+    "name_en": "William Henry Bragg",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/26/Wh-bragg.jpg",
+    "bio_short": "英国物理学家。他与儿子威廉·劳伦斯·布拉格共同开创了X射线晶体学，发明了X射线光谱仪，并因此获得了1915年的诺贝尔物理学奖。",
+    "bio_short_en": "A British physicist. He co-founded X-ray crystallography with his son, William Lawrence Bragg, inventing the X-ray spectrometer, for which they shared the 1915 Nobel Prize in Physics.",
+    "events": [
+      "bragg_diffraction_1913"
+    ]
+  }

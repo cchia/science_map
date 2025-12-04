@@ -1,0 +1,163 @@
+{
+    "id": "stern_gerlach_experiment_1922",
+    "personId": ["otto_stern", "walther_gerlach"],
+    "title": "斯特恩-盖拉赫实验 (空间量子化与自旋)",
+    "title_en": "Stern-Gerlach Experiment (Spatial Quantization & Spin)",
+    "year": 1922,
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "city": "法兰克福",
+    "city_en": "Frankfurt",
+    "country": "德国 (魏玛共和国)",
+    "country_en": "Germany (Weimar Republic)",
+    "storyline_ids": ["quantum_story"],
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/stern_gerlach_spin.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=PH1FbkLVJU4",
+        "title": "斯特恩-盖拉赫实验与电子自旋",
+        "title_en": "Stern-Gerlach Experiment 1922 ",
+        "duration": "3:14"
+      }
+    },
+    
+    "summary": {
+      "text": "1922年，奥托·斯特恩（Otto Stern）和瓦尔特·盖拉赫（Walther Gerlach）在法兰克福大学进行了一项基础性的量子力学实验。他们将一束银原子射入一个“不均匀的磁场”。根据经典物理学，原子应该在屏幕上形成一条连续的“污迹”。然而，结果显示原子被分成了“两条”清晰分离的轨迹。这证实了量子力学的“空间量子化”（Spatial Quantization）预测，即粒子的角动量只能取特定的离散值。虽然他们当时以为证实了玻尔轨道模型，但后来发现这实际上是“电子自旋”(Electron Spin) 的第一次实验证据。",
+      "text_en": "In 1922, Otto Stern and Walther Gerlach conducted a foundational quantum mechanics experiment at the University of Frankfurt. They shot a beam of silver atoms through a 'non-uniform magnetic field'. Classical physics predicted the atoms would form a continuous 'smear' on the screen. However, the result showed the atoms split into 'two' distinct, separate traces. This confirmed the quantum mechanical prediction of 'spatial quantization'—that angular momentum can only take specific discrete values. Although they thought they had verified the Bohr orbital model, it was later realized this was actually the first experimental evidence of 'Electron Spin'.",
+      "key_points": [
+        "首次观察到“空间量子化”(Spatial Quantization)",
+        "证明了微观粒子的磁矩是离散的（非连续的）",
+        "实际上发现了“电子自旋”(Electron Spin)（虽然当时未被识别）",
+        "使用了不均匀磁场来偏转银原子束",
+        "著名的“雪茄烟”故事"
+      ],
+      "key_points_en": [
+        "First observation of 'Spatial Quantization'",
+        "Proved microscopic magnetic moments are discrete (not continuous)",
+        "Actually discovered 'Electron Spin' (though unrecognized at the time)",
+        "Used a non-uniform magnetic field to deflect silver atoms",
+        "Famous 'Cigar Story'"
+      ]
+    },
+  
+    "story": {
+      "text": "这个实验的成功有一个充满传奇色彩的细节：斯特恩当时买不起好雪茄，只能抽便宜的劣质雪茄，里面含有大量的硫。当他们第一次检查接收银原子的玻璃板时，上面什么也看不见（银层太薄了）。斯特恩失望地对着玻璃板呼了一口气——奇迹发生了！他烟雾缭绕的呼吸中含有的硫磺与银发生了反应，将看不见的银变成了黑色的“硫化银”。两条清晰的黑色条纹显现了出来，证明了量子理论的胜利。如果没有那根廉价雪茄，他们可能就错过了这个发现。",
+      "text_en": "The success of this experiment has a legendary detail: Stern could only afford cheap cigars, which contained a lot of sulfur. When they first checked the glass plate receiving the silver atoms, they saw nothing (the silver layer was too thin). Stern, disappointed, breathed on the plate—and a miracle happened! The sulfur in his smoky breath reacted with the silver, turning the invisible silver into black 'silver sulfide'. Two clear black bands appeared, proving the victory of quantum theory. Without that cheap cigar, they might have missed the discovery.",
+      "diagram": "assets/images/stern_gerlach_cigar.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤔",
+        "text": "这是一个“错误的理论被正确的实验证实”的罕见案例。斯特恩和盖拉赫认为他们证明了波尔模型的轨道角动量量子化（$l=1$）。实际上，银原子的基态轨道角动量是0，他们看到的分裂完全来自于最外层电子的“自旋”（$s=1/2$），而“自旋”这个概念在3年后才被提出。",
+        "text_en": "This is a rare case of 'the right experiment for the wrong theory'. They thought they proved the Bohr model's orbital quantization ($l=1$). In reality, silver atoms have zero orbital angular momentum. The splitting they saw came entirely from the 'spin' ($s=1/2$) of the outermost electron, a concept not proposed until 3 years later."
+      },
+      {
+        "icon": "✉️",
+        "text": "实验成功后，盖拉赫给玻尔发了一张明信片，上面画着实验结果的照片，并写道：“附上玻尔理论这一悬案的‘延续’：如果它是对的，那是对的；如果它是错的，那也是对的。”",
+        "text_en": "After the success, Gerlach sent a postcard to Bohr with a photo of the result, writing: 'Attached [is] the continuation of your theory: If it is right, then it is right; if it is wrong, then it is right.'"
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你向一个磁铁门扔一堆“旋转的陀螺”（原子）。\n**经典物理学说**：陀螺会随机指向各个方向，所以它们穿过磁铁后会散开，在墙上留下一条“连续的直线”。\n**斯特恩-盖拉赫实验发现**：陀螺并没有散开，而是分成了“两堆”。一堆全部向上偏，一堆全部向下偏，中间是空的！\n这说明在量子世界里，你不能“随便指”。你只能“向上”或“向下”。这就是“量子化”。",
+      "text_en": "Imagine throwing a bunch of 'spinning tops' (atoms) through a magnet gate.\n**Classical physics says**: The tops are pointing in random directions, so they should spread out and leave a 'continuous smear' on the wall.\n**Stern-Gerlach found**: The tops didn't smear. They split into *two piles*. One pile went UP, the other went DOWN, and the middle was empty!\nThis showed that in the quantum world, you can't point 'wherever you want'. You can only be 'Up' or 'Down'. This is 'quantization'.",
+      "diagram": "assets/images/spin_quantization.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧲",
+          "title": "核磁共振 (MRI)",
+          "title_en": "MRI (Magnetic Resonance Imaging)",
+          "text": "现代医院的MRI机器通过操控人体内质子的“自旋”方向（上或下）来成像，其基本物理原理直接源于斯特恩-盖拉赫实验揭示的“自旋在磁场中的行为”。",
+          "text_en": "Modern MRI machines image the body by manipulating the 'spin' direction (up or down) of protons. The basic physics comes directly from the Stern-Gerlach experiment's revelation of spin in magnetic fields."
+        },
+        {
+          "icon": "🕰️",
+          "title": "原子钟",
+          "title_en": "Atomic Clocks",
+          "text": "通过磁场选择特定量子态的原子，是早期原子钟（如拉比的实验）的核心技术。",
+          "text_en": "Selecting atoms of a specific quantum state using magnetic fields was the core technology of early atomic clocks (like Rabi's work)."
+        },
+        {
+          "icon": "💻",
+          "title": "自旋电子学 (Spintronics)",
+          "title_en": "Spintronics",
+          "text": "这是下一代计算机存储技术的基础，它利用电子的“自旋”方向（而不仅仅是电荷）来存储信息（0和1）。",
+          "text_en": "This is the basis for next-gen computer storage, using the 'spin' direction of electrons (not just charge) to store information (0 and 1)."
+        }
+      ],
+  
+    "impact": {
+      "text": "斯特恩-盖拉赫实验是量子力学的“奠基石”之一。它为抽象的“量子化”概念提供了最直观、最无可辩驳的物理证据。它不仅证实了空间量子化，还（追溯性地）发现了“自旋”，这是粒子的一种基本内禀属性。没有这个实验，我们对物质磁性的理解将是空白的。",
+      "text_en": "The Stern-Gerlach experiment is a 'cornerstone' of quantum mechanics. It provided the most intuitive, irrefutable physical evidence for the abstract concept of 'quantization'. It not only confirmed spatial quantization but (retroactively) discovered 'spin', a fundamental intrinsic property of particles. Without this, our understanding of magnetism would be blank.",
+      "stats": [
+          {
+            "number": "1922",
+            "label": "年 (实验完成)",
+            "label_en": "Year (Experiment Done)"
+          },
+          {
+            "number": "2",
+            "label": "条轨迹 (量子化结果)",
+            "label_en": "Traces (Quantized Result)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "玻尔（其原子模型预言了角动量是量子化的，这是斯特恩试图验证的）",
+          "contribution_en": "Niels Bohr (his atomic model predicted angular momentum was quantized, which Stern sought to verify)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "pauli_exclusion_principle_1925",
+          "contribution": "泡利（为了解释斯特恩-盖拉赫实验中的“双值”现象，他引入了第四个量子数，即自旋）",
+          "contribution_en": "Wolfgang Pauli (to explain the 'two-valued' result of Stern-Gerlach, he introduced the fourth quantum number, i.e., spin)"
+        },
+        {
+          "id": "uhlenbeck_goudsmit_spin_1925",
+          "contribution": "乌伦贝克和古德斯米特（正式提出了“电子自旋”理论，解释了斯特恩-盖拉赫的实验结果）",
+          "contribution_en": "Uhlenbeck & Goudsmit (formally proposed 'electron spin', providing the correct explanation for the Stern-Gerlach result)"
+        },
+        {
+          "id": "rabi_nmr_1938",
+          "contribution": "伊西多·拉比（他在斯特恩的实验室工作过，改进了该技术并发明了核磁共振 NMR）",
+          "contribution_en": "Isidor Rabi (worked in Stern's lab, refined the technique, and invented Nuclear Magnetic Resonance - NMR)"
+        }
+      ],
+      "legacy_text": "斯特恩和盖拉赫让原子在磁场中“选边站”，从而揭示了量子世界的二元性。",
+      "legacy_text_en": "Stern and Gerlach forced atoms to 'pick a side' in a magnetic field, revealing the binary nature of the quantum world."
+    },
+  
+    "related_concepts": ["自旋 (Spin)", "空间量子化 (Spatial Quantization)", "磁矩 (Magnetic Moment)", "量子力学 (Quantum Mechanics)", "玻尔模型 (Bohr Model)", "泡利矩阵", "核磁共振 (NMR)"],
+    "related_concepts_en": ["Spin", "Spatial Quantization", "Magnetic Moment", "Quantum Mechanics", "Bohr Model", "Pauli Matrices", "NMR"],
+  
+    "quiz": {
+      "question": "斯特恩-盖拉赫实验的结果（银原子在屏幕上分成两条线）证明了什么物理现象？",
+      "question_en": "What physical phenomenon did the result of the Stern-Gerlach experiment (silver atoms splitting into two lines) prove?",
+      "options": [
+        "原子核带有正电",
+        "电子像行星一样绕轨道运行",
+        "角动量（及后来的自旋）在空间中的方向是“量子化”的（不连续的）",
+        "光是一种波"
+      ],
+      "options_en": [
+        "The nucleus is positively charged",
+        "Electrons orbit like planets",
+        "The direction of angular momentum (and later, spin) in space is 'quantized' (discrete)",
+        "Light is a wave"
+      ],
+      "answer": 2,
+      "explanation": "经典物理预测原子磁矩的方向是随机分布的，应形成一条连续的线。实验显示原子分成了分离的“上”和“下”两束，证明了磁矩（及其关联的角动量/自旋）只能取特定的、离散的方向。",
+      "explanation_en": "Classical physics predicted the atoms' magnetic moments would be randomly oriented, forming a continuous line. The experiment showed the atoms split into discrete 'up' and 'down' beams, proving that magnetic moment (and its associated angular momentum/spin) can only take specific, discrete directions."
+    }
+  }

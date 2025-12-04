@@ -1,7 +1,172 @@
 {
   "id": "dirac_equation_1928",
-  "title": "Dirac Equation",
-  "title_en": "Dirac Equation",
+  "personId": "paul_dirac",
+  "title": "发表“狄拉克方程” (预言反物质)",
+  "title_en": "Publishes the 'Dirac Equation' (Predicts Antimatter)",
   "year": 1928,
-  "is_stub": true
+  "lat": 52.2053,
+  "lng": 0.1218,
+  "city": "剑桥",
+  "city_en": "Cambridge",
+  "country": "英国",
+  "country_en": "United Kingdom",
+  "field": ["物理学", "数学"],
+  "field_en": ["Physics", "Mathematics"],
+  
+  "media": {
+    "event_image": "assets/images/dirac_equation.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=AxTCMyDfX8Y",
+      "title": "狄拉克：世界上最美的物理方程发现人",
+      "title_en": "The Scientist Who Discovered the World's Most Beautiful Equation",
+      "duration": "14:57"
+    }
+  },
+  
+  "summary": {
+    "text": "保罗·狄拉克（Paul Dirac）发表了物理学史上最优美的方程之一——“狄拉克方程”。该方程首次成功地将爱因斯坦的“狭义相对论”（`einstein_special_relativity_1905`）与“量子力学”（`schrodinger_equation_1926`）融合在一起，用来描述高速运动的电子。这个方程不仅自然地解释了电子的“自旋”(Spin) 现象，还惊人地预言了一种全新的物质——“反物质”(Antimatter) 的存在。",
+    "text_en": "Paul Dirac published one of the most beautiful equations in the history of physics—the 'Dirac Equation'. It was the first to successfully merge Einstein's 'Special Relativity' (`einstein_special_relativity_1905`) with 'Quantum Mechanics' (`schrodinger_equation_1926`) to describe electrons moving at high speeds. The equation not only naturally explained the phenomenon of electron 'Spin', but also startlingly predicted the existence of a brand new form of matter: 'Antimatter'.",
+    "key_points": [
+      "提出了“狄拉克方程” $(i\\gamma^\\mu\\partial_\\mu - m)\\psi = 0$",
+      "统一了“量子力学”和“狭义相对论”",
+      "预言了“反物质”(Antimatter) / “正电子”(Positron)",
+      "自然导出电子“自旋”(Spin) 是相对论效应",
+      "1933年获得诺贝尔物理学奖"
+    ],
+    "key_points_en": [
+      "Proposed the 'Dirac Equation' $(i\\gamma^\\mu\\partial_\\mu - m)\\psi = 0$",
+      "Unified 'Quantum Mechanics' and 'Special Relativity'",
+      "Predicted 'Antimatter' / 'Positron'",
+      "Derived electron 'Spin' as a relativistic effect",
+      "Won the 1933 Nobel Prize in Physics"
+    ]
+  },
+
+  "story": {
+    "text": "在1928年，薛定谔方程虽然成功，但它有一个缺陷：它不符合相对论（无法处理接近光速的粒子），而且无法解释为什么电子会有“自旋”。狄拉克致力于寻找一个既符合量子力学又符合相对论的方程。他通过纯粹的数学直觉，引入了4×4的矩阵（伽马矩阵），写出了一个看似简单的方程。然而，这个方程有两个解：一个是正能量（正常的电子），另一个是“负能量”。大多数物理学家会忽略负能量解，但狄拉克认为数学是神圣的。他提出，这些“负能量状态”实际上是一个充满电子的海洋（狄拉克海），而其中的“空穴”（气泡）表现得就像一个带正电的电子。三年后，安德森在宇宙射线中真的发现了这个“正电子”。狄拉克仅凭一支笔，就发现了宇宙的一半（反物质）。",
+    "text_en": "In 1928, Schrödinger's equation worked, but it was flawed: it wasn't relativistic (couldn't handle fast particles) and couldn't explain electron 'spin'. Dirac sought an equation that obeyed both Quantum Mechanics and Relativity. Through pure mathematical intuition, he introduced 4x4 matrices (Gamma matrices) and wrote a deceptively simple equation. However, it had two solutions: positive energy (normal electrons) and *negative energy*. Most physicists would ignore negative energy, but Dirac believed math was sacred. He proposed these 'negative energy states' were a sea filled with electrons (Dirac Sea), and a 'hole' (bubble) in it would act like a *positively* charged electron. Three years later, Anderson found this 'positron' in cosmic rays. With just a pen, Dirac had discovered half the universe (antimatter).",
+    "diagram": "assets/images/dirac_sea.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "😶",
+      "text": "狄拉克以沉默寡言著称。剑桥的同事们甚至发明了一个单位“1 狄拉克”，定义为“每小时说一个字”。",
+      "text_en": "Dirac was famously taciturn. His colleagues at Cambridge jokingly defined a unit called '1 Dirac', equal to 'one word per hour'."
+    },
+    {
+      "icon": "📐",
+      "text": "狄拉克认为“数学美”是物理理论正确与否的最高标准。他说：“如果一个方程很美，那它这就比它是正确的更重要。”（意指如果它很美，实验最终会证明它是对的）。",
+      "text_en": "Dirac believed 'Mathematical Beauty' was the supreme test of a theory. He famously said, 'It is more important to have beauty in one's equations than to have them fit experiment' (implying if it's beautiful, the experiments will eventually match)."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "薛定谔方程描述了“慢速”电子的波。爱因斯坦的相对论描述了“高速”物体的规则。\n狄拉克把这两个拼图拼在了一起。结果，拼图中间出现了一个奇怪的空洞：方程说，除了“电子”，必须还存在一种“反电子”。\n它和电子一模一样，只是带“正电”。如果它碰到电子，两者都会在一瞬间消失（湮灭）并变成纯能量。\n这就是“反物质”。狄拉克没做实验，光靠算数就算出了它的存在。",
+    "text_en": "Schrödinger's equation described 'slow' electron waves. Einstein's relativity described the rules for 'fast' things.\nDirac put these two puzzle pieces together. The result revealed a strange hole in the picture: the math said that besides the 'electron', there *must* be an 'anti-electron'.\nIt's exactly like an electron, but with a *positive* charge. If it touches an electron, both vanish instantly (annihilate) into pure energy.\nThis is 'Antimatter'. Dirac discovered it just by doing the math.",
+    "diagram": "assets/images/dirac_equation_2.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🏥",
+        "title": "PET 扫描 (医疗)",
+        "title_en": "PET Scans (Medical)",
+        "text": "“正电子发射断层扫描”(Positron Emission Tomography) 利用狄拉克预言的“反物质”（正电子）来检测人体内的癌症和脑部活动。",
+        "text_en": "'Positron Emission Tomography' uses the 'antimatter' (positrons) predicted by Dirac to detect cancer and brain activity inside the human body."
+      },
+      {
+        "icon": "⚛️",
+        "title": "量子场论 (QFT)",
+        "title_en": "Quantum Field Theory",
+        "text": "狄拉克方程是现代“量子场论”的基础，它是粒子物理学标准模型的基石。",
+        "text_en": "The Dirac Equation is the foundation of modern 'Quantum Field Theory', the bedrock of the Standard Model of particle physics."
+      },
+      {
+        "icon": "💾",
+        "title": "自旋电子学",
+        "title_en": "Spintronics",
+        "text": "狄拉克方程自然导出了“自旋”，这是现代硬盘和磁性存储技术（巨磁阻效应）的物理基础。",
+        "text_en": "The Dirac equation naturally derived 'spin', which is the physical basis for modern hard drives and magnetic storage (Giant Magnetoresistance)."
+      }
+    ],
+
+  "impact": {
+    "text": "狄拉克方程是理论物理学的巅峰时刻。它不仅统一了量子力学和狭义相对论，还使得物理学家的能力从“解释已知”跃升为“预言未知”（反物质）。随着1932年安德森（Carl Anderson）在云室中发现正电子，狄拉克的理论被彻底证实，开启了反物质和高能物理研究的新时代。",
+    "text_en": "The Dirac Equation represents a pinnacle of theoretical physics. It not only unified Quantum Mechanics and Special Relativity but also elevated the power of physics from 'explaining the known' to 'predicting the unknown' (antimatter). With Carl Anderson's discovery of the positron in 1932, Dirac's theory was triumphantly confirmed, launching the era of antimatter and high-energy physics.",
+    "stats": [
+        {
+          "number": "1928",
+          "label": "年 (方程发表)",
+          "label_en": "Year (Equation Published)"
+        },
+        {
+          "number": "1932",
+          "label": "年 (发现正电子)",
+          "label_en": "Year (Positron Discovered)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "schrodinger_equation_1926",
+        "contribution": "薛定谔（狄拉克试图改进薛定谔方程，使其符合相对论）",
+        "contribution_en": "Schrödinger (Dirac sought to improve the Schrödinger equation to make it compatible with relativity)"
+      },
+      {
+        "id": "einstein_special_relativity_1905",
+        "contribution": "爱因斯坦（狭义相对论是狄拉克方程必须满足的核心约束条件）",
+        "contribution_en": "Einstein (Special Relativity was the core constraint Dirac's equation had to satisfy)"
+      },
+      {
+        "id": "heisenberg_matrix_mechanics_1925",
+        "contribution": "海森堡（狄拉克深受海森堡非交换代数的影响，并将其发扬光大）",
+        "contribution_en": "Heisenberg (Dirac was deeply influenced by Heisenberg's non-commutative algebra and extended it)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "anderson_positron_1932",
+        "contribution": "卡尔·安德森（他在宇宙射线中发现了狄拉克预言的“正电子”）",
+        "contribution_en": "Carl Anderson (he discovered the 'positron' predicted by Dirac in cosmic rays)"
+      },
+      {
+        "id": "feynman_qed_1948",
+        "contribution": "理查德·费曼（QED量子电动力学是对狄拉克理论的进一步完善和重整化）",
+        "contribution_en": "Richard Feynman (QED was the refinement and renormalization of Dirac's theory)"
+      },
+      {
+        "id": "hawking_radiation_1974",
+        "contribution": "霍金（霍金辐射也是基于量子场论（狄拉克方程）在弯曲时空中的应用）",
+        "contribution_en": "Hawking (Hawking Radiation is also based on applying Quantum Field Theory (Dirac) in curved spacetime)"
+      }
+    ],
+    "legacy_text": "狄拉克通过纯粹的数学美，看见了宇宙的镜像——反物质。",
+    "legacy_text_en": "Through pure mathematical beauty, Dirac saw the mirror image of the universe: antimatter."
+  },
+
+  "related_concepts": ["反物质 (Antimatter)", "正电子 (Positron)", "自旋 (Spin)", "狄拉克海 (Dirac Sea)", "相对论量子力学", "量子场论", "薛定谔方程", "狭义相对论"],
+  "related_concepts_en": ["Antimatter", "Positron", "Spin", "Dirac Sea", "Relativistic Quantum Mechanics", "Quantum Field Theory", "Schrödinger Equation", "Special Relativity"],
+
+  "quiz": {
+    "question": "狄拉克方程在数学上预言了什么惊人的新事物，后来被实验证实？",
+    "question_en": "What astonishing new thing did the Dirac Equation mathematically predict, which was later confirmed by experiment?",
+    "options": [
+      "黑洞",
+      "中子",
+      "反物质（如正电子）",
+      "引力波"
+    ],
+    "options_en": [
+      "Black Holes",
+      "Neutrons",
+      "Antimatter (like the Positron)",
+      "Gravitational Waves"
+    ],
+    "answer": 2,
+    "explanation": "狄拉克方程有两个解：正能量和负能量。狄拉克将“负能量”解解释为“反粒子”。对于电子来说，这就是带正电的“反电子”（正电子），它在1932年被发现。",
+    "explanation_en": "The Dirac equation yielded two solutions: positive and negative energy. Dirac interpreted the 'negative energy' solution as an 'anti-particle'. For the electron, this was the positively charged 'anti-electron' (positron), discovered in 1932."
+  }
 }

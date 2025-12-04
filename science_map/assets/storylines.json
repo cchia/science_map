@@ -105,8 +105,43 @@
       "maxwell_demon_1867",
       "heat_death_theory_1867",    
       "boltzmann_statistical_mechanics_1877",
+      "bose_einstein_statistics_1924",
+      "fermi_dirac_statistics_1926",      
       "shannon_entropy_1948"      
     ]
-  }
+  },
+
+"quantum_story": {
+    "id": "quantum_story",
+    "title_zh": "量子群英会",
+    "title_en": "Quantum Heroes",
+    "emoji": "⚛️",
+    "description_zh": "上帝掷骰子吗？从普朗克的能量块到贝尔定理，见证人类最强大脑如何颠覆这一常识。",
+    "description_en": "Does God play dice? From Planck's quanta to Bell's Theorem, witness how the greatest minds rewrote reality.",
+    "events": [
+      "planck_quantum_1900",
+      "einstein_photoelectric_1905",
+      "rutherford_nucleus_1911",
+      "bohr_atom_1913",
+      "bragg_diffraction_1913",
+      "rutherford_proton_1919",
+      "stern_gerlach_experiment_1922",
+      "bose_einstein_statistics_1924",   
+      "de_broglie_matter_waves_1924",
+      "pauli_exclusion_principle_1925",
+      "heisenberg_matrix_mechanics_1925",
+      "schrodinger_equation_1926",
+      "born_probability_1926",
+      "fermi_dirac_statistics_1926",     
+      "davisson_germer_1927",
+      "gp_thomson_diffraction_1927",
+      "solvay_conference_1927",          
+      "heisenberg_uncertainty_1927",
+      "dirac_equation_1928",
+      "chadwick_neutron_1932",           
+      "entanglement_epr_1935",           
+      "bell_theorem_1964"     
+    ]
+  }  
   
   }

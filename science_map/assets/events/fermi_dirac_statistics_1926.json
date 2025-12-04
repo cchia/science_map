@@ -1,0 +1,158 @@
+{
+    "id": "fermi_dirac_statistics_1926",
+    "personId": ["enrico_fermi", "paul_dirac"],
+    "title": "创立“费米-狄拉克统计”",
+    "title_en": "Formulates 'Fermi-Dirac Statistics'",
+    "year": 1926,
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "city": "罗马 / 剑桥",
+    "city_en": "Rome / Cambridge",
+    "country": "意大利 / 英国",
+    "country_en": "Italy / UK",
+    "storyline_ids": ["thermo_story", "quantum_story"],
+    "field": ["物理学", "数学"],
+    "field_en": ["Physics", "Mathematics"],
+    
+    "media": {
+      "event_image": "assets/images/fermi-dirac.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=83vR9omSahs",
+        "title": "费米子与玻色子的解释",
+        "title_en": "Fermions Vs. Bosons Explained with Statistical Mechanics!",
+        "duration": "15:51"
+      }
+    },
+    
+    "summary": {
+      "text": "在1926年，恩里科·费米（Enrico Fermi）和保罗·狄拉克（Paul Dirac）各自独立地发现了一种新的量子统计规律，适用于遵守“泡利不相容原理”的粒子（如电子）。这种统计规律被称为“费米-狄拉克统计”。它描述了半整数自旋粒子（后来被狄拉克称为“费米子”）的行为：这些粒子不能“挤”在同一个量子态中，而必须像叠罗汉一样，一个接一个地占据更高的能级。这一发现是理解金属导电性、半导体原理以及白矮星稳定性的基础。",
+      "text_en": "In 1926, Enrico Fermi and Paul Dirac independently discovered a new statistical law for particles that obey the 'Pauli Exclusion Principle' (like electrons). This is known as 'Fermi-Dirac Statistics'. It describes the behavior of half-integer spin particles (later named 'Fermions' by Dirac): these particles cannot 'crowd' into the same quantum state but must stack up, one by one, into higher energy levels. This discovery is the foundation for understanding electrical conductivity in metals, semiconductors, and the stability of white dwarf stars.",
+      "key_points": [
+        "创立了“费米-狄拉克统计” (Fermi-Dirac Statistics)",
+        "定义了“费米子”(Fermions)（半整数自旋粒子，如电子、质子）",
+        "基于“泡利不相容原理” (Pauli Exclusion Principle)",
+        "提出了“费米能级”(Fermi Level) 和“费米海”(Fermi Sea)",
+        "解释了物质为何有“体积”和“硬度”"
+      ],
+      "key_points_en": [
+        "Founded 'Fermi-Dirac Statistics'",
+        "Defined 'Fermions' (half-integer spin particles, e.g., electrons, protons)",
+        "Based on the 'Pauli Exclusion Principle'",
+        "Introduced 'Fermi Level' and 'Fermi Sea'",
+        "Explains why matter has 'volume' and 'hardness'"
+      ]
+    },
+  
+    "story": {
+      "text": "在玻色（`bose_einstein_statistics_1924`）解决了光子（喜欢群居）的统计问题后，物理学家面临着另一个难题：电子（喜欢独处）的行为截然不同。费米意识到，如果你把一群电子关在一个盒子里，它们不会像光子那样全部掉落到最低能量态。相反，根据泡利原理，每个“座位”（量子态）只能坐一个电子。第一个电子坐第一排，第二个只能坐第二排，以此类推，直到形成一个巨大的“电子塔”。狄拉克不久后也独立发现了这一点，并将其与量子力学的波函数联系起来。狄拉克非常慷慨，后来建议将这些粒子命名为“费米子”(Fermions) 以纪念费米。",
+      "text_en": "After Bose (`bose_einstein_statistics_1924`) solved the statistics for photons (which like to herd), physicists faced a problem: electrons (which like to be alone) behaved differently. Fermi realized that if you put a bunch of electrons in a box, they don't all fall to the lowest energy state like photons. Instead, due to Pauli's rule, only one electron can sit in each 'seat' (quantum state). The first electron takes the first row, the second *must* take the second row, and so on, building a giant 'tower' of electrons. Dirac independently found this shortly after and linked it to wavefunctions. Dirac was generous and later coined the term 'Fermion' to honor Fermi.",
+      "diagram": "assets/images/fermi-dirac_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧊",
+        "text": "因为费米子必须“向上堆叠”占据高能级，即使在“绝对零度”，电子也拥有巨大的动能（费米能）。这就是为什么金属在极冷时仍然导电，也是为什么白矮星不会在引力下坍缩。",
+        "text_en": "Because fermions must 'stack up' into higher energy levels, electrons possess huge kinetic energy (Fermi Energy) even at 'Absolute Zero'. This is why metals conduct electricity when cold, and why white dwarfs don't collapse under gravity."
+      },
+      {
+        "icon": "🧱",
+        "text": "你不能穿墙而过，也是因为费米-狄拉克统计。你手上的电子和墙上的电子都是费米子，它们“拒绝”占据相同的空间（量子态）。是量子统计给了物质“硬度”。",
+        "text_en": "You can't walk through walls because of Fermi-Dirac statistics. The electrons in your hand and the electrons in the wall are fermions; they 'refuse' to occupy the same space (quantum state). Quantum statistics gives matter its 'hardness'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象两种电影院：\n1. **玻色子电影院**（玻色-爱因斯坦统计）：大家都很友好，所有人都想挤在第一排最好的座位上。甚至可以一百个人叠坐在同一个座位上。\n2. **费米子电影院**（费米-狄拉克统计）：大家都很“社恐”，每个人必须独占一个座位。如果第一排坐满了，新来的人就必须去坐第二排，然后是第三排... 直到坐满整个剧场。\n电子就是“费米子”。这种“不得不往高处坐”的规则，导致了“电子简并压力”，正是这股力量支撑着白矮星，也决定了金属如何导电。",
+      "text_en": "Imagine two movie theaters:\n1. **The Boson Theater** (Bose-Einstein): Everyone is friendly and wants to cram into the front row. You can even have 100 people stacked on the exact same seat.\n2. **The Fermion Theater** (Fermi-Dirac): Everyone is 'anti-social'. Each person *must* have their own unique seat. If the front row is full, new people *must* go to the second row, then the third... filling the whole theater up high.\nElectrons are 'Fermions'. This rule of 'forced stacking' creates 'electron degeneracy pressure', which holds up white dwarfs and determines how metals conduct electricity.",
+      "diagram": "assets/images/fermi-dirac_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💻",
+          "title": "半导体与晶体管",
+          "title_en": "Semiconductors & Transistors",
+          "text": "理解电子在能带（Energy Bands）中的“费米分布”，是设计所有半导体器件（如芯片、LED）的物理基础。",
+          "text_en": "Understanding the 'Fermi distribution' of electrons in energy bands is the physical basis for designing all semiconductor devices (chips, LEDs)."
+        },
+        {
+          "icon": "🌟",
+          "title": "白矮星与中子星",
+          "title_en": "White Dwarfs & Neutron Stars",
+          "text": "钱德拉塞卡（`chandrasekhar_limit_1931`）利用费米统计证明了“电子简并压力”可以抵抗恒星引力，防止坍缩。",
+          "text_en": "Chandrasekhar (`chandrasekhar_limit_1931`) used Fermi statistics to prove that 'electron degeneracy pressure' can fight gravity and stop a star from collapsing."
+        },
+        {
+          "icon": "⚡",
+          "title": "金属导电",
+          "title_en": "Electrical Conduction",
+          "text": "它解释了为什么只有“费米面”（Fermi Surface）附近的电子才能参与导电。",
+          "text_en": "It explains why only electrons near the 'Fermi Surface' can participate in electrical conduction."
+        }
+      ],
+  
+    "impact": {
+      "text": "费米-狄拉克统计是量子力学的两大支柱之一（另一根是玻色-爱因斯坦统计）。它定义了构成我们物质世界的所有粒子（电子、质子、中子）的基本行为模式。没有它，我们无法理解原子结构、固体的性质（固态物理学），也无法理解恒星的演化。",
+      "text_en": "Fermi-Dirac statistics is one of the two pillars of quantum mechanics (the other being Bose-Einstein). It defines the fundamental behavior of all particles that make up matter (electrons, protons, neutrons). Without it, we could not understand atomic structure, the properties of solids (solid-state physics), or the evolution of stars.",
+      "stats": [
+          {
+            "number": "1926",
+            "label": "年 (理论发表)",
+            "label_en": "Year (Theory Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pauli_exclusion_principle_1925",
+          "contribution": "泡利（其“不相容原理”是费米统计的出发点和核心规则）",
+          "contribution_en": "Wolfgang Pauli (his 'Exclusion Principle' was the starting point and core rule for Fermi's statistics)"
+        },
+        {
+          "id": "bose_einstein_statistics_1924",
+          "contribution": "玻色和爱因斯坦（他们解决光子统计的方法启发了费米去寻找电子的统计方法）",
+          "contribution_en": "Bose & Einstein (their solution for photon statistics inspired Fermi to find the counterpart for electrons)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "chandrasekhar_limit_1931",
+          "contribution": "钱德拉塞卡（将费米统计应用于天文学，计算出了白矮星的极限）",
+          "contribution_en": "Chandrasekhar (applied Fermi statistics to astronomy, calculating the limit of white dwarfs)"
+        },
+        {
+          "id": "transistor_invention_1947",
+          "contribution": "肖克利等（半导体物理完全依赖于对费米能级和空穴的理解）",
+          "contribution_en": "Shockley et al. (semiconductor physics relies entirely on understanding Fermi levels and holes)"
+        }
+      ],
+      "legacy_text": "费米和狄拉克发现了物质世界的“社交礼仪”——费米子必须保持距离。",
+      "legacy_text_en": "Fermi and Dirac discovered the 'social etiquette' of the material world—fermions must keep their distance."
+    },
+  
+    "related_concepts": ["费米子 (Fermion)", "泡利不相容原理", "费米能级 (Fermi Level)", "电子简并压力", "半导体 (Semiconductor)", "白矮星 (White Dwarf)", "自旋 (Spin)"],
+    "related_concepts_en": ["Fermion", "Pauli Exclusion Principle", "Fermi Level", "Electron Degeneracy Pressure", "Semiconductor", "White Dwarf", "Spin"],
+  
+    "quiz": {
+      "question": "“费米-狄拉克统计”适用于哪类粒子？它们的主要特征是什么？",
+      "question_en": "To which class of particles does 'Fermi-Dirac statistics' apply, and what is their main characteristic?",
+      "options": [
+        "玻色子（如光子）；它们喜欢聚集在同一状态",
+        "费米子（如电子）；它们不能占据同一个量子态（独占）",
+        "所有粒子；它们随机运动",
+        "气体分子；它们遵循牛顿定律"
+      ],
+      "options_en": [
+        "Bosons (like photons); they like to clump in the same state",
+        "Fermions (like electrons); they cannot occupy the same quantum state (exclusive)",
+        "All particles; they move randomly",
+        "Gas molecules; they follow Newton's laws"
+      ],
+      "answer": 1,
+      "explanation": "费米-狄拉克统计专用于“费米子”（半整数自旋粒子）。其核心规则是“泡利不相容原理”，即没有两个费米子可以处于完全相同的量子状态。",
+      "explanation_en": "Fermi-Dirac statistics applies to 'Fermions' (half-integer spin). The core rule is the 'Pauli Exclusion Principle', meaning no two fermions can exist in the exact same quantum state."
+    }
+  }

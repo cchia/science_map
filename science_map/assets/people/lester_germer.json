@@ -1,0 +1,10 @@
+{
+    "name": "雷斯特·革末",
+    "name_en": "Lester Germer",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Germer_Lester_A2.jpg",
+    "bio_short": "美国物理学家. 他与克林顿·戴维森共同进行了著名的\"戴维森-革末实验\" (`davisson_germer_1927`), 首次观察到电子衍射, 证实了物质波的存在. 尽管贡献巨大, 他并未与戴维森分享诺贝尔奖.",
+    "bio_short_en": "An American physicist. He co-conducted the famous 'Davisson-Germer experiment' (`davisson_germer_1927`) with Clinton Davisson, observing electron diffraction for the first time and confirming the existence of matter waves. Despite his contribution, he did not share the Nobel Prize with Davisson.",
+    "events": [
+      "davisson_germer_1927"
+    ]
+  }

@@ -1,0 +1,155 @@
+{
+    "id": "rutherford_proton_1919",
+    "personId": "ernest_rutherford",
+    "title": "发现“质子” (首次人工核嬗变)",
+    "title_en": "Discovers the 'Proton' (First Artificial Nuclear Transmutation)",
+    "year": 1919,
+    "lat": 53.4839,
+    "lng": -2.2446,
+    "city": "曼彻斯特",
+    "city_en": "Manchester",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/discovery_of_proton.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dHrX1U7KCis",
+        "title": "质子如何被发现?",
+        "title_en": "How The Proton Was Discovered",
+        "duration": "6:06"
+      }
+    },
+    
+    "summary": {
+      "text": "欧内斯特·卢瑟福（Ernest Rutherford）在1919年发表了另一项震撼世界的实验结果。他用“阿尔法粒子”（He）轰击“氮气”（N），结果发现氮原子核被“击碎”了，并射出了一种带正电的粒子——“氢原子核”。卢瑟福断定，这种“氢原子核”是所有原子核的基本组成部分，并将其命名为“**质子**”(Proton)。这是人类历史上第一次“人工核嬗变”（将一种元素变为另一种元素：氮变成了氧）。",
+      "text_en": "Ernest Rutherford published another earth-shattering result in 1919. He bombarded 'Nitrogen gas' (N) with 'alpha particles' (He) and found that the nitrogen nucleus was 'chipped', ejecting a positively charged particle—a 'hydrogen nucleus'. Rutherford concluded that this 'hydrogen nucleus' was a fundamental building block of all atomic nuclei and named it the '**Proton**'. This was the first 'Artificial Nuclear Transmutation' in history (changing Nitrogen into Oxygen).",
+      "key_points": [
+        "发现了“质子”(Proton)",
+        "实现了第一次“人工核嬗变”(Artificial Nuclear Transmutation)",
+        "反应式：¹⁴N + ⁴He → ¹⁷O + ¹H (质子)",
+        "证明了原子核是由更小的粒子（质子）组成的",
+        "实现了古代炼金术士“点石成金”的梦想（虽然是变氮为氧）"
+      ],
+      "key_points_en": [
+        "Discovered the 'Proton'",
+        "Achieved the first 'Artificial Nuclear Transmutation'",
+        "Reaction: ¹⁴N + ⁴He → ¹⁷O + ¹H (proton)",
+        "Proved the nucleus is made of smaller particles (protons)",
+        "Realized the alchemist's dream of transmutation (Nitrogen to Oxygen)"
+      ]
+    },
+  
+    "story": {
+      "text": "卢瑟福的实验装置很简单：一个密封的黄铜容器，里面装有放射源（发射阿尔法粒子）和氮气。他在容器的一端放置了一个硫化锌荧光屏。他观察到，荧光屏上出现了一种新的闪光，这种闪光的穿透力比阿尔法粒子强得多。通过磁场偏转分析，他证明这些新粒子就是“氢核”。卢瑟福推理道：既然我能从氮原子里“打出”氢核，说明氢核一定“藏”在氮原子核里。他因此意识到，所有重原子核都是由氢核（质子）组装而成的。这是自道尔顿（`dalton_atomic_theory_1803`）以来对物质结构最深刻的洞察。",
+      "text_en": "Rutherford's setup was simple: a brass chamber containing a radiation source (emitting alpha particles) and nitrogen gas. He placed a zinc sulfide screen at one end. He observed a new type of scintillation (flash) on the screen, caused by particles that penetrated much further than alpha particles. Through magnetic deflection, he proved these new particles were 'hydrogen nuclei'. Rutherford reasoned: Since I knocked a hydrogen nucleus *out* of nitrogen, hydrogen nuclei must be *inside* nitrogen. He realized that all heavy nuclei are built from hydrogen nuclei (protons). This was the deepest insight into matter since Dalton (`dalton_atomic_theory_1803`).",
+      "diagram": "assets/images/rutherford_setup.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚗️",
+        "text": "卢瑟福是世界上第一个真正的“炼金术士”。他成功地将一种元素（氮）变成了另一种元素（氧）。据说当他告诉学生这个发现时，他说：“我把原子分裂了！”",
+        "text_en": "Rutherford was the world's first true 'Alchemist'. He successfully turned one element (Nitrogen) into another (Oxygen). Reportedly, when he told his students, he said, 'I have broken the machine (the atom) and touched the ghost of matter.'"
+      },
+      {
+        "icon": "⚛️",
+        "text": "“Proton”（质子）这个词源于希腊语“Protos”，意为“第一”。卢瑟福认为它是物质的“第一”成分。",
+        "text_en": "The word 'Proton' comes from the Greek 'Protos', meaning 'First'. Rutherford believed it was the 'primary' ingredient of matter."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你有一个“保龄球”（氮原子核），你用一颗“子弹”（阿尔法粒子）去射它。\n突然，从保龄球里飞出了一颗小小的“弹珠”（氢核）。\n这证明了两件事：\n1. 那个保龄球不是实心的，它里面藏着弹珠。\n2. 那个弹珠就是“质子”。\n卢瑟福证明了，所有原子核就像一袋袋“质子”聚在一起（后来查德威克发现还要加上中子）。",
+      "text_en": "Imagine you have a 'bowling ball' (Nitrogen nucleus) and you shoot a 'bullet' (alpha particle) at it.\nSuddenly, a tiny 'marble' (Hydrogen nucleus) flies out of the bowling ball.\nThis proved two things:\n1. The bowling ball isn't one solid piece; it has marbles inside.\n2. That marble is the 'Proton'.\nRutherford proved that all nuclei are just bags of protons stuck together (plus neutrons, as Chadwick would later find).",
+      "diagram": "assets/images/atom_nucleus.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💥",
+          "title": "核反应 (Nuclear Reactions)",
+          "title_en": "Nuclear Reactions",
+          "text": "这是人类历史上记载的第一个“核反应”。它标志着人类开始有能力“操纵”原子核，而不仅仅是研究它们。",
+          "text_en": "This was the first recorded 'nuclear reaction' in history. It marked the beginning of humanity's ability to *manipulate* the nucleus, not just study it."
+        },
+        {
+          "icon": "🔬",
+          "title": "粒子物理学",
+          "title_en": "Particle Physics",
+          "text": "通过“撞击”原子来研究其碎片（质子），确立了现代高能物理学（如LHC）的标准研究方法。",
+          "text_en": "Studying 'debris' (protons) by 'smashing' atoms established the standard method for modern high-energy physics (like the LHC)."
+        }
+      ],
+  
+    "impact": {
+      "text": "发现质子完成了原子模型的“正电荷”部分。既然原子核是由质子组成的，那么元素的“原子序数”（在周期表中的位置）就等于它拥有的“质子数”。这让化学和物理学完美地统一了起来。这也为后来查德威克寻找“中子”（填补质量空缺）留下了伏笔。",
+      "text_en": "The discovery of the proton completed the 'positive charge' part of the atomic model. Since nuclei are made of protons, an element's 'Atomic Number' (its place on the periodic table) equals its 'number of protons'. This perfectly unified chemistry and physics. It also set the stage for Chadwick to find the 'neutron' to fill the missing mass gap.",
+      "stats": [
+          {
+            "number": "1919",
+            "label": "年 (发现质子)",
+            "label_en": "Year (Proton Discovered)"
+          },
+          {
+            "number": "1",
+            "label": "号元素 (氢核)",
+            "label_en": "Element No. 1 (Hydrogen Nucleus)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "rutherford_nucleus_1911",
+          "contribution": "（他自己）原子核的发现（这是他进一步探索原子核“内部结构”的基础）",
+          "contribution_en": "(Himself) Discovery of the Nucleus (this was the foundation for exploring *inside* the nucleus)"
+        },
+        {
+          "id": "moseley_atomic_number_1913",
+          "contribution": "莫塞莱（他的学生，证明了原子序数是物理量，卢瑟福确认这个物理量就是“质子数”）",
+          "contribution_en": "Henry Moseley (his student, who proved Atomic Number was a physical quantity; Rutherford confirmed this quantity was the 'proton count')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "chadwick_neutron_1932",
+          "contribution": "查德威克（因为质子的质量不足以解释原子核的总质量，这直接导致了中子的寻找和发现）",
+          "contribution_en": "James Chadwick (since protons weren't heavy enough to explain the nucleus's mass, this directly led to the hunt for and discovery of the neutron)"
+        },
+        {
+          "id": "cockcroft_walton_1932",
+          "contribution": "科克罗夫特和沃尔顿（他们实现了第一次“使用机器”的人工嬗变，接过了卢瑟福的接力棒）",
+          "contribution_en": "Cockcroft & Walton (they achieved the first *machine-driven* transmutation, taking the baton from Rutherford)"
+        }
+      ],
+      "legacy_text": "卢瑟福不仅发现了原子核，他还把它拆开了，把里面的“零件”（质子）拿给我们看。",
+      "legacy_text_en": "Rutherford didn't just find the nucleus; he took it apart and showed us the 'parts' (protons) inside."
+    },
+  
+    "related_concepts": ["质子 (Proton)", "核嬗变 (Nuclear Transmutation)", "阿尔法粒子 (Alpha Particle)", "氮 (Nitrogen)", "炼金术 (Alchemy)", "原子序数 (Atomic Number)"],
+    "related_concepts_en": ["Proton", "Nuclear Transmutation", "Alpha Particle", "Nitrogen", "Alchemy", "Atomic Number"],
+  
+    "quiz": {
+      "question": "卢瑟福在1919年的实验中，通过轰击氮气，实现了人类梦寐以求的什么成就？",
+      "question_en": "In his 1919 experiment bombarding nitrogen, what age-old human dream did Rutherford essentially achieve?",
+      "options": [
+        "永动机",
+        "点石成金（人工核嬗变）",
+        "隐形术",
+        "时间旅行"
+      ],
+      "options_en": [
+        "Perpetual Motion",
+        "Transmutation of Elements (Alchemy)",
+        "Invisibility",
+        "Time Travel"
+      ],
+      "answer": 1,
+      "explanation": "卢瑟福将氮（元素7）变成了氧（元素8）。虽然他没有造出金子，但他证明了“一种元素可以变成另一种元素”，这是古代炼金术士的终极目标，也是核物理学的开端。",
+      "explanation_en": "Rutherford turned Nitrogen (element 7) into Oxygen (element 8). While he didn't make gold, he proved that 'one element can become another', which was the ultimate goal of ancient alchemists and the beginning of nuclear physics."
+    }
+  }

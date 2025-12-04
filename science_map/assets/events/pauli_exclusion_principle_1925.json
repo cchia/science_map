@@ -1,0 +1,163 @@
+{
+    "id": "pauli_exclusion_principle_1925",
+    "personId": "wolfgang_pauli",
+    "title": "提出“泡利不相容原理”",
+    "title_en": "Formulates the 'Pauli Exclusion Principle'",
+    "year": 1925,
+    "lat": 53.5511,
+    "lng": 9.9937,
+    "city": "汉堡",
+    "city_en": "Hamburg",
+    "country": "德国 (魏玛共和国)",
+    "country_en": "Germany (Weimar Republic)",
+    "storyline_ids": ["quantum_story"],
+    "field": ["物理学", "化学"],
+    "field_en": ["Physics", "Chemistry"],
+    
+    "media": {
+      "event_image": "assets/images/pauli_exclusion_principle.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hSkJzE2Vz_w",
+        "title": "电子排布图",
+        "title_en": "Electron Configuration Diagrams",
+        "duration": "4:58"
+      }
+    },
+    
+    "summary": {
+      "text": "沃尔夫冈·泡利（Wolfgang Pauli）为了解决原子光谱中的反常现象（如塞曼效应），提出了一个基本的量子力学法则：在一个原子中，**没有两个电子**可以处于完全相同的“量子态”。换句话说，它们不能拥有完全相同的一组（四个）量子数。这个原理不仅解释了电子为何会分层排列（壳层结构），从而决定了化学元素的周期律，还解释了物质为何具有“体积”和“硬度”（不会坍塌）。",
+      "text_en": "To solve anomalies in atomic spectra (like the Zeeman effect), Wolfgang Pauli formulated a fundamental rule of quantum mechanics: **No two electrons** in an atom can be in the exact same 'quantum state'. In other words, they cannot have the same set of (four) quantum numbers. This principle explains why electrons arrange themselves in shells (defining the Periodic Table) and why matter has 'volume' and 'hardness' (preventing collapse).",
+      "key_points": [
+        "提出“不相容原理”(Exclusion Principle)",
+        "没有两个费米子（电子）能占据同一量子态",
+        "引入了第四个量子数（后来被确认为“自旋”Spin）",
+        "解释了元素周期表 (Periodic Table) 的结构",
+        "解释了物质的稳定性（防止坍缩）"
+      ],
+      "key_points_en": [
+        "Proposed the 'Exclusion Principle'",
+        "No two fermions (electrons) can occupy the same quantum state",
+        "Introduced a 4th quantum number (later identified as 'Spin')",
+        "Explains the structure of the Periodic Table",
+        "Explains the stability of matter (prevents collapse)"
+      ]
+    },
+  
+    "story": {
+      "text": "在1920年代初，玻尔模型（`bohr_atom_1913`）虽然成功，但无法解释为什么电子要按照“2, 8, 18...”这样的数字填充壳层，而不是全部挤在能量最低的第一层。泡利通过分析复杂的原子光谱数据，意识到必须引入“第四个”自由度（当时只知道三个：主、角、磁量子数）。他提出了一个简单的规则：每个“座位”（由四个量子数定义）只能坐一个电子。如果座位满了，下一个电子就必须去更高（更贵）的座位。这个规则不仅拯救了玻尔模型，还顺带解释了为什么宇宙中的物质没有坍缩成一团微小的点——因为电子“拒绝”重叠。",
+      "text_en": "In the early 1920s, the Bohr model (`bohr_atom_1913`) worked, but couldn't explain *why* electrons filled shells in numbers like '2, 8, 18...' instead of all crashing into the lowest level. Analyzing complex spectral data, Pauli realized a 'fourth' degree of freedom was needed (beyond the known three quantum numbers). He proposed a simple rule: every 'seat' (defined by the 4 numbers) can hold only *one* electron. If the seats are full, the next electron *must* go to a higher (more energetic) level. This rule not only saved the atomic model but explained why matter in the universe doesn't collapse into a tiny dot—because electrons 'refuse' to overlap.",
+      "diagram": "assets/images/pauli_exclusion_principle_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🌪️",
+        "text": "泡利最初称这第四个量子数为“无法从经典角度描述的双值性”。几个月后，乌伦贝克和古德斯米特将其物理意义识别为“自旋”(Spin)。",
+        "text_en": "Pauli originally called this 4th number a 'classically non-describable two-valuedness'. Months later, Uhlenbeck and Goudsmit identified its physical meaning as 'Spin'."
+      },
+      {
+        "icon": "😈",
+        "text": "泡利以其尖刻的批评而闻名，被称为“物理学的良心”。他对差劲论文的最高评价是：“这甚至连‘错’都算不上（Not even wrong）。”",
+        "text_en": "Pauli was famous for his scathing critiques, known as the 'Conscience of Physics'. His ultimate insult for a bad paper was: 'This isn't right. It isn't even wrong.'"
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象原子是一个“剧院”，电子是“观众”。\n玻色子（光子）像一群幽灵，它们可以几百个重叠坐在同一个座位上。\n但电子（费米子）是实体，它们必须买票对号入座。泡利原理就是剧院的规矩：**“一张票，一个人”**。\n如果第一排（低能级）坐满了，新来的观众就必须坐到第二排、第三排（高能级）。正是因为电子必须“占地方”且不能重叠，原子才有了“体积”，你的手才不会穿过桌子。",
+      "text_en": "Imagine an atom is a 'theater' and electrons are the 'audience'.\nBosons (photons) are like ghosts; hundreds can sit in the same seat.\nBut Electrons (Fermions) are solid; they need a ticket. The Pauli Principle is the house rule: **'One ticket, one person'**.\nIf the front row (low energy) is full, new people *must* sit in the second or third rows (high energy). Because electrons *take up space* and can't overlap, atoms have 'volume', and your hand doesn't pass through the table.",
+      "diagram": "assets/images/pauli_exclusion_principle_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "元素周期表",
+          "title_en": "Periodic Table",
+          "text": "它解释了为什么元素会有不同的化学性质。电子排布（2, 8, 18...）完全由不相容原理决定。",
+          "text_en": "It explains *why* elements have different chemical properties. The electron configuration (2, 8, 18...) is dictated entirely by the Exclusion Principle."
+        },
+        {
+          "icon": "🌟",
+          "title": "白矮星与中子星",
+          "title_en": "White Dwarfs & Neutron Stars",
+          "text": "当恒星坍缩时，是电子（或中子）之间的“不相容原理”产生的“简并压力”抵抗了引力，防止其变成黑洞（`chandrasekhar_limit_1931`）。",
+          "text_en": "When stars collapse, it is the 'Exclusion Principle' between electrons (or neutrons) creating 'degeneracy pressure' that fights gravity and stops them from becoming black holes (`chandrasekhar_limit_1931`)."
+        },
+        {
+          "icon": "💻",
+          "title": "固体物理与半导体",
+          "title_en": "Solid State & Semiconductors",
+          "text": "理解电子如何在金属和半导体的“能带”中填充（这也是基于不相容原理），是所有现代电子技术的基础。",
+          "text_en": "Understanding how electrons fill 'energy bands' in metals and semiconductors (based on this principle) is the foundation of all modern electronics."
+        }
+      ],
+  
+    "impact": {
+      "text": "泡利不相容原理是量子力学中最深刻的法则之一。它定义了“物质”的本质。它区分了“费米子”（如电子，构成物质结构）和“玻色子”（如光子，传递力）。没有它，所有原子都会坍缩到最低能量态，化学反应将不复存在，宇宙将是一团均匀的糊状物。",
+      "text_en": "The Pauli Exclusion Principle is one of the deepest laws of quantum mechanics. It defines the nature of 'matter'. It distinguishes 'Fermions' (like electrons, which build structure) from 'Bosons' (like photons, which carry force). Without it, all atoms would collapse to the lowest energy state, chemistry would not exist, and the universe would be a uniform soup.",
+      "stats": [
+          {
+            "number": "1945",
+            "label": "年诺贝尔奖",
+            "label_en": "Nobel Prize"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "玻尔（其原子模型中的“壳层”结构是泡利试图解释的现象）",
+          "contribution_en": "Niels Bohr (whose 'shell' structure in the atomic model was the phenomenon Pauli sought to explain)"
+        },
+        {
+          "id": "stern_gerlach_1922",
+          "contribution": "斯特恩-盖拉赫实验（提供了“空间量子化”和“双值性”的实验证据，启发了泡利的第四个量子数）",
+          "contribution_en": "Stern-Gerlach Experiment (provided the experimental evidence of 'spatial quantization' and 'two-valuedness' that inspired Pauli's 4th quantum number)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "fermi_dirac_statistics_1926",
+          "contribution": "费米和狄拉克（将泡利原理推广到了所有同类粒子的统计力学中，创立了费米统计）",
+          "contribution_en": "Fermi & Dirac (generalized Pauli's principle into the statistical mechanics for *all* such particles, creating Fermi-Dirac statistics)"
+        },
+        {
+          "id": "chandrasekhar_limit_1931",
+          "contribution": "钱德拉塞卡（利用泡利原理产生的“电子简并压力”计算了恒星的极限）",
+          "contribution_en": "Chandrasekhar (used the 'electron degeneracy pressure' created by Pauli's principle to calculate the limit of stars)"
+        },
+        {
+          "id": "hartree_fock_method_1930",
+          "contribution": "福克（在计算多电子原子时，必须将泡利原理（反对称性）纳入波函数）",
+          "contribution_en": "Vladimir Fock (had to incorporate the Pauli principle (antisymmetry) into the wavefunction when calculating multi-electron atoms)"
+        }
+      ],
+      "legacy_text": "泡利给了电子“个性”，让它们必须独占空间，从而撑起了整个物质世界。",
+      "legacy_text_en": "Pauli gave electrons 'individuality', forcing them to occupy their own space, thereby holding up the entire material world."
+    },
+  
+    "related_concepts": ["费米子 (Fermion)", "自旋 (Spin)", "量子数 (Quantum Numbers)", "电子简并压力 (Electron Degeneracy)", "元素周期表", "玻尔模型", "费米-狄拉克统计"],
+    "related_concepts_en": ["Fermion", "Spin", "Quantum Numbers", "Electron Degeneracy Pressure", "Periodic Table", "Bohr Model", "Fermi-Dirac Statistics"],
+  
+    "quiz": {
+      "question": "泡利不相容原理（Pauli Exclusion Principle）解释了宏观世界中的什么基本现象？",
+      "question_en": "What fundamental macroscopic phenomenon does the Pauli Exclusion Principle explain?",
+      "options": [
+        "为什么光速是恒定的",
+        "为什么两个物体不能同时占据同一个空间（物质的“硬度”/体积）",
+        "为什么引力会吸引物体",
+        "为什么磁铁有两极"
+      ],
+      "options_en": [
+        "Why the speed of light is constant",
+        "Why two objects cannot occupy the same space at the same time (Matter's 'hardness'/volume)",
+        "Why gravity attracts objects",
+        "Why magnets have two poles"
+      ],
+      "answer": 1,
+      "explanation": "虽然这是一个量子定律，但它在宏观上的表现就是“物质占据体积”。如果电子不遵循此原理，你手上的原子就会坍缩，你的手会直接穿过桌子。是电子之间的“不相容”斥力（简并压力）提供了抵抗这种穿透的力。",
+      "explanation_en": "Although a quantum law, its macroscopic manifestation is that 'matter takes up space'. If electrons didn't follow this, atoms would collapse, and your hand would pass right through a table. The 'exclusion' repulsion (degeneracy pressure) between electrons provides the force against this."
+    }
+  }

@@ -1,0 +1,146 @@
+{
+    "id": "solvay_conference_1927",
+    "personId": ["albert_einstein", "niels_bohr"],
+    "title": "第五届索尔维会议 (量子力学的巅峰对决)",
+    "title_en": "The Fifth Solvay Conference (The Showdown of Quantum Mechanics)",
+    "year": 1927,
+    "lat": 50.8503,
+    "lng": 4.3517,
+    "city": "布鲁塞尔",
+    "city_en": "Brussels",
+    "country": "比利时",
+    "country_en": "Belgium",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/Solvay_conference_1927.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ckmSC-qSkkc",
+        "title": "1927索尔维会议：改变世界的一张照片",
+        "title_en": "17 Nobel Prize Winners United in One Photo - The Solvay Conference 1927",
+        "duration": "5:17"
+      }
+    },
+    
+    "summary": {
+      "text": "1927年10月，在布鲁塞尔举行的第五届索尔维会议是物理学史上最著名的聚会。29位与会者中有17位是（或将成为）诺贝尔奖得主。这次会议标志着“量子力学”的正式确立，但也爆发了科学史上最激烈的智力辩论。以玻尔（Bohr）和海森堡（Heisenberg）为首的“哥本哈根学派”（主张概率和不确定性）与以爱因斯坦（Einstein）和薛定谔（Schrödinger）为首的“经典实在论派”（主张因果律和确定性）进行了正面交锋。虽然爱因斯坦输掉了这场辩论，但这场对话定义了现代物理学的灵魂。",
+      "text_en": "Held in Brussels in October 1927, the Fifth Solvay Conference is the most famous gathering in the history of physics. Of the 29 attendees, 17 were (or would become) Nobel laureates. This conference marked the formal consolidation of 'Quantum Mechanics', but it also hosted the fiercest intellectual battle in scientific history. The 'Copenhagen School' led by Bohr and Heisenberg (advocating probability and uncertainty) clashed head-on with the 'Classical Realists' led by Einstein and Schrödinger (advocating causality and determinism). Although Einstein lost the debate, this dialogue defined the soul of modern physics.",
+      "key_points": [
+        "史上最“智慧”的照片 (The 'Most Intelligent' Photo)",
+        "爱因斯坦 vs. 玻尔 (Einstein vs. Bohr)",
+        "决定论 (Determinism) vs. 概率论 (Probability)",
+        "名言：“上帝不掷骰子” (God does not play dice)",
+        "哥本哈根诠释成为正统"
+      ],
+      "key_points_en": [
+        "The 'Most Intelligent' Photo in history",
+        "Einstein vs. Bohr",
+        "Determinism vs. Probability",
+        "Quote: 'God does not play dice'",
+        "Copenhagen Interpretation becomes orthodoxy"
+      ]
+    },
+  
+    "story": {
+      "text": "会议期间的每一天早餐都像是一场决斗。爱因斯坦每天早上都会带着一个新的、精心设计的“思想实验”来到餐桌旁，试图证明海森堡的“测不准原理”是错的，或者量子力学是不完备的。玻尔会眉头紧锁地思考一整天，然后在晚餐时用量子力学的逻辑（有时甚至用爱因斯坦自己的相对论）成功反驳爱因斯坦。在这场辩论的高潮，爱因斯坦恼怒地说道：“上帝不掷骰子！”（God does not play dice）。玻尔则反击道：“爱因斯坦，别再告诉上帝该怎么做！”（Stop telling God what to do）。最终，哥本哈根学派的观点占据了统治地位。",
+      "text_en": "Every breakfast during the conference was a duel. Einstein would arrive at the table with a new, ingenious 'thought experiment' designed to disprove Heisenberg's 'Uncertainty Principle' or show Quantum Mechanics was incomplete. Bohr would frown and think all day, only to refute Einstein at dinner using quantum logic (and sometimes Einstein's own Relativity). At the climax of these debates, an exasperated Einstein declared, 'God does not play dice!' Bohr retorted, 'Einstein, stop telling God what to do!' In the end, the Copenhagen view prevailed."      
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📸",
+        "text": "这张著名的合影中，前排坐着的都是当时的大佬：爱因斯坦、洛伦兹、居里夫人（她是唯一的女性，也是唯一两获诺贝尔奖的人）、普朗克。后排站着的年轻人包括海森堡、泡利和狄拉克。",
+        "text_en": "In the famous group photo, the front row features the titans: Einstein, Lorentz, Marie Curie (the only woman and only two-time winner), and Planck. The young guns standing in the back include Heisenberg, Pauli, and Dirac."
+      },
+      {
+        "icon": "👻",
+        "text": "薛定谔（`schrodinger_equation_1926`）和德布罗意（`de_broglie_matter_waves_1924`）虽然发明了量子力学的核心方程，但在这次会议上，他们其实站在爱因斯坦一边，反对哥本哈根学派对他们理论的“概率解释”。",
+        "text_en": "Schrödinger and de Broglie, despite inventing the core equations, actually sided with Einstein at this conference, opposing the Copenhagen 'probabilistic interpretation' of their own theories."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "这就好比物理学界的“武林大会”。\n老一辈宗师（爱因斯坦、普朗克）相信世界是确定的：“如果你知道所有的因，你就能算出所有的果。”\n新一代高手（海森堡、玻尔）说：“不，世界是随机的。你永远无法确切知道一切，只能赌概率。”\n他们在布鲁塞尔吵了一个星期。最后，新一代赢了。我们今天接受了“世界在微观上是随机的”这一事实。",
+      "text_en": "This was like the 'Super Bowl' of physics.\nThe old masters (Einstein, Planck) believed the world was certain: 'If you know the cause, you can calculate the effect.'\nThe new kids (Heisenberg, Bohr) said: 'No, the world is random. You can never know everything for sure, only the odds.'\nThey argued for a week in Brussels. In the end, the new kids won. We accepted today that the world is fundamentally random at the micro-scale."      
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "现代物理学基础",
+          "title_en": "Foundation of Modern Physics",
+          "text": "这次会议确立了“哥本哈根诠释”作为量子力学的正统解释，这一体系至今仍支撑着所有的现代物理学教学和研究。",
+          "text_en": "The conference established the 'Copenhagen Interpretation' as the orthodox view, which still underpins all modern physics education and research."
+        }
+      ],
+  
+    "impact": {
+      "text": "1927年索尔维会议是科学史的分水岭。它标志着“经典物理学”的葬礼和“量子物理学”的加冕礼。尽管爱因斯坦从未真正接受量子力学的随机性（并在后来提出了EPR佯谬 `einstein_epr_1935`），但这次会议确定了未来一百年物理学的发展方向——在这个方向上，确定性被概率取代，观察者成为了实验的一部分。",
+      "text_en": "The 1927 Solvay Conference was a watershed moment. It marked the funeral of 'Classical Physics' and the coronation of 'Quantum Physics'. Although Einstein never truly accepted the randomness (later proposing the EPR paradox `einstein_epr_1935`), this conference set the direction for the next 100 years of physics—a direction where determinism was replaced by probability, and the observer became part of the experiment.",
+      "stats": [
+          {
+            "number": "29",
+            "label": "名与会者",
+            "label_en": "Attendees"
+          },
+          {
+            "number": "17",
+            "label": "位诺贝尔奖得主",
+            "label_en": "Nobel Laureates"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "heisenberg_uncertainty_1927",
+          "contribution": "海森堡（他在会议前几个月发表的“测不准原理”是辩论的核心焦点）",
+          "contribution_en": "Heisenberg (his 'Uncertainty Principle', published months prior, was the central focus of the debate)"
+        },
+        {
+          "id": "born_wavefunction_1926",
+          "contribution": "马克斯·玻恩（其“概率诠释”是哥本哈根学派的理论武器）",
+          "contribution_en": "Max Born (his 'Probabilistic Interpretation' was the theoretical weapon of the Copenhagen school)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "einstein_epr_1935",
+          "contribution": "爱因斯坦（他在会议上辩论失败后，致力于寻找更深刻的反驳，最终导致了EPR佯谬）",
+          "contribution_en": "Einstein (after losing the debate here, he dedicated himself to finding a deeper refutation, leading to the EPR Paradox)"
+        },
+        {
+          "id": "schrodingers_cat_1935",
+          "contribution": "薛定谔（作为爱因斯坦的盟友，他后来提出了“猫”的实验来继续嘲讽哥本哈根诠释）",
+          "contribution_en": "Schrödinger (as Einstein's ally, he later proposed his 'Cat' experiment to continue mocking the Copenhagen interpretation)"
+        }
+      ],
+      "legacy_text": "在这张照片里，人类最伟大的头脑聚集在一起，决定了宇宙是“注定的”还是“随机的”。",
+      "legacy_text_en": "In this photo, the greatest minds of humanity gathered to decide if the universe was 'destined' or 'random'."
+    },
+  
+    "related_concepts": ["索尔维会议 (Solvay Conference)", "哥本哈根诠释", "量子力学", "决定论", "测不准原理", "爱因斯坦-玻尔辩论"],
+    "related_concepts_en": ["Solvay Conference", "Copenhagen Interpretation", "Quantum Mechanics", "Determinism", "Uncertainty Principle", "Einstein-Bohr Debates"],
+  
+    "quiz": {
+      "question": "在1927年索尔维会议上，爱因斯坦说“上帝不掷骰子”是为了反对什么？",
+      "question_en": "At the 1927 Solvay Conference, what was Einstein objecting to when he said 'God does not play dice'?",
+      "options": [
+        "量子力学的“随机性”和“概率”本质",
+        "宇宙大爆炸理论",
+        "黑洞的存在",
+        "光速是恒定的"
+      ],
+      "options_en": [
+        "The 'randomness' and 'probabilistic' nature of Quantum Mechanics",
+        "The Big Bang Theory",
+        "The existence of Black Holes",
+        "That the speed of light is constant"
+      ],
+      "answer": 0,
+      "explanation": "爱因斯坦是经典决定论的坚定信仰者。他无法接受玻恩（`born_wavefunction_1926`）和海森堡提出的观点，即在最基础的层面上，自然界的事件是随机发生的，只能用概率来描述。",
+      "explanation_en": "Einstein was a firm believer in classical determinism. He could not accept the view proposed by Born (`born_wavefunction_1926`) and Heisenberg that, at the most fundamental level, natural events are random and can only be described by probability."
+    }
+  }

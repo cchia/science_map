@@ -1,0 +1,158 @@
+{
+    "id": "born_wavefunction_1926",
+    "personId": "max_born",
+    "title": "提出波函数的“概率诠释” (玻恩定则)",
+    "title_en": "Proposes the 'Probabilistic Interpretation' of the Wavefunction (Born Rule)",
+    "year": 1926,
+    "lat": 51.5381,
+    "lng": 9.9356,
+    "city": "哥廷根",
+    "city_en": "Göttingen",
+    "country": "德国",
+    "country_en": "Germany",
+    "storyline_ids": ["quantum_story"],
+    "field": ["物理学", "数学"],
+    "field_en": ["Physics", "Mathematics"],
+    
+    "media": {
+      "event_image": "assets/images/quantum_wavefunction.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=vShpwplJyXk",
+        "title": "量子波函数：什么在波动？",
+        "title_en": "Quantum Wave Functions: What's Actually Waving?",
+        "duration": "11:03"
+      }
+    },
+    
+    "summary": {
+      "text": "在薛定谔发表波动方程（`schrodinger_equation_1926`）几个月后，马克斯·玻恩（Max Born）解决了一个关键的解释问题：薛定谔的波（$\\psi$）到底是什么？薛定谔认为它是“涂抹开的电子”，但玻恩提出它是“概率波”。玻恩定则指出，波函数的模平方 ($|\\psi|^2$) 代表在某一点找到粒子的**概率密度**。这一解释将“随机性”和“不确定性”引入了物理学的核心，彻底终结了牛顿式的“决定论”宇宙观。",
+      "text_en": "Months after Schrödinger published his wave equation (`schrodinger_equation_1926`), Max Born solved a critical interpretive problem: What exactly *is* Schrödinger's wave ($\\psi$)? Schrödinger thought it was a 'smeared out electron', but Born proposed it was a 'Probability Wave'. The Born Rule states that the square of the modulus of the wavefunction ($|\\psi|^2$) represents the **probability density** of finding the particle at a given point. This interpretation injected 'randomness' and 'indeterminism' into the heart of physics, ending the Newtonian view of a deterministic universe.",
+      "key_points": [
+        "提出玻恩定则 (Born Rule): $P = |\\psi|^2$",
+        "波函数代表“概率幅” (Probability Amplitude)",
+        "电子不是“涂抹开的电荷”，而是“出现的概率”",
+        "引入了物理学的根本“非决定论” (Indeterminism)",
+        "因此获得1954年诺贝尔物理学奖"
+      ],
+      "key_points_en": [
+        "Proposed the Born Rule: $P = |\\psi|^2$",
+        "Wavefunction represents 'Probability Amplitude'",
+        "Electrons are not 'smeared charge', but 'probability of presence'",
+        "Introduced fundamental 'Indeterminism' to physics",
+        "Won the 1954 Nobel Prize in Physics"
+      ]
+    },
+  
+    "story": {
+        "text": "当薛定谔提出他的方程时，他试图用它来恢复经典物理学的“连续性”和“确定性”，他认为电子就像云雾一样弥漫在原子核周围。玻恩是哥廷根学派的领袖，他通过研究粒子碰撞问题，意识到薛定谔的解释是行不通的。电子在碰撞中表现得像粒子，而不是云雾。玻恩大胆地提出：波函数 \\psi 只是一个数学工具（“幽灵场”），它本身不是物理实体，但它的“强度”（平方）告诉我们在哪里**可能**找到电子。这个解释激怒了爱因斯坦，导致爱因斯坦在给玻恩的信中写下了那句名言：“**上帝不掷骰子**。”",
+        "text_en": "When Schrödinger proposed his equation, he tried to use it to restore 'continuity' and 'determinism' to physics, arguing the electron was smeared out like a mist. Born, leader of the Göttingen school, realized this interpretation failed when applied to particle collisions. Electrons behaved like particles in collisions, not mist. Born boldly proposed: the wavefunction \\psi is just a mathematical tool (a 'ghost field'); it isn't a physical entity, but its 'intensity' (square) tells us where we might **probably** find the electron. This interpretation infuriated Einstein, leading him to write his famous line to Born: '**God does not play dice.**'",
+        "diagram": "assets/images/wavefunction_intepretation.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎲",
+        "text": "爱因斯坦那句著名的“上帝不掷骰子”（God does not play dice with the universe），就是写给马克斯·玻恩的信中用来反驳这个理论的。",
+        "text_en": "Einstein's famous quote 'God does not play dice with the universe' was written in a letter *to Max Born* specifically to argue against this theory."
+      },
+      {
+        "icon": "🏆",
+        "text": "尽管这是量子力学最核心的规则之一，玻恩却为此等待了28年才获得诺贝尔奖（1954年），因为当时许多物理学家（包括薛定谔）都难以接受这个激进的概率观点。",
+        "text_en": "Despite being one of the most central rules of quantum mechanics, Born had to wait 28 years for his Nobel Prize (1954) because so many physicists (including Schrödinger) struggled to accept this radical probabilistic view."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在玻恩之前，物理学就像“台球”：如果你知道怎么打，球的去向是确定的。\n玻恩说：不，物理学更像“天气预报”。波函数就像一张“云图”。\n云图（波函数）最厚的地方，下雨（找到电子）的“概率”最大。云图薄的地方，概率小。\n但你永远不能100%确定雨点会落在哪里。你只能赌博。这就是为什么爱因斯坦说“上帝不掷骰子”——他不喜欢这种赌博。",
+      "text_en": "Before Born, physics was like 'billiards': if you knew how to hit the ball, the result was certain.\nBorn said: No, physics is like a 'weather forecast'. The wavefunction is like a 'cloud map'.\nWhere the cloud is thickest, the 'probability' of rain (finding the electron) is highest. Where it's thin, the chance is low.\nBut you can never be 100% sure where a raindrop will fall. You can only gamble. This is why Einstein said 'God does not play dice'—he hated this gambling.",
+      "diagram": "assets/images/wavefunction_intepretation_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧪",
+          "title": "电子云 (Electron Cloud)",
+          "title_en": "Electron Cloud",
+          "text": "化学课本上那种“云雾状”的原子模型（电子云），画的正是玻恩所解释的“概率密度”。",
+          "text_en": "The 'cloud-like' pictures of atoms in chemistry textbooks (electron clouds) are drawings of exactly what Born explained: 'probability density'."
+        },
+        {
+          "icon": "🔬",
+          "title": "扫描隧道显微镜 (STM)",
+          "title_en": "Scanning Tunneling Microscope",
+          "text": "STM的工作原理是基于电子“隧穿”到针尖的“概率”。如果不理解波函数的概率本质，就无法制造这种能看到原子的显微镜。",
+          "text_en": "STM works based on the 'probability' of an electron 'tunneling' to the tip. Without understanding the probabilistic nature of the wavefunction, we couldn't build microscopes that see atoms."
+        },
+        {
+          "icon": "💻",
+          "title": "量子计算",
+          "title_en": "Quantum Computing",
+          "text": "量子比特处于“0”和“1”的叠加态，当我们测量它时，它会根据波函数的“概率”坍缩成0或1。这是量子计算读取结果的基础。",
+          "text_en": "Qubits exist in a superposition of 0 and 1. When we measure them, they collapse to 0 or 1 based on the 'probability' defined by the wavefunction. This is how quantum computers give answers."
+        }
+      ],
+  
+    "impact": {
+      "text": "玻恩的“概率诠释”是现代科学哲学的一个分水岭。它终结了“拉普拉斯妖”（Laplace's Demon）式的决定论宇宙观。它告诉我们，自然界的底层逻辑不是“发条装置”，而是“机会游戏”。它是“哥本哈根诠释”的核心支柱，定义了我们今天对量子力学的标准理解。",
+      "text_en": "Born's 'Probabilistic Interpretation' is a watershed moment in the philosophy of science. It ended the deterministic worldview of 'Laplace's Demon'. It taught us that nature's bottom-layer logic is not 'clockwork', but a 'game of chance'. It is the central pillar of the 'Copenhagen Interpretation' and defines our standard understanding of quantum mechanics today.",
+      "stats": [
+          {
+            "number": "1954",
+            "label": "年诺贝尔奖 (迟到的认可)",
+            "label_en": "Nobel Prize (Delayed Recognition)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "schrodinger_equation_1926",
+          "contribution": "薛定谔（玻恩的工作是直接对薛定谔方程中 $\\psi$ 的物理意义进行解释）",
+          "contribution_en": "Schrödinger (Born's work was a direct interpretation of the physical meaning of $\\psi$ in Schrödinger's equation)"
+        },
+        {
+          "id": "einstein_photoelectric_1905",
+          "contribution": "爱因斯坦（其光子理论暗示了波和粒子之间的统计联系，启发了玻恩）",
+          "contribution_en": "Einstein (his photon theory hinted at the statistical link between waves and particles, inspiring Born)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "heisenberg_uncertainty_1927",
+          "contribution": "海森堡（作为玻恩的学生，他的“测不准原理”是对这种“概率性”本质的进一步数学量化）",
+          "contribution_en": "Heisenberg (as Born's student, his 'Uncertainty Principle' was the further mathematical quantification of this 'probabilistic' nature)"
+        },
+        {
+          "id": "schrodingers_cat_1935",
+          "contribution": "薛定谔的猫（这个思想实验正是为了反讽和质疑玻恩的“概率”和“坍缩”概念而提出的）",
+          "contribution_en": "Schrödinger's Cat (this thought experiment was proposed specifically to mock and question Born's concepts of 'probability' and 'collapse')"
+        }
+      ],
+      "legacy_text": "马克斯·玻恩教会了物理学家如何接受不确定性，并用概率来计算未来。",
+      "legacy_text_en": "Max Born taught physicists how to accept uncertainty and calculate the future using probability."
+    },
+  
+    "related_concepts": ["波函数 (Wavefunction)", "概率密度 (Probability Density)", "玻恩定则 (Born Rule)", "非决定论 (Indeterminism)", "哥本哈根诠释", "上帝不掷骰子", "电子云"],
+    "related_concepts_en": ["Wavefunction", "Probability Density", "Born Rule", "Indeterminism", "Copenhagen Interpretation", "God does not play dice", "Electron Cloud"],
+  
+    "quiz": {
+      "question": "根据马克斯·玻恩的解释，薛定谔方程中的波函数 \\psi 的平方 ($|\\psi|^2$) 代表什么？",
+      "question_en": "According to Max Born's interpretation, what does the square of the wavefunction ($|\\psi|^2$) in Schrödinger's equation represent?",
+      "options": [
+        "电子的电荷密度（电子被抹开了）",
+        "电子在某处出现的“概率密度”",
+        "电子的能量",
+        "电子的自旋方向"
+      ],
+      "options_en": [
+        "The charge density of the electron (the electron is smeared out)",
+        "The 'probability density' of finding the electron at that location",
+        "The energy of the electron",
+        "The spin direction of the electron"
+      ],
+      "answer": 1,
+      "explanation": "薛定谔最初认为是A（电荷密度），但玻恩纠正了他，指出电子仍然是一个粒子，波函数只是描述它在某个位置“出现”的可能性大小。",
+      "explanation_en": "Schrödinger originally thought it was A (charge density), but Born corrected him, stating the electron remains a particle, and the wavefunction only describes the *likelihood* of it appearing at a certain location."
+    }
+  }

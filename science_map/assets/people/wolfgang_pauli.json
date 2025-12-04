@@ -1,0 +1,10 @@
+{
+    "name": "沃尔夫冈·泡利",
+    "name_en": "Wolfgang Pauli",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/43/Pauli.jpg",
+    "bio_short": "奥地利理论物理学家，量子力学的先驱之一。他因发现“泡利不相容原理”（`pauli_exclusion_principle_1925`）而获得1945年诺贝尔物理学奖，并预言了“中微子”的存在。他以严厉的科学批评而闻名（“这连错都算不上”）。",
+    "bio_short_en": "An Austrian theoretical physicist and a pioneer of quantum mechanics. He won the 1945 Nobel Prize for the 'Pauli Exclusion Principle' (`pauli_exclusion_principle_1925`) and predicted the existence of the 'neutrino'. He was known for his rigorous critique of scientific ideas (famous for the phrase 'Not even wrong').",
+    "events": [
+      "pauli_exclusion_principle_1925"
+    ]
+  }

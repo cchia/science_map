@@ -1,7 +1,162 @@
 {
   "id": "schrodinger_equation_1926",
-  "title": "Schrodinger Equation",
-  "title_en": "Schrodinger Equation",
+  "personId": "erwin_schrodinger",
+  "title": "发表“薛定谔方程” (波动力学)",
+  "title_en": "Publishes the 'Schrödinger Equation' (Wave Mechanics)",
   "year": 1926,
-  "is_stub": true
+  "lat": 47.3769,
+  "lng": 8.5417,
+  "city": "苏黎世 (及阿罗萨)",
+  "city_en": "Zurich (and Arosa)",
+  "country": "瑞士",
+  "country_en": "Switzerland",
+  "field": ["物理学", "数学"],
+  "field_en": ["Physics", "Mathematics"],
+  
+  "media": {
+    "event_image": "assets/images/schrodinger_equation.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=AR23uxZruhE",
+      "title": "薛定谔方程解释",
+      "title_en": "The Schrödinger Equation Explained in 60 Seconds",
+      "duration": "1:00"
+    }
+  },
+  
+  "summary": {
+    "text": "受到德布罗意“物质波”假说（`de_broglie_matter_waves_1924`）的启发，埃尔温·薛定谔（Erwin Schrödinger）在1926年发表了著名的波动方程。如果说牛顿的 $F=ma$ 统治了宏观世界，那么薛定谔方程 $\\hat{H}\\psi = E\\psi$ 就统治了微观世界。它描述了量子系统的状态（波函数 $\\psi$）如何随时间演化。它证明了电子不是绕核旋转的小球，而是一种围绕原子核震荡的“驻波”或“电子云”。这标志着“波动力学”的诞生，与海森堡的“矩阵力学”并列为量子力学的两种形式。",
+    "text_en": "Inspired by de Broglie's 'matter wave' hypothesis (`de_broglie_matter_waves_1924`), Erwin Schrödinger published his famous wave equation in 1926. If Newton's $F=ma$ rules the macro world, Schrödinger's equation $\\hat{H}\\psi = E\\psi$ rules the micro world. It describes how the quantum state of a physical system (the wavefunction $\\psi$) changes over time. It proved that electrons are not little balls orbiting the nucleus, but 'standing waves' or 'electron clouds' vibrating around it. This marked the birth of 'Wave Mechanics', standing alongside Heisenberg's 'Matrix Mechanics'.",
+    "key_points": [
+      "提出了薛定谔方程 ($\\hat{H}\\psi = E\\psi$)",
+      "创立了“波动力学”(Wave Mechanics)",
+      "将电子描述为“波函数”(Wavefunction) / 电子云",
+      "解释了玻尔模型中轨道的“量子化”来源",
+      "1933年获得诺贝尔物理学奖"
+    ],
+    "key_points_en": [
+      "Proposed the Schrödinger Equation ($\\hat{H}\\psi = E\\psi$)",
+      "Founded 'Wave Mechanics'",
+      "Described electrons as 'Wavefunctions' / Electron Clouds",
+      "Explained the source of 'quantization' in the Bohr model",
+      "Won the 1933 Nobel Prize in Physics"
+    ]
+  },
+
+  "story": {
+    "text": "这个伟大的发现发生在一个充满传奇色彩的假期。1925年圣诞节，薛定谔离开苏黎世，前往瑞士阿尔卑斯山的阿罗萨（Arosa）度假。他没有带妻子，而是带了一位神秘的“维也纳旧情人”。在那个幽静的小木屋里，或许是受到爱情和高山空气的激发，他将德布罗意模糊的“波”的概念，转化为了一个严格的偏微分方程。当他1926年1月回到苏黎世时，他带回了改变物理学的方程。物理学家们立刻爱上了这个理论，因为它用的是他们熟悉的“微积分”（波），而不是海森堡那种令人头晕的“矩阵”。",
+    "text_en": "This great discovery happened during a legendary holiday. Christmas 1925, Schrödinger left Zurich for Arosa in the Swiss Alps. He didn't take his wife; he took a mysterious 'old girlfriend from Vienna'. In that quiet cabin, perhaps inspired by romance and alpine air, he transformed de Broglie's vague concept of 'waves' into a rigorous partial differential equation. When he returned to Zurich in Jan 1926, he brought the equation that changed physics. Physicists immediately loved it because it used familiar 'calculus' (waves), unlike Heisenberg's dizzying 'matrices'.",
+    "diagram": "assets/images/schrodinger_equation_2.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🐈",
+      "text": "尽管他是量子力学的奠基人，薛定谔本人却极其讨厌量子力学的“概率解释”（玻恩定则）。他在1935年提出了著名的“薛定谔的猫”思想实验，本意是为了**嘲讽**量子叠加态的荒谬性（既死又活），结果反倒成了量子力学最著名的代言。",
+      "text_en": "Despite founding it, Schrödinger *hated* the 'probabilistic interpretation' (Born rule) of quantum mechanics. He proposed the famous 'Schrödinger's Cat' thought experiment in 1935 specifically to *mock* the absurdity of quantum superposition (dead and alive), but it ended up becoming the most famous mascot of quantum mechanics."
+    },
+    {
+      "icon": "🧬",
+      "text": "他在1944年写的科普书《生命是什么？》(What is Life?) 提出生命必须依赖某种“非周期性晶体”来编码遗传信息。这本书直接启发了沃森和克里克去寻找DNA结构（`dna_double_helix_1953`）。",
+      "text_en": "His 1944 book 'What is Life?' proposed that life must rely on an 'aperiodic crystal' to encode genetic info. This book directly inspired Watson and Crick to search for the structure of DNA (`dna_double_helix_1953`)."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "玻尔（`bohr_atom_1913`）说电子像“行星”一样绕着原子核转。\n薛定谔说：“不对，电子更像是一团‘果冻’或一朵‘云’。”\n如果你敲击一个鼓，鼓面会震动产生波纹。薛定谔方程就是描述原子这个“鼓”是如何震动的。电子不是在一个点上，而是像波浪一样“弥漫”在原子核周围。有些地方波很大（电子出现的概率大），有些地方波很小。这就是我们现在画原子时看到的那个形状怪异的“电子云”。",
+    "text_en": "Bohr (`bohr_atom_1913`) said electrons orbit the nucleus like 'planets'.\nSchrödinger said: 'No, electrons are more like a blob of 'jello' or a 'cloud'.' \nIf you hit a drum, the skin vibrates with waves. Schrödinger's equation describes how the 'drum' of the atom vibrates. The electron isn't in one spot; it is 'smeared out' like a wave around the nucleus. Where the wave is big, the electron is likely to be. This is the weird-shaped 'electron cloud' we see in modern chemistry.",
+    "diagram": "assets/images/schrodinger_equation_3.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🧪",
+        "title": "现代化学",
+        "title_en": "Modern Chemistry",
+        "text": "薛定谔方程解释了“轨道”的形状（s, p, d, f 轨道），这是理解所有化学键、分子形状和化学反应的基础。",
+        "text_en": "The Schrödinger equation explains the shapes of 'orbitals' (s, p, d, f), which is the foundation for understanding all chemical bonds, molecular shapes, and reactions."
+      },
+      {
+        "icon": "💻",
+        "title": "半导体设计",
+        "title_en": "Semiconductor Design",
+        "text": "工程师使用薛定谔方程来计算电子在硅晶体中的行为，这是设计所有电脑芯片和晶体管（`transistor_invention_1947`）的前提。",
+        "text_en": "Engineers use the Schrödinger equation to calculate how electrons behave in silicon crystals, the prerequisite for designing all computer chips and transistors (`transistor_invention_1947`)."
+      },
+      {
+        "icon": "💡",
+        "title": "量子技术",
+        "title_en": "Quantum Technology",
+        "text": "从激光、核磁共振到量子计算机，所有利用量子效应的技术，其核心算法都是在求解薛定谔方程。",
+        "text_en": "From lasers and MRI to quantum computers, the core algorithm of any technology utilizing quantum effects is solving the Schrödinger equation."
+      }
+    ],
+
+  "impact": {
+    "text": "薛定谔方程是现代物理学的“圣经”。它是量子力学的基本运动方程。它统一了粒子和波，将原本混乱的原子物理学变成了一门可以精确计算的科学。正如牛顿定律是工业革命的引擎，薛定谔方程是信息革命和材料科学革命的引擎。",
+    "text_en": "The Schrödinger equation is the 'Bible' of modern physics. It is the fundamental equation of motion for quantum mechanics. It unified particle and wave, turning chaotic atomic physics into a precise, calculable science. Just as Newton's laws were the engine of the Industrial Revolution, Schrödinger's equation is the engine of the Information and Materials Revolution.",
+    "stats": [
+        {
+          "number": "1926",
+          "label": "年 (方程发表)",
+          "label_en": "Year (Equation Published)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "de_broglie_matter_waves_1924",
+        "contribution": "德布罗意（其“物质波”假说是薛定谔试图寻找方程来描述的对象）",
+        "contribution_en": "Louis de Broglie (his 'matter wave' hypothesis was the object Schrödinger sought an equation to describe)"
+      },
+      {
+        "id": "bohr_atom_1913",
+        "contribution": "玻尔（薛定谔试图用“波动”的自然性来解释玻尔模型中“强制性”的量子化轨道）",
+        "contribution_en": "Niels Bohr (Schrödinger tried to explain the 'forced' quantized orbits of the Bohr model using the naturalness of 'waves')"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "born_wavefunction_1926",
+        "contribution": "马克斯·玻恩（他对薛定谔方程中的波函数 \\psi 给出了正确的“概率”解释）",
+        "contribution_en": "Max Born (he gave the correct 'probabilistic' interpretation to the wavefunction \\psi in Schrödinger's equation)"
+      },
+      {
+        "id": "dirac_equation_1928",
+        "contribution": "狄拉克（他将薛定谔方程与相对论结合，推导出了更高级的狄拉克方程）",
+        "contribution_en": "Paul Dirac (he combined Schrödinger's equation with relativity to derive the superior Dirac Equation)"
+      },
+      {
+        "id": "hartree_fock_method_1930",
+        "contribution": "哈特里和福克（他们发明了求解多电子原子薛定谔方程的近似方法）",
+        "contribution_en": "Hartree & Fock (they invented the approximation method to *solve* the Schrödinger equation for multi-electron atoms)"
+      }
+    ],
+    "legacy_text": "薛定谔写下了一个方程，揭示了物质不是坚硬的颗粒，而是舞动的概率波。",
+    "legacy_text_en": "Schrödinger wrote the equation that revealed matter is not hard grains, but dancing waves of probability."
+  },
+
+  "related_concepts": ["波函数 (Wavefunction)", "薛定谔的猫 (Schrödinger's Cat)", "波动力学 (Wave Mechanics)", "量子叠加 (Superposition)", "概率幅 (Probability Amplitude)", "海森堡 (Heisenberg)", "电子云 (Electron Cloud)"],
+  "related_concepts_en": ["Wavefunction", "Schrödinger's Cat", "Wave Mechanics", "Superposition", "Probability Amplitude", "Heisenberg", "Electron Cloud"],
+
+  "quiz": {
+    "question": "薛定谔方程（Schrödinger Equation）中的 \\psi (Psi) 代表什么？",
+    "question_en": "What does the symbol \\psi (Psi) represent in the Schrödinger Equation?",
+    "options": [
+      "电子的精确位置",
+      "电子的能量",
+      "波函数 (Wavefunction)",
+      "电子的自旋"
+    ],
+    "options_en": [
+      "The electron's exact position",
+      "The electron's energy",
+      "The Wavefunction",
+      "The electron's spin"
+    ],
+    "answer": 2,
+    "explanation": "\\psi 是“波函数”。它本身是一个数学复数，没有直接物理意义。但它的模平方 $|\\psi|^2$ 代表了在某处找到粒子的“概率密度”（这是玻恩后来解释的）。",
+    "explanation_en": "\\psi is the 'Wavefunction'. It is a complex mathematical number with no direct physical meaning itself. However, its square modulus $|\\psi|^2$ represents the 'probability density' of finding the particle at a certain spot (as interpreted later by Born)."
+  }
 }

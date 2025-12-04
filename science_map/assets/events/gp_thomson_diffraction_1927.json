@@ -1,0 +1,145 @@
+{
+    "id": "gp_thomson_diffraction_1927",
+    "personId": "george_paget_thomson",
+    "title": "独立证实电子衍射 (薄膜实验)",
+    "title_en": "Independently Confirms Electron Diffraction (Thin Film Experiment)",
+    "year": 1927,
+    "lat": 57.1497,
+    "lng": -2.0943,
+    "city": "阿伯丁",
+    "city_en": "Aberdeen",
+    "country": "苏格兰 (英国)",
+    "country_en": "Scotland (UK)",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/electron_diffraction.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=1iyj3Uf9NYE",
+        "title": "物理学史上最大的父子对决",
+        "title_en": "The Biggest Battle in Physics between Father and Son",
+        "duration": "0:57"
+      }
+    },
+    
+    "summary": {
+      "text": "在戴维森和革末在美国进行实验的同时, 苏格兰阿伯丁大学的乔治·佩吉特·汤姆孙 (G.P. Thomson) 独立地设计了另一种实验来验证德布罗意的假说. 他将高速电子束穿过极薄的金属箔 (如金箔或铝箔, 而不是像戴维森那样从表面反射). 电子穿过金属箔后在后方的照相底片上形成了清晰的同心圆环 (衍射环). 这些圆环的直径与假设电子具有德布罗意波长 ($\\lambda = h/p$) 时预测的X射线衍射图案完全一致. 这为电子的波动性提供了第二个独立的、无可辩驳的证据.",
+      "text_en": "While Davisson and Germer were experimenting in the US, George Paget Thomson (G.P. Thomson) at the University of Aberdeen in Scotland independently designed a different experiment to test de Broglie's hypothesis. He fired high-speed electrons *through* extremely thin metal foils (like gold or aluminum, rather than reflecting them off a surface). The electrons emerging from the foil formed sharp concentric rings (diffraction rings) on a photographic plate behind. These rings matched perfectly with the diffraction patterns predicted for waves of the de Broglie wavelength ($\\lambda = h/p$). This provided a second, independent, and irrefutable proof of the wave nature of electrons.",
+      "key_points": [
+        "独立发现电子衍射 (Independent discovery of electron diffraction)",
+        "使用了透射法 (Transmission method) (穿过薄膜)",
+        "观察到了衍射环 (Diffraction rings)",
+        "与戴维森 (Davisson) 共同获得1937年诺贝尔奖",
+        "J.J. 汤姆孙之子"
+      ],
+      "key_points_en": [
+        "Independent discovery of electron diffraction",
+        "Used the 'Transmission method' (passing through thin films)",
+        "Observed 'Diffraction rings'",
+        "Shared the 1937 Nobel Prize with Davisson",
+        "Son of J.J. Thomson"
+      ]
+    },
+  
+    "story": {
+      "text": "G.P. 汤姆孙的方法与戴维森不同, 他使用的是多晶薄膜. 因为薄膜中的微小晶体是随机排列的, 电子波被各个方向的晶格衍射, 最终在屏幕上形成了一系列明暗相间的圆环 (德拜-谢谢尔环). 这与X射线穿过同样薄膜产生的图案一模一样. 当他用磁场偏转这些圆环时, 圆环整体移动了, 证明这些\"波\"确实是由带电的电子组成的, 而不是光.",
+      "text_en": "G.P. Thomson's method differed from Davisson's; he used polycrystalline thin films. Because the tiny crystals in the foil were randomly oriented, the electron waves were diffracted in all directions, creating a series of bright and dark concentric rings (Debye-Scherrer rings) on the screen. This pattern was identical to that produced by X-rays passing through the same foil. When he used a magnetic field to deflect the rings, they moved as a whole, proving these 'waves' were indeed made of charged electrons, not light.",
+      "diagram": "assets/images/electron_diffraction_2.jpg"
+    },
+  
+    "fun_facts": [
+    {
+      "icon": "🤣",
+      "text": "这是物理学史上最著名的家庭讽刺: 父亲 J.J. 汤姆孙 (`thomson_electron_1897`) 因证明电子是\"粒子\"而获得诺贝尔奖; 30年后, 他的儿子 G.P. 汤姆孙因证明电子是\"波\"而获得诺贝尔奖. 两人都是对的 (波粒二象性).",
+      "text_en": "This is the most famous family irony in physics history: The father, J.J. Thomson (`thomson_electron_1897`), won the Nobel Prize for proving the electron is a *particle*. 30 years later, his son, G.P. Thomson, won the Nobel Prize for proving the electron is a *wave*. Both were right (wave-particle duality)."
+    },
+    {
+      "icon": "✈️",
+      "text": "除了物理学, G.P. 汤姆孙在二战期间还担任了英国\"莫德委员会\" (MAUD Committee) 的主席, 该委员会的报告直接促使美国启动了曼哈顿计划.",
+      "text_en": "Beyond physics, during WWII, G.P. Thomson chaired the British 'MAUD Committee', whose report directly convinced the US to start the Manhattan Project."
+    }
+  ],
+
+    "simple_explanation": {
+      "text": "戴维森是用电子去\"撞墙\" (反射), 看看它们怎么弹回来. 汤姆孙则是让电子\"穿过窗帘\" (透射薄膜).\n如果你向窗帘喷水雾, 水雾穿过织物的微小缝隙后, 会散开形成特定的图案.\n汤姆孙发现, 当电子穿过金箔时, 它们在底片上画出了一个个完美的圆圈. 只有波 (像涟漪一样) 穿过许多微小缝隙时才会形成这种圆圈. 如果电子只是子弹, 它们应该只会在中间留下一个点.",
+      "text_en": "Davisson shot electrons *at a wall* (reflection) to see how they bounced. Thomson shot electrons *through a curtain* (transmission through thin film).\nIf you spray mist through the tiny gaps of a fabric, it spreads out into a specific pattern.\nThomson found that when electrons went through gold foil, they painted perfect *circles* on the film. Only waves (spreading like ripples) create these circles when passing through many tiny gaps. If electrons were just bullets, they would have just made a single dot in the middle.",
+      "diagram": "assets/images/electron_diffraction_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "透射电子显微镜 (TEM)",
+          "title_en": "Transmission Electron Microscopy (TEM)",
+          "text": "汤姆孙的实验装置实际上就是现代透射电子显微镜 (TEM) 的雏形. TEM利用电子穿透样品来获得原子级分辨率的图像.",
+          "text_en": "Thomson's experimental setup was effectively the prototype for the modern Transmission Electron Microscope (TEM), which uses electrons passing *through* a sample to image it at atomic resolution."
+        },
+        {
+          "icon": "💎",
+          "title": "材料分析",
+          "title_en": "Material Analysis",
+          "text": "电子衍射成为了分析晶体结构和薄膜材料性质的标准工具.",
+          "text_en": "Electron diffraction became a standard tool for analyzing crystal structures and the properties of thin film materials."
+        }
+      ],
+  
+    "impact": {
+      "text": "G.P. 汤姆孙的发现与戴维森-革末实验互为补充, 彻底消除了对物质波假说的任何怀疑. 它证明了波粒二象性不依赖于特定的实验设置 (反射或透射), 而是电子本身固有的性质. 这一发现直接促成了量子力学的全面接受和电子显微镜技术的发展.",
+      "text_en": "G.P. Thomson's discovery complemented the Davisson-Germer experiment, removing any lingering doubts about the matter wave hypothesis. It proved that wave-particle duality didn't depend on a specific setup (reflection vs. transmission) but was an intrinsic property of the electron itself. This directly led to the universal acceptance of quantum mechanics and the development of electron microscopy.",
+      "stats": [
+          {
+            "number": "1937",
+            "label": "年诺贝尔奖 (与戴维森分享)",
+            "label_en": "Nobel Prize (Shared with Davisson)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "de_broglie_matter_waves_1924",
+          "contribution": "德布罗意 (汤姆孙的目标就是验证德布罗意关于电子波长的预测)",
+          "contribution_en": "De Broglie (Thomson's goal was to verify de Broglie's prediction of electron wavelength)"
+        },
+        {
+          "id": "thomson_electron_1897",
+          "contribution": "J.J. 汤姆孙 (他的父亲发现了电子粒子性, 为G.P.的研究提供了基础对象)",
+          "contribution_en": "J.J. Thomson (his father discovered the electron particle, providing the object for G.P.'s study)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "electron_microscope_1931",
+          "contribution": "鲁斯卡 (透射电子衍射原理是TEM显微镜的核心)",
+          "contribution_en": "Ruska (the principle of transmission electron diffraction is the core of the TEM microscope)"
+        }
+      ],
+      "legacy_text": "汤姆孙父子共同证明了电子的双重性格: 父亲证明它是粒子, 儿子证明它是波.",
+      "legacy_text_en": "The Thomson father and son jointly proved the dual personality of the electron: the father proved it's a particle, the son proved it's a wave."
+    },
+  
+    "related_concepts": ["电子衍射 (Electron Diffraction)", "透射 (Transmission)", "波粒二象性 (Wave-Particle Duality)", "德拜-谢谢尔环 (Debye-Scherrer Rings)", "J.J. 汤姆孙", "戴维森 (Davisson)"],
+    "related_concepts_en": ["Electron Diffraction", "Transmission", "Wave-Particle Duality", "Debye-Scherrer Rings", "J.J. Thomson", "Davisson"],
+  
+    "quiz": {
+      "question": "G.P. 汤姆孙的实验与戴维森-革末实验的主要区别是什么?",
+      "question_en": "What was the main difference between G.P. Thomson's experiment and the Davisson-Germer experiment?",
+      "options": [
+        "汤姆孙使用了X射线, 戴维森使用了电子",
+        "汤姆孙让电子\"穿过\"薄膜 (透射), 戴维森让电子从晶体表面\"反弹\" (反射)",
+        "汤姆孙证明了电子是粒子, 戴维森证明了电子是波",
+        "汤姆孙使用了磁铁, 戴维森没有"
+      ],
+      "options_en": [
+        "Thomson used X-rays, Davisson used electrons",
+        "Thomson passed electrons *through* a film (transmission), Davisson *bounced* them off a crystal (reflection)",
+        "Thomson proved electrons are particles, Davisson proved they are waves",
+        "Thomson used magnets, Davisson did not"
+      ],
+      "answer": 1,
+      "explanation": "虽然两者的结果都证明了电子的波动性 (衍射), 但实验几何结构不同. 戴维森观察的是单晶表面的反射衍射, 而汤姆孙观察的是穿过多晶薄膜的透射衍射 (类似于光穿过小孔).",
+      "explanation_en": "While both results proved the wave nature of electrons (diffraction), the experimental geometry was different. Davisson observed reflection diffraction from a single crystal surface, while Thomson observed transmission diffraction through a polycrystalline film."
+    }
+  }

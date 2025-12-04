@@ -1,0 +1,10 @@
+{
+    "name": "内森·罗森",
+    "name_en": "Nathan Rosen",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/d/d7/NathanRosen.jpg",
+    "bio_short": "美籍以色列物理学家. 他最著名的成就是与爱因斯坦和波多尔斯基共同发表了EPR论文 (einstein_epr_1935), 质疑量子力学的完备性. 他还与爱因斯坦共同提出了 '爱因斯坦-罗森桥' (虫洞).",
+    "bio_short_en": "An Israeli-American physicist. He is best known for co-authoring the famous EPR paper (einstein_epr_1935) with Einstein and Podolsky, questioning quantum mechanics. He also co-discovered the concept of 'wormholes' (Einstein-Rosen bridge).",
+    "events": [
+      "einstein_epr_1935"
+    ]
+  }
