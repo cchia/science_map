@@ -1,0 +1,10 @@
+{
+    "name": "马丁努斯·贝杰林克",
+    "name_en": "Martinus Beijerinck",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/51/Martinus_Willem_Beijerinck.png",
+    "bio_short": "荷兰微生物学家和植物学家, 病毒学的共同奠基人. 他确立了\"病毒\" (Virus) 的概念, 将其描述为\"流动的活体传染物\" (`beijerinck_virus_concept_1898`). 此外, 他还发现了对农业至关重要的\"生物固氮\"现象.",
+    "bio_short_en": "A Dutch microbiologist and botanist, and a co-founder of virology. He established the concept of the 'Virus', describing it as a 'living contagious fluid' (`beijerinck_virus_concept_1898`). Additionally, he discovered biological nitrogen fixation, which is crucial for agriculture.",
+    "events": [
+      "beijerinck_virus_concept_1898"
+    ]
+  }

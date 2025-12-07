@@ -1,0 +1,146 @@
+{
+    "id": "halsted_surgical_gloves_1890",
+    "personId": "william_halsted",
+    "title": "引入橡胶外科手套",
+    "title_en": "Introduces Rubber Surgical Gloves",
+    "year": 1890,
+    "lat": 39.2963,
+    "lng": -76.5918,
+    "city": "巴尔的摩",
+    "city_en": "Baltimore",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["micro_story"],
+    "field": ["医学"],
+    "field_en": ["Medicine"],
+    
+    "media": {
+      "event_image": "assets/images/rubber_gloves.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6GpqjKwzi3Y",
+        "title": "霍尔斯特德和手套",
+        "title_en": "The Love Story That Invented Surgical Gloves ",
+        "duration": "2:40"
+      }
+    },
+    
+    "summary": {
+      "text": "1890年，美国著名外科医生威廉·霍尔斯特德（William Halsted）在约翰·霍普金斯医院引入了第一副橡胶外科手套。起初，这并不是为了保护病人，而是为了保护他的护士长（后来的妻子）卡罗琳·汉普顿（Caroline Hampton）的手免受强效消毒剂（石炭酸/氯化汞）的伤害。然而，霍尔斯特德和他的团队很快意识到，手套不仅保护了医护人员，还极大地降低了病人的术后感染率。这一创新标志着外科手术从“消毒”（Antiseptic，杀死细菌）向“无菌”（Aseptic，隔绝细菌）的重大转变。",
+      "text_en": "In 1890, William Halsted, a renowned American surgeon at Johns Hopkins Hospital, introduced the first rubber surgical gloves. Originally, this was not to protect the patient, but to protect the hands of his chief nurse (and future wife), Caroline Hampton, from the harsh antiseptics (carbolic acid/mercuric chloride) used to sterilize instruments. However, Halsted and his team soon realized that the gloves not only protected the staff but drastically reduced post-operative infection rates for patients. This innovation marked a major shift in surgery from 'Antiseptic' (killing germs) to 'Aseptic' (excluding germs).",
+      "key_points": [
+        "引入了橡胶外科手套 (Rubber Surgical Gloves)",
+        "起初是为了保护护士的手 (Dermatitis)",
+        "意外发现降低了病人感染率",
+        "推动了从“消毒法”到“无菌法”的转变",
+        "受爱情驱动的发明"
+      ],
+      "key_points_en": [
+        "Introduced Rubber Surgical Gloves",
+        "Initially to protect a nurse's hands (Dermatitis)",
+        "Accidentally found to reduce patient infection rates",
+        "Shifted surgery from 'Antiseptic' to 'Aseptic'",
+        "An invention driven by romance"
+      ]
+    },
+  
+    "story": {
+      "text": "这是一个关于医学和爱情的故事。卡罗琳·汉普顿是霍尔斯特德手术室里才华横溢的护士长。由于必须按照李斯特（`lister_antisepsis_1867`）的方法，长时间将手浸泡在腐蚀性的石炭酸和氯化汞溶液中消毒，她的手患上了严重的皮炎，几乎无法继续工作。为了留住她，霍尔斯特德委托固特异橡胶公司（Goodyear）专门为她定制了一双薄薄的橡胶手套。卡罗琳戴上后效果极佳。渐渐地，霍尔斯特德的助手们也开始戴手套，因为这让他们抓取滑腻的组织更方便。最终，他们惊讶地发现：戴手套做手术的病人，伤口愈合得更好，感染几乎消失了。这就成为了现代无菌手术的标准。",
+      "text_en": "This is a story of medicine and romance. Caroline Hampton was the talented chief nurse in Halsted's operating room. Because she had to scrub her hands with corrosive carbolic acid and mercuric chloride (following Lister's `lister_antisepsis_1867` protocols), she developed severe dermatitis that threatened her career. To keep her, Halsted commissioned the Goodyear Rubber Company to make a pair of thin rubber gloves specifically for her hands. They worked perfectly. Gradually, Halsted's assistants started wearing them too, finding them useful for gripping slippery tissues. Eventually, they realized the stunning truth: patients operated on with gloves healed better, with almost zero infection. It became the standard for modern aseptic surgery.",
+      "diagram": "assets/images/rubber_gloves_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💍",
+        "text": "霍尔斯特德和卡罗琳·汉普顿后来结婚了。可以说，外科手套是他们的“定情信物”。",
+        "text_en": "Halsted and Caroline Hampton later married. You could say the surgical gloves were their 'engagement gift'."
+      },
+      {
+        "icon": "❄️",
+        "text": "霍尔斯特德本人是一个极度追求完美且有些怪癖的人（他曾因拿自己做实验而对可卡因成瘾）。他也是现代外科住院医师培训制度（Residency）的创始人。",
+        "text_en": "Halsted was a perfectionist with eccentricities (he famously battled a cocaine addiction from self-experimentation). He was also the founder of the modern surgical 'Residency' training system."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在霍尔斯特德之前，医生做手术是“赤手空拳”的。他们虽然会洗手（多亏了塞梅尔维斯），但为了消毒，必须把手泡在很烧皮肤的化学药水里。\n霍尔斯特德喜欢的护士因为药水过敏，手烂了。为了保护她的手，霍尔斯特德给她定做了一副橡胶手套。\n结果大家发现，这层橡胶不仅保护了医生，更重要的是，它把医生手上残留的细菌彻底“封”住了，不让它们碰到病人。从此，手术变得极其安全。",
+      "text_en": "Before Halsted, doctors operated with bare hands. Although they washed (thanks to Semmelweis), they had to soak their hands in harsh chemicals to kill germs, which burned their skin.\nHalsted's favorite nurse was allergic to the chemicals. To protect her hands, he ordered custom rubber gloves.\nIt turned out the rubber didn't just protect the doctor; more importantly, it 'sealed off' any remaining germs on the doctor's hands from the patient. Surgery became infinitely safer.",
+      "diagram": "assets/images/rubber_gloves_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏥",
+          "title": "无菌技术 (Aseptic Technique)",
+          "title_en": "Aseptic Technique",
+          "text": "这是从“杀菌”（Antiseptic，用化学药水杀）到“无菌”（Aseptic，把细菌挡在外面）的关键转变。",
+          "text_en": "This was the key shift from 'Antiseptic' (killing germs with chemicals) to 'Aseptic' (keeping germs out entirely)."
+        },
+        {
+          "icon": "🧤",
+          "title": "个人防护装备 (PPE)",
+          "title_en": "PPE",
+          "text": "医用手套是现代医疗最基本的个人防护装备，保护医患双方。",
+          "text_en": "Medical gloves are the most basic PPE in modern healthcare, protecting both doctor and patient."
+        }
+      ],
+  
+    "impact": {
+      "text": "霍尔斯特德引入手套，完成了外科手术安全性的最后一块拼图（麻醉、消毒、无菌）。它使外科医生能够极其精细地处理人体组织，而不必担心感染。霍尔斯特德因此得以开发出许多复杂的、以前不敢尝试的手术（如“根治性乳房切除术”），被尊为美国现代外科学之父。",
+      "text_en": "Halsted's introduction of gloves completed the puzzle of surgical safety (Anesthesia, Antiseptics, Asepsis). It allowed surgeons to handle human tissue with extreme delicacy without fear of infection. This enabled Halsted to develop many complex surgeries previously thought impossible (like the 'Radical Mastectomy'), earning him the title of the father of modern American surgery.",
+      "stats": [
+          {
+            "number": "1890",
+            "label": "年 (手套引入)",
+            "label_en": "Year (Gloves Introduced)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "lister_antisepsis_1867",
+          "contribution": "李斯特（其化学消毒法虽然有效，但对手部皮肤伤害太大，是霍尔斯特德寻找替代方案的原因）",
+          "contribution_en": "Joseph Lister (his chemical antisepsis worked but was too harsh on skin, prompting Halsted to find a barrier solution)"
+        },
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德（提供了细菌致病的理论基础）",
+          "contribution_en": "Louis Pasteur (provided the theoretical basis that germs cause disease)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "modern_surgery_1900",
+          "contribution": "现代无菌手术室（手套、口罩、手术衣成为了标准配置）",
+          "contribution_en": "Modern Sterile Operating Room (gloves, masks, and gowns became standard)"
+        }
+      ],
+      "legacy_text": "霍尔斯特德为了爱情发明了手套，结果却改变了医学的历史。",
+      "legacy_text_en": "Halsted invented gloves for love, but ended up changing the history of medicine."
+    },
+  
+    "related_concepts": ["无菌手术 (Aseptic Surgery)", "消毒 (Antiseptic)", "外科手套 (Surgical Gloves)", "霍尔斯特德 (Halsted)", "约翰·霍普金斯 (Johns Hopkins)", "固特异 (Goodyear)"],
+    "related_concepts_en": ["Aseptic Surgery", "Antiseptic", "Surgical Gloves", "Halsted", "Johns Hopkins", "Goodyear"],
+  
+    "quiz": {
+      "question": "威廉·霍尔斯特德最初引入橡胶外科手套的主要原因是什么？",
+      "question_en": "What was the primary reason William Halsted originally introduced rubber surgical gloves?",
+      "options": [
+        "为了防止病人感染",
+        "为了保护护士的手免受强力消毒剂引起的皮炎",
+        "为了在大冷天保暖",
+        "为了防止自己感染病人的血液病"
+      ],
+      "options_en": [
+        "To prevent patient infection",
+        "To protect his nurse's hands from dermatitis caused by harsh disinfectants",
+        "To keep warm in a cold operating room",
+        "To protect himself from patient blood diseases"
+      ],
+      "answer": 1,
+      "explanation": "虽然手套后来被证明能极大地保护病人，但霍尔斯特德的初衷是为了保护他的护士长（卡罗琳·汉普顿）的手，因为她对当时标准的李斯特消毒液（氯化汞）严重过敏。",
+      "explanation_en": "Although gloves were later proven to protect patients immensely, Halsted's original motivation was to protect the hands of his chief nurse (Caroline Hampton), who had a severe allergic reaction to the standard Listerian disinfectant (mercuric chloride)."
+    }
+  }

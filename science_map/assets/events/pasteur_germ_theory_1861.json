@@ -1,7 +1,158 @@
 {
   "id": "pasteur_germ_theory_1861",
-  "title": "Pasteur Germ Theory",
-  "title_en": "Pasteur Germ Theory",
+  "personId": "louis_pasteur",
+  "title": "确立细菌理论 (推翻自然发生论)",
+  "title_en": "Establishment of Germ Theory (Disproving Spontaneous Generation)",
   "year": 1861,
-  "is_stub": true
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "city": "巴黎",
+  "city_en": "Paris",
+  "storyline_id": ["micro_story"],
+  "country": "法兰西 (今法国)",
+  "country_en": "France (Modern France)",
+  "field": ["生物学", "医学", "化学"],
+  "field_en": ["Biology", "Medicine", "Chemistry"],
+  
+  "media": {
+    "event_image": "assets/images/swan_neck_flask.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=_ZzJ6NcmiKU",
+      "title": "巴斯德的鹅颈瓶实验",
+      "title_en": "Pasteur's Swan Necked Flask Experiments",
+      "duration": "6:03"
+    }
+  },
+  
+  "summary": {
+    "text": "1861年, 路易·巴斯德 (Louis Pasteur) 发表了著名的论文, 通过优雅的'鹅颈瓶实验' (Swan-neck flask experiment), 最终推翻了统治生物学千年的'自然发生论' (Spontaneous Generation). 他证明了腐烂和发酵并非自然发生的化学过程, 而是由空气中的微小生物 ('胚种'或微生物) 引起的. 这一发现确立了'生源论' (Biogenesis)——生命只能来自生命, 并奠定了'细菌理论' (Germ Theory) 的基础.",
+    "text_en": "In 1861, Louis Pasteur published his famous paper, definitively disproving the millennia-old theory of 'Spontaneous Generation' via his elegant 'Swan-neck flask experiment'. He proved that decay and fermentation were not spontaneous chemical processes, but caused by tiny living organisms ('germs' or microbes) in the air. This established 'Biogenesis'—life only comes from life—and laid the foundation for the 'Germ Theory' of disease.",
+    "key_points": [
+      "推翻了'自然发生论' (Spontaneous Generation)",
+      "确立了'生源论' (Biogenesis) (Omne vivum ex vivo)",
+      "著名的'鹅颈瓶实验' (Swan-neck Flask)",
+      "证明微生物来自空气, 而不是凭空产生",
+      "为'巴氏杀菌'和'无菌手术'奠定了理论基础"
+    ],
+    "key_points_en": [
+      "Disproved 'Spontaneous Generation'",
+      "Established 'Biogenesis' (Omne vivum ex vivo)",
+      "Famous 'Swan-neck Flask' experiment",
+      "Proved microbes come from air, not created form nothing",
+      "Laid the theoretical foundation for 'Pasteurization' and 'Antiseptic Surgery'"
+    ]
+  },
+
+  "story": {
+    "text": "当时的人们相信, 如果把肉汤放久了, 它会'自然'生出蛆虫或霉菌. 巴斯德不信. 他设计了一种特殊的玻璃瓶, 瓶颈被拉长弯曲成'S'形 (鹅颈). 他将肉汤煮沸杀菌, 然后让它通过弯曲的瓶颈与空气接触. 关键在于: 空气可以自由进出, 但空气中的尘埃和微生物会被'困'在弯曲的瓶颈底部, 无法接触到肉汤. 结果, 肉汤保持了几个月的清澈 (无菌). 随后, 他做了一个戏剧性的动作: 打断瓶颈 (或者倾斜瓶子让肉汤接触瓶颈的灰尘). 几天后, 肉汤迅速变质, 长满了细菌. 他向法国科学院宣布: '自然发生论已经被这一简单的实验给击碎了.'",
+    "text_en": "People at the time believed that if broth sat for a while, it would 'spontaneously' generate maggots or mold. Pasteur disagreed. He designed a special glass flask with a long neck curved into an 'S' shape (swan neck). He boiled the broth to sterilize it, then let it sit, open to the air via the curved neck. The key was: air could flow in, but dust and microbes were 'trapped' in the curve of the neck, unable to reach the broth. The broth remained clear (sterile) for months. He then made a dramatic move: he broke the neck (or tilted the flask to wash the dust into the broth). Within days, the broth teemed with bacteria. He announced to the French Academy: 'Never will the doctrine of spontaneous generation recover from the mortal blow of this simple experiment.'",
+    "diagram": "assets/images/swan_neck_flask_2.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🍷",
+      "text": "巴斯德最初研究微生物并不是为了治病, 而是为了挽救法国的'葡萄酒'和'啤酒'工业 (防止酒变酸). 这导致了'巴氏杀菌法' (Pasteurization) 的发明.",
+      "text_en": "Pasteur initially studied microbes not to cure disease, but to save the French 'wine' and 'beer' industries (preventing spoilage). This led to the invention of 'Pasteurization'."
+    },
+    {
+      "icon": "🪱",
+      "text": "他还拯救了法国的'丝绸'工业, 通过显微镜找出了导致蚕宝宝死亡的微小寄生虫.",
+      "text_en": "He also saved the French 'silk' industry by using a microscope to identify the tiny parasites that were killing silkworms."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "在巴斯德之前, 如果你的汤变臭了, 大家会说: '这是汤自己变出来的生命.' (自然发生).\n巴斯德说: '不, 是看不见的'小虫子' (微生物) 从空气里掉进汤里, 把它吃坏了.'\n他做了一个有着长长弯曲脖子的瓶子. 空气能进去, 但'小虫子'会在弯道里卡住, 掉不到汤里. 汤就不会坏.\n这证明了坏事 (疾病、腐烂) 都是由外部的'细菌'引起的, 而不是身体内部自己产生的.",
+    "text_en": "Before Pasteur, if your soup went bad, people said: 'The soup just created life by itself.' (Spontaneous Generation).\nPasteur said: 'No, invisible 'bugs' (microbes) fell from the air into the soup and ate it.'\nHe made a bottle with a long, curvy neck. Air could get in, but the 'bugs' got stuck in the curves and couldn't reach the soup. The soup stayed fresh.\nThis proved that bad things (disease, rot) are caused by external 'germs', not generated from within.",
+    "diagram": "assets/images/swan_neck_flask_3.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🥛",
+        "title": "巴氏杀菌 (Pasteurization)",
+        "title_en": "Pasteurization",
+        "text": "这是最直接的应用: 将牛奶或酒加热到一定温度 (约60-100°C) 以杀死有害细菌, 但不破坏口感.",
+        "text_en": "The most direct application: heating milk or wine to a specific temperature (~60-100°C) to kill harmful bacteria without ruining the taste."
+      },
+      {
+        "icon": "🏥",
+        "title": "无菌手术 (Antiseptic Surgery)",
+        "title_en": "Antiseptic Surgery",
+        "text": "李斯特 (`lister_antisepsis_1867`) 读了巴斯德的论文后意识到: 如果细菌导致腐烂, 那么细菌也导致伤口感染. 于是他发明了消毒法.",
+        "text_en": "Lister (`lister_antisepsis_1867`) read Pasteur's paper and realized: If germs cause rot, germs cause wound infection. He then invented antiseptic surgery."
+      },
+      {
+        "icon": "💉",
+        "title": "疫苗 (Vaccines)",
+        "title_en": "Vaccines",
+        "text": "巴斯德后来利用这一理论开发了针对'狂犬病'和'炭疽'的疫苗 (继詹纳之后将疫苗科学化).",
+        "text_en": "Pasteur later applied this theory to develop vaccines for 'Rabies' and 'Anthrax' (scientificizing vaccines after Jenner)."
+      }
+    ],
+
+  "impact": {
+    "text": "巴斯德的细菌理论是医学史上最大的转折点. 它结束了'瘴气说' (Miasma theory). 它告诉人类: 我们的敌人是具体的微生物, 而不是神秘的'坏空气'. 这导致了消毒、抗生素、疫苗和现代公共卫生的诞生, 使人类的预期寿命翻了一番.",
+    "text_en": "Pasteur's Germ Theory was the biggest turning point in medical history. It ended the 'Miasma theory'. It told humanity: our enemies are specific microbes, not mysterious 'bad air'. This led to sterilization, antibiotics, vaccines, and modern public health, doubling human life expectancy.",
+    "stats": [
+        {
+          "number": "1861",
+          "label": "年 (理论确立)",
+          "label_en": "Year (Theory Established)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "leeuwenhoek_bacteria_1676",
+        "contribution": "列文虎克 (他首先'看见'了这些微小生物, 巴斯德则解释了它们'做了什么')",
+        "contribution_en": "Leeuwenhoek (he first 'saw' these microbes; Pasteur explained 'what they did')"
+      },
+      {
+        "id": "jenner_vaccine_1796",
+        "contribution": "詹纳 (其牛痘疫苗的成功启发了巴斯德去寻找人工制造免疫力的方法)",
+        "contribution_en": "Jenner (his smallpox vaccine success inspired Pasteur to find ways to artificially create immunity)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "lister_antisepsis_1867",
+        "contribution": "李斯特 (直接应用巴斯德理论于外科手术, 发明了石炭酸消毒)",
+        "contribution_en": "Joseph Lister (directly applied Pasteur's theory to surgery, inventing carbolic acid sterilization)"
+      },
+      {
+        "id": "koch_tuberculosis_1882",
+        "contribution": "科赫 (他完善了巴斯德的理论, 提出了'科赫法则'来确定特定细菌导致特定疾病)",
+        "contribution_en": "Robert Koch (he refined Pasteur's theory, proposing 'Koch's Postulates' to link specific germs to specific diseases)"
+      }
+    ],
+    "legacy_text": "巴斯德不仅发现了细菌, 他还教会了我们如何杀死它们.",
+    "legacy_text_en": "Pasteur not only found the germs; he taught us how to kill them."
+  },
+
+  "related_concepts": ["细菌理论 (Germ Theory)", "自然发生论 (Spontaneous Generation)", "巴氏杀菌 (Pasteurization)", "鹅颈瓶 (Swan-neck Flask)", "微生物学 (Microbiology)", "发酵 (Fermentation)", "疫苗 (Vaccine)"],
+  "related_concepts_en": ["Germ Theory", "Spontaneous Generation", "Pasteurization", "Swan-neck Flask", "Microbiology", "Fermentation", "Vaccine"],
+
+  "quiz": {
+    "question": "巴斯德的'鹅颈瓶实验'最关键的设计是什么, 从而证明了细菌不是自然产生的?",
+    "question_en": "What was the key design of Pasteur's 'Swan-neck Flask' experiment that proved bacteria didn't generate spontaneously?",
+    "options": [
+      "他把瓶子完全密封了, 不让空气进入",
+      "他弯曲了瓶颈, 让空气能进出, 但灰尘(细菌)被卡在弯管处",
+      "他在肉汤里加了抗生素",
+      "他把瓶子放在了冰箱里"
+    ],
+    "options_en": [
+      "He sealed the flask completely, blocking air",
+      "He curved the neck so air could enter, but dust (germs) got trapped in the bend",
+      "He added antibiotics to the broth",
+      "He put the flask in a refrigerator"
+    ],
+    "answer": 1,
+    "explanation": "这是实验的天才之处. 反对者认为'自然发生'需要'新鲜空气'. 巴斯德通过鹅颈设计允许空气进入, 但物理上阻挡了带有微生物的灰尘, 证明了没有'种子'(细菌)就没有生命.",
+    "explanation_en": "This was the genius. Critics claimed 'spontaneous generation' needed 'fresh air'. Pasteur allowed air in via the swan neck but physically blocked the dust carrying microbes, proving that without the 'seeds' (germs), there is no life."
+  }
 }

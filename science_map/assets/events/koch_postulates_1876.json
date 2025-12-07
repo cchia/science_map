@@ -1,0 +1,168 @@
+{
+    "id": "koch_postulates_1876",
+    "personId": "robert_koch",
+    "title": "证明炭疽杆菌致病 (科赫法则的诞生)",
+    "title_en": "Proves Anthrax is Caused by Bacteria (Birth of Koch's Postulates)",
+    "year": 1876,
+    "lat": 52.1122,
+    "lng": 16.1157,
+    "city": "沃尔什廷 (普鲁士)",
+    "city_en": "Wollstein (Prussia, now Wolsztyn, Poland)",
+    "country": "德国 (德意志帝国)",
+    "country_en": "Germany (German Empire)",
+    "storyline_id": ["micro_story"],
+    "field": ["医学", "生物学"],
+    "field_en": ["Medicine", "Biology"],
+    
+    "media": {
+      "event_image": "assets/images/koch_standard.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=97sEcWEb3Iw",
+        "title": "疾病微生物学和科赫法则",
+        "title_en": "Germ Theory of Diseases and Koch’s Postulates",
+        "duration": "4:55"
+      }
+    },
+    
+    "summary": {
+      "text": "1876年，德国乡村医生罗伯特·科赫（Robert Koch）在简陋的家庭实验室中，首次证明了特定的微生物（炭疽杆菌）是导致特定疾病（炭疽病）的唯一原因。为了证明这一点，他制定了一套严谨的实验标准，即著名的“科赫法则”(Koch's Postulates)：(1) 病体中必须找到该微生物；(2) 必须能将其分离并“纯培养”；(3) 将纯培养物接种给健康宿主必须致病；(4) 必须能从新感染的宿主中再次分离出同种微生物。这标志着“病原细菌学”的正式诞生。",
+      "text_en": "In 1876, German country doctor Robert Koch, working in a modest home lab, proved for the first time that a *specific* microbe (Bacillus anthracis) was the sole cause of a *specific* disease (Anthrax). To prove this, he established a rigorous set of experimental criteria, known as 'Koch's Postulates': (1) The microbe must be found in the sick; (2) It must be isolated and grown in 'pure culture'; (3) It must cause the disease when inoculated into a healthy host; (4) It must be re-isolated from the newly infected host. This marked the formal birth of 'Pathogenic Bacteriology'.",
+      "key_points": [
+        "首次证明特定细菌导致特定疾病 (Specific Etiology)",
+        "确立了“科赫法则”(Koch's Postulates)",
+        "发明了细菌的“纯培养”(Pure Culture) 技术",
+        "发现了炭疽杆菌 (Anthrax Bacillus) 的生命周期（芽孢）",
+        "将医学从“症状学”转变为“病因学”"
+      ],
+      "key_points_en": [
+        "First proof that a specific bacterium causes a specific disease",
+        "Established 'Koch's Postulates'",
+        "Invented 'Pure Culture' techniques",
+        "Discovered the life cycle (spores) of Anthrax",
+        "Shifted medicine from 'symptomatology' to 'etiology'"
+      ]
+    },
+  
+    "story": {
+      "text": "巴斯德（`pasteur_germ_theory_1861`）虽然提出了“细菌理论”，但他主要是化学家。医生们仍然不相信微小的细菌能杀死牛和人。科赫在他简陋的诊所里，用老鼠做实验。他从死于炭疽的羊血中提取出杆状细菌，但他不仅仅是观察。他发明了一种巧妙的方法，在牛眼房水（后来改进为固体明胶/土豆）上“种植”细菌，获得了世界上第一个“纯培养物”。他看着这些细菌繁殖、形成孢子（这解释了为什么炭疽能在土壤中存活数年）。然后，他将这些纯净的细菌注射到健康老鼠体内，老鼠死了。他再次从死老鼠体内提取出了完全相同的细菌。这个完美的“证据闭环”，让所有怀疑者哑口无言。",
+      "text_en": "Pasteur (`pasteur_germ_theory_1861`) proposed 'Germ Theory', but he was a chemist. Doctors still doubted tiny bugs could kill cows and people. Koch, in his rural clinic, experimented on mice. He extracted rod-shaped bacteria from sheep dying of anthrax. But he didn't just observe. He invented a clever way to 'farm' the bacteria on ox-eye fluid (later solid gelatin/potato), creating the world's first 'pure culture'. He watched them multiply and form 'spores' (explaining why Anthrax survived in soil for years). He then injected these *pure* bacteria into healthy mice; they died. He re-isolated the *exact same* bacteria from the dead mice. This perfect 'closed loop of evidence' silenced all skeptics.",
+      "diagram": "assets/images/koch.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🥔",
+        "text": "科赫革命性地引入了“固体培养基”（最初是用切片的土豆，后来是明胶和琼脂）。这使得细菌不能游来游去，从而长成独立的“菌落”(Colony)，这是分离纯种细菌的关键。",
+        "text_en": "Koch revolutionized science by introducing 'solid culture media' (initially sliced potatoes, later gelatin and agar). This stopped bacteria from swimming around, forcing them to grow into distinct 'colonies', the key to isolating pure strains."
+      },
+      {
+        "icon": "🎂",
+        "text": "他最初的显微镜是他妻子在他28岁生日时送给他的礼物。这台礼物最终改变了医学史。",
+        "text_en": "His first microscope was a gift from his wife on his 28th birthday. That gift ended up changing the history of medicine."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在科赫之前，医生就像看到火灾现场有消防员，就认为是消防员纵火。他们看到病人血里有细菌，却认为是病人生出了细菌。\n科赫制定了一套“抓凶手”的警察规则：\n1. 凶手必须在每个案发现场（病人）。\n2. 你必须把凶手抓回局里单独审问（纯培养）。\n3. 你把凶手放到新环境，他必须再次作案（让健康动物生病）。\n4. 你必须能再次抓到他，验明正身。\n只有走完这四步，才能给细菌“定罪”。",
+      "text_en": "Before Koch, finding bacteria in a sick person was like finding firemen at a fire and blaming them for starting it. Doctors thought the disease created the bacteria.\nKoch wrote the 'police procedure' for catching the killer:\n1. The suspect must be at every crime scene.\n2. You must arrest the suspect and hold him alone (pure culture).\n3. If you release him, he must commit the crime again (infect a healthy animal).\n4. You must catch him again and prove it's the same guy.\nOnly then is the bacteria 'guilty'.",
+      "diagram": "assets/images/koch_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🩺",
+          "title": "疾病诊断",
+          "title_en": "Disease Diagnosis",
+          "text": "科赫法则至今仍是鉴定新传染病（如SARS、COVID-19）病原体的“黄金标准”。",
+          "text_en": "Koch's Postulates remain the 'gold standard' logic for identifying the cause of new infectious diseases (like SARS, COVID-19)."
+        },
+        {
+          "icon": "🧫",
+          "title": "细菌培养 (Petri Dish)",
+          "title_en": "Bacterial Culture",
+          "text": "他发明的固体培养技术（以及后来他的助手佩特里发明的培养皿 `petri_dish_1887`）是现代生物实验室的基础。",
+          "text_en": "His solid culture technique (and the Petri dish, later invented by his assistant Petri `petri_dish_1887`) is the foundation of the modern bio-lab."
+        },
+        {
+          "icon": "💊",
+          "title": "抗生素研发",
+          "title_en": "Antibiotic Research",
+          "text": "只有当我们能“分离”和“培养”特定细菌时，我们才能测试药物（如青霉素 `fleming_penicillin_1928`）是否能杀死它们。",
+          "text_en": "Only because we can 'isolate' and 'culture' specific bacteria can we test if drugs (like Penicillin `fleming_penicillin_1928`) kill them."
+        }
+      ],
+  
+    "impact": {
+      "text": "科赫是“细菌学之父”。他在1876年对炭疽的研究，以及随后（1882年）发现结核杆菌，彻底结束了数千年来关于疾病起源的猜测。他将医学带入了“病原学”时代——每种疾病都有一个特定的、微观的、可被消灭的“原因”。这直接导致了20世纪人类预期寿命的巨大飞跃。",
+      "text_en": "Koch is the 'Father of Bacteriology'. His 1876 work on Anthrax, followed by his discovery of the Tuberculosis bacillus (1882), ended thousands of years of guessing about disease. He brought medicine into the era of 'Etiology'—every disease has a specific, microscopic, killable 'cause'. This directly led to the massive leap in human life expectancy in the 20th century.",
+      "stats": [
+          {
+            "number": "1876",
+            "label": "年 (炭疽研究发表)",
+            "label_en": "Year (Anthrax Paper)"
+          },
+          {
+            "number": "4",
+            "label": "条法则",
+            "label_en": "Postulates"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德（其“细菌理论”是科赫工作的理论基础，科赫将其实证化和具体化）",
+          "contribution_en": "Louis Pasteur (his 'Germ Theory' was the theoretical basis; Koch made it empirical and specific)"
+        },
+        {
+          "id": "leeuwenhoek_bacteria_1676",
+          "contribution": "列文虎克（显微镜技术的先驱，使观察细菌成为可能）",
+          "contribution_en": "Leeuwenhoek (pioneer of microscopy, making bacterial observation possible)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "koch_tuberculosis_1882",
+          "contribution": "（他自己）发现结核杆菌（利用同样的法则，他攻克了当时最大的杀手——肺结核）",
+          "contribution_en": "(Himself) Discovery of M. tuberculosis (using the same postulates, he cracked the biggest killer of the time: TB)"
+        },
+        {
+          "id": "petri_dish_1887",
+          "contribution": "朱利叶斯·佩特里（科赫的助手，为了改进科赫的固体培养法而发明了培养皿）",
+          "contribution_en": "Julius Petri (Koch's assistant, who invented the Petri Dish to improve Koch's solid culture method)"
+        },
+        {
+          "id": "fleming_penicillin_1928",
+          "contribution": "弗莱明（抗生素的发现依赖于能够“培养”细菌并观察其生长抑制）",
+          "contribution_en": "Alexander Fleming (the discovery of antibiotics relied on being able to 'culture' bacteria and see their inhibition)"
+        }
+      ],
+      "legacy_text": "罗伯特·科赫教会了医生如何像侦探一样思考，确立了“一个细菌，一种疾病”的铁律。",
+      "legacy_text_en": "Robert Koch taught doctors to think like detectives, establishing the iron law of 'one germ, one disease'."
+    },
+  
+    "related_concepts": ["科赫法则 (Koch's Postulates)", "炭疽 (Anthrax)", "纯培养 (Pure Culture)", "细菌学 (Bacteriology)", "病原体 (Pathogen)", "巴斯德 (Pasteur)", "结核病 (Tuberculosis)"],
+    "related_concepts_en": ["Koch's Postulates", "Anthrax", "Pure Culture", "Bacteriology", "Pathogen", "Pasteur", "Tuberculosis"],
+  
+    "quiz": {
+      "question": "科赫法则（Koch's Postulates）的第二条，要求科学家必须对疑似病原体做什么，才能证明它致病？",
+      "question_en": "According to the second of Koch's Postulates, what must a scientist do with a suspected pathogen to prove it causes disease?",
+      "options": [
+        "在显微镜下观察它",
+        "将其在体外“分离”并进行“纯培养”",
+        "用抗生素杀死它",
+        "对其进行基因测序"
+      ],
+      "options_en": [
+        "Observe it under a microscope",
+        "Isolate it and grow it in 'pure culture' outside the body",
+        "Kill it with antibiotics",
+        "Sequence its DNA"
+      ],
+      "answer": 1,
+      "explanation": "仅仅“看到”细菌是不够的（它可能是无害的旁观者）。科赫坚持必须将细菌从身体中“分离”出来，在培养皿中独自生长（纯培养），排除其他干扰，然后再接种回去看是否致病。",
+      "explanation_en": "Just 'seeing' the bacteria isn't enough (it could be a harmless bystander). Koch insisted you must 'isolate' it from the body and grow it *alone* (pure culture) to rule out other causes before re-infecting."
+    }
+  }

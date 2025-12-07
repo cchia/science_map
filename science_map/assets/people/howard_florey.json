@@ -1,0 +1,10 @@
+{
+    "name": "豪沃德·弗洛里",
+    "name_en": "Howard Florey",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sir_Howard_Florey.jpg",
+    "bio_short": "澳大利亚药理学家和病理学家，1945年诺贝尔生理学或医学奖得主。他领导牛津大学团队成功提取并纯化了青霉素，将其从实验室发现转化为可大规模生产的救命药物（`florey_chain_penicillin_1941`）。",
+    "bio_short_en": "An Australian pharmacologist and pathologist, and a 1945 Nobel laureate. He led the Oxford team that successfully extracted and purified penicillin, transforming it from a laboratory discovery into a mass-produced life-saving drug (`florey_chain_penicillin_1941`).",
+    "events": [
+      "florey_chain_penicillin_1941"
+    ]
+  }

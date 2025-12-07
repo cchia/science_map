@@ -1,0 +1,156 @@
+{
+    "id": "lister_antiseptic_1867",
+    "personId": "joseph_lister",
+    "title": "开创“无菌外科手术” (消毒法)",
+    "title_en": "Pioneers 'Antiseptic Surgery' (Sterilization)",
+    "year": 1867,
+    "lat": 55.8642,
+    "lng": -4.2518,
+    "city": "格拉斯哥 (格拉斯哥皇家医院)",
+    "city_en": "Glasgow (Glasgow Royal Infirmary)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["micro_story"],
+    "field": ["医学", "生物学"],
+    "field_en": ["Medicine", "Biology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/A_day_in_the_life_of_an_OR_technician_160920-F-AE629-070.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=xe7A2Uc81Ec",
+        "title": "约瑟夫·李斯特: 现代外科之父",
+        "title_en": "Joseph Lister: The Father of Modern Surgery",
+        "duration": "1:55"
+      }
+    },
+    
+    "summary": {
+      "text": "1867年，英国外科医生约瑟夫·李斯特（Joseph Lister）在《柳叶刀》上发表了一系列具有里程碑意义的文章。受到巴斯德（Louis Pasteur, `pasteur_germ_theory_1861`）“细菌理论”的启发，李斯特推断伤口感染（如坏疽）不是由“空气”本身引起的，而是由空气中的“微生物”引起的。他引入了“石炭酸”（苯酚）作为消毒剂，用于清洗伤口、手术器械和医生的手，甚至在手术室喷洒石炭酸雾。这一方法将他的病房的手术死亡率从近50%骤降至15%，彻底改变了外科手术的面貌。",
+      "text_en": "In 1867, British surgeon Joseph Lister published a landmark series of articles in *The Lancet*. Inspired by Louis Pasteur's (`pasteur_germ_theory_1861`) 'Germ Theory', Lister deduced that wound infection (like gangrene) was caused not by 'air' itself, but by 'microbes' *in* the air. He introduced 'Carbolic Acid' (Phenol) as an antiseptic to sterilize wounds, surgical instruments, and the surgeon's hands, even spraying a mist of it in the operating room. This method dropped the mortality rate in his ward from nearly 50% to 15%, revolutionizing surgery forever.",
+      "key_points": [
+        "开创了“无菌外科手术”(Antiseptic Surgery)",
+        "应用了巴斯德的“细菌理论”",
+        "使用“石炭酸”(Carbolic Acid/Phenol) 进行消毒",
+        "大幅降低了术后感染死亡率",
+        "使复杂的外科手术成为可能"
+      ],
+      "key_points_en": [
+        "Pioneered 'Antiseptic Surgery'",
+        "Applied Pasteur's 'Germ Theory'",
+        "Used 'Carbolic Acid' (Phenol) for sterilization",
+        "Drastically reduced post-operative mortality",
+        "Made complex surgeries possible"
+      ]
+    },
+  
+    "story": {
+      "text": "在李斯特之前，医院是“死亡之屋”。即便手术成功，病人也往往死于随后的“医院坏疽”。医生们穿着沾满血迹的罩衣，以此作为经验的“勋章”，甚至不洗手就从解剖室直接去手术。李斯特读到巴斯德的论文，了解到腐烂是由微生物引起的。他想：“如果我也能杀死伤口里的这些‘小野兽’呢？” 他听说卡莱尔市用一种叫“石炭酸”的化学物质处理污水来消除恶臭（并杀死了牛身上的寄生虫）。于是，他决定在手术中试用它。他在一名被马车压碎腿的11岁男孩身上首次尝试了这种疗法。通常这种伤必然截肢或导致死亡，但在李斯特的精心消毒下，男孩的腿完全愈合了。这一奇迹标志着现代外科学的黎明。",
+      "text_en": "Before Lister, hospitals were 'Houses of Death'. Even if surgery went well, patients often died of 'hospital gangrene'. Surgeons wore blood-stiffened aprons as badges of experience and went from autopsies to surgery without washing. Lister read Pasteur's paper and learned that rot was caused by microbes. He thought, 'What if I can kill these 'beasts' in the wound?' He heard that the city of Carlisle used a chemical called 'Carbolic Acid' to treat sewage stench (and it killed parasites on cows). So, he tried it. His first test case was an 11-year-old boy with a crushed leg. Usually, this meant amputation or death. Under Lister's antiseptic care, the leg healed perfectly. This miracle marked the dawn of modern surgery.",
+      "diagram": "assets/images/lister.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧴",
+        "text": "著名的漱口水品牌“李施德林”(Listerine) 就是以约瑟夫·李斯特命名的（尽管不是他发明的），以致敬他在杀菌方面的贡献。",
+        "text_en": "The famous mouthwash brand 'Listerine' was named after Joseph Lister (though not invented by him) to honor his work in killing germs."
+      },
+      {
+        "icon": "👑",
+        "text": "他曾用他的新方法切开了维多利亚女王腋下的一个脓肿（这也是一种手术），手术非常成功，女王甚至可以说是他的“名人代言人”。",
+        "text_en": "He once operated on Queen Victoria (lancing an abscess under her arm) using his new method. It was a success, making the Queen essentially a 'celebrity endorser'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在李斯特之前，医生们认为让伤口化脓是“好事”，甚至是愈合的一部分。李斯特说：“不，那是细菌在吃你的肉。”\n他发明了一种“化学盾牌”（石炭酸）。他在做手术时，会在空气中喷洒这种酸雾，把器械泡在酸里，还要洗手。\n这就像是在手术台周围建立了一个“无菌力场”。细菌进不去，病人就不会感染。手术从“赌博”变成了“科学”。",
+      "text_en": "Before Lister, doctors thought pus in a wound was a 'good sign', part of healing. Lister said, 'No, that's bacteria eating your flesh.'\nHe invented a 'chemical shield' (Carbolic Acid). He sprayed a mist of this acid in the air during surgery, soaked his tools in it, and washed his hands with it.\nIt was like creating a 'germ-free forcefield' around the operating table. The bacteria couldn't get in, so the patient didn't get infected. Surgery went from a 'gamble' to a 'science'.",
+      "diagram": "assets/images/lister_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏥",
+          "title": "现代手术室",
+          "title_en": "Modern Operating Rooms",
+          "text": "虽然我们现在不再使用刺激性的石炭酸，但所有手术室的“无菌操作规范”（手套、口罩、消毒器械）都直接源于李斯特。",
+          "text_en": "While we no longer use harsh carbolic acid, all 'sterile protocols' in operating rooms (gloves, masks, sterilized tools) descend directly from Lister."
+        },
+        {
+          "icon": "🧼",
+          "title": "日常卫生",
+          "title_en": "Daily Hygiene",
+          "text": "李斯特让公众意识到了“杀菌”的重要性，这不仅改变了医疗，也改变了人们的日常清洁习惯。",
+          "text_en": "Lister made the public aware of the importance of 'killing germs', transforming not just medicine but daily cleaning habits."
+        }
+      ],
+  
+    "impact": {
+      "text": "李斯特将外科手术从一种“绝望的最后手段”转变为一种“安全、有效的治疗方法”。在他之前，腹腔、胸腔和脑部手术几乎是判死刑；在他之后，这成为了可能。他拯救了数百万人的生命，被誉为“现代外科学之父”。",
+      "text_en": "Lister transformed surgery from a 'desperate last resort' into a 'safe, effective therapy'. Before him, abdominal, chest, and brain surgeries were death sentences; after him, they became possible. He saved millions of lives and is honored as the 'Father of Modern Surgery'.",
+      "stats": [
+          {
+            "number": "1867",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Papers Published)"
+          },
+          {
+            "number": "50%",
+            "label": "至 15% (死亡率下降)",
+            "label_en": "to 15% (Mortality Drop)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德（李斯特明确表示，他的整个理论体系都建立在巴斯德证明“腐烂由微生物引起”的基础上）",
+          "contribution_en": "Louis Pasteur (Lister explicitly stated his entire system was built on Pasteur's proof that 'rot is caused by microbes')"
+        },
+        {
+          "id": "semmelweis_handwashing_1847",
+          "contribution": "塞梅尔维斯（作为先驱，虽然李斯特初期并未直接引用，但他们的核心思想是一致的：清洁预防死亡）",
+          "contribution_en": "Ignaz Semmelweis (as a precursor; though Lister didn't cite him initially, their core idea was the same: cleanliness prevents death)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "halsted_radical_mastectomy_1882",
+          "contribution": "威廉·霍尔斯特德（将“消毒”Antiseptic 升级为更严格的“无菌”Aseptic，并引入了橡胶手套）",
+          "contribution_en": "William Halsted (upgraded 'Antiseptic' to the stricter 'Aseptic' technique and introduced rubber gloves)"
+        },
+        {
+          "id": "koch_tuberculosis_1882",
+          "contribution": "科赫（完善了细菌理论，进一步证实了李斯特做法的科学依据）",
+          "contribution_en": "Robert Koch (perfected Germ Theory, further validating the scientific basis of Lister's practice)"
+        }
+      ],
+      "legacy_text": "李斯特是第一个在那扇把细菌挡在外面的门上挂上“手术中，请勿打扰”牌子的人。",
+      "legacy_text_en": "Lister was the first to hang a 'Do Not Disturb' sign on the door against bacteria during surgery."
+    },
+  
+    "related_concepts": ["无菌手术 (Antiseptic Surgery)", "石炭酸 (Carbolic Acid)", "细菌理论 (Germ Theory)", "路易·巴斯德 (Louis Pasteur)", "坏疽 (Gangrene)", "李施德林 (Listerine)"],
+    "related_concepts_en": ["Antiseptic Surgery", "Carbolic Acid", "Germ Theory", "Louis Pasteur", "Gangrene", "Listerine"],
+  
+    "quiz": {
+      "question": "约瑟夫·李斯特（Joseph Lister）使用什么化学物质来对伤口和手术器械进行消毒？",
+      "question_en": "What chemical substance did Joseph Lister use to sterilize wounds and surgical instruments?",
+      "options": [
+        "酒精 (Alcohol)",
+        "石炭酸 / 苯酚 (Carbolic Acid / Phenol)",
+        "青霉素 (Penicillin)",
+        "漂白粉 (Bleach)"
+      ],
+      "options_en": [
+        "Alcohol",
+        "Carbolic Acid / Phenol",
+        "Penicillin",
+        "Bleach"
+      ],
+      "answer": 1,
+      "explanation": "李斯特听说“石炭酸”被用来处理污水并能去除臭味（防止腐烂），因此推测它能杀死导致伤口腐烂的“细菌”。他将其喷洒在手术室的空气中并用于清洗伤口。",
+      "explanation_en": "Lister heard that 'Carbolic Acid' was used to treat sewage and remove the smell (prevent rot), so he hypothesized it would kill the 'germs' causing wound rot. He sprayed it in the air and washed wounds with it."
+    }
+  }

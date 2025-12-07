@@ -1,0 +1,10 @@
+{
+    "name": "塞尔曼·瓦克斯曼",
+    "name_en": "Selman Waksman",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/33/Selman_Waksman_NYWTS.jpg",
+    "bio_short": "乌克兰裔美国微生物学家，诺贝尔奖得主。他创造了“抗生素” (antibiotic) 一词，并领导团队发现了链霉素（`waksman_streptomycin_1943`），这是人类历史上第一种能有效治愈肺结核的药物。",
+    "bio_short_en": "A Ukrainian-born American microbiologist and Nobel laureate. He coined the term 'antibiotic' and led the team that discovered streptomycin (`waksman_streptomycin_1943`), the first drug in history capable of effectively curing tuberculosis.",
+    "events": [
+      "waksman_streptomycin_1943"
+    ]
+  }

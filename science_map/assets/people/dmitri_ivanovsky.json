@@ -1,0 +1,10 @@
+{
+    "name": "德米特里·伊万诺夫斯基",
+    "name_en": "Dmitri Ivanovsky",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/2/26/Ivanovsky.jpg",
+    "bio_short": "俄罗斯植物学家, 病毒学的先驱之一. 他在1892年研究烟草花叶病时, 发现了通过细菌过滤器后仍具有感染性的病原体 (`ivanovsky_virus_1892`), 从而成为世界上第一个发现病毒的人.",
+    "bio_short_en": "A Russian botanist and a pioneer of virology. In 1892, while studying tobacco mosaic disease, he discovered a pathogen that remained infectious after passing through a bacteria-proof filter (`ivanovsky_virus_1892`), effectively becoming the first person to discover viruses.",
+    "events": [
+      "ivanovsky_virus_1892"
+    ]
+  }

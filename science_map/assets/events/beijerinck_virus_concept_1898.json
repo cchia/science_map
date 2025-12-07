@@ -1,0 +1,151 @@
+{
+    "id": "beijerinck_virus_concept_1898",
+    "personId": "martinus_beijerinck",
+    "title": "提出\"病毒\"概念 (流动的活体传染物)",
+    "title_en": "Proposes the Concept of 'Virus' (Contagium vivum fluidum)",
+    "year": 1898,
+    "lat": 52.0116,
+    "lng": 4.3571,
+    "city": "代尔夫特",
+    "city_en": "Delft",
+    "country": "荷兰",
+    "country_en": "Netherlands",
+    "storyline_id": ["micro_story"],
+    "field": ["微生物学", "病毒学"],
+    "field_en": ["Microbiology", "Virology"],
+    
+    "media": {
+      "event_image": "assets/images/virus_4.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=U4oDfj3Z7Q8",
+        "title": "病毒学之父：贝杰林克",
+        "title_en": "The Father of Virology: Beijerinck",
+        "duration": "1:09"
+      }
+    },
+    
+    "summary": {
+      "text": "1898年, 荷兰微生物学家马丁努斯·贝杰林克 (Martinus Beijerinck) 在不知道伊万诺夫斯基工作的情况下, 独立进行了烟草花叶病的过滤实验. 与伊万诺夫斯基不同, 贝杰林克做出了一个大胆的、革命性的概念飞跃. 他发现这种病原体不仅能穿过除菌过滤器, 而且还能在植物体内\"繁殖\" (因为它可以无限次地传代感染), 但无法在普通的细菌培养基中生长. 他断定这绝不是细菌, 而是一种\"液态\"的生命形式, 他将其称为\"流动的活体传染物\" (Contagium vivum fluidum), 并重新启用了古老的拉丁词\"Virus\" (病毒) 来描述它.",
+      "text_en": "In 1898, Dutch microbiologist Martinus Beijerinck independently conducted filtration experiments on Tobacco Mosaic Disease, unaware of Ivanovsky's work. Unlike Ivanovsky, Beijerinck made a bold, revolutionary conceptual leap. He found that the pathogen could not only pass through bacteria-proof filters but could also 'reproduce' inside plants (as it could be transmitted indefinitely) yet failed to grow on standard bacterial culture media. He concluded this was absolutely not a bacterium but a 'liquid' life form. He called it 'Contagium vivum fluidum' (living contagious fluid) and reintroduced the ancient Latin term 'Virus' to describe it.",
+      "key_points": [
+        "确立了\"病毒\" (Virus) 的概念",
+        "提出了\"流动的活体传染物\" (Contagium vivum fluidum)",
+        "证明病毒需要\"宿主\"才能繁殖 (Obligate Parasite)",
+        "区分了病毒与细菌的本质不同",
+        "与伊万诺夫斯基并称为\"病毒学之父\""
+      ],
+      "key_points_en": [
+        "Established the concept of 'Virus'",
+        "Proposed 'Contagium vivum fluidum' (Living Contagious Fluid)",
+        "Proved viruses need a 'host' to reproduce (Obligate Parasite)",
+        "Distinguished the fundamental difference between viruses and bacteria",
+        "Co-titled 'Father of Virology' with Ivanovsky"
+      ]
+    },
+  
+    "story": {
+      "text": "贝杰林克的实验逻辑非常严密. 首先, 他证明了过滤后的汁液不是简单的\"毒素\". 因为如果是毒素, 随着一次次从病株传给健康株, 毒素会被稀释, 致病力会减弱. 但贝杰林克发现致病力始终如一, 这证明该物质在植物体内\"自我复制\"了. 其次, 他发现该物质在琼脂平板上完全不生长 (不像细菌). 最后, 他发现该物质可以扩散到琼脂凝胶中 (像溶解的盐一样), 这让他误以为病毒是\"液态\"的. 虽然关于\"液态\"他是错的 (后来证明病毒是颗粒), 但他关于\"非细菌\"和\"寄生性\"的判断是极其超前的. 他把这种神秘物质称为\"病毒\" (Virus), 这个词在拉丁语中原意是\"粘液\"或\"毒药\".",
+      "text_en": "Beijerinck's logic was rigorous. First, he proved the filtered sap was not a simple 'toxin'. If it were a toxin, it would dilute and lose potency as it was passed from plant to plant. Beijerinck found the potency remained constant, proving the substance was 'replicating' inside the plants. Second, he found it didn't grow at all on agar plates (unlike bacteria). Finally, he observed it diffusing through agar gel (like dissolved salt), leading him to wrongly believe the virus was 'liquid'. Although wrong about the 'liquid' part (viruses are particles), his judgment on its 'non-bacterial' and 'parasitic' nature was visionary. He named this mysterious substance 'Virus', a Latin word originally meaning 'slime' or 'poison'.",
+      "diagram": "assets/images/beijerinck_virus.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👨‍🔬",
+        "text": "贝杰林克是一个性格极其古怪、很难相处的人. 他终身未婚, 住在实验室里, 对教学毫无兴趣, 只对微生物痴迷. 他曾因学生提问过多而大发雷霆.",
+        "text_en": "Beijerinck was a notoriously difficult and eccentric man. He remained a bachelor, lived in his lab, had no interest in teaching, and was obsessed only with microbes. He once famously flew into a rage because a student asked too many questions."
+      },
+      {
+        "icon": "🌱",
+        "text": "除了发现病毒, 他还是\"固氮菌\" (Nitrogen-fixing bacteria) 的发现者,这对农业至关重要. 他可以说是现代环境微生物学的奠基人.",
+        "text_en": "Besides discovering viruses, he also discovered 'Nitrogen-fixing bacteria', which is crucial for agriculture. He is essentially the founder of modern environmental microbiology."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "伊万诺夫斯基发现了\"网漏掉的东西\", 但他以为那只是\"非常小的细菌\".\n贝杰林克说: \"不, 这完全是另一种生物.\"\n他做了一个简单的推理: 如果你把一杯毒药倒进游泳池, 它就没毒了 (稀释). 但如果你把这种\"汁液\"倒进植物里, 它会变出更多的\"汁液\".\n所以它是活的. 但它又不能像细菌那样自己在盘子里长出来, 它必须\"借用\"植物的身体才能活. 它是\"活的毒液\".",
+      "text_en": "Ivanovsky found 'something that slipped through the net', but he thought it was just 'very tiny bacteria'.\nBeijerinck said: 'No, this is a completely different kind of creature.'\nHe used simple logic: If you pour a cup of poison into a pool, it becomes harmless (dilution). But if you put this 'sap' into a plant, it creates *more* sap.\nSo it's alive. But it can't grow on a plate like bacteria; it must 'borrow' the plant's body to live. It is 'living poison'.",
+      "diagram": "assets/images/beijerinck_virus_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "分子生物学",
+          "title_en": "Molecular Biology",
+          "text": "贝杰林克关于\"病毒需要宿主细胞才能复制\"的发现, 是现代分子生物学理解DNA/RNA复制机制的基础.",
+          "text_en": "Beijerinck's discovery that 'viruses need host cells to replicate' is the basis for modern molecular biology's understanding of DNA/RNA replication mechanisms."
+        },
+        {
+          "icon": "🌾",
+          "title": "农业病理学",
+          "title_en": "Agricultural Pathology",
+          "text": "他的研究直接帮助了农业科学家识别和控制植物病毒病 (如现在的柑橘黄龙病等).",
+          "text_en": "His work directly helped agricultural scientists identify and control plant viral diseases (like modern Citrus Greening Disease)."
+        }
+      ],
+  
+    "impact": {
+      "text": "贝杰林克真正赋予了\"病毒\"现代的科学定义. 他将生物学界从\"一切传染病都是细菌\"的教条中解放出来, 开辟了\"非细胞生命\"的新领域. 虽然他关于病毒是\"液态\"的猜想后来被斯坦利 (Stanley) 的电子显微镜图像纠正 (病毒其实是颗粒), 但他关于病毒\"寄生性\"和\"复制性\"的理论核心是完全正确的.",
+      "text_en": "Beijerinck gave 'Virus' its modern scientific definition. He liberated biology from the dogma that 'all infectious diseases are bacteria', opening the new field of 'non-cellular life'. Although his guess that viruses were 'liquid' was later corrected by Stanley's electron microscope images (viruses are particles), his core theory about their 'parasitic' and 'replicating' nature was entirely correct.",
+      "stats": [
+          {
+            "number": "1898",
+            "label": "年 (提出病毒概念)",
+            "label_en": "Year (Virus Concept Proposed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ivanovsky_virus_1892",
+          "contribution": "伊万诺夫斯基 (他的过滤实验是贝杰林克工作的起点, 尽管贝杰林克后来才承认伊万诺夫斯基的优先权)",
+          "contribution_en": "Ivanovsky (his filtration experiment was the starting point, though Beijerinck only acknowledged Ivanovsky's priority later)"
+        },
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德 (贝杰林克是在巴斯德确立的细菌学框架之外思考, 从而发现了异常)",
+          "contribution_en": "Louis Pasteur (Beijerinck was thinking outside the bacteriological framework established by Pasteur, finding the anomaly)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "stanley_crystallization_1935",
+          "contribution": "温德尔·斯坦利 (他通过结晶化证明了病毒是颗粒物质, 修正了贝杰林克的\"液态\"假说)",
+          "contribution_en": "Wendell Stanley (he proved viruses were particulate matter through crystallization, correcting Beijerinck's 'liquid' hypothesis)"
+        },
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克 (早期的DNA研究大量使用了病毒/噬菌体作为模型, 因为它们是最简单的自我复制系统)",
+          "contribution_en": "Watson & Crick (early DNA research heavily used viruses/phages as models because they are the simplest self-replicating systems)"
+        }
+      ],
+      "legacy_text": "贝杰林克告诉我们, 生命不一定非要是细胞, 它也可以是一滴\"活着的毒液\".",
+      "legacy_text_en": "Beijerinck taught us that life doesn't have to be a cell; it can be a drop of 'living poison'."
+    },
+  
+    "related_concepts": ["流动的活体传染物 (Contagium vivum fluidum)", "病毒 (Virus)", "专性寄生 (Obligate Parasite)", "烟草花叶病", "伊万诺夫斯基"],
+    "related_concepts_en": ["Contagium vivum fluidum", "Virus", "Obligate Parasite", "Tobacco Mosaic Disease", "Ivanovsky"],
+  
+    "quiz": {
+      "question": "贝杰林克提出的\"Contagium vivum fluidum\"用来描述病毒, 这个短语的意思是什么?",
+      "question_en": "What does the phrase 'Contagium vivum fluidum', used by Beijerinck to describe viruses, mean?",
+      "options": [
+        "微小的细菌孢子",
+        "致命的化学毒素",
+        "流动的活体传染物",
+        "看不见的致病气体"
+      ],
+      "options_en": [
+        "Tiny bacterial spores",
+        "Deadly chemical toxin",
+        "Living contagious fluid",
+        "Invisible pathogenic gas"
+      ],
+      "answer": 2,
+      "explanation": "贝杰林克观察到病毒在琼脂中扩散, 误以为它是液态的 (Fluidum), 同时它又能繁殖 (Vivum) 且致病 (Contagium). 这区分了病毒与颗粒状的细菌.",
+      "explanation_en": "Beijerinck observed the virus diffusing in agar and mistakenly thought it was liquid (Fluidum), while it could also reproduce (Vivum) and cause disease (Contagium). This distinguished it from particulate bacteria."
+    }
+  }

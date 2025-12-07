@@ -1,0 +1,156 @@
+{
+    "id": "fleming_penicillin_1928",
+    "personId": "alexander_fleming",
+    "title": "发现青霉素 (抗生素时代的黎明)",
+    "title_en": "Discovery of Penicillin (Dawn of the Antibiotic Age)",
+    "year": 1928,
+    "lat": 51.5173,
+    "lng": -0.1736,
+    "city": "伦敦 (圣玛丽医院)",
+    "city_en": "London (St Mary's Hospital)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["micro_story"],
+    "field": ["微生物学", "医学"],
+    "field_en": ["Microbiology", "Medicine"],
+    
+    "media": {
+      "event_image": "assets/images/penicillin.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=CNbnLgetqHs",
+        "title": "青霉素：改变世界的意外发现",
+        "title_en": "Penicillin: The Accident That Changed the World",
+        "duration": "4:50"
+      }
+    },
+    
+    "summary": {
+      "text": "1928年9月, 亚历山大·弗莱明 (Alexander Fleming) 度假归来, 回到他位于伦敦圣玛丽医院那个著名的杂乱实验室. 在整理培养皿时, 他发现其中一个培养了\"葡萄球菌\" (Staphylococcus) 的碟子被霉菌污染了. 令他惊讶的是, 在霉菌周围的一圈区域内, 细菌完全被杀死了 (形成了\"抑菌圈\"). 他鉴定这种霉菌为\"青霉菌\" (Penicillium notatum), 并将其分泌的杀菌物质命名为\"青霉素\" (Penicillin). 这是人类历史上发现的第一种抗生素, 标志着人类终于拥有了对抗细菌感染的化学武器.",
+      "text_en": "In September 1928, Alexander Fleming returned from vacation to his famously messy lab at St Mary's Hospital in London. While sorting through petri dishes, he noticed that one dish containing 'Staphylococcus' had been contaminated by a mold. To his surprise, in the area surrounding the mold, the bacteria had been completely killed (forming a 'zone of inhibition'). He identified the mold as 'Penicillium notatum' and named the bacteria-killing substance it secreted 'Penicillin'. This was the first antibiotic discovered in human history, marking the moment humanity finally gained a chemical weapon against bacterial infection.",
+      "key_points": [
+        "发现第一种抗生素: 青霉素 (Penicillin)",
+        "源于一次幸运的\"意外\" (Serendipity)",
+        "观察到\"抑菌圈\" (Zone of Inhibition)",
+        "霉菌杀死葡萄球菌",
+        "开启了现代医学的\"抗生素时代\""
+      ],
+      "key_points_en": [
+        "Discovery of the first antibiotic: Penicillin",
+        "Result of a lucky 'accident' (Serendipity)",
+        "Observed the 'Zone of Inhibition'",
+        "Mold killing Staphylococcus",
+        "Launched the 'Antibiotic Era' of modern medicine"
+      ]
+    },
+  
+    "story": {
+      "text": "科学史上最著名的\"那个很滑稽\" (That's funny) 时刻. 弗莱明并不是那种一丝不苟的科学家. 如果他像大多数人一样在度假前清洗了盘子, 青霉素就不会被发现. 当他拿起那个被污染的盘子准备扔进消毒液时, 他停了下来, 注意到霉菌周围有一圈干净的无菌带. 他意识到霉菌分泌了某种东西炸毁了细菌的细胞壁. 他最初称这种液体为\"霉菌汁\" (mold juice). 然而, 弗莱明虽然发现了它, 但因无法提纯这种不稳定的物质而放弃了临床应用. 直到10年后, 弗洛里 (Florey) 和钱恩 (Chain) 才实现了青霉素的量产, 拯救了二战中无数伤兵.",
+      "text_en": "The most famous 'That's funny' moment in science history. Fleming was not a tidy scientist. If he had cleaned his dishes before vacation like most, Penicillin wouldn't have been discovered. As he picked up the contaminated dish to throw it in disinfectant, he paused, noticing the clean, bacteria-free ring around the mold. He realized the mold was secreting something that blasted the bacteria's cell walls. He originally called this liquid 'mold juice'. However, while Fleming discovered it, he couldn't purify the unstable substance and gave up on clinical use. It wasn't until 10 years later that Florey and Chain achieved mass production, saving countless soldiers in WWII.",
+      "diagram": "assets/images/penicillin_and_mold.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🍈",
+        "text": "虽然弗莱明发现的是\"青霉菌\", 但后来真正用于大规模生产青霉素的霉菌株, 实际上是1943年在一个发霉的\"哈密瓜\" (Cantaloupe) 上发现的. 这个发霉的瓜甚至有一个外号叫\"发霉的玛丽\" (Moldy Mary).",
+        "text_en": "Although Fleming discovered 'Penicillium', the mold strain actually used for mass production was found on a moldy 'Cantaloupe' in 1943. The moldy melon was even nicknamed 'Moldy Mary'."
+      },
+      {
+        "icon": "🎨",
+        "text": "弗莱明也是切尔西艺术俱乐部的成员. 他有时会用不同颜色的细菌在培养皿里作画 (细菌艺术), 这可能解释了他为什么能敏锐地注意到培养皿里的异常图案.",
+        "text_en": "Fleming was a member of the Chelsea Arts Club. He sometimes painted pictures in petri dishes using different colored bacteria (Microbial Art), which might explain why he was sharp enough to notice the visual anomaly in his dish."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象细菌是入侵城堡的敌人.\n弗莱明发现, 他的城堡里长出了一种神奇的\"蘑菇\" (青霉菌).\n只要这个蘑菇在哪里, 周围的敌人就会死光光.\n原来, 这个蘑菇会发射一种\"化学毒气\" (青霉素), 这种气体会破坏敌人的盔甲 (细胞壁), 让细菌自己爆炸而死. 而这种毒气对人类 (没有细胞壁) 却是无害的.",
+      "text_en": "Imagine bacteria are enemies invading a castle.\nFleming found a magical 'mushroom' (mold) growing in his castle.\nWherever this mushroom was, the enemies around it dropped dead.\nIt turns out the mushroom was shooting a 'chemical gas' (penicillin) that destroys the enemies' armor (cell walls), causing the bacteria to explode. Yet this gas is harmless to humans (who don't have cell walls).",
+      "diagram": "assets/images/penicillin_mechanism.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "💊",
+          "title": "治疗细菌感染",
+          "title_en": "Treating Bacterial Infections",
+          "text": "肺炎、梅毒、坏疽、败血症... 这些曾经是绝症的病, 现在几片药就能治好.",
+          "text_en": "Pneumonia, syphilis, gangrene, sepsis... diseases that were once death sentences are now cured with a few pills."
+        },
+        {
+          "icon": "⚔️",
+          "title": "二战胜利",
+          "title_en": "WWII Victory",
+          "text": "青霉素在二战后期的大规模应用, 使得盟军伤兵的存活率远高于德军, 被认为是盟军获胜的秘密武器之一.",
+          "text_en": "The mass use of penicillin in late WWII meant Allied soldiers survived wounds far more often than Germans, considered a secret weapon for victory."
+        }
+      ],
+  
+    "impact": {
+      "text": "青霉素的发现是医学史上最大的分水岭. 在此之前, 一个小小的伤口感染就能要了人的命. 在此之后, 人类平均寿命延长了约20年. 它是第一种\"抗生素\", 它的出现结束了人类在细菌面前束手无策的历史. 弗莱明因此与弗洛里和钱恩分享了1945年的诺贝尔奖.",
+      "text_en": "The discovery of penicillin is the biggest watershed in medical history. Before this, a small scratch infection could kill. After this, human life expectancy increased by about 20 years. It was the first 'antibiotic', ending the era where humanity was helpless against bacteria. Fleming shared the 1945 Nobel Prize with Florey and Chain.",
+      "stats": [
+          {
+            "number": "1928",
+            "label": "年 (发现)",
+            "label_en": "Year (Discovery)"
+          },
+          {
+            "number": "2亿",
+            "label": "拯救生命 (估计)",
+            "label_en": "Lives Saved (Estimate)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德 (细菌理论让弗莱明知道他在研究什么敌人)",
+          "contribution_en": "Louis Pasteur (Germ Theory let Fleming know what enemy he was studying)"
+        },
+        {
+          "id": "lister_antisepsis_1867",
+          "contribution": "李斯特 (李斯特试图在体外杀菌, 弗莱明则寻找能在体内杀菌的物质)",
+          "contribution_en": "Joseph Lister (Lister tried to kill germs *outside* the body; Fleming sought something to kill them *inside*)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "florey_chain_penicillin_1941",
+          "contribution": "弗洛里和钱恩 (他们完成了弗莱明没做完的事: 将青霉素提纯并变成药物)",
+          "contribution_en": "Florey & Chain (they finished what Fleming started: purifying penicillin and turning it into a drug)"
+        },
+        {
+          "id": "waksman_streptomycin_1943",
+          "contribution": "瓦克斯曼 (受青霉素启发, 他发现了链霉素, 治愈了结核病)",
+          "contribution_en": "Selman Waksman (inspired by penicillin, he discovered Streptomycin, curing Tuberculosis)"
+        }
+      ],
+      "legacy_text": "弗莱明忘了关窗户 (传说), 结果大自然飘进来给了他一份礼物.",
+      "legacy_text_en": "Fleming forgot to close a window (legend says), and Nature drifted in with a gift."
+    },
+  
+    "related_concepts": ["抗生素 (Antibiotic)", "青霉素 (Penicillin)", "葡萄球菌 (Staphylococcus)", "抑菌圈 (Zone of Inhibition)", "意外发现 (Serendipity)", "二战 (WWII)"],
+    "related_concepts_en": ["Antibiotic", "Penicillin", "Staphylococcus", "Zone of Inhibition", "Serendipity", "WWII"],
+  
+    "quiz": {
+      "question": "弗莱明发现青霉素的关键线索是什么?",
+      "question_en": "What was the key clue that led Fleming to discover penicillin?",
+      "options": [
+        "他在显微镜下看到了细菌在打架",
+        "他在被霉菌污染的培养皿中, 看到霉菌周围有一圈没有细菌的\"抑菌圈\"",
+        "他把霉菌喂给老鼠, 老鼠没死",
+        "他混合了两种化学药水, 发生了爆炸"
+      ],
+      "options_en": [
+        "He saw bacteria fighting under a microscope",
+        "He saw a bacteria-free 'zone of inhibition' around mold in a contaminated dish",
+        "He fed mold to a mouse, and it survived",
+        "He mixed two chemicals and it exploded"
+      ],
+      "answer": 1,
+      "explanation": "这就是著名的\"抑菌圈\"现象. 霉菌分泌了某种物质 (青霉素), 阻止了周围葡萄球菌的生长. 弗莱明的敏锐之处在于他没有把这个污染的盘子扔掉, 而是问了\"为什么\".",
+      "explanation_en": "This is the famous 'Zone of Inhibition'. The mold secreted something (penicillin) that stopped the surrounding staphylococcus from growing. Fleming's genius was not throwing away the contaminated dish but asking 'Why'."
+    }
+  }

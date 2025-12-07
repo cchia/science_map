@@ -1,0 +1,10 @@
+{
+    "name": "西奥多·施旺",
+    "name_en": "Theodor Schwann",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Theodor_Schwann_Litho.jpg",
+    "bio_short": "德国生理学家, 细胞学说的共同创始人. 他将施莱登的植物细胞理论推广到动物界, 提出\"所有动物组织也是由细胞组成的\", 从而统一了生命科学. 他还发现了胃蛋白酶和神经系统中的\"施旺细胞\".",
+    "bio_short_en": "A German physiologist and co-founder of the cell theory. He extended Schleiden's plant theory to the animal kingdom, stating 'all animal tissues are also made of cells', thus unifying life sciences. He also discovered pepsin and 'Schwann cells' in the nervous system.",
+    "events": [
+      "schleiden_schwann_cell_theory_1839"
+    ]
+  }

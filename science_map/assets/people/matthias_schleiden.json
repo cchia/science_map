@@ -1,0 +1,10 @@
+{
+    "name": "马蒂亚斯·施莱登",
+    "name_en": "Matthias Schleiden",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/0a/PSM_V22_D156_Matthias_Jacob_Schleiden.jpg",
+    "bio_short": "德国植物学家，细胞学说的共同创始人。他通过显微镜观察植物组织，提出“所有植物都是由细胞组成的”，这一发现与施旺的工作共同奠定了现代生物学的基础。",
+    "bio_short_en": "A German botanist and co-founder of the cell theory. Through microscopic observation of plant tissues, he proposed that 'all plants are composed of cells', a discovery that, together with Schwann's work, laid the foundation for modern biology.",
+    "events": [
+      "schleiden_schwann_cell_theory_1839"
+    ]
+  }

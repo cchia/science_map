@@ -118,7 +118,6 @@
   "pascal_calculator_1645",
   "pascal_pressure_1653",
   "pascal_triangle_1654",
-  "pasteur_germ_theory_1861",
   "perrin_experiment_1908",
   "planck_quantum_1900",
   "plato_forms_BC380",
@@ -247,5 +246,18 @@
   "solvay_conference_1927",
   "rutherford_proton_1919",
   "entanglement_epr_1935",
-  "bell_theorem_1964"
+  "bell_theorem_1964",
+  "jenner_vaccine_1796",
+  "schleiden_schwann_cell_theory_1839",
+  "semmelweis_handwashing_1847",
+  "pasteur_germ_theory_1861",
+  "lister_antiseptic_1867",
+  "koch_postulates_1876",
+  "halsted_surgical_gloves_1890",
+  "ivanovsky_virus_1892",
+  "beijerinck_virus_concept_1898",
+  "stanley_crystallization_1935",
+  "fleming_penicillin_1928",
+  "florey_chain_penicillin_1941",
+  "waksman_streptomycin_1943"
 ]

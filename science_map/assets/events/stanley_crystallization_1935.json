@@ -1,0 +1,155 @@
+{
+    "id": "stanley_crystallization_1935",
+    "personId": "wendell_stanley",
+    "title": "病毒结晶化 (打破生命与非生命的界限)",
+    "title_en": "Crystallization of Viruses (Blurring the Line Between Life and Non-Life)",
+    "year": 1935,
+    "lat": 40.3487,
+    "lng": -74.6593,
+    "city": "普林斯顿 (洛克菲勒研究所)",
+    "city_en": "Princeton (Rockefeller Institute)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["生物化学", "病毒学"],
+    "field_en": ["Biochemistry", "Virology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/47/TobaccoMosaicVirus.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ldejTR04iKg",
+        "title": "病毒 vs 细菌，到底有什么区别？",
+        "title_en": "Virus vs Bacteria, What's Actually the Difference?",
+        "duration": "11:34"
+      }
+    },
+    
+    "summary": {
+      "text": "1935年, 美国生化学家温德尔·斯坦利 (Wendell Stanley) 做了一件震惊科学界的事: 他成功地将\"烟草花叶病毒\" (TMV) 提纯并变成了像盐或糖一样的\"晶体\". 最惊人的是, 当他把这些看似死气沉沉的化学晶体重新溶解在水里并涂在烟草叶上时, 它们依然能引发疾病. 这证明了病毒不仅仅是微小的生物, 它们也是复杂的化学分子 (核蛋白). 这一发现打破了\"生命\" (生物) 和\"非生命\" (化学) 之间的界限, 开启了分子生物学时代, 并为他赢得了1946年的诺贝尔化学奖.",
+      "text_en": "In 1935, American biochemist Wendell Stanley did something that shocked the scientific community: he successfully purified 'Tobacco Mosaic Virus' (TMV) and turned it into 'crystals' like salt or sugar. Most amazingly, when he dissolved these seemingly dead chemical crystals back into water and applied them to tobacco leaves, they still caused the disease. This proved that viruses are not just tiny organisms, but also complex chemical molecules (nucleoproteins). This discovery blurred the line between 'life' (biology) and 'non-life' (chemistry), ushering in the era of molecular biology, and earning him the 1946 Nobel Prize in Chemistry.",
+      "key_points": [
+        "首次将病毒 (TMV) \"结晶化\" (Crystallization)",
+        "证明病毒具有\"化学物质\"的属性 (蛋白质)",
+        "证明\"晶体\"仍具有生物活性 (Infectious)",
+        "模糊了生命与非生命的界限",
+        "为X射线晶体学解析生命结构铺平了道路"
+      ],
+      "key_points_en": [
+        "First 'Crystallization' of a virus (TMV)",
+        "Proved viruses have properties of 'chemicals' (proteins)",
+        "Proved the 'crystals' remained infectious",
+        "Blurred the line between life and non-life",
+        "Paved the way for X-ray crystallography of life structures"
+      ]
+    },
+  
+    "story": {
+      "text": "在斯坦利之前, 科学家们争论病毒到底是\"液体\" (贝杰林克) 还是\"小细菌\". 斯坦利决定像对待酶一样对待病毒. 他在普林斯顿的实验室里处理了成吨的感染烟草叶, 把它们榨成汁, 然后使用各种化学沉淀剂. 这是一个非常繁重且脏乱的工作. 最终, 他得到了一试管细小的、针状的晶体. 他把这些晶体放在架子上几个月, 它们看起来就像一瓶普通的化学试剂, 完全静止, 没有呼吸, 没有代谢. 但只要加水, 它们就\"复活\"了. 这让当时的生物学家大为震惊: 想象一下, 如果你能把一只猫结晶成粉末, 放在瓶子里, 然后加水它又跳了出来. 这就是斯坦利揭示的病毒本质——它是介于物质和生命之间的\"丧尸\".",
+      "text_en": "Before Stanley, scientists argued whether viruses were a 'fluid' (Beijerinck) or 'tiny bacteria'. Stanley decided to treat viruses like enzymes. He processed tons of infected tobacco leaves in his Princeton lab, juicing them and using various chemical precipitants. It was messy work. Finally, he obtained a test tube of tiny, needle-like crystals. He left these crystals on a shelf for months; they looked like a bottle of ordinary chemicals—totally still, no breathing, no metabolism. But just add water, and they 'came back to life'. This shocked biologists: Imagine if you could crystallize a cat into powder, put it in a bottle, and then add water to make it jump out again. This is the nature of the virus Stanley revealed—a 'zombie' between matter and life.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/26/Tobacco_mosaic_virus_symptoms_tobacco.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧪",
+        "text": "斯坦利最初认为病毒是\"纯蛋白质\". 几年后, 鲍登 (Bawden) 和皮里 (Pirie) 发现斯坦利的晶体里其实含有少量的磷, 这意味着病毒还含有\"核酸\" (RNA). 斯坦利后来接受了修正: 病毒是\"核蛋白\" (Nucleoprotein).",
+        "text_en": "Stanley initially thought viruses were 'pure protein'. Years later, Bawden and Pirie found that Stanley's crystals actually contained a small amount of phosphorus, meaning viruses also contained 'nucleic acid' (RNA). Stanley later accepted the correction: viruses are 'nucleoproteins'."
+      },
+      {
+        "icon": "🎖️",
+        "text": "他在1946年获得诺贝尔奖时是\"化学奖\", 而不是医学奖. 这恰恰说明了他的发现将生物学变成了化学.",
+        "text_en": "When he won the Nobel Prize in 1946, it was for 'Chemistry', not Medicine. This perfectly illustrates how his discovery turned biology into chemistry."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "假如你有一个非常微小的机器人 (病毒). 它是活的吗?\n斯坦利证明了, 你可以把成千上万个这样的机器人堆在一起, 压成一块砖头 (晶体). 这块砖头放在桌子上就是一块石头, 死气沉沉.\n但如果你把这块砖头磨成粉, 撒在工厂里 (植物), 每一个粉末颗粒都会重新启动, 开始疯狂复制自己.\n斯坦利告诉我们: 病毒就是这种\"会复制的石头\".",
+      "text_en": "Suppose you have a tiny robot (virus). Is it alive?\nStanley proved you can pile thousands of these robots together and press them into a brick (crystal). This brick sitting on a table is just a rock, completely dead.\nBut if you grind this brick into powder and sprinkle it on a factory (plant), every powder grain reboots and starts replicating wildly.\nStanley taught us: Viruses are essentially 'replicating rocks'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1e/TMV_structure_full.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "📸",
+          "title": "结构生物学",
+          "title_en": "Structural Biology",
+          "text": "既然病毒可以变成晶体, 我们就可以用X射线去照射它. 后来罗莎琳德·富兰克林正是通过这种方法拍摄了TMV的结构.",
+          "text_en": "Since viruses can be crystallized, we can shoot X-rays at them. Rosalind Franklin later used this method to photograph the structure of TMV."
+        },
+        {
+          "icon": "🧬",
+          "title": "分子遗传学",
+          "title_en": "Molecular Genetics",
+          "text": "这证明了生命的遗传功能可以由化学分子承载, 为后来DNA双螺旋的发现做好了心理准备.",
+          "text_en": "This proved that the hereditary functions of life could be carried by chemical molecules, preparing the mindset for the later discovery of the DNA double helix."
+        }
+      ],
+  
+    "impact": {
+      "text": "斯坦利的发现是生命科学的转折点. 以前, 生物学是关于\"观察动物和植物\"; 现在, 生物学变成了\"研究大分子\". 他确立了还原论 (Reductionism) 在生物学中的胜利: 生命现象最终可以简化为物理和化学定律. 这也让科学家们第一次有了\"可以握在手里的病毒样品\".",
+      "text_en": "Stanley's discovery was a turning point in life sciences. Before, biology was about 'observing animals and plants'; now, biology became 'studying macromolecules'. He established the victory of Reductionism in biology: life phenomena can ultimately be reduced to laws of physics and chemistry. It also gave scientists their first 'virus sample they could hold in their hands'.",
+      "stats": [
+          {
+            "number": "1935",
+            "label": "年 (结晶成功)",
+            "label_en": "Year (Crystallization)"
+          },
+          {
+            "number": "1946",
+            "label": "年 (诺贝尔奖)",
+            "label_en": "Year (Nobel Prize)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "beijerinck_virus_concept_1898",
+          "contribution": "贝杰林克 (他提出了病毒的概念, 但认为是液态的; 斯坦利证明了它是颗粒状的化学物质)",
+          "contribution_en": "Beijerinck (he proposed the virus concept but thought it was liquid; Stanley proved it was particulate chemical matter)"
+        },
+        {
+          "id": "sumner_enzyme_crystallization_1926",
+          "contribution": "萨姆纳 (他首先结晶了酶 [蛋白质], 斯坦利使用了他的方法来处理病毒)",
+          "contribution_en": "James Sumner (he first crystallized enzymes [proteins]; Stanley used his methods to treat viruses)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "franklin_dna_1952",
+          "contribution": "罗莎琳德·富兰克林 (她利用斯坦利的结晶技术, 拍摄了TMV和DNA的X射线衍射图)",
+          "contribution_en": "Rosalind Franklin (she used Stanley's crystallization technique to take X-ray diffraction images of TMV and DNA)"
+        },
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克 (发现病毒是核酸+蛋白质的结构, 帮助他们理解了遗传信息的本质)",
+          "contribution_en": "Watson & Crick (discovering viruses were nucleic acid + protein helped them understand the nature of genetic information)"
+        }
+      ],
+      "legacy_text": "斯坦利把神秘的病毒变成了瓶子里的化学粉末.",
+      "legacy_text_en": "Stanley turned the mysterious virus into chemical powder in a bottle."
+    },
+  
+    "related_concepts": ["结晶化 (Crystallization)", "烟草花叶病毒 (TMV)", "核蛋白 (Nucleoprotein)", "X射线衍射 (X-ray Diffraction)", "生命起源"],
+    "related_concepts_en": ["Crystallization", "TMV", "Nucleoprotein", "X-ray Diffraction", "Origin of Life"],
+  
+    "quiz": {
+      "question": "温德尔·斯坦利的实验主要推翻了当时关于病毒的什么普遍看法?",
+      "question_en": "What prevailing view about viruses did Wendell Stanley's experiment primarily overturn?",
+      "options": [
+        "病毒是液态的",
+        "病毒必须是某种极其微小的、具有传统细胞结构的生物 (必须是\"活\"的)",
+        "病毒是由DNA组成的",
+        "病毒不会导致疾病"
+      ],
+      "options_en": [
+        "That viruses are liquid",
+        "That viruses must be some tiny organism with traditional cell structure (must be 'alive')",
+        "That viruses are made of DNA",
+        "That viruses don't cause disease"
+      ],
+      "answer": 1,
+      "explanation": "在斯坦利之前, 人们认为致病体一定是\"生物\" (像缩小的细菌). 斯坦利证明了病毒可以像盐一样\"结晶\", 而普通的生物 (如老鼠或细菌) 是无法被结晶的. 这证明病毒具有\"非生命\"的化学属性.",
+      "explanation_en": "Before Stanley, people thought pathogens must be 'organisms' (like shrunken bacteria). Stanley proved viruses could be 'crystallized' like salt, whereas ordinary organisms (like mice or bacteria) cannot be. This proved viruses have 'non-living' chemical properties."
+    }
+  }

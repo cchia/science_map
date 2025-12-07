@@ -142,6 +142,32 @@
       "entanglement_epr_1935",           
       "bell_theorem_1964"     
     ]
-  }  
+  },
+  
+  "micro_story": {
+    "id": "micro_story",
+    "title_zh": "微观世界的发现",
+    "title_en": "Discovery of the Microcosm",
+    "emoji": "🔬",
+    "description_zh": "从胡克的软木塞到弗莱明的青霉素，人类如何发现并战胜肉眼不可见的微生物世界。",
+    "description_en": "From Hooke's cork to Fleming's penicillin, how humanity discovered and conquered the invisible world.",
+    "events": [
+      "hooke_micrographia_1665",         
+      "leeuwenhoek_bacteria_1676",        
+      "jenner_vaccine_1796",             
+      "schleiden_schwann_cell_theory_1839",
+      "semmelweis_handwashing_1847",
+      "pasteur_germ_theory_1861",
+      "lister_antiseptic_1867",
+      "koch_postulates_1876",
+      "halsted_surgical_gloves_1890",
+      "ivanovsky_virus_1892",
+      "beijerinck_virus_concept_1898",
+      "fleming_penicillin_1928",
+      "stanley_crystallization_1935",
+      "florey_chain_penicillin_1941",
+      "waksman_streptomycin_1943"
+    ]
+  }
   
   }

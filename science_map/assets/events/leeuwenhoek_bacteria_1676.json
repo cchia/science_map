@@ -1,7 +1,151 @@
 {
-    "id": "leeuwenhoek_bacteria_1676",
-    "title": "发现“微生物” (细菌)",
-    "title_en": "Discovers 'Animalcules' (Bacteria)",
-    "year": 1676,
-    "is_stub": true
+  "id": "leeuwenhoek_bacteria_1676",
+  "personId": "antonie_van_leeuwenhoek",
+  "title": "发现“微生物” (细菌)",
+  "title_en": "Discovers 'Animalcules' (First Observation of Bacteria)",
+  "year": 1676,
+  "lat": 52.0116,
+  "lng": 4.3571,
+  "city": "代尔夫特",
+  "city_en": "Delft",
+  "country": "荷兰",
+  "country_en": "Netherlands",
+  "storyline_id": ["micro_story"],
+  "field": ["生物学"],
+  "field_en": ["Biology"],
+  
+  "media": {
+    "event_image": "assets/images/leeuwenhoek_bacteria.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=ePnbkNVdPio",
+      "title": "列文虎克首次看到微生物世界",
+      "title_en": "Seeing the Invisible: van Leeuwenhoek's first glimpses of the microbial world",
+      "duration": "6:38"
+    }
+  },
+  
+  "summary": {
+    "text": "安东尼·范·列文虎克（Antonie van Leeuwenhoek），一位荷兰布商和透镜磨制师，在1676年10月9日给伦敦皇家学会寄去了一封著名的信件。他在信中描述了在浸泡过胡椒的水滴中观察到的“微小动物”（animalcules）。利用他手工制作的高倍单透镜显微镜，他成为人类历史上第一个看到并描述单细胞生物（包括细菌和原生动物）的人。这一发现揭示了一个此前无法想象的微观世界的存在。",
+    "text_en": "Antonie van Leeuwenhoek, a Dutch draper and lens grinder, sent a famous letter to the Royal Society of London on October 9, 1676. In it, he described observing 'little animals' (animalcules) in a drop of water infused with pepper. Using his handcrafted, high-power single-lens microscopes, he became the first human to see and describe single-celled organisms, including bacteria and protozoa. This discovery revealed the existence of a microscopic world previously unimagined.",
+    "key_points": [
+      "首次观察到细菌和原生动物",
+      "创造了“微小动物”(Animalcules) 一词",
+      "使用了优质的单透镜显微镜（放大倍率高达270倍）",
+      "创立了“微生物学”(Microbiology)",
+      "反驳了“自然发生论”(Spontaneous Generation)（针对小动物）"
+    ],
+    "key_points_en": [
+      "First observation of Bacteria and Protozoa",
+      "Coined the term 'Animalcules' (Little Animals)",
+      "Used superior single-lens microscopes (up to 270x magnification)",
+      "Founded the field of 'Microbiology'",
+      "Disproved 'Spontaneous Generation' (for small animals)"
+    ]
+  },
+
+  "story": {
+    "text": "列文虎克并不是受过训练的科学家，而是一名为了检查布料质量而制作透镜的纺织商人。受到胡克《显微图谱》（`hooke_micrographia_1665`）的启发，他开发了一种秘密技术，吹制出极小的、近乎球形的玻璃珠作为透镜，其放大倍率惊人（高达270倍）。1676年，为了弄清胡椒为什么会让舌头有灼烧感，他观察了胡椒水。他震惊地看到成千上万的微小生物在“游泳”和“嬉戏”。后来他还观察了自己牙齿上的白色“垢物”，并写下了名言：“我口腔里牙垢中的动物，比整个王国的居民还要多。”",
+    "text_en": "Leeuwenhoek was not a trained scientist but a textile merchant who made lenses to inspect thread quality. Inspired by Hooke's 'Micrographia' (`hooke_micrographia_1665`), he developed a secret technique for blowing tiny, almost spherical glass beads that acted as lenses with incredible magnification (up to 270x). In 1676, trying to discover why pepper makes the tongue burn, he looked at pepper-infused water. He was shocked to see thousands of tiny creatures 'swimming' and 'playing'. He later looked at the white 'scum' on his own teeth and famously wrote: 'There are more animals in the scum on the teeth in a man's mouth than there are men in a whole kingdom.'",
+    "diagram": "assets/images/leeuwenhoek_bacteria.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🦷",
+      "text": "列文虎克对自己的口腔卫生非常自豪。他注意到喝了热咖啡后，牙齿上的“微小动物”死了，从而意外发现了热能杀菌。",
+      "text_en": "Leeuwenhoek was extremely proud of his dental hygiene. He noted that after drinking hot coffee, the 'animalcules' on his teeth died, accidentally discovering that heat kills bacteria."
+    },
+    {
+      "icon": "🔒",
+      "text": "他非常保密。他从未与任何人分享他最好的显微镜或他的透镜制作方法。直到200年后，其他人才重新发现如何制作像他那样好的透镜。",
+      "text_en": "He was very secretive. He never shared his best microscopes or his lens-making methods with anyone. It took 200 years for others to rediscover how to make lenses as good as his."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "在列文虎克之前，人们认为最小的生物是奶酪螨或跳蚤。列文虎克制造了一个微小的、超强力的玻璃珠透镜。当他把它对着一滴池塘水时，他看到了一个完整的外星世界。他看到成千上万的微小怪物（细菌）游来游去。他证明了即使在我们看不见的地方也存在生命。他是发现“隐形世界”的人。",
+    "text_en": "Before Leeuwenhoek, people thought the smallest living things were cheese mites or fleas. Leeuwenhoek made a tiny, super-powerful glass bead lens. When he held it up to a drop of pond water, he saw a whole alien world. He saw thousands of tiny monsters (bacteria) swimming around. He proved that life exists even where we can't see it. He is the man who discovered the 'Invisible World'.",
+    "diagram": "assets/images/leeuwenhoek_bacteria_2.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🦠",
+        "title": "微生物学 (Microbiology)",
+        "title_en": "Microbiology",
+        "text": "他是这门学科的鼻祖。他不仅发现了细菌，还发现了红细胞、精子细胞和肌肉纤维。",
+        "text_en": "He is the grandfather of this field. He discovered not just bacteria, but red blood cells, sperm cells, and muscle fibers."
+      },
+      {
+        "icon": "🥛",
+        "title": "巴氏杀菌 (Pasteurization)",
+        "title_en": "Pasteurization",
+        "text": "虽然他不知道细菌会导致疾病，但他发现热能杀死它们，这是后来巴斯德（`pasteur_germ_theory_1861`）工作的先驱。",
+        "text_en": "Although he didn't know bacteria caused disease, his discovery that heat killed them was a precursor to Pasteur's work (`pasteur_germ_theory_1861`)."
+      }
+    ],
+
+  "impact": {
+    "text": "列文虎克的发现从根本上改变了人类对生命的理解。它证明了在肉眼可见的生命之外，还有一个庞大、复杂且无处不在的微观生命世界。这最终导致了细菌理论（Germ Theory）的建立，彻底改变了医学。虽然他的发现在当时并未立即引发医学革命（因为没人相信这些小东西能让人得病），但他为后来的巴斯德和科赫奠定了基础。",
+    "text_en": "Leeuwenhoek's discovery fundamentally changed humanity's understanding of life. It proved that beyond visible life, there is a vast, complex, and ubiquitous world of microscopic life. This eventually led to the Germ Theory of disease, revolutionizing medicine. While his discovery didn't immediately spark a medical revolution (no one believed these tiny things could cause disease), he laid the groundwork for Pasteur and Koch.",
+    "stats": [
+        {
+          "number": "1676",
+          "label": "年 (发现细菌)",
+          "label_en": "Year (Bacteria Discovered)"
+        },
+        {
+          "number": "270",
+          "label": "倍 (最大放大倍率)",
+          "label_en": "x (Max Magnification)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "hooke_micrographia_1665",
+        "contribution": "胡克（其《显微图谱》是激发列文虎克开始显微镜研究的直接灵感）",
+        "contribution_en": "Robert Hooke (his 'Micrographia' was the direct inspiration that started Leeuwenhoek on microscopy)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "pasteur_germ_theory_1861",
+        "contribution": "巴斯德（重新发现了列文虎克的“微小动物”，并证明它们是发酵和疾病的原因）",
+        "contribution_en": "Louis Pasteur (rediscovered Leeuwenhoek's 'animalcules' and proved they were the cause of fermentation and disease)"
+      },
+      {
+        "id": "koch_tuberculosis_1882",
+        "contribution": "科赫（利用改进的显微镜技术，识别出了特定的致病细菌）",
+        "contribution_en": "Robert Koch (used improved microscopy to identify specific disease-causing bacteria)"
+      }
+    ],
+    "legacy_text": "列文虎克是第一个睁开眼睛看到我们周围“隐形邻居”的人。",
+    "legacy_text_en": "Leeuwenhoek was the first to open his eyes to the 'invisible neighbors' all around us."
+  },
+
+  "related_concepts": ["微生物学 (Microbiology)", "细菌 (Bacteria)", "原生动物 (Protozoa)", "显微镜 (Microscope)", "微小动物 (Animalcules)", "单透镜 (Single Lens)", "皇家学会 (Royal Society)"],
+  "related_concepts_en": ["Microbiology", "Bacteria", "Protozoa", "Microscope", "Animalcules", "Single Lens", "Royal Society"],
+
+  "quiz": {
+    "question": "列文虎克用来发现细菌的显微镜与现代显微镜（或胡克的显微镜）有什么主要区别？",
+    "question_en": "What was the main difference between the microscope Leeuwenhoek used to discover bacteria and modern microscopes (or Hooke's)?",
+    "options": [
+      "它使用镜子反射光线",
+      "它是“单透镜”的（只有一个非常小的玻璃珠），而不是复合透镜",
+      "它使用电子束",
+      "它有两个目镜"
+    ],
+    "options_en": [
+      "It used mirrors to reflect light",
+      "It was a 'single lens' (just one tiny glass bead), not a compound lens",
+      "It used electron beams",
+      "It had two eyepieces"
+    ],
+    "answer": 1,
+    "explanation": "虽然胡克使用的是“复合显微镜”（两个透镜），但当时的复合显微镜图像模糊。列文虎克掌握了制造极高质量“单透镜”（玻璃珠）的技术，这使得他的显微镜在当时虽然结构简单，但清晰度和放大倍率（270x）远超胡克（20-50x）。",
+    "explanation_en": "While Hooke used a 'compound microscope' (two lenses), compound microscopes of that time were blurry. Leeuwenhoek mastered making extremely high-quality 'single lenses' (glass beads), which gave his microscopes far better clarity and magnification (270x) than Hooke's (20-50x), despite being simpler."
   }
+}

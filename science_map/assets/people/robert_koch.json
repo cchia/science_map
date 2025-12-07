@@ -1,0 +1,11 @@
+{
+    "name": "罗伯特·科赫",
+    "name_en": "Robert Koch",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RobertKoch_cropped.jpg",
+    "bio_short": "德国医生和微生物学家，现代细菌学的奠基人。他发现了炭疽杆菌、结核杆菌和霍乱弧菌，确立了“科赫法则”（`koch_postulates_1876`），并于1905年获得诺贝尔生理学或医学奖。",
+    "bio_short_en": "A German physician and microbiologist, the founder of modern bacteriology. He identified the specific causative agents of tuberculosis, cholera, and anthrax, established 'Koch's postulates' (`koch_postulates_1876`), and was awarded the Nobel Prize in 1905.",
+    "events": [
+      "koch_postulates_1876",
+      "koch_tuberculosis_1882"
+    ]
+  }
