@@ -1,0 +1,151 @@
+{
+    "id": "gene_drive_2014",
+    "personId": "kevin_esvelt",
+    "title": "提出CRISPR基因驱动 (骇入进化论)",
+    "title_en": "Proposes CRISPR Gene Drive (Hacking Evolution)",
+    "year": 2014,
+    "lat": 42.3601,
+    "lng": -71.0942,
+    "city": "剑桥 (哈佛大学威斯研究所)",
+    "city_en": "Cambridge (Wyss Institute at Harvard)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["gene_story"],
+    "field": ["合成生物学", "生态学"],
+    "field_en": ["Synthetic Biology", "Ecology"],
+    
+    "media": {
+      "event_image": "assets/images/gene_drive.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=OI_OhvOumT0",
+        "title": "基因驱动如何改写生命",
+        "title_en": "Gene editing can now change an entire species -- forever ",
+        "duration": "12:25"
+      }
+    },
+    
+    "summary": {
+      "text": "2014年，哈佛大学的年轻生物学家凯文·埃斯维尔特 (Kevin Esvelt) 发表了一篇震惊科学界的论文。他提出，如果将新发明的CRISPR技术（`crispr_gene_editing_2012`）进行特殊设计，可以构建一种“基因驱动” (Gene Drive) 系统。这种系统能打破孟德尔遗传定律（50/50几率），强制某种基因以接近100%的几率遗传给后代。这意味着，如果我们释放少数几只携带“不孕基因”的改造蚊子，这个基因就能像野火一样在野生种群中迅速扩散，最终导致整个蚊子种群的灭绝。这是人类首次掌握了能够从根本上改变甚至消灭一个野生“物种”的技术力量。",
+      "text_en": "In 2014, young Harvard biologist Kevin Esvelt published a paper that shook the scientific world. He proposed that by specially engineering the newly invented CRISPR technology (`crispr_gene_editing_2012`), one could build a 'Gene Drive' system. This system breaks Mendel's laws of inheritance (50/50 chance), forcing a specific gene to be passed to nearly 100% of offspring. This means releasing just a few mosquitoes engineered with an 'infertility gene' could cause that gene to spread like wildfire through the wild population, eventually causing the entire mosquito species to go extinct. This marked the first time humanity possessed the technological power to fundamentally alter or even eradicate a wild 'species'.",
+      "key_points": [
+        "提出基于CRISPR的“基因驱动” (Gene Drive)",
+        "打破孟德尔遗传定律 (Super-Mendelian Inheritance)",
+        "实现基因在野生种群中的自我复制与扩散",
+        "潜在应用：根除疟疾、消灭入侵物种",
+        "引发巨大的生态安全与伦理争议"
+      ],
+      "key_points_en": [
+        "Proposed CRISPR-based 'Gene Drive'",
+        "Broke Mendelian Inheritance laws (Super-Mendelian Inheritance)",
+        "Achieved self-replication and spread of genes in wild populations",
+        "Potential apps: Eradicating malaria, eliminating invasive species",
+        "Sparked massive ecological safety and ethical controversies"
+      ]
+    },
+  
+    "story": {
+      "text": "埃斯维尔特的顿悟时刻发生在波士顿的一个公园散步时。他意识到，CRISPR不仅仅是一把剪刀，如果把CRISPR的“剪刀指令”也写进DNA里，它就能在受精卵中自己把自己复制到另一条染色体上。这就像是一个会自动“复制粘贴”的电脑病毒。但他并没有急着去实验室制造它，而是感到了深深的恐惧。他意识到这是一种“生态原子弹”，一旦释放可能无法撤回。因此，他打破了科学界的常规：他没有先做实验再发表，而是先发表论文向全世界“预警”，呼吁在制造它之前必须先建立严格的安全规范和公众讨论。他是这项技术的发明者，也是它最严厉的警哨人。",
+      "text_en": "Esvelt's epiphany came while walking in a park in Boston. He realized that CRISPR wasn't just scissors; if you encoded the CRISPR 'cutting instructions' into the DNA itself, it could copy-paste itself onto the other chromosome in a fertilized egg. It would act like a self-replicating computer virus. Instead of rushing to the lab to build it, he felt deep terror. He realized this was an 'ecological atomic bomb' that, once released, might be irreversible. So, he broke scientific tradition: instead of doing the experiment first, he published the paper to 'warn' the world, calling for strict safety regulations and public debate before it was built. He is both the inventor of the technology and its harshest whistleblower.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gene_Drive.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎲",
+        "text": "在自然界中，你从父母那里继承某个特定基因的几率是抛硬币（50%）。但在基因驱动下，这枚硬币被做了手脚，正面朝上的几率变成了99.9%。",
+        "text_en": "In nature, the chance of inheriting a specific gene from a parent is a coin toss (50%). But with a gene drive, the coin is rigged, and the chance of heads becomes 99.9%."
+      },
+      {
+        "icon": "🐀",
+        "text": "新西兰正在认真考虑使用基因驱动来消灭岛上的入侵老鼠，以保护珍稀鸟类。这可能成为地球上第一个有意消灭哺乳动物的基因工程项目。",
+        "text_en": "New Zealand is seriously considering using gene drives to wipe out invasive rats on islands to protect rare birds. This could be the first genetic engineering project on Earth to intentionally eradicate a mammal."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你要把一本书（物种）里的所有“他”字都改成“她”字。\n普通的基因改造是个体层面的：你只能用笔涂改这一本书。\n基因驱动是群体层面的：你设计了一个会自动复制的微型机器人。你只要把这个机器人放进这一本书里，它就会自动跳到书架上的下一本书里去修改，直到整个图书馆（整个物种）的书都被修改完。\n这是一种能“传染”的遗传特性。",
+      "text_en": "Imagine you want to change every 'he' to 'she' in a book (species).\nOrdinary genetic modification is individual: you can only edit this one book with a pen.\nGene drive is population-level: you design a self-replicating tiny robot. You put this robot into just one book, and it automatically jumps to the next book on the shelf to edit it, until the entire library (the whole species) is edited.\nIt is an 'infectious' genetic trait.",
+      "diagram": "assets/images/mutagen.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🦟",
+          "title": "消灭疟疾",
+          "title_en": "Eradicating Malaria",
+          "text": "这是最主要的目标。通过扩散“让雌性蚊子不育”的基因，可以让传播疟疾的蚊子在几代之内自行绝种。",
+          "text_en": "This is the primary goal. By spreading a gene that makes female mosquitoes sterile, malaria-carrying mosquitoes could drive themselves to extinction within a few generations."
+        },
+        {
+          "icon": "⚠️",
+          "title": "生物武器风险",
+          "title_en": "Bioweapon Risk",
+          "text": "理论上，坏人也可以利用这个技术制造针对农作物的毁灭性基因武器，这正是埃斯维尔特如此担心的原因。",
+          "text_en": "Theoretically, bad actors could use this tech to create devastating genetic weapons against crops, which is exactly why Esvelt is so worried."
+        }
+      ],
+  
+    "impact": {
+      "text": "基因驱动的提出标志着人类与大自然的关系发生了质变。以前我们只能被动适应进化或缓慢地进行人工选择，现在我们有了“黑进”进化论（Hacking Evolution）的能力。它迫使全人类面对一个终极伦理问题：我们是否有权扮演上帝，决定某个物种在地球上的存亡？",
+      "text_en": "The proposal of gene drives marked a qualitative change in humanity's relationship with nature. Before, we could only adapt to evolution or do slow artificial selection; now we have the power to 'hack' evolution. It forces humanity to face the ultimate ethical question: Do we have the right to play God and decide the existence or extinction of a species on Earth?",
+      "stats": [
+          {
+            "number": "2014",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "99%",
+            "label": "遗传几率 (驱动后)",
+            "label_en": "Inheritance Rate (Driven)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "crispr_gene_editing_2012",
+          "contribution": "杜德纳和卡彭蒂耶（CRISPR提供了实现基因驱动的完美工具，没有CRISPR，基因驱动只是空想）",
+          "contribution_en": "Doudna & Charpentier (CRISPR provided the perfect tool; without it, gene drive was just a fantasy)"
+        },
+        {
+          "id": "mendel_genetics_1866",
+          "contribution": "孟德尔（基因驱动的核心定义就是“违反孟德尔定律”）",
+          "contribution_en": "Gregor Mendel (The core definition of gene drive is 'violating Mendelian laws')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "target_malaria_project",
+          "contribution": "目标疟疾计划（比尔·盖茨资助的庞大项目，正在非洲实验这种技术）",
+          "contribution_en": "Target Malaria (A massive project funded by Bill Gates, currently testing this technology in Africa)"
+        }
+      ],
+      "legacy_text": "埃斯维尔特给了我们一个按钮，按下它就能拯救数百万人免于疟疾，但代价是永远改变地球的生态系统。你会按吗？",
+      "legacy_text_en": "Esvelt gave us a button; press it to save millions from malaria, but at the cost of permanently altering Earth's ecosystem. Would you press it?"
+    },
+  
+    "related_concepts": ["基因驱动 (Gene Drive)", "CRISPR", "孟德尔遗传 (Mendelian Inheritance)", "生物伦理 (Bioethics)", "入侵物种 (Invasive Species)"],
+    "related_concepts_en": ["Gene Drive", "CRISPR", "Mendelian Inheritance", "Bioethics", "Invasive Species"],
+  
+    "quiz": {
+      "question": "普通的基因突变在自然界遗传给下一代的几率通常是50%，而成功的“基因驱动”能将这个几率提升到多少？",
+      "question_en": "A normal genetic mutation usually has a 50% chance of being passed to the next generation. What does a successful 'Gene Drive' increase this chance to?",
+      "options": [
+        "60%",
+        "75%",
+        "接近 100%",
+        "0%"
+      ],
+      "options_en": [
+        "60%",
+        "75%",
+        "Nearly 100%",
+        "0%"
+      ],
+      "answer": 2,
+      "explanation": "基因驱动通过在受精卵阶段将自己复制到另一条染色体上，确保生物体产生的所有生殖细胞（精子或卵子）都携带该基因，从而实现~100%的遗传率。",
+      "explanation_en": "Gene drives copy themselves onto the partner chromosome during the fertilized egg stage, ensuring that all reproductive cells (sperm or eggs) produced by the organism carry the gene, achieving ~100% inheritance."
+    }
+  }

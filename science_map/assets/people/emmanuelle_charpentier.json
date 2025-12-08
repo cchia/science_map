@@ -1,0 +1,10 @@
+{
+    "name": "埃雷曼纽尔·卡彭蒂耶",
+    "name_en": "Emmanuelle Charpentier",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/66/Emmanuelle_Charpentier.jpg",
+    "bio_short": "法国微生物学家、遗传学家和生物化学家，2020年诺贝尔化学奖得主。她在研究细菌免疫系统时发现了CRISPR的关键机制，并与詹妮弗·杜德纳合作开发了革命性的CRISPR-Cas9基因编辑技术（`crispr_gene_editing_2012`）。",
+    "bio_short_en": "A French microbiologist, geneticist, and biochemist, and a 2020 Nobel laureate in Chemistry. While studying bacterial immune systems, she discovered the key mechanics of CRISPR and collaborated with Jennifer Doudna to develop the revolutionary CRISPR-Cas9 gene-editing technology (`crispr_gene_editing_2012`).",
+    "events": [
+      "crispr_gene_editing_2012"
+    ]
+  }

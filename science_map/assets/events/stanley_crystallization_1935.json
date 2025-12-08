@@ -10,6 +10,7 @@
     "city_en": "Princeton (Rockefeller Institute)",
     "country": "美国",
     "country_en": "United States",
+    "storyline_id": ["micro_story", "gene_story"],
     "field": ["生物化学", "病毒学"],
     "field_en": ["Biochemistry", "Virology"],
     

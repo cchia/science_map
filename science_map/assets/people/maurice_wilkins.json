@@ -1,0 +1,10 @@
+{
+    "name": "莫里斯·威尔金斯",
+    "name_en": "Maurice Wilkins",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Maurice_H_F_Wilkins.jpg",
+    "bio_short": "新西兰裔英国生物物理学家，1962年诺贝尔生理学或医学奖得主。他在伦敦国王学院率先开展了DNA的X射线衍射研究（`wilkins_dna_diffraction_1950`），并因将关键数据展示给沃森而成为发现DNA双螺旋结构的“第三人”。",
+    "bio_short_en": "A New Zealand-born British biophysicist and a 1962 Nobel laureate. He pioneered X-ray diffraction studies of DNA at King's College London (`wilkins_dna_diffraction_1950`) and became the 'Third Man' in the discovery of the double helix by showing critical data to Watson.",
+    "events": [
+      "wilkins_dna_diffraction_1950"
+    ]
+  }

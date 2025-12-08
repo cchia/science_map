@@ -1,0 +1,156 @@
+{
+    "id": "crispr_gene_editing_2012",
+    "personId": ["emmanuelle_charpentier", "jennifer_doudna"],
+    "title": "发明CRISPR-Cas9基因编辑技术 (上帝的手术刀)",
+    "title_en": "Invention of CRISPR-Cas9 Gene Editing (God's Scalpel)",
+    "year": 2012,
+    "lat": 37.8715,
+    "lng": -122.2730,
+    "city": "伯克利 & 于默奥",
+    "city_en": "Berkeley & Umeå",
+    "country": "美国 & 瑞典",
+    "country_en": "USA & Sweden",
+    "storyline_id": ["gene_story"],
+    "field": ["生物化学", "分子生物学"],
+    "field_en": ["Biochemistry", "Molecular Biology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Streptococcus_pyogenes_Cas9-DNA-RNA_complex_PDB_4OO8.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6tw_JVz_IEc",
+        "title": "CRISPR如何让你编辑DNA",
+        "title_en": "How CRISPR lets you edit DNA",
+        "duration": "5:28"
+      }
+    },
+    
+    "summary": {
+      "text": "2012年6月，法国微生物学家埃雷曼纽尔·卡彭蒂耶 (Emmanuelle Charpentier) 和美国生化学家詹妮弗·杜德纳 (Jennifer Doudna) 在《科学》杂志上发表了一篇划时代的论文。她们解析并简化了一种细菌用来对抗病毒的天然免疫系统——CRISPR-Cas9。她们发现，这个系统可以被人工编程：只要给Cas9蛋白装上一个“向导RNA” (guide RNA)，它就能像通过GPS导航一样，精准地找到DNA上的任何位置进行切割。这不仅仅是一个发现，更是一项发明。它赋予了人类一种廉价、易用且极其精准的工具来“编辑”生命密码，就像在Word文档中进行“查找和替换”一样。",
+      "text_en": "In June 2012, French microbiologist Emmanuelle Charpentier and American biochemist Jennifer Doudna published a landmark paper in *Science*. They deciphered and simplified a natural immune system used by bacteria to fight viruses—CRISPR-Cas9. They discovered that this system could be artificially programmed: simply by equipping the Cas9 protein with a 'guide RNA', it could navigate like a GPS to precisely locate and cut any spot on DNA. This was not just a discovery, but an invention. It gave humanity a cheap, easy-to-use, and extremely precise tool to 'edit' the code of life, just like doing 'Find and Replace' in a Word document.",
+      "key_points": [
+        "将细菌免疫系统转化为基因编辑工具",
+        "发现了Cas9蛋白和向导RNA (sgRNA) 的双组分机制",
+        "实现了对DNA的精准切割和编辑",
+        "被称为“基因魔剪”",
+        "两人共同获得2020年诺贝尔化学奖"
+      ],
+      "key_points_en": [
+        "Repurposed bacterial immune system into a gene-editing tool",
+        "Discovered the two-component mechanism of Cas9 and guide RNA (sgRNA)",
+        "Achieved precise cutting and editing of DNA",
+        "Known as 'Genetic Scissors'",
+        "Shared the 2020 Nobel Prize in Chemistry"
+      ]
+    },
+  
+    "story": {
+      "text": "这是一个完美的跨国合作故事。卡彭蒂耶当时在瑞典研究一种“化脓性链球菌”的怪异免疫行为，而杜德纳在加州伯克利研究RNA结构。两人在波多黎各的一次学术会议上偶遇，决定联手。虽然CRISPR序列早就被日本人发现（并在酸奶发酵菌中被研究），但没人知道它到底怎么工作。杜德纳和卡彭蒂耶的关键突破在于，她们把原本复杂的天然系统简化成了两个核心部件：一把剪刀（Cas9蛋白）和一个导航员（sgRNA）。通过在这个试管里的实验，她们证明了人类可以随心所欲地设计导航员，指哪打哪。这彻底改变了基因工程“费时费力”的旧时代。",
+      "text_en": "This is a perfect story of international collaboration. Charpentier was in Sweden studying the weird immune behavior of *Streptococcus pyogenes*, while Doudna was at UC Berkeley studying RNA structures. They met by chance at a conference in Puerto Rico and decided to team up. Although CRISPR sequences had been observed earlier by Japanese scientists (and studied in yogurt bacteria), no one knew how they actually worked. The key breakthrough by Doudna and Charpentier was simplifying the complex natural system into two core components: a pair of scissors (Cas9 protein) and a navigator (sgRNA). Through test-tube experiments, they proved humans could design the navigator at will to target any location. This revolutionized the old, laborious era of genetic engineering.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/57/GRNA-Cas9.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🦠",
+        "text": "CRISPR原本是细菌用来记仇的“黑名单”。当细菌熬过病毒感染后，它会把病毒的一小段DNA剪下来，存进自己的基因组里（建立CRISPR档案）。下次病毒再来，细菌就拿这个档案去比对，一旦确认是老仇人，就派Cas9去把它切碎。",
+        "text_en": "CRISPR was originally a bacterial 'blacklist' for holding grudges. When a bacterium survives a viral infection, it cuts a snippet of the virus's DNA and stores it in its own genome (creating a CRISPR archive). If the virus attacks again, the bacterium compares it against the archive. If it's a match, it sends Cas9 to chop it up."
+      },
+      {
+        "icon": "⚖️",
+        "text": "尽管杜德纳和卡彭蒂耶拿了诺贝尔奖，但CRISPR的专利权之战却异常惨烈。麻省理工学院（MIT）的张锋（Feng Zhang）在她们发表论文后仅仅6个月，就证明了该技术在人体细胞（真核细胞）中也能工作，并抢先拿到了关键专利。",
+        "text_en": "Although Doudna and Charpentier won the Nobel Prize, the patent war for CRISPR was brutal. MIT's Feng Zhang proved the tech worked in human cells (eukaryotic cells) just 6 months after their paper and beat them to key patents."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象DNA是一本巨大的百科全书。\n以前我们想修改它，就像是把书撕烂，然后再乱涂乱画，很难精准。\nCRISPR就像是带有“查找功能”的剪刀。\n你告诉它：“去找到第305页第8行的‘苹果’这个词。”\n它就会飞过去，精准地把“苹果”剪掉。然后你还可以给它一支笔，让它把空缺处填上“香蕉”。\n这就是基因编辑。",
+      "text_en": "Imagine DNA is a massive encyclopedia.\nBefore, editing it was like tearing pages out and scribbling; it was messy.\nCRISPR is like a pair of scissors with a 'Find function'.\nYou tell it: 'Go find the word Apple on page 305, line 8.'\nIt zooms there and precisely cuts out 'Apple'. Then, you can give it a pen to write 'Banana' in the blank space.\nThat is gene editing.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9a/CRISPR_overview_-_en.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🩸",
+          "title": "治愈遗传病",
+          "title_en": "Curing Genetic Diseases",
+          "text": "2019年，维多利亚·格雷成为首位接受CRISPR疗法的镰状细胞贫血症患者，她的病被“编辑”好了。这是医学史上的奇迹。",
+          "text_en": "In 2019, Victoria Gray became the first patient to receive CRISPR therapy for Sickle Cell Disease. Her illness was essentially 'edited' away. A medical miracle."
+        },
+        {
+          "icon": "🌾",
+          "title": "超级农作物",
+          "title_en": "Super Crops",
+          "text": "科学家可以用它培育抗旱、抗虫、不褐变的蘑菇，甚至更辣的番茄，而且不需要转入外来基因（不算传统转基因）。",
+          "text_en": "Scientists use it to breed drought-resistant, pest-resistant crops, non-browning mushrooms, or even spicier tomatoes, often without inserting foreign genes (unlike traditional GMOs)."
+        }
+      ],
+  
+    "impact": {
+      "text": "CRISPR是自PCR（聚合酶链式反应）以来生物技术领域最大的革命。它让基因编辑从“只有顶尖实验室能做的昂贵实验”变成了“高中生在车库里都能做的实验”。它带来了无限的希望（治愈癌症、遗传病），但也打开了伦理的潘多拉魔盒（如贺建奎的“基因编辑婴儿”事件）。人类第一次拥有了直接改写自身进化的神力。",
+      "text_en": "CRISPR is the biggest revolution in biotech since PCR. It turned gene editing from 'an expensive experiment only top labs could do' into 'something a high schooler can do in a garage'. It brings infinite hope (curing cancer, genetic diseases) but also opens an ethical Pandora's Box (like the He Jiankui 'gene-edited babies' scandal). For the first time, humanity holds the god-like power to rewrite its own evolution.",
+      "stats": [
+          {
+            "number": "2012",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "2020",
+            "label": "年 (诺贝尔奖)",
+            "label_en": "Year (Nobel Prize)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "human_genome_project_2003",
+          "contribution": "人类基因组计划（提供了需要被编辑的“地图”，没有地图，只有剪刀也没用）",
+          "contribution_en": "Human Genome Project (Provided the 'map' to be edited; scissors are useless without a map)"
+        },
+        {
+          "id": "restriction_enzymes_1970s",
+          "contribution": "限制性内切酶（早期的分子剪刀，但只能切特定的几个点，不如CRISPR灵活）",
+          "contribution_en": "Restriction Enzymes (Early molecular scissors, but they could only cut specific spots, lacking CRISPR's flexibility)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "prime_editing_2019",
+          "contribution": "大卫·刘（开发了更精准的“先导编辑”，像文字处理器一样能改写单个碱基，而不仅仅是剪断）",
+          "contribution_en": "David Liu (Developed 'Prime Editing', which works like a word processor to rewrite single bases, not just cut them)"
+        },
+        {
+          "id": "gene_drive_technology",
+          "contribution": "基因驱动（利用CRISPR让某种基因在种群中快速传播，例如用来消灭传播疟疾的蚊子）",
+          "contribution_en": "Gene Drive (Using CRISPR to force a gene to spread rapidly through a population, e.g., to wipe out malaria-carrying mosquitoes)"
+        }
+      ],
+      "legacy_text": "杜德纳和卡彭蒂耶给了人类一把上帝的手术刀，现在的问题是：我们该切哪里？",
+      "legacy_text_en": "Doudna and Charpentier gave humanity God's scalpel; now the question is: Where should we cut?"
+    },
+  
+    "related_concepts": ["CRISPR-Cas9", "向导RNA (Guide RNA)", "基因编辑 (Gene Editing)", "诺贝尔化学奖", "张锋 (Feng Zhang)", "生物伦理 (Bioethics)"],
+    "related_concepts_en": ["CRISPR-Cas9", "Guide RNA", "Gene Editing", "Nobel Prize in Chemistry", "Feng Zhang", "Bioethics"],
+  
+    "quiz": {
+      "question": "CRISPR-Cas9系统中，负责“导航”到DNA特定位置的组件是什么？",
+      "question_en": "In the CRISPR-Cas9 system, which component is responsible for 'navigating' to the specific DNA location?",
+      "options": [
+        "Cas9蛋白",
+        "DNA聚合酶",
+        "向导RNA (gRNA/sgRNA)",
+        "限制性内切酶"
+      ],
+      "options_en": [
+        "Cas9 protein",
+        "DNA Polymerase",
+        "Guide RNA (gRNA/sgRNA)",
+        "Restriction Enzyme"
+      ],
+      "answer": 2,
+      "explanation": "Cas9是“剪刀”，负责切割；而向导RNA（Guide RNA）是“GPS”，它的序列与目标DNA互补，负责把剪刀带到正确的地方。",
+      "explanation_en": "Cas9 is the 'scissors' responsible for cutting; Guide RNA is the 'GPS'. Its sequence is complementary to the target DNA, responsible for bringing the scissors to the right spot."
+    }
+  }

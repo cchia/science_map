@@ -1,0 +1,10 @@
+{
+    "name": "奥斯瓦尔德·艾弗里",
+    "name_en": "Oswald Avery",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Oswald_T._Avery_portrait_1937.jpg",
+    "bio_short": "加拿大裔美国细菌学家和研究员。他领导的团队在1944年发表了划时代的论文（`avery_dna_principle_1944`），通过实验证明了DNA（而非蛋白质）是细菌的“转化原则”，从而首次在化学层面上确认了DNA是遗传物质。",
+    "bio_short_en": "A Canadian-American bacteriologist and researcher. His team published a landmark paper in 1944 (`avery_dna_principle_1944`) demonstrating that DNA (not protein) was the 'transforming principle' in bacteria, providing the first chemical evidence that DNA is the genetic material.",
+    "events": [
+      "avery_dna_principle_1944"
+    ]
+  }

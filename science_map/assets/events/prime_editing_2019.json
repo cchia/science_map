@@ -1,0 +1,151 @@
+{
+    "id": "prime_editing_2019",
+    "personId": "david_liu",
+    "title": "发明“先导编辑” (基因组的“查找和替换”)",
+    "title_en": "Invention of 'Prime Editing' (Search-and-Replace for Genomes)",
+    "year": 2019,
+    "lat": 42.3623,
+    "lng": -71.0907,
+    "city": "剑桥 (布罗德研究所)",
+    "city_en": "Cambridge (Broad Institute of MIT and Harvard)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["gene_story"],
+    "field": ["化学生物学", "基因组工程"],
+    "field_en": ["Chemical Biology", "Genome Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Components_of_prime_editing.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=5pbcIlo4L4k",
+        "title": "先导编辑如何工作？",
+        "title_en": "HOW PRIME EDITING WORKS ?",
+        "duration": "5:12"
+      }
+    },
+    
+    "summary": {
+      "text": "2019年10月，美国化学家大卫·刘（David Liu）和他的博士后安德鲁·安扎龙（Andrew Anzalone）在《自然》杂志上发表了一项被称为“超强版CRISPR”的新技术——先导编辑（Prime Editing）。传统的CRISPR-Cas9像一把大剪刀，通过切断DNA双链来破坏基因，修复过程往往不可控且容易出错。而先导编辑则像是一个精密的“文字处理器”。它结合了CRISPR的定位能力和逆转录酶（Reverse Transcriptase）的“写作”能力，可以在不完全切断DNA双链的情况下，精准地将任何DNA碱基替换成另一个，或者插入/删除特定的DNA片段。理论上，它可以修复人类已知致病基因变异的89%。",
+      "text_en": "In October 2019, American chemist David Liu and his postdoc Andrew Anzalone published a paper in *Nature* unveiling a 'Super CRISPR' technology—Prime Editing. Traditional CRISPR-Cas9 acts like big scissors, cutting both strands of DNA to disrupt genes, a process often uncontrolled and error-prone. Prime Editing, however, acts like a precise 'word processor'. It combines the targeting ability of CRISPR with the 'writing' ability of Reverse Transcriptase. It can precisely swap any DNA base for another, or insert/delete specific DNA segments, without completely severing the DNA double strand. Theoretically, it can correct about 89% of known pathogenic human genetic variants.",
+      "key_points": [
+        "发明“先导编辑” (Prime Editing)",
+        "实现真正的“查找和替换” (Search-and-Replace)",
+        "无需切断DNA双链 (Avoids Double-Strand Breaks)",
+        "引入特殊的pegRNA (prime editing guide RNA)",
+        "可修复约89%的人类遗传病变异"
+      ],
+      "key_points_en": [
+        "Invention of 'Prime Editing'",
+        "Achieved true 'Search-and-Replace'",
+        "Avoids Double-Strand Breaks (DSBs)",
+        "Introduced special pegRNA (prime editing guide RNA)",
+        "Can fix ~89% of human genetic disease variants"
+      ]
+    },
+  
+    "story": {
+      "text": "大卫·刘一直致力于让基因编辑更精准。他之前发明的“碱基编辑”（Base Editing）虽然精准，但只能做简单的替换（比如把C变成T），就像你的键盘只有几个键能用。而传统的CRISPR虽然强大，但切断双链就像是用炸弹来修手表，风险太大。\n为了解决这个问题，大卫·刘的团队设计了一个天才般的机器：他们让Cas9变成“缺口酶”（只切断一条链，不切断两条），然后给它背上背了一个“逆转录酶”（一种能根据RNA写出DNA的酶）。最精妙的是他们设计了一种超级长的向导RNA（pegRNA），这根RNA不仅负责带路，其尾巴上还抄写着“正确的修改内容”。当机器找到位置后，逆转录酶就会读这个尾巴，把正确的内容直接“抄写”进DNA里。这不仅是剪切，这是真正的“重写”。",
+      "text_en": "David Liu has always strived for precision in gene editing. His previous invention, 'Base Editing', was precise but limited (e.g., could only turn C to T), like a keyboard with only a few working keys. Traditional CRISPR, while powerful, cuts both strands—like using a bomb to fix a watch, too risky.\nTo solve this, Liu's team designed a genius machine: they turned Cas9 into a 'nickase' (cuts only one strand, not both) and strapped a 'Reverse Transcriptase' (an enzyme that writes DNA from RNA) onto its back. The most brilliant part was the design of a super-long guide RNA called 'pegRNA'. This RNA not only guides the way but also carries the 'correct edit' on its tail. When the machine finds the spot, the reverse transcriptase reads this tail and directly 'writes' the correct content into the DNA. It's not just cutting; it's true 'rewriting'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Prime_editing_mechanism.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📝",
+        "text": "如果说CRISPR-Cas9是“剪刀”（剪掉），碱基编辑是“铅笔”（改一个字），那么先导编辑就是全功能的“Word文档编辑器”（可以查找、删除、插入、改写任何内容）。",
+        "text_en": "If CRISPR-Cas9 is 'Scissors' (cut out), and Base Editing is a 'Pencil' (change one letter), then Prime Editing is a full-featured 'Word Processor' (search, delete, insert, rewrite anything)."
+      },
+      {
+        "icon": "🏋️",
+        "text": "先导编辑的分子机器非常巨大和笨重。因为它融合了Cas9和逆转录酶，这导致它很难被装进常用的病毒载体（如AAV）里送入人体，这也是目前临床应用的一大挑战。",
+        "text_en": "The Prime Editing molecular machine is huge and clunky. Because it fuses Cas9 and Reverse Transcriptase, it's hard to fit into common viral delivery vectors (like AAV) to get into the human body, which is a major challenge for clinical use."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你有一本书，你想把第10页的一句话改掉。\n老方法（CRISPR）：把这一页撕烂，然后祈祷粘回去的时候是对的。\n先导编辑：你带着一只“特殊的笔”（逆转录酶）和一张“小纸条”（pegRNA）。\n1. 你找到那句话（定位）。\n2. 你在旁边轻轻划一个小口（切单链）。\n3. 你照着小纸条上的内容，在书上直接写下新的句子（逆转录）。\n4. 书本自动把旧的句子擦掉，保留你新写的（修复）。\n整个过程书页没有被撕坏。",
+      "text_en": "Imagine you have a book and want to change a sentence on page 10.\nOld method (CRISPR): Rip the page out and hope it gets taped back correctly.\nPrime Editing: You bring a 'special pen' (Reverse Transcriptase) and a 'cheat sheet' (pegRNA).\n1. You find the sentence (Targeting).\n2. You make a tiny nick next to it (Nickase).\n3. You copy the new sentence from your cheat sheet directly onto the page (Reverse Transcription).\n4. The book automatically erases the old sentence and keeps your new one (Repair).\nThe page is never torn apart.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Prime_editing_mechanism.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🩸",
+          "title": "镰状细胞贫血 & 泰萨二氏病",
+          "title_en": "Sickle Cell & Tay-Sachs",
+          "text": "这两种病分别是由于碱基颠倒和特定DNA插入导致的。传统的碱基编辑修不了泰萨二氏病，但先导编辑可以精准修复这两种复杂的错误。",
+          "text_en": "These diseases are caused by base transversion and specific DNA insertion, respectively. Traditional base editing can't fix Tay-Sachs, but Prime Editing can precisely correct both complex errors."
+        },
+        {
+          "icon": "🌾",
+          "title": "农业改良",
+          "title_en": "Agricultural Improvement",
+          "text": "可以精准地赋予作物抗除草剂或抗虫性状，而不会像传统CRISPR那样产生随机的副作用。",
+          "text_en": "Can precisely endow crops with herbicide or pest resistance without the random side effects of traditional CRISPR."
+        }
+      ],
+  
+    "impact": {
+      "text": "先导编辑被认为是基因编辑技术的“2.0版本”。它大大降低了“脱靶效应”（切错地方）和“非预期插入”（由于切断双链导致的混乱）。虽然它还没有像CRISPR那样普及，但它为治疗绝大多数遗传性疾病提供了最安全、最通用的理论方案。大卫·刘因此被誉为“上帝的编辑师”。",
+      "text_en": "Prime Editing is considered 'Version 2.0' of gene editing. It significantly reduces 'off-target effects' (cutting the wrong place) and 'unintended insertions' (chaos caused by double-strand breaks). Although not yet as widespread as CRISPR, it offers the safest and most versatile theoretical solution for treating the vast majority of genetic diseases. David Liu is thus hailed as 'God's Editor'.",
+      "stats": [
+          {
+            "number": "2019",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "89%",
+            "label": "可修复的致病变异比例",
+            "label_en": "% of Pathogenic Variants Fixable"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "crispr_gene_editing_2012",
+          "contribution": "杜德纳和卡彭蒂耶（提供了Cas9定位的基础，先导编辑是建立在CRISPR之上的改装版）",
+          "contribution_en": "Doudna & Charpentier (Provided the Cas9 targeting foundation; Prime Editing is a mod built on top of CRISPR)"
+        },
+        {
+          "id": "temin_baltimore_reverse_transcriptase_1970",
+          "contribution": "提明和巴尔的摩（发现了逆转录酶，这是先导编辑用来“写入”DNA的关键墨水）",
+          "contribution_en": "Temin & Baltimore (Discovered Reverse Transcriptase, the key 'ink' Prime Editing uses to write DNA)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "twin_prime_editing_2021",
+          "contribution": "双先导编辑（后来开发的技术，使用两个先导编辑器协同工作，可以插入更大的DNA片段）",
+          "contribution_en": "Twin Prime Editing (Later technology using two prime editors working together to insert even larger DNA fragments)"
+        }
+      ],
+      "legacy_text": "如果CRISPR给了我们一把剪刀，先导编辑则给了我们一支笔。",
+      "legacy_text_en": "If CRISPR gave us scissors, Prime Editing gave us a pen."
+    },
+  
+    "related_concepts": ["先导编辑 (Prime Editing)", "pegRNA", "逆转录酶 (Reverse Transcriptase)", "碱基编辑 (Base Editing)", "大卫·刘 (David Liu)"],
+    "related_concepts_en": ["Prime Editing", "pegRNA", "Reverse Transcriptase", "Base Editing", "David Liu"],
+  
+    "quiz": {
+      "question": "与传统的CRISPR-Cas9相比，先导编辑（Prime Editing）最大的安全优势是什么？",
+      "question_en": "Compared to traditional CRISPR-Cas9, what is the biggest safety advantage of Prime Editing?",
+      "options": [
+        "它不需要向导RNA",
+        "它不依赖Cas9蛋白",
+        "它不会切断DNA的双链（避免了双链断裂）",
+        "它只能在细菌中使用"
+      ],
+      "options_en": [
+        "It doesn't need guide RNA",
+        "It doesn't rely on Cas9 protein",
+        "It does not cut both strands of DNA (Avoids Double-Strand Breaks)",
+        "It only works in bacteria"
+      ],
+      "answer": 2,
+      "explanation": "传统CRISPR会切断DNA双链，这会触发细胞紧急且混乱的修复机制（NHEJ），容易导致随机突变。先导编辑只切断一条链（缺口），并使用模板进行修复，因此更加安全和精确。",
+      "explanation_en": "Traditional CRISPR cuts both DNA strands, triggering the cell's emergency and messy repair mechanism (NHEJ), often leading to random mutations. Prime Editing cuts only one strand (nick) and uses a template for repair, making it much safer and more precise."
+    }
+  }

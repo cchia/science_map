@@ -1,0 +1,10 @@
+{
+    "name": "多萝西·霍奇金",
+    "name_en": "Dorothy Hodgkin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/3/3f/Dorothy_Hodgkin_Nobel.jpg",
+    "bio_short": "英国化学家，X射线晶体学的先驱，1964年诺贝尔化学奖得主。她破解了青霉素和维生素B12的结构，并耗时35年解析了极具挑战性的胰岛素结构（`dorothy_hodgkin_insulin_1969`），是历史上最杰出的女性科学家之一。",
+    "bio_short_en": "A British chemist and pioneer of X-ray crystallography, and a 1964 Nobel laureate. She solved the structures of penicillin and vitamin B12, and spent 35 years resolving the challenging structure of insulin (`dorothy_hodgkin_insulin_1969`), making her one of the most distinguished female scientists in history.",
+    "events": [
+      "dorothy_hodgkin_insulin_1969"
+    ]
+  }

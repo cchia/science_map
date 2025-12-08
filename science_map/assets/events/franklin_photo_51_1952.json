@@ -1,0 +1,156 @@
+{
+    "id": "franklin_photo_51_1952",
+    "personId": "rosalind_franklin",
+    "title": "拍摄“照片51号” (DNA的X射线衍射图)",
+    "title_en": "Captures 'Photo 51' (X-ray Diffraction Image of DNA)",
+    "year": 1952,
+    "lat": 51.5115,
+    "lng": -0.1160,
+    "city": "伦敦 (国王学院)",
+    "city_en": "London (King's College London)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["gene_story"],
+    "field": ["物理化学", "晶体学"],
+    "field_en": ["Physical Chemistry", "Crystallography"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Photo_51_x-ray_diffraction_image.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=BIP0lYrdirI",
+        "title": "罗莎琳德·富兰克林：DNA的未被歌颂的英雄",
+        "title_en": "Rosalind Franklin: DNA's unsung hero",
+        "duration": "4:09"
+      }
+    },
+    
+    "summary": {
+      "text": "1952年5月，英国物理化学家罗莎琳德·富兰克林（Rosalind Franklin）与她的博士生雷蒙德·戈斯林（Raymond Gosling）在伦敦国王学院，拍摄了一张历史上最著名的X射线衍射照片，后来被称为“照片51号”（Photo 51）。富兰克林通过控制湿度，成功获得了清晰的“B型DNA”图像。照片中那个标志性的黑色“X”形斑点，是螺旋结构（Helix）无可辩驳的数学证据。这张照片成为了解开DNA双螺旋结构之谜的最关键线索，被称为“分子生物学的圣杯”。",
+      "text_en": "In May 1952, British physical chemist Rosalind Franklin and her PhD student Raymond Gosling, working at King's College London, took one of the most famous X-ray diffraction images in history, later known as 'Photo 51'. By controlling humidity, Franklin successfully obtained a sharp image of 'B-form DNA'. The iconic black 'X' shaped pattern in the photo was irrefutable mathematical proof of a helical structure. This photo became the most critical clue to solving the puzzle of the DNA double helix, often called the 'Holy Grail of Molecular Biology'.",
+      "key_points": [
+        "拍摄了著名的“照片51号” (Photo 51)",
+        "使用了X射线晶体学技术 (X-ray Crystallography)",
+        "“X”形图案证明了螺旋结构 (Helix)",
+        "区分了DNA的A型（干）和B型（湿）",
+        "照片被未经允许展示给了沃森"
+      ],
+      "key_points_en": [
+        "Captured the famous 'Photo 51'",
+        "Used X-ray Crystallography technology",
+        "The 'X' pattern proved the Helical structure",
+        "Distinguished between A-form (dry) and B-form (wet) DNA",
+        "The photo was shown to Watson without permission"
+      ]
+    },
+  
+    "story": {
+      "text": "这是一个关于才华、偏见和科学伦理争议的故事。富兰克林是一位严谨的实验科学家，她坚持在建立模型前收集足够的数据。她发现如果让DNA样本保持湿润，就能得到非常清晰的图像（B型）。然而，她与同事莫里斯·威尔金斯（Maurice Wilkins）关系极差。1953年初，在富兰克林不知情的情况下，威尔金斯私自把“照片51号”拿给了正在苦苦思索DNA结构的詹姆斯·沃森（James Watson）看。沃森后来回忆道：“当我看到照片的那一刻，我的嘴巴张大了，脉搏开始剧烈跳动。”那个完美的“X”告诉了他一切：DNA是螺旋的。富兰克林的数据被用在了沃森和克里克的模型中，但她直到去世都不知道这张照片起了决定性作用。",
+      "text_en": "This is a story of talent, prejudice, and controversial scientific ethics. Franklin was a rigorous experimentalist who insisted on gathering sufficient data before building models. She found that keeping DNA samples wet yielded incredibly sharp images (B-form). However, she had a terrible relationship with her colleague Maurice Wilkins. In early 1953, without Franklin's knowledge, Wilkins showed 'Photo 51' to James Watson, who was struggling with the DNA structure. Watson later recalled: 'The instant I saw the picture, my mouth fell open and my pulse began to race.' That perfect 'X' told him everything: DNA was a helix. Franklin's data was used in Watson and Crick's model, but she died never knowing her photo played the decisive role.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/cf/60251254_photo-51-print-qp867-a4_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⏳",
+        "text": "这张著名的照片曝光时间长达100个小时。富兰克林需要极高的耐心和精确度来保持X射线束在这么长时间内稳定照射在一根细如发丝的DNA纤维上。",
+        "text_en": "This famous photo took 100 hours of exposure time. Franklin needed extreme patience and precision to keep the X-ray beam stable on a hair-thin DNA fiber for that long."
+      },
+      {
+        "icon": "⚰️",
+        "text": "富兰克林因卵巢癌在37岁英年早逝（可能是因为长期暴露在X射线下）。因为诺贝尔奖不颁发给已故者，她错过了1962年的奖项，成为了“未能加冕的女王”。",
+        "text_en": "Franklin died prematurely at 37 from ovarian cancer (likely due to long-term X-ray exposure). Since the Nobel Prize is not awarded posthumously, she missed out on the 1962 award, becoming the 'Uncrowned Queen'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你在一个黑暗的房间里，用手电筒照一个弹簧。\n如果你把手电筒的光（X射线）穿过弹簧（DNA），投射在墙上的影子（照片）不会直接看起来像弹簧。\n但是，由于弹簧的螺旋形状，光线发生折射，会在墙上形成一个“X”形的图案。\n富兰克林拍到了这个最完美的“X”。懂行的人（沃森）一眼就看出来：这就是螺旋！而且通过量这个X的角度，还能算出螺旋有多宽、多陡。",
+      "text_en": "Imagine you are in a dark room shining a flashlight at a spring.\nIf you shine the light (X-rays) through the spring (DNA), the shadow on the wall (the photo) won't look exactly like a spring.\nHowever, because of the spiral shape, the light bends to form an 'X' pattern on the wall.\nFranklin captured the perfect 'X'. Experts (Watson) knew immediately: This is a helix! And by measuring the angle of the X, they could calculate how wide and steep the helix was.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/cf/60251254_photo-51-print-qp867-a4_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📸",
+          "title": "结构生物学",
+          "title_en": "Structural Biology",
+          "text": "富兰克林的技术奠定了现代通过X射线解析蛋白质和病毒结构的基础。",
+          "text_en": "Franklin's techniques laid the foundation for modern structural biology, resolving structures of proteins and viruses via X-rays."
+        },
+        {
+          "icon": "🦠",
+          "title": "病毒研究",
+          "title_en": "Virus Research",
+          "text": "在研究DNA之后，富兰克林利用同样的技术在烟草花叶病毒（TMV）和脊髓灰质炎病毒的结构研究上做出了世界级的贡献。",
+          "text_en": "After DNA, Franklin used the same techniques to make world-class contributions to the structure of Tobacco Mosaic Virus (TMV) and Polio virus."
+        }
+      ],
+  
+    "impact": {
+      "text": "没有照片51号，沃森和克里克可能还需要很多年才能解开DNA结构。这张照片提供了关于DNA直径、螺旋间距和碱基位置的关键参数。它被认为是“历史上最有价值的一张照片”。虽然富兰克林的贡献曾被长期掩盖，但今天她已被公认为双螺旋发现的第四位关键人物（与沃森、克里克、威尔金斯并列）。",
+      "text_en": "Without Photo 51, Watson and Crick might have taken years to solve the DNA structure. This photo provided crucial parameters: the diameter, the pitch of the helix, and the location of bases. It is considered 'the most valuable photograph in history'. Though her contribution was long overshadowed, she is now recognized as the fourth key figure in the Double Helix discovery (alongside Watson, Crick, and Wilkins).",
+      "stats": [
+          {
+            "number": "51",
+            "label": "号 (照片编号)",
+            "label_en": "No. (Photo Number)"
+          },
+          {
+            "number": "100",
+            "label": "小时 (曝光时间)",
+            "label_en": "Hours (Exposure)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "bragg_xray_1913",
+          "contribution": "布拉格父子（X射线晶体学的发明者，富兰克林利用他们的原理来“看”分子）",
+          "contribution_en": "The Braggs (Inventors of X-ray crystallography; Franklin used their principles to 'see' molecules)"
+        },
+        {
+          "id": "bernal_protein_xray_1934",
+          "contribution": "J.D. 伯纳尔（富兰克林的导师，教导她如何保持样本湿润以获得更好的X射线图）",
+          "contribution_en": "J.D. Bernal (Franklin's mentor, who taught her to keep samples wet for better X-ray images)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（直接使用了照片51号的数据来构建双螺旋模型）",
+          "contribution_en": "Watson & Crick (Directly used data from Photo 51 to build the Double Helix model)"
+        },
+        {
+          "id": "klug_nobel_1982",
+          "contribution": "阿龙·克拉格（富兰克林的最后一位合作者，继承了她的病毒研究并因此获得诺贝尔奖）",
+          "contribution_en": "Aaron Klug (Franklin's last collaborator, continued her virus work and won a Nobel Prize for it)"
+        }
+      ],
+      "legacy_text": "富兰克林拍下了生命最深处的秘密，但那张照片被别人拿走了。",
+      "legacy_text_en": "Franklin captured the deepest secret of life, but the photo was taken by others."
+    },
+  
+    "related_concepts": ["X射线衍射 (X-ray Diffraction)", "双螺旋 (Double Helix)", "B型DNA", "晶体学 (Crystallography)", "诺贝尔奖争议"],
+    "related_concepts_en": ["X-ray Diffraction", "Double Helix", "B-form DNA", "Crystallography", "Nobel Prize Controversy"],
+  
+    "quiz": {
+      "question": "在“照片51号”中，哪种特征性的图案直接向科学家暗示了DNA具有螺旋结构？",
+      "question_en": "In 'Photo 51', what characteristic pattern directly suggested to scientists that DNA had a helical structure?",
+      "options": [
+        "一个圆圈",
+        "一个黑色的“X”形",
+        "一系列平行的线",
+        "一个六边形"
+      ],
+      "options_en": [
+        "A circle",
+        "A black 'X' shape",
+        "A series of parallel lines",
+        "A hexagon"
+      ],
+      "answer": 1,
+      "explanation": "在X射线晶体学中，通过螺旋结构的衍射光线会在底片上形成交叉的图案，即“X”形。交叉的角度还可以告诉科学家螺旋的倾斜度（螺距）。",
+      "explanation_en": "In X-ray crystallography, light diffracted through a helical structure creates a crossed pattern on the film, an 'X' shape. The angle of the cross also tells scientists the pitch (steepness) of the helix."
+    }
+  }

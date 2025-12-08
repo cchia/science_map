@@ -1,0 +1,12 @@
+{
+    "name": "大卫·刘",
+    "name_en": "David Liu",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/2a/DavidRLiu2012_%28cropped%29.jpg",
+    "bio_short": "美国著名化学家和化学生物学家，哈佛大学教授及布罗德研究所核心成员。他是基因编辑领域的先驱，先后发明了“碱基编辑”（`base_editing_2016`）和“先导编辑”（`prime_editing_2019`）技术，使人类能够以前所未有的精度和安全性对DNA进行“查找和替换”式的修改，被誉为“上帝的编辑师”。",
+    "bio_short_en": "A renowned American chemist and chemical biologist, professor at Harvard and core member of the Broad Institute. He is a pioneer in gene editing, successively inventing 'Base Editing' (`base_editing_2016`) and 'Prime Editing' (`prime_editing_2019`). These technologies enable high-precision 'search and replace' modifications of DNA, earning him the title of 'God's Editor'.",
+    "events": [
+      "base_editing_2016",
+      "prime_editing_2019",
+      "twin_prime_editing_2021"
+    ]
+  }

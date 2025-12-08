@@ -1,0 +1,156 @@
+{
+    "id": "miescher_nuclein_1869",
+    "personId": "friedrich_miescher",
+    "title": "发现“核素” (首次分离出DNA)",
+    "title_en": "Discovers 'Nuclein' (First Isolation of DNA)",
+    "year": 1869,
+    "lat": 48.5216,
+    "lng": 9.0576,
+    "city": "图宾根 (霍佩-赛勒实验室)",
+    "city_en": "Tübingen (Hoppe-Seyler's Lab)",
+    "country": "德国 (符腾堡王国)",
+    "country_en": "Germany (Kingdom of Württemberg)",
+    "storyline_id": ["gene_story"],
+    "field": ["生物化学", "遗传学"],
+    "field_en": ["Biochemistry", "Genetics"],
+    
+    "media": {
+      "event_image": "assets/images/nuclein.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=UrR4vPzEODU",
+        "title": "米歇尔与核素的发现",
+        "title_en": "The Weird Way We Discovered DNA",
+        "duration": "4:59"
+      }
+    },
+    
+    "summary": {
+      "text": "1869年，年轻的瑞士医生弗里德里希·米歇尔（Friedrich Miescher）在德国图宾根大学的一个城堡实验室里，做出了生物学史上最被低估的发现之一。在试图分析白细胞的化学成分时，他从细胞核中分离出了一种未知的沉淀物。这种物质富含磷，不含硫，且呈酸性，与当时已知的蛋白质完全不同。因为它是从细胞核（Nucleus）中发现的，米歇尔将其命名为“核素”（Nuclein）。他发现的这种物质，正是后来被称为“脱氧核糖核酸”（DNA）的东西——生命的遗传蓝图。",
+      "text_en": "In 1869, young Swiss physician Friedrich Miescher made one of the most underrated discoveries in the history of biology in a castle laboratory at the University of Tübingen. While analyzing the chemical composition of white blood cells, he isolated an unknown precipitate from the cell nucleus. This substance was rich in phosphorus, lacked sulfur, and was acidic, making it completely different from known proteins. Because it was found in the nucleus, Miescher named it 'Nuclein'. The substance he discovered was what we now call 'Deoxyribonucleic Acid' (DNA)—the genetic blueprint of life.",
+      "key_points": [
+        "首次分离出DNA (First Isolation of DNA)",
+        "命名为“核素” (Nuclein)",
+        "发现其富含磷 (Phosphorus-rich) 且呈酸性",
+        "样本来源：沾满脓液的绷带 (Pus-soaked bandages)",
+        "证明了细胞核中含有非蛋白质的特殊物质"
+      ],
+      "key_points_en": [
+        "First Isolation of DNA",
+        "Named it 'Nuclein'",
+        "Discovered it was Phosphorus-rich and Acidic",
+        "Source: Pus-soaked bandages",
+        "Proved the nucleus contained a unique non-protein substance"
+      ]
+    },
+  
+    "story": {
+      "text": "米歇尔的工作环境相当“恶心”。为了获取大量的白细胞（白细胞有巨大的细胞核），他每天去附近的医院收集刚换下来的、沾满脓液的手术绷带。他必须闻着恶臭，小心地洗掉绷带上的脓液。在用稀碱溶液处理细胞核时，他注意到一种神秘的物质析出了。他的导师霍佩-赛勒（Hoppe-Seyler）起初根本不相信，认为米歇尔犯了错，因为当时大家认为细胞只有蛋白质和脂肪。导师亲自重复了实验，确认无误后，才允许米歇尔在两年后发表论文。讽刺的是，米歇尔虽然发现了DNA，但他一直认为这只是储存磷元素的仓库，甚至直到去世都不相信这东西能传递遗传信息。",
+      "text_en": "Miescher's working conditions were quite 'gross'. To get a large supply of white blood cells (which have huge nuclei), he collected fresh pus-soaked surgical bandages from a nearby hospital every day. Fighting the stench, he carefully washed the pus off the bandages. When treating the nuclei with a dilute alkali solution, he noticed a mysterious substance precipitating out. His mentor, Hoppe-Seyler, initially didn't believe it, thinking Miescher made a mistake, as everyone thought cells were just protein and fat. The mentor repeated the experiment himself and, only after confirming it, allowed Miescher to publish two years later. Ironically, although Miescher discovered DNA, he thought it was just a phosphorus storage depot and died never believing it could carry genetic information.",
+      "diagram": "assets/images/dna_isolation.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🐟",
+        "text": "因为绷带太恶心且供应不稳定，米歇尔后来改用莱茵河里的“鲑鱼精子”来提取核素。精子几乎全是细胞核，是提取DNA的完美原料。",
+        "text_en": "Because bandages were gross and inconsistent, Miescher later switched to 'Salmon Sperm' from the Rhine River to extract nuclein. Sperm is almost entirely nucleus, making it the perfect raw material for DNA."
+      },
+      {
+        "icon": "⏳",
+        "text": "DNA被发现后，被整整忽视了75年。直到1944年（艾弗里实验），科学家才意识到这个“核素”竟然是遗传物质。",
+        "text_en": "After its discovery, DNA was ignored for 75 years. It wasn't until 1944 (Avery experiment) that scientists realized this 'nuclein' was actually the genetic material."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象科学家在拆解一辆汽车（细胞）。他们认识轮胎（脂肪）、引擎（蛋白质）。\n突然，米歇尔在驾驶座的储物箱（细胞核）里发现了一本写满奇怪符号的书（DNA）。\n这本书的纸张材料（含磷的酸）是前所未见的。\n米歇尔把书拿给大家看，说：“看，我发现了这个奇怪的东西。”\n大家都说：“哦，这只是一堆废纸吧。”\n没人知道，这本书里其实写着制造整辆汽车的说明书。",
+      "text_en": "Imagine scientists taking apart a car (cell). They recognize the tires (fats) and the engine (proteins).\nSuddenly, Miescher finds a book full of strange symbols (DNA) in the glove compartment (nucleus).\nThe material of the book (phosphorus-rich acid) is unlike anything seen before.\nMiescher shows the book to everyone: 'Look, I found this weird thing.'\nEveryone says: 'Oh, that's probably just packing material.'\nNo one knew that the book actually contained the instructions for building the entire car.",
+      "diagram": "assets/images/dna_isolation.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "DNA提取",
+          "title_en": "DNA Extraction",
+          "text": "米歇尔使用的“盐-碱-酸”沉淀法，其基本原理至今仍被用于实验室提取DNA。",
+          "text_en": "The 'salt-alkali-acid' precipitation method Miescher used is based on principles still used in labs today to extract DNA."
+        },
+        {
+          "icon": "🧪",
+          "title": "核酸化学",
+          "title_en": "Nucleic Acid Chemistry",
+          "text": "他开启了对核酸（DNA/RNA）化学结构的研究，直接导致了后来对腺嘌呤、鸟嘌呤等碱基的发现。",
+          "text_en": "He opened the field of nucleic acid chemistry, leading directly to the later discovery of bases like Adenine and Guanine."
+        }
+      ],
+  
+    "impact": {
+      "text": "米歇尔发现了生命的“硬件”。虽然他没能理解其中的“软件”（遗传密码），但如果没有他迈出第一步，沃森和克里克就不可能在84年后发现双螺旋结构。他是分子生物学的鼻祖。",
+      "text_en": "Miescher discovered the 'hardware' of life. Although he didn't understand the 'software' (genetic code) inside, without his first step, Watson and Crick could not have discovered the double helix 84 years later. He is the grandfather of molecular biology.",
+      "stats": [
+          {
+            "number": "1869",
+            "label": "年 (DNA被发现)",
+            "label_en": "Year (DNA Discovered)"
+          },
+          {
+            "number": "75",
+            "label": "年 (被忽视的时间)",
+            "label_en": "Years (Ignored)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "hoppe_seyler_biochem_1860",
+          "contribution": "霍佩-赛勒（米歇尔的导师，生物化学的奠基人，他严谨的态度确保了“核素”发现的真实性）",
+          "contribution_en": "Felix Hoppe-Seyler (Miescher's mentor, founder of biochemistry; his rigor ensured the discovery of 'nuclein' was verified)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "kossel_bases_1881",
+          "contribution": "阿尔布雷希特·科塞尔（米歇尔的同事，他进一步分解了核素，发现了AGCT四种碱基，获诺贝尔奖）",
+          "contribution_en": "Albrecht Kossel (Miescher's colleague, who further broke down nuclein and discovered the bases A, G, C, T, winning a Nobel Prize)"
+        },
+        {
+          "id": "avery_dna_1944",
+          "contribution": "艾弗里（最终证明了米歇尔发现的这种“核素”就是遗传物质，而不是蛋白质）",
+          "contribution_en": "Oswald Avery (finally proved that the 'nuclein' Miescher found was the hereditary material, not protein)"
+        },
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（在米歇尔发现物质的基础上，解析了其双螺旋结构）",
+          "contribution_en": "Watson & Crick (solved the double helix structure of the substance Miescher discovered)"
+        }
+      ],
+      "legacy_text": "米歇尔在绷带的脓液里，找到了生命的奥秘，尽管他当时并不知道那是什么。",
+      "legacy_text_en": "Miescher found the secret of life in the pus of bandages, even though he didn't know what it was at the time."
+    },
+  
+    "related_concepts": ["核素 (Nuclein)", "DNA", "磷 (Phosphorus)", "白细胞 (Leukocytes)", "细胞核 (Nucleus)", "图宾根 (Tübingen)"],
+    "related_concepts_en": ["Nuclein", "DNA", "Phosphorus", "Leukocytes", "Nucleus", "Tübingen"],
+  
+    "quiz": {
+      "question": "米歇尔发现的“核素”（DNA）在化学成分上有一个显著特点，使它区别于蛋白质。这个特点是什么？",
+      "question_en": "Miescher's 'Nuclein' (DNA) had a distinct chemical feature that distinguished it from proteins. What was it?",
+      "options": [
+        "它含有大量的硫 (Sulfur)",
+        "它含有大量的磷 (Phosphorus) 且不含硫",
+        "它是绿色的",
+        "它尝起来像糖"
+      ],
+      "options_en": [
+        "It contained a lot of Sulfur",
+        "It contained a lot of Phosphorus and no Sulfur",
+        "It was green",
+        "It tasted like sugar"
+      ],
+      "answer": 1,
+      "explanation": "蛋白质通常含有硫（来自半胱氨酸等氨基酸）但几乎不含磷。米歇尔发现这种新物质磷含量极高且完全没硫，这让他确信这是一种全新的细胞成分。",
+      "explanation_en": "Proteins usually contain sulfur (from amino acids like cysteine) but almost no phosphorus. Miescher found this new substance was extremely rich in phosphorus and lacked sulfur entirely, convincing him it was a brand new cellular component."
+    }
+  }

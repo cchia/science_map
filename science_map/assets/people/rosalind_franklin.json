@@ -1,0 +1,10 @@
+{
+    "name": "罗莎琳德·富兰克林",
+    "name_en": "Rosalind Franklin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rosalind_Franklin_%28retouched%29.jpg",
+    "bio_short": "英国物理化学家和X射线晶体学家。她拍摄的著名的“照片51号”（`franklin_photo_51_1952`）揭示了DNA的螺旋结构，为沃森和克里克发现DNA双螺旋模型提供了最关键的证据。她被称为“未能加冕的DNA女王”。",
+    "bio_short_en": "A British physical chemist and X-ray crystallographer. Her famous 'Photo 51' (`franklin_photo_51_1952`) revealed the helical structure of DNA, providing the most critical evidence for Watson and Crick's discovery of the DNA double helix model. She is often called the 'Uncrowned Queen of DNA'.",
+    "events": [
+      "franklin_photo_51_1952"
+    ]
+  }

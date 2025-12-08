@@ -1,0 +1,156 @@
+{
+    "id": "darwin_evolution_1859",
+    "personId": "charles_darwin",
+    "title": "发表《物种起源》 (提出进化论与自然选择)",
+    "title_en": "Publishes 'On the Origin of Species' (Proposing Evolution & Natural Selection)",
+    "year": 1859,
+    "lat": 51.3308,
+    "lng": 0.0538,
+    "city": "道恩 (肯特郡)",
+    "city_en": "Down (Kent)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["gene_story"],
+    "field": ["生物学", "地质学"],
+    "field_en": ["Biology", "Geology"],
+    
+    "media": {
+      "event_image": "assets/images/origin_of_species.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=qt2f5_Pg_QE",
+        "title": "达尔文的进化论：自然选择",
+        "title_en": "Darwin's Theory of Evolution: Natural Selection",
+        "duration": "5:55"
+      }
+    },
+    
+    "summary": {
+      "text": "1859年11月24日，查尔斯·达尔文（Charles Darwin）出版了《物种起源》（On the Origin of Species），彻底改变了人类对世界的认知。在这本书中，达尔文提出了“演化”（Evolution）的概念，并解释了其核心机制——“自然选择”（Natural Selection）。他论证了所有生物物种并非由上帝一次性创造，而是通过漫长的地质年代，从共同的祖先（Common Descent）演变而来。这一理论被称为“生物学中唯一最好的想法”，它统一了生命科学。",
+      "text_en": "On November 24, 1859, Charles Darwin published 'On the Origin of Species', fundamentally changing humanity's understanding of the world. In this book, Darwin proposed the concept of 'Evolution' and explained its core mechanism—'Natural Selection'. He argued that all biological species were not created by God in a single act, but evolved over vast geological ages from a 'Common Ancestor'. This theory has been called 'the single best idea in biology', unifying the life sciences.",
+      "key_points": [
+        "发表《物种起源》(On the Origin of Species)",
+        "提出“自然选择”(Natural Selection) 机制",
+        "提出“共同祖先”(Common Descent) 和生命之树",
+        "挑战了神创论和物种不变论",
+        "建立了现代生物学的基石"
+      ],
+      "key_points_en": [
+        "Published 'On the Origin of Species'",
+        "Proposed the mechanism of 'Natural Selection'",
+        "Proposed 'Common Descent' and the Tree of Life",
+        "Challenged Creationism and the immutability of species",
+        "Established the cornerstone of modern biology"
+      ]
+    },
+  
+    "story": {
+      "text": "达尔文的理论并非灵光一闪，而是源于他年轻时乘坐“贝格尔号”（HMS Beagle）环球航行的经历，特别是他在加拉帕戈斯群岛对“雀鸟”及其喙部形状的观察。回到英国后，受马尔萨斯人口论的启发，他早在1838年就构思出了自然选择理论。但他极其害怕这一理论会引起宗教和社会的强烈反弹（他称之为“像是在承认谋杀”），因此将手稿藏了整整20年。\n直到1858年，一位年轻的博物学家阿尔弗雷德·拉塞尔·华莱士（Alfred Russel Wallace）给他寄来了一封信，信中提出了几乎一模一样的理论。这迫使达尔文不再拖延，在一年后匆忙出版了《物种起源》的“摘要版”。",
+      "text_en": "Darwin's theory wasn't a sudden epiphany but stemmed from his youth voyage on the HMS Beagle, especially his observations of 'finches' and their beak shapes in the Galápagos Islands. Upon returning to England, inspired by Malthus's essay on population, he formulated the theory of natural selection as early as 1838. But he was terrified of the religious and social backlash (he called it 'like confessing a murder'), so he hid his manuscript for 20 years.\nIt wasn't until 1858, when a young naturalist named Alfred Russel Wallace sent him a letter proposing an almost identical theory, that Darwin was forced to act. He rushed to publish the 'abstract' of his work, 'On the Origin of Species', a year later.",
+      "diagram": "assets/images/evolution.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📖",
+        "text": "在《物种起源》的第一版中，达尔文其实并没有使用“Evolution”（进化/演化）这个词（除了一次作为动词evolved出现在结尾）。他更喜欢用“带修饰的传代”（Descent with modification）。",
+        "text_en": "In the first edition of 'On the Origin of Species', Darwin didn't actually use the word 'Evolution' (except once as the verb 'evolved' at the very end). He preferred the phrase 'Descent with modification'."
+      },
+      {
+        "icon": "🐻",
+        "text": "在这本书的第一版中，达尔文举了一个例子：一只黑熊如果在水里游泳张嘴捕虫，久而久之可能会变成像鲸鱼一样的动物。这个例子因为被嘲笑太荒谬，在后来的版本中被删掉了。",
+        "text_en": "In the first edition, Darwin gave an example of a black bear swimming with its mouth open to catch insects, suggesting it could eventually evolve into a creature like a whale. This was mocked so much that he removed it from later editions."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，有一群甲虫，有的绿，有的褐。如果它们生活在褐色的土地上，绿色的甲虫很容易被鸟吃掉，而褐色的甲虫因为有保护色能活下来（适者生存）。\n活下来的褐色甲虫生了更多的宝宝，宝宝大部分也是褐色的（遗传）。\n几千年后，所有的甲虫都变成了褐色。\n大自然就像一个“育种员”，它挑选那些最适应环境的个体活下去。这就是“自然选择”。",
+      "text_en": "Imagine a group of beetles, some green, some brown. If they live on brown soil, the green beetles are easily eaten by birds, while the brown ones survive because of camouflage (Survival of the Fittest).\nThe surviving brown beetles have more babies, and most babies are also brown (Heredity).\nAfter thousands of years, all the beetles become brown.\nNature acts like a 'breeder', selecting the individuals best adapted to the environment to survive. This is 'Natural Selection'.",
+      "diagram": "assets/images/natural_selection.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💊",
+          "title": "抗药性细菌 (超级细菌)",
+          "title_en": "Antibiotic Resistance (Superbugs)",
+          "text": "细菌产生抗药性正是“自然选择”的实时演示：抗生素杀死了弱的细菌，留下了强的细菌，通过繁殖，最终只剩下“超级细菌”。",
+          "text_en": "Bacteria developing resistance is a real-time demo of 'Natural Selection': antibiotics kill the weak, leaving the strong to reproduce, eventually creating 'Superbugs'."
+        },
+        {
+          "icon": "🌾",
+          "title": "农业育种",
+          "title_en": "Agricultural Breeding",
+          "text": "人类种植农作物和饲养家畜（人工选择）的原理与自然选择完全一致，只是选择者从“大自然”变成了“人类”。",
+          "text_en": "Growing crops and raising livestock (Artificial Selection) works on the exact same principle as Natural Selection, only the selector is 'Human' instead of 'Nature'."
+        }
+      ],
+  
+    "impact": {
+      "text": "《物种起源》不仅是生物学的基石，也是人类思想史的分水岭。它将人类从“神之子”的地位拉回到了自然界，让我们意识到我们只是生命之树上的一个分枝。它终结了“目的论”（世界是为了某种目的而设计的），证明了复杂的生命可以通过盲目的、无意识的自然过程产生。正如遗传学家杜布赞斯基所说：“若无进化之光，生物学的一切都毫无意义。”",
+      "text_en": "'On the Origin of Species' is not only the cornerstone of biology but a watershed in human thought. It pulled humanity down from the status of 'Children of God' back to nature, realizing we are just one branch on the Tree of Life. It ended 'Teleology' (the idea that the world is designed for a purpose), proving complex life can arise from blind, unconscious natural processes. As geneticist Dobzhansky said: 'Nothing in biology makes sense except in the light of evolution.'",
+      "stats": [
+          {
+            "number": "1859",
+            "label": "年 (出版)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "1250",
+            "label": "本 (首版印量首日售罄)",
+            "label_en": "Copies (1st Edition sold out on Day 1)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "lyell_principles_geology_1830",
+          "contribution": "赖尔（其地质学巨著让达尔文意识到地球有足够漫长的历史来支持缓慢的进化）",
+          "contribution_en": "Charles Lyell (his 'Principles of Geology' made Darwin realize Earth was old enough for slow evolution)"
+        },
+        {
+          "id": "malthus_population_1798",
+          "contribution": "马尔萨斯（其人口论提供了“生存斗争”的概念，是自然选择理论的催化剂）",
+          "contribution_en": "Thomas Malthus (his essay on population provided the concept of 'struggle for existence', the catalyst for natural selection)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "mendel_genetics_1865",
+          "contribution": "孟德尔（达尔文当时不知道遗传机制，后来孟德尔的遗传学补上了这块拼图，形成了“现代综合进化论”）",
+          "contribution_en": "Gregor Mendel (Darwin didn't know the mechanism of heredity; Mendel's genetics later filled this puzzle piece, forming the 'Modern Synthesis')"
+        },
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（DNA双螺旋结构的发现，从分子层面最终证实了达尔文的共同祖先理论）",
+          "contribution_en": "Watson & Crick (Discovery of DNA structure finally confirmed Darwin's theory of common descent at the molecular level)"
+        }
+      ],
+      "legacy_text": "达尔文并没有杀死上帝，他只是告诉我们，大自然不需要设计师也能创造奇迹。",
+      "legacy_text_en": "Darwin didn't kill God; he simply told us that Nature can create miracles without a designer."
+    },
+  
+    "related_concepts": ["自然选择 (Natural Selection)", "演化 (Evolution)", "共同祖先 (Common Descent)", "适者生存 (Survival of the Fittest)", "贝格尔号 (HMS Beagle)", "加拉帕戈斯雀 (Galápagos Finches)"],
+    "related_concepts_en": ["Natural Selection", "Evolution", "Common Descent", "Survival of the Fittest", "HMS Beagle", "Galápagos Finches"],
+  
+    "quiz": {
+      "question": "达尔文提出“自然选择”理论时，受到谁的“人口论”中关于“资源有限导致生存斗争”观点的关键启发？",
+      "question_en": "When formulating 'Natural Selection', whose essay on 'population' and the 'struggle for existence' due to limited resources provided the key inspiration for Darwin?",
+      "options": [
+        "拉马克 (Lamarck)",
+        "莱尔 (Lyell)",
+        "马尔萨斯 (Malthus)",
+        "牛顿 (Newton)"
+      ],
+      "options_en": [
+        "Lamarck",
+        "Lyell",
+        "Malthus",
+        "Newton"
+      ],
+      "answer": 2,
+      "explanation": "达尔文在自传中写道，当他读到马尔萨斯关于人口按几何级数增长而食物只能按算术级数增长的论述时，他突然意识到在自然界激烈的生存竞争中，有利的变异会被保存，不利的会被淘汰。",
+      "explanation_en": "Darwin wrote in his autobiography that upon reading Malthus's argument that population grows geometrically while food grows arithmetically, he suddenly realized that in the fierce struggle for existence, favorable variations would be preserved and unfavorable ones destroyed."
+    }
+  }

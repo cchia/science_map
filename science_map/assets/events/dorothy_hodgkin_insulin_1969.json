@@ -1,0 +1,156 @@
+{
+    "id": "dorothy_hodgkin_insulin_1969",
+    "personId": "dorothy_hodgkin",
+    "title": "解析胰岛素结构 (35年的科学长征)",
+    "title_en": "Resolves the Structure of Insulin (A 35-Year Scientific Odyssey)",
+    "year": 1969,
+    "lat": 51.7548,
+    "lng": -1.2544,
+    "city": "牛津 (牛津大学)",
+    "city_en": "Oxford (University of Oxford)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["gene_story"],
+    "field": ["X射线晶体学", "生物化学"],
+    "field_en": ["X-ray Crystallography", "Biochemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Insulin_chain_A_and_B_linked_by_disulfide_bridges.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=WJLVFtvxTr8",
+        "title": "胰岛素结构和释放的简单解释",
+        "title_en": "Insulin structure and release in easy way",
+        "duration": "8:20"
+      }
+    },
+    
+    "summary": {
+      "text": "1969年，经过长达35年的不懈努力，英国化学家多萝西·霍奇金（Dorothy Hodgkin）终于揭示了“胰岛素”（Insulin）的完整三维晶体结构。虽然她早在1964年就因解析青霉素（`florey_chain_penicillin_1941`）和维生素B12的结构而获得了诺贝尔化学奖，但胰岛素才是她毕生最大的挑战。胰岛素分子极其复杂，包含近800个原子。霍奇金利用改进的X射线晶体学技术和早期计算机的辅助，绘制出了每个原子的精确位置。这一发现直接推动了后来人工合成胰岛素和转基因胰岛素的开发，造福了全球数亿糖尿病患者。",
+      "text_en": "In 1969, after 35 years of relentless effort, British chemist Dorothy Hodgkin finally revealed the complete three-dimensional crystal structure of 'Insulin'. Although she had already won the Nobel Prize in Chemistry in 1964 for solving the structures of Penicillin (`florey_chain_penicillin_1941`) and Vitamin B12, Insulin was her life's greatest challenge. The molecule is incredibly complex, containing nearly 800 atoms. Using advanced X-ray crystallography and early computer assistance, Hodgkin mapped the precise position of every atom. This discovery directly facilitated the later development of synthetic and genetically engineered insulin, benefiting hundreds of millions of diabetics worldwide.",
+      "key_points": [
+        "解析了胰岛素 (Insulin) 的三维结构",
+        "历时35年 (1934-1969) 的研究",
+        "解决了当时生物分子结构的最高难度",
+        "利用了X射线晶体学 (X-ray Crystallography)",
+        "为改善糖尿病治疗铺平了道路"
+      ],
+      "key_points_en": [
+        "Resolved the 3D structure of Insulin",
+        "35-year research duration (1934-1969)",
+        "Solved the highest difficulty level of biomolecular structure at the time",
+        "Utilized X-ray Crystallography",
+        "Paved the way for improved diabetes treatment"
+      ]
+    },
+  
+    "story": {
+      "text": "这可能是科学史上最漫长的“解谜游戏”。1934年，年仅24岁的霍奇金拿到了一块胰岛素晶体样本。在那一年，她拍下了第一张X射线照片，但当时的数学工具根本无法处理如此复杂的分子（就像试图用肉眼数清沙滩上的沙子）。\n随后的几十年里，她一边抚养三个孩子，一边患上了严重的类风湿性关节炎（她的手关节严重变形，甚至无法按下开关），但她从未放弃胰岛素。她先解开了青霉素（为了二战）和维生素B12（为了诺贝尔奖），把它们当作“练级”。随着计算机技术的出现，她终于在1969年攻克了胰岛素这个“最终BOSS”。当被问及为什么坚持这么久时，她说：“因为它的晶体太美了，我必须知道它的样子。”",
+      "text_en": "This might be the longest 'puzzle game' in science history. In 1934, 24-year-old Hodgkin received a sample of insulin crystals. That year, she took the first X-ray photo, but the mathematical tools of the time were woefully inadequate for such a complex molecule (like trying to count grains of sand on a beach with the naked eye).\nOver the next few decades, while raising three children and suffering from crippling rheumatoid arthritis (her hands were so deformed she struggled to flip switches), she never gave up on insulin. She first solved Penicillin (for WWII) and Vitamin B12 (for the Nobel) as 'practice levels'. With the advent of computers, she finally defeated the 'Final Boss', Insulin, in 1969. When asked why she persisted so long, she said: 'Because the crystals were so beautiful, I had to know what they looked like.'",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Insulincrystals.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👩‍🎓",
+        "text": "著名的“铁娘子”、英国首相玛格丽特·撒切尔（Margaret Thatcher）曾是霍奇金在牛津大学的学生，并在她的实验室里做过本科研究。据说撒切尔从霍奇金身上学到了严谨的逻辑思维。",
+        "text_en": "The famous 'Iron Lady', British Prime Minister Margaret Thatcher, was once Hodgkin's student at Oxford and did undergraduate research in her lab. It is said Thatcher learned rigorous logical thinking from Hodgkin."
+      },
+      {
+        "icon": "👐",
+        "text": "霍奇金的手因为关节炎严重变形，被人们称为“像老鹰的爪子”，但她用这双手操作着世界上最精密的X射线仪器，直到退休。",
+        "text_en": "Hodgkin's hands were severely deformed by arthritis, described as looking 'like eagle claws', yet she operated the world's most delicate X-ray instruments with them until retirement."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "胰岛素是身体控制血糖的钥匙。但在霍奇金之前，我们只知道这把钥匙是由什么金属（氨基酸）做的，却不知道钥匙上的“齿痕”（形状）长什么样。\n不知道形状，科学家就造不出更好用的钥匙（药物）。\n霍奇金用X射线给这把极其微小的钥匙拍了成千上万张照片，然后用数学算出了它的立体形状。这让医生终于看清了这把救命钥匙的真面目。",
+      "text_en": "Insulin is the key that controls blood sugar. Before Hodgkin, we knew what metal (amino acids) the key was made of, but not what the 'ridges' (shape) on the key looked like.\nWithout knowing the shape, scientists couldn't make better keys (drugs).\nHodgkin took thousands of X-ray photos of this tiny key and used math to calculate its 3D shape. This finally let doctors see the true face of this life-saving key.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b4/InsulinMonomer.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💉",
+          "title": "人工胰岛素",
+          "title_en": "Synthetic Insulin",
+          "text": "了解结构后，科学家能够修改胰岛素的结构，制造出“速效”或“长效”胰岛素，让糖尿病人生活更方便。",
+          "text_en": "Knowing the structure allowed scientists to modify insulin, creating 'fast-acting' or 'long-acting' versions, making life easier for diabetics."
+        },
+        {
+          "icon": "💊",
+          "title": "药物结合机制",
+          "title_en": "Drug Binding",
+          "text": "它展示了蛋白质如何与受体结合，这是现代药理学的核心。",
+          "text_en": "It demonstrated how proteins bind to receptors, which is the core of modern pharmacology."
+        }
+      ],
+  
+    "impact": {
+      "text": "霍奇金被认为是20世纪最伟大的科学家之一。她是当时唯一一位获得诺贝尔科学奖的英国女性。她对胰岛素的解析不仅是晶体学的巅峰之作，也不仅拯救了病人，更重要的是，她打破了当时人们认为“X射线晶体学只能处理简单小分子”的偏见，证明了这种技术可以用来解析巨大的生物大分子（如蛋白质），直接启发了后来的结构生物学大爆发。",
+      "text_en": "Hodgkin is considered one of the greatest scientists of the 20th century. She was the only British woman to win a Nobel science prize at the time. Her solution of insulin was not only the pinnacle of crystallography and a lifesaver for patients, but crucially, it shattered the prejudice that 'X-ray crystallography is only for simple small molecules'. She proved it could solve massive biomolecules (like proteins), directly triggering the later boom in structural biology.",
+      "stats": [
+          {
+            "number": "1969",
+            "label": "年 (结构解析)",
+            "label_en": "Year (Structure Solved)"
+          },
+          {
+            "number": "35",
+            "label": "年 (研究时长)",
+            "label_en": "Years (Research Time)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "bragg_xray_1913",
+          "contribution": "威廉·布拉格（X射线晶体学之父，他亲自指导并鼓励了霍奇金）",
+          "contribution_en": "William Bragg (Father of X-ray crystallography, who personally mentored and encouraged Hodgkin)"
+        },
+        {
+          "id": "bernal_protein_xray_1934",
+          "contribution": "J.D. 伯纳尔（霍奇金的博士导师，他们一起首次拍摄了蛋白质晶体的X射线衍射图）",
+          "contribution_en": "J.D. Bernal (Hodgkin's PhD advisor; together they took the first-ever X-ray diffraction images of protein crystals)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "franklin_photo_51_1952",
+          "contribution": "罗莎琳德·富兰克林（霍奇金在牛津的技术突破和女性科学家的成功，深深激励了富兰克林）",
+          "contribution_en": "Rosalind Franklin (Hodgkin's technical breakthroughs and success as a woman scientist at Oxford deeply inspired Franklin)"
+        },
+        {
+          "id": "modern_drug_design",
+          "contribution": "基于结构的药物设计（霍奇金的工作确立了“看到结构才能设计药物”的范式）",
+          "contribution_en": "Structure-Based Drug Design (Hodgkin's work established the paradigm: 'You must see the structure to design the drug')"
+        }
+      ],
+      "legacy_text": "霍奇金用一生的时间，看清了一粒盐那么大的晶体里的世界。",
+      "legacy_text_en": "Hodgkin spent a lifetime seeing the world inside a crystal the size of a grain of salt."
+    },
+  
+    "related_concepts": ["X射线晶体学 (X-ray Crystallography)", "胰岛素 (Insulin)", "维生素B12", "青霉素", "诺贝尔化学奖"],
+    "related_concepts_en": ["X-ray Crystallography", "Insulin", "Vitamin B12", "Penicillin", "Nobel Prize in Chemistry"],
+  
+    "quiz": {
+      "question": "多萝西·霍奇金主要是利用什么技术解析了青霉素、维生素B12和胰岛素的结构？",
+      "question_en": "What technique did Dorothy Hodgkin primarily use to resolve the structures of Penicillin, Vitamin B12, and Insulin?",
+      "options": [
+        "核磁共振 (NMR)",
+        "电子显微镜 (Electron Microscopy)",
+        "X射线晶体学 (X-ray Crystallography)",
+        "化学滴定法 (Chemical Titration)"
+      ],
+      "options_en": [
+        "Nuclear Magnetic Resonance (NMR)",
+        "Electron Microscopy",
+        "X-ray Crystallography",
+        "Chemical Titration"
+      ],
+      "answer": 2,
+      "explanation": "她是X射线晶体学的大师。这项技术通过测量X射线穿过晶体后的衍射图案，反推出分子内部原子的排列位置。",
+      "explanation_en": "She was the master of X-ray Crystallography. This technique deduces the arrangement of atoms within a molecule by measuring the diffraction patterns of X-rays passing through the crystal."
+    }
+  }

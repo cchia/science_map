@@ -1,0 +1,10 @@
+{
+    "name": "科林·麦克劳德",
+    "name_en": "Colin MacLeod",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e5/ColinMacCleod.jpg",
+    "bio_short": "加拿大裔美国遗传学家。作为艾弗里团队的核心成员之一，他参与了1944年的经典实验（`avery_dna_principle_1944`），通过分离肺炎双球菌的转化因子，帮助确认了DNA是遗传物质。",
+    "bio_short_en": "A Canadian-American geneticist. As a core member of Avery's team, he participated in the classic 1944 experiment (`avery_dna_principle_1944`), helping to identify DNA as the genetic material by isolating the transforming principle of Pneumococcus.",
+    "events": [
+      "avery_dna_principle_1944"
+    ]
+  }

@@ -168,6 +168,38 @@
       "florey_chain_penicillin_1941",
       "waksman_streptomycin_1943"
     ]
+  },
+
+  "gene_story": {
+    "id": "gene_story",
+    "title_zh": "生命的源代码",
+    "title_en": "The Source Code of Life",
+    "emoji": "🧬",
+    "description_zh": "从达尔文的演化论到CRISPR基因编辑，探索生命是如何被“编程”的。",
+    "description_en": "From Darwin's evolution to CRISPR. Exploring how life is 'programmed'.",
+    "events": [
+      "darwin_evolution_1859",        
+      "mendel_genetics_1866",        
+      "miescher_nuclein_1869",        
+      "morgan_fruit_fly_1910",        
+      "stanley_crystallization_1935", 
+      "griffith_experiment_1928",     
+      "schrodinger_what_is_life_1944",
+      "avery_dna_principle_1944",     
+      "chargaff_rules_1950",     
+      "wilkins_dna_diffraction_1950",
+      "pauling_alpha_helix_1951",     
+      "franklin_photo_51_1952",       
+      "watson_crick_dna_1953",        
+      "crick_central_dogma_1958",     
+      "dorothy_hodgkin_insulin_1969", 
+      "human_genome_project_2003",    
+      "crispr_gene_editing_2012",
+      "gene_drive_2014",
+      "base_editing_2016",
+      "prime_editing_2019",
+      "twin_prime_editing_2021"
+    ]
   }
   
   }

@@ -1,0 +1,10 @@
+{
+    "name": "克雷格·文特尔",
+    "name_en": "J. Craig Venter",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Craigventer2.jpg",
+    "bio_short": "美国生物学家和企业家，被称为科学界的“坏小子”。他创立了塞莱拉基因公司（Celera Genomics），利用激进的“鸟枪法”测序技术，领导私营团队与政府主导的公立团队展开竞争，极大地加速了人类基因组计划的完成（`human_genome_project_2003`）。他还创造了世界上第一个人造生命（合成细胞）。",
+    "bio_short_en": "An American biotechnologist and entrepreneur, often called the 'bad boy' of science. He founded Celera Genomics and used the radical 'shotgun sequencing' technique to lead the private effort in a race against the government-led public team, drastically accelerating the completion of the Human Genome Project (`human_genome_project_2003`). He also created the world's first synthetic life form.",
+    "events": [
+      "human_genome_project_2003"
+    ]
+  }

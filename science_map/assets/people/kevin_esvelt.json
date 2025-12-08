@@ -1,0 +1,10 @@
+{
+    "name": "凯文·埃斯维尔特",
+    "name_en": "Kevin Esvelt",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kevin_Esvelt.png",
+    "bio_short": "美国生物学家，麻省理工学院（MIT）媒体实验室教授。他是CRISPR“基因驱动”技术的提出者（`gene_drive_2014`），但他同时也是该技术最严厉的警哨人，致力于倡导生物技术的生态安全和道德规范，防止不受控制的基因扩散。",
+    "bio_short_en": "An American biologist and professor at the MIT Media Lab. He proposed the CRISPR-based 'Gene Drive' technology (`gene_drive_2014`). However, he is also its harshest whistleblower, dedicated to advocating for ecological safety and ethical standards in biotechnology to prevent uncontrolled genetic spread.",
+    "events": [
+      "gene_drive_2014"
+    ]
+  }

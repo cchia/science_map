@@ -1,0 +1,10 @@
+{
+    "name": "莱纳斯·鲍林",
+    "name_en": "Linus Pauling",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/53/Linus_Pauling_in_the_1940s.jpg",
+    "bio_short": "美国化学家，被誉为“分子生物学之父”之一。他是历史上唯一一位两次获得“独享”诺贝尔奖（1954年化学奖，1962年和平奖）的科学家。他发现了蛋白质的α螺旋结构（`pauling_alpha_helix_1951`），并极大地推进了人类对化学键本质的理解。",
+    "bio_short_en": "An American chemist and one of the founders of molecular biology. He is the only person in history to win two unshared Nobel Prizes (Chemistry in 1954, Peace in 1962). He discovered the alpha helix structure of proteins (`pauling_alpha_helix_1951`) and revolutionized the understanding of the nature of the chemical bond.",
+    "events": [
+      "pauling_alpha_helix_1951"
+    ]
+  }

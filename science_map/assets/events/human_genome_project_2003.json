@@ -1,0 +1,156 @@
+{
+    "id": "human_genome_project_2003",
+    "personId": ["francis_collins", "craig_venter"],
+    "title": "人类基因组计划完成 (绘制“生命之书”)",
+    "title_en": "Completion of the Human Genome Project (Mapping the 'Book of Life')",
+    "year": 2003,
+    "lat": 38.9859,
+    "lng": -77.1219,
+    "city": "贝塞斯达 (美国国立卫生研究院)",
+    "city_en": "Bethesda (National Institutes of Health)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["gene_story"],
+    "field": ["遗传学", "生物信息学"],
+    "field_en": ["Genetics", "Bioinformatics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_HGP.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=AhsIF-cmoQQ",
+        "title": "人类基因组测序竞赛",
+        "title_en": "The race to sequence the human genome",
+        "duration": "4:59"
+      }
+    },
+    
+    "summary": {
+      "text": "2003年4月14日，国际人类基因组测序联盟宣布，历时13年、耗资30亿美元的“人类基因组计划”（HGP）正式完成。这是一项规模宏大的国际科研合作，由美国科学家弗朗西斯·柯林斯（Francis Collins）领导的公立团队与克雷格·文特尔（Craig Venter）领导的私营公司 Celera Genomics 共同推动。他们成功测序了人类DNA中约30亿个碱基对的序列，识别了约20,000-25,000个基因。这被誉为生物学领域的“登月计划”，标志着人类终于读懂了自己身体的“源代码”。",
+      "text_en": "On April 14, 2003, the International Human Genome Sequencing Consortium announced the formal completion of the 'Human Genome Project' (HGP), a 13-year, $3 billion endeavor. This massive international collaboration was driven by a public team led by Francis Collins and a private company, Celera Genomics, led by Craig Venter. They successfully sequenced the approximately 3 billion base pairs of human DNA and identified about 20,000-25,000 genes. Hailed as the 'Moonshot' of biology, it marked the moment humanity finally read the 'source code' of its own body.",
+      "key_points": [
+        "完成人类全基因组测序 (30亿碱基对)",
+        "生物学史上的“登月计划” (Moonshot)",
+        "公立团队 (柯林斯) 与私企 (文特尔) 的竞争与合作",
+        "发现人类基因数量远少于预期 (仅约2万个)",
+        "基因数据对全球免费公开"
+      ],
+      "key_points_en": [
+        "Completed sequencing of the entire human genome (3 billion base pairs)",
+        "The 'Moonshot' of biology",
+        "Competition and collaboration between Public (Collins) and Private (Venter) teams",
+        "Discovered human gene count was far lower than expected (only ~20k)",
+        "Genetic data made freely available to the world"
+      ]
+    },
+  
+    "story": {
+      "text": "这不仅是一项科学工程，更是一场惊心动魄的商业竞赛。最初，由政府资助的公立团队（HGP）进展缓慢，采取“逐个击破”的策略。1998年，原本在NIH工作的克雷格·文特尔因不满进度，辞职创立了Celera公司，宣称要用更激进的“鸟枪法”（Shotgun Sequencing）在三年内完成测序，并试图将基因数据申请专利。这引发了科学界的恐慌：人类的基因会变成私有财产吗？\n这种威胁迫使公立团队大大加速。最终，在当时的美国总统克林顿和英国首相布莱尔的斡旋下，双方达成了“停火协议”。2000年，两人在白宫共同宣布了草图的完成，打成了平手。这确保了人类基因组数据最终留在了公共领域，任何人都可以免费查阅。",
+      "text_en": "This was not just a scientific project, but a thrilling commercial race. Initially, the government-funded public team (HGP) moved slowly using a 'map-based' strategy. In 1998, Craig Venter, frustrated with the pace, left the NIH to found Celera Genomics. He announced he would finish the sequence in three years using the radical 'Shotgun Sequencing' method and intended to patent the data. This panicked the scientific community: Would human genes become private property?\nThis threat forced the public team to accelerate dramatically. Finally, mediated by President Clinton and PM Tony Blair, a 'ceasefire' was reached. In 2000, the two rivals jointly announced the completion of the draft genome at the White House, declaring a tie. This ensured that the human genome data remained in the public domain, free for anyone to access.",
+      "diagram": "assets/images/chromosome_map.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💰",
+        "text": "人类基因组计划耗资约30亿美元。而今天（2020年代），测序一个人的完整基因组只需要不到100美元。这是科技史上成本下降最快的技术之一，比摩尔定律还要快。",
+        "text_en": "The HGP cost about $3 billion. Today (2020s), sequencing a full human genome costs less than $100. This is one of the fastest cost reductions in tech history, beating Moore's Law."
+      },
+      {
+        "icon": "📉",
+        "text": "在计划开始前，科学家猜测人类至少有10万个基因（因为人类很复杂）。结果发现我们只有约2万个基因，比线虫（1.9万）多不了多少，甚至比水稻（4万）还少！这让万物之灵的人类有点尴尬。",
+        "text_en": "Before the project, scientists guessed humans had at least 100,000 genes (since we are so complex). It turned out we only have about 20,000, barely more than a roundworm (19k) and even fewer than rice (40k)! A bit embarrassing for the 'lords of creation'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，你的身体里有一本超厚的说明书，指导你怎么长头发、怎么消化食物、会不会得病。但这本说明书是用一种没人看得懂的文字（ATCG）写的，而且有30亿个字。\n人类基因组计划就是把这本天书里的每一个字都抄写下来，并编上页码。虽然我们现在还不能完全读懂每一句话的意思，但我们至少终于拿到了这本完整的书。",
+      "text_en": "Imagine there is a massive instruction manual inside your body guiding how you grow hair, digest food, or get sick. But this manual is written in a language no one understands (ATCG) and has 3 billion letters.\nThe Human Genome Project was the effort to transcribe every single letter of this book and number the pages. Although we still don't fully understand the meaning of every sentence, we finally have the complete book in our hands.",
+      "diagram": "assets/images/chromosome_map.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💊",
+          "title": "精准医疗",
+          "title_en": "Precision Medicine",
+          "text": "医生现在可以根据你的基因突变来开药（例如针对特定基因突变的癌症靶向药），而不是对所有人都用同一种药。",
+          "text_en": "Doctors can now prescribe drugs based on your specific genetic mutations (e.g., targeted cancer therapies), rather than a 'one size fits all' approach."
+        },
+        {
+          "icon": "🌳",
+          "title": "祖源分析",
+          "title_en": "Ancestry Analysis",
+          "text": "像23andMe这样的服务之所以存在，完全归功于人类基因组计划提供的参考图谱。",
+          "text_en": "Services like 23andMe exist entirely thanks to the reference map provided by the Human Genome Project."
+        }
+      ],
+  
+    "impact": {
+      "text": "人类基因组计划是生物学的“元素周期表”时刻。它彻底改变了生命科学的研究方式，从“寻找一个基因”变成了“分析海量数据”（生物信息学）。它带来的经济效益高达万亿美元级。更重要的是，它从根本上改变了我们对自己身世的理解——所有人类，无论种族，基因相似度高达99.9%。",
+      "text_en": "The HGP was biology's 'Periodic Table' moment. It revolutionized life sciences, shifting research from 'hunting for one gene' to 'analyzing big data' (Bioinformatics). It generated economic returns in the trillions. Most importantly, it fundamentally changed our understanding of ourselves—all humans, regardless of race, are 99.9% genetically identical.",
+      "stats": [
+          {
+            "number": "2003",
+            "label": "年 (完成)",
+            "label_en": "Year (Completed)"
+          },
+          {
+            "number": "30亿",
+            "label": "美元 (总成本)",
+            "label_en": "USD (Total Cost)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（发现了DNA结构，沃森还是HGP的第一任领导者）",
+          "contribution_en": "Watson & Crick (Discovered DNA structure; Watson was also the first leader of HGP)"
+        },
+        {
+          "id": "sanger_sequencing_1977",
+          "contribution": "弗雷德里克·桑格（发明了测序技术，是HGP使用的核心技术基础）",
+          "contribution_en": "Frederick Sanger (Invented the sequencing technology that was the core foundation of the HGP)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "crispr_gene_editing_2012",
+          "contribution": "CRISPR技术（只有先“读”懂了基因组，我们才能精确地去“写”和“改”它）",
+          "contribution_en": "CRISPR Technology (Only after 'reading' the genome could we precisely start 'writing' and 'editing' it)"
+        },
+        {
+          "id": "1000_genomes_project",
+          "contribution": "千人基因组计划（HGP之后，科学家开始研究不同人群之间的基因差异）",
+          "contribution_en": "1000 Genomes Project (After HGP, scientists started studying genetic variations across different populations)"
+        }
+      ],
+      "legacy_text": "我们终于打开了上帝写的代码库。",
+      "legacy_text_en": "We finally opened the code repository written by God."
+    },
+  
+    "related_concepts": ["基因组 (Genome)", "鸟枪法测序 (Shotgun Sequencing)", "生物信息学 (Bioinformatics)", "精准医疗 (Precision Medicine)", "弗朗西斯·柯林斯", "克雷格·文特尔"],
+    "related_concepts_en": ["Genome", "Shotgun Sequencing", "Bioinformatics", "Precision Medicine", "Francis Collins", "Craig Venter"],
+  
+    "quiz": {
+      "question": "人类基因组计划的一个意外发现是什么，它挑战了人类作为“高等生物”的自尊心？",
+      "question_en": "What was a surprising finding of the Human Genome Project that challenged human ego as a 'superior organism'?",
+      "options": [
+        "人类基因中含有大量外星DNA",
+        "人类的基因数量（约2万个）并不比低等蠕虫多多少",
+        "人类基因组是无法测序的",
+        "人类没有任何独特的基因"
+      ],
+      "options_en": [
+        "Human genes contain a lot of alien DNA",
+        "Human gene count (~20k) is not much higher than a lowly worm",
+        "The human genome is impossible to sequence",
+        "Humans have no unique genes"
+      ],
+      "answer": 1,
+      "explanation": "科学家原以为复杂的生命需要更多的基因，但HGP揭示人类基因数量惊人地少，甚至少于水稻。这证明生命的复杂性不取决于“零件”的数量，而取决于“零件”如何被调控和组装（选择性剪接等）。",
+      "explanation_en": "Scientists thought complex life needed more genes, but HGP revealed humans have shockingly few genes, fewer even than rice. This proved life's complexity depends not on the number of 'parts', but on how those parts are regulated and assembled (alternative splicing, etc.)."
+    }
+  }

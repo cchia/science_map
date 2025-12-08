@@ -1,0 +1,146 @@
+{
+    "id": "schrodinger_what_is_life_1944",
+    "personId": "erwin_schrodinger",
+    "title": "发表《生命是什么》 (预言遗传密码)",
+    "title_en": "Publishes 'What is Life?' (Predicting the Genetic Code)",
+    "year": 1944,
+    "lat": 53.3438,
+    "lng": -6.2546,
+    "city": "都柏林 (三一学院)",
+    "city_en": "Dublin (Trinity College Dublin)",
+    "country": "爱尔兰",
+    "country_en": "Ireland",
+    "storyline_id": ["gene_story"],
+    "field": ["物理学", "生物学"],
+    "field_en": ["Physics", "Biology"],
+    
+    "media": {
+      "event_image": "assets/images/what_is_life.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2t2go5zkL-A",
+        "title": "薛定谔的问题：生命是什么？",
+        "title_en": "Schrodinger's Question: What Is Life?",
+        "duration": "3:39"
+      }
+    },
+    
+    "summary": {
+      "text": "1944年，著名的量子力学奠基人埃尔温·薛定谔（Erwin Schrödinger）出版了一本名为《生命是什么》（What is Life?）的小册子。这本书基于他在都柏林三一学院的讲座。作为一个物理学家，他试图用物理和化学定律来解释生命现象。他提出了两个极具前瞻性的概念：1. 生命以“负熵”（Negative Entropy）为食，以对抗热力学第二定律带来的混乱；2. 遗传信息必须存储在一种微小的“非周期性晶体”（Aperiodic Crystal）中。这个“非周期性晶体”的预言，直接启发了后来的沃森和克里克去寻找DNA的分子结构。",
+      "text_en": "In 1944, the renowned founder of quantum mechanics, Erwin Schrödinger, published a small book titled 'What is Life?', based on his lectures at Trinity College Dublin. As a physicist, he attempted to explain life phenomena using the laws of physics and chemistry. He proposed two visionary concepts: 1. Life feeds on 'Negative Entropy' to fight the disorder imposed by the Second Law of Thermodynamics; 2. Genetic information must be stored in a tiny 'Aperiodic Crystal'. This prediction of an 'aperiodic crystal' directly inspired Watson and Crick to search for the molecular structure of DNA.",
+      "key_points": [
+        "发表著作《生命是什么》(What is Life?)",
+        "提出“非周期性晶体”(Aperiodic Crystal) 概念",
+        "提出“负熵”(Negative Entropy) 概念",
+        "物理学家跨界生物学的里程碑",
+        "直接启发了DNA双螺旋的发现"
+      ],
+      "key_points_en": [
+        "Published 'What is Life?'",
+        "Proposed the concept of 'Aperiodic Crystal'",
+        "Proposed the concept of 'Negative Entropy'",
+        "A milestone of a physicist crossing into biology",
+        "Directly inspired the discovery of the DNA double helix"
+      ]
+    },
+  
+    "story": {
+      "text": "二战期间，薛定谔流亡在爱尔兰。他在讲座中问了一个听起来很简单的问题：为什么原子那么小，而我们（由原子组成）却那么大？更重要的是，微观粒子是无序的，生命体通过什么机制来维持极其精确的遗传秩序？\n他推断，遗传物质不可能是一个普通的重复晶体（像盐那样，ABABAB...），因为那样无法携带足够的信息。它必须是一个“非周期性晶体”（像莫尔斯电码，ABBAAC...），既有结构又有变化。这本书像一颗炸弹，在当时年轻的物理学家中引爆了。许多对物理感到厌倦的科学家（如沃森、克里克、威尔金斯）读了这本书后，决定转行去解开这个“生命晶体”的秘密。",
+      "text_en": "During WWII, Schrödinger was in exile in Ireland. In his lectures, he asked a seemingly simple question: Why are atoms so small, yet we (made of atoms) are so big? More importantly, microscopic particles are chaotic, so by what mechanism does life maintain such precise genetic order?\nHe deduced that genetic material could not be a simple repeating crystal (like salt, ABABAB...) because that couldn't carry enough information. It had to be an 'Aperiodic Crystal' (like Morse code, ABBAAC...), having structure but also variation. This book was like a bomb among young physicists. Many scientists tired of physics (like Watson, Crick, Wilkins) read it and decided to switch fields to crack the secret of this 'life crystal'.",
+      "diagram": "assets/images/what_is_life_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💎",
+        "text": "薛定谔发明的术语“非周期性晶体”，实际上就是我们今天所说的“遗传密码”（DNA序列）。他在没人知道DNA结构的时候，就从逻辑上推导出了它必须具备的数学特征。",
+        "text_en": "The term 'Aperiodic Crystal' coined by Schrödinger is essentially what we call the 'Genetic Code' (DNA sequence) today. He logically deduced the mathematical properties it must have, long before anyone knew the structure of DNA."
+      },
+      {
+        "icon": "⚡",
+        "text": "这本书非常薄，只有不到100页，但被认为是“20世纪生物学最重要的书之一”，尽管作者是个物理学家。",
+        "text_en": "The book is very thin, less than 100 pages, yet it is considered 'one of the most important books in 20th-century biology', even though the author was a physicist."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "物理学说，宇宙万物都会越来越乱（熵增），就像你的房间不收拾就会变乱一样。那为什么生命能保持井井有条，甚至还能生出井井有条的宝宝呢？\n薛定谔说：\n1. 生命通过“吃”环境里的秩序（负熵）来维持自己的秩序。\n2. 生命的蓝图写在一种特殊的“密码条”上。普通的晶体像墙纸，花纹是重复的（没信息）；生命的晶体像一本书，字是不重复的（有信息）。\n这让大家意识到，研究生命就是研究这本“密码书”。",
+      "text_en": "Physics says everything in the universe gets messier over time (Entropy), just like your room gets messy if you don't clean it. So how does life stay organized and produce organized babies?\nSchrödinger said:\n1. Life maintains its order by 'eating' order from the environment (Negative Entropy).\n2. Life's blueprint is written on a special 'code strip'. Regular crystals are like wallpaper, with repeating patterns (no info); Life's crystal is like a book, with non-repeating letters (full of info).\nThis made everyone realize that studying life meant studying this 'code book'.",
+      "diagram": "assets/images/what_is_life_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "分子生物学",
+          "title_en": "Molecular Biology",
+          "text": "这本书被公认为分子生物学的“独立宣言”，它促使生物学从描述性科学转向了信息科学。",
+          "text_en": "This book is considered the 'Declaration of Independence' for Molecular Biology, shifting biology from a descriptive science to an information science."
+        },
+        {
+          "icon": "💻",
+          "title": "信息论",
+          "title_en": "Information Theory",
+          "text": "他关于遗传即“编码”的思想，与后来的计算机科学和信息论不谋而合。",
+          "text_en": "His idea of heredity as 'code' coincided with the later development of computer science and information theory."
+        }
+      ],
+  
+    "impact": {
+      "text": "如果说孟德尔发现了遗传的规律，薛定谔则指出了遗传物质的物理本质。他虽然没有做实验，但他用思想武装了下一代生物学家。沃森（Watson）和克里克（Crick）都公开承认，正是读了这本书，才让他们决心去寻找那个“非周期性晶体”——即后来的DNA双螺旋。",
+      "text_en": "If Mendel discovered the laws of heredity, Schrödinger pointed out the physical nature of the hereditary material. Though he did no experiments, he armed the next generation of biologists with ideas. Both Watson and Crick publicly acknowledged that reading this book made them determined to find that 'aperiodic crystal'—which turned out to be the DNA double helix.",
+      "stats": [
+          {
+            "number": "1944",
+            "label": "年 (出版)",
+            "label_en": "Year (Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "delbruck_model_1935",
+          "contribution": "麦克斯·德尔布吕克（薛定谔在书中大量引用了德尔布吕克关于基因突变的原子物理模型）",
+          "contribution_en": "Max Delbrück (Schrödinger heavily cited Delbrück's atomic physics model of gene mutation)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（两人都是该书的忠实读者，受其启发投身DNA研究）",
+          "contribution_en": "Watson & Crick (Both were avid readers of the book and were inspired by it to pursue DNA research)"
+        },
+        {
+          "id": "wilkins_dna_diffraction_1950",
+          "contribution": "莫里斯·威尔金斯（本来在研究曼哈顿计划，读了书后决定转向生物物理）",
+          "contribution_en": "Maurice Wilkins (Was working on the Manhattan Project, but switched to biophysics after reading the book)"
+        }
+      ],
+      "legacy_text": "薛定谔用一只物理学的手，推开了生物学新时代的大门。",
+      "legacy_text_en": "Schrödinger used a physicist's hand to push open the door to a new era of biology."
+    },
+  
+    "related_concepts": ["非周期性晶体 (Aperiodic Crystal)", "负熵 (Negative Entropy)", "分子生物学 (Molecular Biology)", "热力学第二定律", "遗传密码"],
+    "related_concepts_en": ["Aperiodic Crystal", "Negative Entropy", "Molecular Biology", "Second Law of Thermodynamics", "Genetic Code"],
+  
+    "quiz": {
+      "question": "薛定谔在《生命是什么》中用什么术语来预测DNA的结构特征，暗示它既稳定又能携带大量信息？",
+      "question_en": "What term did Schrödinger use in 'What is Life?' to predict the structural feature of DNA, implying it was stable yet capable of carrying vast information?",
+      "options": [
+        "双螺旋 (Double Helix)",
+        "非周期性晶体 (Aperiodic Crystal)",
+        "量子泡沫 (Quantum Foam)",
+        "蛋白质支架 (Protein Scaffold)"
+      ],
+      "options_en": [
+        "Double Helix",
+        "Aperiodic Crystal",
+        "Quantum Foam",
+        "Protein Scaffold"
+      ],
+      "answer": 1,
+      "explanation": "薛定谔认为，普通的周期性晶体（如盐）结构单一重复，无法携带信息。只有“非周期性”的结构（像复杂的挂毯图案）才能编码生命所需的复杂指令。",
+      "explanation_en": "Schrödinger argued that ordinary periodic crystals (like salt) have a simple repeating structure and cannot carry information. Only an 'aperiodic' structure (like a complex tapestry pattern) could encode the complex instructions required for life."
+    }
+  }

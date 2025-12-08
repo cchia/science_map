@@ -1,0 +1,146 @@
+{
+    "id": "griffith_experiment_1928",
+    "personId": "frederick_griffith",
+    "title": "发现“转化原则” (DNA作为遗传物质的线索)",
+    "title_en": "Discovery of the 'Transforming Principle' (Clue to DNA as Genetic Material)",
+    "year": 1928,
+    "lat": 51.4988,
+    "lng": -0.1377,
+    "city": "伦敦 (卫生部病理实验室)",
+    "city_en": "London (Ministry of Health's Pathological Laboratory)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["gene_story"],
+    "field": ["微生物学", "遗传学"],
+    "field_en": ["Microbiology", "Genetics"],
+    
+    "media": {
+      "event_image": "assets/images/transforming_principle.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=92HWRdvDF_s",
+        "title": "格里菲斯实验与转化原则",
+        "title_en": "Griffith's Experiment: Bacterial Transformation",
+        "duration": "3:44"
+      }
+    },
+    
+    "summary": {
+      "text": "1928年，英国细菌学家弗雷德里克·格里菲斯（Frederick Griffith）在试图研制肺炎疫苗时，偶然发现了一个改变生物学历史的现象。他使用了两种肺炎双球菌：有毒的“S型”（光滑，有荚膜）和无毒的“R型”（粗糙，无荚膜）。当他把“被加热杀死的S型细菌”和“活的R型细菌”混合注射到老鼠体内时，老鼠竟然死了。更惊人的是，他在死老鼠体内发现了“活的S型细菌”。这证明，死亡的S型细菌中某种耐热的物质，“转化”了无毒的R型细菌，使其获得了致病性。格里菲斯将这种物质称为“转化原则”（Transforming Principle）。",
+      "text_en": "In 1928, British bacteriologist Frederick Griffith, while trying to develop a pneumonia vaccine, accidentally discovered a phenomenon that changed biological history. He used two strains of *Streptococcus pneumoniae*: virulent 'Type S' (Smooth, with capsule) and non-virulent 'Type R' (Rough, no capsule). When he injected a mixture of 'heat-killed Type S bacteria' and 'living Type R bacteria' into mice, the mice died. Shockingly, he recovered 'living Type S bacteria' from the dead mice. This proved that some heat-stable substance from the dead S bacteria had 'transformed' the harmless R bacteria into virulent ones. Griffith called this substance the 'Transforming Principle'.",
+      "key_points": [
+        "发现了细菌的“转化”现象 (Transformation)",
+        "提出了“转化原则” (Transforming Principle)",
+        "实验对象：肺炎双球菌 (Pneumococcus) 和老鼠",
+        "证明死细菌可以将遗传特征传给活细菌",
+        "为后来证明DNA是遗传物质奠定了基础"
+      ],
+      "key_points_en": [
+        "Discovered bacterial 'Transformation'",
+        "Proposed the 'Transforming Principle'",
+        "Subjects: Pneumococcus and Mice",
+        "Proved dead bacteria can pass genetic traits to living ones",
+        "Laid the foundation for proving DNA is genetic material"
+      ]
+    },
+  
+    "story": {
+      "text": "格里菲斯是一个非常安静、内向的人，他在卫生部的实验室里默默工作，主要目标是应对继1918年大流感后依然肆虐的细菌性肺炎。他的实验逻辑原本很简单：\n1. 注射活S菌 -> 老鼠死。\n2. 注射活R菌 -> 老鼠活。\n3. 注射加热杀死的S菌 -> 老鼠活（因为细菌死了）。\n4. 混合注射（死S + 活R） -> **老鼠死了？！**\n格里菲斯解剖了第四组死老鼠，惊恐地发现它们的血液里充满了活生生的、有毒的S型细菌。这就像是你把一只死老虎和一只活猫关在一起，结果活猫变成了活老虎。虽然格里菲斯当时不知道这个“魔术”背后的物质是DNA，但他的实验证明了生命的本质是可以被“转移”的化学物质，而不是不可触碰的活力。",
+      "text_en": "Griffith was a quiet, introverted man working in a Ministry of Health lab, aiming to fight bacterial pneumonia still raging after the 1918 flu. His logic was simple:\n1. Inject live S -> Mouse dies.\n2. Inject live R -> Mouse lives.\n3. Inject heat-killed S -> Mouse lives (bacteria are dead).\n4. Inject Mixture (Dead S + Live R) -> **Mouse dies?!**\nGriffith dissected the dead mice from group 4 and was shocked to find their blood teeming with live, virulent Type S bacteria. It was as if you locked a dead tiger and a live cat in a room, and the cat turned into a live tiger. Though Griffith didn't know the 'magic' substance was DNA, his experiment proved that the essence of life was a transferable chemical, not an intangible vital force.",
+      "diagram": "assets/images/transforming_principle_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🕵️",
+        "text": "格里菲斯本人在二战期间死于纳粹对伦敦的空袭（1941年），他没能活着看到艾弗里（Avery）最终解开他的“转化原则”之谜。",
+        "text_en": "Griffith himself was killed during the Nazi Blitz on London in 1941. He did not live to see Avery finally solve the puzzle of his 'Transforming Principle'."
+      },
+      {
+        "icon": "🍬",
+        "text": "S型细菌之所以致命，是因为它们外面包裹着一层多糖“胶囊”（像M&M巧克力的糖衣），这层盔甲保护它们不被老鼠的免疫系统吃掉。",
+        "text_en": "Type S bacteria are deadly because they are coated in a polysaccharide 'capsule' (like the candy shell of an M&M), which acts as armor protecting them from the mouse's immune system."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "这就像是间谍电影里的情节。\n坏细菌（S）被打死了，但它的口袋里装着一份“制造武器的图纸”（DNA）。\n好细菌（R）路过，捡起了这张图纸。\n好细菌按照图纸给自己造了武器（荚膜），结果它变坏了，变成了杀手。\n格里菲斯发现了图纸被传递的过程，但他不知道那张图纸是用什么纸（DNA）写的。",
+      "text_en": "It's like a spy movie plot.\nThe bad bacteria (S) was killed, but it had a 'blueprint for a weapon' (DNA) in its pocket.\nThe good bacteria (R) walked by and picked up the blueprint.\nThe good bacteria used the blueprint to build a weapon (capsule) for itself, turning bad and becoming a killer.\nGriffith discovered the blueprint was passed on, but he didn't know what paper (DNA) the blueprint was written on.",
+      "diagram": "assets/images/transforming_principle_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "基因工程",
+          "title_en": "Genetic Engineering",
+          "text": "这是人类第一次观察到“基因水平转移”。今天的转基因技术（把一个生物的基因转给另一个），本质上就是格里菲斯实验的人工版。",
+          "text_en": "This was the first observation of 'Horizontal Gene Transfer'. Modern genetic engineering (transferring genes from one organism to another) is essentially the artificial version of Griffith's experiment."
+        },
+        {
+          "icon": "💊",
+          "title": "细菌耐药性",
+          "title_en": "Bacterial Resistance",
+          "text": "细菌在自然界中经常通过这种“转化”方式，从死掉的同伴那里捡起“抗药性基因”，从而变得更难杀死。",
+          "text_en": "Bacteria in nature often use this 'transformation' to pick up 'resistance genes' from dead peers, becoming harder to kill."
+        }
+      ],
+  
+    "impact": {
+      "text": "格里菲斯实验是分子生物学的“第一枪”。它打破了“基因是稳定的、不可改变的”这一旧观念。它直接启发了奥斯瓦尔德·艾弗里（Oswald Avery），后者花了14年时间提纯这种“转化原则”，最终证明它就是DNA。如果没有格里菲斯的老鼠，我们可能还在以为蛋白质是遗传物质。",
+      "text_en": "The Griffith experiment was the 'opening shot' of molecular biology. It shattered the old idea that genes were stable and unchangeable. It directly inspired Oswald Avery, who spent 14 years purifying this 'Transforming Principle', finally proving it was DNA. Without Griffith's mice, we might still think protein was the genetic material.",
+      "stats": [
+          {
+            "number": "1928",
+            "label": "年 (实验发表)",
+            "label_en": "Year (Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德（确立了细菌致病理论，使格里菲斯能区分不同毒力的菌株）",
+          "contribution_en": "Louis Pasteur (Established germ theory, allowing Griffith to distinguish strains of varying virulence)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "avery_dna_1944",
+          "contribution": "艾弗里（直接接手格里菲斯的问题：那个“转化原则”到底是什么化学物质？答案：DNA）",
+          "contribution_en": "Oswald Avery (Directly tackled Griffith's question: What is that 'Transforming Principle' chemically? Answer: DNA)"
+        },
+        {
+          "id": "hershey_chase_dna_1952",
+          "contribution": "赫尔希和蔡斯（进一步证实艾弗里的结论，彻底确立DNA是遗传物质）",
+          "contribution_en": "Hershey & Chase (Further confirmed Avery's conclusion, cementing DNA as genetic material)"
+        }
+      ],
+      "legacy_text": "格里菲斯发现，死去的细菌竟然能“教”活细菌如何杀人。",
+      "legacy_text_en": "Griffith found that dead bacteria could 'teach' living bacteria how to kill."
+    },
+  
+    "related_concepts": ["转化 (Transformation)", "肺炎双球菌 (Streptococcus pneumoniae)", "S型/R型细菌", "艾弗里 (Avery)", "基因水平转移"],
+    "related_concepts_en": ["Transformation", "Streptococcus pneumoniae", "S-strain/R-strain", "Avery", "Horizontal Gene Transfer"],
+  
+    "quiz": {
+      "question": "在格里菲斯实验中，哪一种组合导致了老鼠的意外死亡，从而证明了“转化”现象的存在？",
+      "question_en": "In Griffith's experiment, which combination caused the unexpected death of the mouse, proving the existence of 'transformation'?",
+      "options": [
+        "活的S型细菌（有毒）",
+        "活的R型细菌（无毒）",
+        "加热杀死的S型细菌",
+        "加热杀死的S型细菌 + 活的R型细菌"
+      ],
+      "options_en": [
+        "Live S-strain (Virulent)",
+        "Live R-strain (Non-virulent)",
+        "Heat-killed S-strain",
+        "Heat-killed S-strain + Live R-strain"
+      ],
+      "answer": 3,
+      "explanation": "这是实验的关键。单独的死S菌杀不死老鼠，单独的活R菌也杀不死老鼠。只有两者混合，死菌里的遗传物质（DNA）进入了活R菌体内，把R菌变成了致命的S菌。",
+      "explanation_en": "This is the crux. Dead S-bacteria alone couldn't kill, and live R-bacteria alone couldn't kill. Only when mixed, the genetic material (DNA) from the dead S entered the live R, transforming R into deadly S."
+    }
+  }

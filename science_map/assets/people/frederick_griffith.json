@@ -1,0 +1,10 @@
+{
+    "name": "弗雷德里克·格里菲斯",
+    "name_en": "Frederick Griffith",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/f/f4/Griffithm.jpg",
+    "bio_short": "英国细菌学家。他在1928年通过著名的“格里菲斯实验”（`griffith_experiment_1928`）发现了“转化原则”，证明了细菌之间可以传递遗传信息。这一发现为后来证实DNA是遗传物质奠定了基础。",
+    "bio_short_en": "A British bacteriologist. In 1928, through the famous 'Griffith's experiment' (`griffith_experiment_1928`), he discovered the 'transforming principle', proving that genetic information could be transferred between bacteria. This discovery laid the foundation for identifying DNA as the genetic material.",
+    "events": [
+      "griffith_experiment_1928"
+    ]
+  }

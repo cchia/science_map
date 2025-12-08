@@ -1,0 +1,10 @@
+{
+    "name": "弗朗西斯·柯林斯",
+    "name_en": "Francis Collins",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Francis_Collins_official_photo.jpg",
+    "bio_short": "美国遗传学家和医生，曾任美国国立卫生研究院（NIH）院长。他领导了公立的“人类基因组计划”（`human_genome_project_2003`），成功完成了人类DNA序列的测绘，被誉为“基因组时代的掌舵人”。",
+    "bio_short_en": "An American geneticist and physician, and former Director of the NIH. He led the public 'Human Genome Project' (`human_genome_project_2003`), successfully mapping the human DNA sequence, and is regarded as the 'Helmsman of the Genomic Era'.",
+    "events": [
+      "human_genome_project_2003"
+    ]
+  }
