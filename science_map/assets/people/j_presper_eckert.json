@@ -5,6 +5,7 @@
     "bio_short": "美国电气工程师和计算机先驱。他拥有天才般的工程才能，解决了成千上万个真空管协同工作的稳定性难题，与约翰·莫奇利共同发明了ENIAC（`eniac_computer_1945`）。两人后来制造了第一台商用计算机UNIVAC，不仅开创了电子计算时代，也奠定了现代计算机工业的基础。",
     "bio_short_en": "An American electrical engineer and computer pioneer. Possessing genius-level engineering skills, he solved the stability issues of making thousands of vacuum tubes work together and co-invented ENIAC with John Mauchly (`eniac_computer_1945`). The duo later built the first commercial computer, UNIVAC, launching not only the electronic computing era but also the foundation of the modern computer industry.",
     "events": [
-      "eniac_computer_1945"
+      "eniac_computer_1945",
+      "univac_1_1951"
     ]
   }

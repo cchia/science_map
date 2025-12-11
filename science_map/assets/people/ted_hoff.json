@@ -1,0 +1,10 @@
+{
+    "name": "特德·霍夫",
+    "name_en": "Marcian 'Ted' Hoff",
+    "portrait": "https://upload.wikimedia.org/https://upload.wikimedia.org/wikipedia/commons/d/db/Marcian_Ted_Hoff_%28cropped%29.jpg",
+    "bio_short": "美国电子工程师，提出了微处理器的架构构想。当Busicom要求设计12个定制芯片时，他提出了革命性的反直觉方案：只设计一个通用的处理器，通过软件来定义功能，从而奠定了现代CPU的逻辑基础。",
+    "bio_short_en": "American electrical engineer who formulated the architectural idea of the microprocessor. When Busicom requested 12 custom chips, he proposed a revolutionary counter-intuitive solution: build a single general-purpose processor driven by software, laying the logical foundation for modern CPUs.",
+    "events": [
+      "intel_4004_1971"
+    ]
+  }

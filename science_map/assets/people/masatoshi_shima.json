@@ -1,0 +1,12 @@
+{
+    "name": "嶋正利",
+    "name_en": "Masatoshi Shima",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Masatoshi_Shima_%28cropped%29.jpg",
+    "bio_short": "日本电子工程师，最初作为Busicom的代表被派往英特尔协助开发。他展现了惊人的天赋，与法金并肩完成了4004的逻辑设计和物理布局。他后来加入英特尔开发了8080，又随法金开发了Z80。",
+    "bio_short_en": "Japanese electronics engineer originally sent by Busicom to assist Intel. He showed immense talent, working alongside Faggin to complete the logic design and physical layout of the 4004. He later joined Intel to develop the 8080 and followed Faggin to create the Z80.",
+    "events": [
+      "intel_4004_1971",
+      "intel_8080_1974",
+      "zilog_z80_1976"
+    ]
+  }

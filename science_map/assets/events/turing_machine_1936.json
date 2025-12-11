@@ -10,7 +10,7 @@
     "city_en": "Cambridge (King's College, Cambridge)",
     "country": "英国",
     "country_en": "United Kingdom",
-    "storyline_id": ["computing_story"],
+    "storyline_id": ["computing_origin_story", "ai_story"],
     "field": ["计算机科学", "数学", "逻辑学"],
     "field_en": ["Computer Science", "Mathematics", "Logic"],
     

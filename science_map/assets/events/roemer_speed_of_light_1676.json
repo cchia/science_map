@@ -10,6 +10,7 @@
     "city_en": "Paris (Paris Observatory)",
     "country": "法国",
     "country_en": "France",
+    "storyline_id": ["light_story"],
     "field": ["天文学", "物理学"],
     "field_en": ["Astronomy", "Physics"],
     

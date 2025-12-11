@@ -10,7 +10,7 @@
     "city_en": "New York / Murray Hill (Bell Labs)",
     "country": "美国",
     "country_en": "United States",
-    "storyline_ids": ["thermo_story", "computing_story"],
+    "storyline_ids": ["thermo_story", "computing_origin_story"],
     "field": ["数学", "工程学", "计算机"],
     "field_en": ["Mathematics", "Engineering", "Computer Science"],
     

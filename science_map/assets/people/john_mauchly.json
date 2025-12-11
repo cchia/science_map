@@ -5,6 +5,7 @@
     "bio_short": "美国物理学家和计算机先驱。他与J·普雷斯珀·埃克特在宾夕法尼亚大学共同设计并制造了世界上第一台通用电子数字计算机——ENIAC（`eniac_computer_1945`）。随后，他们创立了世界上第一家计算机公司，并推出了第一台商用计算机UNIVAC，开启了计算机的商业时代。",
     "bio_short_en": "An American physicist and computer pioneer. Together with J. Presper Eckert at the University of Pennsylvania, he designed and built ENIAC, the world's first general-purpose electronic digital computer (`eniac_computer_1945`). They subsequently founded the world's first computer company and released UNIVAC, the first commercial computer, launching the commercial era of computing.",
     "events": [
-      "eniac_computer_1945"
+      "eniac_computer_1945",
+      "univac_1_1951"
     ]
   }

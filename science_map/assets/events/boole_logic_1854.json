@@ -10,7 +10,7 @@
   "city_en": "Cork (University College Cork)",
   "country": "爱尔兰",
   "country_en": "Ireland",
-  "storyline_id": ["computing_story"],
+  "storyline_id": ["computing_origin_story"],
   "field": ["数学", "逻辑学", "计算机科学"],
   "field_en": ["Mathematics", "Logic", "Computer Science"],
   

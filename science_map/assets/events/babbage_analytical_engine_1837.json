@@ -10,7 +10,7 @@
     "city_en": "London (1 Dorset Street)",
     "country": "英国",
     "country_en": "United Kingdom",
-    "storyline_id": ["computing_story"],
+    "storyline_id": ["computing_origin_story"],
     "field": ["计算机科学", "数学", "机械工程"],
     "field_en": ["Computer Science", "Mathematics", "Mechanical Engineering"],
     

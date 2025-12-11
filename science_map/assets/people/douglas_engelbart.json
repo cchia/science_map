@@ -1,0 +1,11 @@
+{
+    "name": "道格拉斯·恩格尔巴特",
+    "name_en": "Douglas Engelbart",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/640px-Douglas_Engelbart_in_2008.jpg",
+    "bio_short": "美国工程师、发明家和互联网先驱，发明了鼠标，并因其在人机交互和“增强人类智力”方面的远见卓识而闻名。",
+    "bio_short_en": "An American engineer, inventor, and internet pioneer, best known for inventing the computer mouse and for his visionary work in human-computer interaction and 'augmenting human intellect.'",
+    "events": [      
+      "computer_mouse_1964",
+      "engelbart_demo_1968"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "唐·埃斯特里奇",
+    "name_en": "Don Estridge",
+    "portrait": "assets/images/don_estridge.png",
+    "bio_short": "美国工程师，被称为“IBM PC之父”。他在佛罗里达州博卡拉顿领导了“肮脏十二人”团队，打破了IBM的封闭传统，采用现成零部件和开放架构开发了IBM PC 5150。这一激进的决策不仅让IBM迅速占领市场，更确立了“IBM兼容机”的标准，塑造了整个现代个人电脑产业。",
+    "bio_short_en": "American engineer known as the 'Father of the IBM PC'. Leading the 'Dirty Dozen' team in Boca Raton, Florida, he broke IBM's closed tradition by using off-the-shelf parts and open architecture to develop the IBM PC 5150. This radical decision not only allowed IBM to quickly capture the market but also established the 'IBM Compatible' standard, shaping the entire modern personal computer industry.",
+    "events": [
+      "ibm_pc_1981"
+    ]
+  }

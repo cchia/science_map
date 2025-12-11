@@ -10,7 +10,7 @@
     "city_en": "Philadelphia (University of Pennsylvania)",
     "country": "美国",
     "country_en": "United States",
-    "storyline_id": ["computing_story"],
+    "storyline_id": ["computing_origin_story"],
     "field": ["计算机科学", "电子工程"],
     "field_en": ["Computer Science", "Electrical Engineering"],
     

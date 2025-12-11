@@ -1,0 +1,156 @@
+{
+    "id": "engelbart_demo_1968",
+    "personId": ["douglas_engelbart", "bill_english"],
+    "title": "演示“所有演示之母” (现代人机交互的诞生)",
+    "title_en": "The Mother of All Demos (Birth of Modern HCI)",
+    "year": 1968,
+    "lat": 37.7786,
+    "lng": -122.4158,
+    "city": "旧金山 (市政礼堂)",
+    "city_en": "San Francisco (Civic Auditorium)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story"],
+    "field": ["人机交互", "计算机科学"],
+    "field_en": ["Human-Computer Interaction", "Computer Science"],
+    
+    "media": {
+      "event_image": "assets/images/mother_demos.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=B6rKUf9DWRI",
+        "title": "1968年：所有演示之母",
+        "title_en": "1968: The Mother of All Demos",
+        "duration": "5:35"
+      }
+    },
+    
+    "summary": {
+      "text": "1968年12月9日，在旧金山举行的秋季联合计算机大会上，道格拉斯·恩格尔巴特（Douglas Engelbart）进行了一场长达90分钟的现场演示。在那个计算机还只是一堆闪烁灯光和穿孔卡片的年代，恩格尔巴特坐在一个像飞机驾驶舱一样的控制台前，展示了一个令人瞠目结舌的未来：他用一个叫做“鼠标”的小木盒子控制屏幕上的光标，点击打开“窗口”，进行视频会议，在文档中点击“超链接”跳转，甚至与异地的同事实时协同编辑同一份文档。这场演示被称为“所有演示之母”（The Mother of All Demos），因为它几乎一次性发明了现代个人计算机的所有核心交互方式。",
+      "text_en": "On December 9, 1968, at the Fall Joint Computer Conference in San Francisco, Douglas Engelbart gave a 90-minute live demonstration. In an era when computers were just blinking lights and punch cards, Engelbart sat at a cockpit-like console and showcased a jaw-dropping future: he used a small wooden box called a 'mouse' to control a cursor on the screen, clicked to open 'windows', held a video conference, clicked 'hyperlinks' to jump between documents, and even collaboratively edited a document in real-time with a colleague miles away. This event became known as 'The Mother of All Demos' because it effectively invented almost every core interaction method of the modern personal computer in one go.",
+      "key_points": [
+        "首次公开演示鼠标 (Computer Mouse)",
+        "展示了图形用户界面 (GUI) 和窗口 (Windows)",
+        "演示了超文本 (Hypertext) 和超链接",
+        "展示了视频会议 (Video Conferencing) 和实时协同工作",
+        "提出了“增强人类智慧” (Augmenting Human Intellect) 的愿景"
+      ],
+      "key_points_en": [
+        "First public demo of the Computer Mouse",
+        "Showcased Graphical User Interface (GUI) and Windows",
+        "Demonstrated Hypertext and Hyperlinks",
+        "Showed Video Conferencing and Real-time Collaboration",
+        "Proposed the vision of 'Augmenting Human Intellect'"
+      ]
+    },
+  
+    "story": {
+      "text": "为了这场演示，恩格尔巴特和他的团队（SRI的增强研究中心）几乎是在玩命。他们从几十公里外的斯坦福研究所拉了一条昂贵的微波链路到会场，甚至借用了一台当时极其罕见的投影仪（借自NASA）。恩格尔巴特戴着麦克风耳机，像指挥家一样操作着键盘、鼠标和一个五键和弦键盘。当时台下的几千名计算机专家看得目瞪口呆，因为他们习惯的计算机是那种要把卡片塞进去等半天出结果的巨兽，而恩格尔巴特的计算机却像是有生命的延伸。演示结束后，全场起立鼓掌，但讽刺的是，由于理念太超前，这套名为NLS的系统在当时并没有在商业上成功。",
+      "text_en": "For this demo, Engelbart and his team (SRI's Augmentation Research Center) were practically risking everything. They ran an expensive microwave link from SRI (miles away) to the auditorium and borrowed an extremely rare projector from NASA. Engelbart, wearing a headset microphone, conducted the computer like a maestro using a keyboard, a mouse, and a five-key chorded keyset. The thousands of computer experts in the audience were stunned. They were used to computers as beasts you fed punch cards into and waited hours for results, while Engelbart's computer felt like a living extension of the mind. The demo ended with a standing ovation, but ironically, because the concepts were so ahead of their time, the system (called NLS) was not commercially successful back then.",
+      "diagram": "assets/images/nls.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🖱️",
+        "text": "恩格尔巴特演示用的第一只鼠标是用木头做的，里面有两个金属轮子。之所以叫它“老鼠”（Mouse），是因为连在后面的电线看起来像老鼠的尾巴。恩格尔巴特后来开玩笑说：“如果你知道它会改变世界，我们可能会给它起个更好听的名字。”",
+        "text_en": "The first mouse Engelbart used was made of wood with two metal wheels inside. It was called a 'mouse' simply because the cord coming out the back looked like a tail. Engelbart later joked, 'If we knew it would change the world, we might have given it a more dignified name.'"
+      },
+      {
+        "icon": "🎹",
+        "text": "演示中不仅有鼠标，左手还有一个像钢琴键一样的“和弦键盘”（Chord Keyset）。恩格尔巴特希望能像弹钢琴一样输入命令，但这玩意儿太难学了，所以只有鼠标流传了下来，和弦键盘被历史淘汰了。",
+        "text_en": "The demo didn't just feature a mouse; his left hand used a piano-like 'Chord Keyset'. Engelbart hoped to input commands like playing chords on a piano, but it was too hard to learn. So, only the mouse survived, while the keyset was lost to history."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1968年之前，人是为人服务的（人要去适应机器的打孔卡）。\n恩格尔巴特说：不对，机器应该为人服务。\n他展示了一个未来：屏幕就是你的桌子（桌面），鼠标就是你的手，你可以把文件拿来拿去，可以点开看，可以随时发给别人。\n他演示的不是一台更快的计算器，而是人类大脑的外挂。",
+      "text_en": "Before 1968, humans served machines (adapting to punch cards).\nEngelbart said: No, machines should serve humans.\nHe showed a future where the screen is your desk (Desktop), the mouse is your hand, and you can move files around, open them, and send them to others instantly.\nHe didn't demonstrate a faster calculator; he demonstrated an exoskeleton for the human mind.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/cc/SRI_Computer_Mouse.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🖥️",
+          "title": "所有现代电脑",
+          "title_en": "All Modern Computers",
+          "text": "无论是Mac还是Windows，其核心逻辑（鼠标、窗口、点击）都直接抄作业自这场演示。",
+          "text_en": "Whether Mac or Windows, their core logic (mouse, windows, clicking) is directly copied from this demo."
+        },
+        {
+          "icon": "🤝",
+          "title": "Zoom与Google Docs",
+          "title_en": "Zoom & Google Docs",
+          "text": "他在1968年就演示了分屏视频通话和多人同时编辑文档，这正是我们今天远程办公的基础。",
+          "text_en": "He demonstrated split-screen video calls and multi-person document editing in 1968, which is the exact foundation of remote work today."
+        }
+      ],
+  
+    "impact": {
+      "text": "这场演示的影响力怎么强调都不为过。当时在场的观众中，有许多后来成为了施乐帕洛阿尔托研究中心（Xerox PARC）的核心成员。而后来，史蒂夫·乔布斯正是参观了PARC，才把这些技术带到了Apple Lisa和Macintosh上，最终普及给了全世界。恩格尔巴特不仅发明了工具，他定义了只要人类还在使用屏幕，我们就在使用他的遗产。",
+      "text_en": "The impact of this demo cannot be overstated. Many in the audience later became core members of Xerox PARC. Later, Steve Jobs visited PARC and brought these technologies to the Apple Lisa and Macintosh, eventually spreading them to the world. Engelbart didn't just invent tools; he defined a legacy that we use every time we look at a screen.",
+      "stats": [
+          {
+            "number": "1968",
+            "label": "年 (演示年份)",
+            "label_en": "Year (Demo)"
+          },
+          {
+            "number": "90",
+            "label": "分钟 (演示时长)",
+            "label_en": "Minutes (Duration)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "vannevar_bush_memex_1945",
+          "contribution": "范内瓦·布什（恩格尔巴特在二战作为雷达兵时读到了《诚如所思》，Memex的概念是他一生的指路明灯）",
+          "contribution_en": "Vannevar Bush (Engelbart read 'As We May Think' as a radar technician in WWII; the Memex concept was his lifelong guiding light)"
+        },
+        {
+          "id": "licklider_symbiosis_1960",
+          "contribution": "J.C.R. 利克莱德（提供了ARPA的资助，并提出了人机共生的理论支持）",
+          "contribution_en": "J.C.R. Licklider (Provided ARPA funding and the theoretical support of Man-Computer Symbiosis)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "xerox_alto_1973",
+          "contribution": "施乐Alto（恩格尔巴特的团队后来大部分跳槽去了施乐PARC，造出了第一台图形界面电脑）",
+          "contribution_en": "Xerox Alto (Engelbart's team largely defected to Xerox PARC, building the first GUI computer)"
+        },
+        {
+          "id": "berners_lee_www_1989",
+          "contribution": "万维网（演示中的超链接概念直接启发了后来的互联网结构）",
+          "contribution_en": "World Wide Web (The hyperlink concept in the demo directly inspired the structure of the later Web)"
+        }
+      ],
+      "legacy_text": "他在半个世纪前，就剧透了我们今天的数字生活。",
+      "legacy_text_en": "He spoiled our digital lives half a century ago."
+    },
+  
+    "related_concepts": ["鼠标 (Mouse)", "图形用户界面 (GUI)", "超文本 (Hypertext)", "协同软件 (Groupware)", "增强人类智慧"],
+    "related_concepts_en": ["Mouse", "GUI", "Hypertext", "Groupware", "Augmenting Human Intellect"],
+  
+    "quiz": {
+      "question": "在“所有演示之母”中，恩格尔巴特使用的鼠标原型是什么材质制作的？",
+      "question_en": "In 'The Mother of All Demos', what material was the prototype mouse made of?",
+      "options": [
+        "塑料",
+        "铝合金",
+        "木头",
+        "3D打印树脂"
+      ],
+      "options_en": [
+        "Plastic",
+        "Aluminum Alloy",
+        "Wood",
+        "3D Printed Resin"
+      ],
+      "answer": 2,
+      "explanation": "第一只鼠标（X-Y位置指示器）的外壳是由一个木盒子手工雕刻而成的，里面装有两个相互垂直的金属轮子来检测移动。",
+      "explanation_en": "The first mouse (X-Y position indicator) housing was hand-carved from a block of wood, containing two perpendicular metal wheels to detect movement."
+    }
+  }

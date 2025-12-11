@@ -283,9 +283,14 @@
   "babbage_analytical_engine_1837",
   "lovelace_first_program_1843",
   "turing_machine_1936",
-  "shannon_circuits_1937",
   "von_neumann_architecture_1945",
   "eniac_computer_1945",
   "dartmouth_ai_conference_1956",
-  "integrated_circuit_1958"
+  "integrated_circuit_1958",
+  "deep_blue_chess_1997",
+  "abc_computer_1942",
+  "univac_1_1951",
+  "engelbart_demo_1968",
+  "intel_4004_1971",
+  "ibm_pc_1981"
 ]

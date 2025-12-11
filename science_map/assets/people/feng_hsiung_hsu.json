@@ -1,0 +1,10 @@
+{
+    "name": "许峰雄",
+    "name_en": "Feng-hsiung Hsu",
+    "portrait": "assets/images/feng_hsiung_hsu.png",
+    "bio_short": "台湾出生的计算机科学家，被誉为“深蓝之父”。他在卡内基梅隆大学期间就开始了计算机下棋的研究（研制了“深思”），后来加入IBM，主导设计了深蓝的专用国际象棋加速芯片（VLSI），这种硬件加速技术是深蓝能够计算出每秒2亿步棋、最终击败卡斯帕罗夫（`deep_blue_chess_1997`）的关键。",
+    "bio_short_en": "A Taiwan-born computer scientist, known as the 'Father of Deep Blue'. He began computer chess research at Carnegie Mellon University (creating 'Deep Thought') and later joined IBM to lead the design of Deep Blue's custom chess acceleration chips (VLSI). This hardware acceleration was the key that enabled Deep Blue to calculate 200 million moves per second and defeat Kasparov (`deep_blue_chess_1997`).",
+    "events": [
+      "deep_blue_chess_1997"
+    ]
+  }

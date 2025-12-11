@@ -10,7 +10,7 @@
   "city_en": "Cambridge (MIT)",
   "country": "美国",
   "country_en": "United States",
-  "storyline_id": ["computing_story"],
+  "storyline_id": ["computing_origin_story"],
   "field": ["电子工程", "信息论", "数学"],
   "field_en": ["Electrical Engineering", "Information Theory", "Mathematics"],
   

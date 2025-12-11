@@ -1,0 +1,10 @@
+{
+    "name": "约翰·阿塔纳索夫",
+    "name_en": "John Vincent Atanasoff",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/ea/ATANASOFF_Pic%5E2_-_Flickr_-_Eye_Steel_Film.jpg",
+    "bio_short": "美国物理学家和发明家，被法律认可的“电子计算机之父”。他在爱荷华州立学院期间，与学生克利福德·贝里共同发明了ABC计算机（`abc_computer_1942`），不仅率先使用了二进制电子运算，还发明了类似于现代内存（DRAM）的存储机制。",
+    "bio_short_en": "An American physicist and inventor, legally recognized as the 'Father of the Electronic Computer'. While at Iowa State College, he co-invented the ABC computer with student Clifford Berry (`abc_computer_1942`), pioneering binary electronic computation and inventing a storage mechanism similar to modern memory (DRAM).",
+    "events": [
+      "abc_computer_1942"
+    ]
+  }
