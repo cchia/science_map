@@ -6,6 +6,7 @@
     "bio_short_en": "An American mathematician, electrical engineer, and cryptographer, known as the 'Father of Information Theory'. His 1948 paper defined the 'bit' and 'information entropy' (`shannon_entropy_1948`), laying the foundation for modern digital communication. He also pioneered digital circuit design theory in 1937 (`shannon_circuits_1937`).",
     "events": [
       "shannon_circuits_1937",
-      "shannon_entropy_1948"
+      "shannon_entropy_1948",
+      "dartmouth_ai_conference_1956"
     ]
   }

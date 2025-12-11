@@ -1,0 +1,10 @@
+{
+    "name": "马文·明斯基",
+    "name_en": "Marvin Minsky",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Marvin_Minsky_at_OLPCb_%283x4_cropped%29.jpg",
+    "bio_short": "美国认知科学家，被誉为“人工智能之父”之一。他是1956年达特茅斯会议的核心参与者（`dartmouth_ai_conference_1956`），并与约翰·麦卡锡共同创立了麻省理工学院（MIT）人工智能实验室。他不仅是符号主义AI的领军人物，还发明了共聚焦显微镜。",
+    "bio_short_en": "An American cognitive scientist and one of the 'Fathers of Artificial Intelligence'. He was a core participant in the 1956 Dartmouth Conference (`dartmouth_ai_conference_1956`) and co-founded the MIT AI Laboratory with John McCarthy. He was a leading figure in Symbolic AI and also invented the confocal microscope.",
+    "events": [
+      "dartmouth_ai_conference_1956"
+    ]
+  }

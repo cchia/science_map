@@ -1,0 +1,10 @@
+{
+    "name": "查尔斯·巴贝奇",
+    "name_en": "Charles Babbage",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_Babbage_-_1860.jpg",
+    "bio_short": "英国博学家、数学家和机械工程师，被誉为“计算机之父”。他设计了世界上第一台机械式通用计算机——“分析机”（`babbage_analytical_engine_1837`），提出了分离存储与运算、使用穿孔卡片编程等现代计算机的核心概念，超越了他所处的时代整整一个世纪。",
+    "bio_short_en": "An English polymath, mathematician, and mechanical engineer, known as the 'Father of the Computer'. He designed the world's first mechanical general-purpose computer, the 'Analytical Engine' (`babbage_analytical_engine_1837`), introducing core concepts of modern computing such as the separation of storage and processing and punch-card programming, putting him a full century ahead of his time.",
+    "events": [
+      "babbage_analytical_engine_1837"
+    ]
+  }

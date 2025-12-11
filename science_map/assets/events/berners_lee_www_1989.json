@@ -1,0 +1,156 @@
+{
+    "id": "berners_lee_www_1989",
+    "personId": "tim_berners_lee",
+    "title": "发明万维网 (连接全人类的信息网)",
+    "title_en": "Invention of the World Wide Web (The Network Connecting Humanity)",
+    "year": 1989,
+    "lat": 46.2330,
+    "lng": 6.0557,
+    "city": "日内瓦 (CERN)",
+    "city_en": "Geneva (CERN)",
+    "country": "瑞士",
+    "country_en": "Switzerland",
+    "storyline_id": ["computing_story"],
+    "field": ["计算机科学", "互联网"],
+    "field_en": ["Computer Science", "Internet"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/First_Web_Server.jpg/640px-First_Web_Server.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=J8hzJxb0rpc",
+        "title": "万维网是什么？",
+        "title_en": "What is the world wide web?",
+        "duration": "3:54"
+      }
+    },
+    
+    "summary": {
+      "text": "1989年3月，在欧洲核子研究组织（CERN）工作的英国软件工程师蒂姆·伯纳斯-李（Tim Berners-Lee），提交了一份名为《关于信息管理的提案》的文档。为了解决CERN内部科学家之间信息互通困难、数据格式不兼容的问题，他构想了一个基于超文本（Hypertext）的全球信息系统。在这个系统中，文档可以通过“超链接”互相跳转。随后几年，他发明了构成万维网的三大基石：HTML（网页语言）、URI（也就是URL，网址）和HTTP（传输协议），并编写了世界上第一个网页浏览器和服务器。这一发明彻底释放了互联网的潜力，将原本只有极客使用的网络变成了全人类共享的信息海洋。",
+      "text_en": "In March 1989, British software engineer Tim Berners-Lee, working at CERN, submitted a document titled 'Information Management: A Proposal'. To solve the problem of information loss and incompatible data formats among scientists at CERN, he envisioned a global information system based on 'Hypertext', where documents could be linked to one another. In the following years, he invented the three cornerstones of the Web: HTML (language), URI (URL, address), and HTTP (protocol), and wrote the world's first web browser and server. This invention unleashed the potential of the Internet, transforming a network for geeks into a shared ocean of information for all humanity.",
+      "key_points": [
+        "撰写《关于信息管理的提案》",
+        "发明万维网三大基石：HTML, URL, HTTP",
+        "编写第一个网页浏览器 (WorldWideWeb) 和服务器 (httpd)",
+        "提出“超链接” (Hyperlink) 概念",
+        "CERN宣布万维网技术对所有人免费开放 (1993)"
+      ],
+      "key_points_en": [
+        "Wrote 'Information Management: A Proposal'",
+        "Invented the Web's three pillars: HTML, URL, HTTP",
+        "Wrote the first web browser and server",
+        "Proposed the concept of 'Hyperlinks'",
+        "CERN announced the WWW technology would be royalty-free (1993)"
+      ]
+    },
+  
+    "story": {
+      "text": "万维网的诞生并没有掌声雷动，甚至差点夭折。当伯纳斯-李把那份著名的提案交给他的老板麦克·森德尔（Mike Sendall）时，老板看完后在封面淡淡地写了一句评语：“含糊不清，但令人兴奋”（Vague but exciting）。正是这句“令人兴奋”，让老板给了他买一台NeXT电脑（当时最好的工作站，由被苹果赶出来的乔布斯制造）的经费来尝试这个想法。伯纳斯-李在那台NeXT电脑上敲出了第一行代码。为了防止清洁工不小心关掉这台承载着整个互联网雏形的服务器，他在电脑上贴了一张手写的贴纸：“这是一台服务器，请勿关机！！”（This machine is a server. DO NOT POWER IT DOWN!!）。",
+      "text_en": "The birth of the Web wasn't met with applause; it almost didn't happen. When Berners-Lee handed his famous proposal to his boss, Mike Sendall, the boss wrote a comment on the cover: 'Vague but exciting'. It was this 'exciting' that convinced the boss to authorize funds for a NeXT computer (built by Steve Jobs during his exile from Apple) to test the idea. Berners-Lee wrote the first lines of code on that NeXT cube. To prevent cleaners from accidentally turning off the machine that held the entire infant Web, he stuck a handwritten note on it: 'This machine is a server. DO NOT POWER IT DOWN!!'.",
+      "diagram": "assets/images/www_server.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "😕",
+        "text": "伯纳斯-李后来承认，网址中`http://`后面的那是两条斜杠`//`其实完全没必要，是多余的设计。如果当年他省掉这两个字符，这三十年来全世界人类可以少敲几十亿次键盘，也能省下无数的打印墨水。",
+        "text_en": "Berners-Lee later admitted that the two slashes `//` after `http://` were actually unnecessary. If he had omitted them back then, humanity would have saved billions of keystrokes and countless gallons of printer ink over the last 30 years."
+      },
+      {
+        "icon": "💸",
+        "text": "虽然他是万维网的发明者，但他没有申请任何专利，也没有这就此索取一分钱版税。他坚持让CERN宣布万维网对所有人永久免费。如果他当时收了专利费，现在的世界可能完全不同（可能就没有免费的互联网了）。",
+        "text_en": "Although he is the inventor of the Web, he never patented it nor asked for a cent in royalties. He insisted CERN make the Web permanently free for everyone. If he had charged for it, the world today would be vastly different (likely no free internet)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在这个发明之前，世界上的电脑像一个个孤岛。如果你想要另一台电脑里的资料，你得问对方要，或者发邮件。\n伯纳斯-李想：为什么不能把所有电脑里的文档编织成一张“网”呢？\n就像蜘蛛网一样，你在一个节点（网页）上点一下，就能顺着丝线（超链接）滑到另一个节点，不管那个节点是在隔壁房间还是在地球另一端。\n你不需要知道对方电脑在哪里，你只需要点击。",
+      "text_en": "Before this invention, computers were like isolated islands. If you wanted data from another computer, you had to ask for it or send an email.\nBerners-Lee thought: Why not weave all documents into a 'Web'?\nLike a spider web, you click on one node (webpage) and slide along the thread (hyperlink) to another node, whether it's in the next room or across the globe.\nYou don't need to know where the other computer is; you just click.",
+      "diagram": "assets/images/www.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🌍",
+          "title": "几乎所有现代生活",
+          "title_en": "Almost Modern Life",
+          "text": "从谷歌搜索到淘宝购物，从刷抖音到看维基百科，所有基于“网页”和“链接”的应用都源于1989年的那个提案。",
+          "text_en": "From Google searches to Amazon shopping, from TikTok to Wikipedia, every application based on 'pages' and 'links' stems from that 1989 proposal."
+        },
+        {
+          "icon": "🔓",
+          "title": "信息民主化",
+          "title_en": "Democratization of Info",
+          "text": "它打破了信息的垄断，让一个普通人也能瞬间接触到以前只有顶级教授才能看到的知识库。",
+          "text_en": "It broke information monopolies, allowing an average person to instantly access knowledge previously available only to top professors."
+        }
+      ],
+  
+    "impact": {
+      "text": "万维网不仅是计算机技术的革命，更是人类文明的革命。它创造了“信息时代”，重塑了商业、教育、政治和社交方式。它是人类历史上最大的知识库和最繁忙的市场。伯纳斯-李本人也因为这一贡献被封为爵士，并在2012年伦敦奥运会开幕式上接受全场致敬，当时他坐在那台著名的NeXT电脑前，发出了一条推文：“This is for everyone”（这是给每一个人的）。",
+      "text_en": "The Web was not just a revolution in computing, but in human civilization. It created the 'Information Age', reshaping commerce, education, politics, and social interaction. It is the largest repository of knowledge and the busiest marketplace in history. For this contribution, Berners-Lee was knighted and honored at the 2012 London Olympics opening ceremony, where he tweeted from a replica of his NeXT computer: 'This is for everyone'.",
+      "stats": [
+          {
+            "number": "1989",
+            "label": "年 (提案年份)",
+            "label_en": "Year (Proposal)"
+          },
+          {
+            "number": "0",
+            "label": "元 (专利费)",
+            "label_en": "Cost (Royalties)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "vannevar_bush_memex_1945",
+          "contribution": "范内瓦·布什（他在二战后提出的Memex概念——一种可以储存和链接书籍的机器——深深启发了伯纳斯-李）",
+          "contribution_en": "Vannevar Bush (His post-WWII concept of the 'Memex'—a machine to store and link books—deeply inspired Berners-Lee)"
+        },
+        {
+          "id": "ted_nelson_hypertext_1963",
+          "contribution": "泰德·尼尔森（发明了“超文本”Hypertext这个词，梦想建立一个全宇宙的文档系统）",
+          "contribution_en": "Ted Nelson (Coined the term 'Hypertext' and dreamed of a universal document system)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "marc_andreessen_mosaic_1993",
+          "contribution": "马克·安德森（开发了Mosaic浏览器，给万维网加上了图像界面，真正引爆了大众流行）",
+          "contribution_en": "Marc Andreessen (Developed the Mosaic browser, adding a graphical interface to the Web and triggering mass popularity)"
+        },
+        {
+          "id": "google_search_1998",
+          "contribution": "佩奇和布林（Google的核心算法PageRank就是基于对万维网“链接”结构的数学分析）",
+          "contribution_en": "Larry Page & Sergey Brin (Google's core PageRank algorithm was based on the mathematical analysis of the Web's 'link' structure)"
+        }
+      ],
+      "legacy_text": "他编织了一张网，把全人类都捕获其中，却把钥匙交给了大家。",
+      "legacy_text_en": "He wove a web that captured all of humanity, yet he gave the keys to everyone."
+    },
+  
+    "related_concepts": ["HTML", "HTTP", "URL", "互联网 vs 万维网 (Internet vs Web)", "W3C"],
+    "related_concepts_en": ["HTML", "HTTP", "URL", "Internet vs Web", "W3C"],
+  
+    "quiz": {
+      "question": "蒂姆·伯纳斯-李的老板麦克·森德尔在看了他的万维网提案后，留下了哪句著名的评语？",
+      "question_en": "What famous comment did Tim Berners-Lee's boss, Mike Sendall, write after reading his World Wide Web proposal?",
+      "options": [
+        "这绝不可能成功",
+        "含糊不清，但令人兴奋 (Vague but exciting)",
+        "我们需要为此申请专利",
+        "这是为了打游戏设计的吗？"
+      ],
+      "options_en": [
+        "This will never work",
+        "Vague but exciting",
+        "We need to patent this",
+        "Is this designed for gaming?"
+      ],
+      "answer": 1,
+      "explanation": "虽然提案当时的细节还不清晰（Vague），但老板敏锐地察觉到了超文本连接全球信息的巨大潜力（Exciting），并批准了项目。",
+      "explanation_en": "Although the details were unclear at the time (Vague), the boss keenly sensed the massive potential of hypertext linking global information (Exciting) and approved the project."
+    }
+  }

@@ -1,7 +1,151 @@
 {
   "id": "boole_logic_1854",
-  "title": "Boole Logic",
-  "title_en": "Boole Logic",
+  "personId": "george_boole",
+  "title": "发表《思维规律》 (计算机电路的数学逻辑)",
+  "title_en": "Publishes 'The Laws of Thought' (The Math Logic of Computer Circuits)",
   "year": 1854,
-  "is_stub": true
+  "lat": 51.8921,
+  "lng": -8.4932,
+  "city": "科克 (科克大学)",
+  "city_en": "Cork (University College Cork)",
+  "country": "爱尔兰",
+  "country_en": "Ireland",
+  "storyline_id": ["computing_story"],
+  "field": ["数学", "逻辑学", "计算机科学"],
+  "field_en": ["Mathematics", "Logic", "Computer Science"],
+  
+  "media": {
+    "event_image": "assets/images/boole_logic.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=w650GfeGPOg",
+      "title": "乔治·布尔的生活和他的布尔逻辑",
+      "title_en": "George Boole's life and the legacy of Boolean logic",
+      "duration": "5:59"
+    }
+  },
+  
+  "summary": {
+    "text": "1854年，自学成才的英国数学家乔治·布尔（George Boole）在爱尔兰科克大学任教期间，发表了他的巨著《思维规律》（The Laws of Thought）。在这本书中，他提出了一个革命性的观点：人类的逻辑思维（真/假）可以像数字一样进行代数运算。他发明了一套符号系统（后被称为“布尔代数”），用 1 代表“真”，0 代表“假”，并定义了 AND（与）、OR（或）、NOT（非）三种基本运算。这一发现将逻辑学从哲学的范畴强行拉入了数学的领地，为80年后数字电路和计算机逻辑门的设计提供了完美的数学语言。",
+    "text_en": "In 1854, self-taught British mathematician George Boole, while teaching at University College Cork in Ireland, published his masterpiece 'The Laws of Thought'. In this book, he proposed a revolutionary idea: human logical thinking (True/False) could be calculated algebraically like numbers. He invented a symbolic system (later known as 'Boolean Algebra'), using 1 for 'True' and 0 for 'False', and defined three basic operations: AND, OR, and NOT. This discovery forcibly dragged logic from the realm of philosophy into the territory of mathematics, providing the perfect mathematical language for the design of digital circuits and computer logic gates 80 years later.",
+    "key_points": [
+      "发表著作《思维规律》 (The Laws of Thought)",
+      "创立“布尔代数” (Boolean Algebra)",
+      "将逻辑命题转化为代数方程",
+      "定义基本逻辑运算：与(AND)、或(OR)、非(NOT)",
+      "奠定了现代计算机逻辑门的基础"
+    ],
+    "key_points_en": [
+      "Published 'The Laws of Thought'",
+      "Founded 'Boolean Algebra'",
+      "Converted logical propositions into algebraic equations",
+      "Defined basic logical operations: AND, OR, NOT",
+      "Laid the foundation for modern computer logic gates"
+    ]
+  },
+
+  "story": {
+    "text": "布尔是一个鞋匠的儿子，因为家穷上不起大学，完全靠自学掌握了拉丁语、希腊语和高等数学。当时，逻辑学被认为是亚里士多德的哲学领域，与数学无关。但布尔在雨中散步时突然顿悟：既然逻辑是关于“对”与“错”的判断，那为什么不能用数学符号来计算它呢？\n他创造了一种奇怪的算术，在这个世界里，1+1=1（真+真=真）。当时的数学家觉得这很荒谬，哲学家觉得这是亵渎。直到1937年，麻省理工学院的硕士生克劳德·香农读到了这本书，意识到布尔的“真/假”完美对应电路的“开/关”。从此，布尔那原本被遗忘在书架上的纯理论，变成了驱动信息时代的核心引擎。",
+    "text_en": "Boole was the son of a shoemaker. Too poor to attend university, he taught himself Latin, Greek, and advanced mathematics. At the time, logic was considered part of Aristotelian philosophy, unrelated to math. But during a walk in the rain, Boole had an epiphany: Since logic is about judging 'Right' vs 'Wrong', why couldn't it be calculated with mathematical symbols?\nHe created a strange arithmetic where 1+1=1 (True + True = True). Mathematicians of the time thought it was absurd; philosophers thought it was blasphemy. It wasn't until 1937 that Claude Shannon, a master's student at MIT, read the book and realized Boole's 'True/False' perfectly corresponded to a circuit's 'On/Off'. From then on, Boole's pure theory, once gathering dust on shelves, became the core engine driving the Information Age.",
+    "diagram": "assets/images/boole_logic_2.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🎓",
+      "text": "乔治·布尔从未获得过大学学位，但他却成为了科克大学的第一任数学教授。这是学术史上罕见的“草根逆袭”。",
+      "text_en": "George Boole never earned a university degree, yet he became the first Professor of Mathematics at University College Cork. A rare case of 'grassroots success' in academic history."
+    },
+    {
+      "icon": "🌧️",
+      "text": "布尔死于肺炎，起因是他淋雨后去上课。讽刺的是，他的妻子（相信“以毒攻毒”的顺势疗法）在他生病时往他床上泼冷水，希望能治好他，结果可能加速了他的死亡。",
+      "text_en": "Boole died of pneumonia after walking in the rain to teach. Ironically, his wife (a believer in homeopathic 'like cures like') poured buckets of cold water on his bed while he was sick, hoping to cure him, which likely hastened his death."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "布尔逻辑就像是你在网上搜东西。\n**AND（与）**：搜索“猫 AND 狗”，结果必须同时有猫和狗（结果变少）。\n**OR（或）**：搜索“猫 OR 狗”，结果只要有猫或者有狗都行（结果变多）。\n**NOT（非）**：搜索“猫 NOT 狗”，结果要有猫但不能有狗。\n电脑芯片里成千上万个开关，就是不停地在做这三个简单的动作，从而实现了复杂的计算。",
+    "text_en": "Boolean logic is like searching on the web.\n**AND**: Search 'Cat AND Dog', results must have both (fewer results).\n**OR**: Search 'Cat OR Dog', results can have either (more results).\n**NOT**: Search 'Cat NOT Dog', results must have Cat but no Dog.\nBillions of switches in computer chips just constantly perform these three simple actions to achieve complex calculations.",
+    "diagram": "assets/images/boole_venn.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "💾",
+        "title": "数字电路",
+        "title_en": "Digital Circuits",
+        "text": "所有的CPU本质上都是由布尔逻辑门（与门、或门、非门）组成的物理网络。",
+        "text_en": "All CPUs are essentially physical networks composed of Boolean logic gates (AND gates, OR gates, NOT gates)."
+      },
+      {
+        "icon": "🔍",
+        "title": "搜索引擎",
+        "title_en": "Search Engines",
+        "text": "每一条谷歌搜索指令背后，都是在运行布尔逻辑运算来筛选网页。",
+        "text_en": "Behind every Google search query, Boolean logic operations are running to filter web pages."
+      }
+    ],
+
+  "impact": {
+    "text": "乔治·布尔被称为“信息时代的祖父”。虽然他生活在维多利亚时代，但他为数字革命打造了唯一的通用语言。没有布尔代数，就没有现代计算机。为了纪念他，编程语言中表示真假的变量类型被称为“布尔型”（Boolean）。",
+    "text_en": "George Boole is called the 'Grandfather of the Information Age'. Though he lived in the Victorian era, he crafted the only universal language for the digital revolution. Without Boolean algebra, there would be no modern computers. To honor him, the variable type representing True/False in programming is called 'Boolean'.",
+    "stats": [
+        {
+          "number": "1854",
+          "label": "年 (出版)",
+          "label_en": "Year (Published)"
+        },
+        {
+          "number": "3",
+          "label": "个 (核心运算:与或非)",
+          "label_en": "Core Operations (AND/OR/NOT)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "leibniz_binary_1703",
+        "contribution": "莱布尼茨（布尔是莱布尼茨思想的继承者，他将莱布尼茨模糊的“0/1符号逻辑”变成了精确的代数系统）",
+        "contribution_en": "Gottfried Wilhelm Leibniz (Boole was the heir to Leibniz's thought, turning Leibniz's vague '0/1 symbolic logic' into a precise algebraic system)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "shannon_information_theory_1948",
+        "contribution": "香农（他在硕士论文中证明了电子开关可以物理实现布尔逻辑，打通了理论与现实的最后一公里）",
+        "contribution_en": "Claude Shannon (In his master's thesis, he proved electronic switches could physically implement Boolean logic, bridging the final mile between theory and reality)"
+      },
+      {
+        "id": "turing_machine_1936",
+        "contribution": "阿兰·图灵（图灵机的逻辑控制部分完全依赖于布尔逻辑）",
+        "contribution_en": "Alan Turing (The logic control part of the Turing Machine relies entirely on Boolean logic)"
+      }
+    ],
+    "legacy_text": "他把人类的思考过程，简化成了三个词：与、或、非。",
+    "legacy_text_en": "He simplified the human thought process into three words: AND, OR, NOT."
+  },
+
+  "related_concepts": ["布尔代数 (Boolean Algebra)", "逻辑门 (Logic Gates)", "二进制 (Binary)", "集合论 (Set Theory)", "克劳德·香农"],
+  "related_concepts_en": ["Boolean Algebra", "Logic Gates", "Binary", "Set Theory", "Claude Shannon"],
+
+  "quiz": {
+    "question": "在布尔代数中，如果1代表“真”，0代表“假”，那么“1 AND 0”的结果是什么？",
+    "question_en": "In Boolean algebra, if 1 represents 'True' and 0 represents 'False', what is the result of '1 AND 0'?",
+    "options": [
+      "1 (真)",
+      "0 (假)",
+      "2",
+      "既真又假"
+    ],
+    "options_en": [
+      "1 (True)",
+      "0 (False)",
+      "2",
+      "Both True and False"
+    ],
+    "answer": 1,
+    "explanation": "AND运算要求两个条件都为真，结果才为真。因为有一个是假（0），所以结果是假（0）。这就像串联电路，一个开关断开，灯就不亮。",
+    "explanation_en": "The AND operation requires both conditions to be True for the result to be True. Since one is False (0), the result is False (0). It's like a series circuit; if one switch is off, the light stays off."
+  }
 }

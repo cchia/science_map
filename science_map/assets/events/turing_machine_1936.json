@@ -1,0 +1,158 @@
+{
+    "id": "turing_machine_1936",
+    "personId": "alan_turing",
+    "title": "提出“图灵机”概念 (计算的理论极限)",
+    "title_en": "Proposes the 'Turing Machine' (The Theoretical Limit of Computation)",
+    "year": 1936,
+    "lat": 52.2053,
+    "lng": 0.1132,
+    "city": "剑桥 (剑桥大学国王学院)",
+    "city_en": "Cambridge (King's College, Cambridge)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["computing_story"],
+    "field": ["计算机科学", "数学", "逻辑学"],
+    "field_en": ["Computer Science", "Mathematics", "Logic"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dNRDvLACg5Q",
+        "title": "图灵机解释",
+        "title_en": "Turing Machines Explained",
+        "duration": "5:24"
+      }
+    },
+    
+    "summary": {
+      "text": "1936年，年仅24岁的阿兰·图灵（Alan Turing）发表了著名的论文《论可计算数及其在判定问题上的应用》。为了解决大卫·希尔伯特提出的“判定问题”（Entscheidungsproblem），图灵构想出了一种假想的机器，现在被称为“图灵机”（Turing Machine）。这台机器非常简单：它有一条无限长的纸带（Tape）、一个读写头（Head）和一套控制规则（Table of Instructions）。尽管结构简单，图灵证明了这种机器可以模拟任何人类能够进行的数学逻辑运算。更重要的是，他提出了“通用图灵机”（Universal Turing Machine）的概念——即一台可以模拟任何其他图灵机的机器。这就是现代“可编程计算机”的数学原型。",
+      "text_en": "In 1936, at just 24 years old, Alan Turing published his famous paper 'On Computable Numbers, with an Application to the Entscheidungsproblem'. To solve David Hilbert's 'Decision Problem', Turing conceived a hypothetical machine, now known as the 'Turing Machine'. The machine was deceptively simple: it consisted of an infinite tape, a read/write head, and a table of instructions. Despite its simplicity, Turing proved that this machine could simulate any mathematical logic operation a human could perform. Crucially, he introduced the concept of the 'Universal Turing Machine'—a machine that could simulate any other Turing machine. This is the mathematical prototype of the modern 'programmable computer'.",
+      "key_points": [
+        "提出“图灵机” (Turing Machine) 模型",
+        "提出“通用图灵机” (Universal Turing Machine) 概念",
+        "解决希尔伯特的“判定问题” (Entscheidungsproblem)",
+        "定义了“算法” (Algorithm) 的机械本质",
+        "证明了“停机问题” (Halting Problem) 不可解"
+      ],
+      "key_points_en": [
+        "Proposed the 'Turing Machine' model",
+        "Proposed the 'Universal Turing Machine' concept",
+        "Solved Hilbert's 'Entscheidungsproblem'",
+        "Defined the mechanical nature of 'Algorithms'",
+        "Proved the 'Halting Problem' is undecidable"
+      ]
+    },
+  
+    "story": {
+      "text": "图灵并没有打算发明电脑，他只是想解决一个纯数学问题。希尔伯特问：“是否存在一个通用算法，能判定任何数学命题的真伪？”图灵为了回答“不”，必须先定义什么是“计算”。\n据说，图灵是在剑桥格兰切斯特（Grantchester）的草地上休息时想出这个点子的。他想象一个人拿着无限长的纸和笔，像小学生一样只会做最简单的动作（写字、擦字、移动）。他把这个人的动作抽象成了一台机器。最天才的一步是，他意识到这台机器的“规则”本身也可以被编码成数据写在纸带上。这意味着我们不需要为每个任务造一台新机器，只需要给同一台机器喂不同的“纸带”（软件）。这一刻，硬件和软件分开了。",
+      "text_en": "Turing didn't set out to invent the computer; he just wanted to solve a pure math problem. Hilbert asked: 'Is there a universal algorithm to decide the truth of any mathematical statement?' To answer 'No', Turing first had to define what 'computation' actually was.\nLegend has it that Turing came up with the idea while lying in a meadow in Grantchester, Cambridge. He imagined a person with infinite paper and a pencil, performing only the simplest actions like a schoolchild (write, erase, move). He abstracted this person's actions into a machine. The stroke of genius was realizing that the machine's 'rules' could themselves be encoded as data on the tape. This meant we didn't need to build a new machine for every task; we just needed to feed the same machine a different 'tape' (software). At that moment, hardware and software were separated.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Lego_Turing_Machine.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "♾️",
+        "text": "图灵机的纸带是理论上“无限长”的。虽然现实中的计算机内存是有限的，但图灵机的模型告诉我们，只要给计算机足够的内存和时间，它就能算出任何可被计算的东西。",
+        "text_en": "The Turing Machine's tape is theoretically 'infinite'. While real computer memory is finite, the Turing model tells us that given enough memory and time, a computer can calculate anything that is computable."
+      },
+      {
+        "icon": "🍎",
+        "text": "图灵用这个模型证明了有些事情是计算机永远做不到的（比如预判一个程序会不会死循环，即“停机问题”）。这打破了当时数学界“一切皆可解”的乐观幻想。",
+        "text_en": "Turing used this model to prove that there are some things computers can never do (like predicting if a program will loop forever, known as the 'Halting Problem'). This shattered the optimistic illusion in mathematics that 'everything is solvable'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一台打字机，但它不仅能打字，还能读字，还能擦掉重写。\n它有一卷无限长的纸条，被分成一个个小格子。\n机器有一个读写头，每次只看一个格子。\n它的大脑里只有一本简单的说明书：\n“如果现在格子上是‘1’，且我在状态A -> 把它改成‘0’，向右移一格，变成状态B。”\n就靠这么简单的一步步操作，这台机器能完成从加减乘除到运行《魔兽世界》的所有任务。",
+      "text_en": "Imagine a typewriter that can not only type but also read and erase.\nIt has an infinitely long strip of paper divided into squares.\nThe machine has a head that looks at one square at a time.\nIts brain has only a simple rulebook:\n'If the square says '1' and I am in State A -> change it to '0', move one step right, switch to State B.'\nWith just these simple step-by-step operations, this machine can perform everything from basic arithmetic to running 'World of Warcraft'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Model_of_a_Turing_machine.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💻",
+          "title": "CPU架构",
+          "title_en": "CPU Architecture",
+          "text": "现代CPU的本质就是一个极其复杂的图灵机实现，依然遵循读取指令、修改状态、移动指针的逻辑。",
+          "text_en": "A modern CPU is essentially an extremely complex implementation of a Turing Machine, still following the logic of reading instructions, changing states, and moving pointers."
+        },
+        {
+          "icon": "📜",
+          "title": "编程语言",
+          "title_en": "Programming Languages",
+          "text": "如果一种编程语言能模拟图灵机，它就被称为“图灵完备”（Turing Complete）。这也是为什么Python、C++、Java虽然语法不同，但理论上能干的事情是一样的。",
+          "text_en": "If a programming language can simulate a Turing Machine, it is called 'Turing Complete'. This is why Python, C++, and Java, despite different syntax, can theoretically do exactly the same things."
+        }
+      ],
+  
+    "impact": {
+      "text": "图灵机是计算机科学的“原点”。在电子计算机还没造出来之前，图灵就已经把它的“灵魂”设计好了。这篇论文不仅终结了希尔伯特的判定问题，还意外地给了人类制造“通用大脑”的蓝图。冯·诺依曼后来在设计第一台电子计算机架构时，明确表示他深受图灵这篇论文的影响。",
+      "text_en": "The Turing Machine is the 'Origin Point' of computer science. Before electronic computers were even built, Turing had already designed their 'soul'. This paper not only ended Hilbert's Decision Problem but accidentally gave humanity the blueprint for building a 'Universal Brain'. Von Neumann later explicitly stated that he was deeply influenced by Turing's paper when designing the architecture of the first electronic computers.",
+      "stats": [
+          {
+            "number": "1936",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "0/1",
+            "label": "符号 (基本元素)",
+            "label_en": "Symbols (Basic Elements)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "godel_incompleteness_1931",
+          "contribution": "库尔特·哥德尔（他的不完备性定理启发图灵用另一种方法——机械计算——来思考数学的边界）",
+          "contribution_en": "Kurt Gödel (His Incompleteness Theorems inspired Turing to think about the limits of mathematics using a different approach—mechanical computation)"
+        },
+        {
+          "id": "babbage_analytical_engine_1837",
+          "contribution": "巴贝奇（虽然图灵主要从逻辑角度出发，但通用机器的概念与巴贝奇遥相呼应）",
+          "contribution_en": "Charles Babbage (Although Turing approached it from logic, the concept of a universal machine echoed Babbage's work)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "neumann_architecture_1945",
+          "contribution": "冯·诺依曼（将图灵的“存储程序”概念变成了电子计算机的实际工程架构）",
+          "contribution_en": "John von Neumann (Turned Turing's 'stored-program' concept into the actual engineering architecture of electronic computers)"
+        },
+        {
+          "id": "chomsky_hierarchy_1956",
+          "contribution": "乔姆斯基（利用图灵机的概念来定义自然语言和计算机语言的语法结构）",
+          "contribution_en": "Noam Chomsky (Used the concept of Turing machines to define the syntactic structures of natural and computer languages)"
+        }
+      ],
+      "legacy_text": "他在草地上想出了一条无限长的纸带，我们现在就生活在这条纸带上。",
+      "legacy_text_en": "He imagined an infinite tape in a meadow, and now we live on that tape."
+    },
+  
+    "related_concepts": ["通用图灵机 (Universal Turing Machine)", "停机问题 (Halting Problem)", "判定问题 (Entscheidungsproblem)", "算法 (Algorithm)", "图灵完备 (Turing Completeness)"],
+    "related_concepts_en": ["Universal Turing Machine", "Halting Problem", "Entscheidungsproblem", "Algorithm", "Turing Completeness"],
+  
+    "quiz": {
+      "question": "图灵机模型中最具革命性的概念是“通用图灵机”，它意味着什么？",
+      "question_en": "The most revolutionary concept in the Turing Machine model is the 'Universal Turing Machine'. What does it imply?",
+      "options": [
+        "机器可以无限快地运行",
+        "机器可以拥有人类的情感",
+        "不需要为每个任务造新机器，一台机器可以通过读取不同的规则（软件）来模拟任何计算",
+        "机器永远不会停止",
+        "机器必须由蒸汽驱动"
+      ],
+      "options_en": [
+        "The machine can run infinitely fast",
+        "The machine can have human emotions",
+        "You don't need a new machine for every task; one machine can simulate any computation by reading different rules (software)",
+        "The machine will never halt",
+        "The machine must be steam-powered"
+      ],
+      "answer": 2,
+      "explanation": "这是现代“软件”的基石。在图灵之前，计算机器通常是专用的（只能做加法，或者只能解微分方程）。通用图灵机证明了，只要把“任务”编码成数据，一台机器就能干所有机器的活。",
+      "explanation_en": "This is the cornerstone of modern 'software'. Before Turing, computing machines were usually specialized (only for addition, or only for differential equations). The Universal Turing Machine proved that by encoding the 'task' as data, one machine could do the work of all machines."
+    }
+  }

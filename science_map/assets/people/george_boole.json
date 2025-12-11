@@ -1,0 +1,10 @@
+{
+    "name": "乔治·布尔",
+    "name_en": "George Boole",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Portrait_of_George_Boole.png",
+    "bio_short": "英国数学家、逻辑学家和哲学家，自学成才的典范。他在1854年发表了划时代的著作《思维规律》（`boole_logic_1854`），创立了“布尔代数”，将逻辑推理转化为数学运算。这一发明奠定了现代数字电路和计算机逻辑设计的数学基石，因此被称为“信息时代之父”。",
+    "bio_short_en": "A British mathematician, logician, and philosopher, and a paragon of self-education. In 1854, he published the landmark work 'The Laws of Thought' (`boole_logic_1854`), establishing 'Boolean algebra' which transformed logical reasoning into mathematical operations. This invention laid the mathematical foundation for modern digital circuits and computer logic design, earning him the title 'Father of the Information Age'.",
+    "events": [
+      "boole_logic_1854"
+    ]
+  }

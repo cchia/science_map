@@ -1,0 +1,10 @@
+{
+    "name": "纳撒尼尔·罗切斯特",
+    "name_en": "Nathaniel Rochester",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/d/d7/Nathaniel_Rochester_computer_scientist.png",
+    "bio_short": "美国计算机科学家，IBM 701计算机的总设计师。他是1956年达特茅斯会议的四位核心发起人之一（与麦卡锡、明斯基、香农并列），被视为人工智能的“建国元勋”（`dartmouth_ai_conference_1956`）。除了AI，他还编写了世界上第一个汇编语言，并率先尝试用IBM计算机模拟神经网络。",
+    "bio_short_en": "An American computer scientist and chief architect of the IBM 701. He was one of the four core organizers of the 1956 Dartmouth Conference (alongside McCarthy, Minsky, and Shannon), making him a founding father of Artificial Intelligence (`dartmouth_ai_conference_1956`). Beyond AI, he wrote the world's first assembly language and pioneered early neural network simulations on IBM computers.",
+    "events": [
+      "dartmouth_ai_conference_1956"
+    ]
+  }

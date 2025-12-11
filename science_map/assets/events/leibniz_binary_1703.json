@@ -10,6 +10,7 @@
     "city_en": "Paris (Published in)",
     "country": "法国",
     "country_en": "France",
+    "storyline_id": ["computing_story"],
     "field": ["数学", "哲学", "计算机"],
     "field_en": ["Mathematics", "Philosophy", "Computer Science"],
     

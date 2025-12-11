@@ -131,7 +131,7 @@
       "pauli_exclusion_principle_1925",
       "heisenberg_matrix_mechanics_1925",
       "schrodinger_equation_1926",
-      "born_probability_1926",
+      "born_wavefunction_1926",
       "fermi_dirac_statistics_1926",     
       "davisson_germer_1927",
       "gp_thomson_diffraction_1927",
@@ -199,6 +199,43 @@
       "base_editing_2016",
       "prime_editing_2019",
       "twin_prime_editing_2021"
+    ]
+  },
+
+  "computing_story": {
+    "id": "computing_story",
+    "title_zh": "思考的机器",
+    "title_en": "The Thinking Machine",
+    "emoji": "💻",
+    "description_zh": "从莱布尼茨的二进制到ChatGPT，探索人类如何教会机器思考。",
+    "description_en": "From Leibniz's binary to ChatGPT, exploring how humanity taught machines to think.",
+    "events": [
+      "leibniz_binary_1703",
+      "babbage_analytical_engine_1837",
+      "lovelace_first_program_1843",
+      "boole_logic_1854",
+      "turing_machine_1936",
+      "shannon_circuits_1937",        
+      "abc_computer_1942",            
+      "von_neumann_architecture_1945",
+      "eniac_computer_1945",
+      "transistor_invention_1947",
+      "shannon_entropy_1948",
+      "univac_1_1951",                
+      "dartmouth_ai_conference_1956",
+      "integrated_circuit_1958",
+      "moore_law_1965",               
+      "expert_systems_1980s",         
+      "microsoft_windows_1985",       
+      "berners_lee_www_1989",
+      "deep_blue_chess_1997",
+      "google_founding_1998",         
+      "nvidia_gpu_1999",              
+      "facebook_launch_2004",         
+      "apple_iphone_2007",            
+      "alphago_2016",                 
+      "vaswani_transformer_2017",
+      "chatgpt_launch_2022"           
     ]
   }
   

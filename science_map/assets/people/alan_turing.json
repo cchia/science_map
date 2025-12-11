@@ -1,0 +1,10 @@
+{
+    "name": "阿兰·图灵",
+    "name_en": "Alan Turing",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alan_Turing_Aged_16.jpg/640px-Alan_Turing_Aged_16.jpg",
+    "bio_short": "英国数学家、计算机科学家和逻辑学家，被誉为“计算机科学与人工智能之父”。他在1936年提出了著名的“图灵机”模型（`turing_machine_1936`），为现代计算机奠定了数学逻辑基础。二战期间，他领导破解了德军的恩尼格玛（Enigma）密码，拯救了无数生命。",
+    "bio_short_en": "A British mathematician, computer scientist, and logician, known as the 'Father of Computer Science and Artificial Intelligence'. In 1936, he proposed the famous 'Turing Machine' model (`turing_machine_1936`), laying the mathematical logical foundation for modern computers. During WWII, he led the cracking of the German Enigma code, saving countless lives.",
+    "events": [
+      "turing_machine_1936"
+    ]
+  }

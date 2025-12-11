@@ -1,0 +1,156 @@
+{
+    "id": "lovelace_first_program_1843",
+    "personId": "ada_lovelace",
+    "title": "发布“第一个计算机程序” (预见通用计算)",
+    "title_en": "Publishes the 'First Computer Program' (Foreseeing Universal Computing)",
+    "year": 1843,
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["computing_story"],
+    "field": ["计算机科学", "数学"],
+    "field_en": ["Computer Science", "Mathematics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=wnHHzBY1SPQ",
+        "title": "计算机科学的女神：阿达·洛夫莱斯",
+        "title_en": "Computer Science's Wonder Woman: Ada Lovelace",
+        "duration": "17:08"
+      }
+    },
+    
+    "summary": {
+      "text": "1843年，诗人拜伦的女儿、数学家阿达·洛夫莱斯（Ada Lovelace）翻译了一篇关于巴贝奇“分析机”的文章。她在翻译中添加了比原文长三倍的“注释”（Notes）。在著名的“注释G”中，她详细写下了一套用于计算“伯努利数”（Bernoulli Numbers）的算法指令。这被公认为历史上第一个为了在机器上运行而编写的计算机程序。更重要的是，她超越了巴贝奇，预见到计算机不仅能处理数字，还能处理任何符号（如音乐音符），从而提出了“通用计算”的远见。",
+      "text_en": "In 1843, Ada Lovelace, mathematician and daughter of the poet Lord Byron, translated an article about Babbage's 'Analytical Engine'. She added 'Notes' to the translation that were three times longer than the original text. In the famous 'Note G', she wrote out a detailed algorithm for calculating 'Bernoulli Numbers'. This is recognized as the first computer program in history intended to be processed by a machine. More importantly, she surpassed Babbage in vision, predicting that computers could manipulate not just numbers, but any symbol (like musical notes), thus proposing the concept of 'General-Purpose Computing'.",
+      "key_points": [
+        "编写了历史上第一个计算机程序 (注释G)",
+        "设计了计算伯努利数的算法",
+        "提出计算机可以创作音乐和处理符号",
+        "提出了“循环” (Loop) 的编程概念",
+        "预言了人工智能的局限性 (洛夫莱斯抗议)"
+      ],
+      "key_points_en": [
+        "Wrote the first computer program in history (Note G)",
+        "Designed an algorithm to calculate Bernoulli Numbers",
+        "Proposed computers could compose music and manipulate symbols",
+        "Introduced the programming concept of the 'Loop'",
+        "Predicted limitations of AI (Lovelace's Objection)"
+      ]
+    },
+  
+    "story": {
+      "text": "阿达的身世充满了戏剧性。她的父亲是著名的浪漫主义诗人拜伦，但她母亲为了防止她像父亲一样“发疯”，从小就强迫她学习逻辑和数学，试图用科学来压制她体内的“诗意”。这造就了阿达独特的视角，她称之为“诗意的科学”（Poetical Science）。\n当她看到巴贝奇那台从未完工的分析机图纸时，她看到的不是一堆冷冰冰的齿轮，而是一个能编织智慧的织布机。她写道：“分析机编织代数模式，就像雅卡尔织布机编织花叶一样。”巴贝奇专注于如何制造机器，而阿达专注于如何与机器交流。尽管她在36岁就因子宫癌英年早逝，但她留下的那些注释，成为了连接19世纪机械梦与20世纪电子现实的唯一桥梁。",
+      "text_en": "Ada's background was dramatic. Her father was the famous Romantic poet Lord Byron, but her mother, fearing Ada would inherit his 'madness', forced her to study logic and mathematics from a young age to suppress the 'poetry' within her. This created Ada's unique perspective, which she called 'Poetical Science'.\nWhen she saw the blueprints for Babbage's unfinished Analytical Engine, she saw not cold gears, but a loom that could weave wisdom. She wrote: 'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves.' While Babbage focused on how to build the machine, Ada focused on how to communicate with it. Though she died tragically young at 36 from uterine cancer, her notes remained the sole bridge connecting the mechanical dreams of the 19th century to the electronic reality of the 20th.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/640px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💻",
+        "text": "为了纪念她，美国国防部在1980年将一种军用高级编程语言命名为“Ada”。",
+        "text_en": "To honor her, the US Department of Defense named a high-level military programming language 'Ada' in 1980."
+      },
+      {
+        "icon": "🐎",
+        "text": "阿达也是个狂热的赌徒。她曾试图建立一个数学模型来预测赛马结果，结果惨败，不仅输光了钱，还不得不把家里的钻石拿去当铺。",
+        "text_en": "Ada was also an avid gambler. She tried to build a mathematical model to predict horse racing results, but failed miserably, losing her fortune and even pawning family diamonds."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "巴贝奇造了一辆超级复杂的“车”（分析机），但他只把它当作一个能跑得很快的计算工具。\n阿达则是第一个拿到“车钥匙”的人。她写了一本“驾驶手册”（程序），告诉这辆车不仅可以走直线（做加减法），还可以转圈（循环）、甚至跳舞（创作音乐）。\n她是第一个意识到硬件（车）需要软件（驾驶手册）才能发挥灵魂作用的人。",
+      "text_en": "Babbage built a super complex 'car' (Analytical Engine), but he only saw it as a fast calculation tool.\nAda was the first person to get the 'keys'. She wrote a 'driving manual' (program), telling the car it could not only go straight (arithmetic) but also drive in circles (loops) and even dance (compose music).\nShe was the first to realize that hardware (the car) needs software (the manual) to have a soul.",
+      "diagram": "assets/images/hardware_software_analogy.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🎼",
+          "title": "计算机音乐与艺术",
+          "title_en": "Computer Music & Art",
+          "text": "阿达关于“机器可以处理任何符号”的预言，是今天计算机能处理图像、音频和视频的理论源头。",
+          "text_en": "Ada's prediction that 'machines can process any symbol' is the theoretical source of today's computers handling images, audio, and video."
+        },
+        {
+          "icon": "🔄",
+          "title": "循环与子程序",
+          "title_en": "Loops & Subroutines",
+          "text": "她在计算伯努利数的算法中使用的循环结构，至今仍是所有编程语言的基础。",
+          "text_en": "The loop structure she used in her Bernoulli algorithm remains the foundation of all programming languages today."
+        }
+      ],
+  
+    "impact": {
+      "text": "阿达是“软件之母”。在那个连电灯都没有的时代，她凭空想象出了“编程”的概念。她提出的“洛夫莱斯抗议”（Lovelace's Objection）——即“机器只能做我们命令它做的事，它不能创造”——成为了后来阿兰·图灵思考“机器能否思考”这一问题的起点。虽然她的名字被遗忘了100年，但随着计算机时代的到来，她被重新发现并被奉为先知。",
+      "text_en": "Ada is the 'Mother of Software'. In an era without lightbulbs, she imagined the concept of 'programming'. Her 'Lovelace's Objection'—that 'The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform'—became the starting point for Alan Turing's later debate on 'Can machines think?'. Though forgotten for a century, she was rediscovered and hailed as a prophet with the advent of the computer age.",
+      "stats": [
+          {
+            "number": "1843",
+            "label": "年 (发表注释)",
+            "label_en": "Year (Notes Published)"
+          },
+          {
+            "number": "G",
+            "label": "注释编号 (Note G)",
+            "label_en": "Note Letter"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "babbage_analytical_engine_1837",
+          "contribution": "巴贝奇（提供了硬件设计，没有分析机，阿达就没有编程的对象）",
+          "contribution_en": "Charles Babbage (Provided the hardware design; without the Analytical Engine, Ada would have nothing to program)"
+        },
+        {
+          "id": "jacquard_loom_1804",
+          "contribution": "雅卡尔（穿孔卡片的概念启发了阿达对“编程模式”的理解）",
+          "contribution_en": "Joseph Marie Jacquard (The punch card concept inspired Ada's understanding of 'programming patterns')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "turing_machine_1936",
+          "contribution": "阿兰·图灵（在这一年发表的论文中专门讨论了阿达的观点，并深受其通用计算思想的启发）",
+          "contribution_en": "Alan Turing (Discussed Ada's views extensively in his paper and was deeply inspired by her idea of universal computing)"
+        },
+        {
+          "id": "grace_hopper_compiler_1952",
+          "contribution": "格蕾丝·霍珀（作为女性程序员的先驱，她视阿达为精神偶像）",
+          "contribution_en": "Grace Hopper (As a pioneer female programmer, she regarded Ada as a spiritual idol)"
+        }
+      ],
+      "legacy_text": "她不仅是第一位程序员，她是第一位看到机器灵魂的人。",
+      "legacy_text_en": "She was not just the first programmer; she was the first to see the soul of the machine."
+    },
+  
+    "related_concepts": ["通用计算 (Universal Computing)", "伯努利数 (Bernoulli Numbers)", "洛夫莱斯抗议 (Lovelace's Objection)", "Ada语言", "诗意的科学"],
+    "related_concepts_en": ["Universal Computing", "Bernoulli Numbers", "Lovelace's Objection", "Ada Language", "Poetical Science"],
+  
+    "quiz": {
+      "question": "阿达·洛夫莱斯在1843年的注释中编写了世界上第一个计算机程序，这个程序是为了计算什么数学序列？",
+      "question_en": "In her 1843 notes, Ada Lovelace wrote the world's first computer program. What mathematical sequence was this program designed to calculate?",
+      "options": [
+        "斐波那契数列",
+        "圆周率",
+        "伯努利数 (Bernoulli Numbers)",
+        "素数"
+      ],
+      "options_en": [
+        "Fibonacci sequence",
+        "Pi",
+        "Bernoulli Numbers",
+        "Prime numbers"
+      ],
+      "answer": 2,
+      "explanation": "她在“注释G”中详细展示了如何用分析机计算伯努利数。这个算法非常复杂，包含了循环和条件分支，被公认为第一个真正的计算机程序。",
+      "explanation_en": "In 'Note G', she detailed how to calculate Bernoulli numbers using the Analytical Engine. This algorithm was complex, involving loops and conditional branching, and is recognized as the first true computer program."
+    }
+  }
