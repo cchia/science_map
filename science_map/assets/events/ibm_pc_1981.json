@@ -10,7 +10,7 @@
     "city_en": "Boca Raton, Florida",
     "country": "美国",
     "country_en": "United States",
-    "storyline_id": ["computing_origin_story"],
+    "storyline_id": ["computing_origin_story", "digital_age_story"],
     "field": ["计算机科学", "商业管理"],
     "field_en": ["Computer Science", "Business Management"],
     

@@ -1,0 +1,10 @@
+{
+    "name": "陈士骏",
+    "name_en": "Steve Chen",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/63/Steve_Chen_%282022%29_02.png",
+    "bio_short": "华裔美籍互联网企业家，YouTube的联合创始人兼首席技术官（CTO）。出生于台湾，8岁时随家人移民美国。作为“PayPal黑帮”的一员，他在PayPal工作期间结识了另外两位创始人。在YouTube的爆发式增长期，他不仅是技术架构的核心负责人，还与查德·赫利共同主导了公司的日常运营，直到被Google高价收购。他在功成名就后曾经历过脑瘤手术，这改变了他的人生观，使他更加专注于支持创新企业。",
+    "bio_short_en": "Taiwanese-American internet entrepreneur, co-founder and CTO of YouTube. Born in Taiwan, he immigrated to the US at age 8. As a member of the 'PayPal Mafia', he met his co-founders while working at PayPal. During YouTube's explosive growth, he was the key architect of its technical infrastructure and co-led daily operations with Chad Hurley until the Google acquisition. After his success, a brain tumor scare shifted his perspective, leading him to focus more on supporting innovative startups.",
+    "events": [
+      "youtube_launch_2005"
+    ]
+  }

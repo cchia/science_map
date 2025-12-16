@@ -1,0 +1,10 @@
+{
+    "name": "拉里·佩奇",
+    "name_en": "Larry Page",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg/640px-Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg",
+    "bio_short": "美国计算机科学家、互联网企业家，Google的联合创始人。作为PageRank算法的主要发明者，他奠定了现代搜索引擎的技术基石。他性格内向但野心勃勃，长期担任Google和Alphabet的CEO，致力于推动那些看起来疯狂的“登月计划”（Moonshot），如自动驾驶汽车和长生不老技术。",
+    "bio_short_en": "American computer scientist, internet entrepreneur, and co-founder of Google. As the primary inventor of the PageRank algorithm, he laid the technical foundation for modern search engines. Introverted yet ambitious, he served as CEO of Google and Alphabet for many years, driving 'Moonshot' projects like self-driving cars and life extension technology.",
+    "events": [
+      "google_search_1998"
+    ]
+  }

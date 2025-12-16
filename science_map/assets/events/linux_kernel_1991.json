@@ -1,0 +1,161 @@
+{
+    "id": "linux_kernel_1991",
+    "personId": ["linus_torvalds"],
+    "title": "Linux内核发布 (开源世界的基石)",
+    "title_en": "Release of Linux Kernel (Cornerstone of the Open Source World)",
+    "year": 1991,
+    "lat": 60.1719,
+    "lng": 24.9414,
+    "city": "赫尔辛基 (赫尔辛基大学)",
+    "city_en": "Helsinki (University of Helsinki)",
+    "country": "芬兰",
+    "country_en": "Finland",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "操作系统"],
+    "field_en": ["Computer Science", "Operating Systems"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=s7u7jBwIocU",
+        "title": "Linux: 起源故事",
+        "title_en": "Linux: The Origin Story",
+        "duration": "8:12"
+      }
+    },
+    
+    "summary": {
+      "text": "1991年8月25日，21岁的芬兰赫尔辛基大学学生Linus Torvalds在Usenet新闻组`comp.os.minix`上发布了一条改变计算机历史的消息：“各位Minix用户好……我正在做一个（免费的）操作系统（只是个爱好，不会像GNU那样大而专业）……”同年9月，他发布了Linux内核的0.01版本。这个最初只是为了挖掘Intel 386芯片潜力的个人项目，因为采用了GPL开源许可证，迅速吸引了全球开发者的贡献。如今，Linux运行着全球所有的超级计算机、绝大多数互联网服务器以及数十亿台Android设备。",
+      "text_en": "On August 25, 1991, 21-year-old University of Helsinki student Linus Torvalds posted a message on the Usenet newsgroup `comp.os.minix` that would change computer history: 'Hello everybody out there using minix... I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)...' In September of that year, he released version 0.01 of the Linux kernel. Originally a personal project to explore the capabilities of the Intel 386 chip, it quickly attracted global contributions due to its GPL open-source license. Today, Linux runs all of the world's supercomputers, the vast majority of internet servers, and billions of Android devices.",
+      "key_points": [
+        "Linus Torvalds发布了著名的“Just a hobby”公告",
+        "基于GPL协议发布的开源操作系统内核",
+        "最初是为了替代MINIX并利用386处理器的特性",
+        "促成了自由软件基金会（GNU）工具与Linux内核的结合",
+        "开启了全球协作开发软件的新模式"
+      ],
+      "key_points_en": [
+        "Linus Torvalds posted the famous 'Just a hobby' announcement",
+        "Open-source operating system kernel released under GPL",
+        "Originally created to replace MINIX and utilize 386 processor features",
+        "Enabled the combination of GNU tools with the Linux kernel",
+        "Pioneered a new model of global collaborative software development"
+      ]
+    },
+  
+    "story": {
+      "text": "Linux的故事始于一个贫穷大学生的挫败感。Linus当时买了一台最新的386电脑，但他买不起昂贵的商业Unix系统（如SCO Unix），而用于教学的MINIX系统又有太多的限制。于是，他决定自己写一个终端仿真器来访问大学的服务器，写着写着，他发现自己需要文件系统、磁盘驱动……最后他意识到自己正在写一个操作系统内核。他并没有像商业公司那样把代码藏起来，而是把半成品发到了网上，邀请大家一起玩。这种“集市”式的开发模式（Bazaar），彻底打破了以往由精英团队封闭开发软件的“大教堂”模式（Cathedral）。",
+      "text_en": "The story of Linux began with a poor student's frustration. Linus had bought a new 386 PC but couldn't afford an expensive commercial Unix (like SCO Unix), and the educational MINIX system was too limited. So, he decided to write a terminal emulator to access the university server. As he wrote, he realized he needed a file system, disk drivers... eventually realizing he was writing an operating system kernel. Instead of hiding the code like a commercial company, he posted the unfinished work online and invited everyone to play. This 'Bazaar' style of development completely shattered the traditional 'Cathedral' model of closed software development by elite teams.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Linux_kernel_ubiquity.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🐧",
+        "text": "Linus本来想把这个系统命名为“Freax”（Free + Freak + X），但FTP服务器的管理员Ari Lemmke觉得这个名字不好听，擅自用Linus的名字把它改成了“Linux”。Linus后来也接受了。",
+        "text_en": "Linus originally wanted to name the system 'Freax' (Free + Freak + X), but Ari Lemmke, the FTP server administrator, thought it was a bad name and unilaterally changed it to 'Linux' after Linus. Linus later accepted it."
+      },
+      {
+        "icon": "🐦",
+        "text": "Linux的吉祥物是一只叫Tux的企鹅。据说是因为Linus在澳大利亚度假时被一只小企鹅咬了一口，他觉得这种动物很可爱且有点滑稽，不像其他科技公司的Logo那么严肃。",
+        "text_en": "The mascot of Linux is a penguin named Tux. Legend has it that Linus was bitten by a little penguin while on vacation in Australia. He thought the animal was cute and slightly goofy, unlike the serious logos of other tech companies."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下，这就好比有人设计了一款汽车引擎，然后把图纸贴在公告栏上说：“这是我做的引擎，谁想拿去用都可以，如果你们发现了问题或者能把它改得更快，请把修改后的图纸寄回给我。”\n结果，全世界的修车工人和工程师都参与了进来，最终这台引擎变得比任何汽车公司造的都要强大，现在它驱动着从智能手表到超级计算机的一切。",
+      "text_en": "Imagine someone designed a car engine and posted the blueprints on a bulletin board saying, 'Here is an engine I made. Anyone can use it. If you find problems or can make it faster, please send the modified blueprints back to me.'\nAs a result, mechanics and engineers from all over the world joined in. Eventually, this engine became more powerful than anything built by any car company, and now it powers everything from smartwatches to supercomputers.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Linux_kernel_ubiquity.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "☁️",
+          "title": "服务器与云计算",
+          "title_en": "Servers & Cloud Computing",
+          "text": "几乎整个互联网都运行在Linux之上。无论是Google、Facebook还是亚马逊AWS，底层全是Linux。",
+          "text_en": "Almost the entire Internet runs on Linux. Whether it's Google, Facebook, or Amazon AWS, the underlying layer is all Linux."
+        },
+        {
+          "icon": "📱",
+          "title": "Android",
+          "title_en": "Android",
+          "text": "Android系统本质上就是Linux内核加上谷歌的界面层。这意味着全球数十亿手机用户其实都在口袋里装着Linux。",
+          "text_en": "The Android system is essentially the Linux kernel plus Google's interface layer. This means billions of phone users worldwide are carrying Linux in their pockets."
+        }
+      ],
+  
+    "impact": {
+      "text": "Linux是历史上最成功的开源项目。它不仅打破了微软在服务器市场的垄断，更重要的是证明了“开源”不仅是一种情怀，更是一种极其高效的商业和技术协作模式。没有Linux，就没有今天的云计算、大数据和移动互联网生态。它让软件成为了全人类共享的基础设施，而不是某一家公司的私有财产。",
+      "text_en": "Linux is the most successful open-source project in history. It not only broke Microsoft's monopoly in the server market but, more importantly, proved that 'open source' is not just a sentiment but a highly efficient model for commercial and technical collaboration. Without Linux, there would be no cloud computing, big data, or mobile internet ecosystems today. It made software a shared infrastructure for humanity, rather than the private property of a single company.",
+      "stats": [
+          {
+            "number": "100",
+            "label": "% (超级计算机份额)",
+            "label_en": "% (Top 500 Supercomputers)"
+          },
+          {
+            "number": "0.00",
+            "label": "美元 (授权费)",
+            "label_en": "USD (License Fee)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "minix_1987",
+          "contribution": "MINIX（Andrew Tanenbaum开发的教学用操作系统，是Linux的原型和灵感来源）",
+          "contribution_en": "MINIX (Educational OS developed by Andrew Tanenbaum, the prototype and inspiration for Linux)"
+        },
+        {
+          "id": "unix_1969",
+          "contribution": "Unix（Linux的设计目标就是要在PC上重现Unix的功能和哲学）",
+          "contribution_en": "Unix (Linux's design goal was to recreate the functionality and philosophy of Unix on a PC)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "android_2008",
+          "contribution": "Android（基于Linux内核构建，成为了世界上最流行的移动操作系统）",
+          "contribution_en": "Android (Built on the Linux kernel, becoming the world's most popular mobile OS)"
+        },
+        {
+          "id": "git_2005",
+          "contribution": "Git（Linus为了更好地管理庞大的Linux代码库而亲自开发的版本控制系统，现在统治了开发界）",
+          "contribution_en": "Git (Version control system personally developed by Linus to better manage the massive Linux codebase, now dominating the dev world)"
+        },
+        {
+          "id": "microsoft_windows_1985",
+          "contribution": "Windows（Linux的崛起迫使微软拥抱开源，甚至后来在Windows中内置了Linux子系统WSL）",
+          "contribution_en": "Windows (The rise of Linux forced Microsoft to embrace open source, eventually even embedding a Linux subsystem, WSL, into Windows)"
+        }
+      ],
+      "legacy_text": "它证明了“集市”可以战胜“大教堂”。",
+      "legacy_text_en": "It proved that the 'Bazaar' could defeat the 'Cathedral'."
+    },
+  
+    "related_concepts": ["开源 (Open Source)", "GPL许可证", "内核 (Kernel)", "GNU/Linux", "发行版 (Distro)"],
+    "related_concepts_en": ["Open Source", "GPL License", "Kernel", "GNU/Linux", "Distro"],
+  
+    "quiz": {
+      "question": "Linus Torvalds在发布Linux的著名邮件中是如何描述这个项目的？",
+      "question_en": "How did Linus Torvalds describe the project in his famous email announcing Linux?",
+      "options": [
+        "它将毁灭微软",
+        "只是个爱好，不会像GNU那样大而专业",
+        "这是未来的企业级操作系统",
+        "我想靠它赚一百万美元"
+      ],
+      "options_en": [
+        "It will destroy Microsoft",
+        "Just a hobby, won't be big and professional like gnu",
+        "This is the future enterprise OS",
+        "I want to make a million dollars from it"
+      ],
+      "answer": 1,
+      "explanation": "Linus当时非常谦虚（或者说务实），他在邮件中写道：“I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)...” 谁也没想到这个“爱好”后来统治了世界。",
+      "explanation_en": "Linus was very humble (or pragmatic) at the time. He wrote in the email: 'I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)...' No one expected this 'hobby' to later rule the world."
+    }
+  }

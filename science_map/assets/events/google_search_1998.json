@@ -1,0 +1,156 @@
+{
+    "id": "google_search_1998",
+    "personId": ["larry_page", "sergey_brin"],
+    "title": "Google搜索发布 (整理全球信息)",
+    "title_en": "Launch of Google Search (Organizing the World's Information)",
+    "year": 1998,
+    "lat": 37.4529,
+    "lng": -122.1817,
+    "city": "门洛帕克 (苏珊·沃西基的车库)",
+    "city_en": "Menlo Park (Susan Wojcicki's Garage)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "互联网"],
+    "field_en": ["Computer Science", "Internet"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=aK2Yb4qSJjI",
+        "title": "Google公司历史",
+        "title_en": "History of Google Company - Animated",
+        "duration": "5:32"
+      }
+    },
+    
+    "summary": {
+      "text": "1998年9月4日，两位斯坦福大学的博士生拉里·佩奇和谢尔盖·布林，在加州门洛帕克的一个车库里正式成立了Google公司。他们的核心创新是一个名为“PageRank”的算法，该算法通过分析网页之间的链接关系来判断网页的重要性，彻底颠覆了当时依靠关键词堆砌的传统搜索引擎（如AltaVista和Yahoo）。Google简洁的首页、精准的搜索结果和极快的速度迅速征服了早期网民，从一个斯坦福校园项目变成了“组织全球信息”的科技巨头。",
+      "text_en": "On September 4, 1998, two Stanford Ph.D. students, Larry Page and Sergey Brin, officially incorporated Google in a garage in Menlo Park, California. Their core innovation was an algorithm called 'PageRank', which determined the importance of a web page by analyzing the links between pages. This completely disrupted traditional search engines of the time (like AltaVista and Yahoo) that relied on keyword frequency. Google's clean homepage, precise results, and blazing speed quickly conquered early internet users, transforming it from a Stanford campus project into a tech giant 'organizing the world's information'.",
+      "key_points": [
+        "基于PageRank算法，利用网页间的链接投票来决定排名",
+        "公司最初在苏珊·沃西基（后来的YouTube CEO）的车库里成立",
+        "不仅没有门户网站的杂乱广告，首页只有简洁的搜索框",
+        "获得了Sun联合创始人Andy Bechtolsheim的10万美元天使投资",
+        "著名的非正式座右铭：“不作恶” (Don't be evil)"
+      ],
+      "key_points_en": [
+        "Based on the PageRank algorithm, using link analysis to determine ranking",
+        "Company founded in the garage of Susan Wojcicki (later YouTube CEO)",
+        "Featured a clean homepage with just a search box, unlike cluttered portals",
+        "Received a $100,000 angel investment from Sun co-founder Andy Bechtolsheim",
+        "Famous informal motto: 'Don't be evil'"
+      ]
+    },
+  
+    "story": {
+      "text": "Google的前身叫“BackRub”（因为它是通过分析反向链接Backlinks来排名的）。拉里和谢尔盖最初并没有打算开公司，他们甚至想把技术以100万美元卖给Yahoo或Excite，但都被拒绝了。无奈之下，他们决定自己干。Sun的联合创始人安迪·贝克托斯海姆在看了简单的演示后，立马开了一张10万美元的支票，收款人写的是“Google Inc.”。问题是当时这个公司还没注册！两人拿着支票兴奋又尴尬，不得不狂奔去办理注册手续以便兑现这张支票。随后，他们搬进了苏珊·沃西基的车库，用廉价的电脑和偷来的斯坦福带宽开始了传奇。",
+      "text_en": "Google's predecessor was called 'BackRub' (because it ranked pages by analyzing backlinks). Larry and Sergey didn't originally intend to start a company; they even tried to sell the technology to Yahoo or Excite for $1 million, but were rejected. Left with no choice, they did it themselves. Sun co-founder Andy Bechtolsheim, after seeing a quick demo, immediately wrote a $100,000 check made out to 'Google Inc.'. The problem was, the company didn't exist yet! Excited but awkward, the pair had to rush to incorporate just to cash the check. They then moved into Susan Wojcicki's garage, starting the legend with cheap computers and borrowed Stanford bandwidth.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/en/b/b7/Google1998.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🔢",
+        "text": "“Google”这个名字源自数学术语“Googol”，意为1后面跟着100个零。这象征着他们试图整理海量信息的野心。据说是因为拼写错误才变成了Google。",
+        "text_en": "The name 'Google' is derived from the mathematical term 'Googol', meaning 1 followed by 100 zeros. It symbolizes their ambition to organize immense amounts of information. Legend has it that 'Google' was actually a misspelling."
+      },
+      {
+        "icon": "🧱",
+        "text": "Google的第一台服务器机箱是用乐高积木搭起来的。原因很简单：乐高便宜，而且方便他们根据硬盘大小随时调整机箱结构。",
+        "text_en": "Google's first server casing was built out of LEGO bricks. The reason was simple: LEGOs were cheap and allowed them to easily adjust the structure to fit different hard drives."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在Google之前，搜索引擎像是在图书馆里翻书，看哪本书里提到的“关键词”次数最多。\nGoogle的做法是：看哪本书被其他书“引用”的次数最多。被引用越多，说明这本书越权威。\n这就像是学术论文的引用机制，或者是一场全球性的民主投票。",
+      "text_en": "Before Google, search engines were like flipping through books in a library to see which one mentioned a 'keyword' the most.\nGoogle's approach was: see which book is 'cited' (linked) the most by other books. The more citations, the more authoritative the book.\nIt's like academic citations, or a global democratic vote.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/55/Page_rank_animation.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔍",
+          "title": "PageRank",
+          "title_en": "PageRank",
+          "text": "这是Google搜索的核心秘密。它认为一个网页的重要性取决于有多少高质量的网页链接指向它。",
+          "text_en": "The core secret of Google Search. It posits that a page's importance depends on how many high-quality pages link to it."
+        },
+        {
+          "icon": "💰",
+          "title": "AdWords (竞价排名)",
+          "title_en": "AdWords",
+          "text": "虽然是后来推出的，但AdWords这种让广告与搜索意图高度匹配的模式，成为了互联网历史上最赚钱的印钞机。",
+          "text_en": "Although launched later, the AdWords model of matching ads to search intent became the most profitable money-printing machine in internet history."
+        }
+      ],
+  
+    "impact": {
+      "text": "Google不仅终结了早期的搜索引擎混战，更改变了人类获取知识的方式。“Google一下”变成了一个动词。它建立的以搜索广告为核心的商业模式，支撑了后来免费互联网生态的繁荣。从Gmail到Maps，再到Android，Google的一切服务都建立在这个强大的搜索入口之上。",
+      "text_en": "Google not only ended the early search engine wars but changed how humanity accesses knowledge. 'To Google' became a verb. The business model built around search advertising supported the prosperity of the free internet ecosystem. From Gmail to Maps to Android, all of Google's services are built upon this powerful search gateway.",
+      "stats": [
+          {
+            "number": "100000",
+            "label": "美元 (第一笔天使投资)",
+            "label_en": "USD (First Angel Investment)"
+          },
+          {
+            "number": "10",
+            "label": "的100次方 (Googol)",
+            "label_en": "to the power of 100 (Googol)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "berners_lee_www_1989",
+          "contribution": "万维网（没有庞大的网页网络，就不需要搜索引擎，PageRank也就没有链接可以分析）",
+          "contribution_en": "World Wide Web (Without a massive web of pages, there's no need for a search engine, and PageRank has no links to analyze)"
+        },
+        {
+          "id": "amazon_founding_1994",
+          "contribution": "Amazon（贝佐斯是Google最早的投资人之一，Amazon的快速增长也为Google提供了大量早期的搜索流量和广告需求）",
+          "contribution_en": "Amazon (Bezos was one of Google's earliest investors; Amazon's growth provided massive early search traffic and ad demand)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "android_2008",
+          "contribution": "Android（Google为了在移动时代保住搜索入口，收购并开发了Android）",
+          "contribution_en": "Android (Google acquired and developed Android to secure its search gateway in the mobile era)"
+        },
+        {
+          "id": "wikipedia_founding_2001",
+          "contribution": "维基百科（Google搜索对高质量内容的偏好，极大地促进了维基百科的流量增长和普及）",
+          "contribution_en": "Wikipedia (Google Search's preference for high-quality content greatly boosted Wikipedia's traffic and adoption)"
+        }
+      ],
+      "legacy_text": "它真的整理了全世界的信息。",
+      "legacy_text_en": "It truly organized the world's information."
+    },
+  
+    "related_concepts": ["PageRank", "SEO (搜索引擎优化)", "爬虫 (Crawler)", "竞价排名", "不作恶 (Don't be evil)"],
+    "related_concepts_en": ["PageRank", "SEO", "Crawler", "PPC", "Don't be evil"],
+  
+    "quiz": {
+      "question": "Google的第一笔10万美元投资来自谁？",
+      "question_en": "Who provided Google's first $100,000 investment?",
+      "options": [
+        "比尔·盖茨 (Bill Gates)",
+        "杰夫·贝佐斯 (Jeff Bezos)",
+        "安迪·贝克托斯海姆 (Andy Bechtolsheim)",
+        "伊隆·马斯克 (Elon Musk)"
+      ],
+      "options_en": [
+        "Bill Gates",
+        "Jeff Bezos",
+        "Andy Bechtolsheim",
+        "Elon Musk"
+      ],
+      "answer": 2,
+      "explanation": "安迪·贝克托斯海姆是Sun Microsystems的联合创始人。他在拉里和谢尔盖展示完Demo还没来得及吃汉堡王庆祝时，就匆忙写下了这张支票，甚至把公司名字错写成了还没注册的“Google Inc.”。",
+      "explanation_en": "Andy Bechtolsheim, co-founder of Sun Microsystems. He wrote the check in a rush after the demo, before Larry and Sergey could even celebrate at Burger King, and he even made it out to 'Google Inc.', which hadn't been incorporated yet."
+    }
+  }

@@ -269,28 +269,33 @@
       "engelbart_demo_1968", 
       "arpanet_1969",
       "intel_4004_1971", 
+      "microsoft_founding_1975", 
+      "apple_founding_1976",      
       "ibm_pc_1981", 
       "ms_dos_1981", 
       "apple_macintosh_1984", 
       "microsoft_windows_1985",
       "berners_lee_www_1989", 
       "linux_kernel_1991", 
-      "amazon_founding_1994",
+      "amazon_founding_1994", 
       "ebay_launch_1995",
       "google_search_1998", 
       "paypal_launch_1998", 
+      "wikipedia_launch_2001",
       "facebook_launch_2004", 
+      "youtube_launch_2005",
       "aws_launch_2006",
       "apple_iphone_2007", 
-      "google_android_2008"
+      "google_android_2008"      
     ],
     "narrative_intro": {
-      "text_zh": "故事从[集成电路](integrated_circuit_1958)和[摩尔定律](moore_law_1965)的指数级预言开始。恩格尔巴特的[演示之母](engelbart_demo_1968)和[ARPANET](arpanet_1969)的连接埋下了未来的种子。随着[Intel 4004](intel_4004_1971)、[IBM PC](ibm_pc_1981)和[MS-DOS](ms_dos_1981)的普及，个人计算时代来临。紧接着，[Macintosh](apple_macintosh_1984)和[Windows](microsoft_windows_1985)用图形界面让电脑变得好用，而伯纳斯-李的[万维网](berners_lee_www_1989)让电脑不再孤单。\n\n[Linux](linux_kernel_1991)开启了开源时代，随后商业爆发了：[Amazon](amazon_founding_1994)建起了网上超市，[eBay](ebay_launch_1995)建起了集市，[Google](google_search_1998)整理了信息，[PayPal](paypal_launch_1998)打通了支付。进入新世纪，[Facebook](facebook_launch_2004)连接了人，[AWS](aws_launch_2006)把算力搬上了云端。最终，[iPhone](apple_iphone_2007)和[Android](google_android_2008)把互联网装进了口袋，而[Uber](uber_launch_2009)让代码开始指挥现实世界的交通。数字浪潮，彻底淹没了旧世界。",
-      "text_en": "It starts with the [Integrated Circuit](integrated_circuit_1958) and [Moore's Law](moore_law_1965). Engelbart's [Demo](engelbart_demo_1968) and [ARPANET](arpanet_1969) planted the seeds. With [Intel 4004](intel_4004_1971), [IBM PC](ibm_pc_1981), and [MS-DOS](ms_dos_1981), personal computing arrived. Then, [Macintosh](apple_macintosh_1984) and [Windows](microsoft_windows_1985) gave it a face, while the [Web](berners_lee_www_1989) connected it all.\n\n[Linux](linux_kernel_1991) opened the code. Then came commerce: [Amazon](amazon_founding_1994) the store, [eBay](ebay_launch_1995) the market, [Google](google_search_1998) the map, and [PayPal](paypal_launch_1998) the wallet. [Facebook](facebook_launch_2004) connected us, and [AWS](aws_launch_2006) built the cloud. Finally, [iPhone](apple_iphone_2007) and [Android](google_android_2008) put the world in our pockets, and [Uber](uber_launch_2009) moved reality. The digital wave reshaped everything.",
+      "text_zh": "故事从[集成电路](integrated_circuit_1958)和[摩尔定律](moore_law_1965)的指数级预言开始。恩格尔巴特的[演示之母](engelbart_demo_1968)和[ARPANET](arpanet_1969)的连接埋下了未来的种子。随着[Intel 4004](intel_4004_1971)微处理器的诞生，硬件准备好了。紧接着，[Microsoft](microsoft_founding_1975)定义了软件产业，而[Apple](apple_founding_1976)在车库里定义了个人电脑。随后，[IBM PC](ibm_pc_1981)和[MS-DOS](ms_dos_1981)确立了行业标准，个人计算时代正式来临。\n\n[Macintosh](apple_macintosh_1984)和[Windows](microsoft_windows_1985)用图形界面让电脑变得好用，而伯纳斯-李的[万维网](berners_lee_www_1989)让电脑不再孤单。[Linux](linux_kernel_1991)开启了开源时代，随后商业爆发了：[Amazon](amazon_founding_1994)建起了网上超市，[eBay](ebay_launch_1995)建起了集市，[Google](google_search_1998)整理了信息，[PayPal](paypal_launch_1998)打通了支付。\n\n进入新世纪，[Wikipedia](wikipedia_launch_2001)让全人类共同书写知识，[Facebook](facebook_launch_2004)连接了人，[YouTube](youtube_launch_2005)开启了全民视频时代，[AWS](aws_launch_2006)把算力搬上了云端。最终，[iPhone](apple_iphone_2007)和[Android](google_android_2008)把互联网装进了口袋。数字浪潮，彻底淹没了旧世界。",
+      "text_en": "It starts with the [Integrated Circuit](integrated_circuit_1958) and [Moore's Law](moore_law_1965). Engelbart's [Demo](engelbart_demo_1968) and [ARPANET](arpanet_1969) planted the seeds. [Intel 4004](intel_4004_1971) built the brain. Then, [Microsoft](microsoft_founding_1975) created the software business, and [Apple](apple_founding_1976) built the personal computer. With [IBM PC](ibm_pc_1981) and [MS-DOS](ms_dos_1981), personal computing arrived.\n\n[Macintosh](apple_macintosh_1984) and [Windows](microsoft_windows_1985) gave it a face, while the [Web](berners_lee_www_1989) connected it all. [Linux](linux_kernel_1991) opened the code. Then came commerce: [Amazon](amazon_founding_1994) the store, [eBay](ebay_launch_1995) the market, [Google](google_search_1998) the map, and [PayPal](paypal_launch_1998) the wallet.\n\n[Wikipedia](wikipedia_launch_2001) democratized knowledge, [Facebook](facebook_launch_2004) connected us, [YouTube](youtube_launch_2005) broadcast our lives, and [AWS](aws_launch_2006) built the cloud. Finally, [iPhone](apple_iphone_2007) and [Android](google_android_2008) put the world in our pockets. The digital wave reshaped everything.",
       "core_question_zh": "我们是更自由了，还是被算法困住了？",
       "core_question_en": "Are we freer, or trapped by algorithms?"
     }
-  },
+  }
+  ,
   "ai_story": {
     "id": "ai_story",
     "title_zh": "AI 的觉醒",

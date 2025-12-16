@@ -1,0 +1,149 @@
+{
+    "id": "microsoft_founding_1975",
+    "personId": ["bill_gates", "paul_allen"],
+    "title": "微软成立 (软件产业的开端)",
+    "title_en": "Founding of Microsoft (Start of the Software Industry)",
+    "year": 1975,
+    "lat": 35.0844,
+    "lng": -106.6504,
+    "city": "阿尔伯克基",
+    "city_en": "Albuquerque, New Mexico",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "商业管理"],
+    "field_en": ["Computer Science", "Business Management"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=gDWCSeaeeJE",
+        "title": "微软的早期岁月",
+        "title_en": "The origin story of Microsoft",
+        "duration": "2:10"
+      }
+    },
+    
+    "summary": {
+      "text": "1975年4月4日，受到《大众电子》杂志封面上Altair 8800微型电脑的启发，19岁的比尔·盖茨和22岁的保罗·艾伦在以“Micro-Soft”（微型软件）的名字在新墨西哥州的阿尔伯克基创立了公司。不同于当时专注于制造硬件的公司，微软拥有一个激进的愿景：软件本身可以作为一种独立的产品出售。他们的第一个产品是为Altair电脑编写的BASIC语言解释器。虽然只有两个人、几行代码和一腔热血，但这标志着数万亿美元的全球软件产业的正式诞生。",
+      "text_en": "On April 4, 1975, inspired by the Altair 8800 microcomputer on the cover of *Popular Electronics*, 19-year-old Bill Gates and 22-year-old Paul Allen founded 'Micro-Soft' in Albuquerque, New Mexico. Unlike companies focused on hardware at the time, Microsoft held a radical vision: software itself could be sold as an independent product. Their first product was a BASIC interpreter for the Altair computer. With just two people, a few lines of code, and a lot of passion, this marked the official birth of the multi-trillion-dollar global software industry.",
+      "key_points": [
+        "开发了第一个微型计算机编程语言产品 (Altair BASIC)",
+        "确立了“软件作为独立商品”的商业模式",
+        "最初的总部位于新墨西哥州的阿尔伯克基 (而非西雅图)",
+        "公司名称最初拼写为“Micro-Soft”",
+        "比尔·盖茨为此从哈佛大学退学"
+      ],
+      "key_points_en": [
+        "Developed the first programming language product for microcomputers (Altair BASIC)",
+        "Established the business model of 'software as an independent commodity'",
+        "Original headquarters was in Albuquerque, New Mexico (not Seattle)",
+        "Company name was originally spelled 'Micro-Soft'",
+        "Bill Gates dropped out of Harvard for this"
+      ]
+    },
+  
+    "story": {
+      "text": "这其实是一场巨大的赌博。当保罗·艾伦看到关于Altair 8800的文章时，他冲去告诉盖茨：“甚至还没有人给这台机器写软件！”于是他们给Altair的制造商MITS打电话，谎称他们已经写好了BASIC解释器（其实一行代码都没写）。MITS的老板让他们三周后来演示。在接下来的几周里，两人在哈佛的宿舍里疯狂编程，由于手里没有真正的Altair机器，他们只能在学校的大型机上模拟它。演示当天，保罗·艾伦飞往阿尔伯克基，在飞机上他突然意识到忘了写启动程序（Boot Loader），于是他在降落前手写了最后一段机器码。奇迹发生了：软件在第一次运行时就完美工作了。",
+      "text_en": "It was actually a huge gamble. When Paul Allen saw the article about the Altair 8800, he rushed to tell Gates, 'No one has written software for this machine yet!' So they called MITS, the maker of the Altair, and bluffed that they had a BASIC interpreter ready (they hadn't written a single line). The MITS boss asked them to demo it in three weeks. For the next few weeks, the pair coded furiously in a Harvard dorm. Since they didn't have a real Altair, they had to simulate it on the university's mainframe. On the day of the demo, Paul Allen flew to Albuquerque. On the plane, he suddenly realized he forgot to write the Boot Loader, so he hand-coded the final machine instructions before landing. A miracle happened: the software worked perfectly on the first run.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/en/4/4f/1981BillPaul.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📸",
+        "text": "那张著名的1978年微软早期团队合影（看起来像一群嬉皮士和摇滚乐队成员）就是在阿尔伯克基拍摄的。几年后，他们才搬到了西雅图。",
+        "text_en": "The famous 1978 photo of the early Microsoft team (looking like a bunch of hippies and rock band members) was taken in Albuquerque. They didn't move to Seattle until a few years later."
+      },
+      {
+        "icon": "📜",
+        "text": "在公司成立初期，比尔·盖茨非常痛恨盗版。他在1976年写了一封著名的《致业余电脑爱好者的公开信》，愤怒地指责那些免费复制BASIC纸带的人是在“偷窃”，这在当时崇尚“各种免费”的极客圈子里引起了轩然大波。",
+        "text_en": "In the early days, Bill Gates hated piracy. In 1976, he wrote the famous 'Open Letter to Hobbyists', angrily accusing those who copied BASIC tapes for free of 'stealing'. This caused an uproar in the geek community, which valued the 'everything is free' ethos."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "以前买电脑就像买房子，软件是房子里的装修，送你的。\n微软说：不对，电脑只是空地，软件是房子。我要单独卖房子。\n他们把一行行看不见的代码，变成了比看得见的机器更值钱的商品。",
+      "text_en": "Buying a computer used to be like buying a house; software was the decoration inside, given for free.\nMicrosoft said: No, the computer is just the empty lot; the software is the house. I want to sell the house separately.\nThey turned invisible lines of code into a commodity more valuable than the visible machines.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Altair_8800_and_Model_33_ASR_Teletype.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📼",
+          "title": "Altair BASIC",
+          "title_en": "Altair BASIC",
+          "text": "微软的第一个产品，它让业余爱好者终于可以用简单的英语单词（而不是0和1）来控制电脑。",
+          "text_en": "Microsoft's first product, allowing hobbyists to finally control computers using simple English words (instead of 0s and 1s)."
+        }
+      ],
+  
+    "impact": {
+      "text": "微软的成立不仅是一家公司的开始，更是一个行业的元年。它证明了专注于软件开发可以建立起庞大的商业帝国。通过BASIC，微软成为了早期微机时代的标准制定者；随后通过MS-DOS和Windows，它统治了个人计算世界长达30年。今天所有软件订阅、App Store的模式，其源头都可以追溯到盖茨那封关于软件版权的公开信。",
+      "text_en": "The founding of Microsoft was not just the start of a company, but Year One of an industry. It proved that focusing on software development could build a massive business empire. Through BASIC, Microsoft became the standard-setter of the early microcomputer era; later through MS-DOS and Windows, it dominated the personal computing world for 30 years. Today's software subscriptions and App Store models can all trace their origins back to Gates's open letter on software copyright.",
+      "stats": [
+          {
+            "number": "1975",
+            "label": "年 (成立年份)",
+            "label_en": "Year (Founded)"
+          },
+          {
+            "number": "3",
+            "label": "人 (最初全职员工数)",
+            "label_en": "Employees (Original Count)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "altair_8800_1975",
+          "contribution": "Altair 8800（MITS公司的这台机器是微软诞生的直接催化剂，没有它就没有微软）",
+          "contribution_en": "Altair 8800 (This machine from MITS was the direct catalyst for Microsoft's birth; without it, there is no Microsoft)"
+        },
+        {
+          "id": "intel_8080_1974",
+          "contribution": "Intel 8080（Altair的核心芯片，盖茨和艾伦正是为这块芯片编写的BASIC）",
+          "contribution_en": "Intel 8080 (The core chip of the Altair; Gates and Allen wrote BASIC specifically for this chip)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "ms_dos_1981",
+          "contribution": "MS-DOS（微软在BASIC之后的下一个重大里程碑，巩固了霸权）",
+          "contribution_en": "MS-DOS (Microsoft's next major milestone after BASIC, cementing its dominance)"
+        },
+        {
+          "id": "apple_ii_launch_1977",
+          "contribution": "Apple II（早期的Apple II也内置了微软编写的Applesoft BASIC，这是两家巨头最早的合作）",
+          "contribution_en": "Apple II (Early Apple IIs came with Microsoft-written Applesoft BASIC, the earliest collaboration between the two giants)"
+        }
+      ],
+      "legacy_text": "它是每一个软件工程师饭碗的源头。",
+      "legacy_text_en": "It is the source of every software engineer's livelihood."
+    },
+  
+    "related_concepts": ["BASIC语言", "解释器 (Interpreter)", "纸带 (Punch Tape)", "软件版权", "MITS"],
+    "related_concepts_en": ["BASIC Language", "Interpreter", "Punch Tape", "Software Copyright", "MITS"],
+  
+    "quiz": {
+      "question": "微软成立后的第一个办公地点位于哪座城市？",
+      "question_en": "In which city was Microsoft's first office located?",
+      "options": [
+        "西雅图 (Seattle)",
+        "硅谷 (Silicon Valley)",
+        "阿尔伯克基 (Albuquerque)",
+        "波士顿 (Boston)"
+      ],
+      "options_en": [
+        "Seattle",
+        "Silicon Valley",
+        "Albuquerque",
+        "Boston"
+      ],
+      "answer": 2,
+      "explanation": "虽然比尔·盖茨和保罗·艾伦来自西雅图，但微软最初是在新墨西哥州的阿尔伯克基成立的，因为他们的第一个大客户MITS公司就在那里。几年后他们才搬回了西雅图地区。",
+      "explanation_en": "Although Bill Gates and Paul Allen were from Seattle, Microsoft was originally founded in Albuquerque, New Mexico, because their first big client, MITS, was located there. They moved back to the Seattle area a few years later."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "戈登·摩尔",
+    "name_en": "Gordon Moore",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Gordon_Moore_1978_%28cropped%29.png",
+    "bio_short": "美国企业家、工程师，英特尔（Intel）的联合创始人之一。他最为人熟知的成就是提出了“摩尔定律”，预测了半导体技术的指数级增长，这成为了硅谷乃至全球科技发展的节拍器。他性格沉稳内敛，专注于技术与战略，与罗伯特·诺伊斯共同缔造了半导体帝国。",
+    "bio_short_en": "American businessman, engineer, and co-founder of Intel. He is best known for formulating 'Moore's Law,' which predicted the exponential growth of semiconductor technology and served as the metronome for Silicon Valley and global tech progress. Known for his quiet demeanor and focus on technology and strategy, he built the semiconductor empire alongside Robert Noyce.",
+    "events": [
+      "moore_law_1965"
+    ]
+  }

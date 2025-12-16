@@ -1,0 +1,10 @@
+{
+    "name": "拉里·桑格",
+    "name_en": "Larry Sanger",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Larry_Sanger_2023_at_1_03_40.jpg",
+    "bio_short": "美国哲学家、互联网项目开发者，维基百科（Wikipedia）的联合创始人。作为Nupedia的主编，他最早提议使用Wiki技术来加速条目编写，并亲自以此命名了“Wikipedia”。虽然他对维基百科的诞生至关重要（制定了NPOV等核心政策），但因不满社区早期的反精英主义和缺乏专家审核，他于2002年愤然离开。此后，他成为了维基百科最尖锐的批评者之一，指责其存在偏见，并尝试创立了Citizendium等强调专家主导的竞品。",
+    "bio_short_en": "American philosopher, internet project developer, and co-founder of Wikipedia. As editor-in-chief of Nupedia, he first proposed using Wiki technology to accelerate entry creation and coined the name 'Wikipedia'. Although crucial to its birth (crafting core policies like NPOV), he left abruptly in 2002 due to dissatisfaction with the community's early anti-elitism and lack of expert oversight. Since then, he has become one of Wikipedia's harshest critics, accusing it of bias, and attempted to launch expert-guided competitors like Citizendium.",
+    "events": [
+      "wikipedia_launch_2001"
+    ]
+  }

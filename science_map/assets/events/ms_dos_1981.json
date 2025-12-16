@@ -1,0 +1,156 @@
+{
+    "id": "ms_dos_1981",
+    "personId": ["bill_gates", "paul_allen", "tim_paterson"],
+    "title": "MS-DOS发布 (软件帝国的基石)",
+    "title_en": "Release of MS-DOS (Cornerstone of the Software Empire)",
+    "year": 1981,
+    "lat": 47.6101,
+    "lng": -122.2015,
+    "city": "贝尔维尤",
+    "city_en": "Bellevue, Washington",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "商业管理"],
+    "field_en": ["Computer Science", "Business Management"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Msdos-icon.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dtqiUwo5c4c",
+        "title": "MS-DOS的历史",
+        "title_en": "The History of MS-DOS : The Quick and The Dirty",
+        "duration": "4:20"
+      }
+    },
+    
+    "summary": {
+      "text": "1981年8月，随着IBM PC的上市，微软的磁盘操作系统MS-DOS（Microsoft Disk Operating System）也正式登场。这被认为是商业史上最精明的一笔交易：IBM急需一个操作系统，而微软此时手里并没有。比尔·盖茨和保罗·艾伦以低价从一家小公司（西雅图计算机产品公司）买下了一个名为86-DOS（原名QDOS）的系统，稍作修改后授权给了IBM。关键在于，微软保留了该系统的所有权，这允许他们将MS-DOS授权给除了IBM以外的所有其他电脑厂商。随着“IBM兼容机”市场的爆炸式增长，MS-DOS成为了全球个人电脑的统一标准，微软也因此成为了软件行业的霸主。",
+      "text_en": "In August 1981, with the launch of the IBM PC, Microsoft's Disk Operating System (MS-DOS) officially debuted. This is considered one of the shrewdest deals in business history: IBM desperately needed an operating system, and Microsoft didn't have one at the time. Bill Gates and Paul Allen bought a system called 86-DOS (originally QDOS) from a small company (Seattle Computer Products) for a low price, modified it slightly, and licensed it to IBM. Crucially, Microsoft retained ownership of the system, allowing them to license MS-DOS to every computer manufacturer other than IBM. As the market for 'IBM Compatibles' exploded, MS-DOS became the universal standard for personal computers, making Microsoft the dominant force in the software industry.",
+      "key_points": [
+        "基于QDOS (Quick and Dirty Operating System) 修改而来",
+        "微软通过非独占授权策略确立了行业垄断地位",
+        "确立了命令行界面 (C:\\>) 的操作标准",
+        "文件系统采用FAT (File Allocation Table) 架构",
+        "成为了后来Windows操作系统的底层基础"
+      ],
+      "key_points_en": [
+        "Modified from QDOS (Quick and Dirty Operating System)",
+        "Microsoft established monopoly status through non-exclusive licensing strategy",
+        "Established the operational standard of the Command Line Interface (C:\\>)",
+        "Adopted the FAT (File Allocation Table) file system architecture",
+        "Served as the underlying foundation for the later Windows operating system"
+      ]
+    },
+  
+    "story": {
+      "text": "这个故事充满了戏剧性的错失与机缘。IBM最初想要的是Digital Research公司的CP/M系统，但传奇人物加里·基尔代尔（Gary Kildall）据说因为去开飞机兜风而错过了与IBM高层的会议（或者是因为拒绝签署保密协议）。失望的IBM转而找到了比尔·盖茨。盖茨虽然没有操作系统，但他知道谁有。蒂姆·帕特森（Tim Paterson）花四个月写了一个模仿CP/M的系统，叫“快而脏的操作系统”（QDOS）。微软先是花2.5万美元买了授权，后来又花5万美元彻底买断了它。然后，微软转身将其包装成PC-DOS授权给IBM。IBM以为自己买的是软件，但盖茨知道他卖的是标准。",
+      "text_en": "This story is full of dramatic misses and serendipity. IBM initially wanted the CP/M system from Digital Research, but legend has it that Gary Kildall missed the meeting with IBM executives because he was out flying his plane (or because he refused to sign a non-disclosure agreement). Disappointed, IBM turned to Bill Gates. Although Gates didn't have an OS, he knew who did. Tim Paterson had spent four months writing a CP/M clone called 'Quick and Dirty Operating System' (QDOS). Microsoft first bought a license for $25,000, then bought it out completely for another $50,000. Microsoft then repackaged it as PC-DOS and licensed it to IBM. IBM thought they were buying software, but Gates knew he was selling a standard.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/cc/MS-DOS_6.22_floppy_disks_20110326.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤐",
+        "text": "在整个交易过程中，蒂姆·帕特森和西雅图计算机产品公司完全不知道微软的大客户是IBM。如果他们知道，那个系统的卖价可能就不是几万美元，而是几百万美元了。",
+        "text_en": "Throughout the deal, Tim Paterson and Seattle Computer Products had no idea that Microsoft's big client was IBM. If they had known, the selling price of the system might have been millions instead of tens of thousands."
+      },
+      {
+        "icon": "⌨️",
+        "text": "著名的“C盘”：在MS-DOS时代，A盘和B盘是留给软驱的。当后来硬盘出现时，系统按照逻辑顺序将其命名为C盘。这个习惯一直延续到了今天的Windows 11，即使现在的电脑已经没有软驱了。",
+        "text_en": "The famous 'C Drive': In the MS-DOS era, drive letters A and B were reserved for floppy drives. When hard drives appeared later, the system logically named the first one C. This tradition persists in Windows 11 today, even though modern computers no longer have floppy drives."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "如果说IBM PC是一辆赛车，那么MS-DOS就是司机。没有司机，赛车只是一堆废铁。\n比尔·盖茨做的事情是：他低价雇了一个司机（买下QDOS），然后告诉所有造车厂（IBM及其他公司）：你们都可以用我的司机，但每个人都要给我付工资。\n结果，全世界的车都是同一个司机在开。",
+      "text_en": "If the IBM PC were a race car, MS-DOS was the driver. Without a driver, the car is just a pile of scrap metal.\nWhat Bill Gates did was: he hired a driver cheaply (bought QDOS) and told all car manufacturers (IBM and others): 'You can all use my driver, but everyone has to pay me a salary.'\nAs a result, the world's cars were all driven by the same driver.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ms-dosdir.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "💾",
+          "title": "文件管理",
+          "title_en": "File Management",
+          "text": "DIR, COPY, DEL... 这些枯燥的命令是当年操作电脑的唯一方式，也是第一代电脑用户的共同记忆。",
+          "text_en": "DIR, COPY, DEL... These dry commands were the only way to operate a computer back then and are a shared memory of the first generation of PC users."
+        },
+        {
+          "icon": "🕹️",
+          "title": "PC游戏",
+          "title_en": "PC Games",
+          "text": "《毁灭战士》(Doom)、《波斯王子》等经典游戏都是直接在DOS环境下运行的，它们绕过操作系统直接调用硬件，效率极高。",
+          "text_en": "Classic games like Doom and Prince of Persia ran directly in the DOS environment, bypassing the OS to access hardware directly for high efficiency."
+        }
+      ],
+  
+    "impact": {
+      "text": "MS-DOS的成功不仅仅是微软的成功，它定义了软件产业的商业模式：硬件商品化，软件高利润化。它让微软拥有了PC时代的“收税权”。在DOS的基础上，后来诞生了Windows 3.1和Windows 95，虽然后者有图形界面，但其核心依然长时间依赖DOS。直到2000年的Windows ME，微软才彻底切断了对DOS的依赖。",
+      "text_en": "The success of MS-DOS was not just Microsoft's success; it defined the business model of the software industry: hardware became commoditized, while software became highly profitable. It gave Microsoft the 'taxing right' of the PC era. On top of DOS, Windows 3.1 and Windows 95 were born. Although they had GUIs, their cores relied on DOS for a long time. It wasn't until Windows ME in 2000 that Microsoft completely cut off its dependence on DOS.",
+      "stats": [
+          {
+            "number": "50000",
+            "label": "美元 (微软购买QDOS的费用)",
+            "label_en": "USD (Cost to buy QDOS)"
+          },
+          {
+            "number": "16",
+            "label": "位 (系统架构)",
+            "label_en": "Bit (Architecture)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "cp_m_os_1974",
+          "contribution": "CP/M系统（MS-DOS的技术模仿对象，其命令结构和API设计被大量借鉴）",
+          "contribution_en": "CP/M System (The technical role model for MS-DOS; its command structure and API design were heavily borrowed)"
+        },
+        {
+          "id": "ibm_pc_1981",
+          "contribution": "IBM PC（没有IBM的硬件载体，DOS就没有任何价值）",
+          "contribution_en": "IBM PC (Without the IBM hardware carrier, DOS would have had no value)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "windows_1_0_1985",
+          "contribution": "Windows 1.0（最初只是DOS上的一个图形界面程序，而非独立系统）",
+          "contribution_en": "Windows 1.0 (Initially just a GUI program running on top of DOS, not an independent OS)"
+        },
+        {
+          "id": "linux_kernel_1991",
+          "contribution": "Linux（作为对微软DOS/Windows垄断的反叛，开源运动试图打破这种控制）",
+          "contribution_en": "Linux (As a rebellion against the Microsoft DOS/Windows monopoly, the open source movement sought to break this control)"
+        }
+      ],
+      "legacy_text": "C:\\> 它是通往数字世界的黑色大门。",
+      "legacy_text_en": "C:\\> It was the black gate to the digital world."
+    },
+  
+    "related_concepts": ["QDOS", "命令行界面 (CLI)", "FAT文件系统", "BIOS中断", "640KB内存限制"],
+    "related_concepts_en": ["QDOS", "Command Line Interface (CLI)", "FAT File System", "BIOS Interrupts", "640KB Memory Limit"],
+  
+    "quiz": {
+      "question": "MS-DOS的前身叫什么名字？",
+      "question_en": "What was the name of the predecessor to MS-DOS?",
+      "options": [
+        "CP/M",
+        "Unix",
+        "QDOS",
+        "OS/2"
+      ],
+      "options_en": [
+        "CP/M",
+        "Unix",
+        "QDOS",
+        "OS/2"
+      ],
+      "answer": 2,
+      "explanation": "MS-DOS的前身是蒂姆·帕特森编写的QDOS（Quick and Dirty Operating System，快而脏的操作系统），后来更名为86-DOS，最终被微软收购并改名为MS-DOS。",
+      "explanation_en": "The predecessor to MS-DOS was QDOS (Quick and Dirty Operating System), written by Tim Paterson. It was later renamed 86-DOS before being acquired by Microsoft and rebranded as MS-DOS."
+    }
+  }

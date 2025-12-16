@@ -1,0 +1,10 @@
+{
+    "name": "谢尔盖·布林",
+    "name_en": "Sergey Brin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sergey_Brin_cropped.jpg/640px-Sergey_Brin_cropped.jpg",
+    "bio_short": "苏联裔美国计算机科学家，Google的联合创始人。他6岁时随家人从苏联移民美国，这段经历让他成为了信息自由流动的坚定捍卫者。作为一名数学天才，他与拉里·佩奇在斯坦福共同开发了PageRank算法。他以其极客风格和对未来科技的狂热追求而闻名，曾长期领导Google X实验室，推动了Google Glass、高空气球网络等“登月项目”的孵化。",
+    "bio_short_en": "Soviet-born American computer scientist and co-founder of Google. Immigrating to the US from the Soviet Union at age 6, this experience made him a staunch defender of the free flow of information. A math prodigy, he co-developed the PageRank algorithm with Larry Page at Stanford. Known for his geeky style and passion for futuristic tech, he long led Google X, incubating 'moonshot' projects like Google Glass and Project Loon.",
+    "events": [
+      "google_search_1998"
+    ]
+  }

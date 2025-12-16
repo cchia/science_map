@@ -1,0 +1,144 @@
+{
+    "id": "apple_founding_1976",
+    "personId": ["steve_jobs", "steve_wozniak"],
+    "title": "Apple成立 (车库里的传奇)",
+    "title_en": "Founding of Apple (Legend in the Garage)",
+    "year": 1976,
+    "lat": 37.3403,
+    "lng": -122.0689,
+    "city": "洛斯阿尔托斯 (乔布斯的车库)",
+    "city_en": "Los Altos (Jobs' Garage)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story", "silicon_valley_history"],
+    "field": ["计算机科学", "商业管理"],
+    "field_en": ["Computer Science", "Business Management"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Computer_Logo_rainbow.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=7ZOO71mw-0A",
+        "title": "史蒂夫·沃兹尼亚克谈论Apple的起源",
+        "title_en": "Steve Wozniak Interview - History of Apple",
+        "duration": "6:59"
+      }
+    },
+    
+    "summary": {
+      "text": "1976年4月1日（愚人节），21岁的史蒂夫·乔布斯、25岁的史蒂夫·沃兹尼亚克和41岁的罗纳德·韦恩在加州签署了合作协议，Apple Computer Company正式成立。为了筹集这一“创业启动资金”，乔布斯卖掉了他的大众面包车，沃兹尼亚克卖掉了他心爱的惠普科学计算器，共凑了1300美元。他们的第一个产品是Apple I，一块由沃兹尼亚克为了向“家酿计算机俱乐部”成员炫耀而设计的主板。虽然起步极其简陋，但这标志着硅谷最传奇公司的诞生，它将从一个堆满零件的车库走向全球市值第一的科技帝国。",
+      "text_en": "On April 1, 1976 (April Fool's Day), 21-year-old Steve Jobs, 25-year-old Steve Wozniak, and 41-year-old Ronald Wayne signed a partnership agreement in California, officially forming the Apple Computer Company. To raise 'seed money', Jobs sold his Volkswagen bus, and Wozniak sold his beloved HP scientific calculator, raising a total of $1,300. Their first product was the Apple I, a circuit board designed by Wozniak simply to show off to members of the Homebrew Computer Club. Despite its humble beginnings, this marked the birth of Silicon Valley's most legendary company, which would grow from a garage full of parts into the world's most valuable tech empire.",
+      "key_points": [
+        "公司成立于1976年愚人节",
+        "推出了第一款产品 Apple I (售价$666.66)",
+        "经典的“车库创业”故事原型",
+        "第三位联合创始人罗纳德·韦恩在12天后退出",
+        "获得了Byte Shop的第一个50台订单"
+      ],
+      "key_points_en": [
+        "Company founded on April Fool's Day, 1976",
+        "Launched first product Apple I (Priced at $666.66)",
+        "The archetype of the 'Garage Startup' story",
+        "Third co-founder Ronald Wayne quit after 12 days",
+        "Secured first order of 50 units from the Byte Shop"
+      ]
+    },
+  
+    "story": {
+      "text": "沃兹尼亚克最初设计Apple I并不是为了卖钱，纯粹是因为他是技术天才，想造个电脑自己玩，并拿去“家酿计算机俱乐部”炫耀。但拥有敏锐商业嗅觉的乔布斯看到了潜力，说服沃兹将其商业化。他们在乔布斯父母家的车库里组装主板（实际上大部分焊接工作是在客厅和卧室完成的）。当他们拿到Byte Shop老板保罗·特雷尔的500美元一台的订单时，乔布斯还没钱买零件，他凭着这笔订单去零件商那里赊账，玩了一把惊险的现金流游戏。最终，他们按时交付了这批机器，赚到了第一桶金。",
+      "text_en": "Wozniak didn't originally design the Apple I to sell; he was a technical genius who just wanted to build a computer for himself and show it off at the Homebrew Computer Club. But Jobs, with his keen business instinct, saw the potential and convinced Woz to commercialize it. They assembled boards in Jobs' parents' garage (though much of the soldering was actually done in the living room and bedroom). When they got an order for 50 units at $500 each from Paul Terrell of the Byte Shop, Jobs didn't have money for parts. He used the order to get credit from suppliers, playing a risky cash-flow game. Ultimately, they delivered the machines on time and made their first pot of gold.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/23/2019-08-04_Apple_I_computer.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "😈",
+        "text": "Apple I的售价是666.66美元。这倒不是因为他们崇拜撒旦，而是因为沃兹尼亚克喜欢重复的数字（而且$500的批发价加上33%的利润正好是$666.66）。",
+        "text_en": "The Apple I was priced at $666.66. Not because they worshipped Satan, but because Wozniak liked repeating digits (and a $500 wholesale price plus a 33% markup is exactly $666.66)."
+      },
+      {
+        "icon": "🏃",
+        "text": "第三位创始人罗纳德·韦恩（Ronald Wayne）因为担心公司负债会连累他的个人资产（乔布斯当时太激进了），在入伙仅12天后就以800美元卖掉了他10%的股份。如果他持有至今，这些股份价值将超过千亿美元。",
+        "text_en": "The third co-founder, Ronald Wayne, worried that company debts would impact his personal assets (Jobs was too aggressive), so he sold his 10% stake for $800 just 12 days after joining. If he had held onto it, it would be worth over $100 billion today."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "两个名叫史蒂夫的年轻人凑在一起：一个能造出世界上最好的东西（沃兹），一个能把任何东西卖给任何人（乔布斯）。\n他们卖掉了车和计算器，在一个车库里，用手工焊接的电路板开启了一个时代。\n这就是硅谷梦的起点。",
+      "text_en": "Two guys named Steve got together: one could build the best things in the world (Woz), and the other could sell anything to anyone (Jobs).\nThey sold a car and a calculator, and started an era with hand-soldered circuit boards in a garage.\nThis is the starting point of the Silicon Valley Dream.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Apple_Garage.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💻",
+          "title": "Apple I",
+          "title_en": "Apple I",
+          "text": "这实际上只是一块裸露的主板。用户买回去后还得自己配电源、键盘和显示器（甚至还得自己做个木头盒子装起来）。",
+          "text_en": "It was actually just a bare motherboard. Users had to supply their own power supply, keyboard, and display (and even build a wooden case to hold it)."
+        }
+      ],
+  
+    "impact": {
+      "text": "Apple的成立不仅诞生了一家伟大的公司，更验证了一种全新的创新模式：技术天才+商业奇才的组合。Apple I虽然销量不大（仅约200台），但它为一年后革命性的Apple II积累了资金和经验。Apple II后来成为了历史上第一台真正普及的个人电脑，让Apple在80年代初期成为了世界上增长最快的公司。",
+      "text_en": "The founding of Apple not only birthed a great company but validated a new model of innovation: the Technical Genius + Business Wizard combo. Although the Apple I didn't sell many units (only about 200), it provided the capital and experience for the revolutionary Apple II a year later. The Apple II became the first truly popularized personal computer in history, making Apple the fastest-growing company in the world in the early 80s.",
+      "stats": [
+          {
+            "number": "1300",
+            "label": "美元 (启动资金)",
+            "label_en": "USD (Seed Money)"
+          },
+          {
+            "number": "666.66",
+            "label": "美元 (售价)",
+            "label_en": "USD (Price)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "altair_8800_1975",
+          "contribution": "Altair 8800（激发了“家酿计算机俱乐部”的成立，也激发了沃兹设计一台更好的电脑的欲望）",
+          "contribution_en": "Altair 8800 (Inspired the Homebrew Computer Club and fueled Woz's desire to design a better computer)"
+        },
+        {
+          "id": "homebrew_computer_club_1975",
+          "contribution": "家酿计算机俱乐部（沃兹在这里展示原型机，也是在这里遇到了第一批客户）",
+          "contribution_en": "Homebrew Computer Club (Where Woz demoed the prototype and met the first batch of customers)"
+        }
+      ],
+      "influenced": [        
+        {
+          "id": "ibm_pc_1981",
+          "contribution": "IBM PC（因为Apple太成功了，逼得IBM不得不进入这个市场）",
+          "contribution_en": "IBM PC (Because Apple was so successful, it forced IBM to enter this market)"
+        }
+      ],
+      "legacy_text": "它是从一部卖掉的大众面包车开始的。",
+      "legacy_text_en": "It started with a sold Volkswagen bus."
+    },
+  
+    "related_concepts": ["车库创业", "家酿计算机俱乐部", "风险投资", "单板计算机"],
+    "related_concepts_en": ["Garage Startup", "Homebrew Computer Club", "Venture Capital", "Single-board Computer"],
+  
+    "quiz": {
+      "question": "为了筹集Apple的启动资金，史蒂夫·乔布斯卖掉了什么东西？",
+      "question_en": "To raise seed money for Apple, what did Steve Jobs sell?",
+      "options": [
+        "惠普科学计算器",
+        "大众面包车 (VW Bus)",
+        "他在Atari的股份",
+        "他的漫画书收藏"
+      ],
+      "options_en": [
+        "HP Scientific Calculator",
+        "Volkswagen Bus",
+        "His Atari Stock",
+        "His Comic Book Collection"
+      ],
+      "answer": 1,
+      "explanation": "乔布斯卖掉了他的大众面包车（虽然引擎坏了，但他还是卖了个好价钱），而沃兹尼亚克卖掉了他的惠普HP-65可编程计算器。",
+      "explanation_en": "Jobs sold his Volkswagen bus (even though the engine was blown, he still got a good price), while Wozniak sold his HP-65 programmable calculator."
+    }
+  }

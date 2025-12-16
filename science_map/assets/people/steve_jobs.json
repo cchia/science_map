@@ -1,0 +1,12 @@
+{
+    "name": "史蒂夫·乔布斯",
+    "name_en": "Steve Jobs",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/640px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
+    "bio_short": "美国商业大亨、设计先驱，苹果公司联合创始人。他被认为是个人计算和移动互联网时代的终极产品经理。虽然他不写代码，但他拥有敏锐的市场直觉和对完美设计的偏执追求（“现实扭曲力场”）。从Macintosh的图形界面到iPhone的多点触控，他坚持“科技与人文的十字路口”，将冷冰冰的科技产品变成了具有艺术感的生活必需品。",
+    "bio_short_en": "American business magnate, design pioneer, and co-founder of Apple. Considered the ultimate product manager of the personal computing and mobile internet eras. While he didn't write code, he possessed keen market intuition and a paranoid pursuit of perfect design ('Reality Distortion Field'). From the Macintosh's GUI to the iPhone's multi-touch, he stood at the 'intersection of technology and liberal arts,' turning cold tech products into artistic necessities.",
+    "events": [
+      "apple_founding_1976",
+      "apple_macintosh_1984",
+      "iphone_launch_2007"
+    ]
+  }

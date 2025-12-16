@@ -1,0 +1,10 @@
+{
+    "name": "伦纳德·克莱因罗克",
+    "name_en": "Leonard Kleinrock",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kleinrock_headshot.png",
+    "bio_short": "美国计算机科学家，加州大学洛杉矶分校（UCLA）教授。他建立了数据网络中“排队论”的数学基础，证明了封包交换技术的可行性。正是在他的实验室里，诞生了ARPANET的第一个节点，并发出了互联网的第一条消息。",
+    "bio_short_en": "American computer scientist and professor at UCLA. He established the mathematical foundation of 'Queueing Theory' in data networks, proving the feasibility of packet switching. It was in his laboratory that the first node of ARPANET was born and the first message of the Internet was sent.",
+    "events": [
+      "arpanet_1969"
+    ]
+  }

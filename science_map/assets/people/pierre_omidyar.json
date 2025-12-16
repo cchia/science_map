@@ -1,0 +1,10 @@
+{
+    "name": "皮埃尔·奥米迪亚",
+    "name_en": "Pierre Omidyar",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pomidyarji_%28cropped%29.jpg",
+    "bio_short": "法裔伊朗裔美国企业家、软件工程师，eBay的创始人。与当时的许多商业大亨不同，他创立eBay的初衷是实验“完美市场理论”，坚信人性本善，并引入了信用评价体系来量化陌生人之间的信任。1995年劳动节周末在客厅敲出的代码让他意外成为了亿万富翁。功成名就后，他将重心转向了慈善和新闻事业，创立了奥米迪亚网络（Omidyar Network）。",
+    "bio_short_en": "French-born Iranian-American entrepreneur, software engineer, and founder of eBay. Unlike many business tycoons of his time, he founded eBay as an experiment in 'perfect market theory', believing that people are basically good, and introduced the feedback system to quantify trust between strangers. The code he wrote in his living room over Labor Day weekend in 1995 accidentally made him a billionaire. After his success, he shifted his focus to philanthropy and journalism, founding the Omidyar Network.",
+    "events": [
+      "ebay_launch_1995"
+    ]
+  }

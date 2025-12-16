@@ -10,7 +10,7 @@
     "city_en": "Geneva (CERN)",
     "country": "瑞士",
     "country_en": "Switzerland",
-    "storyline_id": ["computing_story"],
+    "storyline_id": ["computing_story", "digital_age_story"],
     "field": ["计算机科学", "互联网"],
     "field_en": ["Computer Science", "Internet"],
     

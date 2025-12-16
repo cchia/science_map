@@ -1,0 +1,10 @@
+{
+    "name": "马克·扎克伯格",
+    "name_en": "Mark Zuckerberg",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/640px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
+    "bio_short": "美国科技巨头，Facebook（现Meta）的创始人兼CEO。他在哈佛大学的宿舍里开启了社交媒体时代，是“黑客文化”的坚定信徒。以其极其理性的工程师思维、标志性的灰色T恤和对“连接世界”的执念而闻名。尽管面临隐私泄露和垄断争议，他依然掌控着全球最大的社交网络帝国（包括Instagram和WhatsApp），并正在豪赌下一代计算平台——元宇宙（Metaverse）。",
+    "bio_short_en": "American tech magnate, founder and CEO of Facebook (now Meta). He ignited the social media era from his Harvard dorm room and is a devout believer in 'hacker culture'. Known for his hyper-rational engineering mindset, iconic grey t-shirt, and obsession with 'connecting the world'. Despite controversies over privacy and monopoly, he controls the world's largest social network empire (including Instagram and WhatsApp) and is betting heavily on the next computing platform—the Metaverse.",
+    "events": [
+      "facebook_launch_2004"
+    ]
+  }

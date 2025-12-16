@@ -1,0 +1,11 @@
+{
+    "name": "杰夫·贝佐斯",
+    "name_en": "Jeff Bezos",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/640px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg",
+    "bio_short": "美国科技企业家、投资者，亚马逊（Amazon）的创始人。他被公认为是互联网时代最成功的商人之一。从1994年在车库里卖书开始，他坚持“长期主义”和“客户至上”的原则（著名的“Day 1”哲学），将亚马逊打造成了全球最大的在线零售商和云计算巨头（AWS）。他以激进的扩张策略和对细节的严苛要求而闻名。",
+    "bio_short_en": "American technology entrepreneur, investor, and founder of Amazon. Widely considered one of the most successful businessmen of the internet age. Starting by selling books in a garage in 1994, he adhered to principles of 'long-term thinking' and 'customer obsession' (the famous 'Day 1' philosophy), building Amazon into the world's largest online retailer and cloud computing giant (AWS). He is known for aggressive expansion strategies and exacting attention to detail.",
+    "events": [
+      "amazon_founding_1994",
+      "aws_launch_2006"
+    ]
+  }

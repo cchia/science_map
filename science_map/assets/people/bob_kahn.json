@@ -1,0 +1,11 @@
+{
+    "name": "鲍勃·卡恩",
+    "name_en": "Robert E. Kahn",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Bob_Kahn.jpg",
+    "bio_short": "美国电气工程师，互联网基础协议的奠基人之一。早年他在BBN公司负责ARPANET接口消息处理机（IMP）的系统设计，解决了数据包在网络中传输的各种错误控制问题。后来，他与温顿·瑟夫共同发明了TCP/IP协议，这套规则解决了不同网络之间如何互联的根本问题，使得真正的“互联网”（Internet）成为可能。",
+    "bio_short_en": "American electrical engineer and a founding father of the Internet's fundamental protocols. Early in his career at BBN, he was responsible for the system design of the ARPANET Interface Message Processor (IMP), solving various error control issues in packet transmission. Later, he co-invented the TCP/IP protocols with Vint Cerf, solving the fundamental problem of how different networks interconnect, making the true 'Internet' possible.",
+    "events": [
+      "arpanet_1969",
+      "tcp_ip_protocol_1974"
+    ]
+  }

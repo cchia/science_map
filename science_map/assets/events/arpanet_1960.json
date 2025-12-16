@@ -1,0 +1,156 @@
+{
+    "id": "arpanet_1969",
+    "personId": ["leonard_kleinrock", "charley_kline", "larry_roberts", "bob_kahn"],
+    "title": "ARPANET诞生 (互联网的第一次心跳)",
+    "title_en": "Birth of ARPANET (The First Heartbeat of the Internet)",
+    "year": 1969,
+    "lat": 34.0689,
+    "lng": -118.4452,
+    "city": "洛杉矶 (加州大学洛杉矶分校)",
+    "city_en": "Los Angeles (UCLA)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "网络工程"],
+    "field_en": ["Computer Science", "Network Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=BQFprTs2Gso",
+        "title": "ARPANET - 第一个互联网",
+        "title_en": "ARPANET - The First Internet",
+        "duration": "2:56"
+      }
+    },
+    
+    "summary": {
+      "text": "1969年10月29日晚10点30分，在加州大学洛杉矶分校（UCLA）的一间温控机房里，人类历史上的第一次主机间通信悄然发生。在教授伦纳德·克莱因罗克的注视下，学生查理·克莱恩试图通过一台像冰箱一样大的接口消息处理机（IMP），远程登录位于500公里外斯坦福研究所（SRI）的另一台计算机。他试图输入“LOGIN”，但只输了“L”和“O”，系统就崩溃了。这短短的两个字母“LO”成为了互联网诞生的第一声啼哭。ARPANET是世界上第一个运营的封包交换网络，它就是今天全球互联网（Internet）的前身。",
+      "text_en": "At 10:30 PM on October 29, 1969, in a climate-controlled room at UCLA, the first host-to-host communication in human history quietly took place. Under the watch of Professor Leonard Kleinrock, student Charley Kline attempted to remotely login to another computer at the Stanford Research Institute (SRI), 350 miles away, via a fridge-sized Interface Message Processor (IMP). He tried to type 'LOGIN', but after entering 'L' and 'O', the system crashed. Those two short letters, 'LO', became the first cry of the newborn Internet. ARPANET was the world's first operational packet-switching network and the direct ancestor of today's global Internet.",
+      "key_points": [
+        "发送了互联网历史上第一条消息 ('LO')",
+        "验证了封包交换 (Packet Switching) 理论的可行性",
+        "建立了世界上第一个去中心化的计算机网络",
+        "连接了UCLA和SRI (道格拉斯·恩格尔巴特的实验室)",
+        "标志着信息时代从独立计算向网络互联的转变"
+      ],
+      "key_points_en": [
+        "Sent the first message in Internet history ('LO')",
+        "Validated the feasibility of Packet Switching theory",
+        "Established the world's first decentralized computer network",
+        "Connected UCLA and SRI (Douglas Engelbart's lab)",
+        "Marked the shift from isolated computing to networked interconnection"
+      ]
+    },
+  
+    "story": {
+      "text": "这个改变世界的时刻并没有媒体在场，也没有香槟庆祝。当时，UCLA的团队正在电话上与SRI的Bill Duvall确认。查理·克莱恩对着电话说：“我输入了L，你收到了吗？”对方回答：“收到了。”“我输入了O，你收到了吗？”“收到了。”“我输入了G……” 然后SRI的系统崩溃了。虽然第一次尝试失败了，但一小时后他们修好了故障，成功完成了登录。这个网络最初由美国国防部高级研究计划局（ARPA）资助，目的是建立一个在核打击下也能生存的通信网络（因为它是去中心化的，没有单一控制中心），但科学家们更看重它共享计算资源的能力。",
+      "text_en": "There was no media present and no champagne for this world-changing moment. The UCLA team was on the phone with Bill Duvall at SRI confirming the transmission. Charley Kline said into the phone, 'I typed the L, did you get it?' The reply came, 'Got it.' 'I typed the O, did you get it?' 'Got it.' 'I typed the G...' and then the SRI system crashed. Although the first attempt failed, they fixed the bug an hour later and successfully logged in. Originally funded by ARPA, the network was designed to survive a nuclear strike (due to its decentralized nature with no single command center), but the scientists were more interested in its ability to share computing resources.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/e4/First-arpanet-imp-log.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📜",
+        "text": "在UCLA的Boelter Hall 3420室，至今还保存着那本历史性的日志。上面用草潦的字迹写着：'22:30 Talked to SRI'（22:30 与SRI通话）。这是互联网的“出生证明”。",
+        "text_en": "In room 3420 of Boelter Hall at UCLA, the historic logbook is still preserved. It contains a scrawled entry: '22:30 Talked to SRI'. This is the 'birth certificate' of the Internet."
+      },
+      {
+        "icon": "🔌",
+        "text": "当时负责连接计算机的路由器叫IMP（接口消息处理机），它是基于霍尼韦尔的一款坚固型计算机改装的。它的外壳像坦克一样厚实，因为军方要求它必须能被空投到战场上而不损坏。",
+        "text_en": "The router responsible for connecting the computers was called an IMP (Interface Message Processor), modified from a ruggedized Honeywell computer. Its casing was tank-thick because the military required it to be air-droppable into battlefields without breaking."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在ARPANET之前，通信就像打电话（电路交换），两人通话时必须独占一条线，线断了就没法聊。\nARPANET采用了“封包交换”：就像寄明信片，把一封长信剪成碎片（数据包），每个碎片可以走不同的路到达终点，然后再拼起来。\n这样不仅效率高，而且就算某条路被炸断了，碎片还可以走别的路，网络依然畅通。",
+      "text_en": "Before ARPANET, communication was like a phone call (circuit switching); two people monopolized a line, and if the line broke, the call ended.\nARPANET used 'Packet Switching': like sending postcards, a long message is chopped into pieces (packets). Each piece can take a different route to the destination and get reassembled there.\nThis is not only efficient but also resilient; if one road is bombed, the packets can take another path, keeping the network alive.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_in_the_1970s.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "📧",
+          "title": "电子邮件 (Email)",
+          "title_en": "Email",
+          "text": "ARPANET建成几年后（1971），雷·汤姆林森就在上面发出了第一封电子邮件。这成为了该网络最意想不到的杀手级应用。",
+          "text_en": "A few years after ARPANET was built (1971), Ray Tomlinson sent the first email over it. This became the network's unexpected killer app."
+        },
+        {
+          "icon": "🌐",
+          "title": "万维网 (WWW)",
+          "title_en": "World Wide Web",
+          "text": "ARPANET制定了计算机对话的规则（协议）。几十年后，蒂姆·伯纳斯-李在这个基础上发明了万维网，让我们能通过浏览器看网页。",
+          "text_en": "ARPANET established the rules (protocols) for computers to talk. Decades later, Tim Berners-Lee built the World Wide Web on top of this foundation, allowing us to view pages via browsers."
+        }
+      ],
+  
+    "impact": {
+      "text": "ARPANET是现代数字文明的基石。它证明了异构计算机（不同品牌、不同操作系统）之间是可以互相说话的。它所验证的TCP/IP协议族，最终将全人类连接在了一起。从最初的4个节点（UCLA, SRI, UCSB, Utah）发展到今天数十亿节点的全球网络，这一切都始于那个只传了一半的单词“LO”。",
+      "text_en": "ARPANET is the cornerstone of modern digital civilization. It proved that heterogeneous computers (different brands, different OSs) could talk to each other. The TCP/IP protocol suite it validated eventually connected all of humanity. From the original 4 nodes (UCLA, SRI, UCSB, Utah) to today's global network of billions, it all started with that half-transmitted word 'LO'.",
+      "stats": [
+          {
+            "number": "4",
+            "label": "初始节点数量 (1969年底)",
+            "label_en": "Initial Nodes (End of 1969)"
+          },
+          {
+            "number": "50",
+            "label": "kbps (当时的带宽)",
+            "label_en": "kbps (Bandwidth then)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "engelbart_demo_1968",
+          "contribution": "道格拉斯·恩格尔巴特（SRI是ARPANET的第二个节点，恩格尔巴特的NLS系统是这次连接的目标主机）",
+          "contribution_en": "Douglas Engelbart (SRI was the second ARPANET node; Engelbart's NLS system was the target host for this connection)"
+        },
+        {
+          "id": "licklider_symbiosis_1960",
+          "contribution": "J.C.R. 利克莱德（虽然没直接参与建设，但他最早提出了“星际计算机网络”的愿景，并资助了早期研究）",
+          "contribution_en": "J.C.R. Licklider (Though not building it directly, he first proposed the vision of an 'Intergalactic Computer Network' and funded early research)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "berners_lee_www_1989",
+          "contribution": "万维网（运行在互联网基础设施之上的应用层革命）",
+          "contribution_en": "World Wide Web (The application layer revolution running on top of the internet infrastructure)"
+        },
+        {
+          "id": "ibm_pc_1981",
+          "contribution": "个人电脑（当PC普及后，互联网才真正从军用/科研走向了千家万户）",
+          "contribution_en": "Personal Computer (Only when PCs became ubiquitous did the internet truly move from military/research to households)"
+        }
+      ],
+      "legacy_text": "它是数字世界的神经系统。",
+      "legacy_text_en": "It is the nervous system of the digital world."
+    },
+  
+    "related_concepts": ["封包交换 (Packet Switching)", "IMP (接口消息处理机)", "TCP/IP", "去中心化网络", "RFC (请求意见稿)"],
+    "related_concepts_en": ["Packet Switching", "IMP", "TCP/IP", "Decentralized Network", "RFC"],
+  
+    "quiz": {
+      "question": "互联网上发送的第一条消息内容是什么？",
+      "question_en": "What was the content of the first message ever sent on the Internet?",
+      "options": [
+        "HELLO",
+        "LOGIN",
+        "LO",
+        "QWERTY"
+      ],
+      "options_en": [
+        "HELLO",
+        "LOGIN",
+        "LO",
+        "QWERTY"
+      ],
+      "answer": 2,
+      "explanation": "查理·克莱恩原本想输入“LOGIN”，但在输入前两个字母“L”和“O”后，SRI的计算机就崩溃了。因此，历史上第一条网络消息只有“LO”。",
+      "explanation_en": "Charley Kline intended to type 'LOGIN', but after typing the first two letters 'L' and 'O', the computer at SRI crashed. Thus, the first network message in history was simply 'LO'."
+    }
+  }
