@@ -28,7 +28,7 @@ class ScienceMapApp extends StatefulWidget {
 }
 
 class _ScienceMapAppState extends State<ScienceMapApp> {
-  Locale _locale = Locale('zh');
+  Locale _locale = Locale('en');
 
   void _changeLanguage(Locale locale) {
     setState(() {
@@ -52,8 +52,8 @@ class _ScienceMapAppState extends State<ScienceMapApp> {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: [
-        Locale('zh', ''),
         Locale('en', ''),
+        Locale('zh', ''),
       ],
       home: MapScreen(onLanguageChange: _changeLanguage),
     );
