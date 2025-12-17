@@ -10,7 +10,7 @@
     "city_en": "Menlo Park (Susan Wojcicki's Garage)",
     "country": "美国",
     "country_en": "United States",
-    "storyline_id": ["digital_age_story"],
+    "storyline_id": ["digital_age_story", "ai_story"],
     "field": ["计算机科学", "互联网"],
     "field_en": ["Computer Science", "Internet"],
     

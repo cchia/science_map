@@ -1,0 +1,10 @@
+{
+    "name": "爱德华·费根鲍姆",
+    "name_en": "Edward Feigenbaum",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c3/27._Dr._Edward_A._Feigenbaum_1994-1997.jpg",
+    "bio_short": "美国计算机科学家，斯坦福大学教授，被尊称为“专家系统之父”。他于1994年获得图灵奖。与早期AI追求通用逻辑推理不同，他提出了著名的“知识原理”（Knowledge Principle），主张“知识就是力量”——AI的智能主要来源于针对特定领域的丰富知识库。他领导开发了历史上第一个专家系统DENDRAL（化学结构分析），不仅开创了基于知识的AI时代，还是1980年代AI商业化浪潮的主要推手。",
+    "bio_short_en": "American computer scientist, Stanford professor, and revered as the 'Father of Expert Systems'. He was awarded the Turing Award in 1994. Departing from early AI's pursuit of general logic, he formulated the famous 'Knowledge Principle', asserting that 'Knowledge is Power'—an AI's intelligence stems primarily from a rich, domain-specific knowledge base. He led the development of DENDRAL (chemical structure analysis), the first expert system in history, pioneering the era of knowledge-based AI and acting as a primary catalyst for the AI commercialization boom of the 1980s.",
+    "events": [
+      "expert_systems_1980s"
+    ]
+  }

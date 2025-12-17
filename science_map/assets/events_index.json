@@ -310,5 +310,14 @@
   "wikipedia_launch_2001",
   "aws_launch_2006",
   "apple_iphone_2007",
-  "google_android_2008"
+  "google_android_2008",
+  "expert_system_1980",
+  "lenet_1989",
+  "nvidia_gpu_1999",
+  "alexnet_2012",
+  "backprop_1986",
+  "cuda_release_2006",
+  "alphago_2016",
+  "vaswani_transformer_2017",
+  "chatgpt_launch_2022"
 ]

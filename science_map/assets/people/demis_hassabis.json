@@ -1,0 +1,10 @@
+{
+    "name": "德米斯·哈萨比斯",
+    "name_en": "Demis Hassabis",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/94/Demis_Hassabis_in_2025_by_Christopher_Michel_A.jpg",
+    "bio_short": "英国计算机科学家、神经科学家，Google DeepMind的联合创始人兼CEO，2024年诺贝尔化学奖得主。他的人生充满传奇色彩：13岁成为国际象棋大师，17岁主导开发了经典游戏《主题公园》（Theme Park），后来攻读认知神经科学博士学位，研究人类记忆与想象力的机制。他的终极愿景是“解决智能，然后用它解决其他所有问题”。他领导团队开发了AlphaGo，震惊世界；随后推出的AlphaFold更是破解了生物学50年的难题（蛋白质结构预测），开启了“AI for Science”的新纪元。",
+    "bio_short_en": "British computer scientist, neuroscientist, co-founder and CEO of Google DeepMind, and 2024 Nobel Laureate in Chemistry. His life is legendary: a chess master at 13, lead developer of the classic game 'Theme Park' at 17, and later a PhD in cognitive neuroscience studying memory and imagination. His ultimate vision is to 'solve intelligence, and then use that to solve everything else.' He led the team to create AlphaGo, shocking the world, followed by AlphaFold, which cracked a 50-year-old grand challenge in biology (protein structure prediction), ushering in the new era of 'AI for Science'.",
+    "events": [
+      "alphago_2016"
+    ]
+  }

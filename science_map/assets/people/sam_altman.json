@@ -1,0 +1,10 @@
+{
+    "name": "山姆·奥特曼",
+    "name_en": "Sam Altman",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29.jpg",
+    "bio_short": "美国企业家，OpenAI的联合创始人兼CEO，被《时代》杂志评为“年度CEO”。他曾是顶级创业孵化器Y Combinator的总裁，拥有极其敏锐的商业嗅觉和战略眼光。他一手策划了OpenAI从非营利实验室向“有限盈利”商业巨头的转型，并促成了与微软的百亿美元结盟。2023年11月，他经历了一场震惊全球科技界的“宫斗”——被董事会毫无征兆地罢免，却在员工集体辞职抗议的压力下，仅用5天时间就闪电回归重掌大权。这一事件彻底巩固了他作为AI时代最有权势人物的地位。",
+    "bio_short_en": "American entrepreneur, co-founder and CEO of OpenAI, named 'CEO of the Year' by TIME. Formerly President of the top startup incubator Y Combinator, he possesses an extremely sharp business acumen and strategic vision. He orchestrated OpenAI's transition from a non-profit lab to a 'capped-profit' commercial giant and brokered the multi-billion dollar alliance with Microsoft. In November 2023, he survived a 'boardroom coup' that shocked the global tech world—abruptly fired without warning, only to return triumphantly 5 days later under pressure from a mass employee resignation threat. This event solidified his status as the most powerful figure in the AI era.",
+    "events": [
+      "chatgpt_release_2022"
+    ]
+  }

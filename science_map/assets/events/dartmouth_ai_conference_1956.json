@@ -10,7 +10,7 @@
     "city_en": "Hanover (Dartmouth College)",
     "country": "美国",
     "country_en": "United States",
-    "storyline_id": ["computing_story"],
+    "storyline_id": ["ai_story"],
     "field": ["计算机科学", "认知科学", "人工智能"],
     "field_en": ["Computer Science", "Cognitive Science", "Artificial Intelligence"],
     
@@ -122,7 +122,7 @@
           "contribution_en": "Frank Rosenblatt (Though a connectionist, the Perceptron was a response and competition to the dominant Symbolic AI from Dartmouth)"
         },
         {
-          "id": "expert_systems_1980s",
+          "id": "expert_systems_1980",
           "contribution": "专家系统（达特茅斯确立的“逻辑推理”路线在80年代达到了巅峰）",
           "contribution_en": "Expert Systems (The 'logical reasoning' path established at Dartmouth reached its peak in the 80s)"
         }

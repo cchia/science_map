@@ -1,0 +1,10 @@
+{
+    "name": "格雷格·布罗克曼",
+    "name_en": "Greg Brockman",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_%2848838200316%29_%28cropped%29.jpg",
+    "bio_short": "美国企业家、软件工程师，OpenAI的联合创始人及总裁（President）。在加入OpenAI之前，他是支付巨头Stripe的CTO，被视为硅谷最顶尖的工程管理者之一。他是OpenAI这一“火箭”的首席工程师，负责搭建了训练GPT系列模型所需的庞大超级计算基础设施。他以极其硬核的技术能力著称，经常亲自上台进行高难度的现场代码演示（如GPT-4发布会）。在2023年11月的“OpenAI政变”中，他在Sam Altman被解雇后愤而辞职以示抗议，最终两人双双回归，被视为Sam Altman最坚定的战友。",
+    "bio_short_en": "American entrepreneur and software engineer, co-founder and President of OpenAI. Before OpenAI, he was the CTO of payment giant Stripe and regarded as one of Silicon Valley's top engineering leaders. He is the 'chief engineer' of the OpenAI rocket, responsible for building the massive supercomputing infrastructure required to train the GPT series models. Known for his hardcore technical skills, he frequently performs high-stakes live coding demos (such as the GPT-4 launch). During the November 2023 'OpenAI Coup', he quit in protest immediately after Sam Altman was fired, eventually returning with him, cementing his status as Altman's most steadfast ally.",
+    "events": [
+      "chatgpt_release_2022"
+    ]
+  }

@@ -1,0 +1,151 @@
+{
+    "id": "backprop_1986",
+    "personId": ["geoffrey_hinton", "david_rumelhart"],
+    "title": "反向传播论文发表 (AI的普罗米修斯时刻)",
+    "title_en": "Publication of Backprop (AI's Promethean Moment)",
+    "year": 1986,
+    "lat": 32.8801,
+    "lng": -117.2340,
+    "city": "圣地亚哥 (加州大学UCSD)",
+    "city_en": "San Diego (UCSD)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["ai_story"],
+    "field": ["计算机科学", "认知心理学"],
+    "field_en": ["Computer Science", "Cognitive Psychology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/6/60/ArtificialNeuronModel_english.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ayOOMlgb320",
+        "title": "反向传播算法",
+        "title_en": "Backpropagation in Neural Networks",
+        "duration": "6:48"
+      }
+    },
+    
+    "summary": {
+      "text": "1986年10月，Geoffrey Hinton、David Rumelhart和Ronald Williams在《Nature》杂志上发表了题为《通过反向传播错误来学习表征》的论文。这篇论文解决了困扰AI界数十年的难题：如何训练多层神经网络？他们提出了一种基于微积分链式法则的算法，通过计算输出层的误差，并将其一层层“反向”传回网络内部，从而精准地调整每个神经元的连接权重。这一发现打破了明斯基（Minsky）在1969年对神经网络判处的“死刑”，成为了后来所有深度学习模型（从AlphaGo到ChatGPT）的数学基石。",
+      "text_en": "In October 1986, Geoffrey Hinton, David Rumelhart, and Ronald Williams published the paper 'Learning representations by back-propagating errors' in Nature. This paper solved a problem that had plagued AI for decades: how to train multi-layer neural networks. They proposed an algorithm based on the chain rule of calculus, calculating the error at the output layer and propagating it 'backward' through the network to precisely adjust the weights of each neuron connection. This discovery broke the 'death sentence' Minsky had pronounced on neural networks in 1969 and became the mathematical cornerstone for all subsequent deep learning models (from AlphaGo to ChatGPT).",
+      "key_points": [
+        "核心算法：误差反向传播 (Backpropagation of Errors)",
+        "数学基础：微积分中的链式法则 (Chain Rule)",
+        "打破了“感知机无法解决异或（XOR）问题”的诅咒",
+        "证明了隐藏层 (Hidden Layers) 可以学习内部表征",
+        "是现代所有神经网络能够进行“训练”的根本原因"
+      ],
+      "key_points_en": [
+        "Core Algorithm: Backpropagation of Errors",
+        "Math Foundation: Chain Rule of Calculus",
+        "Broke the curse that 'Perceptrons cannot solve XOR problems'",
+        "Proved that Hidden Layers can learn internal representations",
+        "The fundamental reason why all modern neural networks can be 'trained'"
+      ]
+    },
+  
+    "story": {
+      "text": "在1986年，主流AI界由符号主义（逻辑派）统治，研究神经网络被视为一种“学术自杀”。Hinton和Rumelhart所在的PDP小组（并行分布处理小组）是一群叛逆者。他们坚信智能来源于神经元之间的连接强度，而不是人为编写的逻辑符号。反向传播算法其实早在70年代就被Paul Werbos等人独立发现过，但当时没人理会。是Hinton极其漂亮地证明了它能让神经网络学会“说话”（将英语文本转换为音素），才让这一算法真正进入了主流视野。当时，为了在那种慢得可怜的电脑上跑通这个算法，Hinton经常要在机房守通宵。",
+      "text_en": "In 1986, mainstream AI was dominated by Symbolism (Logicists), and researching neural networks was considered 'academic suicide'. The PDP group (Parallel Distributed Processing), which Hinton and Rumelhart belonged to, were rebels. They believed intelligence emerged from connection strengths between neurons, not hand-coded logical symbols. The backprop algorithm had actually been independently discovered by Paul Werbos and others in the 70s, but no one paid attention. It was Hinton who beautifully demonstrated that it could teach a neural network to 'speak' (convert English text to phonemes) that brought it into the spotlight. At the time, to run this algorithm on painfully slow computers, Hinton often had to pull all-nighters in the server room.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Gradient_descent.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📜",
+        "text": "这篇著名的《Nature》论文其实非常短，只有4页。但它引发的引用量高达数万次，是计算机科学史上影响最深远的论文之一。",
+        "text_en": "This famous Nature paper is actually very short, only 4 pages. Yet, it has garnered tens of thousands of citations, making it one of the most influential papers in computer science history."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Hinton其实并不是第一个发明反向传播的人（Werbos早在1974年的博士论文里就写了），但Hinton是第一个让大家相信“这东西真的有用”的人。这告诉我们：在科学界，营销和演示与发明同样重要。",
+        "text_en": "Hinton wasn't actually the first to invent backprop (Werbos wrote about it in his 1974 PhD thesis), but Hinton was the first to convince everyone 'this thing actually works'. This teaches us: in science, marketing and demonstration are as important as invention."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你在玩一个蒙眼投篮游戏。\n没用反向传播前，你投偏了，没人告诉你为什么偏，你只能瞎猜着调整姿势。\n反向传播就像有一个教练，在你投完后走过来，精确地告诉你：“手肘低了2厘米，手腕向左偏了5度。”\n有了这个精确的反馈，你就能通过不断的练习（训练），最终变成神射手。",
+      "text_en": "Imagine playing a blindfolded basketball game.\nWithout backprop, you miss, and no one tells you why; you just guess how to adjust.\nBackprop is like a coach who walks up to you after a miss and tells you precisely: 'Your elbow was 2cm too low, your wrist was 5 degrees to the left.'\nWith this precise feedback, you can practice (train) and eventually become a sharpshooter.",
+      "diagram": "assets/images/backprop.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🗣️",
+          "title": "NETtalk (会说话的网络)",
+          "title_en": "NETtalk",
+          "text": "这是1987年基于反向传播的一个著名演示。网络学会了朗读英语单词，哪怕是它从未见过的生词。这震撼了当时的心理学界。",
+          "text_en": "A famous 1987 demo based on backprop. The network learned to read English words aloud, even new words it had never seen. This shocked the psychology world at the time."
+        },
+        {
+          "icon": "🤖",
+          "title": "所有现代AI",
+          "title_en": "All Modern AI",
+          "text": "从你手机里的Siri，到特斯拉的自动驾驶，再到ChatGPT，它们底层的每一次参数更新，依然在运行着1986年的这个算法。",
+          "text_en": "From Siri on your phone to Tesla's autopilot, to ChatGPT, every parameter update under the hood is still running this algorithm from 1986."
+        }
+      ],
+  
+    "impact": {
+      "text": "1986年的反向传播是连接主义（Connectionism）的复兴时刻。它结束了明斯基造成的第一次AI寒冬，开启了神经网络的第二波热潮（虽然90年代又冷了下去）。更重要的是，它确立了“基于梯度的优化”（Gradient-Based Optimization）作为AI学习的核心范式，这一范式统治了该领域至今已近40年。",
+      "text_en": "Backprop in 1986 was the renaissance of Connectionism. It ended the first AI Winter caused by Minsky and started the second wave of neural networks (though it cooled down again in the 90s). More importantly, it established 'Gradient-Based Optimization' as the core paradigm of AI learning, which has dominated the field for nearly 40 years.",
+      "stats": [
+          {
+            "number": "3",
+            "label": "人 (论文作者数)",
+            "label_en": "Authors"
+          },
+          {
+            "number": "4",
+            "label": "页 (论文长度)",
+            "label_en": "Pages"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "rosenblatt_perceptron_1958",
+          "contribution": "感知机（反向传播解决了单层感知机无法处理非线性问题【如XOR】的致命缺陷）",
+          "contribution_en": "Perceptron (Backprop solved the fatal flaw of single-layer perceptrons being unable to handle non-linear problems like XOR)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "lenet_1989",
+          "contribution": "LeNet（LeCun正是拿着Hinton的反向传播算法，加上了卷积结构，才做出了LeNet）",
+          "contribution_en": "LeNet (LeCun took Hinton's backprop algorithm, added convolutional structures, and created LeNet)"
+        },
+        {
+          "id": "alexnet_2012",
+          "contribution": "AlexNet（AlexNet本质上就是反向传播在大数据和GPU上的暴力美学展示）",
+          "contribution_en": "AlexNet (AlexNet is essentially a brute-force aesthetic display of backprop on Big Data and GPUs)"
+        }
+      ],
+      "legacy_text": "那是神经网络学会学习的第一天。",
+      "legacy_text_en": "That was the first day neural networks learned how to learn."
+    },
+  
+    "related_concepts": ["梯度下降 (Gradient Descent)", "链式法则 (Chain Rule)", "多层感知机 (MLP)", "连接主义", "隐藏层"],
+    "related_concepts_en": ["Gradient Descent", "Chain Rule", "MLP", "Connectionism", "Hidden Layers"],
+  
+    "quiz": {
+      "question": "反向传播算法主要解决了神经网络中的什么核心问题？",
+      "question_en": "What core problem in neural networks did the Backpropagation algorithm primarily solve?",
+      "options": [
+        "如何让网络拥有记忆",
+        "如何计算输出层与目标之间的误差，并将误差分配给每一个中间层的神经元",
+        "如何增加网络的层数",
+        "如何减少计算量"
+      ],
+      "options_en": [
+        "How to give the network memory",
+        "How to calculate the error between output and target, and assign that error to every neuron in intermediate layers",
+        "How to increase the number of layers",
+        "How to reduce computation"
+      ],
+      "answer": 1,
+      "explanation": "这就是“信用分配问题”（Credit Assignment Problem）。网络输出了错误结果，到底是谁的锅？反向传播通过数学计算，精确地告诉每个神经元：“你对这个错误贡献了多少，所以你需要调整多少。”",
+      "explanation_en": "This is the 'Credit Assignment Problem'. The network outputs a wrong result; whose fault is it? Backprop uses math to tell each neuron precisely: 'How much did you contribute to this error, and thus how much do you need to adjust.'"
+    }
+  }

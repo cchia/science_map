@@ -1,0 +1,11 @@
+{
+    "name": "黄仁勋",
+    "name_en": "Jensen Huang",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jen-Hsun_Huang_2025.jpg",
+    "bio_short": "美籍华人企业家，NVIDIA（英伟达）的联合创始人兼CEO，被誉为“AI教父”背后的“军火商”。出生于台湾，9岁移民美国。他在1993年创立NVIDIA，并于1999年定义了“GPU”这一概念，改变了计算机图形学。他以其标志性的黑色皮衣、亲民的作风（喜欢在发布会上送显卡）以及对未来的极度敏感著称。正是他力排众议坚持开发CUDA计算平台，将GPU从单纯的游戏硬件变成了通用并行计算神器，才使得后来的深度学习革命成为可能。",
+    "bio_short_en": "Taiwanese-American entrepreneur, co-founder and CEO of NVIDIA, regarded as the 'arms dealer' behind the 'Godfathers of AI'. Born in Taiwan, he immigrated to the US at age 9. He founded NVIDIA in 1993 and defined the concept of the 'GPU' in 1999, revolutionizing computer graphics. Known for his iconic black leather jacket, approachability, and extreme sensitivity to future trends. It was his relentless push for the CUDA computing platform that transformed GPUs from mere gaming hardware into general-purpose parallel computing engines, making the subsequent Deep Learning revolution possible.",
+    "events": [
+      "nvidia_gpu_1999",
+      "cuda_release_2006"
+    ]
+  }

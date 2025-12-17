@@ -1,0 +1,10 @@
+{
+    "name": "米拉·穆拉蒂",
+    "name_en": "Mira Murati",
+    "portrait": "assets/images/mira_murati.png",
+    "bio_short": "阿尔巴尼亚裔工程师，前OpenAI首席技术官（CTO），被誉为ChatGPT背后的“产品总设计师”。在加入OpenAI之前，她曾在特斯拉主导Model X的开发，拥有极强的工程化落地能力。是她将OpenAI从一个纯研究实验室转型为消费级产品巨头，一手推动了DALL-E、ChatGPT和GPT-4的发布。她以冷静、理性的公众形象著称。2023年11月Sam Altman被解雇期间，她曾短暂担任了两天的“临时CEO”。2024年9月，她宣布离开OpenAI，随后开始筹备自己的新AI创业公司，继续探索智能的边界。",
+    "bio_short_en": "Albanian-born engineer, former CTO of OpenAI, hailed as the 'Chief Product Architect' behind ChatGPT. Before OpenAI, she led the development of the Model X at Tesla, possessing strong engineering execution skills. She was instrumental in transforming OpenAI from a pure research lab into a consumer product giant, spearheading the launches of DALL-E, ChatGPT, and GPT-4. Known for her calm and rational public persona. During the firing of Sam Altman in November 2023, she briefly served as 'Interim CEO' for two days. In September 2024, she announced her departure from OpenAI and subsequently began preparing her own new AI startup to continue exploring the frontiers of intelligence.",
+    "events": [
+      "chatgpt_release_2022"
+    ]
+  }

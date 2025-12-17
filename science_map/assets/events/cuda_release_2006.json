@@ -1,0 +1,151 @@
+{
+    "id": "cuda_release_2006",
+    "personId": ["jensen_huang"],
+    "title": "CUDA发布 (通用并行计算的黎明)",
+    "title_en": "Release of CUDA (Dawn of General Purpose Parallel Computing)",
+    "year": 2006,
+    "lat": 37.3708,
+    "lng": -121.9649,
+    "city": "圣塔克拉拉 (NVIDIA总部)",
+    "city_en": "Santa Clara (NVIDIA HQ)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["ai_story"],
+    "field": ["计算机科学", "并行计算"],
+    "field_en": ["Computer Science", "Parallel Computing"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=IzU4AVcMFys",
+        "title": "NVIDIA CUDA简介：GPU计算革命",
+        "title_en": "Introduction to NVIDIA CUDA: GPU Computing Revolution",
+        "duration": "5:33"
+      }
+    },
+    
+    "summary": {
+      "text": "2006年11月，NVIDIA推出了CUDA（Compute Unified Device Architecture），这是一个革命性的并行计算平台和编程模型。在此之前，想要利用GPU进行非图形计算（GPGPU），程序员必须把数学公式伪装成图形渲染任务（比如把数字伪装成像素颜色），极其痛苦且低效。CUDA允许开发者直接使用C/C++语言编写程序，调用GPU中成千上万个核心进行通用计算。这一举措将NVIDIA的显卡瞬间从“游戏玩具”变成了“超级计算机”，为后来深度学习对算力的贪婪需求准备好了唯一的物理载体。",
+      "text_en": "In November 2006, NVIDIA launched CUDA (Compute Unified Device Architecture), a revolutionary parallel computing platform and programming model. Before this, to use GPUs for non-graphics computing (GPGPU), programmers had to disguise math formulas as graphics rendering tasks (like masquerading numbers as pixel colors), which was painful and inefficient. CUDA allowed developers to write code directly in C/C++ to harness the thousands of cores in a GPU for general-purpose computing. This move instantly transformed NVIDIA graphics cards from 'gaming toys' into 'supercomputers', preparing the only physical vessel capable of meeting deep learning's voracious appetite for compute power.",
+      "key_points": [
+        "发布了G80架构（GeForce 8800），第一款支持CUDA的GPU",
+        "允许使用标准C语言进行GPU编程，大大降低了门槛",
+        "核心理念：单指令多线程 (SIMT) 架构",
+        "将GPU变成了通用并行处理器 (GPGPU)",
+        "是后来所有AI大模型训练不可或缺的基础设施"
+      ],
+      "key_points_en": [
+        "Launched the G80 architecture (GeForce 8800), the first CUDA-capable GPU",
+        "Allowed GPU programming using standard C, drastically lowering the barrier",
+        "Core concept: Single Instruction, Multiple Threads (SIMT) architecture",
+        "Transformed the GPU into a General Purpose GPU (GPGPU)",
+        "The indispensable infrastructure for training all subsequent large AI models"
+      ]
+    },
+  
+    "story": {
+      "text": "CUDA的诞生是黄仁勋（Jensen Huang）的一场豪赌。当时，为了支持CUDA，NVIDIA必须在每一个出厂的GPU芯片（哪怕是最低端的）中增加额外的逻辑电路。这不仅增加了成本，还占用了本该用于提升游戏性能的晶体管。在长达几年的时间里，这一策略导致NVIDIA股价低迷，华尔街分析师痛骂黄仁勋把钱浪费在没人用的功能上（当时只有极少数科学家在用CUDA做石油勘探或分子模拟）。但黄仁勋坚持认为：“并行计算是未来。”他坚持了整整6年，直到2012年AlexNet横空出世，世界才突然发现，只有NVIDIA早就为AI准备好了“军火”。",
+      "text_en": "The birth of CUDA was a massive gamble by Jensen Huang. At the time, to support CUDA, NVIDIA had to add extra logic circuits to every shipped GPU chip (even the lowest-end ones). This not only increased costs but also took up transistor space that could have been used to boost gaming performance. For years, this strategy depressed NVIDIA's stock price, and Wall Street analysts lambasted Huang for wasting money on a feature no one used (at the time, only a few scientists used CUDA for oil exploration or molecular simulation). But Huang insisted: 'Parallel computing is the future.' He held the line for 6 full years until AlexNet burst onto the scene in 2012, and the world suddenly realized that only NVIDIA had prepared the 'munitions' for AI.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/59/CUDA_processing_flow_%28En%29.PNG"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💊",
+        "text": "在AI爆发之前，CUDA最大的用户群体其实是生物学家和物理学家。Folding@home项目利用全球数百万玩家闲置显卡的CUDA核心，模拟蛋白质折叠，试图攻克癌症和阿尔茨海默病。",
+        "text_en": "Before the AI explosion, the largest user base for CUDA was actually biologists and physicists. The Folding@home project used the CUDA cores of millions of idle gamers' GPUs worldwide to simulate protein folding, attempting to solve cancer and Alzheimer's."
+      },
+      {
+        "icon": "🎓",
+        "text": "NVIDIA为了推广CUDA，曾向全球大学免费赠送了数千台昂贵的GPU服务器，并在数百所大学开设CUDA课程。这种“赔本赚吆喝”的生态建设，导致后来整整一代计算机科学家只会用CUDA写并行程序。",
+        "text_en": "To promote CUDA, NVIDIA donated thousands of expensive GPU servers to universities worldwide and launched CUDA courses in hundreds of schools. This 'loss-leading' ecosystem building meant that an entire generation of computer scientists grew up only knowing how to write parallel programs in CUDA."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "以前的显卡像是一个只会画画的特长生。\nCUDA就像是送这个特长生去上大学，教会了他数学和逻辑。\n现在，他不只会画画，还能帮你算复杂的科学题，而且因为他本来就习惯了一次画几百万个像素，所以他算起题来也是一次算几百万道。",
+      "text_en": "Old graphics cards were like art students who only knew how to draw.\nCUDA was like sending this art student to college to learn math and logic.\nNow, he doesn't just draw; he can solve complex scientific problems for you. And since he was used to drawing millions of pixels at once, he solves millions of math problems at once too.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/59/CUDA_processing_flow_%28En%29.PNG"
+    },
+  
+    "applications": [
+        {
+          "icon": "🌪️",
+          "title": "天气预报",
+          "title_en": "Weather Forecasting",
+          "text": "气象模拟需要将大气层切成无数个小方块同时计算，这天然适合CUDA的并行架构，大大提高了天气预报的精度。",
+          "text_en": "Weather simulation requires slicing the atmosphere into countless small cubes and calculating them simultaneously, which is naturally suited for CUDA's parallel architecture, greatly improving forecast accuracy."
+        },
+        {
+          "icon": "🧠",
+          "title": "深度学习训练",
+          "title_en": "Deep Learning Training",
+          "text": "这是CUDA最著名的应用。不管是训练ChatGPT还是生成Midjourney图片，底层全是海量的矩阵乘法，这正是CUDA最擅长的事情。",
+          "text_en": "The most famous application. Whether training ChatGPT or generating Midjourney images, the underlying work is massive matrix multiplication, which is exactly what CUDA excels at."
+        }
+      ],
+  
+    "impact": {
+      "text": "CUDA建立了一条宽阔得可怕的护城河。虽然竞争对手（如AMD的ROCm或Intel的OpenCL）也推出了类似技术，但因为NVIDIA从2006年就开始积累的庞大软件生态库（cuDNN, TensorRT等），使得所有AI框架（PyTorch, TensorFlow）都优先甚至独家优化CUDA。这导致在AI时代，NVIDIA拥有了近乎垄断的地位，被称为“AI计算的操作系统”。",
+      "text_en": "CUDA built a terrifyingly wide moat. Although competitors (like AMD's ROCm or Intel's OpenCL) launched similar technologies, NVIDIA's massive software ecosystem library (cuDNN, TensorRT, etc.) accumulated since 2006 meant all AI frameworks (PyTorch, TensorFlow) prioritized or exclusively optimized for CUDA. This gave NVIDIA a near-monopoly status in the AI era, often called the 'Operating System of AI Compute'.",
+      "stats": [
+          {
+            "number": "4000000",
+            "label": "名 (全球CUDA开发者数量)",
+            "label_en": "Developers Worldwide"
+          },
+          {
+            "number": "128",
+            "label": "个 (G80架构的流处理器数量)",
+            "label_en": "Stream Processors in G80"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "nvidia_gpu_1999",
+          "contribution": "GeForce 256（早期的GPU虽然不可编程，但奠定了并行硬件的基础，CUDA是这一硬件潜力的软件解锁）",
+          "contribution_en": "GeForce 256 (Early GPUs were not programmable but laid the hardware foundation; CUDA was the software unlock of this potential)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "alexnet_2012",
+          "contribution": "AlexNet（AlexNet的作者Krizhevsky编写了高度优化的CUDA内核，才使得深层网络训练成为可能）",
+          "contribution_en": "AlexNet (AlexNet author Krizhevsky wrote highly optimized CUDA kernels, making deep network training possible)"
+        },
+        {
+          "id": "alphago_2016",
+          "contribution": "AlphaGo（AlphaGo使用了1920个CPU和280个GPU进行计算，完全依赖CUDA进行加速）",
+          "contribution_en": "AlphaGo (AlphaGo used 1920 CPUs and 280 GPUs, relying entirely on CUDA for acceleration)"
+        }
+      ],
+      "legacy_text": "它是连接硅与智能的桥梁。",
+      "legacy_text_en": "It is the bridge between silicon and intelligence."
+    },
+  
+    "related_concepts": ["GPGPU", "SIMT", "内核 (Kernel)", "线程块 (Thread Block)", "异构计算"],
+    "related_concepts_en": ["GPGPU", "SIMT", "Kernel", "Thread Block", "Heterogeneous Computing"],
+  
+    "quiz": {
+      "question": "在CUDA发布之前，程序员如果想用显卡做数学计算，必须要掌握哪种技术？",
+      "question_en": "Before CUDA was released, what technology did programmers have to master if they wanted to do math on a graphics card?",
+      "options": [
+        "汇编语言",
+        "图形着色器语言 (如OpenGL/DirectX)",
+        "Python",
+        "Java"
+      ],
+      "options_en": [
+        "Assembly Language",
+        "Graphics Shader Languages (e.g., OpenGL/DirectX)",
+        "Python",
+        "Java"
+      ],
+      "answer": 1,
+      "explanation": "在GPGPU的早期（Pre-CUDA时代），程序员必须把数据伪装成纹理（Texture），把计算逻辑写成像素着色器（Pixel Shader），极其晦涩难懂。",
+      "explanation_en": "In the early days of GPGPU (Pre-CUDA), programmers had to masquerade data as textures and write computation logic as pixel shaders, which was extremely obscure and difficult."
+    }
+  }

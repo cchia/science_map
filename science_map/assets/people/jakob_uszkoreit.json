@@ -1,0 +1,10 @@
+{
+    "name": "雅各布·乌什科雷特",
+    "name_en": "Jakob Uszkoreit",
+    "portrait": "assets/images/jakob_uszkoreit.png",
+    "bio_short": "德国计算机科学家，Transformer架构的“灵魂设计师”。作为《Attention Is All You Need》的核心作者之一，他最早提出了“彻底抛弃循环神经网络（RNN），只用注意力机制”这一激进的理论构想。他的初衷非常务实：为了让Google Translate的训练速度快到可以处理全网数据，必须消除RNN无法并行的瓶颈。他是著名的“Transformer八子”之一，离开Google后创立了生物科技公司Inceptive，致力于用类似大模型的AI技术来设计mRNA疫苗和药物，被称为“生物界的软件工程师”。",
+    "bio_short_en": "German computer scientist, the 'Soul Architect' of the Transformer. As one of the core authors of 'Attention Is All You Need', he was the first to propose the radical theoretical concept of 'completely discarding RNNs and using only attention mechanisms'. His motivation was purely pragmatic: to make Google Translate training fast enough to ingest the entire web, the bottleneck of RNN's lack of parallelism had to be eliminated. One of the famous 'Transformer Eight', he left Google to found the biotech startup Inceptive, aiming to use LLM-like AI to design mRNA vaccines and drugs, earning him the title 'Software Engineer of Biology'.",
+    "events": [
+      "vaswani_transformer_2017"
+    ]
+  }

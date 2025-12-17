@@ -1,0 +1,156 @@
+{
+    "id": "lenet_1989",
+    "personId": ["yann_lecun"],
+    "title": "LeNet诞生 (卷积神经网络的起源)",
+    "title_en": "Birth of LeNet (Origin of CNN)",
+    "year": 1989,
+    "lat": 40.3916,
+    "lng": -74.1324,
+    "city": "霍姆德尔 (AT&T贝尔实验室)",
+    "city_en": "Holmdel (AT&T Bell Labs)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["ai_story"],
+    "field": ["人工智能", "计算机视觉"],
+    "field_en": ["Artificial Intelligence", "Computer Vision"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/3/35/LeNet-5_architecture.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=FwFduRA_L6Q",
+        "title": "历史影像：Yann LeCun演示LeNet识别手写数字",
+        "title_en": "Historical Footage: Yann LeCun Demos LeNet",
+        "duration": "0:56"
+      }
+    },
+    
+    "summary": {
+      "text": "1989年，Yann LeCun（杨立昆）在AT&T贝尔实验室发表了里程碑式的论文《反向传播在手写邮政编码识别中的应用》。这是历史上第一次成功演示了“卷积神经网络”（CNN）可以通过反向传播算法进行端到端的训练。虽然更著名的LeNet-5架构是在1998年定义的，但1989年的这项工作确立了“卷积+池化”的核心范式，并成功应用于美国邮政局（USPS）的信件分拣系统，是深度学习在现实世界中的首次大规模应用。",
+      "text_en": "In 1989, Yann LeCun published the landmark paper 'Backpropagation Applied to Handwritten Zip Code Recognition' at AT&T Bell Labs. This was the first successful demonstration in history that a 'Convolutional Neural Network' (CNN) could be trained end-to-end using backpropagation. Although the more famous LeNet-5 architecture was defined in 1998, this 1989 work established the core paradigm of 'Convolution + Pooling' and was successfully deployed in the US Postal Service (USPS) mail sorting system, marking the first large-scale real-world application of deep learning.",
+      "key_points": [
+        "首次证明反向传播算法可以训练多层卷积网络",
+        "解决了美国邮政（USPS）的手写邮编自动识别难题",
+        "确立了卷积（Convolution）和权值共享（Weight Sharing）的核心思想",
+        "在那个算力匮乏的年代，实现了准确率极高的图像识别",
+        "为后来1998年的LeNet-5和现代计算机视觉奠定了基础"
+      ],
+      "key_points_en": [
+        "First proof that backpropagation could train multi-layer convolutional networks",
+        "Solved the problem of automated handwritten ZIP code recognition for USPS",
+        "Established the core concepts of Convolution and Weight Sharing",
+        "Achieved highly accurate image recognition in an era of scarce computing power",
+        "Laid the foundation for the later LeNet-5 (1998) and modern computer vision"
+      ]
+    },
+  
+    "story": {
+      "text": "1989年，计算机视觉还是一个需要手工编写复杂规则的领域。刚加入贝尔实验室的Yann LeCun受到Geoffrey Hinton反向传播算法的启发，决定尝试用它来训练一个模拟生物视觉的“卷积”网络。当时，他只有一台算力仅为现代手机几百万分之一的SUN工作站。为了让网络跑起来，他不得不手写极其底层的代码。最终，当他把摄像头对准信封上的手写数字时，屏幕上准确地跳出了识别结果，这一刻标志着现代AI视觉的诞生。尽管这套系统非常有效，但当时的硬件限制让它在接下来的十几年里被学术界边缘化，直到GPU时代的到来。",
+      "text_en": "In 1989, computer vision was a field requiring manually written, complex rules. Yann LeCun, having just joined Bell Labs and inspired by Geoffrey Hinton's backpropagation algorithm, decided to use it to train a 'convolutional' network mimicking biological vision. At the time, he only had a SUN workstation with a fraction of the power of a modern phone. To get the network running, he had to hand-write extremely low-level code. Finally, when he pointed the camera at handwritten digits on an envelope and the correct results popped up on the screen, it marked the birth of modern AI vision. Although effective, hardware limitations caused this system to be marginalized by academia for the next decade until the GPU era.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b1/MNIST_dataset_example.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📮",
+        "text": "这项技术实际上被美国邮政局大规模采用了。在90年代，全美超过10%的信件是依靠LeCun开发的这套算法自动分拣的。",
+        "text_en": "This technology was actually adopted at scale by the USPS. In the 90s, over 10% of all mail in the US was automatically sorted by this algorithm developed by LeCun."
+      },
+      {
+        "icon": "🐢",
+        "text": "由于1989年的计算机太慢，LeCun训练这个网络花整整3天时间。而同样的网络结构，在今天的普通笔记本电脑上训练只需要不到1秒。",
+        "text_en": "Because computers in 1989 were so slow, it took LeCun 3 full days to train this network. The same network structure takes less than 1 second to train on a modern laptop today."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "LeNet-1就像是一个不知疲倦的邮递员。\n在此之前，机器看信封上的数字就像看天书。\nLeCun给这个机器装上了一副“特殊的眼镜”（卷积层），让它能像人眼一样扫描数字的线条和圆圈，最终学会了认字。\n它是所有现代人脸识别和自动驾驶摄像头的鼻祖。",
+      "text_en": "LeNet-1 was like a tireless mailman.\nBefore this, machines looked at digits on envelopes like they were alien hieroglyphs.\nLeCun gave the machine a pair of 'special glasses' (convolutional layers), allowing it to scan the lines and circles of digits like a human eye, eventually learning to read.\nIt is the ancestor of all modern face recognition and self-driving cameras.",
+      "diagram": "assets/images/cnn.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "✉️",
+          "title": "邮政编码识别",
+          "title_en": "ZIP Code Recognition",
+          "text": "这是深度学习历史上第一个真正产生商业价值的“杀手级应用”，极大地提高了物流效率。",
+          "text_en": "This was the first 'killer app' in deep learning history to generate real commercial value, drastically improving logistics efficiency."
+        },
+        {
+          "icon": "🏦",
+          "title": "银行支票处理",
+          "title_en": "Bank Check Processing",
+          "text": "这套系统后来也被NCR公司用于ATM机，自动读取支票金额，这在1996年左右成为了行业标准。",
+          "text_en": "This system was later used by NCR for ATMs to automatically read check amounts, becoming an industry standard around 1996."
+        }
+      ],
+  
+    "impact": {
+      "text": "1989年的LeNet不仅是一个技术突破，更是一种信仰的胜利。它证明了“端到端学习”（从原始像素直接到结果）是可行的，不需要人类专家手工设计特征。虽然它生不逢时（受限于当时的算力），但它埋下的种子在2012年（AlexNet）彻底爆发，改变了世界。",
+      "text_en": "LeNet in 1989 was not just a technical breakthrough but a victory of faith. It proved that 'End-to-End Learning' (from raw pixels directly to results) was viable without human experts manually designing features. Although it was ahead of its time (constrained by compute power), the seeds it planted exploded in 2012 (AlexNet), changing the world.",
+      "stats": [
+          {
+            "number": "7291",
+            "label": "个 (USPS训练样本数)",
+            "label_en": "Training Samples (USPS)"
+          },
+          {
+            "number": "5",
+            "label": "% (当时的错误率)",
+            "label_en": "% (Error Rate at the time)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "rumelhart_backprop_1986",
+          "contribution": "反向传播算法（Hinton等人完善的反向传播算法是LeNet能够训练的核心数学工具）",
+          "contribution_en": "Backpropagation (The backprop algorithm perfected by Hinton et al. was the core mathematical tool that made LeNet trainable)"
+        },
+        {
+          "id": "fukushima_neocognitron_1980",
+          "contribution": "神经认知机（福岛邦彦提出的Neocognitron最早有了卷积和池化的雏形，但缺乏有效的训练算法，LeCun解决了这个问题）",
+          "contribution_en": "Neocognitron (Kunihiko Fukushima's Neocognitron had the early forms of convolution and pooling, but lacked an effective training algorithm, which LeCun solved)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "lenet_1998",
+          "contribution": "LeNet-5（1989年的工作直接演化为1998年更成熟的LeNet-5和MNIST数据集）",
+          "contribution_en": "LeNet-5 (The 1989 work directly evolved into the more mature LeNet-5 and MNIST dataset in 1998)"
+        },
+        {
+          "id": "alexnet_2012",
+          "contribution": "AlexNet（当GPU算力足够时，AlexNet证明了LeNet的架构只要变深、变大，就能产生奇迹）",
+          "contribution_en": "AlexNet (When GPU compute became sufficient, AlexNet proved that LeNet's architecture, when made deeper and larger, could perform miracles)"
+        }
+      ],
+      "legacy_text": "它在寒冬中点燃了卷积的火种。",
+      "legacy_text_en": "It lit the spark of convolution in the winter."
+    },
+  
+    "related_concepts": ["卷积 (Convolution)", "反向传播 (Backpropagation)", "USPS数据集", "权值共享", "LeNet-1"],
+    "related_concepts_en": ["Convolution", "Backpropagation", "USPS Dataset", "Weight Sharing", "LeNet-1"],
+  
+    "quiz": {
+      "question": "LeNet-1（1989）主要解决了当时计算机视觉中的什么核心问题？",
+      "question_en": "What core computer vision problem did LeNet-1 (1989) primarily solve?",
+      "options": [
+        "如何让计算机识别彩色照片",
+        "如何不依赖手工特征工程，直接从图像像素中学习特征",
+        "如何生成逼真的人脸图像",
+        "如何识别三维物体"
+      ],
+      "options_en": [
+        "How to make computers recognize color photos",
+        "How to learn features directly from image pixels without manual feature engineering",
+        "How to generate realistic face images",
+        "How to recognize 3D objects"
+      ],
+      "answer": 1,
+      "explanation": "在LeNet之前，识别图像主要靠人手工设计特征检测器。LeNet最大的贡献是证明了通过反向传播，网络可以自己学会提取什么样的特征（比如边缘、线条）是最有效的。",
+      "explanation_en": "Before LeNet, image recognition relied on manually designed feature detectors. LeNet's greatest contribution was proving that via backpropagation, the network could learn for itself what features (like edges, lines) were most effective."
+    }
+  }
