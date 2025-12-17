@@ -1,0 +1,10 @@
+{
+  "name": "利昂·库珀",
+  "name_en": "Leon Cooper",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Nobel_Laureate_Leon_Cooper_in_2007.jpg",
+  "bio_short": "美国物理学家，1972年诺贝尔物理学奖得主。他是BCS理论中的“C”，其核心贡献是发现了著名的“库珀对”（Cooper pairs）。他从数学上证明了，在极低温度下，两个通常相互排斥的电子可以通过晶格振动（声子）产生的微弱吸引力结合在一起。这一违反直觉的物理图像是超导现象发生的根本原因。值得一提的是，这位天才物理学家后来跨界进入了神经科学领域，提出了关于大脑突触可塑性的BCM理论，在物理和生物两个截然不同的领域都留下了以自己名字命名的定律。",
+  "bio_short_en": "American physicist and 1972 Nobel Laureate in Physics. He is the 'C' in the BCS theory, best known for discovering the famous 'Cooper pairs'. He mathematically proved that at extremely low temperatures, two electrons, which usually repel each other, can bind together via a weak attraction mediated by lattice vibrations (phonons). This counter-intuitive physical image is the fundamental cause of superconductivity. Notably, this genius physicist later crossed over into neuroscience, developing the BCM theory on synaptic plasticity, leaving laws named after him in two completely different fields: physics and biology.",
+  "events": [
+    "bcs_theory_1957"
+  ]
+}

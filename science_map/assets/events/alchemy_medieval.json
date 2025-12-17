@@ -1,7 +1,7 @@
 {
-    "id": "alchemy_medieval",
-    "title": "中世纪炼金术 (欧洲)",
-    "title_en": "Medieval Alchemy (Europe)",
-    "year": 1250,
-    "is_stub": true
-  }
+  "id": "alchemy_medieval",
+  "title": "Alchemy Medieval",
+  "title_en": "Alchemy Medieval",
+  "year": 0,
+  "is_stub": true
+}
