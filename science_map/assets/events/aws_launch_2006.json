@@ -1,0 +1,151 @@
+{
+    "id": "aws_launch_2006",
+    "personId": ["jeff_bezos", "andy_jassy", "werner_vogels"],
+    "title": "AWS上线 (云计算时代的开启)",
+    "title_en": "Launch of AWS (Start of the Cloud Era)",
+    "year": 2006,
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "city": "西雅图 (Amazon总部)",
+    "city_en": "Seattle (Amazon HQ)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "云计算"],
+    "field_en": ["Computer Science", "Cloud Computing"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Amazon_Web_Services_2025.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=a9__D53WsUs",
+        "title": "AWS是什么？",
+        "title_en": "What is AWS? | Amazon Web Services",
+        "duration": "3:11"
+      }
+    },
+    
+    "summary": {
+      "text": "2006年3月14日，Amazon低调发布了“简单存储服务”（S3），随后在8月发布了“弹性计算云”（EC2）。这两个看似枯燥的基础设施服务，标志着现代云计算行业的正式诞生。Amazon将自己庞大且闲置的服务器能力打包成服务，通过互联网按小时出租给开发者。这彻底改变了科技行业的创业规则：初创公司不再需要筹集数百万美元购买服务器和建立数据中心，只需一张信用卡，就能拥有与巨头同等的计算能力。这种将IT成本从“资本支出”（CapEx）转变为“运营支出”（OpEx）的模式，引爆了后来的移动互联网创业潮。",
+      "text_en": "On March 14, 2006, Amazon quietly launched 'Simple Storage Service' (S3), followed by 'Elastic Compute Cloud' (EC2) in August. These two seemingly boring infrastructure services marked the official birth of the modern cloud computing industry. Amazon packaged its massive, excess server capacity into services and rented them out to developers by the hour over the internet. This fundamentally changed the rules of tech startups: companies no longer needed to raise millions of dollars to buy servers and build data centers; with just a credit card, they could access computing power equivalent to tech giants. This shift from IT costs being 'Capital Expenditure' (CapEx) to 'Operating Expenditure' (OpEx) ignited the subsequent mobile internet startup boom.",
+      "key_points": [
+        "发布了S3（存储）和EC2（计算），云计算的两大基石",
+        "将计算资源变成了像水和电一样的公用事业（Utility Computing）",
+        "极大地降低了互联网创业的门槛和试错成本",
+        "由安迪·贾西（Andy Jassy）领导，起初不被华尔街看好",
+        "Amazon从一家零售公司转型为一家高科技基础设施公司"
+      ],
+      "key_points_en": [
+        "Launched S3 (Storage) and EC2 (Compute), the cornerstones of cloud computing",
+        "Turned computing resources into a utility like water and electricity (Utility Computing)",
+        "Drastically lowered the barrier to entry and cost of failure for internet startups",
+        "Led by Andy Jassy, initially viewed with skepticism by Wall Street",
+        "Transformed Amazon from a retail company into a high-tech infrastructure company"
+      ]
+    },
+  
+    "story": {
+      "text": "AWS的诞生源于Amazon自身的混乱。2000年初，Amazon的工程师们发现自己大部分时间都在重复造轮子，IT基础设施一团糟。为了解决这个问题，杰夫·贝佐斯发布了著名的“API宣言”，强制所有团队必须通过接口公开数据和功能，否则就开除。这种内部架构的强制解耦，让Amazon意外地具备了将其基础设施对外出售的能力。当安迪·贾西提出把这作为一项业务时，许多人嘲笑说：“一家卖书的公司凭什么做企业级IT？”结果，AWS在毫无竞争对手的情况下狂奔了7年，直到微软和Google反应过来时，Amazon已经占据了统治地位。",
+      "text_en": "The birth of AWS stemmed from Amazon's own chaos. In the early 2000s, Amazon engineers found themselves reinventing the wheel, and the IT infrastructure was a mess. To fix this, Jeff Bezos issued his famous 'API Mandate', forcing all teams to expose data and functionality via interfaces or face termination. This forced decoupling of internal architecture accidentally gave Amazon the ability to sell its infrastructure externally. When Andy Jassy proposed this as a business, many scoffed: 'Why would a book-selling company do enterprise IT?' As a result, AWS ran unopposed for 7 years; by the time Microsoft and Google reacted, Amazon had already established dominance.",
+      "diagram": "https://commons.wikimedia.org/wiki/File:Amazon_AWS_us-west-2_beach_AZ.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🍕",
+        "text": "AWS的开发遵循贝佐斯的“两个披萨原则”：如果一个团队大到两个披萨吃不饱，那它就太大了。这种小团队作战模式让AWS能够快速推出成百上千个新功能。",
+        "text_en": "AWS development followed Bezos's 'Two Pizza Rule': if a team is too big to be fed by two pizzas, it's too big. This small-team model allowed AWS to rapidly launch hundreds of new features."
+      },
+      {
+        "icon": "💡",
+        "text": "在AWS发布初期，它的Logo是一个橙色的立方体，象征着“构建块”（Building Blocks）。贝佐斯把AWS比作乐高积木，开发者可以用这些基础方块搭建任何东西。",
+        "text_en": "In the early days, the AWS logo was an orange cube, symbolizing 'Building Blocks'. Bezos compared AWS to LEGOs, where developers could build anything using these foundational blocks."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在AWS之前，开一家互联网公司就像你想用电，还得自己先建个发电厂。\nAWS出现后，它变成了国家电网。你只需要插上插头，用多少电付多少钱。\n如果你的公司倒闭了，拔掉插头就行，不用担心手里剩下一堆卖不出去的旧发电机。",
+      "text_en": "Before AWS, starting an internet company was like wanting to use electricity but having to build your own power plant first.\nAfter AWS, it became the power grid. You just plug in and pay for what you use.\nIf your company fails, you just unplug, without worrying about being stuck with a bunch of unsold generators.",
+      "diagram": "https://commons.wikimedia.org/wiki/File:Amazon_AWS_us-west-2_morrow_east_AZ_01.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "☁️",
+          "title": "弹性伸缩 (Auto Scaling)",
+          "title_en": "Auto Scaling",
+          "text": "这是云最神奇的功能。当你的网站流量突然爆发（比如上了热搜），服务器会自动增加；流量下去后，服务器自动减少，帮你省钱。",
+          "text_en": "The magic of the cloud. When your site traffic spikes (like going viral), servers automatically increase; when traffic drops, they decrease, saving you money."
+        },
+        {
+          "icon": "🦄",
+          "title": "独角兽孵化器",
+          "title_en": "Unicorn Incubator",
+          "text": "Airbnb, Netflix, Uber, Slack——这些公司全是建立在AWS之上的。没有AWS提供的廉价计算能力，这些公司在早期根本无法承担巨额的服务器成本。",
+          "text_en": "Airbnb, Netflix, Uber, Slack—all built on AWS. Without the cheap computing power provided by AWS, these companies could not have afforded the massive server costs in their early days."
+        }
+      ],
+  
+    "impact": {
+      "text": "AWS可以说是继互联网本身之后，对科技行业影响最深远的发明。它终结了私有数据中心的时代，让软件吞噬世界成为可能。它不仅为Amazon贡献了超过70%的运营利润（支撑了电商业务的低价策略），还迫使微软转型（Azure）并重塑了Google的战略。今天，从美国国防部到你的智能门铃，都在AWS上运行。",
+      "text_en": "AWS is arguably the most impactful invention in tech after the internet itself. It ended the era of private data centers and made 'software eating the world' possible. It not only contributes over 70% of Amazon's operating profit (subsidizing the retail business's low prices) but also forced Microsoft to pivot (Azure) and reshaped Google's strategy. Today, everything from the US Department of Defense to your smart doorbell runs on AWS.",
+      "stats": [
+          {
+            "number": "800",
+            "label": "亿美元 (年收入规模)",
+            "label_en": "Billion USD (Annual Revenue)"
+          },
+          {
+            "number": "33",
+            "label": "% (全球云市场份额)",
+            "label_en": "% (Global Cloud Share)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "amazon_founding_1994",
+          "contribution": "Amazon电商（庞大的电商淡季闲置算力和内部极其复杂的架构挑战，是AWS诞生的直接土壤）",
+          "contribution_en": "Amazon Retail (Massive idle computing power during off-peak seasons and complex internal architecture challenges were the direct soil for AWS)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "netflix_streaming_2007",
+          "contribution": "Netflix（Netflix关闭了自己的所有数据中心，完全迁移到AWS，成为了云原生的标杆）",
+          "contribution_en": "Netflix (Netflix shut down all its data centers and migrated entirely to AWS, becoming the benchmark for cloud-native)"
+        },
+        {
+          "id": "chatgpt_release_2022",
+          "contribution": "AI爆发（虽然OpenAI主要用Azure，但AWS奠定的云计算模式是训练大模型所需的算力基础）",
+          "contribution_en": "AI Boom (Although OpenAI primarily uses Azure, the cloud computing model established by AWS is the foundation for the computing power needed to train LLMs)"
+        }
+      ],
+      "legacy_text": "它没有发明云计算这个词，但它定义了云计算。",
+      "legacy_text_en": "It didn't invent the term Cloud Computing, but it defined it."
+    },
+  
+    "related_concepts": ["IaaS (基础设施即服务)", "S3 (简单存储服务)", "EC2 (弹性计算云)", "API经济", "Serverless"],
+    "related_concepts_en": ["IaaS", "S3", "EC2", "API Economy", "Serverless"],
+  
+    "quiz": {
+      "question": "AWS最早发布的第一个公开服务是什么？",
+      "question_en": "What was the very first public service launched by AWS?",
+      "options": [
+        "EC2 (虚拟机)",
+        "S3 (文件存储)",
+        "RDS (数据库)",
+        "Lambda (无服务器计算)"
+      ],
+      "options_en": [
+        "EC2 (Virtual Machine)",
+        "S3 (File Storage)",
+        "RDS (Database)",
+        "Lambda (Serverless)"
+      ],
+      "answer": 1,
+      "explanation": "虽然EC2更出名，但S3（Simple Storage Service）其实比EC2早几个月发布（2006年3月 vs 8月）。它也是当时最容易理解的服务：把文件扔进去，它就帮你存着。",
+      "explanation_en": "Although EC2 is more famous, S3 (Simple Storage Service) was actually launched a few months before EC2 (March vs August 2006). It was also the easiest service to understand at the time: throw files in, and it stores them for you."
+    }
+  }

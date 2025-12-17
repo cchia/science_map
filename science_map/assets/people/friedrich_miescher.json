@@ -1,0 +1,10 @@
+{
+    "name": "弗里德里希·米歇尔",
+    "name_en": "Friedrich Miescher",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Friedrich_Miescher.jpg",
+    "bio_short": "瑞士医生和生物学家，被誉为“DNA之父”。他在1869年从白细胞的细胞核中分离出了一种富含磷的酸性物质，将其命名为“核素”（`miescher_nuclein_1869`），这就是后来被确认为遗传物质的DNA。",
+    "bio_short_en": "A Swiss physician and biologist, often called the 'Father of DNA'. In 1869, he isolated a phosphorus-rich acidic substance from the nuclei of white blood cells and named it 'nuclein' (`miescher_nuclein_1869`), which was later identified as DNA, the genetic material.",
+    "events": [
+      "miescher_nuclein_1869"
+    ]
+  }

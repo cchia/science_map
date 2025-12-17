@@ -1,0 +1,150 @@
+{
+    "id": "crick_central_dogma_1958",
+    "personId": "francis_crick",
+    "title": "提出“中心法则” (分子生物学的核心逻辑)",
+    "title_en": "Proposes the 'Central Dogma' (Core Logic of Molecular Biology)",
+    "year": 1958,
+    "lat": 51.5115,
+    "lng": -0.1160,
+    "city": "伦敦 (伦敦大学学院)",
+    "city_en": "London (University College London)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": ["分子生物学"],
+    "field_en": ["Molecular Biology"],
+    
+    "media": {
+      "event_image": "assets/images/central_dogma.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=bKIpDtJdK8Q",
+        "title": "转录和转译：从DNA到蛋白质",
+        "title_en": "Transcription and Translation: From DNA to Protein",
+        "duration": "6:26"
+      }
+    },
+    
+    "summary": {
+      "text": "1958年，弗朗西斯·克里克（Francis Crick）在发现双螺旋结构5年后，发表了一篇题为《蛋白质合成》的演讲/论文，正式提出了“中心法则”（Central Dogma）。这一法则定义了生命体内遗传信息的流动方向：信息总是由 DNA 流向 RNA，再流向 蛋白质（DNA -> RNA -> Protein），而且这种流动在很大程度上是单向的（特别是不能从蛋白质流回核酸）。这成为了现代分子生物学的“宪法”，解释了基因型（DNA）如何转化为表型（身体特征）。",
+      "text_en": "In 1958, five years after discovering the double helix, Francis Crick delivered a lecture/paper titled 'On Protein Synthesis', formally proposing the 'Central Dogma'. This dogma defined the direction of genetic information flow in living systems: information always flows from DNA to RNA, and then to Protein (DNA -> RNA -> Protein), and this flow is largely unidirectional (specifically, it cannot flow back from protein to nucleic acid). This became the 'Constitution' of modern molecular biology, explaining how genotype (DNA) is translated into phenotype (body traits).",
+      "key_points": [
+        "提出“中心法则” (The Central Dogma)",
+        "确立信息流向：DNA -> RNA -> 蛋白质",
+        "指出信息不能从蛋白质流回核酸",
+        "预测了“适配器分子” (即后来的tRNA)",
+        "奠定了分子生物学的理论框架"
+      ],
+      "key_points_en": [
+        "Proposed 'The Central Dogma'",
+        "Established information flow: DNA -> RNA -> Protein",
+        "Stated information cannot flow back from protein to nucleic acid",
+        "Predicted 'adaptor molecules' (later found to be tRNA)",
+        "Laid the theoretical framework for molecular biology"
+      ]
+    },
+  
+    "story": {
+      "text": "在发现了DNA结构后，最大的问题变成了：这一串化学碱基是如何变成你的蓝眼睛或肌肉的？当时的科学界对此一头雾水。克里克凭借惊人的直觉，在几乎没有实验证据的情况下，画出了这张“藏宝图”。他提出，DNA只是信息的档案室，它不直接干活。它把指令转录给一个信使（RNA），信使再把指令带到工厂，制造出具体的产品（蛋白质）。克里克甚至预言，肯定有一种中间分子（适配器）负责把RNA的语言翻译成蛋白质的语言，这在后来被证实就是tRNA。克里克后来承认，他用“Dogma”（教条）这个词其实是个误会，他本意是想说“假说”（Hypothesis），但他当时以为Dogma就是“一个还缺乏证据的大胆想法”。",
+      "text_en": "After discovering the DNA structure, the big question became: How does this string of chemical bases turn into your blue eyes or muscles? The scientific community was baffled. With amazing intuition and almost no experimental proof, Crick drew this 'treasure map'. He proposed that DNA is just the archive; it doesn't do the work. It transcribes instructions to a messenger (RNA), which carries them to the factory to build the actual product (Protein). Crick even predicted there must be an intermediate molecule (adaptor) to translate RNA language into protein language, later confirmed as tRNA. Crick later admitted using the word 'Dogma' was a mistake; he meant 'Hypothesis', but he thought Dogma meant 'a bold idea lacking evidence'.",
+      "diagram": "assets/images/dna_translation.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📝",
+        "text": "克里克后来开玩笑说，如果有机会重来，他会把这个法则改名为“中心假说”，因为“教条”这个词听起来太像宗教狂热了，惹了不少麻烦。",
+        "text_en": "Crick later joked that if he could do it over, he would call it the 'Central Hypothesis', because 'Dogma' sounded too like religious fanaticism and caused a lot of trouble."
+      },
+      {
+        "icon": "🔄",
+        "text": "虽然中心法则大体正确，但后来发现了“逆转录病毒”（如HIV），证明信息可以从RNA流回DNA（逆转录），但这并没有推翻克里克关于“信息不能从蛋白质流回核酸”的核心论断。",
+        "text_en": "While the Central Dogma is largely correct, 'Retroviruses' (like HIV) were later found to flow from RNA back to DNA (Reverse Transcription). However, this didn't disprove Crick's core point that information cannot flow back from *protein* to nucleic acid."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "这就像是开一家餐厅。\nDNA是锁在经理办公室保险柜里的《绝密食谱大全》。\nRNA是厨师把那一页食谱抄写下来的《手抄单》（因为原始食谱不能带出办公室）。\n蛋白质是根据手抄单做出来的《红烧肉》（最终产品）。\n中心法则告诉我们：你只能照着食谱做菜（DNA->蛋白质），但你不能把一盘红烧肉变回食谱文字（蛋白质->DNA）。",
+      "text_en": "It's like running a restaurant.\nDNA is the 'Top Secret Cookbook' locked in the manager's safe.\nRNA is the 'Handwritten Note' copied by the chef (since the original book can't leave the office).\nProtein is the 'Dish' (e.g., steak) cooked according to the note.\nThe Central Dogma tells us: You can only cook a dish from the recipe (DNA->Protein), but you cannot turn a cooked steak back into recipe words (Protein->DNA).",
+      "diagram": "assets/images/dna_translation.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💉",
+          "title": "mRNA疫苗",
+          "title_en": "mRNA Vaccines",
+          "text": "COVID-19的mRNA疫苗正是利用了这一法则：我们将一段“手抄单”（mRNA）注入体内，你的身体细胞读懂后，自动制造出病毒的蛋白片段，从而训练免疫系统。",
+          "text_en": "mRNA vaccines for COVID-19 use this exact dogma: we inject a 'handwritten note' (mRNA), and your body reads it to manufacture viral protein parts, training the immune system."
+        },
+        {
+          "icon": "🏭",
+          "title": "生物制药",
+          "title_en": "Biopharmaceuticals",
+          "text": "通过向细菌DNA中插入人类胰岛素基因，让细菌“读”出胰岛素蛋白质，实现了药物的廉价量产。",
+          "text_en": "By inserting the human insulin gene into bacteria DNA, we make bacteria 'read' out insulin protein, achieving cheap mass production of drugs."
+        }
+      ],
+  
+    "impact": {
+      "text": "中心法则为接下来半个世纪的生物学研究指明了方向。科学家们随后的任务就是填补这个流程图的细节：发现mRNA（信使）、tRNA（搬运工）、核糖体（工厂）以及遗传密码表（字典）。它将生命科学统一在一个简洁的信息流逻辑之下。",
+      "text_en": "The Central Dogma charted the course for the next half-century of biological research. Scientists' job became filling in the details of this flowchart: discovering mRNA (messenger), tRNA (transporter), Ribosome (factory), and the Genetic Code (dictionary). It unified life sciences under a concise logic of information flow.",
+      "stats": [
+          {
+            "number": "1958",
+            "label": "年 (提出)",
+            "label_en": "Year (Proposed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "（克里克自己）DNA双螺旋结构（中心法则是对双螺旋功能的逻辑推演）",
+          "contribution_en": "(Himself) DNA Double Helix (The Central Dogma was the logical deduction of the Double Helix's function)"
+        },
+        {
+          "id": "gamow_rna_tie_club_1954",
+          "contribution": "乔治·伽莫夫（物理学家，他推动了关于遗传密码如何从4种碱基变成20种氨基酸的数学思考）",
+          "contribution_en": "George Gamow (Physicist who pushed the mathematical thinking on how 4 bases code for 20 amino acids)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "nirenberg_genetic_code_1961",
+          "contribution": "尼伦伯格（破解了具体的“遗传密码表”，即哪个RNA序列对应哪个氨基酸）",
+          "contribution_en": "Marshall Nirenberg (Cracked the specific 'Genetic Code', i.e., which RNA sequence corresponds to which amino acid)"
+        },
+        {
+          "id": "temin_baltimore_reverse_transcriptase_1970",
+          "contribution": "提明和巴尔的摩（发现了逆转录酶，修正了中心法则，证明RNA可以流回DNA，获诺贝尔奖）",
+          "contribution_en": "Temin & Baltimore (Discovered reverse transcriptase, amending the dogma to show RNA can flow back to DNA, winning Nobel Prize)"
+        }
+      ],
+      "legacy_text": "克里克画出了生命的流程图，告诉我们生命就是信息的翻译过程。",
+      "legacy_text_en": "Crick drew the flowchart of life, teaching us that life is a process of information translation."
+    },
+  
+    "related_concepts": ["中心法则 (Central Dogma)", "转录 (Transcription)", "翻译 (Translation)", "RNA", "逆转录 (Reverse Transcription)"],
+    "related_concepts_en": ["Central Dogma", "Transcription", "Translation", "RNA", "Reverse Transcription"],
+  
+    "quiz": {
+      "question": "根据克里克的“中心法则”，遗传信息的标准流动方向是什么？",
+      "question_en": "According to Crick's 'Central Dogma', what is the standard direction of genetic information flow?",
+      "options": [
+        "蛋白质 -> RNA -> DNA",
+        "DNA -> 蛋白质 -> RNA",
+        "DNA -> RNA -> 蛋白质",
+        "RNA -> DNA -> 蛋白质"
+      ],
+      "options_en": [
+        "Protein -> RNA -> DNA",
+        "DNA -> Protein -> RNA",
+        "DNA -> RNA -> Protein",
+        "RNA -> DNA -> Protein"
+      ],
+      "answer": 2,
+      "explanation": "这是生物学的基本法则。DNA在细胞核内转录成RNA，RNA进入细胞质被翻译成蛋白质。虽然有逆转录（RNA->DNA），但自然界中从未发现从蛋白质流回核酸的情况。",
+      "explanation_en": "This is the fundamental law of biology. DNA is transcribed into RNA in the nucleus, and RNA is translated into protein in the cytoplasm. Although reverse transcription (RNA->DNA) exists, flow from protein back to nucleic acid has never been found in nature."
+    }
+  }

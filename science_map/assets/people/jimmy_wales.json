@@ -1,0 +1,10 @@
+{
+    "name": "吉米·威尔士",
+    "name_en": "Jimmy Wales",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Jimmy_Wales_in_New_York_City_March_2023_%28cropped%29.jpg",
+    "bio_short": "美国互联网企业家，维基百科（Wikipedia）的联合创始人。他曾是一名期权交易员，后来投身互联网。与同时代的科技巨头不同，他坚持将维基百科维持为非营利组织，拒绝广告和IPO，这使他放弃了成为亿万富翁的机会，但确立了其作为“知识守护者”的地位。他最著名的愿景是：“想象一个世界，每个人都能免费获得全人类知识的总和。”此外，他每年在维基百科筹款季亲自出现的横幅广告也成了互联网的一个梗。",
+    "bio_short_en": "American internet entrepreneur, co-founder of Wikipedia. Formerly an options trader, he later turned to the internet. Unlike tech giants of his era, he insisted on keeping Wikipedia a non-profit, refusing ads and an IPO, forfeiting the chance to become a billionaire but establishing his status as a 'Guardian of Knowledge'. His most famous vision is: 'Imagine a world in which every single person on the planet is given free access to the sum of all human knowledge.' He is also memed for his personal appeal banners during Wikipedia's annual fundraising season.",
+    "events": [
+      "wikipedia_launch_2001"
+    ]
+  }

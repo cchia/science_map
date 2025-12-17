@@ -1,7 +1,160 @@
 {
   "id": "descartes_optics_1637",
-  "title": "Descartes Optics",
-  "title_en": "Descartes Optics",
+  "personId": "rene_descartes",
+  "title": "发表《屈光学》 (折射定律)",
+  "title_en": "Publishes 'Dioptrique' (Law of Refraction)",
   "year": 1637,
-  "is_stub": true
+  "lat": 52.1601,
+  "lng": 4.4970,
+  "city": "莱顿",
+  "city_en": "Leiden",
+  "country": "荷兰共和国",
+  "country_en": "Dutch Republic",
+  "field": ["物理学", "数学"],
+  "field_en": ["Physics", "Mathematics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Refraction_photo.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=zarxpu43-ls",
+      "title": "光的折射",
+      "title_en": "Refraction Explained",
+      "duration": "4:52"
+    }
+  },
+  
+  "summary": {
+    "text": "勒内·笛卡尔（René Descartes）作为其著名哲学著作《方法论》的附录，发表了《屈光学》(Dioptrique)。在这部著作中，他首次发表了“折射定律”（现在通常称为斯涅尔-笛卡尔定律）的数学形式。他利用正弦函数（sin）精确描述了光线在通过不同介质（如空气进入水）时如何弯曲。他还利用这一定律，首次对“彩虹”的形成（包括主虹和副虹的角度）给出了完整的几何光学解释。",
+    "text_en": "René Descartes published 'Dioptrique' (Dioptrics) as an appendix to his famous 'Discourse on the Method'. In it, he published the first mathematical form of the 'Law of Refraction' (now often called the Snell-Descartes Law). He used the sine function to precisely describe how light bends when passing between different media (like air to water). He also used this law to provide the first complete geometric explanation of the 'rainbow', including the angles of both the primary and secondary bows.",
+    "key_points": [
+      "发表了折射定律的数学形式 ($n_1 \\sin \theta_1 = n_2 \\sin \theta_2$)",
+      "正确解释了彩虹的角度 ($42^\\circ$)",
+      "提出了光的“机械观”（光是压力的瞬间传递）",
+      "研究了透镜的形状（以消除像差）"
+    ],
+    "key_points_en": [
+      "Published the mathematical form of the Law of Refraction ($n_1 \\sin \theta_1 = n_2 \\sin \theta_2$)",
+      "Correctly explained the angles of the rainbow ($42^\\circ$)",
+      "Proposed a 'mechanical view' of light (light as instantaneous pressure)",
+      "Studied lens shapes (to eliminate aberrations)"
+    ]
+  },
+
+  "story": {
+    "text": "笛卡尔试图用纯粹的“机械原理”来解释光。他把光比作“盲人手杖”传递的压力，或者是被打出的“网球”。在推导折射定律时，他使用了一个著名的“网球类比”：当网球穿透一块薄布（介质界面）时，其速度分量会发生变化，导致路径弯曲。讽刺的是，为了推导出正确的公式，笛卡尔不得不假设光在“更密”的介质（如水）中传播得“更快”。虽然这个假设后来被证明是完全错误的（光在水中变慢），但他推导出的“正弦定律”公式却是完全正确的，并成为了几何光学的基石。",
+    "text_en": "Descartes tried to explain light using pure 'mechanics'. He compared light to the pressure transmitted by a 'blind man's stick' or to 'tennis balls'. To derive the law of refraction, he used a famous 'tennis ball analogy': when a ball punches through a thin cloth (the interface), its velocity components change, bending its path. Ironically, to get the *right* formula, Descartes had to assume light travels *faster* in denser media (like water). Although this assumption was later proven dead wrong (light slows down), the 'Sine Law' formula he derived was perfectly correct and became the bedrock of geometric optics.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Snells_law.svg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🌈",
+      "text": "笛卡尔通过计算几千条光线穿过水滴的路径，精确计算出彩虹的主虹位于与阳光成42度角的位置，副虹位于51度角的位置。这是数学物理学的早期胜利。",
+      "text_en": "By tracing the paths of thousands of light rays through a water droplet, Descartes calculated that the primary rainbow sits at exactly 42 degrees from the sunlight, and the secondary bow at 51 degrees. It was an early triumph of mathematical physics."
+    },
+    {
+      "icon": "⚖️",
+      "text": "虽然荷兰人威理博·斯涅尔（Willebrord Snellius）在1621年就发现了这个定律，但他从未发表。笛卡尔是否“抄袭”了斯涅尔的手稿，是科学史上一个长期的争议话题。",
+      "text_en": "Although the Dutchman Willebrord Snellius discovered the law in 1621, he never published it. Whether Descartes 'plagiarized' Snell's manuscript remains a long-standing controversy in the history of science."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "当你把一根吸管放进水杯里，吸管看起来像“折断”了一样。这就是“折射”。\n笛卡尔是第一个给出“计算公式”的人。他告诉我们：如果你知道光线射入的角度（比如30度）和两种物质的“折射率”，你就能用他的公式（正弦定律）精确算出光线会在哪里“转弯”。这让制造高精度的望远镜和显微镜成为了可能。",
+    "text_en": "When you put a straw in a glass of water, it looks 'broken'. That's 'refraction'.\nDescartes was the first to give the 'calculation formula'. He told us: If you know the angle the light comes in (say, 30 degrees) and the 'refractive index' of the materials, you can use his formula (the Sine Law) to calculate *exactly* where the light will bend. This made designing high-precision telescopes and microscopes possible.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Refraction_animation.gif"
+  },
+
+  "applications": [
+      {
+        "icon": "👓",
+        "title": "透镜设计 (Lens Design)",
+        "title_en": "Lens Design",
+        "text": "折射定律是设计所有光学透镜（眼镜、照相机、望远镜、显微镜）的核心数学工具。",
+        "text_en": "The Law of Refraction is the core mathematical tool for designing *all* optical lenses (glasses, cameras, telescopes, microscopes)."
+      },
+      {
+        "icon": "🌈",
+        "title": "气象光学",
+        "title_en": "Meteorological Optics",
+        "text": "它完美解释了彩虹、晕（Halo）和海市蜃楼等大气光学现象。",
+        "text_en": "It perfectly explains atmospheric optical phenomena like rainbows, halos, and mirages."
+      },
+      {
+        "icon": "💎",
+        "title": "光纤通信",
+        "title_en": "Fiber Optics",
+        "text": "现代光纤利用“全反射”原理传输数据，这正是折射定律的一个特殊临界情况。",
+        "text_en": "Modern fiber optics transmit data using 'total internal reflection', which is a special limiting case of the Law of Refraction."
+      }
+    ],
+
+  "impact": {
+    "text": "笛卡尔的《屈光学》将光学从“几何学”的一个分支提升为“物理学”的核心部分。他建立的“正弦定律”至今仍是几何光学的基石。此外，他试图用“机械运动”（网球）来解释光的尝试，开启了关于“光是粒子还是波”的数百年大辩论，直接影响了牛顿和惠更斯。",
+    "text_en": "Descartes' 'Dioptrics' elevated optics from a branch of geometry to a core part of physics. The 'Sine Law' he established remains the bedrock of geometric optics. Furthermore, his attempt to explain light using 'mechanical motion' (tennis balls) kickstarted the centuries-long debate over whether light is a 'particle' or a 'wave', directly influencing both Newton and Huygens.",
+    "stats": [
+        {
+          "number": "1637",
+          "label": "年 (发表)",
+          "label_en": "Year (Published)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "kepler_laws_1609",
+        "contribution": "开普勒（他在《屈光学》中研究了透镜，但未能发现精确的正弦定律）",
+        "contribution_en": "Kepler (he studied lenses in his 'Dioptrice' but failed to find the exact Sine Law)"
+      },
+      {
+        "id": "roger_bacon_optics_1267",
+        "contribution": "罗杰·培根（其关于透镜和折射的早期研究是笛卡尔的背景知识）",
+        "contribution_en": "Roger Bacon (his early work on lenses and refraction was the background knowledge for Descartes)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "newton_opticks_1704",
+        "contribution": "牛顿（继承了笛卡尔的“微粒”观点，并利用折射定律发明了棱镜实验）",
+        "contribution_en": "Newton (adopted Descartes' 'corpuscular' view and used the refraction law for his prism experiments)"
+      },
+      {
+        "id": "huygens_wave_theory_1678",
+        "contribution": "惠更斯（反驳了笛卡尔关于光速在介质中“变快”的错误假设，用波动说重新推导了折射定律）",
+        "contribution_en": "Huygens (refuted Descartes' error that light moves 'faster' in media, re-deriving the refraction law using wave theory)"
+      },
+      {
+        "id": "fermat_least_time_1662",
+        "contribution": "费马（为了修正笛卡尔的物理错误，提出了“费马原理”/最小作用量原理）",
+        "contribution_en": "Pierre de Fermat (proposed 'Fermat's Principle' / Least Time specifically to correct Descartes' physical errors)"
+      }
+    ],
+    "legacy_text": "笛卡尔给了光学一个精确的数学公式，但他错误的物理假设引发了后来关于光本性的伟大辩论。",
+    "legacy_text_en": "Descartes gave optics an exact mathematical formula, but his flawed physical assumptions sparked the great debates on the nature of light."
+  },
+
+  "related_concepts": ["折射 (Refraction)", "斯涅尔定律 (Snell's Law)", "正弦定律 (Sine Law)", "彩虹 (Rainbow)", "以太 (Aether)", "机械论 (Mechanism)", "费马原理 (Fermat's Principle)"],
+  "related_concepts_en": ["Refraction", "Snell's Law", "Sine Law", "Rainbow", "Aether", "Mechanism", "Fermat's Principle"],
+
+  "quiz": {
+    "question": "笛卡尔在1637年发表的“折射定律”（斯涅尔定律），描述了光在通过两种不同介质的界面时，什么数学量是成比例的？",
+    "question_en": "Descartes' 1637 'Law of Refraction' (Snell's Law) describes the proportionality of what mathematical quantity when light passes between two media?",
+    "options": [
+      "入射角和折射角的“正切”(Tangent)",
+      "入射角和折射角的“角度本身”",
+      "入射角和折射角的“正弦”(Sine)",
+      "光的速度和密度"
+    ],
+    "options_en": [
+      "The 'Tangent' of the angles",
+      "The 'Angles themselves'",
+      "The 'Sine' of the angles",
+      "The speed and density of light"
+    ],
+    "answer": 2,
+    "explanation": " 定律公式为 $n_1 \\sin \theta_1 = n_2 \\sin \theta_2$。这意味着入射角和折射角的“正弦值”之比是一个常数（折射率）。开普勒之前试图用“角度本身”来寻找规律，但失败了。",
+    "explanation_en": " The formula is $n_1 \\sin \theta_1 = n_2 \\sin \theta_2$. It means the ratio of the *Sines* of the angles is constant. Kepler had previously tried to match the *angles themselves*, but failed."
+  }
 }

@@ -1,0 +1,10 @@
+{
+    "name": "林纳斯·托瓦兹",
+    "name_en": "Linus Torvalds",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/640px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg",
+    "bio_short": "芬兰裔美国软件工程师，Linux内核的缔造者，也是分布式版本控制系统Git的作者。他以务实、直率甚至有时尖刻的性格著称。1991年，出于对现有系统的不满，他在大学期间编写了Linux内核的雏形，并将其开源。他被尊称为开源社区的“仁慈的独裁者”（BDFL），至今仍掌控着Linux内核的最终修改权。",
+    "bio_short_en": "Finnish-American software engineer, creator of the Linux kernel and the Git version control system. Known for his pragmatic, straightforward, and sometimes acerbic personality. In 1991, dissatisfied with existing systems, he wrote the prototype of the Linux kernel during university and open-sourced it. He is revered as the 'Benevolent Dictator for Life' (BDFL) of the open-source community and still retains final authority over the Linux kernel.",
+    "events": [
+      "linux_kernel_1991"
+    ]
+  }

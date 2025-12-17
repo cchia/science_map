@@ -1,0 +1,10 @@
+{
+    "name": "雷纳·韦斯",
+    "name_en": "Rainer Weiss",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/41/Rainer_Weiss_EM1B8841_%2824027015857%29.jpg",
+    "bio_short": "德裔美国物理学家，LIGO（激光干涉引力波天文台）的联合创始人和构思者之一。他因对LIGO探测器和引力波观测的决定性贡献，获得了2017年诺贝尔物理学奖。",
+    "bio_short_en": "A German-born American physicist, co-founder and conceptual inventor of LIGO. He was awarded the 2017 Nobel Prize in Physics for his decisive contributions to the LIGO detector and the observation of gravitational waves.",
+    "events": [
+      "ligo_gravitational_waves_2015"
+    ]
+  }

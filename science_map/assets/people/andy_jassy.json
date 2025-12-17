@@ -1,0 +1,10 @@
+{
+    "name": "安迪·贾西",
+    "name_en": "Andy Jassy",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/07/Andy_Jassy.jpg",
+    "bio_short": "美国商业主管，现任亚马逊（Amazon）总裁兼CEO。他是AWS真正的“建筑师”和掌舵人。2003年，作为贝佐斯的“影子”顾问（Shadow），他起草了AWS最初的商业计划书，并领导该部门长达15年，将其从一个不起眼的内部项目打造成年收入数百亿美元的全球云服务霸主。2021年，凭借在AWS的卓越战绩，他正式接替杰夫·贝佐斯，成为亚马逊历史上的第二任CEO。",
+    "bio_short_en": "American business executive, current President and CEO of Amazon. He is the true 'architect' and helmsman of AWS. In 2003, as Bezos's 'shadow' advisor, he drafted the initial business plan for AWS and led the division for 15 years, transforming it from a humble internal project into a global cloud dominance generating tens of billions in revenue annually. In 2021, driven by his stellar record at AWS, he officially succeeded Jeff Bezos to become the second CEO in Amazon's history.",
+    "events": [
+      "aws_launch_2006"
+    ]
+  }

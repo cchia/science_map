@@ -1,0 +1,145 @@
+{
+    "id": "chargaff_rules_1950",
+    "personId": "erwin_chargaff",
+    "title": "发现“查加夫法则” (DNA碱基配对的秘密)",
+    "title_en": "Discovery of 'Chargaff's Rules' (Secret of DNA Base Pairing)",
+    "year": 1950,
+    "lat": 40.8075,
+    "lng": -73.9626,
+    "city": "纽约 (哥伦比亚大学)",
+    "city_en": "New York City (Columbia University)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["生物化学"],
+    "field_en": ["Biochemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/DNA_Diagram.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2TdSnpcDCVc",
+        "title": "查加夫法则",
+        "title_en": "Chargaff’s Rules Explained",
+        "duration": "2:50"
+      }
+    },
+    
+    "summary": {
+      "text": "1950年，哥伦比亚大学的生化学家埃尔温·查加夫（Erwin Chargaff）发表了一项推翻传统认知的发现。在此之前，科学界普遍相信“四核苷酸假说”，认为DNA中的四种碱基（A, T, C, G）含量是完全相等的，且结构单调重复。查加夫利用新发明的“纸色谱法”精确分析了不同物种的DNA，发现了两条关键法则：1. 在任何双链DNA中，腺嘌呤（A）的数量总是等于胸腺嘧啶（T），鸟嘌呤（G）的数量总是等于胞嘧啶（C）（即 A=T, C=G）；2. 不同物种的DNA碱基组成比例是不同的（打破了DNA无特异性的观点）。这一发现成为了后来沃森和克里克构建DNA双螺旋模型的关键线索。",
+      "text_en": "In 1950, biochemist Erwin Chargaff at Columbia University published a discovery that overturned conventional wisdom. Previously, scientists believed the 'Tetranucleotide Hypothesis', which claimed the four bases in DNA (A, T, C, G) were present in equal amounts and repeated monotonously. Using the newly invented 'paper chromatography', Chargaff precisely analyzed DNA from various species and found two key rules: 1. In any double-stranded DNA, the amount of Adenine (A) always equals Thymine (T), and Guanine (G) always equals Cytosine (C) (i.e., A=T, C=G); 2. The ratio of bases varies between species (disproving the idea that DNA lacks specificity). This discovery became the crucial clue for Watson and Crick to build the DNA double helix model.",
+      "key_points": [
+        "提出“查加夫法则” (Chargaff's Rules)",
+        "发现 A = T 和 C = G 的比例关系",
+        "推翻了“四核苷酸假说” (Tetranucleotide Hypothesis)",
+        "证明DNA组成因物种而异",
+        "为碱基互补配对提供了化学证据"
+      ],
+      "key_points_en": [
+        "Proposed 'Chargaff's Rules'",
+        "Discovered the ratios A = T and C = G",
+        "Disproved the 'Tetranucleotide Hypothesis'",
+        "Proved DNA composition varies by species",
+        "Provided chemical evidence for base pairing"
+      ]
+    },
+  
+    "story": {
+      "text": "查加夫是一个性格暴躁、言辞犀利的人，他非常看不起那些“不懂化学”的生物学家。1952年，他在剑桥大学遇到了年轻的沃森和克里克。这次会面非常尴尬。查加夫发现这两个试图解开DNA结构的年轻人甚至不记得基本的化学式，便嘲讽他们是“科学小丑”。然而，尽管查加夫看不起他们，他还是告诉了他们那个关键的秘密：A总是等于T，G总是等于C。后来，当沃森和克里克试图构建模型时，他们突然意识到：如果A和T配对，G和C配对，不仅形状完美契合，而且正好解释了查加夫的数据！查加夫后来抱怨说，他就像是给别人指路，结果别人拿走了金子，而他只得到了一声“谢谢”。",
+      "text_en": "Chargaff was a grumpy, sharp-tongued man who despised biologists who 'didn't know chemistry'. In 1952, he met the young Watson and Crick at Cambridge. The meeting was awkward. Chargaff found that these two young men trying to solve DNA structure didn't even remember basic chemical formulas, mocking them as 'scientific clowns'. However, despite his disdain, he told them the crucial secret: A always equals T, and G always equals C. Later, when Watson and Crick tried to build their model, they suddenly realized: If A pairs with T, and G pairs with C, not only do the shapes fit perfectly, but it also explains Chargaff's data! Chargaff later complained that he pointed out the way, but others took the gold, leaving him with only a 'thank you'.",
+      "diagram": "assets/images/chargaff_rules_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎭",
+        "text": "查加夫不仅是科学家，还是一个语言学家和作家。他在晚年写了一本自传《赫拉克利特之火》，在书中他痛斥现代科学变得像“做生意”，失去了诗意。",
+        "text_en": "Chargaff was not just a scientist but also a linguist and writer. In his later autobiography 'Heraclitean Fire', he bitterly criticized modern science for becoming like a 'business' and losing its poetry."
+      },
+      {
+        "icon": "🚫",
+        "text": "当沃森、克里克和威尔金斯因DNA结构获得诺贝尔奖时，查加夫被排除在外。他对此耿耿于怀，给瑞典科学院写信说：“科学的历史充满了那些捡起别人扔下的砖头的人。”",
+        "text_en": "When Watson, Crick, and Wilkins won the Nobel Prize for DNA, Chargaff was excluded. He remained bitter, writing to the Swedish Academy: 'The history of science is full of people who pick up bricks that others have thrown away.'"
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你在玩拼图。你有四种颜色的碎片：A, T, C, G。\n以前的人认为这四种碎片数量一样多，随便乱拼。\n查加夫数了一下，发现了一个奇怪的规律：A碎片的数量永远和T碎片一样多；C碎片的数量永远和G碎片一样多。\n这意味着什么？这意味着A和T一定是“舞伴”，C和G一定是“舞伴”。只有这样，它们的数量才会总是相等。这就是DNA“成对”的秘密。",
+      "text_en": "Imagine you are doing a puzzle with four colored pieces: A, T, C, G.\nPreviously, people thought there were equal numbers of all pieces, mixed randomly.\nChargaff counted them and found a strange rule: The number of A pieces always equals T pieces; the number of C pieces always equals G pieces.\nWhat does this mean? It means A and T must be 'dance partners', and C and G must be 'dance partners'. Only then would their numbers always be equal. This is the secret of DNA 'pairing'.",
+      "diagram": "assets/images/chargaff_rules_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "DNA测序验证",
+          "title_en": "Sequencing Verification",
+          "text": "直到今天，我们在分析DNA测序数据时，仍然使用查加夫法则来检查数据质量（A是否等于T）。",
+          "text_en": "Even today, when analyzing DNA sequencing data, we still use Chargaff's Rules to check data quality (Does A equal T?)."
+        },
+        {
+          "icon": "🌳",
+          "title": "物种分类",
+          "title_en": "Taxonomy",
+          "text": "查加夫发现不同物种的(A+T)/(G+C)比例不同，这成为了早期通过化学方法区分物种亲缘关系的工具。",
+          "text_en": "Chargaff found that the (A+T)/(G+C) ratio varies by species, which became an early tool for distinguishing species relationships chemically."
+        }
+      ],
+  
+    "impact": {
+      "text": "查加夫法则不仅仅是几个数字，它是解开DNA结构的最后一把钥匙。没有它，沃森和克里克就不可能想出“碱基互补配对”的概念。查加夫的工作将DNA从一个“枯燥的结构支架”提升为一种蕴含着复杂数学逻辑的“遗传语言”。",
+      "text_en": "Chargaff's Rules were not just numbers; they were the final key to unlocking the DNA structure. Without them, Watson and Crick could not have conceived the concept of 'complementary base pairing'. Chargaff's work elevated DNA from a 'boring structural scaffold' to a 'genetic language' containing complex mathematical logic.",
+      "stats": [
+          {
+            "number": "1950",
+            "label": "年 (法则发表)",
+            "label_en": "Year (Rules Published)"
+          },
+          {
+            "number": "1:1",
+            "label": "碱基比例",
+            "label_en": "Base Ratio"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "avery_dna_principle_1944",
+          "contribution": "艾弗里（正是艾弗里的论文让查加夫确信DNA是遗传物质，从而放弃了原本的研究转向DNA）",
+          "contribution_en": "Oswald Avery (It was Avery's paper that convinced Chargaff DNA was the genetic material, causing him to drop his previous work and switch to DNA)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（查加夫法则直接启发了双螺旋模型中的碱基内侧配对机制）",
+          "contribution_en": "Watson & Crick (Chargaff's Rules directly inspired the internal base-pairing mechanism in the double helix model)"
+        }
+      ],
+      "legacy_text": "查加夫发现了DNA的“语法”，但他没有写出“文章”（双螺旋模型）。",
+      "legacy_text_en": "Chargaff discovered the 'grammar' of DNA, but he didn't write the 'essay' (the double helix model)."
+    },
+  
+    "related_concepts": ["查加夫法则 (Chargaff's Rules)", "碱基配对 (Base Pairing)", "四核苷酸假说", "纸色谱法", "嘌呤与嘧啶"],
+    "related_concepts_en": ["Chargaff's Rules", "Base Pairing", "Tetranucleotide Hypothesis", "Paper Chromatography", "Purines and Pyrimidines"],
+  
+    "quiz": {
+      "question": "如果在一段双链DNA中，腺嘌呤（A）的含量是20%，那么胞嘧啶（C）的含量应该是多少？",
+      "question_en": "If a double-stranded DNA contains 20% Adenine (A), what should be the percentage of Cytosine (C)?",
+      "options": [
+        "20%",
+        "30%",
+        "40%",
+        "80%"
+      ],
+      "options_en": [
+        "20%",
+        "30%",
+        "40%",
+        "80%"
+      ],
+      "answer": 1,
+      "explanation": "根据查加夫法则，A=T。如果A是20%，那么T也是20%。A+T=40%。剩下的60%必须是G+C。又因为G=C，所以C = 60% / 2 = 30%。",
+      "explanation_en": "According to Chargaff's Rules, A=T. If A is 20%, then T is also 20%. A+T=40%. The remaining 60% must be G+C. Since G=C, then C = 60% / 2 = 30%."
+    }
+  }

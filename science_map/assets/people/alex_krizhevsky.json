@@ -1,0 +1,10 @@
+{
+    "name": "亚历克斯·克里安杰夫斯基",
+    "name_en": "Alex Krizhevsky",
+    "portrait": "assets/images/alex_krizhevsky.png",
+    "bio_short": "乌克兰裔加拿大计算机科学家，深度学习革命的“破壁人”。作为Geoffrey Hinton的学生，他是著名的AlexNet的第一作者和主要构建者。2012年，他凭借一己之力编写了在两块NVIDIA GTX 580显卡上运行卷积神经网络的CUDA代码，使得深度学习在ImageNet竞赛中取得了历史性的胜利。与他的导师Hinton和师兄Ilya Sutskever不同，他在成名后非常低调，并于2017年离开了Google，但这不妨碍他名字中的“Alex”成为AI历史上划分时代的标记。",
+    "bio_short_en": "Ukrainian-Canadian computer scientist, the 'wall-breaker' of the deep learning revolution. As a student of Geoffrey Hinton, he was the lead author and primary architect of the famous AlexNet. In 2012, he single-handedly wrote the CUDA code to run convolutional neural networks on two NVIDIA GTX 580 GPUs, securing the historic victory in the ImageNet competition. Unlike his mentor Hinton and colleague Ilya Sutskever, he remained very low-profile after his rise to fame and left Google in 2017, but the 'Alex' in his name remains a epoch-making marker in AI history.",
+    "events": [
+      "alexnet_2012"
+    ]
+  }

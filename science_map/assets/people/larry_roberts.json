@@ -1,0 +1,10 @@
+{
+    "name": "拉里·罗伯茨",
+    "name_en": "Lawrence G. Roberts",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Larry_Roberts.jpg",
+    "bio_short": "美国计算机科学家，被誉为“ARPANET的总设计师”。作为ARPA的高级项目经理，他不仅设计了ARPANET的网络拓扑结构，还力排众议决定采用封包交换技术，并主导了整个项目的招标与建设实施。",
+    "bio_short_en": "American computer scientist, recognized as the 'Chief Architect of the ARPANET'. As a program manager at ARPA, he not only designed the network topology of ARPANET but also insisted on using packet switching technology and led the entire project's contracting and implementation.",
+    "events": [
+      "arpanet_1969"
+    ]
+  }

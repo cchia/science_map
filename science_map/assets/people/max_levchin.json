@@ -1,0 +1,10 @@
+{
+    "name": "马克斯·列夫琴",
+    "name_en": "Max Levchin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Max_Levchin_%282013%29.jpg",
+    "bio_short": "乌克兰裔美国计算机科学家、企业家，PayPal的联合创始人及CTO（首席技术官）。他是PayPal技术架构的灵魂人物，最著名的贡献是领导开发了早期的商业化CAPTCHA（验证码）技术，成功抵御了俄罗斯黑客的大规模欺诈攻击，从死亡线上挽救了公司。离开PayPal后，他继续在创业界活跃，创立了游戏公司Slide和现在的“先买后付”巨头Affirm。",
+    "bio_short_en": "Ukrainian-born American computer scientist and entrepreneur, co-founder and CTO of PayPal. He was the technical mastermind of PayPal, best known for leading the development of early commercial CAPTCHA technology, which successfully repelled massive fraud attacks from Russian hackers and saved the company from collapse. After PayPal, he remained active in the startup world, founding the gaming company Slide and the current 'Buy Now, Pay Later' giant Affirm.",
+    "events": [
+      "paypal_launch_1998"
+    ]
+  }

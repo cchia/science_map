@@ -1,0 +1,10 @@
+{
+    "name": "巴里·巴里什",
+    "name_en": "Barry Barish",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f6/05-0367-92D.hr.jpg",
+    "bio_short": "美国实验物理学家。作为LIGO的主任，他将该项目转型为大规模的国际科学合作（LSC），为引力波的最终探测提供了决定性的领导力，因此获得了2017年诺贝尔物理学奖。",
+    "bio_short_en": "An American experimental physicist. As the director of LIGO, he transformed the project into a large-scale international scientific collaboration (LSC), providing the decisive leadership for the detection of gravitational waves, for which he won the 2017 Nobel Prize.",
+    "events": [
+      "ligo_gravitational_waves_2015"
+    ]
+  }

@@ -1,0 +1,161 @@
+{
+    "id": "watson_crick_dna_1953",
+    "personId": ["james_watson", "francis_crick"],
+    "title": "发现DNA双螺旋结构 (生命之谜的解开)",
+    "title_en": "Discovery of the DNA Double Helix (Unlocking the Secret of Life)",
+    "year": 1953,
+    "lat": 52.2035,
+    "lng": 0.1197,
+    "city": "剑桥 (卡文迪许实验室)",
+    "city_en": "Cambridge (Cavendish Laboratory)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["gene_story"],
+    "field": ["分子生物学", "遗传学"],
+    "field_en": ["Molecular Biology", "Genetics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/DNA_animation.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=V6bKn34nSbk",
+        "title": "DNA双螺旋：发现DNA结构的故事",
+        "title_en": "The Discovery of the Structure of DNA",
+        "duration": "2:17"
+      }
+    },
+    
+    "summary": {
+      "text": "1953年2月28日，在美国年轻博士后詹姆斯·沃森（James Watson）和英国物理学家弗朗西斯·克里克（Francis Crick）位于剑桥大学的办公室里，诞生了现代生物学最伟大的发现。他们并没有做实验，而是像玩乐高一样，利用金属板和铁丝搭建模型。结合罗莎琳德·富兰克林的X射线照片（`franklin_photo_51_1952`）提供的螺旋参数，以及查加夫法则（`chargaff_rules_1950`）提供的碱基比例，他们拼凑出了一个完美的结构：DNA是一个“双螺旋”（Double Helix），由两条反向平行的链组成，中间通过碱基互补配对（A对T，G对C）连接。这个结构不仅美观，而且完美解释了遗传物质如何复制（拉开拉链，各复制一半）。",
+      "text_en": "On February 28, 1953, in the office of young American postdoc James Watson and British physicist Francis Crick at Cambridge University, the greatest discovery of modern biology was born. They didn't do experiments; instead, they built models using metal plates and wire, like playing with Lego. Combining the helical parameters from Rosalind Franklin's X-ray photo (`franklin_photo_51_1952`) and the base ratios from Chargaff's rules (`chargaff_rules_1950`), they pieced together a perfect structure: DNA is a 'Double Helix' consisting of two antiparallel strands connected by complementary base pairing (A with T, G with C). This structure was not only beautiful but perfectly explained how genetic material replicates (unzip and copy each half).",
+      "key_points": [
+        "发现DNA的“双螺旋”结构 (Double Helix)",
+        "提出“碱基互补配对”原则 (A-T, G-C)",
+        "提出“半保留复制”的机制暗示",
+        "论文发表于《自然》杂志 (Nature, April 25, 1953)",
+        "分子生物学的正式诞生"
+      ],
+      "key_points_en": [
+        "Discovered the 'Double Helix' structure of DNA",
+        "Proposed 'Complementary Base Pairing' (A-T, G-C)",
+        "Implied the mechanism of 'Semi-conservative Replication'",
+        "Published in *Nature* (April 25, 1953)",
+        "Official birth of Molecular Biology"
+      ]
+    },
+  
+    "story": {
+      "text": "这是一场与时间的赛跑，对手是当时最伟大的化学家莱纳斯·鲍林（Linus Pauling）。鲍林当时已经发表了一个“三螺旋”模型（虽然是错的，因为带负电的磷酸骨架在内部会互相排斥而爆炸）。沃森和克里克看到了鲍林的错误，意识到他们还有最后的机会。他们疯狂地在办公室里摆弄模型。\n关键时刻出现在沃森领悟到碱基配对的那一刻：他发现腺嘌呤（A）和胸腺嘧啶（T）通过氢键连接后的形状，竟然和鸟嘌呤（G）与胞嘧啶（C）连接后的形状完全一样！这意味着这两种“对子”可以完美地堆叠在螺旋内部，就像平整的台阶一样。克里克立刻兴奋地宣布他们发现了“生命的秘密”。据说那天中午，他们冲进附近的“老鹰酒吧”（The Eagle Pub），向正在喝酒的人们大喊：“我们发现了生命的奥秘！”",
+      "text_en": "It was a race against time, with the opponent being the greatest chemist of the day, Linus Pauling. Pauling had just published a 'Triple Helix' model (which was wrong because the negatively charged phosphate backbones were on the inside and would repel each other, blowing the molecule apart). Watson and Crick saw Pauling's mistake and realized they had one last chance. They frantically played with models in their office.\nThe breakthrough came when Watson grasped base pairing: he realized that the shape of Adenine (A) bonded to Thymine (T) was exactly the same size as Guanine (G) bonded to Cytosine (C)! This meant these 'pairs' could stack perfectly inside the helix like even steps. Crick immediately announced they had found 'the secret of life'. Legend has it that noon, they rushed into the nearby 'The Eagle Pub' and shouted to the drinkers: 'We have discovered the secret of life!'",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🍺",
+        "text": "“老鹰酒吧”（The Eagle Pub）至今仍在剑桥营业。如果你去那里，可以在他们当年常坐的桌子旁看到一块牌子，纪念这个“DNA午餐”。",
+        "text_en": "'The Eagle Pub' is still open in Cambridge today. If you go there, you can see a plaque by the table where they used to sit, commemorating this 'DNA lunch'."
+      },
+      {
+        "icon": "📄",
+        "text": "他们发表在《自然》杂志上的那篇划时代的论文，只有短短的一页纸（约900字），且只有一张简单的手绘插图（由克里克的妻子奥黛丽绘制）。这是科学史上“字数越少，事越大”的典范。",
+        "text_en": "Their epoch-making paper published in *Nature* was only one page long (about 900 words) with a single simple hand-drawn illustration (drawn by Crick's wife, Odile). It is the classic example in science history of 'fewer words, bigger impact'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "DNA就像一个螺旋楼梯。\n两条扶手是糖和磷酸做的。\n中间的台阶是碱基做的。\n但这台阶很特别，它是由两半拼起来的。一半是A，另一半必须是T；一半是G，另一半必须是C。就像钥匙和锁一样。\n如果你把楼梯从中间劈开（把台阶拆开），你就可以根据剩下的一半，完美地造出另一半。这就是为什么一个细胞能分裂成两个一模一样的细胞。",
+      "text_en": "DNA is like a spiral staircase.\nThe two handrails are made of sugar and phosphate.\nThe steps in the middle are made of bases.\nBut these steps are special; each is made of two halves fitting together. If one half is A, the other must be T; if one half is G, the other must be C. Like a lock and key.\nIf you split the staircase down the middle (breaking the steps), you can use the remaining half to perfectly rebuild the other half. This is why one cell can divide into two identical cells.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/19/Phosphate_backbone.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "基因检测与编辑",
+          "title_en": "Genetic Testing & Editing",
+          "text": "从亲子鉴定到CRISPR基因编辑，现代生物技术的所有操作都依赖于我们对DNA双螺旋结构及其配对规则的理解。",
+          "text_en": "From paternity tests to CRISPR gene editing, all modern biotechnology operations rely on our understanding of the DNA double helix structure and its pairing rules."
+        },
+        {
+          "icon": "👮",
+          "title": "法医鉴定",
+          "title_en": "Forensics",
+          "text": "DNA指纹技术利用每个人DNA序列的独特性来破案，这源于双螺旋携带信息的稳定性。",
+          "text_en": "DNA fingerprinting uses the uniqueness of each person's DNA sequence to solve crimes, stemming from the stability of information storage in the double helix."
+        }
+      ],
+  
+    "impact": {
+      "text": "DNA双螺旋的发现通常被认为是20世纪最重要的科学成就。它解开了困扰人类千年的“遗传之谜”，将生物学从一门观察性的学科变成了分子水平的精确科学。它直接导致了生物技术产业的诞生，改变了医学、农业和法律。1962年，沃森、克里克和威尔金斯因此获得诺贝尔奖（富兰克林因已故未获奖）。",
+      "text_en": "The discovery of the DNA double helix is often considered the most important scientific achievement of the 20th century. It solved the millennia-old 'mystery of heredity', transforming biology from an observational discipline into a precise science at the molecular level. It directly led to the birth of the biotechnology industry, revolutionizing medicine, agriculture, and law. In 1962, Watson, Crick, and Wilkins received the Nobel Prize (Franklin was ineligible due to her death).",
+      "stats": [
+          {
+            "number": "1953",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "900",
+            "label": "字 (论文长度)",
+            "label_en": "Words (Paper Length)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "franklin_photo_51_1952",
+          "contribution": "富兰克林（她的X射线照片提供了螺旋直径、螺距等决定性数据，没有这些数据沃森无法建立模型）",
+          "contribution_en": "Rosalind Franklin (Her X-ray photo provided decisive data like helix diameter and pitch; Watson couldn't have built the model without it)"
+        },
+        {
+          "id": "chargaff_rules_1950",
+          "contribution": "查加夫（他的A=T, C=G法则启发了沃森通过“互补配对”来连接两条链）",
+          "contribution_en": "Erwin Chargaff (His A=T, C=G rules inspired Watson to connect the two strands via 'complementary pairing')"
+        },
+        {
+          "id": "schrodinger_what_is_life_1944",
+          "contribution": "薛定谔（他的书让沃森和克里克相信遗传物质是一个“非周期性晶体”，值得用物理方法去研究）",
+          "contribution_en": "Erwin Schrödinger (His book convinced Watson and Crick that genetic material was an 'aperiodic crystal' worth studying with physics)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "meselson_stahl_replication_1958",
+          "contribution": "梅塞尔森和斯塔尔（通过实验证实了沃森和克里克预言的“半保留复制”机制）",
+          "contribution_en": "Meselson & Stahl (Experimentally confirmed the 'semi-conservative replication' mechanism predicted by Watson and Crick)"
+        },
+        {
+          "id": "crick_central_dogma_1958",
+          "contribution": "克里克（后来提出了“中心法则”：DNA -> RNA -> 蛋白质，确立了分子生物学的流动方向）",
+          "contribution_en": "Francis Crick (Later proposed the 'Central Dogma': DNA -> RNA -> Protein, establishing the flow of molecular biology)"
+        }
+      ],
+      "legacy_text": "在这一天，人类终于看清了自己生命的源代码。",
+      "legacy_text_en": "On this day, humanity finally saw the source code of its own life."
+    },
+  
+    "related_concepts": ["双螺旋 (Double Helix)", "碱基互补配对 (Base Pairing)", "半保留复制 (Semi-conservative Replication)", "中心法则 (Central Dogma)", "老鹰酒吧 (The Eagle Pub)"],
+    "related_concepts_en": ["Double Helix", "Base Pairing", "Semi-conservative Replication", "Central Dogma", "The Eagle Pub"],
+  
+    "quiz": {
+      "question": "在沃森和克里克的DNA模型中，把两条螺旋链连接在一起的“台阶”是什么？",
+      "question_en": "In Watson and Crick's DNA model, what forms the 'steps' connecting the two helical strands?",
+      "options": [
+        "糖和磷酸骨架",
+        "共价键",
+        "互补配对的碱基 (A-T, G-C)",
+        "蛋白质"
+      ],
+      "options_en": [
+        "Sugar and phosphate backbone",
+        "Covalent bonds",
+        "Complementary paired bases (A-T, G-C)",
+        "Proteins"
+      ],
+      "answer": 2,
+      "explanation": "DNA的外侧扶手是糖磷骨架，内部的台阶是由氢键连接的互补碱基对（腺嘌呤配胸腺嘧啶，鸟嘌呤配胞嘧啶）组成的。",
+      "explanation_en": "The outer handrails of DNA are the sugar-phosphate backbone, while the inner steps are composed of complementary base pairs (Adenine with Thymine, Guanine with Cytosine) connected by hydrogen bonds."
+    }
+  }

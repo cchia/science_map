@@ -1,0 +1,10 @@
+{
+    "name": "奥古斯丁-让·菲涅尔",
+    "name_en": "Augustin-Jean Fresnel",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/02/Augustin_Fresnel.jpg",
+    "bio_short": "法国物理学家和土木工程师，被誉为“波动光学之父”。他完善了光的波动理论，在数学上解释了衍射和偏振现象，并发明了用于灯塔的“菲涅尔透镜”。",
+    "bio_short_en": "A French physicist and civil engineer, known as the 'father of wave optics'. He perfected the wave theory of light, mathematically explaining diffraction and polarization, and invented the 'Fresnel lens' for lighthouses.",
+    "events": [
+      "fresnel_diffraction_1818"
+    ]
+  }

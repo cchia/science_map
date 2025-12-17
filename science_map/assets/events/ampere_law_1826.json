@@ -1,0 +1,151 @@
+{
+    "id": "ampere_law_1826",
+    "personId": "andre_marie_ampere",
+    "title": "发表《电动力学现象的数学理论》 (安培定律)",
+    "title_en": "Publishes 'Memoir on the Mathematical Theory of Electrodynamic Phenomena'",
+    "year": 1826,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "storyline_ids": ["electricity_story"],
+    "field": ["物理学", "数学"],
+    "field_en": ["Physics", "Mathematics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Electromagnetism.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=5fqwJyt4Lus",
+        "title": "安培定律",
+        "title_en": "Ampère's Law: Crash Course Physics ",
+        "duration": "8:44"
+      }
+    },
+    
+    "summary": {
+      "text": "安德烈-马里·安培（André-Marie Ampère）在受到奥斯特（`oersted_electromagnetism_1820`）发现的启发后，迅速进行了一系列实验，并于1826年发表了他的集大成之作。他创立了“电动力学”（Electrodynamics）一词，并提出了著名的“安培定律”（Ampère's Circuital Law）。该定律用精确的数学公式描述了电流与其产生的磁场之间的关系（∮B·dl = μ₀I），并证明了磁性本质上是由“运动的电荷”（电流）产生的。",
+      "text_en": "Inspired by Oersted's discovery (`oersted_electromagnetism_1820`), André-Marie Ampère conducted rapid experiments and published his magnum opus in 1826. He coined the term 'Electrodynamics' and formulated 'Ampère's Circuital Law'. This law mathematically describes the relationship between an electric current and the magnetic field it creates (∮B·dl = μ₀I), proving that magnetism is fundamentally caused by 'moving electric charges' (current).",
+      "key_points": [
+        "创立了“电动力学”(Electrodynamics)",
+        "提出了“安培定律”(Ampère's Law)",
+        "发现两根平行导线通电后会相互吸引或排斥",
+        "提出“分子电流”假说来解释磁铁的磁性",
+        "被麦克斯韦誉为“电学界的牛顿”"
+      ],
+      "key_points_en": [
+        "Founded 'Electrodynamics'",
+        "Formulated 'Ampère's Law'",
+        "Discovered parallel currents attract or repel",
+        "Proposed 'molecular currents' to explain permanent magnets",
+        "Called the 'Newton of Electricity' by Maxwell"
+      ]
+    },
+  
+    "story": {
+      "text": "当奥斯特发现“电生磁”的消息在1820年传到巴黎时，安培立即行动起来。在一周内，他做出了一个惊人的发现：不需要磁铁，仅仅是“两根通电导线”之间就会产生力。如果电流方向相同，它们相互吸引；如果方向相反，它们相互排斥。这是一个巨大的飞跃——他证明了磁力可以完全由“电”产生。他进一步推想：如果把导线绕成圈（螺线管），它不就变成了一个磁铁吗？甚至地球本身的磁场，可能也是由地核深处的电流循环产生的。他在1826年的著作中，用严谨的微积分将这些思想形式化，完成了电磁学的“牛顿式”统一。",
+      "text_en": "When news of Oersted's discovery reached Paris in 1820, Ampère sprang into action. Within a week, he made a stunning discovery: you don't need a magnet to create magnetic force; two *current-carrying wires* will interact. If currents flow in the same direction, they attract; if opposite, they repel. This was a huge leap—he proved magnetism could be generated entirely by *electricity*. He theorized further: if you coil a wire (a solenoid), it acts like a magnet. Perhaps Earth's own magnetism is caused by currents circulating deep inside. His 1826 memoir formalized these ideas with rigorous calculus, achieving a 'Newtonian' synthesis of electromagnetism.",
+      "diagram": "assets/images/ampere_law_tor.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "Unit",
+        "text": "为了纪念他的贡献，国际单位制（SI）中“电流”的基本单位被命名为“安培”(Ampere, A)。",
+        "text_en": "In his honor, the SI base unit of 'electric current' is named the 'Ampere' (A)."
+      },
+      {
+        "icon": "🧲",
+        "text": "安培提出了“安培分子电流假说”：他认为磁铁内部并没有“磁荷”，磁性是由物质分子内部微小的环形电流产生的。这个天才的猜想在现代量子力学（电子自旋）中得到了证实。",
+        "text_en": "Ampère proposed the 'molecular current hypothesis': magnets don't have 'magnetic charge', but are made of tiny, looping currents inside the molecules. This genius guess was confirmed by modern quantum mechanics (electron spin)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "奥斯特说：“电线可以让指南针转动。”\n安培问：“那两根电线之间会发生什么？”\n他做了实验：把两根电线平行放置。当电流朝同一个方向流时，这两根电线就像久别重逢的朋友一样“紧紧抱在一起”（吸引）。当电流方向相反时，它们就“互相推开”（排斥）。\n安培由此得出结论：世界上根本没有“磁铁”这种特殊物质，所有的磁力，归根结底都是“电在跑”产生的。",
+      "text_en": "Oersted said, 'A wire can move a compass.'\nAmpère asked, 'What happens between two wires?'\nHe tested it: put two wires parallel. When electricity flows in the *same* direction, the wires *hug* each other (attract). When it flows in *opposite* directions, they *push apart* (repel).\nAmpère concluded: There is no special 'magnet stuff'. All magnetism is just what happens when 'electricity moves'.",
+      "diagram": "assets/images/ampere_law_solenoid.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧲",
+          "title": "电磁铁 (Electromagnets)",
+          "title_en": "Electromagnets",
+          "text": "安培发明的“螺线管”（Solenoid，线圈）是所有电磁铁的基础，用于从废品站的起重机到门铃的各种设备。",
+          "text_en": "The 'solenoid' (coil) Ampère invented is the basis of all electromagnets, used in everything from junkyard cranes to doorbells."
+        },
+        {
+          "icon": "⚙️",
+          "title": "电动机 (Electric Motors)",
+          "title_en": "Electric Motors",
+          "text": "安培描述的“载流导线在磁场中受力”的原理，是所有电动机让轮子转动的物理基础。",
+          "text_en": "The principle Ampère described—current-carrying wires feeling a force—is the physics that makes every electric motor spin."
+        }
+      ],
+  
+    "impact": {
+      "text": "安培的工作将零散的电磁现象统一成了一门严谨的数学科学——电动力学。麦克斯韦后来称安培为“电学界的牛顿”。安培定律后来成为了“麦克斯韦方程组”的第四个方程（经麦克斯韦修正后），构成了经典电磁学的四大支柱之一。",
+      "text_en": "Ampère's work unified scattered electromagnetic phenomena into a rigorous mathematical science—electrodynamics. Maxwell later called him the 'Newton of Electricity'. Ampère's Law became the fourth of 'Maxwell's Equations' (after Maxwell corrected it), forming one of the four pillars of classical electromagnetism.",
+      "stats": [
+          {
+            "number": "1826",
+            "label": "年 (理论发表)",
+            "label_en": "Year (Theory Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "oersted_electromagnetism_1820",
+          "contribution": "奥斯特（其“电生磁”的发现是安培研究的直接触发点）",
+          "contribution_en": "Ørsted (his discovery that 'electricity creates magnetism' was the direct trigger for Ampère's research)"
+        },
+        {
+          "id": "coulomb_law_1785",
+          "contribution": "库仑（安培模仿了库仑的数学方法，试图建立电动力学的“平方反比律”）",
+          "contribution_en": "Coulomb (Ampère mimicked Coulomb's mathematical approach, trying to find an 'inverse-square law' for electrodynamics)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "faraday_induction_1831",
+          "contribution": "法拉第（他在安培工作的基础上，反过来发现了“磁生电”）",
+          "contribution_en": "Faraday (building on Ampère, he found the reverse: 'magnetism creates electricity')"
+        },
+        {
+          "id": "maxwell_equations_1861",
+          "contribution": "麦克斯韦（他发现了安培定律的一个数学漏洞，并加上了“位移电流”项，从而预言了电磁波）",
+          "contribution_en": "Maxwell (he found a mathematical hole in Ampère's Law and added the 'displacement current', leading to the prediction of light waves)"
+        }
+      ],
+      "legacy_text": "安培证明了磁力只是“沉睡的”电力醒来并开始“奔跑”时的样子。",
+      "legacy_text_en": "Ampère proved that magnetism is just what electricity looks like when it wakes up and starts *running*."
+    },
+  
+    "related_concepts": ["安培定律 (Ampère's Law)", "电动力学 (Electrodynamics)", "螺线管 (Solenoid)", "安培 (单位)", "右手定则", "麦克斯韦方程组"],
+    "related_concepts_en": ["Ampère's Law", "Electrodynamics", "Solenoid", "Ampere (Unit)", "Right-Hand Rule", "Maxwell's Equations"],
+  
+    "quiz": {
+      "question": "根据安培的发现，如果有两根平行的导线，通入“方向相同”的电流，它们会发生什么？",
+      "question_en": "According to Ampère's discovery, what happens to two parallel wires carrying current in the *same* direction?",
+      "options": [
+        "它们会相互排斥",
+        "它们会相互吸引",
+        "它们会旋转",
+        "什么也不会发生"
+      ],
+      "options_en": [
+        "They repel each other",
+        "They attract each other",
+        "They rotate",
+        "Nothing happens"
+      ],
+      "answer": 1,
+      "explanation": "安培实验表明：同向电流相吸，异向电流相斥。这与静电荷（同性相斥）正好相反，这是电动力学的一个基本特征。",
+      "explanation_en": "Ampère's experiment showed: currents in the same direction attract; currents in opposite directions repel. (This is the opposite of static charges, where likes repel)."
+    }
+  }

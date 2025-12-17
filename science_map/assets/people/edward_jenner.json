@@ -1,0 +1,10 @@
+{
+    "name": "爱德华·詹纳",
+    "name_en": "Edward Jenner",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/be/Edward_Jenner.jpg",
+    "bio_short": "英国医生和科学家，被誉为“免疫学之父”。他发明了世界上第一种疫苗——牛痘疫苗（`jenner_vaccine_1796`），成功地利用牛痘预防了致命的天花病毒，拯救了数亿人的生命。",
+    "bio_short_en": "A British physician and scientist, known as the 'Father of Immunology'. He pioneered the world's first vaccine, the smallpox vaccine (`jenner_vaccine_1796`), successfully using cowpox to prevent the deadly smallpox virus, saving hundreds of millions of lives.",
+    "events": [
+      "jenner_vaccine_1796"
+    ]
+  }

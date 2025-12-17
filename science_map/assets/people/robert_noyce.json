@@ -1,0 +1,10 @@
+{
+    "name": "罗伯特·诺伊斯",
+    "name_en": "Robert Noyce",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/82/Robert_Noyce_with_Motherboard_1959.png",
+    "bio_short": "美国物理学家和企业家，被称为“硅谷市长”。他在仙童半导体独立发明了基于硅的集成电路（`integrated_circuit_1958`），其采用的平面工艺使芯片大规模生产成为可能。后来他共同创立了英特尔（Intel），不仅开创了微处理器时代，还确立了硅谷的企业文化。",
+    "bio_short_en": "An American physicist and entrepreneur, known as the 'Mayor of Silicon Valley'. At Fairchild Semiconductor, he independently invented the silicon-based integrated circuit (`integrated_circuit_1958`), using the planar process that made mass production possible. He later co-founded Intel, ushering in the microprocessor era and defining the corporate culture of Silicon Valley.",
+    "events": [
+      "integrated_circuit_1958"
+    ]
+  }

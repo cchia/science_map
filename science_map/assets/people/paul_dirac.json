@@ -1,0 +1,11 @@
+{
+    "name": "保罗·狄拉克",
+    "name_en": "Paul Dirac",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/50/Paul_Dirac%2C_1933.jpg",
+    "bio_short": "英国理论物理学家，量子力学的奠基人之一。他提出了描述电子相对论性行为的“狄拉克方程”，预言了“反物质”的存在，并与费米共同创立了“费米-狄拉克统计”（`fermi_dirac_statistics_1926`）。",
+    "bio_short_en": "A British theoretical physicist and a founder of quantum mechanics. He formulated the 'Dirac Equation' to describe the relativistic behavior of electrons, predicted the existence of 'antimatter', and co-founded 'Fermi-Dirac statistics' (`fermi_dirac_statistics_1926`) with Enrico Fermi.",
+    "events": [
+      "fermi_dirac_statistics_1926",
+      "dirac_equation_1928"
+    ]
+  }

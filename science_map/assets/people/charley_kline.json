@@ -1,0 +1,10 @@
+{
+    "name": "查理·克莱恩",
+    "name_en": "Charley Kline",
+    "portrait": "assets/images/charley_kline.png",
+    "bio_short": "美国计算机科学家。1969年，作为加州大学洛杉矶分校（UCLA）的学生程序员，他在伦纳德·克莱因罗克的实验室里，亲手在电传打字机上输入了互联网历史上的第一条消息“LO”。他是那份著名的“IMP日志”的记录者，见证并执行了人类首次主机间的远程登录。",
+    "bio_short_en": "American computer scientist. In 1969, as a student programmer at UCLA under Leonard Kleinrock, he physically typed the first message in Internet history, 'LO', on a teletype. He was the recorder of the famous 'IMP Log' and the operator who executed the first host-to-host remote login.",
+    "events": [
+      "arpanet_1969"
+    ]
+  }

@@ -1,0 +1,151 @@
+{
+    "id": "amazon_founding_1994",
+    "personId": ["jeff_bezos"],
+    "title": "Amazon成立 (电商帝国的崛起)",
+    "title_en": "Founding of Amazon (Rise of the E-commerce Empire)",
+    "year": 1994,
+    "lat": 47.6101,
+    "lng": -122.2015,
+    "city": "贝尔维尤 (车库)",
+    "city_en": "Bellevue (The Garage)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["商业", "互联网"],
+    "field_en": ["Business", "Internet"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Amazon_2024.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=_snoVZwQGVs",
+        "title": "Amazon.com: 书店如何征服互联网",
+        "title_en": "The Story of Amazon.com: How a Bookstore Conquered the Internet",
+        "duration": "15:43"
+      }
+    },
+    
+    "summary": {
+      "text": "1994年7月5日，华尔街一家对冲基金的副总裁杰夫·贝佐斯，在看到互联网使用量每年增长2300%的惊人数据后，毅然辞职。他驾车横跨美国，从纽约搬到了西雅图郊区的贝尔维尤。在自家的车库里，他成立了Amazon（最初注册名为Cadabra）。贝佐斯的愿景是建立一个“万货商店”（The Everything Store），但他策略性地选择从书籍开始，因为书籍是标准化的商品且长尾效应明显。网站于1995年7月上线，第一个月就接到了来自全美50个州和45个国家的订单，彻底震惊了所有人。",
+      "text_en": "On July 5, 1994, Jeff Bezos, a vice president at a Wall Street hedge fund, quit his job after seeing the startling statistic that internet usage was growing by 2300% a year. He drove across the country from New York to Bellevue, a suburb of Seattle. In his garage, he founded Amazon (originally incorporated as Cadabra). Bezos's vision was to build 'The Everything Store', but he strategically chose to start with books because they were standardized products with a significant long-tail effect. The site went live in July 1995, and in its first month, it received orders from all 50 states and 45 countries, shocking everyone.",
+      "key_points": [
+        "贝佐斯基于“遗憾最小化框架”决定辞职创业",
+        "选择书籍作为切入点，因为其SKU数量巨大且易于物流",
+        "经典的“门板桌子”文化（用廉价门板做办公桌）象征节俭",
+        "最初的铃声系统：每有一单生意电脑就响铃（后来响个不停不得不关掉）",
+        "开启了长尾商业模式和在线零售时代"
+      ],
+      "key_points_en": [
+        "Bezos decided to quit and start up based on his 'Regret Minimization Framework'",
+        "Chose books as the entry point due to massive SKUs and easy logistics",
+        "Classic 'Door Desk' culture (using cheap doors as desks) symbolizing frugality",
+        "Original bell system: a bell rang on the computer for every order (had to be turned off as it rang non-stop)",
+        "Pioneered the long-tail business model and the era of online retail"
+      ]
+    },
+  
+    "story": {
+      "text": "Amazon的创业之旅始于一次著名的公路旅行。贝佐斯不想到了80岁时后悔自己错过了互联网浪潮，于是他制定了“遗憾最小化框架”。在从纽约开车去西雅图的路上，他在副驾驶座上敲打着商业计划书。为了避税和利用当地的技术人才，他选择了华盛顿州。公司最初的名字叫“Cadabra”（取自Abracadabra，魔术咒语），但一位律师听成了“Cadaver”（尸体），于是贝佐斯迅速改名。他在字典里翻到了“Amazon”，认为这世界上最大的河流能代表他构建最大商店的野心，而且A开头的名字在当时按字母排序的网站列表中能排在前面。",
+      "text_en": "Amazon's startup journey began with a famous road trip. Bezos didn't want to be 80 years old and regret missing the internet wave, so he developed the 'Regret Minimization Framework'. On the drive from New York to Seattle, he typed the business plan in the passenger seat. He chose Washington state for tax reasons and access to technical talent. The company was originally named 'Cadabra' (from Abracadabra), but a lawyer misheard it as 'Cadaver', so Bezos quickly changed it. He looked in the dictionary and found 'Amazon', deciding the world's largest river represented his ambition to build the biggest store, and a name starting with 'A' would appear at the top of alphabetical website lists.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/da/Amazon%27s_founding_site_in_Bellevue%2C_Washington_-_exterior.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🚪",
+        "text": "直到今天，Amazon总部的一些高管桌子仍然是由门板改装的。这是为了纪念创业初期的艰苦奋斗和“节俭”（Frugality）的核心价值观。",
+        "text_en": "To this day, some executive desks at Amazon HQ are still made from doors. This is to honor the early struggles and the core value of 'Frugality'."
+      },
+      {
+        "icon": "🌐",
+        "text": "贝佐斯非常喜欢“Relentless”（无情/不懈）这个名字。虽然最后选了Amazon，但他还是买下了 relentless.com。如果你现在在浏览器输入 relentless.com，它仍然会直接跳转到 Amazon。",
+        "text_en": "Bezos loved the name 'Relentless'. Although he ultimately chose Amazon, he bought relentless.com. If you type relentless.com into your browser today, it still redirects directly to Amazon."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "以前买书，你要去书店，书店太小，只能放几千本书。\n贝佐斯把书店搬到了网上，因为没有实体墙壁的限制，他可以展示几百万本书。\n他实际上不是在卖书，而是在卖“方便”和“无限的选择”。",
+      "text_en": "Buying books used to mean going to a bookstore, which was too small and could only hold a few thousand books.\nBezos moved the bookstore online. With no physical walls to limit him, he could display millions of books.\nHe wasn't actually selling books; he was selling 'convenience' and 'unlimited selection'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Amazon_Espa%C3%B1a_por_dentro_%28San_Fernando_de_Henares%29.JPG"
+    },
+  
+    "applications": [
+        {
+          "icon": "🛒",
+          "title": "电子商务 (E-commerce)",
+          "title_en": "E-commerce",
+          "text": "Amazon定义了现代网购的标准：一键下单、用户评论、个性化推荐和快速物流。",
+          "text_en": "Amazon defined the standards of modern online shopping: 1-Click ordering, user reviews, personalized recommendations, and fast logistics."
+        },
+        {
+          "icon": "📦",
+          "title": "长尾效应 (The Long Tail)",
+          "title_en": "The Long Tail",
+          "text": "它证明了卖很多种销量很小的冷门商品（长尾），加起来的利润可以超过卖几样热门商品（头部）。",
+          "text_en": "It proved that selling many types of low-volume niche products (the long tail) could collectively generate more profit than selling a few hit products (the head)."
+        }
+      ],
+  
+    "impact": {
+      "text": "Amazon的成立彻底改变了全球零售业的格局。它迫使实体店转型或倒闭（如Borders书店），改变了消费者的购物习惯，并建立了世界上最庞大的物流网络。虽然AWS（云计算）是后来才推出的，但Amazon在处理海量电商数据时积累的技术能力是AWS诞生的直接前提。它让“Get Big Fast”（快速做大）成为了互联网创业的信条。",
+      "text_en": "The founding of Amazon completely reshaped the global retail landscape. It forced brick-and-mortar stores to adapt or close (like Borders), changed consumer shopping habits, and built the world's most massive logistics network. Although AWS (Cloud Computing) launched later, the technical capabilities Amazon amassed while handling massive e-commerce data were the direct prerequisite for AWS. It made 'Get Big Fast' the creed of internet startups.",
+      "stats": [
+          {
+            "number": "2300",
+            "label": "% (当时互联网年增长率)",
+            "label_en": "% (Internet Growth Rate Then)"
+          },
+          {
+            "number": "300000",
+            "label": "美元 (父母的投资)",
+            "label_en": "USD (Parents' Investment)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "berners_lee_www_1989",
+          "contribution": "万维网（没有WWW的指数级增长数据，贝佐斯就不会辞职创业）",
+          "contribution_en": "World Wide Web (Without the exponential growth data of the WWW, Bezos would not have quit to start the company)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "alibaba_founding_1999",
+          "contribution": "阿里巴巴（马云受美国互联网特别是Amazon模式的启发，在中国开启了电商时代）",
+          "contribution_en": "Alibaba (Jack Ma, inspired by the US internet and specifically the Amazon model, launched the e-commerce era in China)"
+        },
+        {
+          "id": "google_founding_1998",
+          "contribution": "Google（Amazon不仅是Google的大广告主，其早期的技术架构扩张也为Google提供了参考）",
+          "contribution_en": "Google (Amazon was not only a huge advertiser for Google, but its early technical architecture scaling also provided a reference for Google)"
+        }
+      ],
+      "legacy_text": "它是地球上最大的书店，也是万货商店。",
+      "legacy_text_en": "It is Earth's biggest bookstore, and the Everything Store."
+    },
+  
+    "related_concepts": ["电子商务", "长尾效应", "飞轮效应 (Flywheel Effect)", "遗憾最小化框架", "1-Click"],
+    "related_concepts_en": ["E-commerce", "The Long Tail", "Flywheel Effect", "Regret Minimization Framework", "1-Click"],
+  
+    "quiz": {
+      "question": "在确定名字为Amazon之前，贝佐斯差点用了哪个名字，但因为发音像“尸体”（Cadaver）而被放弃？",
+      "question_en": "Before settling on Amazon, what name did Bezos almost use, but dropped because it sounded like 'Cadaver'?",
+      "options": [
+        "Relentless",
+        "Cadabra",
+        "MakeItSo",
+        "BookWorm"
+      ],
+      "options_en": [
+        "Relentless",
+        "Cadabra",
+        "MakeItSo",
+        "BookWorm"
+      ],
+      "answer": 1,
+      "explanation": "贝佐斯最初注册的公司名是“Cadabra Inc.”（取自Abracadabra）。当他把这个名字告诉律师时，律师在电话里惊恐地问：“Cadaver（尸体）？”贝佐斯意识到这个名字有严重的听觉歧义，于是立刻决定改名。",
+      "explanation_en": "Bezos originally incorporated the company as 'Cadabra Inc.' (from Abracadabra). When he told his lawyer the name, the lawyer asked in horror over the phone, 'Cadaver?' Bezos realized the name had a serious auditory ambiguity and decided to change it immediately."
+    }
+  }

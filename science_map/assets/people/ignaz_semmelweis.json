@@ -1,0 +1,10 @@
+{
+    "name": "伊格纳兹·塞梅尔维斯",
+    "name_en": "Ignaz Semmelweis",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg",
+    "bio_short": "匈牙利产科医生，被誉为“母亲的救星”和“院感控制之父”。他发现了产褥热的成因，并强制推行“洗手”（`semmelweis_handwashing_1847`），极大地降低了产妇死亡率，尽管在当时遭到了医学界的排挤。",
+    "bio_short_en": "A Hungarian obstetrician, known as the 'Savior of Mothers' and the 'Father of Infection Control'. He discovered the cause of puerperal fever and mandated 'handwashing' (`semmelweis_handwashing_1847`), drastically reducing mortality rates, although he was ostracized by the medical community at the time.",
+    "events": [
+      "semmelweis_handwashing_1847"
+    ]
+  }

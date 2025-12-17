@@ -1,0 +1,158 @@
+{
+    "id": "bose_einstein_statistics_1924",
+    "personId": ["satyendra_nath_bose", "albert_einstein"],
+    "title": "创立“玻色-爱因斯坦统计”",
+    "title_en": "Formulates 'Bose-Einstein Statistics'",
+    "year": 1924,
+    "lat": 23.8103,
+    "lng": 90.4125,
+    "city": "达卡 (发表于柏林)",
+    "city_en": "Dhaka (Published in Berlin)",
+    "country": "英属印度 (今孟加拉国)",
+    "country_en": "British India (Modern Bangladesh)",
+    "storyline_ids": ["thermo_story", "quantum_story"],
+    "field": ["物理学", "数学"],
+    "field_en": ["Physics", "Mathematics"],
+    
+    "media": {
+      "event_image": "assets/images/bec.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=KJU4vZMHegg",
+        "title": "玻色-爱因斯坦凝聚",
+        "title_en": "Bose Einstein Condensate Explained in Simple Words",
+        "duration": "4:26"
+      }
+    },
+    
+    "summary": {
+      "text": "1924年，印度物理学家萨特延德拉·纳特·玻色（Satyendra Nath Bose）推导出了一种新的方法来计算光子（Photon）的统计分布，成功地在不依赖经典电动力学的情况下推导出了普朗克黑体辐射定律。他将论文寄给爱因斯坦，爱因斯坦意识到这一方法的革命性，并将其推广到有质量的原子上。这种新的统计规律被称为“玻色-爱因斯坦统计”。它描述了整数自旋粒子（后来被称为“玻色子”）的行为，并预言了一种新的物质状态——“玻色-爱因斯坦凝聚”(BEC)。",
+      "text_en": "In 1924, Indian physicist Satyendra Nath Bose derived a new method for calculating the statistical distribution of photons, successfully deriving Planck's Law without relying on classical electrodynamics. He sent his paper to Einstein, who realized its revolutionary nature and extended it to massive atoms. This new statistical method became known as 'Bose-Einstein Statistics'. It describes the behavior of integer-spin particles (later named 'Bosons') and predicted a new state of matter: the 'Bose-Einstein Condensate' (BEC).",
+      "key_points": [
+        "创立了“玻色-爱因斯坦统计” (B-E Statistics)",
+        "定义了“玻色子”(Bosons)（整数自旋粒子）",
+        "提出粒子是“不可区分的”(Indistinguishable)",
+        "预言了“玻色-爱因斯坦凝聚态”(BEC)",
+        "不依赖经典物理导出了普朗克定律"
+      ],
+      "key_points_en": [
+        "Founded 'Bose-Einstein Statistics'",
+        "Defined 'Bosons' (integer spin particles)",
+        "Proposed particles are 'Indistinguishable'",
+        "Predicted the 'Bose-Einstein Condensate' (BEC)",
+        "Derived Planck's Law without classical physics"
+      ]
+    },
+  
+    "story": {
+      "text": "玻色当时正在达卡大学教书。他在向学生解释为什么经典理论无法解释普朗克定律时，自己尝试了一种新的推导方法。他假设光子是“完全相同且不可区分的”，这意味着如果你交换两个光子，你并没有创造一个新的状态。当时的物理学杂志拒绝了他的论文，认为他犯了统计错误。玻色大胆地将论文直接寄给了爱因斯坦。爱因斯坦立即看出了其中的天才之处：玻色消除了经典物理的最后残余。爱因斯坦亲自将论文翻译成德语并在德国发表，随后他将玻色的想法应用到原子气体中，预言如果在极低温度下，所有原子会突然“凝聚”到同一个最低能量状态，表现得像一个巨大的“超级原子”。",
+      "text_en": "Bose was teaching at the University of Dhaka. While explaining to students why classical theory failed to explain Planck's Law, he tried a new derivation. He assumed photons were 'identical and indistinguishable', meaning swapping two photons doesn't create a new state. Journals rejected his paper, thinking he made a statistical error. Bose boldly sent it directly to Einstein. Einstein immediately saw the genius: Bose had removed the last vestige of classical physics. Einstein translated it into German himself and had it published. He then extended Bose's idea to atoms, predicting that at ultra-low temperatures, atoms would 'condense' into the same lowest energy state, behaving like a single giant 'super-atom'.",
+      "diagram": "assets/images/bec_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧊",
+        "text": "爱因斯坦预言的“玻色-爱因斯坦凝聚态”(BEC) 在当时被认为是纯理论的。直到70年后的1995年，科学家才终于在实验室中制造出了这种物质状态（比绝对零度高十亿分之一度），并因此获得了诺贝尔奖。",
+        "text_en": "Einstein's predicted 'Bose-Einstein Condensate' (BEC) was considered purely theoretical at the time. It took 70 years until 1995 for scientists to finally create this state of matter in a lab (at billionths of a degree above absolute zero), winning them the Nobel Prize."
+      },
+      {
+        "icon": "⚛️",
+        "text": "“玻色子”(Boson) 这个词是由保罗·狄拉克（Paul Dirac）创造的，以纪念玻色。",
+        "text_en": "The term 'Boson' was coined by Paul Dirac to honor Bose."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你有两枚硬币。在经典世界里，它们是可区分的（硬币A和硬币B）。\n但在量子世界里，玻色说：光子是“完全一样”的，你根本无法区分谁是A谁是B。这改变了统计概率的计算方式（就像扔两枚硬币，“一正一反”的概率变了）。\n更重要的是，玻色子（如光子）具有“群居本能”。它们“喜欢”待在同一个状态里。如果你让它们足够冷，它们会全部挤进同一个“座位”（最低能级），变成一个步调完全一致的“超级大光子”（激光或BEC）。",
+      "text_en": "Imagine two coins. In the classical world, they are distinguishable (Coin A and Coin B).\nBut in the quantum world, Bose said: Photons are 'identical'; you can't tell A from B. This changes the math of probability.\nMore importantly, Bosons (like photons) have a 'herd instinct'. They *like* to be in the same state. If you make them cold enough, they will all pile into the *exact same seat* (lowest energy level) and act like one giant 'super-photon' (Laser or BEC).",
+      "diagram": "assets/images/bec_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔦",
+          "title": "激光 (Laser)",
+          "title_en": "Laser",
+          "text": "激光的原理（受激辐射）本质上就是光子（玻色子）“喜欢”处于相同状态的统计特性。激光就是一束“玻色凝聚”的光。",
+          "text_en": "The principle of the Laser (stimulated emission) is essentially the statistical property that photons (bosons) *like* to be in the same state. A laser is a beam of 'condensed' light."
+        },
+        {
+          "icon": "❄️",
+          "title": "超流体 (Superfluidity)",
+          "title_en": "Superfluidity",
+          "text": "液氦在低温下会变成“超流体”，可以无摩擦地流动并爬上杯壁，这是玻色-爱因斯坦统计在液体中的表现。",
+          "text_en": "Liquid Helium becomes a 'superfluid' at low temps, flowing without friction and climbing walls. This is Bose-Einstein statistics in action in a liquid."
+        },
+        {
+          "icon": "🧊",
+          "title": "物质波研究",
+          "title_en": "Matter Wave Research",
+          "text": "BEC（玻色-爱因斯坦凝聚）使科学家能够在宏观尺度上观察量子行为，用于开发量子计算机和精密传感器。",
+          "text_en": "BECs allow scientists to observe quantum behavior on a macroscopic scale, used for developing quantum computers and precision sensors."
+        }
+      ],
+  
+    "impact": {
+      "text": "玻色-爱因斯坦统计将微观粒子世界一分为二：遵循该统计的“玻色子”（如光子，传递力）和遵循“费米-狄拉克统计”的“费米子”（如电子，构成物质）。这一发现是量子场论的基础，也是理解宇宙中所有基本相互作用的关键。",
+      "text_en": "Bose-Einstein statistics split the microscopic world in two: 'Bosons' (like photons, force carriers) which follow these rules, and 'Fermions' (like electrons, matter builders) which follow Fermi-Dirac statistics. This distinction is the foundation of Quantum Field Theory and key to understanding all fundamental interactions.",
+      "stats": [
+          {
+            "number": "1924",
+            "label": "年 (论文寄给爱因斯坦)",
+            "label_en": "Year (Paper sent to Einstein)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "planck_quantum_1900",
+          "contribution": "普朗克（其黑体辐射定律是玻色试图用新方法推导的目标）",
+          "contribution_en": "Max Planck (whose Black Body law was the target Bose was trying to derive)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "fermi_dirac_statistics_1926",
+          "contribution": "费米（在玻色工作之后，费米发现了针对电子的“另一种”统计规律（费米-狄拉克统计））",
+          "contribution_en": "Enrico Fermi (following Bose, Fermi discovered the 'other' statistics for electrons (Fermi-Dirac statistics))"
+        },
+        {
+          "id": "laser_invention_1960",
+          "contribution": "梅曼（激光是玻色子“凝聚”特性的直接应用）",
+          "contribution_en": "Theodore Maiman (the laser is a direct application of the 'condensing' nature of bosons)"
+        },
+        {
+          "id": "higgs_boson_1964",
+          "contribution": "希格斯（希格斯玻色子也是一种遵循此统计规律的粒子）",
+          "contribution_en": "Peter Higgs (the Higgs Boson is a particle that follows these statistics)"
+        }
+      ],
+      "legacy_text": "玻色发现了光子的“社交”秘密，爱因斯坦将其推广到物质，预言了一种全新的物质状态。",
+      "legacy_text_en": "Bose discovered the 'social' secret of photons, and Einstein extended it to matter, predicting a brand new state of existence."
+    },
+  
+    "related_concepts": ["玻色子 (Boson)", "玻色-爱因斯坦凝聚 (BEC)", "费米子 (Fermion)", "不可区分性 (Indistinguishability)", "普朗克定律", "激光"],
+    "related_concepts_en": ["Boson", "Bose-Einstein Condensate", "Fermion", "Indistinguishability", "Planck's Law", "Laser"],
+  
+    "quiz": {
+      "question": "“玻色子”（如光子）与“费米子”（如电子）在统计行为上最大的区别是什么？",
+      "question_en": "What is the biggest difference in statistical behavior between 'Bosons' (like photons) and 'Fermions' (like electrons)?",
+      "options": [
+        "玻色子带正电，费米子带负电",
+        "玻色子质量更大",
+        "玻色子喜欢“挤在同一个状态”（可以无限叠加），费米子“互斥”（不能处于同一状态）",
+        "玻色子是波，费米子是粒子"
+      ],
+      "options_en": [
+        "Bosons are positive, Fermions are negative",
+        "Bosons are heavier",
+        "Bosons like to 'crowd into the same state' (unlimited overlap), Fermions 'repel' (cannot share a state)",
+        "Bosons are waves, Fermions are particles"
+      ],
+      "answer": 2,
+      "explanation": "这是量子统计的核心。费米子遵循“泡利不相容原理”（`pauli_exclusion_principle_1925`），必须独占一个位置（这就是为什么物质有体积）。玻色子遵循“玻色-爱因斯坦统计”，可以无限个粒子挤在同一个量子态里（这就是为什么激光能如此强）。",
+      "explanation_en": "This is the core of quantum statistics. Fermions follow the 'Pauli Exclusion Principle' and must occupy unique states (why matter has volume). Bosons follow 'Bose-Einstein statistics' and can pile an infinite number into the same state (why lasers can be so intense)."
+    }
+  }

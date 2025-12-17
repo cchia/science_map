@@ -1,0 +1,10 @@
+{
+    "name": "约翰·斯图尔特·贝尔",
+    "name_en": "John Stewart Bell",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/55/John_bell_2_%28cropped%29.png",
+    "bio_short": "北爱尔兰物理学家。他提出了著名的“贝尔定理”（`bell_theorem_1964`），证明了量子力学与局域隐变量理论不相容，从而解决了爱因斯坦提出的EPR佯谬，确立了量子非局域性。",
+    "bio_short_en": "A Northern Irish physicist. He is best known for 'Bell's Theorem' (`bell_theorem_1964`), which proved that quantum mechanics is incompatible with local hidden-variable theories, settling the EPR paradox and establishing quantum non-locality.",
+    "events": [
+      "bell_theorem_1964"
+    ]
+  }

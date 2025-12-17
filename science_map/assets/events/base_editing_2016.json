@@ -1,0 +1,145 @@
+{
+    "id": "base_editing_2016",
+    "personId": "david_liu",
+    "title": "发明“碱基编辑” (化学魔术笔)",
+    "title_en": "Invention of 'Base Editing' (The Chemical Magic Pencil)",
+    "year": 2016,
+    "lat": 42.3623,
+    "lng": -71.0907,
+    "city": "剑桥 (哈佛大学)",
+    "city_en": "Cambridge (Harvard University)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["化学生物学", "基因组工程"],
+    "field_en": ["Chemical Biology", "Genome Engineering"],
+    
+    "media": {
+      "event_image": "assets/images/base_editing.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=0W-_BmrdH-M",
+        "title": "碱基编辑如何工作？",
+        "title_en": "How Base Editing Works?",
+        "duration": "2:17"
+      }
+    },
+    
+    "summary": {
+      "text": "2016年，哈佛大学的大卫·刘（David Liu）和他的博士后亚历克西斯·科莫尔（Alexis Komor）在《自然》杂志上发表了一项突破性技术——“碱基编辑”（Base Editing）。如果说CRISPR是一把“剪刀”，会切断DNA双链，那么碱基编辑就是一支“化学铅笔”。它利用一种丧失切割能力的Cas9（dCas9或nCas9）作为导航员，携带一种特殊的脱氨酶（Deaminase）直接坐落在DNA上。这种酶可以通过化学反应，直接将一个特定的碱基（比如C）变成另一个碱基（比如T），而完全不需要切断DNA双链。这是人类首次实现在不破坏基因组完整性的前提下，对单个碱基进行精准的化学修改。",
+      "text_en": "In 2016, David Liu and his postdoc Alexis Komor at Harvard University published a breakthrough technology in *Nature*—'Base Editing'. If CRISPR is 'scissors' that cut the DNA double helix, Base Editing is a 'chemical pencil'. It uses a catalytically dead Cas9 (dCas9 or nCas9) as a navigator, carrying a specific deaminase enzyme to sit directly on the DNA. This enzyme performs a chemical reaction to directly convert one specific base (e.g., C) into another (e.g., T) without ever cutting the double strand. This marked the first time humanity achieved precise chemical modification of single bases without compromising genome integrity.",
+      "key_points": [
+        "发明“碱基编辑” (Base Editing)",
+        "直接进行化学转化 (C->T 或 A->G)",
+        "无需切断DNA双链 (No Double-Strand Breaks)",
+        "降低了随机插入缺失 (Indels) 的风险",
+        "可修复约60%的人类致病点突变"
+      ],
+      "key_points_en": [
+        "Invention of 'Base Editing'",
+        "Direct chemical conversion (C->T or A->G)",
+        "No Double-Strand Breaks (DSBs)",
+        "Reduced risk of random insertions/deletions (Indels)",
+        "Can fix ~60% of human pathogenic point mutations"
+      ]
+    },
+  
+    "story": {
+      "text": "大卫·刘的想法源于对CRISPR“暴力美学”的不满。传统的CRISPR为了改一个字，必须先把书页（DNA）撕开，然后指望细胞自己在粘回去的时候把字改对，但这往往会弄得一团糟。大卫·刘想：“为什么不直接用化学方法把C变成T呢？”\n自然界中有一种酶叫“胞嘧啶脱氨酶”，它能把C变成U（U在DNA复制时会被读成T）。但这种酶通常只作用于RNA，对DNA无效。大卫·刘团队利用“定向进化”（Directed Evolution）技术，强迫这种酶在实验室里快速进化，直到它能接受DNA作为底物。最终，他们把这个进化后的酶绑在Cas9上，创造出了第一代“胞嘧啶碱基编辑器”（CBE）。一年后，他们又用同样的方法创造了自然界原本不存在的“腺嘌呤碱基编辑器”（ABE），能把A变成G。",
+      "text_en": "David Liu's idea stemmed from dissatisfaction with the 'brute force' of CRISPR. To change one letter, traditional CRISPR has to tear the page (DNA) apart and hope the cell fixes it correctly while taping it back, which often results in a mess. Liu thought: 'Why not just chemically turn C into T?'\nNature has an enzyme called 'cytidine deaminase' that turns C into U (which is read as T during replication). But this enzyme usually works on RNA, not DNA. Liu's team used 'Directed Evolution' to force this enzyme to evolve rapidly in the lab until it accepted DNA. Finally, they strapped this evolved enzyme onto Cas9, creating the first 'Cytosine Base Editor' (CBE). A year later, they used the same method to create the 'Adenine Base Editor' (ABE), which turns A into G—an enzyme that didn't even exist in nature.",
+      "diagram": "assets/images/base_editing_mechanism.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "✏️",
+        "text": "大卫·刘把这种技术比作“铅笔”，因为它可以擦掉错误的一个字母并写上新的，而不需要像“剪刀”（CRISPR）那样把整张纸剪开。",
+        "text_en": "David Liu compares this tech to a 'pencil' because it can erase one wrong letter and write a new one, without cutting the whole paper like 'scissors' (CRISPR)."
+      },
+      {
+        "icon": "🧬",
+        "text": "人类已知的约32,000种致病基因突变中，有一半以上都是因为单个碱基写错了（点突变）。碱基编辑理论上可以修复其中的大部分，而不需要切断DNA。",
+        "text_en": "Of the ~32,000 known pathogenic genetic mutations in humans, more than half are simple single-letter errors (point mutations). Base editing can theoretically fix most of them without cutting the DNA."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "你的DNA里有一句话：“我喜欢吃猫（CAT）。”\n但这其实是个错别字，你想改成“我喜欢吃脂肪（FAT）。”\n如果是CRISPR，它会把“猫”字剪掉，然后希望你的身体能补上个“脂”字，但经常补不准。\n碱基编辑直接飞到“C”字上，通过化学反应把C的腿去掉，让它看起来像“F”（实际上是C变成U，再变成T）。\n结果句子变成了“我喜欢吃FAT”，而且纸张完好无损。",
+      "text_en": "Your DNA has a sentence: 'I like to eat CAT.'\nBut it's a typo, you want 'I like to eat FAT.'\nCRISPR would cut the word 'CAT' out and hope your body pastes in 'FAT', which is risky.\nBase Editing flies directly to the 'C', performs a chemical reaction to change its shape to look like an 'F' (technically C to U, then to T).\nThe sentence becomes 'I like to eat FAT', and the paper is never torn.",
+      "diagram": "assets/images/base_editing_mechanism.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "👴",
+          "title": "早衰症 (Progeria)",
+          "title_en": "Progeria",
+          "text": "这是一种极其罕见的遗传病，儿童会快速衰老。这正是由一个C变成了T导致的。大卫·刘的团队已经在老鼠身上成功用碱基编辑把这个T改回了C，极大地延长了老鼠的寿命。",
+          "text_en": "A rare genetic condition causing rapid aging in children, caused by a single C-to-T mutation. Liu's team successfully used base editing to revert this T back to C in mice, drastically extending their lifespan."
+        },
+        {
+          "icon": "👂",
+          "title": "遗传性耳聋",
+          "title_en": "Hereditary Deafness",
+          "text": "科学家利用碱基编辑修复了贝多芬老鼠模型中的耳聋基因突变，部分恢复了听力。",
+          "text_en": "Scientists used base editing to fix a deafness gene mutation in 'Beethoven' mice models, partially restoring hearing."
+        }
+      ],
+  
+    "impact": {
+      "text": "碱基编辑填补了基因编辑工具箱中的一个巨大空白。虽然它不能像CRISPR那样插入或删除大段DNA，但在处理“最常见的错误”（点突变）时，它是无敌的。它的安全性远高于传统CRISPR，因为它避免了双链断裂带来的不可预测性。它标志着基因治疗开始进入“精细化工”时代。",
+      "text_en": "Base Editing filled a huge gap in the gene-editing toolbox. While it can't insert or delete large chunks of DNA like CRISPR, it is unbeatable for fixing the 'most common errors' (point mutations). It is much safer than traditional CRISPR because it avoids the unpredictability of double-strand breaks. It marks the entry of gene therapy into the era of 'fine chemistry'.",
+      "stats": [
+          {
+            "number": "2016",
+            "label": "年 (CBE发表)",
+            "label_en": "Year (CBE Published)"
+          },
+          {
+            "number": "2017",
+            "label": "年 (ABE发表)",
+            "label_en": "Year (ABE Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "crispr_gene_editing_2012",
+          "contribution": "杜德纳和卡彭蒂耶（提供了定位系统Cas9，没有它，脱氨酶不知道该去哪里修）",
+          "contribution_en": "Doudna & Charpentier (Provided the Cas9 targeting system; without it, the deaminase wouldn't know where to edit)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "prime_editing_2019",
+          "contribution": "大卫·刘（碱基编辑的局限性[只能改C和A]促使他继续发明了更全能的先导编辑）",
+          "contribution_en": "David Liu (The limitations of Base Editing [only C and A] drove him to invent the more versatile Prime Editing)"
+        }
+      ],
+      "legacy_text": "大卫·刘证明了，有时候只要改一个字母，就能改写命运。",
+      "legacy_text_en": "David Liu proved that sometimes, changing just one letter can rewrite destiny."
+    },
+  
+    "related_concepts": ["碱基编辑 (Base Editing)", "单碱基突变 (Point Mutation)", "脱氨酶 (Deaminase)", "Cas9 nickase", "定向进化 (Directed Evolution)"],
+    "related_concepts_en": ["Base Editing", "Point Mutation", "Deaminase", "Cas9 nickase", "Directed Evolution"],
+  
+    "quiz": {
+      "question": "碱基编辑（Base Editing）与传统CRISPR最大的区别在于它是如何修改DNA的？",
+      "question_en": "What is the biggest difference between Base Editing and traditional CRISPR in how they modify DNA?",
+      "options": [
+        "它利用化学反应直接转换碱基，不切断双链",
+        "它把整个基因剪掉",
+        "它只能在植物中使用",
+        "它使用激光来修改DNA"
+      ],
+      "options_en": [
+        "It converts bases directly via chemical reaction without cutting both strands",
+        "It cuts out the entire gene",
+        "It only works in plants",
+        "It uses lasers to modify DNA"
+      ],
+      "answer": 1,
+      "explanation": "这是碱基编辑的核心优势。它携带一种特殊的酶（脱氨酶），直接在DNA链上进行化学修饰（如将胞嘧啶脱氨变成尿嘧啶），从而避免了切断DNA骨架带来的风险。",
+      "explanation_en": "This is the core advantage. It carries a special enzyme (deaminase) that performs chemical modification directly on the DNA strand (like deaminating Cytosine to Uracil), avoiding the risks of cutting the DNA backbone."
+    }
+  }

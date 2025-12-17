@@ -1,0 +1,151 @@
+{
+    "id": "semmelweis_handwashing_1847",
+    "personId": "ignaz_semmelweis",
+    "title": "发现“洗手”的重要性 (预防产褥热)",
+    "title_en": "Discovers the Importance of Handwashing (Preventing Puerperal Fever)",
+    "year": 1847,
+    "lat": 48.2082,
+    "lng": 16.3738,
+    "city": "维也纳 (维也纳总医院)",
+    "city_en": "Vienna (Vienna General Hospital)",
+    "country": "奥地利帝国 (今奥地利)",
+    "country_en": "Austrian Empire (Modern Austria)",
+    "storyline_id": ["micro_story"],
+    "field": ["医学"],
+    "field_en": ["Medicine"],
+    
+    "media": {
+      "event_image": "assets/images/handwashing.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=kFGAES-G3wA",
+        "title": "为什么发现洗手能救命的医生最后进了精神病院?",
+        "title_en": "Why Doctor Who Discovered Hand Washing Ended Up In A Mental Institution",
+        "duration": "11:40"
+      }
+    },
+    
+    "summary": {
+      "text": "1847年，匈牙利产科医生伊格纳兹·塞梅尔维斯（Ignaz Semmelweis）在维也纳总医院工作时，发现了一个惊人的规律：由医生和医学生负责接生的“第一诊所”，产妇死于“产褥热”（Childbed Fever）的比例高达18%，而由助产士负责的“第二诊所”死亡率仅为2%。他推断，这是因为医生们在做完尸体解剖后直接去接生，手上传播了“尸体微粒”(Cadaverous Particles)。他强制医生使用“氯石灰溶液”（漂白粉）洗手，结果死亡率奇迹般地降到了1%左右。尽管成效显著，他的理论却遭到了当时医学界的猛烈抨击和排挤。",
+      "text_en": "In 1847, Hungarian obstetrician Ignaz Semmelweis, working at Vienna General Hospital, noticed a shocking pattern: the 'First Clinic', run by doctors and students, had a maternal mortality rate of up to 18% from 'puerperal fever', while the 'Second Clinic', run by midwives, had only 2%. He deduced that doctors were carrying 'cadaverous particles' on their hands from autopsies directly to the delivery room. He mandated handwashing with a 'chlorine lime solution', and the mortality rate miraculously dropped to ~1%. Despite this success, his theory was violently attacked and rejected by the medical establishment.",
+      "key_points": [
+        "发现“洗手”可以预防疾病传播",
+        "识别出“尸体微粒”(Cadaverous Particles) 是传染源",
+        "将产妇死亡率从 18% 降至 1%",
+        "现代“感染控制”和“消毒”的先驱",
+        "遭遇“塞梅尔维斯反射”(Semmelweis Reflex)（拒绝新知识）"
+      ],
+      "key_points_en": [
+        "Discovered 'Handwashing' prevents disease transmission",
+        "Identified 'Cadaverous Particles' as the source of infection",
+        "Reduced maternal mortality from 18% to 1%",
+        "Pioneer of modern 'Infection Control' and 'Antiseptics'",
+        "Victim of the 'Semmelweis Reflex' (rejection of new knowledge)"
+      ]
+    },
+  
+    "story": {
+      "text": "塞梅尔维斯的突破源于一场悲剧。他的好朋友兼同事 Jakob Kolletschka 在解剖尸体时不慎割伤手指，死于败血症。塞梅尔维斯注意到，科勒奇卡的验尸报告显示的病理特征，与死于产褥热的妇女完全一致。他顿悟了：一定是某种“尸体物质”进入了血液。当时还没有“细菌”的概念，医生们认为那是“瘴气”（坏空气）。塞梅尔维斯在病房门口放了一盆刺鼻的氯水，命令每个医生必须洗手直到闻不到尸臭味。死亡率立即暴跌。然而，傲慢的维也纳医生们感到被侮辱了（“医生的手是神圣的，怎么会脏？”），他们嘲笑他，最终迫使他离开了维也纳。",
+      "text_en": "Semmelweis's breakthrough came from tragedy. His friend and colleague, Jakob Kolletschka, died of sepsis after accidentally cutting his finger during an autopsy. Semmelweis noticed that Kolletschka's autopsy revealed the *exact same* pathology as the women dying of childbed fever. He had an epiphany: it must be 'cadaverous matter' entering the bloodstream. There was no concept of 'bacteria' yet; doctors blamed 'miasma' (bad air). Semmelweis placed a basin of pungent chlorine water at the ward entrance and ordered every doctor to wash until the smell of death was gone. Mortality plummeted. However, the arrogant Viennese doctors felt insulted ('A gentleman's hands are clean'), ridiculed him, and eventually forced him out of Vienna.",
+      "diagram": "assets/images/semmelweis.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "😢",
+        "text": "塞梅尔维斯的结局极具讽刺意味：他被关进了精神病院，并在那里被警卫殴打，伤口感染引发败血症而死——这正是他一生致力于预防的那种死法。",
+        "text_en": "Semmelweis's end was tragically ironic: he was committed to an insane asylum, where he was beaten by guards and died of sepsis from an infected wound—the very condition he spent his life trying to prevent."
+      },
+      {
+        "icon": "🧠",
+        "text": "心理学上有一个术语叫“塞梅尔维斯反射”(Semmelweis Reflex)，专门形容那种“因为现有观念根深蒂固而自动拒绝新证据”的现象。",
+        "text_en": "There is a psychological term called the 'Semmelweis Reflex', describing the automatic rejection of new evidence because it contradicts established norms."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在人们知道“细菌”之前，塞梅尔维斯就发现了一个可怕的秘密：医生是杀手。他发现，那些刚刚解剖完尸体的医生，如果不洗手就去接生，会让妈妈们生病死掉。\n虽然他看不见细菌，但他猜到那是某种“脏东西”。\n他强迫大家用漂白水洗手，结果救了无数人的命。但当时的医生不相信“看不见的东西”会杀人，还觉得他在侮辱医生的清洁，所以大家都排挤他。",
+      "text_en": "Before people knew about 'germs', Semmelweis found a scary secret: Doctors were killers. He found that doctors who delivered babies right after dissecting corpses were making the mothers sick and die.\nEven though he couldn't see the bacteria, he guessed it was some kind of 'poison'.\nHe forced everyone to wash hands with bleach, and it saved countless lives. But doctors back then didn't believe 'invisible things' could kill and felt insulted, so they ostracized him.",
+      "diagram": "assets/images/semmelweis_handwashing.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🏥",
+          "title": "医院卫生",
+          "title_en": "Hospital Hygiene",
+          "text": "“洗手”现在是全球医疗卫生的第一准则，是防止医院内感染（医源性感染）的最有效手段。",
+          "text_en": "'Handwashing' is now the number one rule in global healthcare, the most effective way to prevent hospital-acquired (iatrogenic) infections."
+        },
+        {
+          "icon": "🧼",
+          "title": "消毒灭菌",
+          "title_en": "Sterilization",
+          "text": "他是使用化学物质（氯）进行医疗消毒的先驱，这直接导向了后来的李斯特（Lister）无菌手术。",
+          "text_en": "He was a pioneer in using chemicals (chlorine) for medical sterilization, leading directly to Lister's antiseptic surgery."
+        }
+      ],
+  
+    "impact": {
+      "text": "塞梅尔维斯被称为“母亲的救星”(Savior of Mothers)。虽然他在世时是个悲剧人物，但他的工作为“细菌理论”（Germ Theory）铺平了道路。巴斯德（Pasteur）和李斯特（Lister）后来证实了他的理论是正确的：看不见的微生物确实是致病原因。他开启了现代流行病学和感染控制的时代。",
+      "text_en": "Semmelweis is known as the 'Savior of Mothers'. Though a tragic figure in life, his work paved the way for the 'Germ Theory'. Pasteur and Lister later proved him right: invisible microbes *were* the cause of disease. He inaugurated the era of modern epidemiology and infection control.",
+      "stats": [
+          {
+            "number": "18%",
+            "label": "降至 1% (死亡率)",
+            "label_en": "dropped to 1% (Mortality Rate)"
+          },
+          {
+            "number": "1847",
+            "label": "年 (洗手令)",
+            "label_en": "Year (Washing Mandate)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ancient_miasma_theory_BC400",
+          "contribution": "瘴气理论（当时的主流医学观点，是塞梅尔维斯必须对抗的错误理论）",
+          "contribution_en": "Miasma Theory (the dominant medical view of the time, which Semmelweis had to fight against)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "路易·巴斯德（其细菌理论最终提供了塞梅尔维斯所需的“生物学解释”：尸体微粒就是细菌）",
+          "contribution_en": "Louis Pasteur (his Germ Theory finally provided the 'biological explanation' Semmelweis needed: the particles were bacteria)"
+        },
+        {
+          "id": "lister_antisepsis_1867",
+          "contribution": "约瑟夫·李斯特（受巴斯德启发，并在塞梅尔维斯精神的延续下，发明了外科消毒法）",
+          "contribution_en": "Joseph Lister (inspired by Pasteur and in the spirit of Semmelweis, invented antiseptic surgery)"
+        }
+      ],
+      "legacy_text": "塞梅尔维斯是第一个教导医生“先洗手，再救人”的人。",
+      "legacy_text_en": "Semmelweis was the first to teach doctors: 'Wash your hands, then save the patient.'"
+    },
+  
+    "related_concepts": ["产褥热 (Puerperal Fever)", "洗手 (Handwashing)", "尸体微粒 (Cadaverous Particles)", "塞梅尔维斯反射 (Semmelweis Reflex)", "医源性感染 (Iatrogenic Infection)", "流行病学 (Epidemiology)"],
+    "related_concepts_en": ["Puerperal Fever", "Handwashing", "Cadaverous Particles", "Semmelweis Reflex", "Iatrogenic Infection", "Epidemiology"],
+  
+    "quiz": {
+      "question": "当时的医学界为什么强烈反对塞梅尔维斯的“洗手”建议？",
+      "question_en": "Why did the medical community at the time strongly reject Semmelweis's advice to 'wash hands'?",
+      "options": [
+        "因为洗手液太贵了",
+        "因为他们认为疾病是由“瘴气”（坏空气）引起的，且认为指责医生的手“脏”是一种侮辱",
+        "因为洗手会浪费太多时间",
+        "因为他们已经有更好的抗生素了"
+      ],
+      "options_en": [
+        "Because soap was too expensive",
+        "Because they believed disease was caused by 'miasma' (bad air) and felt insulted that a doctor's hands could be 'dirty'",
+        "Because washing hands took too much time",
+        "Because they already had better antibiotics"
+      ],
+      "answer": 1,
+      "explanation": "这是科学史上最著名的认知偏见案例之一。医生们不仅受限于错误的“瘴气理论”，更受到社会地位观念的束缚——绅士的手怎么可能传播死亡？这种对新证据的非理性拒绝被称为“塞梅尔维斯反射”。",
+      "explanation_en": "This is one of the most famous cases of cognitive bias in science. Doctors were bound not only by the wrong 'Miasma Theory' but by social status—how could a gentleman's hands spread death? This irrational rejection of new evidence is called the 'Semmelweis Reflex'."
+    }
+  }

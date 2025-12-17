@@ -1,0 +1,151 @@
+{
+    "id": "ebay_launch_1995",
+    "personId": ["pierre_omidyar"],
+    "title": "eBay上线 (C2C电商模式的确立)",
+    "title_en": "Launch of eBay (Establishment of C2C E-commerce)",
+    "year": 1995,
+    "lat": 37.2969,
+    "lng": -121.9169,
+    "city": "圣何塞 (皮埃尔的客厅)",
+    "city_en": "San Jose (Pierre's Living Room)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["商业", "互联网"],
+    "field_en": ["Business", "Internet"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=X1F6H11YxlU",
+        "title": "从想法到价值数十亿美元的品牌的诞生：eBay的故事",
+        "title_en": "From an idea to a brand worth billions| The Story of eBay",
+        "duration": "7:23"
+      }
+    },
+    
+    "summary": {
+      "text": "1995年9月3日（劳动节周末），28岁的程序员皮埃尔·奥米迪亚在加州圣何塞的家中编写了一个简单的拍卖网站代码，最初命名为“AuctionWeb”。他的初衷并非建立商业帝国，而是为了实验“完美市场理论”——一个所有人都拥有平等信息和权利的市场。网站上卖出的第一件物品是一支坏掉的激光笔（成交价14.83美元）。AuctionWeb后来更名为eBay，迅速成为了全球最大的在线跳蚤市场，证明了通过互联网建立陌生人之间的信任（C2C模式）是完全可行的。",
+      "text_en": "On September 3, 1995 (Labor Day weekend), 28-year-old programmer Pierre Omidyar wrote the code for a simple auction site in his San Jose home, originally named 'AuctionWeb'. His intention was not to build a business empire, but to experiment with 'Perfect Market Theory'—a market where everyone has equal information and rights. The first item sold on the site was a broken laser pointer (sold for $14.83). AuctionWeb was later renamed eBay and quickly became the world's largest online flea market, proving that establishing trust between strangers via the internet (C2C model) was entirely feasible.",
+      "key_points": [
+        "世界上第一个成功的C2C（消费者对消费者）拍卖网站",
+        "发明了“信用评价体系”（Feedback Loop）来解决信任问题",
+        "最初名为AuctionWeb，1997年改名为eBay",
+        "第一件卖出的商品是坏掉的激光笔",
+        "打破了商家定价的传统，实现了由买家竞价决定价值"
+      ],
+      "key_points_en": [
+        "The world's first successful C2C (Consumer to Consumer) auction site",
+        "Invented the 'Feedback Loop' to solve the trust issue",
+        "Originally named AuctionWeb, renamed eBay in 1997",
+        "The first item sold was a broken laser pointer",
+        "Broke the tradition of seller pricing, allowing value to be determined by buyer bidding"
+      ]
+    },
+  
+    "story": {
+      "text": "皮埃尔最初把AuctionWeb作为他个人主页的一部分，托管在他每月的30美元的网络服务费里。当第一件商品——那支坏掉的激光笔以14.83美元卖出时，皮埃尔甚至怀疑买家是不是点错了。他发邮件确认：“你明白这支激光笔是坏的吧？”买家回复：“我是个专门收集坏掉激光笔的收藏家。”这句话让皮埃尔意识到，互联网可以让任何稀奇古怪的需求找到供给。随着流量暴增，网络服务商要求他升级到更贵的商业套餐，皮埃尔不得不开始对每笔交易收取小额佣金，结果他在第一个月收到的支票堆满了厨房的桌子，金额远超他的工资。",
+      "text_en": "Pierre originally hosted AuctionWeb as part of his personal homepage, covered by his $30/month ISP fee. When the first item—that broken laser pointer—sold for $14.83, Pierre suspected the buyer had made a mistake. He emailed to confirm: 'You understand that this laser pointer is broken, right?' The buyer replied: 'I'm a collector of broken laser pointers.' This reply made Pierre realize that the internet could match supply with any bizarre demand. As traffic exploded, his ISP forced him to upgrade to a business plan, so Pierre had to start charging a small commission on transactions. The checks he received in the first month piled up on his kitchen table, totaling far more than his salary.",
+      "diagram": "assets/images/broken_laser_pointer.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🍬",
+        "text": "有一个著名的公关故事说，皮埃尔创办eBay是为了帮未婚妻交换Pez糖果盒。这其实是后来为了吸引媒体编造的“温馨故事”，因为媒体觉得“为了验证完美市场经济理论”这个理由太枯燥了。",
+        "text_en": "There is a famous PR story that Pierre started eBay to help his fiancée trade Pez dispensers. This was actually a 'sweet story' fabricated later to attract media, as they found the real reason—'to validate perfect market theory'—too boring."
+      },
+      {
+        "icon": "NAME",
+        "text": "皮埃尔本来想把网站改名为“Echo Bay”（回声湾），因为觉得这个名字很酷。但这已被一家金矿公司注册了，所以他只好缩短为“eBay”。",
+        "text_en": "Pierre originally wanted to rename the site 'Echo Bay' because he thought it sounded cool. But that was already taken by a gold mining company, so he shortened it to 'eBay'."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在eBay之前，如果你想卖掉家里的旧吉他，你只能搞个车库甩卖，只有路过的邻居能看到。\neBay把这个车库甩卖搬到了网上，让全世界的人都能来出价。\n它把“旧货”变成了“现金”，把“垃圾”变成了“收藏品”。",
+      "text_en": "Before eBay, if you wanted to sell an old guitar, you had to hold a garage sale, and only neighbors walking by could see it.\neBay moved this garage sale online, letting people from all over the world bid on it.\nIt turned 'junk' into 'cash' and 'trash' into 'collectibles'.",
+      "diagram": "assets/images/ebay_listing.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚖️",
+          "title": "拍卖机制 (Auction)",
+          "title_en": "Auction Mechanism",
+          "text": "引入了自动代理出价系统，让用户不需要24小时守在电脑前也能参与竞拍。",
+          "text_en": "Introduced an automatic proxy bidding system, allowing users to participate in auctions without sitting in front of the computer 24/7."
+        },
+        {
+          "icon": "⭐",
+          "title": "信用评价 (Feedback)",
+          "title_en": "Feedback System",
+          "text": "这是eBay最伟大的发明之一。通过公开的买卖双方互评，它在匿名的互联网上建立了可量化的信任体系。",
+          "text_en": "One of eBay's greatest inventions. Through public mutual reviews between buyers and sellers, it established a quantifiable trust system on the anonymous internet."
+        }
+      ],
+  
+    "impact": {
+      "text": "eBay的成功证明了C2C（个人对个人）电子商务模式的巨大潜力。它不仅创造了一个全新的经济领域，还通过其反馈系统解决了互联网上最棘手的问题——“信任”。2002年，eBay收购了PayPal，进一步完善了在线支付闭环。虽然在后来的B2C大战中（面对Amazon）略显疲态，但它作为互联网拍卖鼻祖的地位不可动摇。",
+      "text_en": "eBay's success proved the massive potential of the C2C (Consumer to Consumer) e-commerce model. It not only created a brand new economic sector but also solved the trickiest problem on the internet—'Trust'—through its feedback system. In 2002, eBay acquired PayPal, further completing the online payment loop. Although it later lagged in the B2C war (against Amazon), its status as the pioneer of online auctions is unshakable.",
+      "stats": [
+          {
+            "number": "14.83",
+            "label": "美元 (第一笔交易额)",
+            "label_en": "USD (First Sale Amount)"
+          },
+          {
+            "number": "0",
+            "label": "美元 (最初广告预算)",
+            "label_en": "USD (Initial Ad Budget)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "amazon_founding_1994",
+          "contribution": "Amazon（贝佐斯早一年的成功证明了在线卖东西是可行的，给了后来者信心）",
+          "contribution_en": "Amazon (Bezos's success a year earlier proved that selling things online was feasible, giving confidence to followers)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "paypal_founding_1998",
+          "contribution": "PayPal（PayPal早期的主要增长动力来自eBay用户，最终导致两者合并）",
+          "contribution_en": "PayPal (PayPal's early growth was primarily driven by eBay users, eventually leading to their merger)"
+        },
+        {
+          "id": "alibaba_founding_1999",
+          "contribution": "淘宝 (Taobao)（淘宝起家就是模仿eBay模式，并在中国市场上通过免费策略击败了eBay易趣）",
+          "contribution_en": "Taobao (Taobao started by mimicking the eBay model and defeated eBay EachNet in the Chinese market through a free-of-charge strategy)"
+        }
+      ],
+      "legacy_text": "它证明了你可以信任一个素未谋面的陌生人。",
+      "legacy_text_en": "It proved that you could trust a stranger you had never met."
+    },
+  
+    "related_concepts": ["C2C电子商务", "拍卖理论", "长尾市场", "网络效应", "狙击手 (Sniping)"],
+    "related_concepts_en": ["C2C E-commerce", "Auction Theory", "Long Tail Market", "Network Effect", "Sniping"],
+  
+    "quiz": {
+      "question": "eBay上卖出的第一件物品是什么？",
+      "question_en": "What was the first item sold on eBay?",
+      "options": [
+        "一个Pez糖果盒",
+        "一本旧漫画书",
+        "一支坏掉的激光笔",
+        "一台二手打印机"
+      ],
+      "options_en": [
+        "A Pez dispenser",
+        "An old comic book",
+        "A broken laser pointer",
+        "A used printer"
+      ],
+      "answer": 2,
+      "explanation": "这支坏掉的激光笔被马克·弗雷泽以14.83美元买走。当被问及为何买坏的东西时，他表示自己是一个坏掉激光笔的收藏家。",
+      "explanation_en": "The broken laser pointer was bought by Mark Fraser for $14.83. When asked why he bought a broken item, he stated he was a collector of broken laser pointers."
+    }
+  }

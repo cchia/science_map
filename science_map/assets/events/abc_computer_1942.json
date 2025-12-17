@@ -1,0 +1,144 @@
+{
+    "id": "abc_computer_1942",
+    "personId": ["john_atanasoff", "clifford_berry"],
+    "title": "发明阿塔纳索夫-贝里计算机 (被遗忘的电子先驱)",
+    "title_en": "Invention of the Atanasoff-Berry Computer (The Forgotten Electronic Pioneer)",
+    "year": 1942,
+    "lat": 42.0266,
+    "lng": -93.6465,
+    "city": "埃姆斯 (爱荷华州立学院)",
+    "city_en": "Ames (Iowa State College)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story"],
+    "field": ["计算机科学", "物理学"],
+    "field_en": ["Computer Science", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Atanasoff-Berry_Computer_at_Durhum_Center.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=3i4JCnDP0Ms",
+        "title": "阿塔纳索夫-贝里计算机：第一台电子计算机",
+        "title_en": "The ABCs of Computing: Unveiling the Atanasoff-Berry Computer",
+        "duration": "1:00"
+      }
+    },
+    
+    "summary": {
+      "text": "1942年，在爱荷华州立学院（现爱荷华州立大学）的物理楼地下室，物理学教授约翰·文森特·阿塔纳索夫（John Vincent Atanasoff）和他的研究生克利福德·贝里（Clifford Berry）完成了“阿塔纳索夫-贝里计算机”（ABC）。这是世界上第一台“自动电子数字计算机”。尽管它不是通用的（只能解线性方程组），也不可编程（不可运行不同软件），但它确立了现代计算机的几个关键原则：使用二进制进行运算（而非ENIAC的十进制）、使用电子开关（真空管）而非机械齿轮、以及将计算功能与存储功能分离。由于二战爆发和专利申请失误，ABC在很长一段时间内被历史遗忘，直到1973年的一场著名官司才在法律上确立了其“现代计算机始祖”的地位。",
+      "text_en": "In 1942, in the basement of the Physics Building at Iowa State College (now Iowa State University), physics professor John Vincent Atanasoff and his graduate student Clifford Berry completed the 'Atanasoff-Berry Computer' (ABC). This was the world's first 'automatic electronic digital computer'. Although it was not general-purpose (it could only solve systems of linear equations) and not programmable, it established several key principles of modern computing: using binary arithmetic (unlike ENIAC's decimal), using electronic switches (vacuum tubes) instead of mechanical gears, and separating computation from memory. Due to the outbreak of WWII and patenting errors, the ABC was largely forgotten by history until a famous 1973 lawsuit legally established its status as the 'ancestor of modern computers'.",
+      "key_points": [
+        "世界上第一台电子数字计算机",
+        "率先使用二进制算术 (Binary Arithmetic)",
+        "使用再生电容存储器 (DRAM的前身)",
+        "将内存与运算器分离",
+        "1973年法院判决确认其优先于ENIAC的发明地位"
+      ],
+      "key_points_en": [
+        "World's first electronic digital computer",
+        "Pioneered the use of Binary Arithmetic",
+        "Used regenerative capacitor memory (Precursor to DRAM)",
+        "Separated memory from the arithmetic unit",
+        "1973 court ruling confirmed its priority over ENIAC"
+      ]
+    },
+  
+    "story": {
+      "text": "ABC的诞生源于一次“借酒浇愁”。1937年冬夜，阿塔纳索夫因为解不出复杂的物理方程而感到沮丧。他跳上福特V8汽车，以每小时130公里的速度狂飙，跨越州界开到了伊利诺伊州的一家路边酒馆。在喝了一两杯波旁威士忌后，他的大脑突然清晰起来。他在餐巾纸上草草写下了四个想法：1.用电而不是机械；2.用二进制而不是十进制；3.使用电容器作为存储器，并像人类记忆一样不断“刷新”它；4.直接进行逻辑运算而不是模拟计数。这四个想法构成了今天所有计算机的骨架。",
+      "text_en": "The birth of the ABC stemmed from a moment of 'drowning sorrows'. On a winter night in 1937, Atanasoff, frustrated by complex physics equations he couldn't solve, jumped into his Ford V8 and sped at 80 mph across the state line to a roadhouse in Illinois. After a drink or two of bourbon, his mind suddenly cleared. He scribbled four ideas on a cocktail napkin: 1. Use electricity, not mechanics; 2. Use binary, not decimal; 3. Use capacitors for memory and constantly 'refresh' them like human memory; 4. Compute by direct logic, not enumeration. These four ideas form the skeleton of all computers today.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/93/Atanasoff-Berry_add-subtract_module.agr.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "⚖️",
+        "text": "虽然ENIAC长期被认为是第一台计算机，但在1973年著名的“霍尼韦尔诉斯佩里兰德”案中，联邦法官裁定ENIAC的专利无效，因为莫奇利曾参观过ABC并“借鉴”了阿塔纳索夫的关键想法。法律上，ABC才是第一。",
+        "text_en": "Although ENIAC was long considered the first computer, in the famous 1973 case 'Honeywell v. Sperry Rand', a federal judge voided the ENIAC patent because Mauchly had visited the ABC and 'borrowed' key ideas from Atanasoff. Legally, ABC is the first."
+      },
+      {
+        "icon": "🔥",
+        "text": "ABC的命运非常悲惨。二战期间，阿塔纳索夫被征召去海军实验室，这台机器被遗弃在地下室。后来，学校为了腾地方，竟然把它拆了，当成废铜烂铁给扔了。现在的ABC只是复制品。",
+        "text_en": "The ABC met a tragic fate. During WWII, Atanasoff was called to the Naval Ordnance Laboratory, and the machine was abandoned in the basement. Later, the university dismantled it and scrapped it for parts just to make space. The ABC we see today is a replica."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "如果ENIAC是能够做任何菜的“全能大厨”，那么ABC就是一个专门切土豆的“自动切片机”。\nABC只能解一种数学题（线性方程组），不能编程干别的。\n但是，它证明了用电子管（电）来切土豆比用手（机械）快得多，而且它发明了怎么用电来“记住”土豆切到哪儿了（内存）。这些技术后来都被那个“大厨”学去了。",
+      "text_en": "If ENIAC was a 'Master Chef' who could cook any dish, the ABC was a specialized 'Automatic Slicer'.\nThe ABC could only solve one type of math problem (linear equations) and couldn't be programmed for anything else.\nHowever, it proved that using vacuum tubes (electricity) to slice was much faster than by hand (mechanics), and it invented a way to use electricity to 'remember' the progress (memory). These technologies were later adopted by the 'Master Chef'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atanasoff_Berry_Computer.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "📐",
+          "title": "求解线性方程组",
+          "title_en": "Solving Linear Equations",
+          "text": "它专为解决物理学中拥有多达29个未知数的复杂方程组而设计，这在当时人工计算几乎是不可能的。",
+          "text_en": "Designed specifically to solve complex systems of linear equations with up to 29 variables, which was nearly impossible to calculate by hand at the time."
+        }
+      ],
+  
+    "impact": {
+      "text": "ABC是计算机历史上的“无名英雄”。虽然它本身没有像ENIAC那样被广泛使用，但它验证了电子数字计算的可行性。特别是它使用的“再生电容存储器”（电容器会漏电，必须定期充电刷新），正是今天每一台电脑中内存条（DRAM）的工作原理。如果阿塔纳索夫当时申请了专利，计算机历史可能会被改写。",
+      "text_en": "The ABC is the 'unsung hero' of computer history. While not widely used like ENIAC, it validated the feasibility of electronic digital computing. Specifically, its 'regenerative capacitor memory' (capacitors leak and must be refreshed) is the exact operating principle of the DRAM in every computer today. If Atanasoff had patented it, computer history might have been rewritten.",
+      "stats": [
+          {
+            "number": "1942",
+            "label": "年 (完成)",
+            "label_en": "Year (Completed)"
+          },
+          {
+            "number": "300",
+            "label": "个 (真空管数量)",
+            "label_en": "Vacuum Tubes"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "leibniz_binary_1703",
+          "contribution": "莱布尼茨（阿塔纳索夫在酒馆顿悟时，决定放弃通常的十进制，转而采用莱布尼茨的二进制）",
+          "contribution_en": "Gottfried Wilhelm Leibniz (During his roadhouse epiphany, Atanasoff decided to abandon the usual decimal system in favor of Leibniz's binary)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "eniac_computer_1945",
+          "contribution": "ENIAC（莫奇利曾在1941年拜访阿塔纳索夫并在他家住了5天，详细研究了ABC，这对ENIAC的设计产生了直接影响）",
+          "contribution_en": "ENIAC (Mauchly visited Atanasoff in 1941, stayed for 5 days, and studied the ABC in detail, which directly influenced ENIAC's design)"
+        },
+        {
+          "id": "dram_memory",
+          "contribution": "DRAM内存（ABC的电容刷新机制是现代动态随机存取存储器的鼻祖）",
+          "contribution_en": "DRAM Memory (ABC's capacitor refresh mechanism is the ancestor of modern Dynamic Random Access Memory)"
+        }
+      ],
+      "legacy_text": "它在地下室里沉默了30年，才在法庭上赢回了自己的名字。",
+      "legacy_text_en": "It remained silent in a basement for 30 years before winning back its name in court."
+    },
+  
+    "related_concepts": ["二进制 (Binary)", "DRAM", "真空管", "线性方程组", "ENIAC专利案"],
+    "related_concepts_en": ["Binary", "DRAM", "Vacuum Tube", "Linear Equations", "ENIAC Patent Case"],
+  
+    "quiz": {
+      "question": "1973年，法官在一项具有里程碑意义的判决中剥夺了ENIAC的专利权，并认定哪台机器才是“第一台电子数字计算机”？",
+      "question_en": "In a landmark 1973 ruling, a judge voided the ENIAC patent and declared which machine to be the 'first electronic digital computer'?",
+      "options": [
+        "Colossus (巨人机)",
+        "Z3",
+        "阿塔纳索夫-贝里计算机 (ABC)",
+        "哈佛马克一号 (Mark I)"
+      ],
+      "options_en": [
+        "Colossus",
+        "Z3",
+        "Atanasoff-Berry Computer (ABC)",
+        "Harvard Mark I"
+      ],
+      "answer": 2,
+      "explanation": "法官Earl Larson裁定，ENIAC的主要设计者莫奇利从阿塔纳索夫那里通过不正当手段获取了电子计算的关键概念，因此认定ABC才是真正的第一台。",
+      "explanation_en": "Judge Earl Larson ruled that ENIAC's lead designer Mauchly had derived key concepts of electronic computing from Atanasoff, thus declaring the ABC as the true first."
+    }
+  }

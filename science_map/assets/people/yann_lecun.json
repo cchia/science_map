@@ -1,0 +1,10 @@
+{
+    "name": "杨立昆",
+    "name_en": "Yann LeCun",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Yann_LeCun_-_2018_%28cropped%29.jpg/640px-Yann_LeCun_-_2018_%28cropped%29.jpg",
+    "bio_short": "法裔美国计算机科学家，2018年图灵奖得主，现任Meta首席AI科学家（Chief AI Scientist）。他与Geoffrey Hinton和Yoshua Bengio并称为“深度学习三巨头”。作为卷积神经网络（CNN）之父，他在80年代贝尔实验室工作期间，坚持在“AI寒冬”中研究神经网络，开发了LeNet系统，为现代计算机视觉奠定了基础。他性格直率，经常在社交媒体上与炒作AI威胁论的观点进行辩论，主张AI应向“世界模型”（World Models）方向发展。",
+    "bio_short_en": "French-American computer scientist, 2018 Turing Award laureate, and currently Chief AI Scientist at Meta. Together with Geoffrey Hinton and Yoshua Bengio, he is known as one of the 'Godfathers of Deep Learning'. As the father of Convolutional Neural Networks (CNNs), he persisted in neural network research during the 'AI Winter' while at Bell Labs in the 80s, developing the LeNet system which laid the foundation for modern computer vision. Known for his outspoken nature, he frequently debates against AI doomerism and advocates for 'World Models' as the future of AI.",
+    "events": [
+      "lenet_1989"
+    ]
+  }

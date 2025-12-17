@@ -1,13 +1,151 @@
 {
-    "id": "cavendish_experiment_1798",
-    "title": "卡文迪许扭秤实验",
-    "title_en": "Cavendish Experiment",
-    "year": 1798,
-    "lat": 51.46,
-    "lng": -0.14,
-    "city": "伦敦",
-    "city_en": "London",
-    "field": ["物理学"],
-    "storyline_ids": ["gravity_story"],
-    "is_stub": true
+  "id": "cavendish_experiment_1798",
+  "personId": "henry_cavendish",
+  "title": "测量地球密度 (卡文迪许实验)",
+  "title_en": "Measures the Density of the Earth (The Cavendish Experiment)",
+  "year": 1798,
+  "lat": 51.4613,
+  "lng": -0.1374,
+  "city": "伦敦 (克拉珀姆)",
+  "city_en": "London (Clapham)",
+  "country": "英国",
+  "country_en": "United Kingdom",
+  "storyline_ids": ["gravity_story"],
+  "field": ["物理学", "地球物理学"],
+  "field_en": ["Physics", "Geophysics"],
+  
+  "media": {
+    "event_image": "assets/images/cavendish_experiment.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=5q6LpmxZPdE",
+      "title": "称量地球: 卡文迪许实验",
+      "title_en": "Weighing the Earth: The Cavendish Experiment",
+      "duration": "10:53"
+    }
+  },
+  
+  "summary": {
+    "text": "1798年，英国科学家亨利·卡文迪许（Henry Cavendish）进行了著名的“卡文迪许实验”。这是人类历史上第一次在实验室中测量两个物体之间的微弱引力。通过使用一个极其灵敏的“扭秤”(Torsion Balance)，他成功测量了铅球之间的引力，从而计算出了地球的平均密度（进而推算出了地球的质量）。这项实验后来也被视为对“万有引力常数”(G) 的首次测量。",
+    "text_en": "In 1798, British scientist Henry Cavendish performed the famous 'Cavendish experiment'. It was the first time in history that the tiny force of gravity between two masses was measured in a laboratory. Using an incredibly sensitive 'torsion balance', he successfully measured the attraction between lead spheres to calculate the 'Density of the Earth' (and subsequently its mass). This experiment is also retrospectively viewed as the first measurement of the 'Gravitational Constant' (G).",
+    "key_points": [
+      "第一次在实验室测量引力",
+      "测量了地球的密度 (5.448 g/cm³)",
+      "推算出了地球的质量",
+      "使用了“扭秤”(Torsion Balance)",
+      "确定了万有引力常数 G 的数值（间接）"
+    ],
+    "key_points_en": [
+      "First laboratory measurement of gravity",
+      "Measured the Density of the Earth (5.448 g/cm³)",
+      "Calculated the Mass of the Earth",
+      "Used a 'Torsion Balance'",
+      "Determined the value of Big G (indirectly)"
+    ]
+  },
+
+  "story": {
+    "text": "这个实验的设备最初是由约翰·米歇尔（John Michell）设计的，但他去世前未能完成。卡文迪许继承并改进了这个装置。实验极其困难，因为铅球之间的引力非常微弱（大约只有一颗沙子重量的1/50000），任何微小的气流或震动都会破坏测量。为了消除干扰，卡文迪许将装置放在一个封闭的房间里，自己则在另一个房间通过望远镜观测。他测量了两个大铅球如何通过引力吸引两个小铅球，使悬挂它们的金属丝发生极其微小的“扭转”。他的测量结果精确得惊人，与现代数值的误差仅为1%左右。",
+    "text_en": "The apparatus was originally designed by John Michell, who died before using it. Cavendish inherited and refined it. The experiment was excruciatingly difficult because the gravitational force between the lead balls was tiny (about 1/50,000 the weight of a grain of sand). Any air current or vibration would ruin it. To isolate the device, Cavendish placed it in a sealed room and observed it from outside through a telescope. He measured how two large lead spheres attracted two small ones, causing the wire holding them to 'twist' slightly. His precision was astounding, coming within 1% of the modern value.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Cavendish_Experiment.png"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🤐",
+      "text": "卡文迪许是历史上最孤僻、最害羞的科学家之一。他几乎不与人说话（甚至通过留便条与女管家沟通），且极少发表论文。他许多伟大的电学发现是在他死后几十年才被麦克斯韦在手稿中发现的。",
+      "text_en": "Cavendish was one of the most reclusive and shy scientists in history. He barely spoke to anyone (communicating with his female servants via notes) and rarely published. Many of his great electrical discoveries were only found in his notes by Maxwell decades after his death."
+    },
+    {
+      "icon": "⚖️",
+      "text": "这被称为“称量地球”的实验。卡文迪许在论文标题中写的是“测量地球密度”，而不是测量“G”，因为那时“G”还不是物理公式中的标准符号。",
+      "text_en": "This is known as the experiment that 'Weighed the Earth'. Cavendish titled his paper 'Measuring the Density of the Earth', not 'Measuring G', as G was not yet a standard symbol in physics equations."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "牛顿（`newton_gravity_1687`）告诉我们“万物都有引力”。这意味着你桌子上的铅笔和橡皮之间也有引力，但它太弱了，你根本感觉不到。\n卡文迪许建造了一个极其灵敏的“秋千”（扭秤），上面挂着两个小铅球。当他把两个巨大的大铅球靠近小铅球时，大球真的把小球“吸”了过去，让秋千发生了一点点转动！\n通过测量这个“转动”的力度，他算出了引力到底有多强。然后，他用这个数据反推：既然这么大的铅球有这么大的引力，那么地球有这么大的引力（重力），地球该有多重？他成功“称”出了地球的重量。",
+    "text_en": "Newton (`newton_gravity_1687`) said 'everything has gravity'. This means your pencil and eraser attract each other, but the force is too weak to feel.\nCavendish built a super-sensitive 'swing' (torsion balance) with two small lead balls. When he brought two giant lead balls near them, the big balls actually *pulled* the small ones, causing the swing to twist!\nBy measuring this twist, he calculated exactly how strong gravity is. He then used this to figure out: if lead balls pull this hard, and the Earth pulls *that* hard (weight), how heavy must the Earth be? He successfully 'weighed the Earth'.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cavendish_experiment_schematic.png"
+  },
+
+  "applications": [
+      {
+        "icon": "🌍",
+        "title": "地球物理学",
+        "title_en": "Geophysics",
+        "text": "通过计算地球的密度（约5.5 g/cm³），卡文迪许证明了地球内部肯定主要由“金属”（铁/镍）组成，而不是岩石（约3 g/cm³）。",
+        "text_en": "By calculating Earth's density (~5.5 g/cm³), Cavendish proved the Earth's interior must be mostly 'metal' (iron/nickel), not rock (~3 g/cm³)."
+      },
+      {
+        "icon": "🚀",
+        "title": "天文学 (计算天体质量)",
+        "title_en": "Astronomy (Weighing Celestial Bodies)",
+        "text": "一旦知道了常数 G，科学家就可以利用轨道周期算出太阳、木星以及银河系中任何天体的质量。",
+        "text_en": "Once the constant 'G' was known, scientists could use orbital periods to calculate the mass of the Sun, Jupiter, and any celestial body."
+      }
+    ],
+
+  "impact": {
+    "text": "卡文迪许实验是精密实验物理学的巅峰之作。它不仅为牛顿的万有引力定律提供了第一个实验室验证，还为人类提供了一把打开宇宙“称重室”的钥匙（万有引力常数 G）。“G”成为了物理学中最基本的常数之一。",
+    "text_en": "The Cavendish experiment is a masterpiece of precision experimental physics. It not only provided the first laboratory verification of Newton's Law of Gravitation but also gave humanity the key to the 'weighing room' of the universe (the Gravitational Constant, G). 'G' became one of the most fundamental constants in physics.",
+    "stats": [
+        {
+          "number": "5.448",
+          "label": "g/cm³ (地球密度)",
+          "label_en": "g/cm³ (Earth's Density)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "newton_gravity_1687",
+        "contribution": "牛顿（其万有引力定律是卡文迪许试图测量和验证的理论基础）",
+        "contribution_en": "Isaac Newton (his Law of Universal Gravitation was the theoretical basis Cavendish sought to measure)"
+      },
+      {
+        "id": "michell_geology_1760",
+        "contribution": "约翰·米歇尔（他是扭秤装置的最初发明者和设计者，卡文迪许继承了他的设备）",
+        "contribution_en": "John Michell (he was the original inventor and designer of the torsion balance; Cavendish inherited his apparatus)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "coulomb_law_1785",
+        "contribution": "库仑（他也使用类似的“扭秤”来测量“静电力”，建立了库仑定律）",
+        "contribution_en": "Charles-Augustin de Coulomb (he also used a similar 'torsion balance' to measure 'electrostatic force', establishing Coulomb's Law)"
+      },
+      {
+        "id": "einstein_general_relativity_1915",
+        "contribution": "爱因斯坦（G是广义相对论场方程中的核心常数）",
+        "contribution_en": "Einstein (Big G is a core constant in the field equations of General Relativity)"
+      }
+    ],
+    "legacy_text": "卡文迪许在一个小房间里，用两个铅球，“称量”了整个地球。",
+    "legacy_text_en": "Cavendish 'weighed the Earth' in a small room using two lead balls."
+  },
+
+  "related_concepts": ["万有引力常数 (G)", "扭秤 (Torsion Balance)", "地球密度", "万有引力", "约翰·米歇尔", "库仑定律"],
+  "related_concepts_en": ["Gravitational Constant (G)", "Torsion Balance", "Density of Earth", "Universal Gravitation", "John Michell", "Coulomb's Law"],
+
+  "quiz": {
+    "question": "卡文迪许实验的主要目的是测量什么？（虽然他实际上间接测出了G）",
+    "question_en": "What was the primary stated goal of the Cavendish experiment? (Though he indirectly measured G)",
+    "options": [
+      "地球的周长",
+      "地球的密度（从而得出地球的质量）",
+      "光的速度",
+      "月球的距离"
+    ],
+    "options_en": [
+      "The circumference of the Earth",
+      "The density of the Earth (and thus its mass)",
+      "The speed of light",
+      "The distance to the Moon"
+    ],
+    "answer": 1,
+    "explanation": "虽然我们现在常说他“测出了G”，但卡文迪许当年的论文题目是《测量地球的密度》。他通过比较实验室中铅球的引力和地球对小球的引力（重力），算出了地球的平均密度。",
+    "explanation_en": "Although we now say he 'measured G', Cavendish's paper was titled 'Measuring the Density of the Earth'. He calculated Earth's average density by comparing the gravitational pull of his lead spheres to the pull of the Earth (gravity)."
   }
+}

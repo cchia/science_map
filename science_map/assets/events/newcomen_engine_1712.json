@@ -10,6 +10,7 @@
     "city_en": "Dudley",
     "country": "英国",
     "country_en": "United Kingdom",
+    "storyline_ids": ["thermo_story"],
     "field": [
         "工程学"
     ],

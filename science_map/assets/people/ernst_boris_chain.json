@@ -1,0 +1,10 @@
+{
+    "name": "恩斯特·鲍里斯·钱恩",
+    "name_en": "Ernst Boris Chain",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Ernst_Boris_Chain_1945.jpg",
+    "bio_short": "德裔英国生物化学家, 1945年诺贝尔生理学或医学奖得主. 作为弗洛里团队的核心化学家, 他攻克了青霉素提纯的化学难题, 使这种抗生素得以临床应用 (`florey_chain_penicillin_1941`).",
+    "bio_short_en": "A German-born British biochemist and 1945 Nobel laureate. As the lead chemist in Florey's team, he overcame the chemical challenges of isolating penicillin, enabling its clinical use (`florey_chain_penicillin_1941`).",
+    "events": [
+      "florey_chain_penicillin_1941"
+    ]
+  }

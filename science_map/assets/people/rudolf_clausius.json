@@ -1,0 +1,11 @@
+{
+    "name": "鲁道夫·克劳修斯",
+    "name_en": "Rudolf Clausius",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Rudolf_Clausius_01.jpg",
+    "bio_short": "德国物理学家，热力学的奠基人之一。他首次明确阐述了热力学第一和第二定律，并引入了“熵”这一核心概念，预言了宇宙的热寂。",
+    "bio_short_en": "A German physicist and a principal founder of thermodynamics. He first stated the basic ideas of the First and Second Laws of Thermodynamics and introduced the concept of 'entropy', predicting the heat death of the universe.",
+    "events": [
+      "clausius_thermodynamics_1850",
+      "heat_death_theory_1867"
+    ]
+  }

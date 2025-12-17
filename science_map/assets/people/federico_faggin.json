@@ -1,0 +1,13 @@
+{
+    "name": "费德里科·法金",
+    "name_en": "Federico Faggin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Federico_Faggin_%28cropped%29.jpg",
+    "bio_short": "意大利物理学家和工程师，微处理器之父。他发明了关键的硅栅技术（SGT），使得微处理器的制造成为可能。他是Intel 4004的首席设计师，后来离开英特尔创立了Zilog公司，开发了传奇的Z80处理器。",
+    "bio_short_en": "Italian physicist and engineer, known as the father of the microprocessor. He invented the critical Silicon Gate Technology (SGT) that made manufacturing microprocessors possible. He was the lead designer of the Intel 4004 and later founded Zilog to create the legendary Z80 processor.",
+    "events": [
+      "silicon_gate_technology_1968",
+      "intel_4004_1971",
+      "intel_8080_1974",
+      "zilog_z80_1976"
+    ]
+  }

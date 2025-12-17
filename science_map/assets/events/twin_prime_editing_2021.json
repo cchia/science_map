@@ -1,0 +1,145 @@
+{
+    "id": "twin_prime_editing_2021",
+    "personId": "david_liu",
+    "title": "发明“双先导编辑” (大片段DNA的插入技术)",
+    "title_en": "Invention of 'Twin Prime Editing' (Technique for Large DNA Insertion)",
+    "year": 2021,
+    "lat": 42.3623,
+    "lng": -71.0907,
+    "city": "剑桥 (布罗德研究所)",
+    "city_en": "Cambridge (Broad Institute of MIT and Harvard)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["基因组工程", "生物技术"],
+    "field_en": ["Genome Engineering", "Biotechnology"],
+    
+    "media": {
+      "event_image": "assets/images/twin_prime_editing.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=MJxEA_ivjb0",
+        "title": "双先导编辑机制",
+        "title_en": "Twin Prime Editing",
+        "duration": "3:48"
+      }
+    },
+    
+    "summary": {
+      "text": "2021年，大卫·刘（David Liu）的团队在先导编辑（`prime_editing_2019`）的基础上，进一步开发了“双先导编辑”（Twin Prime Editing）。虽然原来的先导编辑非常精准，但它很难插入超过100个碱基对的长片段DNA。双先导编辑通过同时使用两个先导编辑向导RNA（pegRNA），分别在DNA的两条链上进行操作，像“两只手”一样协同工作。这使得科学家不仅可以精准删除长达数千个碱基的DNA片段，还可以结合特异性重组酶（如Bxb1），将整个基因（长达数千甚至上万碱基）安全地插入基因组中的特定位置。这解决了基因编辑领域长期以来“难以定点插入大基因”的难题。",
+      "text_en": "In 2021, David Liu's team advanced their Prime Editing technology (`prime_editing_2019`) to create 'Twin Prime Editing'. While original Prime Editing was precise, it struggled to insert DNA fragments longer than 100 base pairs. Twin Prime Editing uses two prime editing guide RNAs (pegRNAs) simultaneously, operating on both strands of DNA like 'two hands' working in coordination. This allows scientists to not only precisely delete DNA segments thousands of bases long but also, when combined with a site-specific recombinase (like Bxb1), safely insert entire genes (thousands of bases long) into specific genomic locations. This solved the long-standing challenge of 'targeted large gene insertion'.",
+      "key_points": [
+        "发明“双先导编辑” (Twin Prime Editing)",
+        "使用两个pegRNA协同工作",
+        "实现了基因组大片段的精准删除、倒位和插入",
+        "结合重组酶 (Recombinase) 可插入整段基因",
+        "突破了原有先导编辑的尺寸限制"
+      ],
+      "key_points_en": [
+        "Invention of 'Twin Prime Editing'",
+        "Uses two pegRNAs working in synergy",
+        "Achieved precise deletion, inversion, and insertion of large genomic fragments",
+        "Can insert entire genes when combined with Recombinase",
+        "Overcame the size limitations of original Prime Editing"
+      ]
+    },
+  
+    "story": {
+      "text": "在发明了先导编辑后，大卫·刘并没有止步。他意识到，虽然我们有了“文字处理器”可以改错别字，但如果我们想往书里插入“一整张图片”或者“一整章内容”（比如一个完整的健康基因），先导编辑就力不从心了，因为它的“小纸条”（pegRNA）带不了那么多信息。\n团队想出了一个聪明的办法：如果不让一个编辑去搬运，而是派两个编辑去呢？他们在DNA的两条链上，面对面地各切一个口子，并各自合成一小段互补的DNA“搭扣”。当这两个搭扣在中间相遇并扣在一起时，就形成了一个稳定的着陆平台。这个平台可以用来直接替换大段DNA，或者作为一个“停机坪”，让携带大基因的飞船（重组酶）降落。这就像是在峡谷两边同时修桥，最后在中间完美合拢。",
+      "text_en": "After inventing Prime Editing, David Liu didn't stop. He realized that while we had a 'word processor' to fix typos, if we wanted to insert a 'whole picture' or a 'whole chapter' (like a complete healthy gene), Prime Editing wasn't strong enough because its 'cheat sheet' (pegRNA) couldn't carry that much info.\nThe team devised a clever solution: Instead of sending one editor, why not send two? They cut nicks on both DNA strands facing each other and synthesized complementary DNA 'flaps' on each side. When these two flaps met in the middle and locked together, they formed a stable landing platform. This platform could be used to directly replace large DNA chunks or serve as a 'helipad' for a spaceship carrying a huge gene (recombinase) to land. It’s like building a bridge from both sides of a canyon and meeting perfectly in the middle.",
+      "diagram": "assets/images/twin_prime_editing_mechanism.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧩",
+        "text": "双先导编辑可以用来治疗血友病（Hemophilia）。血友病通常是因为缺了一个很大的基因。以前的CRISPR很难把这么大的基因补进去，但双先导编辑结合重组酶，可以把长达40,000个碱基对的基因塞进基因组，这在以前是不可想象的。",
+        "text_en": "Twin Prime Editing could be used to treat Hemophilia. This disease is often caused by a missing large gene. Traditional CRISPR struggled to insert such a large gene, but Twin Prime Editing combined with recombinase can insert genes up to 40,000 base pairs long, which was previously unimaginable."
+      },
+      {
+        "icon": "🔄",
+        "text": "它还可以做“倒位”操作。有些遗传病是因为一段DNA反着装了（比如猎人综合征）。双先导编辑可以把这段反了的DNA切下来，翻个面，再精准地缝回去。",
+        "text_en": "It can also perform 'inversions'. Some genetic diseases are caused by a DNA segment being installed backwards (like Hunter Syndrome). Twin Prime Editing can cut this reversed segment out, flip it over, and stitch it back in precisely."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你要在一列行驶的火车（DNA）中间插入一节新的车厢（新基因）。\n单先导编辑：就像让一个工人提着一袋行李跳上车，他只能带小包。\n双先导编辑：就像派了两个工人在两节车厢的连接处，分别伸出一只手。当两只手握住时（DNA互补配对），他们就建立了一个稳固的连接通道。然后，重型起重机（重组酶）就可以利用这个通道，把一整节巨大的新车厢安插进去。",
+      "text_en": "Imagine you want to insert a new carriage (new gene) into a moving train (DNA).\nSingle Prime Editing: Like one worker jumping on with a bag; he can only carry a small bag.\nTwin Prime Editing: Like sending two workers to the coupling point of two carriages, each reaching out a hand. When their hands clasp (DNA complementary pairing), they create a secure connection channel. Then, a heavy crane (recombinase) can use this channel to slot in a massive new carriage.",
+      "diagram": "assets/images/twin_prime_editing_mechanism.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "基因替代疗法",
+          "title_en": "Gene Replacement Therapy",
+          "text": "对于那些基因完全损坏或缺失的疾病（如囊性纤维化），仅仅修补突变是不够的，必须插入整个正常的基因。双先导编辑是目前最理想的工具。",
+          "text_en": "For diseases where the gene is completely damaged or missing (like Cystic Fibrosis), fixing mutations isn't enough; the whole normal gene must be inserted. Twin Prime Editing is currently the ideal tool for this."
+        },
+        {
+          "icon": "🔬",
+          "title": "合成生物学",
+          "title_en": "Synthetic Biology",
+          "text": "科学家可以用它在细胞里构建复杂的基因电路，或者把非人类的基因大片段安全地整合进人类细胞进行研究。",
+          "text_en": "Scientists can use it to build complex genetic circuits inside cells or safely integrate large non-human gene fragments into human cells for research."
+        }
+      ],
+  
+    "impact": {
+      "text": "双先导编辑补上了基因编辑拼图的最后一块——大片段插入。至此，人类基本拥有了对DNA进行任何形式操作的能力：小修小补用碱基编辑，中等修改用先导编辑，大兴土木用双先导编辑。它让基因疗法从“修正错别字”进化到了“更换整页文章”。",
+      "text_en": "Twin Prime Editing filled the last piece of the gene editing puzzle—large fragment insertion. Humanity now basically possesses the ability to perform any kind of DNA manipulation: Base Editing for small fixes, Prime Editing for medium edits, and Twin Prime Editing for major construction. It evolves gene therapy from 'fixing typos' to 'replacing whole pages'.",
+      "stats": [
+          {
+            "number": "2021",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "2",
+            "label": "个 (使用pegRNA数量)",
+            "label_en": "pegRNAs Used"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "prime_editing_2019",
+          "contribution": "大卫·刘（先导编辑是双先导编辑的基础，就像双发喷气机基于单发喷气机一样）",
+          "contribution_en": "David Liu (Prime Editing is the foundation of Twin PE, just as a twin-engine jet is based on a single-engine jet)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "pace_directed_evolution",
+          "contribution": "PASE系统（后来大卫·刘团队结合噬菌体辅助进化，进一步优化了这些酶的效率）",
+          "contribution_en": "PACE System (Later, Liu's team used Phage-Assisted Continuous Evolution to further optimize the efficiency of these enzymes)"
+        }
+      ],
+      "legacy_text": "大卫·刘不仅给了我们笔，还给了我们胶水和剪刀，让我们能像拼贴画一样编辑生命。",
+      "legacy_text_en": "David Liu gave us not just a pen, but also glue and scissors, allowing us to edit life like a collage."
+    },
+  
+    "related_concepts": ["双先导编辑 (Twin Prime Editing)", "重组酶 (Recombinase)", "大片段插入 (Large Insertion)", "pegRNA", "囊性纤维化"],
+    "related_concepts_en": ["Twin Prime Editing", "Recombinase", "Large Insertion", "pegRNA", "Cystic Fibrosis"],
+  
+    "quiz": {
+      "question": "双先导编辑（Twin Prime Editing）相比于2019年的初代先导编辑，主要解决了一个什么核心痛点？",
+      "question_en": "Compared to the original Prime Editing of 2019, what core pain point did Twin Prime Editing primarily solve?",
+      "options": [
+        "它不再需要任何RNA",
+        "它能精准插入或删除非常大的DNA片段（甚至整个基因）",
+        "它不需要酶的参与",
+        "它只能在植物中使用"
+      ],
+      "options_en": [
+        "It no longer needs any RNA",
+        "It can precisely insert or delete very large DNA fragments (even whole genes)",
+        "It requires no enzymes",
+        "It only works in plants"
+      ],
+      "answer": 1,
+      "explanation": "初代先导编辑虽然精准，但受限于pegRNA的长度，只能插入很短的序列（几十个碱基）。双先导编辑通过双侧协同和引入重组酶，能插入长达数千碱基的序列。",
+      "explanation_en": "Original Prime Editing, while precise, was limited by pegRNA length to inserting only short sequences (dozens of bases). Twin Prime Editing, via dual-side synergy and recombinases, can insert sequences thousands of bases long."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "鲍里斯·波多尔斯基",
+    "name_en": "Boris Podolsky",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/b/bb/Boris_Yakovlevich_Podolsky.jpg",
+    "bio_short": "俄裔美国物理学家。他最著名的成就是与爱因斯坦和罗森共同发表了EPR论文（`einstein_epr_1935`），质疑量子力学的完备性并提出了量子纠缠的概念。",
+    "bio_short_en": "A Russian-American physicist. He is best known for co-authoring the famous EPR paper (`einstein_epr_1935`) with Albert Einstein and Nathan Rosen, questioning the completeness of quantum mechanics and highlighting quantum entanglement.",
+    "events": [
+      "einstein_epr_1935"
+    ]
+  }

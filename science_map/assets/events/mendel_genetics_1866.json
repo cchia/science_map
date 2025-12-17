@@ -1,0 +1,156 @@
+{
+    "id": "mendel_genetics_1866",
+    "personId": "gregor_mendel",
+    "title": "发表《植物杂交实验》 (发现遗传定律)",
+    "title_en": "Publishes 'Experiments on Plant Hybridization' (Discovery of Laws of Inheritance)",
+    "year": 1866,
+    "lat": 49.1917,
+    "lng": 16.6083,
+    "city": "布尔诺 (圣托马斯修道院)",
+    "city_en": "Brno (St. Thomas's Abbey)",
+    "country": "奥地利帝国 (今捷克)",
+    "country_en": "Austrian Empire (Modern Czech Republic)",
+    "storyline_id": ["gene_story"],
+    "field": ["遗传学", "植物学"],
+    "field_en": ["Genetics", "Botany"],
+    
+    "media": {
+      "event_image": "assets/images/mendel_pea.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=Mehz7tCxjSE",
+        "title": "孟德尔如何从豌豆中发现遗传学",
+        "title_en": "How Mendel's pea plants helped us understand genetics",
+        "duration": "3:06"
+      }
+    },
+    
+    "summary": {
+      "text": "1866年，奥古斯丁修道会修士格雷戈尔·孟德尔（Gregor Mendel）在布尔诺自然历史学会的会刊上发表了著名的论文《植物杂交实验》。通过在修道院花园里对约29,000株豌豆植物长达8年的耐心培育和统计，孟德尔发现了生物性状是由离散的单位（后来被称为“基因”）控制的，而不是像当时人们认为的那样是父母特征的“混合”。他提出了著名的“分离定律”和“自由组合定律”，揭示了显性与隐性性状的遗传规律（如经典的3:1比例）。尽管这项发现在当时被完全忽视，但在1900年被重新发现后，成为了现代遗传学的基石。",
+      "text_en": "In 1866, Augustinian friar Gregor Mendel published his famous paper 'Experiments on Plant Hybridization' in the proceedings of the Natural History Society of Brünn. Through 8 years of patient breeding and statistical analysis of ~29,000 pea plants in the abbey garden, Mendel discovered that biological traits are controlled by discrete units (later called 'genes'), rather than being a 'blend' of parental traits as previously thought. He formulated the laws of 'Segregation' and 'Independent Assortment', revealing the patterns of dominant and recessive inheritance (such as the classic 3:1 ratio). Although completely ignored at the time, its rediscovery in 1900 became the foundation of modern genetics.",
+      "key_points": [
+        "发表《植物杂交实验》(Experiments on Plant Hybridization)",
+        "提出“遗传因子”(Genes) 是离散的颗粒",
+        "发现“显性”和“隐性”性状 (Dominant & Recessive)",
+        "提出分离定律和自由组合定律",
+        "统计学在生物学中的首次完美应用"
+      ],
+      "key_points_en": [
+        "Published 'Experiments on Plant Hybridization'",
+        "Proposed 'Hereditary Factors' (Genes) as discrete particles",
+        "Discovered 'Dominant' and 'Recessive' traits",
+        "Formulated Laws of Segregation and Independent Assortment",
+        "First perfect application of statistics in biology"
+      ]
+    },
+  
+    "story": {
+      "text": "孟德尔的故事是科学史上最著名的“孤独天才”故事。作为一名修士，他在修道院那块只有2公顷的花园里，像着了魔一样数豌豆。他选择了豌豆，因为它们有明显的特征（如高茎/矮茎，黄豆/绿豆）。他不像当时的其他植物学家那样只描述外观，他是物理学出身，所以他开始“数数”。他发现，当纯种高茎豌豆和矮茎豌豆杂交后，第一代全是高的（显性）。但当这些“混血”豌豆自交后，第二代里矮茎又回来了，而且高矮比例惊人地接近3:1。这证明了矮茎的特征并没有消失，只是“隐身”了。遗憾的是，当他把论文寄给当时的大科学家耐格里（Nägeli）时，耐格里却傲慢地建议他去研究“山柳菊”（一种很难杂交的植物），导致孟德尔后半生陷入了死胡同。",
+      "text_en": "Mendel's story is the most famous 'lonely genius' tale in science. As a monk, he counted peas obsessively in the monastery's tiny 2-hectare garden. He chose peas for their distinct traits (tall/short, yellow/green). Unlike other botanists who just described appearances, Mendel had a background in physics, so he 'counted'. He found that crossing pure tall and short peas produced a first generation that was all tall (Dominant). But when these 'hybrids' self-pollinated, the short trait reappeared in the second generation, with a ratio shockingly close to 3:1. This proved the short trait hadn't vanished; it was just 'hidden' (Recessive). Tragically, when he sent his paper to the famous scientist Nägeli, Nägeli arrogantly suggested he study 'Hawkweed' (a plant notoriously hard to hybridize), leading Mendel down a dead end for the rest of his life.",
+      "diagram": "assets/images/pea_plant.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🐭",
+        "text": "孟德尔最初其实是想用“老鼠”做遗传实验的。但修道院的主教觉得让修士观察老鼠交配“有伤风化”，勒令他必须停止。于是孟德尔不得不转向了“性生活”比较隐秘的植物（豌豆）。",
+        "text_en": "Mendel originally wanted to use 'mice' for his genetic experiments. But the bishop thought it was 'indecent' for a monk to watch mice mating and ordered him to stop. So, Mendel switched to plants (peas), whose 'sex lives' were more discreet."
+      },
+      {
+        "icon": "😴",
+        "text": "1865年，当孟德尔在学会上宣读他的论文时，听众完全没听懂。没人提问，大家都在打瞌睡或看窗外。直到他在1884年去世，他的工作依然无人问津。",
+        "text_en": "When Mendel read his paper to the society in 1865, the audience didn't understand a word. No one asked questions; they were dozing off or staring out the window. His work remained completely ignored until after his death in 1884."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在孟德尔之前，人们认为生孩子就像“混合油漆”：红漆+白漆=粉红漆。如果你不停地加白漆，红色最终会消失。\n孟德尔证明了生孩子其实像“混合弹珠”：红弹珠+白弹珠=袋子里既有红也有白。\n即使你第一眼只看到红弹珠（显性），那颗白弹珠（隐性）依然在袋子里，它是完整的、独立的。等到下一代，那颗白弹珠可能会再次掉出来。基因是颗粒，不是液体。",
+      "text_en": "Before Mendel, people thought making babies was like 'mixing paint': Red + White = Pink. If you kept adding white, the red would eventually disappear.\nMendel proved making babies is like 'mixing marbles': Red marble + White marble = A bag with both red and white marbles.\nEven if you only see the Red one at first (Dominant), the White one (Recessive) is still in the bag, whole and separate. In the next generation, that White marble might fall out again. Genes are particles, not fluids.",
+      "diagram": "assets/images/mendel_gene.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "遗传病预测",
+          "title_en": "Genetic Disease Prediction",
+          "text": "我们今天使用的计算遗传病（如白化病、红绿色盲）概率的方法，完全基于孟德尔的定律。",
+          "text_en": "The way we calculate the probability of genetic diseases (like albinism, color blindness) today is entirely based on Mendel's laws."
+        },
+        {
+          "icon": "🌾",
+          "title": "农业育种",
+          "title_en": "Agricultural Breeding",
+          "text": "无论是袁隆平的杂交水稻还是超市里的甜玉米，所有现代农业育种都遵循孟德尔的“分离”和“组合”原则。",
+          "text_en": "From hybrid rice to sweet corn, all modern agricultural breeding follows Mendel's principles of 'segregation' and 'assortment'."
+        }
+      ],
+  
+    "impact": {
+      "text": "孟德尔是“现代遗传学之父”。他的发现填补了达尔文进化论中最大的漏洞（达尔文不知道变异是如何遗传和保持的）。虽然被埋没了35年，但在1900年被三位科学家（德弗里斯、科伦斯、切尔马克）同时“重新发现”后，孟德尔定律迅速引爆了生物学革命，直接导向了后来DNA双螺旋结构的发现。",
+      "text_en": "Mendel is the 'Father of Modern Genetics'. His discovery filled the biggest hole in Darwin's theory of evolution (Darwin didn't know how variations were inherited or preserved). Though buried for 35 years, its 'rediscovery' in 1900 by three scientists (de Vries, Correns, Tschermak) triggered a biological revolution, leading directly to the later discovery of the DNA double helix.",
+      "stats": [
+          {
+            "number": "1866",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Paper Published)"
+          },
+          {
+            "number": "29000",
+            "label": "株 (豌豆数量)",
+            "label_en": "Plants (Peas Counted)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "doppler_physics_1842",
+          "contribution": "多普勒（孟德尔的物理老师，教导他用数学和统计学的方法来研究自然科学）",
+          "contribution_en": "Christian Doppler (Mendel's physics teacher, who taught him to use mathematics and statistics in natural science)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "morgan_fruit_fly_1910",
+          "contribution": "摩尔根（通过果蝇实验证实了孟德尔的因子位于“染色体”上）",
+          "contribution_en": "Thomas Hunt Morgan (confirmed via fruit fly experiments that Mendel's factors were located on 'chromosomes')"
+        },
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（发现了孟德尔“遗传因子”的物质实体——DNA）",
+          "contribution_en": "Watson & Crick (discovered the physical substance of Mendel's 'hereditary factors'—DNA)"
+        },
+        {
+          "id": "darwin_evolution_1859",
+          "contribution": "达尔文（虽然达尔文生前没读过孟德尔的论文，但孟德尔定律后来成为了“现代综合进化论”的核心支柱）",
+          "contribution_en": "Charles Darwin (though he never read Mendel, Mendel's laws later became the core pillar of the 'Modern Evolutionary Synthesis')"
+        }
+      ],
+      "legacy_text": "孟德尔在花园里数豆子的时候，数出了生命的密码。",
+      "legacy_text_en": "While counting beans in a garden, Mendel counted out the code of life."
+    },
+  
+    "related_concepts": ["显性 (Dominant)", "隐性 (Recessive)", "基因 (Gene)", "等位基因 (Allele)", "表型 (Phenotype)", "基因型 (Genotype)", "分离定律", "3:1"],
+    "related_concepts_en": ["Dominant", "Recessive", "Gene", "Allele", "Phenotype", "Genotype", "Law of Segregation", "3:1"],
+  
+    "quiz": {
+      "question": "孟德尔在实验中发现，当纯种高茎豌豆和纯种矮茎豌豆杂交后，第一代（F1）长什么样？",
+      "question_en": "In Mendel's experiments, when he crossed a purebred tall pea plant with a purebred short one, what did the first generation (F1) look like?",
+      "options": [
+        "全都是中等高度",
+        "全都是矮茎",
+        "全都是高茎",
+        "一半高一半矮"
+      ],
+      "options_en": [
+        "All medium height",
+        "All short",
+        "All tall",
+        "Half tall, half short"
+      ],
+      "answer": 2,
+      "explanation": "这就是“显性”的概念。高茎因子（T）对矮茎因子（t）是显性的。第一代虽然携带了矮茎因子（Tt），但表现出来全是高的。",
+      "explanation_en": "This is the concept of 'Dominance'. The tall factor (T) is dominant over the short factor (t). Although the first generation carried the short factor (Tt), they all appeared tall."
+    }
+  }

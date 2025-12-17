@@ -1,0 +1,10 @@
+{
+    "name": "查尔斯·奥古斯丁·德·库仑",
+    "name_en": "Charles-Augustin de Coulomb",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/42/Coulomb.jpg",
+    "bio_short": "法国物理学家和军事工程师。他发明了精密的“扭秤”，并用它确立了静电学的基本定律——“库仑定律”（F=k(q₁q₂/r²)），将电学带入了定量科学的时代。",
+    "bio_short_en": "A French physicist and military engineer. He invented the precision 'torsion balance' and used it to establish the fundamental law of electrostatics, 'Coulomb's Law' (F=k(q₁q₂/r²)), ushering electricity into the era of quantitative science.",
+    "events": [
+      "coulomb_law_1785"
+    ]
+  }

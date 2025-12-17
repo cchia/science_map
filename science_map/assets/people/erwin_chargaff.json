@@ -1,0 +1,10 @@
+{
+    "name": "埃尔温·查加夫",
+    "name_en": "Erwin Chargaff",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/a/a1/Erwin_Chargaff.jpg",
+    "bio_short": "奥匈帝国裔美国生物化学家。他在1950年发现了著名的“查加夫法则”（`chargaff_rules_1950`），指出DNA中腺嘌呤与胸腺嘧啶相等（A=T），鸟嘌呤与胞嘧啶相等（G=C）。这一发现推翻了四核苷酸假说，并成为发现DNA双螺旋结构的关键线索。",
+    "bio_short_en": "An Austro-Hungarian American biochemist. In 1950, he discovered the famous 'Chargaff's rules' (`chargaff_rules_1950`), stating that in DNA, the amount of adenine equals thymine (A=T) and guanine equals cytosine (G=C). This discovery disproved the tetranucleotide hypothesis and served as a crucial clue for the discovery of the DNA double helix.",
+    "events": [
+      "chargaff_rules_1950"
+    ]
+  }

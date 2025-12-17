@@ -1,0 +1,151 @@
+{
+    "id": "nvidia_gpu_1999",
+    "personId": ["jensen_huang"],
+    "title": "GeForce 256发布 (GPU的诞生)",
+    "title_en": "Launch of GeForce 256 (Birth of the GPU)",
+    "year": 1999,
+    "lat": 37.3688,
+    "lng": -122.0363,
+    "city": "桑尼维尔 (NVIDIA旧总部)",
+    "city_en": "Sunnyvale (Old NVIDIA HQ)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["ai_story"],
+    "field": ["计算机硬件", "图形学"],
+    "field_en": ["Computer Hardware", "Graphics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/NVIDIA_logo.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=d3L2uPuxOxU",
+        "title": "NVIDIA如何从游戏巨头成长为AI巨人",
+        "title_en": "How Nvidia Grew From Gaming To A.I. Giant, Now Powering ChatGPT",
+        "duration": "17:53"
+      }
+    },
+    
+    "summary": {
+      "text": "1999年8月31日，NVIDIA发布了GeForce 256，并极其聪明地创造了一个新营销术语——“GPU”（图形处理器）。在此之前，显卡主要负责将图像画在屏幕上（光栅化），而复杂的3D几何运算（如多边形的移动和光照）必须由CPU来承担。GeForce 256是世界上第一款集成了“硬件变换与光照”（Hardware T&L）引擎的消费级芯片，它把CPU从繁重的几何计算中解放了出来。这不仅彻底终结了3dfx等竞争对手，更重要的是，它确立了“大规模并行计算”的硬件架构，无意中为20年后的深度学习和AI革命打造了物理容器。",
+      "text_en": "On August 31, 1999, NVIDIA launched the GeForce 256 and brilliantly coined a new marketing term—'GPU' (Graphics Processing Unit). Before this, graphics cards were mainly responsible for drawing images on the screen (rasterization), while complex 3D geometric calculations (like polygon movement and lighting) had to be handled by the CPU. The GeForce 256 was the world's first consumer chip with an integrated 'Hardware Transform & Lighting' (T&L) engine, freeing the CPU from heavy geometric math. This not only finished off competitors like 3dfx but, more importantly, established the hardware architecture for 'massively parallel computing', unintentionally building the physical vessel for the Deep Learning and AI revolution 20 years later.",
+      "key_points": [
+        "首次定义了“GPU” (Graphics Processing Unit) 这个词",
+        "核心技术是“硬件变换与光照” (Hardware T&L)",
+        "将几何计算从CPU转移到了显卡，大幅提升了3D性能",
+        "彻底击败了当时的霸主3dfx（后来收购了它）",
+        "奠定了并行计算架构，为后来的CUDA和AI计算打下基础"
+      ],
+      "key_points_en": [
+        "Coined the term 'GPU' (Graphics Processing Unit)",
+        "Core technology was 'Hardware Transform & Lighting' (T&L)",
+        "Offloaded geometric calculations from CPU to the graphics card",
+        "Defeated the reigning champion 3dfx (and later acquired it)",
+        "Laid the foundation for parallel computing architecture, leading to CUDA and AI"
+      ]
+    },
+  
+    "story": {
+      "text": "在1999年，PC游戏界是战国时代。3dfx凭借Voodoo卡称霸市场，但技术架构开始落后。黄仁勋意识到，单纯比拼像素填充率（画图速度）是死路一条，必须改变游戏规则。他的赌注是：把整个3D流水线中最难啃的骨头——几何变换和光照计算——从CPU手里抢过来做。这是一个巨大的冒险，因为当时的晶体管数量限制极大，GeForce 256集成了2300万个晶体管（比当时的奔腾III CPU还多！）。这次豪赌赢了，GeForce 256让《雷神之锤 III》这种画质的游戏成为了可能，也让NVIDIA成为了图形领域的唯一霸主。",
+      "text_en": "In 1999, the PC gaming world was a warring states period. 3dfx dominated with Voodoo cards, but their architecture was aging. Jensen Huang realized that just competing on pixel fill rate (drawing speed) was a dead end; he had to change the rules. His bet: steal the hardest part of the 3D pipeline—geometry transform and lighting—from the CPU. It was a massive risk, as transistor counts were limited. The GeForce 256 integrated 23 million transistors (more than the Pentium III CPU of the time!). The gamble paid off. GeForce 256 made games like Quake III possible and crowned NVIDIA as the sole ruler of graphics.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/5/50/NVIDIA_GeForce_8800_Ultra.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💡",
+        "text": "“GPU”这个词其实是NVIDIA为了卖GeForce 256而发明的营销词汇。在此之前，大家叫它“3D加速卡”或者“视频适配器”。Sony在早些时候曾用过GPU这个词，但NVIDIA定义了它的现代含义。",
+        "text_en": "The term 'GPU' was actually a marketing term invented by NVIDIA to sell the GeForce 256. Before that, people called them '3D accelerators' or 'video adapters'. Sony had used the term briefly before, but NVIDIA defined its modern meaning."
+      },
+      {
+        "icon": "📈",
+        "text": "GeForce 256发布时，NVIDIA提出了著名的“黄氏定律”（Huang's Law）：GPU的性能每6个月翻一番，比摩尔定律（18个月）快3倍。这在随后的十几年里确实应验了。",
+        "text_en": "At launch, NVIDIA proposed 'Huang's Law': GPU performance would double every 6 months, 3 times faster than Moore's Law (18 months). This actually held true for the following decade."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "CPU像是一个数学教授，只有几个脑袋（核心），虽然聪明但只能一次做一两道极难的高数题。\nGPU像是一个拥有一千名小学生的广场，虽然每个小学生只会算简单的加减乘除，但他们可以同时算一千道题。\nGeForce 256就是那个把小学生组织起来的第一次尝试。后来人们发现，这种“人海战术”不仅适合玩游戏，更适合教AI认字。",
+      "text_en": "A CPU is like a math professor with only a few heads (cores); smart, but can only solve one or two extremely hard calculus problems at a time.\nA GPU is like a plaza with a thousand elementary school students. Each student can only do simple arithmetic, but they can solve a thousand problems simultaneously.\nGeForce 256 was the first attempt to organize these students. Later, people realized this 'human wave tactic' was not just good for gaming, but perfect for teaching AI.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/81/Neuer_Testbericht_der_RTX_2080_%28Ti%29_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_15.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🎮",
+          "title": "3D游戏革命",
+          "title_en": "3D Gaming Revolution",
+          "text": "硬件T&L让游戏场景中的多边形数量暴增，使得角色从方方正正的积木变成了圆润的模型。",
+          "text_en": "Hardware T&L allowed for a massive increase in polygon counts in games, turning characters from blocky bricks into rounded models."
+        },
+        {
+          "icon": "🤖",
+          "title": "AI计算的基石",
+          "title_en": "Cornerstone of AI Compute",
+          "text": "虽然当时只是为了游戏，但GPU这种“单指令多数据流”（SIMD）的架构，恰好完美契合了神经网络的矩阵运算需求。",
+          "text_en": "Though intended for gaming, the GPU's 'Single Instruction, Multiple Data' (SIMD) architecture happened to perfectly match the matrix operation needs of neural networks."
+        }
+      ],
+  
+    "impact": {
+      "text": "GeForce 256不仅仅是一块显卡，它是计算模式的分水岭。它让显卡变成了一个可编程的计算单元。这一路径最终演变成了2006年的CUDA架构，让科学家可以用显卡来模拟天气、折叠蛋白质。2012年，AlexNet就是在这个基础上诞生的。可以说，没有1999年的这块游戏显卡，就没有今天的ChatGPT。",
+      "text_en": "GeForce 256 was not just a graphics card; it was a watershed moment for computing paradigms. It turned the graphics card into a programmable computing unit. This path eventually evolved into the CUDA architecture in 2006, allowing scientists to use GPUs to simulate weather and fold proteins. In 2012, AlexNet was born on this foundation. Arguably, without this gaming card from 1999, there would be no ChatGPT today.",
+      "stats": [
+          {
+            "number": "23000000",
+            "label": "个 (晶体管数量)",
+            "label_en": "Transistors"
+          },
+          {
+            "number": "256",
+            "label": "位 (核心渲染引擎位宽)",
+            "label_en": "Bits (Rendering Engine Width)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "sgi_workstations_1990s",
+          "contribution": "SGI工作站（NVIDIA的三位创始人均来自SGI等专业图形公司，他们把几十万美元的工作站技术下放到了PC上）",
+          "contribution_en": "SGI Workstations (All three NVIDIA founders came from pro graphics companies like SGI; they brought multi-hundred-thousand-dollar workstation tech down to the PC)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "alexnet_2012",
+          "contribution": "AlexNet（Hinton的学生发现用两块NVIDIA GTX 580显卡训练神经网络，比用CPU快几十倍，开启了AI大爆发）",
+          "contribution_en": "AlexNet (Hinton's students discovered that training neural networks on two NVIDIA GTX 580s was dozens of times faster than CPUs, kicking off the AI explosion)"
+        },
+        {
+          "id": "cuda_release_2006",
+          "contribution": "CUDA（GPU的可编程性最终导致了CUDA的诞生，让GPU变成了通用并行处理器GPGPU）",
+          "contribution_en": "CUDA (The programmability of the GPU eventually led to the creation of CUDA, turning the GPU into a General Purpose Graphics Processing Unit - GPGPU)"
+        }
+      ],
+      "legacy_text": "它本来是为了让你玩爽《雷神之锤》，结果却造出了上帝的大脑。",
+      "legacy_text_en": "It was meant to let you play Quake better, but ended up building the brain of God."
+    },
+  
+    "related_concepts": ["硬件T&L", "GPU", "并行计算", "光栅化", "摩尔定律"],
+    "related_concepts_en": ["Hardware T&L", "GPU", "Parallel Computing", "Rasterization", "Moore's Law"],
+  
+    "quiz": {
+      "question": "GeForce 256相比以前的显卡，最大的技术突破是集成了什么？",
+      "question_en": "What was the biggest technical breakthrough integrated into the GeForce 256 compared to previous graphics cards?",
+      "options": [
+        "更大的显存",
+        "硬件变换与光照 (Hardware T&L)",
+        "彩色显示功能",
+        "风扇散热"
+      ],
+      "options_en": [
+        "More VRAM",
+        "Hardware Transform & Lighting (T&L)",
+        "Color Display",
+        "Fan Cooling"
+      ],
+      "answer": 1,
+      "explanation": "以前的显卡只负责把算好的图形画出来（光栅化），至于图形怎么动、光怎么打，都要CPU算。GeForce 256把这部分最累的活（T&L）接管了过来。",
+      "explanation_en": "Previous cards only drew the calculated graphics (rasterization). How the graphics moved and how light hit them had to be calculated by the CPU. GeForce 256 took over this heavy lifting (T&L)."
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "埃尔温·薛定谔",
+    "name_en": "Erwin Schrödinger",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/77/Erwin_Schr%C3%B6dinger_-_Narodowe_Archiwum_Cyfrowe_%281-E-939%29.jpg",
+    "bio_short": "奥地利理论物理学家，波动力学的创始人。他提出了著名的“薛定谔方程”（`schrodinger_equation_1926`），描述了量子系统的波函数演化，并因此获得了1933年的诺贝尔物理学奖。他还提出了著名的“薛定谔的猫”思想实验。",
+    "bio_short_en": "An Austrian theoretical physicist and the father of wave mechanics. He formulated the famous 'Schrödinger equation' (`schrodinger_equation_1926`) which describes how the quantum state of a physical system changes with time, winning the 1933 Nobel Prize. He is also famous for the 'Schrödinger's cat' thought experiment.",
+    "events": [
+      "schrodinger_equation_1926",
+      "schrodinger_what_is_life_1944"
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "name": "比尔·盖茨",
+    "name_en": "Bill Gates",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bill_Gates_2018.jpg/640px-Bill_Gates_2018.jpg",
+    "bio_short": "美国商业大亨、软件工程师、慈善家。他与保罗·艾伦共同创立了微软，通过将MS-DOS授权给IBM及所有兼容机厂商，确立了软件行业的授权商业模式。他主导开发的Windows操作系统占据了全球桌面电脑的绝对统治地位，一手缔造了PC时代的“Wintel”联盟。",
+    "bio_short_en": "American business magnate, software developer, and philanthropist. He co-founded Microsoft with Paul Allen and established the software licensing business model by licensing MS-DOS to IBM and all compatible manufacturers. The Windows operating system he championed achieved absolute dominance in the global desktop market, forging the 'Wintel' alliance of the PC era.",
+    "events": [
+      "microsoft_founding_1975",
+      "ms_dos_1981",
+      "microsoft_windows_1985"
+    ]
+  }

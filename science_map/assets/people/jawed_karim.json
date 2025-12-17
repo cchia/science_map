@@ -1,0 +1,10 @@
+{
+    "name": "贾德·卡林",
+    "name_en": "Jawed Karim",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/24/Jawed_Karim_2008.jpg",
+    "bio_short": "德裔美国软件工程师，YouTube的联合创始人之一。他是历史上第一个在YouTube上上传视频的人（《Me at the zoo》）。早年是PayPal的抗欺诈系统工程师。与另外两位创始人全身心投入管理不同，他在YouTube成立不久后选择去斯坦福大学攻读硕士学位，但仍作为顾问和主要股东参与其中。他以低调著称，但偶尔会修改自己那个“第一视频”的描述栏，来公开批评YouTube后来的争议决策（如强制绑定Google+或隐藏“踩”的数量）。",
+    "bio_short_en": "German-American software engineer and co-founder of YouTube. He was the first person in history to upload a video to YouTube ('Me at the zoo'). Formerly an anti-fraud engineer at PayPal. Unlike the other two founders who managed the company full-time, he chose to pursue a Master's at Stanford shortly after YouTube's founding, serving as an advisor and major shareholder. Known for being low-profile, he occasionally edits the description of his 'first video' to publicly criticize controversial YouTube decisions (like forced Google+ integration or hiding the dislike count).",
+    "events": [
+      "youtube_launch_2005"
+    ]
+  }

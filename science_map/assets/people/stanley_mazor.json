@@ -1,0 +1,11 @@
+{
+    "name": "斯坦利·马佐尔",
+    "name_en": "Stanley Mazor",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/46/Shima_and_Mazor_%28cropped%29.jpg",
+    "bio_short": "美国微电子工程师，负责Intel 4004的指令集设计和软件架构。他是霍夫的构想与法金的电路设计之间的桥梁，确保了芯片的逻辑功能能够真正执行复杂的计算任务。",
+    "bio_short_en": "American microelectronics engineer responsible for the instruction set design and software architecture of the Intel 4004. He served as the bridge between Hoff's concept and Faggin's circuit design, ensuring the chip's logic could effectively execute complex computational tasks.",
+    "events": [
+      "intel_4004_1971",
+      "intel_8080_1974"
+    ]
+  }

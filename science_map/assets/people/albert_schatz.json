@@ -1,0 +1,10 @@
+{
+    "name": "阿尔伯特·沙茨",
+    "name_en": "Albert Schatz",
+    "portrait": "https://upload.wikimedia.org/wikipedia/en/a/ab/Albert_Schatz.jpg",
+    "bio_short": "美国微生物学家，链霉素的共同发现者。作为瓦克斯曼的博士生，他在实验室中亲手分离出了链霉素（`waksman_streptomycin_1943`）。尽管他为此赢得了法律诉讼并获得“共同发现者”的头衔，但他遗憾地未能分享当年的诺贝尔奖。",
+    "bio_short_en": "An American microbiologist and co-discoverer of streptomycin. As Waksman's PhD student, he personally isolated streptomycin in the lab (`waksman_streptomycin_1943`). Although he successfully sued for legal recognition as a 'co-discoverer', he was controversially excluded from the Nobel Prize.",
+    "events": [
+      "waksman_streptomycin_1943"
+    ]
+  }

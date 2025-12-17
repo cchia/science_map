@@ -1,0 +1,156 @@
+{
+    "id": "von_neumann_architecture_1945",
+    "personId": "john_von_neumann",
+    "title": "提出“冯·诺依曼架构” (现代计算机的蓝图)",
+    "title_en": "Proposal of the 'Von Neumann Architecture' (Blueprint of Modern Computers)",
+    "year": 1945,
+    "lat": 39.9526,
+    "lng": -75.1907,
+    "city": "费城 (宾夕法尼亚大学)",
+    "city_en": "Philadelphia (University of Pennsylvania)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story"],
+    "field": ["计算机科学", "工程学"],
+    "field_en": ["Computer Science", "Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/640px-Von_Neumann_Architecture.svg.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=-SADbPS8UgA",
+        "title": "冯·诺依曼架构：计算机的架构",
+        "title_en": "Architecture of Computer | What is Von Neumann Architecture",
+        "duration": "4:38"
+      }
+    },
+    
+    "summary": {
+      "text": "1945年6月30日，数学家约翰·冯·诺依曼（John von Neumann）起草了一份长达101页的文件，名为《EDVAC报告书的第一份草案》（First Draft of a Report on the EDVAC）。在这份文件中，他详细描述了一台新型计算机的逻辑结构。与当时需要物理插拔线路来“编程”的计算机（如ENIAC）不同，冯·诺依曼提出了“存储程序”（Stored-program）的概念：计算机的指令（软件）和数据应该一视同仁，都以二进制形式存储在同一个内存中。这种设计不仅让计算机变得通用且易于编程，还确立了现代计算机必须具备的五大组件：运算器、控制器、存储器、输入设备和输出设备。直到今天，你桌上的电脑和口袋里的手机，依然遵循这一架构。",
+      "text_en": "On June 30, 1945, mathematician John von Neumann drafted a 101-page document titled 'First Draft of a Report on the EDVAC'. In this document, he detailed the logical structure of a new type of computer. Unlike computers of the time (like ENIAC) that required physically replugging cables to 'program', von Neumann proposed the 'Stored-program' concept: computer instructions (software) and data should be treated equally and stored in the same memory in binary form. This design not only made computers general-purpose and easier to program but also established the five essential components of modern computers: Arithmetic Logic Unit, Control Unit, Memory, Input, and Output. To this day, the computer on your desk and the phone in your pocket still follow this architecture.",
+      "key_points": [
+        "撰写《EDVAC报告书的第一份草案》",
+        "提出“存储程序”概念 (Stored-program concept)",
+        "确立五大组件：运算器、控制器、存储器、输入、输出",
+        "指令和数据混存于同一内存",
+        "定义了现代计算机的标准结构"
+      ],
+      "key_points_en": [
+        "Authored 'First Draft of a Report on the EDVAC'",
+        "Proposed 'Stored-program' concept",
+        "Established 5 components: ALU, Control Unit, Memory, Input, Output",
+        "Instructions and data stored in the same memory",
+        "Defined the standard structure of modern computers"
+      ]
+    },
+  
+    "story": {
+      "text": "这个架构的诞生伴随着巨大的争议。实际上，存储程序的想法是在宾夕法尼亚大学摩尔学院的一系列讨论中产生的，主要参与者还包括ENIAC的设计者埃克特（Eckert）和莫奇利（Mauchly）。然而，冯·诺依曼作为顾问加入项目后，在通勤的火车上整理并写出了这份草案。由于某种原因（可能是为了方便分发），这份草案被复印并寄往世界各地，署名只有冯·诺依曼一人。这让科学界误以为这是他一个人的发明，埃克特和莫奇利对此非常愤怒，认为自己的贡献被抹杀了。尽管如此，冯·诺依曼那清晰的数学描述确实让这一复杂的工程概念得以迅速传播并标准化。",
+      "text_en": "The birth of this architecture was accompanied by huge controversy. The stored-program idea actually emerged from discussions at the Moore School of UPenn, involving ENIAC designers Eckert and Mauchly. However, after joining as a consultant, von Neumann organized and wrote this draft while commuting on a train. For some reason (perhaps ease of distribution), copies were sent around the world bearing only von Neumann's name. This led the scientific community to believe it was his sole invention, infuriating Eckert and Mauchly, who felt their contributions were erased. Nevertheless, von Neumann's clear mathematical description undoubtedly allowed this complex engineering concept to spread rapidly and become standardized.",
+      "diagram": "assets/images/von_neumann_architecture.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🚦",
+        "text": "这种架构有一个著名的缺陷叫“冯·诺依曼瓶颈”（Von Neumann Bottleneck）。因为CPU和内存在分开的地方，且共享同一条通道，CPU处理速度太快，往往要停下来等数据从内存里慢吞吞地运过来。今天的电脑卡顿，很大程度上还是因为这个70多年前的物理限制。",
+        "text_en": "This architecture has a famous flaw called the 'Von Neumann Bottleneck'. Since the CPU and Memory are separate and share the same bus, the CPU is too fast and often has to wait for data to be slowly fetched from memory. Today's computer lag is largely due to this 70-year-old physical limitation."
+      },
+      {
+        "icon": "🧠",
+        "text": "冯·诺依曼深受阿兰·图灵的影响。他在草案中甚至引用了人类神经系统的神经元模型，试图模仿大脑的“全或无”（0或1）的运作方式。",
+        "text_en": "Von Neumann was deeply influenced by Alan Turing. In his draft, he even referenced the neuron model of the human nervous system, trying to mimic the 'all-or-nothing' (0 or 1) operation of the brain."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在冯·诺依曼之前，电脑就像是一个只会做一道菜的厨房。如果你想让它做红烧肉，你得把整个厨房拆了重装（改线路）。\n冯·诺依曼说：不用拆厨房。我们把“菜谱”（程序）写在纸上，和“猪肉”（数据）一起放在柜子（内存）里。\n厨师（CPU）只需要从柜子里拿出菜谱，读一句做一步。\n想换个菜？只需要换张菜谱纸就行了，不用动厨房。\n这就是为什么你的手机既能用来算数，又能用来打游戏（只是运行不同的菜谱）。",
+      "text_en": "Before von Neumann, a computer was like a kitchen built to cook only one dish. If you wanted it to cook steak, you had to tear down and rebuild the kitchen (rewire it).\nVon Neumann said: Don't rebuild. Write the 'Recipe' (Program) on paper and put it in the cabinet (Memory) along with the 'Steak' (Data).\nThe Chef (CPU) just grabs the recipe from the cabinet and follows it step by step.\nWant a different dish? Just swap the recipe paper; don't touch the kitchen.\nThis is why your phone can calculate numbers and play games (just running different recipes).",
+      "diagram": "assets/images/von_neumann_architecture.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💻",
+          "title": "通用计算机",
+          "title_en": "General-Purpose Computers",
+          "text": "从ENIAC之后的EDVAC开始，几乎所有主流计算机（包括你正在用的这台）都是基于冯·诺依曼架构的。",
+          "text_en": "Starting from EDVAC (the successor to ENIAC), almost all mainstream computers (including the one you are using) are based on the Von Neumann architecture."
+        },
+        {
+          "icon": "📱",
+          "title": "智能手机",
+          "title_en": "Smartphones",
+          "text": "手机之所以能通过下载APP（软件）来增加新功能，完全归功于“存储程序”这一核心思想。",
+          "text_en": "The reason smartphones can add new functions by downloading Apps (software) is entirely due to the core idea of 'Stored-program'."
+        }
+      ],
+  
+    "impact": {
+      "text": "这份草案被称为“计算机科学的独立宣言”。它结束了计算机发展的混乱时期，统一了设计标准。虽然现在出现了哈佛架构（指令和数据分开存储）或类脑芯片等新尝试，但冯·诺依曼架构依然统治着99%的数字世界。它把计算机从“专用机器”变成了“通用机器”。",
+      "text_en": "This draft is called the 'Declaration of Independence for Computer Science'. It ended the chaotic period of computer development and unified design standards. Although new attempts like Harvard Architecture (separate storage for instructions and data) or neuromorphic chips exist, the Von Neumann architecture still rules 99% of the digital world. It transformed computers from 'specialized machines' into 'universal machines'.",
+      "stats": [
+          {
+            "number": "1945",
+            "label": "年 (草案发布)",
+            "label_en": "Year (Draft Released)"
+          },
+          {
+            "number": "101",
+            "label": "页 (报告长度)",
+            "label_en": "Pages (Report Length)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "turing_machine_1936",
+          "contribution": "阿兰·图灵（冯·诺依曼是图灵的崇拜者，他的架构本质上是通用图灵机的工程实现）",
+          "contribution_en": "Alan Turing (Von Neumann admired Turing; his architecture is essentially the engineering implementation of the Universal Turing Machine)"
+        },
+        {
+          "id": "eniac_1946",
+          "contribution": "ENIAC团队（他在参观ENIAC时看到了手动插线的痛苦，才坚定了存储程序的想法）",
+          "contribution_en": "The ENIAC Team (Seeing the pain of manual rewiring while visiting ENIAC solidified his belief in the stored-program concept)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "leibniz_binary_1703",
+          "contribution": "（逆向引用）冯·诺依曼在设计中坚决采用了莱布尼茨的二进制，废弃了ENIAC的十进制",
+          "contribution_en": "(Retroactive reference) Von Neumann firmly adopted Leibniz's binary in his design, discarding ENIAC's decimal system"
+        },
+        {
+          "id": "modern_cpu_design",
+          "contribution": "现代CPU设计（今天的英特尔或AMD芯片，依然由运算器、控制器等冯·诺依曼组件构成）",
+          "contribution_en": "Modern CPU Design (Today's Intel or AMD chips are still composed of Von Neumann components like ALU and Control Unit)"
+        }
+      ],
+      "legacy_text": "他把软件装进了硬件的肚子里，让机器拥有了改变自己的能力。",
+      "legacy_text_en": "He put software inside the hardware's belly, giving machines the ability to change themselves."
+    },
+  
+    "related_concepts": ["冯·诺依曼架构 (Von Neumann Architecture)", "存储程序 (Stored-program)", "EDVAC", "冯·诺依曼瓶颈 (Von Neumann Bottleneck)", "二进制"],
+    "related_concepts_en": ["Von Neumann Architecture", "Stored-program", "EDVAC", "Von Neumann Bottleneck", "Binary"],
+  
+    "quiz": {
+      "question": "冯·诺依曼架构最核心的革命性创新是什么，使计算机变得通用且易于编程？",
+      "question_en": "What was the core revolutionary innovation of the Von Neumann Architecture that made computers general-purpose and easy to program?",
+      "options": [
+        "使用了晶体管代替真空管",
+        "将程序（指令）和数据以同一种形式存储在同一个内存中",
+        "发明了鼠标和键盘",
+        "使用了十进制运算"
+      ],
+      "options_en": [
+        "Used transistors instead of vacuum tubes",
+        "Stored programs (instructions) and data in the same memory in the same format",
+        "Invented the mouse and keyboard",
+        "Used decimal arithmetic"
+      ],
+      "answer": 1,
+      "explanation": "这就是“存储程序”概念。在此之前，改变程序意味着改变机器的物理线路。冯·诺依曼让程序变成了数据，修改程序就像修改数据一样简单。",
+      "explanation_en": "This is the 'Stored-program' concept. Before this, changing a program meant changing the machine's physical wiring. Von Neumann made programs into data, making modifying a program as simple as modifying data."
+    }
+  }

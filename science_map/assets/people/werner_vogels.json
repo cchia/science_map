@@ -1,0 +1,10 @@
+{
+    "name": "维尔纳·沃格尔斯",
+    "name_en": "Werner Vogels",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/97/WernerVogels.JPG",
+    "bio_short": "荷兰计算机科学家，Amazon的首席技术官（CTO），被誉为云计算架构的“教父”之一。在加入Amazon之前，他是康奈尔大学的分布式系统研究员。他不仅主导了Amazon内部向面向服务架构（SOA）的转型，还对外推广了AWS“为失败设计”（Design for Failure）的核心理念。他以在AWS re:Invent大会上身穿摇滚乐队T恤发表硬核技术演讲而闻名，那句“Everything fails, all the time”已成为现代云架构师的座右铭。",
+    "bio_short_en": "Dutch computer scientist and CTO of Amazon, regarded as one of the 'godfathers' of cloud computing architecture. Before joining Amazon, he was a researcher in distributed systems at Cornell University. He not only spearheaded Amazon's internal transition to Service-Oriented Architecture (SOA) but also evangelized the core AWS philosophy of 'Design for Failure'. Known for delivering hardcore technical keynotes at AWS re:Invent wearing rock band T-shirts, his quote 'Everything fails, all the time' has become the motto for modern cloud architects.",
+    "events": [
+      "aws_launch_2006"
+    ]
+  }

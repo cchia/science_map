@@ -1,0 +1,10 @@
+{
+    "name": "阿达·洛夫莱斯",
+    "name_en": "Ada Lovelace",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/640px-Ada_Lovelace_portrait.jpg",
+    "bio_short": "英国数学家和作家，著名诗人拜伦勋爵的女儿。她被认为是历史上第一位计算机程序员。她为查尔斯·巴贝奇的“分析机”编写了著名的“注释”（`lovelace_first_program_1843`），其中包含的计算伯努利数的算法被公认为世界上第一个计算机程序。",
+    "bio_short_en": "An English mathematician and writer, the daughter of Lord Byron. She is celebrated as the first computer programmer in history. Her famous 'Notes' on Charles Babbage's Analytical Engine (`lovelace_first_program_1843`) contained an algorithm for calculating Bernoulli numbers, widely recognized as the world's first computer program.",
+    "events": [
+      "lovelace_first_program_1843"
+    ]
+  }

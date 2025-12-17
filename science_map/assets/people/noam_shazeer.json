@@ -1,0 +1,10 @@
+{
+    "name": "诺姆·沙泽尔",
+    "name_en": "Noam Shazeer",
+    "portrait": "assets/images/noam_shazeer.png",
+    "bio_short": "美国计算机科学家，深度学习领域的传奇极客，也是“Transformer八子”中技术贡献最硬核的一位。在《Attention Is All You Need》论文中，他提出了关键的“多头注意力”（Multi-Head Attention）机制，并凭一己之力编写了大部分底层的TensorFlow实现代码。他在Google工作了20年，是LaMDA和Meena聊天机器人的主要缔造者，坚信“参数量就是正义”。2021年他离职创办了Character.ai，开创了角色扮演AI的先河。2024年，Google以高达27亿美元的“转会费”将他重新挖回DeepMind，让他领导Gemini模型的后续研发。",
+    "bio_short_en": "American computer scientist, a legendary geek in deep learning, and arguably the most technically hardcore contributor among the 'Transformer Eight'. In the 'Attention Is All You Need' paper, he proposed the critical 'Multi-Head Attention' mechanism and single-handedly wrote most of the underlying TensorFlow implementation. A 20-year Google veteran, he was the primary creator of the LaMDA and Meena chatbots, a staunch believer that 'scale is justice'. He left in 2021 to found Character.ai, pioneering role-playing AI. In 2024, Google hired him back to DeepMind for a staggering $2.7 billion 'transfer fee' to lead the future development of Gemini models.",
+    "events": [
+      "vaswani_transformer_2017"
+    ]
+  }

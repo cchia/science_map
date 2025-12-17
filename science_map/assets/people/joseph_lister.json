@@ -1,0 +1,10 @@
+{
+    "name": "约瑟夫·李斯特",
+    "name_en": "Joseph Lister",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Joseph_Lister_1902.jpg",
+    "bio_short": "英国外科医生，被誉为“现代外科学之父”。他受到巴斯德细菌理论的启发，开创了“无菌外科手术”（`lister_antisepsis_1867`），利用石炭酸进行消毒，极大地降低了手术后的感染死亡率。",
+    "bio_short_en": "A British surgeon, known as the 'Father of Modern Surgery'. Inspired by Pasteur's germ theory, he pioneered 'antiseptic surgery' (`lister_antisepsis_1867`) using carbolic acid for sterilization, drastically reducing post-operative mortality rates.",
+    "events": [
+      "lister_antisepsis_1867"
+    ]
+  }

@@ -1,0 +1,151 @@
+{
+    "id": "grimaldi_diffraction_1665",
+    "personId": "francesco_maria_grimaldi",
+    "title": "发现光的“衍射”现象",
+    "title_en": "Discovers the 'Diffraction' of Light",
+    "year": 1665,
+    "lat": 44.4949,
+    "lng": 11.3426,
+    "city": "博洛尼亚",
+    "city_en": "Bologna",
+    "country": "教皇国 (今意大利)",
+    "country_en": "Papal States (Modern Italy)",
+    "field": ["物理学", "光学"],
+    "field_en": ["Physics", "Optics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Laser_Interference.JPG",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ihWIxXAc5ew&t=206s",
+        "title": "反射、折射和衍射的区别",
+        "title_en": "Difference between Reflection,Refraction, and Diffraction",
+        "duration": "4:37"
+      }
+    },
+    
+    "summary": {
+      "text": "意大利耶稣会神父兼物理学家弗朗切斯科·马里亚·格里马尔迪（Francesco Maria Grimaldi）在他死后出版的著作《物理-数学之光》(Physico-Mathesis de lumine) 中，描述了一个惊人的发现。他观察到，光线在经过障碍物边缘时，并不像当时认为的那样完全沿直线传播，而是会向阴影区域“弯曲”并散开。他将这种现象命名为“衍射”(Diffraction，源自拉丁语“打碎”)。这是人类历史上第一次科学地记录光的波动特性。",
+      "text_en": "In his posthumously published work 'Physico-Mathesis de lumine', Italian Jesuit priest and physicist Francesco Maria Grimaldi described a startling discovery. He observed that light, when passing the edge of an obstacle, did not travel in a perfectly straight line as previously thought, but 'bent' and spread into the shadow region. He named this phenomenon 'Diffraction' (from Latin 'to break apart'). This was the first scientific record of the wave nature of light in history.",
+      "key_points": [
+        "首次发现并命名了“衍射”(Diffraction)",
+        "证明光并不总是沿“直线”传播",
+        "观察到光在障碍物边缘会“弯曲”",
+        "观察到了阴影边缘的彩色条纹",
+        "为光的“波动说”提供了最早的实验线索"
+      ],
+      "key_points_en": [
+        "First discovery and naming of 'Diffraction'",
+        "Proved light does not always travel in 'straight lines'",
+        "Observed light 'bending' around obstacles",
+        "Observed colored fringes at shadow edges",
+        "Provided the earliest experimental clue for the 'Wave Theory'"
+      ]
+    },
+  
+    "story": {
+      "text": "当时的科学共识是“光沿直线传播”（像粒子一样）。格里马尔迪进行了一个简单的实验：他在暗室的百叶窗上开了一个极小的小孔，让阳光射入，然后在一根细木棍的后面观察它的影子。如果光只走直线，影子的边缘应该是清晰锐利的。但他惊讶地发现，影子比几何光学预测的要“宽”，而且影子的边缘是模糊的，伴有彩色的条纹。他推断，光线在经过木棍边缘时发生了“分裂”和“弯曲”，就像水流绕过石头一样。他创造了“Diffraction”这个词来描述这种“光被打破”的现象。",
+      "text_en": "The scientific consensus was 'light travels in straight lines' (like particles). Grimaldi performed a simple experiment: he let sunlight into a dark room through a tiny hole and observed the shadow of a thin rod. If light traveled only in straight lines, the shadow should be sharp and defined. Instead, he was shocked to find the shadow was *wider* than geometry predicted, and its edges were fuzzy with colored bands. He deduced that the light was 'splitting' and 'bending' as it passed the rod's edge, much like water flowing around a rock. He coined the term 'Diffraction' to describe this 'breaking up' of light.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Single-slit-diffraction-ripple-tank.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🌕",
+        "text": "格里马尔迪也是一位杰出的天文学家。他绘制了极其详细的月面图，现在的月球地图命名规则（以著名科学家命名环形山）就是由他确立的。",
+        "text_en": "Grimaldi was also a brilliant astronomer. He drew an extremely detailed map of the Moon, and established the modern practice of naming lunar craters after famous scientists."
+      },
+      {
+        "icon": "🍎",
+        "text": "艾萨克·牛顿（`newton_opticks_1704`）读过格里马尔迪的书。为了维护他的“微粒说”，牛顿试图将这种衍射现象解释为光子受到物体边缘引力吸引而发生的“弯曲”（他称之为 Inflection），但这无法解释条纹。",
+        "text_en": "Isaac Newton (`newton_opticks_1704`) read Grimaldi's book. To defend his 'Particle Theory', Newton tried to explain diffraction as light particles curving due to gravity near the object's edge (he called it 'Inflection'), but this couldn't explain the fringes."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一群士兵（光粒子）正步走过一个墙角。如果他们只走直线，他们通过后会保持整齐的队形，墙角后的阴影应该是直的。\n但格里马尔迪发现，光更像是“水波”。当水流流过桥墩时，它不会直直地过去，而是会绕到桥墩后面，形成涡流和涟漪。格里马尔迪发现光也会这样“绕过”障碍物，并在影子里形成明暗相间的条纹。这就是“衍射”。",
+      "text_en": "Imagine a group of soldiers (light particles) marching past a corner. If they only walk straight, they keep their formation, and the shadow behind the corner is sharp.\nBut Grimaldi found light acts more like 'water waves'. When water flows past a rock, it doesn't just go straight; it curls around behind the rock, making ripples. Grimaldi discovered light also 'curls around' obstacles and makes patterns in the shadow. This is 'Diffraction'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Doubleslit.gif"
+    },
+  
+    "applications": [
+        {
+          "icon": "💿",
+          "title": "全息技术 (Holography)",
+          "title_en": "Holography",
+          "text": "全息图的原理就是利用光的衍射和干涉来记录和重建物体的三维图像。",
+          "text_en": "Holography works by using the diffraction and interference of light to record and reconstruct 3D images."
+        },
+        {
+          "icon": "🔬",
+          "title": "显微镜的分辨率",
+          "title_en": "Microscope Resolution",
+          "text": "衍射是光学显微镜的“极限”。因为光会衍射，所以我们无法看清比光波长更小的物体（阿贝衍射极限）。",
+          "text_en": "Diffraction is the 'limit' of optical microscopes. Because light diffracts, we cannot clearly see objects smaller than the wavelength of light (Abbe diffraction limit)."
+        }
+      ],
+  
+    "impact": {
+      "text": "格里马尔迪的发现是光学的转折点。它是历史上第一个表明“光可能不是粒子”的实验证据。尽管在接下来的一个世纪里它被牛顿的权威所掩盖，但它为惠更斯（`huygens_wave_theory_1678`）和托马斯·杨（`young_double_slit_1803`）建立和证实“波动光学”提供了最原始的实验基础。",
+      "text_en": "Grimaldi's discovery was a turning point in optics. It was the first experimental evidence in history suggesting 'light might not be a particle'. Although overshadowed by Newton's authority for the next century, it provided the primal experimental basis for Huygens (`huygens_wave_theory_1678`) and Young (`young_double_slit_1803`) to build and prove 'Wave Optics'.",
+      "stats": [
+          {
+            "number": "1665",
+            "label": "年 (衍射被命名)",
+            "label_en": "Year ('Diffraction' named)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "descartes_optics_1637",
+          "contribution": "笛卡尔（其对光的机械解释激发了对光本质的进一步研究）",
+          "contribution_en": "Descartes (his mechanical explanations of light stimulated further research into the nature of light)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "huygens_wave_theory_1678",
+          "contribution": "惠更斯（他利用“波动”模型完美解释了格里马尔迪观察到的衍射现象）",
+          "contribution_en": "Huygens (he used the 'wave' model to perfectly explain the diffraction Grimaldi observed)"
+        },
+        {
+          "id": "newton_opticks_1704",
+          "contribution": "牛顿（他被迫提出复杂的解释来将格里马尔迪的衍射纳入其微粒说体系）",
+          "contribution_en": "Newton (he was forced to come up with complex explanations to fit Grimaldi's diffraction into his particle theory)"
+        },
+        {
+          "id": "young_double_slit_1803",
+          "contribution": "托马斯·杨（双缝实验本质上就是“双源衍射”，是对格里马尔迪工作的终极证实）",
+          "contribution_en": "Thomas Young (the double-slit experiment is essentially 'two-source diffraction', the ultimate confirmation of Grimaldi's work)"
+        }
+      ],
+      "legacy_text": "格里马尔迪发现了光会“拐弯”，这道弯最终将物理学引向了波动说。",
+      "legacy_text_en": "Grimaldi discovered that light turns corners, a turn that eventually led physics to the Wave Theory."
+    },
+  
+    "related_concepts": ["衍射 (Diffraction)", "光的波动说 (Wave Theory)", "干涉 (Interference)", "牛顿环", "惠更斯原理", "耶稣会 (Jesuits)"],
+    "related_concepts_en": ["Diffraction", "Wave Theory", "Interference", "Newton's Rings", "Huygens' Principle", "Jesuits"],
+  
+    "quiz": {
+      "question": "格里马尔迪（Grimaldi）创造了“衍射”(Diffraction) 一词来描述他观察到的什么现象？",
+      "question_en": "What phenomenon did Grimaldi coin the term 'Diffraction' to describe?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffraction_of_a_red_laser_beam_on_a_razor_blade_edge_%281%29.jpg/640px-Diffraction_of_a_red_laser_beam_on_a_razor_blade_edge_%281%29.jpg",
+      "options": [
+        "光被棱镜分解成颜色",
+        "光在通过障碍物边缘时发生“弯曲”和“扩散”",
+        "光被镜子反射",
+        "光速变慢"
+      ],
+      "options_en": [
+        "Light splitting into colors in a prism",
+        "Light 'bending' and 'spreading' when passing the edge of an obstacle",
+        "Light reflecting off a mirror",
+        "Light slowing down"
+      ],
+      "answer": 1,
+      "explanation": "Diffraction 源自拉丁语 *diffringere*（打碎/分散）。格里马尔迪观察到光束在经过边缘时不再保持笔直，而是像“破碎”了一样散开并弯曲进入阴影区。",
+      "explanation_en": "Diffraction comes from the Latin *diffringere* (to break apart/scatter). Grimaldi observed that the light beam did not stay straight after passing an edge, but 'broke up' and bent into the shadow."
+    }
+  }

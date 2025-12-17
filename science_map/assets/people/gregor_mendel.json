@@ -1,0 +1,10 @@
+{
+    "name": "格雷戈尔·孟德尔",
+    "name_en": "Gregor Mendel",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Gregor_Mendel.png",
+    "bio_short": "奥地利帝国生物学家、气象学家和奥古斯丁会修道士，被誉为“现代遗传学之父”。他通过著名的“豌豆杂交实验”（`mendel_genetics_1866`）发现了遗传的基本定律（分离定律和自由组合定律），尽管生前未受重视，但他奠定了现代生物学的数学基础。",
+    "bio_short_en": "An Austrian biologist, meteorologist, and Augustinian friar, known as the 'Father of Modern Genetics'. Through his famous 'pea hybridization experiments' (`mendel_genetics_1866`), he discovered the fundamental laws of inheritance (segregation and independent assortment), laying the mathematical foundation for modern biology despite being ignored during his lifetime.",
+    "events": [
+      "mendel_genetics_1866"
+    ]
+  }

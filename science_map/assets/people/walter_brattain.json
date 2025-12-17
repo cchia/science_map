@@ -1,0 +1,10 @@
+{
+    "name": "沃尔特·布拉顿",
+    "name_en": "Walter Brattain",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Brattain.jpg",
+    "bio_short": "美国物理学家，贝尔实验室的实验大师。他与约翰·巴丁合作，亲手制造了世界上第一个“点接触晶体管”（`transistor_invention_1947`），并因此获得了1956年的诺贝尔物理学奖。",
+    "bio_short_en": "An American physicist and master experimentalist at Bell Labs. Working with John Bardeen, he physically built the world's first 'point-contact transistor' (`transistor_invention_1947`), sharing the 1956 Nobel Prize in Physics.",
+    "events": [
+      "transistor_invention_1947"
+    ]
+  }

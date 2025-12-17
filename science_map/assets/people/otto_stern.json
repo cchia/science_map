@@ -1,0 +1,10 @@
+{
+    "name": "奥托·斯特恩",
+    "name_en": "Otto Stern",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/88/Otto_Stern.jpg",
+    "bio_short": "德国物理学家，1943年诺贝尔物理学奖得主。他最著名的成就是与瓦尔特·盖拉赫共同进行的“斯特恩-盖拉赫实验”（`stern_gerlach_1922`），证实了空间量子化（以及后来的电子自旋）。他还发明了分子束方法，并测量了质子的磁矩。",
+    "bio_short_en": "A German physicist and 1943 Nobel laureate. He is best known for the 'Stern-Gerlach experiment' (`stern_gerlach_1922`) conducted with Walther Gerlach, which demonstrated spatial quantization (and later, electron spin). He also developed the molecular beam method and measured the magnetic moment of the proton.",
+    "events": [
+      "stern_gerlach_experiment_1922"
+    ]
+  }

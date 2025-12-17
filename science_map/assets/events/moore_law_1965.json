@@ -1,0 +1,156 @@
+{
+    "id": "moore_law_1965",
+    "personId": ["gordon_moore"],
+    "title": "摩尔定律提出 (硅谷的脉搏)",
+    "title_en": "Proposal of Moore's Law (The Heartbeat of Silicon Valley)",
+    "year": 1965,
+    "lat": 37.4025,
+    "lng": -122.1419,
+    "city": "帕洛阿尔托",
+    "city_en": "Palo Alto, California",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["电子工程", "经济学"],
+    "field_en": ["Electronic Engineering", "Economics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Moore%27s_Law_Transistor_Count_1970-2020.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=aWLBmapcJRU",
+        "title": "摩尔定律",
+        "title_en": "Moore's Law",
+        "duration": "2:59"
+      }
+    },
+    
+    "summary": {
+      "text": "1965年4月19日，当时担任仙童半导体（Fairchild Semiconductor）研发总监的戈登·摩尔（Gordon Moore）在《电子学》杂志上发表了一篇题为《将更多元件塞进集成电路》的短文。他敏锐地观察到一个趋势：为了保持最低的元件成本，集成电路上的晶体管数量大约每年翻一番（他在1975年将此修正为每两年翻一番）。这个看似简单的观察，后来被称为“摩尔定律”，它成为了整个半导体行业长达半个世纪的“指挥棒”。它不是物理定律，而是一个自我实现的预言：如果英特尔不跟上这个速度，竞争对手就会跟上，所以大家都被迫拼命奔跑。",
+      "text_en": "On April 19, 1965, Gordon Moore, then Director of R&D at Fairchild Semiconductor, published a short article in *Electronics* magazine titled 'Cramming more components onto integrated circuits'. He keenly observed a trend: to maintain the lowest component cost, the number of transistors on an integrated circuit doubled approximately every year (he revised this to every two years in 1975). This seemingly simple observation, later known as 'Moore's Law', became the 'baton' for the entire semiconductor industry for half a century. It is not a law of physics, but a self-fulfilling prophecy: if Intel didn't keep up with this pace, competitors would, so everyone was forced to run as fast as they could.",
+      "key_points": [
+        "首次提出晶体管密度指数级增长的趋势",
+        "最初预测每年翻一番 (1975年修正为每两年)",
+        "预测了集成电路将带来廉价的家用电脑和通讯设备",
+        "成为了半导体行业研发和投资的路线图",
+        "从根本上定义了现代科技进步的速度"
+      ],
+      "key_points_en": [
+        "First proposed the trend of exponential growth in transistor density",
+        "Originally predicted doubling every year (revised to every two years in 1975)",
+        "Predicted that ICs would lead to cheap home computers and communication devices",
+        "Became the roadmap for R&D and investment in the semiconductor industry",
+        "Fundamentally defined the pace of modern technological progress"
+      ]
+    },
+  
+    "story": {
+      "text": "这篇改变世界的文章其实是个“约稿”。《电子学》杂志当时想要一篇关于未来半导体工业的预测文章，于是找到了摩尔。摩尔看着手里少得可怜的数据点（从1959年到1965年，芯片上的元件从1个增加到了64个），他在坐标纸上画了一条直线，发现这正好是指数增长。他大胆地将这条线延伸到了未来十年，预测到1975年一个芯片上将有65,000个元件。当时很多人觉得他在做梦，因为那时的芯片连收音机都还没完全征服。但神奇的是，行业的发展几乎完美地贴合了他的预测。后来，加州理工学院的Carver Mead教授将其命名为“摩尔定律”，这个名字便流传至今。",
+      "text_en": "This world-changing article was actually a 'commissioned piece'. *Electronics* magazine wanted a prediction about the future of the semiconductor industry and approached Moore. Looking at the meager data points he had (from 1959 to 1965, components on a chip went from 1 to 64), Moore drew a straight line on graph paper and realized it was exponential growth. He boldly extended this line ten years into the future, predicting that by 1975, a chip would house 65,000 components. At the time, many thought he was dreaming, as chips hadn't even fully conquered radios yet. But miraculously, the industry's growth matched his prediction almost perfectly. Later, Caltech professor Carver Mead named it 'Moore's Law', and the name stuck.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/cc/The_Moore%27s_Law_Update_%E2%80%94_for_128_years_-_54181414828.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📈",
+        "text": "所谓的“18个月翻一番”其实是误传。摩尔本人说的是“2年”，而英特尔高管戴维·豪斯（Dave House）说的是“性能每18个月翻一番”（因为晶体管多了+速度快了）。结果大众把这两者混淆了，变成了现在的版本。",
+        "text_en": "The so-called 'doubling every 18 months' is actually a misquote. Moore himself said '2 years', while Intel executive Dave House said 'performance doubles every 18 months' (due to more transistors + higher speed). The public combined the two, creating the version we know today."
+      },
+      {
+        "icon": "🚗",
+        "text": "如果汽车工业也遵循摩尔定律，那么今天的一辆劳斯莱斯只需要几美分，一升油能跑几百万公里，而且它的速度快到足以带你在一瞬间飞出地球。",
+        "text_en": "If the automotive industry followed Moore's Law, a Rolls-Royce today would cost pennies, get millions of miles per gallon, and go fast enough to fly you off the Earth in an instant."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "摩尔定律就是科技界的“半价促销”承诺：\n每过两年，你可以花同样的钱，买到性能强一倍的电脑；或者，你可以花一半的钱，买到和两年前一样好的电脑。\n这就是为什么你的手机比几十年前的超级计算机还强，却人人买得起。",
+      "text_en": "Moore's Law is tech's 'half-price sale' promise:\nEvery two years, you can spend the same money to get a computer that's twice as powerful; or, you can spend half the money to get a computer as good as the one from two years ago.\nThis is why your phone is more powerful than supercomputers from decades ago, yet everyone can afford one.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/cc/The_Moore%27s_Law_Update_%E2%80%94_for_128_years_-_54181414828.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📱",
+          "title": "智能手机",
+          "title_en": "Smartphones",
+          "text": "将电脑装进口袋的唯一途径就是晶体管不断变小。没有摩尔定律，iPhone可能像砖头一样大。",
+          "text_en": "The only way to fit a computer in a pocket is for transistors to keep getting smaller. Without Moore's Law, the iPhone might be the size of a brick."
+        },
+        {
+          "icon": "🤖",
+          "title": "人工智能",
+          "title_en": "Artificial Intelligence",
+          "text": "现代AI（如ChatGPT）需要极其庞大的算力。只有当计算成本按照摩尔定律指数级下降，训练大模型才在经济上成为可能。",
+          "text_en": "Modern AI (like ChatGPT) requires immense computing power. Training large models is only economically viable because computing costs have dropped exponentially according to Moore's Law."
+        }
+      ],
+  
+    "impact": {
+      "text": "摩尔定律是人类历史上最伟大的经济引擎之一。它不仅驱动了从大型机到PC再到移动互联网的技术革命，还通过降低计算成本，重塑了几乎所有行业（金融、医疗、娱乐）。它迫使科技公司即使在垄断地位下也不敢懈怠，因为任何停滞都意味着被定律淘汰。虽然现在物理极限正在逼近，摩尔定律正在放缓，但它已经统治了我们50年的进步节奏。",
+      "text_en": "Moore's Law is one of the greatest economic engines in human history. It not only drove the tech revolutions from mainframes to PCs to the mobile internet but also reshaped almost every industry (finance, healthcare, entertainment) by lowering computing costs. It forced tech companies, even monopolies, to never rest, as stagnation meant being rendered obsolete by the law. Although physical limits are approaching and Moore's Law is slowing, it has dictated the rhythm of our progress for 50 years.",
+      "stats": [
+          {
+            "number": "50",
+            "label": "年 (定律有效时长)",
+            "label_en": "Years (Validity)"
+          },
+          {
+            "number": "50000000",
+            "label": "倍 (晶体管增加倍数)",
+            "label_en": "x (Transistor Increase)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "integrated_circuit_1958",
+          "contribution": "集成电路（没有集成电路的发明，就没有“往上面塞更多元件”的前提）",
+          "contribution_en": "Integrated Circuit (Without the invention of the IC, there would be no premise of 'cramming more components' onto it)"
+        },
+        {
+          "id": "shockley_semiconductor_1956",
+          "contribution": "肖克利半导体（摩尔在这里积累了早期经验，并认识了诺伊斯）",
+          "contribution_en": "Shockley Semiconductor (Where Moore gained early experience and met Noyce)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "intel_4004_1971",
+          "contribution": "Intel 4004（为了实现摩尔的预测，英特尔必须不断创新，最终导致了微处理器的诞生）",
+          "contribution_en": "Intel 4004 (To fulfill Moore's prediction, Intel had to constantly innovate, eventually leading to the microprocessor)"
+        },
+        {
+          "id": "nvidia_gpu_1999",
+          "contribution": "GPU计算（摩尔定律在CPU上放缓后，通过并行计算延续了算力的增长）",
+          "contribution_en": "GPU Computing (As Moore's Law slowed on CPUs, parallel computing continued the growth of computing power)"
+        }
+      ],
+      "legacy_text": "它是硅谷的心跳，一旦停止，世界就会心律不齐。",
+      "legacy_text_en": "It is the heartbeat of Silicon Valley; if it stops, the world goes into arrhythmia."
+    },
+  
+    "related_concepts": ["指数增长", "晶体管密度", "Dennard缩放比例", "制程工艺 (纳米)", "Tick-Tock模式"],
+    "related_concepts_en": ["Exponential Growth", "Transistor Density", "Dennard Scaling", "Process Technology (nm)", "Tick-Tock Model"],
+  
+    "quiz": {
+      "question": "在1965年的原始论文中，戈登·摩尔预测晶体管数量翻倍的时间间隔是多久？（注意：不是后来修正后的版本）",
+      "question_en": "In his original 1965 paper, what was the doubling interval Gordon Moore predicted for transistor counts? (Note: Not the later revised version)",
+      "options": [
+        "每6个月",
+        "每年",
+        "每18个月",
+        "每2年"
+      ],
+      "options_en": [
+        "Every 6 months",
+        "Every year",
+        "Every 18 months",
+        "Every 2 years"
+      ],
+      "answer": 1,
+      "explanation": "在1965年的原始文章中，摩尔预测是“每年”翻一番。直到1975年，他根据当时的实际发展情况，将其修正为“每两年”。“18个月”的版本其实是后来大家结合了性能提升因素后的通俗说法。",
+      "explanation_en": "In the original 1965 article, Moore predicted doubling 'every year'. It wasn't until 1975 that he revised it to 'every two years' based on actual progress. The '18 months' version is a popular saying that conflates transistor count with performance gains."
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "克林顿·戴维森",
+    "name_en": "Clinton Davisson",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/00/Clinton_Davisson.jpg",
+    "bio_short": "美国物理学家, 1937年诺贝尔物理学奖得主. 他通过著名的\"戴维森-革末实验\" (`davisson_germer_1927`), 首次观察到电子衍射现象, 证实了物质波的存在.",
+    "bio_short_en": "An American physicist and 1937 Nobel laureate. He confirmed the existence of matter waves by observing electron diffraction in the famous 'Davisson-Germer experiment' (`davisson_germer_1927`).",
+    "events": [
+      "davisson_germer_1927"
+    ]
+  }

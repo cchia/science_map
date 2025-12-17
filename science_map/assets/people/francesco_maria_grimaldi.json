@@ -1,0 +1,10 @@
+{
+    "name": "弗朗切斯科·马里亚·格里马尔迪",
+    "name_en": "Francesco Maria Grimaldi",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Francesco_Maria_Grimaldi.jpg",
+    "bio_short": "意大利耶稣会神父、物理学家和天文学家。他是第一个科学地观察、描述并命名光的“衍射”现象的人。他还与乔瓦尼·里乔利合作绘制了详细的月球地图，确立了以科学家命名月球环形山的传统。",
+    "bio_short_en": "An Italian Jesuit priest, physicist, and astronomer. He was the first to scientifically observe, describe, and name the phenomenon of 'diffraction' of light. He also collaborated with Giovanni Riccioli to map the Moon, establishing the tradition of naming lunar craters after scientists.",
+    "events": [
+      "grimaldi_diffraction_1665"
+    ]
+  }

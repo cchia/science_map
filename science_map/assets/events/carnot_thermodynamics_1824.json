@@ -10,14 +10,9 @@
     "city_en": "Paris",
     "country": "法国",
     "country_en": "France",
-    "field": [
-        "工程学",
-        "物理学"
-    ],
-    "field_en": [
-        "Engineering",
-        "Physics"
-    ],
+    "storyline_ids": ["thermo_story"],
+    "field": ["物理学", "工程学"],
+    "field_en": ["Physics", "Engineering"],
     "media": {
         "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Carnot_heat_engine_3.svg",
         "video": {

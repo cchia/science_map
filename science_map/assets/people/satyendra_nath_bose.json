@@ -1,0 +1,10 @@
+{
+    "name": "萨特延德拉·纳特·玻色",
+    "name_en": "Satyendra Nath Bose",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/fe/SatyenBose1925.jpg",
+    "bio_short": "印度物理学家和数学家。他以在量子力学方面的基础性工作而闻名，特别是为“玻色-爱因斯坦统计”和“玻色-爱因斯坦凝聚”奠定了基础。粒子“玻色子”以他命名。",
+    "bio_short_en": "An Indian physicist and mathematician. He is best known for his work on quantum mechanics in the early 1920s, providing the foundation for Bose–Einstein statistics and the theory of the Bose–Einstein condensate. The particle 'boson' is named after him.",
+    "events": [
+      "bose_einstein_statistics_1924"
+    ]
+  }

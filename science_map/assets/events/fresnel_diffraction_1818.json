@@ -1,7 +1,150 @@
 {
   "id": "fresnel_diffraction_1818",
-  "title": "Fresnel Diffraction",
-  "title_en": "Fresnel Diffraction",
+  "personId": "augustin_jean_fresnel",
+  "title": "赢得“大奖”并证实波动说 (泊松亮斑)",
+  "title_en": "Wins the 'Grand Prix' with Wave Theory (Poisson's Spot)",
   "year": 1818,
-  "is_stub": true
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "city": "巴黎",
+  "city_en": "Paris",
+  "country": "法国",
+  "country_en": "France",
+  "field": ["物理学", "数学"],
+  "field_en": ["Physics", "Mathematics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bokehs.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=y9c8oZ49pFc",
+      "title": "泊松亮斑",
+      "title_en": "The Brightest Part of a Shadow is in the Middle",
+      "duration": "7:19"
+    }
+  },
+  
+  "summary": {
+    "text": "奥古斯丁-让·菲涅尔（Augustin-Jean Fresnel）向法国科学院提交了一篇关于光衍射的论文，参与年度科学大奖的角逐。他通过复杂的微积分，将惠更斯原理（子波）和托马斯·杨的干涉原理结合起来，建立了一套严密的“波动光学”数学理论。这一理论的预测精度极高，最终通过著名的“泊松亮斑”实验，击败了当时占统治地位的牛顿微粒说，确立了光是波的科学共识。",
+    "text_en": "Augustin-Jean Fresnel submitted a memoir on diffraction to the French Academy of Sciences for the Grand Prix. Using complex calculus, he mathematically synthesized Huygens's principle (wavelets) with Young's principle of interference, creating a rigorous theory of 'Wave Optics'. His theory was so precise that it famously defeated the dominant Newtonian particle theory via the 'Poisson Spot' experiment, establishing the wave nature of light as scientific consensus.",
+    "key_points": [
+      "建立了严密的“波动光学”(Wave Optics) 数学基础",
+      "提出了“惠更斯-菲涅尔原理”",
+      "预言并验证了“泊松亮斑” (Poisson's Spot)",
+      "击败了牛顿的微粒说",
+      "发明了菲涅尔透镜 (Fresnel Lens)"
+    ],
+    "key_points_en": [
+      "Established the rigorous mathematical basis of 'Wave Optics'",
+      "Proposed the 'Huygens-Fresnel Principle'",
+      "Predicted and verified 'Poisson's Spot'",
+      "Defeated Newton's Corpuscular Theory",
+      "Invented the Fresnel Lens"
+    ]
+  },
+
+  "story": {
+    "text": "1818年的法国科学院大奖评委包括著名的数学家泊松（Siméon Denis Poisson），他是牛顿微粒说的坚定支持者。泊松读了菲涅尔的论文后，试图用“归谬法”来反驳它。他计算出：如果菲涅尔的波动公式是正确的，那么当光照射到一个不透明的圆盘时，圆盘影子的**正中心**应该会出现一个“亮斑”。泊松认为这太荒谬了，显然违背常识。然而，另一位评委阿拉戈（François Arago）决定进行实验验证。结果令人震惊：影子的中心**确实**有一个亮斑，亮度几乎和没有圆盘时一样！这个“不可能”的现象（现在称为“泊松亮斑”或“阿拉戈光斑”）的证实，让微粒说瞬间崩溃，菲涅尔赢得了大奖。",
+    "text_en": "The judge for the 1818 Grand Prix was the famous mathematician Siméon Denis Poisson, a staunch supporter of Newton's particle theory. After reading Fresnel's paper, Poisson tried to disprove it via 'reductio ad absurdum'. He calculated that if Fresnel's wave formulas were correct, a bright spot should appear in the *exact center* of the shadow of an opaque disc. Poisson thought this was absurd and contrary to common sense. However, another judge, François Arago, decided to test it. The result was shocking: there *was* a bright spot in the center of the shadow! This confirmation of the 'impossible' (now called 'Poisson's Spot' or 'Arago's Spot') caused the particle theory to collapse instantly, and Fresnel won the prize.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Poissonspot_simulation_d4mm.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "💡",
+      "text": "菲涅尔不仅是理论家，还是工程师。他发明了“菲涅尔透镜”（灯塔透镜），这种透镜均薄且轻，能将灯塔的光投射到几十公里外，拯救了无数船只。",
+      "text_en": "Fresnel was not just a theorist but an engineer. He invented the 'Fresnel Lens' (lighthouse lens), which was thin and light but could project lighthouse beams for tens of kilometers, saving countless ships."
+    },
+    {
+      "icon": "🤣",
+      "text": "这个著名的亮斑被称为“泊松亮斑”，这在科学史上是一个巨大的讽刺，因为泊松是那个试图证明它*不存在*的人。",
+      "text_en": "The famous spot is called 'Poisson's Spot', which is a great irony in the history of science, as Poisson was the one who tried to prove it *didn't* exist."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "牛顿说光是“子弹”。如果你向一个圆盘射击子弹，圆盘后面应该是完全黑暗的阴影。\n菲涅尔说光是“水波”。水波遇到圆石头时，会绕过边缘，在石头后面重新汇合。\n泊松挑战说：“如果光是波，那圆盘影子的正中心应该会有波浪汇合的‘亮点’，但这听起来很蠢。”\n他们做了实验，结果真的在影子中心看到了那个“亮点”。这就像是魔法一样证明了光确实会像水波一样“绕过”障碍物。",
+    "text_en": "Newton said light is 'bullets'. If you shoot bullets at a disc, the shadow behind it should be completely dark.\nFresnel said light is 'water waves'. Waves wrap around a rock and meet up again behind it.\nPoisson challenged: 'If light is a wave, there should be a 'bright spot' right in the middle of the shadow where the waves meet. That sounds stupid.'\nThey did the experiment, and there *was* a bright spot. It proved like magic that light really does 'wrap around' obstacles like a wave.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Poissonspot_setup_treisinger.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🗼",
+        "title": "菲涅尔透镜 (Fresnel Lens)",
+        "title_en": "Fresnel Lens",
+        "text": "这种“扁平”的透镜设计至今仍广泛用于灯塔、汽车前大灯、VR眼镜和太阳能聚光器中。",
+        "text_en": "This 'flat' lens design is still widely used in lighthouses, car headlights, VR headsets, and solar concentrators."
+      },
+      {
+        "icon": "📡",
+        "title": "无线电波传播",
+        "title_en": "Radio Propagation",
+        "text": "菲涅尔的衍射理论（菲涅尔区）是计算无线电波如何绕过山脉和建筑物进行传播的基础。",
+        "text_en": "Fresnel's diffraction theory (Fresnel Zones) is the basis for calculating how radio waves propagate around mountains and buildings."
+      }
+    ],
+
+  "impact": {
+    "text": "菲涅尔的工作是“光的波动说”的决定性胜利。托马斯·杨（`young_double_slit_1803`）发现了现象，而菲涅尔提供了无可辩驳的数学证明和预测能力。他将光学变成了一门精确的数学物理学科。直到20世纪初的量子革命前，菲涅尔的波动理论一直是光学的绝对真理。",
+    "text_en": "Fresnel's work was the definitive victory for the 'Wave Theory of Light'. Thomas Young (`young_double_slit_1803`) found the phenomenon, but Fresnel provided the irrefutable mathematical proof and predictive power. He turned optics into a precise mathematical physics discipline. Until the quantum revolution, Fresnel's wave theory was the absolute truth of optics.",
+    "stats": [
+        {
+          "number": "1818",
+          "label": "年 (大奖赛)",
+          "label_en": "Year (Grand Prix)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "young_double_slit_1803",
+        "contribution": "托马斯·杨（其干涉原理是菲涅尔理论的核心支柱）",
+        "contribution_en": "Thomas Young (his interference principle was a core pillar of Fresnel's theory)"
+      },
+      {
+        "id": "huygens_wave_theory_1690",
+        "contribution": "惠更斯（菲涅尔修正并数学化了惠更斯的“子波”原理）",
+        "contribution_en": "Huygens (Fresnel modified and mathematized Huygens's 'wavelet' principle)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "maxwell_equations_1861",
+        "contribution": "麦克斯韦（菲涅尔的波动数学为麦克斯韦推导电磁波提供了框架）",
+        "contribution_en": "Maxwell (Fresnel's wave mathematics provided the framework for Maxwell to derive electromagnetic waves)"
+      },
+      {
+        "id": "fraunhofer_diffraction_1821",
+        "contribution": "夫琅禾费（利用菲涅尔的理论进一步发展了“远场衍射”和光谱学）",
+        "contribution_en": "Fraunhofer (used Fresnel's theory to further develop 'far-field diffraction' and spectroscopy)"
+      }
+    ],
+    "legacy_text": "菲涅尔证明了即使是“影子”的中心也可能充满了光。",
+    "legacy_text_en": "Fresnel proved that even the center of a shadow can be full of light."
+  },
+
+  "related_concepts": ["衍射 (Diffraction)", "泊松亮斑 (Poisson's Spot)", "菲涅尔透镜 (Fresnel Lens)", "波动光学 (Wave Optics)", "惠更斯-菲涅尔原理", "干涉 (Interference)"],
+  "related_concepts_en": ["Diffraction", "Poisson's Spot", "Fresnel Lens", "Wave Optics", "Huygens-Fresnel Principle", "Interference"],
+
+  "quiz": {
+    "question": "“泊松亮斑”（圆盘影子中心的亮点）的出现，证明了光的什么性质？",
+    "question_en": "The appearance of 'Poisson's Spot' (a bright spot in the center of a disc's shadow) proved what property of light?",
+    "options": [
+      "光是粒子，因为它们穿过了圆盘",
+      "光是波，因为它们“绕过”了边缘并发生了“相长干涉”",
+      "光速是无限的",
+      "光具有质量"
+    ],
+    "options_en": [
+      "Light is a particle because it went through the disc",
+      "Light is a wave because it 'diffracted' around the edges and constructively 'interfered'",
+      "The speed of light is infinite",
+      "Light has mass"
+    ],
+    "answer": 1,
+    "explanation": "这是一个经典的波动现象。光波从圆盘边缘的所有点发出子波，这些子波刚好在影子的正中心走过了相同的距离，因此波峰与波峰相遇（相长干涉），形成亮点。粒子无法做到这一点。",
+    "explanation_en": "This is a classic wave phenomenon. Light waves diffract from all edges of the disc. These waves travel the exact same distance to the center of the shadow, so their crests meet (constructive interference) to form a bright spot. Particles cannot do this."
+  }
 }

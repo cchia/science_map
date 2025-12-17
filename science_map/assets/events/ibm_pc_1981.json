@@ -1,0 +1,156 @@
+{
+    "id": "ibm_pc_1981",
+    "personId": ["don_estridge", "william_lowe"],
+    "title": "IBM PC 5150发布 (个人电脑标准的建立)",
+    "title_en": "Release of IBM PC 5150 (Establishment of the PC Standard)",
+    "year": 1981,
+    "lat": 26.3683,
+    "lng": -80.1289,
+    "city": "博卡拉顿",
+    "city_en": "Boca Raton, Florida",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story", "digital_age_story"],
+    "field": ["计算机科学", "商业管理"],
+    "field_en": ["Computer Science", "Business Management"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/IBM_PC_300GL_6282.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=_w-nK0z6JGM",
+        "title": "1981年：IBM推出个人电脑",
+        "title_en": "12th August 1981: IBM announces the release of the 5150, the first IBM Personal Computer",
+        "duration": "2:38"
+      }
+    },
+    
+    "summary": {
+      "text": "1981年8月12日，商业巨头IBM终于不再忽视微型计算机市场，推出了型号为5150的IBM PC。为了在一年内快速推向市场，项目负责人唐·埃斯特里奇（Don Estridge）打破了IBM封闭的传统，采用了“开放架构”：使用英特尔的8088芯片，微软的DOS操作系统，以及现成的商用零部件。这一决定不仅让IBM迅速占领了商业市场，更无意中创造了一个巨大的兼容机产业（Clones）。从此，“IBM兼容机”成为了个人电脑事实上的工业标准，除了苹果之外的所有电脑基本上都成为了IBM PC的后代。",
+      "text_en": "On August 12, 1981, business giant IBM finally stopped ignoring the microcomputer market and launched the IBM PC (Model 5150). To get to market within a year, project lead Don Estridge broke IBM's closed tradition and adopted an 'Open Architecture': using the Intel 8088 chip, Microsoft's DOS operating system, and off-the-shelf commercial parts. This decision not only allowed IBM to quickly dominate the business market but unintentionally created a massive industry of clones. From then on, 'IBM Compatible' became the de facto industrial standard for personal computers, with almost all non-Apple computers becoming descendants of the IBM PC.",
+      "key_points": [
+        "确立了个人电脑的工业标准 (IBM PC Compatible)",
+        "采用开放架构 (Open Architecture) 和第三方零部件",
+        "选择了微软的MS-DOS (当时称为PC-DOS) 作为操作系统",
+        "选择了英特尔 (Intel x86) 架构作为核心处理器",
+        "标志着个人电脑从“极客玩具”转变为“商业工具”"
+      ],
+      "key_points_en": [
+        "Established the industrial standard for PCs (IBM PC Compatible)",
+        "Adopted Open Architecture and third-party off-the-shelf parts",
+        "Selected Microsoft's MS-DOS (branded PC-DOS) as the OS",
+        "Selected Intel (x86) architecture as the core processor",
+        "Marked the shift of PCs from 'geek toys' to 'business tools'"
+      ]
+    },
+  
+    "story": {
+      "text": "代号为“象棋计划”（Project Chess）的IBM PC研发过程是一场针对IBM自身官僚主义的叛逆。通常IBM研发一台电脑需要四五年，并且所有零件都要自己造。但唐·埃斯特里奇领导的“肮脏十二人”（Dirty Dozen）团队被流放到佛罗里达州的博卡拉顿，拥有独立行事的特权。他们没有时间自己开发操作系统，于是比尔·盖茨抓住机会把并没有开发完成的DOS授权给了IBM；他们没有时间设计芯片，于是买了英特尔的8088。最疯狂的是，他们发布了一本《技术参考手册》，里面详细公开了电路图和BIOS代码，这在当时闻所未闻。正是这种“抄作业”允许的开放性，让戴尔、惠普、康柏等公司后来能制造出无数便宜的兼容机，最终不仅打败了竞争对手，甚至在后来吞噬了IBM自己的PC业务。",
+      "text_en": "The development of the IBM PC, codenamed 'Project Chess', was a rebellion against IBM's own bureaucracy. Typically, IBM took 4-5 years to develop a computer, building every part in-house. But Don Estridge's team of 'Dirty Dozen' was exiled to Boca Raton, Florida, with the privilege to act independently. They had no time to develop an OS, so Bill Gates seized the chance to license the unfinished DOS to IBM; they had no time to design chips, so they bought Intel's 8088. Craziest of all, they released a 'Technical Reference Manual' containing detailed schematics and BIOS code, unheard of at the time. This 'permission to copy' openness allowed companies like Dell, HP, and Compaq to build countless cheap clones, eventually defeating competitors and even devouring IBM's own PC business.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/f9/PC_DOS_1.10_screenshot.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎩",
+        "text": "为了让严肃的商务人士不觉得电脑可怕，IBM在广告中使用了查理·卓别林的“流浪汉”形象。这是IBM历史上最成功的营销活动之一，使得冷冰冰的机器变得人性化。",
+        "text_en": "To make computers less intimidating to serious business people, IBM used Charlie Chaplin's 'Little Tramp' character in their advertising. It was one of the most successful marketing campaigns in IBM history, humanizing the cold machinery."
+      },
+      {
+        "icon": "💾",
+        "text": "第一代IBM PC甚至没有硬盘，只有两个软驱。如果你想保存文件，你得把操作系统盘拔出来，插进一张空白的数据盘。它的内存只有16KB到64KB。",
+        "text_en": "The first IBM PC didn't even have a hard drive, just two floppy drives. If you wanted to save a file, you had to pull out the OS disk and insert a blank data disk. It had only 16KB to 64KB of RAM."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在IBM PC之前，买电脑就像买游戏机，每家的卡带都不通用。\nIBM PC制定了一个标准：以后大家的插头、软件、零件都按我这个来。\n结果大家都照着做，电脑就变成了通用的工具，而不是各自为战的孤岛。",
+      "text_en": "Before the IBM PC, buying a computer was like buying a game console; cartridges were not interchangeable.\nIBM PC set a standard: 'From now on, everyone's plugs, software, and parts should follow my design.'\nAs a result, everyone followed suit, and computers became universal tools rather than isolated islands.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/40/Computer_lab_showing_desktop_PCs_warwick.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📊",
+          "title": "Lotus 1-2-3",
+          "title_en": "Lotus 1-2-3",
+          "text": "这款电子表格软件是IBM PC的“杀手级应用”。许多企业买这台昂贵的电脑，唯一的目的就是为了运行Lotus 1-2-3来做财务报表。",
+          "text_en": "This spreadsheet software was the 'killer app' for the IBM PC. Many businesses bought this expensive computer solely to run Lotus 1-2-3 for financial reporting."
+        },
+        {
+          "icon": "✈️",
+          "title": "微软模拟飞行",
+          "title_en": "Microsoft Flight Simulator",
+          "text": "这不仅仅是个游戏，它在当时被用来测试电脑的兼容性。如果你能流畅运行它，说明你的电脑是一台合格的IBM兼容机。",
+          "text_en": "This wasn't just a game; it was used to test computer compatibility. If you could run it smoothly, your computer was a certified IBM Compatible."
+        }
+      ],
+  
+    "impact": {
+      "text": "IBM PC的发布是计算机历史的分水岭。它结束了计算机市场的“战国时代”，建立了长达40年的Wintel（Windows + Intel）联盟霸权。它虽然在技术上并不先进（甚至落后于当时的Apple II），但它凭借IBM的金字招牌和开放生态，让个人电脑进入了世界每一个办公室和家庭。讽刺的是，由于开放架构，IBM最终失去了对这个市场的控制，把利润拱手让给了英特尔和微软。",
+      "text_en": "The release of the IBM PC was a watershed moment in computer history. It ended the 'Warring States' period of the computer market and established the 40-year hegemony of the Wintel (Windows + Intel) alliance. Although technically not advanced (even lagging behind the Apple II of the time), its IBM brand and open ecosystem brought PCs into every office and home. Ironically, due to the open architecture, IBM eventually lost control of this market, handing over profits to Intel and Microsoft.",
+      "stats": [
+          {
+            "number": "1565",
+            "label": "美元 (起售价)",
+            "label_en": "USD (Starting Price)"
+          },
+          {
+            "number": "4.77",
+            "label": "MHz (CPU频率)",
+            "label_en": "MHz (CPU Speed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "apple_ii_launch_1977",
+          "contribution": "Apple II（它的巨大成功让IBM高层感到恐慌，迫使他们批准了PC项目）",
+          "contribution_en": "Apple II (Its massive success panicked IBM executives, forcing them to approve the PC project)"
+        },
+        {
+          "id": "intel_4004_1971",
+          "contribution": "Intel 4004（微处理器的技术演进最终导向了IBM选用的Intel 8088）",
+          "contribution_en": "Intel 4004 (The evolution of microprocessors led to the Intel 8088 chosen by IBM)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "compaq_portable_1982",
+          "contribution": "康柏便携式电脑（第一台合法的IBM兼容机，开启了克隆机时代）",
+          "contribution_en": "Compaq Portable (The first legal IBM clone, starting the clone era)"
+        },
+        {
+          "id": "windows_1_0_1985",
+          "contribution": "Windows操作系统（基于IBM PC带来的庞大用户群，微软得以构建后来的视窗帝国）",
+          "contribution_en": "Windows OS (Building on the massive user base brought by the IBM PC, Microsoft built its later Windows empire)"
+        }
+      ],
+      "legacy_text": "它不是第一台电脑，但它是现代电脑的祖先。",
+      "legacy_text_en": "It wasn't the first computer, but it is the ancestor of the modern computer."
+    },
+  
+    "related_concepts": ["开放架构 (Open Architecture)", "BIOS", "兼容机 (Clones)", "MS-DOS", "x86指令集"],
+    "related_concepts_en": ["Open Architecture", "BIOS", "Clones", "MS-DOS", "x86 Instruction Set"],
+  
+    "quiz": {
+      "question": "IBM PC最革命性的决策是什么，导致了后来“兼容机”的泛滥？",
+      "question_en": "What was the most revolutionary decision of the IBM PC that led to the proliferation of 'clones'?",
+      "options": [
+        "使用了彩色显示器",
+        "采用了开放架构和标准零部件",
+        "定价非常便宜",
+        "使用了鼠标"
+      ],
+      "options_en": [
+        "Used a color display",
+        "Adopted Open Architecture and standard parts",
+        "Priced very cheaply",
+        "Used a mouse"
+      ],
+      "answer": 1,
+      "explanation": "IBM为了快速上市，打破了封闭传统，采用了开放架构（Open Architecture）并公开了技术手册，这允许其他厂商合法地制造与IBM PC兼容的电脑。",
+      "explanation_en": "To launch quickly, IBM broke its closed tradition, adopted Open Architecture, and published technical manuals, allowing other manufacturers to legally build computers compatible with the IBM PC."
+    }
+  }

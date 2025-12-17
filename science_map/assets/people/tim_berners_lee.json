@@ -1,0 +1,10 @@
+{
+    "name": "蒂姆·伯纳斯-李",
+    "name_en": "Tim Berners-Lee",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/640px-Sir_Tim_Berners-Lee_%28cropped%29.jpg",
+    "bio_short": "英国计算机科学家，万维网（World Wide Web）的发明者。他在1989年提出了万维网的构想（`berners_lee_www_1989`），发明了HTTP、HTML和URL，并编写了世界上第一个网页浏览器。他坚持将万维网技术无偿向全世界开放，彻底改变了人类分享信息的方式。",
+    "bio_short_en": "A British computer scientist and the inventor of the World Wide Web. He proposed the concept of the Web in 1989 (`berners_lee_www_1989`), inventing HTTP, HTML, and URLs, and wrote the first web browser. He insisted on making Web technology freely available to the world, fundamentally changing how humanity shares information.",
+    "events": [
+      "berners_lee_www_1989"
+    ]
+  }

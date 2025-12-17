@@ -1,0 +1,10 @@
+{
+    "name": "托马斯·亨特·摩尔根",
+    "name_en": "Thomas Hunt Morgan",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Thomas_Hunt_Morgan.jpg",
+    "bio_short": "美国遗传学家和胚胎学家，1933年诺贝尔生理学或医学奖得主。他利用果蝇进行研究，确立了“染色体遗传理论”（`morgan_fruit_fly_1910`），证明了基因位于染色体上，是现代遗传学的奠基人之一。",
+    "bio_short_en": "An American geneticist and embryologist, and a 1933 Nobel laureate. Through his research on fruit flies, he established the 'Chromosome Theory of Inheritance' (`morgan_fruit_fly_1910`), proving that genes are located on chromosomes, making him one of the fathers of modern genetics.",
+    "events": [
+      "morgan_fruit_fly_1910"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "爱德华·W·莫雷",
+    "name_en": "Edward W. Morley",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Morley%2C_Edward_1885_-_DPLA_-_14e3c8f7e1c1b3728376637d7c07405e.jpg",
+    "bio_short": "美国科学家（化学家和物理学家）。他最著名的成就是与迈克尔逊合作进行了“迈克尔逊-莫雷实验”（`michelson_morley_1887`），证明了以太不存在。他还精确测定了氧的原子量。",
+    "bio_short_en": "An American scientist (chemist and physicist). He is best known for his collaboration with Michelson on the 'Michelson-Morley experiment' (`michelson_morley_1887`), proving the non-existence of the aether. He also precisely determined the atomic weight of oxygen.",
+    "events": [
+      "michelson_morley_1887"
+    ]
+  }

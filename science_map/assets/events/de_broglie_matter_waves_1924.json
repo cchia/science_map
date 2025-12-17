@@ -1,0 +1,151 @@
+{
+    "id": "de_broglie_matter_waves_1924",
+    "personId": "louis_de_broglie",
+    "title": "提出“物质波”假说 (波粒二象性)",
+    "title_en": "Proposes 'Matter Waves' Hypothesis (Wave-Particle Duality)",
+    "year": 1924,
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "city": "巴黎",
+    "city_en": "Paris",
+    "country": "法国",
+    "country_en": "France",
+    "storyline_ids": ["quantum_story"],
+    "field": ["物理学", "数学"],
+    "field_en": ["Physics", "Mathematics"],
+    
+    "media": {
+      "event_image": "assets/images/matter_wave.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=jXZJpgIwE5s",
+        "title": "德布罗意波长",
+        "title_en": "De Broglie Wavelength",
+        "duration": "9:04"
+      }
+    },
+    
+    "summary": {
+      "text": "1924年，法国贵族路易·德布罗意（Louis de Broglie）在他的博士论文中提出了一个震撼物理学界的假设：如果光（一种波）可以表现得像粒子（光子，`einstein_photoelectric_1905`），那么实物粒子（如电子）是否也可以表现得像“波”？他推导出了著名的德布罗意公式：$\\lambda = h/p$，即粒子的“波长”($\\lambda$) 等于普朗克常数 ($h$) 除以其“动量”($p$)。这标志着“波粒二象性”被推广到了所有物质。",
+      "text_en": "In 1924, French aristocrat Louis de Broglie proposed a hypothesis in his PhD thesis that shook physics: If light (a wave) can behave like a particle (photon, `einstein_photoelectric_1905`), could matter particles (like electrons) behave like 'waves'? He derived the famous de Broglie equation: $\\lambda = h/p$, stating that a particle's 'wavelength' ($\\lambda$) is equal to Planck's constant ($h$) divided by its 'momentum' ($p$). This extended 'Wave-Particle Duality' to all matter.",
+      "key_points": [
+        "提出了“物质波”(Matter Waves) 概念",
+        "公式：$\\lambda = h/p$ (波长 = 普朗克常数 / 动量)",
+        "预言电子会发生“衍射” (Diffraction)",
+        "薛定谔方程 (`schrodinger_equation_1926`) 的直接灵感来源",
+        "1929年获得诺贝尔物理学奖"
+      ],
+      "key_points_en": [
+        "Proposed the concept of 'Matter Waves'",
+        "Formula: $\\lambda = h/p$ (Wavelength = Planck's constant / Momentum)",
+        "Predicted electron 'diffraction'",
+        "Direct inspiration for the Schrödinger Equation (`schrodinger_equation_1926`)",
+        "Won the 1929 Nobel Prize in Physics"
+      ]
+    },
+  
+    "story": {
+      "text": "德布罗意的想法在当时看起来极其疯狂。当他向索邦大学提交这篇博士论文时，评委会对此感到困惑，不敢轻易通过。他的导师郎之万（Paul Langevin）将论文寄给了爱因斯坦寻求意见。爱因斯坦读后大为赞赏，称其“揭开了巨大帷幕的一角”。有了爱因斯坦的背书，德布罗意才顺利获得学位。仅仅三年后（1927年），戴维森（Davisson）和革末（Germer）在实验中真的观察到了电子通过晶体时的“衍射”现象（只有波才会衍射），完美证实了德布罗意的预言。",
+      "text_en": "De Broglie's idea seemed crazy at the time. When he submitted his thesis to the Sorbonne, the jury was baffled and hesitant to accept it. His advisor, Paul Langevin, sent the paper to Einstein for an opinion. Einstein was delighted, declaring that de Broglie had 'lifted a corner of the great veil'. With Einstein's endorsement, he got his degree. Just three years later (1927), Davisson and Germer experimentally observed electrons 'diffracting' through a crystal (something only waves do), perfectly confirming de Broglie's prediction.",
+      "diagram": "assets/images/matter_wave_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤴",
+        "text": "路易·德布罗意是一位真正的王子（Prince）。他在哥哥去世后继承了公爵（Duc）头衔。他是历史上唯一一位获得诺贝尔科学奖的王子。",
+        "text_en": "Louis de Broglie was a real-life Prince. He later inherited the title of Duke (Duc) after his brother died. He is the only prince in history to win a Nobel Prize in science."
+      },
+      {
+        "icon": "⚾",
+        "text": "根据德布罗意公式，你扔出的棒球也有波长！但是因为棒球的质量（动量）太大，其波长极小（约 $10^{-34}$ 米），小到无法探测，所以你在宏观世界看不到棒球像波一样“绕射”。",
+        "text_en": "According to his formula, a baseball you throw also has a wavelength! But because the baseball's mass (momentum) is so large, the wavelength is infinitesimally small (~$10^{-34}$ meters) and undetectable, which is why you don't see baseballs 'diffracting' in the macro world."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "爱因斯坦说：“光（波）可以像粒子一样行动。”\n德布罗意问：“为什么反过来不行？也许电子（粒子）也可以像波一样行动？”\n他提出了一个公式，把代表粒子的“动量”（p）和代表波的“波长”（λ）用一个等号连了起来。这意味着，只要东西在动，它就是一种波。电子不仅是绕核旋转的小球，它更像是一条首尾相接的“驻波”环绕在原子核周围。",
+      "text_en": "Einstein said, 'Light (a wave) can act like a particle.'\nDe Broglie asked, 'Why not the reverse? Maybe electrons (particles) can act like waves?'\nHe proposed a formula linking 'Momentum' (particle stuff) and 'Wavelength' (wave stuff) with an equals sign. This means everything moving is a wave. An electron isn't just a ball orbiting the nucleus; it's more like a 'standing wave' vibrating around the nucleus.",
+      "diagram": "assets/images/matter_wave_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "电子显微镜 (Electron Microscope)",
+          "title_en": "Electron Microscope",
+          "text": "这是德布罗意理论最直接的应用。因为高速电子的“波长”比可见光短得多（约10万倍），所以用“电子波”来看东西，分辨率比光学显微镜高得多，能看到病毒甚至原子。",
+          "text_en": "This is the most direct application. Because high-speed electrons have a *much shorter wavelength* than visible light (100,000x shorter), using 'electron waves' to see allows for much higher resolution, revealing viruses and even atoms."
+        },
+        {
+          "icon": "⚛️",
+          "title": "量子力学基础",
+          "title_en": "Foundation of Quantum Mechanics",
+          "text": "薛定谔正是为了描述德布罗意所说的这种“物质波”是如何随时间演化的，才推导出了著名的“波动方程”。",
+          "text_en": "Schrödinger derived his famous 'Wave Equation' specifically to describe how de Broglie's 'matter waves' evolve over time."
+        }
+      ],
+  
+    "impact": {
+      "text": "德布罗意波是连接“旧量子论”（玻尔）和“新量子力学”（薛定谔/海森堡）的关键桥梁。它解决了玻尔模型中“为什么要量子化”的谜题（因为轨道周长必须是波长的整数倍）。它统一了物质和辐射的本质：一切皆波，一切皆粒。",
+      "text_en": "De Broglie's wave is the critical bridge between 'Old Quantum Theory' (Bohr) and 'New Quantum Mechanics' (Schrödinger/Heisenberg). It solved the mystery of *why* Bohr's orbits were quantized (the orbit circumference must match a whole number of wavelengths). It unified the nature of matter and radiation: everything is both wave and particle.",
+      "stats": [
+          {
+            "number": "1929",
+            "label": "年诺贝尔奖",
+            "label_en": "Nobel Prize"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "einstein_photoelectric_1905",
+          "contribution": "爱因斯坦（其“光是粒子”的理论启发了德布罗意思考“粒子是波”的对称性）",
+          "contribution_en": "Einstein (his 'light is a particle' theory inspired de Broglie to consider the symmetry of 'particles are waves')"
+        },
+        {
+          "id": "bohr_atom_1913",
+          "contribution": "玻尔（德布罗意试图为玻尔模型中的“量子化轨道”寻找物理原因）",
+          "contribution_en": "Bohr (De Broglie sought a physical reason for the 'quantized orbits' in Bohr's model)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "schrodinger_equation_1926",
+          "contribution": "薛定谔（他通过寻找描述“德布罗意波”的微分方程，创立了波动力学）",
+          "contribution_en": "Schrödinger (he founded wave mechanics by searching for the differential equation that describes 'de Broglie waves')"
+        },
+        {
+          "id": "davisson_germer_1927",
+          "contribution": "戴维森和革末（他们在实验中观察到电子衍射，直接证实了德布罗意的假说）",
+          "contribution_en": "Davisson & Germer (they experimentally observed electron diffraction, directly confirming de Broglie's hypothesis)"
+        }
+      ],
+      "legacy_text": "德布罗意告诉我们，物质最深层的本质不是坚硬的颗粒，而是舞动的波纹。",
+      "legacy_text_en": "De Broglie taught us that the deepest nature of matter is not hard grains, but dancing ripples."
+    },
+  
+    "related_concepts": ["波粒二象性 (Wave-Particle Duality)", "物质波 (Matter Waves)", "德布罗意波长", "电子显微镜", "薛定谔方程", "电子衍射"],
+    "related_concepts_en": ["Wave-Particle Duality", "Matter Waves", "De Broglie Wavelength", "Electron Microscope", "Schrödinger Equation", "Electron Diffraction"],
+  
+    "quiz": {
+      "question": "德布罗意公式 ($\\lambda = h/p$) 揭示了哪两个物理量之间的直接联系？",
+      "question_en": "What two physical quantities does the de Broglie equation ($\\lambda = h/p$) directly link?",
+      "options": [
+        "能量和时间",
+        "波长（波的属性）和动量（粒子的属性）",
+        "电荷和质量",
+        "引力和距离"
+      ],
+      "options_en": [
+        "Energy and Time",
+        "Wavelength (wave property) and Momentum (particle property)",
+        "Charge and Mass",
+        "Gravity and Distance"
+      ],
+      "answer": 1,
+      "explanation": "这是波粒二象性的数学表达。$\\lambda$（波长）代表波动性，$p$（动量，即质量乘以速度）代表粒子性。普朗克常数 $h$ 是连接这两个世界的桥梁。",
+      "explanation_en": "This is the mathematical expression of wave-particle duality. $\\lambda$ (Wavelength) represents waviness, and $p$ (Momentum, mass times velocity) represents particleness. Planck's constant $h$ is the bridge between these two worlds."
+    }
+  }

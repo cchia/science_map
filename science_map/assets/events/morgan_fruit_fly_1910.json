@@ -1,0 +1,156 @@
+{
+    "id": "morgan_fruit_fly_1910",
+    "personId": "thomas_hunt_morgan",
+    "title": "确立“染色体遗传理论” (发现伴性遗传)",
+    "title_en": "Establishes 'Chromosome Theory of Inheritance' (Discovery of Sex-Linked Inheritance)",
+    "year": 1910,
+    "lat": 40.8075,
+    "lng": -73.9626,
+    "city": "纽约 (哥伦比亚大学)",
+    "city_en": "New York City (Columbia University)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["gene_story"],
+    "field": ["遗传学", "生物学"],
+    "field_en": ["Genetics", "Biology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sexlinked_inheritance_white.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=3nimNyRfeWc",
+        "title": "染色体遗传理论",
+        "title_en": "Chromosomal Theory of Inheritance",
+        "duration": "4:41"
+      }
+    },
+    
+    "summary": {
+      "text": "1910年，托马斯·亨特·摩尔根（Thomas Hunt Morgan）在他著名的“苍蝇室”（Fly Room）里，通过研究“黑腹果蝇”（Drosophila melanogaster），证实了基因位于染色体上。虽然孟德尔（`mendel_genetics_1866`）提出了遗传因子的概念，但没人知道这些因子在细胞里的具体位置。摩尔根发现了一只眼睛是白色（突变）而不是红色（正常）的雄性果蝇。通过杂交实验，他发现这种“白眼”性状总是与“雄性”性别绑定在一起。这证明了控制眼色的基因位于决定性别的“X染色体”上，从而确立了“染色体遗传理论”。",
+      "text_en": "In 1910, inside his famous 'Fly Room', Thomas Hunt Morgan confirmed that genes are located on chromosomes by studying 'Drosophila melanogaster' (fruit flies). While Mendel (`mendel_genetics_1866`) proposed hereditary factors, no one knew their physical location in the cell. Morgan discovered a male fly with white eyes (mutant) instead of the normal red. Through breeding experiments, he found that this 'white-eye' trait was linked specifically to the 'male' sex. This proved that the gene controlling eye color was physically located on the sex-determining 'X chromosome', establishing the 'Chromosome Theory of Inheritance'.",
+      "key_points": [
+        "确立了“染色体遗传理论” (Chromosome Theory of Inheritance)",
+        "发现了“伴性遗传” (Sex-linked Inheritance)",
+        "证明基因位于染色体上",
+        "以“果蝇” (Fruit Fly) 作为模式生物",
+        "发现了著名的“白眼雄蝇” (White-eyed male)"
+      ],
+      "key_points_en": [
+        "Established the 'Chromosome Theory of Inheritance'",
+        "Discovered 'Sex-linked Inheritance'",
+        "Proved genes are located on chromosomes",
+        "Established the 'Fruit Fly' as a model organism",
+        "Discovered the famous 'White-eyed male'"
+      ]
+    },
+  
+    "story": {
+      "text": "摩尔根最初其实怀疑孟德尔的理论，也不相信染色体假说。他在哥伦比亚大学一个狭窄、充满烂香蕉味的实验室（著名的“苍蝇室”）里养了数百万只果蝇。他寻找那个能推翻或证实理论的“例外”。\n终于，他在无数只红眼果蝇中发现了一只“白眼”雄蝇。他像对待珍宝一样照顾它，让它与红眼雌蝇交配。第一代全是红眼（显性）。但当它们自交后，第二代中出现了白眼，而且**所有白眼果蝇都是雄性**！摩尔根意识到，这不可能是巧合。控制眼睛颜色的基因一定是在“X染色体”上。因为雄性只有一个X，所以只要这个X上有白眼基因，它就是白眼；而雌性有两个X，必须两个都有白眼基因才会显示白眼。他终于找到了基因的“家”。",
+      "text_en": "Morgan initially doubted Mendel's theory and the chromosome hypothesis. In a cramped lab at Columbia University smelling of rotten bananas (the famous 'Fly Room'), he bred millions of fruit flies, looking for an exception.\nFinally, he found one 'white-eyed' male among countless red-eyed ones. He treated it like a treasure and bred it with a red-eyed female. The first generation was all red (Dominant). But in the second generation, white eyes reappeared, and **all white-eyed flies were male**! Morgan realized this couldn't be a coincidence. The eye-color gene must be on the 'X chromosome'. Since males have only one X, one white-eye gene makes them white-eyed; females have two Xs, so they need two copies to show the trait. He had finally found the 'home' of the gene.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/46/Drosophila_Gene_Linkage_Map.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🍌",
+        "text": "为什么要用果蝇？因为它们吃得少（烂香蕉就行），生得多（两周一代），而且只有4对染色体，易于观察。摩尔根让果蝇成为了生物学界的“超级明星”。",
+        "text_en": "Why fruit flies? They eat little (rotten bananas), breed fast (new generation every 2 weeks), and have only 4 pairs of chromosomes. Morgan made the fruit fly the 'superstar' of biology."
+      },
+      {
+        "icon": "🏆",
+        "text": "摩尔根是第一个获得诺贝尔生理学或医学奖（1933）的遗传学家。他用一部分奖金买了一艘船，这也是他对海洋生物学的热爱的延续。",
+        "text_en": "Morgan was the first geneticist to win the Nobel Prize in Physiology or Medicine (1933). He used part of the prize money to buy a boat, continuing his love for marine biology."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "孟德尔告诉我们“生命有使用说明书”（基因），但他不知道这本说明书放在哪里。\n摩尔根通过果蝇实验发现，这本说明书是写在“卷轴”（染色体）上的，而且分成了好几卷。\n特别有趣的是，他发现关于“眼睛颜色”的那一页，是夹在“性别卷轴”（X染色体）里的。\n如果你是一只公果蝇，你只有一卷性别卷轴，如果这卷坏了（白眼），你就彻底白眼了。这就是为什么那个特征总是跟着性别走。",
+      "text_en": "Mendel told us life has an 'instruction manual' (genes), but he didn't know where the manual was kept.\nMorgan used fruit flies to find that the manual is written on 'scrolls' (chromosomes) kept in the nucleus.\nSpecifically, he found the page for 'Eye Color' was tucked inside the 'Gender Scroll' (X Chromosome).\nIf you are a male fly, you only get one copy of the Gender Scroll. If that copy says 'White Eyes', you have white eyes. That's why the trait follows the gender.",
+      "diagram": "assets/images/linking_traits.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🗺️",
+          "title": "基因图谱",
+          "title_en": "Genetic Mapping",
+          "text": "摩尔根的学生斯特蒂文特利用这些发现，绘制了世界上第一张“基因连锁图”，标出了基因在染色体上的具体位置。",
+          "text_en": "Morgan's student, Sturtevant, used these findings to create the world's first 'genetic map', locating specific genes on the chromosome."
+        },
+        {
+          "icon": "🩸",
+          "title": "人类遗传病",
+          "title_en": "Human Genetic Diseases",
+          "text": "这解释了为什么红绿色盲和血友病（伴X隐性遗传）在男性中更常见。",
+          "text_en": "This explains why Red-Green Color Blindness and Hemophilia (X-linked recessive traits) are much more common in men."
+        }
+      ],
+  
+    "impact": {
+      "text": "摩尔根的工作将遗传学从抽象的数学计算（孟德尔式）转变为具体的细胞生物学（染色体）。他证明了基因是物质实体，像珠子一样串在染色体上。这不仅确立了现代遗传学的物质基础，还建立了以实验室为中心的“模式生物”研究范式。哥伦比亚大学的“苍蝇室”成为了现代遗传学的麦加。",
+      "text_en": "Morgan's work transformed genetics from abstract math (Mendelian) into concrete cell biology (Chromosomal). He proved genes are physical entities, strung like beads on chromosomes. This not only established the physical basis of modern genetics but also the paradigm of 'model organism' research. The 'Fly Room' became the Mecca of modern genetics.",
+      "stats": [
+          {
+            "number": "1910",
+            "label": "年 (白眼果蝇发现)",
+            "label_en": "Year (White Eye Discovered)"
+          },
+          {
+            "number": "4",
+            "label": "对 (果蝇染色体数)",
+            "label_en": "Pairs (Fly Chromosomes)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "mendel_genetics_1866",
+          "contribution": "孟德尔（提出了遗传因子的规律，摩尔根最初试图验证或推翻它）",
+          "contribution_en": "Gregor Mendel (proposed the laws of hereditary factors, which Morgan initially sought to test or disprove)"
+        },
+        {
+          "id": "sutton_boveri_theory_1902",
+          "contribution": "萨顿和鲍韦里（提出了染色体可能是基因载体的假说，摩尔根提供了实验证据）",
+          "contribution_en": "Sutton & Boveri (proposed the hypothesis that chromosomes carry genes; Morgan provided the experimental proof)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "muller_mutation_1927",
+          "contribution": "赫尔曼·穆勒（摩尔根的学生，利用X射线在果蝇中诱发突变，证明基因可以被人工改变）",
+          "contribution_en": "Hermann Muller (Morgan's student, used X-rays to induce mutations in flies, proving genes could be artificially altered)"
+        },
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（进一步深入到分子层面，解析了染色体中DNA的结构）",
+          "contribution_en": "Watson & Crick (went deeper to the molecular level, solving the structure of the DNA within the chromosome)"
+        }
+      ],
+      "legacy_text": "摩尔根在充满烂香蕉味的房间里，把遗传学“挂”在了染色体上。",
+      "legacy_text_en": "In a room smelling of rotten bananas, Morgan 'hung' genetics onto chromosomes."
+    },
+  
+    "related_concepts": ["染色体遗传理论 (Chromosome Theory)", "伴性遗传 (Sex Linkage)", "果蝇 (Drosophila)", "X染色体", "基因图谱 (Genetic Map)", "模式生物 (Model Organism)"],
+    "related_concepts_en": ["Chromosome Theory", "Sex Linkage", "Drosophila", "X Chromosome", "Genetic Map", "Model Organism"],
+  
+    "quiz": {
+      "question": "摩尔根发现白眼性状在第二代果蝇中重现时，观察到了什么奇怪的现象，从而让他联想到了性染色体？",
+      "question_en": "When Morgan saw the white-eye trait reappear in the second generation of flies, what strange phenomenon led him to link it to sex chromosomes?",
+      "options": [
+        "所有的白眼果蝇都死了",
+        "白眼果蝇比红眼果蝇大",
+        "所有的白眼果蝇都是雄性",
+        "白眼果蝇变成了瞎子"
+      ],
+      "options_en": [
+        "All white-eyed flies died",
+        "White-eyed flies were bigger",
+        "All white-eyed flies were Male",
+        "White-eyed flies were blind"
+      ],
+      "answer": 2,
+      "explanation": "这是关键点。如果基因在常染色体上，白眼应该在雌雄中比例相等。只出现在雄性身上，说明该基因位于X染色体上，且为隐性遗传（雄性没有第二个X来掩盖它）。",
+      "explanation_en": "This was the key. If the gene were on a regular chromosome, white eyes would appear equally in males and females. Appearing only in males meant the gene was on the X chromosome and recessive (males lack a second X to mask it)."
+    }
+  }

@@ -1,0 +1,151 @@
+{
+    "id": "apple_iphone_2007",
+    "personId": ["steve_jobs"],
+    "title": "iPhone发布 (重新发明手机)",
+    "title_en": "Launch of iPhone (Reinventing the Phone)",
+    "year": 2007,
+    "lat": 37.7842,
+    "lng": -122.4016,
+    "city": "旧金山 (莫斯康中心)",
+    "city_en": "San Francisco (Moscone Center)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["消费电子", "工业设计"],
+    "field_en": ["Consumer Electronics", "Industrial Design"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/IPhone_1st_Gen.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=MnrJzXM7a6o",
+        "title": "史蒂夫·乔布斯发布第一代iPhone",
+        "title_en": "Steve Jobs introduces iPhone in 2007",
+        "duration": "10:19"
+      }
+    },
+    
+    "summary": {
+      "text": "2007年1月9日，史蒂夫·乔布斯在Macworld大会上发表了消费电子史上最著名的演讲。他宣称要发布三款新产品：一个宽屏触控iPod、一台革命性的手机、和一个突破性的互联网通讯设备。最后他揭晓谜底：这其实是一台设备，叫“iPhone”。第一代iPhone彻底抛弃了当时流行的实体键盘（如BlackBerry）和手写笔（Stylus），引入了革命性的“多点触控”（Multi-touch）屏幕。它不仅重新定义了手机，更开启了移动互联网时代，把人类带入了智能手机主宰的新世界。",
+      "text_en": "On January 9, 2007, Steve Jobs delivered the most famous keynote in consumer electronics history at Macworld. He announced three new products: a widescreen touch iPod, a revolutionary mobile phone, and a breakthrough internet communicator. He then revealed the twist: these were not three separate devices, but one, called 'iPhone'. The original iPhone completely abandoned the physical keyboards (like BlackBerry) and styluses popular at the time, introducing the revolutionary 'Multi-touch' screen. It not only redefined the phone but kickstarted the mobile internet era, ushering humanity into a new world dominated by smartphones.",
+      "key_points": [
+        "引入了“多点触控”技术，让手指取代了手写笔",
+        "淘汰了物理键盘，实现了全屏幕交互",
+        "将音乐播放器、电话和互联网浏览器合三为一",
+        "运行简化版的OS X（后来的iOS），带来桌面级的软件体验",
+        "虽然发布时没有App Store，但它奠定了现代APP生态的硬件基础"
+      ],
+      "key_points_en": [
+        "Introduced 'Multi-touch' technology, replacing the stylus with fingers",
+        "Eliminated the physical keyboard for a full-screen interaction",
+        "Combined a music player, a phone, and an internet browser into one device",
+        "Ran a simplified version of OS X (later iOS), bringing desktop-class software experience",
+        "Although launched without an App Store, it laid the hardware foundation for the modern app ecosystem"
+      ]
+    },
+  
+    "story": {
+      "text": "iPhone的发布演示是著名的“走钢丝”表演。当时的工程样机非常不稳定，经常死机或断网。为了确保演示成功，工程师们设定了特定的操作顺序（“黄金路径”），乔布斯必须严格按照这个顺序操作，否则手机就会崩溃。此外，为了让原本是塑料屏幕的iPhone更有质感，乔布斯在发布前几周突然要求换成玻璃屏幕，这迫使康宁公司（Corning）重启了尘封已久的“大猩猩玻璃”项目。整个项目在苹果内部被称为“紫色项目”（Project Purple），保密级别极高，甚至软硬件团队在很长一段时间内都不知道对方在做什么。",
+      "text_en": "The iPhone launch demo was a famous 'tightrope walk'. The engineering prototype was extremely unstable, prone to crashing or dropping connections. To ensure success, engineers scripted a specific sequence of actions (the 'Golden Path') that Jobs had to follow exactly, or the phone would crash. Additionally, to give the originally plastic-screened iPhone a premium feel, Jobs demanded a switch to glass just weeks before launch, forcing Corning to resurrect its mothballed 'Gorilla Glass' project. Internally known as 'Project Purple', the secrecy was so high that software and hardware teams didn't know what the other was doing for a long time.",
+      "diagram": "assets/images/iphone.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "☕",
+        "text": "乔布斯在发布会上为了演示Google Maps，在众目睽睽之下给旧金山的一家星巴克打了电话，订了4000杯拿铁，然后笑着说：“抱歉，打错了。”这家星巴克至今仍是果粉的打卡圣地。",
+        "text_en": "To demo Google Maps during the keynote, Jobs called a Starbucks in San Francisco live on stage and ordered 4,000 lattes, then jokingly said, 'No, just kidding, wrong number.' That Starbucks remains a pilgrimage site for Apple fans."
+      },
+      {
+        "icon": "🚫",
+        "text": "最初的iPhone竟然不能复制粘贴（Copy & Paste），也不能换壁纸，甚至没有App Store（只能用网页应用）。这些现在看来理所当然的功能，是后来通过软件更新慢慢补齐的。",
+        "text_en": "The original iPhone actually couldn't Copy & Paste, couldn't change wallpapers, and didn't even have an App Store (only web apps). These features, now taken for granted, were slowly added via software updates."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在iPhone之前，智能手机只有一半屏幕，另一半是密密麻麻的按键。\niPhone把按键全扔了，把屏幕做满，然后教你用手指直接摸屏幕。\n它把互联网装进了你的口袋，让你第一次觉得“上网”不再需要坐在电脑前。",
+      "text_en": "Before the iPhone, smartphones had half a screen and the other half was cluttered with tiny buttons.\nThe iPhone threw away the buttons, filled the front with screen, and taught you to touch it directly with your finger.\nIt put the internet in your pocket, making you feel for the first time that 'going online' didn't require sitting at a computer.",
+      "diagram": "assets/images/iphone2.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "👆",
+          "title": "Multi-Touch (多点触控)",
+          "title_en": "Multi-Touch",
+          "text": "双指缩放（Pinch to Zoom）、滑动解锁（Slide to Unlock）、惯性滚动。这些手势构成了现代人机交互的词汇表。",
+          "text_en": "Pinch to Zoom, Slide to Unlock, Inertial Scrolling. These gestures form the vocabulary of modern human-computer interaction."
+        },
+        {
+          "icon": "🧭",
+          "title": "移动浏览器 (Safari)",
+          "title_en": "Mobile Browser (Safari)",
+          "text": "这是世界上第一款能显示“真实网页”而非简陋WAP网页的手机浏览器，它迫使所有网站开始通过移动端重构。",
+          "text_en": "The world's first mobile browser capable of displaying 'real web pages' instead of crude WAP pages, forcing all websites to restructure for mobile."
+        }
+      ],
+  
+    "impact": {
+      "text": "iPhone的发布是科技史的分水岭。它直接导致了诺基亚（Nokia）和黑莓（BlackBerry）帝国的崩塌，迫使Google推翻了原有的Android设计并转向触屏。它创造了“应用经济”（App Economy），催生了Uber、Instagram、TikTok等无数基于地理位置和移动场景的巨头。从此，手机不再只是通讯工具，而是人类的“电子器官”。",
+      "text_en": "The iPhone launch was a watershed moment in tech history. It directly led to the collapse of the Nokia and BlackBerry empires and forced Google to scrap its original Android design and pivot to touchscreens. It created the 'App Economy', spawning location-based and mobile-first giants like Uber, Instagram, and TikTok. Since then, the phone is no longer just a communication tool, but a human 'digital organ'.",
+      "stats": [
+          {
+            "number": "499",
+            "label": "美元 (4GB版本首发价)",
+            "label_en": "USD (4GB Launch Price)"
+          },
+          {
+            "number": "6100000",
+            "label": "台 (第一年销量)",
+            "label_en": "Units (First Year Sales)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "apple_macintosh_1984",
+          "contribution": "Macintosh（iPhone的操作系统iOS源自Mac OS X，继承了其图形界面的基因）",
+          "contribution_en": "Macintosh (The iPhone's OS, iOS, was derived from Mac OS X, inheriting its GUI DNA)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "android_2008",
+          "contribution": "Android（Google在看到iPhone发布后，意识到原先模仿黑莓的键盘手机设计已经过时，紧急转向触屏开发）",
+          "contribution_en": "Android (After seeing the iPhone launch, Google realized its BlackBerry-like keyboard phone design was obsolete and urgently pivoted to touchscreen development)"
+        },
+        {
+          "id": "uber_founding_2009",
+          "contribution": "Uber（没有iPhone提供的GPS定位和全时在线能力，按需打车这种商业模式根本不可能存在）",
+          "contribution_en": "Uber (Without the GPS and always-online capabilities provided by the iPhone, the on-demand ride-hailing business model could not exist)"
+        }
+      ],
+      "legacy_text": "每隔一段时间，就会有一个革命性的产品出现，改变一切。",
+      "legacy_text_en": "Every once in a while, a revolutionary product comes along that changes everything."
+    },
+  
+    "related_concepts": ["多点触控", "拟物化设计 (Skeuomorphism)", "App Store", "大猩猩玻璃", "越狱 (Jailbreak)"],
+    "related_concepts_en": ["Multi-Touch", "Skeuomorphism", "App Store", "Gorilla Glass", "Jailbreak"],
+  
+    "quiz": {
+      "question": "乔布斯在发布会上说谁是当时智能手机（如Moto Q, BlackBerry）的最大问题？",
+      "question_en": "Who did Jobs say was the biggest problem with smartphones of the time (like Moto Q, BlackBerry) during the keynote?",
+      "options": [
+        "电池寿命太短",
+        "屏幕太小",
+        "那个该死的塑料键盘",
+        "网速太慢"
+      ],
+      "options_en": [
+        "Battery life was too short",
+        "Screens were too small",
+        "The plastic keyboards",
+        "Internet was too slow"
+      ],
+      "answer": 2,
+      "explanation": "乔布斯认为固定的塑料键盘占据了太多空间，而且不能随着软件变化。他说：“不管是你需要还是不需要，那个键盘都在那里。”iPhone的解决方案是把键盘变成软件。",
+      "explanation_en": "Jobs argued that fixed plastic keyboards took up too much space and couldn't change with the software. He said, 'They are there whether you need them or not.' The iPhone's solution was to turn the keyboard into software."
+    }
+  }

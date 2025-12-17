@@ -1,0 +1,10 @@
+{
+    "name": "蒂姆·帕特森",
+    "name_en": "Tim Paterson",
+    "portrait": "assets/images/tim_paterson.png",
+    "bio_short": "美国计算机程序员，MS-DOS的原始作者。他在西雅图计算机产品公司（SCP）工作时，为了适配Intel 8086芯片，编写了QDOS（86-DOS）。微软后来以5万美元买断了这个系统，并将其改名为MS-DOS授权给IBM。他是那个真正写下代码，为微软帝国奠定基石的幕后工程师。",
+    "bio_short_en": "American computer programmer and the original author of MS-DOS. While working at Seattle Computer Products (SCP), he wrote QDOS (86-DOS) to run on the Intel 8086 chip. Microsoft acquired this system for $50,000, rebranded it as MS-DOS, and licensed it to IBM. He is the engineer who actually wrote the code that laid the foundation for the Microsoft empire.",
+    "events": [
+      "ms_dos_1981"
+    ]
+  }

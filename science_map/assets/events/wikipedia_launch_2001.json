@@ -1,0 +1,156 @@
+{
+    "id": "wikipedia_launch_2001",
+    "personId": ["jimmy_wales", "larry_sanger"],
+    "title": "Wikipedia上线 (知识的民主化)",
+    "title_en": "Launch of Wikipedia (Democratization of Knowledge)",
+    "year": 2001,
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "city": "圣地亚哥 (Bomis办公室)",
+    "city_en": "San Diego (Bomis Office)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["互联网", "教育"],
+    "field_en": ["Internet", "Education"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Wikipedia_Home_Page.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=yCMTv1aZ7NI",
+        "title": "吉米·威尔士：Wikipedia的诞生",
+        "title_en": "Jimmy Wales: The Birth of Wikipedia",
+        "duration": "3:14"
+      }
+    },
+    
+    "summary": {
+      "text": "2001年1月15日，吉米·威尔士（Jimmy Wales）和拉里·桑格（Larry Sanger）正式上线了Wikipedia。它最初只是作为Nupedia（一个由专家评审、进度极其缓慢的百科全书项目）的副产品，旨在通过“Wiki”技术让普通人贡献草稿。然而，这个“副业”迅速失控，公众的参与热情远远超出了专家的评审速度。凭借“人人皆可编辑”的激进理念和“中立观点”（NPOV）的核心政策，Wikipedia迅速成长为人类历史上最大的知识库，彻底终结了《大英百科全书》等传统印刷百科的时代。",
+      "text_en": "On January 15, 2001, Jimmy Wales and Larry Sanger officially launched Wikipedia. It started as a side project to Nupedia (an expert-reviewed, agonizingly slow encyclopedia project), intended to use 'Wiki' technology to let the public contribute drafts. However, this 'side hustle' quickly spiraled out of control, with public enthusiasm far outstripping the experts' pace. With the radical philosophy of 'anyone can edit' and the core policy of 'Neutral Point of View' (NPOV), Wikipedia rapidly grew into the largest repository of knowledge in human history, effectively ending the era of traditional print encyclopedias like Britannica.",
+      "key_points": [
+        "最初是为了辅助专家主导的Nupedia项目而建立",
+        "采用了沃德·坎宁安发明的Wiki技术，允许协同编辑",
+        "核心原则：中立观点 (NPOV)、非原创研究、可供查证",
+        "从根本上挑战了“只有专家才有资格定义知识”的传统观念",
+        "成为了互联网上唯一的非营利性全球Top 10网站"
+      ],
+      "key_points_en": [
+        "Originally built to support the expert-led Nupedia project",
+        "Adopted the Wiki technology invented by Ward Cunningham for collaborative editing",
+        "Core principles: Neutral Point of View (NPOV), No Original Research, Verifiability",
+        "Fundamentally challenged the tradition that 'only experts can define knowledge'",
+        "Became the only non-profit global Top 10 website on the internet"
+      ]
+    },
+  
+    "story": {
+      "text": "Wikipedia的故事始于失败。吉米·威尔士最初想做的是Nupedia，一个有着严格七步审查流程的学术百科全书。Nupedia极其严谨，但也极其低效，第一年只发布了不到24篇文章。作为Nupedia的主编，拉里·桑格在一次聚会上听说了Wiki技术，建议用它来加速条目的创建。威尔士勉强同意试一试。结果令他们震惊：Wikipedia上线仅仅几天，其词条数量就超过了Nupedia一年的努力。这导致了内部的分裂，专家们讨厌这种“无政府主义”的写作方式，而大众则疯狂拥抱它。最终，Nupedia被关闭，Wikipedia吞噬了一切。",
+      "text_en": "The story of Wikipedia began with failure. Jimmy Wales originally wanted to build Nupedia, an academic encyclopedia with a rigorous seven-step review process. Nupedia was extremely rigorous but also extremely inefficient, publishing fewer than 24 articles in its first year. Larry Sanger, Nupedia's editor-in-chief, heard about Wiki technology at a dinner party and suggested using it to speed up entry creation. Wales reluctantly agreed to give it a try. The result was shocking: within days of launching, Wikipedia had more articles than Nupedia had produced in a year. This caused internal rifts; experts hated this 'anarchic' way of writing, while the public embraced it. Eventually, Nupedia was shut down, and Wikipedia swallowed everything.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/b8/English_Wikipedia_HomePage_2001-12-20.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧩",
+        "text": "Wikipedia著名的“拼图球”Logo其实一直是不完整的，这象征着知识永远没有完结的一天，永远在建设中。",
+        "text_en": "Wikipedia's famous 'puzzle globe' logo is intentionally incomplete, symbolizing that knowledge is never finished and always under construction."
+      },
+      {
+        "icon": "🏨",
+        "text": "Wikipedia上曾经发生过无数次“编辑战”（Edit Wars）。最著名的一次是关于老鹰乐队的歌曲《加州旅馆》（Hotel California）究竟是关于撒旦崇拜还是关于由于吸毒成瘾，双方反复修改了数千次。",
+        "text_en": "There have been countless 'Edit Wars' on Wikipedia. One of the most famous was about the Eagles' song 'Hotel California'—whether it was about Satanism or drug addiction. The two sides reverted edits thousands of times."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "以前写百科全书，需要聘请几千个白发苍苍的教授，花几十年时间写书，书印出来知识就过时了。\nWikipedia说：让全世界几十亿网民一起写。如果你看到错误，你就改掉它。\n虽然每个人都可能犯错，但几百万人盯着同一个页面时，错误修正的速度比任何专家都要快。",
+      "text_en": "Writing an encyclopedia used to require hiring thousands of gray-haired professors and taking decades to write books that were obsolete the moment they were printed.\nWikipedia said: Let billions of internet users write it together. If you see a mistake, fix it.\nWhile everyone makes mistakes, when millions of eyes are on the same page, errors are corrected faster than any expert could manage.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/36/List_of_Wikipedia_articles_by_language_-_March_2024.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📝",
+          "title": "MediaWiki",
+          "title_en": "MediaWiki",
+          "text": "支撑Wikipedia运行的开源软件。它定义了什么是“Wiki”：版本控制、即时保存、链接跳转。",
+          "text_en": "The open-source software that powers Wikipedia. It defined what a 'Wiki' is: version control, instant saving, and hyperlinks."
+        },
+        {
+          "icon": "🤖",
+          "title": "AI训练数据",
+          "title_en": "AI Training Data",
+          "text": "虽然并非本意，但Wikipedia高质量、结构化的文本成为了后来ChatGPT等大语言模型最重要的训练数据来源之一。",
+          "text_en": "Though not the original intent, Wikipedia's high-quality, structured text became one of the most critical training data sources for LLMs like ChatGPT."
+        }
+      ],
+  
+    "impact": {
+      "text": "Wikipedia是知识民主化的终极体现。它杀死了像《大英百科全书》和微软Encarta这样的商业产品，证明了非盈利的众包模式可以战胜精英模式。今天，它是互联网的“事实查核层”，是Google搜索结果的基石，也是Siri和Alexa回答问题的依据。没有Wikipedia，互联网将是一个充斥着更多谣言和垃圾信息的地方。",
+      "text_en": "Wikipedia is the ultimate embodiment of the democratization of knowledge. It killed commercial products like Britannica and Microsoft Encarta, proving that a non-profit crowdsourcing model could defeat the elite model. Today, it is the internet's 'fact-checking layer', the cornerstone of Google search results, and the source for Siri and Alexa's answers. Without Wikipedia, the internet would be a place with far more rumors and spam.",
+      "stats": [
+          {
+            "number": "0",
+            "label": "美元 (访问费用)",
+            "label_en": "USD (Cost to Access)"
+          },
+          {
+            "number": "60000000",
+            "label": "条目 (现存文章数)",
+            "label_en": "Articles (Current Count)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "linux_kernel_1991",
+          "contribution": "开源运动（Linux证明了分散的志愿者可以构建复杂的系统，这给了Wikipedia巨大的信心）",
+          "contribution_en": "Open Source Movement (Linux proved that decentralized volunteers could build complex systems, giving Wikipedia immense confidence)"
+        },
+        {
+          "id": "berners_lee_www_1989",
+          "contribution": "万维网（超链接机制是百科全书数字化最完美的形态）",
+          "contribution_en": "World Wide Web (The hyperlink mechanism is the perfect form for a digital encyclopedia)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "google_search_1998",
+          "contribution": "Google（Google极其依赖Wikipedia来提供“知识图谱”卡片，两者形成了共生关系）",
+          "contribution_en": "Google (Google relies heavily on Wikipedia to provide 'Knowledge Graph' cards, creating a symbiotic relationship)"
+        },
+        {
+          "id": "chatgpt_release_2022",
+          "contribution": "ChatGPT（大语言模型实际上是“读了”整个Wikipedia才学会了人类的知识结构）",
+          "contribution_en": "ChatGPT (Large Language Models essentially 'read' the entire Wikipedia to learn the structure of human knowledge)"
+        }
+      ],
+      "legacy_text": "它是新时代的亚历山大图书馆。",
+      "legacy_text_en": "It is the Library of Alexandria for the new age."
+    },
+  
+    "related_concepts": ["众包 (Crowdsourcing)", "Wiki", "中立观点 (NPOV)", "知识共享 (Creative Commons)", "编辑战"],
+    "related_concepts_en": ["Crowdsourcing", "Wiki", "NPOV", "Creative Commons", "Edit War"],
+  
+    "quiz": {
+      "question": "Wikipedia的核心原则之一“NPOV”代表什么？",
+      "question_en": "What does 'NPOV', one of Wikipedia's core principles, stand for?",
+      "options": [
+        "No Politics Or Violence (无政治或暴力)",
+        "New Point Of View (新观点)",
+        "Neutral Point Of View (中立观点)",
+        "Never Post Opinionated Views (从不发布主观观点)"
+      ],
+      "options_en": [
+        "No Politics Or Violence",
+        "New Point Of View",
+        "Neutral Point Of View",
+        "Never Post Opinionated Views"
+      ],
+      "answer": 2,
+      "explanation": "NPOV（Neutral Point of View）要求文章必须公正地呈现所有重要的观点，而不带有偏见。这并不意味着没有观点，而是要诚实地描述各方的争论。",
+      "explanation_en": "NPOV (Neutral Point of View) requires articles to represent all significant views fairly and without bias. It doesn't mean having no view, but honestly describing the debates between sides."
+    }
+  }

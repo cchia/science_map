@@ -1,0 +1,156 @@
+{
+    "id": "dartmouth_ai_conference_1956",
+    "personId": ["john_mccarthy", "marvin_minsky", "claude_shannon", "nathaniel_rochester"],
+    "title": "达特茅斯会议 (人工智能的诞生)",
+    "title_en": "Dartmouth Conference (The Birth of Artificial Intelligence)",
+    "year": 1956,
+    "lat": 43.7022,
+    "lng": -72.2896,
+    "city": "汉诺威 (达特茅斯学院)",
+    "city_en": "Hanover (Dartmouth College)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["ai_story"],
+    "field": ["计算机科学", "认知科学", "人工智能"],
+    "field_en": ["Computer Science", "Cognitive Science", "Artificial Intelligence"],
+    
+    "media": {
+      "event_image": "assets/images/dartmouth_conference.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=5Ur-Nf85ARw",
+        "title": "达特茅斯会议：人工智能的诞生",
+        "title_en": "Dartmouth Conference - The Birthplace of A.I. | Where It All Started!",
+        "duration": "9:35"
+      }
+    },
+    
+    "summary": {
+      "text": "1956年夏天，在年轻的数学家约翰·麦卡锡（John McCarthy）的提议下，一群顶尖的科学家聚集在新罕布什尔州的达特茅斯学院，举办了为期两个月的研讨会。这次会议被公认为是“人工智能”（Artificial Intelligence）这一学科的正式诞生地。麦卡锡在提案中首次使用了这个术语，以区别于当时的“控制论”（Cybernetics）。与会者包括马文·明斯基、克劳德·香农、艾伦·纽厄尔和赫伯特·西蒙等。虽然会议没有立刻产生惊天动地的成果，但它确立了AI的基本假设：人类智能的每一个方面都可以在原则上被精确描述，从而让机器进行模拟。",
+      "text_en": "In the summer of 1956, upon the proposal of young mathematician John McCarthy, a group of top scientists gathered at Dartmouth College in New Hampshire for a two-month workshop. This conference is officially recognized as the birthplace of the discipline of 'Artificial Intelligence'. McCarthy first used this term in the proposal to distinguish it from the then-prevalent 'Cybernetics'. Attendees included Marvin Minsky, Claude Shannon, Allen Newell, and Herbert Simon. Although the conference didn't immediately yield earth-shattering results, it established the fundamental conjecture of AI: every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.",
+      "key_points": [
+        "正式确立“人工智能” (Artificial Intelligence) 这一术语",
+        "提出“智能可被机器模拟”的核心假设",
+        "展示了第一个AI程序“逻辑理论家” (Logic Theorist)",
+        "汇聚了AI领域的“建国元勋” (Founding Fathers)",
+        "开启了符号主义AI (Symbolic AI) 的统治时代"
+      ],
+      "key_points_en": [
+        "Formally established the term 'Artificial Intelligence'",
+        "Proposed the core hypothesis that 'intelligence can be simulated by machines'",
+        "Demoed the first AI program 'Logic Theorist'",
+        "Gathered the 'Founding Fathers' of the AI field",
+        "Launched the dominant era of Symbolic AI"
+      ]
+    },
+  
+    "story": {
+      "text": "这是一个充满乐观主义色彩的夏天。麦卡锡在向洛克菲勒基金会申请经费时自信地写道：“我们认为，如果一组精心挑选的科学家在一起工作一个夏天，就可以在这些问题上取得重大进展。”他们真的以为两个月就能解决机器视觉和自然语言处理的问题！\n虽然目标没有实现，但会议的高潮出现在艾伦·纽厄尔和赫伯特·西蒙带着他们的程序——“逻辑理论家”（Logic Theorist）出现时。这是世界上第一个真正运行的AI程序，它能够证明《数学原理》中的几何定理。当打印机打出机器推导出的证明过程时，在场的科学家们意识到，只会计算数字的电脑，终于开始“思考”了。",
+      "text_en": "It was a summer full of optimism. In his funding proposal to the Rockefeller Foundation, McCarthy confidently wrote: 'We think that a significant advance can be made in one or more of these problems if a carefully selected group of scientists work on it together for a summer.' They genuinely thought they could solve machine vision and natural language processing in two months!\nWhile that goal wasn't met, the highlight came when Allen Newell and Herbert Simon arrived with their program—the 'Logic Theorist'. This was the world's first working AI program, capable of proving geometric theorems from *Principia Mathematica*. When the printer churned out the machine-derived proofs, the scientists present realized that computers, previously only good at crunching numbers, had finally started to 'think'.",
+      "diagram": "assets/images/dartmouth_conference.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📛",
+        "text": "约翰·麦卡锡之所以创造“人工智能”这个新词，部分原因是他不想用“控制论”（Cybernetics）这个词，因为那时控制论的大佬诺伯特·维纳（Norbert Wiener）脾气不太好，麦卡锡不想和他吵架。",
+        "text_en": "John McCarthy coined the term 'Artificial Intelligence' partly because he wanted to avoid the term 'Cybernetics'. The godfather of Cybernetics, Norbert Wiener, had a difficult temperament, and McCarthy wanted to avoid conflict with him."
+      },
+      {
+        "icon": "💰",
+        "text": "这次改变人类历史的会议，总共只向洛克菲勒基金会申请了13,500美元的经费（相当于今天的十几万美元）。",
+        "text_en": "This history-altering conference only requested $13,500 in funding from the Rockefeller Foundation (equivalent to over $100k today)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一群绝顶聪明的科学家举办了一个为期两个月的“夏令营”。\n他们在营地里达成了一个共识：并不只有人类的大脑能思考，机器如果被教导了正确的逻辑规则，也能像人一样思考。\n他们给这个新领域取了个名字叫“AI”，并乐观地认为再过一二十年机器就能像人一样聪明了（虽然这个预测花了大半个世纪才接近现实）。",
+      "text_en": "Imagine a group of brilliant scientists holding a two-month 'summer camp'.\nThey reached a consensus at the camp: it's not just human brains that can think. If machines are taught the right logical rules, they can think like humans too.\nThey named this new field 'AI' and optimistically believed that machines would be as smart as humans in 20 years (though this prediction took over half a century to approach reality).",
+      "diagram": "assets/images/dartmouth_conference.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "♟️",
+          "title": "博弈游戏",
+          "title_en": "Game Playing",
+          "text": "会议期间讨论的让计算机下棋的想法，直接导致了后来深蓝（Deep Blue）和AlphaGo的诞生。",
+          "text_en": "Discussions on teaching computers to play chess directly led to the birth of Deep Blue and AlphaGo."
+        },
+        {
+          "icon": "🗣️",
+          "title": "自然语言处理",
+          "title_en": "Natural Language Processing",
+          "text": "会议设想机器能使用语言，这是Siri和ChatGPT的远古起源。",
+          "text_en": "The conference envisioned machines using language, the ancient origin of Siri and ChatGPT."
+        }
+      ],
+  
+    "impact": {
+      "text": "达特茅斯会议是AI的“独立宣言”。尽管会议本身没有产生什么具体的论文集，但它把分散在数学、心理学、工程学等领域的学者聚集在了一起，形成了一个新的科学共同体。这之后，AI研究获得了大量的政府和军方（DARPA）资助，开启了长达几十年的“符号主义”黄金时代。",
+      "text_en": "The Dartmouth Conference was AI's 'Declaration of Independence'. Although it produced no specific proceedings, it gathered scholars scattered across math, psychology, and engineering into a new scientific community. Following this, AI research received massive funding from the government and military (DARPA), launching the decades-long golden age of 'Symbolic AI'.",
+      "stats": [
+          {
+            "number": "1956",
+            "label": "年 (元年)",
+            "label_en": "Year (Year One)"
+          },
+          {
+            "number": "10",
+            "label": "人 (核心与会者)",
+            "label_en": "Attendees (Core)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "turing_machine_1936",
+          "contribution": "阿兰·图灵（图灵关于“机器能否思考”的论文是这次会议的精神源头）",
+          "contribution_en": "Alan Turing (Turing's paper on 'Can machines think?' was the spiritual source of this conference)"
+        },
+        {
+          "id": "shannon_circuits_1937",
+          "contribution": "克劳德·香农（作为会议组织者之一，他的信息论为AI提供了处理符号的理论基础）",
+          "contribution_en": "Claude Shannon (As a co-organizer, his Information Theory provided the theoretical basis for AI to manipulate symbols)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "rosenblatt_perceptron_1958",
+          "contribution": "罗森布拉特（虽然他是连接主义者，但感知机的出现是对达特茅斯主流符号主义的一种回应和竞争）",
+          "contribution_en": "Frank Rosenblatt (Though a connectionist, the Perceptron was a response and competition to the dominant Symbolic AI from Dartmouth)"
+        },
+        {
+          "id": "expert_systems_1980",
+          "contribution": "专家系统（达特茅斯确立的“逻辑推理”路线在80年代达到了巅峰）",
+          "contribution_en": "Expert Systems (The 'logical reasoning' path established at Dartmouth reached its peak in the 80s)"
+        }
+      ],
+      "legacy_text": "那个夏天的乐观主义，让我们花了60年才还清技术债务。",
+      "legacy_text_en": "The optimism of that summer took us 60 years to pay off the technical debt."
+    },
+  
+    "related_concepts": ["人工智能 (Artificial Intelligence)", "逻辑理论家 (Logic Theorist)", "符号主义 (Symbolism)", "图灵测试", "控制论"],
+    "related_concepts_en": ["Artificial Intelligence", "Logic Theorist", "Symbolism", "Turing Test", "Cybernetics"],
+  
+    "quiz": {
+      "question": "在1956年的达特茅斯会议提案中，是谁第一次创造并使用了“人工智能”（Artificial Intelligence）这个术语？",
+      "question_en": "In the proposal for the 1956 Dartmouth Conference, who first coined and used the term 'Artificial Intelligence'?",
+      "options": [
+        "阿兰·图灵",
+        "约翰·麦卡锡",
+        "马文·明斯基",
+        "冯·诺依曼"
+      ],
+      "options_en": [
+        "Alan Turing",
+        "John McCarthy",
+        "Marvin Minsky",
+        "John von Neumann"
+      ],
+      "answer": 1,
+      "explanation": "约翰·麦卡锡是该会议的主要发起人，他选择了“人工智能”这个词，部分原因是为了区别于当时流行的“控制论”和“自动机理论”。",
+      "explanation_en": "John McCarthy was the primary initiator of the conference. He chose the term 'Artificial Intelligence' partly to distinguish the field from the then-popular 'Cybernetics' and 'Automata Theory'."
+    }
+  }

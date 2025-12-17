@@ -1,0 +1,10 @@
+{
+    "name": "彼得·蒂尔",
+    "name_en": "Peter Thiel",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Peter_Thiel_by_Gage_Skidmore.jpg",
+    "bio_short": "德裔美国企业家、风险投资家，PayPal的联合创始人及前CEO。他被誉为硅谷“PayPal黑帮”的教父，也是Facebook的首位外部投资者。他以极具反叛精神的逆向思维著称，在其著作《从0到1》中提出了“竞争是留给失败者的”这一著名论断，主张初创企业应追求垄断而非在存量市场中厮杀。此外，他还创立了神秘的大数据公司Palantir。",
+    "bio_short_en": "German-American entrepreneur, venture capitalist, co-founder and former CEO of PayPal. Known as the 'Don' of the Silicon Valley 'PayPal Mafia', he was also the first outside investor in Facebook. Renowned for his contrarian thinking, he famously argued in his book 'Zero to One' that 'competition is for losers' and that startups should aim for monopoly rather than fighting in existing markets. He also founded the secretive big data company Palantir.",
+    "events": [
+      "paypal_launch_1998"
+    ]
+  }

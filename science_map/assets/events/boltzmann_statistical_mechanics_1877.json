@@ -1,7 +1,163 @@
 {
   "id": "boltzmann_statistical_mechanics_1877",
-  "title": "Boltzmann Statistical Mechanics",
-  "title_en": "Boltzmann Statistical Mechanics",
+  "personId": "ludwig_boltzmann",
+  "title": "建立统计力学 (S = k log W)",
+  "title_en": "Establishes Statistical Mechanics (S = k log W)",
   "year": 1877,
-  "is_stub": true
+  "lat": 48.2082,
+  "lng": 16.3738,
+  "city": "维也纳",
+  "city_en": "Vienna",
+  "country": "奥匈帝国 (今奥地利)",
+  "country_en": "Austro-Hungarian Empire (Modern Austria)",
+  "storyline_ids": ["thermo_story"],
+  "field": ["物理学", "数学"],
+  "field_en": ["Physics", "Mathematics"],
+  
+  "media": {
+    "event_image": "assets/images/entropy.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=YM-uykVfq_E&t=27s",
+      "title": "熵究竟是什么？",
+      "title_en": "What is entropy?",
+      "duration": "5:19"
+    }
+  },
+  
+  "summary": {
+    "text": "路德维希·玻尔兹曼（Ludwig Boltzmann）在1877年发表了划时代的论文，将“热力学”（宏观的热）与“原子论”（微观的粒子运动）联系了起来，创立了“统计力学”。他提出了物理学史上最著名的方程之一：S = k log W。这个方程揭示了“熵”(Entropy) 的本质并不是一种神秘的流体，而是系统的“微观状态数”(Probability/Microstates) 的度量。他证明了热力学第二定律（熵增）本质上是一个“统计学”定律：系统变得混乱，仅仅是因为“混乱的状态”比“有序的状态”多得多。",
+    "text_en": "In 1877, Ludwig Boltzmann published a seminal paper that bridged 'Thermodynamics' (macro-heat) with 'Atomism' (micro-particles), founding 'Statistical Mechanics'. He introduced one of the most famous equations in physics: S = k log W. This equation revealed that 'Entropy' is not a mysterious fluid, but a measure of the 'probability' or number of 'microstates' of a system. He proved that the Second Law of Thermodynamics (entropy increase) is essentially a 'statistical' law: things get messy simply because there are vastly more 'messy states' than 'orderly states'.",
+    "key_points": [
+      "创立了“统计力学”(Statistical Mechanics)",
+      "给出了熵的微观定义：S = k log W",
+      "将物理学定律从“绝对”转变为“概率性”",
+      "热是原子的随机运动",
+      "玻尔兹曼常数 (k 或 kB)"
+    ],
+    "key_points_en": [
+      "Founded 'Statistical Mechanics'",
+      "Microscopic definition of Entropy: S = k log W",
+      "Shifted physics from 'absolute' laws to 'probabilistic' ones",
+      "Heat is random atomic motion",
+      "Boltzmann Constant (k or kB)"
+    ]
+  },
+
+  "story": {
+    "text": "玻尔兹曼的一生都在为“原子”而战。在19世纪末，许多著名的科学家（如恩斯特·马赫和威廉·奥斯特瓦尔德）坚决反对原子论，认为原子只是数学虚构。玻尔兹曼则坚信物质是由原子组成的，他通过统计学方法，计算了无数个气体分子的运动，成功推导出了宏观的热力学定律。他的理论令人不安，因为它意味着热力学第二定律不是“绝对”的，而只是“概率极高”的（例如，破碎的杯子在理论上可以自动复原，只是概率低到宇宙毁灭都不会发生）。这种激进的思想遭到了长期的抵制和攻击，导致玻尔兹曼患上了严重的抑郁症，最终在1906年自杀。讽刺的是，仅仅几年后，原子的存在就被决定性地证实了。",
+    "text_en": "Boltzmann spent his life fighting for the 'atom'. In the late 19th century, prominent scientists (like Ernst Mach and Wilhelm Ostwald) denied atoms existed, calling them mathematical fictions. Boltzmann insisted matter was particulate. By applying statistics to the motion of countless gas molecules, he successfully derived macro-thermodynamics. His theory was unsettling because it implied the Second Law was not 'absolute' but only 'statistically probable' (e.g., a broken cup *could* reassemble, it's just fantastically unlikely). He faced fierce opposition and ridicule, leading to severe depression and his suicide in 1906. Ironically, atoms were definitively proven to exist just a few years later.",
+    "diagram": "assets/images/boltzmann_entropy.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "⚰️",
+      "text": "玻尔兹曼的墓碑位于维也纳中央公墓，墓碑上方雕刻着他最伟大的遗产——公式：S = k log W。",
+      "text_en": "Boltzmann's tombstone in the Vienna Central Cemetery bears his greatest legacy engraved at the top: the formula S = k log W."
+    },
+    {
+      "icon": "🧠",
+      "text": "他的理论引发了一个现代宇宙学悖论——“玻尔兹曼大脑”(Boltzmann Brains)：即在一个永恒的随机宇宙中，凭空通过涨落产生一个有意识的“大脑”的概率，比产生我们这个有序宇宙的概率还要大。",
+      "text_en": "His theory led to a modern cosmological paradox called 'Boltzmann Brains': the idea that in an eternal, random universe, it is more likely for a single conscious brain to spontaneously fluctuate into existence than for our entire ordered universe to exist."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "为什么你的房间总是会自动变乱，却从来不会自动变整洁？玻尔兹曼给出了数学答案。\n想象你有两枚硬币，你想让它们都正面朝上（整洁状态）。这只有一种情况（正正）。\n但如果你不在乎朝向（混乱状态），情况就多了（正反、反正、反反）。\n如果有100枚硬币，“全正面”的概率几乎为零，而“乱七八糟”的组合有无数种。\n玻尔兹曼说：宇宙总是向“可能性更多”的状态发展。熵就是“可能性的数量”。因为“乱”的可能性远多于“整齐”，所以宇宙注定会变乱。",
+    "text_en": "Why does your room always get messy, but never cleans itself? Boltzmann gave the mathematical answer.\nImagine 2 coins. You want them both 'Heads' (Order). There is only 1 way to do that.\nBut if you don't care (Disorder), there are more ways (HT, TH, TT).\nIf you have 100 coins, the chance of 'All Heads' is basically zero, while the number of 'messy' combos is huge.\nBoltzmann said: The universe always moves toward the state with 'more possibilities'. Entropy is just a count of those possibilities. Because there are way more ways to be 'messy' than 'neat', the universe is doomed to get messy.",
+    "diagram": "assets/images/order_vs_messy.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "💻",
+        "title": "信息论 (Information Theory)",
+        "title_en": "Information Theory",
+        "text": "克劳德·香农（`shannon_circuits_1937`）直接借用了玻尔兹曼的公式来定义“信息熵”。可以说，玻尔兹曼是数字通信的祖父。",
+        "text_en": "Claude Shannon directly borrowed Boltzmann's formula to define 'Information Entropy'. Boltzmann is, in a sense, the grandfather of digital communication."
+      },
+      {
+        "icon": "🧪",
+        "title": "化学反应速率",
+        "title_en": "Chemical Reaction Rates",
+        "text": "“阿伦尼乌斯方程”和“过渡态理论”都依赖于玻尔兹曼分布，用来计算分子是否有足够的能量（概率）发生反应。",
+        "text_en": "The 'Arrhenius equation' and transition state theory rely on the Boltzmann distribution to calculate the probability of molecules having enough energy to react."
+      },
+      {
+        "icon": "🤖",
+        "title": "计算机算法",
+        "title_en": "Computer Algorithms",
+        "text": "“模拟退火”(Simulated Annealing) 算法和机器学习中的“玻尔兹曼机”都是直接基于他的热力学概率思想。",
+        "text_en": "'Simulated Annealing' algorithms and 'Boltzmann Machines' in AI are directly based on his thermodynamic probability concepts."
+      }
+    ],
+
+  "impact": {
+    "text": "玻尔兹曼是连接“经典物理”和“现代物理”的桥梁。他将“概率”引入了物理学的核心，这直接启发了普朗克（`planck_quantum_1900`）去计算“能量包”的统计分布（导致了量子的发现），也为爱因斯坦解释“布朗运动”提供了工具。他是统计物理学的创始人。",
+    "text_en": "Boltzmann is the bridge between 'Classical' and 'Modern' physics. By introducing 'probability' into the core of physics, he directly inspired Planck (`planck_quantum_1900`) to calculate the statistics of energy packets (leading to Quantum Mechanics) and gave Einstein the tools to explain 'Brownian Motion'. He is the father of Statistical Physics.",
+    "stats": [
+        {
+          "number": "1877",
+          "label": "年 (公式提出)",
+          "label_en": "Year (Formula Proposed)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "clausius_thermodynamics_1850",
+        "contribution": "克劳修斯（其宏观的“熵”概念是玻尔兹曼试图在微观上解释的对象）",
+        "contribution_en": "Clausius (whose macroscopic concept of 'Entropy' was what Boltzmann sought to explain microscopically)"
+      },
+      {
+        "id": "maxwell_distribution_1860",
+        "contribution": "麦克斯韦（其气体分子的“速度分布律”是玻尔兹曼统计方法的直接灵感来源）",
+        "contribution_en": "James Clerk Maxwell (his 'velocity distribution' of gas molecules was the direct inspiration for Boltzmann's statistical methods)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "planck_quantum_1900",
+        "contribution": "普朗克（他利用玻尔兹曼的统计方法推导出了黑体辐射公式，从而发现了量子）",
+        "contribution_en": "Max Planck (he used Boltzmann's statistical methods to derive the black-body formula, stumbling upon the quantum)"
+      },
+      {
+        "id": "shannon_circuits_1937",
+        "contribution": "香农（将热力学熵的概念转化为“信息熵”，开创了信息论）",
+        "contribution_en": "Claude Shannon (translated thermodynamic entropy into 'Information Entropy', founding Information Theory)"
+      },
+      {
+        "id": "einstein_brownian_motion_1905",
+        "contribution": "爱因斯坦（利用统计力学解释布朗运动，最终证明了原子的存在，为玻尔兹曼平反）",
+        "contribution_en": "Einstein (used statistical mechanics to explain Brownian Motion, finally proving atoms exist and vindicating Boltzmann)"
+      }
+    ],
+    "legacy_text": "玻尔兹曼告诉我们，混乱不是错误，而是概率的必然结果。",
+    "legacy_text_en": "Boltzmann taught us that chaos is not a mistake, but a mathematical certainty."
+  },
+
+  "related_concepts": ["熵 (Entropy)", "统计力学 (Statistical Mechanics)", "玻尔兹曼常数 (Boltzmann Constant)", "微观状态 (Microstates)", "热力学第二定律", "麦克斯韦-玻尔兹曼分布"],
+  "related_concepts_en": ["Entropy", "Statistical Mechanics", "Boltzmann Constant", "Microstates", "Second Law of Thermodynamics", "Maxwell-Boltzmann Distribution"],
+
+  "quiz": {
+    "question": "在玻尔兹曼的著名公式 S = k log W 中，W 代表什么？",
+    "question_en": "In Boltzmann's famous equation S = k log W, what does the 'W' stand for?",
+    "options": [
+      "功 (Work)",
+      "重量 (Weight)",
+      "微观状态的数量 (Number of Microstates / Probability)",
+      "波长 (Wavelength)"
+    ],
+    "options_en": [
+      "Work",
+      "Weight",
+      "Number of Microstates (Wahrscheinlichkeit)",
+      "Wavelength"
+    ],
+    "answer": 2,
+    "explanation": "W 代表德语单词 *Wahrscheinlichkeit*（可能性/概率）。在物理上，它指的是一个宏观状态（如温度）可以通过多少种不同的微观方式（原子的排列）来实现。微观状态越多，熵 (S) 越大。",
+    "explanation_en": "W stands for the German word *Wahrscheinlichkeit* (Probability). Physically, it represents the number of different 'microstates' (arrangements of atoms) that correspond to a given macrostate. The more ways to arrange the atoms, the higher the Entropy (S)."
+  }
 }

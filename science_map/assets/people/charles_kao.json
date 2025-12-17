@@ -1,0 +1,10 @@
+{
+    "name": "高锟",
+    "name_en": "Charles K. Kao",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Charles_K._Kao_cropped_2.jpg",
+    "bio_short": "华裔物理学家和工程师，被誉为“光纤之父”。他在1966年发表了奠基性论文，指出光纤损耗的主要原因是杂质，预言了光纤通信的未来，并因此获得了2009年的诺贝尔物理学奖。",
+    "bio_short_en": "A Chinese-born physicist and engineer, known as the 'Father of Fiber Optics'. His groundbreaking 1966 paper identified impurities as the main cause of signal loss in fibers, paving the way for optical communication. He won the 2009 Nobel Prize in Physics.",
+    "events": [
+      "fiber_optics_1966"
+    ]
+  }

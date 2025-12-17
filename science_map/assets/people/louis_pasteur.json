@@ -1,0 +1,10 @@
+{
+    "name": "路易·巴斯德",
+    "name_en": "Louis Pasteur",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg",
+    "bio_short": "法国化学家和微生物学家，被誉为“微生物学之父”。他推翻了自然发生论（`pasteur_germ_theory_1861`），发明了巴氏杀菌法，并研发了狂犬病和炭疽疫苗，彻底改变了医学。",
+    "bio_short_en": "A French chemist and microbiologist, known as the 'father of microbiology'. He disproved spontaneous generation (`pasteur_germ_theory_1861`), invented pasteurization, and developed vaccines for rabies and anthrax, revolutionizing medicine.",
+    "events": [
+      "pasteur_germ_theory_1861"
+    ]
+  }

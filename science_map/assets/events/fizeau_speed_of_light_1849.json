@@ -1,0 +1,160 @@
+{
+    "id": "fizeau_speed_of_light_1849",
+    "personId": "armand_fizeau",
+    "title": "首次在地球上测量光速 (齿轮法)",
+    "title_en": "First Terrestrial Measurement of the Speed of Light (Fizeau's Wheel)",
+    "year": 1849,
+    "lat": 48.8864,
+    "lng": 2.3431,
+    "city": "巴黎 (蒙马特)",
+    "city_en": "Paris (Montmartre)",
+    "country": "法国",
+    "country_en": "France",
+    "field": ["物理学", "光学"],
+    "field_en": ["Physics", "Optics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Earth_and_Moon_speed_of_light_by_James_O%27Donoghue.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=a6gl8KZM0PM&t=29s",
+        "title": "如何测量光速 (斐索实验)",
+        "title_en": "How to find the speed of light (Fizeau experiment)",
+        "duration": "4:06"
+      }
+    },
+    
+    "summary": {
+      "text": "1849年，法国物理学家阿尔芒·斐索（Armand Fizeau）进行了著名的“齿轮实验”。他将一束光穿过一个快速旋转的齿轮的齿缝，射向8.6公里外的一面镜子并反射回来。通过调节齿轮的转速，他找到了光在往返途中正好被下一个“齿”挡住（导致光消失）的临界速度。利用这个转速和距离，他计算出光速约为 313,300 km/s。这是人类历史上第一次不依赖天文观测，而在地球表面成功测量光速。",
+      "text_en": "In 1849, French physicist Armand Fizeau conducted his famous 'toothed wheel experiment'. He passed a beam of light through a gap in a rapidly spinning cogwheel to a mirror 8.6 km away, reflecting it back. By adjusting the wheel's speed, he found the critical velocity where the returning light was blocked by the next 'tooth' (causing an eclipse). Using the rotation speed and distance, he calculated the speed of light to be ~313,300 km/s. This was the first time in history the speed of light was measured terrestrially, without relying on astronomical observations.",
+      "key_points": [
+        "首次在地球上（非天文）测量光速",
+        "使用了“旋转齿轮法”(Toothed Wheel Method)",
+        "距离：约 8.63 公里 (巴黎蒙马特至叙雷讷)",
+        "测量结果：~313,300 km/s (误差约5%)",
+        "证明了光速测量可以由机械实验完成"
+      ],
+      "key_points_en": [
+        "First terrestrial (non-astronomical) measurement of light speed",
+        "Used the 'Toothed Wheel Method'",
+        "Distance: ~8.63 km (Montmartre to Suresnes)",
+        "Result: ~313,300 km/s (~5% error)",
+        "Proved light speed could be measured by mechanical experiment"
+      ]
+    },
+  
+    "story": {
+      "text": "在斐索之前，光速的测量完全依赖于广阔的宇宙空间（如罗默观测木星卫星 `roemer_speed_of_light_1676`）。许多人认为光太快了，在地球这么短的距离内根本无法测量。斐索的挑战在于如何测量微秒级的时间。他的天才在于将“时间测量”转化为了“机械测量”：他不需要秒表，他只需要测量齿轮的“转速”。他在巴黎的蒙马特高地（他父亲家的阳台）和叙雷讷的山坡之间架设了设备。当齿轮转速达到每秒12.6转时，返程的光线首次被挡住。这个实验不仅测出了数值，更重要的是确立了精密光学实验的标准。",
+      "text_en": "Before Fizeau, measuring light speed relied on the vastness of space (like Rømer's Jupiter moons, `roemer_speed_of_light_1676`). Many thought light was too fast to measure over short Earth distances. Fizeau's challenge was measuring time in microseconds. His genius was converting 'time measurement' into 'mechanical measurement': he didn't need a stopwatch; he only needed to measure the gear's 'rotation speed'. He set up his apparatus between Montmartre (his father's balcony) and Suresnes. At 12.6 revolutions per second, the returning light was blocked. The experiment didn't just give a number; it set the standard for precision optical experimentation.",
+      "diagram": "hhttps://upload.wikimedia.org/wikipedia/commons/6/68/Fizeau-int.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🔄",
+        "text": "斐索经常被与莱昂·傅科（Léon Foucault）混淆。他们曾是朋友和合作者，但后来分道扬镳变成了竞争对手。傅科在1862年改进了斐索的实验（使用“旋转镜”代替“齿轮”），得到了更精确的数值（298,000 km/s）。",
+        "text_en": "Fizeau is often confused with Léon Foucault. They were friends and collaborators who had a falling out and became rivals. Foucault improved on Fizeau's experiment in 1862 (using a 'rotating mirror' instead of a 'cogwheel') to get a more accurate value (298,000 km/s)."
+      },
+      {
+        "icon": "🌊",
+        "text": "斐索还在1851年进行了另一个著名的“流水实验”，测量光在流动水中的速度。这个实验的结果（斐索拖曳系数）后来成为了爱因斯坦狭义相对论的重要实验证据之一。",
+        "text_en": "Fizeau also conducted a famous 'water flow experiment' in 1851 to measure the speed of light in moving water. The result (Fizeau drag coefficient) later became one of the key experimental proofs for Einstein's Special Relativity."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "斐索想知道光跑得有多快。他没有秒表能计那么短的时间。所以他用了一个“切光器”（旋转的齿轮）。\n他把光射出去，光穿过齿缝飞向远处的镜子再飞回来。这需要一点点时间。\n在这个时间里，如果齿轮转得够快，回来的光就会正好撞到“牙齿”上，斐索就看不见光了。\n通过计算齿轮转得有多快，他就能算出光跑那一小段路用了多久。他证明了我们在地球上也能“抓住”光。",
+      "text_en": "Fizeau wanted to know how fast light runs. He had no stopwatch fast enough. So he used a 'light chopper' (a spinning gear).\nHe shot light out through a gap, it flew to a distant mirror and came back. This took a tiny bit of time.\nDuring that time, if the gear spun fast enough, the returning light would hit a 'tooth' instead of the gap, and Fizeau would see darkness.\nBy calculating how fast the gear spun, he figured out how long the light took. He proved we could 'catch' light right here on Earth.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/68/Fizeau-int.svg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📏",
+          "title": "标准测量",
+          "title_en": "Standard Measurement",
+          "text": "光速（c）现在是定义“米”(Meter) 的基准。斐索的实验是将光速确立为可测物理常数的第一步。",
+          "text_en": "The speed of light (c) is now the basis for defining the 'meter'. Fizeau's experiment was the first step in establishing c as a measurable physical constant."
+        },
+        {
+          "icon": "📡",
+          "title": "光纤与激光测距",
+          "title_en": "Lidar & Fiber Optics",
+          "text": "现代技术（如雷达、激光测距）测量距离的原理（飞行时间法），本质上就是斐索实验的电子版。",
+          "text_en": "The principle used by modern tech (Radar, Lidar) to measure distance (Time-of-Flight) is essentially the electronic version of Fizeau's experiment."
+        }
+      ],
+  
+    "impact": {
+      "text": "斐索实验将光速从天文学领域带回了物理实验室。它证明了即使是像光速这样惊人的速度，也是可以通过精巧的机械装置在地球表面测量的。这一数值的精确化（后来由傅科和迈克尔逊完成）对于麦克斯韦建立电磁理论（`maxwell_equations_1861`，确认光是电磁波）至关重要。",
+      "text_en": "The Fizeau experiment brought the speed of light down from the heavens into the physics lab. It proved that even a speed as immense as light's could be measured terrestrially with clever mechanics. Refining this number (later by Foucault and Michelson) was crucial for Maxwell (`maxwell_equations_1861`) to confirm that light is an electromagnetic wave.",
+      "stats": [
+          {
+            "number": "313,300",
+            "label": "km/s (测量结果)",
+            "label_en": "km/s (Measured Speed)"
+          },
+          {
+            "number": "8.63",
+            "label": "公里 (往返距离的一半)",
+            "label_en": "km (One-way Distance)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "roemer_speed_of_light_1676",
+          "contribution": "罗默（第一个证明光速有限，为斐索提供了理论前提）",
+          "contribution_en": "Ole Rømer (first proved light speed is finite, providing the premise for Fizeau)"
+        },
+        {
+          "id": "galileo_motion_1638",
+          "contribution": "伽利略（曾尝试用灯笼在山顶测量光速但失败了，斐索实现了伽利略的想法）",
+          "contribution_en": "Galileo (tried and failed to measure light speed with lanterns on hilltops; Fizeau realized Galileo's idea)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "foucault_speed_of_light_1862",
+          "contribution": "莱昂·傅科（改进了斐索的方法，用旋转镜获得了更精确的数值，并测出了水中的光速）",
+          "contribution_en": "Léon Foucault (improved Fizeau's method using a rotating mirror for better accuracy and measured light speed in water)"
+        },
+        {
+          "id": "michelson_morley_1887",
+          "contribution": "迈克尔逊（将光速测量精度推向了极致，并最终用来否定以太）",
+          "contribution_en": "Michelson (pushed light speed measurement to its ultimate precision, eventually using it to disprove the aether)"
+        },
+        {
+          "id": "einstein_special_relativity_1905",
+          "contribution": "爱因斯坦（斐索的另一个实验“流水实验”是相对论的关键证据）",
+          "contribution_en": "Einstein (Fizeau's *other* experiment on light in moving water was key evidence for Relativity)"
+        }
+      ],
+      "legacy_text": "斐索用一个齿轮和两面镜子，在这个星球上抓住了全宇宙跑得最快的东西。",
+      "legacy_text_en": "With a gear and two mirrors, Fizeau caught the fastest thing in the universe right here on Earth."
+    },
+  
+    "related_concepts": ["光速 (Speed of Light)", "齿轮法 (Toothed Wheel)", "莱昂·傅科 (Léon Foucault)", "折射率", "相对论", "迈克尔逊 (Michelson)"],
+    "related_concepts_en": ["Speed of Light", "Toothed Wheel", "Léon Foucault", "Refractive Index", "Relativity", "Michelson"],
+  
+    "quiz": {
+      "question": "斐索（Fizeau）的实验是如何判断光已经“往返”了一次的？",
+      "question_en": "How did Fizeau's experiment determine that the light had made the round trip?",
+      "options": [
+        "通过听到声音",
+        "通过观察光被旋转齿轮的“齿”挡住而消失（食）",
+        "通过测量光的颜色变化",
+        "通过电流计的读数"
+      ],
+      "options_en": [
+        "By hearing a sound",
+        "By observing the light disappear (eclipse) as it was blocked by a 'tooth' of the spinning wheel",
+        "By measuring the color change of the light",
+        "By the reading on a galvanometer"
+      ],
+      "answer": 1,
+      "explanation": "实验的关键在于“斩波”。当齿轮转速恰好使光在往返的时间内，原本的“缝隙”被“牙齿”取代时，观察者眼中的光就会熄灭。通过这个转速，就可以算出时间。",
+      "explanation_en": "The key was 'chopping' the light. When the wheel spun at just the right speed so that a 'tooth' replaced the 'gap' in the exact time the light took to travel back and forth, the light would be blocked (eclipsed) from the observer's view. This speed gave the time."
+    }
+  }

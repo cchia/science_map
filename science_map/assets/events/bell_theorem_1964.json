@@ -1,0 +1,156 @@
+{
+    "id": "bell_theorem_1964",
+    "personId": "john_stewart_bell",
+    "title": "发表“贝尔定理” (判决局域实在论)",
+    "title_en": "Publishes 'Bell's Theorem' (The Verdict on Local Realism)",
+    "year": 1964,
+    "lat": 46.2330,
+    "lng": 6.0557,
+    "city": "日内瓦 (CERN)",
+    "city_en": "Geneva (CERN)",
+    "country": "瑞士",
+    "country_en": "Switzerland",
+    "storyline_id": ["quantum_story"],
+    "field": ["物理学", "数学", "哲学"],
+    "field_en": ["Physics", "Mathematics", "Philosophy"],
+    
+    "media": {
+      "event_image": "assets/images/bell_inequality.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=f72whGQ31Wg",
+        "title": "EPR佯谬与贝尔不等式",
+        "title_en": "The EPR Paradox & Bell's inequality explained simply",
+        "duration": "18:17"
+      }
+    },
+    
+    "summary": {
+      "text": "爱尔兰物理学家约翰·贝尔（John Stewart Bell）发表了一篇名为《论爱因斯坦-波多尔斯基-罗森佯谬》的论文。他推导出了一个数学不等式（贝尔不等式），该不等式为爱因斯坦（`einstein_epr_1935`）的“隐变量”理论设定了一个可被检测的上限。贝尔证明：如果世界是“局域的”（没有超光速影响）且“实在的”（属性在测量前就已确定），那么粒子之间的关联度不可能超过某个值。然而，量子力学预言这种关联度会**超过**这个值。这使得“EPR佯谬”从一个哲学辩论变成了一个可以去实验室验证的物理问题。",
+      "text_en": "Irish physicist John Stewart Bell published a paper titled 'On the Einstein Podolsky Rosen Paradox'. He derived a mathematical inequality (Bell's Inequality) that set a testable limit for Einstein's (`einstein_epr_1935`) 'Hidden Variable' theories. Bell proved: if the world is 'Local' (no faster-than-light influence) and 'Real' (properties exist before measurement), the correlation between particles cannot exceed a certain value. However, Quantum Mechanics predicts correlations that **violate** this limit. This turned the 'EPR Paradox' from a philosophical debate into an experimental physics problem.",
+      "key_points": [
+        "提出了“贝尔不等式”(Bell's Inequality)",
+        "区分了“量子力学”与“局域实在论”(Local Realism)",
+        "证明了如果量子力学是正确的，世界就是“非局域”的",
+        "将EPR哲学辩论转化为“实验物理”",
+        "为后来的量子纠缠实验（阿斯佩等）奠定了基础"
+      ],
+      "key_points_en": [
+        "Proposed 'Bell's Inequality'",
+        "Distinguished 'Quantum Mechanics' from 'Local Realism'",
+        "Proved that if QM is correct, the world is 'Non-Local'",
+        "Turned the EPR philosophical debate into 'Experimental Physics'",
+        "Laid the groundwork for entanglement experiments (Aspect, et al.)"
+      ]
+    },
+  
+    "story": {
+      "text": "贝尔是CERN的一位粒子加速器设计师，他对量子力学的“哥本哈根诠释”感到不满，内心倾向于爱因斯坦的观点。利用休假时间，他深入研究了EPR佯谬。他思考：是否真的存在某种“隐变量”（就像写在粒子里的秘密指令），让它们看起来像是有关联的？他用数学证明了，任何基于“隐变量”的理论，其粒子间的相关性都有一个最大极限（比如 <= 2）。但是，量子力学的公式计算出的相关性高达 $2\\sqrt{2}$（约2.82）。这意味着，量子力学和“爱因斯坦的常识”在数学上是不兼容的。要么量子力学是错的，要么我们必须接受“鬼魅般的超距作用”是真的。",
+      "text_en": "Bell was a particle accelerator designer at CERN who was unsatisfied with the 'Copenhagen Interpretation' and sympathetic to Einstein. working in his spare time, he dug into the EPR paradox. He asked: Could there be 'Hidden Variables' (like secret instructions inside particles) that make them *look* connected? He proved mathematically that for *any* theory based on 'Hidden Variables', the correlation between particles has a maximum limit (e.g., <= 2). But, the formulas of Quantum Mechanics predicted a correlation of $2\\sqrt{2}$ (~2.82). This meant QM and 'Einstein's Common Sense' were mathematically incompatible. Either QM was wrong, or we had to accept that 'spooky action at a distance' was real.",
+      "diagram": "assets/images/bell_inequality_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧦",
+        "text": "为了解释贝尔定理，人们常引用“伯特曼的袜子”(Bertlmann's Socks)。伯特曼（贝尔的同事）总是穿不同颜色的袜子。如果你看到他一只脚是粉色的，你立刻就能确定另一只脚“不是”粉色的。这是“经典关联”（隐变量）。贝尔定理证明了量子纠缠**不仅仅**是这种简单的袜子关联。",
+        "text_en": "To explain Bell's Theorem, people often cite 'Bertlmann's Socks'. Bertlmann (Bell's colleague) always wore mismatched socks. If you saw one foot was pink, you instantly knew the other was *not* pink. This is 'Classical Correlation' (Hidden Variables). Bell's Theorem proved that quantum entanglement is **more than** just simple sock correlation."
+      },
+      {
+        "icon": "📉",
+        "text": "贝尔的论文发表在一本名为《Physics》的短命期刊上，这本期刊在他发表后不久就停刊了。但这篇论文成为了20世纪被引用次数最多的物理论文之一。",
+        "text_en": "Bell published his paper in a short-lived journal called 'Physics', which went out of business shortly after. Yet, this paper became one of the most cited physics papers of the 20th century."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "爱因斯坦说：“如果两个粒子行为一致，那是因为它们出发前就商量好了（就像两只颜色一样的鞋子）。”\n贝尔说：“让我们来做个测试。我们让这两个粒子分开，然后从不同的角度去问它们问题。如果它们真的是‘商量好’的（隐变量），它们的回答一致率最高只能达到75%（举例）。但如果它们是‘心灵感应’的（量子纠缠），一致率能达到85%。”\n贝尔定理就是这个“数学测试”。后来的实验证明，一致率真的超过了75%。结论：粒子没有商量好，它们在“实时”通过某种神秘连接进行交流。",
+      "text_en": "Einstein said: 'If two particles act the same, it's because they agreed on a plan before they left (like two matching shoes).'\nBell said: 'Let's test that. Let's separate them and ask them questions from different angles. If they really just 'had a plan' (Hidden Variables), their answers could only match up to, say, 75% of the time. But if they are 'telepathic' (Quantum Entanglement), they could match 85% of the time.'\nBell's Theorem is that 'math test'. Later experiments passed the test (over 75%). Conclusion: The particles didn't have a plan; they are communicating via a mysterious connection in real-time.",
+      "diagram": "assets/images/bell_inequality_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔐",
+          "title": "量子密钥分发 (E91协议)",
+          "title_en": "Quantum Key Distribution (E91 Protocol)",
+          "text": "阿图尔·埃克特利用贝尔不等式发明了E91协议。通过检测贝尔不等式是否被违背，可以百分之百确定密钥是否被窃听者拦截。",
+          "text_en": "Artur Ekert used Bell's Inequality to invent the E91 protocol. By testing if Bell's inequality is violated, one can verify 100% that no eavesdropper has intercepted the key."
+        },
+        {
+          "icon": "🎲",
+          "title": "真随机数生成",
+          "title_en": "True Random Number Generation",
+          "text": "基于贝尔定理的量子过程可以产生“真正的”随机数，这是经典计算机（伪随机）无法做到的。",
+          "text_en": "Quantum processes verified by Bell's Theorem can generate 'true' random numbers, something classical computers (pseudo-random) cannot do."
+        }
+      ],
+  
+    "impact": {
+      "text": "贝尔定理被称为“科学中最深刻的发现”。它结束了爱因斯坦与玻尔的哲学辩论，判决爱因斯坦的“局域实在论”是错误的。它证明了我们的宇宙在根本上是“非局域”的（Non-local）。这一理论直接催生了2022年诺贝尔物理学奖（阿斯佩、克劳泽、塞林格）以及整个量子信息科技领域。",
+      "text_en": "Bell's Theorem has been called 'the most profound discovery of science'. It ended the Einstein-Bohr philosophical debate by ruling that Einstein's 'Local Realism' was false. It proved our universe is fundamentally 'Non-local'. This theory directly led to the 2022 Nobel Prize in Physics (Aspect, Clauser, Zeilinger) and the entire field of Quantum Information Technology.",
+      "stats": [
+          {
+            "number": "1964",
+            "label": "年 (定理发表)",
+            "label_en": "Year (Theorem Published)"
+          },
+          {
+            "number": "2.82",
+            "label": "S值 (量子力学最大值)",
+            "label_en": "S-value (QM Max)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "einstein_epr_1935",
+          "contribution": "爱因斯坦（其EPR佯谬和对隐变量的坚持，是贝尔定理试图检验的假设）",
+          "contribution_en": "Einstein (his EPR paradox and insistence on Hidden Variables were the hypothesis Bell sought to test)"
+        },
+        {
+          "id": "bohm_hidden_variables_1952",
+          "contribution": "大卫·玻姆（其非局域隐变量理论启发了贝尔去思考如何区分量子力学和经典理论）",
+          "contribution_en": "David Bohm (his non-local hidden variable theory inspired Bell to think about how to distinguish QM from classical theory)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "clauser_experiment_1972",
+          "contribution": "约翰·克劳泽（进行了第一个实验测试贝尔不等式的实验，支持量子力学）",
+          "contribution_en": "John Clauser (performed the first experimental test of Bell's Inequality, supporting QM)"
+        },
+        {
+          "id": "aspect_experiment_1982",
+          "contribution": "阿兰·阿斯佩（通过更严密的实验，堵住了“定域性漏洞”，决定性地证实了贝尔定理）",
+          "contribution_en": "Alain Aspect (performed the definitive experiment that closed 'locality loopholes', confirming Bell's Theorem)"
+        }
+      ],
+      "legacy_text": "贝尔证明了爱因斯坦的“上帝”不仅掷骰子，而且这些骰子在宇宙的两端也是相互关联的。",
+      "legacy_text_en": "Bell proved that Einstein's 'God' not only plays dice, but the dice are linked across the universe."
+    },
+  
+    "related_concepts": ["贝尔不等式 (Bell's Inequality)", "量子纠缠 (Quantum Entanglement)", "局域实在论 (Local Realism)", "隐变量 (Hidden Variables)", "EPR佯谬", "非局域性 (Non-locality)", "阿斯佩实验"],
+    "related_concepts_en": ["Bell's Inequality", "Quantum Entanglement", "Local Realism", "Hidden Variables", "EPR Paradox", "Non-locality", "Aspect Experiment"],
+  
+    "quiz": {
+      "question": "贝尔定理（Bell's Theorem）的主要结论是什么？",
+      "question_en": "What is the main conclusion of Bell's Theorem?",
+      "options": [
+        "量子力学是不完备的",
+        "没有任何“局域隐变量”理论可以重现量子力学的所有预测（即爱因斯坦的“定域实在论”是错的）",
+        "光速是可以被超越的",
+        "猫既是死的也是活的"
+      ],
+      "options_en": [
+        "Quantum Mechanics is incomplete",
+        "No 'local hidden variable' theory can reproduce all predictions of quantum mechanics (i.e., Einstein's 'Local Realism' is wrong)",
+        "The speed of light can be exceeded",
+        "The cat is both dead and alive"
+      ],
+      "answer": 1,
+      "explanation": "贝尔证明了，如果你坚持世界是“局域的”（没有超光速影响）和“实在的”（属性预先存在），你就无法解释量子纠缠的实验结果。因此，我们要么放弃“局域性”，要么放弃“实在性”。",
+      "explanation_en": "Bell proved that if you insist the world is 'Local' (no faster-than-light) and 'Real' (properties exist beforehand), you cannot explain the results of quantum entanglement. Therefore, we must abandon either 'Locality' or 'Realism'."
+    }
+  }

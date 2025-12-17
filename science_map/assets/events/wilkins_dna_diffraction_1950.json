@@ -1,0 +1,144 @@
+{
+    "id": "wilkins_dna_diffraction_1950",
+    "personId": "maurice_wilkins",
+    "title": "启动DNA X射线衍射研究 (被遗忘的第三人)",
+    "title_en": "Initiates X-ray Diffraction of DNA (The Forgotten Third Man)",
+    "year": 1950,
+    "lat": 51.5115,
+    "lng": -0.1160,
+    "city": "伦敦 (国王学院)",
+    "city_en": "London (King's College London)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["gene_story"],
+    "field": ["生物物理学", "晶体学"],
+    "field_en": ["Biophysics", "Crystallography"],
+    
+    "media": {
+      "event_image": "assets/images/photo_51.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=GbZ_lUY8iWs",
+        "title": "莫里斯·威尔金斯：DNA故事中的争议人物",
+        "title_en": "The Greatest Controversy in Science",
+        "duration": "8:16"
+      }
+    },
+    
+    "summary": {
+      "text": "1950年，在新西兰出生的物理学家莫里斯·威尔金斯（Maurice Wilkins）在伦敦国王学院（King's College London）率先开始了对DNA纤维的X射线衍射研究。他是第一个获得清晰的DNA晶体X射线照片的人，并初步推断DNA可能具有螺旋结构。正是他在那不勒斯的一次会议上展示的早期X射线照片，激起了年轻的詹姆斯·沃森对DNA的兴趣。然而，威尔金斯与后来加入实验室的罗莎琳德·富兰克林关系极度紧张，这种误解最终导致他（在富兰克林不知情的情况下）将关键的“照片51号”展示给了沃森，这一举动直接促成了双螺旋的发现，同时也成为了科学史上的伦理争议点。",
+      "text_en": "In 1950, New Zealand-born physicist Maurice Wilkins pioneered X-ray diffraction studies of DNA fibers at King's College London. He was the first to obtain clear X-ray photographs of DNA crystals and tentatively deduced a helical structure. It was his presentation of early X-ray photos at a conference in Naples that first sparked young James Watson's interest in DNA. However, Wilkins had a severely strained relationship with Rosalind Franklin, who joined the lab later. This misunderstanding ultimately led him to show the critical 'Photo 51' to Watson (without Franklin's knowledge)—an act that directly catalyzed the discovery of the double helix but became a point of ethical controversy in science history.",
+      "key_points": [
+        "率先应用X射线衍射技术研究DNA纤维",
+        "早期照片启发了沃森 (James Watson)",
+        "与罗莎琳德·富兰克林关系紧张 (Conflict with Franklin)",
+        "向沃森展示了关键数据 (Photo 51)",
+        "与沃森、克里克分享1962年诺贝尔奖"
+      ],
+      "key_points_en": [
+        "Pioneered X-ray diffraction of DNA fibers",
+        "Early photos inspired James Watson",
+        "Strained relationship with Rosalind Franklin",
+        "Showed critical data (Photo 51) to Watson",
+        "Shared 1962 Nobel Prize with Watson and Crick"
+      ]
+    },
+  
+    "story": {
+      "text": "威尔金斯的故事充满了悲剧色彩。他原本以为富兰克林是作为他的助手被聘请的，而富兰克林则认为自己是独立的研究员，这个由实验室主任不仅造成的误会，导致两人几乎互不说话。威尔金斯是一个害羞、内向的人，面对富兰克林的强硬态度，他感到不知所措，只能向他在剑桥的朋友沃森和克里克抱怨。虽然历史经常指责他“偷”了富兰克林的数据，但威尔金斯其实一直认为那张照片是实验室的共有财产。他在获得诺贝尔奖的演讲中，是三位获奖者中唯一一个感谢富兰克林的人，尽管那是迟来的致意。",
+      "text_en": "Wilkins' story is tinged with tragedy. He believed Franklin had been hired as his assistant, while Franklin understood she was an independent researcher—a misunderstanding created by the lab director that led to them barely speaking. Wilkins, a shy and introverted man, was overwhelmed by Franklin's assertiveness and sought solace in complaining to his friends at Cambridge, Watson and Crick. While history often accuses him of 'stealing' Franklin's data, Wilkins genuinely believed the photo was communal lab property. In his Nobel lecture, he was the only one of the three laureates to acknowledge Franklin, albeit a belated tribute.",
+      "diagram": "assets/images/wilkins_franklin.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💣",
+        "text": "威尔金斯曾在二战期间参与“曼哈顿计划”（制造原子弹）。他在看到原子弹爆炸的毁灭性后果后深受良心谴责，这也是他战后决定从物理学转向生物学（研究生命而非死亡）的主要原因。",
+        "text_en": "Wilkins worked on the 'Manhattan Project' (making the atomic bomb) during WWII. Deeply troubled by the devastation of the bomb, this guilt was a major reason he switched from physics to biology (studying life instead of death) after the war."
+      },
+      {
+        "icon": "🔬",
+        "text": "其实是威尔金斯给了沃森那个关键的建议：DNA是可以结晶的。没有这个提示，沃森可能根本不会想到去用X射线看DNA。",
+        "text_en": "It was actually Wilkins who gave Watson the key tip: DNA can be crystallized. Without this hint, Watson might never have thought to look at DNA with X-rays."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "如果说发现DNA是一场接力赛，威尔金斯是那个拿着接力棒跑了第一棒的人。\n他首先证明了用X射线照DNA是可行的，并跑去告诉了下一棒（沃森）。\n然后，因为他和队友（富兰克林）吵架了，他把队友最好的装备（照片51号）拿给了对手（沃森和克里克）。\n结果对手赢了，他也跟着蹭到了奖牌，但他的队友却被遗忘了。",
+      "text_en": "If discovering DNA was a relay race, Wilkins ran the first leg.\nHe first proved that X-raying DNA was possible and ran to tell the next runner (Watson).\nThen, because he fought with his teammate (Franklin), he gave her best equipment (Photo 51) to the opponents (Watson and Crick).\nThe opponents won, and he shared the medal, but his teammate was left behind.",
+      "diagram": "assets/images/dna_x_ray.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "⚛️",
+          "title": "生物物理学",
+          "title_en": "Biophysics",
+          "text": "威尔金斯是将物理学方法（X射线、显微镜）引入生物学的先驱，推动了生物物理学作为一个独立学科的发展。",
+          "text_en": "Wilkins was a pioneer in introducing physics methods (X-rays, microscopy) into biology, promoting the development of Biophysics as a discipline."
+        }
+      ],
+  
+    "impact": {
+      "text": "威尔金斯是连接富兰克林（数据生产者）和沃森克里克（理论构建者）的关键桥梁。虽然他的行为引发了争议，但他在DNA X射线衍射技术上的开创性工作是不可否认的。是他首先让科学界意识到DNA结构是可以被解析的。他在1962年与沃森和克里克分享了诺贝尔生理学或医学奖。",
+      "text_en": "Wilkins was the crucial bridge connecting Franklin (the data producer) and Watson & Crick (the theory builders). While his actions were controversial, his pioneering work in DNA X-ray diffraction is undeniable. He was the first to make the scientific community realize DNA structure could be solved. He shared the 1962 Nobel Prize in Physiology or Medicine with Watson and Crick.",
+      "stats": [
+          {
+            "number": "1950",
+            "label": "年 (开始研究DNA)",
+            "label_en": "Year (Started DNA Research)"
+          },
+          {
+            "number": "1962",
+            "label": "年 (诺贝尔奖)",
+            "label_en": "Year (Nobel Prize)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "schrodinger_what_is_life_1944",
+          "contribution": "薛定谔（那本《生命是什么》也深深影响了威尔金斯，让他决定用物理学去研究生化分子）",
+          "contribution_en": "Erwin Schrödinger (His book 'What is Life?' deeply influenced Wilkins, deciding him to study biochemical molecules with physics)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森（威尔金斯在那不勒斯会议上的演讲是沃森对DNA产生兴趣的起点）",
+          "contribution_en": "James Watson (Wilkins' talk at the Naples conference was the starting point of Watson's interest in DNA)"
+        },
+        {
+          "id": "franklin_photo_51_1952",
+          "contribution": "富兰克林（威尔金斯虽然与她不和，但正是他把DNA项目交给了她，并提供了早期的技术基础）",
+          "contribution_en": "Rosalind Franklin (Though they clashed, it was Wilkins who handed the DNA project to her and provided the early technical basis)"
+        }
+      ],
+      "legacy_text": "他是那个被夹在天才与争议之间的“第三人”。",
+      "legacy_text_en": "He was the 'Third Man' caught between genius and controversy."
+    },
+  
+    "related_concepts": ["X射线衍射 (X-ray Diffraction)", "国王学院 (King's College)", "B型DNA", "曼哈顿计划", "诺贝尔奖"],
+    "related_concepts_en": ["X-ray Diffraction", "King's College", "B-form DNA", "Manhattan Project", "Nobel Prize"],
+  
+    "quiz": {
+      "question": "莫里斯·威尔金斯在DNA发现故事中扮演了一个极具争议的角色，主要原因是什么？",
+      "question_en": "What was the primary reason for Maurice Wilkins' controversial role in the DNA discovery story?",
+      "options": [
+        "他伪造了数据",
+        "他在未经同事允许的情况下，将其拍摄的关键照片展示给了竞争对手",
+        "他反对DNA是双螺旋结构",
+        "他试图阻止沃森发表论文"
+      ],
+      "options_en": [
+        "He faked data",
+        "He showed a colleague's critical photo to competitors without permission",
+        "He argued against the double helix structure",
+        "He tried to stop Watson from publishing"
+      ],
+      "answer": 1,
+      "explanation": "威尔金斯在富兰克林不知情的情况下，把她的“照片51号”拿给了沃森看，这成为了沃森解开谜题的关键线索，也成为了科学史上关于知识产权和伦理的最大争议之一。",
+      "explanation_en": "Wilkins showed Franklin's 'Photo 51' to Watson without her knowledge. This became the key clue for Watson to solve the puzzle and remains one of the biggest controversies in science history regarding intellectual property and ethics."
+    }
+  }

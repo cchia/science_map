@@ -1,0 +1,11 @@
+{
+    "name": "亨利·卡文迪许",
+    "name_en": "Henry Cavendish",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cavendish_Henry_signature.jpg",
+    "bio_short": "英国化学家和物理学家，历史上最伟大的实验家之一。他发现了氢气（“易燃空气”），证明了水的组成，并通过著名的“卡文迪许实验”精确测量了地球的密度。",
+    "bio_short_en": "A British chemist and physicist, one of the greatest experimentalists in history. He discovered hydrogen ('inflammable air'), proved the composition of water, and accurately measured the density of the Earth via the 'Cavendish experiment'.",
+    "events": [
+      "cavendish_hydrogen_1766",
+      "cavendish_experiment_1798"
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "name": "比尔·英格利希",
+    "name_en": "Bill English",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SRI_Bill_English_1968.jpg/600px-SRI_Bill_English_1968.jpg",
+    "bio_short": "美国计算机工程师，与道格拉斯·恩格尔巴特共同发明了鼠标。他制造了世界上第一个鼠标原型，并在1968年的“演示之母”中负责了极其复杂的硬件架构和后台技术协调。",
+    "bio_short_en": "An American computer engineer who co-invented the mouse with Douglas Engelbart. He built the world's first mouse prototype and orchestrated the complex hardware architecture and technical coordination for the 1968 'Mother of All Demos.'",
+    "events": [
+      "computer_mouse_1964",
+      "engelbart_demo_1968",
+      "english_xerox_ball_mouse_1972"
+    ]
+  }

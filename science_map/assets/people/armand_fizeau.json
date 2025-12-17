@@ -1,0 +1,10 @@
+{
+    "name": "阿尔芒·斐索",
+    "name_en": "Armand Fizeau",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/73/Armand_Hippolyte_Louis_Fizeau_by_Eug%C3%A8ne_Pirou_-_Original.jpg",
+    "bio_short": "法国物理学家。他是历史上第一个在地球表面（非天文观测）精确测量光速的人（`fizeau_speed_of_light_1849`）。他还将多普勒效应推广到了光波（红移）。",
+    "bio_short_en": "A French physicist. He was the first person in history to measure the speed of light terrestrially (non-astronomically) (`fizeau_speed_of_light_1849`). He also extended the Doppler effect to light waves (redshift).",
+    "events": [
+      "fizeau_speed_of_light_1849"
+    ]
+  }

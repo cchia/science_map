@@ -1,0 +1,161 @@
+{
+    "id": "hero_aeolipile_AD60",
+    "personId": "hero_of_alexandria",
+    "title": "发明“汽转球” (世界上第一台蒸汽机)",
+    "title_en": "Invents the 'Aeolipile' (World's First Steam Engine)",
+    "year": 60,
+    "lat": 31.2001,
+    "lng": 29.9187,
+    "city": "亚历山大",
+    "city_en": "Alexandria",
+    "country": "罗马帝国 (今埃及)",
+    "country_en": "Roman Empire (Modern Egypt)",
+    "storyline_ids": ["thermo_story"],
+    "field": ["工程学", "物理学"],
+    "field_en": ["Engineering", "Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Aeolipile_illustration.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QBh8cHZvE9U",
+        "title": "希罗的汽转球：古代蒸汽机",
+        "title_en": "Hero's Steam Engine (Aeolipile)",
+        "duration": "6:23"
+      }
+    },
+    
+    "summary": {
+      "text": "亚历山大港的希罗（Hero of Alexandria，又译海伦）在他的著作《气体力学》(Pneumatica) 中描述了一种名为“汽转球”(Aeolipile) 的装置。这是一个可以通过蒸汽驱动旋转的空心金属球。它是人类历史上已知的第一台“热机”（将热能转化为机械能）和“反作用力涡轮机”。虽然在当时它仅仅被视为一个“神庙玩具”或“哲学好奇物”，并没有投入实际生产，但它证明了蒸汽动力的原理在工业革命前1700年就已经被发现。",
+      "text_en": "Hero of Alexandria described a device called the 'Aeolipile' (Ball of Aeolus) in his work 'Pneumatica'. It was a hollow metal sphere that spun when driven by steam. It is the first known 'heat engine' (converting thermal energy into mechanical energy) and 'reaction turbine' in human history. Although it was treated merely as a 'temple toy' or 'philosophical curiosity' at the time and not put to practical use, it proves that the principle of steam power was discovered 1700 years before the Industrial Revolution.",
+      "key_points": [
+        "发明了第一台“蒸汽机” (Steam Engine)",
+        "基于“反作用力”原理 (Reaction Principle) / 牛顿第三定律",
+        "被视为“玩具”而非实用机器",
+        "证明了古代拥有制造蒸汽动力的知识",
+        "现代“喷气式发动机”和“蒸汽涡轮机”的鼻祖"
+      ],
+      "key_points_en": [
+        "Invented the first 'Steam Engine'",
+        "Based on the 'Reaction Principle' / Newton's Third Law",
+        "Considered a 'toy' rather than a practical machine",
+        "Proved antiquity possessed the knowledge of steam power",
+        "Ancestor of the modern 'jet engine' and 'steam turbine'"
+      ]
+    },
+  
+    "story": {
+      "text": "希罗是著名的工程师，喜欢设计自动装置（Automata）。“汽转球”的结构很简单：一个装水的密封锅（作为锅炉），上方通过两根管子连接着一个空心球。当水沸腾时，蒸汽通过管子进入球体，并从球体赤道上两个弯曲的喷嘴（方向相反）喷出。根据反作用力原理（就像放气的气球），喷出的蒸汽推动球体飞速旋转。虽然它转得很快（最高可达1500转/分钟），但它的“扭矩”很小，很难驱动重型机械。再加上当时廉价的奴隶劳动力，使得人们没有动力去开发这种“省力机器”。",
+      "text_en": "Hero was a famous engineer who loved designing automata. The construction of the Aeolipile was simple: a sealed cauldron of water (the boiler) connected by tubes to a hollow sphere above. When the water boiled, steam rose into the sphere and escaped through two bent nozzles on the equator (pointing in opposite directions). Based on the reaction principle (like a deflating balloon), the escaping steam spun the sphere rapidly. Although it spun fast (up to 1500 rpm), it had very little 'torque' and couldn't drive heavy machinery. Combined with the abundance of cheap slave labor, there was no economic incentive to develop this 'labor-saving machine'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/23/Aeolipile.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🌬️",
+        "text": "“Aeolipile”这个名字来自希腊神话中的风神“埃俄罗斯”(Aeolus) 和拉丁语“球”(pila)，意为“风神的球”。",
+        "text_en": "The name 'Aeolipile' comes from 'Aeolus' (the Greek god of the wind) and 'pila' (Latin for ball), meaning 'Ball of Aeolus'."
+      },
+      {
+        "icon": "⛩️",
+        "text": "希罗还发明了世界上第一个“自动门”和“自动售货机”（投币出圣水），他利用蒸汽和气压原理来制造神庙中的“神迹”。",
+        "text_en": "Hero also invented the world's first 'automatic doors' and 'vending machine' (coin-operated holy water dispenser), using steam and pneumatic principles to create 'miracles' in temples."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一个充满了气的气球，如果你松开手，空气向后喷出，气球就会向前飞。这就是“火箭”的原理。\n希罗的机器就是用“蒸汽”代替“空气”，用“旋转”代替“飞行”。\n他烧水产生蒸汽，蒸汽从金属球两侧的喷嘴“喷”出来，推动金属球不停地转圈。这是人类第一次利用“热”（火）来制造“动”（旋转）。",
+      "text_en": "Imagine a balloon full of air. If you let it go, the air shoots out the back, and the balloon flies forward. This is how a 'rocket' works.\nHero's machine used 'steam' instead of 'air' and 'spinning' instead of 'flying'.\nHe boiled water to make steam, which shot out of nozzles on a metal ball, pushing the ball to spin round and round. This was the first time humans used 'heat' (fire) to create 'motion' (rotation).",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%CE%91%CE%B9%CE%BF%CE%BB%CF%8C%CF%83%CF%86%CE%B1%CE%B9%CF%81%CE%B1_%CE%9C%CE%BF%CF%85%CF%83%CE%B5%CE%AF%CE%BF_%CE%9A%CE%BF%CF%84%CF%83%CE%B1%CE%BD%CE%AC_%CE%91%CF%81%CF%87%CE%B1%CE%AF%CE%B1%CF%82_%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%A4%CE%B5%CF%87%CE%BD%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1%CF%82.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚀",
+          "title": "反作用力引擎 (Reaction Engine)",
+          "title_en": "Reaction Engine",
+          "text": "汽转球是所有“反作用力”引擎（包括现代的喷气式飞机和火箭）的最原始祖先。",
+          "text_en": "The Aeolipile is the primitive ancestor of all 'reaction' engines, including modern jet planes and rockets."
+        },
+        {
+          "icon": "⚙️",
+          "title": "蒸汽涡轮机 (Steam Turbine)",
+          "title_en": "Steam Turbine",
+          "text": "它是“径向蒸汽涡轮机”的一种形式。现代发电厂使用的也是蒸汽涡轮机，只不过更复杂、更高效。",
+          "text_en": "It is a form of 'radial steam turbine'. Modern power plants also use steam turbines, just vastly more complex and efficient ones."
+        }
+      ],
+  
+    "impact": {
+      "text": "希罗的汽转球是“错失的工业革命”。它证明了古希腊人已经掌握了蒸汽动力的基本物理原理，但由于缺乏精密加工技术（制造高压容器）和经济需求（奴隶制），这项技术沉睡了1700年。直到17世纪，随着帕潘（`papin_piston_1690`）和纽科门（`newcomen_engine_1712`）的工作，蒸汽的力量才被重新唤醒并用于做功。",
+      "text_en": "Hero's Aeolipile represents the 'missed Industrial Revolution'. It proves that the Ancient Greeks understood the basic physics of steam power, but due to a lack of precision engineering (for high pressure) and economic need (slavery), the technology lay dormant for 1700 years. It wasn't until Papin (`papin_piston_1690`) and Newcomen (`newcomen_engine_1712`) that the power of steam was re-awakened for work.",
+      "stats": [
+          {
+            "number": "60",
+            "label": "年 (大约发明时间)",
+            "label_en": "AD (Approx. Date)"
+          },
+          {
+            "number": "1500",
+            "label": "转/分 (最高转速)",
+            "label_en": "RPM (Max Speed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ctesibius_pneumatics_BC250",
+          "contribution": "克特西比乌斯（亚历山大港的早期发明家，被认为是气体力学之父，深深影响了希罗）",
+          "contribution_en": "Ctesibius (early Alexandrian inventor, considered the father of pneumatics, who heavily influenced Hero)"
+        },
+        {
+          "id": "archimedes_principle_BC250",
+          "contribution": "阿基米德（其工程学和螺旋泵原理为希罗的机械设计提供了基础）",
+          "contribution_en": "Archimedes (his engineering and screw pump principles provided the basis for Hero's mechanical designs)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "taqi_al_din_steam_1551",
+          "contribution": "塔基·丁（奥斯曼工程师，在16世纪描述了一种利用蒸汽喷射来转动烤肉叉的装置，类似于汽转球）",
+          "contribution_en": "Taqi al-Din (Ottoman engineer who described a steam jet device to turn a spit in 1551, similar to the Aeolipile)"
+        },
+        {
+          "id": "giovanni_branca_steam_1629",
+          "contribution": "乔瓦尼·布兰卡（设计了一种利用蒸汽喷射推动叶轮的机器，是希罗设计的直接延续）",
+          "contribution_en": "Giovanni Branca (designed a machine using a steam jet to spin a turbine wheel, a direct continuation of Hero's design)"
+        },
+        {
+          "id": "papin_piston_1690",
+          "contribution": "丹尼斯·帕潘（虽然帕潘转向了活塞设计，但他深受希罗关于蒸汽和真空著作的启发）",
+          "contribution_en": "Denis Papin (although he switched to a piston design, he was inspired by Hero's writings on steam and vacuum)"
+        }
+      ],
+      "legacy_text": "希罗不仅发明了蒸汽机，他还证明了科学可以是“好玩”的。他是在为神庙制造奇迹的工程师。",
+      "legacy_text_en": "Hero not only invented the steam engine, he proved science could be 'fun'. He was the engineer who built miracles for the temples."
+    },
+  
+    "related_concepts": ["蒸汽机 (Steam Engine)", "反作用力 (Reaction Force)", "涡轮机 (Turbine)", "牛顿第三定律", "气体力学 (Pneumatics)", "自动装置 (Automata)"],
+    "related_concepts_en": ["Steam Engine", "Reaction Force", "Turbine", "Newton's Third Law", "Pneumatics", "Automata"],
+  
+    "quiz": {
+      "question": "为什么希罗（Hero）在公元1世纪发明的“汽转球”（蒸汽机）没有引发工业革命？",
+      "question_en": "Why did Hero's 'Aeolipile' (steam engine), invented in the 1st century AD, NOT spark the Industrial Revolution?",
+      "options": [
+        "因为它根本转不起来",
+        "因为它被当时的人视为一种“玩具”或“哲学好奇物”，缺乏实际应用需求",
+        "因为罗马皇帝禁止了它",
+        "因为当时没有水"
+      ],
+      "options_en": [
+        "Because it didn't spin at all",
+        "Because it was seen as a 'toy' or 'philosophical curiosity' with no demand for practical application",
+        "Because the Roman Emperor banned it",
+        "Because there was no water"
+      ],
+      "answer": 1,
+      "explanation": "虽然汽转球能工作，但它效率很低（扭矩小）。更重要的是，在奴隶制社会中，人力非常廉价，社会缺乏对“节省劳动力”机器的经济需求。它主要被用来在神庙中制造“神奇”的视觉效果。",
+      "explanation_en": "Although it worked, it was inefficient (low torque). More importantly, in a slave-based society, labor was cheap, so there was no economic demand for 'labor-saving' machines. It was used mainly for creating 'magical' effects in temples."
+    }
+  }

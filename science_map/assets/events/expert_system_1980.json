@@ -1,0 +1,151 @@
+{
+    "id": "expert_system_1980",
+    "personId": ["edward_feigenbaum"],
+    "title": "专家系统热潮 (AI的第一次商业化)",
+    "title_en": "The Expert Systems Boom (AI's First Commercialization)",
+    "year": 1980,
+    "lat": 37.4275,
+    "lng": -122.1697,
+    "city": "斯坦福 (知识系统实验室)",
+    "city_en": "Stanford (Knowledge Systems Lab)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["ai_story"],
+    "field": ["人工智能", "符号逻辑"],
+    "field_en": ["Artificial Intelligence", "Symbolic Logic"],
+    
+    "media": {
+      "event_image": "assets/images/expert_system.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=q1kOJWAwkLs",
+        "title": "专家系统解说",
+        "title_en": "Artificial Intelligence Expert System Explained",
+        "duration": "6:53"
+      }
+    },
+    
+    "summary": {
+      "text": "1980年代标志着人工智能从学术实验室走向商业应用的“黄金时代”。这波热潮的核心是“专家系统”（Expert Systems）——一种基于规则的AI软件，旨在模仿人类专家在特定狭窄领域的决策能力。不同于试图模拟大脑神经网络的方法，专家系统依赖于“知识库”（由“如果-那么”规则组成）和“推理机”。这一时期的标志性事件是XCON（R1）系统在DEC公司的成功部署，它每年为公司节省了数千万美元。这引发了全球企业对AI的疯狂投资，以及专门运行AI程序的“Lisp计算机”的兴起。",
+      "text_en": "The 1980s marked the 'Golden Age' where AI moved from academic labs to commercial applications. The core of this boom was 'Expert Systems'—rule-based AI software designed to mimic the decision-making ability of human experts in specific, narrow domains. Unlike approaches trying to simulate the brain's neural networks, Expert Systems relied on a 'Knowledge Base' (composed of 'If-Then' rules) and an 'Inference Engine'. The landmark event was the successful deployment of the XCON (R1) system at DEC, saving the company tens of millions of dollars annually. This triggered a global frenzy of corporate investment in AI and the rise of 'Lisp Machines' specialized for running AI programs.",
+      "key_points": [
+        "核心理念：AI = 知识 + 推理 (AI = Knowledge + Reasoning)",
+        "技术架构：将“知识库”与“推理机”分离",
+        "由爱德华·费根鲍姆（Edward Feigenbaum）提出著名的“知识原理”",
+        "硬件繁荣：催生了Symbolics等专门生产Lisp机器的公司",
+        "结局：因维护成本高昂和“脆性”问题，导致了80年代末的“AI寒冬”"
+      ],
+      "key_points_en": [
+        "Core Philosophy: AI = Knowledge + Reasoning",
+        "Tech Architecture: Separating the 'Knowledge Base' from the 'Inference Engine'",
+        "Edward Feigenbaum formulated the famous 'Knowledge Principle'",
+        "Hardware Boom: Spawned companies like Symbolics making specialized Lisp Machines",
+        "The End: High maintenance costs and 'brittleness' led to the 'AI Winter' of the late 80s"
+      ]
+    },
+  
+    "story": {
+      "text": "专家系统的故事是“成也规则，败也规则”。费根鲍姆早在1965年就开发了DENDRAL（化学分析系统），证明了AI需要专业知识而不是通用逻辑。到了80年代，这种理念被商业化到了极致。DEC公司开发了XCON系统，包含了2500条规则来处理复杂的计算机订单，准确率达到97%。这直接刺激了日本第五代计算机计划（Fifth Generation Computer Systems）的诞生，引发了美日之间的AI军备竞赛。然而，人们很快发现，一旦遇到规则库里没写过的意外情况，这些昂贵的系统就会像傻瓜一样崩溃，维护它们比雇人还贵，最终泡沫破裂。",
+      "text_en": "The story of Expert Systems is one of 'live by the rules, die by the rules'. Feigenbaum developed DENDRAL (chemical analysis system) as early as 1965, proving that AI needed specialized knowledge rather than general logic. By the 1980s, this concept was commercialized to the extreme. DEC developed the XCON system, containing 2,500 rules to handle complex computer orders with 97% accuracy. This directly stimulated Japan's Fifth Generation Computer Systems project, sparking an AI arms race between the US and Japan. However, people soon realized that once faced with unexpected situations not in the rule base, these expensive systems would crash like idiots. Maintaining them became more expensive than hiring people, and the bubble eventually burst.",
+      "diagram": "assets/images/expert_system_inference.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🧠",
+        "text": "当时产生了一个热门的新职业叫“知识工程师”（Knowledge Engineer）。他们的工作就是跟在人类专家屁股后面，不停地问：“如果是这种情况，你会怎么做？为什么？”然后把这些经验翻译成代码。",
+        "text_en": "A hot new profession emerged called 'Knowledge Engineer'. Their job was to tail human experts, constantly asking, 'What would you do in this situation? Why?' and then translating that experience into code."
+      },
+      {
+        "icon": "❄️",
+        "text": "专家系统的崩溃是导致“第二次AI寒冬”的主要原因。人们发现，一旦遇到规则库里没写过的意外情况，这些昂贵的系统就会像傻瓜一样崩溃（这被称为“脆性”），维护它们比雇人还贵。",
+        "text_en": "The collapse of Expert Systems was the main cause of the 'Second AI Winter'. People realized that once faced with unexpected situations not in the rule base, these expensive systems would crash like idiots (known as 'brittleness'), making them more expensive to maintain than hiring people."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "专家系统不像现在的大模型那样“通过读书自己学习”，它更像是一个死记硬背的好学生。\n你给它一本厚厚的操作手册（几千条规则），它能倒背如流，严格执行。\n但如果你问它手册范围之外的问题，它就完全不知道你在说什么。",
+      "text_en": "Expert Systems didn't 'learn by reading' like modern LLMs; they were more like a student who memorizes everything by rote.\nYou give it a thick manual (thousands of rules), and it follows them strictly and perfectly.\nBut if you ask a question outside the scope of the manual, it has no clue what you are talking about.",
+      "diagram": "assets/images/expert_system_structure.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💊",
+          "title": "MYCIN (医疗诊断)",
+          "title_en": "MYCIN (Medical Diagnosis)",
+          "text": "斯坦福开发的用于诊断血液感染的系统。虽然从未在法律上获准用于临床，但其诊断准确率（69%）实际上超过了当时的初级医生。",
+          "text_en": "Developed at Stanford to diagnose blood infections. Though never legally approved for clinical use, its diagnostic accuracy (69%) actually outperformed junior doctors of the time."
+        },
+        {
+          "icon": "⛏️",
+          "title": "Prospector (地质勘探)",
+          "title_en": "Prospector (Geological Exploration)",
+          "text": "这是最早证明AI能“赚大钱”的案例之一。它成功预测了华盛顿州的一处钼矿床，价值超过1亿美元。",
+          "text_en": "One of the first cases proving AI could 'make big money'. It successfully predicted a molybdenum deposit in Washington state worth over $100 million."
+        }
+      ],
+  
+    "impact": {
+      "text": "专家系统虽然在80年代末崩盘，但它留下了宝贵的遗产。它证明了AI可以在特定领域解决实际问题，而不是只能在实验室下棋。它创立的“知识图谱”和“规则引擎”概念，至今仍深深嵌入在现代企业的业务流程管理（BPM）和金融风控系统中。可以说，没有80年代的泡沫，就没有AI在工业界的立足之地。",
+      "text_en": "Although Expert Systems crashed in the late 80s, they left a valuable legacy. They proved AI could solve practical problems in specific domains, rather than just playing chess in labs. The concepts of 'Knowledge Graphs' and 'Rule Engines' established then are still deeply embedded in modern Business Process Management (BPM) and financial risk control systems. Arguably, without the bubble of the 80s, AI would have no foothold in the industry.",
+      "stats": [
+          {
+            "number": "40000000",
+            "label": "美元 (XCON每年为DEC节省的钱)",
+            "label_en": "USD (Annual Savings for DEC by XCON)"
+          },
+          {
+            "number": "2500",
+            "label": "条 (XCON最初的规则数量)",
+            "label_en": "Rules (Initial XCON Rule Count)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "dartmouth_workshop_1956",
+          "contribution": "逻辑推理派（专家系统是“符号主义”AI的巅峰，直接继承了早期AI对逻辑和符号处理的信仰）",
+          "contribution_en": "Logic/Symbolic AI (Expert Systems were the pinnacle of 'Symbolic' AI, directly inheriting early AI's belief in logic and symbol manipulation)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "ibm_deep_blue_1997",
+          "contribution": "深蓝（虽然主要靠算力，但深蓝依然包含了大量专家定义的象棋规则和评估函数，是符号派的最后辉煌）",
+          "contribution_en": "Deep Blue (While relying heavily on compute, Deep Blue still contained massive expert-defined chess rules and evaluation functions, the last glory of the Symbolic school)"
+        },
+        {
+          "id": "chatgpt_release_2022",
+          "contribution": "RAG与CoT（现代大模型中的“思维链”和“检索增强”在精神上是专家系统“推理+知识库”架构的回归）",
+          "contribution_en": "RAG & CoT (The 'Chain of Thought' and 'RAG' in modern LLMs are spiritually a return to the 'Reasoning + Knowledge Base' architecture of Expert Systems)"
+        }
+      ],
+      "legacy_text": "它是逻辑主义的巅峰，也是它的墓志铭。",
+      "legacy_text_en": "It was the pinnacle of logicism, and its epitaph."
+    },
+  
+    "related_concepts": ["符号主义 (Symbolism)", "推理机 (Inference Engine)", "知识库 (Knowledge Base)", "Lisp语言", "AI寒冬"],
+    "related_concepts_en": ["Symbolism", "Inference Engine", "Knowledge Base", "Lisp", "AI Winter"],
+  
+    "quiz": {
+      "question": "专家系统最终衰落（导致AI寒冬）的主要技术原因是什么？",
+      "question_en": "What was the main technical reason for the eventual decline of Expert Systems (leading to the AI Winter)?",
+      "options": [
+        "计算速度太慢",
+        "无法处理多媒体数据",
+        "“知识获取瓶颈”和系统的“脆性”",
+        "政府禁止使用AI"
+      ],
+      "options_en": [
+        "Computing speed was too slow",
+        "Inability to handle multimedia data",
+        "The 'Knowledge Acquisition Bottleneck' and system 'Brittleness'",
+        "Government banned the use of AI"
+      ],
+      "answer": 2,
+      "explanation": "专家系统极其依赖人类专家手动输入规则（知识获取瓶颈），而且一旦遇到规则之外的微小变化，系统就会完全失效（脆性）。维护一个几万条规则的系统变成了一场噩梦。",
+      "explanation_en": "Expert Systems relied heavily on human experts manually inputting rules (Knowledge Acquisition Bottleneck), and the system would fail completely when facing slight variations outside the rules (Brittleness). Maintaining a system with tens of thousands of rules became a nightmare."
+    }
+  }

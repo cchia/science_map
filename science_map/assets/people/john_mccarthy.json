@@ -1,0 +1,10 @@
+{
+    "name": "约翰·麦卡锡",
+    "name_en": "John McCarthy",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/49/John_McCarthy_Stanford.jpg",
+    "bio_short": "美国计算机科学家，被誉为“人工智能之父”之一。他在1956年发起并组织了达特茅斯会议（`dartmouth_ai_conference_1956`），首次提出了“人工智能”这一术语。此外，他还是LISP编程语言的发明者，并最早提出了计算机“分时系统”（Time-sharing）的概念，极大地推动了计算机科学的发展。",
+    "bio_short_en": "An American computer scientist, considered one of the 'Fathers of Artificial Intelligence'. He organized the Dartmouth Conference in 1956 (`dartmouth_ai_conference_1956`), where he coined the term 'Artificial Intelligence'. Additionally, he invented the Lisp programming language and pioneered the concept of computer 'Time-sharing', significantly advancing the field of computer science.",
+    "events": [
+      "dartmouth_ai_conference_1956"
+    ]
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "詹姆斯·沃森",
+    "name_en": "James Watson",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/99/Francis_Crick_crop.jpg",
+    "bio_short": "美国分子生物学家，1962年诺贝尔生理学或医学奖得主。他与弗朗西斯·克里克在1953年共同发现了DNA的双螺旋结构（`watson_crick_dna_1953`），揭示了遗传信息复制的分子机制，被誉为“DNA之父”之一。",
+    "bio_short_en": "An American molecular biologist and 1962 Nobel laureate. In 1953, he co-discovered the double helix structure of DNA with Francis Crick (`watson_crick_dna_1953`), revealing the molecular mechanism of genetic replication. He is considered one of the 'Fathers of DNA'.",
+    "events": [
+      "watson_crick_dna_1953",
+      "crick_central_dogma_1958"
+    ]
+  }

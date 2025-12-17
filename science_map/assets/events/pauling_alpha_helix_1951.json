@@ -1,0 +1,156 @@
+{
+    "id": "pauling_alpha_helix_1951",
+    "personId": "linus_pauling",
+    "title": "发现蛋白质α螺旋结构 (结构生物学的诞生)",
+    "title_en": "Discovery of the Alpha Helix (Birth of Structural Biology)",
+    "year": 1951,
+    "lat": 34.1377,
+    "lng": -118.1253,
+    "city": "帕萨迪纳 (加州理工学院)",
+    "city_en": "Pasadena (Caltech)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["gene_story"],
+    "field": ["化学", "结构生物学"],
+    "field_en": ["Chemistry", "Structural Biology"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Polypeptide_forming_an_alpha_helix%2C_with_hydrogen_bonds_in_magenta.gif",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=p6KXJa29zRc",
+        "title": "α螺旋",
+        "title_en": "Alpha Helix",
+        "duration": "1:54"
+      }
+    },
+    
+    "summary": {
+      "text": "1951年，著名的化学家莱纳斯·鲍林（Linus Pauling）和他的同事罗伯特·科里（Robert Corey）连续发表了七篇具有里程碑意义的论文，正确解析了蛋白质的基本二级结构——“α螺旋”（Alpha Helix）和“β折叠”（Beta Sheet）。鲍林利用他对化学键性质（键长、键角）的深刻理解，结合模型构建方法，预测了氨基酸链如何通过“氢键”盘绕成稳定的螺旋结构。这一发现不仅解决了长期困扰科学界的蛋白质结构之谜，更重要的是，它确立了“模型构建法”在生物学中的地位，直接启发了沃森和克里克两年后发现DNA双螺旋。",
+      "text_en": "In 1951, the renowned chemist Linus Pauling and his colleague Robert Corey published a series of seven landmark papers, correctly solving the fundamental secondary structures of proteins—the 'Alpha Helix' and the 'Beta Sheet'. Using his deep understanding of chemical bond properties (bond lengths and angles) combined with model building, Pauling predicted how amino acid chains coil into a stable helix held together by 'hydrogen bonds'. This discovery not only solved the long-standing mystery of protein structure but, more importantly, established 'model building' as a valid method in biology, directly inspiring Watson and Crick to discover the DNA double helix two years later.",
+      "key_points": [
+        "发现蛋白质的α螺旋 (Alpha Helix) 和β折叠 (Beta Sheet)",
+        "引入“模型构建法” (Model Building)",
+        "阐明了氢键 (Hydrogen Bonds) 在稳定生物大分子中的作用",
+        "确立了结构生物学的基础",
+        "启发了DNA双螺旋的发现"
+      ],
+      "key_points_en": [
+        "Discovered the Alpha Helix and Beta Sheet of proteins",
+        "Introduced 'Model Building' method",
+        "Elucidated the role of Hydrogen Bonds in stabilizing biomolecules",
+        "Established the foundation of structural biology",
+        "Inspired the discovery of the DNA double helix"
+      ]
+    },
+  
+    "story": {
+      "text": "鲍林的发现源于一次生病。1948年，他在牛津访问期间患上了重感冒（也有说是肾炎），不得不卧床休息。为了打发无聊，他拿出一张纸，画上了氨基酸的多肽链结构。他开始像折纸一样折叠这张纸，试图找到一种方式，让链上的原子能够舒适地通过氢键连接起来。他在纸上扭啊扭，终于发现如果把纸卷成一个管状的螺旋，每隔3.6个氨基酸，氢键就能完美吻合。他兴奋地喊道：“就是它！” 回到加州理工后，他花了几年时间用X射线数据验证这个模型，直到1951年才震撼发表。这个“折纸”的故事告诉我们，有时候科学突破不需要昂贵的仪器，只需要一张纸和极其深厚的化学直觉。",
+      "text_en": "Pauling's discovery stemmed from being sick. In 1948, while visiting Oxford, he caught a bad cold (or nephritis) and was confined to bed. To kill boredom, he took a sheet of paper and drew a polypeptide chain of amino acids. He started folding the paper like origami, trying to find a way for the atoms to connect comfortably via hydrogen bonds. He twisted and turned the paper until he found that if he coiled it into a tube-like helix, the hydrogen bonds fit perfectly every 3.6 amino acids. He exclaimed, 'This is it!' Back at Caltech, he spent years verifying this model with X-ray data before the shocking publication in 1951. This 'paper folding' story teaches us that sometimes scientific breakthroughs don't need expensive equipment, just a piece of paper and profound chemical intuition.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/68/AlphaHelixForLinusPauling.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏆",
+        "text": "莱纳斯·鲍林是历史上唯一一位两次获得“独享”诺贝尔奖的人：1954年的化学奖（因化学键和螺旋结构的研究）和1962年的和平奖（因反核试验运动）。",
+        "text_en": "Linus Pauling is the only person in history to win two 'unshared' Nobel Prizes: the Chemistry Prize in 1954 (for chemical bonds and the helix) and the Peace Prize in 1962 (for anti-nuclear activism)."
+      },
+      {
+        "icon": "😱",
+        "text": "他在发现α螺旋后，也试图解开DNA结构。但他犯了一个低级化学错误（他在1953年提出了一个三螺旋模型，把带负电的磷酸基团放在了中间，这在化学上是不可能的），这给了沃森和克里克纠正并超越他的机会。",
+        "text_en": "After the alpha helix, he also tried to solve DNA. But he made a basic chemical error (proposing a triple helix in 1953 with negatively charged phosphates in the center, which is chemically impossible), giving Watson and Crick the chance to correct and beat him."
+      },
+      {
+        "icon": "🍊",
+        "text": "晚年的鲍林因极力推崇“大剂量维生素C”能治愈感冒甚至癌症而引发巨大争议，从受人尊敬的化学家变成了医学界的“麻烦制造者”。",
+        "text_en": "In his later years, Pauling courted controversy by aggressively promoting 'high-dose Vitamin C' as a cure for colds and even cancer, turning from a respected chemist into a 'troublemaker' in medicine."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "蛋白质就像是一条长长的珠子项链（氨基酸链）。但在细胞里，这条项链不会乱成一团，而是会非常有规律地折叠。\n鲍林发现，这条项链最喜欢的姿势是像“老式电话线”或“弹簧”那样卷起来。这种卷曲的形状非常结实，像弹簧一样有弹性。\n为什么能卷住不松开？因为有一种叫“氢键”的隐形胶水，把每一圈弹簧都粘在了一起。",
+      "text_en": "A protein is like a long necklace of beads (amino acid chain). But inside a cell, this necklace doesn't tangle randomly; it folds very regularly.\nPauling discovered that the necklace's favorite pose is to coil up like an 'old telephone cord' or a 'spring'. This coiled shape is very sturdy and springy.\nWhy doesn't it unravel? Because invisible glue called 'Hydrogen Bonds' sticks each loop of the spring together.",
+      "diagram": "assets/images/alpha_helix.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧶",
+          "title": "羊毛与头发",
+          "title_en": "Wool and Hair",
+          "text": "α螺旋是角蛋白（Keratin）的主要结构。头发能拉伸并弹回，正是因为α螺旋像弹簧一样工作。",
+          "text_en": "The alpha helix is the main structure of Keratin. Hair can stretch and bounce back precisely because alpha helices work like springs."
+        },
+        {
+          "icon": "💊",
+          "title": "药物设计",
+          "title_en": "Drug Design",
+          "text": "现代药物研发需要精确知道蛋白质的形状（如锁和钥匙）。了解α螺旋是预测蛋白质三维结构的第一步。",
+          "text_en": "Modern drug development requires knowing the exact shape of proteins (lock and key). Understanding the alpha helix is the first step in predicting protein 3D structure."
+        }
+      ],
+  
+    "impact": {
+      "text": "鲍林的发现标志着“结构生物学”的诞生。他证明了复杂的生命分子遵循着简单的物理化学法则。更重要的是，他展示了“搭模型”这种方法的力量。如果不先有鲍林的α螺旋，沃森和克里克可能永远想不到去搭DNA模型，甚至可以说，鲍林教会了沃森怎么做科研。",
+      "text_en": "Pauling's discovery marked the birth of 'Structural Biology'. He proved that complex life molecules follow simple laws of physics and chemistry. More importantly, he demonstrated the power of the 'Model Building' method. Without Pauling's alpha helix first, Watson and Crick might never have thought to build DNA models; you could say Pauling taught Watson how to do research.",
+      "stats": [
+          {
+            "number": "1951",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "3.6",
+            "label": "氨基酸/每圈螺旋",
+            "label_en": "Amino acids per turn"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "quantum_mechanics_1920s",
+          "contribution": "量子力学（鲍林是第一个将量子力学应用于化学键的人，这使他能精确计算键角和键长）",
+          "contribution_en": "Quantum Mechanics (Pauling was the first to apply QM to chemical bonds, allowing him to precisely calculate bond angles and lengths)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森和克里克（他们直接模仿了鲍林的模型构建法，并时刻担心鲍林会先发现DNA结构）",
+          "contribution_en": "Watson & Crick (They directly mimicked Pauling's model-building method and were constantly worried Pauling would solve DNA first)"
+        },
+        {
+          "id": "perutz_kendrew_protein_1958",
+          "contribution": "佩鲁茨和肯德鲁（利用鲍林的螺旋理论解析了血红蛋白和肌红蛋白的完整结构，获诺贝尔奖）",
+          "contribution_en": "Perutz & Kendrew (Used Pauling's helix theory to solve the complete structures of Hemoglobin and Myoglobin, winning Nobel Prize)"
+        }
+      ],
+      "legacy_text": "鲍林用一张纸折出了生命的形状，他是分子建筑师的大师。",
+      "legacy_text_en": "Pauling folded the shape of life from a piece of paper; he was the master architect of molecules."
+    },
+  
+    "related_concepts": ["α螺旋 (Alpha Helix)", "β折叠 (Beta Sheet)", "氢键 (Hydrogen Bond)", "化学键 (Chemical Bond)", "二级结构 (Secondary Structure)"],
+    "related_concepts_en": ["Alpha Helix", "Beta Sheet", "Hydrogen Bond", "Chemical Bond", "Secondary Structure"],
+  
+    "quiz": {
+      "question": "莱纳斯·鲍林在发现α螺旋时，使用了哪种独特的科学研究方法，这种方法后来也被沃森和克里克用于发现DNA？",
+      "question_en": "What unique scientific research method did Linus Pauling use to discover the alpha helix, which was later used by Watson and Crick to discover DNA?",
+      "options": [
+        "显微镜观察法",
+        "物理模型构建法 (Model Building)",
+        "计算机模拟法",
+        "解剖法"
+      ],
+      "options_en": [
+        "Microscopic observation",
+        "Physical Model Building",
+        "Computer simulation",
+        "Dissection"
+      ],
+      "answer": 1,
+      "explanation": "鲍林不只是依赖数学计算或模糊的X射线图，他通过剪纸和球棍模型，根据已知的化学键长度和角度，物理地“拼凑”出了分子的形状。这种方法在当时是革命性的。",
+      "explanation_en": "Pauling didn't just rely on math or blurry X-ray images; he physically 'pieced together' the molecule's shape using paper cutouts and ball-and-stick models based on known bond lengths and angles. This method was revolutionary at the time."
+    }
+  }

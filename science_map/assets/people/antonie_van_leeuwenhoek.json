@@ -1,0 +1,10 @@
+{
+    "name": "安东尼·范·列文虎克",
+    "name_en": "Antonie van Leeuwenhoek",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+    "bio_short": "荷兰科学家和透镜制造师，被誉为“微生物学之父”。他改进了显微镜，并成为历史上第一个观察和描述单细胞生物（如细菌）的人（`leeuwenhoek_bacteria_1676`）。",
+    "bio_short_en": "A Dutch scientist and lens grinder, known as the 'Father of Microbiology'. He improved the microscope and was the first person in history to observe and describe single-celled organisms, such as bacteria (`leeuwenhoek_bacteria_1676`).",
+    "events": [
+      "leeuwenhoek_bacteria_1676"
+    ]
+  }

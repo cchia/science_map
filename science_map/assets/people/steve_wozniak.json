@@ -1,0 +1,11 @@
+{
+    "name": "史蒂夫·沃兹尼亚克",
+    "name_en": "Steve Wozniak",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Steve_Wozniak.jpg/640px-Steve_Wozniak.jpg",
+    "bio_short": "美国电子工程师、程序员、慈善家，苹果公司联合创始人。他是“斯蒂夫·沃兹尼亚克”（The Woz），那个独自设计了Apple I和Apple II的工程天才。与乔布斯的商业头脑不同，他是一个纯粹的极客，致力于让计算机变得小巧、廉价且有趣。他对早期个人电脑革命的技术贡献无人能及。",
+    "bio_short_en": "American electronics engineer, programmer, philanthropist, and co-founder of Apple. Known as 'The Woz', he is the engineering genius who single-handedly designed the Apple I and Apple II. Unlike Jobs' business acumen, he was a pure geek dedicated to making computers small, cheap, and fun. His technical contributions to the early PC revolution are unmatched.",
+    "events": [
+      "apple_founding_1976",
+      "apple_ii_launch_1977"
+    ]
+  }

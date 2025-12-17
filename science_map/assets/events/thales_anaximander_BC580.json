@@ -10,6 +10,7 @@
     "city_en": "Miletus",
     "country": "爱奥尼亚 (今土耳其)",
     "country_en": "Ionia (Modern Turkey)",
+    "storyline_ids": ["electricity_story"],
     "field": [
         "哲学",
         "天文学"

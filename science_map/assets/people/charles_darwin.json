@@ -1,0 +1,10 @@
+{
+    "name": "查尔斯·达尔文",
+    "name_en": "Charles Darwin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Charles_Darwin_seated_crop.jpg",
+    "bio_short": "英国博物学家、地质学家和生物学家，现代进化论的奠基人。他发表了划时代的巨著《物种起源》（`darwin_evolution_1859`），提出了“自然选择”是生物进化的主要机制，彻底改变了人类对生命起源和多样性的认知。",
+    "bio_short_en": "A British naturalist, geologist, and biologist, best known for his contributions to the science of evolution. He published the epochal book 'On the Origin of Species' (`darwin_evolution_1859`), proposing 'Natural Selection' as the primary mechanism of evolution, fundamentally changing humanity's understanding of the origin and diversity of life.",
+    "events": [
+      "darwin_evolution_1859"
+    ]
+  }

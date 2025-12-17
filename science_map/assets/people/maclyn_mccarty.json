@@ -1,0 +1,10 @@
+{
+    "name": "麦克林·麦卡蒂",
+    "name_en": "Maclyn McCarty",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Maclyn_McCarty_with_Francis_Crick_and_James_D_Watson_-_10.1371_journal.pbio.0030341.g001-O.jpg",
+    "bio_short": "美国遗传学家，艾弗里团队中最年轻的成员。他与艾弗里和麦克劳德共同完成了著名的“艾弗里-麦克劳德-麦卡蒂实验”（`avery_dna_principle_1944`），通过酶解技术确凿地证明了DNA是遗传信息的载体。",
+    "bio_short_en": "An American geneticist and the youngest member of Avery's team. Together with Avery and MacLeod, he conducted the famous 'Avery-MacLeod-McCarty experiment' (`avery_dna_principle_1944`), conclusively proving via enzymatic digestion that DNA is the carrier of genetic information.",
+    "events": [
+      "avery_dna_principle_1944"
+    ]
+  }

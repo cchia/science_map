@@ -1,0 +1,163 @@
+{
+    "id": "entanglement_epr_1935",
+    "personId": ["albert_einstein", "boris_podolsky", "nathan_rosen"],
+    "title": "发表“EPR佯谬” (质疑量子力学完备性)",
+    "title_en": "Publishes the 'EPR Paradox' (Questioning Quantum Completeness)",
+    "year": 1935,
+    "lat": 40.3439,
+    "lng": -74.6603,
+    "city": "普林斯顿",
+    "city_en": "Princeton, NJ",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["quantum_story"],
+    "field": ["物理学", "哲学"],
+    "field_en": ["Physics", "Philosophy"],
+    
+    "media": {
+      "event_image": "assets/images/quantum_entanglement.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=fkAAbXPEAtU",
+        "title": "量子纠缠",
+        "title_en": "Quantum Entanglement: Explained in REALLY SIMPLE Words",
+        "duration": "9:56"
+      }
+    },
+    
+    "summary": {
+      "text": "爱因斯坦（Einstein）、波多尔斯基（Podolsky）和罗森（Rosen）发表了著名的“EPR论文”，试图证明量子力学是“不完备的”。他们指出了量子力学的一个推论：两个曾经相互作用的粒子，即使相隔整个宇宙，也能保持某种神秘的联系（即“量子纠缠”）。如果测量其中一个粒子，另一个粒子的状态会“瞬间”确定。爱因斯坦认为这违反了相对论（信息传播不能超过光速），并嘲笑其为“鬼魅般的超距作用”。他认为粒子一定携带了某种我们还不知道的“隐变量”(Hidden Variables)。",
+      "text_en": "Einstein, Podolsky, and Rosen published the famous 'EPR paper', attempting to prove that Quantum Mechanics was 'incomplete'. They pointed out a consequence of the theory: two particles that had interacted could remain linked (entangled) even when separated by vast distances. Measuring one would 'instantly' determine the state of the other. Einstein argued this violated relativity (no faster-than-light signaling) and derided it as 'spooky action at a distance'. He believed the particles must carry 'Hidden Variables' that predetermined their states.",
+      "key_points": [
+        "提出了“EPR佯谬”(EPR Paradox)",
+        "描述了“量子纠缠”(Quantum Entanglement) 现象",
+        "旨在证明量子力学是“不完备的”",
+        "反对“鬼魅般的超距作用”(Spooky action at a distance)",
+        "主张“局域实在论”(Local Realism) 和“隐变量”(Hidden Variables)"
+      ],
+      "key_points_en": [
+        "Proposed the 'EPR Paradox'",
+        "Described 'Quantum Entanglement'",
+        "Aimed to prove Quantum Mechanics is 'incomplete'",
+        "Opposed 'Spooky action at a distance'",
+        "Argued for 'Local Realism' and 'Hidden Variables'"
+      ]
+    },
+  
+    "story": {
+      "text": "爱因斯坦从未真正接受量子力学的“随机性”（上帝不掷骰子）。在EPR论文中，他试图用逻辑击败波尔。他的逻辑是这样的：如果你有一双手套，把它们分别放在两个盒子里，一个留在地球，一个送到火星。当你打开地球的盒子看到是“左手套”时，你瞬间就知道火星上那个是“右手套”。这不需要“超光速”信号，因为手套在放进盒子时就已经确定了（隐变量）。爱因斯坦认为量子粒子也应该像手套一样，状态是早就定好的。但量子力学（波尔）坚持认为，在打开盒子之前，手套既不是左也不是右，而是处于“既左又右”的叠加态。爱因斯坦认为这简直是疯了。",
+      "text_en": "Einstein never accepted the 'randomness' of quantum mechanics ('God does not play dice'). In the EPR paper, he tried to defeat Bohr with logic. His logic: If you have a pair of gloves, put them in two boxes, leave one on Earth and send one to Mars. The moment you open the Earth box and see a 'Left' glove, you *instantly* know the Mars one is 'Right'. No 'faster-than-light' signal is needed because the gloves were determined from the start (Hidden Variables). Einstein argued particles must be like gloves. But Quantum Mechanics (Bohr) insisted that *before* you open the box, the gloves are *neither* left nor right, but in a superposition of *both*. Einstein thought this was insanity.",
+      "diagram": "assets/images/quantum_superposition.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "👻",
+        "text": "“鬼魅般的超距作用”(Spukhafte Fernwirkung) 是爱因斯坦在后来给马克斯·玻恩的信中用来形容纠缠的词，他用这个词来表达嘲讽，结果现在成了物理学最酷的术语。",
+        "text_en": "'Spooky action at a distance' (Spukhafte Fernwirkung) was a phrase Einstein used in a letter to Max Born to mock entanglement, but it became the coolest term in physics."
+      },
+      {
+        "icon": "🐈",
+        "text": "薛定谔（Schrödinger）在读了爱因斯坦的EPR论文后，为了支持爱因斯坦，发明了“纠缠”(Entanglement / Verschränkung) 这个词，并提出了“薛定谔的猫”思想实验，也是为了展示量子叠加的荒谬性。",
+        "text_en": "Schrödinger, upon reading the EPR paper, coined the term 'Entanglement' (Verschränkung) to support Einstein. He also proposed 'Schrödinger's Cat' to further demonstrate the absurdity of superposition."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "爱因斯坦说：如果我有两个魔法硬币，它们一旦碰过面，就会永远“心有灵犀”。\n如果你把它们分开一光年远，然后抛起其中一枚。\n如果这枚硬币是“正面”，那么在宇宙另一端的那枚硬币会“瞬间”变成“反面”。\n爱因斯坦说：“这不可能！没有任何信号能跑得比光快。所以，硬币一定是一开始就商量好谁正谁反的（隐变量），而不是在抛的那一瞬间才决定的。”\n（后来的实验证明，爱因斯坦错了，硬币确实是在抛的那一瞬间才“串通”好的。）",
+      "text_en": "Einstein said: Imagine I have two magic coins that, once they touch, are forever 'linked'.\nSeparate them by a light-year and flip one.\nIf this coin lands 'Heads', the other coin across the universe *instantly* becomes 'Tails'.\nEinstein argued: 'Impossible! Nothing travels faster than light. Therefore, the coins must have agreed *beforehand* (Hidden Variables) which way they would land, rather than deciding at the instant of the flip.'\n(Later experiments proved Einstein wrong; the coins *do* decide at the instant of the flip.)",
+      "diagram": "assets/images/epr_paradox.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔐",
+          "title": "量子加密 (Quantum Cryptography)",
+          "title_en": "Quantum Cryptography",
+          "text": "利用纠缠粒子对来生成“无法被窃听”的密钥（QKD）。任何窃听行为都会破坏纠缠，从而被立刻发现。",
+          "text_en": "Using entangled pairs to generate 'unhackable' keys (QKD). Any eavesdropping destroys the entanglement and is instantly detected."
+        },
+        {
+          "icon": "💻",
+          "title": "量子计算",
+          "title_en": "Quantum Computing",
+          "text": "量子计算机利用“纠缠”将多个量子比特连接在一起，从而实现指数级的并行计算能力。",
+          "text_en": "Quantum computers use 'entanglement' to link qubits together, allowing for exponential parallel processing power."
+        },
+        {
+          "icon": "🚀",
+          "title": "量子隐形传态",
+          "title_en": "Quantum Teleportation",
+          "text": "利用纠缠效应，可以将一个粒子的“量子状态”瞬间传输到远处的另一个粒子上（不是传输物质，而是传输信息）。",
+          "text_en": "Using entanglement to instantly transfer the 'quantum state' of one particle to another distant particle (transporting information, not matter)."
+        }
+      ],
+  
+    "impact": {
+      "text": "EPR论文最初是作为攻击量子力学的“武器”，结果却成为了现代“量子信息科学”的基石。爱因斯坦提出的这个问题，促使贝尔（John Bell）在1964年提出了“贝尔不等式”，使得“哲学辩论”变成了可验证的“物理实验”。2022年的诺贝尔物理学奖（阿斯佩、克劳泽、塞林格）正是颁给了证明“爱因斯坦错了”（宇宙确实是非定域的）的实验。",
+      "text_en": "The EPR paper was meant to be a weapon *against* quantum mechanics, but it became the foundation of modern 'Quantum Information Science'. Einstein's challenge led John Bell to formulate 'Bell's Theorem' in 1964, turning a 'philosophical debate' into a testable 'physics experiment'. The 2022 Nobel Prize (Aspect, Clauser, Zeilinger) was awarded for proving Einstein wrong (the universe *is* non-local).",
+      "stats": [
+          {
+            "number": "1935",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Paper Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "heisenberg_uncertainty_1927",
+          "contribution": "海森堡（爱因斯坦试图攻击的目标，即量子力学的“不确定性”和“概率性”）",
+          "contribution_en": "Heisenberg (the target of Einstein's attack, specifically the 'uncertainty' and 'probability' of QM)"
+        },
+        {
+          "id": "einstein_1915_general_relativity",
+          "contribution": "（他自己）相对论（爱因斯坦坚持“定域性”原则，即信号传播不能超光速，这是EPR论证的核心前提）",
+          "contribution_en": "(Himself) Relativity (Einstein's insistence on 'Locality'—no faster-than-light signals—was the core premise of the EPR argument)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "schrodingers_cat_1935",
+          "contribution": "薛定谔（受EPR论文启发，提出了“纠缠”一词和“薛定谔的猫”实验）",
+          "contribution_en": "Schrödinger (inspired by EPR, coined 'entanglement' and proposed 'Schrödinger's Cat')"
+        },
+        {
+          "id": "bell_theorem_1964",
+          "contribution": "约翰·贝尔（他将EPR的哲学争论转化为可以用数学和实验验证的“贝尔不等式”）",
+          "contribution_en": "John Bell (he turned the EPR philosophical debate into a mathematically testable 'Bell's Inequality')"
+        },
+        {
+          "id": "aspect_experiment_1982",
+          "contribution": "阿兰·阿斯佩（其实验最终证明了贝尔不等式被违背，即EPR中的“隐变量”不存在）",
+          "contribution_en": "Alain Aspect (his experiment finally proved Bell's Inequality was violated, meaning EPR's 'hidden variables' do not exist)"
+        }
+      ],
+      "legacy_text": "爱因斯坦试图证明量子力学是错的，却无意中发现了它最神奇的特性——纠缠。",
+      "legacy_text_en": "Einstein tried to prove Quantum Mechanics wrong, but inadvertently discovered its most magical feature—Entanglement."
+    },
+  
+    "related_concepts": ["量子纠缠 (Quantum Entanglement)", "EPR佯谬", "隐变量 (Hidden Variables)", "局域实在论 (Local Realism)", "贝尔不等式 (Bell's Theorem)", "超距作用 (Action at a Distance)", "薛定谔的猫"],
+    "related_concepts_en": ["Quantum Entanglement", "EPR Paradox", "Hidden Variables", "Local Realism", "Bell's Theorem", "Action at a Distance", "Schrödinger's Cat"],
+  
+    "quiz": {
+      "question": "爱因斯坦提出EPR佯谬的主要目的是什么？",
+      "question_en": "What was Einstein's primary goal in proposing the EPR Paradox?",
+      "options": [
+        "证明超光速旅行是可能的",
+        "证明量子力学是“不完备”的（缺少“隐变量”）",
+        "发明量子计算机",
+        "推翻他自己的相对论"
+      ],
+      "options_en": [
+        "To prove faster-than-light travel is possible",
+        "To prove Quantum Mechanics is 'incomplete' (missing 'hidden variables')",
+        "To invent quantum computers",
+        "To disprove his own theory of Relativity"
+      ],
+      "answer": 1,
+      "explanation": "爱因斯坦并不否认量子力学的预测是准确的，但他认为它是“不完整”的。他认为粒子必须拥有确定的属性（隐变量），而不是像量子力学所说的那样处于“叠加态”，直到被测量为止。",
+      "explanation_en": "Einstein didn't deny QM's predictions were accurate, but he argued it was 'incomplete'. He believed particles must have definite properties ('hidden variables') all along, rather than existing in a 'superposition' until measured."
+    }
+  }

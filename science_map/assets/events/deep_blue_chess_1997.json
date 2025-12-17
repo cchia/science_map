@@ -1,0 +1,156 @@
+{
+    "id": "deep_blue_chess_1997",
+    "personId": ["garry_kasparov", "feng_hsiung_hsu"],
+    "title": "深蓝击败卡斯帕罗夫 (AI的里程碑式胜利)",
+    "title_en": "Deep Blue Defeats Kasparov (AI's Landmark Victory)",
+    "year": 1997,
+    "lat": 40.7615,
+    "lng": -73.9818,
+    "city": "纽约 (公平中心)",
+    "city_en": "New York (Equitable Center)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["ai_story"],
+    "field": ["人工智能", "计算机科学"],
+    "field_en": ["Artificial Intelligence", "Computer Science"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=RszqwFyav34",
+        "title": "IBM深蓝的历史",
+        "title_en": "The Complete History of IBM's Chess Computer Deep Blue in Under 10 Minutes ",
+        "duration": "6:22"
+      }
+    },
+    
+    "summary": {
+      "text": "1997年5月11日，在纽约的一场举世瞩目的国际象棋复赛中，IBM研制的超级计算机“深蓝”（Deep Blue）以3.5比2.5的总比分击败了当时世界排名第一的人类棋王加里·卡斯帕罗夫（Garry Kasparov）。这是一场“蛮力”与“直觉”的对决。深蓝是一台重达1.4吨的并行计算机，每秒能计算2亿步棋。虽然它不懂棋理，也没有情感，但它凭借强大的计算深度，在这个被视为人类智慧堡垒的游戏中彻底击溃了人类最强大脑。这场胜利标志着人工智能从理论走向了现实的统治力，打破了人类作为“智慧生物”的独越感。",
+      "text_en": "On May 11, 1997, in a highly anticipated rematch in New York, IBM's supercomputer 'Deep Blue' defeated the reigning world chess champion Garry Kasparov with a score of 3.5 to 2.5. This was a battle between 'Brute Force' and 'Intuition'. Deep Blue was a 1.4-ton parallel computer capable of calculating 200 million moves per second. Though it understood no chess theory and had no emotions, its sheer computational depth allowed it to dismantle the greatest human mind in a game considered the bastion of human intellect. This victory marked the transition of AI from theory to dominant reality, shattering humanity's sense of intellectual superiority.",
+      "key_points": [
+        "AI首次在标准时限比赛中击败现任世界冠军",
+        "IBM深蓝每秒计算2亿步棋 (Brute Force)",
+        "卡斯帕罗夫在第6局仅19步就崩溃认输",
+        "引发关于“机器能否思考”的全球大讨论",
+        "标志着专用人工智能 (Narrow AI) 的成熟"
+      ],
+      "key_points_en": [
+        "First time AI beat a reigning world champion under standard time controls",
+        "IBM Deep Blue calculated 200 million moves/second (Brute Force)",
+        "Kasparov collapsed and resigned in just 19 moves in Game 6",
+        "Sparked global debate on 'Can machines think?'",
+        "Marked the maturity of Narrow AI"
+      ]
+    },
+  
+    "story": {
+      "text": "这场比赛充满了心理战和阴谋论。卡斯帕罗夫一直怀疑IBM作弊（有人类大师在后台操纵），因为深蓝走出了一些极具“人性”的棋步。最著名的是第一局末尾，深蓝走了一步毫无意义的废棋。卡斯帕罗夫惊恐地认为，这是深蓝看穿了十几步之后做出的深谋远虑，这让他整晚失眠，并在第二局因心态失衡而投降（其实那是和棋局面）。\n多年后，IBM工程师才透露真相：那步“神之一手”其实是一个BUG。深蓝当时算不出怎么走，卡住了，为了防止死机，系统随机选了一步棋。没想到这个随机的Bug吓坏了人类棋王，成为了击溃他心理防线的关键。",
+      "text_en": "The match was filled with psychological warfare and conspiracy theories. Kasparov suspected IBM of cheating (using human grandmasters behind the scenes) because Deep Blue made some incredibly 'human' moves. The most famous was a meaningless move at the end of Game 1. Kasparov was terrified, interpreting it as deep foresight where the computer saw dozens of moves ahead. He lost sleep over it and resigned Game 2 in a fit of paranoia (in a drawn position).\nYears later, IBM engineers revealed the truth: that 'God-like move' was a BUG. Deep Blue couldn't decide what to do and froze; to prevent a crash, the system picked a random move. Ironically, this random bug terrified the champion and was key to breaking his psychological defense.",
+      "diagram": "assets/images/deepblue_vs_kasparov.png"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📉",
+        "text": "在深蓝赢下比赛的当天，IBM的股价大涨，达到了十年来的最高点。这大概是历史上最昂贵的广告活动之一。",
+        "text_en": "On the day Deep Blue won, IBM's stock price soared to a ten-year high. It was arguably one of the most expensive marketing campaigns in history."
+      },
+      {
+        "icon": "🔌",
+        "text": "赛后，卡斯帕罗夫愤怒地要求进行第三次决胜赛（Best of 10），但IBM拒绝了，并迅速将深蓝拆解。卡斯帕罗夫愤怒地说：“如果把深蓝拆了，我就没法复仇了，这就像是杀人灭口。”",
+        "text_en": "After the match, an angry Kasparov demanded a tie-breaker rematch (Best of 10), but IBM refused and promptly dismantled Deep Blue. Kasparov famously fumed: 'If you dismantle Deep Blue, I can't get revenge; it's like destroying the evidence.'"
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "以前人们认为下棋需要直觉和艺术感，机器学不会。\n深蓝证明了：如果你算得足够快（每秒2亿步），“蛮力”就可以伪装成“直觉”。\n就像一个大力士，他不需要懂任何武术技巧，只要力气大到能一拳把墙打穿，武术冠军也打不过他。\n这是“计算”对“思考”的胜利。",
+      "text_en": "People used to think chess required intuition and artistry that machines couldn't learn.\nDeep Blue proved: If you calculate fast enough (200 million moves/second), 'Brute Force' can masquerade as 'Intuition'.\nIt's like a strongman who knows no martial arts but is strong enough to punch through a wall; even a martial arts champion can't beat him.\nThis was a victory of 'Calculation' over 'Thinking'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/83/One_of_Deep_Blue%27s_processors_%282586060990%29.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "分子动力学",
+          "title_en": "Molecular Dynamics",
+          "text": "深蓝使用的专用芯片架构后来被IBM用于制造“蓝色基因”（Blue Gene）超级计算机，用于模拟蛋白质折叠。",
+          "text_en": "The specialized chip architecture used in Deep Blue was later adapted by IBM for the 'Blue Gene' supercomputers to simulate protein folding."
+        },
+        {
+          "icon": "🔍",
+          "title": "大数据搜索",
+          "title_en": "Big Data Search",
+          "text": "它证明了在大规模数据库中进行极速搜索和剪枝（Alpha-Beta Pruning）的商业潜力。",
+          "text_en": "It demonstrated the commercial potential of high-speed search and pruning (Alpha-Beta Pruning) in massive databases."
+        }
+      ],
+  
+    "impact": {
+      "text": "深蓝的胜利是AI史上的分水岭。它结束了“只有人类才有智慧”的浪漫幻想，开启了“专用人工智能”（Narrow AI）在特定领域超越人类的时代。虽然深蓝不会下围棋，也不会开车，但它证明了在规则明确的封闭系统中，硅基芯片终将战胜碳基大脑。这一事件也极大地激发了公众对AI的兴趣（和恐惧）。",
+      "text_en": "Deep Blue's victory was a watershed moment in AI history. It ended the romantic illusion that 'only humans possess intelligence' and ushered in the era of 'Narrow AI' surpassing humans in specific domains. While Deep Blue couldn't play Go or drive a car, it proved that in closed systems with clear rules, silicon chips would eventually beat carbon brains. This event also massively spiked public interest (and fear) regarding AI.",
+      "stats": [
+          {
+            "number": "1997",
+            "label": "年 (比赛年份)",
+            "label_en": "Year (Match)"
+          },
+          {
+            "number": "2亿",
+            "label": "步/秒 (计算速度)",
+            "label_en": "Moves/Sec (Speed)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "shannon_chess_paper_1950",
+          "contribution": "克劳德·香农（早在1950年就发表论文提出了计算机下棋的两种策略：暴力搜索 vs 逻辑评估）",
+          "contribution_en": "Claude Shannon (Published a paper in 1950 proposing two strategies for computer chess: Brute Force vs Logical Evaluation)"
+        },
+        {
+          "id": "turing_machine_1936",
+          "contribution": "阿兰·图灵（图灵编写了世界上第一个（纸上）国际象棋程序）",
+          "contribution_en": "Alan Turing (Wrote the world's first [paper] chess program)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "alphago_2016",
+          "contribution": "AlphaGo（虽然技术不同[深度学习 vs 暴力搜索]，但深蓝是AlphaGo的精神先驱）",
+          "contribution_en": "AlphaGo (Different tech [Deep Learning vs Brute Force], but Deep Blue was the spiritual predecessor)"
+        },
+        {
+          "id": "ibm_watson_jeopardy_2011",
+          "contribution": "IBM Watson（IBM在棋类游戏获胜后，将目标转向了更复杂的自然语言问答比赛）",
+          "contribution_en": "IBM Watson (After winning at chess, IBM turned its sights to the more complex challenge of natural language QA in Jeopardy!)"
+        }
+      ],
+      "legacy_text": "它也许不懂什么是象棋，但它知道怎么赢。",
+      "legacy_text_en": "It might not know what chess is, but it knows how to win."
+    },
+  
+    "related_concepts": ["蛮力搜索 (Brute Force)", "Alpha-beta剪枝", "图灵测试", "卡斯帕罗夫", "IBM"],
+    "related_concepts_en": ["Brute Force", "Alpha-beta Pruning", "Turing Test", "Kasparov", "IBM"],
+  
+    "quiz": {
+      "question": "卡斯帕罗夫在赛后一直声称深蓝“作弊”，主要依据是什么？",
+      "question_en": "After the match, Kasparov persistently claimed Deep Blue 'cheated'. What was his main basis for this?",
+      "options": [
+        "深蓝每一步都走得太快了",
+        "深蓝在第一局走了一步看似毫无逻辑但极具深意的“人性化”棋步（实际上是个Bug）",
+        "IBM拒绝让他检查电脑机箱",
+        "深蓝对他进行了人身攻击"
+      ],
+      "options_en": [
+        "Deep Blue moved too fast",
+        "Deep Blue made a seemingly illogical but deeply 'human' move in Game 1 (actually a bug)",
+        "IBM refused to let him check the computer case",
+        "Deep Blue personally attacked him"
+      ],
+      "answer": 1,
+      "explanation": "那步棋（第44步）完全不像是冷冰冰的电脑走的，卡斯帕罗夫认为电脑应该去吃子，但电脑却做了一步防守。他坚信这背后有人类大师在指点。直到很久以后IBM才透露那是因为程序出错了，随机走了一步。",
+      "explanation_en": "That move (move 44) didn't feel like a cold computer at all. Kasparov thought the computer should have captured a piece, but it played defensively. He was convinced a human grandmaster was intervening. Only much later did IBM reveal it was a glitch that caused a random move."
+    }
+  }

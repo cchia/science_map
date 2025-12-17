@@ -1,0 +1,11 @@
+{
+    "name": "保罗·艾伦",
+    "name_en": "Paul Allen",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Paul_G._Allen_%28cropped%29.jpg",
+    "bio_short": "美国商业巨头、计算机先驱，与比尔·盖茨共同创立了微软。他具有敏锐的技术洞察力，是那个发现MITS Altair潜力并以此开启微机软件革命的人。在MS-DOS的交易中，正是他主导了以5万美元收购QDOS系统的关键谈判，为微软赢得了PC时代的入场券。",
+    "bio_short_en": "American business magnate, computer pioneer, and co-founder of Microsoft. Possessing keen technical insight, he was the one who spotted the potential of the MITS Altair, sparking the microcomputer software revolution. In the MS-DOS deal, he orchestrated the critical acquisition of QDOS for $50,000, securing Microsoft's entry ticket to the PC era.",
+    "events": [
+      "microsoft_founding_1975",
+      "ms_dos_1981"
+    ]
+  }

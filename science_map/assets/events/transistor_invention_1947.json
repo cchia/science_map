@@ -1,0 +1,163 @@
+{
+    "id": "transistor_invention_1947",
+    "personId": ["john_bardeen", "walter_brattain", "william_shockley"],
+    "title": "发明晶体管 (信息时代的开端)",
+    "title_en": "Invention of the Transistor (Dawn of the Information Age)",
+    "year": 1947,
+    "lat": 40.6817,
+    "lng": -74.4015,
+    "city": "默里山 (贝尔实验室)",
+    "city_en": "Murray Hill, NJ (Bell Labs)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_ids": ["electricity_story", "computing_origin_story"],
+    "field": ["物理学", "工程学", "计算机"],
+    "field_en": ["Physics", "Engineering", "Computer Science", "Electronics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Transistors.agr.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=OwS9aTE2Go4",
+        "title": "晶体管：改变世界的发明",
+        "title_en": "Transistors - The Invention That Changed The World",
+        "duration": "8:11"
+      }
+    },
+    
+    "summary": {
+      "text": "1947年12月，在贝尔实验室，约翰·巴丁（John Bardeen）、沃尔特·布拉顿（Walter Brattain）和威廉·肖克利（William Shockley）发明了世界上第一个“点接触晶体管”(Point-Contact Transistor)。这种微小的半导体装置能够像真空管（`de_forest_audion_1907`）一样“放大”和“开关”电信号，但它不需要加热，体积更小，且极其耐用。这一发明被公认为20世纪最重要的发明，它直接开启了“硅谷”和“信息时代”，使现代计算机、智能手机和互联网成为可能。",
+      "text_en": "In December 1947, at Bell Labs, John Bardeen, Walter Brattain, and William Shockley invented the world's first 'Point-Contact Transistor'. This tiny semiconductor device could 'amplify' and 'switch' electrical signals just like a vacuum tube (`de_forest_audion_1907`), but required no heat, was microscopic, and incredibly durable. Recognized as arguably the most important invention of the 20th century, it launched 'Silicon Valley' and the 'Information Age', making modern computers, smartphones, and the internet possible.",
+      "key_points": [
+        "发明了第一个“点接触晶体管”(Point-Contact Transistor)",
+        "利用“半导体”(Semiconductor)（锗）控制电流",
+        "取代了笨重、易碎的“真空管”",
+        "开启了微电子和计算机革命",
+        "三人共同获得了1956年诺贝尔物理学奖"
+      ],
+      "key_points_en": [
+        "Invented the first 'Point-Contact Transistor'",
+        "Used 'Semiconductors' (Germanium) to control current",
+        "Replaced bulky, fragile 'Vacuum Tubes'",
+        "Launched the Microelectronics and Computer revolution",
+        "The trio won the 1956 Nobel Prize in Physics"
+      ]
+    },
+  
+    "story": {
+      "text": "AT&T的电话系统正面临危机：真空管太热、太大且容易烧坏，无法支持更复杂的网络。肖克利组建了一个团队来寻找替代品。1947年12月16日，布拉顿和巴丁在一次实验中取得了突破。他们用一块锗（半导体）和两个靠得极近的金触点（由一个塑料楔子隔开），成功地用微弱的输入电流控制了强大的输出电流。这就是“点接触晶体管”。\n然而，这也引发了著名的内部冲突：肖克利作为团队领导，对自己没能直接参与这个具体设计感到愤怒。他闭门造车，在一个月后独自发明了更先进、更易制造的“结型晶体管”(Junction Transistor)。这三种性格迥异的人（天才理论家、动手大师、野心勃勃的领导）共同改变了世界。",
+      "text_en": "AT&T's phone system was in crisis: vacuum tubes were too hot, big, and unreliable to scale up. Shockley formed a team to find a solid-state alternative. On Dec 16, 1947, Brattain and Bardeen made the breakthrough. Using a slab of Germanium and two gold contacts pressed incredibly close together (held by a plastic wedge), they successfully used a tiny input current to control a large output current. This was the 'Point-Contact Transistor'.\nHowever, this sparked a famous feud: Shockley, the team leader, was furious he hadn't conceived the specific design. He secluded himself and, a month later, theoretically invented the superior 'Junction Transistor'. These three distinct personalities (the genius theorist, the master tinkerer, and the ambitious leader) changed the world.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Replica-of-first-transistor.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📛",
+        "text": "“Transistor”这个名字是由约翰·皮尔斯（John R. Pierce）在办公室里想出来的，是“Trans-resistance”（转换电阻）的缩写。",
+        "text_en": "The name 'Transistor' was coined by colleague John R. Pierce. It is a portmanteau of 'Trans-resistance' (Transfer Resistor)."
+      },
+      {
+        "icon": "🏆",
+        "text": "约翰·巴丁（John Bardeen）是历史上唯一一位**两次**获得诺贝尔物理学奖的人（一次因为晶体管，另一次因为超导理论）。",
+        "text_en": "John Bardeen is the only person in history to win the Nobel Prize in Physics **twice** (once for the transistor, and later for the BCS theory of superconductivity)."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在晶体管之前，电子设备（如收音机）必须使用“真空管”——它就像一个会发热、易碎的大灯泡。\n晶体管就像一个“微型的、固体的、永不烧坏的开关”。\n它是一块小石头（半导体），有三条腿。你只要给中间那条腿（基极）一点点电，它就会瞬间接通另外两条腿之间的大电流。这让我们可以把数以亿计的“开关”塞进指甲盖大小的芯片里，这就是为什么你的手机能比当年的超级计算机还强。",
+      "text_en": "Before the transistor, electronics (like radios) used 'vacuum tubes'—which were basically hot, fragile lightbulbs.\nThe transistor is like a 'tiny, solid, un-burn-out-able switch'.\nIt's a little rock (semiconductor) with three legs. If you give the middle leg (base) a tiny zap, it instantly opens the gate for a huge current to flow between the other two legs. This allowed us to pack *billions* of these switches into a chip the size of a fingernail, which is why your phone is smarter than a supercomputer.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "💻",
+          "title": "计算机逻辑 (Logic Gates)",
+          "title_en": "Computer Logic",
+          "text": "晶体管是所有现代计算机的“脑细胞”。它们作为“开关”（0和1）构建了所有的逻辑门和处理器。",
+          "text_en": "Transistors are the 'brain cells' of all modern computers. Acting as switches (0s and 1s), they build all logic gates and processors."
+        },
+        {
+          "icon": "📻",
+          "title": "晶体管收音机 (Transistor Radio)",
+          "title_en": "Transistor Radio",
+          "text": "这是晶体管的第一个大规模商业应用（1954年），它把收音机从“家具”变成了“可以放进口袋”的设备，引发了摇滚乐的流行。",
+          "text_en": "The first mass commercial application (1954). It turned the radio from a piece of furniture into a 'pocketable' device, helping fuel the rise of Rock 'n' Roll."
+        },
+        {
+          "icon": "📱",
+          "title": "集成电路 (IC)",
+          "title_en": "Integrated Circuits",
+          "text": "晶体管的小型化直接导致了“集成电路”（芯片）的发明，将数以亿计的晶体管刻在硅片上。",
+          "text_en": "The miniaturization of the transistor led directly to the 'Integrated Circuit' (chip), putting billions of them on a single piece of silicon."
+        }
+      ],
+  
+    "impact": {
+      "text": "晶体管的发明是人类历史的转折点。它结束了“工业时代”（基于机械和宏观电力），开启了“信息时代”（基于微电子和数据）。如果没有晶体管，今天的互联网、太空探索、人工智能以及现代经济结构都不可能存在。",
+      "text_en": "The invention of the transistor is a pivot point in human history. It ended the 'Industrial Age' (based on machines and macro-power) and began the 'Information Age' (based on micro-electronics and data). Without it, the internet, space exploration, AI, and the modern economy would simply not exist.",
+      "stats": [
+          {
+            "number": "1947",
+            "label": "年 (发明年份)",
+            "label_en": "Year Invented"
+          },
+          {
+            "number": "1956",
+            "label": "年诺贝尔奖",
+            "label_en": "Nobel Prize"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "de_forest_audion_1907",
+          "contribution": "李·德富雷斯特（晶体管的功能——放大和开关——正是为了“取代”笨重的三极真空管）",
+          "contribution_en": "Lee de Forest (the transistor's function—amplifying and switching—was specifically designed to *replace* the bulky Audion triode)"
+        },
+        {
+          "id": "planck_quantum_1900",
+          "contribution": "普朗克和量子力学（理解“半导体”中电子能带的行为，必须完全依赖量子力学理论）",
+          "contribution_en": "Planck & Quantum Mechanics (understanding electron 'bands' in semiconductors relied entirely on quantum theory)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "integrated_circuit_1958",
+          "contribution": "基尔比和诺伊斯（他们将分立的晶体管“集成”到一块硅片上，发明了芯片）",
+          "contribution_en": "Kilby & Noyce (they 'integrated' discrete transistors onto a single slice of silicon, inventing the IC chip)"
+        },
+        {
+          "id": "shannon_circuits_1937",
+          "contribution": "香农（晶体管提供了完美的物理硬件，来运行香农提出的“数字逻辑”电路）",
+          "contribution_en": "Claude Shannon (the transistor provided the perfect physical hardware to run the 'digital logic' circuits Shannon described)"
+        }
+      ],
+      "legacy_text": "这三个在贝尔实验室的人，用一块小小的锗，撬动了整个地球。",
+      "legacy_text_en": "Three men at Bell Labs used a tiny piece of germanium to lever the entire world."
+    },
+  
+    "related_concepts": ["晶体管 (Transistor)", "半导体 (Semiconductor)", "真空管 (Vacuum Tube)", "硅谷 (Silicon Valley)", "摩尔定律 (Moore's Law)", "二极管/三极管", "肖克利 (Shockley)"],
+    "related_concepts_en": ["Transistor", "Semiconductor", "Vacuum Tube", "Silicon Valley", "Moore's Law", "Diode/Triode", "Shockley"],
+  
+    "quiz": {
+      "question": "晶体管（Transistor）的发明，主要是为了取代哪种当时普遍使用但缺点重重的电子元件？",
+      "question_en": "The Transistor was invented primarily to replace which ubiquitous but flawed electronic component of the time?",
+      "options": [
+        "继电器 (Relay)",
+        "真空管 (Vacuum Tube)",
+        "电容器 (Capacitor)",
+        "电阻器 (Resistor)"
+      ],
+      "options_en": [
+        "The Relay",
+        "The Vacuum Tube",
+        "The Capacitor",
+        "The Resistor"
+      ],
+      "answer": 1,
+      "explanation": "在1947年之前，所有的放大和开关（如收音机、雷达、早期计算机）都依赖真空管（`de_forest_audion_1907`）。真空管体积大、发热、易碎且寿命短。晶体管是它的“固态”替代品。",
+      "explanation_en": "Before 1947, all amplification and switching (radios, radar, early computers) relied on vacuum tubes (`de_forest_audion_1907`). Tubes were big, hot, fragile, and burned out. The transistor was the 'solid-state' replacement."
+    }
+  }

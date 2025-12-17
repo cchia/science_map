@@ -1,0 +1,151 @@
+{
+    "id": "facebook_launch_2004",
+    "personId": ["mark_zuckerberg"],
+    "title": "Facebook上线 (社交帝国的诞生)",
+    "title_en": "Launch of Facebook (Birth of the Social Empire)",
+    "year": 2004,
+    "lat": 42.3705,
+    "lng": -71.1170,
+    "city": "剑桥 (哈佛大学柯克兰宿舍)",
+    "city_en": "Cambridge (Kirkland House, Harvard)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "社交媒体"],
+    "field_en": ["Computer Science", "Social Media"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=26fZHJRIemo&t=10s",
+        "title": "Facebook的历史",
+        "title_en": "The History of Facebook ",
+        "duration": "8:14"
+      }
+    },
+    
+    "summary": {
+      "text": "2004年2月4日，19岁的哈佛大二学生马克·扎克伯格在宿舍里发布了“TheFacebook.com”。最初，这只是一个仅限于哈佛学生使用的在线名录（Face Book），用来代替学校迟迟没有建立的纸质名录数字化版本。由于其简洁的设计和强调“真实身份”的社交关系，网站在校园内迅速病毒式传播，24小时内就有1200名学生注册。随后它扩展到常春藤盟校，再到全美大学，最终向所有人开放，成为了连接全球30亿人的社交帝国。",
+      "text_en": "On February 4, 2004, 19-year-old Harvard sophomore Mark Zuckerberg launched 'TheFacebook.com' from his dorm room. Initially, it was just an online directory (Face Book) exclusive to Harvard students, serving as a digital replacement for the paper directories the school had been slow to create. Thanks to its clean design and emphasis on 'real identity', the site went viral on campus, with 1,200 students signing up within 24 hours. It subsequently expanded to the Ivy League, then to all US colleges, and finally to everyone, becoming a social empire connecting 3 billion people worldwide.",
+      "key_points": [
+        "最初名为“TheFacebook”，仅限哈佛学生注册",
+        "强调真实身份（Real Identity），区别于当时的匿名网络",
+        "快速扩张策略：哈佛 -> 常春藤 -> 全美大学 -> 全球",
+        "彼得·蒂尔（Peter Thiel）提供了第一笔50万美元的外部投资",
+        "通过News Feed（动态消息）重新定义了信息流的消费方式"
+      ],
+      "key_points_en": [
+        "Originally named 'TheFacebook', exclusive to Harvard students",
+        "Emphasized 'Real Identity', unlike the anonymous web of the time",
+        "Rapid expansion strategy: Harvard -> Ivy League -> US Colleges -> Global",
+        "Peter Thiel provided the first outside investment of $500,000",
+        "Redefined information consumption with the 'News Feed'"
+      ]
+    },
+  
+    "story": {
+      "text": "Facebook的诞生充满了争议。在它上线之前，扎克伯格曾做过一个叫“Facemash”的网站，用来让学生评比谁更“火辣”，结果因为非法抓取学校照片差点被开除。吸取教训后，他开发了TheFacebook。然而，就在网站上线6天后，哈佛的高年级学生Winklevoss兄弟指控扎克伯格窃取了他们的创意（ConnectU）。这场法律纠纷持续了数年（后来被改编成了电影《社交网络》）。尽管如此，Facebook的增长势不可挡。肖恩·帕克（Sean Parker，Napster创始人）在看到这个项目后，建议扎克伯格删掉名字里的“The”，并帮他搞定了第一笔来自彼得·蒂尔的关键融资，让公司搬到了硅谷。",
+      "text_en": "The birth of Facebook was fraught with controversy. Before its launch, Zuckerberg created 'Facemash', a site for students to rate who was 'hotter', which nearly got him expelled for scraping school photos. Learning from this, he built TheFacebook. However, just six days after launch, Harvard seniors the Winklevoss twins accused Zuckerberg of stealing their idea (ConnectU). This legal dispute lasted for years (and was later dramatized in the movie 'The Social Network'). Despite this, Facebook's growth was unstoppable. Sean Parker (founder of Napster), upon seeing the project, advised Zuckerberg to drop 'The' from the name and helped secure the critical first investment from Peter Thiel, moving the company to Silicon Valley.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/en/1/12/Original-facebook.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🎨",
+        "text": "Facebook的主色调之所以是蓝色，是因为马克·扎克伯格是红绿色盲。蓝色是他能看得到的最清楚的颜色。他说：“蓝色对我来说不仅是颜色，更是丰富的细节。”",
+        "text_en": "The primary color of Facebook is blue because Mark Zuckerberg is red-green colorblind. Blue is the color he sees most clearly. He said, 'Blue is the richest color for me; I can see all of blue.'"
+      },
+      {
+        "icon": "🕵️",
+        "text": "TheFacebook最早的主页左上角有一张神秘男人的脸，被代码处理成了蓝白色。后来证实那是影星阿尔·帕西诺（Al Pacino）的头像。",
+        "text_en": "The original homepage of TheFacebook featured a mysterious man's face in the top left corner, manipulated into blue and white by code. It was later confirmed to be the face of Al Pacino."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "以前在网上，你是匿名的，叫“酷酷男孩123”。\nFacebook说：不，你应该用真名，把你在现实生活中的社交圈子搬到网上。\n它把互联网从一个“获取信息的地方”变成了一个“了解朋友动态的地方”。",
+      "text_en": "Before, you were anonymous on the internet, named 'CoolBoy123'.\nFacebook said: No, you should use your real name and move your real-life social circle online.\nIt turned the internet from a 'place to get information' into a 'place to see what friends are doing'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/en/7/7a/Facebook_mobile.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "📰",
+          "title": "News Feed (动态消息)",
+          "title_en": "News Feed",
+          "text": "这是Facebook最具争议但也最成功的发明。它不再需要你去点击朋友的主页，而是把所有朋友的动态聚合起来推送到你面前。",
+          "text_en": "Facebook's most controversial yet successful invention. Instead of you visiting friends' profiles, it aggregates all their updates and pushes them to you."
+        },
+        {
+          "icon": "👍",
+          "title": "Like Button (点赞按钮)",
+          "title_en": "Like Button",
+          "text": "“点赞”定义了社交网络的互动方式。它创造了一种简单的多巴胺反馈循环，让用户对发布内容上瘾。",
+          "text_en": "'Like' defined interaction on social networks. It created a simple dopamine feedback loop that addicted users to posting content."
+        }
+      ],
+  
+    "impact": {
+      "text": "Facebook彻底重塑了人类的社交方式。它连接了全球近一半的人口，成为了世界上最大的媒体平台（尽管它不生产内容）。它让“隐私”的定义发生了不可逆转的改变，也让数据成为了比石油更珍贵的资源。从阿拉伯之春到美国大选，Facebook的影响力已经远远超出了商业范畴，深刻地影响了全球政治和社会结构。",
+      "text_en": "Facebook completely reshaped how humans socialize. It connected nearly half the global population, becoming the world's largest media platform (without producing content). It irreversibly changed the definition of 'privacy' and turned data into a resource more valuable than oil. From the Arab Spring to US elections, Facebook's influence extends far beyond business, profoundly impacting global politics and social structures.",
+      "stats": [
+          {
+            "number": "500000",
+            "label": "美元 (Peter Thiel的首笔投资)",
+            "label_en": "USD (Peter Thiel's Seed Money)"
+          },
+          {
+            "number": "2900",
+            "label": "百万 (月活跃用户数)",
+            "label_en": "Million (Monthly Active Users)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "paypal_launch_1998",
+          "contribution": "Peter Thiel（作为PayPal创始人，他是Facebook的第一个天使投资人，不仅给了钱，还不仅带来了硅谷的人脉和商业指导）",
+          "contribution_en": "Peter Thiel (As PayPal founder, he was Facebook's first angel investor, providing not just money but Silicon Valley connections and mentorship)"
+        },
+        {
+          "id": "berners_lee_www_1989",
+          "contribution": "万维网（Facebook是Web 2.0时代的巅峰代表，依赖于Web作为基础设施）",
+          "contribution_en": "World Wide Web (Facebook is the pinnacle of the Web 2.0 era, relying on the Web as infrastructure)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "instagram_founding_2010",
+          "contribution": "Instagram（在被Facebook收购后，利用其技术和增长策略成为了全球最大的图片社交平台）",
+          "contribution_en": "Instagram (After being acquired by Facebook, leveraged its tech and growth strategies to become the world's largest photo social platform)"
+        }
+      ],
+      "legacy_text": "Move fast and break things. (快速行动，打破常规)",
+      "legacy_text_en": "Move fast and break things."
+    },
+  
+    "related_concepts": ["社交图谱 (Social Graph)", "六度分隔理论", "网络效应", "隐私悖论", "元宇宙 (Metaverse)"],
+    "related_concepts_en": ["Social Graph", "Six Degrees of Separation", "Network Effect", "Privacy Paradox", "Metaverse"],
+  
+    "quiz": {
+      "question": "Facebook最初的网址是什么？",
+      "question_en": "What was the original URL of Facebook?",
+      "options": [
+        "facebook.com",
+        "thefacebook.com",
+        "harvardconnect.com",
+        "facemash.com"
+      ],
+      "options_en": [
+        "facebook.com",
+        "thefacebook.com",
+        "harvardconnect.com",
+        "facemash.com"
+      ],
+      "answer": 1,
+      "explanation": "最初的名字是“thefacebook.com”。直到2005年，公司才以20万美元买下了facebook.com域名，并去掉了“The”。",
+      "explanation_en": "The original name was 'thefacebook.com'. It wasn't until 2005 that the company bought the facebook.com domain for $200,000 and dropped the 'The'."
+    }
+  }

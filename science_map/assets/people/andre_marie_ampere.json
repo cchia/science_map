@@ -1,0 +1,10 @@
+{
+    "name": "安德烈-马里·安培",
+    "name_en": "André-Marie Ampère",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ampere_Andre_1825.jpg",
+    "bio_short": "法国物理学家和数学家，电动力学的创始人之一。他在受到奥斯特发现的启发后，通过数学描述了电流与磁场之间的关系（安培定律），电流单位“安培”以他命名。",
+    "bio_short_en": "A French physicist and mathematician who was one of the founders of the science of classical electromagnetism (electrodynamics). Inspired by Oersted, he mathematically described the relationship between electric current and magnetic fields (Ampère's Law). The unit of electric current, the 'Ampere', is named after him.",
+    "events": [
+      "ampere_law_1826"
+    ]
+  }

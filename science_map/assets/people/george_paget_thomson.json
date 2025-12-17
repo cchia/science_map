@@ -1,0 +1,10 @@
+{
+    "name": "乔治·佩吉特·汤姆孙",
+    "name_en": "George Paget Thomson",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c2/George_Paget_Thomson.jpg",
+    "bio_short": "英国物理学家, 1937年诺贝尔物理学奖得主. 他通过电子衍射实验 (`gp_thomson_diffraction_1927`) 证实了德布罗意的物质波假说. 著名的科学趣闻是: 他的父亲 (J.J. 汤姆孙) 证明了电子是粒子, 而他证明了电子是波.",
+    "bio_short_en": "A British physicist and 1937 Nobel laureate. He confirmed de Broglie's matter wave hypothesis through electron diffraction experiments (`gp_thomson_diffraction_1927`). He is famous for the historical irony that his father (J.J. Thomson) proved the electron was a particle, while he proved it was a wave.",
+    "events": [
+      "gp_thomson_diffraction_1927"
+    ]
+  }

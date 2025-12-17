@@ -1,0 +1,161 @@
+{
+    "id": "avery_dna_principle_1944",
+    "personId": ["oswald_avery", "maclyn_mccarty", "colin_macleod"],
+    "title": "确认DNA是遗传物质 (破解转化原则)",
+    "title_en": "Identifies DNA as the Genetic Material (Cracking the Transforming Principle)",
+    "year": 1944,
+    "lat": 40.7634,
+    "lng": -73.9562,
+    "city": "纽约 (洛克菲勒研究所)",
+    "city_en": "New York City (Rockefeller Institute)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["gene_story"],
+    "field": ["微生物学", "遗传学", "生物化学"],
+    "field_en": ["Microbiology", "Genetics", "Biochemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/43/DNA_in_water.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=fci1oS1kofs",
+        "title": "艾弗里-麦克劳德-麦卡蒂实验：DNA的证明",
+        "title_en": "Avery Experiment: DNA as the Transforming Principle",
+        "duration": "7:12"
+      }
+    },
+    
+    "summary": {
+      "text": "1944年，奥斯瓦尔德·艾弗里 (Oswald Avery) 与他的同事麦克林·麦卡蒂 (Maclyn McCarty) 和科林·麦克劳德 (Colin MacLeod) 发表了一篇改变生物学进程的论文。他们花费了14年时间，试图分离出格里菲斯实验 (`griffith_experiment_1928`) 中的“转化原则”。当时科学界的主流观点认为复杂的“蛋白质”是遗传物质，而DNA太简单了。艾弗里团队通过一种巧妙的“排除法”实验：他们使用特定的酶分别破坏提取物中的蛋白质、RNA和DNA。结果震惊了所有人：只有当**DNA**被破坏时，细菌的转化才停止。这一发现首次在化学层面上证明了：生命的遗传密码是写在DNA上的，而不是蛋白质。",
+      "text_en": "In 1944, Oswald Avery, along with colleagues Maclyn McCarty and Colin MacLeod, published a paper that changed the course of biology. They spent 14 years trying to isolate the 'Transforming Principle' from Griffith's experiment (`griffith_experiment_1928`). The prevailing dogma was that complex 'proteins' were the genetic material, while DNA was considered too simple. Avery's team used a brilliant 'process of elimination': they used specific enzymes to destroy protein, RNA, and DNA in the extract. The result shocked everyone: transformation stopped only when **DNA** was destroyed. This provided the first chemical proof that the genetic code of life is written in DNA, not protein.",
+      "key_points": [
+        "证明DNA是“转化原则” (The Transforming Principle is DNA)",
+        "推翻了“蛋白质是遗传物质”的主流观点",
+        "使用了酶解法 (Enzymatic Digestion) 进行排除",
+        "标志着分子生物学的诞生",
+        "科学史上最伟大的“被忽视的发现”之一"
+      ],
+      "key_points_en": [
+        "Proved DNA is the 'Transforming Principle'",
+        "Overturned the dogma that 'protein is the genetic material'",
+        "Used enzymatic digestion for elimination",
+        "Marked the birth of Molecular Biology",
+        "One of the greatest 'overlooked discoveries' in science history"
+      ]
+    },
+  
+    "story": {
+      "text": "艾弗里是一个非常谨慎、害羞且说话轻声细语的老单身汉，被同事称为“福斯教授” (The Professor)。他非常厌恶草率的结论。虽然早在实验初期迹象就指向DNA，但他花了整整十年来提纯样本，确保里面没有一丝一毫的蛋白质污染。当他最终写下论文时，语气依然极其克制，只说“核酸具有生物特异性”。\n然而，当时的科学界反应冷淡。大多数人（包括诺贝尔奖委员会）都觉得：“这肯定是因为他的样本不纯，残留的蛋白质才是原因。” 或者认为“这只是细菌的特例，不适用于高等动物。” 这种偏见导致艾弗里至死都没有获得诺贝尔奖，这被公认为诺奖历史上最大的遗珠之憾。",
+      "text_en": "Avery was an incredibly cautious, shy, soft-spoken bachelor, known to colleagues as 'The Professor'. He detested sloppy conclusions. Although early signs pointed to DNA, he spent a full decade purifying the samples to ensure not a trace of protein remained. When he finally wrote the paper, his tone was incredibly restrained, merely stating 'nucleic acids have biological specificity'.\nHowever, the scientific community gave it the cold shoulder. Most (including the Nobel Committee) thought: 'His sample must be impure; residual protein is doing the work.' Or: 'This is just a weird bacterial trick, not applicable to animals.' This bias meant Avery died without ever receiving a Nobel Prize, widely considered the biggest snub in Nobel history.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/43/DNA_in_water.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🏆",
+        "text": "艾弗里曾被提名诺贝尔奖多达38次，但从未获奖。因为当时的评委顽固地相信“蛋白质假说”。",
+        "text_en": "Avery was nominated for the Nobel Prize 38 times but never won. The committee stubbornly clung to the 'Protein Hypothesis'."
+      },
+      {
+        "icon": "🧪",
+        "text": "当时的教科书认为DNA是一个枯燥的“四核苷酸”重复结构（像淀粉一样），只起结构支撑作用。艾弗里的发现相当于说：“我们发现盖房子的砖头其实是建筑师。”",
+        "text_en": "Textbooks at the time taught that DNA was a boring 'tetranucleotide' repeating structure (like starch), serving only as structural support. Avery's discovery was like saying: 'We found out the bricks used to build the house are actually the architect.'"
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "格里菲斯留下了一瓶“魔法药水”（死细菌提取物），能把好细菌变坏。\n大家都在猜药水里的有效成分是什么。大家都猜是“蛋白质”，因为蛋白质很复杂。\n艾弗里做了一个简单的测试：\n1. 往药水里加“蛋白酶”（吃蛋白质），药水依然有效 -> 不是蛋白质。\n2. 往药水里加“脂肪酶”（吃脂肪），药水依然有效 -> 不是脂肪。\n3. 往药水里加“DNase”（吃DNA），药水失效了！\n结论：那个魔法成分就是DNA。",
+      "text_en": "Griffith left behind a 'magic potion' (dead bacteria extract) that could turn good bacteria bad.\nEveryone guessed what the active ingredient was. Most guessed 'Protein' because proteins are complex.\nAvery did a simple test:\n1. Add 'Protease' (eats protein) to the potion. Potion still works -> Not protein.\n2. Add 'Lipase' (eats fat). Potion still works -> Not fat.\n3. Add 'DNase' (eats DNA). Potion stops working!\nConclusion: The magic ingredient is DNA.",
+      "diagram": "assets/images/avery_experiment.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "DNA研究热潮",
+          "title_en": "DNA Research Boom",
+          "text": "虽然老一辈科学家不信，但这篇论文点燃了年轻一代（如沃森）的热情，直接引发了寻找DNA结构的金矿热。",
+          "text_en": "Though older scientists doubted it, this paper ignited the passion of the younger generation (like Watson), sparking the gold rush to find DNA's structure."
+        },
+        {
+          "icon": "💊",
+          "title": "酶学工具",
+          "title_en": "Enzymatic Tools",
+          "text": "艾弗里在实验中使用的“DNase”（DNA水解酶）至今仍是分子生物学实验室必备的试剂，用于去除DNA。",
+          "text_en": "The 'DNase' enzyme Avery used is still a staple reagent in molecular biology labs today for removing DNA."
+        }
+      ],
+  
+    "impact": {
+      "text": "艾弗里实验是生物学历史的转折点。它将遗传学的焦点从蛋白质强行扭转到了DNA上。查加夫（Chargaff）读了这篇论文后，甚至决定改变自己的研究方向去研究DNA的化学成分。可以说，没有艾弗里这艰难的一步，就不会有后来的双螺旋发现。",
+      "text_en": "The Avery experiment was a pivot point in biological history. It forcibly wrenched the focus of genetics from protein to DNA. Erwin Chargaff read this paper and decided to switch his entire research focus to DNA chemistry. Without Avery's difficult step, the Double Helix discovery would not have happened.",
+      "stats": [
+          {
+            "number": "1944",
+            "label": "年 (论文发表)",
+            "label_en": "Year (Published)"
+          },
+          {
+            "number": "14",
+            "label": "年 (研究耗时)",
+            "label_en": "Years (Research Duration)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "griffith_experiment_1928",
+          "contribution": "格里菲斯（提供了研究的基础现象：转化原则）",
+          "contribution_en": "Frederick Griffith (Provided the foundational phenomenon: the Transforming Principle)"
+        },
+        {
+          "id": "miescher_nuclein_1869",
+          "contribution": "米歇尔（发现了DNA物质本身，尽管当时被认为不重要）",
+          "contribution_en": "Friedrich Miescher (Discovered the substance DNA itself, though it was considered unimportant)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "chargaff_rules_1950",
+          "contribution": "查加夫（受艾弗里启发，开始分析DNA碱基比例，发现了A=T, C=G）",
+          "contribution_en": "Erwin Chargaff (Inspired by Avery, analyzed DNA base ratios and discovered A=T, C=G)"
+        },
+        {
+          "id": "hershey_chase_dna_1952",
+          "contribution": "赫尔希和蔡斯（用噬菌体实验最终平息了所有对艾弗里结论的质疑）",
+          "contribution_en": "Hershey & Chase (Used phage experiments to finally silence all doubts about Avery's conclusion)"
+        },
+        {
+          "id": "watson_crick_dna_1953",
+          "contribution": "沃森（他承认艾弗里的实验是让他确信DNA至关重要的关键因素）",
+          "contribution_en": "James Watson (Acknowledged Avery's experiment was the key factor convincing him DNA was paramount)"
+        }
+      ],
+      "legacy_text": "艾弗里是那个推倒多米诺骨牌第一块的人，尽管他推得很轻。",
+      "legacy_text_en": "Avery was the one who tipped the first domino, even though he did it very gently."
+    },
+  
+    "related_concepts": ["转化原则 (Transforming Principle)", "DNA", "酶 (Enzyme)", "洛克菲勒研究所", "蛋白质假说"],
+    "related_concepts_en": ["Transforming Principle", "DNA", "Enzyme", "Rockefeller Institute", "Protein Hypothesis"],
+  
+    "quiz": {
+      "question": "在艾弗里的实验中，加入哪种酶之后，“转化现象”消失了，从而证明了该物质是遗传物质？",
+      "question_en": "In Avery's experiment, the addition of which enzyme caused the 'transformation' to disappear, proving that substance was the genetic material?",
+      "options": [
+        "蛋白酶 (Protease)",
+        "RNase (RNA酶)",
+        "DNase (DNA酶)",
+        "脂肪酶 (Lipase)"
+      ],
+      "options_en": [
+        "Protease",
+        "RNase",
+        "DNase",
+        "Lipase"
+      ],
+      "answer": 2,
+      "explanation": "这是排除法的核心。如果破坏了蛋白质（蛋白酶）或RNA（RNase），转化依然发生，说明它们不是关键。只有破坏了DNA（DNase），转化才停止，说明DNA就是那个关键的“转化原则”。",
+      "explanation_en": "This is the core of the elimination method. If protein (Protease) or RNA (RNase) were destroyed and transformation still happened, they weren't key. Only when DNA was destroyed (DNase) did transformation stop, proving DNA was the key 'Transforming Principle'."
+    }
+  }

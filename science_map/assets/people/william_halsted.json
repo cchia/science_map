@@ -1,0 +1,10 @@
+{
+    "name": "威廉·霍尔斯特德",
+    "name_en": "William Halsted",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/bd/William_Stewart_Halsted.jpg",
+    "bio_short": "美国外科医生，约翰·霍普金斯医院的“四大创始人”之一。他将手术从粗糙的截肢术转变为精细的艺术，引入了严格的“无菌技术”（包括发明外科手套 `halsted_surgical_gloves_1890`），并创立了现代外科住院医师培训制度。",
+    "bio_short_en": "An American surgeon and one of the 'Big Four' founders of Johns Hopkins Hospital. He transformed surgery from rough amputations into a delicate art, introducing strict 'aseptic techniques' (including inventing surgical gloves `halsted_surgical_gloves_1890`) and establishing the modern surgical residency training system.",
+    "events": [
+      "halsted_surgical_gloves_1890"
+    ]
+  }

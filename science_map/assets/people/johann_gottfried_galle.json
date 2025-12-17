@@ -1,0 +1,10 @@
+{
+    "name": "约翰·戈特弗里德·加勒",
+    "name_en": "Johann Gottfried Galle",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/da/JohannGalle.jpg",
+    "bio_short": "德国天文学家。他在柏林天文台工作时，根据勒维耶的计算，于1846年9月23日成为历史上第一个通过望远镜实际观测并确认“海王星”存在的人。",
+    "bio_short_en": "A German astronomer. Working at the Berlin Observatory, he used Le Verrier's calculations to become the first person to visually observe and confirm the existence of Neptune on September 23, 1846.",
+    "events": [
+      "discovery_of_neptune_1846"
+    ]
+  }

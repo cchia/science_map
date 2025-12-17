@@ -10,10 +10,12 @@
     "city_en": "Göttingen / Heligoland",
     "country": "德国",
     "country_en": "Germany",
+    "storyline_ids": ["quantum_story"],
     "field": ["物理学"],
     "field_en": ["Physics"],
     
     "media": {      
+      "event_image": "assets/images/matrix_mechanics.jpg",
       "video": {
         "url": "https://www.youtube.com/watch?v=Q0l9ic7y05g",
         "title": "波动力学 vs 矩阵力学",
@@ -63,7 +65,8 @@
   
     "simple_explanation": {
       "text": "在1925年之前，物理学家（如玻尔 `bohr_atom_1913`）试图“想象”原子：他们把电子想象成“行星”，绕着“轨道”转。\n海森堡说：“我们‘永远’不可能‘看到’电子的轨道。所以，让我们‘停止想象’！物理学不应该研究‘我们看不到的东西’。”\n相反，他创造了一种“只”基于“我们能看到的东西”（即原子发出的“光谱线”）的“新数学”。\n这种新数学（矩阵）非常奇怪。它说，在量子世界里，“A × B”不等于“B × A”。例如：测量“位置”再测量“动量”，与“先测量动量再测量位置”，得到的结果是“不同”的。这就是后来“测不准原理”的数学根源。",
-      "text_en": "Before 1925, physicists tried to 'picture' the atom (like Bohr's 'orbits', `bohr_atom_1913`).\nHeisenberg said: 'We can *never* 'see' an electron's orbit. So, *stop trying to picture it*! Physics shouldn't be based on things we can't see.'\nInstead, he built a 'new math' based *only* on what we *can* see (the 'spectral lines' of light the atom emits).\nThis new math (matrices) was bizarre. It said that `A x B` does *not* equal `B x A`. For example: 'measuring the *Position* THEN the *Momentum*' gives a *different* result than 'measuring the *Momentum* THEN the *Position*'. This was the mathematical root of his 'Uncertainty Principle'."      
+      "text_en": "Before 1925, physicists tried to 'picture' the atom (like Bohr's 'orbits', `bohr_atom_1913`).\nHeisenberg said: 'We can *never* 'see' an electron's orbit. So, *stop trying to picture it*! Physics shouldn't be based on things we can't see.'\nInstead, he built a 'new math' based *only* on what we *can* see (the 'spectral lines' of light the atom emits).\nThis new math (matrices) was bizarre. It said that `A x B` does *not* equal `B x A`. For example: 'measuring the *Position* THEN the *Momentum*' gives a *different* result than 'measuring the *Momentum* THEN the *Position*'. This was the mathematical root of his 'Uncertainty Principle'.",
+      "diagram": "assets/images/matrix_mechanics_2.jpg"      
     },
   
     "applications": [

@@ -1,0 +1,151 @@
+{
+    "id": "ivanovsky_virus_1892",
+    "personId": "dmitri_ivanovsky",
+    "title": "发现首个'滤过性病毒' (烟草花叶病毒)",
+    "title_en": "Discovers the First 'Filterable Virus' (Tobacco Mosaic Virus)",
+    "year": 1892,
+    "lat": 44.9521,
+    "lng": 34.1024,
+    "city": "克里米亚 (及圣彼得堡)",
+    "city_en": "Crimea (and St. Petersburg)",
+    "country": "俄罗斯帝国",
+    "country_en": "Russian Empire",
+    "storyline_id": ["micro_story"],
+    "field": ["生物学", "病毒学"],
+    "field_en": ["Biology", "Virology"],
+    
+    "media": {
+      "event_image": "assets/images/virus.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dE5opOhpd8g",
+        "title": "我们是如何发现第一个病毒的？",
+        "title_en": "How did we discover the first virus?",
+        "duration": "8:12"
+      }
+    },
+    
+    "summary": {
+      "text": "1892年, 俄国植物学家德米特里·伊万诺夫斯基 (Dmitri Ivanovsky) 在研究危害烟草作物的'烟草花叶病'时, 做出了一个令人费解的发现. 他将患病叶片的汁液通过一种特殊的'钱伯兰过滤器' (Chamberland filter), 这种过滤器的孔隙极小, 已知可以滤除所有的细菌. 然而, 他惊讶地发现, 过滤后的'无菌'汁液仍然能让健康的烟草植株染病. 虽然伊万诺夫斯基当时并未完全理解他发现了什么 (他怀疑是某种微小的细菌或毒素), 但这标志着人类首次在实验中记录到了比细菌更小的病原体——后来被称为'病毒' (Virus).",
+      "text_en": "In 1892, Russian botanist Dmitri Ivanovsky made a puzzling discovery while studying 'Tobacco Mosaic Disease' which was destroying tobacco crops. He passed the sap of infected leaves through a special 'Chamberland filter', whose pores were small enough to block all known bacteria. To his surprise, the filtered 'sterile' sap could still infect healthy plants. Although Ivanovsky didn't fully understand what he had found at the time (suspecting a tiny bacterium or toxin), this marked the first experimental recording of a pathogen smaller than bacteria—what would later be called a 'Virus'.",
+      "key_points": [
+        "首次发现'滤过性'病原体 (Filterable Pathogen)",
+        "研究对象: 烟草花叶病 (Tobacco Mosaic Disease)",
+        "使用了钱伯兰过滤器 (Chamberland Filter)",
+        "标志着病毒学 (Virology) 的开端",
+        "比细菌更小的生命形式"
+      ],
+      "key_points_en": [
+        "First discovery of a 'Filterable' pathogen",
+        "Subject: Tobacco Mosaic Disease",
+        "Used a Chamberland Filter",
+        "Marks the beginning of Virology",
+        "Life form smaller than bacteria"
+      ]
+    },
+  
+    "story": {
+      "text": "当时的科学界刚刚接受巴斯德和科赫的'细菌理论', 认为所有传染病都是细菌引起的. 伊万诺夫斯基被派往克里米亚调查烟草枯死的原因. 他严格按照科赫的方法操作, 试图过滤掉细菌. 逻辑很简单: 如果把细菌滤掉了, 液体就不应该致病. 但现实打脸了——过滤液依然致病. 伊万诺夫斯基很困惑, 他在论文中写道: '也许是过滤器有裂缝? 或者是一种极小的细菌?' 直到6年后, 荷兰人贝杰林克 (Beijerinck) 重复了这个实验, 并大胆宣称这不是细菌, 而是一种'活的液态传染物' (Contagium vivum fluidum), 并将其命名为'病毒' (拉丁语意为毒液). 伊万诺夫斯基虽然没有造出这个词, 但他确实是第一个'抓住'病毒的人.",
+      "text_en": "Science had just accepted Pasteur and Koch's 'Germ Theory', believing all diseases were caused by bacteria. Ivanovsky was sent to Crimea to investigate dying tobacco. He strictly followed Koch's methods, trying to filter out the bacteria. The logic was simple: if you filter out the bacteria, the liquid shouldn't cause disease. But reality disagreed—the filtrate was still infectious. Confused, Ivanovsky wrote: 'Maybe the filter has a crack? Or it's a tiny bacterium?' It wasn't until 6 years later that Dutchman Beijerinck repeated the experiment and boldly declared it wasn't a bacterium but a 'living contagious fluid' (Contagium vivum fluidum), naming it 'Virus' (Latin for poison). Ivanovsky didn't coin the word, but he was the first to 'catch' the virus.",
+      "diagram": "assets/images/virus_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🚬",
+        "text": "烟草花叶病毒 (TMV) 是人类发现的第一个病毒, 也是后来第一个被'结晶化' (斯坦利, 1935) 和第一个在电子显微镜下被'看见' (1939) 的病毒. 它是病毒界的'小白鼠'.",
+        "text_en": "Tobacco Mosaic Virus (TMV) was the first virus discovered, the first to be 'crystallized' (Stanley, 1935), and the first to be 'seen' under an electron microscope (1939). It is the 'lab rat' of the virus world."
+      },
+      {
+        "icon": "🤔",
+        "text": "伊万诺夫斯基至死都认为自己发现的可能只是一种微小的细菌孢子. 他离真理只差一步——想象力的飞跃.",
+        "text_en": "To his death, Ivanovsky believed he had likely found a tiny bacterial spore. He was one step away from the truth—a leap of imagination."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你要用渔网捕鱼.\n科赫说: '所有的鱼 (细菌) 都会被这个网 (过滤器) 拦住.'\n伊万诺夫斯基把这一网撒下去, 拉上来一看, 网里是空的. 但是, 当他把过滤过的水倒进健康的池塘 (植物) 里, 鱼 (病) 又出现了!\n这意味着存在一种比网眼还要小得多的'微型鱼'. 这就是病毒. 它们小到当时所有的显微镜都看不见.",
+      "text_en": "Imagine you are fishing with a net.\nKoch says: 'All fish (bacteria) will be caught by this net (filter).'\nIvanovsky casts the net and pulls it up empty. But when he pours the filtered water into a healthy pond (plant), the fish (disease) appear again!\nThis means there is a 'micro-fish' much smaller than the holes in the net. This is a Virus. They were so small that no microscope at the time could see them.",
+      "diagram": "assets/images/virus_3.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧬",
+          "title": "病毒学 (Virology)",
+          "title_en": "Virology",
+          "text": "这开启了对流感、艾滋病、COVID-19等病毒性疾病的研究.",
+          "text_en": "This launched the study of viral diseases like Flu, HIV, and COVID-19."
+        },
+        {
+          "icon": "🔬",
+          "title": "纳米技术",
+          "title_en": "Nanotechnology",
+          "text": "因为TMV病毒结构极其稳定且呈管状, 现代科学家甚至用它作为纳米电池和药物输送的模板.",
+          "text_en": "Because TMV is structurally stable and tubular, modern scientists use it as a template for nanobatteries and drug delivery."
+        }
+      ],
+  
+    "impact": {
+      "text": "伊万诺夫斯基的实验推开了通往'隐形世界'中更深一层的大门. 在他之前, 生命被认为止步于细菌的大小. 在他之后, 我们知道还存在着一种更小、更简单、游走于生命与非生命边缘的实体. 尽管荣誉常与贝杰林克分享, 但伊万诺夫斯基是无可争议的病毒发现第一人.",
+      "text_en": "Ivanovsky's experiment opened the door to a deeper layer of the 'invisible world'. Before him, life was thought to stop at the size of bacteria. After him, we knew there existed entities smaller, simpler, and hovering on the edge of life and non-life. Though often sharing credit with Beijerinck, Ivanovsky is indisputably the first to detect a virus.",
+      "stats": [
+          {
+            "number": "1892",
+            "label": "年 (发现病毒)",
+            "label_en": "Year (Virus Discovered)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "koch_postulates_1876",
+          "contribution": "科赫 (伊万诺夫斯基试图用科赫法则来寻找病原体, 结果发现了不符合法则的现象)",
+          "contribution_en": "Robert Koch (Ivanovsky tried to use Koch's postulates to find the pathogen but found something that violated them)"
+        },
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德 (巴斯德曾怀疑狂犬病是由一种太小而看不见的微生物引起的, 这给了后来者思路)",
+          "contribution_en": "Louis Pasteur (Pasteur suspected Rabies was caused by a microbe too small to see, giving a clue to successors)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "beijerinck_virus_concept_1898",
+          "contribution": "贝杰林克 (重复了伊万诺夫斯基的实验, 并提出了'病毒'的概念和命名)",
+          "contribution_en": "Martinus Beijerinck (repeated Ivanovsky's experiment and proposed the concept and name 'Virus')"
+        },
+        {
+          "id": "stanley_crystallization_1935",
+          "contribution": "温德尔·斯坦利 (成功将TMV病毒结晶化, 证明病毒可以是像化学物质一样的蛋白质)",
+          "contribution_en": "Wendell Stanley (successfully crystallized TMV, proving viruses could be protein-like chemicals)"
+        }
+      ],
+      "legacy_text": "伊万诺夫斯基发现了一个连最细的网都拦不住的杀手.",
+      "legacy_text_en": "Ivanovsky found a killer that could slip through the finest net."
+    },
+  
+    "related_concepts": ["病毒 (Virus)", "烟草花叶病 (Tobacco Mosaic Virus)", "滤过性病原体 (Filterable Pathogen)", "细菌 (Bacteria)", "贝杰林克 (Beijerinck)"],
+    "related_concepts_en": ["Virus", "Tobacco Mosaic Virus", "Filterable Pathogen", "Bacteria", "Beijerinck"],
+  
+    "quiz": {
+      "question": "伊万诺夫斯基用来发现病毒的关键工具是什么?",
+      "question_en": "What was the key tool Ivanovsky used to discover the virus?",
+      "options": [
+        "电子显微镜",
+        "钱伯兰过滤器 (除菌过滤器)",
+        "离心机",
+        "DNA测序仪"
+      ],
+      "options_en": [
+        "Electron Microscope",
+        "Chamberland Filter (bacteria-proof filter)",
+        "Centrifuge",
+        "DNA Sequencer"
+      ],
+      "answer": 1,
+      "explanation": "当时还没有电子显微镜 (那是1930年代的事了). 他使用的是一种瓷制的过滤器, 孔隙小到连细菌都钻不过去. 能钻过去的致病物, 必然比细菌更小.",
+      "explanation_en": "Electron microscopes didn't exist yet (1930s). He used a porcelain filter with pores so small bacteria couldn't pass. The pathogen that *did* pass had to be smaller than bacteria."
+    }
+  }

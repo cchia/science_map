@@ -1,0 +1,151 @@
+{
+    "id": "integrated_circuit_1958",
+    "personId": ["jack_kilby", "robert_noyce"],
+    "title": "发明集成电路 (打破“数量的暴政”)",
+    "title_en": "Invention of the Integrated Circuit (Breaking the 'Tyranny of Numbers')",
+    "year": 1958,
+    "lat": 32.9249,
+    "lng": -96.7647,
+    "city": "达拉斯 (德州仪器)",
+    "city_en": "Dallas (Texas Instruments)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["electricity_story", "computing_origin_story", "digital_age_story"],
+    "field": ["电子工程", "半导体物理"],
+    "field_en": ["Electrical Engineering", "Semiconductor Physics"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/8/89/NXP_PCF8577C_LCD_driver_with_I%C2%B2C_%28Colour_Corrected%29.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=WdAHNcc733g",
+        "title": "世界上的第一个集成电路（也叫微芯片）",
+        "title_en": "The world's first integrated circuit (aka microchip)",
+        "duration": "2:28"
+      }
+    },
+    
+    "summary": {
+      "text": "1958年9月12日，德州仪器（Texas Instruments）的新晋工程师杰克·基尔比（Jack Kilby）向高层展示了一块外观丑陋的小装置：一片粘在玻璃上的锗片，上面连着几根乱糟糟的金线。当接通电源后，示波器上出现了一条完美的正弦曲线。这就是世界上第一块“集成电路”（Integrated Circuit, IC）。基尔比天才地意识到，电路中的所有元件（电阻、电容、晶体管）都可以用同一种半导体材料制成。几乎同一时间，仙童半导体（Fairchild）的罗伯特·诺伊斯（Robert Noyce）也独立发明了基于硅的集成电路，并提出了更适合大规模生产的“平面工艺”。这一发明解决了电子元件过多导致无法焊接的“数量的暴政”，为微电子时代和现代计算机奠定了物理基础。",
+      "text_en": "On September 12, 1958, Jack Kilby, a new engineer at Texas Instruments, demonstrated an ugly little device to his bosses: a sliver of germanium glued to glass with messy gold wires protruding from it. When powered on, a perfect sine wave appeared on the oscilloscope. This was the world's first 'Integrated Circuit' (IC). Kilby had the genius insight that all circuit components (resistors, capacitors, transistors) could be made from the same semiconductor material. Almost simultaneously, Robert Noyce at Fairchild Semiconductor independently invented a silicon-based IC and proposed the 'planar process' suitable for mass production. This invention solved the 'Tyranny of Numbers' (where too many components made soldering impossible) and laid the physical foundation for the microelectronics age and modern computers.",
+      "key_points": [
+        "发明世界上第一块集成电路 (IC)",
+        "解决“数量的暴政” (Tyranny of Numbers)",
+        "提出“单片” (Monolithic) 概念：所有元件由同一块材料制成",
+        "基尔比 (TI) 和诺伊斯 (Fairchild) 为共同发明人",
+        "开启微电子和信息时代"
+      ],
+      "key_points_en": [
+        "Invention of the world's first Integrated Circuit (IC)",
+        "Solved the 'Tyranny of Numbers'",
+        "Proposed the 'Monolithic' concept: all components made from one material",
+        "Kilby (TI) and Noyce (Fairchild) are co-inventors",
+        "Launched the Microelectronics and Information Age"
+      ]
+    },
+  
+    "story": {
+      "text": "这个改变世界的发明源于一个没有假期的夏天。1958年7月，基尔比刚加入德州仪器，因为工龄不够，大多数同事都去休暑假了，只有他一个人留在空荡荡的实验室里。他盯着显微镜下的晶体管思考：既然晶体管是用半导体做的，为什么电阻和电容不能也用半导体做呢？如果大家都用同一种材料，是不是就可以把它们做在同一块晶片上，而不需要用电线把它们一个个焊起来？\n他把这个想法记在笔记本上，称为“单片思想”（Monolithic Idea）。当老板度假归来，基尔比用这块看起来像“被压扁的口香糖”一样的原型机证明了自己。虽然诺伊斯后来发明的硅芯片工艺更先进（且不用那些乱糟糟的飞线），但基尔比是第一个证明“集成”是可行的人。",
+      "text_en": "This world-changing invention stemmed from a vacation-less summer. In July 1958, Kilby had just joined Texas Instruments. lacking the tenure for vacation, he was left alone in the empty lab while most colleagues were away. He stared at transistors under a microscope and wondered: Since transistors are made of semiconductors, why can't resistors and capacitors be made of semiconductors too? If they were all the same material, couldn't they be built on a single slice, eliminating the need to solder them together one by one?\nHe wrote this down as the 'Monolithic Idea'. When his boss returned, Kilby proved himself with a prototype that looked like 'chewed gum'. Although Noyce's later silicon chip process was more advanced (and eliminated the messy flying wires), Kilby was the first to prove that 'integration' was possible.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/en/4/42/Kilby_solid_circuit.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📱",
+        "text": "为了给集成电路寻找市场（当时没人相信这玩意儿有用），基尔比后来发明了世界上第一台手持电子计算器（Pocket Calculator）。这让他在德州仪器成了传奇。",
+        "text_en": "To find a market for the IC (at the time, no one believed it was useful), Kilby later invented the world's first handheld electronic 'Pocket Calculator'. This made him a legend at Texas Instruments."
+      },
+      {
+        "icon": "🏆",
+        "text": "基尔比在2000年获得诺贝尔物理学奖。遗憾的是，罗伯特·诺伊斯早在1990年就去世了，而诺贝尔奖不颁发给已故者，否则这必定是一个共享的荣誉。",
+        "text_en": "Kilby won the Nobel Prize in Physics in 2000. Sadly, Robert Noyce had passed away in 1990, and since the Nobel is not awarded posthumously, he missed what would surely have been a shared honor."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你要建一座城市。\n**以前的方法（分立元件）：** 你得先造好每一栋房子，然后用电线杆和电线把它们一个个连起来。如果城市很大，电线就会乱成一团麻，稍微断一根，全城停电。\n**集成电路的方法：** 你找来一块巨大的岩石，直接在岩石上雕刻出所有的房子和地下的连接通道。没有接缝，不需要电线，既坚固又微小。\n这就是把成千上万个电子元件“集成”在一块指甲盖大小的硅片上的原理。",
+      "text_en": "Imagine building a city.\n**Old Method (Discrete Components):** You build each house individually and then connect them with poles and wires. If the city is huge, the wires become a tangled mess; if one breaks, the whole city goes dark.\n**Integrated Circuit Method:** You take a giant slab of rock and carve all the houses and underground tunnels directly into it. No seams, no wires, solid and tiny.\nThis is the principle of 'integrating' thousands of electronic components onto a silicon chip the size of a fingernail.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Siliconchip_by_shapeshifter.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🚀",
+          "title": "阿波罗计划",
+          "title_en": "Apollo Program",
+          "text": "NASA是集成电路最早的大客户。只有集成电路能让阿波罗飞船的制导计算机既轻便又足够聪明，飞向月球。",
+          "text_en": "NASA was the first major customer for ICs. Only integrated circuits could make the Apollo guidance computer light enough yet smart enough to fly to the moon."
+        },
+        {
+          "icon": "💻",
+          "title": "微处理器",
+          "title_en": "Microprocessors",
+          "text": "集成电路的发展最终导致了CPU的诞生，把电脑从房间大小变成了口袋大小。",
+          "text_en": "The evolution of ICs eventually led to the birth of the CPU, shrinking computers from room-sized to pocket-sized."
+        }
+      ],
+  
+    "impact": {
+      "text": "集成电路是人类历史上产量最大的工业产品。它直接导致了摩尔定律的诞生（芯片上的元件数量每两年翻一番）。它消灭了真空管时代的不可靠性，让电子设备变得极其廉价且无处不在。从烤面包机到洲际导弹，现代世界的每一个角落都运行在基尔比和诺伊斯发明的这块晶片之上。",
+      "text_en": "The integrated circuit is the most manufactured industrial product in human history. It directly led to Moore's Law (component count on a chip doubles every two years). It eliminated the unreliability of the vacuum tube era, making electronics extremely cheap and ubiquitous. From toasters to intercontinental missiles, every corner of the modern world runs on the chip invented by Kilby and Noyce.",
+      "stats": [
+          {
+            "number": "1958",
+            "label": "年 (基尔比演示)",
+            "label_en": "Year (Kilby Demo)"
+          },
+          {
+            "number": "1",
+            "label": "个 (芯片上的晶体管)",
+            "label_en": "Transistor on Chip"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "shockley_transistor_1947",
+          "contribution": "肖克利/巴丁/布拉顿（发明了晶体管，这是集成电路的基本单元）",
+          "contribution_en": "Shockley/Bardeen/Brattain (Invented the transistor, the basic unit of the integrated circuit)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "intel_4004_1971",
+          "contribution": "霍夫和法金（在集成电路的基础上，把整个CPU放到了一个芯片上，发明了微处理器）",
+          "contribution_en": "Hoff & Faggin (Built upon the IC to put an entire CPU on a single chip, inventing the microprocessor)"
+        },
+        {
+          "id": "moore_law_1965",
+          "contribution": "戈登·摩尔（诺伊斯的合伙人，基于集成电路的发展速度提出了著名的摩尔定律）",
+          "contribution_en": "Gordon Moore (Noyce's partner, proposed the famous Moore's Law based on the pace of IC development)"
+        }
+      ],
+      "legacy_text": "基尔比用那块丑陋的锗片，以此换来了整个数字世界。",
+      "legacy_text_en": "With that ugly piece of germanium, Kilby traded for the entire digital world."
+    },
+  
+    "related_concepts": ["数量的暴政 (Tyranny of Numbers)", "单片 (Monolithic)", "硅谷 (Silicon Valley)", "德州仪器 (TI)", "仙童半导体 (Fairchild)"],
+    "related_concepts_en": ["Tyranny of Numbers", "Monolithic", "Silicon Valley", "Texas Instruments", "Fairchild Semiconductor"],
+  
+    "quiz": {
+      "question": "在集成电路发明之前，电子工业面临的最大瓶颈被称为什么？（指随着电路越来越复杂，人工焊接元件变得不可能）",
+      "question_en": "Before the invention of the integrated circuit, what was the biggest bottleneck facing the electronics industry called? (Referring to the impossibility of manually soldering components as circuits grew complex)",
+      "options": [
+        "真空管危机",
+        "数量的暴政 (Tyranny of Numbers)",
+        "硅基屏障",
+        "摩尔墙"
+      ],
+      "options_en": [
+        "Vacuum Tube Crisis",
+        "The Tyranny of Numbers",
+        "Silicon Barrier",
+        "Moore's Wall"
+      ],
+      "answer": 1,
+      "explanation": "“数量的暴政”是指当一个电路需要成千上万个分立元件（电阻、晶体管）时，将它们一个个焊接起来不仅成本极高，而且几乎必然会出现连接故障。集成电路通过“一次性制造所有连接”解决了这个问题。",
+      "explanation_en": "'The Tyranny of Numbers' refers to the fact that when a circuit requires thousands of discrete components (resistors, transistors), soldering them individually is not only prohibitively expensive but also guarantees connection failures. The IC solved this by 'manufacturing all connections at once'."
+    }
+  }

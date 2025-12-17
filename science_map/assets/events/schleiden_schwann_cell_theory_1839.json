@@ -1,0 +1,151 @@
+{
+    "id": "schleiden_schwann_cell_theory_1839",
+    "personId": ["matthias_schleiden", "theodor_schwann"],
+    "title": "提出“细胞学说” (Cell Theory)",
+    "title_en": "Proposes the 'Cell Theory'",
+    "year": 1839,
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "city": "柏林",
+    "city_en": "Berlin",
+    "country": "普鲁士 (今德国)",
+    "country_en": "Prussia (Modern Germany)",
+    "storyline_id": ["micro_story"],
+    "field": ["生物学", "医学"],
+    "field_en": ["Biology", "Medicine"],
+    
+    "media": {
+      "event_image": "assets/images/cell_theory_2.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=4OpBylwH9DU",
+        "title": "细胞理论的古怪历史",
+        "title_en": "The Wacky History of Cell Theory",
+        "duration": "6:11"
+      }
+    },
+    
+    "summary": {
+      "text": "1839年，德国植物学家马蒂亚斯·施莱登（Matthias Schleiden）和动物学家西奥多·施旺（Theodor Schwann）在一次著名的晚餐交谈后，共同提出了生物学史上最重要的理论之一：“细胞学说”。他们断言：(1) 所有生物（无论是植物还是动物）都是由一个或多个“细胞”组成的；(2) 细胞是生命的基本结构和功能单位。这一理论统一了植物学和动物学，终结了生命是“连续体”的旧观念，并将生物学建立在了共同的微观基础之上。",
+      "text_en": "In 1839, after a famous dinner conversation, German botanist Matthias Schleiden and zoologist Theodor Schwann jointly proposed one of the most important theories in biology: the 'Cell Theory'. They asserted that: (1) All living things (whether plants or animals) are composed of one or more 'cells'; (2) The cell is the basic unit of structure and function in life. This theory unified botany and zoology, ending the old idea of life as a 'continuum' and grounding biology on a common microscopic foundation.",
+      "key_points": [
+        "提出“细胞学说” (Cell Theory)",
+        "统一了植物学和动物学",
+        "所有生物都由细胞组成",
+        "细胞是生命的基本单位",
+        "推翻了动植物结构完全不同的旧观念"
+      ],
+      "key_points_en": [
+        "Proposed the 'Cell Theory'",
+        "Unified Botany and Zoology",
+        "All living things are made of cells",
+        "The cell is the basic unit of life",
+        "Overturned the idea that plants and animals have fundamentally different structures"
+      ]
+    },
+  
+    "story": {
+      "text": "这个理论诞生于柏林的一次晚餐。施莱登（植物学家）告诉施旺，他发现所有植物组织都是由细胞构成的，并且都有细胞核。施旺（动物学家）听后大吃一惊，因为他在观察青蛙脊索时也看到了类似的结构，但他一直以为那只是巧合。他们立刻跑到施旺的解剖实验室，在显微镜下对比了植物细胞和动物细胞（软骨细胞）。他们震惊地发现：尽管外观不同，它们的核心结构（细胞膜、细胞质、细胞核）是完全一样的！那一刻，他们意识到：植物和动物不是两个世界，而是由同一种“积木”搭建的。施旺随即发表了《关于动植物的结构和生长一致性的显微研究》，正式宣告了细胞学说的诞生。",
+      "text_en": "The theory was born over dinner in Berlin. Schleiden (the botanist) told Schwann that he found all plant tissues were made of cells, each with a nucleus. Schwann (the zoologist) was stunned; he had seen similar structures in frog notochords but thought it was a coincidence. They immediately rushed to Schwann's lab to compare plant cells and animal cells (cartilage) under the microscope. They were shocked: despite looking different, their core structures (membrane, cytoplasm, nucleus) were identical! In that moment, they realized plants and animals weren't two separate worlds, but built from the same 'LEGO bricks'. Schwann then published 'Microscopical Researches into the Accordance in the Structure and Growth of Animals and Plants', formally announcing the Cell Theory.",
+      "diagram": "assets/images/cell_theory.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "❌",
+        "text": "虽然他们正确地指出了“所有生物都由细胞组成”，但他们对“新细胞从哪里来”完全搞错了。施莱登认为细胞像晶体一样从液体中“结晶”出来。直到后来魏尔肖（Virchow）才纠正说：“所有细胞都来自（分裂的）前一个细胞。”",
+        "text_en": "While they correctly stated 'all life is made of cells', they were dead wrong about *where new cells come from*. Schleiden thought they 'crystallized' out of liquid like gems. It took Virchow later to correct them: 'All cells come from (dividing) pre-existing cells.'"
+      },
+      {
+        "icon": "🔬",
+        "text": "在他们之前，虽然胡克（`hooke_micrographia_1665`）和列文虎克（`leeuwenhoek_bacteria_1676`）都看到了细胞，但他们只把细胞看作是“有趣的结构”，而没有意识到它是生命的“普遍单位”。",
+        "text_en": "Before them, although Hooke (`hooke_micrographia_1665`) and Leeuwenhoek (`leeuwenhoek_bacteria_1676`) saw cells, they only viewed them as 'interesting structures', not realizing they were the 'universal unit' of life."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在1839年之前，人们认为植物（像砖墙）和动物（像果冻）是完全不同的东西。施莱登和施旺通过显微镜发现了一个惊天秘密：其实它们都是由同样的微小“积木”——细胞——搭建起来的。\n植物是由“绿色积木”搭的，动物是由“软积木”搭的，但积木本身（有核、有膜）是一模一样的。\n这意味着，地球上所有的生命——从大树到大象，从你到我——在最底层都是“亲戚”。",
+      "text_en": "Before 1839, people thought plants (like brick walls) and animals (like jelly) were totally different things. Schleiden and Schwann used microscopes to discover a huge secret: they are both built from the *exact same tiny LEGO bricks*—cells.\nPlants are made of 'green bricks', animals of 'squishy bricks', but the bricks themselves (with a nucleus and skin) are identical.\nThis meant that all life on Earth—from trees to elephants, from you to me—are 'relatives' at the deepest level.",
+      "diagram": "assets/images/cell_theory.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🩺",
+          "title": "现代医学",
+          "title_en": "Modern Medicine",
+          "text": "细胞学说是现代医学的基础。如果你知道身体是由细胞组成的，你就能理解“癌症”（细胞疯长）或“感染”（细菌细胞入侵）。",
+          "text_en": "Cell Theory is the foundation of modern medicine. If you know the body is made of cells, you can understand 'cancer' (cells growing wildly) or 'infection' (bacterial cells invading)."
+        },
+        {
+          "icon": "🧬",
+          "title": "遗传学",
+          "title_en": "Genetics",
+          "text": "既然所有生命都由细胞组成，那么遗传的秘密（DNA）一定藏在细胞里（确切地说是细胞核里）。",
+          "text_en": "Since all life is made of cells, the secret of heredity (DNA) must be hidden *inside* the cell (specifically, the nucleus)."
+        }
+      ],
+  
+    "impact": {
+      "text": "细胞学说是生物学的三大基石之一（另外两个是进化论和基因论）。它完成了生物学的大统一，证明了生命在微观结构上的单一性。它将生物学从“博物学”（收集标本）转变为了一门研究“生命机制”的科学。它为后来的魏尔肖（病理学）、巴斯德（微生物学）和孟德尔（遗传学）铺平了道路。",
+      "text_en": "Cell Theory is one of the three pillars of biology (along with Evolution and Genetics). It achieved the Grand Unification of biology, proving the unity of life at the microscopic level. It transformed biology from 'natural history' (collecting specimens) into a science of 'life mechanisms'. It paved the way for Virchow (pathology), Pasteur (microbiology), and Mendel (genetics).",
+      "stats": [
+          {
+            "number": "1839",
+            "label": "年 (学说发表)",
+            "label_en": "Year (Theory Published)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "hooke_micrographia_1665",
+          "contribution": "罗伯特·胡克（他第一个发现并命名了“细胞”，为施莱登和施旺提供了基本概念）",
+          "contribution_en": "Robert Hooke (he first discovered and named the 'cell', providing the basic concept for Schleiden and Schwann)"
+        },
+        {
+          "id": "leeuwenhoek_bacteria_1676",
+          "contribution": "列文虎克（他证明了单细胞生物是独立活着的，暗示了细胞的独立生命力）",
+          "contribution_en": "Leeuwenhoek (he proved single-celled organisms were alive and independent, hinting at the cell's vitality)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "virchow_cell_pathology_1858",
+          "contribution": "鲁道夫·魏尔肖（他在细胞学说基础上提出了“细胞来自细胞”，并将疾病定义为“细胞的故障”）",
+          "contribution_en": "Rudolf Virchow (building on Cell Theory, he proposed 'All cells come from cells' and defined disease as 'cell malfunction')"
+        },
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "巴斯德（既然生命由细胞组成，那么“自然发生”就是不可能的，这导致了细菌理论）",
+          "contribution_en": "Louis Pasteur (since life is made of cells, 'spontaneous generation' is impossible, leading to Germ Theory)"
+        }
+      ],
+      "legacy_text": "施莱登和施旺发现了生命的“原子”——细胞。",
+      "legacy_text_en": "Schleiden and Schwann discovered the 'atom' of life—the Cell."
+    },
+  
+    "related_concepts": ["细胞 (Cell)", "细胞学说 (Cell Theory)", "细胞核 (Nucleus)", "植物学 (Botany)", "动物学 (Zoology)", "胡克 (Hooke)", "魏尔肖 (Virchow)"],
+    "related_concepts_en": ["Cell", "Cell Theory", "Nucleus", "Botany", "Zoology", "Hooke", "Virchow"],
+  
+    "quiz": {
+      "question": "施莱登（植物学家）和施旺（动物学家）在1839年共同得出了什么惊人的结论，从而统一了生物学？",
+      "question_en": "What shocking conclusion did Schleiden (botanist) and Schwann (zoologist) reach together in 1839, unifying biology?",
+      "options": [
+        "植物和动物是由完全不同的物质构成的",
+        "所有的生命，无论是植物还是动物，都是由“细胞”构成的",
+        "动物是由植物进化而来的",
+        "细胞是从水中自然结晶出来的"
+      ],
+      "options_en": [
+        "Plants and animals are made of completely different substances",
+        "All life, whether plant or animal, is composed of 'cells'",
+        "Animals evolved from plants",
+        "Cells spontaneously crystallize from water"
+      ],
+      "answer": 1,
+      "explanation": "这是细胞学说的核心：它打破了植物界和动物界的界限，证明了它们在微观结构上是统一的。所有的生命都是由相同的基本单位——细胞——构建的。",
+      "explanation_en": "This is the core of Cell Theory: it broke the barrier between the plant and animal kingdoms, proving they are unified at the microscopic level. All life is built from the same basic unit—the cell."
+    }
+  }

@@ -10,6 +10,7 @@
     "city_en": "Copenhagen",
     "country": "丹麦",
     "country_en": "Denmark",
+    "storyline_ids": ["electricity_story"],
     "field": ["物理学"],
     "field_en": ["Physics"],
     

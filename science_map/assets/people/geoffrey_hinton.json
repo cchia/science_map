@@ -1,0 +1,11 @@
+{
+    "name": "杰弗里·辛顿",
+    "name_en": "Geoffrey Hinton",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/30/Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%28cropped1%29.jpg",
+    "bio_short": "英国裔加拿大计算机科学家，认知心理学家，被尊称为“深度学习教父”。他是2018年图灵奖得主，并于2024年获得了诺贝尔物理学奖（这是AI领域的历史性时刻）。作为反向传播算法的主要推广者和AlexNet的导师，他在长达30年的“AI寒冬”中孤独地坚守着神经网络的研究。然而，在2023年，他突然辞去Google副总裁的职务，转型为AI安全领域最响亮的“吹哨人”，警告人类如果不加控制，超级智能可能会带来生存危机。值得一提的是，他是布尔代数发明者乔治·布尔的直系后裔。",
+    "bio_short_en": "British-Canadian computer scientist and cognitive psychologist, revered as the 'Godfather of Deep Learning'. He is a 2018 Turing Award laureate and was awarded the Nobel Prize in Physics in 2024 (a historic moment for AI). As the primary evangelist of the backpropagation algorithm and mentor behind AlexNet, he solitarily upheld neural network research during the 30-year 'AI Winter'. However, in 2023, he abruptly resigned as VP at Google to become the most vocal 'whistleblower' on AI safety, warning of the existential risks posed by uncontrolled superintelligence. Notably, he is a direct descendant of George Boole, the inventor of Boolean algebra.",
+    "events": [
+    "backprop_1986",
+    "alexnet_2012"
+    ]
+  }

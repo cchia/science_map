@@ -1,0 +1,10 @@
+{
+    "name": "威廉·洛",
+    "name_en": "William C. Lowe",
+    "portrait": "assets/images/william_lowe.png",
+    "bio_short": "美国工程师和高管，IBM PC项目的发起人。正是他向IBM管理委员会大胆提议绕过公司繁琐的研发流程，采用“买而非造”的策略，在一年内用现成零件组装出一台微型计算机。他建立了博卡拉顿实验室，并任命唐·埃斯特里奇负责具体执行，是“开放架构”战略的最初构想者。",
+    "bio_short_en": "American engineer and executive, the initiator of the IBM PC project. It was he who boldly proposed to the IBM Management Committee to bypass the company's cumbersome R&D process and adopt a 'buy, not make' strategy to assemble a microcomputer within a year using off-the-shelf parts. He established the Boca Raton lab and appointed Don Estridge to execute the plan, being the original architect of the 'Open Architecture' strategy.",
+    "events": [
+      "ibm_pc_1981"
+    ]
+  }

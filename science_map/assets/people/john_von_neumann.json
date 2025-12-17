@@ -1,0 +1,10 @@
+{
+    "name": "约翰·冯·诺依曼",
+    "name_en": "John von Neumann",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif",
+    "bio_short": "美籍匈牙利裔数学家、物理学家和计算机科学家，被誉为“计算机之父”和“博弈论之父”。他不仅在量子力学和核武器研发（曼哈顿计划）中做出了重大贡献，更在1945年提出了著名的“冯·诺依曼架构”（`von_neumann_architecture_1945`），确立了现代计算机存储程序的核心结构。",
+    "bio_short_en": "A Hungarian-American mathematician, physicist, and computer scientist, known as the 'Father of the Computer' and the 'Father of Game Theory'. Besides his major contributions to quantum mechanics and nuclear weapons (Manhattan Project), he proposed the famous 'Von Neumann Architecture' in 1945 (`von_neumann_architecture_1945`), establishing the core stored-program structure of modern computers.",
+    "events": [
+      "von_neumann_architecture_1945"
+    ]
+  }

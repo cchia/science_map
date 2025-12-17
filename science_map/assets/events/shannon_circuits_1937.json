@@ -1,7 +1,156 @@
 {
   "id": "shannon_circuits_1937",
-  "title": "Shannon Circuits",
-  "title_en": "Shannon Circuits",
+  "personId": "claude_shannon",
+  "title": "发明数字电路设计理论 (将布尔逻辑引入物理世界)",
+  "title_en": "Establishing Digital Circuit Theory (Bridging Boolean Logic and Physics)",
   "year": 1937,
-  "is_stub": true
+  "lat": 42.3601,
+  "lng": -71.0942,
+  "city": "剑桥 (麻省理工学院)",
+  "city_en": "Cambridge (MIT)",
+  "country": "美国",
+  "country_en": "United States",
+  "storyline_id": ["computing_origin_story"],
+  "field": ["电子工程", "信息论", "数学"],
+  "field_en": ["Electrical Engineering", "Information Theory", "Mathematics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Page_1_from_A_Symbolic_Analysis_of_Relay_and_Switching_Circuits.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=pHSRHi17RKM",
+      "title": "香农：比特的百年历史",
+      "title_en": "The Shannon Centennial: 1100100 years of bits",
+      "duration": "4:14"
+    }
+  },
+  
+  "summary": {
+    "text": "1937年，年仅21岁的麻省理工学院（MIT）硕士生克劳德·香农（Claude Shannon）完成了历史上最著名的硕士论文《继电器与开关电路的符号分析》。在此之前，电话交换机的电路设计主要靠工程师的直觉和经验。香农敏锐地发现，乔治·布尔（George Boole）在19世纪发明的“布尔代数”（Boolean Algebra，即真/假逻辑）可以完美对应电子开关的“通/断”（On/Off）状态。他证明了任何逻辑命题都可以通过继电器电路物理实现。这一发现打破了数学与工程学的界限，为现代所有数字计算机、CPU和电子芯片的设计奠定了坚实的理论基础。",
+    "text_en": "In 1937, 21-year-old MIT master's student Claude Shannon completed the most famous master's thesis in history: 'A Symbolic Analysis of Relay and Switching Circuits'. Before this, telephone switchboard circuits were designed largely by intuition and experience. Shannon keenly realized that the 'Boolean Algebra' (True/False logic) invented by George Boole in the 19th century perfectly mapped to the 'On/Off' states of electrical switches. He proved that any logical proposition could be physically implemented using relay circuits. This discovery shattered the boundary between mathematics and engineering, laying the theoretical foundation for the design of all modern digital computers, CPUs, and electronic chips.",
+    "key_points": [
+      "发表历史上最重要的硕士论文",
+      "将布尔代数 (Boolean Algebra) 应用于电路设计",
+      "证明了开关电路可以进行逻辑运算",
+      "确立了数字逻辑设计 (Digital Logic Design) 的基础",
+      "实现了“逻辑”到“物理”的转化"
+    ],
+    "key_points_en": [
+      "Published the most important master's thesis in history",
+      "Applied Boolean Algebra to circuit design",
+      "Proved switching circuits can perform logical operations",
+      "Established the foundation of Digital Logic Design",
+      "Achieved the translation from 'Logic' to 'Physics'"
+    ]
+  },
+
+  "story": {
+    "text": "香农当时正在MIT操作一台名为“微分分析仪”（Differential Analyzer）的巨大模拟计算机。那台机器里充满了嗡嗡作响的继电器（开关）。由于经常要修理这些复杂的开关电路，香农想起了他在大学选修课上学到的那个冷门的数学理论——布尔代数。他突然意识到：继电器的“开”就是布尔逻辑的“1”（真），“关”就是“0”（假）。串联电路就是“AND”（与运算），并联电路就是“OR”（或运算）。这个简单的顿悟瞬间将那些乱糟糟的电线变成了一个优雅的数学方程。这就像是他发现可以用代数公式来“写”电路图，而不需要拿着电烙铁瞎试。",
+    "text_en": "Shannon was working on a giant analog computer at MIT called the 'Differential Analyzer'. The machine was full of buzzing relays (switches). Constantly fixing these complex switching circuits, Shannon recalled an obscure mathematical theory he learned in an elective course—Boolean Algebra. He suddenly realized: A relay being 'On' is Boolean '1' (True), and 'Off' is '0' (False). A series circuit is 'AND', and a parallel circuit is 'OR'. This simple epiphany instantly turned a mess of wires into an elegant mathematical equation. It was as if he discovered he could 'write' circuit diagrams using algebraic formulas instead of blindly testing with a soldering iron.",
+    "diagram": "assets/images/shannon_circuits.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "📜",
+      "text": "这篇论文被誉为“本世纪最重要、最著名的硕士论文”。它不仅让香农获得了学位，还直接开启了数字电路这门学科。",
+      "text_en": "This thesis is hailed as 'the most important, and also the most famous, master's thesis of the century'. It didn't just earn Shannon a degree; it effectively launched the entire discipline of digital circuit design."
+    },
+    {
+      "icon": "🤹",
+      "text": "香农是一个非常有趣的人，他后来以一边骑独轮车一边抛球杂耍而闻名贝尔实验室。他还发明了无用的机器（Ultimate Machine），唯一的功能就是伸出一只手把自己关掉。",
+      "text_en": "Shannon was a playful character, later famous at Bell Labs for juggling while riding a unicycle. He also invented the 'Ultimate Machine', a box whose only function was to extend a hand and turn itself off."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "在香农之前，如果你想造一个计算器，你得是个手艺高超的电工，凭感觉连线。\n香农说：不，你只需要是个数学家。\n开关连在一起（串联） = 逻辑“与”（AND）。\n开关并排连着（并联） = 逻辑“或”（OR）。\n如果你想让机器算“1+1=2”，你不需要画电线，你只需要写下数学公式，然后照着公式把开关连起来就行了。这是把“思想”变成“机器”的说明书。",
+    "text_en": "Before Shannon, if you wanted to build a calculator, you had to be a skilled electrician, wiring by gut feeling.\nShannon said: No, you just need to be a mathematician.\nSwitches connected in a row (Series) = Logic 'AND'.\nSwitches connected side-by-side (Parallel) = Logic 'OR'.\nIf you want a machine to calculate '1+1=2', you don't need to draw wires; you just write the math formula, and then connect switches according to the formula. It's the instruction manual for turning 'thoughts' into 'machines'.",
+    "diagram": "assets/images/shannon_circuits_2.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "💻",
+        "title": "计算机芯片",
+        "title_en": "Computer Chips",
+        "text": "无论是以前的继电器，还是现在的晶体管，所有计算机芯片的设计逻辑依然完全遵循香农定义的规则。",
+        "text_en": "From early relays to modern transistors, the design logic of all computer chips still strictly follows the rules defined by Shannon."
+      },
+      {
+        "icon": "📞",
+        "title": "电话网络",
+        "title_en": "Telephone Networks",
+        "text": "最初的应用是优化庞大的电话交换网络，使得通话线路的自动分配变得高效且不出错。",
+        "text_en": "The initial application was optimizing massive telephone switching networks, making the automatic allocation of call lines efficient and error-free."
+      }
+    ],
+
+  "impact": {
+    "text": "香农的这篇论文是计算机硬件历史的分水岭。它证明了逻辑是可以机械化的。这直接启发了后来的ENIAC和冯·诺依曼架构。如果说图灵提供了计算机的“灵魂”（算法理论），香农则教给了我们如何制造计算机的“肉体”（逻辑电路）。",
+    "text_en": "Shannon's thesis was a watershed moment in computer hardware history. It proved that logic could be mechanized. This directly inspired the later ENIAC and von Neumann architecture. If Turing provided the 'soul' of the computer (algorithmic theory), Shannon taught us how to build its 'body' (logic circuits).",
+    "stats": [
+        {
+          "number": "1937",
+          "label": "年 (论文完成)",
+          "label_en": "Year (Thesis Completed)"
+        },
+        {
+          "number": "21",
+          "label": "岁 (香农年龄)",
+          "label_en": "Age (Shannon)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "boole_logic_1854",
+        "contribution": "乔治·布尔（香农是第一个真正读懂布尔并发现其工程价值的人，他把布尔代数从故纸堆里复活了）",
+        "contribution_en": "George Boole (Shannon was the first to truly understand Boole and see his engineering value, resurrecting Boolean algebra from obscurity)"
+      },
+      {
+        "id": "vannevar_bush_differential_analyzer",
+        "contribution": "范内瓦·布什（香农的导师，微分分析仪的发明者，他鼓励香农去研究这一数学逻辑关系）",
+        "contribution_en": "Vannevar Bush (Shannon's mentor and inventor of the Differential Analyzer, who encouraged Shannon to explore this mathematical logic relationship)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "von_neumann_architecture_1945",
+        "contribution": "冯·诺依曼（利用香农的理论构建了电子计算机的逻辑门电路）",
+        "contribution_en": "John von Neumann (Used Shannon's theory to construct logic gate circuits for electronic computers)"
+      },
+      {
+        "id": "shannon_information_theory_1948",
+        "contribution": "（香农自己）信息论（在搞定电路逻辑后，他又用数学定义了“信息”本身，再次改变世界）",
+        "contribution_en": "(Himself) Information Theory (After solving circuit logic, he went on to mathematically define 'information' itself, changing the world again)"
+      }
+    ],
+    "legacy_text": "他在21岁时就证明了：思考也可以是一连串的开关。",
+    "legacy_text_en": "At 21, he proved that thinking could be just a series of switches."
+  },
+
+  "related_concepts": ["布尔代数 (Boolean Algebra)", "逻辑门 (Logic Gates)", "继电器 (Relay)", "数字电路 (Digital Circuits)", "信息论 (Information Theory)"],
+  "related_concepts_en": ["Boolean Algebra", "Logic Gates", "Relay", "Digital Circuits", "Information Theory"],
+
+  "quiz": {
+    "question": "克劳德·香农在他的硕士论文中，发现哪种数学工具可以完美描述电子开关电路的行为？",
+    "question_en": "In his master's thesis, what mathematical tool did Claude Shannon discover could perfectly describe the behavior of electronic switching circuits?",
+    "options": [
+      "微积分",
+      "布尔代数 (Boolean Algebra)",
+      "欧几里得几何",
+      "博弈论"
+    ],
+    "options_en": [
+      "Calculus",
+      "Boolean Algebra",
+      "Euclidean Geometry",
+      "Game Theory"
+    ],
+    "answer": 1,
+    "explanation": "香农发现，乔治·布尔发明的关于“真/假”的二元逻辑，可以直接映射到电路开关的“通/断”状态上。这使得电路设计从一种经验手艺变成了一门精确的数学科学。",
+    "explanation_en": "Shannon discovered that the binary logic of 'True/False' invented by George Boole could directly map to the 'On/Off' states of circuit switches. This turned circuit design from an empirical craft into a precise mathematical science."
+  }
 }

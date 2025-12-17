@@ -1,0 +1,10 @@
+{
+    "name": "杰克·基尔比",
+    "name_en": "Jack Kilby",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/91/Jack_Kilby_%28cropped%29.png",
+    "bio_short": "美国电气工程师，2000年诺贝尔物理学奖得主。他在德州仪器工作期间发明了世界上第一块集成电路（`integrated_circuit_1958`），一举解决了电子元件“数量的暴政”。此外，他还是手持电子计算器的发明者。",
+    "bio_short_en": "An American electrical engineer and 2000 Nobel laureate in Physics. While working at Texas Instruments, he invented the world's first integrated circuit (`integrated_circuit_1958`), solving the 'Tyranny of Numbers' in electronics. He is also the inventor of the handheld electronic calculator.",
+    "events": [
+      "integrated_circuit_1958"
+    ]
+  }

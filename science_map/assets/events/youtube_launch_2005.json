@@ -1,0 +1,156 @@
+{
+    "id": "youtube_launch_2005",
+    "personId": ["jawed_karim", "steve_chen", "chad_hurley"],
+    "title": "YouTube上线 (广播你自己)",
+    "title_en": "Launch of YouTube (Broadcast Yourself)",
+    "year": 2005,
+    "lat": 37.5668,
+    "lng": -122.3242,
+    "city": "圣马特奥 (楼上的披萨店)",
+    "city_en": "San Mateo (Above a Pizzeria)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "媒体"],
+    "field_en": ["Computer Science", "Media"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/20/YouTube_2024.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=eLYizanla8A",
+        "title": "YouTube的历史",
+        "title_en": "What is YouTube? History of YouTube social media platform",
+        "duration": "5:56"
+      }
+    },
+    
+    "summary": {
+      "text": "2005年2月14日（情人节），三位前PayPal员工查德·赫利、史蒂夫·陈和贾德·卡林注册了YouTube.com域名。最初，他们的设想是一个视频约会网站（口号是“Tune In, Hook Up”），但因为没人上传视频，他们不得不被迫转型为通用视频分享平台。2005年4月23日，贾德·卡林上传了全站第一个视频《Me at the zoo》，这段只有19秒的视频拍摄于圣地亚哥动物园。短短一年后，YouTube每天的视频播放量就突破了1亿次，并于2006年被Google以16.5亿美元收购。",
+      "text_en": "On February 14, 2005 (Valentine's Day), three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—registered the domain YouTube.com. Initially envisioned as a video dating site (slogan: 'Tune In, Hook Up'), the idea flopped when no one uploaded videos, forcing them to pivot to a general video sharing platform. On April 23, 2005, Jawed Karim uploaded the site's first video, 'Me at the zoo', a 19-second clip filmed at the San Diego Zoo. Within just a year, YouTube was serving over 100 million video views per day and was acquired by Google for $1.65 billion in 2006.",
+      "key_points": [
+        "由三位前PayPal员工创立（属于PayPal黑帮成员）",
+        "最初的创意其实是一个视频约会网站",
+        "第一个视频是《Me at the zoo》，仅有19秒长",
+        "Google仅用18个月就以16.5亿美元收购了它",
+        "彻底改变了人类消费视频和娱乐的方式"
+      ],
+      "key_points_en": [
+        "Founded by three former PayPal employees (members of the PayPal Mafia)",
+        "Originally conceived as a video dating website",
+        "The first video was 'Me at the zoo', only 19 seconds long",
+        "Acquired by Google for $1.65 billion just 18 months after launch",
+        "Revolutionized how humanity consumes video and entertainment"
+      ]
+    },
+  
+    "story": {
+      "text": "关于YouTube的起源有两个版本的故事。媒体版本是：查德和史蒂夫在旧金山的一个晚宴派对上拍了一些视频，却发现找不到简单的方法发给朋友，于是萌生了创业的想法。而贾德·卡林的版本则更极客：他当时想在网上找珍妮·杰克逊在超级碗“露乳门”的视频，以及2004年印度洋海啸的视频，却发现根本找不到。不管哪个是真的，他们最终在圣马特奥的一家披萨店楼上租了间简陋的办公室，用信用卡透支买来的服务器开启了这场视频革命。",
+      "text_en": "There are two versions of the YouTube origin story. The media version: Chad and Steve shot some videos at a dinner party in San Francisco but couldn't find an easy way to share them with friends, sparking the idea. Jawed Karim's version is geekier: he was looking for clips of Janet Jackson's Super Bowl 'wardrobe malfunction' and the 2004 Indian Ocean tsunami but couldn't find them anywhere. Whichever is true, they eventually rented a humble office above a pizzeria in San Mateo and started the video revolution with servers bought on maxed-out credit cards.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Youtube_logo.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🐘",
+        "text": "YouTube上的第一个视频《Me at the zoo》非常无聊，贾德·卡林只是站在大象面前说：“这些家伙有个很酷的地方，就是它们的鼻子真的很长。”这个视频至今仍在，是互联网的历史地标。",
+        "text_en": "The first video on YouTube, 'Me at the zoo', is incredibly mundane. Jawed Karim just stands in front of elephants and says, 'The cool thing about these guys is that they have really, really, really long trunks.' The video is still up today, a historical landmark of the internet."
+      },
+      {
+        "icon": "💔",
+        "text": "为了推广最初的“约会网站”概念，创始人甚至在Craigslist上打广告，悬赏20美元求女性上传视频自我介绍，结果还是没人理他们。",
+        "text_en": "To promote the original 'dating site' concept, the founders even placed ads on Craigslist offering $20 to women who would upload videos introducing themselves. Still, no one responded."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在YouTube之前，如果你拍了一段视频想给别人看，你得把它刻录成光盘，或者通过极其缓慢的邮件发送。\nYouTube创造了一个“视频的大本营”，你只要上传一次，全世界的人只要有一个链接就能立刻看到。\n它把“电视台”的权力交到了每个人手中。",
+      "text_en": "Before YouTube, if you shot a video and wanted to show someone, you had to burn it onto a DVD or send it via agonizingly slow email.\nYouTube created a 'home base for video'. You upload it once, and anyone in the world with a link can watch it instantly.\nIt put the power of a 'TV station' into everyone's hands.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "▶️",
+          "title": "Flash Video (FLV)",
+          "title_en": "Flash Video (FLV)",
+          "text": "YouTube早期成功的关键技术。它允许视频在浏览器中直接播放，而不需要用户下载复杂的播放器插件。",
+          "text_en": "The key technology behind YouTube's early success. It allowed videos to play directly in the browser without users needing to download complex player plugins."
+        },
+        {
+          "icon": "🤝",
+          "title": "Partner Program (合作伙伴计划)",
+          "title_en": "Partner Program",
+          "text": "通过与创作者分享广告收入，YouTube催生了一个全新的职业——YouTuber（网红/博主）。",
+          "text_en": "By sharing ad revenue with creators, YouTube birthed a brand new profession—the YouTuber."
+        }
+      ],
+  
+    "impact": {
+      "text": "YouTube是继Google搜索之后，互联网最重要的信息入口之一。它不仅杀死了传统的MTV，还成为了全球最大的音乐流媒体平台、最大的教育库和最大的新闻现场。从贾斯汀·比伯的成名到“江南Style”的爆红，YouTube塑造了全球流行文化。对于Google来说，这是史上最划算的一笔收购，如今YouTube每年的广告收入就超过300亿美元。",
+      "text_en": "YouTube is one of the most important gateways to information on the internet, second only to Google Search. It not only killed traditional MTV but became the world's largest music streaming platform, largest education library, and largest news scene. From the rise of Justin Bieber to the explosion of 'Gangnam Style', YouTube shapes global pop culture. For Google, it was the best bargain in history; today, YouTube generates over $30 billion in annual ad revenue.",
+      "stats": [
+          {
+            "number": "1650000000",
+            "label": "美元 (收购价格)",
+            "label_en": "USD (Acquisition Price)"
+          },
+          {
+            "number": "500",
+            "label": "小时 (每分钟上传时长)",
+            "label_en": "Hours (Uploaded per Minute)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "paypal_launch_1998",
+          "contribution": "PayPal（不仅三位创始人来自这里，PayPal出售后分给他们的奖金也是YouTube的启动资金）",
+          "contribution_en": "PayPal (Not only did the three founders come from here, but their bonuses from the PayPal sale also served as YouTube's seed money)"
+        },
+        {
+          "id": "facebook_launch_2004",
+          "contribution": "Facebook（早期的MySpace和Facebook用户极度渴望在主页上嵌入视频，这为YouTube提供了病毒式传播的土壤）",
+          "contribution_en": "Facebook (Early MySpace and Facebook users were desperate to embed videos on their profiles, providing fertile ground for YouTube's viral spread)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "tiktok_launch_2016",
+          "contribution": "TikTok（短视频是YouTube模式在移动时代的极致进化，迫使YouTube后来推出了Shorts）",
+          "contribution_en": "TikTok (Short video is the ultimate evolution of the YouTube model in the mobile era, forcing YouTube to later launch Shorts)"
+        },
+        {
+          "id": "netflix_streaming_2007",
+          "contribution": "Netflix（YouTube证明了在线流媒体的可行性和巨大需求，加速了Netflix从DVD向流媒体的转型）",
+          "contribution_en": "Netflix (YouTube proved the viability and massive demand for online streaming, accelerating Netflix's pivot from DVDs to streaming)"
+        }
+      ],
+      "legacy_text": "Broadcast Yourself. (广播你自己)",
+      "legacy_text_en": "Broadcast Yourself."
+    },
+  
+    "related_concepts": ["UGC (用户生成内容)", "网红经济 (Creator Economy)", "病毒视频", "流媒体", "DMCA (数字千年版权法)"],
+    "related_concepts_en": ["UGC", "Creator Economy", "Viral Video", "Streaming", "DMCA"],
+  
+    "quiz": {
+      "question": "YouTube最初成立时的商业构想是什么？",
+      "question_en": "What was the original business concept when YouTube was founded?",
+      "options": [
+        "一个教育视频平台",
+        "一个视频约会网站",
+        "一个像Netflix一样的电影租赁网站",
+        "一个专门分享猫视频的网站"
+      ],
+      "options_en": [
+        "An educational video platform",
+        "A video dating site",
+        "A movie rental site like Netflix",
+        "A site dedicated to cat videos"
+      ],
+      "answer": 1,
+      "explanation": "创始人最初想做视频版的Hot or Not，让人们上传视频来相亲。他们甚至注册域名选在情人节也是为了迎合这个主题。幸运的是，这个想法失败了，用户开始上传各种随机视频，他们顺水推舟改成了通用平台。",
+      "explanation_en": "The founders originally wanted to create a video version of 'Hot or Not' for people to date. Registering the domain on Valentine's Day was intentional. Luckily, the idea flopped, and users started uploading random videos, so they pivoted to a general platform."
+    }
+  }

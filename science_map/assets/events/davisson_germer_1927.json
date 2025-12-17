@@ -1,0 +1,155 @@
+{
+    "id": "davisson_germer_1927",
+    "personId": ["clinton_davisson", "lester_germer"],
+    "title": "实验证实物质波 (戴维森-革末实验)",
+    "title_en": "Experimental Confirmation of Matter Waves (Davisson-Germer Experiment)",
+    "year": 1927,
+    "lat": 40.7357,
+    "lng": -74.0036,
+    "city": "纽约市 (贝尔实验室)",
+    "city_en": "New York City (Bell Labs)",
+    "country": "美国",
+    "country_en": "United States",
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/electron_diffraction.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=qcVjIJLVpgc",
+        "title": "电子像波一样行为：戴维森和革末的实验",
+        "title_en": "Electrons act as waves : the proof by Davisson and Germer",
+        "duration": "9:16"
+      }
+    },
+    
+    "summary": {
+      "text": "克林顿·戴维森和雷斯特·革末, 在贝尔实验室工作, 为路易·德布罗意的\"物质波\"假说 (`de_broglie_matter_waves_1924`) 提供了决定性的实验证据. 通过向镍晶体发射电子束, 他们观察到电子并没有像粒子一样随机散射, 而是形成了一个与X射线 (波) 相同的\"衍射图案\". 这证实了物质 (电子) 具有波动性, 巩固了波粒二象性的概念, 并为戴维森赢得了1937年的诺贝尔奖.",
+      "text_en": "Clinton Davisson and Lester Germer, working at Bell Labs, provided the definitive experimental proof for Louis de Broglie's hypothesis of 'Matter Waves' (`de_broglie_matter_waves_1924`). By firing a beam of electrons at a nickel crystal, they observed that the electrons did not scatter randomly like particles, but formed a 'diffraction pattern' identical to X-rays (waves). This confirmed that matter (electrons) possesses wave-like properties, solidifying the concept of wave-particle duality and earning Davisson the 1937 Nobel Prize.",
+      "key_points": [
+        "\"波粒二象性\"的实验证据",
+        "证实了德布罗意的\"物质波\"假说",
+        "观察到了\"电子衍射\"",
+        "使用了镍晶体靶",
+        "验证了量子力学"
+      ],
+      "key_points_en": [
+        "Experimental proof of 'Wave-Particle Duality'",
+        "Confirmed de Broglie's 'Matter Wave' hypothesis",
+        "Observed 'Electron Diffraction'",
+        "Used a Nickel crystal target",
+        "Validates quantum mechanics"
+      ]
+    },
+  
+    "story": {
+      "text": "这个发现部分源于一次幸运的事故. 戴维森和革末正在研究电子从镍表面的反射. 在一次实验中, 一个液态空气瓶爆炸了, 震碎了真空管并氧化了镍靶. 为了清洁镍, 他们将其加热到非常高的温度. 这个加热过程意外地将镍从许多小晶体变成了几个巨大的单晶. 当他们恢复实验时, 电子以一种奇怪的, 有峰值的图案反射, 而不是平滑的分布. 他们意识到大晶体的规则原子间距起到了电子波的\"衍射光栅\"的作用, 正如布拉格 (`bragg_diffraction_1913`) 对X射线所描述的那样.",
+      "text_en": "This discovery was partly due to a lucky accident. Davisson and Germer were studying electron reflection from nickel surfaces. During one experiment, a liquid air bottle exploded, shattering the vacuum tube and oxidizing the nickel target. To clean the nickel, they heated it to a very high temperature. This heating process accidentally transformed the nickel from many small crystals into a few large, single crystals. When they resumed the experiment, the electrons reflected in a strange, peaked pattern rather than a smooth distribution. They realized the regular atomic spacing of the large crystal was acting as a 'diffraction grating' for the electron waves, exactly as Bragg (`bragg_diffraction_1913`) had described for X-rays.",
+      "diagram": "assets/images/electron_diffraction_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🇬🇧",
+        "text": "同年 (1927年), 苏格兰的乔治·佩吉特·汤姆孙使用金属薄膜独立发现了电子衍射. 他与戴维森分享了诺贝尔奖.",
+        "text_en": "In the same year (1927), George Paget Thomson in Scotland independently discovered electron diffraction using thin metal films. He shared the Nobel Prize with Davisson."
+      },
+      {
+        "icon": "🤣",
+        "text": "J.J. 汤姆孙 (父亲) 因证明电子是\"粒子\"而获得诺贝尔奖. 乔治·佩吉特·汤姆孙 (儿子) 因证明电子是\"波\"而获得诺贝尔奖. 他们都是对的.",
+        "text_en": "J.J. Thomson (the father) won a Nobel Prize for proving the electron is a 'Particle'. George Paget Thomson (the son) won a Nobel Prize for proving the electron is a 'Wave'. Both were right."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "德布罗意说\"粒子像波一样行为\". 戴维森和革末验证了这一点.\n他们向\"水晶墙\" (镍) 发射\"电子\" (粒子).\n如果电子只是球, 它们会随机地向各个方向反弹.\n但它们没有. 它们以特定的角度成束反弹, 形成了一种图案.\n这正是\"水波\"或\"光波\"撞击格栅时所做的 (衍射). 这证明了固体物质像波一样运动.",
+      "text_en": "De Broglie said 'Particles behave like waves'. Davisson and Germer checked this.\nThey shot 'electrons' (particles) at a 'crystal wall' (nickel).\nIf electrons were just balls, they would bounce off in all directions randomly.\nBut they didn't. They bounced off in specific 'beams' at specific angles, creating a pattern.\nThis is exactly what 'water waves' or 'light waves' do when they hit a grate (Diffraction). It proved that solid matter moves like a wave.",
+      "diagram": "assets/images/electron_diffraction_2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🔬",
+          "title": "电子显微镜",
+          "title_en": "Electron Microscopy",
+          "text": "电子像波一样衍射的事实使我们可以制造电子显微镜, 它使用电子束而不是光来看比原子还小的东西.",
+          "text_en": "The fact that electrons diffract like waves allows us to build Electron Microscopes, which use electron beams instead of light to see things smaller than atoms."
+        },
+        {
+          "icon": "💻",
+          "title": "低能电子衍射 (LEED)",
+          "title_en": "LEED (Low-Energy Electron Diffraction)",
+          "text": "这个实验诞生了LEED技术, 今天广泛用于材料科学以研究晶体的表面结构.",
+          "text_en": "This experiment birthed the technique of LEED, widely used today in materials science to study the surface structure of crystals."
+        }
+      ],
+  
+    "impact": {
+      "text": "戴维森-革末实验是早期量子力学的最后一块拼图. 它将德布罗意的\"物质波\"从理论假说变成了观察到的现实. 它证实了量子力学定律不仅适用于光 (光子), 也适用于物质 (电子), 确立了波粒二象性的普遍性.",
+      "text_en": "The Davisson-Germer experiment was the final piece of the puzzle for early quantum mechanics. It moved de Broglie's 'Matter Waves' from a theoretical hypothesis to an observed reality. It confirmed that the laws of quantum mechanics apply not just to light (photons), but to matter (electrons), establishing the universal nature of Wave-Particle Duality.",
+      "stats": [
+          {
+            "number": "1927",
+            "label": "年 (实验证实)",
+            "label_en": "Year (Experimental Proof)"
+          },
+          {
+            "number": "54",
+            "label": "伏特 (加速电压)",
+            "label_en": "Volts (Accelerating Voltage)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "de_broglie_matter_waves_1924",
+          "contribution": "德布罗意 (他的\"物质是波\"的假说是他们正在测试的)",
+          "contribution_en": "De Broglie (his hypothesis that 'matter is a wave' was what they were testing)"
+        },
+        {
+          "id": "bragg_diffraction_1913",
+          "contribution": "布拉格 (他的X射线衍射定律提供了通过电子图案解释数学的基础)",
+          "contribution_en": "Bragg (his law of X-ray diffraction provided the math to interpret the electron pattern)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "electron_microscope_1931",
+          "contribution": "恩斯特·鲁斯卡 (利用电子的波动性发明了电子显微镜)",
+          "contribution_en": "Ernst Ruska (used the wave nature of electrons to invent the Electron Microscope)"
+        },
+        {
+          "id": "schrodinger_equation_1926",
+          "contribution": "薛定谔 (该实验验证了他的波动力学方法)",
+          "contribution_en": "Schrödinger (the experiment validated his wave mechanics approach)"
+        }
+      ],
+      "legacy_text": "戴维森和革末证明了即使是固体物质, 在其核心, 也是一种波.",
+      "legacy_text_en": "Davisson and Germer proved that even solid matter is, at its heart, a wave."
+    },
+  
+    "related_concepts": ["波粒二象性", "电子衍射", "德布罗意波长", "布拉格定律", "量子力学", "晶体学"],
+    "related_concepts_en": ["Wave-Particle Duality", "Electron Diffraction", "De Broglie Wavelength", "Bragg's Law", "Quantum Mechanics", "Crystallography"],
+  
+    "quiz": {
+      "question": "戴维森和革末观察到了什么现象证明电子像波一样行为?",
+      "question_en": "What phenomenon did Davisson and Germer observe that proved electrons behave like waves?",
+      "options": [
+        "反射 (直接弹回)",
+        "折射 (弯曲)",
+        "衍射 (形成干涉图案)",
+        "加速 (加速)"
+      ],
+      "options_en": [
+        "Reflection (bouncing straight back)",
+        "Refraction (bending)",
+        "Diffraction (forming an interference pattern)",
+        "Acceleration (speeding up)"
+      ],
+      "answer": 2,
+      "explanation": "衍射是波独有的属性. 粒子随机散射, 但波干涉形成波峰和波谷 (图案). 看到电子形成图案证明了它们有波长.",
+      "explanation_en": "Diffraction is a property unique to waves. Particles scatter randomly, but waves interfere to form peaks and troughs (patterns). Seeing electrons form a pattern proved they have a wavelength."
+    }
+  }

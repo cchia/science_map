@@ -1,0 +1,144 @@
+{
+    "id": "mozi_optics_BC400",
+    "personId": "mozi",
+    "title": "记载“小孔成像” (光沿直线传播)",
+    "title_en": "Records 'Pinhole Imaging' (Rectilinear Propagation of Light)",
+    "year": -400,
+    "lat": 35.1052,
+    "lng": 117.1624,
+    "city": "鲁国 (今山东滕州)",
+    "city_en": "State of Lu (Modern Tengzhou)",
+    "country": "中国 (战国时期)",
+    "country_en": "China (Warring States Period)",
+    "field": ["物理学", "哲学"],
+    "field_en": ["Physics", "Philosophy"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1755_james_ayscough.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=sssKY3TRWmE",
+        "title": "小孔成像",
+        "title_en": "Camera Obscura Explained",
+        "duration": "4:20"
+      }
+    },
+    
+    "summary": {
+      "text": "墨子（Mozi）及其追随者（墨家）在著作《墨经》中，留下了世界上关于“小孔成像”（Camera Obscura）的最早文字记载。通过观察光线穿过微小孔洞投射在墙上的倒像，墨子正确地推断出：光是像“射箭”一样沿直线传播的。这一发现比古希腊的亚里士多德和欧几里得对光学的论述还要早。",
+      "text_en": "Mozi and his followers (the Mohists) recorded the world's earliest known written description of the 'Camera Obscura' effect in the text 'Mojing'. By observing the inverted image projected on a wall through a tiny hole, Mozi correctly deduced that light travels in straight lines, like an 'arrow'. This discovery predates the optical works of Aristotle and Euclid in ancient Greece.",
+      "key_points": [
+        "世界上最早的“小孔成像”记载",
+        "发现“光沿直线传播” (Rectilinear Propagation)",
+        "解释了图像为何是“倒立”的 (Inverted Image)",
+        "记录于《墨经》(Mojing / Mohist Canon)"
+      ],
+      "key_points_en": [
+        "Earliest known record of 'Pinhole Imaging'",
+        "Discovered 'Rectilinear Propagation' of light",
+        "Explained why the image is 'inverted'",
+        "Recorded in the 'Mojing' (Mohist Canon)"
+      ]
+    },
+  
+    "story": {
+      "text": "墨子不仅是哲学家，也是一位伟大的科学家和工程师。他在《墨经》中写道：“景到（倒），在午有端。” 意思是：影子（图像）是倒着的，因为光线在小孔（午）处交叉。他用了一个非常生动的比喻：光线就像射出的箭。来自物体“上部”的光线，穿过小孔后射到了“下部”；来自“下部”的光线，穿过小孔射到了“上部”。这就像船桨在划船时，桨柄和桨叶运动方向相反一样。他将这个光线交叉点（焦点）称为“端”。这是人类历史上第一次用几何光学原理解释物理现象。",
+      "text_en": "Mozi was not just a philosopher but a great scientist and engineer. He wrote in the *Mojing*: 'The image is inverted, because the light crosses at a point.' He used a vivid metaphor: light is like an arrow. Light from the *top* of an object shoots through the hole to the *bottom*; light from the *bottom* shoots to the *top*. He compared this to an oar in a rowlock: when the handle goes down, the blade goes up. He called this crossing point (focal point) the 'end'. This was the first time in history a physical phenomenon was explained using geometric optics.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pinhole-camera.svg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🔦",
+        "text": "墨子不仅研究了小孔成像，还研究了“平面镜”、“凹面镜”和“凸面镜”的成像原理，这在当时是极其实用的（用于军事信号或取火）。",
+        "text_en": "Mozi didn't just study pinholes; he also analyzed plane, concave, and convex mirrors, which was extremely practical knowledge at the time (for military signals or starting fires)."
+      },
+      {
+        "icon": "🛡️",
+        "text": "墨家学派后来因为“秦始皇焚书坑儒”和独尊儒术而衰落，导致墨子的科学成就在中国历史上被“遗忘”了近两千年，直到清朝末期才被重新发掘。",
+        "text_en": "The Mohist school declined after the Qin Dynasty's 'burning of books' and the rise of Confucianism. As a result, Mozi's scientific achievements were largely 'forgotten' in Chinese history for nearly 2,000 years, until being rediscovered in the late Qing Dynasty."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "墨子发现，如果你在一个黑暗的房间墙上钻一个小孔，外面的树在对面的墙上会变成“倒着”的。为什么？\n墨子说：因为光是直着走的，像一支箭。\n树顶的光“射”进洞，直着走到墙的“下”面。\n树根的光“射”进洞，直着走到墙的“上”面。\n光线在洞口“打了个结”（交叉），所以图像就倒过来了。这是照相机最原始的原理。",
+      "text_en": "Mozi found that if you drill a tiny hole in the wall of a dark room, the tree outside appears 'upside down' on the opposite wall. Why?\nMozi said: Because light walks straight, like an arrow.\nLight from the *top* of the tree shoots through the hole to the *bottom* of the wall.\nLight from the *bottom* of the tree shoots through the hole to the *top* of the wall.\nThe light rays 'cross' at the hole, so the image flips. This is the primitive principle of a camera.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Camera_Obscura_box18thCentury.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📷",
+          "title": "照相机 (Camera)",
+          "title_en": "Camera",
+          "text": "“小孔成像”是所有现代照相机（Camera Obscura，拉丁语意为“暗室”）的物理原型。",
+          "text_en": "'Pinhole imaging' is the physical prototype for all modern cameras (Camera Obscura means 'Dark Room' in Latin)."
+        },
+        {
+          "icon": "🎨",
+          "title": "绘画辅助",
+          "title_en": "Artistic Aid",
+          "text": "在文艺复兴时期，达·芬奇等画家利用这个原理（暗箱）来精确描绘景物的透视。",
+          "text_en": "During the Renaissance, painters like Da Vinci used this principle (camera obscura) to accurately trace the perspective of landscapes."
+        }
+      ],
+  
+    "impact": {
+      "text": "墨子的发现标志着东方科学的早期辉煌。他是世界上第一个认识到光沿直线传播并用实验验证的人。虽然他的发现没有在中国引发持续的光学革命（由于历史原因），但他证明了古代中国思想家在逻辑和实证科学方面的高度成就。",
+      "text_en": "Mozi's discovery marks an early high point in Eastern science. He was the first person in the world to recognize and experimentally verify that light travels in straight lines. Although his discovery did not spark a continuous optical revolution in China (due to historical reasons), it proves the high level of logic and empirical science achieved by ancient Chinese thinkers.",
+      "stats": [
+          {
+            "number": "2400",
+            "label": "年前 (发现时间)",
+            "label_en": "Years Ago (Discovery)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "ancient_chinese_observation",
+          "contribution": "中国古代对光影的自然观察",
+          "contribution_en": "Ancient Chinese observations of light and shadow"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "shen_kuo_optics_1088",
+          "contribution": "沈括（宋代科学家，他在《梦溪笔谈》中进一步实验并详细解释了小孔成像和焦点）",
+          "contribution_en": "Shen Kuo (Song Dynasty scientist, who further experimented and detailed pinhole imaging and focal points in 'Dream Pool Essays')"
+        },
+        {
+          "id": "ibn_al_haytham_optics_1021",
+          "contribution": "海什木（他在1000多年后独立发现并数学化了这一原理，成为现代光学之父）",
+          "contribution_en": "Ibn al-Haytham (who independently discovered and mathematized this principle 1,000+ years later, becoming the father of modern optics)"
+        }
+      ],
+      "legacy_text": "墨子是光学的“第一位观察者”，他透过一个小孔，看到了光的本质。",
+      "legacy_text_en": "Mozi was the 'first observer' of optics; through a tiny hole, he saw the nature of light."
+    },
+  
+    "related_concepts": ["小孔成像 (Pinhole Imaging)", "暗箱 (Camera Obscura)", "光的直线传播 (Rectilinear Propagation)", "墨家 (Mohism)", "墨经 (Mojing)", "倒像 (Inverted Image)"],
+    "related_concepts_en": ["Pinhole Imaging", "Camera Obscura", "Rectilinear Propagation", "Mohism", "Mojing", "Inverted Image"],
+  
+    "quiz": {
+      "question": "墨子（Mozi）在《墨经》中记载的“小孔成像”实验，证明了光的什么基本特性？",
+      "question_en": "What fundamental property of light did Mozi's 'Pinhole Imaging' experiment recorded in the 'Mojing' prove?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Camera_obscura_box.jpg/640px-Camera_obscura_box.jpg",
+      "options": [
+        "光是一种波",
+        "光沿直线传播",
+        "光速是有限的",
+        "光可以被磁场弯曲"
+      ],
+      "options_en": [
+        "Light is a wave",
+        "Light travels in straight lines",
+        "The speed of light is finite",
+        "Light can be bent by magnetic fields"
+      ],
+      "answer": 1,
+      "explanation": "只有当光沿直线传播时，来自物体上部的光线才能穿过小孔到达下方，从而形成“倒立”的图像。如果光可以随意弯曲，图像就会模糊不清。",
+      "explanation_en": "Only if light travels in straight lines can the light from the top of the object pass through the hole to the bottom, creating an 'inverted' image. If light curved randomly, the image would be a blur."
+    }
+  }

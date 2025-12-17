@@ -1,0 +1,11 @@
+{
+    "name": "约翰·巴丁",
+    "name_en": "John Bardeen",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bardeen.jpg",
+    "bio_short": "美国物理学家和工程师。他是历史上唯一一位**两次**获得诺贝尔物理学奖的人：一次是因为发明晶体管（`transistor_invention_1947`），另一次是因为建立超导BCS理论（`bcs_theory_1957`）。",
+    "bio_short_en": "An American physicist and engineer. He is the only person in history to have won the Nobel Prize in Physics **twice**: first for the invention of the transistor (`transistor_invention_1947`), and again for the BCS theory of superconductivity (`bcs_theory_1957`).",
+    "events": [
+      "transistor_invention_1947",
+      "bcs_theory_1957"
+    ]
+  }

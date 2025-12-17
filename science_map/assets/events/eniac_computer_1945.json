@@ -1,0 +1,156 @@
+{
+    "id": "eniac_computer_1945",
+    "personId": ["john_mauchly", "j_presper_eckert"],
+    "title": "发明ENIAC (电子巨人的诞生)",
+    "title_en": "Invention of ENIAC (Birth of the Electronic Giant)",
+    "year": 1945,
+    "lat": 39.9526,
+    "lng": -75.1907,
+    "city": "费城 (宾夕法尼亚大学)",
+    "city_en": "Philadelphia (University of Pennsylvania)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story"],
+    "field": ["计算机科学", "电子工程"],
+    "field_en": ["Computer Science", "Electrical Engineering"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/ENIAC_Penn1.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=k4oGI_dNaPc",
+        "title": "ENIAC：第一台计算机的故事",
+        "title_en": "ENIAC: The Story of the First Computer",
+        "duration": "2:15"
+      }
+    },
+    
+    "summary": {
+      "text": "1945年底，在宾夕法尼亚大学的摩尔学院，物理学家约翰·莫奇利（John Mauchly）和工程师J·普雷斯珀·埃克特（J. Presper Eckert）秘密完成了人类历史上第一台通用电子数字计算机——ENIAC（电子数值积分计算机）。这台庞然大物占地167平方米，重达30吨，使用了17,468个真空管。它的计算速度是当时机电式计算机的1000倍。虽然它最初是为了计算二战火炮的弹道轨迹而设计的，但它的诞生证明了利用电子开关进行高速复杂计算的可行性，正式开启了电子计算机时代。",
+      "text_en": "In late 1945, at the Moore School of the University of Pennsylvania, physicist John Mauchly and engineer J. Presper Eckert secretly completed history's first general-purpose electronic digital computer—ENIAC (Electronic Numerical Integrator and Computer). This behemoth covered 1,800 square feet, weighed 30 tons, and used 17,468 vacuum tubes. It was 1,000 times faster than the electromechanical computers of the time. Although originally designed to calculate artillery ballistic trajectories for WWII, its birth proved the feasibility of high-speed complex computing using electronic switches, formally ushering in the age of electronic computing.",
+      "key_points": [
+        "世界上第一台通用电子数字计算机",
+        "使用18,000个真空管 (Vacuum Tubes) 代替机械齿轮",
+        "重达30吨，占地约一间教室大小",
+        "采用十进制 (Decimal) 而非二进制",
+        "通过手动插拔电缆进行“编程”"
+      ],
+      "key_points_en": [
+        "World's first general-purpose electronic digital computer",
+        "Used 18,000 Vacuum Tubes instead of mechanical gears",
+        "Weighed 30 tons, occupied a room size",
+        "Used Decimal system instead of Binary",
+        "Programmed by manually plugging and unplugging cables"
+      ]
+    },
+  
+    "story": {
+      "text": "ENIAC的故事始于战争的需求。当时的“计算机”指的是一群坐在房间里用手摇计算器计算弹道表的女性。为了加快速度，莫奇利提出了电子计算机的构想，而天才工程师埃克特解决了最棘手的问题：真空管极其脆弱，如果用这么多，几乎每几分钟就会坏一个。埃克特通过降低电压，奇迹般地让这1.8万个灯泡稳定工作。 \n\n值得一提的是，ENIAC的“软件”是由6位女性程序员（The ENIAC Girls）编写的。在没有显示器和键盘的年代，她们必须爬进机器内部，通过插拔数千根粗大的电缆和拨动开关来输入指令。这就像是几十个电话接线员同时在工作。当ENIAC终于运行起来时，它计算一颗炮弹轨迹只需30秒，比炮弹自己飞得还快。",
+      "text_en": "The story of ENIAC began with the demands of war. At the time, 'computers' referred to a group of women calculating ballistic tables with hand-cranked calculators. To speed this up, Mauchly proposed an electronic computer, and the brilliant engineer Eckert solved the toughest problem: vacuum tubes were notoriously fragile. Using so many meant one would fail every few minutes. Eckert miraculously made these 18,000 bulbs work stably by running them at lower power.\n\nNotably, ENIAC's 'software' was programmed by six women (The ENIAC Girls). In an era without monitors or keyboards, they had to crawl inside the machine, plugging in thousands of thick cables and flipping switches to input instructions. It was like dozens of telephone operators working at once. When ENIAC finally ran, it calculated a shell's trajectory in 30 seconds—faster than the shell itself could fly.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Two_women_operating_ENIAC_%28full_resolution%29.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "💡",
+        "text": "有一个著名的传说是：每次ENIAC开机，费城全城的灯光都会变暗。虽然这有点夸张，但它确实消耗了150千瓦的电力，相当于同时点亮2000个灯泡。",
+        "text_en": "There is a famous legend that every time ENIAC was turned on, the lights in Philadelphia would dim. While exaggerated, it did consume 150 kW of electricity, equivalent to lighting 2,000 light bulbs simultaneously."
+      },
+      {
+        "icon": "🌡️",
+        "text": "机房里的温度经常高达50摄氏度。因为真空管发热太厉害，如果你站在出风口，就像站在吹风机前一样。",
+        "text_en": "The temperature in the computer room often reached 50°C (122°F). Because the vacuum tubes generated so much heat, standing near the exhaust was like standing in front of a hair dryer."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你有一个算盘，但算盘珠子不是木头做的，而是用电光做的（真空管）。\n你需要算数时，不是用手拨珠子，而是像老式电话接线员一样，把一根根电线插到不同的孔里，告诉电流该往哪里走。\n虽然现在的手机比它快几百万倍，但这台巨兽证明了电子不仅能照明，还能思考。",
+      "text_en": "Imagine an abacus, but instead of wooden beads, it uses flashes of electricity (vacuum tubes).\nWhen you need to calculate, instead of moving beads with your hand, you act like an old-fashioned telephone operator, plugging wires into different holes to tell the electricity where to go.\nAlthough your phone is millions of times faster, this beast proved that electricity could not only provide light but also think.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/c9/ENIAC_Penn2.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💣",
+          "title": "氢弹研制",
+          "title_en": "H-Bomb Development",
+          "text": "虽然是为了二战火炮设计的，但ENIAC完成时战争已结束。它的第一个实际任务是帮助冯·诺依曼验证氢弹的可行性。",
+          "text_en": "Though designed for WWII artillery, the war ended by the time ENIAC was finished. Its first real task was helping von Neumann verify the feasibility of the Hydrogen Bomb."
+        },
+        {
+          "icon": "🌦️",
+          "title": "天气预报",
+          "title_en": "Weather Forecasting",
+          "text": "1950年，ENIAC进行了世界上第一次计算机数值天气预报，虽然算24小时的天气花了24小时，但这开启了气象学的新纪元。",
+          "text_en": "In 1950, ENIAC performed the world's first numerical weather forecast. Although it took 24 hours to calculate a 24-hour forecast, it opened a new era for meteorology."
+        }
+      ],
+  
+    "impact": {
+      "text": "ENIAC是计算机历史的分水岭。它终结了机械计算时代，开启了电子计算时代。尽管它本身有很多缺陷（比如十进制、难以编程、体积巨大），但它为后来的EDVAC和UNIVAC提供了宝贵的实验数据。它是所有现代计算机的“电子祖先”。",
+      "text_en": "ENIAC was the watershed moment in computer history. It ended the era of mechanical computing and started the era of electronic computing. Despite its flaws (decimal system, hard to program, massive size), it provided invaluable data for the subsequent EDVAC and UNIVAC. It is the 'electronic ancestor' of all modern computers.",
+      "stats": [
+          {
+            "number": "1945",
+            "label": "年 (建成)",
+            "label_en": "Year (Completed)"
+          },
+          {
+            "number": "17,468",
+            "label": "个 (真空管数量)",
+            "label_en": "Vacuum Tubes"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "shannon_circuits_1937",
+          "contribution": "香农（证明了可以用开关电路实现逻辑运算，为ENIAC提供了理论信心）",
+          "contribution_en": "Claude Shannon (Proved that switching circuits could perform logical operations, providing theoretical confidence for ENIAC)"
+        },
+        {
+          "id": "abc_computer_1942",
+          "contribution": "阿塔DO萨夫-贝里计算机 (ABC)（莫奇利曾参观过ABC，借鉴了部分电子计算的概念）",
+          "contribution_en": "Atanasoff–Berry Computer (ABC) (Mauchly visited the ABC and borrowed some concepts of electronic computing)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "von_neumann_architecture_1945",
+          "contribution": "冯·诺依曼（他在参观ENIAC时看到了手动插线的痛苦，从而构想出了“存储程序”的EDVAC架构）",
+          "contribution_en": "John von Neumann (Seeing the pain of manual wiring on ENIAC inspired him to conceive the 'stored-program' EDVAC architecture)"
+        },
+        {
+          "id": "univac_1_1951",
+          "contribution": "UNIVAC（埃克特和莫奇利后来创办公司，制造了第一台商用计算机）",
+          "contribution_en": "UNIVAC (Eckert and Mauchly later founded a company to build the first commercial computer)"
+        }
+      ],
+      "legacy_text": "它是一个重达30吨的怪物，但它迈出了人类数字文明的第一步。",
+      "legacy_text_en": "It was a 30-ton monster, but it took the first step of human digital civilization."
+    },
+  
+    "related_concepts": ["真空管 (Vacuum Tube)", "十进制 (Decimal System)", "弹道计算", "冯·诺依曼架构", "ENIAC女孩"],
+    "related_concepts_en": ["Vacuum Tube", "Decimal System", "Ballistics", "Von Neumann Architecture", "ENIAC Girls"],
+  
+    "quiz": {
+      "question": "ENIAC与现代计算机最大的不同点之一是它的“编程”方式。请问ENIAC最初是如何输入程序的？",
+      "question_en": "One of the biggest differences between ENIAC and modern computers is how it was 'programmed'. How was the program originally input into ENIAC?",
+      "options": [
+        "通过键盘输入代码",
+        "通过穿孔卡片读取软件",
+        "通过手动插拔电缆和拨动开关来改变硬件连接",
+        "通过磁带加载"
+      ],
+      "options_en": [
+        "Typing code via keyboard",
+        "Reading software from punch cards",
+        "Manually plugging cables and flipping switches to change hardware connections",
+        "Loading via magnetic tape"
+      ],
+      "answer": 2,
+      "explanation": "ENIAC没有内存来存储程序。每次要算不同的任务，程序员（通常是女性）就需要像接线员一样，物理上重新连接机器的线路。这使得编程非常耗时，有时需要几天时间。",
+      "explanation_en": "ENIAC had no memory to store programs. For every different task, programmers (mostly women) had to physically rewire the machine like switchboard operators. This made programming extremely time-consuming, sometimes taking days."
+    }
+  }

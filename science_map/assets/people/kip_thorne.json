@@ -1,0 +1,10 @@
+{
+    "name": "基普·索恩",
+    "name_en": "Kip Thorne",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kip_Thorne_in_2022.jpg",
+    "bio_short": "美国理论物理学家，LIGO（激光干涉引力波天文台）的联合创始人和主要理论家。他因对LIGO探测器和引力波观测的决定性贡献，获得了2017年诺贝尔物理学奖。他也是电影《星际穿越》的科学顾问。",
+    "bio_short_en": "An American theoretical physicist, co-founder, and chief theorist of LIGO. He was awarded the 2017 Nobel Prize in Physics for his decisive contributions to the LIGO detector and the observation of gravitational waves. He was also the science advisor for the movie 'Interstellar'.",
+    "events": [
+      "ligo_gravitational_waves_2015"
+    ]
+  }

@@ -1,0 +1,158 @@
+{
+    "id": "kelvin_absolute_zero_1848",
+    "personId": "william_thomson_kelvin",
+    "title": "提出绝对温标 (开尔文温标)",
+    "title_en": "Proposes the Absolute Temperature Scale (Kelvin Scale)",
+    "year": 1848,
+    "lat": 55.8642,
+    "lng": -4.2518,
+    "city": "格拉斯哥",
+    "city_en": "Glasgow",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_ids": ["thermo_story"],
+    "field": ["物理学", "化学"],
+    "field_en": ["Physics", "Chemistry"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/6/60/CelsiusKelvin.svg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=TNUDBdv3jWI",
+        "title": "绝对零度解释",
+        "title_en": "Absolute Zero: Absolute Awesome",
+        "duration": "3:15"
+      }
+    },
+    
+    "summary": {
+      "text": "24岁的威廉·汤姆孙（后来的开尔文勋爵）发表了论文《关于一种绝对温标》。他指出，现有的温标（如摄氏度和华氏度）都是基于特定物质（如水或水银）的物理变化，这是不严谨的。基于卡诺（`carnot_thermodynamics_1824`）的热机理论和查理定律（`charles_law_1787`），他提出了一种“独立于任何物质物理性质”的温标。他将“无限冷”——即热运动完全停止、气体体积理论上变为零的点——定义为“0度”（绝对零度）。这个温标后来被称为“开尔文温标”(Kelvin Scale)。",
+      "text_en": "24-year-old William Thomson (later Lord Kelvin) published 'On an Absolute Thermometric Scale'. He argued that existing scales (Celsius, Fahrenheit) were arbitrary because they depended on specific substances (like water or mercury). Based on Carnot's heat theory (`carnot_thermodynamics_1824`) and Charles's Law (`charles_law_1787`), he proposed a scale 'independent of the physical properties of any specific substance'. He defined 'infinite cold'—the point where thermal motion stops and gas volume theoretically vanishes—as 'Zero' (Absolute Zero). This became the 'Kelvin Scale'.",
+      "key_points": [
+        "定义了“绝对零度” (Absolute Zero, 0 K)",
+        "建立了“开尔文温标” (Kelvin Scale)",
+        "摆脱了对特定物质（如水）的依赖",
+        "基于热力学定律而非物理特性",
+        "0 K ≈ -273.15 °C"
+      ],
+      "key_points_en": [
+        "Defined 'Absolute Zero' (0 K)",
+        "Established the 'Kelvin Scale'",
+        "Freed temperature from dependence on specific substances (like water)",
+        "Based on thermodynamic laws",
+        "0 K ≈ -273.15 °C"
+      ]
+    },
+  
+    "story": {
+      "text": "在汤姆孙之前，温度计是“任意”的：摄氏度以水的冰点为0，沸点为100。但这在科学上很难看，因为如果你换一种液体（如酒精），刻度就不均匀了。汤姆孙注意到查理定律（`charles_law_1787`）的一个暗示：气体每冷却1°C，体积就收缩1/273。他进行了一个大胆的思维推导：如果你冷却到-273°C，气体的体积将变为“零”。这意味着在这个点上，甚至连原子的热运动都停止了。这就是宇宙的“底线”。他建议将这个点设为“绝对零度”。在这个标度上，温度不再是“冷热的感觉”，而是“能量的直接度量”。",
+      "text_en": "Before Thomson, thermometers were 'arbitrary': Celsius set 0 at freezing water and 100 at boiling. This was scientifically messy. Thomson noticed the implication of Charles's Law (`charles_law_1787`): gases shrink by 1/273 of their volume for every 1°C drop. He made a bold mental leap: if you cooled a gas to -273°C, its volume would become *zero*. This meant that at this point, even atomic thermal motion stops. This is the 'floor' of the universe. He proposed setting this point as 'Absolute Zero'. On this scale, temperature is no longer a 'feeling of hotness', but a direct 'measure of energy'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/64/Melting_ice_thermometer.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🌊",
+        "text": "威廉·汤姆孙后来因为在铺设跨大西洋电报电缆（`transatlantic_cable_1858`）方面的工程贡献被封为贵族。他选择了“开尔文男爵”这个头衔，名字来源于流经格拉斯哥大学的那条“开尔文河”(River Kelvin)。",
+        "text_en": "William Thomson was later ennobled for his engineering work on the Transatlantic Telegraph Cable (`transatlantic_cable_1858`). He chose the title 'Baron Kelvin', named after the 'River Kelvin' that flowed past the University of Glasgow."
+      },
+      {
+        "icon": "🌍",
+        "text": "开尔文曾利用热力学计算地球的年龄（通过冷却时间），得出了2000万到4亿年的结论。虽然比《圣经》长，但比达尔文需要的进化时间短得多。后来发现的“放射性”（地核热源）证明开尔文算错了。",
+        "text_en": "Kelvin used thermodynamics to calculate the Earth's age (cooling time), getting 20-400 million years. While older than the Bible, it was too short for Darwin's evolution. The discovery of 'radioactivity' (internal heating) later proved Kelvin wrong."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象一下我们在测量一座山的高度。\n摄氏度就像是把“海平面”定为0米。这很好，但如果你去了一个低于海平面的盆地，高度就变成了负数，这很奇怪。\n开尔文说：“为什么我们不从‘地心’（最低点）开始测量呢？”\n绝对零度就是温度的“地心”。在这个温度下，原子完全停止了抖动，没有任何热能了。所以开尔文温标没有“负数”，0就是真正的“无”。",
+      "text_en": "Imagine measuring the height of a mountain.\nCelsius is like setting 'sea level' as 0. This is fine, but if you go below sea level, you get negative numbers, which can be confusing.\nKelvin said: 'Why don't we measure from the *center of the Earth* (the absolute bottom)?'\nAbsolute Zero is the 'center of the Earth' for temperature. At this temperature, atoms stop wiggling completely; there is zero heat energy. So the Kelvin scale has no 'negative numbers'. 0 is truly 'nothing'.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/22/CelsiusKelvinThermometer.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧪",
+          "title": "科学标准单位 (SI Unit)",
+          "title_en": "Scientific Standard (SI Unit)",
+          "text": "开尔文 (K) 是国际单位制中温度的基本单位。所有科学计算（如理想气体定律 PV=nRT）都必须使用开尔文，否则公式不成立。",
+          "text_en": "The Kelvin (K) is the SI base unit for temperature. All scientific calculations (like the Ideal Gas Law PV=nRT) *must* use Kelvin, or the math won't work."
+        },
+        {
+          "icon": "❄️",
+          "title": "低温物理 (Cryogenics)",
+          "title_en": "Cryogenics",
+          "text": "该理论开创了对极低温度的研究，最终导致了超导（`onnes_superconductivity_1911`）和玻色-爱因斯坦凝聚的发现。",
+          "text_en": "This theory launched the study of ultra-low temperatures, leading to the discovery of superconductivity (`onnes_superconductivity_1911`) and Bose-Einstein condensates."
+        },
+        {
+          "icon": "🔥",
+          "title": "热效率计算",
+          "title_en": "Thermal Efficiency",
+          "text": "要计算任何发动机（汽车、喷气机）的效率，工程师必须使用绝对温度。",
+          "text_en": "To calculate the efficiency of any engine (car, jet), engineers *must* use absolute temperature."
+        }
+      ],
+  
+    "impact": {
+      "text": "开尔文温标是热力学的基石。它将“温度”从一个相对的、经验的读数，转变为一个绝对的、基本的物理量。这为热力学第二定律（熵）的建立提供了必要的数学框架，统一了物理学和化学中的能量研究。",
+      "text_en": "The Kelvin scale is the bedrock of thermodynamics. It transformed 'temperature' from a relative, empirical reading into an absolute, fundamental physical quantity. This provided the necessary mathematical framework for the Second Law of Thermodynamics (Entropy) and unified the study of energy in physics and chemistry.",
+      "stats": [
+          {
+            "number": "-273.15",
+            "label": "摄氏度 (绝对零度)",
+            "label_en": "°C (Absolute Zero)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "charles_law_1787",
+          "contribution": "查理定律（气体体积随温度线性变化的规律，暗示了-273°C是体积为零的终点）",
+          "contribution_en": "Charles's Law (the linear expansion of gas hinted that -273°C was the endpoint where volume became zero)"
+        },
+        {
+          "id": "carnot_thermodynamics_1824",
+          "contribution": "卡诺（其热机理论启发了汤姆孙去寻找一个与“工作物质”无关的温标）",
+          "contribution_en": "Sadi Carnot (his heat engine theory inspired Thomson to look for a temperature scale independent of the 'working substance')"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "clausius_thermodynamics_1850",
+          "contribution": "克劳修斯（利用绝对温标定义了“熵” S = Q/T，建立了热力学第二定律）",
+          "contribution_en": "Rudolf Clausius (used the absolute scale to define 'Entropy' S = Q/T, establishing the Second Law)"
+        },
+        {
+          "id": "onnes_superconductivity_1911",
+          "contribution": "昂内斯（在试图达到开尔文预言的“绝对零度”的过程中，意外发现了超导）",
+          "contribution_en": "Kamerlingh Onnes (discovered superconductivity while trying to reach the 'Absolute Zero' Kelvin predicted)"
+        }
+      ],
+      "legacy_text": "开尔文勋爵找到了宇宙温度的“地板”，定义了“冷”的终极极限。",
+      "legacy_text_en": "Lord Kelvin found the 'floor' of the universe's temperature, defining the ultimate limit of 'cold'."
+    },
+  
+    "related_concepts": ["绝对零度 (Absolute Zero)", "开尔文 (Kelvin)", "热力学 (Thermodynamics)", "卡诺循环 (Carnot Cycle)", "查理定律 (Charles's Law)", "熵 (Entropy)", "焦耳 (Joule)"],
+    "related_concepts_en": ["Absolute Zero", "Kelvin", "Thermodynamics", "Carnot Cycle", "Charles's Law", "Entropy", "Joule"],
+  
+    "quiz": {
+      "question": "开尔文温标（Kelvin Scale）中的“0 K”（绝对零度）代表了什么物理状态？",
+      "question_en": "What physical state does '0 K' (Absolute Zero) represent on the Kelvin Scale?",
+      "options": [
+        "水结冰的温度",
+        "空气变成液体的温度",
+        "所有分子热运动停止的最低理论温度",
+        "外太空的平均温度"
+      ],
+      "options_en": [
+        "The temperature water freezes",
+        "The temperature air becomes liquid",
+        "The lowest theoretical temperature where all molecular thermal motion stops",
+        "The average temperature of outer space"
+      ],
+      "answer": 2,
+      "explanation": "绝对零度是热力学的最低极限。在这个温度下，系统具有最小的能量。在经典物理学中，这意味着原子的运动完全停止；在量子力学中，意味着它们处于最低的量子态（零点能）。",
+      "explanation_en": "Absolute zero is the lower limit of thermodynamics. At this temperature, a system has the minimum possible energy. In classical physics, this meant atomic motion stopped; in quantum physics, it means they are in their lowest quantum state."
+    }
+  }

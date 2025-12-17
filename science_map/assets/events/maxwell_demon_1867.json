@@ -1,0 +1,151 @@
+{
+    "id": "maxwell_demon_1867",
+    "personId": "james_clerk_maxwell",
+    "title": "提出“麦克斯韦妖” (思想实验)",
+    "title_en": "Proposes 'Maxwell's Demon' (Thought Experiment)",
+    "year": 1867,
+    "lat": 55.0066,
+    "lng": -3.9580,
+    "city": "格伦莱尔 (苏格兰)",
+    "city_en": "Glenlair (Scotland)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_ids": ["thermo_story"],
+    "field": ["物理学"],
+    "field_en": ["Physics"],
+    
+    "media": {
+      "event_image": "assets/images/maxwell_demon.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=KR23aMjIHIY",
+        "title": "逆转熵：麦克斯韦妖悖论",
+        "title_en": "Reversing Entropy with Maxwell's Demon",
+        "duration": "14:00"
+      }
+    },
+    
+    "summary": {
+      "text": "詹姆斯·克拉克·麦克斯韦（James Clerk Maxwell）在给彼得·泰特（Peter Tait）的一封信中，提出了著名的“麦克斯韦妖”思想实验。他设想在一个充满气体的容器中，有一个微小的“存在”（妖），控制着中间隔板上的一个小门。这个“妖”能够探测分子的速度，只允许“快”分子通过门进入一侧，只允许“慢”分子进入另一侧。通过这种方式，“妖”可以在不消耗能量（看起来）的情况下，使一侧变热、一侧变冷，从而减少系统的“熵”，似乎违反了“热力学第二定律”。",
+      "text_en": "In a letter to Peter Tait, James Clerk Maxwell proposed the famous 'Maxwell's Demon' thought experiment. He imagined a container of gas with a tiny 'being' (demon) controlling a door in a partition. This 'demon' could detect the speed of molecules, allowing only 'fast' ones to pass to one side and 'slow' ones to the other. By doing so, the demon could make one side hot and the other cold without (seemingly) expending energy, thereby decreasing the system's 'entropy' and appearing to violate the 'Second Law of Thermodynamics'.",
+      "key_points": [
+        "物理学史上最著名的“思想实验”之一",
+        "挑战了“热力学第二定律” (Second Law of Thermodynamics)",
+        "通过“分类”分子来减少“熵” (Entropy)",
+        "揭示了热力学定律的“统计”本质",
+        "后来连接了“信息论”与“物理学”"
+      ],
+      "key_points_en": [
+        "One of the most famous 'Thought Experiments' in physics",
+        "Challenged the 'Second Law of Thermodynamics'",
+        "Decreases 'Entropy' by 'sorting' molecules",
+        "Revealed the 'statistical' nature of thermodynamic laws",
+        "Later linked 'Information Theory' to 'Physics'"
+      ]
+    },
+  
+    "story": {
+      "text": "麦克斯韦提出这个实验，并不是为了推翻第二定律，而是为了说明第二定律只有在“统计”意义上才是正确的（即对于无数个分子），但对于“单个”分子可能不成立。如果你能像“妖”一样追踪每一个分子，你就能打破规则。这个悖论困扰了物理学家近100年：为什么这个“妖”不能造出永动机？\n直到20世纪，物理学家（如西拉德和兰道尔）才意识到：“妖”为了区分快慢分子，必须获取“信息”。获取和存储信息的过程，或者更关键地，**擦除信息**的过程，必然会消耗能量并产生热量。因此，如果把“妖”的大脑也算作系统的一部分，总熵仍然是增加的。这不仅拯救了第二定律，还创立了“信息物理学”。",
+      "text_en": "Maxwell proposed this not to disprove the Second Law, but to show it was only statistically true (for huge numbers), not absolutely true (for individual molecules). If you could track molecules like the 'Demon', you could break the rules. This paradox haunted physicists for a century: Why can't the Demon make a perpetual motion machine?\nIt wasn't until the 20th century that physicists (like Szilard and Landauer) realized: the Demon needs *information* to sort the molecules. The act of acquiring information, or more crucially, **erasing information** from its memory, must consume energy and generate heat. Thus, if you include the Demon's brain in the system, total entropy still increases. This saved the Second Law and founded 'Information Physics'.",
+      "diagram": "assets/images/maxwell_information_physics.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "😈",
+        "text": "麦克斯韦本人从未用过“妖”(Demon) 这个词，他称之为“有限的存在”(finite being)。是开尔文勋爵（`kelvin_absolute_zero_1848`）后来给了它这个著名的绰号。",
+        "text_en": "Maxwell never used the word 'Demon'; he called it a 'finite being'. It was Lord Kelvin (`kelvin_absolute_zero_1848`) who later gave it the famous nickname."
+      },
+      {
+        "icon": "💾",
+        "text": "这个思想实验的最终解答——兰道尔原理 (Landauer's Principle)——证明了“信息就是物理实体”。删除电脑里的1比特数据，在物理上必然会产生微量的热。",
+        "text_en": "The final solution to the paradox—Landauer's Principle—proved that 'Information is Physical'. Erasing 1 bit of data on a computer *must* physically generate a tiny amount of heat."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "想象你是一个守门员（麦克斯韦妖），守在两个房间中间的门边。空气里有跑得快的球（热）和跑得慢的球（冷）。\n每当你看到快球飞过来，你就开门让它去右边；看到慢球，就让它去左边。\n过了一会儿，右边全是快球（热），左边全是慢球（冷）。\n你没有费力推球，只是“开关门”，就创造了温差（就像空调），而且没费电！这听起来像是免费的午餐（违反物理定律）。\n但真相是：你的“眼睛”看球、“大脑”记球，这些动作本身就在消耗能量并发热。",
+      "text_en": "Imagine you are a goalie (the Demon) at a door between two rooms. Air molecules are like balls: some fast (hot), some slow (cold).\nWhenever you see a fast ball, you open the door to let it to the Right. When you see a slow ball, you send it to the Left.\nSoon, the Right room is full of fast balls (Hot) and the Left is full of slow balls (Cold).\nYou created a temperature difference (like an A/C) just by opening a door, without doing heavy work! This sounds like a free lunch (violating physics).\nThe catch: Your 'eyes' watching and 'brain' thinking *does* use energy and create heat.",
+      "diagram": "assets/images/maxwell_goalie.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💻",
+          "title": "信息论 (Information Theory)",
+          "title_en": "Information Theory",
+          "text": "它建立了“信息熵”和“热力学熵”之间的直接联系，是现代计算机科学的物理基础。",
+          "text_en": "It established the direct link between 'Information Entropy' and 'Thermodynamic Entropy', the physical basis of computer science."
+        },
+        {
+          "icon": "🧬",
+          "title": "分子马达 (Molecular Motors)",
+          "title_en": "Molecular Motors",
+          "text": "生物体内的某些酶和纳米机器，工作原理非常像“麦克斯韦妖”，它们利用布朗运动（随机热运动）来做功（当然，它们消耗化学能）。",
+          "text_en": "Certain enzymes and nanomachines in biology work very much like 'Maxwell's Demons', harnessing Brownian motion to do work (consuming chemical energy to do so)."
+        }
+      ],
+  
+    "impact": {
+      "text": "麦克斯韦妖是物理学中最长寿、最深刻的悖论之一。它迫使物理学家重新思考“热力学第二定律”的本质。它最终催生了“信息物理学”这一交叉学科，证明了“知识”和“信息”在物理宇宙中不是虚幻的，而是具有实在的能量成本的。",
+      "text_en": "Maxwell's Demon is one of the longest-lived and deepest paradoxes in physics. It forced physicists to rethink the nature of the 'Second Law'. It eventually spawned the field of 'Information Physics', proving that 'knowledge' and 'information' are not abstract ghosts, but have a real energetic cost in the physical universe.",
+      "stats": [
+          {
+            "number": "1867",
+            "label": "年 (提出年份)",
+            "label_en": "Year Proposed"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "clausius_thermodynamics_1850",
+          "contribution": "克劳修斯（其“热力学第二定律”和“熵”的概念是麦克斯韦试图挑战和剖析的对象）",
+          "contribution_en": "Clausius (his 'Second Law' and 'Entropy' were what Maxwell was trying to probe and challenge)"
+        },
+        {
+          "id": "boltzmann_statistical_mechanics_1877",
+          "contribution": "玻尔兹曼（其“统计力学”解释了为什么“妖”只能在统计上被击败，而非绝对被击败）",
+          "contribution_en": "Ludwig Boltzmann (his 'Statistical Mechanics' explained *why* the Demon is defeated statistically)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "shannon_circuits_1937",
+          "contribution": "香农（其“信息熵”的概念直接借用了热力学熵的数学形式）",
+          "contribution_en": "Claude Shannon (his concept of 'Information Entropy' borrowed the mathematical form of thermodynamic entropy)"
+        },
+        {
+          "id": "landauer_principle_1961",
+          "contribution": "罗尔夫·兰道尔（他通过“兰道尔原理”——擦除信息产生热量——最终“驱逐”了麦克斯韦妖）",
+          "contribution_en": "Rolf Landauer (who finally 'exorcised' the Demon with 'Landauer's Principle': erasing info creates heat)"
+        }
+      ],
+      "legacy_text": "麦克斯韦妖是一个困扰了物理学一百年的幽灵，直到我们发现“信息就是能量”。",
+      "legacy_text_en": "Maxwell's Demon was a ghost that haunted physics for a century, until we realized that 'Information is Energy'."
+    },
+  
+    "related_concepts": ["热力学第二定律", "熵 (Entropy)", "信息论", "兰道尔原理", "西拉德引擎", "布朗运动", "统计力学"],
+    "related_concepts_en": ["Second Law of Thermodynamics", "Entropy", "Information Theory", "Landauer's Principle", "Szilard Engine", "Brownian Motion", "Statistical Mechanics"],
+  
+    "quiz": {
+      "question": "最终解决“麦克斯韦妖”悖论（解释为什么它不能制造永动机）的关键概念是什么？",
+      "question_en": "What key concept finally solved the 'Maxwell's Demon' paradox (explaining why it can't be a perpetual motion machine)?",
+      "options": [
+        "量子隧穿",
+        "处理和擦除“信息”需要消耗能量",
+        "妖的动作太慢了",
+        "门太重了"
+      ],
+      "options_en": [
+        "Quantum Tunneling",
+        "Processing and erasing 'Information' costs energy",
+        "The Demon is too slow",
+        "The door is too heavy"
+      ],
+      "answer": 1,
+      "explanation": "解决悖论的关键（由西拉德和兰道尔提出）在于，“妖”必须获取关于分子的“信息”才能进行分类。获取信息，或者更重要的是“重置”大脑以测量下一个分子（擦除信息），在物理上必然产生热量（增加熵），这抵消了它所创造的秩序。",
+      "explanation_en": "The resolution (by Szilard and Landauer) is that the Demon needs *information* to sort. Acquiring that info, and more importantly *resetting* its brain to measure the next one (erasing info), physically *must* generate heat (increase entropy), canceling out the order it created."
+    }
+  }

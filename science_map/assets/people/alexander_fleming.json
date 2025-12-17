@@ -1,0 +1,10 @@
+{
+    "name": "亚历山大·弗莱明",
+    "name_en": "Alexander Fleming",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg",
+    "bio_short": "苏格兰医生和微生物学家, 1945年诺贝尔生理学或医学奖得主. 他于1928年发现了世界上第一种抗生素\"青霉素\" (`fleming_penicillin_1928`), 这一发现彻底改变了现代医学, 开启了抗生素时代.",
+    "bio_short_en": "A Scottish physician and microbiologist, and a 1945 Nobel laureate in Physiology or Medicine. He discovered the world's first antibiotic, 'penicillin' (`fleming_penicillin_1928`), in 1928, revolutionizing modern medicine and launching the antibiotic era.",
+    "events": [
+      "fleming_penicillin_1928"
+    ]
+  }

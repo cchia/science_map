@@ -1,7 +1,158 @@
 {
   "id": "faraday_induction_1831",
-  "title": "Faraday Induction",
-  "title_en": "Faraday Induction",
+  "personId": "michael_faraday",
+  "title": "发现电磁感应",
+  "title_en": "Discovers Electromagnetic Induction",
   "year": 1831,
-  "is_stub": true
+  "lat": 51.5098,
+  "lng": -0.1180,
+  "city": "伦敦",
+  "city_en": "London",
+  "country": "英国",
+  "country_en": "United Kingdom",
+  "storyline_ids": ["electricity_story"],
+  "field": ["物理学", "工程学"],
+  "field_en": ["Physics", "Engineering"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=pQp6bmJPU_0",
+      "title": "法拉第与电磁感应",
+      "title_en": "Induction - An Introduction: Crash Course Physics ",
+      "duration": "9:49"
+    }
+  },
+  
+  "summary": {
+    "text": "1831年，迈克尔·法拉第（Michael Faraday）进行了一项改变世界的实验。在此之前，奥斯特（`oersted_electromagnetism_1820`）已经证明了“电可以产生磁”。法拉第试图寻找“逆效应”：磁能否产生电？通过将磁铁移入和移出线圈，他发现变化的磁场会在导线中“感应”出电流。这一发现被称为“电磁感应定律”（法拉第定律），它揭示了“变动的磁场产生电场”这一基本原理，直接导致了发电机和变压器的发明。",
+    "text_en": "In 1831, Michael Faraday conducted a world-changing experiment. Oersted (`oersted_electromagnetism_1820`) had already proven that 'electricity creates magnetism'. Faraday sought the reverse: could magnetism create electricity? By moving a magnet in and out of a coil of wire, he discovered that a *changing* magnetic field 'induces' an electric current in the wire. This discovery, known as the 'Law of Electromagnetic Induction' (Faraday's Law), revealed the fundamental principle that a changing magnetic field creates an electric field, leading directly to the invention of the electric generator and transformer.",
+    "key_points": [
+      "发现了电磁感应 (Electromagnetic Induction)",
+      "证明了“磁生电” (Magnetism creates Electricity)",
+      "关键条件是“变化的”磁场 (Changing magnetic field)",
+      "发明了第一台发电机 (Faraday Disk)",
+      "奠定了现代电力工业的基础"
+    ],
+    "key_points_en": [
+      "Discovered Electromagnetic Induction",
+      "Proved 'Magnetism creates Electricity'",
+      "Key condition is a 'Changing' magnetic field",
+      "Invented the first electric generator (Faraday Disk)",
+      "Laid the foundation for the modern electric power industry"
+    ]
+  },
+
+  "story": {
+    "text": "法拉第在这个问题上苦苦思索了十年。他随身带着一个小铁环和线圈，试图用强磁铁让它们产生电流，但总是失败。直到1831年8月29日，他做了一个著名的“圆环实验”：他在一个铁环的两边分别缠绕了两个独立的线圈（A和B）。当他将线圈A接到电池上时，他注意到线圈B连接的电流计“动了一下”，然后归零。当他断开线圈A时，电流计又反向“动了一下”。他终于明白了：产生电流的不是“磁场”本身，而是磁场的“变化”（接通和断开的瞬间）。为了验证这一点，他后来直接将一块磁铁插进线圈，只要磁铁在“移动”，电流就会产生；磁铁一停，电流就消失。他终于解开了“磁生电”的密码：**动磁生电**。",
+    "text_en": "Faraday had obsessed over this problem for a decade. He carried a small iron ring and coil, trying to make strong magnets create current, but always failed. Finally, on August 29, 1831, he performed his famous 'Ring Experiment'. He wrapped two separate coils (A and B) around an iron ring. When he connected Coil A to a battery, he noticed the galvanometer on Coil B *jumped*, then returned to zero. When he disconnected Coil A, it jumped again *in the opposite direction*. He finally understood: it wasn't the *magnetic field* that created electricity, but the *change* in the field (the moment of turning on and off). To verify this, he later plunged a magnet into a coil. As long as the magnet was *moving*, current flowed; when it stopped, the current stopped. He had cracked the code: **Moving magnetism creates electricity**.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Induction_experiment.png"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "⚡",
+      "text": "据说当一位政治家问法拉第这个发明（感应）有什么用时，法拉第回答：“先生，我不知道它有什么用，但我敢打赌，有一天你会对它征税。”",
+      "text_en": "It is said that when a politician asked Faraday what use this invention (induction) was, Faraday replied, 'Sir, I do not know what it is good for, but I bet one day you will tax it.'"
+    },
+    {
+      "icon": "🔄",
+      "text": "在这个发现之后不久，法拉第发明了“法拉第圆盘”(Faraday Disk)，这是世界上第一台“发电机”。虽然效率很低，但它证明了可以将“机械能”（转动）转化为“电能”。",
+      "text_en": "Shortly after this discovery, Faraday invented the 'Faraday Disk', the world's first 'electric generator'. Though inefficient, it proved that 'mechanical energy' (rotation) could be converted into 'electrical energy'."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "奥斯特告诉我们“电能生磁”。法拉第想知道“磁能否生电”。\n他发现，如果你把一块磁铁静静地放在线圈旁，什么也不会发生（即使磁铁很强）。\n但是，如果你开始“移动”磁铁（把它插进或拔出线圈），奇迹就发生了：线圈里突然有了电！\n法拉第发现的秘密是：**只有“变化”的磁场才能制造出电。**\n这就好比：你不能只靠“拥有”肌肉来推车，你必须“收缩”（改变）肌肉才能做功。",
+    "text_en": "Oersted told us 'Electricity creates Magnetism'. Faraday wanted to know if 'Magnetism creates Electricity'.\nHe found that if you put a magnet next to a coil of wire and let it sit there, nothing happens (even if the magnet is strong).\nBut if you start *moving* the magnet (shoving it in or pulling it out), magic happens: electricity flows in the wire!\nFaraday's secret was: **Only a *changing* magnetic field creates electricity.**\nIt's like: you can't push a car just by *having* muscles; you have to *move* (change) them to do work.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Faraday_emf_experiment.svg"
+  },
+
+  "applications": [
+      {
+        "icon": "🏭",
+        "title": "发电机 (Electric Generator)",
+        "title_en": "Electric Generator",
+        "text": "这是法拉第定律最伟大的应用。世界上所有的发电站（无论是核能、风能还是水力），本质上都是在用各种方法“转动磁铁”，利用法拉第的原理来产生电流。",
+        "text_en": "This is the greatest application of Faraday's Law. Every power plant in the world (nuclear, wind, hydro) is essentially just a way to *spin a magnet* inside a coil to generate electricity using Faraday's principle."
+      },
+      {
+        "icon": "🔌",
+        "title": "变压器 (Transformer)",
+        "title_en": "Transformer",
+        "text": "法拉第的“圆环实验”其实就是世界上第一个“变压器”。它利用“变化的磁场”将一个电路的能量传输到另一个电路（并改变电压），这是现代电网传输电力的基础。",
+        "text_en": "Faraday's 'Ring Experiment' was actually the world's first 'transformer'. It uses a 'changing magnetic field' to transfer energy from one circuit to another (changing the voltage), which is the basis for the entire modern power grid."
+      },
+      {
+        "icon": "🎸",
+        "title": "电吉他拾音器",
+        "title_en": "Electric Guitar Pickups",
+        "text": "电吉他的工作原理也是法拉第定律：振动的钢弦（在磁场中移动）在拾音器线圈中“感应”出微弱的电流，然后变成声音。",
+        "text_en": "Electric guitars work on Faraday's Law: the vibrating steel strings (moving in a magnetic field) 'induce' a tiny current in the pickup coil, which becomes the sound."
+      }
+    ],
+
+  "impact": {
+    "text": "法拉第的电磁感应是人类历史上最重要的发现之一。它将“电”和“磁”彻底统一了起来，并为“电气时代”提供了动力源。在此之前，唯一的电源是昂贵且微弱的“电池”（`volta_battery_1800`）。法拉第的发明使得人类可以将廉价的“机械能”（如蒸汽机、水轮机）转化为无限的“电能”，从而点亮了地球。",
+    "text_en": "Faraday's electromagnetic induction is one of the most important discoveries in human history. It unified 'electricity' and 'magnetism' and provided the power source for the 'Electrical Age'. Before this, the only source of power was expensive, weak 'batteries' (`volta_battery_1800`). Faraday's invention allowed humanity to convert cheap 'mechanical energy' (steam, water) into limitless 'electrical energy', lighting up the world.",
+    "stats": [
+        {
+          "number": "1831",
+          "label": "年 (发现感应)",
+          "label_en": "Year (Induction Discovered)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "oersted_electromagnetism_1820",
+        "contribution": "奥斯特（其“电生磁”的发现是法拉第寻找“磁生电”的直接动机）",
+        "contribution_en": "Hans Christian Ørsted (his discovery that 'electricity creates magnetism' was the direct motivation for Faraday to look for the reverse)"
+      },
+      {
+        "id": "ampere_law_1826",
+        "contribution": "安培（其电动力学理论为法拉第提供了早期的理论框架）",
+        "contribution_en": "André-Marie Ampère (his electrodynamics provided the early theoretical framework for Faraday)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "maxwell_equations_1861",
+        "contribution": "麦克斯韦（法拉第感应定律成为了“麦克斯韦方程组”中的第三个方程，是电磁理论的核心）",
+        "contribution_en": "James Clerk Maxwell (Faraday's Law of Induction became the third of 'Maxwell's Equations', the core of electromagnetic theory)"
+      },
+      {
+        "id": "tesla_ac_motor_1887",
+        "contribution": "尼古拉·特斯拉（其交流电系统和感应电机是法拉第感应原理的工业化巅峰）",
+        "contribution_en": "Nikola Tesla (his AC system and induction motor were the industrial pinnacle of Faraday's induction principle)"
+      }
+    ],
+    "legacy_text": "法拉第将“磁铁的运动”转化为了“电力的洪流”，他给了世界发电机。",
+    "legacy_text_en": "Faraday turned the 'motion of a magnet' into a 'flood of electricity'; he gave the world the generator."
+  },
+
+  "related_concepts": ["电磁感应 (Electromagnetic Induction)", "法拉第定律", "磁通量 (Magnetic Flux)", "楞次定律 (Lenz's Law)", "发电机 (Generator)", "变压器 (Transformer)", "奥斯特 (Oersted)", "麦克斯韦 (Maxwell)"],
+  "related_concepts_en": ["Electromagnetic Induction", "Faraday's Law", "Magnetic Flux", "Lenz's Law", "Generator", "Transformer", "Oersted", "Maxwell"],
+
+  "quiz": {
+    "question": "法拉第发现，要利用磁场产生电流，必须满足什么关键条件？",
+    "question_en": "Faraday discovered that to create an electric current using a magnetic field, what key condition must be met?",
+    "options": [
+      "磁场必须非常强",
+      "磁场必须是“变化的”（移动的）",
+      "磁铁必须接触导线",
+      "导线必须是金做的"
+    ],
+    "options_en": [
+      "The magnetic field must be very strong",
+      "The magnetic field must be *changing* (moving)",
+      "The magnet must touch the wire",
+      "The wire must be made of gold"
+    ],
+    "answer": 1,
+    "explanation": "静止的磁场（无论多强）都不会产生电流。只有当磁场发生“变化”（例如磁铁在线圈中移动，或者电流被开启/关闭）时，才会“感应”出电流。",
+    "explanation_en": "A stationary magnetic field (no matter how strong) produces no current. Only when the magnetic field *changes* (e.g., a magnet moving in a coil, or current being switched on/off) is a current 'induced'."
+  }
 }

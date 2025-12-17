@@ -1,0 +1,151 @@
+{
+    "id": "waksman_streptomycin_1943",
+    "personId": ["selman_waksman", "albert_schatz"],
+    "title": "发现链霉素 (攻克“白色瘟疫”肺结核)",
+    "title_en": "Discovery of Streptomycin (Conquering the 'White Plague' Tuberculosis)",
+    "year": 1943,
+    "lat": 40.4862,
+    "lng": -74.4518,
+    "city": "新不伦瑞克 (罗格斯大学)",
+    "city_en": "New Brunswick (Rutgers University)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["micro_story"],
+    "field": ["微生物学", "医学"],
+    "field_en": ["Microbiology", "Medicine"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Streptomycin-1ntb-xtal-3D-balls.png",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=QZP5HQulZP0",
+        "title": "罗格斯大学和链霉素：第一个肺结核治疗方法",
+        "title_en": "Rutgers and Streptomycin: First Tuberculosis Treatment",
+        "duration": "3:01"
+      }
+    },
+    
+    "summary": {
+      "text": "1943年, 在美国罗格斯大学, 土壤微生物学家塞尔曼·瓦克斯曼 (Selman Waksman) 和他的博士生阿尔伯特·沙茨 (Albert Schatz) 成功从一种土壤细菌——灰色链霉菌 (Streptomyces griseus) 中分离出了\"链霉素\" (Streptomycin). 这是人类历史上第二种主要的抗生素, 也是第一种能有效治疗\"革兰氏阴性菌\"感染的药物. 最重要的是, 它是第一种能够治愈\"肺结核\" (Tuberculosis/TB) 的药物. 结核病曾被称为\"白色瘟疫\", 千百年来一直是不治之症. 瓦克斯曼还创造了\"抗生素\" (Antibiotic) 这个词来定义这类药物.",
+      "text_en": "In 1943, at Rutgers University in the US, soil microbiologist Selman Waksman and his PhD student Albert Schatz successfully isolated 'Streptomycin' from a soil bacterium, *Streptomyces griseus*. This was the second major antibiotic in human history and the first effective against 'Gram-negative' bacteria. Most importantly, it was the first drug capable of curing 'Tuberculosis' (TB). TB, known as the 'White Plague', had been a death sentence for millennia. Waksman also coined the term 'Antibiotic' to define this class of drugs.",
+      "key_points": [
+        "发现链霉素 (Streptomycin)",
+        "第一种治愈\"肺结核\" (TB) 的药物",
+        "创造了\"抗生素\" (Antibiotic) 一词",
+        "针对革兰氏阴性菌 (Penicillin无效的领域)",
+        "瓦克斯曼获得1952年诺贝尔奖 (引发争议)"
+      ],
+      "key_points_en": [
+        "Discovery of Streptomycin",
+        "First cure for 'Tuberculosis' (TB)",
+        "Coined the term 'Antibiotic'",
+        "Targeted Gram-negative bacteria (where Penicillin failed)",
+        "Waksman won the 1952 Nobel Prize (controversially)"
+      ]
+    },
+  
+    "story": {
+      "text": "与弗莱明靠运气发现青霉素不同, 链霉素的发现是\"大海捞针\"式的系统筛选. 瓦克斯曼坚信土壤中一定存在能杀死细菌的微生物 (否则土壤里早就堆满了病菌). 他的学生沙茨在地下室实验室里不知疲倦地测试了数千种土壤样本. 1943年10月19日, 沙茨终于发现了一种灰色链霉菌的分泌物能杀死结核杆菌. 这是一个巨大的胜利, 但随后引发了科学史上最著名的师徒反目. 瓦克斯曼独享了荣誉和诺贝尔奖, 并自称是唯一的发现者. 沙茨愤怒地起诉了导师. 最终虽然沙茨赢得了法律上的\"共同发现者\"地位和部分专利费, 但诺贝尔奖依然只发给了瓦克斯曼.",
+      "text_en": "Unlike Fleming's lucky discovery of penicillin, streptomycin was found through a 'needle in a haystack' systematic screening. Waksman believed soil must contain microbe-killing organisms (or the earth would be covered in pathogens). His student, Schatz, tirelessly tested thousands of soil samples in a basement lab. On October 19, 1943, Schatz finally found that secretions from *Streptomyces griseus* killed TB bacteria. It was a massive victory, but it sparked one of the most famous feuds in science. Waksman claimed sole credit and the Nobel Prize. Schatz sued his mentor. Although Schatz won legal recognition as 'co-discoverer' and a share of royalties, the Nobel remained Waksman's alone.",
+      "diagram": "assets/images/streptomycin.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📖",
+        "text": "我们今天使用的单词\"抗生素\" (Antibiotic), 正是由瓦克斯曼发明的. 它的字面意思是\"反生命\" (Anti-life), 专门指由微生物产生的、能杀死其他微生物的物质.",
+        "text_en": "The word 'Antibiotic' we use today was coined by Waksman. Literally meaning 'Anti-life', it specifically refers to substances produced by microbes to kill other microbes."
+      },
+      {
+        "icon": "🐓",
+        "text": "在链霉素之前, 瓦克斯曼其实发现了好几种抗生素 (如放线菌素), 但它们毒性太大, 连鸡都能毒死, 根本不能给人用. 链霉素是第一个既有效又相对安全的.",
+        "text_en": "Before streptomycin, Waksman actually discovered several antibiotics (like actinomycin), but they were so toxic they killed chickens and couldn't be used on humans. Streptomycin was the first that was effective yet relatively safe."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "青霉素虽然神奇, 但它有一个弱点: 它杀不死\"结核病菌\" (TB), 就像子弹打不穿防弹衣.\n瓦克斯曼和沙茨在泥土里寻找新的武器. 他们筛选了成千上万种土里的细菌, 终于找到了一种能产生\"穿甲弹\" (链霉素) 的家伙.\n这种新药能杀死那些青霉素杀不死的强硬敌人. 从此, 结核病不再是绝症.",
+      "text_en": "Penicillin was magical, but it had a weakness: it couldn't kill 'TB bacteria', like bullets bouncing off body armor.\nWaksman and Schatz looked for new weapons in the mud. They screened thousands of soil bacteria and finally found one that produced 'armor-piercing rounds' (Streptomycin).\nThis new drug could kill the tough enemies that Penicillin couldn't. From then on, TB was no longer a death sentence.",
+      "diagram": "assets/images/streptomycin.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🫁",
+          "title": "治疗结核病 (TB)",
+          "title_en": "Treating Tuberculosis (TB)",
+          "text": "这是链霉素最伟大的贡献. 它将结核病从一种慢性的、往往致死的疾病变成了一种可治愈的疾病.",
+          "text_en": "This is streptomycin's greatest contribution. It turned TB from a chronic, often fatal disease into a curable one."
+        },
+        {
+          "icon": "🦠",
+          "title": "广谱抗菌",
+          "title_en": "Broad-spectrum Antibacterial",
+          "text": "它开启了对抗\"革兰氏阴性菌\" (如鼠疫、霍乱) 的大门, 弥补了青霉素的短板.",
+          "text_en": "It opened the door to fighting 'Gram-negative bacteria' (like Plague, Cholera), filling the gap left by Penicillin."
+        }
+      ],
+  
+    "impact": {
+      "text": "链霉素的发现标志着抗生素时代的全面到来. 它证明了青霉素不是唯一的奇迹, 土壤中蕴藏着一个巨大的天然药库. 它直接导致了随后数十年间\"抗生素淘金热\" (Golden Age of Antibiotics), 科学家们从世界各地的土壤中挖掘出了氯霉素、四环素等无数救命药. 结核病疗养院因此倒闭, 无数生命获救.",
+      "text_en": "The discovery of Streptomycin marked the full arrival of the Antibiotic Era. It proved Penicillin wasn't a one-off miracle and that the soil held a vast natural pharmacy. It directly led to the 'Golden Age of Antibiotics' in the following decades, where scientists dug up Chloramphenicol, Tetracycline, and countless lifesavers from soils worldwide. TB sanatoriums closed down, and millions were saved.",
+      "stats": [
+          {
+            "number": "1943",
+            "label": "年 (发现)",
+            "label_en": "Year (Discovery)"
+          },
+          {
+            "number": "1952",
+            "label": "年 (诺贝尔奖)",
+            "label_en": "Year (Nobel Prize)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "fleming_penicillin_1928",
+          "contribution": "弗莱明 (青霉素的成功证明了微生物可以产生杀菌物质, 激励瓦克斯曼在土壤菌中寻找类似物)",
+          "contribution_en": "Alexander Fleming (Penicillin's success proved microbes could produce germ-killers, inspiring Waksman to look for analogues in soil bacteria)"
+        },
+        {
+          "id": "koch_tuberculosis_1882",
+          "contribution": "科赫 (发现了结核杆菌, 为链霉素提供了一号靶子)",
+          "contribution_en": "Robert Koch (discovered the TB bacillus, providing the number one target for Streptomycin)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "modern_antibiotics_1950s",
+          "contribution": "抗生素黄金时代 (受瓦克斯曼方法的启发, 药企开始全球挖掘土壤, 发现了四环素、红霉素等)",
+          "contribution_en": "Golden Age of Antibiotics (Inspired by Waksman's method, pharma companies dug soil globally, finding Tetracycline, Erythromycin, etc.)"
+        }
+      ],
+      "legacy_text": "瓦克斯曼不仅找到了一种药, 他还给了这类药一个名字——抗生素.",
+      "legacy_text_en": "Waksman didn't just find a drug; he gave this class of drugs a name—Antibiotics."
+    },
+  
+    "related_concepts": ["链霉素 (Streptomycin)", "肺结核 (Tuberculosis)", "抗生素 (Antibiotic)", "革兰氏阴性菌 (Gram-negative)", "放线菌 (Actinomycetes)", "诺贝尔奖争议"],
+    "related_concepts_en": ["Streptomycin", "Tuberculosis", "Antibiotic", "Gram-negative", "Actinomycetes", "Nobel Prize Controversy"],
+  
+    "quiz": {
+      "question": "链霉素的发现主要是为了攻克哪种青霉素无法治疗的致命疾病?",
+      "question_en": "The discovery of Streptomycin was primarily aimed at conquering which deadly disease that Penicillin could not treat?",
+      "options": [
+        "流感",
+        "肺结核 (TB)",
+        "天花",
+        "艾滋病"
+      ],
+      "options_en": [
+        "Flu",
+        "Tuberculosis (TB)",
+        "Smallpox",
+        "AIDS"
+      ],
+      "answer": 1,
+      "explanation": "结核杆菌具有特殊的细胞壁结构 (富含蜡质), 青霉素对它无效. 链霉素是人类历史上第一种能有效杀灭结核杆菌的抗生素.",
+      "explanation_en": "The TB bacterium has a unique cell wall structure (waxy) that Penicillin cannot penetrate. Streptomycin was the first antibiotic in history effective at killing the TB bacillus."
+    }
+  }

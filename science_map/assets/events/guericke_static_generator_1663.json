@@ -10,6 +10,7 @@
     "city_en": "Magdeburg (Published in Berlin)",
     "country": "德国 (勃兰登堡-普鲁士)",
     "country_en": "Germany (Brandenburg-Prussia)",
+    "storyline_ids": ["electricity_story"],
     "field": ["物理学", "工程学"],
     "field_en": ["Physics", "Engineering"],
     

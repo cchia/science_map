@@ -1,0 +1,156 @@
+{
+    "id": "univac_1_1951",
+    "personId": ["john_mauchly", "j_presper_eckert"],
+    "title": "发布UNIVAC I (计算机进入商业时代)",
+    "title_en": "Launch of UNIVAC I (Computers Enter the Commercial Era)",
+    "year": 1951,
+    "lat": 40.0094,
+    "lng": -75.1506,
+    "city": "费城 (埃克特-莫奇利计算机公司)",
+    "city_en": "Philadelphia (Eckert-Mauchly Computer Corporation)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story"],
+    "field": ["计算机科学", "商业"],
+    "field_en": ["Computer Science", "Business"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Univac_I_Census_dedication.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=wmRZARGeAY4",
+        "title": "UNIVAC预测1952年大选",
+        "title_en": "UNIVAC Predicts the 1952 Election",
+        "duration": "3:04"
+      }
+    },
+    
+    "summary": {
+      "text": "1951年3月，由ENIAC的发明者埃克特和莫奇利制造的UNIVAC I（通用自动计算机）被正式交付给美国人口普查局。这是世界上第一台商用电子计算机。与为战争设计的笨重ENIAC不同，UNIVAC I专为处理大量商业和政府数据而设计。它率先使用磁带（Magnetic Tape）代替了穿孔卡片作为输入输出设备，大大提高了数据处理速度。让它一战成名的是1952年的美国总统大选之夜，当时所有民调都预测选情胶着，但UNIVAC I在分析了仅1%的选票后，就大胆预测艾森豪威尔将以压倒性优势获胜。结果证明计算机是对的，人类专家是错的。",
+      "text_en": "In March 1951, the UNIVAC I (Universal Automatic Computer), built by ENIAC inventors Eckert and Mauchly, was formally delivered to the U.S. Census Bureau. This was the world's first commercial electronic computer. Unlike the clunky ENIAC designed for war, UNIVAC I was designed to process massive amounts of business and government data. It pioneered the use of magnetic tape instead of punch cards for input/output, drastically improving data processing speed. It shot to fame on election night in 1952: while all polls predicted a close race, UNIVAC I, after analyzing just 1% of the votes, boldly predicted a landslide victory for Eisenhower. The computer turned out to be right, and the human experts wrong.",
+      "key_points": [
+        "世界上第一台商用电子计算机",
+        "使用磁带 (Magnetic Tape) 存储数据",
+        "成功预测1952年美国总统大选",
+        "标志着计算机从科研军用转向民用商业",
+        "每秒可执行约2,000次运算"
+      ],
+      "key_points_en": [
+        "World's first commercial electronic computer",
+        "Used Magnetic Tape for data storage",
+        "Successfully predicted the 1952 US Presidential Election",
+        "Marked the shift of computers from military/science to civilian business",
+        "Capable of ~2,000 operations per second"
+      ]
+    },
+  
+    "story": {
+      "text": "UNIVAC的成名之战充满了戏剧性。1952年大选夜，CBS电视台租用了UNIVAC来直播预测结果。当时主流民调都认为艾森豪威尔和史蒂文森的票数会非常接近。然而，UNIVAC吐出的打印纸显示：艾森豪威尔将以438票对93票的惊人优势获胜。CBS的高管们吓坏了，认为机器坏了，不敢播出这个结果，只好让人工分析员编了一个“势均力敌”的预测播出去。等到最终结果出来，艾森豪威尔真的以442票对89票横扫获胜（非常接近电脑预测），CBS的主持人不得不尴尬地在直播中承认：“正如大家所见，是人类太胆小，而机器是诚实的。”",
+      "text_en": "UNIVAC's rise to fame was full of drama. On election night 1952, CBS TV hired UNIVAC to broadcast predictions. Mainstream polls predicted a dead heat between Eisenhower and Stevenson. However, UNIVAC printed out a shocking result: Eisenhower would win by a landslide of 438 to 93 electoral votes. CBS executives were terrified, thought the machine was broken, and refused to air it, instead broadcasting a 'too close to call' human prediction. When the final results came in—a landslide 442 to 89 for Eisenhower (very close to the computer's prediction)—the CBS anchor had to embarrassingly admit on air: 'As you can see, the humans were too timid, but the machine was honest.'",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Univac_I_at_Census_Bureau_with_two_operators.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📼",
+        "text": "UNIVAC I是第一个用磁带存数据的电脑。在此之前，如果你不小心把那一叠几千张的穿孔卡片掉在地上，那绝对是程序员的末日。磁带让数据存储变得优雅多了。",
+        "text_en": "UNIVAC I was the first to use magnetic tape for data. Before that, if you dropped a stack of thousands of punch cards, it was doomsday for a programmer. Magnetic tape made data storage much more elegant."
+      },
+      {
+        "icon": "💲",
+        "text": "第一台UNIVAC I的价格高达100万美元（相当于今天的1000万美元以上）。尽管如此昂贵，通用电气（GE）还是买了一台来发工资，成为了第一家使用电脑的私营公司。",
+        "text_en": "The first UNIVAC I cost $1 million (over $10 million today). Despite the price, General Electric (GE) bought one to process payrolls, becoming the first private company to use a computer."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "如果ENIAC是为军队造的坦克，UNIVAC就是为公司造的卡车。\n坦克（ENIAC）只管算弹道，不管装多少货。\n卡车（UNIVAC）虽然也能跑，但它更擅长装载大量的货物（数据），比如全美国几亿人的人口普查数据，或者全公司的工资单。\n它是第一个让普通大众意识到“电脑不仅能造炸弹，还能帮我算工资”的机器。",
+      "text_en": "If ENIAC was a tank built for the army, UNIVAC was a truck built for businesses.\nThe tank (ENIAC) only cared about calculating trajectories, not carrying cargo.\nThe truck (UNIVAC), while it could also run, was optimized for hauling massive amounts of cargo (data), like census data for millions of Americans or a company's payroll.\nIt was the first machine that made the public realize 'computers aren't just for making bombs; they can calculate my paycheck too.'",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/8/87/UNIVAC_I_Interior.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "📊",
+          "title": "人口普查",
+          "title_en": "Census",
+          "text": "它处理了1950年的美国人口普查数据，虽然并没有完全赶上进度，但证明了大规模数据处理的能力。",
+          "text_en": "It processed the 1950 US Census data. Though it didn't quite keep up with the full schedule, it proved the capability for large-scale data processing."
+        },
+        {
+          "icon": "🗳️",
+          "title": "选举预测",
+          "title_en": "Election Prediction",
+          "text": "确立了“计算机辅助民调分析”的标准，从此以后，每次大选都离不开计算机的数据分析。",
+          "text_en": "It established the standard for 'computer-assisted polling analysis'. Since then, every election relies on computer data analysis."
+        }
+      ],
+  
+    "impact": {
+      "text": "UNIVAC I的发布标志着“计算机时代”正式降临到普通社会。在此之前，计算机是实验室里的科学怪人；在此之后，它变成了企业的核心资产。它让“UNIVAC”这个词在50年代几乎成了“电脑”的代名词。它也标志着IBM的主要竞争对手出现了（虽然IBM后来后来居上）。",
+      "text_en": "The launch of UNIVAC I marked the formal arrival of the 'Computer Age' in general society. Before this, computers were scientific monsters in labs; after this, they became core corporate assets. It made the word 'UNIVAC' almost synonymous with 'computer' in the 50s. It also signaled the emergence of IBM's main competitor (though IBM would later catch up and dominate).",
+      "stats": [
+          {
+            "number": "1951",
+            "label": "年 (交付)",
+            "label_en": "Year (Delivered)"
+          },
+          {
+            "number": "46",
+            "label": "台 (总产量)",
+            "label_en": "Units Produced"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "eniac_computer_1945",
+          "contribution": "ENIAC（同一团队研发，吸取了ENIAC难用的教训，改进为更实用的商用设计）",
+          "contribution_en": "ENIAC (Developed by the same team, learned from ENIAC's usability issues to create a more practical commercial design)"
+        },
+        {
+          "id": "von_neumann_architecture_1945",
+          "contribution": "冯·诺依曼架构（UNIVAC是第一批采用存储程序架构的量产计算机之一）",
+          "contribution_en": "Von Neumann Architecture (UNIVAC was one of the first mass-produced computers to adopt the stored-program architecture)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "ibm_mainframe_1964",
+          "contribution": "IBM大型机（UNIVAC的成功刺激了IBM全力转型电子计算机，导致了后来的System/360诞生）",
+          "contribution_en": "IBM Mainframes (UNIVAC's success shocked IBM into fully pivoting to electronic computers, leading to the System/360)"
+        },
+        {
+          "id": "grace_hopper_compiler_1952",
+          "contribution": "格蕾丝·霍珀（她正是在为UNIVAC编写软件时，发明了第一个编译器A-0系统）",
+          "contribution_en": "Grace Hopper (It was while writing software for UNIVAC that she invented the first compiler, the A-0 System)"
+        }
+      ],
+      "legacy_text": "它是第一台走进办公室穿上西装的电脑。",
+      "legacy_text_en": "It was the first computer to walk into an office and wear a suit."
+    },
+  
+    "related_concepts": ["磁带存储", "商用计算机", "埃克特-莫奇利公司", "1952年大选", "雷明顿兰德 (Remington Rand)"],
+    "related_concepts_en": ["Magnetic Tape Storage", "Commercial Computer", "Eckert-Mauchly Corp", "1952 Election", "Remington Rand"],
+  
+    "quiz": {
+      "question": "UNIVAC I在1952年做了一件什么事，让它一夜之间家喻户晓，并彻底改变了公众对电脑“只能做数学题”的刻板印象？",
+      "question_en": "What did UNIVAC I do in 1952 that made it famous overnight and changed the public stereotype that computers could 'only do math'?",
+      "options": [
+        "它战胜了国际象棋冠军",
+        "它写了一首诗",
+        "它成功预测了总统大选结果，且比人类专家更准",
+        "它控制了核导弹发射"
+      ],
+      "options_en": [
+        "It defeated a chess champion",
+        "It wrote a poem",
+        "It successfully predicted the presidential election, beating human experts",
+        "It controlled a nuclear missile launch"
+      ],
+      "answer": 2,
+      "explanation": "UNIVAC I在CBS直播中准确预测了艾森豪威尔的压倒性胜利，而当时的人类民调专家都认为选情胶着。这向公众展示了计算机处理数据和预测未来的强大能力。",
+      "explanation_en": "UNIVAC I accurately predicted Eisenhower's landslide victory on live CBS TV, while human pollsters thought it was too close to call. This demonstrated to the public the immense power of computers in data processing and prediction."
+    }
+  }

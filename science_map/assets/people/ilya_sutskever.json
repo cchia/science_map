@@ -1,0 +1,11 @@
+{
+    "name": "伊尔亚·苏茨克维",
+    "name_en": "Ilya Sutskever",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ilya_Sutskever_and_Sam_Altman_in_TAU_%28cropped%29.jpg",
+    "bio_short": "俄罗斯裔加拿大计算机科学家，OpenAI的联合创始人及前首席科学家。他是深度学习领域的传奇人物，几乎参与了现代AI每一个关键节点：2012年作为AlexNet的共同作者开启了深度学习时代；在Google Brain期间发明了Seq2Seq模型，革新了机器翻译；后来作为OpenAI的技术灵魂，主导了GPT系列大语言模型的研发。他是“缩放定律”（Scaling Laws）最坚定的信徒，坚信大力出奇迹。2024年，因对AI安全和超级智能对齐（Superalignment）的担忧，他离开OpenAI并创立了Safe Superintelligence Inc. (SSI)。",
+    "bio_short_en": "Russian-Canadian computer scientist, co-founder and former Chief Scientist of OpenAI. He is a legend in deep learning, having participated in almost every key milestone of modern AI: co-authoring AlexNet in 2012 to kickstart the deep learning era; inventing the Seq2Seq model at Google Brain, revolutionizing machine translation; and later serving as the technical soul of OpenAI, spearheading the GPT series LLMs. He is the staunchest believer in 'Scaling Laws'. In 2024, driven by concerns over AI safety and Superalignment, he left OpenAI to found Safe Superintelligence Inc. (SSI).",
+    "events": [
+      "alexnet_2012",
+      "chatgpt_release_2022"
+    ]
+  }

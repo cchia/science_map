@@ -1,0 +1,168 @@
+{
+    "id": "shannon_entropy_1948",
+    "personId": "claude_shannon",
+    "title": "发表《通信的数学理论》 (信息熵)",
+    "title_en": "Publishes 'A Mathematical Theory of Communication' (Information Entropy)",
+    "year": 1948,
+    "lat": 40.7357,
+    "lng": -74.0036,
+    "city": "纽约 / 默里山 (贝尔实验室)",
+    "city_en": "New York / Murray Hill (Bell Labs)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_ids": ["thermo_story", "computing_origin_story"],
+    "field": ["数学", "工程学", "计算机"],
+    "field_en": ["Mathematics", "Engineering", "Computer Science"],
+    
+    "media": {
+      "event_image": "assets/images/information_theory.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=X40ft1Lt1f0",
+        "title": "信息论：什么是比特？",
+        "title_en": "Information Theory: What is a Bit?",
+        "duration": "9:52"
+      }
+    },
+    
+    "summary": {
+      "text": "克劳德·香农（Claude Shannon）在贝尔实验室发表了一篇被誉为“信息时代大宪章”的论文。他建立了一套全新的数学框架，将“信息”定义为一个可以量化的物理量，并引入了“比特”(bit) 作为其基本单位。他借用了热力学中“熵”的概念，提出了“信息熵”(Information Entropy)，用来衡量一条消息中的“不确定性”或“信息量”。他证明了数据压缩的极限（信源编码定理）和在噪声信道中无误传输的最大速度（信道编码定理）。",
+      "text_en": "Claude Shannon published a paper at Bell Labs often called the 'Magna Carta of the Information Age'. He established a new mathematical framework that defined 'information' as a quantifiable physical quantity and introduced the 'bit' as its fundamental unit. Borrowing from thermodynamics, he proposed 'Information Entropy' to measure the 'uncertainty' or 'information content' of a message. He proved the limits of data compression (Source Coding Theorem) and the maximum speed of error-free transmission over a noisy channel (Channel Coding Theorem).",
+      "key_points": [
+        "创立了“信息论”(Information Theory)",
+        "定义了“比特”(bit) 为信息单位",
+        "提出了“信息熵”(Entropy) 公式：H = -Σ p log p",
+        "将“通信”从模拟工程转变为数字数学",
+        "证明了在噪声中进行完美通信是可能的"
+      ],
+      "key_points_en": [
+        "Founded 'Information Theory'",
+        "Defined the 'bit' as the unit of information",
+        "Proposed the 'Information Entropy' formula: H = -Σ p log p",
+        "Transformed 'communication' from analog engineering to digital mathematics",
+        "Proved perfect communication is possible even with noise"
+      ]
+    },
+  
+    "story": {
+      "text": "在香农之前，工程师们认为要让信号更清晰（消除噪声），就必须用更大的功率“大声喊”。香农通过数学证明这是一个错误的方向。他指出，通信的本质是“消除不确定性”。如果我告诉你太阳明天会升起，这几乎没有信息量（因为概率 p≈1，熵≈0）。如果我告诉你中了彩票，信息量就巨大（概率 p≈0，熵高）。他借用了玻尔兹曼（`boltzmann_statistical_mechanics_1877`）的熵公式，因为信息的不确定性与热力学的混乱度在数学上惊人地相似。据说，是冯·诺依曼建议他使用“熵”这个词的，理由是：“没人真正懂熵是什么，所以在辩论中你会占上风。”",
+      "text_en": "Before Shannon, engineers thought the only way to clear up a signal (overcome noise) was to 'shout louder' (more power). Shannon proved mathematically this was wrong. He argued that the essence of communication is 'resolving uncertainty'. If I tell you the sun will rise tomorrow, there is almost zero information (probability p≈1, entropy≈0). If I tell you you won the lottery, the information is huge (probability p≈0, high entropy). He borrowed Boltzmann's (`boltzmann_statistical_mechanics_1877`) formula because the math of uncertainty mirrored thermodynamic disorder. Legend has it John von Neumann advised him to use the word 'Entropy' because 'nobody knows what entropy really is, so in a debate you will always have the advantage.'",
+      "diagram": "assets/images/shannon_insight.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🤹",
+        "text": "香农是一个性格古怪的天才。他在贝尔实验室的大厅里骑独轮车，一边骑一边抛球杂耍。他还制造过一个“终极机器”(Ultimate Machine)：打开开关后，一只机械手会伸出来，把开关关掉，然后缩回去。",
+        "text_en": "Shannon was an eccentric genius. He rode a unicycle down the halls of Bell Labs while juggling balls. He also built an 'Ultimate Machine': a box with a switch. When you flipped it, a mechanical hand came out, turned the switch off, and retreated."
+      },
+      {
+        "icon": "01",
+        "text": "“Bit”（比特）这个词其实是数学家约翰·图基（John Tukey）在一张午餐纸巾上写下的“Binary Digit”的缩写，但香农使其闻名于世。",
+        "text_en": "The word 'Bit' was actually coined by mathematician John Tukey (short for 'Binary Digit') on a lunch napkin, but Shannon made it famous."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "香农问：世界上最简单的“消息”是什么？\n答案是：是/否（1/0）。这就是1“比特”。\n所有的书、音乐、图片、视频，无论多么复杂，最终都可以被分解成一长串的“是/否”问题。\n香农教我们如何把这些“是/否”打包得更紧凑（压缩，像ZIP文件），以及如何给它们加上“保护层”（纠错码），这样即使电话线有杂音，对方也能收到完美的信息。",
+      "text_en": "Shannon asked: What is the simplest possible 'message' in the universe?\nAnswer: Yes/No (1/0). That is 1 'bit'.\nAll books, music, photos, and videos, no matter how complex, can ultimately be broken down into a long string of 'Yes/No' questions.\nShannon taught us how to pack these 'Yes/No's' tighter (Compression, like ZIP files) and how to add 'protective layers' (Error Correction) so that even if the phone line is static, the other person receives a perfect message.",
+      "diagram": "assets/images/shannon_bit.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🗜️",
+          "title": "数据压缩 (Data Compression)",
+          "title_en": "Data Compression",
+          "text": "ZIP文件、MP3音乐、JPEG图片——所有这些“压缩”技术都直接基于香农的“信源编码定理”（去除冗余信息）。",
+          "text_en": "ZIP files, MP3 music, JPEG images—all these 'compression' technologies are directly based on Shannon's 'Source Coding Theorem' (removing redundancy)."
+        },
+        {
+          "icon": "📶",
+          "title": "通信与互联网",
+          "title_en": "Communication & Internet",
+          "text": "从5G网络到深空探测器的数据传输，所有现代通信系统都使用香农发明的“纠错码”来保证数据在充满噪声的信道中不丢失。",
+          "text_en": "From 5G networks to deep-space probes, all modern communication systems use 'Error Correction Codes' invented by Shannon to ensure data isn't lost in noisy channels."
+        },
+        {
+          "icon": "🔐",
+          "title": "密码学 (Cryptography)",
+          "title_en": "Cryptography",
+          "text": "香农在二战期间还发表了关于密码学的机密论文，证明了“一次性密码本”(One-time pad) 是唯一在数学上无法破译的加密方式。",
+          "text_en": "Shannon also wrote classified papers on cryptography during WWII, proving that the 'One-time pad' is the only mathematically unbreakable encryption."
+        }
+      ],
+  
+    "impact": {
+      "text": "香农是“数字时代”的建筑师。在他之前，通信是“模拟”的（波）；在他之后，通信变成了“数字”的（比特）。没有他的理论，我们今天就不会有互联网、手机、硬盘或任何数字设备。他单枪匹马地创建了一门支撑现代文明的学科。",
+      "text_en": "Shannon is the architect of the 'Digital Age'. Before him, communication was 'analog' (waves); after him, it was 'digital' (bits). Without his theory, we would have no Internet, no mobile phones, no hard drives, or any digital devices. He single-handedly created the discipline that underpins modern civilization.",
+      "stats": [
+          {
+            "number": "1948",
+            "label": "年 (信息论诞生)",
+            "label_en": "Year (Information Theory Born)"
+          },
+          {
+            "number": "0/1",
+            "label": "比特 (基本单位)",
+            "label_en": "Bit (Base Unit)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "leibniz_binary_1703",
+          "contribution": "莱布尼茨（提供了“二进制”算术的基础，这是“比特”的数学起源）",
+          "contribution_en": "Gottfried Leibniz (provided the foundation of 'binary' arithmetic, the mathematical origin of the 'bit')"
+        },
+        {
+          "id": "boltzmann_statistical_mechanics_1877",
+          "contribution": "玻尔兹曼（香农直接借用了他的“熵”公式来量化信息的不确定性）",
+          "contribution_en": "Ludwig Boltzmann (Shannon directly borrowed his 'entropy' formula to quantify information uncertainty)"
+        },
+        {
+          "id": "boole_logic_1854",
+          "contribution": "乔治·布尔（香农在他早期的硕士论文中，首次将布尔代数应用于电子电路设计）",
+          "contribution_en": "George Boole (In his earlier master's thesis, Shannon first applied Boolean algebra to electronic circuit design)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "transistor_invention_1947",
+          "contribution": "晶体管（虽然几乎同时发明，但晶体管为香农的理论提供了完美的物理硬件——开关）",
+          "contribution_en": "The Transistor (though invented almost simultaneously, it provided the perfect physical hardware—switches—for Shannon's theory)"
+        },
+        {
+          "id": "internet_1969",
+          "contribution": "互联网（整个数字网络的数据包交换和传输协议，都建立在香农的信息论之上）",
+          "contribution_en": "The Internet (the entire digital network's packet switching and transmission protocols are built on Shannon's Information Theory)"
+        }
+      ],
+      "legacy_text": "克劳德·香农告诉我们，“信息”就像“能量”一样，是一个可以被测量、储存和传输的物理量。",
+      "legacy_text_en": "Claude Shannon taught us that 'Information' is a physical quantity, like 'Energy', that can be measured, stored, and transmitted."
+    },
+  
+    "related_concepts": ["信息论 (Information Theory)", "比特 (Bit)", "熵 (Entropy)", "数据压缩 (Compression)", "信道容量 (Channel Capacity)", "冗余 (Redundancy)", "噪声 (Noise)", "布尔代数"],
+    "related_concepts_en": ["Information Theory", "Bit", "Entropy", "Data Compression", "Channel Capacity", "Redundancy", "Noise", "Boolean Algebra"],
+  
+    "quiz": {
+      "question": "根据克劳德·香农（Claude Shannon）的理论，一条信息的“信息量”（信息熵）取决于什么？",
+      "question_en": "According to Claude Shannon's theory, the amount of 'information' (entropy) in a message depends on what?",
+      "options": [
+        "消息的长度（字数）",
+        "消息的含义或重要性",
+        "消息的“意外程度”或“不确定性” (Surprise / Uncertainty)",
+        "发送消息所需的电力"
+      ],
+      "options_en": [
+        "The length of the message (word count)",
+        "The meaning or importance of the message",
+        "The degree of 'surprise' or 'uncertainty' of the message",
+        "The electricity needed to send it"
+      ],
+      "answer": 2,
+      "explanation": "在信息论中，发生概率越低的事情（越意外），包含的信息量就越大。如果我知道太阳明天会升起（概率极高），这条消息的“信息量”几乎为零。如果我告诉你明天会下青蛙雨（概率极低），这条消息的“信息量”就巨大。",
+      "explanation_en": "In Information Theory, the lower the probability of an event (the more surprising it is), the more information it contains. Knowing the sun will rise (high probability) contains almost zero information. Knowing it will rain frogs (low probability) contains massive information."
+    }
+  }

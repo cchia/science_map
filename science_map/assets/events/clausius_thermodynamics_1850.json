@@ -1,7 +1,158 @@
 {
   "id": "clausius_thermodynamics_1850",
-  "title": "Clausius Thermodynamics",
-  "title_en": "Clausius Thermodynamics",
+  "personId": "rudolf_clausius",
+  "title": "发表《论热的推动力》 (热力学第一、二定律)",
+  "title_en": "Publishes 'On the Moving Force of Heat' (1st & 2nd Laws of Thermodynamics)",
   "year": 1850,
-  "is_stub": true
+  "lat": 52.5200,
+  "lng": 13.4050,
+  "city": "柏林",
+  "city_en": "Berlin",
+  "country": "普鲁士 (今德国)",
+  "country_en": "Prussia (Modern Germany)",
+  "storyline_ids": ["thermo_story"],
+  "field": ["物理学", "化学"],
+  "field_en": ["Physics", "Chemistry"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Heat_flow_hot_to_cold.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=mGDJO2M7RBg",
+      "title": "什么是热力学第二定律?",
+      "title_en": "What is the Second Law of Thermodynamics?",
+      "duration": "4:07"
+    }
+  },
+  
+  "summary": {
+    "text": "鲁道夫·克劳修斯（Rudolf Clausius）发表了他的开创性论文，解决了当时物理学界最大的矛盾：卡诺（`carnot_thermodynamics_1824`）的“热质说”（热守恒）与焦耳（`joule_heat_1843`）的“热功当量”（热转化）之间的冲突。克劳修斯指出，这两个理论可以共存，从而同时确立了“热力学第一定律”（能量守恒：dQ = dU + dW）和“热力学第二定律”（热量不能自发地从冷物体流向热物体）。后来（1865年），他为了量化第二定律，创造了“熵”(Entropy) 这个词。",
+    "text_en": "Rudolf Clausius published his groundbreaking paper, resolving the biggest conflict in physics at the time: the clash between Carnot's (`carnot_thermodynamics_1824`) 'Caloric theory' (heat is conserved) and Joule's (`joule_heat_1843`) 'Mechanical Equivalent' (heat is converted). Clausius showed that both could coexist, thereby establishing both the 'First Law of Thermodynamics' (Conservation of Energy: dQ = dU + dW) and the 'Second Law of Thermodynamics' (Heat cannot spontaneously flow from cold to hot). Later (in 1865), to quantify the Second Law, he coined the term 'Entropy'.",
+    "key_points": [
+      "确立了热力学第一定律 (能量守恒)",
+      "确立了热力学第二定律 (热流方向)",
+      "引入了“内能”(Internal Energy, U) 的概念",
+      "后来发明了“熵”(Entropy, S) 这个词",
+      "预言了“宇宙热寂”(Heat Death of the Universe)"
+    ],
+    "key_points_en": [
+      "Established the First Law of Thermodynamics (Conservation)",
+      "Established the Second Law of Thermodynamics (Direction of heat)",
+      "Introduced the concept of 'Internal Energy' (U)",
+      "Later coined the term 'Entropy' (S)",
+      "Predicted the 'Heat Death of the Universe'"
+    ]
+  },
+
+  "story": {
+    "text": "在克劳修斯之前，物理学家很困惑。卡诺说热机就像“水车”，水（热）只是流过，总量不变。焦耳说热机消耗了热，变成了功。谁是对的？克劳修斯说：**他们都对了一半**。能量确实是守恒的（焦耳是对的），但热量的流动是有方向性的（卡诺的直觉是对的）。他推导出一个著名的结论：“热量永远不能从较冷的物体传递给较热的物体，而不发生其他变化。” 为了描述这种“不可逆性”（比如打碎的杯子不能自动复原，热咖啡总会变凉），他在1865年发明了一个新词“熵”（Entropy），并留下了物理学史上最著名的两句话：“宇宙的能量是恒定的。宇宙的熵趋于最大值。”",
+    "text_en": "Before Clausius, physicists were confused. Carnot said a heat engine is like a 'water wheel'—heat just flows through, quantity unchanged. Joule said heat is *consumed* to make work. Who was right? Clausius said: **They are both half-right**. Energy *is* conserved (Joule wins), but the flow of heat has a *direction* (Carnot's intuition was right). He derived the famous statement: 'Heat can never pass from a colder to a warmer body without some other change.' To describe this 'irreversibility' (like a broken cup not un-breaking, or hot coffee always cooling down), he coined the word 'Entropy' in 1865, leaving the two most famous sentences in physics: 'The energy of the universe is constant. The entropy of the universe tends to a maximum.'",
+    "diagram": "assets/images/clausius_thermodynamics.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🌌",
+      "text": "克劳修斯的理论导致了一个令人沮丧的宇宙终局预言——“热寂”(Heat Death)。即宇宙最终会达到“最大熵”状态，所有温差消失，所有物理过程停止，变成一片死寂。",
+      "text_en": "Clausius's theory led to a depressing prediction for the end of the universe: 'Heat Death'. Eventually, the universe will reach 'maximum entropy', all temperature differences will vanish, and all physical processes will stop."
+    },
+    {
+      "icon": "⚛️",
+      "text": "他还对“气体动理论”做出了巨大贡献，是第一个计算出气体分子平均运动速度和碰撞频率的人，这为玻尔兹曼（Boltzmann）的工作铺平了道路。",
+      "text_en": "He also made huge contributions to the 'Kinetic Theory of Gases', being the first to calculate the average speed and collision frequency of gas molecules, paving the way for Boltzmann."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "克劳修斯告诉我们要遵守两条宇宙铁律：\n1. **第一定律（关于存折）**：你不能凭空变出钱（能量）。你存进去多少，就能取出来多少。能量守恒。\n2. **第二定律（关于手续费）**：虽然钱的总数不变，但每次你“花钱”（转换能量）时，你都要付一笔“手续费”（熵增）。这笔钱并没有消失，但它变成了“废钱”（无用的热），你再也用不了了。所以，宇宙中的“有用能量”在不断减少。",
+    "text_en": "Clausius taught us the two iron laws of the universe:\n1. **First Law (The Bank Account)**: You can't create money (energy) out of thin air. What you put in is what you get out. Energy is conserved.\n2. **Second Law (The Tax)**: Even though the total money is the same, every time you *spend* it (convert energy), you have to pay a 'tax' (Entropy). This money isn't destroyed, but it turns into 'waste money' (useless heat) that you can never use again. So, the 'useful energy' in the universe is constantly running out.",
+    "diagram": "assets/images/clausius_laws.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "❄️",
+        "title": "冰箱 (Refrigerators)",
+        "title_en": "Refrigerators",
+        "text": "克劳修斯说“热不会自动从冷流向热”。所以，要让冰箱内部（冷）的热流向厨房（热），必须使用“压缩机”做功。这就是冰箱消耗电力的原因。",
+        "text_en": "Clausius said 'heat won't flow from cold to hot on its own'. So, to move heat from inside the fridge (cold) to the kitchen (hot), you *must* do work (the compressor). That's why fridges use electricity."
+      },
+      {
+        "icon": "🔥",
+        "title": "发动机效率",
+        "title_en": "Engine Efficiency",
+        "text": "第二定律解释了为什么没有任何发动机的效率能达到100%——因为总有一部分能量必须以“废热”（熵）的形式被排放掉。",
+        "text_en": "The Second Law explains why no engine can ever be 100% efficient—because some energy *must* always be dumped as 'waste heat' (entropy)."
+      },
+      {
+        "icon": "🧪",
+        "title": "化学反应",
+        "title_en": "Chemical Reactions",
+        "text": "吉布斯（Gibbs）后来利用克劳修斯的熵，定义了“吉布斯自由能”，这是判断化学反应是否会自发发生的标准。",
+        "text_en": "Gibbs later used Clausius's entropy to define 'Gibbs Free Energy', the standard for determining if a chemical reaction will happen spontaneously."
+      }
+    ],
+
+  "impact": {
+    "text": "克劳修斯是“热力学”的真正缔造者。他将零散的实验（焦耳）和工程理论（卡诺）整合成了一套严密的、普适的数学物理定律。他引入的“熵”的概念，不仅深刻影响了物理学和化学，甚至影响了哲学和信息论（香农）。他发现了时间箭头的物理学基础。",
+    "text_en": "Clausius was the true architect of 'Thermodynamics'. He synthesized scattered experiments (Joule) and engineering theories (Carnot) into a rigorous, universal set of mathematical laws. His concept of 'Entropy' profoundly influenced not just physics and chemistry, but philosophy and information theory (Shannon). He found the physical basis for the arrow of time.",
+    "stats": [
+        {
+          "number": "2",
+          "label": "大定律 (第一和第二)",
+          "label_en": "Laws (1st & 2nd)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "joule_heat_1843",
+        "contribution": "焦耳（其“热功当量”实验证明了热是能量，是第一定律的基础）",
+        "contribution_en": "Joule (his 'mechanical equivalent of heat' proved heat is energy, the basis for the 1st Law)"
+      },
+      {
+        "id": "carnot_thermodynamics_1824",
+        "contribution": "卡诺（其“卡诺循环”和热流思想是第二定律的基础）",
+        "contribution_en": "Sadi Carnot (his 'Carnot Cycle' and heat flow ideas were the basis for the 2nd Law)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "boltzmann_statistical_mechanics_1877",
+        "contribution": "玻尔兹曼（他为克劳修斯的“熵”找到了微观解释：S = k log W）",
+        "contribution_en": "Ludwig Boltzmann (he found the microscopic explanation for Clausius's 'entropy': S = k log W)"
+      },
+      {
+        "id": "gibbs_free_energy_1873",
+        "contribution": "吉布斯（将克劳修斯的热力学推广到了化学反应领域）",
+        "contribution_en": "Willard Gibbs (extended Clausius's thermodynamics into the realm of chemical reactions)"
+      }
+    ],
+    "legacy_text": "克劳修斯发现了宇宙的终极命运：熵增。",
+    "legacy_text_en": "Clausius discovered the ultimate fate of the universe: increasing entropy."
+  },
+
+  "related_concepts": ["熵 (Entropy)", "热力学第二定律", "热力学第一定律", "能量守恒", "热寂 (Heat Death)", "不可逆过程", "卡诺循环"],
+  "related_concepts_en": ["Entropy", "Second Law of Thermodynamics", "First Law of Thermodynamics", "Conservation of Energy", "Heat Death", "Irreversible Process", "Carnot Cycle"],
+
+  "quiz": {
+    "question": "克劳修斯提出的“热力学第二定律”描述了热量自然流动的什么方向？",
+    "question_en": "What direction of natural heat flow does Clausius's 'Second Law of Thermodynamics' describe?",
+    "options": [
+      "热量总是从低温物体流向高温物体",
+      "热量总是从高温物体流向低温物体",
+      "热量不流动，只转化",
+      "热量流动方向是随机的"
+    ],
+    "options_en": [
+      "Heat always flows from cold to hot",
+      "Heat always flows from hot to cold",
+      "Heat does not flow, it only converts",
+      "Heat flow direction is random"
+    ],
+    "answer": 1,
+    "explanation": "这是第二定律最直观的表述（克劳修斯表述）。除非有外部做功（像冰箱那样），否则热量永远只会“自发地”从热的地方流向冷的地方，这导致了熵的增加。",
+    "explanation_en": "This is the most intuitive statement of the Second Law (Clausius statement). Unless external work is done (like in a fridge), heat *only* spontaneously flows from hot to cold, which drives the increase of entropy."
+  }
 }

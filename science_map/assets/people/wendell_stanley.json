@@ -1,0 +1,10 @@
+{
+    "name": "温德尔·斯坦利",
+    "name_en": "Wendell Stanley",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/5/53/Wendell_Meredith_Stanley.jpg",
+    "bio_short": "美国生物化学家和病毒学家，1946年诺贝尔化学奖得主。他首次成功将烟草花叶病毒（TMV）结晶化（`stanley_crystallization_1935`），证明了病毒具有蛋白质的化学特性，从而模糊了生命与非生命的界限。",
+    "bio_short_en": "An American biochemist and virologist, and a 1946 Nobel laureate in Chemistry. He was the first to successfully crystallize the Tobacco Mosaic Virus (TMV) (`stanley_crystallization_1935`), proving that viruses have the chemical properties of proteins, thus blurring the line between life and non-life.",
+    "events": [
+      "stanley_crystallization_1935"
+    ]
+  }

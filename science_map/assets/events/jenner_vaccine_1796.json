@@ -1,0 +1,151 @@
+{
+    "id": "jenner_vaccine_1796",
+    "personId": "edward_jenner",
+    "title": "发明“牛痘疫苗” (免疫学诞生)",
+    "title_en": "Invents the Smallpox Vaccine (Birth of Immunology)",
+    "year": 1796,
+    "lat": 51.6964,
+    "lng": -2.4569,
+    "city": "伯克利 (格洛斯特郡)",
+    "city_en": "Berkeley (Gloucestershire)",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "storyline_id": ["micro_story"],
+    "field": ["医学", "生物学"],
+    "field_en": ["Medicine", "Biology"],
+    
+    "media": {
+      "event_image": "assets/images/smallpox_vaccine.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=yqUFy-t4MlQ",
+        "title": "我们是如何战胜天花的 (TED-Ed)",
+        "title_en": "How we conquered the deadly smallpox virus (TED-Ed)",
+        "duration": "4:19"
+      }
+    },
+    
+    "summary": {
+      "text": "1796年, 英国乡村医生爱德华·詹纳 (Edward Jenner) 进行了医学史上最著名的实验. 他注意到当地的挤奶女工在感染了温和的\"牛痘\" (Cowpox) 后, 似乎对致命的\"天花\" (Smallpox) 具有天然的免疫力. 为了验证这一点, 他从一名挤奶女工手上的牛痘水泡中取出脓液, 接种到一个名叫詹姆斯·菲普斯 (James Phipps) 的8岁男孩的手臂上. 后来, 詹纳多次试图用真正的天花病毒感染这个男孩, 但男孩完全没有生病. 这标志着世界上第一种\"疫苗\" (Vaccine) 的诞生, 并最终导致了天花在地球上的彻底根除.",
+      "text_en": "In 1796, Edward Jenner, a British country doctor, performed the most famous experiment in medical history. He noticed that local milkmaids who caught the mild 'Cowpox' seemed naturally immune to the deadly 'Smallpox'. To test this, he took pus from a cowpox blister on a milkmaid's hand and inoculated it into the arm of an 8-year-old boy named James Phipps. Later, Jenner repeatedly tried to infect the boy with actual smallpox, but the boy remained completely healthy. This marked the birth of the world's first 'Vaccine' and eventually led to the total eradication of smallpox on Earth.",
+      "key_points": [
+        "发明了第一种疫苗 (First Vaccine)",
+        "利用\"牛痘\" (Cowpox) 预防\"天花\" (Smallpox)",
+        "开创了\"免疫学\" (Immunology)",
+        "实验对象：8岁的詹姆斯·菲普斯 (James Phipps)",
+        "证明了交叉免疫 (Cross-Immunity)"
+      ],
+      "key_points_en": [
+        "Invented the first Vaccine",
+        "Used 'Cowpox' to prevent 'Smallpox'",
+        "Founded 'Immunology'",
+        "Test subject: 8-year-old James Phipps",
+        "Proved Cross-Immunity"
+      ]
+    },
+  
+    "story": {
+      "text": "在詹纳之前, 人们使用一种危险的方法叫\"人痘接种\" (Variolation), 即直接使用天花病人的脓液, 这有很大的致死风险. 詹纳的灵感来自民间传说: \"挤奶女工不长麻子\". 他在1796年5月14日, 从挤奶女工莎拉·内尔梅斯 (Sarah Nelmes) 的手上提取了牛痘物质. 实验是极其冒险的 (如果失败, 男孩会死). 当詹纳后来向英国皇家学会提交论文时, 遭到了拒绝, 认为证据不足. 但詹纳坚持在更多孩子 (包括他自己的儿子) 身上进行实验. 最终, 这种更安全的方法通过了验证, 并以拉丁语 *vacca* (牛) 命名为 Vaccination (疫苗接种).",
+      "text_en": "Before Jenner, people used a dangerous method called 'Variolation' (using real smallpox pus), which often killed the patient. Jenner's inspiration came from folklore: 'Milkmaids don't get pockmarked.' On May 14, 1796, he took cowpox matter from the hand of milkmaid Sarah Nelmes. The experiment was incredibly risky (if it failed, the boy would die). When Jenner submitted his paper to the Royal Society, it was rejected as having insufficient evidence. Jenner persisted, testing it on more children (including his own son). Finally, this safer method was proven and named 'Vaccination' after the Latin *vacca* (cow).",
+      "diagram": "assets/images/smallpox_vaccine_2.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "🐄",
+        "text": "因为疫苗来自\"牛\" (Cow), 当时的讽刺漫画画着: 接种了疫苗的人, 身体里会长出牛头和牛角.",
+        "text_en": "Because the vaccine came from a 'Cow', satirical cartoons of the time showed people sprouting cow heads and horns after getting vaccinated."
+      },
+      {
+        "icon": "🌎",
+        "text": "天花是人类历史上唯一被\"彻底根除\"的传染病 (1980年世卫组织宣布). 这一切都始于詹纳的实验.",
+        "text_en": "Smallpox is the only infectious disease in human history to be 'completely eradicated' (declared by WHO in 1980). It all started with Jenner's experiment."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在詹纳之前, 天花是一种可怕的死神, 杀死无数人. 詹纳发现了一个秘密: 那些得过\"牛痘\" (一种牛身上的轻微皮肤病) 的挤奶工, 从来不得天花.\n他想: \"也许牛痘教会了身体如何打败天花?\"\n他故意把牛痘种在一个小男孩身上. 男孩发了点低烧, 很快就好了. 然后詹纳把致命的天花病毒种在男孩身上. 奇迹发生了: 病毒毫无作用. 男孩的身体已经\"认识\"了这个敌人. 这就是疫苗的原理: 用一个弱的敌人来训练你的免疫系统.",
+      "text_en": "Before Jenner, smallpox was a grim reaper, killing millions. Jenner found a secret: Milkmaids who caught 'Cowpox' (a mild skin disease from cows) never caught Smallpox.\nHe thought: 'Maybe Cowpox teaches the body how to beat Smallpox?'\nHe purposely gave a boy Cowpox. The boy got a little sick but recovered. Then Jenner tried to give him the deadly Smallpox. The miracle happened: the virus did nothing. The boy's body already 'knew' the enemy. This is how vaccines work: training your immune system with a weaker enemy.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Jenner_phipps_01_%28cropped%29.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "💉",
+          "title": "疫苗接种 (Vaccination)",
+          "title_en": "Vaccination",
+          "text": "詹纳的方法是所有现代疫苗 (从流感到COVID-19) 的鼻祖. 它确立了\"通过接触减毒病原体获得免疫力\"的原则.",
+          "text_en": "Jenner's method is the ancestor of all modern vaccines (from Flu to COVID-19). It established the principle of 'gaining immunity by exposure to a weakened pathogen'."
+        },
+        {
+          "icon": "🛡️",
+          "title": "公共卫生 (Public Health)",
+          "title_en": "Public Health",
+          "text": "这是第一次大规模的公共卫生干预措施, 证明了医学可以\"预防\"疾病, 而不仅仅是\"治疗\"疾病.",
+          "text_en": "This was the first mass public health intervention, proving medicine could *prevent* disease, not just *treat* it."
+        }
+      ],
+  
+    "impact": {
+      "text": "爱德华·詹纳被誉为\"拯救了最多生命的人\". 他的发现直接导致了天花的根除 (估计仅在20世纪就拯救了3亿人的生命). 他开创了\"免疫学\", 改变了人类与传染病斗争的方式. 拿破仑曾下令释放英国战俘, 理由是他\"无法拒绝詹纳 (人类恩人) 的请求\".",
+      "text_en": "Edward Jenner is said to have 'saved more lives than any other human'. His discovery led directly to the eradication of smallpox (saving an estimated 300 million lives in the 20th century alone). He founded 'Immunology', changing how humanity fights infectious diseases. Napoleon once released British POWs solely because he 'could not refuse a request from Jenner (the benefactor of mankind)'.",
+      "stats": [
+          {
+            "number": "1796",
+            "label": "年 (首次接种)",
+            "label_en": "Year (First Vaccination)"
+          },
+          {
+            "number": "1980",
+            "label": "年 (天花根除)",
+            "label_en": "Year (Smallpox Eradicated)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "variolation_practice_BC1000",
+          "contribution": "人痘接种术 (源自中国/土耳其的古老方法, 琴纳试图改进这种危险的技术)",
+          "contribution_en": "Variolation (Ancient practice from China/Turkey; Jenner sought to improve this dangerous technique)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "pasteur_germ_theory_1861",
+          "contribution": "路易·巴斯德 (他在詹纳的基础上, 提出了\"细菌理论\", 并研发了狂犬病和炭疽疫苗, 正式将\"疫苗\"科学化)",
+          "contribution_en": "Louis Pasteur (Building on Jenner, he proposed 'Germ Theory' and developed rabies/anthrax vaccines, formally scientificizing 'vaccination')"
+        },
+        {
+          "id": "smallpox_eradication_1980",
+          "contribution": "天花根除计划 (詹纳工作的最终胜利)",
+          "contribution_en": "Smallpox Eradication Program (The ultimate victory of Jenner's work)"
+        }
+      ],
+      "legacy_text": "詹纳发现了一把能够锁住死神 (天花) 的钥匙: 牛痘.",
+      "legacy_text_en": "Jenner found the key to lock away the Grim Reaper (Smallpox): Cowpox."
+    },
+  
+    "related_concepts": ["疫苗 (Vaccine)", "天花 (Smallpox)", "牛痘 (Cowpox)", "免疫 (Immunity)", "抗体 (Antibody)", "人痘接种 (Variolation)", "公共卫生"],
+    "related_concepts_en": ["Vaccine", "Smallpox", "Cowpox", "Immunity", "Antibody", "Variolation", "Public Health"],
+  
+    "quiz": {
+      "question": "爱德华·詹纳发明的\"疫苗\" (Vaccine) 这个词, 来源于拉丁语中的什么动物?",
+      "question_en": "The word 'Vaccine', coined by Edward Jenner, comes from the Latin word for which animal?",
+      "options": [
+        "老鼠 (Mouse)",
+        "马 (Horse)",
+        "牛 (Cow)",
+        "猴子 (Monkey)"
+      ],
+      "options_en": [
+        "Mouse",
+        "Horse",
+        "Cow (Vacca)",
+        "Monkey"
+      ],
+      "answer": 2,
+      "explanation": "Vaccine 来源于拉丁语 *vacca* (牛) 和 *vaccinia* (牛痘). 因为詹纳使用的是\"牛痘\"病毒来让人体获得对天花的免疫力.",
+      "explanation_en": "Vaccine comes from the Latin *vacca* (cow) and *vaccinia* (cowpox). Because Jenner used the 'cowpox' virus to give humans immunity to smallpox."
+    }
+  }

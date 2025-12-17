@@ -1,0 +1,10 @@
+{
+    "name": "安迪·鲁宾",
+    "name_en": "Andy Rubin",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/3/39/2008_Google_Developer_Day_in_Japan_-_Andy_Rubin_%28cropped%29.jpg",
+    "bio_short": "美国技术专家，被尊称为“Android之父”。他对机器人的狂热喜爱不仅给了他“Android”这个昵称，也定义了他的职业生涯。早年曾就职于卡尔·蔡司和苹果（由著名的General Magic团队衍生），并创立了Danger公司（开发了深受黑客喜爱的Sidekick手机）。2003年创立Android Inc.，最初旨在为数码相机开发系统，后敏锐转型并在被Google收购后领导了Android系统的崛起。他信奉开放平台的力量，尽管后来因争议离开Google，但他一手建立的绿色机器人帝国彻底改变了移动互联网的版图。",
+    "bio_short_en": "American technologist, revered as the 'Father of Android'. His obsession with robots earned him the nickname 'Android' and defined his career. Early in his career, he worked at Carl Zeiss and Apple (spawning from the famous General Magic team), and founded Danger (creator of the hacker-favorite Sidekick phone). He founded Android Inc. in 2003, initially aiming to build an OS for digital cameras before pivoting to mobile and leading Android's rise after Google's acquisition. A believer in the power of open platforms, despite his controversial exit from Google later, the green robot empire he built fundamentally reshaped the mobile internet landscape.",
+    "events": [
+      "google_android_2008"
+    ]
+  }

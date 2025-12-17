@@ -11,6 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
 import 'package:graphview/GraphView.dart';
+import 'package:flutter/gestures.dart';
 
 enum FocusMode { none, simple, evolution }
 
@@ -1063,8 +1064,7 @@ final Map<String, String> fieldNamesEn = {
     );
   }
 
-// 👇👇👇 把 _launchStoryMode 放在这里 👇👇👇
-  // ========== (新增) 启动故事模式 ==========
+// ========== (新增) 启动故事模式 ==========
   void _launchStoryMode(Map<String, dynamic> story) {
     // 1. 获取故事的事件列表
     List<String> eventIds = List<String>.from(story['events']);
@@ -1092,8 +1092,16 @@ final Map<String, String> fieldNamesEn = {
         // D. 调整侧边栏宽度
         _panelWidth = 600.0; 
       });
+      
+      // ✨✨✨ 新增：启动后立即显示叙事简报 ✨✨✨
+      // 使用 Future.delayed 确保在 Build 完成后弹出
+      Future.delayed(Duration(milliseconds: 300), () {
+        if (story.containsKey('narrative_intro')) {
+          _showNarrativeDialog(story);
+        }
+      });
     }
-  }  
+  }
 
 // ========== (新增) 故事模式按钮 ==========
   Widget _buildStoryButton(bool isEnglish) {
@@ -2202,6 +2210,68 @@ final Map<String, String> fieldNamesEn = {
       ),
     );
   }
+
+void _showNarrativeDialog(Map<String, dynamic> story) {
+    final isEnglish = Localizations.localeOf(context).languageCode == 'en';
+    
+    // 1. 获取数据
+    var intro = story['narrative_intro'];
+    if (intro == null) return; // 如果没有简介，直接返回
+
+    String title = isEnglish && story['title_en'] != null ? story['title_en'] : story['title_zh'];
+    String content = isEnglish && intro['text_en'] != null ? intro['text_en'] : intro['text_zh'];
+    String question = isEnglish && intro['core_question_en'] != null ? intro['core_question_en'] : intro['core_question_zh'];
+
+    // 2. 显示弹窗
+    showGeneralDialog(
+      context: context,
+      barrierDismissible: true,
+      barrierLabel: "Narrative",
+      barrierColor: Colors.black.withOpacity(0.5),
+      transitionDuration: Duration(milliseconds: 400),
+      pageBuilder: (context, anim1, anim2) {
+        return NarrativeCard(
+          title: title,
+          content: content,
+          question: question,
+          onClose: () => Navigator.pop(context),
+          onLinkTap: (eventId) {
+            // 查找事件
+            var targetEvent = events.firstWhere(
+              (e) => e['id'] == eventId,
+              orElse: () => {},
+            );
+            
+            if (targetEvent.isNotEmpty) {
+              Navigator.pop(context); // 关闭弹窗
+              
+              // 跳转逻辑
+              setState(() {
+                _focusedEvent = targetEvent;
+                selectedYear = (targetEvent['year'] as int).toDouble();
+                _currentFocusMode = FocusMode.simple; // 或者 evolution，看您喜好
+                _panelWidth = 450.0;
+                
+                // 如果在演化模式下，可能还需要设置 _focalEventIds
+                // 这里简单起见，我们先跳过去，用户可以通过侧边栏按钮再次进入演化视图
+              });
+            } else {
+              print("Event not found: $eventId");
+            }
+          },
+        );
+      },
+      transitionBuilder: (context, anim1, anim2, child) {
+        return Transform.scale(
+          scale: CurvedAnimation(parent: anim1, curve: Curves.easeOutBack).value,
+          child: Opacity(
+            opacity: anim1.value,
+            child: child,
+          ),
+        );
+      },
+    );
+  }  
 
 }
 
@@ -5264,3 +5334,172 @@ class _EvolutionTreeViewState extends State<EvolutionTreeView> {
   }
 }
 
+// ============================================
+// 叙事简报卡片 (支持 Markdown 风格链接)
+// ============================================
+class NarrativeCard extends StatelessWidget {
+  final String title;
+  final String content;
+  final String question;
+  final Function(String eventId) onLinkTap;
+  final VoidCallback onClose;
+
+  const NarrativeCard({
+    Key? key,
+    required this.title,
+    required this.content,
+    required this.question,
+    required this.onLinkTap,
+    required this.onClose,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Material(
+        color: Colors.transparent,
+        child: Container(
+          width: 600, // 限制最大宽度
+          constraints: BoxConstraints(maxHeight: MediaQuery.of(context).size.height * 0.8),
+          margin: EdgeInsets.all(24),
+          padding: EdgeInsets.all(32),
+          decoration: BoxDecoration(
+            color: Colors.white.withOpacity(0.95),
+            borderRadius: BorderRadius.circular(24),
+            boxShadow: [
+              BoxShadow(color: Colors.black26, blurRadius: 30, spreadRadius: 5),
+            ],
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // 1. 标题栏
+              Row(
+                children: [
+                  Icon(Icons.auto_stories, color: Colors.amber[800], size: 28),
+                  SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      title, 
+                      style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black87),
+                    ),
+                  ),
+                  IconButton(
+                    icon: Icon(Icons.close),
+                    onPressed: onClose,
+                  )
+                ],
+              ),
+              Divider(height: 30),
+              
+              // 2. 可滚动的正文
+              Flexible(
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      RichText(
+                        text: TextSpan(
+                          style: TextStyle(fontSize: 16, color: Colors.black87, height: 1.8, fontFamily: 'System'),
+                          children: _parseContent(content),
+                        ),
+                      ),
+                      SizedBox(height: 30),
+                      
+                      // 3. 核心问题
+                      Container(
+                        padding: EdgeInsets.all(16),
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          color: Colors.deepPurple.withOpacity(0.05),
+                          borderRadius: BorderRadius.circular(12),
+                          border: Border.all(color: Colors.deepPurple.withOpacity(0.2)),
+                        ),
+                        child: Column(
+                          children: [
+                            Icon(Icons.psychology, color: Colors.deepPurple, size: 32),
+                            SizedBox(height: 8),
+                            Text(
+                              question,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.deepPurple[800],
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              
+              SizedBox(height: 24),
+              
+              // 4. 底部按钮
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: onClose,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.amber[800],
+                    foregroundColor: Colors.white,
+                    padding: EdgeInsets.symmetric(vertical: 16),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                  ),
+                  child: Text("Start Exploring / 开始探索", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  // 解析 [文本](id) 格式
+  List<InlineSpan> _parseContent(String text) {
+    final List<InlineSpan> spans = [];
+    final RegExp exp = RegExp(r'\[(.*?)\]\((.*?)\)');
+    
+    int lastMatchEnd = 0;
+    
+    for (final Match match in exp.allMatches(text)) {
+      // 添加链接前的普通文字
+      if (match.start > lastMatchEnd) {
+        spans.add(TextSpan(text: text.substring(lastMatchEnd, match.start)));
+      }
+      
+      final String linkText = match.group(1)!;
+      final String eventId = match.group(2)!;
+
+      // 添加链接文字
+      spans.add(
+        TextSpan(
+          text: linkText,
+          style: TextStyle(
+            color: Colors.blue[700], 
+            fontWeight: FontWeight.bold,
+            decoration: TextDecoration.underline,
+            decorationColor: Colors.blue[200],
+          ),
+          recognizer: TapGestureRecognizer()
+            ..onTap = () => onLinkTap(eventId),
+        ),
+      );
+      
+      lastMatchEnd = match.end;
+    }
+    
+    // 添加剩余文字
+    if (lastMatchEnd < text.length) {
+      spans.add(TextSpan(text: text.substring(lastMatchEnd)));
+    }
+    
+    return spans;
+  }
+}

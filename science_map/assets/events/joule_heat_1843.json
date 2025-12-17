@@ -1,7 +1,146 @@
 {
   "id": "joule_heat_1843",
-  "title": "Joule Heat",
-  "title_en": "Joule Heat",
+  "personId": "james_joule",
+  "title": "测定“热功当量” (机械能转化为热能)",
+  "title_en": "Determines the 'Mechanical Equivalent of Heat'",
   "year": 1843,
-  "is_stub": true
+  "lat": 53.4808,
+  "lng": -2.2426,
+  "city": "曼彻斯特",
+  "city_en": "Manchester",
+  "country": "英国",
+  "country_en": "United Kingdom",
+  "storyline_ids": ["thermo_story"],
+  "field": ["物理学", "工程学"],
+  "field_en": ["Physics", "Engineering"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/An_electric_motor_presented_to_Kelvin_by_James_Joule_in_1842%2C_Hunterian_Museum%2C_Glasgow.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=Rcz_w4-hgVU&t=110s",
+      "title": "焦耳的实验和热力学第一定律",
+      "title_en": "Joule's Experiment and First law of thermodynamics",
+      "duration": "5:09"
+    }
+  },
+  
+  "summary": {
+    "text": "詹姆斯·普雷斯科特·焦耳（James Prescott Joule）通过一系列极其精密的实验，证明了“热”不是一种流体（热质），而是一种“能量”形式。他最著名的实验装置使用下落的重物带动水中的“桨轮”旋转，通过摩擦使水温升高。他精确计算出，要使1磅水的温度升高1华氏度，需要消耗多少机械功。这一发现确立了“热功当量”(Mechanical Equivalent of Heat)，为“能量守恒定律”（热力学第一定律）奠定了坚实的实验基础。",
+    "text_en": "James Prescott Joule demonstrated, through a series of remarkably precise experiments, that 'heat' is not a fluid (caloric), but a form of 'energy'. His most famous experiment used falling weights to spin a 'paddle wheel' submerged in water, heating the water through friction. He calculated exactly how much mechanical work was needed to raise the temperature of 1 pound of water by 1 degree Fahrenheit. This established the 'Mechanical Equivalent of Heat', providing the solid experimental foundation for the 'Law of Conservation of Energy' (First Law of Thermodynamics).",
+    "key_points": [
+      "测定了“热功当量” (Mechanical Equivalent of Heat)",
+      "证明“机械功”可以直接转化为“热”",
+      "推翻了“热质说” (Caloric Theory)",
+      "著名的“桨轮实验” (Paddle Wheel Experiment)",
+      "为能量守恒定律铺平了道路"
+    ],
+    "key_points_en": [
+      "Determined the 'Mechanical Equivalent of Heat'",
+      "Proved 'Mechanical Work' converts directly to 'Heat'",
+      "Disproved the 'Caloric Theory'",
+      "Famous 'Paddle Wheel Experiment'",
+      "Paved the way for the Conservation of Energy"
+    ]
+  },
+
+  "story": {
+    "text": "焦耳不仅是科学家，还是家族酿酒厂的经营者。他对“效率”非常着迷，并拥有测量温度的惊人天赋（能精确到1/200度）。当时的主流观点（热质说）认为热是一种看不见的流体，只能从一个物体流向另一个物体，不能被创造。焦耳不信这个邪。他设计了一个滑轮系统，让重物下落，带动密封水桶里的桨叶旋转。水桶是隔热的，所以没有热量“流进去”。然而，水温升高了！焦耳证明，是重物的“机械能”转化为了“热能”。他得出的结论是：4.18焦耳的功 = 1卡路里的热。这个数值至今仍被使用。",
+    "text_en": "Joule was not just a scientist but a family brewer. He was obsessed with 'efficiency' and possessed an uncanny ability to measure temperature (to 1/200th of a degree). The prevailing view (Caloric Theory) held that heat was an invisible fluid that could flow but not be created. Joule disagreed. He rigged a system of pulleys where falling weights spun paddles inside a sealed tub of water. The tub was insulated, so no heat 'flowed in'. Yet, the water got hotter! Joule proved that the 'mechanical energy' of the weights had *transformed* into 'heat energy'. He concluded: 4.18 Joules of work = 1 Calorie of heat. A value still used today.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Joule%27s_Apparatus_%28Harper%27s_Scan%29.png"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🍯",
+      "text": "焦耳对实验如此痴迷，据说他在去瑞士度蜜月时，还随身带着温度计，试图测量瀑布顶部和底部的水温差（以证明水落下时势能转化为了热能）。",
+      "text_en": "Joule was so obsessed with experimentation that legend says he brought a thermometer on his honeymoon to Switzerland, trying to measure the temperature difference between the top and bottom of a waterfall (to prove potential energy turned into heat)."
+    },
+    {
+      "icon": "Unit",
+      "text": "为了纪念他的贡献，国际单位制（SI）中“能量”和“功”的单位被命名为“焦耳”(Joule, J)。",
+      "text_en": "In honor of his contribution, the SI unit of 'energy' and 'work' is named the 'Joule' (J)."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "当你冬天觉得冷时，你会搓手取暖。焦耳是第一个精确计算“搓多少下”等于“多少热”的人。\n他用一个实验：让重物掉下来（做功），带动水里的风扇转动（摩擦）。虽然没有火烧，水却变热了。\n他证明了：你做的“动作”（功）并没有消失，它变成了“热”。热不是一种物质，它只是能量的另一种形式。",
+    "text_en": "When you are cold, you rub your hands together to get warm. Joule was the first person to calculate exactly 'how much rubbing' equals 'how much heat'.\nHe used an experiment: letting a weight drop (work) to spin a fan in water (friction). Even though there was no fire, the water got hot.\nHe proved: The 'motion' (work) you did didn't disappear; it turned into 'heat'. Heat isn't a substance; it's just another form of energy.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/29/Joule%27s_heat_apparatus.JPG"
+  },
+
+  "applications": [
+      {
+        "icon": "🍔",
+        "title": "食品科学 (卡路里)",
+        "title_en": "Food Science (Calories)",
+        "text": "我们今天计算食物热量用的“卡路里”(Calorie)，本质上就是能量单位。焦耳告诉我们，吃进的食物（化学能）可以转化为运动（机械能）。",
+        "text_en": "The 'Calorie' we count in food is just a unit of energy. Joule taught us that food (chemical energy) can be converted into movement (mechanical energy)."
+      },
+      {
+        "icon": "❄️",
+        "title": "热机与冰箱",
+        "title_en": "Heat Engines & Refrigerators",
+        "text": "理解“功”和“热”可以互换，是设计所有发动机（热转功）和空调（功转热/移热）的基础。",
+        "text_en": "Understanding that 'work' and 'heat' are interchangeable is the basis for designing all engines (heat to work) and air conditioners (work to heat/move heat)."
+      }
+    ],
+
+  "impact": {
+    "text": "焦耳的实验是“热质说”的棺材钉。它为亥姆霍兹（`helmholtz_energy_conservation_1847`）在几年后提出宏大的“能量守恒定律”提供了最关键的实验数据支持。它统一了力学和热学，表明宇宙中的能量既不能被创造也不能被消灭，只能转换。",
+    "text_en": "Joule's experiment was the nail in the coffin for the 'Caloric Theory'. It provided the critical experimental data that supported Helmholtz (`helmholtz_energy_conservation_1847`) in formulating the grand 'Law of Conservation of Energy' a few years later. It unified mechanics and thermodynamics, showing energy in the universe is neither created nor destroyed, only converted.",
+    "stats": [
+        {
+          "number": "4.18",
+          "label": "焦耳 = 1 卡路里",
+          "label_en": "Joules = 1 Calorie"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "rumford_heat_1798",
+        "contribution": "伦福德伯爵（他通过观察大炮钻孔产生的热量，首先质疑了热质说，启发了焦耳）",
+        "contribution_en": "Count Rumford (he first questioned Caloric theory by observing heat from cannon boring, inspiring Joule)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "helmholtz_energy_conservation_1847",
+        "contribution": "亥姆霍兹（他使用焦耳的数据作为“能量守恒”数学理论的核心证据）",
+        "contribution_en": "Helmholtz (he used Joule's data as the core evidence for his mathematical theory of 'Conservation of Energy')"
+      },
+      {
+        "id": "kelvin_absolute_zero_1848",
+        "contribution": "开尔文勋爵（焦耳的合作者，利用焦耳的成果建立了绝对温标和热力学第二定律的早期形式）",
+        "contribution_en": "Lord Kelvin (Joule's collaborator, used his work to establish the absolute temperature scale and early thermodynamics)"
+      }
+    ],
+    "legacy_text": "焦耳证明了世界上的每一种运动，最终都会以热的形式偿还其能量债务。",
+    "legacy_text_en": "Joule proved that every motion in the world eventually pays its energy debt in the form of heat."
+  },
+
+  "related_concepts": ["热功当量 (Mechanical Equivalent of Heat)", "能量守恒 (Conservation of Energy)", "焦耳 (Joule)", "卡路里 (Calorie)", "热力学第一定律", "热质说 (Caloric Theory)"],
+  "related_concepts_en": ["Mechanical Equivalent of Heat", "Conservation of Energy", "Joule", "Calorie", "First Law of Thermodynamics", "Caloric Theory"],
+
+  "quiz": {
+    "question": "焦耳的“桨轮实验”通过什么方式使水温升高的？",
+    "question_en": "In Joule's 'Paddle Wheel Experiment', what caused the temperature of the water to rise?",
+    "options": [
+      "用火加热水桶",
+      "通过电流加热",
+      "重物下落带动桨叶旋转，通过“摩擦”加热",
+      "化学反应"
+    ],
+    "options_en": [
+      "Heating the tub with fire",
+      "Heating with an electric current",
+      "Falling weights spinning paddles, heating via 'friction'",
+      "A chemical reaction"
+    ],
+    "answer": 2,
+    "explanation": "焦耳实验的关键在于没有外部热源。水温升高纯粹是由重物的机械能（位能）转化为动能，再通过桨叶搅动水的摩擦转化为内能（热能）。",
+    "explanation_en": "The key to the experiment was the absence of an external heat source. The temperature rise was caused purely by mechanical energy (potential energy of weights) turning into kinetic energy, and then into internal energy (heat) via the friction of the paddles against the water."
+  }
 }

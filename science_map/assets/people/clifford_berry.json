@@ -1,0 +1,10 @@
+{
+    "name": "克利福德·贝里",
+    "name_en": "Clifford Berry",
+    "portrait": "assets/images/clifford_berry.png",
+    "bio_short": "美国物理学家和电气工程师，阿塔纳索夫的研究生助手。他协助构建了ABC计算机（`abc_computer_1942`），展现了卓越的工程天赋。遗憾的是，他在英年早逝，未能亲眼看到ABC在1973年被法律承认为第一台电子计算机的历史时刻。",
+    "bio_short_en": "An American physicist and electrical engineer, and Atanasoff's graduate assistant. He helped build the ABC computer (`abc_computer_1942`), demonstrating remarkable engineering talent. Tragically, he died young and did not live to see the historic moment in 1973 when the ABC was legally recognized as the first electronic computer.",
+    "events": [
+      "abc_computer_1942"
+    ]
+  }

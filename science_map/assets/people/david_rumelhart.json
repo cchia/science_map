@@ -1,0 +1,10 @@
+{
+    "name": "大卫·鲁梅尔哈特",
+    "name_en": "David Rumelhart",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/72/DavidRumelhart-IJCNNseattle1991-07-08.jpg",
+    "bio_short": "美国心理学家、认知科学家，连接主义（Connectionism）的奠基人之一。虽然Geoffrey Hinton现在名声更响，但鲁梅尔哈特是当年“并行分布处理”（PDP）研究小组的灵魂人物和领袖。正是他以严谨的数学推导，将反向传播算法形式化，并主编了被誉为神经网络“圣经”的《PDP》两卷本（1986）。他从心理学角度出发，坚信人类认知基于神经元的并行计算而非符号逻辑。令人惋惜的是，他在职业生涯巅峰期患上了皮克氏病（一种神经退行性疾病），过早地退出了科研舞台，但他是所有深度学习研究者不应忘记的先驱。",
+    "bio_short_en": "American psychologist and cognitive scientist, a founding father of Connectionism. While Geoffrey Hinton is more famous today, Rumelhart was the soul and leader of the 'Parallel Distributed Processing' (PDP) research group back in the day. It was he who formalized the backpropagation algorithm with rigorous mathematics and edited the two-volume 'PDP' books (1986), regarded as the 'Bible' of neural networks. Coming from a psychology background, he firmly believed human cognition was based on parallel computation of neurons rather than symbolic logic. Tragically, he developed Pick's disease at the peak of his career, forcing an early retirement, but he remains a pioneer no deep learning researcher should forget.",
+    "events": [
+      "backprop_1986"
+    ]
+  }

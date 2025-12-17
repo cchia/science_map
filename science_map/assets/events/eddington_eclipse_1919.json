@@ -1,13 +1,154 @@
 {
-    "id": "eddington_eclipse_1919",
-    "title": "爱丁顿日全食观测",
-    "title_en": "Eddington Solar Eclipse Expedition",
-    "year": 1919,
-    "lat": 1.94,
-    "lng": 7.42,
-    "city": "普林西比岛",
-    "city_en": "Príncipe",
-    "field": ["天文学", "物理学"],
-    "storyline_ids": ["gravity_story"],
-    "is_stub": true
+  "id": "eddington_eclipse_1919",
+  "personId": "arthur_eddington",
+  "title": "验证广义相对论 (1919年日全食)",
+  "title_en": "Verifies General Relativity (1919 Solar Eclipse)",
+  "year": 1919,
+  "lat": 1.6135,
+  "lng": 7.4152,
+  "city": "普林西比岛",
+  "city_en": "Principe Island",
+  "country": "葡属圣多美和普林西比 (今圣多美和普林西比)",
+  "country_en": "Portuguese São Tomé and Príncipe (Modern São Tomé and Príncipe)",
+  "storyline_ids": ["gravity_story"],
+  "field": ["天文学", "物理学"],
+  "field_en": ["Astronomy", "Physics"],
+  
+  "media": {
+    "event_image": "assets/images/solar_eclipse_relativity_2.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=vF4DENWd_ts",
+      "title": "一次日食证明了爱因斯坦是对的",
+      "title_en": "How an Eclipse Proved Einstein Right",
+      "duration": "1:58"
+    }
+  },
+  
+  "summary": {
+    "text": "英国天文学家亚瑟·爱丁顿（Arthur Eddington）利用1919年5月29日的日全食，进行了一项旨在检验爱因斯坦“广义相对论”的关键实验。根据爱因斯坦的理论，太阳的巨大质量会弯曲其周围的“时空”，导致经过太阳附近的星光发生偏折。爱丁顿率队前往西非的普林西比岛拍摄日食期间恒星的位置，并将其与夜间拍摄的标准位置进行对比。结果显示，星光的偏折角约为1.75角秒，这与爱因斯坦的预测吻合，而否定了牛顿力学的预测（0.87角秒）。",
+    "text_en": "British astronomer Arthur Eddington used the total solar eclipse of May 29, 1919, to conduct a crucial test of Einstein's 'General Relativity'. According to Einstein, the Sun's mass should curve 'spacetime', causing starlight passing nearby to bend. Eddington led an expedition to Principe Island in West Africa to photograph star positions during the eclipse. Comparing these to reference photos taken at night, he found the starlight was deflected by ~1.75 arcseconds, matching Einstein's prediction and disproving Newton's (0.87 arcseconds).",
+    "key_points": [
+      "验证了广义相对论 (`einstein_1915_general_relativity`)",
+      "观测到了“光线偏折”(Deflection of Light)",
+      "推翻了牛顿的经典引力预测",
+      "使爱因斯坦一夜之间成为世界名人"
+    ],
+    "key_points_en": [
+      "Verified General Relativity (`einstein_1915_general_relativity`)",
+      "Observed the 'Deflection of Light'",
+      "Disproved Newton's classical gravity prediction",
+      "Made Einstein a global celebrity overnight"
+    ]
+  },
+
+  "story": {
+    "text": "这是一个关于科学跨越战争的故事。当时正值第一次世界大战，身为英国人的爱丁顿（和平主义者）力排众议，去验证一位德国科学家（爱因斯坦）的理论。日食当天，普林西比岛下起了暴雨，爱丁顿几乎绝望。幸运的是，在全食开始前不久，云层奇迹般地散开了。他抓紧时间拍摄了毕宿星团（Hyades）的照片。几个月后的11月，在伦敦皇家学会的会议上，当宣布测量结果“支持爱因斯坦”时，现场一片哗然。汤姆孙（J.J. Thomson）称其为“人类思想史上最伟大的成就之一”。",
+    "text_en": "This is a story of science transcending war. During WWI, Eddington (a British pacifist) fought to test the theory of a German scientist (Einstein). On the day of the eclipse in Principe, it rained heavily, and Eddington was near despair. Miraculously, the clouds parted just before totality. He frantically photographed the Hyades star cluster. Months later in London, when the results supporting Einstein were announced at the Royal Society, the room erupted. J.J. Thomson called it 'one of the greatest achievements in the history of human thought.'",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/37/1919_eclipse_positive.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "😏",
+      "text": "当被问及如果实验结果证明他是错的怎么办时，爱因斯坦有名地回答：“那我会为亲爱的上帝感到遗憾。因为我的理论是正确的。”",
+      "text_en": "When asked what he would have done if the experiment proved him wrong, Einstein famously replied: 'Then I would have felt sorry for the dear Lord. The theory is correct anyway.'"
+    },
+    {
+      "icon": "📰",
+      "text": "《泰晤士报》第二天的头条新闻是：“科学革命：新宇宙理论；牛顿思想被推翻。” 这可以说是历史上最著名的科学新闻标题。",
+      "text_en": "The London Times headline the next day read: 'Revolution in Science: New Theory of the Universe; Newtonian Ideas Overthrown.' It is arguably the most famous science headline in history."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象一张蹦床（时空），中间放一个保龄球（太阳），蹦床会凹陷下去。如果你在蹦床上滚一个小玻璃球（光线），它经过保龄球时会拐弯。\n牛顿认为光是直着走的（或者受引力影响很小）。爱因斯坦认为光会沿着蹦床的“凹陷”走曲线。\n爱丁顿在日全食（挡住太阳强光）时，拍到了太阳背后的星星。他发现星星的位置“跑偏”了，而且跑偏的距离正好符合爱因斯坦说的“凹陷”程度。他证明了引力不是一种力，而是时空的弯曲。",
+    "text_en": "Imagine a trampoline (spacetime) with a bowling ball (Sun) in the middle causing a dip. If you roll a marble (light) past the bowling ball, it curves.\nNewton thought light went straight (or bent very little). Einstein thought light followed the 'dip' in the trampoline.\nDuring an eclipse (which blocked the Sun's glare), Eddington took photos of stars behind the Sun. He found the stars had 'shifted' position, and the shift matched Einstein's 'dip' perfectly. He proved gravity isn't just a force, it's the bending of space.",
+    "diagram": "assets/images/solar_eclipse_relativity.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🛰️",
+        "title": "GPS 系统",
+        "title_en": "GPS Systems",
+        "text": "爱丁顿验证的广义相对论不仅仅是理论。为了保持精准，GPS卫星必须根据相对论效应（引力导致时间变慢）进行每日校准，否则定位每天会偏差几公里。",
+        "text_en": "The theory Eddington verified isn't just academic. GPS satellites *must* adjust their clocks daily for General Relativity effects (time slows in gravity), or your map location would be off by kilometers every day."
+      },
+      {
+        "icon": "🔭",
+        "title": "引力透镜 (Gravitational Lensing)",
+        "title_en": "Gravitational Lensing",
+        "text": "这种“光线弯曲”现象现在是天文学家探测暗物质和遥远星系的主要工具（把星系团当放大镜用）。",
+        "text_en": "This 'light bending' is now a primary tool (Gravitational Lensing) for astronomers to detect dark matter and see distant galaxies by using galaxy clusters as giant magnifying glasses."
+      }
+    ],
+
+  "impact": {
+    "text": "这次观测是科学史上最重要的转折点之一。它标志着统治物理学200多年的“牛顿时代”的终结，和“爱因斯坦时代”的开始。它不仅改变了我们对宇宙（时空）的根本理解，还将一位深奥的理论物理学家（爱因斯坦）变成了一个全球文化符号。",
+    "text_en": "This observation was a pivot point in history. It marked the end of the 200-year 'Newtonian Era' and the beginning of the 'Einsteinian Era'. It didn't just change our fundamental understanding of the universe (spacetime); it transformed a reclusive theoretical physicist (Einstein) into a global cultural icon.",
+    "stats": [
+        {
+          "number": "1.75",
+          "label": "角秒 (爱因斯坦预测值)",
+          "label_en": "Arcseconds (Einstein's Prediction)"
+        },
+        {
+          "number": "0.87",
+          "label": "角秒 (牛顿预测值)",
+          "label_en": "Arcseconds (Newton's Prediction)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "einstein_1915_general_relativity",
+        "contribution": "爱因斯坦（其广义相对论是爱丁顿试图验证的理论）",
+        "contribution_en": "Einstein (whose General Relativity was the theory Eddington sought to verify)"
+      },
+      {
+        "id": "newton_gravity_1687",
+        "contribution": "牛顿（其经典力学预测了较小的光线偏折，是作为对照组的“旧理论”）",
+        "contribution_en": "Isaac Newton (whose classical mechanics predicted a smaller deflection, serving as the 'null hypothesis')"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "hubble_expansion_1929",
+        "contribution": "哈勃（广义相对论被验证后，哈勃的观测最终导致了基于该理论的“大爆炸”宇宙学）",
+        "contribution_en": "Edwin Hubble (once GR was verified, Hubble's observations led to Big Bang cosmology based on Einstein's equations)"
+      },
+      {
+        "id": "oppenheimer_snyder_black_hole_1939",
+        "contribution": "奥本海默（对光线弯曲的确认，使“光无法逃脱”的黑洞概念成为物理上的可能）",
+        "contribution_en": "Oppenheimer (the confirmation of light bending made the concept of black holes—where light cannot escape—physically plausible)"
+      }
+    ],
+    "legacy_text": "爱丁顿在黑暗中（日食）捕捉到了星光的弯曲，向世界宣布了空间本身是弯曲的。",
+    "legacy_text_en": "Eddington caught the bending of starlight in the darkness, announcing to the world that space itself is curved."
+  },
+
+  "related_concepts": ["广义相对论 (General Relativity)", "日食 (Solar Eclipse)", "光线偏折 (Deflection of Light)", "时空弯曲 (Curved Spacetime)", "爱因斯坦 (Einstein)", "引力透镜 (Gravitational Lensing)"],
+  "related_concepts_en": ["General Relativity", "Solar Eclipse", "Deflection of Light", "Curved Spacetime", "Einstein", "Gravitational Lensing"],
+
+  "quiz": {
+    "question": "爱丁顿在1919年日食观测中，测量了什么数据来验证爱因斯坦的理论？",
+    "question_en": "What data did Eddington measure during the 1919 eclipse to verify Einstein's theory?",
+    "options": [
+      "太阳的亮度变化",
+      "水星的轨道",
+      "太阳附近恒星的“位置偏移”",
+      "光的颜色变化（红移）"
+    ],
+    "options_en": [
+      "The change in the Sun's brightness",
+      "The orbit of Mercury",
+      "The 'shift in position' of stars near the Sun",
+      "The color change of light (redshift)"
+    ],
+    "answer": 2,
+    "explanation": " 爱因斯坦预测太阳的引力会“弯曲”经过它旁边的光线。这会导致我们在地球上看到的星星位置，比它们实际的位置稍微“向外”偏离一点。爱丁顿正是测量了这个微小的位移。",
+    "explanation_en": " Einstein predicted the Sun's gravity would 'bend' light passing near it. This would cause stars seen near the Sun to appear slightly 'shifted' outwards from their true positions. Eddington measured this tiny shift."
   }
+}

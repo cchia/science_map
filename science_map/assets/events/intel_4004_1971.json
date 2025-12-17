@@ -1,0 +1,156 @@
+{
+    "id": "intel_4004_1971",
+    "personId": ["federico_faggin", "ted_hoff", "stanley_mazor", "masatoshi_shima"],
+    "title": "Intel 4004发布 (微处理器的诞生)",
+    "title_en": "Release of Intel 4004 (Birth of the Microprocessor)",
+    "year": 1971,
+    "lat": 37.3875,
+    "lng": -121.9638,
+    "city": "圣克拉拉",
+    "city_en": "Santa Clara",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["computing_origin_story", "digital_age_story"],
+    "field": ["电子工程", "计算机科学"],
+    "field_en": ["Electronic Engineering", "Computer Science"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Intel_C4004.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=cVD5qKIY6ZM",
+        "title": "Intel 4004",
+        "title_en": "3 Minutes On... The Intel 4004 Microprocessor ",
+        "duration": "3:18"
+      }
+    },
+    
+    "summary": {
+      "text": "1971年11月15日，英特尔（Intel）发布了世界上第一款商用微处理器——Intel 4004。最初，这只是为了满足日本计算器制造商Busicom的订单需求，用来简化一款高端计算器的电路设计。然而，英特尔的工程师们（特德·霍夫、费德里科·法金等）并没有只设计一块专用的计算器芯片，而是创造了一块通用的、可编程的“计算机芯片”。这块指甲盖大小的硅片上集成了2300个晶体管，其计算能力却相当于第一台电子计算机ENIAC（占地一个房间）。它的诞生标志着计算机从庞大的主机时代，迈入了微型化、普及化的个人时代。",
+      "text_en": "On November 15, 1971, Intel released the world's first commercial microprocessor, the Intel 4004. Initially, this was just to fulfill an order from Japanese calculator manufacturer Busicom to simplify the circuit design of a high-end calculator. However, Intel engineers (Ted Hoff, Federico Faggin, etc.) didn't just design a dedicated calculator chip; they created a general-purpose, programmable 'computer chip'. This fingernail-sized silicon chip integrated 2,300 transistors, yet possessed computing power equivalent to the first electronic computer, ENIAC (which filled a room). Its birth marked the transition of computers from the era of massive mainframes to the era of miniaturized, accessible personal computing.",
+      "key_points": [
+        "世界上第一款商用微处理器 (CPU)",
+        "将CPU的所有功能集成到单个芯片上",
+        "4位架构，时钟频率740kHz",
+        "开启了半导体和个人计算机革命",
+        "证明了通用处理器的商业可行性"
+      ],
+      "key_points_en": [
+        "World's first commercial microprocessor (CPU)",
+        "Integrated all CPU functions onto a single chip",
+        "4-bit architecture, 740kHz clock speed",
+        "Kickstarted the semiconductor and PC revolution",
+        "Proved the commercial viability of general-purpose processors"
+      ]
+    },
+  
+    "story": {
+      "text": "这是一个“乙方不想干活”反而改变世界的故事。1969年，日本公司Busicom找到英特尔，希望为其新款计算器定制12款专用芯片。英特尔当时很小，人手不足，做12款芯片太累了。工程师特德·霍夫（Ted Hoff）想：为什么不做一个能通过软件编程来实现不同功能的通用芯片呢？这样只要做一个就行了！随后，费德里科·法金（Federico Faggin）接手了最艰难的电路设计工作，他发明了“硅栅技术”，终于把复杂的逻辑电路塞进了微小的芯片里。最终，Busicom拿到了计算器芯片，而英特尔精明地买回了这款芯片的设计权，将其命名为4004，并向全世界推销——这就是现代CPU的鼻祖。",
+      "text_en": "This is a story of how 'lazy contractors' changed the world. In 1969, Japanese company Busicom approached Intel to customize 12 dedicated chips for their new calculator. Intel was small and understaffed; making 12 chips was too much work. Engineer Ted Hoff thought: Why not make one general-purpose chip that can perform different functions through software programming? Then we only need to make one! Subsequently, Federico Faggin took over the toughest circuit design work, inventing 'Silicon Gate Technology' to finally cram complex logic circuits into a tiny chip. In the end, Busicom got their calculator chip, but Intel shrewdly bought back the design rights, named it the 4004, and marketed it to the world—this was the ancestor of the modern CPU.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Intel_4004_on_Busicom_calculator_circuit_board.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "📐",
+        "text": "Intel 4004只有2300个晶体管，制程是10微米（10000纳米）。相比之下，现在的CPU（如Core i9）拥有数百亿个晶体管，制程仅几纳米。如果把4004放大到现在CPU的性能，它的面积将覆盖整个曼哈顿。",
+        "text_en": "The Intel 4004 had only 2,300 transistors and was built on a 10-micron (10,000 nm) process. By comparison, modern CPUs (like Core i9) have tens of billions of transistors and are just a few nanometers. If you scaled the 4004 up to modern CPU performance, its area would cover all of Manhattan."
+      },
+      {
+        "icon": "📝",
+        "text": "为了能在芯片上签下自己的名字，首席设计师费德里科·法金（Federico Faggin）在芯片的电路布局角落里偷偷蚀刻了缩写“F.F.”。这是历史上第一个在微处理器上留名的“艺术家签名”。",
+        "text_en": "To sign his work, lead designer Federico Faggin secretly etched his initials 'F.F.' into a corner of the chip's circuit layout. This was history's first 'artist signature' on a microprocessor."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "以前的电子设备（如收音机、计算器）内部电路都是定死的，要做新功能就得重新焊电路。\nIntel 4004就像是一个拥有“大脑”的空白机器，你可以通过写一张纸条（软件代码）告诉它今天当计算器，明天当红绿灯控制器。\n它让硬件变得通用，让软件定义一切。",
+      "text_en": "Previous electronic devices (radios, calculators) had fixed internal circuits; to add new functions, you had to rewire them.\nThe Intel 4004 was like a blank machine with a 'brain'. You could write a note (software code) to tell it to be a calculator today, and a traffic light controller tomorrow.\nIt made hardware general-purpose and let software define everything.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/32/Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971%2C_the_first_microprocessor_of_the_world_%28cropped_and_edited_image%29.jpg"
+    },
+  
+    "applications": [
+        {
+          "icon": "🧮",
+          "title": "Busicom 141-PF计算器",
+          "title_en": "Busicom 141-PF Calculator",
+          "text": "这是世界上第一台使用微处理器的商用设备，也是4004诞生的最初原因。",
+          "text_en": "The world's first commercial device to use a microprocessor, and the original reason for the 4004's existence."
+        },
+        {
+          "icon": "🛰️",
+          "title": "先驱者10号探测器",
+          "title_en": "Pioneer 10 Probe",
+          "text": "Intel 4004被用于NASA先驱者10号探测器的部分控制系统，这是人类制造的物体首次带着微处理器飞出太阳系。",
+          "text_en": "The Intel 4004 was used in parts of the control system for NASA's Pioneer 10 probe, marking the first time a human-made object with a microprocessor flew out of the solar system."
+        }
+      ],
+  
+    "impact": {
+      "text": "Intel 4004的发布是人类工业史上最重要的转折点之一。它证明了复杂的计算逻辑可以被微缩到极其廉价的硅片上。这直接导致了计算成本的指数级下降（摩尔定律的应验），为后来的个人电脑（PC）、智能手机、以及如今无处不在的嵌入式设备奠定了物质基础。没有4004，就没有今天的硅谷。",
+      "text_en": "The release of the Intel 4004 is one of the most critical turning points in industrial history. It proved that complex computational logic could be miniaturized onto extremely cheap silicon. This directly led to the exponential drop in computing costs (validating Moore's Law) and laid the physical foundation for personal computers (PCs), smartphones, and today's ubiquitous embedded devices. Without the 4004, there would be no Silicon Valley as we know it.",
+      "stats": [
+          {
+            "number": "2300",
+            "label": "晶体管数量",
+            "label_en": "Transistors"
+          },
+          {
+            "number": "60",
+            "label": "美元 (当时售价)",
+            "label_en": "USD (Launch Price)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "integrated_circuit_1958",
+          "contribution": "罗伯特·诺伊斯（集成电路的发明者，也是英特尔的创始人，提供了技术底座）",
+          "contribution_en": "Robert Noyce (Inventor of the integrated circuit and Intel founder, provided the technical foundation)"
+        },
+        {
+          "id": "busicom_calculator_request_1969",
+          "contribution": "Busicom公司（如果不是他们想要省钱做计算器，英特尔可能不会被迫创新）",
+          "contribution_en": "Busicom (If they hadn't wanted to save money on a calculator, Intel might not have been forced to innovate)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "intel_8008_1972",
+          "contribution": "Intel 8008（4004的继任者，世界上第一款8位微处理器）",
+          "contribution_en": "Intel 8008 (Successor to the 4004, the world's first 8-bit microprocessor)"
+        },
+        {
+          "id": "altair_8800_1975",
+          "contribution": "Altair 8800（基于Intel 8080芯片，引爆了个人电脑革命）",
+          "contribution_en": "Altair 8800 (Based on the Intel 8080 chip, ignited the PC revolution)"
+        }
+      ],
+      "legacy_text": "它只有4位，但它撬动了整个数字时代。",
+      "legacy_text_en": "It was only 4 bits, but it leveraged the entire digital age."
+    },
+  
+    "related_concepts": ["微处理器 (Microprocessor)", "中央处理器 (CPU)", "摩尔定律", "集成电路", "硅栅技术"],
+    "related_concepts_en": ["Microprocessor", "CPU", "Moore's Law", "Integrated Circuit", "Silicon Gate Technology"],
+  
+    "quiz": {
+      "question": "Intel 4004最初是为了什么设备设计的？",
+      "question_en": "What device was the Intel 4004 originally designed for?",
+      "options": [
+        "个人电脑",
+        "交通红绿灯",
+        "电子计算器",
+        "导弹制导系统"
+      ],
+      "options_en": [
+        "Personal Computer",
+        "Traffic Light",
+        "Electronic Calculator",
+        "Missile Guidance System"
+      ],
+      "answer": 2,
+      "explanation": "Intel 4004最初是作为日本Busicom公司新款桌面电子计算器的核心组件而定制开发的。",
+      "explanation_en": "The Intel 4004 was originally custom-developed as the core component for a new desktop electronic calculator for the Japanese company Busicom."
+    }
+  }

@@ -10,6 +10,7 @@
   "city_en": "Berlin",
   "country": "德国",
   "country_en": "Germany",
+  "storyline_ids": ["quantum_story"],
   "field": ["物理学"],
   "field_en": ["Physics"],
   

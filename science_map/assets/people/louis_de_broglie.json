@@ -1,0 +1,10 @@
+{
+    "name": "路易·德布罗意",
+    "name_en": "Louis de Broglie",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Broglie_Big.jpg",
+    "bio_short": "法国物理学家，1929年诺贝尔物理学奖得主。他在1924年提出了革命性的“物质波”假说（`de_broglie_matter_waves_1924`），预言了电子等实物粒子也具有波动性，从而建立了波粒二象性的统一理论。",
+    "bio_short_en": "A French physicist and 1929 Nobel laureate. He proposed the revolutionary 'matter wave' hypothesis in 1924 (`de_broglie_matter_waves_1924`), predicting that matter particles like electrons also exhibit wave-like properties, establishing the theory of wave-particle duality.",
+    "events": [
+      "de_broglie_matter_waves_1924"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "詹姆斯·普雷斯科特·焦耳",
+    "name_en": "James Prescott Joule",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Joule_James_sitting.jpg",
+    "bio_short": "英国物理学家和酿酒师，热力学的奠基人之一。他通过精密的实验（如“桨轮实验”）测定了热功当量，证明了热是能量的一种形式，为能量守恒定律奠定了基础。能量单位“焦耳”以他命名。",
+    "bio_short_en": "An English physicist and brewer, a founder of thermodynamics. He determined the mechanical equivalent of heat via his famous 'paddle wheel experiment' (`joule_heat_1843`), proving heat is a form of energy and laying the groundwork for the conservation of energy. The unit of energy, the 'Joule', is named after him.",
+    "events": [
+      "joule_heat_1843"
+    ]
+  }

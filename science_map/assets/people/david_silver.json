@@ -1,0 +1,10 @@
+{
+    "name": "大卫·席尔瓦",
+    "name_en": "David Silver",
+    "portrait": "assets/images/david_silver.png",
+    "bio_short": "英国计算机科学家，Google DeepMind首席研究科学家，UCL教授。他是AlphaGo项目的核心技术负责人（Lead Researcher），被誉为“强化学习应用的魔术师”。早年在阿尔伯塔大学师从“强化学习之父”Rich Sutton，他的博士论文题目正是关于如何在围棋中使用强化学习。他坚信通过“左右互搏”（Self-Play），AI可以摆脱人类数据的限制，这一理念最终催生了更强大的AlphaGo Zero和AlphaZero，证明了通用强化学习算法可以从零开始掌握国际象棋、围棋和将棋。",
+    "bio_short_en": "British computer scientist, Principal Research Scientist at Google DeepMind, and Professor at UCL. He was the lead researcher of the AlphaGo project and is hailed as the 'Wizard of Applied Reinforcement Learning'. Having studied under the 'Father of RL' Rich Sutton at the University of Alberta, his PhD thesis specifically focused on applying reinforcement learning to Go. He firmly believed that through 'Self-Play', AI could transcend the limitations of human data. This philosophy eventually birthed the even more powerful AlphaGo Zero and AlphaZero, proving that general-purpose RL algorithms could master Chess, Go, and Shogi from scratch.",
+    "events": [
+      "alphago_2016"
+    ]
+  }

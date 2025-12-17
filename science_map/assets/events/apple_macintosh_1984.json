@@ -1,0 +1,156 @@
+{
+    "id": "apple_macintosh_1984",
+    "personId": ["steve_jobs"],
+    "title": "Apple Macintosh发布 (图形界面的普及)",
+    "title_en": "Release of Apple Macintosh (Popularization of the GUI)",
+    "year": 1984,
+    "lat": 37.3193,
+    "lng": -122.0449,
+    "city": "库比蒂诺 (弗林特中心)",
+    "city_en": "Cupertino (Flint Center)",
+    "country": "美国",
+    "country_en": "United States",
+    "storyline_id": ["digital_age_story"],
+    "field": ["计算机科学", "设计"],
+    "field_en": ["Computer Science", "Design"],
+    
+    "media": {
+      "event_image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Early_Macintosh_Prototype_Computer_History_Museum_Mountain_View_California_2013-04-11_23-45.jpg",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=2B-XwPjn9YY",
+        "title": "史蒂夫·乔布斯展示Macintosh",
+        "title_en": "The Lost 1984 Video: young Steve Jobs introduces the Macintosh",
+        "duration": "5:10"
+      }
+    },
+    
+    "summary": {
+      "text": "1984年1月24日，史蒂夫·乔布斯在库比蒂诺的弗林特中心，从一个帆布包里掏出了一台米白色的一体机——Macintosh。随着屏幕亮起，电脑用合成语音说出了“Hello, I am Macintosh”。这是世界上第一台商业上获得成功的、采用图形用户界面（GUI）和鼠标的个人电脑。它彻底抛弃了当时通用的黑底绿字命令行（如MS-DOS），转而使用图标、窗口、菜单和鼠标光标。虽然它的价格（2495美元）依然昂贵，且内存不足（128K），但它向世界证明了电脑可以像家电一样易用，并且可以是一种艺术品。",
+      "text_en": "On January 24, 1984, at the Flint Center in Cupertino, Steve Jobs pulled a beige all-in-one computer out of a canvas bag—the Macintosh. As the screen lit up, the computer spoke in a synthesized voice: 'Hello, I am Macintosh.' This was the world's first commercially successful personal computer to feature a Graphical User Interface (GUI) and a mouse. It completely abandoned the then-standard black-screen command line (like MS-DOS) in favor of icons, windows, menus, and a mouse cursor. Although expensive ($2,495) and underpowered (128K RAM), it proved to the world that a computer could be as easy to use as an appliance and could be a work of art.",
+      "key_points": [
+        "第一台在大众市场成功的GUI（图形用户界面）电脑",
+        "推广了鼠标、窗口、图标和下拉菜单的交互方式",
+        "引入了“所见即所得” (WYSIWYG) 的文档编辑概念",
+        "著名的“1984”超级碗广告由雷德利·斯科特执导",
+        "标志着个人计算从“代码指令”向“直观操作”的范式转移"
+      ],
+      "key_points_en": [
+        "First mass-market success for a GUI computer",
+        "Popularized the mouse, windows, icons, and drop-down menus",
+        "Introduced the concept of WYSIWYG (What You See Is What You Get)",
+        "Famous '1984' Super Bowl commercial directed by Ridley Scott",
+        "Marked the paradigm shift from 'code instructions' to 'intuitive operation'"
+      ]
+    },
+  
+    "story": {
+      "text": "Macintosh的诞生是苹果公司内部的一场“海盗起义”。当时，苹果的旗舰项目是昂贵的Lisa，而Jef Raskin最初构想的Macintosh是一台廉价的“计算机家电”。史蒂夫·乔布斯被踢出Lisa团队后，接管了Mac项目，并将其转变为一台追求完美的“灵魂机器”。乔布斯带领着Andy Hertzfeld（软件）、Bill Atkinson（图形）等天才工程师，在办公室挂起了一面海盗旗，标榜“宁做海盗，不做海军”。他们深受施乐PARC研究成果的启发，但通过惊人的软件优化，在极其有限的硬件上实现了流畅的图形界面。发布会上，当Mac自己开口说话时，全场沸腾，乔布斯确信他刚刚重新发明了轮子。",
+      "text_en": "The birth of the Macintosh was a 'pirate uprising' within Apple. At the time, Apple's flagship was the expensive Lisa, while Jef Raskin originally envisioned the Macintosh as a cheap 'computer appliance'. After being kicked off the Lisa team, Steve Jobs took over the Mac project, transforming it into a perfectionist's 'soul machine'. Leading genius engineers like Andy Hertzfeld (software) and Bill Atkinson (graphics), Jobs hung a pirate flag in the office, declaring 'It's better to be a pirate than join the navy.' Inspired by Xerox PARC, they achieved a fluid GUI on limited hardware through incredible software optimization. At the launch, when the Mac spoke for itself, the crowd erupted, and Jobs was convinced he had just reinvented the wheel.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Steve_Jobs_and_Macintosh_computer%2C_January_1984%2C_by_Bernard_Gotfryd_-_edited.jpg"
+    },
+  
+    "fun_facts": [
+      {
+        "icon": "✍️",
+        "text": "第一代Macintosh的机壳内壁上，刻有所有研发团队成员的签名（包括乔布斯和沃兹尼亚克）。乔布斯认为这不仅是工业产品，更是艺术品，艺术家就应该在作品上签名。",
+        "text_en": "Inside the case of the original Macintosh, the signatures of the entire development team (including Jobs and Wozniak) were molded into the plastic. Jobs believed it was not just an industrial product but art, and artists sign their work."
+      },
+      {
+        "icon": "📺",
+        "text": "著名的《1984》广告将IBM比作乔治·奥威尔小说中的“老大哥”，暗示Mac是打破极权、解放思想的工具。这支广告在当年的超级碗上只播出了一次，却被认为是史上最伟大的电视广告。",
+        "text_en": "The famous '1984' commercial likened IBM to 'Big Brother' from George Orwell's novel, implying the Mac was the tool to shatter totalitarianism and liberate minds. It aired only once during the Super Bowl but is considered the greatest TV commercial of all time."
+      }
+    ],
+  
+    "simple_explanation": {
+      "text": "在Mac之前，你要想让电脑打开一个文件，你得记住并输入命令（比如 `type c:\\doc\\file.txt`）。\nMac把电脑变成了一个虚拟的桌面：文件就是纸张图标，文件夹就是文件夹图标，丢弃就是扔进废纸篓。\n你不需要学编程语言，你只需要用手指（鼠标）去指指点点。它让电脑学会了人类的语言，而不是让人类去学电脑的语言。",
+      "text_en": "Before the Mac, to open a file, you had to memorize and type commands (like `type c:\\doc\\file.txt`).\nThe Mac turned the computer into a virtual desktop: files were paper icons, directories were folder icons, and deleting was throwing things in the trash.\nYou didn't need to learn code; you just pointed and clicked. It taught the computer to speak human, rather than forcing humans to speak computer.",
+      "diagram": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png"
+    },
+  
+    "applications": [
+        {
+          "icon": "🎨",
+          "title": "MacPaint",
+          "title_en": "MacPaint",
+          "text": "由Bill Atkinson编写，它展示了鼠标作画的惊人能力。用户第一次发现，电脑屏幕可以是画布，而不是打字机。",
+          "text_en": "Written by Bill Atkinson, it demonstrated the amazing ability to draw with a mouse. Users realized for the first time that a computer screen could be a canvas, not just a typewriter."
+        },
+        {
+          "icon": "📰",
+          "title": "桌面出版 (Desktop Publishing)",
+          "title_en": "Desktop Publishing",
+          "text": "Macintosh配合后来的LaserWriter打印机和PageMaker软件，开启了“桌面出版”革命，让普通人也能在家里设计出专业杂志般的排版。",
+          "text_en": "The Macintosh, paired with the later LaserWriter printer and PageMaker software, launched the 'Desktop Publishing' revolution, allowing ordinary people to design professional-quality layouts at home."
+        }
+      ],
+  
+    "impact": {
+      "text": "Macintosh的确立了现代计算机交互的标准。今天无论是Windows、Linux还是手机系统，我们所使用的“点击、拖拽、窗口、图标”逻辑，全部源于Mac在1984年的普及。它虽然输掉了与Windows的市场份额战争，但它赢得了定义未来的战争。它证明了只有软硬件结合（Hardware + Software）才能提供极致的用户体验。",
+      "text_en": "The Macintosh established the standard for modern computer interaction. Today, whether Windows, Linux, or mobile OS, the logic of 'click, drag, window, icon' all stems from the Mac's popularization in 1984. Although it lost the market share war to Windows, it won the war of defining the future. It proved that only the integration of hardware and software could provide the ultimate user experience.",
+      "stats": [
+          {
+            "number": "2495",
+            "label": "美元 (首发价格)",
+            "label_en": "USD (Launch Price)"
+          },
+          {
+            "number": "128",
+            "label": "KB (内存)",
+            "label_en": "KB (RAM)"
+          }
+        ]
+    },
+  
+    "influence_chain": {
+      "influenced_by": [
+        {
+          "id": "xerox_alto_1973",
+          "contribution": "施乐Alto（乔布斯访问施乐PARC时看到的图形界面原型，是Mac的精神之父）",
+          "contribution_en": "Xerox Alto (The GUI prototype Jobs saw at Xerox PARC, the spiritual father of the Mac)"
+        },
+        {
+          "id": "engelbart_demo_1968",
+          "contribution": "恩格尔巴特演示（鼠标和窗口概念的真正源头）",
+          "contribution_en": "Engelbart Demo (The true source of the mouse and window concepts)"
+        }
+      ],
+      "influenced": [
+        {
+          "id": "microsoft_windows_1985",
+          "contribution": "Windows 1.0（微软在接触Mac原型机后，加快了图形界面系统的开发，导致了后来长达数年的“抄袭”诉讼）",
+          "contribution_en": "Windows 1.0 (Microsoft accelerated its GUI development after seeing Mac prototypes, leading to years of 'copycat' lawsuits)"
+        },
+        {
+          "id": "berners_lee_www_1989",
+          "contribution": "万维网（蒂姆·伯纳斯-李是在一台NeXT电脑上发明万维网的，而NeXT正是乔布斯离开苹果后对Mac理念的延续）",
+          "contribution_en": "World Wide Web (Tim Berners-Lee invented the WWW on a NeXT computer, which was Jobs' continuation of the Mac philosophy after leaving Apple)"
+        }
+      ],
+      "legacy_text": "它是给“剩下的一群人”（The Rest of Us）准备的电脑。",
+      "legacy_text_en": "It was the computer for 'The Rest of Us'."
+    },
+  
+    "related_concepts": ["图形用户界面 (GUI)", "所见即所得 (WYSIWYG)", "拟物化设计", "桌面出版", "摩托罗拉68000"],
+    "related_concepts_en": ["GUI", "WYSIWYG", "Skeuomorphism", "Desktop Publishing", "Motorola 68000"],
+  
+    "quiz": {
+      "question": "在1984年的发布会上，Macintosh做了一件什么震惊全场的事情？",
+      "question_en": "At the 1984 launch event, what shocking thing did the Macintosh do?",
+      "options": [
+        "打印了一张彩色照片",
+        "播放了一段高清电影",
+        "用合成语音开口说话",
+        "无线连接到了互联网"
+      ],
+      "options_en": [
+        "Printed a color photo",
+        "Played a high-def movie",
+        "Spoke with a synthesized voice",
+        "Connected wirelessly to the internet"
+      ],
+      "answer": 2,
+      "explanation": "为了展示其先进的音频处理能力和友好的特性，Macintosh在舞台上用合成语音自我介绍：“Hello, I am Macintosh. It sure is great to get out of that bag.”",
+      "explanation_en": "To demonstrate its advanced audio capabilities and friendly nature, the Macintosh introduced itself on stage with a synthesized voice: 'Hello, I am Macintosh. It sure is great to get out of that bag.'"
+    }
+  }

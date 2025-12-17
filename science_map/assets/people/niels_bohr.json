@@ -1,0 +1,11 @@
+{
+    "name": "尼尔斯·玻尔",
+    "name_en": "Niels Bohr",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Niels_Bohr.jpg",
+    "bio_short": "丹麦物理学家，量子力学的奠基人之一。他提出了“玻尔原子模型”（`bohr_atom_1913`），引入了量子化轨道概念，成功解释了氢原子光谱，并因此获得了1922年的诺贝尔物理学奖。他还提出了著名的“互补原理”和“哥本哈根诠释”。",
+    "bio_short_en": "A Danish physicist and a foundational figure in quantum mechanics. He proposed the 'Bohr Model' (`bohr_atom_1913`), introducing quantized orbits to explain the hydrogen spectrum, for which he won the 1922 Nobel Prize. He is also famous for the principle of 'Complementarity' and the 'Copenhagen Interpretation'.",
+    "events": [
+      "bohr_atom_1913",
+      "solvay_conference_1927"
+    ]
+  }

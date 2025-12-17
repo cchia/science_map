@@ -1,13 +1,149 @@
 {
-    "id": "discovery_of_neptune_1846",
-    "title": "发现海王星",
-    "title_en": "Discovery of Neptune",
-    "year": 1846,
-    "lat": 52.52,
-    "lng": 13.40,
-    "city": "柏林",
-    "city_en": "Berlin",
-    "field": ["天文学"],
-    "storyline_ids": ["gravity_story"],
-    "is_stub": true
+  "id": "discovery_of_neptune_1846",
+  "personId": ["urbain_le_verrier", "johann_gottfried_galle"],
+  "title": "发现海王星 (笔尖下的发现)",
+  "title_en": "Discovery of Neptune (The Planet Found at the Point of a Pen)",
+  "year": 1846,
+  "lat": 52.5014,
+  "lng": 13.3958,
+  "city": "柏林",
+  "city_en": "Berlin",
+  "country": "普鲁士 (今德国)",
+  "country_en": "Prussia (Modern Germany)",
+  "storyline_ids": ["gravity_story"],
+  "field": ["天文学", "数学", "物理学"],
+  "field_en": ["Astronomy", "Mathematics", "Physics"],
+  
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Neptune_Voyager2_color_calibrated.png",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=0nsqrGSu7qc",
+      "title": "海王星是如何不用望远镜而被发现的",
+      "title_en": "How Neptune Was Discovered Without a Telescope",
+      "duration": "4:07"
+    }
+  },
+  
+  "summary": {
+    "text": "海王星的发现是牛顿天体力学最辉煌的胜利，被称为“笔尖下的发现”。自从威廉·赫歇尔（William Herschel）在1781年发现天王星以来，天文学家发现天王星的轨道总是偏离牛顿定律的预测。法国数学家勒维耶（Urbain Le Verrier）通过复杂的数学反推，预测在天王星之外存在一颗未知的“干扰行星”，并精确计算了它的位置。1846年9月23日，柏林天文台的加勒（Galle）收到勒维耶的信后，在当晚仅仅搜索了不到1小时，就在预测位置偏离不到1度的地方发现了这颗新行星。",
+    "text_en": "The discovery of Neptune was the crowning victory of Newtonian celestial mechanics, known as the 'discovery at the point of a pen'. Since William Herschel's discovery of Uranus in 1781, astronomers noticed that Uranus's orbit constantly deviated from Newtonian predictions. French mathematician Urbain Le Verrier used complex reverse calculations to predict that an unknown 'disturbing planet' existed beyond Uranus and pinpointed its location. On September 23, 1846, after receiving Le Verrier's letter, Johann Gottfried Galle at the Berlin Observatory found the new planet within 1 hour of searching, less than 1 degree from the predicted spot.",
+    "key_points": [
+      "通过“数学计算”而非“偶然观测”发现的行星",
+      "由勒维耶 (Le Verrier) 预测，加勒 (Galle) 观测确认",
+      "利用天王星轨道的“摄动”(Perturbation) 反推",
+      "牛顿万有引力定律的终极验证"
+    ],
+    "key_points_en": [
+      "Planet discovered by 'mathematical calculation', not 'accidental observation'",
+      "Predicted by Le Verrier, observed by Galle",
+      "Deduced from the 'perturbations' of Uranus's orbit",
+      "The ultimate verification of Newton's Law of Universal Gravitation"
+    ]
+  },
+
+  "story": {
+    "text": "天王星是一个“不听话”的行星。无论天文学家如何修正轨道表，天王星总是会快一点或慢一点，仿佛有一只看不见的手在拉扯它。勒维耶面临的是一个巨大的“逆向问题”：已知轨道的偏差，求未知行星的质量和位置。这是一项极其艰巨的手工计算任务。1846年9月18日，勒维耶给柏林天文台的加勒写信：“把你的望远镜指向黄道上的这一对坐标，你将看到一颗新的行星。” 加勒在9月23日收到信，当晚就进行了观测。在助手达雷斯特（d'Arrest）的建议下，他们使用了一张最新的星图进行比对。几乎立刻，加勒喊道：“那颗星不在图上！” 第二天晚上，他们确认了这颗星在移动。海王星被找到了。",
+    "text_en": "Uranus was a 'misbehaving' planet. No matter how astronomers adjusted their tables, Uranus would speed up or slow down, as if an invisible hand were tugging at it. Le Verrier faced a massive 'inverse problem': given the orbital deviations, calculate the mass and position of the unknown disturber. It was a monumental task of manual calculation. On September 18, 1846, Le Verrier wrote to Galle in Berlin: 'Point your telescope to these coordinates on the ecliptic, and you will see a new planet.' Galle received the letter on the 23rd and looked that very night. Using a new star chart suggested by his student d'Arrest, Galle almost immediately shouted, 'That star is not on the map!' The next night, they confirmed it was moving. Neptune was found.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/01/Gravitational_perturbation.svg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🇬🇧",
+      "text": "英国数学家约翰·库奇·亚当斯（John Couch Adams）实际上比勒维耶更早几个月也计算出了海王星的位置，但他没能说服英国天文学家去寻找它，导致英国错失了发现权。",
+      "text_en": "British mathematician John Couch Adams actually calculated Neptune's position months before Le Verrier, but he failed to convince British astronomers to look for it, costing Britain the discovery."
+    },
+    {
+      "icon": "🔭",
+      "text": "伽利略在1612年实际上就看到过海王星！但因为海王星移动得太慢，伽利略在笔记中把它误标记为一颗恒星。",
+      "text_en": "Galileo actually saw Neptune in 1612! But because Neptune moves so slowly, Galileo mistakenly marked it as a fixed star in his notebook."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象你在看一场舞会，你看到一个舞者（天王星）在奇怪地摇晃，好像有人在拉扯他，但你看不见那个人。勒维耶就是那个侦探，他通过计算舞者摇晃的方式，推断出：“在幕布后面，肯定藏着另一个人（海王星），而且他就在这个位置。” 加勒拉开幕布一看，果然那里站着一个人。这就是用数学“看见”看不见的东西。",
+    "text_en": "Imagine watching a dance floor. You see one dancer (Uranus) wobbling strangely, as if someone is pulling him, but you can't see anyone there. Le Verrier was the detective who analyzed the wobbles and deduced: 'There must be another person (Neptune) hiding behind the curtain, right *here*.' Galle pulled back the curtain, and there he was. It was using math to 'see' the invisible.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/0/01/Gravitational_perturbation.svg"
+  },
+
+  "applications": [
+      {
+        "icon": "🪐",
+        "title": "暗物质 (Dark Matter)",
+        "title_en": "Dark Matter",
+        "text": "海王星的发现逻辑（通过可见物体的异常运动来推断不可见物体的存在）是现代天文学推断“暗物质”和“系外行星”的核心方法。",
+        "text_en": "The logic of Neptune's discovery (inferring the invisible from the motion of the visible) is the core method used today to infer 'Dark Matter' and 'Exoplanets'."
+      },
+      {
+        "icon": "🧮",
+        "title": "摄动理论 (Perturbation Theory)",
+        "title_en": "Perturbation Theory",
+        "text": "勒维耶使用的方法促进了“微扰理论”的发展，这是解决复杂多体动力学问题的关键数学工具。",
+        "text_en": "The methods used by Le Verrier advanced 'Perturbation Theory', a key mathematical tool for solving complex many-body dynamic problems."
+      }
+    ],
+
+  "impact": {
+    "text": "海王星的发现震惊了世界，它不仅发现了一颗新行星，更证明了牛顿物理学是“普遍真理”。它表明人类的理性（数学）不仅可以描述已知，还可以预测未知。这是经典力学的巅峰时刻。然而，勒维耶后来试图用同样的方法寻找水星轨道异常的原因（祝融星），却失败了，直到爱因斯坦（`einstein_1915_general_relativity`）出现。",
+    "text_en": "The discovery of Neptune shocked the world. It didn't just find a planet; it proved Newtonian physics was 'universal truth'. It showed that human reason (math) could not only describe the known but predict the unknown. It was the zenith of classical mechanics. However, Le Verrier later tried the same trick for Mercury's orbit (searching for 'Vulcan') and failed, a puzzle only solved by Einstein (`einstein_1915_general_relativity`).",
+    "stats": [
+        {
+          "number": "1",
+          "label": "度 (预测误差)",
+          "label_en": "Degree (Prediction Error)"
+        },
+        {
+          "number": "1",
+          "label": "小时 (搜索时间)",
+          "label_en": "Hour (Search Time)"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "newton_gravity_1687",
+        "contribution": "牛顿（万有引力定律是勒维耶进行计算的唯一理论基础）",
+        "contribution_en": "Isaac Newton (his Law of Universal Gravitation was the sole theoretical basis for Le Verrier's calculation)"
+      },
+      {
+        "id": "herschel_uranus_1781",
+        "contribution": "威廉·赫歇尔（发现天王星，提供了那个“不听话”的观测对象）",
+        "contribution_en": "William Herschel (discovered Uranus, providing the 'misbehaving' object to study)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "pluto_discovery_1930",
+        "contribution": "帕西瓦尔·罗威尔（试图复制海王星的成功，通过计算海王星的“摄动”来寻找“X行星”，最终导致冥王星的发现）",
+        "contribution_en": "Percival Lowell (tried to replicate this success, searching for 'Planet X' via math, leading to Pluto's discovery)"
+      }
+    ],
+    "legacy_text": "勒维耶用笔尖在天空中“指”出了一个点，加勒看过去，那里果然有一颗世界。",
+    "legacy_text_en": "Le Verrier pointed his pen at a spot in the sky, Galle looked, and there was a world."
+  },
+
+  "related_concepts": ["天体力学 (Celestial Mechanics)", "摄动 (Perturbation)", "天王星 (Uranus)", "牛顿定律 (Newton's Laws)", "勒维耶 (Le Verrier)", "加勒 (Galle)", "亚当斯 (Adams)"],
+  "related_concepts_en": ["Celestial Mechanics", "Perturbation", "Uranus", "Newton's Laws", "Le Verrier", "Galle", "Adams"],
+
+  "quiz": {
+    "question": "海王星的发现被称为“笔尖下的发现”，这是因为它主要是通过什么方法找到的？",
+    "question_en": "Neptune is called the planet found 'at the point of a pen'. What was the primary method of its discovery?",
+    "options": [
+      "用大型望远镜随机扫描天空",
+      "通过数学计算天王星轨道的“异常”来预测其位置",
+      "通过古代玛雅人的预言",
+      "通过无线电波探测"
+    ],
+    "options_en": [
+      "Randomly scanning the sky with a large telescope",
+      "Predicting its position by mathematically calculating the 'anomalies' in Uranus's orbit",
+      "Ancient Mayan prophecies",
+      "Radio wave detection"
+    ],
+    "answer": 1,
+    "explanation": " 这是科学史上最著名的“预测验证”案例。勒维耶完全依靠牛顿力学，通过分析天王星“为什么走歪了”，反推出了干扰它的未知行星（海王星）应该在哪。",
+    "explanation_en": " This is the most famous case of 'prediction and verification' in science. Le Verrier relied entirely on Newtonian mechanics, calculating *why* Uranus was drifting to deduce *where* the disturbing planet (Neptune) must be."
   }
+}

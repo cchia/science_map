@@ -1,0 +1,10 @@
+{
+    "name": "詹妮弗·杜德纳",
+    "name_en": "Jennifer Doudna",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Jennifer_Doudna_by_Christopher_Michel_in_2023_01.jpg",
+    "bio_short": "美国生物化学家，加州大学伯克利分校教授，2020年诺贝尔化学奖得主。她与埃雷曼纽尔·卡彭蒂耶共同发明了革命性的CRISPR-Cas9基因编辑技术（`crispr_gene_editing_2012`），赋予了人类精确修改DNA的能力，开启了基因工程的新纪元。",
+    "bio_short_en": "An American biochemist, professor at UC Berkeley, and 2020 Nobel laureate in Chemistry. She co-invented the revolutionary CRISPR-Cas9 gene-editing technology (`crispr_gene_editing_2012`) with Emmanuelle Charpentier, giving humanity the power to precisely modify DNA and ushering in a new era of genetic engineering.",
+    "events": [
+      "crispr_gene_editing_2012"
+    ]
+  }

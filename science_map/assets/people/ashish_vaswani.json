@@ -1,0 +1,10 @@
+{
+    "name": "阿希什·瓦斯瓦尼",
+    "name_en": "Ashish Vaswani",
+    "portrait": "assets/images/ashish_vaswani.png",
+    "bio_short": "印度裔美国计算机科学家，深度学习领域的“造物主”之一。他是那篇改变世界的论文《Attention Is All You Need》的第一作者，Transformer架构的主要发明者。在Google Brain工作期间，他因对RNN无法并行训练感到沮丧，从而构想出了完全基于注意力机制的架构。他是著名的“Transformer八子”（Transformer Mafia）之一，后来离开Google相继创办了Adept AI和Essential AI，致力于开发能像人类一样操作工具的通用人工智能。",
+    "bio_short_en": "Indian-American computer scientist, one of the 'Creators' in deep learning. He is the lead author of the world-changing paper 'Attention Is All You Need' and a primary inventor of the Transformer architecture. While at Google Brain, frustrated by the inability to parallelize RNN training, he conceptualized an architecture based entirely on attention mechanisms. One of the famous 'Transformer Eight' (Transformer Mafia), he later left Google to found Adept AI and Essential AI, aiming to build general AI capable of using tools like humans.",
+    "events": [
+      "vaswani_transformer_2017"
+    ]
+  }

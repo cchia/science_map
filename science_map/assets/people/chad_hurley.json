@@ -1,0 +1,10 @@
+{
+    "name": "查德·赫利",
+    "name_en": "Chad Hurley",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Streamy_Awards_Photo_1214_%284513304983%29.jpg",
+    "bio_short": "美国企业家、设计师，YouTube的联合创始人及首任CEO。他是“PayPal黑帮”中少有的艺术背景成员，著名的PayPal标志就出自他手。在创建YouTube时，他主要负责网站的用户界面（UI）和Logo设计，赋予了YouTube简洁易用的视觉风格。他不仅定义了产品的外观，还主导了早期的视频标签（Tagging）系统，极大地方便了内容的传播。Google收购后，他继续掌舵至2010年，后来成为NBA金州勇士队的股东之一。",
+    "bio_short_en": "American entrepreneur and designer, co-founder and first CEO of YouTube. He was a rare member of the 'PayPal Mafia' with an artistic background, having designed the original PayPal logo. When founding YouTube, he was primarily responsible for the user interface (UI) and logo design, giving YouTube its clean and accessible visual style. He not only defined the product's look but also spearheaded the early video tagging system, greatly facilitating content virality. After the Google acquisition, he remained at the helm until 2010 and later became a part-owner of the NBA's Golden State Warriors.",
+    "events": [
+      "youtube_launch_2005"
+    ]
+  }
