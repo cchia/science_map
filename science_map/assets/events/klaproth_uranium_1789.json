@@ -1,0 +1,164 @@
+{
+  "id": "klaproth_uranium_1789",
+  "personId": "martin_heinrich_klaproth",
+  "title": "克拉普罗特发现铀",
+  "title_en": "Klaproth Discovers Uranium",
+  "year": 1789,
+  "lat": 52.5200,
+  "lng": 13.4050,
+  "city": "柏林",
+  "city_en": "Berlin",
+  "country": "德国",
+  "country_en": "Germany",
+  "storyline_id": ["element_story"],
+  "field": ["化学"],
+  "field_en": ["Chemistry"],
+
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/HEUraniumC.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=y0Bv9551hcQ",
+      "title": "铀为什么危险但又有用？",
+      "title_en": "Why is Uranium Dangerous but So Useful?",
+      "duration": "8:30"
+    }
+  },
+
+  "summary": {
+    "text": "1789年，德国化学家马丁·海因里希·克拉普罗特（Martin Heinrich Klaproth）在柏林的实验室里分析来自约阿希姆斯塔尔（Joachimsthal）银矿的黑色沥青铀矿（Pitchblende）。当时矿工们认为这种矿石是锌或铁的混合物，甚至称之为“倒霉的矿石”。克拉普罗特通过酸解和还原，分离出一种奇怪的黄色氧化物，并将其还原为黑色粉末（他误以为是纯金属，实际上是二氧化铀）。为了纪念威廉·赫歇尔在八年前（1781年）发现的新行星——天王星（Uranus），他将这种新元素命名为“铀”（Uranium）。这一发现沉睡了一个世纪，直到放射性被发现，铀才展露出它改变世界的恐怖力量。",
+    "text_en": "In 1789, German chemist Martin Heinrich Klaproth analyzed black pitchblende from the Joachimsthal silver mines in his Berlin laboratory. Miners at the time thought this ore was a mix of zinc or iron, calling it 'bad luck ore'. Through acid dissolution and reduction, Klaproth isolated a strange yellow oxide and reduced it to a black powder (which he mistook for the pure metal, but was actually uranium dioxide). To honor the new planet discovered by William Herschel eight years earlier (1781)—Uranus—he named this new element 'Uranium'. This discovery slept for a century until radioactivity was revealed, unleashing uranium's world-changing power.",
+    "key_points": [
+      "从沥青铀矿中发现了铀（虽然误认为是金属单质，实际是氧化物）",
+      "以新发现的行星“天王星”（Uranus）命名",
+      "发现了当时自然界中原子序数最大的元素",
+      "铀在当时仅被用于制造发光的玻璃（铀玻璃）",
+      "为后来核时代的开启埋下了伏笔"
+    ],
+    "key_points_en": [
+      "Discovered Uranium in pitchblende (though mistook the oxide for the metal)",
+      "Named after the newly discovered planet 'Uranus'",
+      "Discovered the heaviest naturally occurring element known at the time",
+      "Uranium was initially used only to make glowing glass (Uranium Glass)",
+      "Laid the groundwork for the future nuclear age"
+    ]
+  },
+
+  "story": {
+    "text": "克拉普罗特是一个极其严谨的分析化学家，他不相信炼金术的直觉，只相信天平的读数。当他面对那块沉重且油腻的黑色沥青矿石时，他确信里面藏着一种未知的金属。他用强酸溶解矿石，得到了黄色的沉淀，然后用木炭加热还原，得到了一种黑色粉末。他兴奋地宣布发现了第17种金属元素。具有讽刺意味的是，他从未见过真正的金属铀（那是50年后由佩利戈特制备的），也从未意识到这种物质具有放射性。他只是觉得这种新元素能让玻璃呈现出美丽的黄绿色荧光，于是这种“魔鬼金属”在随后的一百年里，仅仅作为一种漂亮的玻璃着色剂存在于人们的酒杯和花瓶中。",
+    "text_en": "Klaproth was an incredibly rigorous analytical chemist who trusted the balance scale over alchemical intuition. Faced with the heavy, greasy black pitchblende, he was convinced it hid an unknown metal. He dissolved the ore in strong acid to get a yellow precipitate, then heated it with charcoal to reduce it, obtaining a black powder. He excitedly announced the discovery of the 17th metallic element. Ironically, he never saw true metallic uranium (prepared 50 years later by Péligot) and never realized the substance was radioactive. He simply noted that this new element gave glass a beautiful yellow-green fluorescence, so this 'devil's metal' existed for the next hundred years merely as a pretty coloring agent in wine glasses and vases.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/3/36/U_glass_with_black_light.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🪐",
+      "text": "克拉普罗特是一个“天文迷”。除了用“天王星”命名“铀”，他后来发现“锆”（Zirconium）时本想用土星命名，发现“铈”（Cerium）时则是为了纪念谷神星（Ceres）的发现。",
+      "text_en": "Klaproth was an 'astronomy fan'. Besides naming 'Uranium' after 'Uranus', he considered naming 'Zirconium' after Saturn, and named 'Cerium' to honor the discovery of the asteroid Ceres."
+    },
+    {
+      "icon": "🍷",
+      "text": "在核裂变被发现之前，铀最主要的用途是制作“铀玻璃”。这种玻璃在紫外线下会发出诡异的绿色荧光，在维多利亚时代非常流行。",
+      "text_en": "Before nuclear fission was discovered, the main use of uranium was making 'Uranium Glass'. This glass glows with an eerie green fluorescence under UV light and was very popular in the Victorian era."
+    },
+    {
+      "icon": "⛏️",
+      "text": "矿工们叫沥青铀矿“Pechblende”（倒霉矿），因为它虽然闪亮却提炼不出银子，还经常让矿工生病（因为强辐射），克拉普罗特算是为这种“倒霉”找到了科学原因。",
+      "text_en": "Miners called pitchblende 'Pechblende' (Bad Luck Ore) because it was shiny but yielded no silver and often made miners sick (due to high radiation). Klaproth essentially found the scientific cause for this 'bad luck'."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象一下，你在挖银矿时挖到了一块死沉死沉的黑石头，而且还总是让人感觉不舒服。矿工们都讨厌它，把它扔在一边。\n克拉普罗特捡起了这块石头，带回实验室一顿操作，提取出了一种全新的物质。为了赶时髦，他用当时刚刚发现的“网红星球”——天王星（Uranus）给它起了个名字叫“铀”（Uranium）。\n他以为自己只是发现了一种能做漂亮玻璃颜料的普通金属，完全不知道自己其实唤醒了一条沉睡的巨龙——这种物质后来被用来制造原子弹和核电站。",
+    "text_en": "Imagine digging for silver and finding a super heavy, black rock that makes you feel sick. Miners hated it and threw it away.\nKlaproth picked it up, took it to his lab, and extracted a brand new substance. To be trendy, he named it 'Uranium' after the newly discovered 'celebrity planet', Uranus.\nHe thought he had just found a normal metal good for making pretty glass colors, completely unaware that he had awakened a sleeping dragon—this substance would later be used to make atomic bombs and nuclear power plants.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Atomic_cloud_over_Hiroshima_-_NARA_542192_-_Edit.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "💡",
+        "title": "核能发电",
+        "title_en": "Nuclear Power",
+        "text": "铀-235是现代核电站的主要燃料，为全球提供大量清洁（但需谨慎处理）的电力。",
+        "text_en": "Uranium-235 is the primary fuel for modern nuclear power plants, providing vast amounts of clean (though carefully handled) electricity globally."
+      },
+      {
+        "icon": "💣",
+        "title": "核武器",
+        "title_en": "Nuclear Weapons",
+        "text": "高浓缩铀是制造原子弹的关键材料，“小男孩”原子弹的核心就是铀。",
+        "text_en": "Highly enriched uranium is a key material for atomic bombs; the core of the 'Little Boy' bomb was uranium."
+      },
+      {
+        "icon": "🎨",
+        "title": "铀玻璃",
+        "title_en": "Uranium Glass",
+        "text": "历史上（现在较少），氧化铀被添加到玻璃中，使其呈现出独特的黄绿色荧光，具有很高的收藏价值。",
+        "text_en": "Historically (less now), uranium oxide was added to glass to give it a unique yellow-green fluorescence, making it highly collectible."
+      }
+    ],
+
+  "impact": {
+    "text": "克拉普罗特的发现具有双重意义。在化学上，他发现了一种位于元素周期表末端的重元素，拓展了人类对物质世界的认知边界。在历史上，他无意中为人类打开了“核时代”的大门。虽然他在世时铀只是个“花瓶”（做玻璃），但没有他的发现，就没有后来的贝克勒尔发现放射性，也就没有居里夫人的镭，更没有后来的原子弹和核电站。",
+    "text_en": "Klaproth's discovery has a dual significance. Chemically, he found a heavy element at the end of the periodic table, expanding the boundaries of human knowledge of matter. Historically, he unwittingly opened the door to the 'Nuclear Age'. Although uranium was just a 'vase' (for glass) during his lifetime, without his discovery, there would be no Becquerel discovering radioactivity, no Curie finding Radium, and no later atomic bombs or nuclear power plants.",
+    "stats": [
+        {
+          "number": "1789",
+          "label": "年 (发现年份)",
+          "label_en": "Year Discovered"
+        },
+        {
+          "number": "92",
+          "label": "号元素 (自然界最重)",
+          "label_en": "Element No. 92"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "herschel_uranus_1781",
+        "contribution": "威廉·赫歇尔（发现天王星，直接启发了克拉普罗特为新元素命名）",
+        "contribution_en": "William Herschel (Discovered Uranus, which directly inspired Klaproth to name the new element)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "becquerel_radioactivity_1896",
+        "contribution": "贝克勒尔（使用克拉普罗特发现的铀盐进行实验，意外发现了放射性）",
+        "contribution_en": "Henri Becquerel (Used uranium salts discovered by Klaproth for experiments and accidentally discovered radioactivity)"
+      },
+      {
+        "id": "marie_curie_radioactivity_1898",
+        "contribution": "居里夫人（研究沥青铀矿的放射性，发现了比铀更强的镭和钋）",
+        "contribution_en": "Marie Curie (Studied the radioactivity of pitchblende and discovered Radium and Polonium, which were stronger than uranium)"
+      }
+    ],
+    "legacy_text": "他为了纪念一颗星星而命名了一块石头，却不知道这块石头里藏着比星星更耀眼的能量。",
+    "legacy_text_en": "He named a rock to honor a star, unaware that the rock hid energy brighter than the star itself."
+  },
+
+  "related_concepts": ["铀 (Uranium)", "沥青铀矿 (Pitchblende)", "天王星 (Uranus)", "铀玻璃", "放射性 (Radioactivity)"],
+  "related_concepts_en": ["Uranium", "Pitchblende", "Uranus", "Uranium Glass", "Radioactivity"],
+
+  "quiz": {
+    "question": "克拉普罗特将他发现的新元素命名为“铀”（Uranium），是为了纪念什么？",
+    "question_en": "Klaproth named his new element 'Uranium' to honor what?",
+    "options": [
+      "他的家乡 Urania",
+      "希腊神话中的天空之神乌拉诺斯",
+      "当时刚刚被发现的行星天王星 (Uranus)",
+      "他在沥青铀矿中看到的颜色"
+    ],
+    "options_en": [
+      "His hometown Urania",
+      "The Greek god of the sky Uranus",
+      "The newly discovered planet Uranus",
+      "The color he saw in the pitchblende"
+    ],
+    "answer": 2,
+    "explanation": "为了紧跟科学潮流，克拉普罗特用威廉·赫歇尔在1781年发现的太阳系第七颗行星——天王星（Uranus）来命名这种新元素。",
+    "explanation_en": "To stay trendy with science, Klaproth named the new element after the seventh planet of the solar system, Uranus, discovered by William Herschel in 1781."
+  }
+}
+

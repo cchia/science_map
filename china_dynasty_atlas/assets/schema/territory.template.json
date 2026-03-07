@@ -1,0 +1,51 @@
+{
+  "id": "roman_empire",
+  "slug": "roman-empire",
+  "names": {
+    "primaryName": "Roman Empire",
+    "localizedNames": {
+      "en": "Roman Empire",
+      "zh-Hans": "罗马帝国"
+    },
+    "aliases": [
+      "Imperium Romanum"
+    ]
+  },
+  "territoryType": "empire",
+  "parentCivilizationId": "classical_mediterranean",
+  "start": {
+    "year": -27,
+    "datePrecision": "exact_year",
+    "displayLabel": "27 BCE"
+  },
+  "end": {
+    "year": 476,
+    "datePrecision": "exact_year",
+    "displayLabel": "476 CE"
+  },
+  "capitalPlaceIds": [
+    "rome"
+  ],
+  "predecessorIds": [
+    "roman_republic"
+  ],
+  "successorIds": [
+    "western_roman_fragmentation"
+  ],
+  "summary": "Short one-paragraph summary.",
+  "summaryLong": "Longer editorial overview for the territory.",
+  "governanceHighlights": [
+    "Imperial administration with provincial governance"
+  ],
+  "legacy": [
+    "Legal, linguistic, and urban influence across Europe and the Mediterranean"
+  ],
+  "tags": [
+    "empire",
+    "mediterranean",
+    "antiquity"
+  ],
+  "sourceRefs": [
+    "editorial_internal_v1"
+  ]
+}

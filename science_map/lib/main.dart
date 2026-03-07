@@ -12,6 +12,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
 import 'package:graphview/GraphView.dart';
 import 'package:flutter/gestures.dart';
+import 'search_delegate.dart';
 
 enum FocusMode { none, simple, evolution }
 
@@ -74,6 +75,7 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   // ========== 状态变量 ==========
+  final MapController _mapController = MapController(); // <-- 新增: 地图控制器
   // 时间控制
   double _minYear = -1000; // 默认值 (会被覆盖)
   double _maxYear = 2025; // 默认值 (会被覆盖)
@@ -103,7 +105,6 @@ class _MapScreenState extends State<MapScreen> {
   //String? selectedStoryMode;
   String searchQuery = '';
   Set<String> selectedFields = {};
-  bool showSearchBar = false;
 
   // ========== 配置数据 ==========
 final Map<String, Color> fieldColors = {
@@ -548,20 +549,52 @@ final Map<String, String> fieldNamesEn = {
     );
   }  
 
+  // ========== 导航控制 (新增) ==========
+  void _navigateToEvent(String eventId) {
+    final event = events.firstWhere((e) => e['id'] == eventId, orElse: () => {});
+    if (event.isEmpty) return;
+
+    setState(() {
+      _focusedEvent = event;
+      _focusedEventId = eventId;
+      
+      // 确保时间轴覆盖该事件 (简单策略：设置为事件年份 + 5年，保证点亮)
+      if (event['year'] is num) {
+          double targetYear = (event['year'] as num).toDouble() + 5;
+          if (targetYear > _maxYear) targetYear = _maxYear;
+          if (targetYear < _minYear) targetYear = _minYear;
+          selectedYear = targetYear;
+      }
+    });
+
+    // 移动地图
+    if (event['lat'] != null && event['lng'] != null) {
+        _mapController.move(LatLng(event['lat'], event['lng']), 10.0); // Zoom level 10
+    }
+  }
+
   // ========== AppBar ==========
   PreferredSizeWidget _buildAppBar(AppLocalizations l10n, bool isEnglish) {
     return AppBar(
-      title: showSearchBar
-          ? _buildSearchField(isEnglish)
-          : Text(l10n.appTitle),
+      title: Text(l10n.appTitle),
       actions: [
         IconButton(
-          icon: Icon(showSearchBar ? Icons.close : Icons.search),
-          onPressed: () {
-            setState(() {
-              showSearchBar = !showSearchBar;
-              if (!showSearchBar) searchQuery = '';
-            });
+          icon: Icon(Icons.search),
+          onPressed: () async {
+            // 打开全局搜索
+            final result = await showSearch(
+              context: context,
+              delegate: ScienceMapSearchDelegate(
+                events: events,
+                people: people,
+                isEnglish: isEnglish,
+              ),
+            );
+
+            // 如果返回了 eventId，则跳转
+            if (result != null && result.isNotEmpty) {
+              _navigateToEvent(result);
+            }
           },
         ),
         IconButton(
@@ -580,26 +613,6 @@ final Map<String, String> fieldNamesEn = {
     );
   }
 
-  Widget _buildSearchField(bool isEnglish) {
-    return Container(
-      padding: EdgeInsets.symmetric(horizontal: 8),
-      decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.2),
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: TextField(
-        autofocus: true,
-        style: TextStyle(color: Colors.black),
-        decoration: InputDecoration(
-          hintText: isEnglish ? 'Search...' : '搜索...',
-          hintStyle: TextStyle(color: Colors.white70),
-          border: InputBorder.none,
-          icon: Icon(Icons.search, color: Colors.white70, size: 20),
-        ),
-        onChanged: (value) => setState(() => searchQuery = value),
-      ),
-    );
-  }
 
   Widget _buildLanguageMenu() {
     return PopupMenuButton<Locale>(
@@ -625,6 +638,7 @@ final Map<String, String> fieldNamesEn = {
   // ========== 地图 ==========
   Widget _buildMap() {
     return FlutterMap(
+      mapController: _mapController, // <-- 新增: 绑定控制器
       options: MapOptions(
         initialCenter: LatLng(30, 0),
         initialZoom: 2,
@@ -1284,7 +1298,6 @@ final Map<String, String> fieldNamesEn = {
                     setState(() {
                       selectedFields.clear();
                       searchQuery = '';
-                      showSearchBar = false;
                     });
                   },
                   icon: Icon(Icons.clear_all, size: 18),

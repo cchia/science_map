@@ -1,0 +1,11 @@
+{
+  "name": "马丁·海因里希·克拉普罗特",
+  "name_en": "Martin Heinrich Klaproth",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Martin_Heinrich_Klaproth.jpg",
+  "bio_short": "德国化学家，被誉为“分析化学之父”。他是那个时代最精确、最严谨的化学分析家，发现了铀（Uranium）、锆（Zirconium）和铈（Cerium）等元素。他习惯用新发现的天体来命名元素（如铀得名于天王星），以彰显其时代意义。",
+  "bio_short_en": "A German chemist, considered the 'Father of Analytical Chemistry'. He was the most precise and rigorous analyst of his time, discovering Uranium, Zirconium, and Cerium. He had a habit of naming elements after newly discovered celestial bodies (e.g., Uranium after Uranus) to highlight their significance.",
+  "events": [
+    "klaproth_uranium_1789"
+  ]
+}
+

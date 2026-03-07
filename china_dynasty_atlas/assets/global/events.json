@@ -1,0 +1,426 @@
+[
+  {
+    "id": "qin_unification_-221",
+    "title": {
+      "primary": "Qin Unifies the Warring States",
+      "localized": {
+        "en": "Qin Unifies the Warring States",
+        "zh-Hans": "秦统一六国"
+      }
+    },
+    "displayTitle": "秦统一六国",
+    "start": {
+      "year": -221,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前221年"
+    },
+    "end": {
+      "year": -221,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前221年"
+    },
+    "territoryIds": ["qin"],
+    "placeIds": ["xianyang"],
+    "lat": 34.3416,
+    "lng": 108.7081,
+    "summary": "秦王政完成对六国的兼并，建立中国历史上第一个大一统王朝。",
+    "content": "统一不仅改变了战国长期分裂的政治格局，也为后续的郡县制、统一度量衡、统一文字和交通体系奠定了基础。",
+    "significance": "这是中国帝国史的起点事件，决定了后世“大一统王朝”成为长期政治理想。",
+    "consequences": ["结束战国长期分裂局面", "开启标准化与中央集权建设", "为秦制与汉制的衔接奠基"],
+    "tags": ["统一", "制度", "帝国"],
+    "relatedPersonIds": ["qin_shihuang"],
+    "relatedTerritoryIds": ["qin"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "great_wall_early_qin_-214",
+    "title": {
+      "primary": "Early Qin Frontier Defenses",
+      "localized": {
+        "en": "Early Qin Frontier Defenses",
+        "zh-Hans": "修筑北方防线与长城雏形"
+      }
+    },
+    "displayTitle": "修筑北方防线与长城雏形",
+    "start": {"year": -214, "datePrecision": "exact_year", "displayLabel": "公元前214年"},
+    "end": {"year": -214, "datePrecision": "exact_year", "displayLabel": "公元前214年"},
+    "territoryIds": ["qin"],
+    "placeIds": ["north_borderlands"],
+    "lat": 40.8,
+    "lng": 108.7,
+    "summary": "秦在北方整合旧有防线并修筑新的边防工程，形成长城体系的早期帝国版本。",
+    "content": "秦朝北部防线体现了统一帝国如何把地方工程转化为跨区域的战略设施，也反映了北方军事压力对国家资源的巨大消耗。",
+    "significance": "它展示了统一帝国如何把地理边界转化为军事边界，是理解秦朝空间治理的重要线索。",
+    "consequences": ["强化北方防御体系", "加重国家征发负担", "形成后世长城叙事的重要源头"],
+    "tags": ["军事", "边疆", "工程"],
+    "relatedPersonIds": ["qin_shihuang", "meng_tian"],
+    "relatedTerritoryIds": ["qin"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "books_buried_scholars_-213",
+    "title": {
+      "primary": "Burning of Books and Suppression of Scholars",
+      "localized": {
+        "en": "Burning of Books and Suppression of Scholars",
+        "zh-Hans": "焚书坑儒"
+      }
+    },
+    "displayTitle": "焚书坑儒",
+    "start": {"year": -213, "datePrecision": "exact_year", "displayLabel": "公元前213年"},
+    "end": {"year": -213, "datePrecision": "exact_year", "displayLabel": "公元前213年"},
+    "territoryIds": ["qin"],
+    "placeIds": ["xianyang"],
+    "lat": 34.3416,
+    "lng": 108.7081,
+    "summary": "秦朝为强化思想控制而采取高压措施，成为后世评价其统治的重要节点。",
+    "content": "这一事件经由后世史书不断书写，成为中国政治文化中讨论中央权力、思想控制与合法性的经典案例。",
+    "significance": "它不仅是秦朝高压统治的象征，也深刻影响了后世对专制与思想控制的历史想象。",
+    "consequences": ["加深秦政苛烈形象", "影响后世史家对秦的评价", "成为政治合法性讨论的经典议题"],
+    "tags": ["思想", "政治", "法家"],
+    "relatedPersonIds": ["qin_shihuang", "li_si"],
+    "relatedTerritoryIds": ["qin"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "qin_collapse_-207",
+    "title": {
+      "primary": "Collapse of the Qin Dynasty",
+      "localized": {
+        "en": "Collapse of the Qin Dynasty",
+        "zh-Hans": "秦朝灭亡"
+      }
+    },
+    "displayTitle": "秦朝灭亡",
+    "start": {"year": -207, "datePrecision": "exact_year", "displayLabel": "公元前207年"},
+    "end": {"year": -207, "datePrecision": "exact_year", "displayLabel": "公元前207年"},
+    "territoryIds": ["qin"],
+    "placeIds": ["guanzhong_central_plain"],
+    "lat": 34.7,
+    "lng": 110.0,
+    "summary": "在高压统治与大规模征发引发的危机中，秦帝国迅速崩溃。",
+    "content": "秦的短命让后继王朝意识到，统一并不等于长治久安，如何平衡集权效率与社会承受力，成为帝国治理的核心问题。",
+    "significance": "秦亡说明制度效率如果脱离社会承受能力，统一帝国同样可能迅速瓦解。",
+    "consequences": ["进入楚汉争霸阶段", "迫使后继王朝修正秦制的激烈部分", "成为“速亡之鉴”"],
+    "tags": ["崩溃", "起义", "帝国治理"],
+    "relatedPersonIds": ["xiang_yu", "liu_bang"],
+    "relatedTerritoryIds": ["qin", "western_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "han_founding_-202",
+    "title": {
+      "primary": "Founding of the Han Dynasty",
+      "localized": {
+        "en": "Founding of the Han Dynasty",
+        "zh-Hans": "刘邦建立汉朝"
+      }
+    },
+    "displayTitle": "刘邦建立汉朝",
+    "start": {"year": -202, "datePrecision": "exact_year", "displayLabel": "公元前202年"},
+    "end": {"year": -202, "datePrecision": "exact_year", "displayLabel": "公元前202年"},
+    "territoryIds": ["western_han"],
+    "placeIds": ["chang_an"],
+    "lat": 34.2667,
+    "lng": 108.9,
+    "summary": "楚汉战争结束后，刘邦建立汉朝，开启秦后新一轮帝国秩序重建。",
+    "content": "汉朝在继承秦制的同时，对苛政与财政压力进行了调整，逐步摸索出更稳健的帝国治理模式。",
+    "significance": "西汉建立标志着秦后的帝国秩序完成重建，也开启了更具持久性的汉帝国时代。",
+    "consequences": ["形成汉代政治合法性", "继承并修正秦代制度", "奠定中国古代帝国长期框架"],
+    "tags": ["建国", "楚汉战争", "制度继承"],
+    "relatedPersonIds": ["liu_bang"],
+    "relatedTerritoryIds": ["western_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "wenjing_rule_-180",
+    "title": {
+      "primary": "Rule of Wen and Jing",
+      "localized": {
+        "en": "Rule of Wen and Jing",
+        "zh-Hans": "文景之治"
+      }
+    },
+    "displayTitle": "文景之治",
+    "start": {"year": -180, "datePrecision": "exact_year", "displayLabel": "公元前180年"},
+    "end": {"year": -180, "datePrecision": "exact_year", "displayLabel": "公元前180年"},
+    "territoryIds": ["western_han"],
+    "placeIds": ["chang_an"],
+    "lat": 34.2667,
+    "lng": 108.9,
+    "summary": "西汉前期通过轻徭薄赋与稳定政策积累国力，为后来的扩张时代做好准备。",
+    "content": "文景时期常被视作汉帝国进入强盛前的关键蓄力阶段，反映出早期汉朝对秦亡教训的制度性回应。",
+    "significance": "文景之治说明帝国强盛并不只依赖军事扩张，财政修复与社会休养同样关键。",
+    "consequences": ["恢复汉初国力", "减少社会反弹风险", "为武帝时期扩张准备资源"],
+    "tags": ["治世", "经济", "政治稳定"],
+    "relatedPersonIds": ["emperor_wen", "emperor_jing"],
+    "relatedTerritoryIds": ["western_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "zhang_qian_west_-138",
+    "title": {
+      "primary": "Zhang Qian Opens Contacts with the Western Regions",
+      "localized": {
+        "en": "Zhang Qian Opens Contacts with the Western Regions",
+        "zh-Hans": "张骞通西域"
+      }
+    },
+    "displayTitle": "张骞通西域",
+    "start": {"year": -138, "datePrecision": "exact_year", "displayLabel": "公元前138年"},
+    "end": {"year": -138, "datePrecision": "exact_year", "displayLabel": "公元前138年"},
+    "territoryIds": ["western_han"],
+    "placeIds": ["western_regions"],
+    "lat": 38.0,
+    "lng": 94.0,
+    "summary": "张骞出使使汉朝对西域和中亚有了更直接的认识，成为丝路史的重要开端。",
+    "content": "这次远行加强了汉朝与西方世界的联通想象，也推动了对河西走廊与西域通道的战略经营。",
+    "significance": "它改变了帝国对西域的认知范围，是中国古代对外交通史和世界联系史的重要起点。",
+    "consequences": ["增强西域经营意愿", "推动丝路叙事形成", "拓展汉朝外交与战略视野"],
+    "tags": ["外交", "西域", "丝绸之路"],
+    "relatedPersonIds": ["zhang_qian", "emperor_wu"],
+    "relatedTerritoryIds": ["western_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "emperor_wu_expansion_-121",
+    "title": {
+      "primary": "Expansion under Emperor Wu",
+      "localized": {
+        "en": "Expansion under Emperor Wu",
+        "zh-Hans": "汉武帝时期的对外扩张"
+      }
+    },
+    "displayTitle": "汉武帝时期的对外扩张",
+    "start": {"year": -121, "datePrecision": "exact_year", "displayLabel": "公元前121年"},
+    "end": {"year": -121, "datePrecision": "exact_year", "displayLabel": "公元前121年"},
+    "territoryIds": ["western_han"],
+    "placeIds": ["hexi_corridor"],
+    "lat": 39.5,
+    "lng": 98.2,
+    "summary": "西汉在汉武帝时期持续向北和向西扩展，帝国空间与军事体系达到新阶段。",
+    "content": "西汉在这一阶段通过军事、郡县和交通建设把原本脆弱的边疆连接成更稳定的帝国边界体系。",
+    "significance": "这标志着汉帝国从内部整合迈向主动塑造周边地缘格局的阶段。",
+    "consequences": ["重塑北方军事均势", "加强河西走廊控制", "提高帝国财政与军政负担"],
+    "tags": ["扩张", "边疆", "军事"],
+    "relatedPersonIds": ["emperor_wu", "wei_qing", "huo_qubing"],
+    "relatedTerritoryIds": ["western_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "silk_road_growth_-119",
+    "title": {
+      "primary": "Growth of Silk Road Corridors",
+      "localized": {
+        "en": "Growth of Silk Road Corridors",
+        "zh-Hans": "丝路通道形成与拓展"
+      }
+    },
+    "displayTitle": "丝路通道形成与拓展",
+    "start": {"year": -119, "datePrecision": "exact_year", "displayLabel": "公元前119年"},
+    "end": {"year": -119, "datePrecision": "exact_year", "displayLabel": "公元前119年"},
+    "territoryIds": ["western_han"],
+    "placeIds": ["hexi_corridor", "western_regions"],
+    "lat": 40.0,
+    "lng": 96.5,
+    "summary": "随着帝国西向经营，连接中原与中亚的交通与贸易网络逐步成形。",
+    "content": "丝绸之路并非一夜形成，而是在边疆经营、外交出使、军事保障和商业需求共同推动下逐渐稳定下来。",
+    "significance": "它把帝国边疆史与全球交流史连接起来，是知识型产品中最适合跨文明叙事的节点之一。",
+    "consequences": ["促进中原与中亚交流", "提升河西与西域战略价值", "扩大汉帝国的世界想象"],
+    "tags": ["贸易", "交通", "丝绸之路"],
+    "relatedPersonIds": ["zhang_qian", "emperor_wu"],
+    "relatedTerritoryIds": ["western_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "wang_mang_ascend_8",
+    "title": {
+      "primary": "Wang Mang Founds the Xin Dynasty",
+      "localized": {
+        "en": "Wang Mang Founds the Xin Dynasty",
+        "zh-Hans": "王莽建立新朝"
+      }
+    },
+    "displayTitle": "王莽建立新朝",
+    "start": {"year": 8, "datePrecision": "exact_year", "displayLabel": "公元8年"},
+    "end": {"year": 8, "datePrecision": "exact_year", "displayLabel": "公元8年"},
+    "territoryIds": ["xin"],
+    "placeIds": ["chang_an"],
+    "lat": 34.2667,
+    "lng": 108.9,
+    "summary": "王莽代汉建新，试图以复古名义开启新的王朝秩序。",
+    "content": "这一政权更替既是宫廷权力运作的结果，也揭示了西汉末年政治与社会结构的深层失衡。",
+    "significance": "它说明帝国晚期的秩序危机足以使王朝更替以“内部篡夺”而非外部征服形式出现。",
+    "consequences": ["终结西汉统治", "为大规模改制打开空间", "暴露西汉末年合法性危机"],
+    "tags": ["篡汉", "建国", "政治转折"],
+    "relatedPersonIds": ["wang_mang"],
+    "relatedTerritoryIds": ["xin"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "xin_reforms_9",
+    "title": {
+      "primary": "Wang Mang's Reforms",
+      "localized": {
+        "en": "Wang Mang's Reforms",
+        "zh-Hans": "王莽改制"
+      }
+    },
+    "displayTitle": "王莽改制",
+    "start": {"year": 9, "datePrecision": "exact_year", "displayLabel": "公元9年"},
+    "end": {"year": 9, "datePrecision": "exact_year", "displayLabel": "公元9年"},
+    "territoryIds": ["xin"],
+    "placeIds": ["chang_an"],
+    "lat": 34.2667,
+    "lng": 108.9,
+    "summary": "新朝推行币制、土地与官制等多方面改革，但执行效果与社会承受度严重失衡。",
+    "content": "王莽改革常被视为理想主义制度设计与现实治理能力脱节的典型案例，是知识型产品中极具讨论价值的一段历史。",
+    "significance": "它是中国历史上最具代表性的制度实验之一，适合讨论改革设计与社会现实之间的张力。",
+    "consequences": ["加剧基层治理混乱", "削弱社会对新朝的信任", "成为后世改革成败讨论的案例"],
+    "tags": ["改革", "经济", "制度实验"],
+    "relatedPersonIds": ["wang_mang"],
+    "relatedTerritoryIds": ["xin"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "red_eyebrows_23",
+    "title": {
+      "primary": "Red Eyebrows Rebellion and the Fall of Xin",
+      "localized": {
+        "en": "Red Eyebrows Rebellion and the Fall of Xin",
+        "zh-Hans": "赤眉起义与新朝崩溃"
+      }
+    },
+    "displayTitle": "赤眉起义与新朝崩溃",
+    "start": {"year": 23, "datePrecision": "exact_year", "displayLabel": "公元23年"},
+    "end": {"year": 23, "datePrecision": "exact_year", "displayLabel": "公元23年"},
+    "territoryIds": ["xin"],
+    "placeIds": ["guanzhong_shandong"],
+    "lat": 35.2,
+    "lng": 111.5,
+    "summary": "社会危机、灾荒与政治失控共同导致新朝迅速走向崩溃。",
+    "content": "新朝灭亡说明，仅靠制度口号无法稳住帝国秩序，财政、地方统治与社会信任才是维系王朝的基础。",
+    "significance": "它凸显帝国统治崩溃往往是财政、灾荒、地方失控与政治合法性共同失效的结果。",
+    "consequences": ["新朝快速灭亡", "形成东汉重建条件", "加深后世对新莽失败的负面评价"],
+    "tags": ["起义", "危机", "灭亡"],
+    "relatedPersonIds": ["wang_mang"],
+    "relatedTerritoryIds": ["xin"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "eastern_han_founding_25",
+    "title": {
+      "primary": "Founding of the Eastern Han",
+      "localized": {
+        "en": "Founding of the Eastern Han",
+        "zh-Hans": "刘秀建立东汉"
+      }
+    },
+    "displayTitle": "刘秀建立东汉",
+    "start": {"year": 25, "datePrecision": "exact_year", "displayLabel": "公元25年"},
+    "end": {"year": 25, "datePrecision": "exact_year", "displayLabel": "公元25年"},
+    "territoryIds": ["eastern_han"],
+    "placeIds": ["luoyang"],
+    "lat": 34.62,
+    "lng": 112.45,
+    "summary": "刘秀重建汉室，以洛阳为中心恢复帝国秩序。",
+    "content": "东汉的建立既延续了汉王朝的政治合法性，也为帝国治理重心从长安向洛阳转移提供了新的空间格局。",
+    "significance": "东汉建立说明旧王朝的合法性资源仍可被重新动员，帝国可以在危机后完成秩序再造。",
+    "consequences": ["恢复汉室统治", "形成洛阳为中心的新空间格局", "为东汉前期稳定奠定基础"],
+    "tags": ["再统一", "建国", "洛阳"],
+    "relatedPersonIds": ["liu_xiu"],
+    "relatedTerritoryIds": ["eastern_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "paper_cai_lun_105",
+    "title": {
+      "primary": "Cai Lun Improves Papermaking",
+      "localized": {
+        "en": "Cai Lun Improves Papermaking",
+        "zh-Hans": "蔡伦改进造纸术"
+      }
+    },
+    "displayTitle": "蔡伦改进造纸术",
+    "start": {"year": 105, "datePrecision": "exact_year", "displayLabel": "公元105年"},
+    "end": {"year": 105, "datePrecision": "exact_year", "displayLabel": "公元105年"},
+    "territoryIds": ["eastern_han"],
+    "placeIds": ["luoyang"],
+    "lat": 34.62,
+    "lng": 112.45,
+    "summary": "蔡伦改进造纸技术，成为中国技术史与知识传播史上的关键节点。",
+    "content": "造纸术的改进与官僚行政、文化传播和知识积累密切相关，是知识型 App 中非常适合连接技术、制度与文明史的事件。",
+    "significance": "这是从政治史进入文明史的重要事件，能把帝国治理、文化传播与技术扩散连接起来。",
+    "consequences": ["降低知识载体成本", "提升文书与行政效率", "长期影响东亚文化传播方式"],
+    "tags": ["科技", "文化", "知识传播"],
+    "relatedPersonIds": ["cai_lun"],
+    "relatedTerritoryIds": ["eastern_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "yellow_turban_184",
+    "title": {
+      "primary": "Yellow Turban Rebellion",
+      "localized": {
+        "en": "Yellow Turban Rebellion",
+        "zh-Hans": "黄巾起义"
+      }
+    },
+    "displayTitle": "黄巾起义",
+    "start": {"year": 184, "datePrecision": "exact_year", "displayLabel": "公元184年"},
+    "end": {"year": 184, "datePrecision": "exact_year", "displayLabel": "公元184年"},
+    "territoryIds": ["eastern_han"],
+    "placeIds": ["jizhou_central_plain"],
+    "lat": 36.2,
+    "lng": 114.5,
+    "summary": "黄巾起义暴露了东汉晚期社会危机和国家统治能力的衰退。",
+    "content": "这场起义不仅是东汉晚期的重要转折，也为地方军阀坐大和三国时代的到来创造了条件。",
+    "significance": "它是东汉晚期中央秩序失灵的集中爆发点，也是从帝国一统走向分裂时代的重要转折。",
+    "consequences": ["削弱中央政府威信", "促进地方武装兴起", "加快三国前夜的政治重组"],
+    "tags": ["起义", "宗教", "王朝衰落"],
+    "relatedPersonIds": ["zhang_jue"],
+    "relatedTerritoryIds": ["eastern_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  },
+  {
+    "id": "han_end_220",
+    "title": {
+      "primary": "End of the Eastern Han",
+      "localized": {
+        "en": "End of the Eastern Han",
+        "zh-Hans": "东汉结束"
+      }
+    },
+    "displayTitle": "东汉结束",
+    "start": {"year": 220, "datePrecision": "exact_year", "displayLabel": "公元220年"},
+    "end": {"year": 220, "datePrecision": "exact_year", "displayLabel": "公元220年"},
+    "territoryIds": ["eastern_han"],
+    "placeIds": ["luoyang_xuchang"],
+    "lat": 34.62,
+    "lng": 112.45,
+    "summary": "东汉政治结构彻底崩解，汉帝国时代落幕，三国格局随之展开。",
+    "content": "这一节点非常适合作为产品第二阶段扩展到三国的衔接点，因为它连接了帝国终结、地方割据和新政治形态的出现。",
+    "significance": "它标志着汉帝国作为统一秩序象征的结束，也是下一阶段三国地图叙事的自然入口。",
+    "consequences": ["东汉正式终结", "地方割据格局制度化", "为魏蜀吴三方竞争创造前提"],
+    "tags": ["终结", "三国前夜", "政治转型"],
+    "relatedPersonIds": ["cao_cao", "emperor_xian"],
+    "relatedTerritoryIds": ["eastern_han"],
+    "sourceRefs": ["editorial_internal_v1"],
+    "confidence": "medium"
+  }
+]

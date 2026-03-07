@@ -1,0 +1,117 @@
+{
+    "title": "拉姆齐发现惰性气体",
+    "title_en": "Ramsay Discovers Noble Gases",
+    "year": 1894,
+    "personId": "william_ramsay",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "city": "伦敦",
+    "city_en": "London",
+    "country": "英国",
+    "country_en": "United Kingdom",
+    "field": [
+        "化学"
+    ],
+    "id": "ramsay_noble_gases_1894",
+    "summary": {
+        "text": "1894年，苏格兰化学家威廉·拉姆齐（William Ramsay）与物理学家瑞利勋爵合作，解决了一个谜题：为什么从空气中分离出的氮气比从化合物中分解出的氮气更重？他们怀疑空气中藏着一种未知的重气体。通过去除空气中的氧、氮和二氧化碳，他们分离出了一种不与任何物质反应的气体，命名为“氩”（Argon，意为“懒惰”）。随后，拉姆齐又发现了氦、氖、氪、氙，在元素周期表中整整增加了一族——“惰性气体”。",
+        "text_en": "In 1894, Scottish chemist William Ramsay teamed up with physicist Lord Rayleigh to solve a puzzle: why was nitrogen from air heavier than nitrogen from compounds? They suspected a hidden heavy gas in the air. By removing oxygen, nitrogen, and CO2, they isolated a gas that wouldn't react with anything, naming it 'Argon' (Greek for 'Lazy'). Ramsay went on to discover Helium, Neon, Krypton, and Xenon, adding an entire new group to the periodic table—the 'Noble Gases'.",
+        "key_points": [
+            "发现了氩气，并随后发现了整个“惰性气体”家族",
+            "解决了氮气密度差异的谜题",
+            "为元素周期表添加了全新的“第0族” (或18族)",
+            "因发现惰性气体获得诺贝尔奖"
+        ],
+        "key_points_en": [
+            "Discovered Argon and subsequently the entire 'Noble Gas' family",
+            "Solved the mystery of nitrogen density discrepancy",
+            "Added a whole new 'Group 0' (or Group 18) to the periodic table",
+            "Won the Nobel Prize for discovering noble gases"
+        ]
+    },
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sir_William_Ramsay.jpg"
+    },
+    "fun_facts": [
+        {
+            "icon": "🔴",
+            "text": "当拉姆齐把电流通入这些新气体时，它们发出了绚丽的光芒（霓虹灯）。氖气发红光，氩气发紫光。拉姆齐实际上发明了霓虹灯的原理。",
+            "text_en": "When Ramsay passed electricity through these new gases, they glowed with brilliant colors (neon lights). Neon glowed red, Argon glowed purple. Ramsay effectively discovered the principle of neon signs."
+        }
+    ],
+    "story": {
+        "text": "拉姆齐的发现填补了门捷列夫周期表中未曾预料到的空白。门捷列夫最初甚至不相信这些气体的存在，因为它们不与其他元素反应，“没有化学性质”。拉姆齐证明了有时候，“什么都不做”也是一种独特的性质。",
+        "text_en": "Ramsay's discovery filled a gap in Mendeleev's table that no one expected. Mendeleev initially didn't even believe these gases existed because they didn't react with anything and had 'no chemical properties'. Ramsay proved that sometimes, 'doing nothing' is a unique property itself."
+    },
+    "impact": {
+        "text": "拉姆齐的发现不仅填补了元素周期表，还增加了一整个全新的“族”（第18族）。这在当时是极具挑战性的，因为这些气体不发生化学反应，几乎“隐形”。这一发现完善了我们对物质分类的理解。",
+        "text_en": "Ramsay's discovery not only filled gaps in the periodic table but added an entire new 'Group' (Group 18). This was challenging because these gases do not react chemically, making them nearly 'invisible'. This discovery completed our understanding of matter classification.",
+        "stats": [
+            {
+                "number": "5",
+                "label": "发现的惰性气体数",
+                "label_en": "Noble Gases Discovered"
+            },
+            {
+                "number": "1904",
+                "label": "年诺贝尔奖",
+                "label_en": "Nobel Prize Year"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "cavendish_hydrogen_1766",
+                "contribution": "卡文迪许在一个世纪前就注意到了空气中有一小部分不反应的残留物",
+                "contribution_en": "Cavendish had noticed a small unreactive residue in air a century earlier"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "bohr_atom_1913",
+                "contribution": "惰性气体的稳定性后来成为了玻尔原子模型中“满壳层”理论的关键证据",
+                "contribution_en": "The stability of noble gases later became key evidence for the 'full shell' theory in Bohr's atomic model"
+            }
+        ],
+        "legacy_text": "从霓虹灯到深海潜水，再到保护焊接，这些“懒惰”的气体在现代生活中无处不在。",
+        "legacy_text_en": "From neon signs to deep-sea diving and welding protection, these 'lazy' gases are everywhere in modern life."
+    },
+    "related_concepts": [
+        "惰性气体",
+        "氩",
+        "氦",
+        "元素周期表",
+        "光谱分析"
+    ],
+    "related_concepts_en": [
+        "Noble Gases",
+        "Argon",
+        "Helium",
+        "Periodic Table",
+        "Spectroscopy"
+    ],
+    "quiz": {
+        "question": "为什么拉姆齐将第一种发现的惰性气体命名为“氩”（Argon）？",
+        "question_en": "Why did Ramsay name the first discovered noble gas 'Argon'?",
+        "options": [
+            "因为它发光",
+            "因为它很重",
+            "意为“懒惰”，因为它不反应",
+            "纪念他的家乡"
+        ],
+        "options_en": [
+            "Because it glows",
+            "Because it is heavy",
+            "Meaning 'Lazy', because it doesn't react",
+            "To honor his hometown"
+        ],
+        "answer": 2,
+        "explanation": "Argon来自希腊语“argos”，意为懒惰或不工作，指代其极不活泼的化学性质。",
+        "explanation_en": "Argon comes from the Greek 'argos', meaning lazy or idle, referring to its extremely unreactive chemical nature."
+    },
+    "simple_explanation": {
+        "text": "简单来说：1894年，苏格兰化学家威廉·拉姆齐（William Ramsay）与物理学家瑞利勋爵合作，解决了一...",
+        "text_en": "Simply put: In 1894, Scottish chemist William Ramsay teamed up..."
+    }
+}

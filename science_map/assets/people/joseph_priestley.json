@@ -1,0 +1,10 @@
+{
+  "name": "约瑟夫·普利斯特里",
+  "name_en": "Joseph Priestley",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Priestley.jpg",
+  "bio_short": "英国化学家、牧师，独立发现了氧气（称之为脱燃素空气），并发明了苏打水。",
+  "bio_short_en": "English chemist and minister who independently discovered oxygen (calling it dephlogisticated air) and invented soda water.",
+  "events": [
+    "priestley_oxygen_1774"
+  ]
+}

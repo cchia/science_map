@@ -1,0 +1,18 @@
+{
+  "id": "roman_empire_117_core_admin",
+  "snapshotId": "roman_empire_117",
+  "zoneType": "core_admin",
+  "geometryRef": "roman_empire_117_core_v1",
+  "label": "Core Administered Territory",
+  "description": "Directly governed heartland or strongly administered territory.",
+  "displayStyle": {
+    "fillColor": "#B04A2C",
+    "fillOpacity": 0.45,
+    "strokeColor": "#7A2E1B",
+    "strokeWidth": 2.0
+  },
+  "confidence": "high",
+  "sourceRefs": [
+    "ohm_world_polities"
+  ]
+}

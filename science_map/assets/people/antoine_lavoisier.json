@@ -1,0 +1,11 @@
+{
+  "name": "安托万·拉瓦锡",
+  "name_en": "Antoine Lavoisier",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/d/d8/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%292.jpg",
+  "bio_short": "法国贵族和化学家，被尊为“现代化学之父”。他发现了质量守恒定律（`lavoisier_conservation_of_mass_1789`），命名了氧气（`priestley_oxygen_1774`）和氢气，并出版了第一部现代化学教科书《化学基础论》（`lavoisier_elements_1789`），彻底推翻了燃素说。他在法国大革命中被送上断头台，成为科学史上最著名的悲剧之一。",
+  "bio_short_en": "A French nobleman and chemist, revered as the 'Father of Modern Chemistry'. He discovered the Law of Conservation of Mass (`lavoisier_conservation_of_mass_1789`), named oxygen (`priestley_oxygen_1774`) and hydrogen, and published the first modern chemistry textbook, 'Elementary Treatise on Chemistry' (`lavoisier_elements_1789`), dismantling the phlogiston theory. He was guillotined during the French Revolution, marking one of the greatest tragedies in scientific history.",
+  "events": [
+    "lavoisier_elements_1789"
+  ]
+}
+

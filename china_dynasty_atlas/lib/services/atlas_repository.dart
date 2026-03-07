@@ -1,0 +1,430 @@
+import 'dart:convert';
+
+import 'package:flutter/services.dart' show rootBundle;
+
+import '../models/atlas_models.dart';
+
+class AtlasRepository {
+  Future<AtlasData> load() async {
+    final scopeJson = await _loadJsonObject('assets/config/project_scope.json');
+    final scope = ProjectScope.fromJson(scopeJson);
+    return _loadFromGlobalSchema(scope);
+  }
+
+  Future<Map<String, dynamic>> _loadJsonObject(String assetPath) async {
+    final raw = await rootBundle.loadString(assetPath);
+    return Map<String, dynamic>.from(json.decode(raw) as Map);
+  }
+
+  Future<List<Map<String, dynamic>>> _loadJsonList(String assetPath) async {
+    final raw = await rootBundle.loadString(assetPath);
+    final decoded = json.decode(raw) as List<dynamic>;
+    return decoded
+        .map((item) => Map<String, dynamic>.from(item as Map))
+        .toList(growable: false);
+  }
+
+  Future<AtlasData> _loadFromGlobalSchema(ProjectScope scope) async {
+    final territoriesJson = await _loadJsonList(
+      'assets/global/territories.json',
+    );
+    final snapshotsJson = await _loadJsonList(
+      'assets/global/territory_snapshots.json',
+    );
+    final eventsJson = await _loadJsonList('assets/global/events.json');
+    final peopleJson = await _loadJsonList('assets/global/people.json');
+    final placesJson = await _loadJsonList('assets/global/places.json');
+    final sourcesJson = await _loadJsonList('assets/global/sources.json');
+    final geometryManifestJson = await _loadJsonList(
+      'assets/global/geometry_manifest.json',
+    );
+    final places = placesJson.map(_placeFromGlobal).toList(growable: false);
+    final placesById = {for (final place in places) place.id: place};
+    final sources = sourcesJson.map(_sourceFromGlobal).toList(growable: false);
+    final sourcesById = {for (final source in sources) source.id: source};
+    final geometryAssets = geometryManifestJson
+        .map(_geometryAssetFromGlobal)
+        .toList(growable: false);
+    final geometryById = {
+      for (final geometry in geometryAssets) geometry.id: geometry,
+    };
+
+    final territories = territoriesJson
+        .map((json) => _territoryFromGlobal(json, placesById))
+        .toList(growable: false);
+    final snapshots = snapshotsJson
+        .map((json) => _snapshotFromGlobal(json, sourcesById))
+        .toList(growable: false);
+    final events = eventsJson
+        .map((json) => _eventFromGlobal(json, placesById, sourcesById))
+        .toList(growable: false);
+    final people = peopleJson
+        .map((json) => _personFromGlobal(json, sourcesById))
+        .toList(growable: false);
+
+    final polygonsBySnapshotId = <String, List<AtlasPolygonFeature>>{};
+    final polygonsByGeometryId = <String, List<AtlasPolygonFeature>>{};
+    for (final snapshot in snapshots) {
+      final polygons = <AtlasPolygonFeature>[];
+      for (final geometryRef in snapshot.geometryRefs) {
+        final geometry = geometryById[geometryRef];
+        if (geometry == null) continue;
+        final loaded = await _loadGeoJsonByPath(
+          snapshot.id,
+          geometry.id,
+          geometry.assetPath,
+        );
+        polygons.addAll(loaded);
+        polygonsByGeometryId[geometry.id] = loaded;
+      }
+      polygonsBySnapshotId[snapshot.id] = polygons;
+    }
+
+    return AtlasData(
+      scope: scope,
+      territories: territories,
+      snapshots: snapshots,
+      events: events,
+      people: people,
+      polygonsBySnapshotId: polygonsBySnapshotId,
+      polygonsByGeometryId: polygonsByGeometryId,
+      places: places,
+      sources: sources,
+      geometryAssets: geometryAssets,
+      controlZones: const [],
+    );
+  }
+
+  Territory _territoryFromGlobal(
+    Map<String, dynamic> json,
+    Map<String, PlaceRecord> placesById,
+  ) {
+    final names = Map<String, dynamic>.from(json['names'] as Map);
+    final localizedNames = Map<String, dynamic>.from(
+      names['localizedNames'] as Map,
+    );
+    final capitalPlaceIds = List<String>.from(
+      json['capitalPlaceIds'] as List<dynamic>? ?? const [],
+    );
+    final capitalName = capitalPlaceIds.isEmpty
+        ? ''
+        : _localizedPlaceName(placesById[capitalPlaceIds.first]);
+
+    return Territory(
+      id: json['id'] as String,
+      nameZh:
+          (localizedNames['zh-Hans'] as String?) ??
+          names['primaryName'] as String,
+      nameEn:
+          (localizedNames['en'] as String?) ?? names['primaryName'] as String,
+      type: json['territoryType'] as String,
+      summary: json['summary'] as String? ?? '',
+      startYear: _dateYear(json['start'] as Map<String, dynamic>),
+      endYear: _dateYear(json['end'] as Map<String, dynamic>),
+      capital: capitalName,
+      color: _territoryColor(json['id'] as String),
+      predecessors: List<String>.from(
+        json['predecessorIds'] as List<dynamic>? ?? const [],
+      ),
+      successors: List<String>.from(
+        json['successorIds'] as List<dynamic>? ?? const [],
+      ),
+      aliases: List<String>.from(
+        names['aliases'] as List<dynamic>? ?? const [],
+      ),
+      summaryLong: json['summaryLong'] as String? ?? '',
+      governanceHighlights: List<String>.from(
+        json['governanceHighlights'] as List<dynamic>? ?? const [],
+      ),
+      legacy: List<String>.from(json['legacy'] as List<dynamic>? ?? const []),
+      sourceRefs: List<String>.from(
+        json['sourceRefs'] as List<dynamic>? ?? const [],
+      ),
+      capitalPlaceIds: capitalPlaceIds,
+    );
+  }
+
+  TerritorySnapshot _snapshotFromGlobal(
+    Map<String, dynamic> json,
+    Map<String, SourceRecord> sourcesById,
+  ) {
+    final accuracy = Map<String, dynamic>.from(json['accuracy'] as Map);
+    final sourceRefs = List<String>.from(
+      json['sourceRefs'] as List<dynamic>? ?? const [],
+    );
+    final sourceNotes = [
+      for (final sourceRef in sourceRefs)
+        if (sourcesById[sourceRef] != null) sourcesById[sourceRef]!.sourceName,
+      ...List<String>.from(json['disputeNotes'] as List<dynamic>? ?? const []),
+    ];
+
+    return TerritorySnapshot(
+      id: json['id'] as String,
+      territoryId: json['territoryId'] as String,
+      year: json['displayYear'] as int,
+      geoJsonAsset: '',
+      focus: SnapshotFocus.fromJson(
+        Map<String, dynamic>.from(json['mapFocus'] as Map),
+      ),
+      headline: json['headline'] as String? ?? '',
+      territoryNote: json['territoryNote'] as String? ?? '',
+      highlightedEventIds: List<String>.from(
+        json['highlightedEventIds'] as List<dynamic>? ?? const [],
+      ),
+      boundaryHighlights: List<String>.from(
+        json['boundaryHighlights'] as List<dynamic>? ?? const [],
+      ),
+      accuracyNote: accuracy['note'] as String? ?? '',
+      sourceNotes: sourceNotes,
+      sourceRefs: sourceRefs,
+      geometryRefs: List<String>.from(
+        json['geometryRefs'] as List<dynamic>? ?? const [],
+      ),
+      controlZoneIds: List<String>.from(
+        json['controlZones'] as List<dynamic>? ?? const [],
+      ),
+      reviewStatus: json['reviewStatus'] as String? ?? '',
+      accuracyLevel: accuracy['level'] as String? ?? '',
+    );
+  }
+
+  HistoricalEvent _eventFromGlobal(
+    Map<String, dynamic> json,
+    Map<String, PlaceRecord> placesById,
+    Map<String, SourceRecord> sourcesById,
+  ) {
+    final title = Map<String, dynamic>.from(json['title'] as Map);
+    final localizedTitle = Map<String, dynamic>.from(title['localized'] as Map);
+    final placeIds = List<String>.from(
+      json['placeIds'] as List<dynamic>? ?? const [],
+    );
+    final locationName = placeIds.isEmpty
+        ? ''
+        : _localizedPlaceName(placesById[placeIds.first]);
+    final sourceRefs = List<String>.from(
+      json['sourceRefs'] as List<dynamic>? ?? const [],
+    );
+    final sourceNotes = [
+      for (final sourceRef in sourceRefs)
+        if (sourcesById[sourceRef] != null) sourcesById[sourceRef]!.sourceName,
+    ];
+
+    return HistoricalEvent(
+      id: json['id'] as String,
+      titleZh:
+          (localizedTitle['zh-Hans'] as String?) ??
+          json['displayTitle'] as String,
+      titleEn: (localizedTitle['en'] as String?) ?? title['primary'] as String,
+      year: _dateYear(json['start'] as Map<String, dynamic>),
+      territoryIds: List<String>.from(
+        json['territoryIds'] as List<dynamic>? ?? const [],
+      ),
+      locationName: locationName,
+      lat: (json['lat'] as num).toDouble(),
+      lng: (json['lng'] as num).toDouble(),
+      summary: json['summary'] as String? ?? '',
+      content: json['content'] as String? ?? '',
+      tags: List<String>.from(json['tags'] as List<dynamic>? ?? const []),
+      relatedPeople: List<String>.from(
+        json['relatedPersonIds'] as List<dynamic>? ?? const [],
+      ),
+      significance: json['significance'] as String? ?? '',
+      consequences: List<String>.from(
+        json['consequences'] as List<dynamic>? ?? const [],
+      ),
+      sourceNotes: sourceNotes,
+      sourceRefs: sourceRefs,
+      placeIds: placeIds,
+      confidence: json['confidence'] as String? ?? '',
+    );
+  }
+
+  HistoricalPerson _personFromGlobal(
+    Map<String, dynamic> json,
+    Map<String, SourceRecord> sourcesById,
+  ) {
+    final names = Map<String, dynamic>.from(json['names'] as Map);
+    final localizedNames = Map<String, dynamic>.from(
+      names['localizedNames'] as Map,
+    );
+    final roles = List<String>.from(
+      json['roles'] as List<dynamic>? ?? const [],
+    );
+    final sourceRefs = List<String>.from(
+      json['sourceRefs'] as List<dynamic>? ?? const [],
+    );
+    final sourceNotes = [
+      for (final sourceRef in sourceRefs)
+        if (sourcesById[sourceRef] != null) sourcesById[sourceRef]!.sourceName,
+    ];
+
+    return HistoricalPerson(
+      id: json['id'] as String,
+      nameZh:
+          (localizedNames['zh-Hans'] as String?) ??
+          names['primaryName'] as String,
+      nameEn:
+          (localizedNames['en'] as String?) ?? names['primaryName'] as String,
+      role: roles.isEmpty ? '' : roles.first,
+      bioShort: json['bioShort'] as String? ?? '',
+      activeYears: json['activeRange'] as String? ?? '',
+      relatedTerritoryIds: List<String>.from(
+        json['relatedTerritoryIds'] as List<dynamic>? ?? const [],
+      ),
+      relatedEventIds: List<String>.from(
+        json['relatedEventIds'] as List<dynamic>? ?? const [],
+      ),
+      contribution: json['contribution'] as String? ?? '',
+      sourceNotes: sourceNotes,
+      sourceRefs: sourceRefs,
+      birthPlaceId: json['birthPlaceId'] as String? ?? '',
+      deathPlaceId: json['deathPlaceId'] as String? ?? '',
+    );
+  }
+
+  PlaceRecord _placeFromGlobal(Map<String, dynamic> json) {
+    final names = Map<String, dynamic>.from(json['names'] as Map);
+    final localizedNames = Map<String, dynamic>.from(
+      names['localizedNames'] as Map,
+    );
+
+    return PlaceRecord(
+      id: json['id'] as String,
+      primaryName: names['primaryName'] as String? ?? '',
+      nameZh:
+          (localizedNames['zh-Hans'] as String?) ??
+          (names['primaryName'] as String? ?? ''),
+      nameEn:
+          (localizedNames['en'] as String?) ??
+          (names['primaryName'] as String? ?? ''),
+      placeType: json['placeType'] as String? ?? '',
+      modernCountryCode: json['modernCountryCode'] as String? ?? '',
+      lat: (json['lat'] as num?)?.toDouble() ?? 0,
+      lng: (json['lng'] as num?)?.toDouble() ?? 0,
+      parentPlaceId: json['parentPlaceId'] as String? ?? '',
+      aliases: List<String>.from(json['aliases'] as List<dynamic>? ?? const []),
+      sourceRefs: List<String>.from(
+        json['sourceRefs'] as List<dynamic>? ?? const [],
+      ),
+    );
+  }
+
+  SourceRecord _sourceFromGlobal(Map<String, dynamic> json) {
+    return SourceRecord(
+      id: json['id'] as String,
+      sourceName: json['sourceName'] as String? ?? '',
+      sourceType: json['sourceType'] as String? ?? '',
+      sourceUrl: json['sourceUrl'] as String? ?? '',
+      licenseName: json['licenseName'] as String? ?? '',
+      licenseUrl: json['licenseUrl'] as String? ?? '',
+      commercialUseAllowed: json['commercialUseAllowed'] as bool? ?? false,
+      redistributionAllowed: json['redistributionAllowed'] as bool? ?? false,
+      modificationAllowed: json['modificationAllowed'] as bool? ?? false,
+      attributionRequired: json['attributionRequired'] as bool? ?? false,
+      attributionText: json['attributionText'] as String? ?? '',
+      approvalStatus: json['approvalStatus'] as String? ?? '',
+      reviewDate: json['reviewDate'] as String? ?? '',
+      reviewOwner: json['reviewOwner'] as String? ?? '',
+      notes: json['notes'] as String? ?? '',
+    );
+  }
+
+  GeometryAssetRecord _geometryAssetFromGlobal(Map<String, dynamic> json) {
+    return GeometryAssetRecord(
+      id: json['id'] as String,
+      assetPath: json['assetPath'] as String? ?? '',
+      geometryType: json['geometryType'] as String? ?? '',
+      regionScope: json['regionScope'] as String? ?? '',
+      simplificationLevel: json['simplificationLevel'] as String? ?? '',
+      licenseSourceId: json['licenseSourceId'] as String? ?? '',
+      derivedFromSourceIds: List<String>.from(
+        json['derivedFromSourceIds'] as List<dynamic>? ?? const [],
+      ),
+      projection: json['projection'] as String? ?? '',
+      revision: json['revision'] as String? ?? '',
+      editorNotes: json['editorNotes'] as String? ?? '',
+    );
+  }
+
+  int _dateYear(Map<String, dynamic> date) =>
+      (date['year'] as num?)?.toInt() ?? 0;
+
+  String _localizedPlaceName(PlaceRecord? place) {
+    if (place == null) return '';
+    if (place.nameZh.isNotEmpty) return place.nameZh;
+    if (place.nameEn.isNotEmpty) return place.nameEn;
+    return place.primaryName;
+  }
+
+  String _territoryColor(String territoryId) {
+    switch (territoryId) {
+      case 'qin':
+        return '#B85C38';
+      case 'western_han':
+        return '#D9A441';
+      case 'xin':
+        return '#8F6F9C';
+      case 'eastern_han':
+        return '#4E7A52';
+      default:
+        return '#607D8B';
+    }
+  }
+
+  Future<List<AtlasPolygonFeature>> _loadGeoJsonByPath(
+    String snapshotId,
+    String geometryId,
+    String assetPath,
+  ) async {
+    final raw = await rootBundle.loadString(assetPath);
+    final decoded = Map<String, dynamic>.from(json.decode(raw) as Map);
+    final features = (decoded['features'] as List<dynamic>)
+        .map((feature) => Map<String, dynamic>.from(feature as Map))
+        .toList(growable: false);
+
+    final polygons = <AtlasPolygonFeature>[];
+    for (final feature in features) {
+      final geometry = Map<String, dynamic>.from(feature['geometry'] as Map);
+      final type = geometry['type'] as String;
+      final coordinates = geometry['coordinates'] as List<dynamic>;
+
+      if (type == 'Polygon') {
+        polygons.add(
+          AtlasPolygonFeature(
+            snapshotId: snapshotId,
+            geometryId: geometryId,
+            rings: _parsePolygonCoordinates(coordinates),
+          ),
+        );
+      } else if (type == 'MultiPolygon') {
+        for (final polygon in coordinates) {
+          polygons.add(
+            AtlasPolygonFeature(
+              snapshotId: snapshotId,
+              geometryId: geometryId,
+              rings: _parsePolygonCoordinates(polygon as List<dynamic>),
+            ),
+          );
+        }
+      }
+    }
+
+    return polygons;
+  }
+
+  List<List<List<double>>> _parsePolygonCoordinates(List<dynamic> polygon) {
+    return polygon
+        .map(
+          (ring) => (ring as List<dynamic>)
+              .map((point) {
+                final coords = point as List<dynamic>;
+                return <double>[
+                  (coords[0] as num).toDouble(),
+                  (coords[1] as num).toDouble(),
+                ];
+              })
+              .toList(growable: false),
+        )
+        .toList(growable: false);
+  }
+}

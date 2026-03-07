@@ -1,0 +1,24 @@
+{
+  "projectId": "china_dynasty_atlas",
+  "titleZh": "中国王朝图谱",
+  "titleEn": "China Dynasty Atlas",
+  "themeId": "qin_han_line",
+  "themeLabelZh": "秦汉帝国线",
+  "themeLabelEn": "Qin to Han",
+  "mvpFocus": "从秦统一到东汉结束的帝国演化",
+  "coreTerritoryIds": [
+    "qin",
+    "western_han",
+    "xin",
+    "eastern_han"
+  ],
+  "timelineYears": [
+    -221,
+    -141,
+    8,
+    25
+  ],
+  "recommendedExpansionYears": [
+    220
+  ]
+}

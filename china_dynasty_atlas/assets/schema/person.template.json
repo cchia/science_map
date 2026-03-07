@@ -1,0 +1,42 @@
+{
+  "id": "trajan",
+  "names": {
+    "primaryName": "Trajan",
+    "localizedNames": {
+      "en": "Trajan",
+      "zh-Hans": "图拉真"
+    },
+    "aliases": [
+      "Marcus Ulpius Traianus"
+    ]
+  },
+  "birth": {
+    "year": 53,
+    "datePrecision": "exact_year",
+    "displayLabel": "53 CE"
+  },
+  "death": {
+    "year": 117,
+    "datePrecision": "exact_year",
+    "displayLabel": "117 CE"
+  },
+  "activeRange": "98 CE - 117 CE",
+  "roles": [
+    "emperor"
+  ],
+  "bioShort": "Short card biography.",
+  "bioLong": "Longer biography with context.",
+  "contribution": "Why this person matters historically.",
+  "relatedTerritoryIds": [
+    "roman_empire"
+  ],
+  "relatedEventIds": [
+    "trajan_maximum_extent_117"
+  ],
+  "birthPlaceId": "italica",
+  "deathPlaceId": "selinus_cilicia",
+  "sourceRefs": [
+    "wikidata_entities",
+    "editorial_internal_v1"
+  ]
+}

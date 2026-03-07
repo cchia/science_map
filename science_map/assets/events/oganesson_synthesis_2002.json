@@ -1,0 +1,110 @@
+{
+    "title": "合成第118号元素 Oganesson",
+    "title_en": "Synthesis of Element 118 Oganesson",
+    "year": 2002,
+    "personId": "yuri_oganessian",
+    "lat": 56.7417,
+    "lng": 37.1906,
+    "city": "杜布纳",
+    "city_en": "Dubna",
+    "country": "俄罗斯",
+    "country_en": "Russia",
+    "field": [
+        "核物理",
+        "化学"
+    ],
+    "id": "oganesson_synthesis_2002",
+    "summary": {
+        "text": "2002年，尤里·奥加涅相（Yuri Oganessian）领导的俄罗斯-美国联合团队，在杜布纳联合核研究所，通过用钙-48离子轰击锎-249靶，成功合成了第118号元素。这是目前已知原子序数最大的元素，标志着人类终于填满了元素周期表的第七周期。2016年，该元素被正式命名为“Oganesson (Og)”，以致敬奥加涅相。",
+        "text_en": "In 2002, a joint Russian-American team led by Yuri Oganessian at the Joint Institute for Nuclear Research in Dubna successfully synthesized element 118 by bombarding a Californium-249 target with Calcium-48 ions. It is the heaviest known element, marking the completion of the 7th row of the periodic table. In 2016, it was officially named 'Oganesson (Og)' in honor of Oganessian.",
+        "key_points": [
+            "合成了目前最重的元素 (Z=118)",
+            "填满了元素周期表的第七周期",
+            "以尤里·奥加涅相命名 (Og)",
+            "极其不稳定，半衰期不到一毫秒"
+        ],
+        "key_points_en": [
+            "Synthesized the heaviest known element (Z=118)",
+            "Completed the 7th row of the periodic table",
+            "Named after Yuri Oganessian (Og)",
+            "Extremely unstable, half-life less than a millisecond"
+        ]
+    },
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Yuri_Oganessian.jpg"
+    },
+    "fun_facts": [
+        {
+            "icon": "⚛️",
+            "text": "虽然Og位于惰性气体族，但理论预测由于相对论效应，它可能在室温下是一种固体，甚至可能非常活泼！不过它存在的时间太短，我们还没法验证。",
+            "text_en": "Although Og is in the noble gas group, theory predicts that due to relativistic effects, it might be a solid at room temperature and maybe even reactive! But it vanishes too fast for us to check yet."
+        }
+    ],
+    "story": {
+        "text": "奥加涅相被认为是“岛屿寻找者”。物理学家预言在超重元素的不稳定海洋中，存在一个“稳定岛”，在那里的超重元素可能存在更长时间。奥加涅相毕生致力于驾驶粒子加速器这艘船，试图通过危险的核海洋，抵达那个神话般的稳定岛。",
+        "text_en": "Oganessian is considered an 'Island Hunter'. Physicists predict an 'Island of Stability' in the sea of unstable superheavy elements, where elements might exist longer. Oganessian has spent his life steering the ship of particle accelerators, trying to cross the dangerous nuclear ocean to reach that mythical island."
+    },
+    "impact": {
+        "text": "Oganesson的合成标志着人类目前在元素探索上的最高峰。它填满了周期表的第7周期，验证了核物理关于“稳定岛”的某些预测，同时也展示了在极端相对论效应下，化学规律可能失效。",
+        "text_en": "The synthesis of Oganesson marks the current pinnacle of human element exploration. It completed the 7th period of the table, tested predictions about the 'Island of Stability', and showed that under extreme relativistic effects, chemical laws might break down.",
+        "stats": [
+            {
+                "number": "118",
+                "label": "号元素",
+                "label_en": "Element No. 118"
+            },
+            {
+                "number": "0.89",
+                "label": "毫秒 (半衰期)",
+                "label_en": "ms (Half-life)"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "seaborg_plutonium_1940",
+                "contribution": "延续了人工合成超重元素的科学传统",
+                "contribution_en": "Continued the scientific tradition of synthesizing artificial superheavy elements"
+            }
+        ],
+        "influenced": [],
+        "legacy_text": "我们不仅发现了自然界有的，还创造了自然界没有的。",
+        "legacy_text_en": "We not only discovered what exists in nature but created what nature did not."
+    },
+    "related_concepts": [
+        "超重元素",
+        "稳定岛",
+        "粒子加速器",
+        "相对论效应"
+    ],
+    "related_concepts_en": [
+        "Superheavy Elements",
+        "Island of Stability",
+        "Particle Accelerator",
+        "Relativistic Effects"
+    ],
+    "quiz": {
+        "question": "Oganesson (Og) 是目前周期表中哪一类元素的最后一个？",
+        "question_en": "Oganesson (Og) is currently the last member of which group in the periodic table?",
+        "options": [
+            "碱金属",
+            "卤素",
+            "惰性气体",
+            "稀土金属"
+        ],
+        "options_en": [
+            "Alkali Metals",
+            "Halogens",
+            "Noble Gases",
+            "Rare Earth Metals"
+        ],
+        "answer": 2,
+        "explanation": "它位于第18族（惰性气体），尽管它的化学性质可能因为相对论效应而不再“惰性”。",
+        "explanation_en": "It is located in Group 18 (Noble Gases), although its chemical properties might no longer be 'noble' due to relativistic effects."
+    },
+    "simple_explanation": {
+        "text": "简单来说：2002年，尤里·奥加涅相（Yuri Oganessian）领导的俄罗斯-美国联合团队，在杜布纳联合...",
+        "text_en": "Simply put: In 2002, a joint Russian-American team led by Yuri..."
+    }
+}

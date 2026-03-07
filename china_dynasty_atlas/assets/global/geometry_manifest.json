@@ -1,0 +1,70 @@
+[
+  {
+    "id": "qin_-221_main_v5",
+    "assetPath": "assets/geojson/qin_-221_main_v5.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "geometry_editorial_qin_221_v5",
+    "derivedFromSourceIds": [
+      "geometry_editorial_qin_221_v5",
+      "wikimedia_commons_qin_reference_only"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [98.2, 25.4, 121.0, 42.6],
+    "revision": "v5",
+    "editorNotes": "Focused v5 tracing sample for Qin in 221 BCE, refining the Bohai turn, east coast, and southern closure."
+  },
+  {
+    "id": "western_han_-141_main_v5",
+    "assetPath": "assets/geojson/western_han_-141_main_v5.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "geometry_editorial_western_han_141_v5",
+    "derivedFromSourceIds": [
+      "geometry_editorial_western_han_141_v5",
+      "wikimedia_commons_han_2ce_public_domain",
+      "wikimedia_commons_mawangdui_silk_map",
+      "wikimedia_commons_han_commanderies_reference_only"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [93.4, 24.8, 123.8, 44.2],
+    "revision": "v5",
+    "editorNotes": "Focused v5 tracing sample for Western Han at 141 BCE, refining the Shandong peninsula, Bohai turn, east coast, and southern closure."
+  },
+  {
+    "id": "xin_8_main_v5",
+    "assetPath": "assets/geojson/xin_8_main_v5.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "geometry_editorial_xin_8_v5",
+    "derivedFromSourceIds": [
+      "geometry_editorial_xin_8_v5",
+      "wikimedia_commons_han_2ce_public_domain",
+      "wikimedia_commons_xin_reference_only"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [97.2, 24.8, 121.4, 43.1],
+    "revision": "v5",
+    "editorNotes": "Focused v5 tracing sample for Xin in 8 CE, preserving the inherited Han frame while clarifying its middle position between Western Han and Eastern Han."
+  },
+  {
+    "id": "eastern_han_25_main_v5",
+    "assetPath": "assets/geojson/eastern_han_25_main_v5.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "geometry_editorial_eastern_han_25_v5",
+    "derivedFromSourceIds": [
+      "geometry_editorial_eastern_han_25_v5",
+      "wikimedia_commons_han_2ce_public_domain",
+      "wikimedia_commons_eastern_han_reference_only"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [98.3, 24.7, 121.0, 42.5],
+    "revision": "v5",
+    "editorNotes": "Focused v5 tracing sample for Eastern Han in 25 CE, with a clearer west and south contraction to distinguish it from Xin."
+  }
+]

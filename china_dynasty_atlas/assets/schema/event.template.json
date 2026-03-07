@@ -1,0 +1,52 @@
+{
+  "id": "trajan_maximum_extent_117",
+  "title": {
+    "primary": "Roman Empire at Maximum Extent",
+    "localized": {
+      "en": "Roman Empire at Maximum Extent",
+      "zh-Hans": "罗马帝国疆域达到最大"
+    }
+  },
+  "displayTitle": "Roman Empire at Maximum Extent",
+  "start": {
+    "year": 117,
+    "datePrecision": "exact_year",
+    "displayLabel": "117 CE"
+  },
+  "end": {
+    "year": 117,
+    "datePrecision": "exact_year",
+    "displayLabel": "117 CE"
+  },
+  "territoryIds": [
+    "roman_empire"
+  ],
+  "placeIds": [
+    "rome",
+    "antioch"
+  ],
+  "lat": 41.9,
+  "lng": 12.5,
+  "summary": "Short summary for cards and search results.",
+  "content": "Full narrative content for the event.",
+  "significance": "Why this event matters in world history.",
+  "consequences": [
+    "Illustrates imperial peak reach"
+  ],
+  "tags": [
+    "expansion",
+    "empire",
+    "mediterranean"
+  ],
+  "relatedPersonIds": [
+    "trajan"
+  ],
+  "relatedTerritoryIds": [
+    "roman_empire"
+  ],
+  "sourceRefs": [
+    "wikidata_entities",
+    "editorial_internal_v1"
+  ],
+  "confidence": "medium"
+}
