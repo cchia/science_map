@@ -1,0 +1,17 @@
+{
+  "id": "ohm_world_polities",
+  "sourceName": "OpenHistoricalMap",
+  "sourceType": "historical_boundary",
+  "sourceUrl": "https://www.openhistoricalmap.org/",
+  "licenseName": "CC0 with per-feature exceptions",
+  "licenseUrl": "https://www.openhistoricalmap.org/copyright",
+  "commercialUseAllowed": true,
+  "redistributionAllowed": true,
+  "modificationAllowed": true,
+  "attributionRequired": false,
+  "attributionText": "Map data courtesy of OpenHistoricalMap, in the public domain unless otherwise noted.",
+  "approvalStatus": "pending_review",
+  "reviewDate": "",
+  "reviewOwner": "",
+  "notes": "Check feature-level tags if importing a significant subset."
+}

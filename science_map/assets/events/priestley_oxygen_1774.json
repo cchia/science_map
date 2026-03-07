@@ -1,0 +1,168 @@
+{
+  "id": "priestley_oxygen_1774",
+  "personId": "joseph_priestley",
+  "title": "普利斯特里发现氧气",
+  "title_en": "Priestley Discovers Oxygen",
+  "year": 1774,
+  "lat": 51.349,
+  "lng": -2.001,
+  "city": "威尔特郡 (鲍伍德庄园)",
+  "city_en": "Wiltshire (Bowood House)",
+  "country": "英国",
+  "country_en": "United Kingdom",
+  "storyline_id": ["element_story"],
+  "field": ["化学"],
+  "field_en": ["Chemistry"],
+
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Liquid_oxygen_in_a_beaker_4.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=v0CSjtXEgoU",
+      "title": "氧气如何被发现",
+      "title_en": "Discovery of Oxygen",
+      "duration": "2:41"
+    }
+  },
+
+  "summary": {
+    "text": "1774年8月1日，英国牧师兼化学家约瑟夫·普利斯特里（Joseph Priestley）在威尔特郡的实验室里，利用一个巨大的凸透镜（聚光镜）将阳光聚焦在红色的氧化汞上。他惊讶地发现，受热的氧化汞分解产生了一种无色的气体。当他将一支燃烧的蜡烛放入这种气体中时，蜡烛不仅没有熄灭，反而以一种极度耀眼的光芒剧烈燃烧。这是人类历史上第一次成功分离并鉴别出高纯度的“氧气”。作为一个坚定的“燃素说”信徒，他将这种气体命名为“脱燃素空气”（Dephlogisticated Air）。虽然他误解了其理论本质，但他的实验为拉瓦锡推翻燃素说、建立现代化学燃烧理论提供了关键证据。",
+    "text_en": "On August 1, 1774, English minister and chemist Joseph Priestley, in his laboratory in Wiltshire, used a giant convex lens (burning lens) to focus sunlight onto red mercury oxide. He was surprised to find that the heated mercury oxide decomposed to produce a colorless gas. When he introduced a burning candle into this gas, it did not extinguish but burned with an intensely brilliant flame. This was the first time in history that high-purity 'Oxygen' was successfully isolated and characterized. As a staunch believer in the 'phlogiston theory', he named this gas 'Dephlogisticated Air'. Although he misunderstood its theoretical nature, his experiment provided crucial evidence for Lavoisier to overthrow the phlogiston theory and establish the modern theory of combustion.",
+    "key_points": [
+      "首次分离并鉴别出高纯度的氧气",
+      "发现该气体能极大地促进燃烧",
+      "发现该气体能显著延长动物的存活时间",
+      "将其命名为“脱燃素空气”",
+      "为拉瓦锡的“氧化理论”提供了关键实验支持"
+    ],
+    "key_points_en": [
+      "First to isolate and characterize high-purity oxygen",
+      "Discovered the gas greatly supports combustion",
+      "Discovered the gas significantly extends animal survival",
+      "Named it 'Dephlogisticated Air'",
+      "Provided key experimental support for Lavoisier's 'Oxidation Theory'"
+    ]
+  },
+
+  "story": {
+    "text": "普利斯特里的好奇心不仅限于燃烧。他把一只老鼠放进了充满这种气体的玻璃罩里，原本以为老鼠会像在其他“坏空气”里一样死掉，结果老鼠活得比在普通空气里还要久，而且蹦蹦跳跳，异常活跃。普利斯特里深受鼓舞，决定亲自尝试吸入这种气体。他描述道：“通过肺部的感觉并不比普通空气明显，但在一段时间内，我的胸部感到特别轻快和舒畅。”他甚至极具前瞻性地预言：“这种纯净的空气，将来有一天可能会成为一种奢侈品。”两百年后的今天，他在氧吧和医用氧气中的预言成真了。",
+    "text_en": "Priestley's curiosity wasn't limited to combustion. He put a mouse into a glass jar filled with this gas, expecting it to die as it would in other 'bad airs'. Instead, the mouse lived longer than in common air and was bouncing around, unusually active. Encouraged, Priestley decided to inhale the gas himself. He wrote: 'The feeling of it to my lungs was not sensibly different from that of common air; but I fancied that my breast felt peculiarly light and easy for some time afterwards.' He even prophetically predicted: 'This pure air may become a luxury in time.' Two hundred years later, his prediction came true in oxygen bars and medical oxygen.",
+    "diagram": "assets/events/oxygen.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "🥤",
+      "text": "除了发现氧气，普利斯特里还是“汽水之父”。他发明了将二氧化碳注入水中的方法，创造了世界上第一瓶苏打水，并因此获得了科普利奖章。没有他，就没有今天的可乐。",
+      "text_en": "Besides discovering oxygen, Priestley is the 'Father of Soda Water'. He invented a method to infuse water with carbon dioxide, creating the world's first carbonated water, for which he won the Copley Medal. Without him, there would be no Coke today."
+    },
+    {
+      "icon": "橡皮擦",
+      "text": "英文单词 'Rubber'（橡胶）也是他发明的。因为他发现这种从南美进口的弹性树胶可以很好地擦掉（rub out）铅笔字迹，于是就叫它 Rubber。",
+      "text_en": "He also coined the word 'Rubber'. He found that this elastic gum imported from South America was excellent for rubbing out pencil marks, so he simply called it 'Rubber'."
+    },
+    {
+      "icon": "🔥",
+      "text": "由于他支持法国大革命和宗教异端观点，暴徒在1791年烧毁了他的房子和实验室（伯明翰骚乱），迫使他逃往美国，并在那里度过了余生。",
+      "text_en": "Because of his support for the French Revolution and religious dissent, a mob burned down his house and laboratory in 1791 (Priestley Riots), forcing him to flee to America, where he spent the rest of his life."
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "想象空气是一个混合沙拉，里面有各种东西。在普利斯特里之前，大家以为空气是单一的东西。普利斯特里用一个超级放大镜（聚光镜）烤一种红色的粉末（氧化汞），结果烤出了一种神奇的气体。\n1. 蜡烛在里面燃烧得像烟花一样亮。\n2. 老鼠在里面活得更久且更兴奋。\n他其实发现了空气中维持生命和燃烧的那个关键成分——氧气。虽然他自己一直没搞懂这到底是什么（他以为是空气去掉了某种叫‘燃素’的脏东西），但他确实是第一个把这把‘生命钥匙’握在手里的人。",
+    "text_en": "Imagine air is a mixed salad with various ingredients. Before Priestley, people thought air was a single substance. Priestley used a super magnifying glass (burning lens) to roast a red powder (mercury oxide) and cooked up a magical gas.\n1. Candles burned in it like fireworks.\n2. Mice lived longer and were more energetic in it.\nHe had essentially found the key ingredient in air that supports life and fire—Oxygen. Although he never fully understood what it was (he thought it was air with some 'phlogiston' removed), he was indeed the first person to hold this 'key of life' in his hands.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/en/2/23/A_setup_for_preparation_of_Oxygen.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "🏥",
+        "title": "医疗急救",
+        "title_en": "Medical Emergency",
+        "text": "纯氧是现代医院急救、手术麻醉和治疗呼吸系统疾病（如COVID-19）的必备药物，正如普利斯特里所预言的那样。",
+        "text_en": "Pure oxygen is essential for emergency care, anesthesia, and treating respiratory diseases (like COVID-19) in modern hospitals, just as Priestley predicted."
+      },
+      {
+        "icon": "🚀",
+        "title": "航空航天",
+        "title_en": "Aerospace",
+        "text": "液氧是火箭发动机中最常用的氧化剂，没有它，人类无法离开地球大气层。",
+        "text_en": "Liquid oxygen is the most common oxidizer in rocket engines; without it, humans could not leave the Earth's atmosphere."
+      },
+      {
+        "icon": "🏭",
+        "title": "工业炼钢",
+        "title_en": "Steel Industry",
+        "text": "氧气顶吹转炉炼钢法利用高纯度氧气去除铁水中的杂质，是现代钢铁工业的基础。",
+        "text_en": "Basic oxygen steelmaking uses high-purity oxygen to remove impurities from molten iron, forming the basis of the modern steel industry."
+      }
+    ],
+
+  "impact": {
+    "text": "普利斯特里发现氧气是化学革命的导火索。它为安托万·拉瓦锡提供了解开燃烧之谜的最后一块拼图。拉瓦锡随后证明，燃烧并不是释放“燃素”，而是物质与普利斯特里发现的这种气体（氧）的结合。这一理论的转变标志着炼金术的终结和现代化学的诞生。此外，他在光合作用方面的早期观察（植物可以净化空气）也开启了生态学的大门。",
+    "text_en": "Priestley's discovery of oxygen was the spark for the Chemical Revolution. It provided Antoine Lavoisier with the final piece of the puzzle to solve the mystery of combustion. Lavoisier subsequently proved that combustion is not the release of 'phlogiston', but the combination of substance with this gas (oxygen) discovered by Priestley. This theoretical shift marked the end of alchemy and the birth of modern chemistry. Additionally, his early observations on photosynthesis (plants purifying air) opened the door to ecology.",
+    "stats": [
+        {
+          "number": "1774",
+          "label": "年 (发现年份)",
+          "label_en": "Year Discovered"
+        },
+        {
+          "number": "8",
+          "label": "号元素 (生命之气)",
+          "label_en": "Element No. 8"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "cavendish_hydrogen_1766",
+        "contribution": "卡文迪许（其气体收集方法和实验精神影响了普利斯特里；普利斯特里也尝试过电火花实验）",
+        "contribution_en": "Henry Cavendish (His gas collection methods and experimental spirit influenced Priestley; Priestley also tried electric spark experiments)"
+      },
+      {
+        "id": "franklin_kite_1752",
+        "contribution": "本杰明·富兰克林（作为好友，富兰克林鼓励普利斯特里从事科学研究，并给他提供了很多建议）",
+        "contribution_en": "Benjamin Franklin (As a close friend, Franklin encouraged Priestley to pursue science and gave him much advice)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "lavoisier_elements_1789",
+        "contribution": "拉瓦锡（在1774年著名的巴黎晚餐上，普利斯特里告诉了拉瓦锡他的发现，直接启发了拉瓦锡提出氧化学说）",
+        "contribution_en": "Lavoisier (At a famous dinner in Paris in 1774, Priestley told Lavoisier of his discovery, directly inspiring Lavoisier to propose the oxygen theory)"
+      },
+      {
+        "id": "ingenhousz_photosynthesis_1779",
+        "contribution": "英根豪斯（基于普利斯特里“植物能净化空气”的发现，进一步发现了光合作用需要阳光）",
+        "contribution_en": "Jan Ingenhousz (Building on Priestley's discovery that 'plants purify air', he further discovered that photosynthesis requires sunlight)"
+      }
+    ],
+    "legacy_text": "他是一个拥有极其敏锐观察力的实验天才，却被旧理论蒙住了双眼，把真理拱手让给了拉瓦锡。",
+    "legacy_text_en": "He was an experimental genius with acute observation skills, but blinded by old theories, he handed the truth over to Lavoisier."
+  },
+
+  "related_concepts": ["氧气 (Oxygen)", "脱燃素空气", "燃素说 (Phlogiston Theory)", "光合作用", "苏打水 (Soda Water)"],
+  "related_concepts_en": ["Oxygen", "Dephlogisticated Air", "Phlogiston Theory", "Photosynthesis", "Soda Water"],
+
+  "quiz": {
+    "question": "普利斯特里虽然发现了氧气，但他坚持用当时流行的什么理论来解释它？",
+    "question_en": "Although Priestley discovered oxygen, what prevailing theory did he insist on using to explain it?",
+    "options": [
+      "原子论",
+      "燃素说 (Phlogiston Theory)",
+      "四元素说",
+      "量子力学"
+    ],
+    "options_en": [
+      "Atomic Theory",
+      "Phlogiston Theory",
+      "Four Elements Theory",
+      "Quantum Mechanics"
+    ],
+    "answer": 1,
+    "explanation": "普利斯特里将氧气称为“脱燃素空气”，认为它极易吸收燃素，所以能支持剧烈燃烧。直到死他也拒绝接受拉瓦锡的氧化学说。",
+    "explanation_en": "Priestley called oxygen 'dephlogisticated air', believing it readily absorbed phlogiston, which is why it supported vigorous combustion. He refused to accept Lavoisier's oxygen theory until his death."
+  }
+}

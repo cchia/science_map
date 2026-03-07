@@ -1,0 +1,202 @@
+[
+  {
+    "id": "xianyang",
+    "names": {
+      "primaryName": "Xianyang",
+      "localizedNames": {
+        "en": "Xianyang",
+        "zh-Hans": "咸阳"
+      },
+      "aliases": []
+    },
+    "placeType": "capital_city",
+    "modernCountryCode": "CN",
+    "lat": 34.3416,
+    "lng": 108.7081,
+    "parentPlaceId": "guanzhong",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "chang_an",
+    "names": {
+      "primaryName": "Chang'an",
+      "localizedNames": {
+        "en": "Chang'an",
+        "zh-Hans": "长安"
+      },
+      "aliases": ["Xi'an historical capital"]
+    },
+    "placeType": "capital_city",
+    "modernCountryCode": "CN",
+    "lat": 34.2667,
+    "lng": 108.9,
+    "parentPlaceId": "guanzhong",
+    "aliases": ["长安城"],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "luoyang",
+    "names": {
+      "primaryName": "Luoyang",
+      "localizedNames": {
+        "en": "Luoyang",
+        "zh-Hans": "洛阳"
+      },
+      "aliases": []
+    },
+    "placeType": "capital_city",
+    "modernCountryCode": "CN",
+    "lat": 34.62,
+    "lng": 112.45,
+    "parentPlaceId": "central_plain",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "hexi_corridor",
+    "names": {
+      "primaryName": "Hexi Corridor",
+      "localizedNames": {
+        "en": "Hexi Corridor",
+        "zh-Hans": "河西走廊"
+      },
+      "aliases": []
+    },
+    "placeType": "region",
+    "modernCountryCode": "CN",
+    "lat": 39.5,
+    "lng": 98.2,
+    "parentPlaceId": "northwest_china",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "western_regions",
+    "names": {
+      "primaryName": "Western Regions",
+      "localizedNames": {
+        "en": "Western Regions",
+        "zh-Hans": "西域"
+      },
+      "aliases": []
+    },
+    "placeType": "macro_region",
+    "modernCountryCode": "",
+    "lat": 38.0,
+    "lng": 94.0,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "north_borderlands",
+    "names": {
+      "primaryName": "Northern Borderlands",
+      "localizedNames": {
+        "en": "Northern Borderlands",
+        "zh-Hans": "北部边郡"
+      },
+      "aliases": []
+    },
+    "placeType": "frontier_region",
+    "modernCountryCode": "CN",
+    "lat": 40.8,
+    "lng": 108.7,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "guanzhong_central_plain",
+    "names": {
+      "primaryName": "Guanzhong and Central Plain",
+      "localizedNames": {
+        "en": "Guanzhong and Central Plain",
+        "zh-Hans": "关中与中原"
+      },
+      "aliases": []
+    },
+    "placeType": "macro_region",
+    "modernCountryCode": "CN",
+    "lat": 34.7,
+    "lng": 110.0,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "guanzhong_shandong",
+    "names": {
+      "primaryName": "Guanzhong and Shandong",
+      "localizedNames": {
+        "en": "Guanzhong and Shandong",
+        "zh-Hans": "关中与山东"
+      },
+      "aliases": []
+    },
+    "placeType": "macro_region",
+    "modernCountryCode": "CN",
+    "lat": 35.2,
+    "lng": 111.5,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "jizhou_central_plain",
+    "names": {
+      "primaryName": "Jizhou and Central Plain",
+      "localizedNames": {
+        "en": "Jizhou and Central Plain",
+        "zh-Hans": "冀州与中原"
+      },
+      "aliases": []
+    },
+    "placeType": "macro_region",
+    "modernCountryCode": "CN",
+    "lat": 36.2,
+    "lng": 114.5,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "luoyang_xuchang",
+    "names": {
+      "primaryName": "Luoyang and Xuchang",
+      "localizedNames": {
+        "en": "Luoyang and Xuchang",
+        "zh-Hans": "洛阳与许昌"
+      },
+      "aliases": []
+    },
+    "placeType": "macro_region",
+    "modernCountryCode": "CN",
+    "lat": 34.62,
+    "lng": 112.45,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  }
+]

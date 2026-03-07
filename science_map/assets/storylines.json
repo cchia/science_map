@@ -320,9 +320,49 @@
     ],
     "narrative_intro": {
       "text_zh": "当[图灵机](turing_machine_1936)被构想出来时，图灵就问：机器能思考吗？[达特茅斯会议](dartmouth_ai_conference_1956)正式诞生了 AI 这个梦想。起初，我们试图用[专家系统](expert_systems_1980)教机器规则。\n\n1986年，[反向传播](backprop_1986)算法赋予了神经网络学习的能力。基于此，[LeNet](lenet_1989) 证明了模仿大脑是可行的，但因算力不足而生不逢时。于是，依靠暴力计算的[深蓝](deep_blue_chess_1997)统治了 90 年代。直到[NVIDIA GPU](nvidia_gpu_1999)和[CUDA](cuda_release_2006)解锁了算力，[AlexNet](alexnet_2012)终于引爆了迟到的深度学习革命。紧接着，[AlphaGo](alphago_2016)学会了直觉，[Transformer](vaswani_transformer_2017)破解了语言，最终孕育出了[ChatGPT](chatgpt_launch_2022)。硅基智慧，终于觉醒。",
-      "text_en": "When the [Turing Machine](turing_machine_1936) was conceived, Turing asked: Can machines think? [Dartmouth](dartmouth_ai_conference_1956) named the dream. We tried [Expert Systems](expert_systems_1980) for rules.\n\nIn 1986, [Backpropagation](backprop_1986) gave neural nets the ability to learn. Based on this, [LeNet](lenet_1989) proved brain-like learning was possible but was limited by hardware. Thus, brute-force [Deep Blue](deep_blue_chess_1997) dominated the 90s. It wasn't until [NVIDIA GPU](nvidia_gpu_1999) and [CUDA](cuda_release_2006) unlocked the power that [AlexNet](alexnet_2012) sparked the Deep Learning revolution. Then, [AlphaGo](alphago_2016) learned intuition, the [Transformer](vaswani_transformer_2017) cracked language, birthing [ChatGPT](chatgpt_launch_2022). Silicon intelligence has awakened.",
+      "text_en": "When the [Turing Machine](turing_machine_1936) was conceived, Turing asked: Can machines think? [Dartmouth](dartmouth_ai_conference_1956) named the dream. We tried [Expert Systems](expert_system_1980) for rules.\n\nIn 1986, [Backpropagation](backprop_1986) gave neural nets the ability to learn. Based on this, [LeNet](lenet_1989) proved brain-like learning was possible but was limited by hardware. Thus, brute-force [Deep Blue](deep_blue_chess_1997) dominated the 90s. It wasn't until [NVIDIA GPU](nvidia_gpu_1999) and [CUDA](cuda_release_2006) unlocked the power that [AlexNet](alexnet_2012) sparked the Deep Learning revolution. Then, [AlphaGo](alphago_2016) learned intuition, the [Transformer](vaswani_transformer_2017) cracked language, birthing [ChatGPT](chatgpt_launch_2022). Silicon intelligence has awakened.",
       "core_question_zh": "硅基智慧会是我们的工具，还是后代？",
       "core_question_en": "Is silicon intelligence our tool, or our descendant?"
     }
   }
+  ,
+
+"element_story": {
+    "id": "element_story",
+    "title_zh": "寻找元素",
+    "title_en": "Hunting the Elements",
+    "emoji": "💎",
+    "description_zh": "从炼金术的残渣到粒子加速器，人类如何填满元素周期表。",
+    "description_en": "From alchemical dregs to particle accelerators, how we filled the Periodic Table.",
+    "events": [
+      "boyle_sceptical_chymist_1661",     
+      "brand_phosphorus_1669",            
+      "cavendish_hydrogen_1766",          
+      "scheele_chlorine_1774",            
+      "priestley_oxygen_1774",            
+      "klaproth_uranium_1789",            
+      "lavoisier_elements_1789",  
+      "tennant_diamond_carbon_1797",      
+      "davy_electrolysis_1807",           
+      "berzelius_silicon_1824",           
+      "bunsen_spectroscopy_1859",         
+      "helium_discovery_1868",            
+      "mendeleev_periodic_table_1869",    
+      "moissan_fluorine_1886",            
+      "hall_aluminum_1886",               
+      "ramsay_noble_gases_1894",          
+      "marie_curie_radioactivity_1898",   
+      "moseley_atomic_number_1913",       
+      "segre_technetium_1937",            
+      "seaborg_plutonium_1940",           
+      "oganesson_synthesis_2002"          
+    ],
+    "narrative_intro": {
+      "text_zh": "世界是由什么组成的？故事始于[波义耳](boyle_sceptical_chymist_1661)的追问。最初的发现源于炼金术士的偶然，[布兰德](brand_phosphorus_1669)在尿液中煮出了磷。\n\n随后是气体的时代：[卡文迪许](cavendish_hydrogen_1766)抓住了氢，[舍勒](scheele_chlorine_1774)释放了致命的氯，[普利斯特里](priestley_oxygen_1774)发现了氧，而[拉瓦锡](lavoisier_list_of_elements_1789)整理出了第一张名单。[坦南特](tennant_diamond_carbon_1797)烧掉了钻石证明它是碳，[克拉普罗特](klaproth_uranium_1789)在矿石中唤醒了沉睡的铀。\n\n电的出现带来了暴力美学：[戴维](davy_electrolysis_1807)电解出了钾钠，[霍尔](hall_aluminum_1886)让铝变得廉价，[贝采利乌斯](berzelius_silicon_1824)提炼出了构筑未来的硅。为了寻找更隐蔽的元素，[本生](bunsen_spectroscopy_1859)发明了光谱法，甚至在太阳上找到了[氦](helium_discovery_1868)。\n\n当[门捷列夫](mendeleev_periodic_table_1869)画出周期表时，秩序降临了。但这之后充满了挑战：[莫桑](moissan_fluorine_1886)冒死制服了氟，[居里夫人](marie_curie_radioactivity_1898)发现了元素会衰变。进入新世纪，[莫斯莱](moseley_atomic_number_1913)重新定义了排序，[塞格雷](segre_technetium_1937)和[西博格](seaborg_plutonium_1940)开始扮演上帝，人工合成了自然界不存在的元素，直到[Oganesson](oganesson_synthesis_2002)填满了第七周期。",
+      "text_en": "What is the world made of? It began with [Boyle](boyle_sceptical_chymist_1661). Early finds were accidents, like [Brand](brand_phosphorus_1669) boiling phosphorus from urine.\n\nThen came the Gas Age: [Cavendish](cavendish_hydrogen_1766) caught Hydrogen, [Scheele](scheele_chlorine_1774) released deadly Chlorine, [Priestley](priestley_oxygen_1774) found Oxygen, and [Lavoisier](lavoisier_list_of_elements_1789) made the list. [Tennant](tennant_diamond_carbon_1797) burned diamonds to prove Carbon, and [Klaproth](klaproth_uranium_1789) found sleeping Uranium.\n\nElectricity brought brute force: [Davy](davy_electrolysis_1807) shocked out metals, [Hall](hall_aluminum_1886) made Aluminum cheap, and [Berzelius](berzelius_silicon_1824) isolated Silicon. To find hidden ones, [Bunsen](bunsen_spectroscopy_1859) used light spectra, finding [Helium](helium_discovery_1868) on the sun.\n\nOrder arrived with [Mendeleev's](mendeleev_periodic_table_1869) table. But challenges remained: [Moissan](moissan_fluorine_1886) tamed Fluorine, and [Curie](marie_curie_radioactivity_1898) found decay. Finally, [Moseley](moseley_atomic_number_1913) redefined the rules, while [Segrè](segre_technetium_1937) and [Seaborg](seaborg_plutonium_1940) played God, synthesizing artificial elements up to [Oganesson](oganesson_synthesis_2002).",
+      "core_question_zh": "宇宙中的元素是无限的，还是有尽头的？",
+      "core_question_en": "Are the elements of the universe infinite or finite?"
+    }
+  }
+
 }

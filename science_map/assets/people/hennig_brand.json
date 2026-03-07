@@ -1,0 +1,10 @@
+{
+  "name": "亨尼格·布兰德",
+  "name_en": "Hennig Brand",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Joseph_Wright_of_Derby_The_Alchemist.jpg",
+  "bio_short": "德国商人兼炼金术士，在试图从尿液中提炼黄金时意外发现了磷。",
+  "bio_short_en": "German merchant and alchemist who accidentally discovered phosphorus while trying to extract gold from urine.",
+  "events": [
+    "brand_phosphorus_1669"
+  ]
+}

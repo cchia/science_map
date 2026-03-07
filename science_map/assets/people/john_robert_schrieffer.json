@@ -1,0 +1,10 @@
+{
+    "name": "约翰·罗伯特·施里弗",
+    "name_en": "John Robert Schrieffer",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/94/John_Robert_Schrieffer_1972.jpg",
+    "bio_short": "美国物理学家，1972年诺贝尔物理学奖得主。他是著名的BCS理论（超导微观理论）中的“S”。1957年，年仅26岁的他在搭乘地铁时灵光一现，写出了著名的“施里弗波函数”（Schrieffer wavefunction），成功描述了超导态电子配对（库珀对）的宏观量子基态。这一数学突破补上了BCS理论的最后一块拼图，解开了困扰物理学界40多年的超导之谜。他与导师巴丁（John Bardeen）和同事库珀（Leon Cooper）共同分享了诺贝尔奖，是当时最年轻的获奖者之一。",
+    "bio_short_en": "American physicist and 1972 Nobel Laureate in Physics. He is the 'S' in the famous BCS theory (microscopic theory of superconductivity). In 1957, at only 26 years old, he had an epiphany while riding the subway and wrote down the famous 'Schrieffer wavefunction', successfully describing the macroscopic quantum ground state of paired electrons (Cooper pairs). This mathematical breakthrough provided the final piece of the puzzle for BCS theory, solving the mystery of superconductivity that had plagued physicists for over 40 years. He shared the Nobel Prize with his mentor John Bardeen and colleague Leon Cooper.",
+    "events": [
+      "bcs_theory_1957"
+    ]
+  }

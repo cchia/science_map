@@ -1,0 +1,345 @@
+[
+  {
+    "id": "qin_shihuang",
+    "names": {
+      "primaryName": "Qin Shi Huang",
+      "localizedNames": {
+        "en": "Qin Shi Huang",
+        "zh-Hans": "秦始皇"
+      },
+      "aliases": []
+    },
+    "birth": {"year": -259, "datePrecision": "approximate_year", "displayLabel": "公元前259年"},
+    "death": {"year": -210, "datePrecision": "exact_year", "displayLabel": "公元前210年"},
+    "activeRange": "公元前259年 - 公元前210年",
+    "roles": ["emperor"],
+    "bioShort": "中国历史上首位完成大一统的皇帝，推动郡县制、统一文字和度量衡等制度建设。",
+    "bioLong": "秦始皇将区域性强国转化为统一帝国，是中国古代国家形态发生跃迁的关键人物。",
+    "contribution": "将区域性强国转化为统一帝国，是中国古代国家形态发生跃迁的关键人物。",
+    "relatedTerritoryIds": ["qin"],
+    "relatedEventIds": ["qin_unification_-221", "great_wall_early_qin_-214", "books_buried_scholars_-213"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "liu_bang",
+    "names": {
+      "primaryName": "Liu Bang",
+      "localizedNames": {"en": "Liu Bang", "zh-Hans": "刘邦"},
+      "aliases": []
+    },
+    "birth": {"year": -256, "datePrecision": "approximate_year", "displayLabel": "公元前256年"},
+    "death": {"year": -195, "datePrecision": "exact_year", "displayLabel": "公元前195年"},
+    "activeRange": "公元前256年 - 公元前195年",
+    "roles": ["emperor"],
+    "bioShort": "西汉开国皇帝，在秦亡后的群雄争霸中胜出，建立了新的汉帝国秩序。",
+    "bioLong": "刘邦把秦后的政治真空重新整合为可持续的汉帝国，是帝国重建的决定性人物。",
+    "contribution": "把秦后的政治真空重新整合为可持续的汉帝国，是帝国重建的决定性人物。",
+    "relatedTerritoryIds": ["western_han"],
+    "relatedEventIds": ["qin_collapse_-207", "han_founding_-202"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "emperor_wu",
+    "names": {
+      "primaryName": "Emperor Wu of Han",
+      "localizedNames": {"en": "Emperor Wu of Han", "zh-Hans": "汉武帝"},
+      "aliases": []
+    },
+    "birth": {"year": -156, "datePrecision": "approximate_year", "displayLabel": "公元前156年"},
+    "death": {"year": -87, "datePrecision": "exact_year", "displayLabel": "公元前87年"},
+    "activeRange": "公元前156年 - 公元前87年",
+    "roles": ["emperor"],
+    "bioShort": "西汉最具扩张性的皇帝之一，推动对匈奴作战、西域经营与帝国边疆重构。",
+    "bioLong": "汉武帝把西汉从内部恢复阶段推进到积极扩张阶段，深刻重塑了帝国边疆与外交格局。",
+    "contribution": "把西汉从内部恢复阶段推进到积极扩张阶段，深刻重塑了帝国边疆与外交格局。",
+    "relatedTerritoryIds": ["western_han"],
+    "relatedEventIds": ["zhang_qian_west_-138", "emperor_wu_expansion_-121", "silk_road_growth_-119"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "zhang_qian",
+    "names": {
+      "primaryName": "Zhang Qian",
+      "localizedNames": {"en": "Zhang Qian", "zh-Hans": "张骞"},
+      "aliases": []
+    },
+    "birth": {"year": -164, "datePrecision": "approximate_year", "displayLabel": "约公元前164年"},
+    "death": {"year": -114, "datePrecision": "approximate_year", "displayLabel": "约公元前114年"},
+    "activeRange": "约公元前164年 - 公元前114年",
+    "roles": ["envoy"],
+    "bioShort": "西汉外交使者，其出使西域的经历改变了汉朝对中亚世界的地理认知。",
+    "bioLong": "张骞把西域从遥远概念转化为可进入的战略与交通空间，是汉帝国对外认识的开拓者。",
+    "contribution": "把西域从遥远概念转化为可进入的战略与交通空间，是汉帝国对外认识的开拓者。",
+    "relatedTerritoryIds": ["western_han"],
+    "relatedEventIds": ["zhang_qian_west_-138", "silk_road_growth_-119"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "wang_mang",
+    "names": {
+      "primaryName": "Wang Mang",
+      "localizedNames": {"en": "Wang Mang", "zh-Hans": "王莽"},
+      "aliases": []
+    },
+    "birth": {"year": -45, "datePrecision": "approximate_year", "displayLabel": "公元前45年"},
+    "death": {"year": 23, "datePrecision": "exact_year", "displayLabel": "公元23年"},
+    "activeRange": "公元前45年 - 公元23年",
+    "roles": ["emperor"],
+    "bioShort": "新朝建立者，以复古和制度改革著称，也是中国政治史中最具争议的人物之一。",
+    "bioLong": "其短暂统治成为理解理想化改革、合法性危机与帝国治理失败的经典样本。",
+    "contribution": "其短暂统治成为理解理想化改革、合法性危机与帝国治理失败的经典样本。",
+    "relatedTerritoryIds": ["xin"],
+    "relatedEventIds": ["wang_mang_ascend_8", "xin_reforms_9", "red_eyebrows_23"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "liu_xiu",
+    "names": {
+      "primaryName": "Liu Xiu",
+      "localizedNames": {"en": "Liu Xiu", "zh-Hans": "刘秀"},
+      "aliases": []
+    },
+    "birth": {"year": -5, "datePrecision": "approximate_year", "displayLabel": "公元前5年"},
+    "death": {"year": 57, "datePrecision": "exact_year", "displayLabel": "公元57年"},
+    "activeRange": "公元前5年 - 公元57年",
+    "roles": ["emperor"],
+    "bioShort": "东汉开国皇帝，在新朝崩溃后重新统一主要地区，恢复汉室统治。",
+    "bioLong": "完成东汉重建，使汉王朝在大危机后再次取得统一合法性。",
+    "contribution": "完成东汉重建，使汉王朝在大危机后再次取得统一合法性。",
+    "relatedTerritoryIds": ["eastern_han"],
+    "relatedEventIds": ["eastern_han_founding_25"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "cai_lun",
+    "names": {
+      "primaryName": "Cai Lun",
+      "localizedNames": {"en": "Cai Lun", "zh-Hans": "蔡伦"},
+      "aliases": []
+    },
+    "birth": {"year": 63, "datePrecision": "approximate_year", "displayLabel": "约公元63年"},
+    "death": {"year": 121, "datePrecision": "approximate_year", "displayLabel": "公元121年"},
+    "activeRange": "约公元63年 - 公元121年",
+    "roles": ["inventor"],
+    "bioShort": "东汉宦官与技术改进者，以改进造纸术而长期影响东亚知识传播。",
+    "bioLong": "通过改进造纸术推动知识与行政文书传播，是技术史意义远超政治权位的人物。",
+    "contribution": "通过改进造纸术推动知识与行政文书传播，是技术史意义远超政治权位的人物。",
+    "relatedTerritoryIds": ["eastern_han"],
+    "relatedEventIds": ["paper_cai_lun_105"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "meng_tian",
+    "names": {
+      "primaryName": "Meng Tian",
+      "localizedNames": {"en": "Meng Tian", "zh-Hans": "蒙恬"},
+      "aliases": []
+    },
+    "birth": {"year": -259, "datePrecision": "approximate_year", "displayLabel": "约公元前259年"},
+    "death": {"year": -210, "datePrecision": "approximate_year", "displayLabel": "公元前210年"},
+    "activeRange": "约公元前259年 - 公元前210年",
+    "roles": ["general"],
+    "bioShort": "秦朝重要将领，长期经营北方边疆，常与秦帝国防御工程联系在一起。",
+    "bioLong": "代表秦帝国边疆军事经营，是理解统一后北部战略的重要人物。",
+    "contribution": "代表秦帝国边疆军事经营，是理解统一后北部战略的重要人物。",
+    "relatedTerritoryIds": ["qin"],
+    "relatedEventIds": ["great_wall_early_qin_-214"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "li_si",
+    "names": {
+      "primaryName": "Li Si",
+      "localizedNames": {"en": "Li Si", "zh-Hans": "李斯"},
+      "aliases": []
+    },
+    "birth": {"year": -284, "datePrecision": "approximate_year", "displayLabel": "约公元前284年"},
+    "death": {"year": -208, "datePrecision": "approximate_year", "displayLabel": "公元前208年"},
+    "activeRange": "约公元前284年 - 公元前208年",
+    "roles": ["chancellor"],
+    "bioShort": "秦朝丞相，法家政治实践的重要人物，与统一后制度塑造和思想控制密切相关。",
+    "bioLong": "是秦制国家化和法家政治技术的关键实践者之一。",
+    "contribution": "是秦制国家化和法家政治技术的关键实践者之一。",
+    "relatedTerritoryIds": ["qin"],
+    "relatedEventIds": ["books_buried_scholars_-213"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "xiang_yu",
+    "names": {
+      "primaryName": "Xiang Yu",
+      "localizedNames": {"en": "Xiang Yu", "zh-Hans": "项羽"},
+      "aliases": []
+    },
+    "birth": {"year": -232, "datePrecision": "approximate_year", "displayLabel": "公元前232年"},
+    "death": {"year": -202, "datePrecision": "exact_year", "displayLabel": "公元前202年"},
+    "activeRange": "公元前232年 - 公元前202年",
+    "roles": ["military_leader"],
+    "bioShort": "秦末最强军事领袖之一，在帝国崩解与楚汉战争阶段扮演关键角色。",
+    "bioLong": "其军事威望与政治选择深刻影响了秦亡后的权力重组方式。",
+    "contribution": "其军事威望与政治选择深刻影响了秦亡后的权力重组方式。",
+    "relatedTerritoryIds": ["qin", "western_han"],
+    "relatedEventIds": ["qin_collapse_-207"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "emperor_wen",
+    "names": {
+      "primaryName": "Emperor Wen of Han",
+      "localizedNames": {"en": "Emperor Wen of Han", "zh-Hans": "汉文帝"},
+      "aliases": []
+    },
+    "birth": {"year": -202, "datePrecision": "approximate_year", "displayLabel": "公元前202年"},
+    "death": {"year": -157, "datePrecision": "exact_year", "displayLabel": "公元前157年"},
+    "activeRange": "公元前202年 - 公元前157年",
+    "roles": ["emperor"],
+    "bioShort": "西汉中前期的重要皇帝，以节制财政和稳定社会著称，是文景之治的重要一环。",
+    "bioLong": "通过休养生息政策帮助汉帝国摆脱秦末与建国初期的高压余波。",
+    "contribution": "通过休养生息政策帮助汉帝国摆脱秦末与建国初期的高压余波。",
+    "relatedTerritoryIds": ["western_han"],
+    "relatedEventIds": ["wenjing_rule_-180"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "emperor_jing",
+    "names": {
+      "primaryName": "Emperor Jing of Han",
+      "localizedNames": {"en": "Emperor Jing of Han", "zh-Hans": "汉景帝"},
+      "aliases": []
+    },
+    "birth": {"year": -188, "datePrecision": "approximate_year", "displayLabel": "公元前188年"},
+    "death": {"year": -141, "datePrecision": "exact_year", "displayLabel": "公元前141年"},
+    "activeRange": "公元前188年 - 公元前141年",
+    "roles": ["emperor"],
+    "bioShort": "西汉承前启后的皇帝，延续文帝时期稳定政策，并为武帝时代的国家能力打下基础。",
+    "bioLong": "在承接文帝政策的同时稳定帝国结构，为武帝时代转折提供准备。",
+    "contribution": "在承接文帝政策的同时稳定帝国结构，为武帝时代转折提供准备。",
+    "relatedTerritoryIds": ["western_han"],
+    "relatedEventIds": ["wenjing_rule_-180"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "wei_qing",
+    "names": {
+      "primaryName": "Wei Qing",
+      "localizedNames": {"en": "Wei Qing", "zh-Hans": "卫青"},
+      "aliases": []
+    },
+    "birth": {"year": -150, "datePrecision": "unknown", "displayLabel": "未知"},
+    "death": {"year": -106, "datePrecision": "exact_year", "displayLabel": "公元前106年"},
+    "activeRange": "？ - 公元前106年",
+    "roles": ["general"],
+    "bioShort": "西汉名将，活跃于汉武帝时期的北方作战，是帝国扩张战略的重要执行者。",
+    "bioLong": "在军事上支撑了汉武帝对北方的战略推进，是帝国空间扩张的执行者。",
+    "contribution": "在军事上支撑了汉武帝对北方的战略推进，是帝国空间扩张的执行者。",
+    "relatedTerritoryIds": ["western_han"],
+    "relatedEventIds": ["emperor_wu_expansion_-121"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "huo_qubing",
+    "names": {
+      "primaryName": "Huo Qubing",
+      "localizedNames": {"en": "Huo Qubing", "zh-Hans": "霍去病"},
+      "aliases": []
+    },
+    "birth": {"year": -140, "datePrecision": "approximate_year", "displayLabel": "公元前140年"},
+    "death": {"year": -117, "datePrecision": "exact_year", "displayLabel": "公元前117年"},
+    "activeRange": "公元前140年 - 公元前117年",
+    "roles": ["general"],
+    "bioShort": "西汉青年名将，以迅速远征和打击匈奴闻名，常被视为汉帝国武功象征。",
+    "bioLong": "其作战形象强化了西汉在对外战争中的优势叙事和帝国自信。",
+    "contribution": "其作战形象强化了西汉在对外战争中的优势叙事和帝国自信。",
+    "relatedTerritoryIds": ["western_han"],
+    "relatedEventIds": ["emperor_wu_expansion_-121"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "zhang_jue",
+    "names": {
+      "primaryName": "Zhang Jue",
+      "localizedNames": {"en": "Zhang Jue", "zh-Hans": "张角"},
+      "aliases": []
+    },
+    "birth": {"year": 0, "datePrecision": "unknown", "displayLabel": "未知"},
+    "death": {"year": 184, "datePrecision": "exact_year", "displayLabel": "公元184年"},
+    "activeRange": "？ - 公元184年",
+    "roles": ["rebel_leader"],
+    "bioShort": "黄巾起义领袖，其宗教动员和社会号召力深刻冲击了东汉晚期统治秩序。",
+    "bioLong": "代表了东汉晚期基层社会动员力量对中央秩序的正面冲击。",
+    "contribution": "代表了东汉晚期基层社会动员力量对中央秩序的正面冲击。",
+    "relatedTerritoryIds": ["eastern_han"],
+    "relatedEventIds": ["yellow_turban_184"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "cao_cao",
+    "names": {
+      "primaryName": "Cao Cao",
+      "localizedNames": {"en": "Cao Cao", "zh-Hans": "曹操"},
+      "aliases": []
+    },
+    "birth": {"year": 155, "datePrecision": "exact_year", "displayLabel": "公元155年"},
+    "death": {"year": 220, "datePrecision": "exact_year", "displayLabel": "公元220年"},
+    "activeRange": "公元155年 - 公元220年",
+    "roles": ["political_military_leader"],
+    "bioShort": "东汉末年最重要的政治军事人物之一，为汉末权力格局重组和三国形成奠定基础。",
+    "bioLong": "其对东汉中央权力的掌握与重组，直接推动了汉末向三国的过渡。",
+    "contribution": "其对东汉中央权力的掌握与重组，直接推动了汉末向三国的过渡。",
+    "relatedTerritoryIds": ["eastern_han"],
+    "relatedEventIds": ["han_end_220"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  },
+  {
+    "id": "emperor_xian",
+    "names": {
+      "primaryName": "Emperor Xian of Han",
+      "localizedNames": {"en": "Emperor Xian of Han", "zh-Hans": "汉献帝"},
+      "aliases": []
+    },
+    "birth": {"year": 181, "datePrecision": "exact_year", "displayLabel": "公元181年"},
+    "death": {"year": 234, "datePrecision": "exact_year", "displayLabel": "公元234年"},
+    "activeRange": "公元181年 - 公元234年",
+    "roles": ["emperor"],
+    "bioShort": "东汉最后一位皇帝，其在位时期见证了中央权威的消散和汉王朝的终结。",
+    "bioLong": "作为王朝名义中心，其命运体现了东汉末年皇权与实际权力分离的历史现实。",
+    "contribution": "作为王朝名义中心，其命运体现了东汉末年皇权与实际权力分离的历史现实。",
+    "relatedTerritoryIds": ["eastern_han"],
+    "relatedEventIds": ["han_end_220"],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "qin_-221",
+    "territoryId": "qin",
+    "year": -221,
+    "geoJsonAsset": "assets/geojson/qin_-221.geojson",
+    "focus": {
+      "lat": 34.6,
+      "lng": 105.0,
+      "zoom": 4.2
+    },
+    "headline": "秦完成统一，中央集权帝国第一次覆盖广阔中原与南方地区。",
+    "territoryNote": "这一快照强调秦统一后的帝国轮廓，用于展示从战国分裂向大一统帝国转变的历史节点。",
+    "boundaryHighlights": [
+      "核心区位于关中、黄河中下游与原六国故地",
+      "南方疆域以帝国控制区和郡县经营范围为教学展示重点",
+      "北方边界以秦的战略防御线和边郡经营区为主"
+    ],
+    "accuracyNote": "本快照采用教学展示级边界，强调帝国控制重心与统一后的大致版图，不等同于逐县级精确疆界。",
+    "sourceNotes": [
+      "依据通行历史地图中的秦统一后帝国范围进行简化绘制",
+      "边界用于产品演示，省略了局部争议地带和细节变化"
+    ],
+    "highlightedEventIds": [
+      "qin_unification_-221",
+      "great_wall_early_qin_-214",
+      "books_buried_scholars_-213",
+      "qin_collapse_-207"
+    ]
+  },
+  {
+    "id": "western_han_-141",
+    "territoryId": "western_han",
+    "year": -141,
+    "geoJsonAsset": "assets/geojson/western_han_-141.geojson",
+    "focus": {
+      "lat": 36.0,
+      "lng": 103.5,
+      "zoom": 4.1
+    },
+    "headline": "西汉进入强盛期前夜，即将走向对外扩张与丝路开辟。",
+    "territoryNote": "这一年份适合作为西汉扩张时代的入口，方便承接张骞出使、河西经营与汉武帝改革。",
+    "boundaryHighlights": [
+      "关中和中原仍是帝国财政与政治核心区",
+      "西向经营开始增强，河西走廊成为后续扩张关键",
+      "快照强调帝国在统一内部秩序后向边疆发力的空间趋势"
+    ],
+    "accuracyNote": "本快照更注重展示西汉扩张前夜的空间格局，边界线是依据历史教学图概括后的示意轮廓。",
+    "sourceNotes": [
+      "综合西汉前中期历史地图常见范围后进行简化",
+      "未细分西域控制强度差异和羁縻性区域"
+    ],
+    "highlightedEventIds": [
+      "han_founding_-202",
+      "wenjing_rule_-180",
+      "zhang_qian_west_-138",
+      "emperor_wu_expansion_-121",
+      "silk_road_growth_-119"
+    ]
+  },
+  {
+    "id": "xin_8",
+    "territoryId": "xin",
+    "year": 8,
+    "geoJsonAsset": "assets/geojson/xin_8.geojson",
+    "focus": {
+      "lat": 35.3,
+      "lng": 104.0,
+      "zoom": 4.1
+    },
+    "headline": "王莽代汉建立新朝，试图以激进改制重塑秩序。",
+    "territoryNote": "新朝疆域仍承袭西汉的大框架，但其政治合法性与治理能力远不如西汉稳固。",
+    "boundaryHighlights": [
+      "在版图形态上大体继承西汉晚期格局",
+      "真正变化更集中在统治能力与地方控制的松动，而非瞬间出现全新空间结构",
+      "该快照强调疆域名义延续与治理脆弱之间的反差"
+    ],
+    "accuracyNote": "新朝版图主要表现名义统治范围，因此地图保留与西汉接近的轮廓，但在说明中突出其控制力问题。",
+    "sourceNotes": [
+      "依据新莽时期常见历史地图和西汉末年范围概括绘制",
+      "实际地方控制差异较大，示意图不表达逐区域控制强弱"
+    ],
+    "highlightedEventIds": [
+      "wang_mang_ascend_8",
+      "xin_reforms_9",
+      "red_eyebrows_23"
+    ]
+  },
+  {
+    "id": "eastern_han_25",
+    "territoryId": "eastern_han",
+    "year": 25,
+    "geoJsonAsset": "assets/geojson/eastern_han_25.geojson",
+    "focus": {
+      "lat": 35.6,
+      "lng": 107.0,
+      "zoom": 4.0
+    },
+    "headline": "刘秀重建汉室，东汉成为继新朝之后的再统一王朝。",
+    "territoryNote": "东汉前期恢复帝国秩序，后续则在科技文化繁荣中逐渐积累晚期政治危机。",
+    "boundaryHighlights": [
+      "洛阳取代长安成为帝国核心政治中心之一",
+      "地图强调东汉初年重建统一格局后的主要控制区域",
+      "在西北与边疆地区，快照以早期东汉较稳定时期的常见版图为基础"
+    ],
+    "accuracyNote": "东汉快照采用再统一初期的教学展示版图，突出空间重建和中心东移，不细化后续逐段收缩过程。",
+    "sourceNotes": [
+      "综合东汉初年常见历史地图范围进行简化",
+      "本示意图不包含不同时期边疆控制强弱的细粒度变化"
+    ],
+    "highlightedEventIds": [
+      "eastern_han_founding_25",
+      "paper_cai_lun_105",
+      "yellow_turban_184",
+      "han_end_220"
+    ]
+  }
+]

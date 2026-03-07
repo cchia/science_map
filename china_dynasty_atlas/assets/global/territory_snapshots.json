@@ -1,0 +1,198 @@
+[
+  {
+    "id": "qin_-221",
+    "territoryId": "qin",
+    "validFrom": {
+      "year": -221,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前221年"
+    },
+    "validTo": {
+      "year": -221,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前221年"
+    },
+    "displayYear": -221,
+    "geometryRefs": ["qin_-221_main_v5"],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 34.6,
+      "lng": 105.0,
+      "zoom": 4.2
+    },
+    "headline": "秦完成统一，中央集权帝国第一次覆盖广阔中原与南方地区。",
+    "territoryNote": "这一快照强调秦统一后的帝国轮廓，用于展示从战国分裂向大一统帝国转变的历史节点。",
+    "boundaryHighlights": [
+      "边界收敛到统一完成当年的主轮廓，避免把后续边疆推进提前算入",
+      "南方不再按后续岭南经营成果回推到 221 BCE",
+      "渤海转折、东部海岸与南缘收口进一步按统一初年的帝国外缘细化，而不是后续长期经营结果"
+    ],
+    "accuracy": {
+      "level": "high",
+      "note": "本快照现在使用 221 BCE 的 v5 tracing 样板主边界，进一步细化了渤海转折、东部海岸与南缘收口，重点纠正南方与边疆的过度外推，但仍不是逐郡县考订版。"
+    },
+    "disputeNotes": [
+      "边疆地区控制强度与现代国界概念并不一致。"
+    ],
+    "sourceRefs": [
+      "geometry_editorial_qin_221_v5",
+      "wikimedia_commons_qin_reference_only",
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "approved",
+    "highlightedEventIds": [
+      "qin_unification_-221",
+      "great_wall_early_qin_-214",
+      "books_buried_scholars_-213",
+      "qin_collapse_-207"
+    ]
+  },
+  {
+    "id": "western_han_-141",
+    "territoryId": "western_han",
+    "validFrom": {
+      "year": -141,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前141年"
+    },
+    "validTo": {
+      "year": -141,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前141年"
+    },
+    "displayYear": -141,
+    "geometryRefs": ["western_han_-141_main_v5"],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 36.0,
+      "lng": 103.5,
+      "zoom": 4.1
+    },
+    "headline": "西汉进入强盛期前夜，即将走向对外扩张与丝路开辟。",
+    "territoryNote": "这一年份适合作为西汉扩张时代的入口，方便承接张骞出使、河西经营与汉武帝改革，因此不应混入 111 BCE 后的岭南与 60 BCE 后的西域保护府外缘。",
+    "boundaryHighlights": [
+      "关中和中原仍是帝国财政与政治核心区，山东半岛与辽东东缘保留为早期汉帝国的稳定组成部分",
+      "南缘收回到长沙及长江中下游体系，不再把尚未并入的岭南与闽越地区画成西汉本部",
+      "西向边界停在河西扩张前夜，明确区别于 60 BCE 后才稳定成形的西域保护府范围"
+    ],
+    "accuracy": {
+      "level": "high",
+      "note": "该样板以西汉 141 BCE 为单点做了 v5 tracing，进一步细化了山东半岛、渤海转折、东部海岸和长江下游到南缘的过渡，重点纠正两个常见错误：一是把后期西域保护府范围提前画入，二是把 111 BCE 后才并入的岭南地区提前画成西汉本部。"
+    },
+    "disputeNotes": [
+      "并非西汉最大版图年份，不应按后期强盛范围倒推。"
+    ],
+    "sourceRefs": [
+      "geometry_editorial_western_han_141_v5",
+      "wikimedia_commons_han_2ce_public_domain",
+      "wikimedia_commons_mawangdui_silk_map",
+      "wikimedia_commons_han_commanderies_reference_only",
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "approved",
+    "highlightedEventIds": [
+      "han_founding_-202",
+      "wenjing_rule_-180",
+      "zhang_qian_west_-138",
+      "emperor_wu_expansion_-121",
+      "silk_road_growth_-119"
+    ]
+  },
+  {
+    "id": "xin_8",
+    "territoryId": "xin",
+    "validFrom": {
+      "year": 8,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元8年"
+    },
+    "validTo": {
+      "year": 8,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元8年"
+    },
+    "displayYear": 8,
+    "geometryRefs": ["xin_8_main_v5"],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 35.3,
+      "lng": 104.0,
+      "zoom": 4.1
+    },
+    "headline": "王莽代汉建立新朝，试图以激进改制重塑秩序。",
+    "territoryNote": "新朝疆域仍承袭西汉的大框架，但其政治合法性与治理能力远不如西汉稳固。",
+    "boundaryHighlights": [
+      "在版图轮廓上保留承袭西汉的总体外观，但西部和南部收得更像王莽初建新朝时的中间态",
+      "真正变化集中在控制能力与地方服从度的松动，而不只是边线变化",
+      "边界按 8 CE 的名义主轮廓表达，治理脆弱性放到说明文字中处理"
+    ],
+    "accuracy": {
+      "level": "high",
+      "note": "新朝快照现在使用 8 CE 的 v5 tracing 样板主边界，既保留承袭西汉的空间关系，也更清楚地把它放在西汉更外、东汉更收之间的中间位置，避免把脆弱边地误读为稳定控制。"
+    },
+    "disputeNotes": [
+      "示意图不表达各地控制强弱的连续梯度。"
+    ],
+    "sourceRefs": [
+      "geometry_editorial_xin_8_v5",
+      "wikimedia_commons_han_2ce_public_domain",
+      "wikimedia_commons_xin_reference_only",
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "approved",
+    "highlightedEventIds": [
+      "wang_mang_ascend_8",
+      "xin_reforms_9",
+      "red_eyebrows_23"
+    ]
+  },
+  {
+    "id": "eastern_han_25",
+    "territoryId": "eastern_han",
+    "validFrom": {
+      "year": 25,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元25年"
+    },
+    "validTo": {
+      "year": 25,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元25年"
+    },
+    "displayYear": 25,
+    "geometryRefs": ["eastern_han_25_main_v5"],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 35.6,
+      "lng": 107.0,
+      "zoom": 4.0
+    },
+    "headline": "刘秀重建汉室，东汉成为继新朝之后的再统一王朝。",
+    "territoryNote": "东汉前期恢复帝国秩序，后续则在科技文化繁荣中逐渐积累晚期政治危机。",
+    "boundaryHighlights": [
+      "洛阳取代长安成为帝国核心政治中心之一",
+      "边界回到更接近建武初年的单一主轮廓，而不是后期成熟东汉的外缘",
+      "西北边地和南缘都收缩到更接近建武初年的恢复状态，避免提前画入后期再巩固成果"
+    ],
+    "accuracy": {
+      "level": "high",
+      "note": "东汉快照现在使用 25 CE 的 v5 tracing 样板主边界，更清楚地区分了早期东汉恢复轮廓与新朝继承轮廓以及后期成熟东汉的范围，尤其体现在西部和南部边线。"
+    },
+    "disputeNotes": [
+      "本示意图不包含不同时期边疆控制强弱的细粒度变化。"
+    ],
+    "sourceRefs": [
+      "geometry_editorial_eastern_han_25_v5",
+      "wikimedia_commons_han_2ce_public_domain",
+      "wikimedia_commons_eastern_han_reference_only",
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "approved",
+    "highlightedEventIds": [
+      "eastern_han_founding_25",
+      "paper_cai_lun_105",
+      "yellow_turban_184",
+      "han_end_220"
+    ]
+  }
+]

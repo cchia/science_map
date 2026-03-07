@@ -1,0 +1,118 @@
+{
+    "title": "西博格合成钚",
+    "title_en": "Seaborg Synthesizes Plutonium",
+    "year": 1940,
+    "personId": "glenn_seaborg",
+    "lat": 37.8715,
+    "lng": -122.2595,
+    "city": "伯克利",
+    "city_en": "Berkeley",
+    "country": "美国",
+    "country_en": "United States",
+    "field": [
+        "化学",
+        "核物理"
+    ],
+    "id": "seaborg_plutonium_1940",
+    "summary": {
+        "text": "1940年，格伦·西博格（Glenn Seaborg）和他的团队在伯克利加州大学，利用回旋加速器用氘核轰击铀，制造出了94号元素——钚（Plutonium）。这是继镎之后的第二个超铀元素。西博格后来发现钚-239是可以裂变的，这意味着它可以用于制造原子弹。这一发现被立即列为二战期间的最高机密。西博格后来又参与发现了另外9种超铀元素，重塑了周期表的结构，提出了“锕系”概念。",
+        "text_en": "In 1940, Glenn Seaborg and his team at UC Berkeley used a cyclotron to bombard uranium with deuterons, creating element 94—Plutonium. It was the second transuranium element after Neptunium. Seaborg later discovered that Plutonium-239 is fissile, meaning it could be used for atomic bombs. This discovery was immediately classified Top Secret during WWII. Seaborg went on to co-discover 9 more transuranium elements and reshaped the periodic table by proposing the 'Actinide' series.",
+        "key_points": [
+            "合成了关键的核燃料/核武原料：钚 (Pu)",
+            "提出了“锕系理论”，重新排列了周期表底部",
+            "一生共参与发现了10种新元素",
+            "唯一一个在世时就用自己名字命名元素（Seaborgium, Sg）的人"
+        ],
+        "key_points_en": [
+            "Synthesized the key nuclear fuel/weapon material: Plutonium (Pu)",
+            "Proposed the 'Actinide Theory', rearranging the bottom of the periodic table",
+            "Co-discovered 10 new elements in his lifetime",
+            "The only person to have an element named after them while still alive (Seaborgium, Sg)"
+        ]
+    },
+    "media": {
+        "event_image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Glenn_Seaborg_-_1964.jpg"
+    },
+    "fun_facts": [
+        {
+            "icon": "✉️",
+            "text": "西博格选择“Pu”作为钚的符号（而不是Pl），就像小孩子闻到臭味时发出的声音“Pee-Yew”，这是一个化学圈的幽默。",
+            "text_en": "Seaborg chose the symbol 'Pu' for Plutonium (instead of Pl) as a joke, referencing the sound a child makes when smelling something bad ('Pee-Yew')."
+        }
+    ],
+    "story": {
+        "text": "西博格改变了我们对周期表的看法。之前的教科书认为铀之后的元素应该像过渡金属一样排列。西博格大胆提出，它们应该形成一个新的系列（锕系），放在镧系下面。老一辈化学家告诉他：“如果你发表这个，你的科学生涯就毁了。”但他发表了，而且他是对的。",
+        "text_en": "Seaborg changed how we look at the Periodic Table. Textbooks thought elements after Uranium should line up like transition metals. Seaborg boldly proposed they form a new series (Actinides) below Lanthanides. Older chemists told him, 'If you publish this, your career is ruined.' He published it, and he was right."
+    },
+    "impact": {
+        "text": "钚的发现彻底改变了世界格局，它不仅是核武器的关键原料，也重塑了科学界对元素周期表的理解。西博格提出的“锕系”理论是自门捷列夫以来对周期表结构最大的修改。",
+        "text_en": "The discovery of plutonium changed the world order; it was not only a key material for nuclear weapons but also reshaped the scientific understanding of the periodic table. Seaborg's 'Actinide' theory was the most significant modification to the table structure since Mendeleev.",
+        "stats": [
+            {
+                "number": "94",
+                "label": "号元素 (钚)",
+                "label_en": "Element No. 94"
+            },
+            {
+                "number": "10",
+                "label": "参与发现的新元素",
+                "label_en": "New Elements Co-discovered"
+            }
+        ]
+    },
+    "influence_chain": {
+        "influenced_by": [
+            {
+                "id": "mendeleev_periodic_table_1869",
+                "contribution": "基于门捷列夫的周期律，但对其进行了大胆修正",
+                "contribution_en": "Based on Mendeleev's periodic law but made a bold correction to it"
+            }
+        ],
+        "influenced": [
+            {
+                "id": "oganesson_synthesis_2002",
+                "contribution": "为人造超重元素的合成奠定了理论和实验基础",
+                "contribution_en": "Laid the theoretical and experimental foundation for synthesizing artificial superheavy elements"
+            }
+        ],
+        "legacy_text": "西博格不仅制造了毁灭性的元素，也重写了化学教科书。",
+        "legacy_text_en": "Seaborg not only created a destructive element but also rewrote chemistry textbooks."
+    },
+    "related_concepts": [
+        "钚",
+        "锕系元素",
+        "超铀元素",
+        "回旋加速器",
+        "核裂变"
+    ],
+    "related_concepts_en": [
+        "Plutonium",
+        "Actinides",
+        "Transuranium Elements",
+        "Cyclotron",
+        "Nuclear Fission"
+    ],
+    "quiz": {
+        "question": "西博格提出的“锕系理论”对元素周期表做了什么改变？",
+        "question_en": "What change did Seaborg's 'Actinide Theory' make to the periodic table?",
+        "options": [
+            "增加了一列惰性气体",
+            "将重元素排成两行放在底部",
+            "删除了放射性元素",
+            "合并了金属和非金属"
+        ],
+        "options_en": [
+            "Added a column of noble gases",
+            "Placed heavy elements in two rows at the bottom",
+            "Removed radioactive elements",
+            "Merged metals and non-metals"
+        ],
+        "answer": 1,
+        "explanation": "他提出锕系元素应该像镧系元素一样，作为内过渡元素排在周期表下方，而不是夹在过渡金属中。",
+        "explanation_en": "He proposed that Actinides should be placed below the main body of the table as inner transition elements, similar to Lanthanides, rather than among the transition metals."
+    },
+    "simple_explanation": {
+        "text": "简单来说：1940年，格伦·西博格（Glenn Seaborg）和他的团队在伯克利加州大学，利用回旋加速器用氘...",
+        "text_en": "Simply put: In 1940, Glenn Seaborg and his team at UC Berkeley..."
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "卡尔·威廉·舍勒",
+  "name_en": "Carl Wilhelm Scheele",
+  "portrait": "https://upload.wikimedia.org/wikipedia/commons/4/4d/PSM_V31_D740_Carl_Wilhelm_Scheele.jpg",
+  "bio_short": "瑞典药剂师和化学家，尽管他一生都在简陋的条件下工作，却有着惊人的发现。他发现了氧气（在普利斯特里之前，但发表较晚）、氯气、氮气、锰、钡、钼、钨等多种元素。他常被称为“倒霉的化学家”，因为他的许多发现都被别人抢先发表。他最终因长期品尝有毒化学品而英年早逝。",
+  "bio_short_en": "A Swedish pharmacist and chemist who made astounding discoveries despite working in humble conditions. He discovered oxygen (before Priestley, but published later), chlorine, nitrogen, manganese, barium, molybdenum, tungsten, and more. He is often called the 'hard-luck chemist' because many of his discoveries were published by others first. He died young, likely due to his habit of tasting toxic chemicals.",
+  "events": [
+    "scheele_chlorine_1774"
+  ]
+}
+

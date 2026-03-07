@@ -1,0 +1,164 @@
+{
+  "id": "scheele_chlorine_1774",
+  "personId": "carl_wilhelm_scheele",
+  "title": "舍勒发现氯气",
+  "title_en": "Scheele Discovers Chlorine",
+  "year": 1774,
+  "lat": 59.8586,
+  "lng": 17.6389,
+  "city": "乌普萨拉",
+  "city_en": "Uppsala",
+  "country": "瑞典",
+  "country_en": "Sweden",
+  "storyline_id": ["element_story"],
+  "field": ["化学"],
+  "field_en": ["Chemistry"],
+
+  "media": {
+    "event_image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chlorine_in_bottle.jpg",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=hZ2mE7VBFyQ",
+      "title": "氯气化学元素",
+      "title_en": "Chlorine Chemical Element ",
+      "duration": "4:07"
+    }
+  },
+
+  "summary": {
+    "text": "1774年，瑞典药剂师卡尔·威廉·舍勒（Carl Wilhelm Scheele）在研究软锰矿（二氧化锰）时，将其与盐酸混合加热，产生了一种黄绿色的、具有强烈窒息性气味的气体。他发现这种气体能漂白植物的叶子和花朵，并且能腐蚀金属。舍勒称这种气体为“脱燃素盐酸气”。虽然他当时并不知道这是一种新元素，但这是人类历史上首次制备并记录“氯气”。直到几十年后，汉弗莱·戴维才确认它是一种元素，并将其命名为Chlorine（源自希腊语chloros，意为淡绿色）。",
+    "text_en": "In 1774, Swedish pharmacist Carl Wilhelm Scheele, while studying pyrolusite (manganese dioxide), heated it with hydrochloric acid and produced a yellow-green gas with a strong, suffocating odor. He found that this gas could bleach plant leaves and flowers and corrode metals. Scheele called this gas 'dephlogisticated muriatic acid air'. Although he did not realize it was a new element at the time, this was the first time in history that 'Chlorine' was prepared and recorded. It wasn't until decades later that Humphry Davy confirmed it as an element and named it Chlorine (from Greek 'chloros', meaning pale green).",
+    "key_points": [
+      "首次制备并记录了氯气",
+      "发现氯气具有强氧化性和漂白作用",
+      "当时误认为是“脱燃素盐酸气”",
+      "实际上发现了很多元素（氧、氮、钡、锰等），但常被后人抢先发表",
+      "“运气最差”的化学家"
+    ],
+    "key_points_en": [
+      "First to prepare and record chlorine gas",
+      "Discovered chlorine's strong oxidizing and bleaching properties",
+      "Mistakenly identified it as 'dephlogisticated muriatic acid air' at the time",
+      "Actually discovered many elements (Oxygen, Nitrogen, Barium, Manganese, etc.) but often published later than others",
+      "The 'unluckiest' chemist"
+    ]
+  },
+
+  "story": {
+    "text": "舍勒是化学史上著名的“倒霉蛋”。他在普利斯特里之前就发现了氧气（他称之为“火气”），在卢瑟福之前发现了氮气，但他总是因为出版商的拖延而晚于别人发表成果，导致名誉旁落。发现氯气是他为数不多的被公认的优先发现之一。他一生都在药房的后堂里进行实验，设备简陋，但他有着惊人的直觉。他有一个极其危险的习惯：通过“尝一尝”来测试新合成的化学物质。他尝过氢氰酸、砷酸等剧毒物质。虽然这种习惯让他对物质的性质有了直观了解，但也最终导致他英年早逝，死时年仅43岁，症状与重金属中毒相符。",
+    "text_en": "Scheele is known as the 'hard-luck' chemist of history. He discovered oxygen (he called it 'Fire Air') before Priestley and nitrogen before Rutherford, but he always published later due to delays by his publishers, losing the credit. Discovering chlorine is one of his few recognized priority discoveries. He spent his life experimenting in the back of pharmacies with simple equipment but had amazing intuition. He had an incredibly dangerous habit: testing new chemicals by 'tasting' them. He tasted hydrogen cyanide, arsenic acid, and other toxic substances. While this habit gave him intuitive knowledge of substances, it ultimately led to his early death at age 43, with symptoms consistent with heavy metal poisoning.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/4/45/Liquid_chlorine_in_flask.jpg"
+  },
+
+  "fun_facts": [
+    {
+      "icon": "👅",
+      "text": "舍勒可能是历史上唯一一个尝遍了元素周期表上当时已知剧毒物质的人。他的死因很可能是因为长期品尝氢氰酸、汞、铅和砷。",
+      "text_en": "Scheele might be the only person in history to have tasted most of the known toxic substances on the periodic table. His death was likely due to long-term tasting of hydrogen cyanide, mercury, lead, and arsenic."
+    },
+    {
+      "icon": "🎨",
+      "text": "他发明了一种非常鲜艳的绿色颜料，被称为“舍勒绿”（Scheele's Green）。这种颜料含砷（砒霜），在维多利亚时代非常流行，甚至用来印制壁纸和染裙子，据说拿破仑的死也可能与这种含砷壁纸有关。",
+      "text_en": "He invented a very vivid green pigment known as 'Scheele's Green'. This arsenic-containing pigment was popular in the Victorian era, used for wallpapers and dresses. It is rumored that Napoleon's death might be linked to this arsenic-laced wallpaper."
+    },
+    {
+      "icon": "📝",
+      "text": "艾萨克·阿西莫夫曾说：“舍勒不仅发现了氧气，还发现了氮气、钡、锰、钼和钨，以及氯气。如果把该给他的荣誉都给他，他可能是历史上发现元素最多的人。”",
+      "text_en": "Isaac Asimov once said, 'Scheele discovered not only oxygen but also nitrogen, barium, manganese, molybdenum, tungsten, and chlorine. If he were given all the credit he deserved, he might be the person who discovered the most elements in history.'"
+    }
+  ],
+
+  "simple_explanation": {
+    "text": "如果说普利斯特里是抓住了“好空气”（氧气），那么舍勒就是放出了“坏空气”（氯气）。\n他在一次实验中把两种酸混合，结果冒出了一股黄绿色的烟雾。这股烟雾极其刺鼻，能把花朵的颜色“吃掉”（漂白），还能腐蚀金属。这就是氯气。虽然这东西有毒，但后来人们发现它能杀菌消毒，这让我们的自来水变得安全可饮。",
+    "text_en": "If Priestley caught the 'good air' (oxygen), Scheele released the 'bad air' (chlorine).\nIn one experiment, he mixed two acids, and out came a yellow-green smoke. This smoke was extremely pungent, could 'eat' the color of flowers (bleach), and corrode metals. This was chlorine. Although toxic, people later found it kills bacteria, making our tap water safe to drink.",
+    "diagram": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Mosul-swimming.jpg"
+  },
+
+  "applications": [
+      {
+        "icon": "💧",
+        "title": "水处理",
+        "title_en": "Water Treatment",
+        "text": "氯气是现代自来水消毒的最主要手段，它拯救了数亿人免于霍乱和伤寒等水传播疾病。",
+        "text_en": "Chlorine is the primary method for disinfecting modern tap water, saving hundreds of millions from waterborne diseases like cholera and typhoid."
+      },
+      {
+        "icon": "👕",
+        "title": "漂白剂",
+        "title_en": "Bleach",
+        "text": "由于其强氧化性，氯被广泛用于造纸和纺织工业的漂白，以及家庭清洁（84消毒液的主要成分）。",
+        "text_en": "Due to its strong oxidizing properties, chlorine is widely used for bleaching in paper and textile industries, as well as household cleaning (the main ingredient in bleach)."
+      },
+      {
+        "icon": "🧂",
+        "title": "塑料工业",
+        "title_en": "Plastics Industry",
+        "text": "氯是制造PVC（聚氯乙烯）塑料的关键原料，这种材料广泛用于水管、门窗和电缆。",
+        "text_en": "Chlorine is a key ingredient in making PVC (Polyvinyl Chloride) plastic, widely used in pipes, windows, and cables."
+      }
+    ],
+
+  "impact": {
+    "text": "舍勒发现氯气不仅增加了一种新元素，更重要的是它展示了卤素家族的独特性质。氯气的漂白和消毒能力后来改变了公共卫生和工业生产。虽然舍勒一生默默无闻，但他的工作填补了化学元素拼图中的许多关键空白。他对有机酸（如柠檬酸、乳酸）的提取也为有机化学奠定了基础。",
+    "text_en": "Scheele's discovery of chlorine not only added a new element but, more importantly, demonstrated the unique properties of the halogen family. Chlorine's bleaching and disinfecting abilities later transformed public health and industrial production. Although Scheele lived a quiet life, his work filled many key gaps in the chemical element puzzle. His extraction of organic acids (like citric acid, lactic acid) also laid the foundation for organic chemistry.",
+    "stats": [
+        {
+          "number": "1774",
+          "label": "年 (发现年份)",
+          "label_en": "Year Discovered"
+        },
+        {
+          "number": "17",
+          "label": "号元素 (氯)",
+          "label_en": "Element No. 17"
+        }
+      ]
+  },
+
+  "influence_chain": {
+    "influenced_by": [
+      {
+        "id": "brand_phosphorus_1669",
+        "contribution": "布兰德（舍勒研究过磷的性质，并发现了用骨灰制造磷的新方法）",
+        "contribution_en": "Hennig Brand (Scheele studied phosphorus and discovered a new method to produce it from bone ash)"
+      }
+    ],
+    "influenced": [
+      {
+        "id": "davy_electrochemistry_1808",
+        "contribution": "戴维（戴维最终证明了舍勒发现的这种气体是一种元素，而不是化合物，并将其命名为Chlorine）",
+        "contribution_en": "Humphry Davy (Davy finally proved that the gas Scheele discovered was an element, not a compound, and named it Chlorine)"
+      },
+      {
+        "id": "faraday_electrolysis_1834",
+        "contribution": "法拉第（法拉第后来成功液化了氯气，这是气体液化的重要突破）",
+        "contribution_en": "Michael Faraday (Faraday later successfully liquefied chlorine gas, a major breakthrough in gas liquefaction)"
+      }
+    ],
+    "legacy_text": "他是一位在此药房后堂里工作的化学巨人，他的发现清单比许多诺贝尔奖得主还要长。",
+    "legacy_text_en": "He was a chemical giant working in the back room of a pharmacy, with a list of discoveries longer than that of many Nobel laureates."
+  },
+
+  "related_concepts": ["氯气 (Chlorine)", "舍勒绿 (Scheele's Green)", "氧气 (Oxygen)", "软锰矿", "品尝化学品"],
+  "related_concepts_en": ["Chlorine", "Scheele's Green", "Oxygen", "Pyrolusite", "Tasting Chemicals"],
+
+  "quiz": {
+    "question": "舍勒有一个极其危险的实验习惯，这可能导致了他的早逝，这个习惯是什么？",
+    "question_en": "Scheele had an extremely dangerous experimental habit that likely led to his early death. What was it?",
+    "options": [
+      "不戴手套触摸放射性物质",
+      "品尝（舔）他发现的每一种化学物质",
+      "在密闭房间里燃烧大量煤炭",
+      "用自己的血来做实验"
+    ],
+    "options_en": [
+      "Touching radioactive materials without gloves",
+      "Tasting (licking) every chemical he discovered",
+      "Burning large amounts of coal in a closed room",
+      "Using his own blood for experiments"
+    ],
+    "answer": 1,
+    "explanation": "舍勒习惯通过嗅觉和味觉来记录化学物质的性质，他甚至尝过剧毒的氢氰酸。他在43岁时死于重金属中毒症状。",
+    "explanation_en": "Scheele had a habit of recording the properties of chemicals by smell and taste; he even tasted the highly toxic hydrogen cyanide. He died at 43 with symptoms of heavy metal poisoning."
+  }
+}
+

@@ -1,0 +1,27 @@
+{
+  "id": "rome",
+  "names": {
+    "primaryName": "Rome",
+    "localizedNames": {
+      "en": "Rome",
+      "zh-Hans": "罗马",
+      "it": "Roma"
+    },
+    "aliases": [
+      "Roma"
+    ]
+  },
+  "placeType": "city",
+  "modernCountryCode": "IT",
+  "lat": 41.9028,
+  "lng": 12.4964,
+  "parentPlaceId": "latium",
+  "aliases": [
+    "Roma"
+  ],
+  "wikidataId": "Q220",
+  "geonamesId": "3169070",
+  "sourceRefs": [
+    "wikidata_entities"
+  ]
+}

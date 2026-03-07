@@ -1,0 +1,48 @@
+{
+  "id": "roman_empire_117",
+  "territoryId": "roman_empire",
+  "validFrom": {
+    "year": 117,
+    "datePrecision": "exact_year",
+    "displayLabel": "117 CE"
+  },
+  "validTo": {
+    "year": 117,
+    "datePrecision": "exact_year",
+    "displayLabel": "117 CE"
+  },
+  "displayYear": 117,
+  "geometryRefs": [
+    "roman_empire_117_core_v1",
+    "roman_empire_117_frontier_v1"
+  ],
+  "controlZones": [
+    "roman_empire_117_core_admin",
+    "roman_empire_117_frontier_admin"
+  ],
+  "mapFocus": {
+    "lat": 37.0,
+    "lng": 15.0,
+    "zoom": 4.0
+  },
+  "headline": "Representative summary for this year.",
+  "territoryNote": "Editorial note about what this snapshot is intended to show.",
+  "boundaryHighlights": [
+    "Core Mediterranean control area"
+  ],
+  "accuracy": {
+    "level": "medium",
+    "note": "Teaching-grade reconstructed boundary based on approved source set."
+  },
+  "disputeNotes": [
+    "Frontier and influence zones are generalized."
+  ],
+  "sourceRefs": [
+    "ohm_world_polities",
+    "editorial_internal_v1"
+  ],
+  "reviewStatus": "approved",
+  "highlightedEventIds": [
+    "trajan_maximum_extent_117"
+  ]
+}
