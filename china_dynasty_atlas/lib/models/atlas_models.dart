@@ -43,6 +43,32 @@ class ProjectScope {
   final List<int> recommendedExpansionYears;
 }
 
+class HistoricalDate {
+  const HistoricalDate({
+    required this.year,
+    this.month,
+    this.day,
+    this.datePrecision = 'exact_year',
+    this.displayLabel = '',
+  });
+
+  factory HistoricalDate.fromJson(Map<String, dynamic> json) {
+    return HistoricalDate(
+      year: (json['year'] as num).toInt(),
+      month: (json['month'] as num?)?.toInt(),
+      day: (json['day'] as num?)?.toInt(),
+      datePrecision: json['datePrecision'] as String? ?? 'exact_year',
+      displayLabel: json['displayLabel'] as String? ?? '',
+    );
+  }
+
+  final int year;
+  final int? month;
+  final int? day;
+  final String datePrecision;
+  final String displayLabel;
+}
+
 class Territory {
   const Territory({
     required this.id,
@@ -50,8 +76,8 @@ class Territory {
     required this.nameEn,
     required this.type,
     required this.summary,
-    required this.startYear,
-    required this.endYear,
+    required this.startDate,
+    required this.endDate,
     required this.capital,
     required this.color,
     required this.predecessors,
@@ -65,14 +91,23 @@ class Territory {
   });
 
   factory Territory.fromJson(Map<String, dynamic> json) {
+    final startDateJson = json['startDate'] as Map?;
+    final endDateJson = json['endDate'] as Map?;
+    final startDate = startDateJson != null
+        ? HistoricalDate.fromJson(Map<String, dynamic>.from(startDateJson))
+        : HistoricalDate(year: (json['startYear'] as num).toInt());
+    final endDate = endDateJson != null
+        ? HistoricalDate.fromJson(Map<String, dynamic>.from(endDateJson))
+        : HistoricalDate(year: (json['endYear'] as num).toInt());
+
     return Territory(
       id: json['id'] as String,
       nameZh: json['nameZh'] as String,
       nameEn: json['nameEn'] as String,
       type: json['type'] as String,
       summary: json['summary'] as String,
-      startYear: json['startYear'] as int,
-      endYear: json['endYear'] as int,
+      startDate: startDate,
+      endDate: endDate,
       capital: json['capital'] as String,
       color: json['color'] as String,
       predecessors: List<String>.from(json['predecessors'] as List<dynamic>),
@@ -97,8 +132,8 @@ class Territory {
   final String nameEn;
   final String type;
   final String summary;
-  final int startYear;
-  final int endYear;
+  final HistoricalDate startDate;
+  final HistoricalDate endDate;
   final String capital;
   final String color;
   final List<String> predecessors;
@@ -109,6 +144,9 @@ class Territory {
   final List<String> legacy;
   final List<String> sourceRefs;
   final List<String> capitalPlaceIds;
+
+  int get startYear => startDate.year;
+  int get endYear => endDate.year;
 }
 
 class SnapshotFocus {
@@ -207,7 +245,7 @@ class HistoricalEvent {
     required this.id,
     required this.titleZh,
     required this.titleEn,
-    required this.year,
+    required this.startDate,
     required this.territoryIds,
     required this.locationName,
     required this.lat,
@@ -225,11 +263,16 @@ class HistoricalEvent {
   });
 
   factory HistoricalEvent.fromJson(Map<String, dynamic> json) {
+    final startDateJson = json['startDate'] as Map?;
+    final startDate = startDateJson != null
+        ? HistoricalDate.fromJson(Map<String, dynamic>.from(startDateJson))
+        : HistoricalDate(year: (json['year'] as num).toInt());
+
     return HistoricalEvent(
       id: json['id'] as String,
       titleZh: json['titleZh'] as String,
       titleEn: json['titleEn'] as String,
-      year: json['year'] as int,
+      startDate: startDate,
       territoryIds: List<String>.from(json['territoryIds'] as List<dynamic>),
       locationName: json['locationName'] as String,
       lat: (json['lat'] as num).toDouble(),
@@ -258,7 +301,7 @@ class HistoricalEvent {
   final String id;
   final String titleZh;
   final String titleEn;
-  final int year;
+  final HistoricalDate startDate;
   final List<String> territoryIds;
   final String locationName;
   final double lat;
@@ -273,6 +316,8 @@ class HistoricalEvent {
   final List<String> sourceRefs;
   final List<String> placeIds;
   final String confidence;
+
+  int get year => startDate.year;
 }
 
 class HistoricalPerson {

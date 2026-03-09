@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_l10n.dart';
 import '../models/atlas_models.dart';
 
 class EventDetailPage extends StatelessWidget {
@@ -22,57 +23,54 @@ class EventDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
     final relatedPeople = event.relatedPeople
         .map((id) => peopleById[id])
         .whereType<HistoricalPerson>()
         .toList(growable: false);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('事件详情')),
+      appBar: AppBar(title: Text(l10n.text('事件详情', 'Event Details'))),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          Text(event.titleZh, style: Theme.of(context).textTheme.headlineSmall),
-          const SizedBox(height: 6),
           Text(
-            event.titleEn,
-            style: Theme.of(context).textTheme.titleSmall?.copyWith(
-              color: Theme.of(context).colorScheme.onSurfaceVariant,
-            ),
+            l10n.displayName(event.titleZh, event.titleEn),
+            style: Theme.of(context).textTheme.headlineSmall,
           ),
           const SizedBox(height: 16),
           Wrap(
             spacing: 8,
             runSpacing: 8,
             children: [
-              _MetaChip(label: '年份', value: _yearLabel(event.year)),
-              _MetaChip(label: '地点', value: event.locationName),
-              _MetaChip(label: '政权', value: territoryNames.join(' / ')),
+              _MetaChip(label: l10n.text('年份', 'Year'), value: l10n.formatYear(event.year)),
+              _MetaChip(label: l10n.text('地点', 'Location'), value: event.locationName),
+              _MetaChip(label: l10n.text('政权', 'Territory'), value: territoryNames.join(' / ')),
               if (event.confidence.isNotEmpty)
-                _MetaChip(label: '置信度', value: event.confidence),
+                _MetaChip(label: l10n.text('置信度', 'Confidence'), value: event.confidence),
             ],
           ),
           if (placeNames.isNotEmpty) ...[
             const SizedBox(height: 12),
-            Text('地点实体: ${placeNames.join(' / ')}'),
+            Text('${l10n.text('地点实体', 'Place Entities')}: ${placeNames.join(' / ')}'),
           ],
           const SizedBox(height: 20),
-          Text('摘要', style: Theme.of(context).textTheme.titleMedium),
+          Text(l10n.text('摘要', 'Summary'), style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 8),
           Text(event.summary),
           const SizedBox(height: 20),
-          Text('正文', style: Theme.of(context).textTheme.titleMedium),
+          Text(l10n.text('正文', 'Content'), style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 8),
           Text(event.content),
           if (event.significance.isNotEmpty) ...[
             const SizedBox(height: 20),
-            Text('历史意义', style: Theme.of(context).textTheme.titleMedium),
+            Text(l10n.text('历史意义', 'Significance'), style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 8),
             Text(event.significance),
           ],
           if (event.consequences.isNotEmpty) ...[
             const SizedBox(height: 20),
-            Text('后续影响', style: Theme.of(context).textTheme.titleMedium),
+            Text(l10n.text('后续影响', 'Consequences'), style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 8),
             ...event.consequences.map(
               (item) => Padding(
@@ -82,7 +80,7 @@ class EventDetailPage extends StatelessWidget {
             ),
           ],
           const SizedBox(height: 20),
-          Text('标签', style: Theme.of(context).textTheme.titleMedium),
+          Text(l10n.text('标签', 'Tags'), style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 8),
           Wrap(
             spacing: 8,
@@ -93,7 +91,7 @@ class EventDetailPage extends StatelessWidget {
           ),
           if (relatedPeople.isNotEmpty) ...[
             const SizedBox(height: 20),
-            Text('相关人物', style: Theme.of(context).textTheme.titleMedium),
+            Text(l10n.text('相关人物', 'Related People'), style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 8),
             Wrap(
               spacing: 8,
@@ -102,7 +100,9 @@ class EventDetailPage extends StatelessWidget {
                   .map(
                     (person) => ActionChip(
                       avatar: const Icon(Icons.person, size: 18),
-                      label: Text(person.nameZh),
+                      label: Text(
+                        '${l10n.displayName(person.nameZh, person.nameEn)} · ${l10n.roleLabel(person.role)}',
+                      ),
                       onPressed: () => onPersonSelected(person),
                     ),
                   )
@@ -111,7 +111,7 @@ class EventDetailPage extends StatelessWidget {
           ],
           if (event.sourceNotes.isNotEmpty) ...[
             const SizedBox(height: 20),
-            Text('资料说明', style: Theme.of(context).textTheme.titleMedium),
+            Text(l10n.text('资料说明', 'Source Notes'), style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 8),
             ...event.sourceNotes.map(
               (note) => Padding(
@@ -122,7 +122,7 @@ class EventDetailPage extends StatelessWidget {
           ],
           if (sourceLabels.isNotEmpty) ...[
             const SizedBox(height: 12),
-            Text('来源实体: ${sourceLabels.join(' / ')}'),
+            Text('${l10n.text('来源实体', 'Source Entities')}: ${sourceLabels.join(' / ')}'),
           ],
         ],
       ),
@@ -157,9 +157,3 @@ class _MetaChip extends StatelessWidget {
   }
 }
 
-String _yearLabel(int year) {
-  if (year < 0) {
-    return '公元前${year.abs()}年';
-  }
-  return '公元$year年';
-}

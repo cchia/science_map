@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../models/atlas_models.dart';
@@ -119,10 +120,12 @@ class AtlasRepository {
           (localizedNames['en'] as String?) ?? names['primaryName'] as String,
       type: json['territoryType'] as String,
       summary: json['summary'] as String? ?? '',
-      startYear: _dateYear(json['start'] as Map<String, dynamic>),
-      endYear: _dateYear(json['end'] as Map<String, dynamic>),
+      startDate: _historicalDate(json['start'] as Map<String, dynamic>),
+      endDate: _historicalDate(json['end'] as Map<String, dynamic>),
       capital: capitalName,
-      color: _territoryColor(json['id'] as String),
+      color:
+          json['color'] as String? ??
+          _territoryColor(json['id'] as String),
       predecessors: List<String>.from(
         json['predecessorIds'] as List<dynamic>? ?? const [],
       ),
@@ -215,7 +218,7 @@ class AtlasRepository {
           (localizedTitle['zh-Hans'] as String?) ??
           json['displayTitle'] as String,
       titleEn: (localizedTitle['en'] as String?) ?? title['primary'] as String,
-      year: _dateYear(json['start'] as Map<String, dynamic>),
+      startDate: _historicalDate(json['start'] as Map<String, dynamic>),
       territoryIds: List<String>.from(
         json['territoryIds'] as List<dynamic>? ?? const [],
       ),
@@ -346,8 +349,15 @@ class AtlasRepository {
     );
   }
 
-  int _dateYear(Map<String, dynamic> date) =>
-      (date['year'] as num?)?.toInt() ?? 0;
+  HistoricalDate _historicalDate(Map<String, dynamic> date) {
+    return HistoricalDate(
+      year: (date['year'] as num?)?.toInt() ?? 0,
+      month: (date['month'] as num?)?.toInt(),
+      day: (date['day'] as num?)?.toInt(),
+      datePrecision: date['datePrecision'] as String? ?? 'exact_year',
+      displayLabel: date['displayLabel'] as String? ?? '',
+    );
+  }
 
   String _localizedPlaceName(PlaceRecord? place) {
     if (place == null) return '';
@@ -377,54 +387,86 @@ class AtlasRepository {
     String assetPath,
   ) async {
     final raw = await rootBundle.loadString(assetPath);
-    final decoded = Map<String, dynamic>.from(json.decode(raw) as Map);
-    final features = (decoded['features'] as List<dynamic>)
-        .map((feature) => Map<String, dynamic>.from(feature as Map))
-        .toList(growable: false);
-
-    final polygons = <AtlasPolygonFeature>[];
-    for (final feature in features) {
-      final geometry = Map<String, dynamic>.from(feature['geometry'] as Map);
-      final type = geometry['type'] as String;
-      final coordinates = geometry['coordinates'] as List<dynamic>;
-
-      if (type == 'Polygon') {
-        polygons.add(
-          AtlasPolygonFeature(
-            snapshotId: snapshotId,
-            geometryId: geometryId,
-            rings: _parsePolygonCoordinates(coordinates),
-          ),
-        );
-      } else if (type == 'MultiPolygon') {
-        for (final polygon in coordinates) {
-          polygons.add(
-            AtlasPolygonFeature(
-              snapshotId: snapshotId,
-              geometryId: geometryId,
-              rings: _parsePolygonCoordinates(polygon as List<dynamic>),
-            ),
-          );
-        }
-      }
-    }
-
-    return polygons;
-  }
-
-  List<List<List<double>>> _parsePolygonCoordinates(List<dynamic> polygon) {
-    return polygon
+    final parsed = await compute(_parseGeoJsonFeaturesInIsolate, <String, dynamic>{
+      'snapshotId': snapshotId,
+      'geometryId': geometryId,
+      'raw': raw,
+    });
+    return parsed
         .map(
-          (ring) => (ring as List<dynamic>)
-              .map((point) {
-                final coords = point as List<dynamic>;
-                return <double>[
-                  (coords[0] as num).toDouble(),
-                  (coords[1] as num).toDouble(),
-                ];
-              })
-              .toList(growable: false),
+          (feature) => AtlasPolygonFeature(
+            snapshotId: feature['snapshotId'] as String,
+            geometryId: feature['geometryId'] as String,
+            rings: (feature['rings'] as List<dynamic>)
+                .map<List<List<double>>>(
+                  (ring) => (ring as List<dynamic>)
+                      .map<List<double>>(
+                        (point) => [
+                          (point as List<dynamic>)[0] as double,
+                          point[1] as double,
+                        ],
+                      )
+                      .toList(growable: false),
+                )
+                .toList(growable: false),
+          ),
         )
         .toList(growable: false);
   }
+}
+
+List<Map<String, dynamic>> _parseGeoJsonFeaturesInIsolate(
+  Map<String, dynamic> payload,
+) {
+  final snapshotId = payload['snapshotId'] as String;
+  final geometryId = payload['geometryId'] as String;
+  final raw = payload['raw'] as String;
+
+  final decoded = Map<String, dynamic>.from(json.decode(raw) as Map);
+  final features = (decoded['features'] as List<dynamic>)
+      .map((feature) => Map<String, dynamic>.from(feature as Map))
+      .toList(growable: false);
+
+  final polygons = <Map<String, dynamic>>[];
+  for (final feature in features) {
+    final geometry = Map<String, dynamic>.from(feature['geometry'] as Map);
+    final type = geometry['type'] as String;
+    final coordinates = geometry['coordinates'] as List<dynamic>;
+
+    if (type == 'Polygon') {
+      polygons.add({
+        'snapshotId': snapshotId,
+        'geometryId': geometryId,
+        'rings': _parsePolygonCoordinatesInIsolate(coordinates),
+      });
+    } else if (type == 'MultiPolygon') {
+      for (final polygon in coordinates) {
+        polygons.add({
+          'snapshotId': snapshotId,
+          'geometryId': geometryId,
+          'rings': _parsePolygonCoordinatesInIsolate(polygon as List<dynamic>),
+        });
+      }
+    }
+  }
+
+  return polygons;
+}
+
+List<List<List<double>>> _parsePolygonCoordinatesInIsolate(
+  List<dynamic> polygon,
+) {
+  return polygon
+      .map(
+        (ring) => (ring as List<dynamic>)
+            .map<List<double>>((point) {
+              final coords = point as List<dynamic>;
+              return <double>[
+                (coords[0] as num).toDouble(),
+                (coords[1] as num).toDouble(),
+              ];
+            })
+            .toList(growable: false),
+      )
+      .toList(growable: false);
 }

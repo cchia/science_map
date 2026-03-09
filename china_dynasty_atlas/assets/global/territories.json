@@ -38,6 +38,7 @@
       "在统一与暴政之间留下持续被讨论的历史形象"
     ],
     "tags": ["china", "dynasty", "unification"],
+    "color": "#B85C38",
     "sourceRefs": ["editorial_internal_v1"]
   },
   {
@@ -79,6 +80,7 @@
       "把中国古代帝国从内向统一推向外向经营"
     ],
     "tags": ["china", "dynasty", "silk-road"],
+    "color": "#D9A441",
     "sourceRefs": ["editorial_internal_v1"]
   },
   {
@@ -120,6 +122,7 @@
       "为东汉重建提供了强烈的反面经验"
     ],
     "tags": ["china", "dynasty", "reform"],
+    "color": "#8F6F9C",
     "sourceRefs": ["editorial_internal_v1"]
   },
   {
@@ -161,6 +164,7 @@
       "为三国时期的地方割据和新秩序形成铺路"
     ],
     "tags": ["china", "dynasty", "late-empire"],
+    "color": "#4E7A52",
     "sourceRefs": ["editorial_internal_v1"]
   }
 ]

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'l10n/app_l10n.dart';
 import 'screens/atlas_home_page.dart';
 
 void main() {
@@ -16,19 +19,28 @@ class ChinaDynastyAtlasApp extends StatelessWidget {
       brightness: Brightness.light,
     );
 
-    return MaterialApp(
-      title: '中国王朝图谱',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: colorScheme,
-        scaffoldBackgroundColor: const Color(0xFFF7F1E4),
-        cardTheme: const CardThemeData(
-          elevation: 0,
-          surfaceTintColor: Colors.transparent,
+    return ProviderScope(
+      child: MaterialApp(
+        onGenerateTitle: (context) => AppL10n.of(context).appTitle,
+        title: 'China Dynasty Atlas',
+        debugShowCheckedModeBanner: false,
+        supportedLocales: const [Locale('zh'), Locale('en')],
+        localizationsDelegates: const [
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        theme: ThemeData(
+          colorScheme: colorScheme,
+          scaffoldBackgroundColor: const Color(0xFFF7F1E4),
+          cardTheme: const CardThemeData(
+            elevation: 0,
+            surfaceTintColor: Colors.transparent,
+          ),
+          useMaterial3: true,
         ),
-        useMaterial3: true,
+        home: const AtlasHomePage(),
       ),
-      home: const AtlasHomePage(),
     );
   }
 }

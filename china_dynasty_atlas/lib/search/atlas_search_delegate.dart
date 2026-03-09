@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_l10n.dart';
 import '../models/atlas_models.dart';
 
 enum SearchSelectionType { territory, event, person }
@@ -23,43 +24,51 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
   final List<HistoricalPerson> people;
 
   @override
-  String get searchFieldLabel => '搜索国家、事件或人物';
+  String get searchFieldLabel {
+    final locale = WidgetsBinding.instance.platformDispatcher.locale;
+    final isZh = AppL10n.useChineseForLocale(locale);
+    return isZh ? '搜索国家、事件或人物' : 'Search territories, events, or people';
+  }
 
   @override
   List<Widget>? buildActions(BuildContext context) {
+    final l10n = AppL10n.of(context);
     return [
       if (query.isNotEmpty)
         IconButton(
           onPressed: () => query = '',
           icon: const Icon(Icons.clear),
-          tooltip: '清空',
+          tooltip: l10n.text('清空', 'Clear'),
         ),
     ];
   }
 
   @override
   Widget? buildLeading(BuildContext context) {
+    final l10n = AppL10n.of(context);
     return IconButton(
       onPressed: () => close(context, null),
       icon: const Icon(Icons.arrow_back),
-      tooltip: '返回',
+      tooltip: l10n.text('返回', 'Back'),
     );
   }
 
   @override
   Widget buildResults(BuildContext context) {
+    final l10n = AppL10n.of(context);
     return _SearchResultList(
-      results: _filteredResults(query),
+      results: _filteredResults(query, l10n),
       onSelected: (selection) => close(context, selection),
     );
   }
 
   @override
   Widget buildSuggestions(BuildContext context) {
+    final l10n = AppL10n.of(context);
     final normalizedQuery = query.trim();
     final results = normalizedQuery.isEmpty
-        ? _featuredResults()
-        : _filteredResults(normalizedQuery);
+        ? _featuredResults(l10n)
+        : _filteredResults(normalizedQuery, l10n);
 
     return _SearchResultList(
       results: results,
@@ -67,7 +76,7 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
     );
   }
 
-  List<_SearchResult> _featuredResults() {
+  List<_SearchResult> _featuredResults(AppL10n l10n) {
     final featuredTerritories = territories
         .take(4)
         .map(
@@ -76,8 +85,8 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
               type: SearchSelectionType.territory,
               id: territory.id,
             ),
-            title: territory.nameZh,
-            subtitle: '${territory.nameEn} · 政权',
+            title: l10n.displayName(territory.nameZh, territory.nameEn),
+            subtitle: l10n.text('政权', 'Territory'),
             keywords: [
               territory.nameZh,
               territory.nameEn,
@@ -96,8 +105,8 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
               type: SearchSelectionType.event,
               id: event.id,
             ),
-            title: event.titleZh,
-            subtitle: '${_yearLabel(event.year)} · ${event.locationName}',
+            title: l10n.displayName(event.titleZh, event.titleEn),
+            subtitle: '${l10n.formatYear(event.year)} · ${event.locationName}',
             keywords: [
               event.titleZh,
               event.titleEn,
@@ -117,9 +126,15 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
               type: SearchSelectionType.person,
               id: person.id,
             ),
-            title: person.nameZh,
-            subtitle: '${person.nameEn} · ${person.role}',
-            keywords: [person.nameZh, person.nameEn, person.role, person.id],
+            title: l10n.displayName(person.nameZh, person.nameEn),
+            subtitle: l10n.roleLabel(person.role),
+            keywords: [
+              person.nameZh,
+              person.nameEn,
+              person.role,
+              l10n.roleLabel(person.role),
+              person.id,
+            ],
             icon: Icons.person,
           ),
         );
@@ -127,9 +142,9 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
     return [...featuredTerritories, ...featuredEvents, ...featuredPeople];
   }
 
-  List<_SearchResult> _filteredResults(String rawQuery) {
+  List<_SearchResult> _filteredResults(String rawQuery, AppL10n l10n) {
     final normalized = rawQuery.trim().toLowerCase();
-    if (normalized.isEmpty) return _featuredResults();
+    if (normalized.isEmpty) return _featuredResults(l10n);
 
     final results = <_SearchResult>[
       ...territories.map(
@@ -138,9 +153,9 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
             type: SearchSelectionType.territory,
             id: territory.id,
           ),
-          title: territory.nameZh,
+          title: l10n.displayName(territory.nameZh, territory.nameEn),
           subtitle:
-              '${territory.nameEn} · ${_yearLabel(territory.startYear)} - ${_yearLabel(territory.endYear)}',
+              '${l10n.formatYear(territory.startYear)} - ${l10n.formatYear(territory.endYear)}',
           keywords: [
             territory.nameZh,
             territory.nameEn,
@@ -157,8 +172,8 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
             type: SearchSelectionType.event,
             id: event.id,
           ),
-          title: event.titleZh,
-          subtitle: '${_yearLabel(event.year)} · ${event.locationName}',
+          title: l10n.displayName(event.titleZh, event.titleEn),
+          subtitle: '${l10n.formatYear(event.year)} · ${event.locationName}',
           keywords: [
             event.titleZh,
             event.titleEn,
@@ -175,13 +190,14 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
             type: SearchSelectionType.person,
             id: person.id,
           ),
-          title: person.nameZh,
-          subtitle: '${person.nameEn} · ${person.role}',
+          title: l10n.displayName(person.nameZh, person.nameEn),
+          subtitle: l10n.roleLabel(person.role),
           keywords: [
             person.nameZh,
             person.nameEn,
             person.id,
             person.role,
+            l10n.roleLabel(person.role),
             person.bioShort,
           ],
           icon: Icons.person,
@@ -201,8 +217,9 @@ class _SearchResultList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
     if (results.isEmpty) {
-      return const Center(child: Text('没有找到匹配项'));
+      return Center(child: Text(l10n.text('没有找到匹配项', 'No matches found')));
     }
 
     return ListView.separated(
@@ -242,9 +259,3 @@ class _SearchResult {
   }
 }
 
-String _yearLabel(int year) {
-  if (year < 0) {
-    return '公元前${year.abs()}年';
-  }
-  return '公元$year年';
-}
