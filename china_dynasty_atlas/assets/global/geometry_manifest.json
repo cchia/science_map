@@ -721,7 +721,7 @@
   },
   {
     "id": "liao_1000",
-    "path": "assets/geojson/unified/liao_1000.geojson",
+    "assetPath": "assets/geojson/unified/liao_1000.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 35,
@@ -732,7 +732,7 @@
   },
   {
     "id": "xixia_1000",
-    "path": "assets/geojson/unified/xixia_1000.geojson",
+    "assetPath": "assets/geojson/unified/xixia_1000.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 35,
@@ -743,7 +743,7 @@
   },
   {
     "id": "tibet_800",
-    "path": "assets/geojson/unified/tibet_800.geojson",
+    "assetPath": "assets/geojson/unified/tibet_800.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 27,
@@ -754,7 +754,7 @@
   },
   {
     "id": "tibet_1000",
-    "path": "assets/geojson/unified/tibet_1000.geojson",
+    "assetPath": "assets/geojson/unified/tibet_1000.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 27,
@@ -765,7 +765,7 @@
   },
   {
     "id": "goguryeo_400",
-    "path": "assets/geojson/unified/goguryeo_400.geojson",
+    "assetPath": "assets/geojson/unified/goguryeo_400.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 38,
@@ -776,7 +776,7 @@
   },
   {
     "id": "goguryeo_600",
-    "path": "assets/geojson/unified/goguryeo_600.geojson",
+    "assetPath": "assets/geojson/unified/goguryeo_600.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 38,
@@ -787,7 +787,7 @@
   },
   {
     "id": "dali_1000",
-    "path": "assets/geojson/unified/dali_1000.geojson",
+    "assetPath": "assets/geojson/unified/dali_1000.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 22,
@@ -798,7 +798,7 @@
   },
   {
     "id": "nanchao_800",
-    "path": "assets/geojson/unified/nanchao_800.geojson",
+    "assetPath": "assets/geojson/unified/nanchao_800.geojson",
     "sourceType": "world_historical_gis",
     "bounds": {
       "minLat": 22,
