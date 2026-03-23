@@ -75,11 +75,17 @@ flowchart LR
 
 Optional later:
 
-- `storylines.json`
 - `organizations.json`
 - `trade_routes.json`
 - `religions.json`
 - `languages.json`
+
+## Global Map + Story Driven Architecture
+
+To prevent becoming just another "color-filled world map encyclopedia" like GeaCron or TimeMaps, this model combines **Global Territories (Base Layer)** with **Storylines (Narrative Layer)**. 
+
+1. **Global Territories**: Using the `Territory` and `TerritorySnapshot` entities, we can import world history datasets (e.g., Roman Empire, Parthian Empire) alongside Chinese dynasties. Control zones (`core_admin`, `vassal`, etc.) will show varying degrees of political control.
+2. **Storylines**: Using the `Storyline` entity, we thread isolated events across different countries and regions into a cohesive narrative (e.g., "The Silk Road", "World War II"). This allows the user to click through a story while the map automatically updates years, shifts focus, and draws global boundaries dynamically.
 
 ## Canonical Models
 
@@ -297,6 +303,20 @@ Recommended fields:
 - `notes`
 
 This should align with the license ledger introduced under `docs/data-governance/`.
+
+### 9. `Storyline`
+
+Represents a narrative thread that strings together events across different times and regions (e.g., "The Silk Road", "Age of Discovery"). This gives the global map a "story mode" beyond just scrolling the timeline.
+
+Recommended fields:
+
+- `id`
+- `titleZh` / `titleEn`
+- `emoji`
+- `themeType` (e.g., "trade", "military", "culture")
+- `descriptionZh` / `descriptionEn`
+- `eventIds` (Ordered list of `HistoricalEvent` IDs)
+- `narrativeIntro` (Object containing text and a `coreQuestion`)
 
 ## Time Model
 

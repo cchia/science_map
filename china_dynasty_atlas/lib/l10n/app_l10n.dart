@@ -5,7 +5,7 @@ class AppL10n {
 
   // Narrative fields are currently authored in Chinese only.
   // Keep UI single-language (Chinese) until full English narrative pack is ready.
-  static const bool englishNarrativeReady = false;
+  static const bool englishNarrativeReady = true;
 
   final bool _isZh;
 
@@ -20,6 +20,7 @@ class AppL10n {
   }
 
   String text(String zh, String en) => _isZh ? zh : en;
+  bool get isZh => _isZh;
 
   String get appTitle => text('中国王朝图谱', 'China Dynasty Atlas');
 
@@ -96,6 +97,94 @@ class AppL10n {
         return 'CC0';
       default:
         return license;
+    }
+  }
+
+  String tagLabel(String tag) {
+    if (_isZh) return tag;
+    switch (tag) {
+      case '统一':
+        return 'Unification';
+      case '制度':
+        return 'Institutions';
+      case '帝国':
+        return 'Empire';
+      case '军事':
+        return 'Military';
+      case '边疆':
+        return 'Frontier';
+      case '工程':
+        return 'Infrastructure';
+      case '思想':
+        return 'Ideas';
+      case '政治':
+        return 'Politics';
+      case '法家':
+        return 'Legalism';
+      case '崩溃':
+        return 'Collapse';
+      case '起义':
+        return 'Rebellion';
+      case '帝国治理':
+        return 'Imperial Governance';
+      case '建国':
+        return 'State Founding';
+      case '楚汉战争':
+        return 'Chu-Han War';
+      case '制度继承':
+        return 'Institutional Inheritance';
+      case '治世':
+        return 'Prosperous Rule';
+      case '经济':
+        return 'Economy';
+      case '政治稳定':
+        return 'Political Stability';
+      case '外交':
+        return 'Diplomacy';
+      case '西域':
+        return 'Western Regions';
+      case '丝绸之路':
+        return 'Silk Road';
+      case '扩张':
+        return 'Expansion';
+      case '贸易':
+        return 'Trade';
+      case '交通':
+        return 'Transport';
+      case '篡汉':
+        return 'Usurpation';
+      case '政治转折':
+        return 'Political Turning Point';
+      case '改革':
+        return 'Reform';
+      case '制度实验':
+        return 'Institutional Experiment';
+      case '危机':
+        return 'Crisis';
+      case '灭亡':
+        return 'Dynastic Fall';
+      case '再统一':
+        return 'Reunification';
+      case '洛阳':
+        return 'Luoyang';
+      case '科技':
+        return 'Technology';
+      case '文化':
+        return 'Culture';
+      case '知识传播':
+        return 'Knowledge Diffusion';
+      case '宗教':
+        return 'Religion';
+      case '王朝衰落':
+        return 'Dynastic Decline';
+      case '终结':
+        return 'End';
+      case '三国前夜':
+        return 'Eve of the Three Kingdoms';
+      case '政治转型':
+        return 'Political Transition';
+      default:
+        return tag;
     }
   }
 }

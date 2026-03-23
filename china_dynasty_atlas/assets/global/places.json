@@ -198,5 +198,105 @@
     "wikidataId": "",
     "geonamesId": "",
     "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "chengdu",
+    "names": {
+      "primaryName": "Chengdu",
+      "localizedNames": {
+        "en": "Chengdu",
+        "zh-Hans": "成都"
+      },
+      "aliases": []
+    },
+    "placeType": "capital_city",
+    "modernCountryCode": "CN",
+    "lat": 30.5728,
+    "lng": 104.0668,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "jianye",
+    "names": {
+      "primaryName": "Jianye",
+      "localizedNames": {
+        "en": "Jianye",
+        "zh-Hans": "建业"
+      },
+      "aliases": ["Jiankang", "Nanjing (historical)"]
+    },
+    "placeType": "capital_city",
+    "modernCountryCode": "CN",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "parentPlaceId": "",
+    "aliases": ["建康", "南京（古称）"],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "hanzhong",
+    "names": {
+      "primaryName": "Hanzhong",
+      "localizedNames": {
+        "en": "Hanzhong",
+        "zh-Hans": "汉中"
+      },
+      "aliases": []
+    },
+    "placeType": "region",
+    "modernCountryCode": "CN",
+    "lat": 33.0675,
+    "lng": 107.0238,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "jiangdong_lower_yangtze",
+    "names": {
+      "primaryName": "Jiangdong and Lower Yangtze",
+      "localizedNames": {
+        "en": "Jiangdong and Lower Yangtze",
+        "zh-Hans": "江东与长江下游"
+      },
+      "aliases": []
+    },
+    "placeType": "macro_region",
+    "modernCountryCode": "CN",
+    "lat": 31.5,
+    "lng": 118.0,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
+  },
+  {
+    "id": "north_china_plain",
+    "names": {
+      "primaryName": "North China Plain",
+      "localizedNames": {
+        "en": "North China Plain",
+        "zh-Hans": "华北平原"
+      },
+      "aliases": []
+    },
+    "placeType": "macro_region",
+    "modernCountryCode": "CN",
+    "lat": 36.0,
+    "lng": 115.0,
+    "parentPlaceId": "",
+    "aliases": [],
+    "wikidataId": "",
+    "geonamesId": "",
+    "sourceRefs": ["editorial_internal_v1"]
   }
 ]

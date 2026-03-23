@@ -3,36 +3,49 @@
     "id": "qin_-221",
     "territoryId": "qin",
     "validFrom": {
-      "year": -221,
+      "year": -323,
       "datePrecision": "exact_year",
       "displayLabel": "公元前221年"
     },
     "validTo": {
-      "year": -221,
+      "year": -323,
       "datePrecision": "exact_year",
       "displayLabel": "公元前221年"
     },
-    "displayYear": -221,
-    "geometryRefs": ["qin_-221_main_v5"],
+    "displayYear": -323,
+    "geometryRefs": [
+      "qin_dynasty_unified_323bc"
+    ],
     "controlZones": [],
     "mapFocus": {
       "lat": 34.6,
-      "lng": 105.0,
+      "lng": 105,
       "zoom": 4.2
     },
     "headline": "秦完成统一，中央集权帝国第一次覆盖广阔中原与南方地区。",
+    "headlineEn": "Qin completes unification, marking the first centralized imperial envelope across the core plains and parts of the south.",
     "territoryNote": "这一快照强调秦统一后的帝国轮廓，用于展示从战国分裂向大一统帝国转变的历史节点。",
+    "territoryNoteEn": "This snapshot emphasizes the post-unification Qin imperial outline as a transition point from Warring States fragmentation to unified empire.",
     "boundaryHighlights": [
       "边界收敛到统一完成当年的主轮廓，避免把后续边疆推进提前算入",
       "南方不再按后续岭南经营成果回推到 221 BCE",
       "渤海转折、东部海岸与南缘收口进一步按统一初年的帝国外缘细化，而不是后续长期经营结果"
     ],
+    "boundaryHighlightsEn": [
+      "Boundary is constrained to the unification-year main outline instead of projecting later frontier expansion backward",
+      "Southern extent no longer back-projects later Lingnan consolidation into 221 BCE",
+      "Bohai turn, eastern coast, and southern closure are refined for early Qin imperial extent rather than later long-term control outcomes"
+    ],
     "accuracy": {
       "level": "high",
-      "note": "本快照现在使用 221 BCE 的 v5 tracing 样板主边界，进一步细化了渤海转折、东部海岸与南缘收口，重点纠正南方与边疆的过度外推，但仍不是逐郡县考订版。"
+      "note": "本快照现在使用 221 BCE 的 v5 tracing 样板主边界，进一步细化了渤海转折、东部海岸与南缘收口，重点纠正南方与边疆的过度外推，但仍不是逐郡县考订版。",
+      "noteEn": "This snapshot uses the 221 BCE v5 tracing main boundary, further refining Bohai transition, east coast articulation, and southern closure while correcting over-projection of southern/frontier extent. It is still not a county-level historical GIS reconstruction."
     },
     "disputeNotes": [
       "边疆地区控制强度与现代国界概念并不一致。"
+    ],
+    "disputeNotesEn": [
+      "Control intensity in frontier zones does not map directly to modern border concepts."
     ],
     "sourceRefs": [
       "geometry_editorial_qin_221_v5",
@@ -51,36 +64,49 @@
     "id": "western_han_-141",
     "territoryId": "western_han",
     "validFrom": {
-      "year": -141,
+      "year": -200,
       "datePrecision": "exact_year",
       "displayLabel": "公元前141年"
     },
     "validTo": {
-      "year": -141,
+      "year": -200,
       "datePrecision": "exact_year",
       "displayLabel": "公元前141年"
     },
-    "displayYear": -141,
-    "geometryRefs": ["western_han_-141_main_v5"],
+    "displayYear": -200,
+    "geometryRefs": [
+      "han_dynasty_unified_200bc"
+    ],
     "controlZones": [],
     "mapFocus": {
-      "lat": 36.0,
+      "lat": 36,
       "lng": 103.5,
       "zoom": 4.1
     },
     "headline": "西汉进入强盛期前夜，即将走向对外扩张与丝路开辟。",
+    "headlineEn": "Western Han enters the pre-expansion phase, approaching major outward campaigns and Silk Road opening.",
     "territoryNote": "这一年份适合作为西汉扩张时代的入口，方便承接张骞出使、河西经营与汉武帝改革，因此不应混入 111 BCE 后的岭南与 60 BCE 后的西域保护府外缘。",
+    "territoryNoteEn": "This year serves as an entry point into Western Han expansion, linking to Zhang Qian's missions, Hexi strategy, and Emperor Wu reforms. It should not include Lingnan after 111 BCE or Western Regions Protectorate extent after 60 BCE.",
     "boundaryHighlights": [
       "关中和中原仍是帝国财政与政治核心区，山东半岛与辽东东缘保留为早期汉帝国的稳定组成部分",
       "南缘收回到长沙及长江中下游体系，不再把尚未并入的岭南与闽越地区画成西汉本部",
       "西向边界停在河西扩张前夜，明确区别于 60 BCE 后才稳定成形的西域保护府范围"
     ],
+    "boundaryHighlightsEn": [
+      "Guanzhong and the central plains remain fiscal-political cores, with Shandong peninsula and eastern Liaodong retained as stable early Han components",
+      "Southern edge is constrained to the Changsha and middle-lower Yangtze system, excluding not-yet-incorporated Lingnan and Minyue as Western Han core",
+      "Western boundary stops before full Hexi-to-Western Regions stabilization, distinct from post-60 BCE protectorate envelope"
+    ],
     "accuracy": {
       "level": "high",
-      "note": "该样板以西汉 141 BCE 为单点做了 v5 tracing，进一步细化了山东半岛、渤海转折、东部海岸和长江下游到南缘的过渡，重点纠正两个常见错误：一是把后期西域保护府范围提前画入，二是把 111 BCE 后才并入的岭南地区提前画成西汉本部。"
+      "note": "该样板以西汉 141 BCE 为单点做了 v5 tracing，进一步细化了山东半岛、渤海转折、东部海岸和长江下游到南缘的过渡，重点纠正两个常见错误：一是把后期西域保护府范围提前画入，二是把 111 BCE 后才并入的岭南地区提前画成西汉本部。",
+      "noteEn": "This sample uses a single-point v5 tracing for Western Han 141 BCE, with improved Shandong peninsula, Bohai transition, east coast articulation, and lower-Yangtze-to-south closure. It corrects two frequent errors: prematurely including later Western Regions Protectorate scope, and drawing post-111 BCE Lingnan annexation as if already core Western Han territory."
     },
     "disputeNotes": [
       "并非西汉最大版图年份，不应按后期强盛范围倒推。"
+    ],
+    "disputeNotesEn": [
+      "This is not Western Han at its maximum extent and should not be back-projected from later peak borders."
     ],
     "sourceRefs": [
       "geometry_editorial_western_han_141_v5",
@@ -112,26 +138,39 @@
       "displayLabel": "公元8年"
     },
     "displayYear": 8,
-    "geometryRefs": ["xin_8_main_v5"],
+    "geometryRefs": [
+      "han_dynasty_unified_200bc"
+    ],
     "controlZones": [],
     "mapFocus": {
       "lat": 35.3,
-      "lng": 104.0,
+      "lng": 104,
       "zoom": 4.1
     },
     "headline": "王莽代汉建立新朝，试图以激进改制重塑秩序。",
+    "headlineEn": "Wang Mang replaces Han and founds Xin, attempting to rebuild order through radical reform.",
     "territoryNote": "新朝疆域仍承袭西汉的大框架，但其政治合法性与治理能力远不如西汉稳固。",
+    "territoryNoteEn": "Xin retains a broad inherited Western Han frame in nominal extent, but its political legitimacy and governing capacity are far less stable.",
     "boundaryHighlights": [
       "在版图轮廓上保留承袭西汉的总体外观，但西部和南部收得更像王莽初建新朝时的中间态",
       "真正变化集中在控制能力与地方服从度的松动，而不只是边线变化",
       "边界按 8 CE 的名义主轮廓表达，治理脆弱性放到说明文字中处理"
     ],
+    "boundaryHighlightsEn": [
+      "Preserves inherited Western Han macro-shape while tightening west and south toward an early-Xin transitional profile",
+      "Primary change lies in weakening control and local compliance, not only in boundary line geometry",
+      "Boundary expresses nominal 8 CE main envelope, with governance fragility handled in narrative notes"
+    ],
     "accuracy": {
       "level": "high",
-      "note": "新朝快照现在使用 8 CE 的 v5 tracing 样板主边界，既保留承袭西汉的空间关系，也更清楚地把它放在西汉更外、东汉更收之间的中间位置，避免把脆弱边地误读为稳定控制。"
+      "note": "新朝快照现在使用 8 CE 的 v5 tracing 样板主边界，既保留承袭西汉的空间关系，也更清楚地把它放在西汉更外、东汉更收之间的中间位置，避免把脆弱边地误读为稳定控制。",
+      "noteEn": "The Xin snapshot now uses an 8 CE v5 tracing main boundary, preserving inherited Western Han spatial relations while placing Xin more clearly in a middle position between broader Western Han and more contracted Eastern Han. This reduces misreading fragile frontier zones as stable control."
     },
     "disputeNotes": [
       "示意图不表达各地控制强弱的连续梯度。"
+    ],
+    "disputeNotesEn": [
+      "This schematic does not encode continuous gradients of control intensity across regions."
     ],
     "sourceRefs": [
       "geometry_editorial_xin_8_v5",
@@ -160,26 +199,39 @@
       "displayLabel": "公元25年"
     },
     "displayYear": 25,
-    "geometryRefs": ["eastern_han_25_main_v5"],
+    "geometryRefs": [
+      "han_dynasty_unified_200bc"
+    ],
     "controlZones": [],
     "mapFocus": {
       "lat": 35.6,
-      "lng": 107.0,
-      "zoom": 4.0
+      "lng": 107,
+      "zoom": 4
     },
     "headline": "刘秀重建汉室，东汉成为继新朝之后的再统一王朝。",
+    "headlineEn": "Liu Xiu restores Han rule, and Eastern Han becomes the reunified dynasty after Xin.",
     "territoryNote": "东汉前期恢复帝国秩序，后续则在科技文化繁荣中逐渐积累晚期政治危机。",
+    "territoryNoteEn": "Early Eastern Han restores imperial order, while later centuries accumulate structural political crisis amid major cultural and technological development.",
     "boundaryHighlights": [
       "洛阳取代长安成为帝国核心政治中心之一",
       "边界回到更接近建武初年的单一主轮廓，而不是后期成熟东汉的外缘",
       "西北边地和南缘都收缩到更接近建武初年的恢复状态，避免提前画入后期再巩固成果"
     ],
+    "boundaryHighlightsEn": [
+      "Luoyang replaces Chang'an as a principal imperial political center",
+      "Boundary returns to an early Jianwu-era restoration outline rather than a later mature Eastern Han envelope",
+      "Northwestern and southern edges are contracted toward early-restoration conditions, avoiding premature inclusion of later reconsolidation outcomes"
+    ],
     "accuracy": {
       "level": "high",
-      "note": "东汉快照现在使用 25 CE 的 v5 tracing 样板主边界，更清楚地区分了早期东汉恢复轮廓与新朝继承轮廓以及后期成熟东汉的范围，尤其体现在西部和南部边线。"
+      "note": "东汉快照现在使用 25 CE 的 v5 tracing 样板主边界，更清楚地区分了早期东汉恢复轮廓与新朝继承轮廓以及后期成熟东汉的范围，尤其体现在西部和南部边线。",
+      "noteEn": "The Eastern Han snapshot now uses a 25 CE v5 tracing main boundary, more clearly separating early Eastern Han restoration outline from inherited Xin geometry and later mature Eastern Han extent, especially along western and southern edges."
     },
     "disputeNotes": [
       "本示意图不包含不同时期边疆控制强弱的细粒度变化。"
+    ],
+    "disputeNotesEn": [
+      "This schematic does not include fine-grained temporal variation in frontier control intensity."
     ],
     "sourceRefs": [
       "geometry_editorial_eastern_han_25_v5",
@@ -194,5 +246,1114 @@
       "yellow_turban_184",
       "han_end_220"
     ]
+  },
+  {
+    "id": "cao_wei_220",
+    "territoryId": "cao_wei",
+    "validFrom": {
+      "year": 220,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元220年"
+    },
+    "validTo": {
+      "year": 220,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元220年"
+    },
+    "displayYear": 220,
+    "geometryRefs": [
+      "cao_wei_220_main_v3"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 35.8,
+      "lng": 113,
+      "zoom": 4.2
+    },
+    "headline": "曹魏在东汉终结后迅速确立北方核心政权地位。",
+    "headlineEn": "Cao Wei rapidly established itself as the core northern state after the end of Eastern Han.",
+    "territoryNote": "该快照用于展示三国初期北方政权结构重组，强调从汉末到魏初的制度与控制连续性。",
+    "territoryNoteEn": "This snapshot presents early Three Kingdoms northern state reconfiguration, emphasizing institutional and control continuity from late Han into early Wei.",
+    "boundaryHighlights": [
+      "以华北平原和中原为核心，突出北方主政权空间",
+      "边线表达政权主控制区，不提前并入后期扩张变化",
+      "与蜀汉、东吴在同一时期形成三方并立格局"
+    ],
+    "boundaryHighlightsEn": [
+      "Centers on the North China Plain and central plains as the core governing space",
+      "Boundary represents principal control zones without projecting later expansion",
+      "Forms a tripartite balance with Shu Han and Eastern Wu in the same period"
+    ],
+    "accuracy": {
+      "level": "medium",
+      "note": "该快照为三国扩展阶段的首版样板，当前优先用于时间线与叙事联动，后续再进行边界精修。",
+      "noteEn": "This snapshot is a first-pass sample for Three Kingdoms expansion; current priority is timeline-narrative linkage, with boundary precision refinement scheduled later."
+    },
+    "disputeNotes": [
+      "三国早期边疆与地方控制存在显著时段差异，示意图不覆盖细粒度动态。"
+    ],
+    "disputeNotesEn": [
+      "Early Three Kingdoms frontier and local control varied significantly by sub-period; this schematic does not encode fine-grained dynamics."
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": [
+      "han_end_220",
+      "wei_founding_220"
+    ]
+  },
+  {
+    "id": "shu_han_221",
+    "territoryId": "shu_han",
+    "validFrom": {
+      "year": 221,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元221年"
+    },
+    "validTo": {
+      "year": 221,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元221年"
+    },
+    "displayYear": 221,
+    "geometryRefs": [
+      "shu_han_221_main_v3"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 31,
+      "lng": 104.8,
+      "zoom": 4.3
+    },
+    "headline": "蜀汉在西南建立独立政权，形成三国并立结构中的西南支柱。",
+    "headlineEn": "Shu Han established an independent southwestern state, becoming the southwestern pillar of the tripartite Three Kingdoms order.",
+    "territoryNote": "该快照强调蜀汉以成都与汉中为战略轴线的早期政权空间。",
+    "territoryNoteEn": "This snapshot emphasizes early Shu Han state space organized around the Chengdu-Hanzhong strategic axis.",
+    "boundaryHighlights": [
+      "以益州盆地与汉中通道为主控制区",
+      "边界表达蜀汉早期稳定控制范围而非全时期最大外缘",
+      "突出与北方魏政权在关中-汉中方向的战略对峙"
+    ],
+    "boundaryHighlightsEn": [
+      "Focuses on the Yi Province basin and Hanzhong corridor as core control zones",
+      "Boundary reflects early stable Shu control rather than maximum lifetime extent",
+      "Highlights strategic confrontation with Wei along the Guanzhong-Hanzhong axis"
+    ],
+    "accuracy": {
+      "level": "medium",
+      "note": "当前为三国阶段初版边界框架，用于承接事件叙事，后续将按年份细化。",
+      "noteEn": "Current version is a first-pass Three Kingdoms boundary framework for event narrative linkage; year-specific refinement will follow."
+    },
+    "disputeNotes": [
+      "山地边缘地带的控制强度随军事态势变化较快。"
+    ],
+    "disputeNotesEn": [
+      "Control intensity in mountainous fringe zones shifted quickly with campaign conditions."
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": [
+      "shu_founding_221"
+    ]
+  },
+  {
+    "id": "eastern_wu_229",
+    "territoryId": "eastern_wu",
+    "validFrom": {
+      "year": 229,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元229年"
+    },
+    "validTo": {
+      "year": 229,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元229年"
+    },
+    "displayYear": 229,
+    "geometryRefs": [
+      "eastern_wu_229_main_v3"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 30.8,
+      "lng": 117.2,
+      "zoom": 4.2
+    },
+    "headline": "东吴正式建国后，江东与长江下游成为南方长期政权核心。",
+    "headlineEn": "After formal state founding, Eastern Wu consolidated Jiangdong and the lower Yangtze as the core of long-term southern rule.",
+    "territoryNote": "该快照用于表达东吴从区域政权走向制度化王朝阶段的空间轮廓。",
+    "territoryNoteEn": "This snapshot captures Eastern Wu's transition from regional regime to institutionalized dynasty-level state space.",
+    "boundaryHighlights": [
+      "围绕建业及长江下游形成连续控制带",
+      "强调水系防御与江淮前线的战略纵深",
+      "边线以建国节点的主控制区为准，不叠加后期变化"
+    ],
+    "boundaryHighlightsEn": [
+      "Forms a continuous control belt around Jianye and the lower Yangtze",
+      "Emphasizes riverine defense and strategic depth toward the Jiang-Huai front",
+      "Boundary follows principal control at the founding node without layering later shifts"
+    ],
+    "accuracy": {
+      "level": "medium",
+      "note": "该快照为东吴建国节点样板，优先服务于时间轴可视化与事件联动。",
+      "noteEn": "This snapshot is a founding-node sample for Eastern Wu, prioritizing timeline visualization and event linkage."
+    },
+    "disputeNotes": [
+      "江淮前线控制边界在不同战役阶段波动较大。"
+    ],
+    "disputeNotesEn": [
+      "Control boundaries along the Jiang-Huai front fluctuated substantially across campaign phases."
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": [
+      "wu_founding_229"
+    ]
+  },
+  {
+    "id": "cao_wei_229",
+    "territoryId": "cao_wei",
+    "validFrom": {
+      "year": 229,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元229年"
+    },
+    "validTo": {
+      "year": 229,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元229年"
+    },
+    "displayYear": 229,
+    "geometryRefs": [
+      "cao_wei_229_main_v3"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 35.8,
+      "lng": 113,
+      "zoom": 4.2
+    },
+    "headline": "229 年时曹魏仍为北方主政权，与蜀汉、东吴形成并立格局。",
+    "headlineEn": "By 229 CE, Cao Wei remained the principal northern state, coexisting with Shu Han and Eastern Wu in a tripartite order.",
+    "territoryNote": "该快照用于 229 年并列展示，支持同年多政权疆域同屏对比。",
+    "territoryNoteEn": "This snapshot is for parallel display at 229 CE, enabling same-year multi-state boundary comparison.",
+    "boundaryHighlights": [
+      "保留北方核心控制区轮廓",
+      "用于与 229 年蜀汉、东吴并列展示",
+      "后续可替换为更高精度 229 专用描摹边界"
+    ],
+    "boundaryHighlightsEn": [
+      "Retains the northern core control-zone profile",
+      "Designed for side-by-side display with Shu Han and Eastern Wu at 229 CE",
+      "Can be replaced later by a dedicated high-precision 229 tracing boundary"
+    ],
+    "accuracy": {
+      "level": "medium",
+      "note": "当前复用了曹魏 220 年主边界作为 229 年并列展示样板，后续建议独立精修。",
+      "noteEn": "Current version reuses the Cao Wei 220 main boundary as a 229 parallel-display sample; dedicated precision refinement is recommended later."
+    },
+    "disputeNotes": [
+      "该快照当前用于同年并列展示，不表达 220-229 期间全部边地变化。"
+    ],
+    "disputeNotesEn": [
+      "This snapshot currently targets same-year parallel display and does not encode all frontier shifts between 220 and 229."
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": [
+      "wei_founding_220"
+    ]
+  },
+  {
+    "id": "shu_han_229",
+    "territoryId": "shu_han",
+    "validFrom": {
+      "year": 229,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元229年"
+    },
+    "validTo": {
+      "year": 229,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元229年"
+    },
+    "displayYear": 229,
+    "geometryRefs": [
+      "shu_han_229_main_v3"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 31,
+      "lng": 104.8,
+      "zoom": 4.3
+    },
+    "headline": "229 年时蜀汉维持西南政权核心，与魏吴形成稳定并立关系。",
+    "headlineEn": "By 229 CE, Shu Han maintained its southwestern core and coexisted in a relatively stable tripartite balance with Wei and Wu.",
+    "territoryNote": "该快照用于 229 年同年多政权同屏展示，强调三国并立时段可视化。",
+    "territoryNoteEn": "This snapshot supports same-year multi-state rendering at 229 CE, emphasizing visualization of the tripartite Three Kingdoms phase.",
+    "boundaryHighlights": [
+      "延续蜀汉西南主控制区",
+      "用于与 229 年曹魏、东吴同屏展示",
+      "后续可按战役时序扩展更细粒度边界版本"
+    ],
+    "boundaryHighlightsEn": [
+      "Continues Shu Han's southwestern principal control-zone profile",
+      "Designed for same-screen display with Cao Wei and Eastern Wu at 229 CE",
+      "Can be refined later into finer campaign-sequence boundary versions"
+    ],
+    "accuracy": {
+      "level": "medium",
+      "note": "当前复用蜀汉 221 年边界作为 229 年并列展示样板，后续建议独立细化。",
+      "noteEn": "Current version reuses the Shu Han 221 boundary as a 229 parallel-display sample; dedicated refinement is recommended later."
+    },
+    "disputeNotes": [
+      "该快照主要用于并列可视化，不表达中期局部战线的高频波动。"
+    ],
+    "disputeNotesEn": [
+      "This snapshot is primarily for parallel visualization and does not encode high-frequency mid-period frontline fluctuations."
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": [
+      "zhuge_northern_campaign_228"
+    ]
+  },
+  {
+    "id": "shu_han_263",
+    "territoryId": "shu_han",
+    "validFrom": {
+      "year": 263,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元263年"
+    },
+    "validTo": {
+      "year": 263,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元263年"
+    },
+    "displayYear": 263,
+    "geometryRefs": [
+      "shu_han_263_main_v3"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 31.7,
+      "lng": 105.6,
+      "zoom": 4.2
+    },
+    "headline": "蜀汉在魏军攻势下走向终结，三国格局出现决定性变化。",
+    "headlineEn": "Shu Han collapsed under Wei offensives, marking a decisive shift in the Three Kingdoms balance.",
+    "territoryNote": "该快照用于承接蜀汉灭亡节点，为后续晋统一叙事提供过渡基础。",
+    "territoryNoteEn": "This snapshot captures the Shu collapse node and provides transition context for later Jin unification narrative.",
+    "boundaryHighlights": [
+      "体现蜀汉晚期主控制区的收缩态势",
+      "边界用于表达终局节点，而非完整战争过程",
+      "为后续 280 年统一节点预留叙事衔接空间"
+    ],
+    "boundaryHighlightsEn": [
+      "Reflects contraction of principal Shu control zones in late-stage conditions",
+      "Boundary is designed for end-state representation rather than full campaign chronology",
+      "Reserves narrative linkage toward the 280 unification node"
+    ],
+    "accuracy": {
+      "level": "medium",
+      "note": "此版本用于三国阶段 MVP 的终局节点表达，后续可按战役时序补充更细粒度快照。",
+      "noteEn": "This version targets the end-state node for Three Kingdoms MVP; finer campaign-sequence snapshots can be added later."
+    },
+    "disputeNotes": [
+      "终局阶段地方控制权转移速度快，静态边界仅表示代表性状态。"
+    ],
+    "disputeNotesEn": [
+      "Local control shifted rapidly during the terminal phase; static boundaries represent only a reference state."
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": [
+      "shu_fall_263"
+    ]
+  },
+  {
+    "id": "roman_empire_-1",
+    "territoryId": "roman_empire",
+    "validFrom": {
+      "year": -1,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前1年"
+    },
+    "validTo": {
+      "year": -1,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前1年"
+    },
+    "displayYear": -1,
+    "geometryRefs": [
+      "roman_empire_1bc"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 41.9,
+      "lng": 12.5,
+      "zoom": 3
+    },
+    "headline": "奥古斯都统治下的罗马帝国，地中海成为内湖。",
+    "headlineEn": "The Roman Empire under Augustus, with the Mediterranean acting as its inner lake.",
+    "territoryNote": "展示了罗马帝国早期的疆域范围，对应西汉晚期的同代世界格局。",
+    "territoryNoteEn": "Shows the early extent of the Roman Empire, corresponding to the late Western Han period.",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库，用于全球大洲级展示。",
+      "noteEn": "Sourced from an open-source world historical GIS database, intended for continental-level display."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "parthia_-200",
+    "territoryId": "parthia",
+    "validFrom": {
+      "year": -200,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前200年"
+    },
+    "validTo": {
+      "year": -200,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前200年"
+    },
+    "displayYear": -200,
+    "geometryRefs": [
+      "parthia_200bc"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 35.7,
+      "lng": 51.4,
+      "zoom": 3.5
+    },
+    "headline": "安息帝国（帕提亚）崛起，成为中东霸主。",
+    "headlineEn": "The rise of the Parthian Empire as the dominant power in the Middle East.",
+    "territoryNote": "帕提亚作为古典时期亚欧大陆的中心枢纽，连接了东西方的贸易。",
+    "territoryNoteEn": "Parthia acted as the central hub of Eurasia during classical antiquity, linking East and West trade.",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "byzantine_empire_800",
+    "territoryId": "byzantine_empire",
+    "validFrom": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "validTo": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "displayYear": 800,
+    "geometryRefs": [
+      "byzantine_empire_800"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 39,
+      "lng": 26,
+      "zoom": 4
+    },
+    "headline": "拜占庭帝国在伊斯兰世界的包围下坚守。",
+    "headlineEn": "The Byzantine Empire holds its ground surrounded by the Islamic world.",
+    "territoryNote": "",
+    "territoryNoteEn": "",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "abbasid_caliphate_800",
+    "territoryId": "abbasid_caliphate",
+    "validFrom": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "validTo": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "displayYear": 800,
+    "geometryRefs": [
+      "abbasid_caliphate_800"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 33.3,
+      "lng": 44.4,
+      "zoom": 3
+    },
+    "headline": "阿拔斯哈里发国正处于伊斯兰黄金时代。",
+    "headlineEn": "The Abbasid Caliphate is in the midst of the Islamic Golden Age.",
+    "territoryNote": "",
+    "territoryNoteEn": "",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "tang_dynasty_800",
+    "territoryId": "tang_dynasty",
+    "validFrom": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "validTo": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "displayYear": 800,
+    "geometryRefs": [
+      "tang_dynasty_unified_800"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 34.3,
+      "lng": 108.9,
+      "zoom": 3.5
+    },
+    "headline": "安史之乱后的中晚唐，依然保持着对中原和东亚的巨大影响力。",
+    "headlineEn": "Middle-to-late Tang after the An Lushan Rebellion, still maintaining huge influence over the Central Plains and East Asia.",
+    "territoryNote": "",
+    "territoryNoteEn": "",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "mongol_empire_1279",
+    "territoryId": "mongol_empire",
+    "validFrom": {
+      "year": 1279,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1279年"
+    },
+    "validTo": {
+      "year": 1279,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1279年"
+    },
+    "displayYear": 1279,
+    "geometryRefs": [
+      "yuan_dynasty_unified_1279"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 42,
+      "lng": 90,
+      "zoom": 2
+    },
+    "headline": "蒙古帝国（元朝及汗国）达到了人类历史上最大连续陆地疆域。",
+    "headlineEn": "The Mongol Empire reaches the largest contiguous land area in human history.",
+    "territoryNote": "此快照合并了元朝（大汗汗国）和伊尔汗国，展示蒙古帝国极盛时期的广阔统治。",
+    "territoryNoteEn": "This snapshot combines the Yuan Dynasty and the Ilkhanate to show the vast rule of the Mongol Empire at its peak.",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "carolingian_empire_800",
+    "territoryId": "carolingian_empire",
+    "validFrom": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "validTo": {
+      "year": 800,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元800年"
+    },
+    "displayYear": 800,
+    "geometryRefs": [
+      "carolingian_empire_800"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 48,
+      "lng": 7,
+      "zoom": 3.5
+    },
+    "headline": "查理曼大帝加冕，西欧重归统一。",
+    "headlineEn": "Charlemagne is crowned, temporarily reuniting Western Europe.",
+    "territoryNote": "",
+    "territoryNoteEn": "",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "ottoman_empire_1650",
+    "territoryId": "ottoman_empire",
+    "validFrom": {
+      "year": 1650,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1650年"
+    },
+    "validTo": {
+      "year": 1650,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1650年"
+    },
+    "displayYear": 1650,
+    "geometryRefs": [
+      "ottoman_empire_1650"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 39,
+      "lng": 35,
+      "zoom": 3
+    },
+    "headline": "奥斯曼帝国统治中东与巴尔干半岛。",
+    "headlineEn": "The Ottoman Empire rules the Middle East and the Balkans.",
+    "territoryNote": "",
+    "territoryNoteEn": "",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "mughal_empire_1650",
+    "territoryId": "mughal_empire",
+    "validFrom": {
+      "year": 1650,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1650年"
+    },
+    "validTo": {
+      "year": 1650,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1650年"
+    },
+    "displayYear": 1650,
+    "geometryRefs": [
+      "mughal_empire_1650"
+    ],
+    "controlZones": [],
+    "mapFocus": {
+      "lat": 22,
+      "lng": 78,
+      "zoom": 3
+    },
+    "headline": "莫卧儿帝国在印度次大陆进入极盛期。",
+    "headlineEn": "The Mughal Empire reaches its zenith in the Indian subcontinent.",
+    "territoryNote": "",
+    "territoryNoteEn": "",
+    "boundaryHighlights": [],
+    "boundaryHighlightsEn": [],
+    "accuracy": {
+      "level": "medium",
+      "note": "来源于开源世界历史 GIS 数据库。",
+      "noteEn": "Sourced from open-source world historical GIS database."
+    },
+    "disputeNotes": [],
+    "disputeNotesEn": [],
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "jin_dynasty_400",
+    "territoryId": "jin_dynasty",
+    "displayYear": 400,
+    "validFrom": {
+      "year": 400,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 400,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "jin_dynasty_unified_400"
+    ],
+    "mapFocus": {
+      "lat": 31,
+      "lng": 118,
+      "zoom": 4
+    },
+    "headline": "东晋与十六国",
+    "headlineEn": "Eastern Jin and Sixteen Kingdoms",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "northern_wei_400",
+    "territoryId": "northern_wei",
+    "displayYear": 400,
+    "validFrom": {
+      "year": 400,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 400,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "northern_wei_unified_400"
+    ],
+    "mapFocus": {
+      "lat": 39,
+      "lng": 113,
+      "zoom": 4
+    },
+    "headline": "北魏崛起",
+    "headlineEn": "Rise of Northern Wei",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "sui_dynasty_600",
+    "territoryId": "sui_dynasty",
+    "displayYear": 600,
+    "validFrom": {
+      "year": 600,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 600,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "sui_dynasty_unified_600"
+    ],
+    "mapFocus": {
+      "lat": 34,
+      "lng": 108,
+      "zoom": 4
+    },
+    "headline": "大唐前夜的大一统",
+    "headlineEn": "Reunification on the eve of Tang",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "song_dynasty_1000",
+    "territoryId": "song_dynasty",
+    "displayYear": 1000,
+    "validFrom": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "song_dynasty_unified_1000"
+    ],
+    "mapFocus": {
+      "lat": 34,
+      "lng": 114,
+      "zoom": 4
+    },
+    "headline": "北宋时期的经济与文化繁荣",
+    "headlineEn": "Economic and cultural prosperity during Northern Song",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "ming_dynasty_1530",
+    "territoryId": "ming_dynasty",
+    "displayYear": 1530,
+    "validFrom": {
+      "year": 1530,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1530,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "ming_dynasty_unified_1530"
+    ],
+    "mapFocus": {
+      "lat": 39.9,
+      "lng": 116.4,
+      "zoom": 4
+    },
+    "headline": "大明王朝的中后期",
+    "headlineEn": "Middle and late Ming Dynasty",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "qing_dynasty_1650",
+    "territoryId": "qing_dynasty",
+    "displayYear": 1650,
+    "validFrom": {
+      "year": 1650,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1650,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "qing_dynasty_unified_1650"
+    ],
+    "mapFocus": {
+      "lat": 39.9,
+      "lng": 116.4,
+      "zoom": 4
+    },
+    "headline": "清朝初年入关与统一",
+    "headlineEn": "Early Qing dynasty conquest and unification",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "roc_1920",
+    "territoryId": "republic_of_china",
+    "displayYear": 1920,
+    "validFrom": {
+      "year": 1920,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1920,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "roc_unified_1920"
+    ],
+    "mapFocus": {
+      "lat": 35,
+      "lng": 110,
+      "zoom": 4
+    },
+    "headline": "北洋政府时期的中华民国",
+    "headlineEn": "Republic of China under Beiyang Government",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "liao_1000",
+    "territoryId": "liao_dynasty",
+    "displayYear": 1000,
+    "validFrom": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "liao_1000"
+    ],
+    "mapFocus": {
+      "lat": 44,
+      "lng": 118,
+      "zoom": 4
+    },
+    "headline": "辽朝（契丹）在北方的广阔疆域",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "xixia_1000",
+    "territoryId": "xixia_dynasty",
+    "displayYear": 1000,
+    "validFrom": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "xixia_1000"
+    ],
+    "mapFocus": {
+      "lat": 38,
+      "lng": 103,
+      "zoom": 4
+    },
+    "headline": "西夏占据河西走廊",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "tibet_800",
+    "territoryId": "tibet_empire",
+    "displayYear": 800,
+    "validFrom": {
+      "year": 800,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 800,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "tibet_800"
+    ],
+    "mapFocus": {
+      "lat": 32,
+      "lng": 88,
+      "zoom": 4
+    },
+    "headline": "吐蕃帝国极盛期",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "tibet_1000",
+    "territoryId": "tibet_empire",
+    "displayYear": 1000,
+    "validFrom": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "tibet_1000"
+    ],
+    "mapFocus": {
+      "lat": 32,
+      "lng": 88,
+      "zoom": 4
+    },
+    "headline": "分裂时期的吐蕃诸部",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "goguryeo_400",
+    "territoryId": "goguryeo_kingdom",
+    "displayYear": 400,
+    "validFrom": {
+      "year": 400,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 400,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "goguryeo_400"
+    ],
+    "mapFocus": {
+      "lat": 41,
+      "lng": 126,
+      "zoom": 4
+    },
+    "headline": "高句丽（好太王时期）",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "goguryeo_600",
+    "territoryId": "goguryeo_kingdom",
+    "displayYear": 600,
+    "validFrom": {
+      "year": 600,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 600,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "goguryeo_600"
+    ],
+    "mapFocus": {
+      "lat": 41,
+      "lng": 126,
+      "zoom": 4
+    },
+    "headline": "高句丽与隋朝的对峙",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "dali_1000",
+    "territoryId": "dali_kingdom",
+    "displayYear": 1000,
+    "validFrom": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 1000,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "dali_1000"
+    ],
+    "mapFocus": {
+      "lat": 25,
+      "lng": 100,
+      "zoom": 5
+    },
+    "headline": "大理国与宋朝并立",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "nanchao_800",
+    "territoryId": "nanchao_kingdom",
+    "displayYear": 800,
+    "validFrom": {
+      "year": 800,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 800,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "nanchao_800"
+    ],
+    "mapFocus": {
+      "lat": 25,
+      "lng": 100,
+      "zoom": 5
+    },
+    "headline": "南诏国与唐朝的博弈",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "approved"
   }
 ]

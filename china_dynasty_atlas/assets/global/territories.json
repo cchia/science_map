@@ -8,7 +8,9 @@
         "en": "Qin Dynasty",
         "zh-Hans": "秦"
       },
-      "aliases": ["秦朝"]
+      "aliases": [
+        "秦朝"
+      ]
     },
     "territoryType": "dynasty",
     "parentCivilizationId": "imperial_china",
@@ -22,24 +24,48 @@
       "datePrecision": "exact_year",
       "displayLabel": "公元前207年"
     },
-    "capitalPlaceIds": ["xianyang"],
-    "predecessorIds": ["warring_states"],
-    "successorIds": ["western_han"],
+    "capitalPlaceIds": [
+      "xianyang"
+    ],
+    "predecessorIds": [
+      "warring_states"
+    ],
+    "successorIds": [
+      "western_han"
+    ],
     "summary": "秦朝是中国历史上第一个完成大一统的中央集权王朝，奠定了郡县制、统一度量衡和书同文等制度基础。",
+    "summaryEn": "The Qin was the first centralized dynasty to unify China, establishing enduring institutions such as commandery-county administration, standardized weights and measures, and script unification.",
     "summaryLong": "秦以战国后期最强国家之一的姿态完成统一，其制度设计强调中央集权、郡县行政和标准化管理。虽然国祚短暂，但对后世帝国形态的影响极深，几乎定义了中国古代王朝国家的基本轮廓。",
+    "summaryLongEn": "Qin unification emerged from one of the strongest late Warring States powers. Its state design emphasized central control, commandery-county administration, and systematic standardization. Though short-lived, Qin set the core institutional template for later imperial China.",
     "governanceHighlights": [
       "推行郡县制，压缩地方封建势力",
       "统一文字、货币、度量衡和道路轨制",
       "通过法家式高压治理快速整合新帝国"
+    ],
+    "governanceHighlightsEn": [
+      "Expanded commandery-county administration to reduce hereditary regional power",
+      "Standardized script, currency, weights-measures, and road gauge",
+      "Used Legalist-style high-pressure governance to rapidly integrate the new empire"
     ],
     "legacy": [
       "确立大一统帝国模板",
       "为后世王朝继承与修正秦制提供参照",
       "在统一与暴政之间留下持续被讨论的历史形象"
     ],
-    "tags": ["china", "dynasty", "unification"],
+    "legacyEn": [
+      "Established the baseline template of a unified empire",
+      "Became the institutional reference point inherited and revised by later dynasties",
+      "Left a lasting historical debate between unification achievement and authoritarian excess"
+    ],
+    "tags": [
+      "china",
+      "dynasty",
+      "unification"
+    ],
     "color": "#B85C38",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "western_han",
@@ -50,7 +76,9 @@
         "en": "Western Han",
         "zh-Hans": "西汉"
       },
-      "aliases": ["前汉"]
+      "aliases": [
+        "前汉"
+      ]
     },
     "territoryType": "dynasty",
     "parentCivilizationId": "imperial_china",
@@ -64,24 +92,48 @@
       "datePrecision": "exact_year",
       "displayLabel": "公元8年"
     },
-    "capitalPlaceIds": ["chang_an"],
-    "predecessorIds": ["qin"],
-    "successorIds": ["xin"],
+    "capitalPlaceIds": [
+      "chang_an"
+    ],
+    "predecessorIds": [
+      "qin"
+    ],
+    "successorIds": [
+      "xin"
+    ],
     "summary": "西汉继承秦制并逐步稳定帝国秩序，在文景之治和汉武帝时期进入强盛扩张阶段，形成早期丝绸之路格局。",
+    "summaryEn": "The Western Han inherited Qin institutions and stabilized imperial rule, then moved into a major expansion phase under Emperors Wen, Jing, and Wu, shaping early Silk Road connectivity.",
     "summaryLong": "西汉在继承秦制的基础上，逐步缓和高压统治的副作用，并在文景时期恢复社会经济。至汉武帝时代，帝国开始以军事、外交和交通建设重新塑造边疆空间，形成更稳定也更昂贵的扩张型统治结构。",
+    "summaryLongEn": "Building on Qin institutions, the Western Han reduced the social strain of high-pressure rule and restored the economy during the Wen-Jing era. Under Emperor Wu, military campaigns, diplomacy, and transport expansion reshaped frontier space into a broader but costlier imperial system.",
     "governanceHighlights": [
       "继承秦制但降低财政与徭役压力",
       "形成从文景之治到武帝扩张的政策转变",
       "以河西走廊和西域经营重塑帝国边界"
+    ],
+    "governanceHighlightsEn": [
+      "Retained Qin institutions while reducing tax and corvee pressure",
+      "Shifted from Wen-Jing consolidation to Emperor Wu's expansion strategy",
+      "Reshaped imperial frontier geography through Hexi Corridor and Western Regions policy"
     ],
     "legacy": [
       "奠定汉帝国长期政治与文化认同",
       "推动丝绸之路早期通道形成",
       "把中国古代帝国从内向统一推向外向经营"
     ],
-    "tags": ["china", "dynasty", "silk-road"],
+    "legacyEn": [
+      "Anchored long-term political and cultural identity of the Han imperial order",
+      "Accelerated the formation of early Silk Road corridors",
+      "Moved the imperial model from inward consolidation toward outward frontier management"
+    ],
+    "tags": [
+      "china",
+      "dynasty",
+      "silk-road"
+    ],
     "color": "#D9A441",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "xin",
@@ -92,7 +144,9 @@
         "en": "Xin Dynasty",
         "zh-Hans": "新"
       },
-      "aliases": ["新朝"]
+      "aliases": [
+        "新朝"
+      ]
     },
     "territoryType": "dynasty",
     "parentCivilizationId": "imperial_china",
@@ -106,24 +160,48 @@
       "datePrecision": "exact_year",
       "displayLabel": "公元23年"
     },
-    "capitalPlaceIds": ["chang_an"],
-    "predecessorIds": ["western_han"],
-    "successorIds": ["eastern_han"],
+    "capitalPlaceIds": [
+      "chang_an"
+    ],
+    "predecessorIds": [
+      "western_han"
+    ],
+    "successorIds": [
+      "eastern_han"
+    ],
     "summary": "新朝是王莽建立的短命王朝，试图通过大规模制度改造重塑社会秩序，但因改革失衡与社会危机迅速崩溃。",
+    "summaryEn": "The Xin was a short-lived dynasty founded by Wang Mang, attempting sweeping institutional redesign but collapsing rapidly amid reform imbalance and social crisis.",
     "summaryLong": "新朝承接西汉晚期危机而来，王莽试图通过复古理想和大规模制度改革纠正土地、货币和社会秩序问题。但改革设计与执行能力失衡，加上灾荒与动乱，使其成为中国政治史上著名的短命实验王朝。",
+    "summaryLongEn": "Xin emerged from late Western Han crisis conditions. Wang Mang sought to correct land, currency, and social-order problems through classicizing ideology and large-scale reform. Mismatch between design and implementation, compounded by famine and unrest, turned Xin into a famous short-lived experiment in Chinese political history.",
     "governanceHighlights": [
       "试图以复古名义重构土地与货币制度",
       "强调礼制与政治正统，但基层执行能力不足",
       "在快速改革中遭遇财政、地方和社会信任危机"
+    ],
+    "governanceHighlightsEn": [
+      "Attempted land and currency reconstruction under a classicizing political program",
+      "Emphasized ritual legitimacy and orthodoxy but lacked local implementation capacity",
+      "Encountered fiscal, regional, and social-trust crises during rapid reform"
     ],
     "legacy": [
       "成为制度理想主义与现实治理冲突的典型案例",
       "凸显帝国政权合法性并不只依赖形式继承",
       "为东汉重建提供了强烈的反面经验"
     ],
-    "tags": ["china", "dynasty", "reform"],
+    "legacyEn": [
+      "Became a classic case of institutional idealism colliding with governance reality",
+      "Showed that imperial legitimacy requires more than formal succession",
+      "Provided a strong negative lesson for Eastern Han restoration"
+    ],
+    "tags": [
+      "china",
+      "dynasty",
+      "reform"
+    ],
     "color": "#8F6F9C",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "eastern_han",
@@ -134,7 +212,9 @@
         "en": "Eastern Han",
         "zh-Hans": "东汉"
       },
-      "aliases": ["后汉"]
+      "aliases": [
+        "后汉"
+      ]
     },
     "territoryType": "dynasty",
     "parentCivilizationId": "imperial_china",
@@ -148,23 +228,943 @@
       "datePrecision": "exact_year",
       "displayLabel": "公元220年"
     },
-    "capitalPlaceIds": ["luoyang"],
-    "predecessorIds": ["xin"],
-    "successorIds": ["three_kingdoms"],
+    "capitalPlaceIds": [
+      "luoyang"
+    ],
+    "predecessorIds": [
+      "xin"
+    ],
+    "successorIds": [
+      "three_kingdoms"
+    ],
     "summary": "东汉在刘秀重建汉室后再度统一中原，前期政治相对稳定，后期则因外戚、宦官与地方势力问题走向瓦解。",
+    "summaryEn": "The Eastern Han reunified the core regions after Liu Xiu restored the Han, with relative early stability but eventual breakdown under factional court politics and regional militarization.",
     "summaryLong": "东汉通过刘秀重建汉室重新整合帝国，在前期恢复财政与行政秩序，并在科技、文献与制度上留下深远成果。随着时间推移，外戚、宦官和地方武装逐渐侵蚀中央权威，帝国最终在晚期危机中走向瓦解。",
+    "summaryLongEn": "Through Liu Xiu's restoration, Eastern Han rebuilt imperial fiscal and administrative order and left major legacies in technology, texts, and institutions. Over time, consort clans, eunuch factions, and regional armed power eroded central authority, culminating in late-dynastic fragmentation.",
     "governanceHighlights": [
       "以洛阳为中心重建帝国统治秩序",
       "前期保持相对稳定并延续汉制传统",
       "晚期因中央权威衰退和地方坐大而失控"
+    ],
+    "governanceHighlightsEn": [
+      "Rebuilt imperial order around Luoyang as the governing center",
+      "Maintained relative early stability while continuing Han institutional traditions",
+      "Lost control in late stages as central authority weakened and regional power expanded"
     ],
     "legacy": [
       "延续了汉朝的政治合法性与文化影响",
       "见证造纸术等技术与知识传播的重要发展",
       "为三国时期的地方割据和新秩序形成铺路"
     ],
-    "tags": ["china", "dynasty", "late-empire"],
+    "legacyEn": [
+      "Extended Han political legitimacy and cultural influence",
+      "Witnessed major advances in technology and knowledge diffusion, including papermaking",
+      "Prepared the structural conditions for Three Kingdoms regional division and new order formation"
+    ],
+    "tags": [
+      "china",
+      "dynasty",
+      "late-empire"
+    ],
     "color": "#4E7A52",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "cao_wei",
+    "slug": "cao-wei",
+    "names": {
+      "primaryName": "Cao Wei",
+      "localizedNames": {
+        "en": "Cao Wei",
+        "zh-Hans": "曹魏"
+      },
+      "aliases": [
+        "魏"
+      ]
+    },
+    "territoryType": "dynasty",
+    "parentCivilizationId": "imperial_china",
+    "start": {
+      "year": 220,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元220年"
+    },
+    "end": {
+      "year": 265,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元265年"
+    },
+    "capitalPlaceIds": [
+      "luoyang"
+    ],
+    "predecessorIds": [
+      "eastern_han"
+    ],
+    "successorIds": [
+      "western_jin"
+    ],
+    "summary": "曹魏是三国时期北方的主要政权，继承东汉中央官僚体系并推动北方秩序重组。",
+    "summaryEn": "Cao Wei was the principal northern state of the Three Kingdoms period, inheriting late Han bureaucratic institutions and reorganizing northern political order.",
+    "summaryLong": "曹魏在汉末权力重组中建立，核心区域位于华北平原与中原。其治理在延续汉制基础上强化军事与行政整合，为后续晋代统一提供了关键的制度与战略基础。",
+    "summaryLongEn": "Formed during post-Han power reconfiguration, Cao Wei centered on the North China Plain and central plains. Building on Han institutions, it strengthened military-administrative integration and provided major institutional and strategic foundations for later Jin unification.",
+    "governanceHighlights": [
+      "延续并重组东汉官僚制度与州郡控制",
+      "在北方维持较高行政整合与军政动员能力",
+      "在三国竞争中形成制度化中央政权形态"
+    ],
+    "governanceHighlightsEn": [
+      "Retained and restructured late Han bureaucratic and provincial control systems",
+      "Maintained relatively high administrative integration and mobilization capacity in the north",
+      "Developed a strongly institutionalized central-state form under tripartite competition"
+    ],
+    "legacy": [
+      "为晋代统一提供核心政治与军事基础",
+      "推动三国时期北方秩序的制度化重建",
+      "在治国模式上延续并调整汉末国家结构"
+    ],
+    "legacyEn": [
+      "Provided core political and military foundations for later Jin unification",
+      "Institutionalized northern order reconstruction during the Three Kingdoms period",
+      "Extended and adapted late Han state structures into a new governance model"
+    ],
+    "tags": [
+      "china",
+      "three-kingdoms",
+      "north"
+    ],
+    "color": "#5E6C8A",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "shu_han",
+    "slug": "shu-han",
+    "names": {
+      "primaryName": "Shu Han",
+      "localizedNames": {
+        "en": "Shu Han",
+        "zh-Hans": "蜀汉"
+      },
+      "aliases": [
+        "蜀"
+      ]
+    },
+    "territoryType": "dynasty",
+    "parentCivilizationId": "imperial_china",
+    "start": {
+      "year": 221,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元221年"
+    },
+    "end": {
+      "year": 263,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元263年"
+    },
+    "capitalPlaceIds": [
+      "chengdu"
+    ],
+    "predecessorIds": [
+      "eastern_han"
+    ],
+    "successorIds": [
+      "cao_wei"
+    ],
+    "summary": "蜀汉以益州为核心建立，是三国时期重要政权之一，强调汉室正统叙事与区域稳固治理。",
+    "summaryEn": "Shu Han was founded with Yi Province as its core and became one of the key Three Kingdoms states, emphasizing Han legitimacy claims and stable regional governance.",
+    "summaryLong": "蜀汉在西南地理屏障与关中-汉中战略通道之间展开政治与军事经营。其政权规模相对较小，但在制度延续、北伐战略与历史记忆中具有极高辨识度。",
+    "summaryLongEn": "Operating between southwestern geographic defenses and the Hanzhong-Guanzhong strategic corridor, Shu Han remained smaller in scale but highly distinctive in institutional continuity, northern expedition strategy, and long-term historical memory.",
+    "governanceHighlights": [
+      "以成都为中心构建西南区域政权",
+      "通过汉中维系北向战略与防御体系",
+      "在资源有限条件下维持较高政治整合"
+    ],
+    "governanceHighlightsEn": [
+      "Built a southwestern regional state centered on Chengdu",
+      "Used Hanzhong as the strategic hinge for northward defense and campaigning",
+      "Sustained relatively strong political integration under constrained resources"
+    ],
+    "legacy": [
+      "强化三国时期汉室正统叙事传统",
+      "留下北伐与区域经营并行的治理案例",
+      "在后世文化记忆中形成高度象征性形象"
+    ],
+    "legacyEn": [
+      "Reinforced Han-legitimacy narratives within the Three Kingdoms era",
+      "Left a notable case of balancing regional governance with northern campaigns",
+      "Became one of the most symbolically resonant states in later cultural memory"
+    ],
+    "tags": [
+      "china",
+      "three-kingdoms",
+      "southwest"
+    ],
+    "color": "#B66A3C",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "eastern_wu",
+    "slug": "eastern-wu",
+    "names": {
+      "primaryName": "Eastern Wu",
+      "localizedNames": {
+        "en": "Eastern Wu",
+        "zh-Hans": "东吴"
+      },
+      "aliases": [
+        "吴"
+      ]
+    },
+    "territoryType": "dynasty",
+    "parentCivilizationId": "imperial_china",
+    "start": {
+      "year": 229,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元229年"
+    },
+    "end": {
+      "year": 280,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元280年"
+    },
+    "capitalPlaceIds": [
+      "jianye"
+    ],
+    "predecessorIds": [
+      "eastern_han"
+    ],
+    "successorIds": [
+      "western_jin"
+    ],
+    "summary": "东吴以江东与长江下游为核心，形成三国时期南方长期稳定政权，并在水军与区域治理上具有优势。",
+    "summaryEn": "Eastern Wu centered on Jiangdong and the lower Yangtze, forming the most durable southern state of the Three Kingdoms and excelling in naval and regional governance.",
+    "summaryLong": "东吴依托长江水系和江南经济基础，建立了相对稳定的南方政权结构。其在江淮防线、江东治理和海上交通经营方面形成了区别于北方政权的治理与军事路径。",
+    "summaryLongEn": "Leveraging the Yangtze river system and Jiangnan economic base, Eastern Wu built a relatively stable southern state. Its governance and military strategy along the Jiang-Huai front, Jiangdong administration, and maritime connectivity differed notably from northern regimes.",
+    "governanceHighlights": [
+      "以建业为中心整合江东政治与军事体系",
+      "依托长江水网构建纵深防御与机动能力",
+      "在南方形成相对持久的区域治理结构"
+    ],
+    "governanceHighlightsEn": [
+      "Integrated Jiangdong political-military systems around Jianye",
+      "Used the Yangtze water network to build defensive depth and mobility",
+      "Established a comparatively durable southern regional governance structure"
+    ],
+    "legacy": [
+      "奠定六朝时期江南政治重心演化基础",
+      "强化水军与江河防线在中国军事史中的地位",
+      "推动江南区域国家能力持续增长"
+    ],
+    "legacyEn": [
+      "Laid groundwork for the Jiangnan political center in the Six Dynasties era",
+      "Elevated the long-term strategic role of naval power and riverine frontiers",
+      "Supported continued growth of state capacity in southern China"
+    ],
+    "tags": [
+      "china",
+      "three-kingdoms",
+      "south"
+    ],
+    "color": "#3F8A78",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "roman_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "mediterranean",
+    "start": {
+      "year": -27,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 395,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Roman Empire",
+      "localizedNames": {
+        "zh-Hans": "罗马帝国",
+        "en": "Roman Empire"
+      },
+      "aliases": [
+        "SPQR"
+      ]
+    },
+    "summary": "统治地中海周边、欧洲和北非的伟大帝国。",
+    "summaryEn": "The great empire that ruled the Mediterranean, Europe, and North Africa.",
+    "summaryLong": "罗马帝国是古代世界最大的帝国之一，深刻影响了西方文明的法律、建筑、语言和宗教。",
+    "summaryLongEn": "The Roman Empire was one of the largest empires in the ancient world, profoundly influencing Western law, architecture, language, and religion.",
+    "color": "#C23B22",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "parthia",
+    "territoryType": "empire",
+    "parentCivilizationId": "persian",
+    "start": {
+      "year": -247,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 224,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Parthian Empire",
+      "localizedNames": {
+        "zh-Hans": "帕提亚帝国 / 安息帝国",
+        "en": "Parthian Empire"
+      },
+      "aliases": [
+        "Arsacid Empire",
+        "安息"
+      ]
+    },
+    "summary": "统治古波斯及中东地区的强大帝国，是汉朝西域与罗马帝国之间的缓冲与贸易中枢。",
+    "summaryEn": "A powerful empire ruling ancient Persia and the Middle East, serving as a buffer and trade hub between the Han dynasty and the Roman Empire.",
+    "summaryLong": "帕提亚帝国（中国史籍称安息），是古典时代横跨伊朗和美索不达米亚的主要政治和文化力量，掌控了丝绸之路的关键路段。",
+    "summaryLongEn": "The Parthian Empire was a major Iranian political and cultural power in ancient Iran and Iraq, controlling the central stretch of the Silk Road.",
+    "color": "#947A3A",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "byzantine_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "mediterranean",
+    "start": {
+      "year": 395,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1453,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Byzantine Empire",
+      "localizedNames": {
+        "zh-Hans": "拜占庭帝国 / 东罗马帝国",
+        "en": "Byzantine Empire"
+      },
+      "aliases": [
+        "Eastern Roman Empire"
+      ]
+    },
+    "summary": "中世纪欧洲和地中海东部的核心力量，延续了罗马的传统。",
+    "summaryEn": "The core power of medieval Europe and the eastern Mediterranean, continuing Roman traditions.",
+    "color": "#912368",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "abbasid_caliphate",
+    "territoryType": "caliphate",
+    "parentCivilizationId": "islamic",
+    "start": {
+      "year": 750,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1258,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Abbasid Caliphate",
+      "localizedNames": {
+        "zh-Hans": "阿拔斯哈里发国 / 黑衣大食",
+        "en": "Abbasid Caliphate"
+      },
+      "aliases": [
+        "Abbasid Empire"
+      ]
+    },
+    "summary": "伊斯兰黄金时代的缔造者，丝绸之路西段的控制者。",
+    "summaryEn": "Builders of the Islamic Golden Age and controllers of the western Silk Road.",
+    "color": "#1A422B",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "tang_dynasty",
+    "territoryType": "dynasty",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 618,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 907,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Tang Dynasty",
+      "localizedNames": {
+        "zh-Hans": "唐朝",
+        "en": "Tang Dynasty"
+      },
+      "aliases": [
+        "Tang Empire"
+      ]
+    },
+    "summary": "中国历史上最强盛的王朝之一，文化与贸易高度繁荣的开放帝国。",
+    "summaryEn": "One of the most powerful dynasties in Chinese history, an open empire with flourishing culture and trade.",
+    "color": "#D35400",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "mongol_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "steppe",
+    "start": {
+      "year": 1206,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1368,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mongol Empire",
+      "localizedNames": {
+        "zh-Hans": "蒙古帝国 / 元朝 (大汗汗国)",
+        "en": "Mongol Empire / Yuan Dynasty"
+      },
+      "aliases": [
+        "Great Khanate"
+      ]
+    },
+    "summary": "人类历史上版图最大的连续陆地帝国，彻底打通了欧亚大陆的交流。",
+    "summaryEn": "The largest contiguous land empire in human history, thoroughly connecting Eurasia.",
+    "color": "#4A6E8C",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "inca_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "andean",
+    "start": {
+      "year": 1438,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1533,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Inca Empire",
+      "localizedNames": {
+        "zh-Hans": "印加帝国",
+        "en": "Inca Empire"
+      },
+      "aliases": [
+        "Tawantinsuyu"
+      ]
+    },
+    "summary": "前哥伦布时期美洲最大的帝国，统治着安第斯山脉的广阔地区。",
+    "summaryEn": "The largest empire in pre-Columbian America, ruling vast regions of the Andes.",
+    "color": "#D4AC0D",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "carolingian_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "europe",
+    "start": {
+      "year": 800,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 888,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Carolingian Empire",
+      "localizedNames": {
+        "zh-Hans": "查理曼帝国 / 加洛林帝国",
+        "en": "Carolingian Empire"
+      },
+      "aliases": [
+        "Frankish Empire"
+      ]
+    },
+    "summary": "中世纪早期统治西欧与中欧的庞大帝国。",
+    "summaryEn": "A large empire dominating Western and Central Europe in the early Middle Ages.",
+    "color": "#1C39BB",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "holy_roman_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "europe",
+    "start": {
+      "year": 962,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1806,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Holy Roman Empire",
+      "localizedNames": {
+        "zh-Hans": "神圣罗马帝国",
+        "en": "Holy Roman Empire"
+      },
+      "aliases": [
+        "Sacrum Romanum Imperium"
+      ]
+    },
+    "summary": "中欧的一个多民族政治联合体，在中世纪和近代早期历史中扮演重要角色。",
+    "summaryEn": "A multi-ethnic complex of territories in Central Europe that developed during the Early Middle Ages.",
+    "color": "#FFC000",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "ottoman_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "islamic",
+    "start": {
+      "year": 1299,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1922,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Ottoman Empire",
+      "localizedNames": {
+        "zh-Hans": "奥斯曼帝国",
+        "en": "Ottoman Empire"
+      },
+      "aliases": [
+        "Turkish Empire"
+      ]
+    },
+    "summary": "横跨亚非欧三大洲的伊斯兰大帝国，长期控制地中海东部。",
+    "summaryEn": "A large Islamic empire spanning Asia, Africa, and Europe, long controlling the Eastern Mediterranean.",
+    "color": "#006600",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "mughal_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "indian",
+    "start": {
+      "year": 1526,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1857,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mughal Empire",
+      "localizedNames": {
+        "zh-Hans": "莫卧儿帝国",
+        "en": "Mughal Empire"
+      },
+      "aliases": [
+        "Mogul Empire"
+      ]
+    },
+    "summary": "统治南亚次大陆的伊斯兰火药帝国，印度历史上的繁荣时期。",
+    "summaryEn": "An Islamic gunpowder empire ruling the Indian subcontinent, marking a prosperous period in Indian history.",
+    "color": "#E67E22",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "russian_empire",
+    "territoryType": "empire",
+    "parentCivilizationId": "slavic",
+    "start": {
+      "year": 1721,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1917,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Russian Empire",
+      "localizedNames": {
+        "zh-Hans": "俄罗斯帝国 / 沙俄",
+        "en": "Russian Empire"
+      },
+      "aliases": [
+        "Tsardom of Russia"
+      ]
+    },
+    "summary": "人类历史上版图第三大的帝国，横跨欧亚大陆与北美。",
+    "summaryEn": "The third-largest empire in history, stretching across Eurasia and North America.",
+    "color": "#1560BD",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "jin_dynasty",
+    "territoryType": "dynasty",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 266,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 420,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Jin Dynasty",
+      "localizedNames": {
+        "zh-Hans": "晋朝",
+        "en": "Jin Dynasty"
+      },
+      "aliases": []
+    },
+    "summary": "结束三国分裂局面，短暂统一中国。",
+    "summaryEn": "Ended the Three Kingdoms period and briefly reunified China.",
+    "color": "#8C6A5D",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "northern_wei",
+    "territoryType": "dynasty",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 386,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 534,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Northern Wei",
+      "localizedNames": {
+        "zh-Hans": "北魏",
+        "en": "Northern Wei"
+      },
+      "aliases": [
+        "Toba Wei"
+      ]
+    },
+    "summary": "南北朝时期北方的强大王朝，推动了民族大融合。",
+    "summaryEn": "A powerful northern dynasty during the Northern and Southern dynasties period, promoting ethnic integration.",
+    "color": "#4A6E8C",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "sui_dynasty",
+    "territoryType": "dynasty",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 581,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 618,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Sui Dynasty",
+      "localizedNames": {
+        "zh-Hans": "隋朝",
+        "en": "Sui Dynasty"
+      },
+      "aliases": []
+    },
+    "summary": "结束了长达近三百年的分裂局面，重新统一全国。",
+    "summaryEn": "Reunified China after nearly three centuries of division.",
+    "color": "#7B4F3A",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "song_dynasty",
+    "territoryType": "dynasty",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 960,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1279,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Song Dynasty",
+      "localizedNames": {
+        "zh-Hans": "宋朝",
+        "en": "Song Dynasty"
+      },
+      "aliases": []
+    },
+    "summary": "经济、文化和科技高度繁荣的时代。",
+    "summaryEn": "An era of high economic, cultural, and technological prosperity.",
+    "color": "#A62B2B",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "ming_dynasty",
+    "territoryType": "dynasty",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 1368,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1644,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Ming Dynasty",
+      "localizedNames": {
+        "zh-Hans": "明朝",
+        "en": "Ming Dynasty"
+      },
+      "aliases": []
+    },
+    "summary": "中国历史上最后一个由汉族建立的大一统王朝。",
+    "summaryEn": "The last unified dynasty established by the Han people in Chinese history.",
+    "color": "#CD5C5C",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "qing_dynasty",
+    "territoryType": "dynasty",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 1636,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1912,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Qing Dynasty",
+      "localizedNames": {
+        "zh-Hans": "清朝",
+        "en": "Qing Dynasty"
+      },
+      "aliases": [
+        "Manchu Empire"
+      ]
+    },
+    "summary": "中国历史上最后一个封建王朝，奠定了现代中国的版图基础。",
+    "summaryEn": "The last imperial dynasty of China, laying the territorial foundation of modern China.",
+    "color": "#E6A817",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "republic_of_china",
+    "territoryType": "republic",
+    "parentCivilizationId": "chinese",
+    "start": {
+      "year": 1912,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1949,
+      "datePrecision": "exact_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of China",
+      "localizedNames": {
+        "zh-Hans": "中华民国",
+        "en": "Republic of China"
+      },
+      "aliases": [
+        "ROC"
+      ]
+    },
+    "summary": "亚洲第一个民主共和国。",
+    "summaryEn": "The first democratic republic in Asia.",
+    "color": "#18458A",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ]
+  },
+  {
+    "id": "liao_dynasty",
+    "names": {
+      "zh": "辽朝",
+      "en": "Liao Dynasty"
+    },
+    "start": {
+      "year": 916,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1125,
+      "datePrecision": "exact_year"
+    },
+    "type": "empire",
+    "capitalId": "shangjing",
+    "brief": "契丹族建立的北方王朝。"
+  },
+  {
+    "id": "xixia_dynasty",
+    "names": {
+      "zh": "西夏",
+      "en": "Western Xia"
+    },
+    "start": {
+      "year": 1038,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1227,
+      "datePrecision": "exact_year"
+    },
+    "type": "empire",
+    "capitalId": "xingqing",
+    "brief": "党项族建立的西北王朝。"
+  },
+  {
+    "id": "tibet_empire",
+    "names": {
+      "zh": "吐蕃",
+      "en": "Tibetan Empire"
+    },
+    "start": {
+      "year": 618,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 842,
+      "datePrecision": "exact_year"
+    },
+    "type": "empire",
+    "capitalId": "lhasa",
+    "brief": "青藏高原上的强大帝国，与唐朝长期对峙。"
+  },
+  {
+    "id": "goguryeo_kingdom",
+    "names": {
+      "zh": "高句丽",
+      "en": "Goguryeo"
+    },
+    "start": {
+      "year": -37,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 668,
+      "datePrecision": "exact_year"
+    },
+    "type": "kingdom",
+    "capitalId": "pyongyang",
+    "brief": "位于东北亚的强大政权，曾多次击退隋唐联军。"
+  },
+  {
+    "id": "dali_kingdom",
+    "names": {
+      "zh": "大理国",
+      "en": "Dali Kingdom"
+    },
+    "start": {
+      "year": 937,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 1253,
+      "datePrecision": "exact_year"
+    },
+    "type": "kingdom",
+    "capitalId": "dali_city",
+    "brief": "位于云南地区的政权。"
+  },
+  {
+    "id": "nanchao_kingdom",
+    "names": {
+      "zh": "南诏国",
+      "en": "Nanzhao Kingdom"
+    },
+    "start": {
+      "year": 738,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 902,
+      "datePrecision": "exact_year"
+    },
+    "type": "kingdom",
+    "capitalId": "taihe",
+    "brief": "唐朝时期位于云南的强大政权。"
+  },
+  {
+    "id": "five_dynasties",
+    "names": {
+      "zh": "五代十国",
+      "en": "Five Dynasties and Ten Kingdoms"
+    },
+    "start": {
+      "year": 907,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 979,
+      "datePrecision": "exact_year"
+    },
+    "type": "period",
+    "brief": "唐末宋初的割据时期。"
   }
 ]

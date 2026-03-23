@@ -2,6 +2,8 @@
   {
     "id": "editorial_internal_v1",
     "sourceName": "Internal Editorial Dataset v1",
+    "sourceNameZh": "内部编辑数据集 v1",
+    "sourceNameEn": "Internal Editorial Dataset v1",
     "sourceType": "editorial_content",
     "sourceUrl": "",
     "licenseName": "Internal",
@@ -14,11 +16,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Original product copy and data relationships created inside this project."
+    "notes": "Original product copy and data relationships created inside this project.",
+    "notesEn": "Original product copy and data relationships created inside this project."
   },
   {
     "id": "geometry_editorial_western_han_141_v5",
     "sourceName": "Western Han 141 BCE Editorial Tracing v5",
+    "sourceNameZh": "西汉前141年编辑描摹 v5",
+    "sourceNameEn": "Western Han 141 BCE Editorial Tracing v5",
     "sourceType": "historical_boundary",
     "sourceUrl": "",
     "licenseName": "Internal",
@@ -31,11 +36,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Focused v5 precision pass for Western Han at 141 BCE, adding a more articulated Shandong peninsula, Bohai turn, eastern coast, and lower Yangtze-to-southern frontier transition while still excluding later Western Regions and post-111 BCE Lingnan annexation."
+    "notes": "Focused v5 precision pass for Western Han at 141 BCE, adding a more articulated Shandong peninsula, Bohai turn, eastern coast, and lower Yangtze-to-southern frontier transition while still excluding later Western Regions and post-111 BCE Lingnan annexation.",
+    "notesEn": "Focused v5 precision pass for Western Han at 141 BCE, adding a more articulated Shandong peninsula, Bohai turn, eastern coast, and lower Yangtze-to-southern frontier transition while still excluding later Western Regions and post-111 BCE Lingnan annexation."
   },
   {
     "id": "geometry_editorial_qin_221_v5",
     "sourceName": "Qin 221 BCE Editorial Tracing v5",
+    "sourceNameZh": "秦前221年编辑描摹 v5",
+    "sourceNameEn": "Qin 221 BCE Editorial Tracing v5",
     "sourceType": "historical_boundary",
     "sourceUrl": "",
     "licenseName": "Internal",
@@ -48,11 +56,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Focused v5 precision pass for Qin at 221 BCE, refining the Bohai turn, eastern seaboard, and southern closure while avoiding later Lingnan consolidation and deeper frontier expansion."
+    "notes": "Focused v5 precision pass for Qin at 221 BCE, refining the Bohai turn, eastern seaboard, and southern closure while avoiding later Lingnan consolidation and deeper frontier expansion.",
+    "notesEn": "Focused v5 precision pass for Qin at 221 BCE, refining the Bohai turn, eastern seaboard, and southern closure while avoiding later Lingnan consolidation and deeper frontier expansion."
   },
   {
     "id": "geometry_editorial_xin_8_v5",
     "sourceName": "Xin 8 CE Editorial Tracing v5",
+    "sourceNameZh": "新朝8年编辑描摹 v5",
+    "sourceNameEn": "Xin 8 CE Editorial Tracing v5",
     "sourceType": "historical_boundary",
     "sourceUrl": "",
     "licenseName": "Internal",
@@ -65,11 +76,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Focused v5 precision pass for Xin in 8 CE, preserving the inherited Han-shaped frame while clarifying its middle position between the broader Western Han footprint and the more contracted Eastern Han restoration outline."
+    "notes": "Focused v5 precision pass for Xin in 8 CE, preserving the inherited Han-shaped frame while clarifying its middle position between the broader Western Han footprint and the more contracted Eastern Han restoration outline.",
+    "notesEn": "Focused v5 precision pass for Xin in 8 CE, preserving the inherited Han-shaped frame while clarifying its middle position between the broader Western Han footprint and the more contracted Eastern Han restoration outline."
   },
   {
     "id": "geometry_editorial_eastern_han_25_v5",
     "sourceName": "Eastern Han 25 CE Editorial Tracing v5",
+    "sourceNameZh": "东汉25年编辑描摹 v5",
+    "sourceNameEn": "Eastern Han 25 CE Editorial Tracing v5",
     "sourceType": "historical_boundary",
     "sourceUrl": "",
     "licenseName": "Internal",
@@ -82,11 +96,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Focused v5 precision pass for Eastern Han in 25 CE, centered on the early restoration footprint with a clearer west and south contraction so it separates more visibly from Xin and later mature Eastern Han envelopes."
+    "notes": "Focused v5 precision pass for Eastern Han in 25 CE, centered on the early restoration footprint with a clearer west and south contraction so it separates more visibly from Xin and later mature Eastern Han envelopes.",
+    "notesEn": "Focused v5 precision pass for Eastern Han in 25 CE, centered on the early restoration footprint with a clearer west and south contraction so it separates more visibly from Xin and later mature Eastern Han envelopes."
   },
   {
     "id": "wikimedia_commons_han_2ce_public_domain",
     "sourceName": "Wikimedia Commons Han Dynasty Map (2 CE)",
+    "sourceNameZh": "Wikimedia Commons 汉朝地图（公元2年）",
+    "sourceNameEn": "Wikimedia Commons Han Dynasty Map (2 CE)",
     "sourceType": "historical_boundary_reference",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Han_Dynasty_Map_with_greatwall_protectorates_and_other_areas.PNG",
     "licenseName": "Public Domain",
@@ -99,11 +116,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Used only as a reference map for historical spatial calibration. No third-party geometry was copied into the product assets."
+    "notes": "Used only as a reference map for historical spatial calibration. No third-party geometry was copied into the product assets.",
+    "notesEn": "Used only as a reference map for historical spatial calibration. No third-party geometry was copied into the product assets."
   },
   {
     "id": "wikimedia_commons_mawangdui_silk_map",
     "sourceName": "Wikimedia Commons Western Han Mawangdui Silk Map",
+    "sourceNameZh": "Wikimedia Commons 西汉马王堆帛书地图",
+    "sourceNameEn": "Wikimedia Commons Western Han Mawangdui Silk Map",
     "sourceType": "historical_boundary_reference",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Han_Mawangdui_Silk_Map.JPG",
     "licenseName": "Public Domain Mark 1.0",
@@ -116,11 +136,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Used as a southern-region period reference for early Western Han spatial calibration, especially around Changsha and the Nanyue contact zone."
+    "notes": "Used as a southern-region period reference for early Western Han spatial calibration, especially around Changsha and the Nanyue contact zone.",
+    "notesEn": "Used as a southern-region period reference for early Western Han spatial calibration, especially around Changsha and the Nanyue contact zone."
   },
   {
     "id": "wikimedia_commons_han_commanderies_reference_only",
     "sourceName": "Wikimedia Commons Han Commanderies and Kingdoms CE 2",
+    "sourceNameZh": "Wikimedia Commons 汉郡国地图（公元2年）",
+    "sourceNameEn": "Wikimedia Commons Han Commanderies and Kingdoms CE 2",
     "sourceType": "historical_boundary_reference",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Han_commanderies_and_kingdoms_CE_2.jpg",
     "licenseName": "CC BY-SA 3.0 / GFDL",
@@ -133,11 +156,14 @@
     "approvalStatus": "reference_only",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Used only as a regional comparison reference for Bohai, Shandong, and lower Yangtze refinement during the Western Han v5 tracing pass."
+    "notes": "Used only as a regional comparison reference for Bohai, Shandong, and lower Yangtze refinement during the Western Han v5 tracing pass.",
+    "notesEn": "Used only as a regional comparison reference for Bohai, Shandong, and lower Yangtze refinement during the Western Han v5 tracing pass."
   },
   {
     "id": "wikimedia_commons_qin_reference_only",
     "sourceName": "Wikimedia Commons Qin Empire 210 BCE",
+    "sourceNameZh": "Wikimedia Commons 秦帝国地图（前210年）",
+    "sourceNameEn": "Wikimedia Commons Qin Empire 210 BCE",
     "sourceType": "historical_boundary_reference",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qin_empire_210_BCE.png",
     "licenseName": "CC BY-SA 3.0 / GFDL",
@@ -150,11 +176,14 @@
     "approvalStatus": "reference_only",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Kept as a historical comparison reference only, not as imported product geometry, because the product assets remain internally redrawn."
+    "notes": "Kept as a historical comparison reference only, not as imported product geometry, because the product assets remain internally redrawn.",
+    "notesEn": "Kept as a historical comparison reference only, not as imported product geometry, because the product assets remain internally redrawn."
   },
   {
     "id": "wikimedia_commons_xin_reference_only",
     "sourceName": "Wikimedia Commons Xin Dynasty Map",
+    "sourceNameZh": "Wikimedia Commons 新朝地图",
+    "sourceNameEn": "Wikimedia Commons Xin Dynasty Map",
     "sourceType": "historical_boundary_reference",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xin_Dynasty.png",
     "licenseName": "CC BY-SA 4.0",
@@ -167,11 +196,14 @@
     "approvalStatus": "reference_only",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Used only as a visual comparison reference while preparing the internal Xin 8 CE tracing sample."
+    "notes": "Used only as a visual comparison reference while preparing the internal Xin 8 CE tracing sample.",
+    "notesEn": "Used only as a visual comparison reference while preparing the internal Xin 8 CE tracing sample."
   },
   {
     "id": "wikimedia_commons_eastern_han_reference_only",
     "sourceName": "Wikimedia Commons Han Foreign Relations CE 2",
+    "sourceNameZh": "Wikimedia Commons 汉朝对外关系图（公元2年）",
+    "sourceNameEn": "Wikimedia Commons Han Foreign Relations CE 2",
     "sourceType": "historical_boundary_reference",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Han_foreign_relations_CE_2_chinese.jpg",
     "licenseName": "CC BY-SA 3.0 / GFDL",
@@ -184,11 +216,14 @@
     "approvalStatus": "reference_only",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Used only as a calibration reference for the early Eastern Han footprint and frontier alignment, not as imported product geometry."
+    "notes": "Used only as a calibration reference for the early Eastern Han footprint and frontier alignment, not as imported product geometry.",
+    "notesEn": "Used only as a calibration reference for the early Eastern Han footprint and frontier alignment, not as imported product geometry."
   },
   {
     "id": "wikidata_entities",
     "sourceName": "Wikidata",
+    "sourceNameZh": "Wikidata",
+    "sourceNameEn": "Wikidata",
     "sourceType": "metadata_reference",
     "sourceUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
     "licenseName": "CC0",
@@ -201,11 +236,14 @@
     "approvalStatus": "approved",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Suitable as a structured metadata enrichment source."
+    "notes": "Suitable as a structured metadata enrichment source.",
+    "notesEn": "Suitable as a structured metadata enrichment source."
   },
   {
     "id": "chgis_reference",
     "sourceName": "CHGIS",
+    "sourceNameZh": "CHGIS",
+    "sourceNameEn": "CHGIS",
     "sourceType": "historical_boundary_reference",
     "sourceUrl": "https://chgis.fas.harvard.edu/data/chgis/v6",
     "licenseName": "Academic research only",
@@ -218,6 +256,27 @@
     "approvalStatus": "reference_only",
     "reviewDate": "2026-03-07",
     "reviewOwner": "Cursor Agent",
-    "notes": "Kept only as a research reference for later Chinese boundary validation."
+    "notes": "Kept only as a research reference for later Chinese boundary validation.",
+    "notesEn": "Kept only as a research reference for later Chinese boundary validation."
+  },
+  {
+    "id": "world_historical_gis_data",
+    "sourceName": "World Historical GIS Data (2000 BCE to 1994 CE)",
+    "sourceNameZh": "世界历史 GIS 数据库 (公元前2000年至1994年)",
+    "sourceNameEn": "World Historical GIS Data (2000 BCE to 1994 CE)",
+    "sourceType": "historical_boundary",
+    "sourceUrl": "https://github.com/idris-maps/world-historical-gis-data",
+    "licenseName": "Public Domain / Open Source",
+    "licenseUrl": "https://github.com/idris-maps/world-historical-gis-data",
+    "commercialUseAllowed": true,
+    "redistributionAllowed": true,
+    "modificationAllowed": true,
+    "attributionRequired": true,
+    "attributionText": "Compiled by idris-maps based on historical sources.",
+    "approvalStatus": "approved",
+    "reviewDate": "2026-03-18",
+    "reviewOwner": "Cursor Agent",
+    "notes": "Extracted specific world empires from TopoJSON arrays for global atlas rendering.",
+    "notesEn": "Extracted specific world empires from TopoJSON arrays for global atlas rendering."
   }
 ]

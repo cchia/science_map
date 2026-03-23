@@ -60,3 +60,5 @@ flutter:
     - assets/data/
     - assets/global/
     - assets/geojson/
+    - assets/geojson/world/
+    - assets/geojson/unified/

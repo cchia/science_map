@@ -24,6 +24,13 @@ class EventDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppL10n.of(context);
+    final summary = l10n.isZh ? event.summaryZh : event.summaryEn;
+    final content = l10n.isZh ? event.contentZh : event.contentEn;
+    final significance = l10n.isZh ? event.significanceZh : event.significanceEn;
+    final consequences = l10n.isZh ? event.consequencesZh : event.consequencesEn;
+    final locationName = placeNames.isNotEmpty
+        ? placeNames.first
+        : (l10n.isZh ? event.locationNameZh : event.locationNameEn);
     final relatedPeople = event.relatedPeople
         .map((id) => peopleById[id])
         .whereType<HistoricalPerson>()
@@ -44,7 +51,7 @@ class EventDetailPage extends StatelessWidget {
             runSpacing: 8,
             children: [
               _MetaChip(label: l10n.text('年份', 'Year'), value: l10n.formatYear(event.year)),
-              _MetaChip(label: l10n.text('地点', 'Location'), value: event.locationName),
+              _MetaChip(label: l10n.text('地点', 'Location'), value: locationName),
               _MetaChip(label: l10n.text('政权', 'Territory'), value: territoryNames.join(' / ')),
               if (event.confidence.isNotEmpty)
                 _MetaChip(label: l10n.text('置信度', 'Confidence'), value: event.confidence),
@@ -57,22 +64,22 @@ class EventDetailPage extends StatelessWidget {
           const SizedBox(height: 20),
           Text(l10n.text('摘要', 'Summary'), style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 8),
-          Text(event.summary),
+          Text(summary),
           const SizedBox(height: 20),
           Text(l10n.text('正文', 'Content'), style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 8),
-          Text(event.content),
-          if (event.significance.isNotEmpty) ...[
+          Text(content),
+          if (significance.isNotEmpty) ...[
             const SizedBox(height: 20),
             Text(l10n.text('历史意义', 'Significance'), style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 8),
-            Text(event.significance),
+            Text(significance),
           ],
-          if (event.consequences.isNotEmpty) ...[
+          if (consequences.isNotEmpty) ...[
             const SizedBox(height: 20),
             Text(l10n.text('后续影响', 'Consequences'), style: Theme.of(context).textTheme.titleMedium),
             const SizedBox(height: 8),
-            ...event.consequences.map(
+            ...consequences.map(
               (item) => Padding(
                 padding: const EdgeInsets.only(bottom: 6),
                 child: Text('• $item'),
@@ -86,7 +93,7 @@ class EventDetailPage extends StatelessWidget {
             spacing: 8,
             runSpacing: 8,
             children: event.tags
-                .map((tag) => Chip(label: Text(tag)))
+                .map((tag) => Chip(label: Text(l10n.tagLabel(tag))))
                 .toList(growable: false),
           ),
           if (relatedPeople.isNotEmpty) ...[

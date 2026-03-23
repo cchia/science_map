@@ -20,17 +20,27 @@ class AtlasExplorerController extends ChangeNotifier {
   int _selectedYearIndex;
   String _selectedTerritoryId;
   String? _selectedEventId;
+  
+  Storyline? _activeStoryline;
+  int _storylineEventIndex = 0;
 
   int get selectedYearIndex => _selectedYearIndex;
   String get selectedTerritoryId => _selectedTerritoryId;
   String? get selectedEventId => _selectedEventId;
   int get selectedYear => data.scope.timelineYears[_selectedYearIndex];
+  
+  Storyline? get activeStoryline => _activeStoryline;
+  int get storylineEventIndex => _storylineEventIndex;
 
   List<TerritorySnapshot> get currentSnapshots => data.snapshots
       .where((snapshot) => snapshot.year == selectedYear)
       .toList(growable: false);
 
   TerritorySnapshot get selectedSnapshot {
+    if (currentSnapshots.isEmpty) {
+      // Fallback: return the first snapshot from all snapshots if current year has none
+      return data.snapshots.first;
+    }
     for (final snapshot in currentSnapshots) {
       if (snapshot.territoryId == _selectedTerritoryId) {
         return snapshot;
@@ -125,6 +135,56 @@ class AtlasExplorerController extends ChangeNotifier {
     _selectedEventId = event.id;
     _syncSelectionForCurrentYear();
     notifyListeners();
+  }
+
+  void startStoryline(Storyline story) {
+    _activeStoryline = story;
+    _storylineEventIndex = 0;
+    _syncStorylineState();
+    notifyListeners();
+  }
+
+  void exitStoryline() {
+    _activeStoryline = null;
+    notifyListeners();
+  }
+
+  void nextStorylineEvent() {
+    if (_activeStoryline == null) return;
+    if (_storylineEventIndex < _activeStoryline!.eventIds.length - 1) {
+      _storylineEventIndex++;
+      _syncStorylineState();
+      notifyListeners();
+    }
+  }
+
+  void prevStorylineEvent() {
+    if (_activeStoryline == null) return;
+    if (_storylineEventIndex > 0) {
+      _storylineEventIndex--;
+      _syncStorylineState();
+      notifyListeners();
+    }
+  }
+
+  void setStorylineEventIndex(int index) {
+    if (_activeStoryline == null) return;
+    if (index >= 0 && index < _activeStoryline!.eventIds.length) {
+      _storylineEventIndex = index;
+      _syncStorylineState();
+      notifyListeners();
+    }
+  }
+
+  void _syncStorylineState() {
+    if (_activeStoryline == null) return;
+    if (_activeStoryline!.eventIds.isEmpty) return;
+    
+    final eventId = _activeStoryline!.eventIds[_storylineEventIndex];
+    final event = eventById(eventId);
+    if (event != null) {
+      jumpToEvent(event);
+    }
   }
 
   TerritorySnapshot? _nearestSnapshotForTerritory(

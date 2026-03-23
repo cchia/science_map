@@ -11,7 +11,12 @@
       "wikimedia_commons_qin_reference_only"
     ],
     "projection": "EPSG:4326",
-    "bbox": [98.2, 25.4, 121.0, 42.6],
+    "bbox": [
+      98.2,
+      25.4,
+      121,
+      42.6
+    ],
     "revision": "v5",
     "editorNotes": "Focused v5 tracing sample for Qin in 221 BCE, refining the Bohai turn, east coast, and southern closure."
   },
@@ -29,7 +34,12 @@
       "wikimedia_commons_han_commanderies_reference_only"
     ],
     "projection": "EPSG:4326",
-    "bbox": [93.4, 24.8, 123.8, 44.2],
+    "bbox": [
+      93.4,
+      24.8,
+      123.8,
+      44.2
+    ],
     "revision": "v5",
     "editorNotes": "Focused v5 tracing sample for Western Han at 141 BCE, refining the Shandong peninsula, Bohai turn, east coast, and southern closure."
   },
@@ -46,7 +56,12 @@
       "wikimedia_commons_xin_reference_only"
     ],
     "projection": "EPSG:4326",
-    "bbox": [97.2, 24.8, 121.4, 43.1],
+    "bbox": [
+      97.2,
+      24.8,
+      121.4,
+      43.1
+    ],
     "revision": "v5",
     "editorNotes": "Focused v5 tracing sample for Xin in 8 CE, preserving the inherited Han frame while clarifying its middle position between Western Han and Eastern Han."
   },
@@ -63,8 +78,733 @@
       "wikimedia_commons_eastern_han_reference_only"
     ],
     "projection": "EPSG:4326",
-    "bbox": [98.3, 24.7, 121.0, 42.5],
+    "bbox": [
+      98.3,
+      24.7,
+      121,
+      42.5
+    ],
     "revision": "v5",
     "editorNotes": "Focused v5 tracing sample for Eastern Han in 25 CE, with a clearer west and south contraction to distinguish it from Xin."
+  },
+  {
+    "id": "cao_wei_220_main_v1",
+    "assetPath": "assets/geojson/cao_wei_220_main_v1.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "mvp_schematic",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      103.7,
+      33.4,
+      122,
+      41.4
+    ],
+    "revision": "v1",
+    "editorNotes": "Refined v1 schematic for Cao Wei at 220 CE with tightened southern boundary to reduce overlap in same-year multi-state display."
+  },
+  {
+    "id": "shu_han_221_main_v1",
+    "assetPath": "assets/geojson/shu_han_221_main_v1.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "mvp_schematic",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      97.3,
+      24.9,
+      108.1,
+      33.4
+    ],
+    "revision": "v1",
+    "editorNotes": "Refined v1 schematic for Shu Han at 221 CE, centered on Sichuan-Hanzhong profile with reduced eastward spread for cleaner separation."
+  },
+  {
+    "id": "eastern_wu_229_main_v1",
+    "assetPath": "assets/geojson/eastern_wu_229_main_v1.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "mvp_schematic",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      108.4,
+      22,
+      122,
+      33.4
+    ],
+    "revision": "v1",
+    "editorNotes": "Refined v1 schematic for Eastern Wu at 229 CE with clearer Jiangdong-lower Yangtze footprint and reduced northward overlap."
+  },
+  {
+    "id": "shu_han_263_main_v1",
+    "assetPath": "assets/geojson/shu_han_263_main_v1.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "mvp_schematic",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      98.2,
+      25.2,
+      106.4,
+      33.1
+    ],
+    "revision": "v1",
+    "editorNotes": "Refined v1 schematic late-stage boundary for Shu Han at 263 CE with stronger contraction to reflect terminal-phase control."
+  },
+  {
+    "id": "cao_wei_220_main_v2",
+    "assetPath": "assets/geojson/cao_wei_220_main_v2.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      103.7,
+      33.4,
+      122.1,
+      41.2
+    ],
+    "revision": "v2",
+    "editorNotes": "v2 tracing sample for Cao Wei 220 CE with denser north-central articulation and cleaner southern boundary."
+  },
+  {
+    "id": "cao_wei_229_main_v2",
+    "assetPath": "assets/geojson/cao_wei_229_main_v2.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      103.8,
+      33.5,
+      121.8,
+      41
+    ],
+    "revision": "v2",
+    "editorNotes": "v2 dedicated 229 CE Cao Wei boundary for same-year tripartite display with reduced overlap."
+  },
+  {
+    "id": "shu_han_221_main_v2",
+    "assetPath": "assets/geojson/shu_han_221_main_v2.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      97.2,
+      24.8,
+      108,
+      33.3
+    ],
+    "revision": "v2",
+    "editorNotes": "v2 tracing sample for Shu Han 221 CE with refined Sichuan basin and Hanzhong transition."
+  },
+  {
+    "id": "shu_han_229_main_v2",
+    "assetPath": "assets/geojson/shu_han_229_main_v2.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      97.3,
+      24.9,
+      107,
+      32.7
+    ],
+    "revision": "v2",
+    "editorNotes": "v2 dedicated 229 CE Shu Han boundary for same-year tripartite comparison."
+  },
+  {
+    "id": "eastern_wu_229_main_v2",
+    "assetPath": "assets/geojson/eastern_wu_229_main_v2.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      108.4,
+      22,
+      121.4,
+      33.1
+    ],
+    "revision": "v2",
+    "editorNotes": "v2 tracing sample for Eastern Wu 229 CE with clearer Jiangdong and lower Yangtze profile."
+  },
+  {
+    "id": "shu_han_263_main_v2",
+    "assetPath": "assets/geojson/shu_han_263_main_v2.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      98.1,
+      25.2,
+      105.6,
+      32.6
+    ],
+    "revision": "v2",
+    "editorNotes": "v2 tracing sample for Shu Han 263 CE terminal-stage contraction."
+  },
+  {
+    "id": "cao_wei_220_main_v3",
+    "assetPath": "assets/geojson/cao_wei_220_main_v3.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      103.72,
+      33.43,
+      122,
+      41.08
+    ],
+    "revision": "v3",
+    "editorNotes": "v3 precision pass for Cao Wei 220 CE with denser contour points and cleaner southern edge articulation."
+  },
+  {
+    "id": "cao_wei_229_main_v3",
+    "assetPath": "assets/geojson/cao_wei_229_main_v3.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      103.82,
+      33.54,
+      121.82,
+      40.26
+    ],
+    "revision": "v3",
+    "editorNotes": "v3 precision pass for Cao Wei 229 CE for same-year tripartite display with reduced overlap."
+  },
+  {
+    "id": "shu_han_221_main_v3",
+    "assetPath": "assets/geojson/shu_han_221_main_v3.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      97.18,
+      24.8,
+      106.68,
+      33.32
+    ],
+    "revision": "v3",
+    "editorNotes": "v3 precision pass for Shu Han 221 CE with refined basin and northern transition profile."
+  },
+  {
+    "id": "shu_han_229_main_v3",
+    "assetPath": "assets/geojson/shu_han_229_main_v3.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      97.28,
+      24.92,
+      105.5,
+      32.44
+    ],
+    "revision": "v3",
+    "editorNotes": "v3 precision pass for Shu Han 229 CE optimized for same-year multi-state separation."
+  },
+  {
+    "id": "eastern_wu_229_main_v3",
+    "assetPath": "assets/geojson/eastern_wu_229_main_v3.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      108.42,
+      22,
+      120.48,
+      32.3
+    ],
+    "revision": "v3",
+    "editorNotes": "v3 precision pass for Eastern Wu 229 CE with finer Jiangdong and lower Yangtze contour."
+  },
+  {
+    "id": "shu_han_263_main_v3",
+    "assetPath": "assets/geojson/shu_han_263_main_v3.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "product_tracing_sample",
+    "licenseSourceId": "editorial_internal_v1",
+    "derivedFromSourceIds": [
+      "editorial_internal_v1"
+    ],
+    "projection": "EPSG:4326",
+    "bbox": [
+      98.08,
+      25.22,
+      104.5,
+      31.92
+    ],
+    "revision": "v3",
+    "editorNotes": "v3 precision pass for Shu Han 263 CE emphasizing terminal-stage contraction."
+  },
+  {
+    "id": "roman_empire_200bc",
+    "assetPath": "assets/geojson/world/roman_empire_200bc.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Roman Empire / Republic extent around 200 BCE from World Historical GIS dataset."
+  },
+  {
+    "id": "roman_empire_1bc",
+    "assetPath": "assets/geojson/world/roman_empire_1bc.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Roman Empire extent around 1 BCE from World Historical GIS dataset."
+  },
+  {
+    "id": "parthia_200bc",
+    "assetPath": "assets/geojson/world/parthia_200bc.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Parthian Empire extent around 200 BCE from World Historical GIS dataset."
+  },
+  {
+    "id": "byzantine_empire_800",
+    "assetPath": "assets/geojson/world/byzantine_empire_800.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Byzantine Empire extent around 800 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "abbasid_caliphate_800",
+    "assetPath": "assets/geojson/world/abbasid_caliphate_800.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Abbasid Caliphate extent around 800 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "carolingian_empire_800",
+    "assetPath": "assets/geojson/world/carolingian_empire_800.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "europe",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Carolingian Empire extent around 800 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "holy_roman_empire_1279",
+    "assetPath": "assets/geojson/world/holy_roman_empire_1279.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "europe",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Holy Roman Empire extent around 1279 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "ottoman_empire_1650",
+    "assetPath": "assets/geojson/world/ottoman_empire_1650.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Ottoman Empire extent around 1650 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "mughal_empire_1650",
+    "assetPath": "assets/geojson/world/mughal_empire_1650.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "india",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Mughal Empire extent around 1650 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "russian_empire_1783",
+    "assetPath": "assets/geojson/world/russian_empire_1783.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Russian Empire extent around 1783 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "tang_empire_800",
+    "assetPath": "assets/geojson/world/tang_empire_800.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Tang Empire extent around 800 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "mongol_empire_yuan_1279",
+    "assetPath": "assets/geojson/world/yuan_dynasty_1279.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Yuan Dynasty (Great Khanate) extent around 1279 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "ilkhanate_1279",
+    "assetPath": "assets/geojson/world/ilkhanate_1279.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Ilkhanate extent around 1279 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "inca_empire_1492",
+    "assetPath": "assets/geojson/world/inca_empire_1492.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "americas",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Inca Empire extent around 1492 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "aztec_empire_1492",
+    "assetPath": "assets/geojson/world/aztec_empire_1492.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "americas",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Aztec Empire extent around 1492 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "qin_dynasty_unified_323bc",
+    "assetPath": "assets/geojson/unified/qin_dynasty_-323.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Qin Empire extent around 323 BCE from World Historical GIS dataset."
+  },
+  {
+    "id": "han_dynasty_unified_200bc",
+    "assetPath": "assets/geojson/unified/han_dynasty_-200.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Han Empire extent around 200 BCE from World Historical GIS dataset."
+  },
+  {
+    "id": "jin_dynasty_unified_400",
+    "assetPath": "assets/geojson/unified/jin_dynasty_400.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Jin Empire extent around 400 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "northern_wei_unified_400",
+    "assetPath": "assets/geojson/unified/northern_wei_400.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Northern Wei extent around 400 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "sui_dynasty_unified_600",
+    "assetPath": "assets/geojson/unified/sui_dynasty_600.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Sui Empire extent around 600 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "tang_dynasty_unified_800",
+    "assetPath": "assets/geojson/unified/tang_dynasty_800.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Tang Empire extent around 800 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "song_dynasty_unified_1000",
+    "assetPath": "assets/geojson/unified/song_dynasty_1000.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Song Empire extent around 1000 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "yuan_dynasty_unified_1279",
+    "assetPath": "assets/geojson/unified/yuan_dynasty_1279.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Yuan Dynasty extent around 1279 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "ming_dynasty_unified_1530",
+    "assetPath": "assets/geojson/unified/ming_dynasty_1530.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Ming Dynasty extent around 1530 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "qing_dynasty_unified_1650",
+    "assetPath": "assets/geojson/unified/qing_dynasty_1650.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Qing Dynasty extent around 1650 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "roc_unified_1920",
+    "assetPath": "assets/geojson/unified/roc_1920.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "simplificationLevel": "world_historical_gis_data",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Republic of China extent around 1920 CE from World Historical GIS dataset."
+  },
+  {
+    "id": "liao_1000",
+    "path": "assets/geojson/unified/liao_1000.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 35,
+      "maxLat": 55,
+      "minLng": 100,
+      "maxLng": 140
+    }
+  },
+  {
+    "id": "xixia_1000",
+    "path": "assets/geojson/unified/xixia_1000.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 35,
+      "maxLat": 45,
+      "minLng": 95,
+      "maxLng": 110
+    }
+  },
+  {
+    "id": "tibet_800",
+    "path": "assets/geojson/unified/tibet_800.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 27,
+      "maxLat": 38,
+      "minLng": 75,
+      "maxLng": 105
+    }
+  },
+  {
+    "id": "tibet_1000",
+    "path": "assets/geojson/unified/tibet_1000.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 27,
+      "maxLat": 38,
+      "minLng": 75,
+      "maxLng": 105
+    }
+  },
+  {
+    "id": "goguryeo_400",
+    "path": "assets/geojson/unified/goguryeo_400.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 38,
+      "maxLat": 45,
+      "minLng": 124,
+      "maxLng": 130
+    }
+  },
+  {
+    "id": "goguryeo_600",
+    "path": "assets/geojson/unified/goguryeo_600.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 38,
+      "maxLat": 45,
+      "minLng": 124,
+      "maxLng": 130
+    }
+  },
+  {
+    "id": "dali_1000",
+    "path": "assets/geojson/unified/dali_1000.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 22,
+      "maxLat": 28,
+      "minLng": 98,
+      "maxLng": 105
+    }
+  },
+  {
+    "id": "nanchao_800",
+    "path": "assets/geojson/unified/nanchao_800.geojson",
+    "sourceType": "world_historical_gis",
+    "bounds": {
+      "minLat": 22,
+      "maxLat": 28,
+      "minLng": 98,
+      "maxLng": 105
+    }
   }
 ]
