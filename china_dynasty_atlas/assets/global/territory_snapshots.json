@@ -262,7 +262,7 @@
     },
     "displayYear": 220,
     "geometryRefs": [
-      "cao_wei_220_main_v3"
+      "cao_wei_220_unified"
     ],
     "controlZones": [],
     "mapFocus": {
@@ -319,7 +319,7 @@
     },
     "displayYear": 221,
     "geometryRefs": [
-      "shu_han_221_main_v3"
+      "shu_han_221_unified"
     ],
     "controlZones": [],
     "mapFocus": {
@@ -375,7 +375,7 @@
     },
     "displayYear": 229,
     "geometryRefs": [
-      "eastern_wu_229_main_v3"
+      "eastern_wu_229_unified"
     ],
     "controlZones": [],
     "mapFocus": {
@@ -431,7 +431,7 @@
     },
     "displayYear": 229,
     "geometryRefs": [
-      "cao_wei_229_main_v3"
+      "cao_wei_220_unified"
     ],
     "controlZones": [],
     "mapFocus": {
@@ -487,7 +487,7 @@
     },
     "displayYear": 229,
     "geometryRefs": [
-      "shu_han_229_main_v3"
+      "shu_han_221_unified"
     ],
     "controlZones": [],
     "mapFocus": {
@@ -543,7 +543,7 @@
     },
     "displayYear": 263,
     "geometryRefs": [
-      "shu_han_263_main_v3"
+      "shu_han_221_unified"
     ],
     "controlZones": [],
     "mapFocus": {

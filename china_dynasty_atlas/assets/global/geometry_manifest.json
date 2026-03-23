@@ -806,5 +806,38 @@
       "minLng": 98,
       "maxLng": 105
     }
+  },
+  {
+    "id": "cao_wei_220_unified",
+    "assetPath": "assets/geojson/unified/cao_wei_220.geojson",
+    "sourceType": "eserica_geojson",
+    "bounds": {
+      "minLat": 30,
+      "maxLat": 42,
+      "minLng": 100,
+      "maxLng": 125
+    }
+  },
+  {
+    "id": "shu_han_221_unified",
+    "assetPath": "assets/geojson/unified/shu_han_221.geojson",
+    "sourceType": "eserica_geojson",
+    "bounds": {
+      "minLat": 24,
+      "maxLat": 34,
+      "minLng": 97,
+      "maxLng": 108
+    }
+  },
+  {
+    "id": "eastern_wu_229_unified",
+    "assetPath": "assets/geojson/unified/eastern_wu_229.geojson",
+    "sourceType": "eserica_geojson",
+    "bounds": {
+      "minLat": 22,
+      "maxLat": 33,
+      "minLng": 108,
+      "maxLng": 122
+    }
   }
 ]
