@@ -1355,5 +1355,32 @@
       "world_historical_gis_data"
     ],
     "reviewStatus": "approved"
+  },
+  {
+    "id": "five_dynasties_schematic",
+    "territoryId": "five_dynasties",
+    "displayYear": 907,
+    "validFrom": {
+      "year": 907,
+      "datePrecision": "exact_year"
+    },
+    "validTo": {
+      "year": 960,
+      "datePrecision": "exact_year"
+    },
+    "geometryRefs": [
+      "tang_dynasty_unified_800"
+    ],
+    "mapFocus": {
+      "lat": 34,
+      "lng": 114,
+      "zoom": 4
+    },
+    "headline": "五代十国（示意）",
+    "territoryNote": "目前暂无高精度的五代十国各小国矢量数据，此处借用晚唐疆域收缩后的轮廓作为该分裂时期的地理范围参考。",
+    "sourceRefs": [
+      "world_historical_gis_data"
+    ],
+    "reviewStatus": "draft"
   }
 ]

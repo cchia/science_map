@@ -1166,5 +1166,22 @@
     },
     "type": "period",
     "brief": "唐末宋初的割据时期。"
+  },
+  {
+    "id": "later_tang_dynasty",
+    "names": {
+      "zh": "后唐等五代十国",
+      "en": "Five Dynasties (e.g. Later Tang)"
+    },
+    "start": {
+      "year": 907,
+      "datePrecision": "exact_year"
+    },
+    "end": {
+      "year": 960,
+      "datePrecision": "exact_year"
+    },
+    "type": "empire",
+    "brief": "五代十国时期的代表疆域（示意）。"
   }
 ]
