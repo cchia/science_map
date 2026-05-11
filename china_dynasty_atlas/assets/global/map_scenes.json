@@ -1,0 +1,274 @@
+[
+  {
+    "id": "qin_unification_scene_-323",
+    "displayYear": -323,
+    "title": {
+      "zh-Hans": "秦统一场景",
+      "en": "Qin Unification Scene"
+    },
+    "territorySnapshotIds": [
+      "qin_-221"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "representative_snapshot",
+    "notes": "当前使用世界历史 GIS 中 323 BCE 的秦轮廓作为秦统一阶段代表场景，年份与传统 221 BCE 统一事件并不完全一致，后续需要重建。",
+    "notesEn": "Currently uses a 323 BCE Qin outline from world historical GIS as a representative unification-stage scene. It does not exactly match the 221 BCE unification event and should be rebuilt later.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "western_han_and_parthia_scene_-200",
+    "displayYear": -200,
+    "title": {
+      "zh-Hans": "西汉与安息同代场景",
+      "en": "Western Han and Parthia Scene"
+    },
+    "territorySnapshotIds": [
+      "western_han_-141",
+      "parthia_-200"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "representative_snapshot",
+    "notes": "用于展示西汉早期及同时期欧亚大陆西部强权，不表示全球完整政治格局。",
+    "notesEn": "Shows early Western Han and a major western Eurasian contemporary power; not a complete global political scene.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "roman_empire_scene_-1",
+    "displayYear": -1,
+    "title": {
+      "zh-Hans": "罗马帝国与汉代世界",
+      "en": "Roman Empire and Han-Era World"
+    },
+    "territorySnapshotIds": [
+      "roman_empire_-1"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "representative_snapshot",
+    "notes": "用于补充汉代同一时期的地中海世界背景。",
+    "notesEn": "Provides Mediterranean context for the Han-era world.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "xin_transition_scene_8",
+    "displayYear": 8,
+    "title": {
+      "zh-Hans": "新朝过渡场景",
+      "en": "Xin Transition Scene"
+    },
+    "territorySnapshotIds": [
+      "xin_8"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "transition_snapshot",
+    "notes": "王莽代汉的过渡场景，重点是政权承袭与控制能力变化。",
+    "notesEn": "A transition scene for Wang Mang's replacement of Han, emphasizing inherited territory and weakened control.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "eastern_han_restoration_scene_25",
+    "displayYear": 25,
+    "title": {
+      "zh-Hans": "东汉重建场景",
+      "en": "Eastern Han Restoration Scene"
+    },
+    "territorySnapshotIds": [
+      "eastern_han_25"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "transition_snapshot",
+    "notes": "刘秀重建汉室的代表场景，不代表东汉全时期最大边界。",
+    "notesEn": "Representative scene for Liu Xiu's Han restoration, not the maximum Eastern Han extent.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "three_kingdoms_scene_229",
+    "displayYear": 229,
+    "title": {
+      "zh-Hans": "三国鼎立",
+      "en": "Three Kingdoms"
+    },
+    "territorySnapshotIds": [
+      "cao_wei_229",
+      "shu_han_229",
+      "eastern_wu_229"
+    ],
+    "completeness": "complete_scene",
+    "sceneType": "fragmentation_scene",
+    "notes": "代表孙权称帝后三国并立格局完全形成的场景。220、221、263 保留为事件年份，不作为默认完整地图场景。 该场景的“三国完整”指中国核心分裂场景完整，不代表 229 年全球政治地图已经完整。",
+    "notesEn": "Represents the classic tripartite scene after Eastern Wu's formal founding. 220, 221, and 263 remain event years rather than default complete map scenes. Here, complete refers to the China-focused Three Kingdoms scene, not a complete global political map for 229 CE.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "eastern_jin_northern_wei_scene_400",
+    "displayYear": 400,
+    "title": {
+      "zh-Hans": "东晋、北魏与东北亚",
+      "en": "Eastern Jin, Northern Wei, and Northeast Asia"
+    },
+    "territorySnapshotIds": [
+      "jin_dynasty_400",
+      "northern_wei_400",
+      "goguryeo_400"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "fragmentation_scene",
+    "notes": "当前只覆盖东晋、北魏和高句丽，尚不能代表完整十六国场景。",
+    "notesEn": "Currently covers Eastern Jin, Northern Wei, and Goguryeo only; it is not yet a complete Sixteen Kingdoms scene.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "sui_and_goguryeo_scene_600",
+    "displayYear": 600,
+    "title": {
+      "zh-Hans": "隋与高句丽对峙",
+      "en": "Sui and Goguryeo"
+    },
+    "territorySnapshotIds": [
+      "sui_dynasty_600",
+      "goguryeo_600"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "representative_snapshot",
+    "notes": "用于展示隋朝统一后与东北亚强权的关系。",
+    "notesEn": "Shows the post-reunification Sui world and its relationship with Goguryeo.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "tang_world_scene_800",
+    "displayYear": 800,
+    "title": {
+      "zh-Hans": "唐、吐蕃、南诏与八世纪世界",
+      "en": "Tang, Tibet, Nanzhao, and the Eighth-Century World"
+    },
+    "territorySnapshotIds": [
+      "tang_dynasty_800",
+      "tibet_800",
+      "nanchao_800",
+      "byzantine_empire_800",
+      "abbasid_caliphate_800",
+      "carolingian_empire_800"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "展示唐代中后期与欧亚大陆主要政权的同代关系，不是完整世界地图。",
+    "notesEn": "Shows Tang and several major contemporary Eurasian powers; not a complete world map.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "five_dynasties_placeholder_scene_907",
+    "displayYear": 907,
+    "title": {
+      "zh-Hans": "五代十国资料占位场景",
+      "en": "Five Dynasties Placeholder Scene"
+    },
+    "territorySnapshotIds": [
+      "five_dynasties_schematic"
+    ],
+    "completeness": "placeholder",
+    "sceneType": "placeholder_scene",
+    "notes": "当前没有足够精确的五代十国各政权边界，默认只能作为资料缺口提示。",
+    "notesEn": "Accurate boundaries for the Five Dynasties and Ten Kingdoms are not available yet; this scene is a data-gap marker.",
+    "sceneScope": "world",
+    "coverageLevel": "placeholder"
+  },
+  {
+    "id": "song_liao_xixia_scene_1000",
+    "displayYear": 1000,
+    "title": {
+      "zh-Hans": "北宋、辽、西夏与大理",
+      "en": "Song, Liao, Western Xia, and Dali"
+    },
+    "territorySnapshotIds": [
+      "song_dynasty_1000",
+      "liao_1000",
+      "xixia_1000",
+      "dali_1000",
+      "tibet_1000"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "fragmentation_scene",
+    "notes": "展示宋辽西夏大理并立格局的代表场景，但仍需进一步校验边界来源。",
+    "notesEn": "Representative scene for Song, Liao, Western Xia, Dali, and Tibet; boundaries still need stronger source review.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "mongol_yuan_scene_1279",
+    "displayYear": 1279,
+    "title": {
+      "zh-Hans": "蒙古帝国与元朝",
+      "en": "Mongol Empire and Yuan"
+    },
+    "territorySnapshotIds": [
+      "mongol_empire_1279"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "representative_snapshot",
+    "notes": "用于展示元朝与蒙古帝国格局，后续应拆分不同汗国层级。",
+    "notesEn": "Shows Yuan and the broader Mongol imperial frame; later work should separate khanate-level layers.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "ming_scene_1530",
+    "displayYear": 1530,
+    "title": {
+      "zh-Hans": "明代中后期",
+      "en": "Middle-Late Ming"
+    },
+    "territorySnapshotIds": [
+      "ming_dynasty_1530"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "representative_snapshot",
+    "notes": "明代代表场景，边疆控制层级后续需要拆分。",
+    "notesEn": "Representative Ming scene; frontier control levels should be separated later.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "qing_and_early_modern_world_scene_1650",
+    "displayYear": 1650,
+    "title": {
+      "zh-Hans": "清初与近世世界",
+      "en": "Early Qing and the Early Modern World"
+    },
+    "territorySnapshotIds": [
+      "qing_dynasty_1650",
+      "ottoman_empire_1650",
+      "mughal_empire_1650"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "展示清初与奥斯曼、莫卧儿等近世帝国的同代背景。",
+    "notesEn": "Shows early Qing alongside major early modern empires such as the Ottoman and Mughal empires.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "republic_of_china_scene_1920",
+    "displayYear": 1920,
+    "title": {
+      "zh-Hans": "北洋政府时期中华民国",
+      "en": "Republic of China under the Beiyang Government"
+    },
+    "territorySnapshotIds": [
+      "roc_1920"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "representative_snapshot",
+    "notes": "代表北洋政府时期的民国场景，实际控制与名义疆域应在后续拆分。",
+    "notesEn": "Representative Beiyang-era Republic of China scene; effective control and nominal claims should be separated later.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  }
+]

@@ -65,12 +65,26 @@ class AtlasRepository {
 
     List<Storyline> storylines = [];
     try {
-      final storylinesJson = await _loadJsonList('assets/global/storylines.json');
+      final storylinesJson = await _loadJsonList(
+        'assets/global/storylines.json',
+      );
       storylines = storylinesJson
           .map((json) => Storyline.fromJson(json))
           .toList(growable: false);
     } catch (e) {
       debugPrint('No storylines.json found or failed to parse: $e');
+    }
+
+    List<MapScene> mapScenes = [];
+    try {
+      final mapScenesJson = await _loadJsonList(
+        'assets/global/map_scenes.json',
+      );
+      mapScenes = mapScenesJson
+          .map((json) => MapScene.fromJson(json))
+          .toList(growable: false);
+    } catch (e) {
+      debugPrint('No map_scenes.json found or failed to parse: $e');
     }
 
     final polygonsBySnapshotId = <String, List<AtlasPolygonFeature>>{};
@@ -91,6 +105,16 @@ class AtlasRepository {
       polygonsBySnapshotId[snapshot.id] = polygons;
     }
 
+    final worldBaseGeometry = geometryById['world_base_modern'];
+    if (worldBaseGeometry != null &&
+        !polygonsByGeometryId.containsKey(worldBaseGeometry.id)) {
+      polygonsByGeometryId[worldBaseGeometry.id] = await _loadGeoJsonByPath(
+        'world_base_modern',
+        worldBaseGeometry.id,
+        worldBaseGeometry.assetPath,
+      );
+    }
+
     return AtlasData(
       scope: scope,
       territories: territories,
@@ -104,6 +128,7 @@ class AtlasRepository {
       geometryAssets: geometryAssets,
       controlZones: const [],
       storylines: storylines,
+      mapScenes: mapScenes,
     );
   }
 
@@ -112,17 +137,19 @@ class AtlasRepository {
     Map<String, PlaceRecord> placesById,
   ) {
     final names = json['names'] as Map<String, dynamic>? ?? <String, dynamic>{};
-    final localizedNames = names['localizedNames'] as Map<String, dynamic>? ?? <String, dynamic>{};
+    final localizedNames =
+        names['localizedNames'] as Map<String, dynamic>? ?? <String, dynamic>{};
     final capitalPlaceIds = List<String>.from(
       json['capitalPlaceIds'] as List<dynamic>? ?? const [],
     );
     final capitalName = capitalPlaceIds.isEmpty
         ? ''
         : _localizedPlaceName(placesById[capitalPlaceIds.first]);
-    
+
     final type = json['territoryType'] as String? ?? 'dynasty';
-    
-    final startJson = json['start'] as Map<String, dynamic>? ?? <String, dynamic>{};
+
+    final startJson =
+        json['start'] as Map<String, dynamic>? ?? <String, dynamic>{};
     final endJson = json['end'] as Map<String, dynamic>? ?? <String, dynamic>{};
 
     return Territory(
@@ -131,16 +158,16 @@ class AtlasRepository {
           (localizedNames['zh-Hans'] as String?) ??
           (names['primaryName'] as String? ?? ''),
       nameEn:
-          (localizedNames['en'] as String?) ?? (names['primaryName'] as String? ?? ''),
+          (localizedNames['en'] as String?) ??
+          (names['primaryName'] as String? ?? ''),
       type: type,
       summaryZh: json['summary'] as String? ?? '',
-      summaryEn: json['summaryEn'] as String? ?? (json['summary'] as String? ?? ''),
+      summaryEn:
+          json['summaryEn'] as String? ?? (json['summary'] as String? ?? ''),
       startDate: _historicalDate(startJson),
       endDate: _historicalDate(endJson),
       capital: capitalName,
-      color:
-          json['color'] as String? ??
-          _territoryColor(json['id'] as String),
+      color: json['color'] as String? ?? _territoryColor(json['id'] as String),
       predecessors: List<String>.from(
         json['predecessorIds'] as List<dynamic>? ?? const [],
       ),
@@ -152,7 +179,8 @@ class AtlasRepository {
       ),
       summaryLongZh: json['summaryLong'] as String? ?? '',
       summaryLongEn:
-          json['summaryLongEn'] as String? ?? (json['summaryLong'] as String? ?? ''),
+          json['summaryLongEn'] as String? ??
+          (json['summaryLong'] as String? ?? ''),
       governanceHighlightsZh: List<String>.from(
         json['governanceHighlights'] as List<dynamic>? ?? const [],
       ),
@@ -178,7 +206,8 @@ class AtlasRepository {
     Map<String, dynamic> json,
     Map<String, SourceRecord> sourcesById,
   ) {
-    final accuracy = json['accuracy'] as Map<String, dynamic>? ?? <String, dynamic>{};
+    final accuracy =
+        json['accuracy'] as Map<String, dynamic>? ?? <String, dynamic>{};
     final sourceRefs = List<String>.from(
       json['sourceRefs'] as List<dynamic>? ?? const [],
     );
@@ -192,12 +221,14 @@ class AtlasRepository {
     );
     final sourceNotesZh = [
       for (final sourceRef in sourceRefs)
-        if (sourcesById[sourceRef] != null) sourcesById[sourceRef]!.sourceNameZh,
+        if (sourcesById[sourceRef] != null)
+          sourcesById[sourceRef]!.sourceNameZh,
       ...disputeNotesZh,
     ];
     final sourceNotesEn = [
       for (final sourceRef in sourceRefs)
-        if (sourcesById[sourceRef] != null) sourcesById[sourceRef]!.sourceNameEn,
+        if (sourcesById[sourceRef] != null)
+          sourcesById[sourceRef]!.sourceNameEn,
       ...disputeNotesEn,
     ];
 
@@ -210,10 +241,12 @@ class AtlasRepository {
         json['mapFocus'] as Map<String, dynamic>? ?? <String, dynamic>{},
       ),
       headlineZh: json['headline'] as String? ?? '',
-      headlineEn: json['headlineEn'] as String? ?? (json['headline'] as String? ?? ''),
+      headlineEn:
+          json['headlineEn'] as String? ?? (json['headline'] as String? ?? ''),
       territoryNoteZh: json['territoryNote'] as String? ?? '',
       territoryNoteEn:
-          json['territoryNoteEn'] as String? ?? (json['territoryNote'] as String? ?? ''),
+          json['territoryNoteEn'] as String? ??
+          (json['territoryNote'] as String? ?? ''),
       highlightedEventIds: List<String>.from(
         json['highlightedEventIds'] as List<dynamic>? ?? const [],
       ),
@@ -226,7 +259,8 @@ class AtlasRepository {
             const [],
       ),
       accuracyNoteZh: accuracy['note'] as String? ?? '',
-      accuracyNoteEn: accuracy['noteEn'] as String? ?? (accuracy['note'] as String? ?? ''),
+      accuracyNoteEn:
+          accuracy['noteEn'] as String? ?? (accuracy['note'] as String? ?? ''),
       sourceNotesZh: sourceNotesZh,
       sourceNotesEn: sourceNotesEn,
       sourceRefs: sourceRefs,
@@ -247,16 +281,16 @@ class AtlasRepository {
     Map<String, SourceRecord> sourcesById,
   ) {
     final title = json['title'] as Map<String, dynamic>? ?? <String, dynamic>{};
-    final localizedTitle = title['localized'] as Map<String, dynamic>? ?? <String, dynamic>{};
+    final localizedTitle =
+        title['localized'] as Map<String, dynamic>? ?? <String, dynamic>{};
     final placeIds = List<String>.from(
       json['placeIds'] as List<dynamic>? ?? const [],
     );
     final firstPlace = placeIds.isEmpty ? null : placesById[placeIds.first];
     final locationNameZh = firstPlace?.nameZh ?? '';
-    final locationNameEn =
-        (firstPlace?.nameEn.isNotEmpty ?? false)
-            ? firstPlace!.nameEn
-            : (firstPlace?.nameZh ?? '');
+    final locationNameEn = (firstPlace?.nameEn.isNotEmpty ?? false)
+        ? firstPlace!.nameEn
+        : (firstPlace?.nameZh ?? '');
     final sourceRefs = List<String>.from(
       json['sourceRefs'] as List<dynamic>? ?? const [],
     );
@@ -265,15 +299,18 @@ class AtlasRepository {
         if (sourcesById[sourceRef] != null)
           sourcesById[sourceRef]!.sourceNameZh,
     ];
-    
-    final startJson = json['start'] as Map<String, dynamic>? ?? <String, dynamic>{};
+
+    final startJson =
+        json['start'] as Map<String, dynamic>? ?? <String, dynamic>{};
 
     return HistoricalEvent(
       id: json['id'] as String,
       titleZh:
           (localizedTitle['zh-Hans'] as String?) ??
           (json['displayTitle'] as String? ?? ''),
-      titleEn: (localizedTitle['en'] as String?) ?? (title['primary'] as String? ?? ''),
+      titleEn:
+          (localizedTitle['en'] as String?) ??
+          (title['primary'] as String? ?? ''),
       startDate: _historicalDate(startJson),
       territoryIds: List<String>.from(
         json['territoryIds'] as List<dynamic>? ?? const [],
@@ -283,16 +320,19 @@ class AtlasRepository {
       lat: (json['lat'] as num).toDouble(),
       lng: (json['lng'] as num).toDouble(),
       summaryZh: json['summary'] as String? ?? '',
-      summaryEn: json['summaryEn'] as String? ?? (json['summary'] as String? ?? ''),
+      summaryEn:
+          json['summaryEn'] as String? ?? (json['summary'] as String? ?? ''),
       contentZh: json['content'] as String? ?? '',
-      contentEn: json['contentEn'] as String? ?? (json['content'] as String? ?? ''),
+      contentEn:
+          json['contentEn'] as String? ?? (json['content'] as String? ?? ''),
       tags: List<String>.from(json['tags'] as List<dynamic>? ?? const []),
       relatedPeople: List<String>.from(
         json['relatedPersonIds'] as List<dynamic>? ?? const [],
       ),
       significanceZh: json['significance'] as String? ?? '',
       significanceEn:
-          json['significanceEn'] as String? ?? (json['significance'] as String? ?? ''),
+          json['significanceEn'] as String? ??
+          (json['significance'] as String? ?? ''),
       consequencesZh: List<String>.from(
         json['consequences'] as List<dynamic>? ?? const [],
       ),
@@ -313,7 +353,8 @@ class AtlasRepository {
     Map<String, SourceRecord> sourcesById,
   ) {
     final names = json['names'] as Map<String, dynamic>? ?? <String, dynamic>{};
-    final localizedNames = names['localizedNames'] as Map<String, dynamic>? ?? <String, dynamic>{};
+    final localizedNames =
+        names['localizedNames'] as Map<String, dynamic>? ?? <String, dynamic>{};
     final roles = List<String>.from(
       json['roles'] as List<dynamic>? ?? const [],
     );
@@ -332,12 +373,15 @@ class AtlasRepository {
           (localizedNames['zh-Hans'] as String?) ??
           (names['primaryName'] as String? ?? ''),
       nameEn:
-          (localizedNames['en'] as String?) ?? (names['primaryName'] as String? ?? ''),
+          (localizedNames['en'] as String?) ??
+          (names['primaryName'] as String? ?? ''),
       role: roles.isEmpty ? '' : roles.first,
       bioShortZh: json['bioShort'] as String? ?? '',
-      bioShortEn: json['bioShortEn'] as String? ?? (json['bioShort'] as String? ?? ''),
+      bioShortEn:
+          json['bioShortEn'] as String? ?? (json['bioShort'] as String? ?? ''),
       bioLongZh: json['bioLong'] as String? ?? '',
-      bioLongEn: json['bioLongEn'] as String? ?? (json['bioLong'] as String? ?? ''),
+      bioLongEn:
+          json['bioLongEn'] as String? ?? (json['bioLong'] as String? ?? ''),
       activeYears: json['activeRange'] as String? ?? '',
       relatedTerritoryIds: List<String>.from(
         json['relatedTerritoryIds'] as List<dynamic>? ?? const [],
@@ -347,7 +391,8 @@ class AtlasRepository {
       ),
       contributionZh: json['contribution'] as String? ?? '',
       contributionEn:
-          json['contributionEn'] as String? ?? (json['contribution'] as String? ?? ''),
+          json['contributionEn'] as String? ??
+          (json['contribution'] as String? ?? ''),
       sourceNotes: sourceNotes,
       sourceRefs: sourceRefs,
       birthPlaceId: json['birthPlaceId'] as String? ?? '',
@@ -357,7 +402,8 @@ class AtlasRepository {
 
   PlaceRecord _placeFromGlobal(Map<String, dynamic> json) {
     final names = json['names'] as Map<String, dynamic>? ?? <String, dynamic>{};
-    final localizedNames = names['localizedNames'] as Map<String, dynamic>? ?? <String, dynamic>{};
+    final localizedNames =
+        names['localizedNames'] as Map<String, dynamic>? ?? <String, dynamic>{};
 
     return PlaceRecord(
       id: json['id'] as String,
@@ -383,8 +429,12 @@ class AtlasRepository {
   SourceRecord _sourceFromGlobal(Map<String, dynamic> json) {
     return SourceRecord(
       id: json['id'] as String,
-      sourceNameZh: json['sourceNameZh'] as String? ?? (json['sourceName'] as String? ?? ''),
-      sourceNameEn: json['sourceNameEn'] as String? ?? (json['sourceName'] as String? ?? ''),
+      sourceNameZh:
+          json['sourceNameZh'] as String? ??
+          (json['sourceName'] as String? ?? ''),
+      sourceNameEn:
+          json['sourceNameEn'] as String? ??
+          (json['sourceName'] as String? ?? ''),
       sourceType: json['sourceType'] as String? ?? '',
       sourceUrl: json['sourceUrl'] as String? ?? '',
       licenseName: json['licenseName'] as String? ?? '',
@@ -457,11 +507,14 @@ class AtlasRepository {
     String assetPath,
   ) async {
     final raw = await rootBundle.loadString(assetPath);
-    final parsed = await compute(_parseGeoJsonFeaturesInIsolate, <String, dynamic>{
-      'snapshotId': snapshotId,
-      'geometryId': geometryId,
-      'raw': raw,
-    });
+    final parsed = await compute(
+      _parseGeoJsonFeaturesInIsolate,
+      <String, dynamic>{
+        'snapshotId': snapshotId,
+        'geometryId': geometryId,
+        'raw': raw,
+      },
+    );
     return parsed
         .map(
           (feature) => AtlasPolygonFeature(
@@ -532,11 +585,17 @@ List<List<List<double>>> _parsePolygonCoordinatesInIsolate(
             .map<List<double>>((point) {
               final coords = point as List<dynamic>;
               return <double>[
-                (coords[0] as num).toDouble(),
-                (coords[1] as num).toDouble(),
+                _clampCoordinate((coords[0] as num).toDouble(), -180, 180),
+                _clampCoordinate((coords[1] as num).toDouble(), -90, 90),
               ];
             })
             .toList(growable: false),
       )
       .toList(growable: false);
+}
+
+double _clampCoordinate(double value, double min, double max) {
+  if (value < min) return min;
+  if (value > max) return max;
+  return value;
 }

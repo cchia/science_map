@@ -10,31 +10,43 @@ final atlasExplorerControllerProvider =
 
 class AtlasExplorerController extends ChangeNotifier {
   AtlasExplorerController(this.data)
-    : _selectedYearIndex = 0,
+    : _selectedYear = data.scope.timelineYears.first,
       _selectedTerritoryId = data.scope.coreTerritoryIds.first {
     _syncSelectionForCurrentYear();
   }
 
   final AtlasData data;
 
-  int _selectedYearIndex;
+  int _selectedYear;
   String _selectedTerritoryId;
   String? _selectedEventId;
-  
+
   Storyline? _activeStoryline;
   int _storylineEventIndex = 0;
 
-  int get selectedYearIndex => _selectedYearIndex;
+  int get selectedYearIndex => _nearestTimelineYearIndex(_selectedYear);
   String get selectedTerritoryId => _selectedTerritoryId;
   String? get selectedEventId => _selectedEventId;
-  int get selectedYear => data.scope.timelineYears[_selectedYearIndex];
-  
+  int get selectedYear => _selectedYear;
+  int get activeSceneYear => currentScene?.displayYear ?? _selectedYear;
+
   Storyline? get activeStoryline => _activeStoryline;
   int get storylineEventIndex => _storylineEventIndex;
 
   List<TerritorySnapshot> get currentSnapshots => data.snapshots
-      .where((snapshot) => snapshot.year == selectedYear)
+      .where((snapshot) => snapshot.year == activeSceneYear)
       .toList(growable: false);
+
+  MapScene? get currentScene {
+    if (data.mapScenes.isEmpty) return null;
+    final scenes = [...data.mapScenes]
+      ..sort(
+        (a, b) => (a.displayYear - _selectedYear).abs().compareTo(
+          (b.displayYear - _selectedYear).abs(),
+        ),
+      );
+    return scenes.first;
+  }
 
   TerritorySnapshot get selectedSnapshot {
     if (currentSnapshots.isEmpty) {
@@ -62,14 +74,15 @@ class AtlasExplorerController extends ChangeNotifier {
         .toList(growable: false);
     final highlightedIds = highlightedEvents.map((event) => event.id).toSet();
 
-    final remainingEvents = data.events
-        .where(
-          (event) =>
-              event.territoryIds.contains(selectedTerritory.id) &&
-              !highlightedIds.contains(event.id),
-        )
-        .toList()
-      ..sort((a, b) => a.year.compareTo(b.year));
+    final remainingEvents =
+        data.events
+            .where(
+              (event) =>
+                  event.territoryIds.contains(selectedTerritory.id) &&
+                  !highlightedIds.contains(event.id),
+            )
+            .toList()
+          ..sort((a, b) => a.year.compareTo(b.year));
 
     return [...highlightedEvents, ...remainingEvents];
   }
@@ -82,8 +95,12 @@ class AtlasExplorerController extends ChangeNotifier {
   }
 
   void selectYearIndex(int index) {
-    if (index == _selectedYearIndex) return;
-    _selectedYearIndex = index;
+    selectYear(data.scope.timelineYears[index]);
+  }
+
+  void selectYear(int year) {
+    if (year == _selectedYear) return;
+    _selectedYear = year;
     _syncSelectionForCurrentYear();
     notifyListeners();
   }
@@ -91,7 +108,9 @@ class AtlasExplorerController extends ChangeNotifier {
   void selectTerritory(String territoryId) {
     if (_selectedTerritoryId == territoryId) return;
     _selectedTerritoryId = territoryId;
-    _selectedEventId = territoryEvents.isEmpty ? null : territoryEvents.first.id;
+    _selectedEventId = territoryEvents.isEmpty
+        ? null
+        : territoryEvents.first.id;
     notifyListeners();
   }
 
@@ -108,10 +127,7 @@ class AtlasExplorerController extends ChangeNotifier {
     );
     if (snapshot == null) return;
 
-    final yearIndex = data.scope.timelineYears.indexOf(snapshot.year);
-    if (yearIndex >= 0) {
-      _selectedYearIndex = yearIndex;
-    }
+    _selectedYear = snapshot.year;
     _selectedTerritoryId = snapshot.territoryId;
     _syncSelectionForCurrentYear();
     notifyListeners();
@@ -126,10 +142,7 @@ class AtlasExplorerController extends ChangeNotifier {
       targetYear: event.year,
     );
     if (snapshot != null) {
-      final yearIndex = data.scope.timelineYears.indexOf(snapshot.year);
-      if (yearIndex >= 0) {
-        _selectedYearIndex = yearIndex;
-      }
+      _selectedYear = event.year;
       _selectedTerritoryId = snapshot.territoryId;
     }
     _selectedEventId = event.id;
@@ -179,7 +192,7 @@ class AtlasExplorerController extends ChangeNotifier {
   void _syncStorylineState() {
     if (_activeStoryline == null) return;
     if (_activeStoryline!.eventIds.isEmpty) return;
-    
+
     final eventId = _activeStoryline!.eventIds[_storylineEventIndex];
     final event = eventById(eventId);
     if (event != null) {
@@ -215,7 +228,22 @@ class AtlasExplorerController extends ChangeNotifier {
 
     final eventIds = territoryEvents.map((event) => event.id).toSet();
     if (_selectedEventId == null || !eventIds.contains(_selectedEventId)) {
-      _selectedEventId = territoryEvents.isEmpty ? null : territoryEvents.first.id;
+      _selectedEventId = territoryEvents.isEmpty
+          ? null
+          : territoryEvents.first.id;
     }
+  }
+
+  int _nearestTimelineYearIndex(int year) {
+    var bestIndex = 0;
+    var bestDistance = (data.scope.timelineYears.first - year).abs();
+    for (var index = 1; index < data.scope.timelineYears.length; index++) {
+      final distance = (data.scope.timelineYears[index] - year).abs();
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        bestIndex = index;
+      }
+    }
+    return bestIndex;
   }
 }

@@ -1381,6 +1381,12 @@
     "sourceRefs": [
       "world_historical_gis_data"
     ],
-    "reviewStatus": "draft"
+    "reviewStatus": "placeholder",
+    "accuracy": {
+      "level": "low",
+      "tier": "placeholder",
+      "note": "五代十国目前只有示意占位图，不能作为真实边界使用。",
+      "noteEn": "Five Dynasties and Ten Kingdoms currently uses a placeholder schematic and must not be treated as an authoritative boundary."
+    }
   }
 ]

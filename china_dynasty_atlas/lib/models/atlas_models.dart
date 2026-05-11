@@ -125,8 +125,12 @@ class Territory {
       predecessors: List<String>.from(json['predecessors'] as List<dynamic>),
       successors: List<String>.from(json['successors'] as List<dynamic>),
       aliases: List<String>.from(json['aliases'] as List<dynamic>),
-      summaryLongZh: (json['summaryLongZh'] as String?) ?? (json['summaryLong'] as String? ?? ''),
-      summaryLongEn: (json['summaryLongEn'] as String?) ?? (json['summaryLong'] as String? ?? ''),
+      summaryLongZh:
+          (json['summaryLongZh'] as String?) ??
+          (json['summaryLong'] as String? ?? ''),
+      summaryLongEn:
+          (json['summaryLongEn'] as String?) ??
+          (json['summaryLong'] as String? ?? ''),
       governanceHighlightsZh: List<String>.from(
         (json['governanceHighlightsZh'] as List<dynamic>? ??
             json['governanceHighlights'] as List<dynamic>? ??
@@ -138,10 +142,14 @@ class Territory {
             const []),
       ),
       legacyZh: List<String>.from(
-        (json['legacyZh'] as List<dynamic>? ?? json['legacy'] as List<dynamic>? ?? const []),
+        (json['legacyZh'] as List<dynamic>? ??
+            json['legacy'] as List<dynamic>? ??
+            const []),
       ),
       legacyEn: List<String>.from(
-        (json['legacyEn'] as List<dynamic>? ?? json['legacy'] as List<dynamic>? ?? const []),
+        (json['legacyEn'] as List<dynamic>? ??
+            json['legacy'] as List<dynamic>? ??
+            const []),
       ),
       sourceRefs: List<String>.from(
         (json['sourceRefs'] as List<dynamic>? ?? const []),
@@ -238,8 +246,10 @@ class TerritorySnapshot {
       ),
       headlineZh: json['headlineZh'] as String? ?? json['headline'] as String,
       headlineEn: json['headlineEn'] as String? ?? json['headline'] as String,
-      territoryNoteZh: json['territoryNoteZh'] as String? ?? json['territoryNote'] as String,
-      territoryNoteEn: json['territoryNoteEn'] as String? ?? json['territoryNote'] as String,
+      territoryNoteZh:
+          json['territoryNoteZh'] as String? ?? json['territoryNote'] as String,
+      territoryNoteEn:
+          json['territoryNoteEn'] as String? ?? json['territoryNote'] as String,
       highlightedEventIds: List<String>.from(
         json['highlightedEventIds'] as List<dynamic>,
       ),
@@ -253,8 +263,12 @@ class TerritorySnapshot {
             json['boundaryHighlights'] as List<dynamic>? ??
             const []),
       ),
-      accuracyNoteZh: (json['accuracyNoteZh'] as String?) ?? (json['accuracyNote'] as String? ?? ''),
-      accuracyNoteEn: (json['accuracyNoteEn'] as String?) ?? (json['accuracyNote'] as String? ?? ''),
+      accuracyNoteZh:
+          (json['accuracyNoteZh'] as String?) ??
+          (json['accuracyNote'] as String? ?? ''),
+      accuracyNoteEn:
+          (json['accuracyNoteEn'] as String?) ??
+          (json['accuracyNote'] as String? ?? ''),
       sourceNotesZh: List<String>.from(
         (json['sourceNotesZh'] as List<dynamic>? ??
             json['sourceNotes'] as List<dynamic>? ??
@@ -355,10 +369,14 @@ class HistoricalEvent {
           (json['locationName'] as String? ?? ''),
       lat: (json['lat'] as num).toDouble(),
       lng: (json['lng'] as num).toDouble(),
-      summaryZh: (json['summaryZh'] as String?) ?? (json['summary'] as String? ?? ''),
-      summaryEn: (json['summaryEn'] as String?) ?? (json['summary'] as String? ?? ''),
-      contentZh: (json['contentZh'] as String?) ?? (json['content'] as String? ?? ''),
-      contentEn: (json['contentEn'] as String?) ?? (json['content'] as String? ?? ''),
+      summaryZh:
+          (json['summaryZh'] as String?) ?? (json['summary'] as String? ?? ''),
+      summaryEn:
+          (json['summaryEn'] as String?) ?? (json['summary'] as String? ?? ''),
+      contentZh:
+          (json['contentZh'] as String?) ?? (json['content'] as String? ?? ''),
+      contentEn:
+          (json['contentEn'] as String?) ?? (json['content'] as String? ?? ''),
       tags: List<String>.from(json['tags'] as List<dynamic>),
       relatedPeople: List<String>.from(json['relatedPeople'] as List<dynamic>),
       significanceZh:
@@ -450,9 +468,11 @@ class HistoricalPerson {
       nameEn: json['nameEn'] as String,
       role: json['role'] as String,
       bioShortZh:
-          (json['bioShortZh'] as String?) ?? (json['bioShort'] as String? ?? ''),
+          (json['bioShortZh'] as String?) ??
+          (json['bioShort'] as String? ?? ''),
       bioShortEn:
-          (json['bioShortEn'] as String?) ?? (json['bioShort'] as String? ?? ''),
+          (json['bioShortEn'] as String?) ??
+          (json['bioShort'] as String? ?? ''),
       bioLongZh:
           (json['bioLongZh'] as String?) ?? (json['bioLong'] as String? ?? ''),
       bioLongEn:
@@ -706,6 +726,53 @@ class Storyline {
   final StoryNarrative narrativeIntro;
 }
 
+class MapScene {
+  const MapScene({
+    required this.id,
+    required this.displayYear,
+    required this.titleZh,
+    required this.titleEn,
+    required this.territorySnapshotIds,
+    required this.completeness,
+    required this.sceneType,
+    required this.notesZh,
+    required this.notesEn,
+    required this.sceneScope,
+    required this.coverageLevel,
+  });
+
+  factory MapScene.fromJson(Map<String, dynamic> json) {
+    final title = json['title'] as Map<String, dynamic>? ?? const {};
+    return MapScene(
+      id: json['id'] as String,
+      displayYear: (json['displayYear'] as num).toInt(),
+      titleZh: title['zh-Hans'] as String? ?? '',
+      titleEn: title['en'] as String? ?? '',
+      territorySnapshotIds: List<String>.from(
+        json['territorySnapshotIds'] as List<dynamic>? ?? const [],
+      ),
+      completeness: json['completeness'] as String? ?? '',
+      sceneType: json['sceneType'] as String? ?? '',
+      notesZh: json['notes'] as String? ?? '',
+      notesEn: json['notesEn'] as String? ?? (json['notes'] as String? ?? ''),
+      sceneScope: json['sceneScope'] as String? ?? '',
+      coverageLevel: json['coverageLevel'] as String? ?? '',
+    );
+  }
+
+  final String id;
+  final int displayYear;
+  final String titleZh;
+  final String titleEn;
+  final List<String> territorySnapshotIds;
+  final String completeness;
+  final String sceneType;
+  final String notesZh;
+  final String notesEn;
+  final String sceneScope;
+  final String coverageLevel;
+}
+
 class AtlasData {
   const AtlasData({
     required this.scope,
@@ -720,6 +787,7 @@ class AtlasData {
     required this.geometryAssets,
     required this.controlZones,
     required this.storylines,
+    required this.mapScenes,
   });
 
   final ProjectScope scope;
@@ -734,4 +802,5 @@ class AtlasData {
   final List<GeometryAssetRecord> geometryAssets;
   final List<ControlZoneRecord> controlZones;
   final List<Storyline> storylines;
+  final List<MapScene> mapScenes;
 }

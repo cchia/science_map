@@ -73,7 +73,8 @@ class AtlasExplorer extends ConsumerStatefulWidget {
 class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
   final MapController _mapController = MapController();
   final LayerHitNotifier<String> _polygonHitNotifier = ValueNotifier(null);
-  final AtlasNavigationService _navigationService = const AtlasNavigationService();
+  final AtlasNavigationService _navigationService =
+      const AtlasNavigationService();
   bool _isMapReady = false;
 
   AtlasData get _data => widget.data;
@@ -121,6 +122,8 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     final theme = Theme.of(context);
     final l10n = AppL10n.of(context);
     final timelineYears = _data.scope.timelineYears;
+    final minTimelineYear = timelineYears.first;
+    final maxTimelineYear = timelineYears.last;
     final mapPanel = _MapPanel(
       mapController: _mapController,
       snapshots: controller.currentSnapshots,
@@ -131,9 +134,9 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       events: controller.territoryEvents,
       storylineEvents: controller.activeStoryline != null
           ? controller.activeStoryline!.eventIds
-              .map(controller.eventById)
-              .whereType<HistoricalEvent>()
-              .toList(growable: false)
+                .map(controller.eventById)
+                .whereType<HistoricalEvent>()
+                .toList(growable: false)
           : const [],
       storylineEventIndex: controller.storylineEventIndex,
       polygonHitNotifier: _polygonHitNotifier,
@@ -143,6 +146,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     final detailPanel = _DetailPanel(
       scope: _data.scope,
       selectedYear: controller.selectedYear,
+      scene: controller.currentScene,
       territory: controller.selectedTerritory,
       snapshot: controller.selectedSnapshot,
       events: controller.territoryEvents,
@@ -169,7 +173,9 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
           TextButton(
             onPressed: () {
               final currentIsZh = l10n.isZh;
-              ref.read(appLocaleOverrideProvider.notifier).setLocale(
+              ref
+                  .read(appLocaleOverrideProvider.notifier)
+                  .setLocale(
                     currentIsZh ? const Locale('en') : const Locale('zh'),
                   );
             },
@@ -237,19 +243,31 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          l10n.text('时间轴', 'Timeline'),
-                          style: theme.textTheme.titleMedium,
+                        Row(
+                          children: [
+                            Text(
+                              l10n.text('时间轴', 'Timeline'),
+                              style: theme.textTheme.titleMedium,
+                            ),
+                            const Spacer(),
+                            Text(
+                              '${l10n.text('选择年份', 'Selected')}: ${l10n.formatYear(controller.selectedYear)} · '
+                              '${l10n.text('地图场景', 'Scene')}: ${l10n.formatYear(controller.activeSceneYear)}',
+                              style: theme.textTheme.bodySmall,
+                            ),
+                          ],
                         ),
                         const SizedBox(height: 8),
                         Slider(
-                          value: controller.selectedYearIndex.toDouble(),
-                          min: 0,
-                          max: (timelineYears.length - 1).toDouble(),
-                          divisions: timelineYears.length - 1,
+                          value: controller.selectedYear
+                              .clamp(minTimelineYear, maxTimelineYear)
+                              .toDouble(),
+                          min: minTimelineYear.toDouble(),
+                          max: maxTimelineYear.toDouble(),
+                          divisions: maxTimelineYear - minTimelineYear,
                           label: l10n.formatYear(controller.selectedYear),
                           onChanged: (value) {
-                            _selectYearIndex(value.round());
+                            _selectYear(value.round());
                           },
                         ),
                         Wrap(
@@ -262,8 +280,12 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                               index++
                             )
                               ChoiceChip(
-                                label: Text(l10n.formatYear(timelineYears[index])),
-                                selected: index == controller.selectedYearIndex,
+                                label: Text(
+                                  l10n.formatYear(timelineYears[index]),
+                                ),
+                                selected:
+                                    timelineYears[index] ==
+                                    controller.activeSceneYear,
                                 onSelected: (_) => _selectYearIndex(index),
                               ),
                           ],
@@ -279,7 +301,10 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     );
   }
 
-  void _openStorylinesList(BuildContext context, AtlasExplorerController controller) {
+  void _openStorylinesList(
+    BuildContext context,
+    AtlasExplorerController controller,
+  ) {
     final l10n = AppL10n.of(context);
     showModalBottomSheet<void>(
       context: context,
@@ -301,9 +326,14 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                   itemBuilder: (context, index) {
                     final story = _data.storylines[index];
                     return ListTile(
-                      leading: Text(story.emoji, style: const TextStyle(fontSize: 24)),
+                      leading: Text(
+                        story.emoji,
+                        style: const TextStyle(fontSize: 24),
+                      ),
                       title: Text(l10n.isZh ? story.titleZh : story.titleEn),
-                      subtitle: Text(l10n.isZh ? story.descriptionZh : story.descriptionEn),
+                      subtitle: Text(
+                        l10n.isZh ? story.descriptionZh : story.descriptionEn,
+                      ),
                       onTap: () {
                         Navigator.of(context).pop();
                         controller.startStoryline(story);
@@ -322,9 +352,14 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
 
   void _selectYearIndex(int index) {
     final controller = _controller;
-    if (index == controller.selectedYearIndex) return;
     controller.selectYearIndex(index);
-    _moveMapToSelection(controller);
+    _moveMapToScene(controller);
+  }
+
+  void _selectYear(int year) {
+    final controller = _controller;
+    controller.selectYear(year);
+    _moveMapToScene(controller);
   }
 
   void _handlePolygonTap() {
@@ -342,10 +377,19 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     _mapController.move(LatLng(focus.lat, focus.lng), focus.zoom);
   }
 
+  void _moveMapToScene(AtlasExplorerController controller) {
+    if (!_isMapReady) return;
+    if (controller.currentScene?.sceneScope == 'world') {
+      _mapController.move(const LatLng(25, 20), 2.2);
+      return;
+    }
+    _moveMapToSelection(controller);
+  }
+
   void _handleMapReady() {
     if (_isMapReady) return;
     _isMapReady = true;
-    _moveMapToSelection(_controller);
+    _moveMapToScene(_controller);
   }
 
   Future<void> _openSearch() async {
@@ -446,10 +490,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
 }
 
 class _StorylinePanel extends StatelessWidget {
-  const _StorylinePanel({
-    required this.controller,
-    required this.onMapMove,
-  });
+  const _StorylinePanel({required this.controller, required this.onMapMove});
 
   final AtlasExplorerController controller;
   final VoidCallback onMapMove;
@@ -461,7 +502,7 @@ class _StorylinePanel extends StatelessWidget {
     final story = controller.activeStoryline!;
     final eventIndex = controller.storylineEventIndex;
     final totalEvents = story.eventIds.length;
-    
+
     return Card(
       clipBehavior: Clip.antiAlias,
       color: theme.colorScheme.tertiaryContainer,
@@ -498,9 +539,13 @@ class _StorylinePanel extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              l10n.isZh ? story.narrativeIntro.textZh : story.narrativeIntro.textEn,
+              l10n.isZh
+                  ? story.narrativeIntro.textZh
+                  : story.narrativeIntro.textEn,
               style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.9),
+                color: theme.colorScheme.onTertiaryContainer.withValues(
+                  alpha: 0.9,
+                ),
               ),
               maxLines: 4,
               overflow: TextOverflow.ellipsis,
@@ -509,7 +554,9 @@ class _StorylinePanel extends StatelessWidget {
             LinearProgressIndicator(
               value: totalEvents <= 1 ? 1.0 : eventIndex / (totalEvents - 1),
               color: theme.colorScheme.onTertiaryContainer,
-              backgroundColor: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.2),
+              backgroundColor: theme.colorScheme.onTertiaryContainer.withValues(
+                alpha: 0.2,
+              ),
             ),
             const SizedBox(height: 16),
             Row(
@@ -573,7 +620,10 @@ class _ScopeSummary extends StatelessWidget {
             _SummaryBadge(
               label: l10n.text('核心政权', 'Core Territories'),
               value: territories
-                  .map((territory) => l10n.displayName(territory.nameZh, territory.nameEn))
+                  .map(
+                    (territory) =>
+                        l10n.displayName(territory.nameZh, territory.nameEn),
+                  )
                   .join(' / '),
             ),
             _SummaryBadge(
@@ -662,6 +712,7 @@ class _MapPanelState extends State<_MapPanel> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppL10n.of(context);
+    final baseWorldPolygons = _buildBaseWorldPolygons();
     final polygons = _buildPolygons();
 
     return Card(
@@ -683,6 +734,8 @@ class _MapPanelState extends State<_MapPanel> {
                 urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                 userAgentPackageName: 'com.example.china_dynasty_atlas',
               ),
+              if (baseWorldPolygons.isNotEmpty)
+                PolygonLayer<String>(polygons: baseWorldPolygons),
               GestureDetector(
                 onTap: widget.onPolygonTap,
                 child: PolygonLayer<String>(
@@ -698,7 +751,9 @@ class _MapPanelState extends State<_MapPanel> {
                       points: widget.storylineEvents
                           .map((e) => LatLng(e.lat, e.lng))
                           .toList(growable: false),
-                      color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.4),
+                      color: Theme.of(
+                        context,
+                      ).colorScheme.primary.withValues(alpha: 0.4),
                       strokeWidth: 4.0,
                     ),
                     // The traversed path
@@ -784,6 +839,37 @@ class _MapPanelState extends State<_MapPanel> {
     );
   }
 
+  List<Polygon<String>> _buildBaseWorldPolygons() {
+    const geometryId = 'world_base_modern';
+    final cacheKey = 'base|$geometryId';
+    final cached = _polygonListCache[cacheKey];
+    if (cached != null) return cached;
+
+    final features = widget.polygonsByGeometryId[geometryId] ?? const [];
+    final polygons = <Polygon<String>>[];
+    for (final feature in features) {
+      final cachedRings = _ringsCache.putIfAbsent(
+        feature,
+        () => _CachedPolygonRings.fromFeature(feature),
+      );
+      polygons.add(
+        Polygon<String>(
+          points: cachedRings.points,
+          holePointsList: cachedRings.holePointsList,
+          color: Theme.of(
+            context,
+          ).colorScheme.surfaceTint.withValues(alpha: 0.08),
+          borderColor: Colors.black.withValues(alpha: 0.34),
+          borderStrokeWidth: 1.0,
+          hitValue: geometryId,
+        ),
+      );
+    }
+
+    _polygonListCache[cacheKey] = polygons;
+    return polygons;
+  }
+
   List<Polygon<String>> _buildPolygons() {
     final l10n = AppL10n.of(context);
     final cacheKey = [
@@ -838,7 +924,10 @@ class _MapPanelState extends State<_MapPanel> {
 }
 
 class _CachedPolygonRings {
-  const _CachedPolygonRings({required this.points, required this.holePointsList});
+  const _CachedPolygonRings({
+    required this.points,
+    required this.holePointsList,
+  });
 
   final List<LatLng> points;
   final List<List<LatLng>>? holePointsList;
@@ -866,6 +955,7 @@ class _DetailPanel extends StatelessWidget {
   const _DetailPanel({
     required this.scope,
     required this.selectedYear,
+    required this.scene,
     required this.territory,
     required this.snapshot,
     required this.events,
@@ -882,6 +972,7 @@ class _DetailPanel extends StatelessWidget {
 
   final ProjectScope scope;
   final int selectedYear;
+  final MapScene? scene;
   final Territory territory;
   final TerritorySnapshot snapshot;
   final List<HistoricalEvent> events;
@@ -914,21 +1005,37 @@ class _DetailPanel extends StatelessWidget {
         .map((id) => geometryAssetsById[id])
         .whereType<GeometryAssetRecord>()
         .toList(growable: false);
-    final territorySummary = l10n.isZh ? territory.summaryZh : territory.summaryEn;
-    final territorySummaryLong =
-        l10n.isZh ? territory.summaryLongZh : territory.summaryLongEn;
+    final territorySummary = l10n.isZh
+        ? territory.summaryZh
+        : territory.summaryEn;
+    final territorySummaryLong = l10n.isZh
+        ? territory.summaryLongZh
+        : territory.summaryLongEn;
     final governanceHighlights = l10n.isZh
         ? territory.governanceHighlightsZh
         : territory.governanceHighlightsEn;
     final legacy = l10n.isZh ? territory.legacyZh : territory.legacyEn;
-    final snapshotHeadline = l10n.isZh ? snapshot.headlineZh : snapshot.headlineEn;
-    final snapshotTerritoryNote =
-        l10n.isZh ? snapshot.territoryNoteZh : snapshot.territoryNoteEn;
+    final snapshotHeadline = l10n.isZh
+        ? snapshot.headlineZh
+        : snapshot.headlineEn;
+    final snapshotTerritoryNote = l10n.isZh
+        ? snapshot.territoryNoteZh
+        : snapshot.territoryNoteEn;
     final snapshotBoundaryHighlights = l10n.isZh
         ? snapshot.boundaryHighlightsZh
         : snapshot.boundaryHighlightsEn;
-    final snapshotAccuracyNote = l10n.isZh ? snapshot.accuracyNoteZh : snapshot.accuracyNoteEn;
-    final snapshotSourceNotes = l10n.isZh ? snapshot.sourceNotesZh : snapshot.sourceNotesEn;
+    final snapshotAccuracyNote = l10n.isZh
+        ? snapshot.accuracyNoteZh
+        : snapshot.accuracyNoteEn;
+    final snapshotSourceNotes = l10n.isZh
+        ? snapshot.sourceNotesZh
+        : snapshot.sourceNotesEn;
+    final sceneTitle = scene == null
+        ? l10n.displayName(territory.nameZh, territory.nameEn)
+        : l10n.displayName(scene!.titleZh, scene!.titleEn);
+    final sceneNotes = scene == null
+        ? ''
+        : (l10n.isZh ? scene!.notesZh : scene!.notesEn);
 
     return Card(
       clipBehavior: Clip.antiAlias,
@@ -936,10 +1043,11 @@ class _DetailPanel extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: ListView(
           children: [
-            Text(
-              l10n.displayName(territory.nameZh, territory.nameEn),
-              style: theme.textTheme.headlineSmall,
-            ),
+            Text(sceneTitle, style: theme.textTheme.headlineSmall),
+            if (sceneNotes.isNotEmpty) ...[
+              const SizedBox(height: 6),
+              Text(sceneNotes, style: theme.textTheme.bodySmall),
+            ],
             const SizedBox(height: 12),
             Wrap(
               spacing: 8,
@@ -949,6 +1057,15 @@ class _DetailPanel extends StatelessWidget {
                   label: l10n.text('当前年份', 'Year'),
                   value: l10n.formatYear(selectedYear),
                 ),
+                _InfoChip(
+                  label: l10n.text('当前政权', 'Selected Territory'),
+                  value: l10n.displayName(territory.nameZh, territory.nameEn),
+                ),
+                if (scene != null)
+                  _InfoChip(
+                    label: l10n.text('覆盖度', 'Coverage'),
+                    value: _coverageLabel(l10n, scene!.coverageLevel),
+                  ),
                 _InfoChip(
                   label: l10n.text('存续时间', 'Timespan'),
                   value:
@@ -996,7 +1113,10 @@ class _DetailPanel extends StatelessWidget {
             ),
             if (governanceHighlights.isNotEmpty) ...[
               const SizedBox(height: 14),
-              Text(l10n.text('治理特征', 'Governance'), style: theme.textTheme.titleMedium),
+              Text(
+                l10n.text('治理特征', 'Governance'),
+                style: theme.textTheme.titleMedium,
+              ),
               const SizedBox(height: 6),
               ...governanceHighlights.map(
                 (item) => Padding(
@@ -1007,7 +1127,10 @@ class _DetailPanel extends StatelessWidget {
             ],
             if (legacy.isNotEmpty) ...[
               const SizedBox(height: 12),
-              Text(l10n.text('历史遗产', 'Legacy'), style: theme.textTheme.titleMedium),
+              Text(
+                l10n.text('历史遗产', 'Legacy'),
+                style: theme.textTheme.titleMedium,
+              ),
               const SizedBox(height: 6),
               ...legacy.map(
                 (item) => Padding(
@@ -1029,7 +1152,10 @@ class _DetailPanel extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(l10n.text('边界说明', 'Boundary Notes'), style: theme.textTheme.titleSmall),
+                    Text(
+                      l10n.text('边界说明', 'Boundary Notes'),
+                      style: theme.textTheme.titleSmall,
+                    ),
                     if (snapshotAccuracyNote.isNotEmpty) ...[
                       const SizedBox(height: 6),
                       Text(snapshotAccuracyNote),
@@ -1049,7 +1175,10 @@ class _DetailPanel extends StatelessWidget {
             ],
             if (snapshotGeometries.isNotEmpty) ...[
               const SizedBox(height: 14),
-              Text(l10n.text('几何资产', 'Geometry Assets'), style: theme.textTheme.titleMedium),
+              Text(
+                l10n.text('几何资产', 'Geometry Assets'),
+                style: theme.textTheme.titleMedium,
+              ),
               const SizedBox(height: 6),
               ...snapshotGeometries.map(
                 (geometry) => Padding(
@@ -1062,7 +1191,10 @@ class _DetailPanel extends StatelessWidget {
             ],
             if (snapshotSources.isNotEmpty) ...[
               const SizedBox(height: 14),
-              Text(l10n.text('数据来源', 'Sources'), style: theme.textTheme.titleMedium),
+              Text(
+                l10n.text('数据来源', 'Sources'),
+                style: theme.textTheme.titleMedium,
+              ),
               const SizedBox(height: 6),
               ...snapshotSources.map(
                 (source) => Padding(
@@ -1074,7 +1206,10 @@ class _DetailPanel extends StatelessWidget {
               ),
             ],
             const SizedBox(height: 16),
-            Text(l10n.text('代表事件', 'Key Events'), style: theme.textTheme.titleMedium),
+            Text(
+              l10n.text('代表事件', 'Key Events'),
+              style: theme.textTheme.titleMedium,
+            ),
             const SizedBox(height: 8),
             for (final event in events)
               Card(
@@ -1093,7 +1228,10 @@ class _DetailPanel extends StatelessWidget {
               ),
             if (selectedEvent != null) ...[
               const SizedBox(height: 8),
-              Text(l10n.text('事件详情', 'Event Details'), style: theme.textTheme.titleMedium),
+              Text(
+                l10n.text('事件详情', 'Event Details'),
+                style: theme.textTheme.titleMedium,
+              ),
               const SizedBox(height: 8),
               _SelectedEventCard(
                 event: selectedEvent!,
@@ -1114,6 +1252,19 @@ class _DetailPanel extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  String _coverageLabel(AppL10n l10n, String coverageLevel) {
+    switch (coverageLevel) {
+      case 'global_complete':
+        return l10n.text('世界完整场景', 'Complete World Scene');
+      case 'global_partial':
+        return l10n.text('世界局部覆盖', 'Partial World Coverage');
+      case 'placeholder':
+        return l10n.text('资料占位', 'Data Placeholder');
+      default:
+        return coverageLevel;
+    }
   }
 }
 
@@ -1189,8 +1340,9 @@ class _SelectedEventCard extends StatelessWidget {
         ? placeNames.first
         : (l10n.isZh ? event.locationNameZh : event.locationNameEn);
     final eventSummary = l10n.isZh ? event.summaryZh : event.summaryEn;
-    final eventSignificance =
-        l10n.isZh ? event.significanceZh : event.significanceEn;
+    final eventSignificance = l10n.isZh
+        ? event.significanceZh
+        : event.significanceEn;
     final eventContent = l10n.isZh ? event.contentZh : event.contentEn;
     final sourceNames = event.sourceRefs
         .map((id) {
@@ -1215,7 +1367,9 @@ class _SelectedEventCard extends StatelessWidget {
             Text('${l10n.formatYear(event.year)} · $locationName'),
             if (placeNames.isNotEmpty) ...[
               const SizedBox(height: 6),
-              Text('${l10n.text('地点实体', 'Place Entities')}: ${placeNames.join(' / ')}'),
+              Text(
+                '${l10n.text('地点实体', 'Place Entities')}: ${placeNames.join(' / ')}',
+              ),
             ],
             const SizedBox(height: 6),
             Text('${l10n.text('所属政权', 'Territories')}: $territoryNames'),
@@ -1251,7 +1405,9 @@ class _SelectedEventCard extends StatelessWidget {
                     .map(
                       (person) => ActionChip(
                         avatar: const Icon(Icons.person, size: 18),
-                        label: Text(l10n.displayName(person.nameZh, person.nameEn)),
+                        label: Text(
+                          l10n.displayName(person.nameZh, person.nameEn),
+                        ),
                         onPressed: () => onPersonSelected(person.id),
                       ),
                     )
@@ -1336,7 +1492,9 @@ class _PersonDetailSheet extends StatelessWidget {
         })
         .toList(growable: false);
     final bioShort = l10n.isZh ? person.bioShortZh : person.bioShortEn;
-    final contribution = l10n.isZh ? person.contributionZh : person.contributionEn;
+    final contribution = l10n.isZh
+        ? person.contributionZh
+        : person.contributionEn;
 
     return SafeArea(
       child: SizedBox(
@@ -1366,12 +1524,18 @@ class _PersonDetailSheet extends StatelessWidget {
                   if (birthPlace != null)
                     _InfoChip(
                       label: l10n.text('出生地', 'Birth Place'),
-                      value: l10n.displayName(birthPlace.nameZh, birthPlace.nameEn),
+                      value: l10n.displayName(
+                        birthPlace.nameZh,
+                        birthPlace.nameEn,
+                      ),
                     ),
                   if (deathPlace != null)
                     _InfoChip(
                       label: l10n.text('逝世地', 'Death Place'),
-                      value: l10n.displayName(deathPlace.nameZh, deathPlace.nameEn),
+                      value: l10n.displayName(
+                        deathPlace.nameZh,
+                        deathPlace.nameEn,
+                      ),
                     ),
                 ],
               ),
@@ -1408,7 +1572,9 @@ class _PersonDetailSheet extends StatelessWidget {
                     .map(
                       (territory) => ActionChip(
                         avatar: const Icon(Icons.public, size: 18),
-                        label: Text(l10n.displayName(territory.nameZh, territory.nameEn)),
+                        label: Text(
+                          l10n.displayName(territory.nameZh, territory.nameEn),
+                        ),
                         onPressed: () => onTerritorySelected(territory.id),
                       ),
                     )
@@ -1437,7 +1603,10 @@ class _PersonDetailSheet extends StatelessWidget {
             ],
             if (person.sourceNotes.isNotEmpty) ...[
               const SizedBox(height: 20),
-              Text(l10n.text('资料说明', 'Source Notes'), style: Theme.of(context).textTheme.titleMedium),
+              Text(
+                l10n.text('资料说明', 'Source Notes'),
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
               const SizedBox(height: 8),
               ...person.sourceNotes.map(
                 (note) => Padding(

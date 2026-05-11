@@ -18,7 +18,10 @@
       42.6
     ],
     "revision": "v5",
-    "editorNotes": "Focused v5 tracing sample for Qin in 221 BCE, refining the Bohai turn, east coast, and southern closure."
+    "editorNotes": "Focused v5 tracing sample for Qin in 221 BCE, refining the Bohai turn, east coast, and southern closure.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "western_han_-141_main_v5",
@@ -41,7 +44,10 @@
       44.2
     ],
     "revision": "v5",
-    "editorNotes": "Focused v5 tracing sample for Western Han at 141 BCE, refining the Shandong peninsula, Bohai turn, east coast, and southern closure."
+    "editorNotes": "Focused v5 tracing sample for Western Han at 141 BCE, refining the Shandong peninsula, Bohai turn, east coast, and southern closure.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "xin_8_main_v5",
@@ -63,7 +69,10 @@
       43.1
     ],
     "revision": "v5",
-    "editorNotes": "Focused v5 tracing sample for Xin in 8 CE, preserving the inherited Han frame while clarifying its middle position between Western Han and Eastern Han."
+    "editorNotes": "Focused v5 tracing sample for Xin in 8 CE, preserving the inherited Han frame while clarifying its middle position between Western Han and Eastern Han.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "eastern_han_25_main_v5",
@@ -85,7 +94,10 @@
       42.5
     ],
     "revision": "v5",
-    "editorNotes": "Focused v5 tracing sample for Eastern Han in 25 CE, with a clearer west and south contraction to distinguish it from Xin."
+    "editorNotes": "Focused v5 tracing sample for Eastern Han in 25 CE, with a clearer west and south contraction to distinguish it from Xin.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "cao_wei_220_main_v1",
@@ -105,7 +117,10 @@
       41.4
     ],
     "revision": "v1",
-    "editorNotes": "Refined v1 schematic for Cao Wei at 220 CE with tightened southern boundary to reduce overlap in same-year multi-state display."
+    "editorNotes": "Refined v1 schematic for Cao Wei at 220 CE with tightened southern boundary to reduce overlap in same-year multi-state display.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_221_main_v1",
@@ -125,7 +140,10 @@
       33.4
     ],
     "revision": "v1",
-    "editorNotes": "Refined v1 schematic for Shu Han at 221 CE, centered on Sichuan-Hanzhong profile with reduced eastward spread for cleaner separation."
+    "editorNotes": "Refined v1 schematic for Shu Han at 221 CE, centered on Sichuan-Hanzhong profile with reduced eastward spread for cleaner separation.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "eastern_wu_229_main_v1",
@@ -145,7 +163,10 @@
       33.4
     ],
     "revision": "v1",
-    "editorNotes": "Refined v1 schematic for Eastern Wu at 229 CE with clearer Jiangdong-lower Yangtze footprint and reduced northward overlap."
+    "editorNotes": "Refined v1 schematic for Eastern Wu at 229 CE with clearer Jiangdong-lower Yangtze footprint and reduced northward overlap.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_263_main_v1",
@@ -165,7 +186,10 @@
       33.1
     ],
     "revision": "v1",
-    "editorNotes": "Refined v1 schematic late-stage boundary for Shu Han at 263 CE with stronger contraction to reflect terminal-phase control."
+    "editorNotes": "Refined v1 schematic late-stage boundary for Shu Han at 263 CE with stronger contraction to reflect terminal-phase control.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "cao_wei_220_main_v2",
@@ -185,7 +209,10 @@
       41.2
     ],
     "revision": "v2",
-    "editorNotes": "v2 tracing sample for Cao Wei 220 CE with denser north-central articulation and cleaner southern boundary."
+    "editorNotes": "v2 tracing sample for Cao Wei 220 CE with denser north-central articulation and cleaner southern boundary.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "cao_wei_229_main_v2",
@@ -205,7 +232,10 @@
       41
     ],
     "revision": "v2",
-    "editorNotes": "v2 dedicated 229 CE Cao Wei boundary for same-year tripartite display with reduced overlap."
+    "editorNotes": "v2 dedicated 229 CE Cao Wei boundary for same-year tripartite display with reduced overlap.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_221_main_v2",
@@ -225,7 +255,10 @@
       33.3
     ],
     "revision": "v2",
-    "editorNotes": "v2 tracing sample for Shu Han 221 CE with refined Sichuan basin and Hanzhong transition."
+    "editorNotes": "v2 tracing sample for Shu Han 221 CE with refined Sichuan basin and Hanzhong transition.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_229_main_v2",
@@ -245,7 +278,10 @@
       32.7
     ],
     "revision": "v2",
-    "editorNotes": "v2 dedicated 229 CE Shu Han boundary for same-year tripartite comparison."
+    "editorNotes": "v2 dedicated 229 CE Shu Han boundary for same-year tripartite comparison.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "eastern_wu_229_main_v2",
@@ -265,7 +301,10 @@
       33.1
     ],
     "revision": "v2",
-    "editorNotes": "v2 tracing sample for Eastern Wu 229 CE with clearer Jiangdong and lower Yangtze profile."
+    "editorNotes": "v2 tracing sample for Eastern Wu 229 CE with clearer Jiangdong and lower Yangtze profile.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_263_main_v2",
@@ -285,7 +324,10 @@
       32.6
     ],
     "revision": "v2",
-    "editorNotes": "v2 tracing sample for Shu Han 263 CE terminal-stage contraction."
+    "editorNotes": "v2 tracing sample for Shu Han 263 CE terminal-stage contraction.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "cao_wei_220_main_v3",
@@ -305,7 +347,10 @@
       41.08
     ],
     "revision": "v3",
-    "editorNotes": "v3 precision pass for Cao Wei 220 CE with denser contour points and cleaner southern edge articulation."
+    "editorNotes": "v3 precision pass for Cao Wei 220 CE with denser contour points and cleaner southern edge articulation.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "cao_wei_229_main_v3",
@@ -325,7 +370,10 @@
       40.26
     ],
     "revision": "v3",
-    "editorNotes": "v3 precision pass for Cao Wei 229 CE for same-year tripartite display with reduced overlap."
+    "editorNotes": "v3 precision pass for Cao Wei 229 CE for same-year tripartite display with reduced overlap.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_221_main_v3",
@@ -345,7 +393,10 @@
       33.32
     ],
     "revision": "v3",
-    "editorNotes": "v3 precision pass for Shu Han 221 CE with refined basin and northern transition profile."
+    "editorNotes": "v3 precision pass for Shu Han 221 CE with refined basin and northern transition profile.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_229_main_v3",
@@ -365,7 +416,10 @@
       32.44
     ],
     "revision": "v3",
-    "editorNotes": "v3 precision pass for Shu Han 229 CE optimized for same-year multi-state separation."
+    "editorNotes": "v3 precision pass for Shu Han 229 CE optimized for same-year multi-state separation.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "eastern_wu_229_main_v3",
@@ -385,7 +439,10 @@
       32.3
     ],
     "revision": "v3",
-    "editorNotes": "v3 precision pass for Eastern Wu 229 CE with finer Jiangdong and lower Yangtze contour."
+    "editorNotes": "v3 precision pass for Eastern Wu 229 CE with finer Jiangdong and lower Yangtze contour.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_263_main_v3",
@@ -405,7 +462,10 @@
       31.92
     ],
     "revision": "v3",
-    "editorNotes": "v3 precision pass for Shu Han 263 CE emphasizing terminal-stage contraction."
+    "editorNotes": "v3 precision pass for Shu Han 263 CE emphasizing terminal-stage contraction.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "editorial_schematic",
+    "reviewStatus": "draft"
   },
   {
     "id": "roman_empire_200bc",
@@ -417,7 +477,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Roman Empire / Republic extent around 200 BCE from World Historical GIS dataset."
+    "editorNotes": "Roman Empire / Republic extent around 200 BCE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "roman_empire_1bc",
@@ -429,7 +492,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Roman Empire extent around 1 BCE from World Historical GIS dataset."
+    "editorNotes": "Roman Empire extent around 1 BCE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "parthia_200bc",
@@ -441,7 +507,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Parthian Empire extent around 200 BCE from World Historical GIS dataset."
+    "editorNotes": "Parthian Empire extent around 200 BCE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "byzantine_empire_800",
@@ -453,7 +522,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Byzantine Empire extent around 800 CE from World Historical GIS dataset."
+    "editorNotes": "Byzantine Empire extent around 800 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "abbasid_caliphate_800",
@@ -465,7 +537,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Abbasid Caliphate extent around 800 CE from World Historical GIS dataset."
+    "editorNotes": "Abbasid Caliphate extent around 800 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "carolingian_empire_800",
@@ -477,7 +552,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Carolingian Empire extent around 800 CE from World Historical GIS dataset."
+    "editorNotes": "Carolingian Empire extent around 800 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "holy_roman_empire_1279",
@@ -489,7 +567,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Holy Roman Empire extent around 1279 CE from World Historical GIS dataset."
+    "editorNotes": "Holy Roman Empire extent around 1279 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "ottoman_empire_1650",
@@ -501,7 +582,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Ottoman Empire extent around 1650 CE from World Historical GIS dataset."
+    "editorNotes": "Ottoman Empire extent around 1650 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "mughal_empire_1650",
@@ -513,7 +597,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Mughal Empire extent around 1650 CE from World Historical GIS dataset."
+    "editorNotes": "Mughal Empire extent around 1650 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "russian_empire_1783",
@@ -525,7 +612,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Russian Empire extent around 1783 CE from World Historical GIS dataset."
+    "editorNotes": "Russian Empire extent around 1783 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "tang_empire_800",
@@ -537,7 +627,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Tang Empire extent around 800 CE from World Historical GIS dataset."
+    "editorNotes": "Tang Empire extent around 800 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "mongol_empire_yuan_1279",
@@ -549,7 +642,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Yuan Dynasty (Great Khanate) extent around 1279 CE from World Historical GIS dataset."
+    "editorNotes": "Yuan Dynasty (Great Khanate) extent around 1279 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "ilkhanate_1279",
@@ -561,7 +657,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Ilkhanate extent around 1279 CE from World Historical GIS dataset."
+    "editorNotes": "Ilkhanate extent around 1279 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "inca_empire_1492",
@@ -573,7 +672,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Inca Empire extent around 1492 CE from World Historical GIS dataset."
+    "editorNotes": "Inca Empire extent around 1492 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "aztec_empire_1492",
@@ -585,7 +687,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Aztec Empire extent around 1492 CE from World Historical GIS dataset."
+    "editorNotes": "Aztec Empire extent around 1492 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "qin_dynasty_unified_323bc",
@@ -597,7 +702,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Qin Empire extent around 323 BCE from World Historical GIS dataset."
+    "editorNotes": "Qin Empire extent around 323 BCE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "han_dynasty_unified_200bc",
@@ -609,7 +717,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Han Empire extent around 200 BCE from World Historical GIS dataset."
+    "editorNotes": "Han Empire extent around 200 BCE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "jin_dynasty_unified_400",
@@ -621,7 +732,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Jin Empire extent around 400 CE from World Historical GIS dataset."
+    "editorNotes": "Jin Empire extent around 400 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "northern_wei_unified_400",
@@ -633,7 +747,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Northern Wei extent around 400 CE from World Historical GIS dataset."
+    "editorNotes": "Northern Wei extent around 400 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "sui_dynasty_unified_600",
@@ -645,7 +762,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Sui Empire extent around 600 CE from World Historical GIS dataset."
+    "editorNotes": "Sui Empire extent around 600 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "tang_dynasty_unified_800",
@@ -657,7 +777,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Tang Empire extent around 800 CE from World Historical GIS dataset."
+    "editorNotes": "Tang Empire extent around 800 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "song_dynasty_unified_1000",
@@ -669,7 +792,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Song Empire extent around 1000 CE from World Historical GIS dataset."
+    "editorNotes": "Song Empire extent around 1000 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "yuan_dynasty_unified_1279",
@@ -681,7 +807,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Yuan Dynasty extent around 1279 CE from World Historical GIS dataset."
+    "editorNotes": "Yuan Dynasty extent around 1279 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "ming_dynasty_unified_1530",
@@ -693,7 +822,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Ming Dynasty extent around 1530 CE from World Historical GIS dataset."
+    "editorNotes": "Ming Dynasty extent around 1530 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "qing_dynasty_unified_1650",
@@ -705,7 +837,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Qing Dynasty extent around 1650 CE from World Historical GIS dataset."
+    "editorNotes": "Qing Dynasty extent around 1650 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "roc_unified_1920",
@@ -717,7 +852,10 @@
     "derivedFromSourceIds": [],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Republic of China extent around 1920 CE from World Historical GIS dataset."
+    "editorNotes": "Republic of China extent around 1920 CE from World Historical GIS dataset.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "liao_1000",
@@ -728,7 +866,17 @@
       "maxLat": 55,
       "minLng": 100,
       "maxLng": 140
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "xixia_1000",
@@ -739,7 +887,17 @@
       "maxLat": 45,
       "minLng": 95,
       "maxLng": 110
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "tibet_800",
@@ -750,7 +908,17 @@
       "maxLat": 38,
       "minLng": 75,
       "maxLng": 105
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "tibet_1000",
@@ -761,7 +929,17 @@
       "maxLat": 38,
       "minLng": 75,
       "maxLng": 105
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "goguryeo_400",
@@ -772,7 +950,17 @@
       "maxLat": 45,
       "minLng": 124,
       "maxLng": 130
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "goguryeo_600",
@@ -783,7 +971,17 @@
       "maxLat": 45,
       "minLng": 124,
       "maxLng": 130
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "dali_1000",
@@ -794,7 +992,17 @@
       "maxLat": 28,
       "minLng": 98,
       "maxLng": 105
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "nanchao_800",
@@ -805,7 +1013,17 @@
       "maxLat": 28,
       "minLng": 98,
       "maxLng": 105
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "cao_wei_220_unified",
@@ -816,7 +1034,17 @@
       "maxLat": 42,
       "minLng": 100,
       "maxLng": 125
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "eserica_geojson_map",
+    "derivedFromSourceIds": [
+      "eserica_geojson_map"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "shu_han_221_unified",
@@ -827,7 +1055,17 @@
       "maxLat": 34,
       "minLng": 97,
       "maxLng": 108
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "eserica_geojson_map",
+    "derivedFromSourceIds": [
+      "eserica_geojson_map"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   },
   {
     "id": "eastern_wu_229_unified",
@@ -838,6 +1076,33 @@
       "maxLat": 33,
       "minLng": 108,
       "maxLng": 122
-    }
+    },
+    "geometryType": "Polygon",
+    "regionScope": "china",
+    "projection": "EPSG:4326",
+    "licenseSourceId": "eserica_geojson_map",
+    "derivedFromSourceIds": [
+      "eserica_geojson_map"
+    ],
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "world_base_modern",
+    "assetPath": "assets/geojson/world/world.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "world_base_reference",
+    "licenseSourceId": "world_historical_gis_data",
+    "derivedFromSourceIds": [
+      "world_historical_gis_data"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Always-on world base layer used as geographic context for every timeline scene. This is a contextual basemap, not a historical polity boundary.",
+    "boundaryMeaning": "schematic",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft"
   }
 ]
