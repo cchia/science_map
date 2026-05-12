@@ -278,5 +278,25 @@
     "reviewOwner": "Cursor Agent",
     "notes": "Extracted specific world empires from TopoJSON arrays for global atlas rendering.",
     "notesEn": "Extracted specific world empires from TopoJSON arrays for global atlas rendering."
+  },
+  {
+    "id": "seshat_cliopatria",
+    "sourceName": "Seshat Cliopatria GeoJSON Dataset",
+    "sourceNameZh": "Seshat Cliopatria 世界政权 GeoJSON 数据集",
+    "sourceNameEn": "Seshat Cliopatria GeoJSON Dataset",
+    "sourceType": "historical_boundary",
+    "sourceUrl": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+    "licenseName": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "commercialUseAllowed": true,
+    "redistributionAllowed": true,
+    "modificationAllowed": true,
+    "attributionRequired": true,
+    "attributionText": "Seshat Global History Databank, Cliopatria dataset.",
+    "approvalStatus": "approved",
+    "reviewDate": "2026-05-11",
+    "reviewOwner": "Cursor Agent",
+    "notes": "Used for same-era world context scenes where exact local scholarly GIS is not yet available. Boundaries remain community reference quality and should be reviewed before precision claims.",
+    "notesEn": "Used for same-era world context scenes where exact local scholarly GIS is not yet available. Boundaries remain community reference quality and should be reviewed before precision claims."
   }
 ]

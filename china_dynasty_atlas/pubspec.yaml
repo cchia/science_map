@@ -61,4 +61,5 @@ flutter:
     - assets/global/
     - assets/geojson/
     - assets/geojson/world/
+    - assets/geojson/world/cliopatria/
     - assets/geojson/unified/

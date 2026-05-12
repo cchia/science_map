@@ -353,6 +353,10 @@ docs/
 
 用代表性场景替代事件年份：
 
+- 每个默认时间轴年份都应优先定义为“同年代世界场景”，而不是只显示中国主线政权。
+- 如果同年全球数据尚不完整，至少加入已可验证的同代强权，并把场景标记为 `global_partial`。
+- 汉代场景应优先同屏展示罗马、安息 / 帕提亚、贵霜、匈奴等欧亚同代政权；没有可靠边界的政权先作为资料缺口记录，不要画成精确边界。
+- 汉、罗马、安息同代场景的当前代理边界和资料缺口记录在 `docs/data-methods/han_roman_world_context_scenes.md`。
 - 秦汉统一与过渡场景。
 - `229 CE` 三国鼎立场景。
 - 五胡十六国 / 南北朝的一到两个代表场景。
@@ -765,6 +769,10 @@ The current flat `assets/geojson/` layout can remain for compatibility, but new 
 
 Replace event-driven map years with representative scenes:
 
+- Every default timeline year should first be modeled as a same-era world scene, not as a China-only mainline snapshot.
+- If complete global coverage is not available, include the verifiable contemporary powers and mark the scene as `global_partial`.
+- Han-era scenes should prioritize showing Rome, Parthia, Kushan, Xiongnu, and other Eurasian contemporaries together when reliable boundaries exist. Missing or uncertain states should be tracked as data gaps instead of drawn as precise borders.
+- Current proxy boundaries and data gaps for Han-Rome-Parthia scenes are documented in `docs/data-methods/han_roman_world_context_scenes.md`.
 - Qin/Han unification and transition scenes.
 - `229 CE` Three Kingdoms scene.
 - One or two Sixteen Kingdoms/Northern-Southern scenes.

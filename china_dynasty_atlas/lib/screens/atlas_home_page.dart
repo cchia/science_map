@@ -604,6 +604,22 @@ class _ScopeSummary extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final l10n = AppL10n.of(context);
+    final territoryById = {
+      for (final territory in territories) territory.id: territory,
+    };
+    final coreTerritoryNames = scope.coreTerritoryIds
+        .map((id) => territoryById[id])
+        .whereType<Territory>()
+        .map((territory) => l10n.displayName(territory.nameZh, territory.nameEn))
+        .toList(growable: false);
+    final visibleCoreTerritories = coreTerritoryNames.take(6).join(' / ');
+    final hiddenCoreCount = coreTerritoryNames.length > 6
+        ? coreTerritoryNames.length - 6
+        : 0;
+    final coreTerritorySummary = hiddenCoreCount > 0
+        ? '$visibleCoreTerritories +$hiddenCoreCount'
+        : visibleCoreTerritories;
+
     return Card(
       clipBehavior: Clip.antiAlias,
       child: Padding(
@@ -619,12 +635,7 @@ class _ScopeSummary extends StatelessWidget {
             ),
             _SummaryBadge(
               label: l10n.text('核心政权', 'Core Territories'),
-              value: territories
-                  .map(
-                    (territory) =>
-                        l10n.displayName(territory.nameZh, territory.nameEn),
-                  )
-                  .join(' / '),
+              value: coreTerritorySummary,
             ),
             _SummaryBadge(
               label: l10n.text('当前年份', 'Selected Year'),

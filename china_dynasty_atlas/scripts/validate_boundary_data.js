@@ -91,6 +91,15 @@ function isDeclaredAsset(assetPath, prefixes) {
   return prefixes.some((prefix) => assetPath === prefix || assetPath.startsWith(prefix));
 }
 
+function validateMethodRef(record) {
+  if (!record.methodRef) return;
+
+  const absolutePath = path.join(projectRoot, record.methodRef);
+  if (!fs.existsSync(absolutePath)) {
+    addIssue('error', 'missing_method_ref', `${record.id} references missing methodRef: ${record.methodRef}`);
+  }
+}
+
 function validateGeoJson(assetPath, geometryId) {
   const absolutePath = path.join(projectRoot, assetPath);
   if (!fs.existsSync(absolutePath)) {
@@ -205,6 +214,8 @@ function validateManifest(manifest, pubspecAssetPrefixes) {
       addIssue('error', 'undeclared_asset', `${record.id} asset is not declared in pubspec assets: ${record.assetPath}`);
     }
 
+    validateMethodRef(record);
+
     if (
       record.accuracyTier &&
       ['source_exact', 'derived_scholarly'].includes(record.accuracyTier) &&
@@ -221,10 +232,14 @@ function validateManifest(manifest, pubspecAssetPrefixes) {
   }
 }
 
-function validateSnapshots(snapshots, manifestById) {
+function validateSnapshots(snapshots, manifestById, territoriesById) {
   hasDuplicateIds(snapshots, 'territory_snapshots');
 
   for (const snapshot of snapshots) {
+    if (!territoriesById.has(snapshot.territoryId)) {
+      addIssue('error', 'snapshot_territory_ref', `${snapshot.id} references unknown territory: ${snapshot.territoryId}`);
+    }
+
     if (!Array.isArray(snapshot.geometryRefs)) {
       addIssue('error', 'snapshot_geometry_refs', `${snapshot.id} must have a geometryRefs array`);
       continue;
@@ -258,7 +273,9 @@ function validateThreeKingdomsScene(snapshots) {
 }
 
 function validateFiveDynastiesScene(snapshots) {
-  const sceneMembers = snapshots.filter((snapshot) => snapshot.displayYear === 907);
+  const sceneMembers = snapshots.filter(
+    (snapshot) => snapshot.displayYear === 907 && snapshot.territoryId === 'five_dynasties',
+  );
   for (const snapshot of sceneMembers) {
     const note = [
       snapshot.territoryNote,
@@ -404,9 +421,11 @@ function main() {
   const scope = readJson(files.scope);
   const pubspecAssetPrefixes = getPubspecAssetPrefixes();
   const manifestById = new Map(manifest.map((record) => [record.id, record]));
+  const territories = readJson(path.join(projectRoot, 'assets/global/territories.json'));
+  const territoriesById = new Map(territories.map((record) => [record.id, record]));
 
   validateManifest(manifest, pubspecAssetPrefixes);
-  validateSnapshots(snapshots, manifestById);
+  validateSnapshots(snapshots, manifestById, territoriesById);
   validateScope(scope, snapshots);
   validateMapScenes(mapScenes, scope, snapshots);
 

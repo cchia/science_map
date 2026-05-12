@@ -39,7 +39,9 @@
     "dali_kingdom",
     "nanchao_kingdom",
     "five_dynasties",
-    "later_tang_dynasty"
+    "later_tang_dynasty",
+    "kushan_empire",
+    "xiongnu_confederation"
   ],
   "timelineYears": [
     -323,
@@ -47,6 +49,8 @@
     -1,
     8,
     25,
+    100,
+    200,
     229,
     400,
     600,
