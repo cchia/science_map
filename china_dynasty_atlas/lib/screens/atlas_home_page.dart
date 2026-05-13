@@ -147,6 +147,9 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       scope: _data.scope,
       selectedYear: controller.selectedYear,
       scene: controller.currentScene,
+      showWorldContext: controller.showWorldContext,
+      visibleSnapshotCount: controller.visibleSnapshotCount,
+      worldContextSnapshotCount: controller.worldContextSnapshotCount,
       territory: controller.selectedTerritory,
       snapshot: controller.selectedSnapshot,
       events: controller.territoryEvents,
@@ -250,6 +253,15 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                               style: theme.textTheme.titleMedium,
                             ),
                             const Spacer(),
+                            FilterChip(
+                              label: Text(
+                                '${l10n.text('世界参考层', 'World Reference Layers')} '
+                                '(${controller.worldContextSnapshotCount})',
+                              ),
+                              selected: controller.showWorldContext,
+                              onSelected: controller.setShowWorldContext,
+                            ),
+                            const SizedBox(width: 12),
                             Text(
                               '${l10n.text('选择年份', 'Selected')}: ${l10n.formatYear(controller.selectedYear)} · '
                               '${l10n.text('地图场景', 'Scene')}: ${l10n.formatYear(controller.activeSceneYear)}',
@@ -610,7 +622,9 @@ class _ScopeSummary extends StatelessWidget {
     final coreTerritoryNames = scope.coreTerritoryIds
         .map((id) => territoryById[id])
         .whereType<Territory>()
-        .map((territory) => l10n.displayName(territory.nameZh, territory.nameEn))
+        .map(
+          (territory) => l10n.displayName(territory.nameZh, territory.nameEn),
+        )
         .toList(growable: false);
     final visibleCoreTerritories = coreTerritoryNames.take(6).join(' / ');
     final hiddenCoreCount = coreTerritoryNames.length > 6
@@ -967,6 +981,9 @@ class _DetailPanel extends StatelessWidget {
     required this.scope,
     required this.selectedYear,
     required this.scene,
+    required this.showWorldContext,
+    required this.visibleSnapshotCount,
+    required this.worldContextSnapshotCount,
     required this.territory,
     required this.snapshot,
     required this.events,
@@ -984,6 +1001,9 @@ class _DetailPanel extends StatelessWidget {
   final ProjectScope scope;
   final int selectedYear;
   final MapScene? scene;
+  final bool showWorldContext;
+  final int visibleSnapshotCount;
+  final int worldContextSnapshotCount;
   final Territory territory;
   final TerritorySnapshot snapshot;
   final List<HistoricalEvent> events;
@@ -1076,6 +1096,23 @@ class _DetailPanel extends StatelessWidget {
                   _InfoChip(
                     label: l10n.text('覆盖度', 'Coverage'),
                     value: _coverageLabel(l10n, scene!.coverageLevel),
+                  ),
+                _InfoChip(
+                  label: l10n.text('可见政权', 'Visible Polities'),
+                  value: visibleSnapshotCount.toString(),
+                ),
+                if (worldContextSnapshotCount > 0)
+                  _InfoChip(
+                    label: l10n.text('世界参考层', 'World Reference'),
+                    value: showWorldContext
+                        ? l10n.text(
+                            '$worldContextSnapshotCount 个已显示',
+                            '$worldContextSnapshotCount shown',
+                          )
+                        : l10n.text(
+                            '$worldContextSnapshotCount 个已隐藏',
+                            '$worldContextSnapshotCount hidden',
+                          ),
                   ),
                 _InfoChip(
                   label: l10n.text('存续时间', 'Timespan'),

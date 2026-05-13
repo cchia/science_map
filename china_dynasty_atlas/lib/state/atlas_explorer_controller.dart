@@ -20,6 +20,7 @@ class AtlasExplorerController extends ChangeNotifier {
   int _selectedYear;
   String _selectedTerritoryId;
   String? _selectedEventId;
+  bool _showWorldContext = true;
 
   Storyline? _activeStoryline;
   int _storylineEventIndex = 0;
@@ -29,13 +30,30 @@ class AtlasExplorerController extends ChangeNotifier {
   String? get selectedEventId => _selectedEventId;
   int get selectedYear => _selectedYear;
   int get activeSceneYear => currentScene?.displayYear ?? _selectedYear;
+  bool get showWorldContext => _showWorldContext;
 
   Storyline? get activeStoryline => _activeStoryline;
   int get storylineEventIndex => _storylineEventIndex;
 
-  List<TerritorySnapshot> get currentSnapshots => data.snapshots
+  List<TerritorySnapshot> get activeSceneSnapshots => data.snapshots
       .where((snapshot) => snapshot.year == activeSceneYear)
       .toList(growable: false);
+
+  List<TerritorySnapshot> get worldContextSnapshots => activeSceneSnapshots
+      .where((snapshot) => snapshot.id.startsWith('cliopatria_'))
+      .toList(growable: false);
+
+  int get worldContextSnapshotCount => worldContextSnapshots.length;
+
+  List<TerritorySnapshot> get currentSnapshots {
+    final snapshots = activeSceneSnapshots;
+    if (_showWorldContext) return snapshots;
+    return snapshots
+        .where((snapshot) => !snapshot.id.startsWith('cliopatria_'))
+        .toList(growable: false);
+  }
+
+  int get visibleSnapshotCount => currentSnapshots.length;
 
   MapScene? get currentScene {
     if (data.mapScenes.isEmpty) return null;
@@ -101,6 +119,13 @@ class AtlasExplorerController extends ChangeNotifier {
   void selectYear(int year) {
     if (year == _selectedYear) return;
     _selectedYear = year;
+    _syncSelectionForCurrentYear();
+    notifyListeners();
+  }
+
+  void setShowWorldContext(bool value) {
+    if (_showWorldContext == value) return;
+    _showWorldContext = value;
     _syncSelectionForCurrentYear();
     notifyListeners();
   }
