@@ -162,6 +162,10 @@ class AtlasSearchDelegate extends SearchDelegate<SearchSelection?> {
           keywords: [
             territory.nameZh,
             territory.nameEn,
+            territory.summaryZh,
+            territory.summaryEn,
+            territory.summaryLongZh,
+            territory.summaryLongEn,
             territory.id,
             territory.capital,
             ...territory.aliases,
@@ -265,4 +269,3 @@ class _SearchResult {
     return lowerKeywords.any((keyword) => keyword.contains(query));
   }
 }
-

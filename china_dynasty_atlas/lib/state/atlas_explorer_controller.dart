@@ -35,23 +35,23 @@ class AtlasExplorerController extends ChangeNotifier {
   Storyline? get activeStoryline => _activeStoryline;
   int get storylineEventIndex => _storylineEventIndex;
 
-  List<TerritorySnapshot> get activeSceneSnapshots => data.snapshots
-      .where((snapshot) => snapshot.year == activeSceneYear)
-      .toList(growable: false);
+  List<TerritorySnapshot> get activeSceneSnapshots {
+    final scene = currentScene;
+    if (scene == null) return const [];
+    final snapshotsById = {
+      for (final snapshot in data.snapshots) snapshot.id: snapshot,
+    };
+    return scene.territorySnapshotIds
+        .map((snapshotId) => snapshotsById[snapshotId])
+        .whereType<TerritorySnapshot>()
+        .toList(growable: false);
+  }
 
-  List<TerritorySnapshot> get worldContextSnapshots => activeSceneSnapshots
-      .where((snapshot) => snapshot.id.startsWith('cliopatria_'))
-      .toList(growable: false);
+  List<TerritorySnapshot> get worldContextSnapshots => activeSceneSnapshots;
 
   int get worldContextSnapshotCount => worldContextSnapshots.length;
 
-  List<TerritorySnapshot> get currentSnapshots {
-    final snapshots = activeSceneSnapshots;
-    if (_showWorldContext) return snapshots;
-    return snapshots
-        .where((snapshot) => !snapshot.id.startsWith('cliopatria_'))
-        .toList(growable: false);
-  }
+  List<TerritorySnapshot> get currentSnapshots => activeSceneSnapshots;
 
   int get visibleSnapshotCount => currentSnapshots.length;
 
@@ -124,6 +124,9 @@ class AtlasExplorerController extends ChangeNotifier {
   }
 
   void setShowWorldContext(bool value) {
+    // Default scenes now use Cliopatria as their canonical map layer, so this
+    // control stays on until a separate "all/reference layers" mode exists.
+    if (!value) return;
     if (_showWorldContext == value) return;
     _showWorldContext = value;
     _syncSelectionForCurrentYear();

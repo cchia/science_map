@@ -2272,24 +2272,6 @@
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
   },
   {
-    "id": "cliopatria_xin_dynasty_25",
-    "assetPath": "assets/geojson/world/cliopatria/cliopatria_xin_dynasty_25.geojson",
-    "geometryType": "MultiPolygon",
-    "regionScope": "world",
-    "simplificationLevel": "cliopatria_world_context",
-    "licenseSourceId": "seshat_cliopatria",
-    "derivedFromSourceIds": [
-      "seshat_cliopatria"
-    ],
-    "projection": "EPSG:4326",
-    "revision": "v1",
-    "editorNotes": "Xin Dynasty extent covering 25 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
-    "boundaryMeaning": "core_admin",
-    "accuracyTier": "community_reference",
-    "reviewStatus": "draft",
-    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
-  },
-  {
     "id": "cliopatria_xiongnu_25",
     "assetPath": "assets/geojson/world/cliopatria/cliopatria_xiongnu_25.geojson",
     "geometryType": "MultiPolygon",
@@ -2506,24 +2488,6 @@
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
   },
   {
-    "id": "cliopatria_han_dynasty_100",
-    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_100.geojson",
-    "geometryType": "MultiPolygon",
-    "regionScope": "world",
-    "simplificationLevel": "cliopatria_world_context",
-    "licenseSourceId": "seshat_cliopatria",
-    "derivedFromSourceIds": [
-      "seshat_cliopatria"
-    ],
-    "projection": "EPSG:4326",
-    "revision": "v1",
-    "editorNotes": "Han Dynasty extent covering 100 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
-    "boundaryMeaning": "core_admin",
-    "accuracyTier": "community_reference",
-    "reviewStatus": "draft",
-    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
-  },
-  {
     "id": "cliopatria_xianbei_100",
     "assetPath": "assets/geojson/world/cliopatria/cliopatria_xianbei_100.geojson",
     "geometryType": "Polygon",
@@ -2535,8 +2499,8 @@
     ],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Xianbei extent covering 100 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
-    "boundaryMeaning": "core_admin",
+    "editorNotes": "Xianbei extent covering 100 from Seshat Cliopatria. Generated as part of default timeline world context coverage; rendered as influence/frontier context to avoid treating nomadic activity zones as hard administrative borders.",
+    "boundaryMeaning": "influence",
     "accuracyTier": "community_reference",
     "reviewStatus": "draft",
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
@@ -2733,26 +2697,8 @@
     ],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Xianbei extent covering 200 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
-    "boundaryMeaning": "core_admin",
-    "accuracyTier": "community_reference",
-    "reviewStatus": "draft",
-    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
-  },
-  {
-    "id": "cliopatria_han_dynasty_200",
-    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_200.geojson",
-    "geometryType": "MultiPolygon",
-    "regionScope": "world",
-    "simplificationLevel": "cliopatria_world_context",
-    "licenseSourceId": "seshat_cliopatria",
-    "derivedFromSourceIds": [
-      "seshat_cliopatria"
-    ],
-    "projection": "EPSG:4326",
-    "revision": "v1",
-    "editorNotes": "Han Dynasty extent covering 200 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
-    "boundaryMeaning": "core_admin",
+    "editorNotes": "Xianbei extent covering 200 from Seshat Cliopatria. Generated as part of default timeline world context coverage; rendered as influence/frontier context to avoid treating nomadic activity zones as hard administrative borders.",
+    "boundaryMeaning": "influence",
     "accuracyTier": "community_reference",
     "reviewStatus": "draft",
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
@@ -2992,24 +2938,6 @@
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
   },
   {
-    "id": "cliopatria_han_dynasty_229",
-    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_229.geojson",
-    "geometryType": "MultiPolygon",
-    "regionScope": "world",
-    "simplificationLevel": "cliopatria_world_context",
-    "licenseSourceId": "seshat_cliopatria",
-    "derivedFromSourceIds": [
-      "seshat_cliopatria"
-    ],
-    "projection": "EPSG:4326",
-    "revision": "v1",
-    "editorNotes": "Han Dynasty extent covering 229 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
-    "boundaryMeaning": "core_admin",
-    "accuracyTier": "community_reference",
-    "reviewStatus": "draft",
-    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
-  },
-  {
     "id": "cliopatria_sasanian_empire_229",
     "assetPath": "assets/geojson/world/cliopatria/cliopatria_sasanian_empire_229.geojson",
     "geometryType": "Polygon",
@@ -3039,8 +2967,8 @@
     ],
     "projection": "EPSG:4326",
     "revision": "v1",
-    "editorNotes": "Xianbei extent covering 229 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
-    "boundaryMeaning": "core_admin",
+    "editorNotes": "Xianbei extent covering 229 from Seshat Cliopatria. Generated as part of default timeline world context coverage; rendered as influence/frontier context to avoid treating nomadic activity zones as hard administrative borders.",
+    "boundaryMeaning": "influence",
     "accuracyTier": "community_reference",
     "reviewStatus": "draft",
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
@@ -9916,6 +9844,222 @@
     "projection": "EPSG:4326",
     "revision": "v1",
     "editorNotes": "Principality of Bulgaria extent covering 1920 from Seshat Cliopatria. Generated as part of default timeline world context coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_han_dynasty_bce_200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_bce_200.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Han Dynasty extent from Seshat Cliopatria source record -202--198, mapped to Western Han for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_han_dynasty_bce_1",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_bce_1.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Han Dynasty extent from Seshat Cliopatria source record -36-5, mapped to Western Han for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_han_dynasty_25",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_25.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Han Dynasty extent from Seshat Cliopatria source record 30-42, mapped to Eastern Han for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_han_dynasty_100",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_100.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Han Dynasty extent from Seshat Cliopatria source record 91-105, mapped to Eastern Han for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_han_dynasty_200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_han_dynasty_200.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Han Dynasty extent from Seshat Cliopatria source record 197-206, mapped to Eastern Han for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_cao_wei_229",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_cao_wei_229.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Cao Wei extent from Seshat Cliopatria source record 224-237, mapped to Cao Wei for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_shu_han_229",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_shu_han_229.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Shu Han extent from Seshat Cliopatria source record 224-237, mapped to Shu Han for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_eastern_wu_229",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_eastern_wu_229.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Eastern Wu extent from Seshat Cliopatria source record 215-237, mapped to Eastern Wu for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_sui_dynasty_600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_sui_dynasty_600.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Sui Dynasty extent from Seshat Cliopatria source record 592-601, mapped to Sui Dynasty for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_tang_dynasty_800",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_tang_dynasty_800.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Tang Dynasty extent from Seshat Cliopatria source record 768-829, mapped to Tang Dynasty for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_qing_dynasty_1650",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_qing_dynasty_1650.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Qing Dynasty extent from Seshat Cliopatria source record 1648-1652, mapped to Qing Dynasty for default China coverage.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1920",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1920.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Republic of China extent from Seshat Cliopatria source record 1915-1915, mapped to Republic of China for default China coverage.",
     "boundaryMeaning": "core_admin",
     "accuracyTier": "community_reference",
     "reviewStatus": "draft",

@@ -11,6 +11,7 @@ const files = {
   manifest: path.join(projectRoot, 'assets/global/geometry_manifest.json'),
   snapshots: path.join(projectRoot, 'assets/global/territory_snapshots.json'),
   mapScenes: path.join(projectRoot, 'assets/global/map_scenes.json'),
+  cliopatriaTranslations: path.join(projectRoot, 'assets/global/cliopatria_name_translations.json'),
 };
 
 const requiredManifestFields = [
@@ -51,6 +52,8 @@ const validReviewStatuses = new Set(['draft', 'approved', 'placeholder']);
 const validSceneCompleteness = new Set(['complete_scene', 'partial_scene', 'placeholder']);
 
 const validCoverageLevels = new Set(['global_complete', 'global_partial', 'placeholder']);
+
+const minCliopatriaSnapshotsPerTimelineYear = 5;
 
 const issues = [];
 
@@ -98,6 +101,21 @@ function validateMethodRef(record) {
   if (!fs.existsSync(absolutePath)) {
     addIssue('error', 'missing_method_ref', `${record.id} references missing methodRef: ${record.methodRef}`);
   }
+}
+
+function isCliopatriaGeometry(record) {
+  if (!record) return false;
+  return (
+    record.licenseSourceId === 'seshat_cliopatria' ||
+    (record.derivedFromSourceIds || []).includes('seshat_cliopatria')
+  );
+}
+
+function isCliopatriaSnapshot(snapshot, manifestById) {
+  if (!snapshot) return false;
+  if (snapshot.id.startsWith('cliopatria_')) return true;
+  if ((snapshot.sourceRefs || []).includes('seshat_cliopatria')) return true;
+  return (snapshot.geometryRefs || []).some((geometryRef) => isCliopatriaGeometry(manifestById.get(geometryRef)));
 }
 
 function validateGeoJson(assetPath, geometryId) {
@@ -202,6 +220,14 @@ function validateManifest(manifest, pubspecAssetPrefixes) {
       addIssue('error', 'boundary_meaning', `${record.id} has invalid boundaryMeaning: ${record.boundaryMeaning}`);
     }
 
+    if (record.id.startsWith('cliopatria_xianbei_') && record.boundaryMeaning === 'core_admin') {
+      addIssue(
+        'error',
+        'nomadic_boundary_meaning',
+        `${record.id} should be marked as influence/disputed context, not core_admin`,
+      );
+    }
+
     if (record.accuracyTier && !validAccuracyTiers.has(record.accuracyTier)) {
       addIssue('error', 'accuracy_tier', `${record.id} has invalid accuracyTier: ${record.accuracyTier}`);
     }
@@ -254,10 +280,29 @@ function validateSnapshots(snapshots, manifestById, territoriesById) {
         addIssue('error', 'missing_geometry_ref', `${snapshot.id} references unknown geometry: ${geometryRef}`);
       }
     }
+
+    validateChinesePeriodBoundary(snapshot);
   }
 
   validateThreeKingdomsScene(snapshots);
   validateFiveDynastiesScene(snapshots);
+}
+
+function validateChinesePeriodBoundary(snapshot) {
+  const invalidRanges = [
+    { territoryId: 'western_han', after: 8, label: 'Western Han' },
+    { territoryId: 'xin', after: 23, label: 'Xin' },
+    { territoryId: 'eastern_han', after: 220, label: 'Eastern Han' },
+  ];
+  for (const range of invalidRanges) {
+    if (snapshot.territoryId === range.territoryId && snapshot.displayYear > range.after) {
+      addIssue(
+        'error',
+        'chinese_period_out_of_range',
+        `${snapshot.id} maps ${range.label} to ${snapshot.displayYear}, after its configured end year ${range.after}`,
+      );
+    }
+  }
 }
 
 function validateThreeKingdomsScene(snapshots) {
@@ -317,7 +362,46 @@ function validateScope(scope, snapshots) {
   }
 }
 
-function validateMapScenes(mapScenes, scope, snapshots) {
+function validateCliopatriaTranslations(translations, mapScenes, snapshots, territoriesById, manifestById) {
+  if (!translations || Array.isArray(translations) || typeof translations !== 'object') {
+    addIssue('error', 'translation_dictionary', 'cliopatria_name_translations.json must be an object');
+    return;
+  }
+
+  const snapshotsById = new Map(snapshots.map((snapshot) => [snapshot.id, snapshot]));
+  for (const scene of mapScenes) {
+    for (const snapshotId of scene.territorySnapshotIds || []) {
+      const snapshot = snapshotsById.get(snapshotId);
+      if (!isCliopatriaSnapshot(snapshot, manifestById)) continue;
+      const territory = territoriesById.get(snapshot.territoryId);
+      const primaryName = territory?.names?.primaryName;
+      if (!primaryName) continue;
+      const localizedNames = territory.names?.localizedNames || {};
+      if (!translations[primaryName] && localizedNames['zh-Hans'] === primaryName) {
+        addIssue('warning', 'missing_cliopatria_translation', `${primaryName} appears in default scenes without zh-Hans translation`);
+      }
+      if (
+        translations[primaryName] &&
+        localizedNames['zh-Hans'] !== translations[primaryName] &&
+        !localizedNames['zh-Hans']?.includes(translations[primaryName])
+      ) {
+        addIssue(
+          'error',
+          'stale_cliopatria_translation',
+          `${primaryName} has zh-Hans "${localizedNames['zh-Hans']}", expected "${translations[primaryName]}"`,
+        );
+      }
+      if (!territory.summary || !territory.summaryLong) {
+        addIssue('warning', 'missing_cliopatria_summary', `${primaryName} is missing zh-Hans summary fields`);
+      }
+      if (territory.summary && territory.summary.includes(`${primaryName} 是`)) {
+        addIssue('warning', 'english_name_in_cliopatria_summary', `${primaryName} summary still starts with an English name`);
+      }
+    }
+  }
+}
+
+function validateMapScenes(mapScenes, scope, snapshots, manifestById) {
   hasDuplicateIds(mapScenes, 'map_scenes');
 
   const snapshotsById = new Map(snapshots.map((snapshot) => [snapshot.id, snapshot]));
@@ -369,6 +453,14 @@ function validateMapScenes(mapScenes, scope, snapshots) {
           `${scene.id} (${scene.displayYear}) references ${snapshotId} with displayYear ${snapshot.displayYear}`,
         );
       }
+
+      if (scene.completeness !== 'placeholder' && !isCliopatriaSnapshot(snapshot, manifestById)) {
+        addIssue(
+          'error',
+          'default_scene_non_cliopatria',
+          `${scene.id} includes non-Cliopatria default snapshot: ${snapshotId}`,
+        );
+      }
     }
 
     if (scene.completeness === 'placeholder') {
@@ -377,6 +469,19 @@ function validateMapScenes(mapScenes, scope, snapshots) {
         .join(' ');
       if (!/placeholder|占位|资料|缺口|unavailable|not available/i.test(note)) {
         addIssue('warning', 'scene_placeholder_note', `${scene.id} is placeholder but lacks a clear data-gap note`);
+      }
+    }
+
+    if (scene.coverageLevel === 'global_partial' && scene.completeness !== 'placeholder') {
+      const cliopatriaSnapshotCount = scene.territorySnapshotIds.filter((snapshotId) =>
+        isCliopatriaSnapshot(snapshotsById.get(snapshotId), manifestById),
+      ).length;
+      if (cliopatriaSnapshotCount < minCliopatriaSnapshotsPerTimelineYear) {
+        addIssue(
+          'error',
+          'insufficient_world_context',
+          `${scene.id} only has ${cliopatriaSnapshotCount} Cliopatria world-context snapshots; expected at least ${minCliopatriaSnapshotsPerTimelineYear}`,
+        );
       }
     }
   }
@@ -419,6 +524,7 @@ function main() {
   const snapshots = readJson(files.snapshots);
   const mapScenes = readJson(files.mapScenes);
   const scope = readJson(files.scope);
+  const cliopatriaTranslations = readJson(files.cliopatriaTranslations);
   const pubspecAssetPrefixes = getPubspecAssetPrefixes();
   const manifestById = new Map(manifest.map((record) => [record.id, record]));
   const territories = readJson(path.join(projectRoot, 'assets/global/territories.json'));
@@ -427,7 +533,8 @@ function main() {
   validateManifest(manifest, pubspecAssetPrefixes);
   validateSnapshots(snapshots, manifestById, territoriesById);
   validateScope(scope, snapshots);
-  validateMapScenes(mapScenes, scope, snapshots);
+  validateMapScenes(mapScenes, scope, snapshots, manifestById);
+  validateCliopatriaTranslations(cliopatriaTranslations, mapScenes, snapshots, territoriesById, manifestById);
 
   printIssues();
 }

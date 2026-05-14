@@ -75,6 +75,9 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
   final LayerHitNotifier<String> _polygonHitNotifier = ValueNotifier(null);
   final AtlasNavigationService _navigationService =
       const AtlasNavigationService();
+  final AtlasRepository _geometryRepository = AtlasRepository();
+  final Map<String, List<AtlasPolygonFeature>> _loadedPolygonsByGeometryId = {};
+  final Map<String, Future<_LoadedPolygonMaps>> _polygonFutureCache = {};
   bool _isMapReady = false;
 
   AtlasData get _data => widget.data;
@@ -108,6 +111,67 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
   @override
   void initState() {
     super.initState();
+    _loadedPolygonsByGeometryId.addAll(_data.polygonsByGeometryId);
+  }
+
+  Future<_LoadedPolygonMaps> _loadPolygonsForSnapshots(
+    List<TerritorySnapshot> snapshots,
+  ) {
+    final geometryRefs =
+        snapshots
+            .expand((snapshot) => snapshot.geometryRefs)
+            .toSet()
+            .toList(growable: false)
+          ..sort();
+    final cacheKey = geometryRefs.join('|');
+    return _polygonFutureCache.putIfAbsent(cacheKey, () async {
+      final geometryAssetsById = _geometryAssetsById;
+      final missingGeometryRefs = geometryRefs
+          .where((geometryRef) {
+            return !_loadedPolygonsByGeometryId.containsKey(geometryRef) &&
+                geometryAssetsById.containsKey(geometryRef);
+          })
+          .toList(growable: false);
+      final loadedEntries = await Future.wait(
+        missingGeometryRefs.map((geometryRef) async {
+          final geometry = geometryAssetsById[geometryRef]!;
+          final polygons = await _geometryRepository.loadGeoJsonByPath(
+            geometryRef,
+            geometry.id,
+            geometry.assetPath,
+          );
+          return MapEntry(geometryRef, polygons);
+        }),
+      );
+      for (final entry in loadedEntries) {
+        _loadedPolygonsByGeometryId[entry.key] = entry.value;
+      }
+      return _mapsFromCache(
+        snapshots,
+        version: _loadedPolygonsByGeometryId.length,
+      );
+    });
+  }
+
+  _LoadedPolygonMaps _mapsFromCache(
+    List<TerritorySnapshot> snapshots, {
+    required int version,
+  }) {
+    final polygonsBySnapshotId = <String, List<AtlasPolygonFeature>>{};
+    for (final snapshot in snapshots) {
+      polygonsBySnapshotId[snapshot.id] = snapshot.geometryRefs
+          .expand((geometryRef) {
+            return _loadedPolygonsByGeometryId[geometryRef] ??
+                const <AtlasPolygonFeature>[];
+          })
+          .toList(growable: false);
+    }
+
+    return _LoadedPolygonMaps(
+      polygonsBySnapshotId: polygonsBySnapshotId,
+      polygonsByGeometryId: Map.unmodifiable(_loadedPolygonsByGeometryId),
+      version: version,
+    );
   }
 
   @override
@@ -124,24 +188,45 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     final timelineYears = _data.scope.timelineYears;
     final minTimelineYear = timelineYears.first;
     final maxTimelineYear = timelineYears.last;
-    final mapPanel = _MapPanel(
-      mapController: _mapController,
-      snapshots: controller.currentSnapshots,
-      polygonsBySnapshotId: _data.polygonsBySnapshotId,
-      polygonsByGeometryId: _data.polygonsByGeometryId,
-      territoriesById: _territoriesById,
-      selectedTerritoryId: controller.selectedTerritoryId,
-      events: controller.territoryEvents,
-      storylineEvents: controller.activeStoryline != null
-          ? controller.activeStoryline!.eventIds
-                .map(controller.eventById)
-                .whereType<HistoricalEvent>()
-                .toList(growable: false)
-          : const [],
-      storylineEventIndex: controller.storylineEventIndex,
-      polygonHitNotifier: _polygonHitNotifier,
-      onPolygonTap: _handlePolygonTap,
-      onMapReady: _handleMapReady,
+    final currentSnapshots = controller.currentSnapshots;
+    final mapPanel = FutureBuilder<_LoadedPolygonMaps>(
+      future: _loadPolygonsForSnapshots(currentSnapshots),
+      builder: (context, snapshot) {
+        final loadedMaps =
+            snapshot.data ?? _mapsFromCache(currentSnapshots, version: 0);
+        return Stack(
+          children: [
+            _MapPanel(
+              mapController: _mapController,
+              snapshots: currentSnapshots,
+              polygonsBySnapshotId: loadedMaps.polygonsBySnapshotId,
+              polygonsByGeometryId: loadedMaps.polygonsByGeometryId,
+              geometryAssetsById: _geometryAssetsById,
+              territoriesById: _territoriesById,
+              selectedTerritoryId: controller.selectedTerritoryId,
+              events: controller.territoryEvents,
+              storylineEvents: controller.activeStoryline != null
+                  ? controller.activeStoryline!.eventIds
+                        .map(controller.eventById)
+                        .whereType<HistoricalEvent>()
+                        .toList(growable: false)
+                  : const [],
+              storylineEventIndex: controller.storylineEventIndex,
+              polygonHitNotifier: _polygonHitNotifier,
+              polygonCacheVersion: loadedMaps.version,
+              onPolygonTap: _handlePolygonTap,
+              onMapReady: _handleMapReady,
+            ),
+            if (snapshot.connectionState != ConnectionState.done)
+              const Positioned(
+                top: 0,
+                left: 0,
+                right: 0,
+                child: LinearProgressIndicator(minHeight: 3),
+              ),
+          ],
+        );
+      },
     );
     final detailPanel = _DetailPanel(
       scope: _data.scope,
@@ -601,6 +686,18 @@ class _StorylinePanel extends StatelessWidget {
   }
 }
 
+class _LoadedPolygonMaps {
+  const _LoadedPolygonMaps({
+    required this.polygonsBySnapshotId,
+    required this.polygonsByGeometryId,
+    required this.version,
+  });
+
+  final Map<String, List<AtlasPolygonFeature>> polygonsBySnapshotId;
+  final Map<String, List<AtlasPolygonFeature>> polygonsByGeometryId;
+  final int version;
+}
+
 class _ScopeSummary extends StatelessWidget {
   const _ScopeSummary({
     required this.scope,
@@ -703,12 +800,14 @@ class _MapPanel extends StatefulWidget {
     required this.snapshots,
     required this.polygonsBySnapshotId,
     required this.polygonsByGeometryId,
+    required this.geometryAssetsById,
     required this.territoriesById,
     required this.selectedTerritoryId,
     required this.events,
     required this.storylineEvents,
     required this.storylineEventIndex,
     required this.polygonHitNotifier,
+    required this.polygonCacheVersion,
     required this.onPolygonTap,
     required this.onMapReady,
   });
@@ -717,12 +816,14 @@ class _MapPanel extends StatefulWidget {
   final List<TerritorySnapshot> snapshots;
   final Map<String, List<AtlasPolygonFeature>> polygonsBySnapshotId;
   final Map<String, List<AtlasPolygonFeature>> polygonsByGeometryId;
+  final Map<String, GeometryAssetRecord> geometryAssetsById;
   final Map<String, Territory> territoriesById;
   final String selectedTerritoryId;
   final List<HistoricalEvent> events;
   final List<HistoricalEvent> storylineEvents;
   final int storylineEventIndex;
   final LayerHitNotifier<String> polygonHitNotifier;
+  final int polygonCacheVersion;
   final VoidCallback onPolygonTap;
   final VoidCallback onMapReady;
 
@@ -899,16 +1000,33 @@ class _MapPanelState extends State<_MapPanel> {
     final l10n = AppL10n.of(context);
     final cacheKey = [
       widget.selectedTerritoryId,
+      widget.polygonCacheVersion,
       ...widget.snapshots.map((snapshot) => snapshot.id),
     ].join('|');
     final cached = _polygonListCache[cacheKey];
     if (cached != null) return cached;
 
     final polygons = <Polygon<String>>[];
-    for (final snapshot in widget.snapshots) {
+    final orderedSnapshots = [...widget.snapshots]
+      ..sort((a, b) {
+        final aSelected = a.territoryId == widget.selectedTerritoryId;
+        final bSelected = b.territoryId == widget.selectedTerritoryId;
+        if (aSelected != bSelected) return aSelected ? 1 : -1;
+        final aContext = _isContextBoundary(_boundaryMeaningFor(a));
+        final bContext = _isContextBoundary(_boundaryMeaningFor(b));
+        if (aContext != bContext) return aContext ? -1 : 1;
+        return 0;
+      });
+    for (final snapshot in orderedSnapshots) {
       final territory = widget.territoriesById[snapshot.territoryId]!;
       final isSelected = snapshot.territoryId == widget.selectedTerritoryId;
       final fillColor = colorFromHex(territory.color);
+      final isContextBoundary = _isContextBoundary(
+        _boundaryMeaningFor(snapshot),
+      );
+      final fillOpacity = isSelected
+          ? (isContextBoundary ? 0.30 : 0.42)
+          : (isContextBoundary ? 0.10 : 0.24);
       final geometryRefs = snapshot.geometryRefs.isNotEmpty
           ? snapshot.geometryRefs
           : null;
@@ -929,9 +1047,13 @@ class _MapPanelState extends State<_MapPanel> {
           Polygon<String>(
             points: cachedRings.points,
             holePointsList: cachedRings.holePointsList,
-            color: fillColor.withValues(alpha: isSelected ? 0.42 : 0.24),
-            borderColor: isSelected ? Colors.white : fillColor,
-            borderStrokeWidth: isSelected ? 3.5 : 2.0,
+            color: fillColor.withValues(alpha: fillOpacity),
+            borderColor: isSelected
+                ? Colors.white
+                : fillColor.withValues(alpha: isContextBoundary ? 0.65 : 1),
+            borderStrokeWidth: isSelected
+                ? 3.5
+                : (isContextBoundary ? 1.1 : 2.0),
             label: l10n.displayName(territory.nameZh, territory.nameEn),
             hitValue: snapshot.territoryId,
           ),
@@ -945,6 +1067,28 @@ class _MapPanelState extends State<_MapPanel> {
     }
     _polygonListCache[cacheKey] = polygons;
     return polygons;
+  }
+
+  String _boundaryMeaningFor(TerritorySnapshot snapshot) {
+    for (final geometryRef in snapshot.geometryRefs) {
+      final boundaryMeaning =
+          widget.geometryAssetsById[geometryRef]?.boundaryMeaning;
+      if (boundaryMeaning != null && boundaryMeaning.isNotEmpty) {
+        return boundaryMeaning;
+      }
+    }
+    return '';
+  }
+
+  bool _isContextBoundary(String boundaryMeaning) {
+    return const {
+      'claimed',
+      'disputed',
+      'frontier_command',
+      'influence',
+      'schematic',
+      'tributary_or_vassal',
+    }.contains(boundaryMeaning);
   }
 }
 
@@ -1232,7 +1376,7 @@ class _DetailPanel extends StatelessWidget {
                 (geometry) => Padding(
                   padding: const EdgeInsets.only(bottom: 6),
                   child: Text(
-                    '• ${geometry.id} · ${geometry.geometryType} · ${geometry.revision} · ${geometry.simplificationLevel}',
+                    '• ${geometry.id} · ${geometry.geometryType} · ${geometry.revision} · ${geometry.simplificationLevel} · ${geometry.boundaryMeaning}',
                   ),
                 ),
               ),

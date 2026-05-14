@@ -87,28 +87,12 @@ class AtlasRepository {
       debugPrint('No map_scenes.json found or failed to parse: $e');
     }
 
-    final polygonsBySnapshotId = <String, List<AtlasPolygonFeature>>{};
     final polygonsByGeometryId = <String, List<AtlasPolygonFeature>>{};
-    for (final snapshot in snapshots) {
-      final polygons = <AtlasPolygonFeature>[];
-      for (final geometryRef in snapshot.geometryRefs) {
-        final geometry = geometryById[geometryRef];
-        if (geometry == null) continue;
-        final loaded = await _loadGeoJsonByPath(
-          snapshot.id,
-          geometry.id,
-          geometry.assetPath,
-        );
-        polygons.addAll(loaded);
-        polygonsByGeometryId[geometry.id] = loaded;
-      }
-      polygonsBySnapshotId[snapshot.id] = polygons;
-    }
 
     final worldBaseGeometry = geometryById['world_base_modern'];
     if (worldBaseGeometry != null &&
         !polygonsByGeometryId.containsKey(worldBaseGeometry.id)) {
-      polygonsByGeometryId[worldBaseGeometry.id] = await _loadGeoJsonByPath(
+      polygonsByGeometryId[worldBaseGeometry.id] = await loadGeoJsonByPath(
         'world_base_modern',
         worldBaseGeometry.id,
         worldBaseGeometry.assetPath,
@@ -121,7 +105,7 @@ class AtlasRepository {
       snapshots: snapshots,
       events: events,
       people: people,
-      polygonsBySnapshotId: polygonsBySnapshotId,
+      polygonsBySnapshotId: const {},
       polygonsByGeometryId: polygonsByGeometryId,
       places: places,
       sources: sources,
@@ -466,6 +450,9 @@ class AtlasRepository {
       projection: json['projection'] as String? ?? '',
       revision: json['revision'] as String? ?? '',
       editorNotes: json['editorNotes'] as String? ?? '',
+      boundaryMeaning: json['boundaryMeaning'] as String? ?? '',
+      accuracyTier: json['accuracyTier'] as String? ?? '',
+      reviewStatus: json['reviewStatus'] as String? ?? '',
     );
   }
 
@@ -501,7 +488,7 @@ class AtlasRepository {
     }
   }
 
-  Future<List<AtlasPolygonFeature>> _loadGeoJsonByPath(
+  Future<List<AtlasPolygonFeature>> loadGeoJsonByPath(
     String snapshotId,
     String geometryId,
     String assetPath,

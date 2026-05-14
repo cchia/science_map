@@ -619,6 +619,9 @@ class GeometryAssetRecord {
     required this.projection,
     required this.revision,
     required this.editorNotes,
+    required this.boundaryMeaning,
+    required this.accuracyTier,
+    required this.reviewStatus,
   });
 
   final String id;
@@ -631,6 +634,9 @@ class GeometryAssetRecord {
   final String projection;
   final String revision;
   final String editorNotes;
+  final String boundaryMeaning;
+  final String accuracyTier;
+  final String reviewStatus;
 }
 
 class ControlZoneRecord {
