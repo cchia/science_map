@@ -79,11 +79,34 @@ function main() {
     if (!territory.id.startsWith('cliopatria_') && !defaultTerritoryIds.has(territory.id)) continue;
     const primaryName = territory.names?.primaryName;
     const translatedName = translationMap[primaryName];
-    if (!translatedName) continue;
 
     territory.names.localizedNames = territory.names.localizedNames || {};
     const currentZhName = territory.names.localizedNames['zh-Hans'];
-    if (!currentZhName) {
+    if (!translatedName) {
+      if (!currentZhName || currentZhName === primaryName) {
+        territory.names.localizedNames['zh-Hans'] = `${primaryName}（待译）`;
+        translatedTerritories += 1;
+      }
+      if (territory.id.startsWith('cliopatria_') || !territory.summary || !territory.summaryLong) {
+        const beforeSummary = JSON.stringify({
+          summary: territory.summary,
+          summaryEn: territory.summaryEn,
+          summaryLong: territory.summaryLong,
+          summaryLongEn: territory.summaryLongEn,
+        });
+        setCliopatriaSummary(territory, territory.names.localizedNames['zh-Hans']);
+        const afterSummary = JSON.stringify({
+          summary: territory.summary,
+          summaryEn: territory.summaryEn,
+          summaryLong: territory.summaryLong,
+          summaryLongEn: territory.summaryLongEn,
+        });
+        if (beforeSummary !== afterSummary) summarizedTerritories += 1;
+      }
+      continue;
+    }
+
+    if (!currentZhName || currentZhName === primaryName || currentZhName.endsWith('（待译）')) {
       territory.names.localizedNames['zh-Hans'] = translatedName;
       translatedTerritories += 1;
     }
@@ -94,7 +117,7 @@ function main() {
       summaryLongEn: territory.summaryLongEn,
     });
     if (territory.id.startsWith('cliopatria_') || !territory.summary || !territory.summaryLong) {
-      setCliopatriaSummary(territory, currentZhName || translatedName);
+      setCliopatriaSummary(territory, territory.names.localizedNames['zh-Hans'] || translatedName);
     }
     const afterSummary = JSON.stringify({
       summary: territory.summary,

@@ -5,6 +5,8 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import '../models/atlas_models.dart';
 
+const _geoJsonComputeThresholdChars = 64 * 1024;
+
 class AtlasRepository {
   Future<AtlasData> load() async {
     final scopeJson = await _loadJsonObject('assets/config/project_scope.json');
@@ -494,14 +496,14 @@ class AtlasRepository {
     String assetPath,
   ) async {
     final raw = await rootBundle.loadString(assetPath);
-    final parsed = await compute(
-      _parseGeoJsonFeaturesInIsolate,
-      <String, dynamic>{
-        'snapshotId': snapshotId,
-        'geometryId': geometryId,
-        'raw': raw,
-      },
-    );
+    final payload = <String, dynamic>{
+      'snapshotId': snapshotId,
+      'geometryId': geometryId,
+      'raw': raw,
+    };
+    final parsed = raw.length <= _geoJsonComputeThresholdChars
+        ? _parseGeoJsonFeaturesInIsolate(payload)
+        : await compute(_parseGeoJsonFeaturesInIsolate, payload);
     return parsed
         .map(
           (feature) => AtlasPolygonFeature(

@@ -692,6 +692,346 @@ class StoryNarrative {
   final String coreQuestionEn;
 }
 
+class StoryMapCamera {
+  const StoryMapCamera({
+    required this.lat,
+    required this.lng,
+    required this.zoom,
+  });
+
+  factory StoryMapCamera.fromJson(Map<String, dynamic> json) {
+    return StoryMapCamera(
+      lat: (json['lat'] as num?)?.toDouble() ?? 25.0,
+      lng: (json['lng'] as num?)?.toDouble() ?? 20.0,
+      zoom: (json['zoom'] as num?)?.toDouble() ?? 2.2,
+    );
+  }
+
+  final double lat;
+  final double lng;
+  final double zoom;
+}
+
+class StoryRoutePoint {
+  const StoryRoutePoint({
+    required this.id,
+    required this.labelZh,
+    required this.labelEn,
+    required this.year,
+    required this.lat,
+    required this.lng,
+    required this.placeId,
+    required this.noteZh,
+    required this.noteEn,
+  });
+
+  factory StoryRoutePoint.fromJson(Map<String, dynamic> json) {
+    return StoryRoutePoint(
+      id: json['id'] as String? ?? '',
+      labelZh: json['label_zh'] as String? ?? json['label'] as String? ?? '',
+      labelEn: json['label_en'] as String? ?? json['label'] as String? ?? '',
+      year: (json['year'] as num?)?.toInt() ?? 0,
+      lat: (json['lat'] as num?)?.toDouble() ?? 0.0,
+      lng: (json['lng'] as num?)?.toDouble() ?? 0.0,
+      placeId: json['place_id'] as String? ?? '',
+      noteZh: json['note_zh'] as String? ?? json['note'] as String? ?? '',
+      noteEn: json['note_en'] as String? ?? json['note'] as String? ?? '',
+    );
+  }
+
+  factory StoryRoutePoint.fromEvent(HistoricalEvent event) {
+    return StoryRoutePoint(
+      id: event.id,
+      labelZh: event.titleZh,
+      labelEn: event.titleEn,
+      year: event.year,
+      lat: event.lat,
+      lng: event.lng,
+      placeId: event.placeIds.isEmpty ? '' : event.placeIds.first,
+      noteZh: event.summaryZh,
+      noteEn: event.summaryEn,
+    );
+  }
+
+  final String id;
+  final String labelZh;
+  final String labelEn;
+  final int year;
+  final double lat;
+  final double lng;
+  final String placeId;
+  final String noteZh;
+  final String noteEn;
+}
+
+class StoryCharacter {
+  const StoryCharacter({
+    required this.id,
+    required this.personId,
+    required this.labelZh,
+    required this.labelEn,
+    required this.roleZh,
+    required this.roleEn,
+    required this.avatarSymbol,
+    required this.avatarType,
+    required this.goalZh,
+    required this.goalEn,
+  });
+
+  factory StoryCharacter.fromJson(Map<String, dynamic> json) {
+    return StoryCharacter(
+      id: json['id'] as String? ?? '',
+      personId: json['person_id'] as String? ?? '',
+      labelZh: json['label_zh'] as String? ?? json['label'] as String? ?? '',
+      labelEn: json['label_en'] as String? ?? json['label'] as String? ?? '',
+      roleZh: json['role_zh'] as String? ?? json['role'] as String? ?? '',
+      roleEn: json['role_en'] as String? ?? json['role'] as String? ?? '',
+      avatarSymbol: json['avatar_symbol'] as String? ?? '人',
+      avatarType: json['avatar_type'] as String? ?? 'symbolic_avatar',
+      goalZh: json['goal_zh'] as String? ?? json['goal'] as String? ?? '',
+      goalEn: json['goal_en'] as String? ?? json['goal'] as String? ?? '',
+    );
+  }
+
+  final String id;
+  final String personId;
+  final String labelZh;
+  final String labelEn;
+  final String roleZh;
+  final String roleEn;
+  final String avatarSymbol;
+  final String avatarType;
+  final String goalZh;
+  final String goalEn;
+}
+
+class StoryInteraction {
+  const StoryInteraction({
+    required this.actorId,
+    required this.targetId,
+    required this.targetLabelZh,
+    required this.targetLabelEn,
+    required this.relationZh,
+    required this.relationEn,
+    required this.actionZh,
+    required this.actionEn,
+    required this.outcomeZh,
+    required this.outcomeEn,
+  });
+
+  factory StoryInteraction.fromJson(Map<String, dynamic> json) {
+    return StoryInteraction(
+      actorId: json['actor_id'] as String? ?? '',
+      targetId: json['target_id'] as String? ?? '',
+      targetLabelZh:
+          json['target_label_zh'] as String? ??
+          json['target_label'] as String? ??
+          '',
+      targetLabelEn:
+          json['target_label_en'] as String? ??
+          json['target_label'] as String? ??
+          '',
+      relationZh:
+          json['relation_zh'] as String? ?? json['relation'] as String? ?? '',
+      relationEn:
+          json['relation_en'] as String? ?? json['relation'] as String? ?? '',
+      actionZh: json['action_zh'] as String? ?? json['action'] as String? ?? '',
+      actionEn: json['action_en'] as String? ?? json['action'] as String? ?? '',
+      outcomeZh:
+          json['outcome_zh'] as String? ?? json['outcome'] as String? ?? '',
+      outcomeEn:
+          json['outcome_en'] as String? ?? json['outcome'] as String? ?? '',
+    );
+  }
+
+  final String actorId;
+  final String targetId;
+  final String targetLabelZh;
+  final String targetLabelEn;
+  final String relationZh;
+  final String relationEn;
+  final String actionZh;
+  final String actionEn;
+  final String outcomeZh;
+  final String outcomeEn;
+}
+
+class StoryChapter {
+  const StoryChapter({
+    required this.id,
+    required this.titleZh,
+    required this.titleEn,
+    required this.year,
+    required this.eventId,
+    required this.routePointId,
+    required this.highlightTerritoryIds,
+    required this.activeCharacterIds,
+    required this.interactions,
+    required this.sceneSettingZh,
+    required this.sceneSettingEn,
+    required this.characterBeatZh,
+    required this.characterBeatEn,
+    required this.storyQuestionZh,
+    required this.storyQuestionEn,
+    required this.scriptZh,
+    required this.scriptEn,
+    required this.camera,
+  });
+
+  factory StoryChapter.fromJson(Map<String, dynamic> json) {
+    final cameraJson = json['camera'] as Map<String, dynamic>?;
+    return StoryChapter(
+      id: json['id'] as String? ?? '',
+      titleZh: json['title_zh'] as String? ?? json['title'] as String? ?? '',
+      titleEn: json['title_en'] as String? ?? json['title'] as String? ?? '',
+      year: (json['year'] as num?)?.toInt(),
+      eventId: json['event_id'] as String? ?? '',
+      routePointId: json['route_point_id'] as String? ?? '',
+      highlightTerritoryIds: List<String>.from(
+        json['highlight_territory_ids'] as List<dynamic>? ?? const [],
+      ),
+      activeCharacterIds: List<String>.from(
+        json['active_character_ids'] as List<dynamic>? ?? const [],
+      ),
+      interactions: (json['interactions'] as List<dynamic>? ?? const [])
+          .map(
+            (item) => StoryInteraction.fromJson(
+              Map<String, dynamic>.from(item as Map),
+            ),
+          )
+          .toList(growable: false),
+      sceneSettingZh:
+          json['scene_setting_zh'] as String? ??
+          json['scene_setting'] as String? ??
+          '',
+      sceneSettingEn:
+          json['scene_setting_en'] as String? ??
+          json['scene_setting'] as String? ??
+          '',
+      characterBeatZh:
+          json['character_beat_zh'] as String? ??
+          json['character_beat'] as String? ??
+          '',
+      characterBeatEn:
+          json['character_beat_en'] as String? ??
+          json['character_beat'] as String? ??
+          '',
+      storyQuestionZh:
+          json['story_question_zh'] as String? ??
+          json['story_question'] as String? ??
+          '',
+      storyQuestionEn:
+          json['story_question_en'] as String? ??
+          json['story_question'] as String? ??
+          '',
+      scriptZh: json['script_zh'] as String? ?? json['script'] as String? ?? '',
+      scriptEn: json['script_en'] as String? ?? json['script'] as String? ?? '',
+      camera: cameraJson == null ? null : StoryMapCamera.fromJson(cameraJson),
+    );
+  }
+
+  final String id;
+  final String titleZh;
+  final String titleEn;
+  final int? year;
+  final String eventId;
+  final String routePointId;
+  final List<String> highlightTerritoryIds;
+  final List<String> activeCharacterIds;
+  final List<StoryInteraction> interactions;
+  final String sceneSettingZh;
+  final String sceneSettingEn;
+  final String characterBeatZh;
+  final String characterBeatEn;
+  final String storyQuestionZh;
+  final String storyQuestionEn;
+  final String scriptZh;
+  final String scriptEn;
+  final StoryMapCamera? camera;
+}
+
+class StoryArc {
+  const StoryArc({
+    required this.id,
+    required this.titleZh,
+    required this.titleEn,
+    required this.descriptionZh,
+    required this.descriptionEn,
+    required this.coreQuestionZh,
+    required this.coreQuestionEn,
+    required this.eventIds,
+    required this.personIds,
+    required this.territoryIds,
+    required this.routePoints,
+    required this.characters,
+    required this.chapters,
+  });
+
+  factory StoryArc.fromJson(Map<String, dynamic> json) {
+    return StoryArc(
+      id: json['id'] as String? ?? '',
+      titleZh: json['title_zh'] as String? ?? json['title'] as String? ?? '',
+      titleEn: json['title_en'] as String? ?? json['title'] as String? ?? '',
+      descriptionZh:
+          json['description_zh'] as String? ??
+          json['description'] as String? ??
+          '',
+      descriptionEn:
+          json['description_en'] as String? ??
+          json['description'] as String? ??
+          '',
+      coreQuestionZh:
+          json['core_question_zh'] as String? ??
+          json['core_question'] as String? ??
+          '',
+      coreQuestionEn:
+          json['core_question_en'] as String? ??
+          json['core_question'] as String? ??
+          '',
+      eventIds: List<String>.from(json['events'] as List<dynamic>? ?? const []),
+      personIds: List<String>.from(
+        json['people'] as List<dynamic>? ?? const [],
+      ),
+      territoryIds: List<String>.from(
+        json['territories'] as List<dynamic>? ?? const [],
+      ),
+      routePoints: (json['route_points'] as List<dynamic>? ?? const [])
+          .map(
+            (item) => StoryRoutePoint.fromJson(
+              Map<String, dynamic>.from(item as Map),
+            ),
+          )
+          .toList(growable: false),
+      characters: (json['characters'] as List<dynamic>? ?? const [])
+          .map(
+            (item) =>
+                StoryCharacter.fromJson(Map<String, dynamic>.from(item as Map)),
+          )
+          .toList(growable: false),
+      chapters: (json['chapters'] as List<dynamic>? ?? const [])
+          .map(
+            (item) =>
+                StoryChapter.fromJson(Map<String, dynamic>.from(item as Map)),
+          )
+          .toList(growable: false),
+    );
+  }
+
+  final String id;
+  final String titleZh;
+  final String titleEn;
+  final String descriptionZh;
+  final String descriptionEn;
+  final String coreQuestionZh;
+  final String coreQuestionEn;
+  final List<String> eventIds;
+  final List<String> personIds;
+  final List<String> territoryIds;
+  final List<StoryRoutePoint> routePoints;
+  final List<StoryCharacter> characters;
+  final List<StoryChapter> chapters;
+}
+
 class Storyline {
   const Storyline({
     required this.id,
@@ -702,6 +1042,14 @@ class Storyline {
     required this.descriptionZh,
     required this.descriptionEn,
     required this.eventIds,
+    required this.personIds,
+    required this.territoryIds,
+    required this.routePoints,
+    required this.chapters,
+    required this.characters,
+    required this.arcs,
+    required this.sourceNoteZh,
+    required this.sourceNoteEn,
     required this.narrativeIntro,
   });
 
@@ -715,6 +1063,44 @@ class Storyline {
       descriptionZh: json['description_zh'] as String? ?? '',
       descriptionEn: json['description_en'] as String? ?? '',
       eventIds: List<String>.from(json['events'] as List<dynamic>? ?? const []),
+      personIds: List<String>.from(
+        json['people'] as List<dynamic>? ?? const [],
+      ),
+      territoryIds: List<String>.from(
+        json['territories'] as List<dynamic>? ?? const [],
+      ),
+      routePoints: (json['route_points'] as List<dynamic>? ?? const [])
+          .map(
+            (item) => StoryRoutePoint.fromJson(
+              Map<String, dynamic>.from(item as Map),
+            ),
+          )
+          .toList(growable: false),
+      chapters: (json['chapters'] as List<dynamic>? ?? const [])
+          .map(
+            (item) =>
+                StoryChapter.fromJson(Map<String, dynamic>.from(item as Map)),
+          )
+          .toList(growable: false),
+      characters: (json['characters'] as List<dynamic>? ?? const [])
+          .map(
+            (item) =>
+                StoryCharacter.fromJson(Map<String, dynamic>.from(item as Map)),
+          )
+          .toList(growable: false),
+      arcs: (json['arcs'] as List<dynamic>? ?? const [])
+          .map(
+            (item) => StoryArc.fromJson(Map<String, dynamic>.from(item as Map)),
+          )
+          .toList(growable: false),
+      sourceNoteZh:
+          json['source_note_zh'] as String? ??
+          json['source_note'] as String? ??
+          '',
+      sourceNoteEn:
+          json['source_note_en'] as String? ??
+          json['source_note'] as String? ??
+          '',
       narrativeIntro: StoryNarrative.fromJson(
         json['narrative_intro'] as Map<String, dynamic>? ?? const {},
       ),
@@ -729,6 +1115,14 @@ class Storyline {
   final String descriptionZh;
   final String descriptionEn;
   final List<String> eventIds;
+  final List<String> personIds;
+  final List<String> territoryIds;
+  final List<StoryRoutePoint> routePoints;
+  final List<StoryChapter> chapters;
+  final List<StoryCharacter> characters;
+  final List<StoryArc> arcs;
+  final String sourceNoteZh;
+  final String sourceNoteEn;
   final StoryNarrative narrativeIntro;
 }
 

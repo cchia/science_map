@@ -22,7 +22,7 @@ Cliopatria 提供的是世界历史政权的大洲级参考边界。它适合用
 4. 先接入面积不小于 `100,000 km²` 的世界尺度政权，避免默认地图被微型或城市级记录淹没。
 5. 默认 scene 只保留 Cliopatria 来源快照；本项目自有或其他来源快照从 `territorySnapshotIds` 移除，但源数据不删除。
 6. 默认 scene 过滤明显重复的整体/子层组合，例如马其顿帝国与继承者碎片、匈奴与南匈奴、英帝国与英属区域子层、西葡帝国与本土王国等；被过滤的快照仍保留在数据集中，后续可做“全部参考层”开关。
-7. 中国主线默认地图也使用 Cliopatria geometry；`scripts/import_cliopatria_china_defaults.py` 会补入西汉、东汉、三国三方、隋、唐、清、中华民国等默认年份需要的中国主线边界。
+7. 中国主线默认地图也使用 Cliopatria geometry；`scripts/import_cliopatria_china_defaults.py` 会补入战国时期中国、西汉、新、东汉、三国三方、北魏、隋、唐、北宋、辽、西夏、蒙古/元、明、清、中华民国等默认年份需要的中国主线边界。
 8. 为缺失 territory 自动生成 `cliopatria_*` territory 记录。
 9. 使用 `assets/global/cliopatria_name_translations.json` 为 Cliopatria 政权名补中文；词典未覆盖的名称暂时保留英文并等待审核。
 10. 每个生成的 geometry 标记为：
@@ -36,25 +36,52 @@ Cliopatria 提供的是世界历史政权的大洲级参考边界。它适合用
 
 | Year | Added Cliopatria Snapshots |
 |---:|---:|
-| -323 | 11 |
-| -200 | 16 |
-| -1 | 11 |
-| 8 | 13 |
+| -323 | 9 |
+| -300 | 15 |
+| -250 | 18 |
+| -221 | 17 |
+| -200 | 17 |
+| -150 | 22 |
+| -138 | 22 |
+| -126 | 22 |
+| -121 | 22 |
+| -119 | 22 |
+| -100 | 19 |
+| -50 | 17 |
+| -1 | 13 |
+| 8 | 14 |
 | 25 | 15 |
-| 100 | 15 |
-| 200 | 15 |
-| 229 | 17 |
-| 400 | 26 |
-| 600 | 27 |
-| 800 | 33 |
-| 907 | 46 |
-| 1000 | 50 |
-| 1279 | 31 |
-| 1530 | 53 |
-| 1650 | 47 |
-| 1920 | 54 |
+| 50 | 15 |
+| 100 | 20 |
+| 150 | 16 |
+| 184 | 15 |
+| 200 | 19 |
+| 229 | 18 |
+| 280 | 19 |
+| 300 | 19 |
+| 400 | 28 |
+| 500 | 29 |
+| 600 | 32 |
+| 700 | 31 |
+| 800 | 40 |
+| 900 | 47 |
+| 907 | 50 |
+| 1000 | 55 |
+| 1100 | 59 |
+| 1200 | 58 |
+| 1279 | 33 |
+| 1300 | 47 |
+| 1400 | 55 |
+| 1500 | 60 |
+| 1530 | 55 |
+| 1600 | 47 |
+| 1650 | 49 |
+| 1700 | 45 |
+| 1800 | 49 |
+| 1900 | 49 |
+| 1920 | 56 |
 
-默认场景当前挂接 `480` 个 Cliopatria 来源世界参考快照。
+默认场景当前挂接 `1379` 个 Cliopatria 来源世界参考快照。
 
 ## 重要限制
 
@@ -78,23 +105,50 @@ Cliopatria 提供的是世界历史政权的大洲级参考边界。它适合用
 
 | Year | Scene ID | Total Snapshots | Cliopatria World References |
 |---:|---|---:|---:|
-| -323 | `qin_unification_scene_-323` | 11 | 11 |
-| -200 | `western_han_and_parthia_scene_-200` | 16 | 16 |
-| -1 | `roman_empire_scene_-1` | 11 | 11 |
-| 8 | `xin_transition_scene_8` | 13 | 13 |
+| -323 | `qin_unification_scene_-323` | 9 | 9 |
+| -300 | `world_story_scene_bce_300` | 15 | 15 |
+| -250 | `world_story_scene_bce_250` | 18 | 18 |
+| -221 | `world_story_scene_bce_221` | 17 | 17 |
+| -200 | `western_han_and_parthia_scene_-200` | 17 | 17 |
+| -150 | `world_story_scene_bce_150` | 22 | 22 |
+| -138 | `world_story_scene_bce_138` | 22 | 22 |
+| -126 | `world_story_scene_bce_126` | 22 | 22 |
+| -121 | `world_story_scene_bce_121` | 22 | 22 |
+| -119 | `world_story_scene_bce_119` | 22 | 22 |
+| -100 | `world_story_scene_bce_100` | 19 | 19 |
+| -50 | `world_story_scene_bce_50` | 17 | 17 |
+| -1 | `roman_empire_scene_-1` | 13 | 13 |
+| 8 | `xin_transition_scene_8` | 14 | 14 |
 | 25 | `eastern_han_restoration_scene_25` | 15 | 15 |
-| 100 | `eastern_han_rome_parthia_scene_100` | 15 | 15 |
-| 200 | `late_han_rome_parthia_scene_200` | 15 | 15 |
-| 229 | `three_kingdoms_scene_229` | 17 | 17 |
-| 400 | `eastern_jin_northern_wei_scene_400` | 26 | 26 |
-| 600 | `sui_and_goguryeo_scene_600` | 27 | 27 |
-| 800 | `tang_world_scene_800` | 33 | 33 |
-| 907 | `five_dynasties_placeholder_scene_907` | 46 | 46 |
-| 1000 | `song_liao_xixia_scene_1000` | 50 | 50 |
-| 1279 | `mongol_yuan_scene_1279` | 31 | 31 |
-| 1530 | `ming_scene_1530` | 53 | 53 |
-| 1650 | `qing_and_early_modern_world_scene_1650` | 47 | 47 |
-| 1920 | `republic_of_china_scene_1920` | 54 | 54 |
+| 50 | `world_story_scene_50` | 15 | 15 |
+| 100 | `eastern_han_rome_parthia_scene_100` | 20 | 20 |
+| 150 | `world_story_scene_150` | 16 | 16 |
+| 184 | `world_story_scene_184` | 15 | 15 |
+| 200 | `late_han_rome_parthia_scene_200` | 19 | 19 |
+| 229 | `three_kingdoms_scene_229` | 18 | 18 |
+| 280 | `world_story_scene_280` | 19 | 19 |
+| 300 | `world_story_scene_300` | 19 | 19 |
+| 400 | `eastern_jin_northern_wei_scene_400` | 28 | 28 |
+| 500 | `world_story_scene_500` | 29 | 29 |
+| 600 | `sui_and_goguryeo_scene_600` | 32 | 32 |
+| 700 | `world_story_scene_700` | 31 | 31 |
+| 800 | `tang_world_scene_800` | 40 | 40 |
+| 900 | `world_story_scene_900` | 47 | 47 |
+| 907 | `five_dynasties_placeholder_scene_907` | 50 | 50 |
+| 1000 | `song_liao_xixia_scene_1000` | 55 | 55 |
+| 1100 | `world_story_scene_1100` | 59 | 59 |
+| 1200 | `world_story_scene_1200` | 58 | 58 |
+| 1279 | `mongol_yuan_scene_1279` | 33 | 33 |
+| 1300 | `world_story_scene_1300` | 47 | 47 |
+| 1400 | `world_story_scene_1400` | 55 | 55 |
+| 1500 | `world_story_scene_1500` | 60 | 60 |
+| 1530 | `ming_scene_1530` | 55 | 55 |
+| 1600 | `world_story_scene_1600` | 47 | 47 |
+| 1650 | `qing_and_early_modern_world_scene_1650` | 49 | 49 |
+| 1700 | `world_story_scene_1700` | 45 | 45 |
+| 1800 | `world_story_scene_1800` | 49 | 49 |
+| 1900 | `world_story_scene_1900` | 49 | 49 |
+| 1920 | `republic_of_china_scene_1920` | 56 | 56 |
 
 `scripts/validate_boundary_data.js` 会检查每个非 placeholder 的 `global_partial` 场景至少保留 5 个 Cliopatria 世界参考快照，并阻止非 Cliopatria snapshot 回到默认 scene。
 

@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -78,7 +80,10 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
   final AtlasRepository _geometryRepository = AtlasRepository();
   final Map<String, List<AtlasPolygonFeature>> _loadedPolygonsByGeometryId = {};
   final Map<String, Future<_LoadedPolygonMaps>> _polygonFutureCache = {};
+  Timer? _storyPlaybackTimer;
   bool _isMapReady = false;
+  bool _isStoryPlaying = false;
+  bool _isPresentationMode = false;
 
   AtlasData get _data => widget.data;
   AtlasExplorerController get _controller =>
@@ -176,6 +181,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
 
   @override
   void dispose() {
+    _stopStoryPlayback();
     _polygonHitNotifier.dispose();
     super.dispose();
   }
@@ -204,14 +210,12 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
               geometryAssetsById: _geometryAssetsById,
               territoriesById: _territoriesById,
               selectedTerritoryId: controller.selectedTerritoryId,
+              storyHighlightTerritoryIds:
+                  controller.activeStorylineHighlightTerritoryIds,
               events: controller.territoryEvents,
-              storylineEvents: controller.activeStoryline != null
-                  ? controller.activeStoryline!.eventIds
-                        .map(controller.eventById)
-                        .whereType<HistoricalEvent>()
-                        .toList(growable: false)
-                  : const [],
-              storylineEventIndex: controller.storylineEventIndex,
+              storylineRoutePoints: controller.activeStorylineRoutePoints,
+              storylineRoutePointIndex:
+                  controller.activeStorylineRoutePointIndex,
               polygonHitNotifier: _polygonHitNotifier,
               polygonCacheVersion: loadedMaps.version,
               onPolygonTap: _handlePolygonTap,
@@ -248,6 +252,51 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       onEventOpened: _openEventDetail,
       onPersonSelected: _showPersonDetailsById,
     );
+
+    final storyPanel = controller.activeStoryline != null
+        ? _StorylinePanel(
+            controller: controller,
+            isPlaying: _isStoryPlaying,
+            isPresentationMode: _isPresentationMode,
+            onMapMove: () => _moveMapToSelection(controller),
+            onPlaybackToggle: () => _toggleStoryPlayback(controller),
+            onPresentationToggle: _togglePresentationMode,
+            onExit: () => _exitStoryline(controller),
+          )
+        : null;
+
+    if (_isPresentationMode && storyPanel != null) {
+      return Scaffold(
+        body: SafeArea(
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              return Stack(
+                children: [
+                  Positioned.fill(child: mapPanel),
+                  Positioned(
+                    left: 16,
+                    bottom: 16,
+                    child: ConstrainedBox(
+                      constraints: BoxConstraints(
+                        maxWidth: (constraints.maxWidth * 0.42).clamp(
+                          420.0,
+                          720.0,
+                        ),
+                        maxHeight: (constraints.maxHeight * 0.36).clamp(
+                          220.0,
+                          320.0,
+                        ),
+                      ),
+                      child: SingleChildScrollView(child: storyPanel),
+                    ),
+                  ),
+                ],
+              );
+            },
+          ),
+        ),
+      );
+    }
 
     return Scaffold(
       appBar: AppBar(
@@ -318,10 +367,15 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                 ),
               ),
               const SizedBox(height: 16),
-              if (controller.activeStoryline != null)
-                _StorylinePanel(
-                  controller: controller,
-                  onMapMove: () => _moveMapToSelection(controller),
+              if (storyPanel != null)
+                ConstrainedBox(
+                  constraints: BoxConstraints(
+                    maxHeight: (MediaQuery.sizeOf(context).height * 0.24).clamp(
+                      180.0,
+                      260.0,
+                    ),
+                  ),
+                  child: SingleChildScrollView(child: storyPanel),
                 )
               else
                 Card(
@@ -367,25 +421,22 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                             _selectYear(value.round());
                           },
                         ),
-                        Wrap(
-                          spacing: 8,
-                          runSpacing: 8,
-                          children: [
-                            for (
-                              var index = 0;
-                              index < timelineYears.length;
-                              index++
-                            )
-                              ChoiceChip(
-                                label: Text(
-                                  l10n.formatYear(timelineYears[index]),
-                                ),
-                                selected:
-                                    timelineYears[index] ==
-                                    controller.activeSceneYear,
+                        SizedBox(
+                          height: 44,
+                          child: ListView.separated(
+                            scrollDirection: Axis.horizontal,
+                            itemCount: timelineYears.length,
+                            separatorBuilder: (_, _) =>
+                                const SizedBox(width: 8),
+                            itemBuilder: (context, index) {
+                              final year = timelineYears[index];
+                              return ChoiceChip(
+                                label: Text(l10n.formatYear(year)),
+                                selected: year == controller.activeSceneYear,
                                 onSelected: (_) => _selectYearIndex(index),
-                              ),
-                          ],
+                              );
+                            },
+                          ),
                         ),
                       ],
                     ),
@@ -402,6 +453,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     BuildContext context,
     AtlasExplorerController controller,
   ) {
+    _stopStoryPlayback();
     final l10n = AppL10n.of(context);
     showModalBottomSheet<void>(
       context: context,
@@ -422,6 +474,50 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                   itemCount: _data.storylines.length,
                   itemBuilder: (context, index) {
                     final story = _data.storylines[index];
+                    if (story.arcs.isNotEmpty) {
+                      return ExpansionTile(
+                        leading: Text(
+                          story.emoji,
+                          style: const TextStyle(fontSize: 24),
+                        ),
+                        title: Text(l10n.isZh ? story.titleZh : story.titleEn),
+                        subtitle: Text(
+                          l10n.isZh ? story.descriptionZh : story.descriptionEn,
+                        ),
+                        children: [
+                          for (final entry in story.arcs.indexed)
+                            ListTile(
+                              contentPadding: const EdgeInsetsDirectional.only(
+                                start: 56,
+                                end: 16,
+                              ),
+                              leading: CircleAvatar(
+                                child: Text('${entry.$1 + 1}'),
+                              ),
+                              title: Text(
+                                l10n.displayName(
+                                  entry.$2.titleZh,
+                                  entry.$2.titleEn,
+                                ),
+                              ),
+                              subtitle: Text(
+                                l10n.displayName(
+                                  entry.$2.descriptionZh,
+                                  entry.$2.descriptionEn,
+                                ),
+                              ),
+                              onTap: () {
+                                Navigator.of(context).pop();
+                                _startStoryline(
+                                  controller,
+                                  story,
+                                  arcIndex: entry.$1,
+                                );
+                              },
+                            ),
+                        ],
+                      );
+                    }
                     return ListTile(
                       leading: Text(
                         story.emoji,
@@ -433,8 +529,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                       ),
                       onTap: () {
                         Navigator.of(context).pop();
-                        controller.startStoryline(story);
-                        _moveMapToSelection(controller);
+                        _startStoryline(controller, story);
                       },
                     );
                   },
@@ -445,6 +540,18 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
         );
       },
     );
+  }
+
+  void _startStoryline(
+    AtlasExplorerController controller,
+    Storyline story, {
+    int arcIndex = 0,
+  }) {
+    controller.startStoryline(story, arcIndex: arcIndex);
+    setState(() {
+      _isPresentationMode = false;
+    });
+    _moveMapToSelection(controller);
   }
 
   void _selectYearIndex(int index) {
@@ -470,6 +577,11 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
 
   void _moveMapToSelection(AtlasExplorerController controller) {
     if (!_isMapReady) return;
+    final camera = controller.activeStorylineCamera;
+    if (camera != null) {
+      _mapController.move(LatLng(camera.lat, camera.lng), camera.zoom);
+      return;
+    }
     final focus = controller.selectedSnapshot.focus;
     _mapController.move(LatLng(focus.lat, focus.lng), focus.zoom);
   }
@@ -487,6 +599,56 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     if (_isMapReady) return;
     _isMapReady = true;
     _moveMapToScene(_controller);
+  }
+
+  void _toggleStoryPlayback(AtlasExplorerController controller) {
+    if (_isStoryPlaying) {
+      _stopStoryPlayback();
+      return;
+    }
+    if (controller.activeStoryline == null ||
+        controller.activeStorylineStepCount <= 1) {
+      return;
+    }
+    setState(() => _isStoryPlaying = true);
+    _storyPlaybackTimer = Timer.periodic(const Duration(seconds: 5), (_) {
+      if (!mounted) return;
+      final activeController = _controller;
+      final isLastStep =
+          activeController.storylineEventIndex >=
+          activeController.activeStorylineStepCount - 1;
+      if (activeController.activeStoryline == null || isLastStep) {
+        _stopStoryPlayback();
+        return;
+      }
+      activeController.nextStorylineEvent();
+      _moveMapToSelection(activeController);
+    });
+  }
+
+  void _stopStoryPlayback() {
+    _storyPlaybackTimer?.cancel();
+    _storyPlaybackTimer = null;
+    if (_isStoryPlaying && mounted) {
+      setState(() => _isStoryPlaying = false);
+    } else {
+      _isStoryPlaying = false;
+    }
+  }
+
+  void _togglePresentationMode() {
+    setState(() {
+      _isPresentationMode = !_isPresentationMode;
+    });
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _moveMapToSelection(_controller);
+    });
+  }
+
+  void _exitStoryline(AtlasExplorerController controller) {
+    _stopStoryPlayback();
+    setState(() => _isPresentationMode = false);
+    controller.exitStoryline();
   }
 
   Future<void> _openSearch() async {
@@ -587,66 +749,265 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
 }
 
 class _StorylinePanel extends StatelessWidget {
-  const _StorylinePanel({required this.controller, required this.onMapMove});
+  const _StorylinePanel({
+    required this.controller,
+    required this.isPlaying,
+    required this.isPresentationMode,
+    required this.onMapMove,
+    required this.onPlaybackToggle,
+    required this.onPresentationToggle,
+    required this.onExit,
+  });
 
   final AtlasExplorerController controller;
+  final bool isPlaying;
+  final bool isPresentationMode;
   final VoidCallback onMapMove;
+  final VoidCallback onPlaybackToggle;
+  final VoidCallback onPresentationToggle;
+  final VoidCallback onExit;
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppL10n.of(context);
     final theme = Theme.of(context);
     final story = controller.activeStoryline!;
+    final arc = controller.activeStoryArc;
     final eventIndex = controller.storylineEventIndex;
-    final totalEvents = story.eventIds.length;
+    final totalEvents = controller.activeStorylineStepCount;
+    final displayIndex = totalEvents == 0 ? 0 : eventIndex + 1;
+    final chapter = controller.activeStorylineChapter;
+    final titleZh = chapter?.titleZh.isNotEmpty == true
+        ? chapter!.titleZh
+        : story.titleZh;
+    final titleEn = chapter?.titleEn.isNotEmpty == true
+        ? chapter!.titleEn
+        : story.titleEn;
+    final scriptZh = chapter?.scriptZh.isNotEmpty == true
+        ? chapter!.scriptZh
+        : story.narrativeIntro.textZh;
+    final scriptEn = chapter?.scriptEn.isNotEmpty == true
+        ? chapter!.scriptEn
+        : story.narrativeIntro.textEn;
+    final sceneSetting = l10n.isZh
+        ? chapter?.sceneSettingZh ?? ''
+        : chapter?.sceneSettingEn ?? '';
+    final characterBeat = l10n.isZh
+        ? chapter?.characterBeatZh ?? ''
+        : chapter?.characterBeatEn ?? '';
+    final storyQuestion = l10n.isZh
+        ? chapter?.storyQuestionZh ?? ''
+        : chapter?.storyQuestionEn ?? '';
+    final sourceNote = l10n.isZh ? story.sourceNoteZh : story.sourceNoteEn;
+    final selectedEvent = controller.selectedEvent;
+    final activeCharacters = _activeStoryCharacters(
+      controller.activeStoryCharacters,
+      chapter,
+    );
+    final currentRoutePoint = controller.activeStorylineRoutePoints.isEmpty
+        ? null
+        : controller.activeStorylineRoutePoints[controller
+              .activeStorylineRoutePointIndex];
+    final yearLabel = chapter?.year != null
+        ? l10n.formatYear(chapter!.year!)
+        : l10n.formatYear(controller.selectedYear);
 
     return Card(
       clipBehavior: Clip.antiAlias,
       color: theme.colorScheme.tertiaryContainer,
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(isPresentationMode ? 24 : 16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
               children: [
-                Text(
-                  '${story.emoji} ${l10n.isZh ? story.titleZh : story.titleEn}',
-                  style: theme.textTheme.titleMedium?.copyWith(
-                    color: theme.colorScheme.onTertiaryContainer,
-                    fontWeight: FontWeight.bold,
+                IconButton.filledTonal(
+                  icon: Icon(isPlaying ? Icons.pause : Icons.play_arrow),
+                  onPressed: onPlaybackToggle,
+                  tooltip: l10n.text('播放故事', 'Play story'),
+                  visualDensity: VisualDensity.compact,
+                ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    '${story.emoji} ${l10n.isZh ? titleZh : titleEn}',
+                    style:
+                        (isPresentationMode
+                                ? theme.textTheme.headlineSmall
+                                : theme.textTheme.titleMedium)
+                            ?.copyWith(
+                              color: theme.colorScheme.onTertiaryContainer,
+                              fontWeight: FontWeight.bold,
+                            ),
                   ),
                 ),
-                const Spacer(),
                 Text(
-                  '${eventIndex + 1} / $totalEvents',
+                  '$displayIndex / $totalEvents',
                   style: theme.textTheme.bodyMedium?.copyWith(
                     color: theme.colorScheme.onTertiaryContainer,
                   ),
                 ),
                 const SizedBox(width: 8),
                 IconButton(
+                  icon: Icon(
+                    isPresentationMode
+                        ? Icons.fullscreen_exit
+                        : Icons.present_to_all,
+                  ),
+                  onPressed: onPresentationToggle,
+                  tooltip: l10n.text('演示模式', 'Presentation mode'),
+                  color: theme.colorScheme.onTertiaryContainer,
+                  visualDensity: VisualDensity.compact,
+                ),
+                IconButton(
                   icon: const Icon(Icons.close),
-                  onPressed: controller.exitStoryline,
+                  onPressed: onExit,
                   tooltip: l10n.text('退出故事', 'Exit Story'),
                   color: theme.colorScheme.onTertiaryContainer,
                   visualDensity: VisualDensity.compact,
                 ),
               ],
             ),
-            const SizedBox(height: 8),
-            Text(
-              l10n.isZh
-                  ? story.narrativeIntro.textZh
-                  : story.narrativeIntro.textEn,
-              style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.colorScheme.onTertiaryContainer.withValues(
-                  alpha: 0.9,
+            if (arc != null) ...[
+              const SizedBox(height: 6),
+              Text(
+                l10n.displayName(arc.titleZh, arc.titleEn),
+                style: theme.textTheme.labelLarge?.copyWith(
+                  color: theme.colorScheme.onTertiaryContainer.withValues(
+                    alpha: 0.78,
+                  ),
+                  fontWeight: FontWeight.w700,
                 ),
               ),
-              maxLines: 4,
+              if (l10n
+                  .displayName(arc.coreQuestionZh, arc.coreQuestionEn)
+                  .isNotEmpty)
+                Text(
+                  l10n.displayName(arc.coreQuestionZh, arc.coreQuestionEn),
+                  style: theme.textTheme.labelSmall?.copyWith(
+                    color: theme.colorScheme.onTertiaryContainer.withValues(
+                      alpha: 0.72,
+                    ),
+                  ),
+                ),
+            ],
+            if (currentRoutePoint != null) ...[
+              const SizedBox(height: 8),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  Chip(
+                    visualDensity: VisualDensity.compact,
+                    label: Text(yearLabel),
+                  ),
+                  Chip(
+                    visualDensity: VisualDensity.compact,
+                    avatar: const Icon(Icons.place, size: 16),
+                    label: Text(
+                      l10n.isZh
+                          ? currentRoutePoint.labelZh
+                          : currentRoutePoint.labelEn,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+            const SizedBox(height: 8),
+            if (activeCharacters.isNotEmpty) ...[
+              _StoryCharacterStrip(
+                characters: activeCharacters,
+                isPresentationMode: isPresentationMode,
+              ),
+              const SizedBox(height: 10),
+            ],
+            if (chapter?.interactions.isNotEmpty == true) ...[
+              _StoryInteractionList(
+                interactions: chapter!.interactions,
+                characters: controller.activeStoryCharacters,
+                isPresentationMode: isPresentationMode,
+              ),
+              const SizedBox(height: 10),
+            ],
+            if (sceneSetting.isNotEmpty ||
+                characterBeat.isNotEmpty ||
+                storyQuestion.isNotEmpty) ...[
+              _StoryBeatGrid(
+                sceneSetting: sceneSetting,
+                characterBeat: characterBeat,
+                storyQuestion: storyQuestion,
+                isPresentationMode: isPresentationMode,
+              ),
+              const SizedBox(height: 10),
+            ],
+            Text(
+              l10n.isZh ? scriptZh : scriptEn,
+              style:
+                  (isPresentationMode
+                          ? theme.textTheme.titleMedium
+                          : theme.textTheme.bodyMedium)
+                      ?.copyWith(
+                        color: theme.colorScheme.onTertiaryContainer.withValues(
+                          alpha: 0.9,
+                        ),
+                      ),
+              maxLines: isPresentationMode ? 8 : 4,
               overflow: TextOverflow.ellipsis,
             ),
+            if (selectedEvent != null) ...[
+              const SizedBox(height: 12),
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.onTertiaryContainer.withValues(
+                    alpha: 0.08,
+                  ),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      l10n.displayName(
+                        selectedEvent.titleZh,
+                        selectedEvent.titleEn,
+                      ),
+                      style: theme.textTheme.labelLarge?.copyWith(
+                        color: theme.colorScheme.onTertiaryContainer,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      l10n.displayName(
+                        selectedEvent.summaryZh,
+                        selectedEvent.summaryEn,
+                      ),
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: theme.colorScheme.onTertiaryContainer.withValues(
+                          alpha: 0.82,
+                        ),
+                      ),
+                      maxLines: isPresentationMode ? 3 : 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
+                ),
+              ),
+            ],
+            if (sourceNote.isNotEmpty) ...[
+              const SizedBox(height: 10),
+              Text(
+                sourceNote,
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: theme.colorScheme.onTertiaryContainer.withValues(
+                    alpha: 0.72,
+                  ),
+                ),
+              ),
+            ],
             const SizedBox(height: 16),
             LinearProgressIndicator(
               value: totalEvents <= 1 ? 1.0 : eventIndex / (totalEvents - 1),
@@ -662,6 +1023,7 @@ class _StorylinePanel extends StatelessWidget {
                 FilledButton.tonal(
                   onPressed: eventIndex > 0
                       ? () {
+                          if (isPlaying) onPlaybackToggle();
                           controller.prevStorylineEvent();
                           onMapMove();
                         }
@@ -671,6 +1033,7 @@ class _StorylinePanel extends StatelessWidget {
                 FilledButton.tonal(
                   onPressed: eventIndex < totalEvents - 1
                       ? () {
+                          if (isPlaying) onPlaybackToggle();
                           controller.nextStorylineEvent();
                           onMapMove();
                         }
@@ -681,6 +1044,395 @@ class _StorylinePanel extends StatelessWidget {
             ),
           ],
         ),
+      ),
+    );
+  }
+
+  List<StoryCharacter> _activeStoryCharacters(
+    List<StoryCharacter> characters,
+    StoryChapter? chapter,
+  ) {
+    if (characters.isEmpty) return const [];
+    final activeIds = chapter?.activeCharacterIds ?? const <String>[];
+    if (activeIds.isEmpty) return characters;
+    final activeIdSet = activeIds.toSet();
+    return characters
+        .where((character) => activeIdSet.contains(character.id))
+        .toList(growable: false);
+  }
+}
+
+class _StoryCharacterStrip extends StatelessWidget {
+  const _StoryCharacterStrip({
+    required this.characters,
+    required this.isPresentationMode,
+  });
+
+  final List<StoryCharacter> characters;
+  final bool isPresentationMode;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: isPresentationMode ? 96 : 82,
+      child: ListView.separated(
+        scrollDirection: Axis.horizontal,
+        itemCount: characters.length,
+        separatorBuilder: (_, _) => const SizedBox(width: 8),
+        itemBuilder: (context, index) {
+          return _StoryCharacterCard(
+            character: characters[index],
+            isPresentationMode: isPresentationMode,
+          );
+        },
+      ),
+    );
+  }
+}
+
+class _StoryCharacterCard extends StatelessWidget {
+  const _StoryCharacterCard({
+    required this.character,
+    required this.isPresentationMode,
+  });
+
+  final StoryCharacter character;
+  final bool isPresentationMode;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
+    final theme = Theme.of(context);
+    final label = l10n.displayName(character.labelZh, character.labelEn);
+    final role = l10n.displayName(character.roleZh, character.roleEn);
+    final goal = l10n.displayName(character.goalZh, character.goalEn);
+    return Container(
+      width: isPresentationMode ? 260 : 220,
+      padding: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.14),
+        ),
+      ),
+      child: Row(
+        children: [
+          CircleAvatar(
+            radius: isPresentationMode ? 28 : 24,
+            backgroundColor: theme.colorScheme.onTertiaryContainer.withValues(
+              alpha: 0.14,
+            ),
+            child: Text(
+              character.avatarSymbol,
+              style: theme.textTheme.titleMedium?.copyWith(
+                color: theme.colorScheme.onTertiaryContainer,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  label,
+                  style: theme.textTheme.labelLarge?.copyWith(
+                    color: theme.colorScheme.onTertiaryContainer,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                Text(
+                  role,
+                  style: theme.textTheme.labelSmall?.copyWith(
+                    color: theme.colorScheme.onTertiaryContainer.withValues(
+                      alpha: 0.78,
+                    ),
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                if (goal.isNotEmpty)
+                  Text(
+                    goal,
+                    style: theme.textTheme.labelSmall?.copyWith(
+                      color: theme.colorScheme.onTertiaryContainer.withValues(
+                        alpha: 0.66,
+                      ),
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _StoryInteractionList extends StatelessWidget {
+  const _StoryInteractionList({
+    required this.interactions,
+    required this.characters,
+    required this.isPresentationMode,
+  });
+
+  final List<StoryInteraction> interactions;
+  final List<StoryCharacter> characters;
+  final bool isPresentationMode;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        for (final interaction in interactions)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 6),
+            child: _StoryInteractionCard(
+              interaction: interaction,
+              characters: characters,
+              isPresentationMode: isPresentationMode,
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+class _StoryInteractionCard extends StatelessWidget {
+  const _StoryInteractionCard({
+    required this.interaction,
+    required this.characters,
+    required this.isPresentationMode,
+  });
+
+  final StoryInteraction interaction;
+  final List<StoryCharacter> characters;
+  final bool isPresentationMode;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
+    final theme = Theme.of(context);
+    final actor = _characterById(interaction.actorId);
+    final target = _characterById(interaction.targetId);
+    final actorLabel = actor == null
+        ? interaction.actorId
+        : l10n.displayName(actor.labelZh, actor.labelEn);
+    final targetLabel = target == null
+        ? l10n.displayName(interaction.targetLabelZh, interaction.targetLabelEn)
+        : l10n.displayName(target.labelZh, target.labelEn);
+    final relation = l10n.displayName(
+      interaction.relationZh,
+      interaction.relationEn,
+    );
+    final action = l10n.displayName(interaction.actionZh, interaction.actionEn);
+    final outcome = l10n.displayName(
+      interaction.outcomeZh,
+      interaction.outcomeEn,
+    );
+
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Wrap(
+            crossAxisAlignment: WrapCrossAlignment.center,
+            spacing: 8,
+            runSpacing: 6,
+            children: [
+              _MiniActorPill(label: actorLabel, character: actor),
+              Icon(
+                Icons.arrow_forward,
+                size: 16,
+                color: theme.colorScheme.onTertiaryContainer.withValues(
+                  alpha: 0.72,
+                ),
+              ),
+              Chip(visualDensity: VisualDensity.compact, label: Text(relation)),
+              Icon(
+                Icons.arrow_forward,
+                size: 16,
+                color: theme.colorScheme.onTertiaryContainer.withValues(
+                  alpha: 0.72,
+                ),
+              ),
+              _MiniActorPill(label: targetLabel, character: target),
+            ],
+          ),
+          if (action.isNotEmpty) ...[
+            const SizedBox(height: 6),
+            Text(
+              action,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onTertiaryContainer.withValues(
+                  alpha: 0.86,
+                ),
+              ),
+              maxLines: isPresentationMode ? 3 : 2,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ],
+          if (outcome.isNotEmpty) ...[
+            const SizedBox(height: 4),
+            Text(
+              outcome,
+              style: theme.textTheme.labelSmall?.copyWith(
+                color: theme.colorScheme.onTertiaryContainer.withValues(
+                  alpha: 0.70,
+                ),
+                fontStyle: FontStyle.italic,
+              ),
+              maxLines: isPresentationMode ? 2 : 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  StoryCharacter? _characterById(String id) {
+    for (final character in characters) {
+      if (character.id == id) return character;
+    }
+    return null;
+  }
+}
+
+class _MiniActorPill extends StatelessWidget {
+  const _MiniActorPill({required this.label, required this.character});
+
+  final String label;
+  final StoryCharacter? character;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Chip(
+      visualDensity: VisualDensity.compact,
+      avatar: character == null
+          ? null
+          : CircleAvatar(
+              child: Text(
+                character!.avatarSymbol,
+                style: const TextStyle(fontSize: 11),
+              ),
+            ),
+      label: Text(label),
+      labelStyle: theme.textTheme.labelSmall,
+    );
+  }
+}
+
+class _StoryBeatGrid extends StatelessWidget {
+  const _StoryBeatGrid({
+    required this.sceneSetting,
+    required this.characterBeat,
+    required this.storyQuestion,
+    required this.isPresentationMode,
+  });
+
+  final String sceneSetting;
+  final String characterBeat;
+  final String storyQuestion;
+  final bool isPresentationMode;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppL10n.of(context);
+    final items = [
+      if (sceneSetting.isNotEmpty)
+        (l10n.text('场景', 'Scene'), Icons.landscape, sceneSetting),
+      if (characterBeat.isNotEmpty)
+        (l10n.text('人物处境', 'Character'), Icons.person, characterBeat),
+      if (storyQuestion.isNotEmpty)
+        (l10n.text('悬念', 'Tension'), Icons.help_outline, storyQuestion),
+    ];
+
+    return Wrap(
+      spacing: 8,
+      runSpacing: 8,
+      children: [
+        for (final item in items)
+          _StoryBeatChip(
+            label: item.$1,
+            icon: item.$2,
+            value: item.$3,
+            isPresentationMode: isPresentationMode,
+          ),
+      ],
+    );
+  }
+}
+
+class _StoryBeatChip extends StatelessWidget {
+  const _StoryBeatChip({
+    required this.label,
+    required this.icon,
+    required this.value,
+    required this.isPresentationMode,
+  });
+
+  final String label;
+  final IconData icon;
+  final String value;
+  final bool isPresentationMode;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Container(
+      constraints: BoxConstraints(maxWidth: isPresentationMode ? 420 : 280),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.14),
+        ),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(
+            icon,
+            size: 16,
+            color: theme.colorScheme.onTertiaryContainer.withValues(alpha: 0.8),
+          ),
+          const SizedBox(width: 6),
+          Flexible(
+            child: RichText(
+              text: TextSpan(
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: theme.colorScheme.onTertiaryContainer.withValues(
+                    alpha: 0.82,
+                  ),
+                ),
+                children: [
+                  TextSpan(
+                    text: '$label：',
+                    style: const TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  TextSpan(text: value),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -803,9 +1555,10 @@ class _MapPanel extends StatefulWidget {
     required this.geometryAssetsById,
     required this.territoriesById,
     required this.selectedTerritoryId,
+    required this.storyHighlightTerritoryIds,
     required this.events,
-    required this.storylineEvents,
-    required this.storylineEventIndex,
+    required this.storylineRoutePoints,
+    required this.storylineRoutePointIndex,
     required this.polygonHitNotifier,
     required this.polygonCacheVersion,
     required this.onPolygonTap,
@@ -819,9 +1572,10 @@ class _MapPanel extends StatefulWidget {
   final Map<String, GeometryAssetRecord> geometryAssetsById;
   final Map<String, Territory> territoriesById;
   final String selectedTerritoryId;
+  final List<String> storyHighlightTerritoryIds;
   final List<HistoricalEvent> events;
-  final List<HistoricalEvent> storylineEvents;
-  final int storylineEventIndex;
+  final List<StoryRoutePoint> storylineRoutePoints;
+  final int storylineRoutePointIndex;
   final LayerHitNotifier<String> polygonHitNotifier;
   final int polygonCacheVersion;
   final VoidCallback onPolygonTap;
@@ -869,13 +1623,13 @@ class _MapPanelState extends State<_MapPanel> {
                   hitNotifier: widget.polygonHitNotifier,
                 ),
               ),
-              if (widget.storylineEvents.isNotEmpty)
+              if (widget.storylineRoutePoints.isNotEmpty)
                 PolylineLayer(
                   polylines: [
                     // The future path
                     Polyline(
-                      points: widget.storylineEvents
-                          .map((e) => LatLng(e.lat, e.lng))
+                      points: widget.storylineRoutePoints
+                          .map((point) => LatLng(point.lat, point.lng))
                           .toList(growable: false),
                       color: Theme.of(
                         context,
@@ -884,14 +1638,54 @@ class _MapPanelState extends State<_MapPanel> {
                     ),
                     // The traversed path
                     Polyline(
-                      points: widget.storylineEvents
-                          .take(widget.storylineEventIndex + 1)
-                          .map((e) => LatLng(e.lat, e.lng))
+                      points: widget.storylineRoutePoints
+                          .take(widget.storylineRoutePointIndex + 1)
+                          .map((point) => LatLng(point.lat, point.lng))
                           .toList(growable: false),
                       color: Theme.of(context).colorScheme.primary,
                       strokeWidth: 4.0,
                     ),
                   ],
+                ),
+              if (widget.storylineRoutePoints.isNotEmpty)
+                MarkerLayer(
+                  markers: widget.storylineRoutePoints
+                      .asMap()
+                      .entries
+                      .map(
+                        (entry) => Marker(
+                          point: LatLng(entry.value.lat, entry.value.lng),
+                          width: entry.key == widget.storylineRoutePointIndex
+                              ? 28
+                              : 18,
+                          height: entry.key == widget.storylineRoutePointIndex
+                              ? 28
+                              : 18,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color:
+                                  entry.key == widget.storylineRoutePointIndex
+                                  ? Theme.of(context).colorScheme.primary
+                                  : Theme.of(context).colorScheme.surface,
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: Theme.of(context).colorScheme.primary,
+                                width: 2,
+                              ),
+                            ),
+                            child: entry.key == widget.storylineRoutePointIndex
+                                ? Icon(
+                                    Icons.person_pin_circle,
+                                    size: 18,
+                                    color: Theme.of(
+                                      context,
+                                    ).colorScheme.onPrimary,
+                                  )
+                                : null,
+                          ),
+                        ),
+                      )
+                      .toList(growable: false),
                 ),
               MarkerLayer(
                 markers: widget.events
@@ -1000,6 +1794,7 @@ class _MapPanelState extends State<_MapPanel> {
     final l10n = AppL10n.of(context);
     final cacheKey = [
       widget.selectedTerritoryId,
+      ...widget.storyHighlightTerritoryIds,
       widget.polygonCacheVersion,
       ...widget.snapshots.map((snapshot) => snapshot.id),
     ].join('|');
@@ -1007,25 +1802,41 @@ class _MapPanelState extends State<_MapPanel> {
     if (cached != null) return cached;
 
     final polygons = <Polygon<String>>[];
+    final areaBySnapshotId = {
+      for (final snapshot in widget.snapshots)
+        snapshot.id: _snapshotApproxArea(snapshot),
+    };
     final orderedSnapshots = [...widget.snapshots]
       ..sort((a, b) {
+        final aHighlighted = _isStoryHighlighted(a.territoryId);
+        final bHighlighted = _isStoryHighlighted(b.territoryId);
+        if (aHighlighted != bHighlighted) return aHighlighted ? 1 : -1;
         final aSelected = a.territoryId == widget.selectedTerritoryId;
         final bSelected = b.territoryId == widget.selectedTerritoryId;
         if (aSelected != bSelected) return aSelected ? 1 : -1;
         final aContext = _isContextBoundary(_boundaryMeaningFor(a));
         final bContext = _isContextBoundary(_boundaryMeaningFor(b));
         if (aContext != bContext) return aContext ? -1 : 1;
+        final areaComparison = (areaBySnapshotId[b.id] ?? 0).compareTo(
+          areaBySnapshotId[a.id] ?? 0,
+        );
+        if (areaComparison != 0) return areaComparison;
         return 0;
       });
     for (final snapshot in orderedSnapshots) {
       final territory = widget.territoriesById[snapshot.territoryId]!;
       final isSelected = snapshot.territoryId == widget.selectedTerritoryId;
+      final isStoryHighlighted = _isStoryHighlighted(snapshot.territoryId);
       final fillColor = colorFromHex(territory.color);
       final isContextBoundary = _isContextBoundary(
         _boundaryMeaningFor(snapshot),
       );
-      final fillOpacity = isSelected
+      final fillOpacity = isStoryHighlighted
+          ? (isContextBoundary ? 0.34 : 0.48)
+          : isSelected
           ? (isContextBoundary ? 0.30 : 0.42)
+          : widget.storyHighlightTerritoryIds.isNotEmpty
+          ? (isContextBoundary ? 0.06 : 0.12)
           : (isContextBoundary ? 0.10 : 0.24);
       final geometryRefs = snapshot.geometryRefs.isNotEmpty
           ? snapshot.geometryRefs
@@ -1048,10 +1859,14 @@ class _MapPanelState extends State<_MapPanel> {
             points: cachedRings.points,
             holePointsList: cachedRings.holePointsList,
             color: fillColor.withValues(alpha: fillOpacity),
-            borderColor: isSelected
+            borderColor: isStoryHighlighted
+                ? Colors.white
+                : isSelected
                 ? Colors.white
                 : fillColor.withValues(alpha: isContextBoundary ? 0.65 : 1),
-            borderStrokeWidth: isSelected
+            borderStrokeWidth: isStoryHighlighted
+                ? 4.0
+                : isSelected
                 ? 3.5
                 : (isContextBoundary ? 1.1 : 2.0),
             label: l10n.displayName(territory.nameZh, territory.nameEn),
@@ -1067,6 +1882,36 @@ class _MapPanelState extends State<_MapPanel> {
     }
     _polygonListCache[cacheKey] = polygons;
     return polygons;
+  }
+
+  bool _isStoryHighlighted(String territoryId) {
+    return widget.storyHighlightTerritoryIds.contains(territoryId);
+  }
+
+  double _snapshotApproxArea(TerritorySnapshot snapshot) {
+    final features = snapshot.geometryRefs
+        .expand(
+          (geometryRef) => widget.polygonsByGeometryId[geometryRef] ?? const [],
+        )
+        .toList(growable: false);
+    var total = 0.0;
+    for (final feature in features) {
+      if (feature.rings.isEmpty || feature.rings.first.isEmpty) continue;
+      var minLng = feature.rings.first.first[0];
+      var maxLng = minLng;
+      var minLat = feature.rings.first.first[1];
+      var maxLat = minLat;
+      for (final point in feature.rings.first) {
+        final lng = point[0];
+        final lat = point[1];
+        if (lng < minLng) minLng = lng;
+        if (lng > maxLng) maxLng = lng;
+        if (lat < minLat) minLat = lat;
+        if (lat > maxLat) maxLat = lat;
+      }
+      total += (maxLng - minLng).abs() * (maxLat - minLat).abs();
+    }
+    return total;
   }
 
   String _boundaryMeaningFor(TerritorySnapshot snapshot) {

@@ -24,6 +24,14 @@ CLIOPATRIA_ZIP_URL = (
 
 TARGETS = [
     {
+        "display_year": -323,
+        "source_year": -323,
+        "source_name": "Warring States China",
+        "territory_id": "cliopatria_warring_states_china",
+        "label_zh": "战国时期中国",
+        "label_en": "Warring States China",
+    },
+    {
         "display_year": -200,
         "source_year": -200,
         "source_name": "Han Dynasty",
@@ -38,6 +46,14 @@ TARGETS = [
         "territory_id": "western_han",
         "label_zh": "西汉",
         "label_en": "Western Han",
+    },
+    {
+        "display_year": 8,
+        "source_year": 8,
+        "source_name": "Xin Dynasty",
+        "territory_id": "xin",
+        "label_zh": "新朝",
+        "label_en": "Xin Dynasty",
     },
     {
         "display_year": 25,
@@ -90,6 +106,14 @@ TARGETS = [
         "label_en": "Eastern Wu",
     },
     {
+        "display_year": 400,
+        "source_year": 400,
+        "source_name": "Northern Wei",
+        "territory_id": "northern_wei",
+        "label_zh": "北魏",
+        "label_en": "Northern Wei",
+    },
+    {
         "display_year": 600,
         "source_year": 600,
         "source_name": "Sui Dynasty",
@@ -104,6 +128,46 @@ TARGETS = [
         "territory_id": "tang_dynasty",
         "label_zh": "唐朝",
         "label_en": "Tang Dynasty",
+    },
+    {
+        "display_year": 1000,
+        "source_year": 1000,
+        "source_name": "Northern Song",
+        "territory_id": "cliopatria_northern_song",
+        "label_zh": "北宋",
+        "label_en": "Northern Song",
+    },
+    {
+        "display_year": 1000,
+        "source_year": 1000,
+        "source_name": "Liao Dynasty",
+        "territory_id": "cliopatria_liao_dynasty",
+        "label_zh": "辽朝",
+        "label_en": "Liao Dynasty",
+    },
+    {
+        "display_year": 1000,
+        "source_year": 1000,
+        "source_name": "Western Xia",
+        "territory_id": "cliopatria_western_xia",
+        "label_zh": "西夏",
+        "label_en": "Western Xia",
+    },
+    {
+        "display_year": 1279,
+        "source_year": 1279,
+        "source_name": "Mongol Empire",
+        "territory_id": "mongol_empire",
+        "label_zh": "蒙古帝国 / 元朝",
+        "label_en": "Mongol Empire / Yuan Dynasty",
+    },
+    {
+        "display_year": 1530,
+        "source_year": 1530,
+        "source_name": "Ming Dynasty",
+        "territory_id": "ming_dynasty",
+        "label_zh": "明朝",
+        "label_en": "Ming Dynasty",
     },
     {
         "display_year": 1650,
@@ -183,23 +247,33 @@ def geometry_type(feature) -> str:
 def main() -> None:
     manifest_path = PROJECT_ROOT / "assets/global/geometry_manifest.json"
     snapshots_path = PROJECT_ROOT / "assets/global/territory_snapshots.json"
+    territories_path = PROJECT_ROOT / "assets/global/territories.json"
     geojson_dir = PROJECT_ROOT / "assets/geojson/world/cliopatria"
     manifest = read_json(manifest_path)
     snapshots = read_json(snapshots_path)
+    territories = read_json(territories_path)
     manifest_by_id = {record["id"]: record for record in manifest}
     snapshots_by_id = {record["id"]: record for record in snapshots}
+    territories_by_id = {record["id"]: record for record in territories}
     features = load_upstream_features()
 
     added_or_updated = 0
     for target in TARGETS:
-        feature = choose_feature(features, target["source_name"], target["source_year"])
-        source_props = feature["properties"]
-        source_from = source_props.get("FromYear")
-        source_to = source_props.get("ToYear")
         geometry_id = f"cliopatria_{slugify(target['source_name'])}_{year_suffix(target['display_year'])}"
         snapshot_id = f"{geometry_id}_context"
         asset_path = f"assets/geojson/world/cliopatria/{geometry_id}.geojson"
         output_path = PROJECT_ROOT / asset_path
+        if (
+            geometry_id in manifest_by_id
+            and snapshot_id in snapshots_by_id
+            and output_path.exists()
+        ):
+            continue
+
+        feature = choose_feature(features, target["source_name"], target["source_year"])
+        source_props = feature["properties"]
+        source_from = source_props.get("FromYear")
+        source_to = source_props.get("ToYear")
 
         output_feature = copy.deepcopy(feature)
         output_feature["properties"] = {
@@ -215,6 +289,38 @@ def main() -> None:
                 "features": [output_feature],
             },
         )
+
+        if target["territory_id"] not in territories_by_id:
+            territory_record = {
+                "id": target["territory_id"],
+                "territoryType": "polity",
+                "parentCivilizationId": "chinese",
+                "start": {
+                    "year": source_from,
+                    "datePrecision": "representative_year",
+                },
+                "end": {
+                    "year": source_to,
+                    "datePrecision": "representative_year",
+                },
+                "capitalPlaceIds": [],
+                "names": {
+                    "primaryName": target["source_name"],
+                    "localizedNames": {
+                        "zh-Hans": target["label_zh"],
+                        "en": target["label_en"],
+                    },
+                    "aliases": [],
+                },
+                "summary": f"{target['label_zh']}是 Cliopatria 世界历史数据集中的中国主线参考政权。",
+                "summaryEn": f"{target['label_en']} is a China-focused reference polity from Cliopatria.",
+                "summaryLong": f"{target['label_zh']}用于默认时间轴的中国主线地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+                "summaryLongEn": f"{target['label_en']} is used for China-focused coverage in the default timeline. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+                "color": "#8A6F3D",
+                "sourceRefs": ["seshat_cliopatria"],
+            }
+            territories.append(territory_record)
+            territories_by_id[target["territory_id"]] = territory_record
 
         manifest_record = {
             "id": geometry_id,
@@ -312,6 +418,7 @@ def main() -> None:
 
     write_json(manifest_path, manifest)
     write_json(snapshots_path, snapshots)
+    write_json(territories_path, territories)
     print(f"Imported or updated {added_or_updated} Cliopatria China default snapshots.")
 
 

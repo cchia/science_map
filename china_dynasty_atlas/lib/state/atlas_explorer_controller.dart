@@ -22,7 +22,17 @@ class AtlasExplorerController extends ChangeNotifier {
   String? _selectedEventId;
   bool _showWorldContext = true;
 
+  late final Map<String, TerritorySnapshot> _snapshotsById = {
+    for (final snapshot in data.snapshots) snapshot.id: snapshot,
+  };
+  late final Map<String, List<TerritorySnapshot>> _snapshotsByTerritoryId =
+      _groupSnapshotsByTerritory();
+  late final Map<String, HistoricalEvent> _eventsById = {
+    for (final event in data.events) event.id: event,
+  };
+
   Storyline? _activeStoryline;
+  int _activeStoryArcIndex = 0;
   int _storylineEventIndex = 0;
 
   int get selectedYearIndex => _nearestTimelineYearIndex(_selectedYear);
@@ -33,16 +43,99 @@ class AtlasExplorerController extends ChangeNotifier {
   bool get showWorldContext => _showWorldContext;
 
   Storyline? get activeStoryline => _activeStoryline;
+  StoryArc? get activeStoryArc {
+    final story = _activeStoryline;
+    if (story == null || story.arcs.isEmpty) return null;
+    if (_activeStoryArcIndex < 0 || _activeStoryArcIndex >= story.arcs.length) {
+      return null;
+    }
+    return story.arcs[_activeStoryArcIndex];
+  }
+
+  int get activeStoryArcIndex => _activeStoryArcIndex;
   int get storylineEventIndex => _storylineEventIndex;
+  int get activeStorylineStepCount {
+    final chapters = activeStoryChapters;
+    if (chapters.isNotEmpty) return chapters.length;
+    return activeStoryEventIds.length;
+  }
+
+  StoryChapter? get activeStorylineChapter {
+    final chapters = activeStoryChapters;
+    if (chapters.isEmpty) return null;
+    if (_storylineEventIndex < 0 || _storylineEventIndex >= chapters.length) {
+      return null;
+    }
+    return chapters[_storylineEventIndex];
+  }
+
+  StoryMapCamera? get activeStorylineCamera => activeStorylineChapter?.camera;
+
+  List<StoryChapter> get activeStoryChapters {
+    final arc = activeStoryArc;
+    if (arc != null && arc.chapters.isNotEmpty) return arc.chapters;
+    return _activeStoryline?.chapters ?? const [];
+  }
+
+  List<String> get activeStoryEventIds {
+    final arc = activeStoryArc;
+    if (arc != null && arc.eventIds.isNotEmpty) return arc.eventIds;
+    return _activeStoryline?.eventIds ?? const [];
+  }
+
+  List<StoryCharacter> get activeStoryCharacters {
+    final arc = activeStoryArc;
+    if (arc != null && arc.characters.isNotEmpty) return arc.characters;
+    return _activeStoryline?.characters ?? const [];
+  }
+
+  List<StoryRoutePoint> get activeStoryRoutePointsBase {
+    final arc = activeStoryArc;
+    if (arc != null && arc.routePoints.isNotEmpty) return arc.routePoints;
+    return _activeStoryline?.routePoints ?? const [];
+  }
+
+  List<String> get activeStorylineHighlightTerritoryIds {
+    final chapter = activeStorylineChapter;
+    if (chapter != null && chapter.highlightTerritoryIds.isNotEmpty) {
+      return chapter.highlightTerritoryIds;
+    }
+    final arc = activeStoryArc;
+    if (arc != null && arc.territoryIds.isNotEmpty) return arc.territoryIds;
+    final story = _activeStoryline;
+    if (story == null) return const [];
+    if (story.territoryIds.isNotEmpty) return story.territoryIds;
+    return const [];
+  }
+
+  List<StoryRoutePoint> get activeStorylineRoutePoints {
+    final routePoints = activeStoryRoutePointsBase;
+    if (routePoints.isNotEmpty) return routePoints;
+    return activeStoryEventIds
+        .map(eventById)
+        .whereType<HistoricalEvent>()
+        .map(StoryRoutePoint.fromEvent)
+        .toList(growable: false);
+  }
+
+  int get activeStorylineRoutePointIndex {
+    final routePoints = activeStorylineRoutePoints;
+    if (routePoints.isEmpty) return 0;
+    final chapter = activeStorylineChapter;
+    if (chapter != null && chapter.routePointId.isNotEmpty) {
+      final index = routePoints.indexWhere(
+        (point) => point.id == chapter.routePointId,
+      );
+      if (index >= 0) return index;
+    }
+    return _storylineEventIndex.clamp(0, routePoints.length - 1);
+  }
 
   List<TerritorySnapshot> get activeSceneSnapshots {
     final scene = currentScene;
     if (scene == null) return const [];
-    final snapshotsById = {
-      for (final snapshot in data.snapshots) snapshot.id: snapshot,
-    };
     return scene.territorySnapshotIds
-        .map((snapshotId) => snapshotsById[snapshotId])
+        .map((snapshotId) => _snapshotsById[snapshotId])
         .whereType<TerritorySnapshot>()
         .toList(growable: false);
   }
@@ -51,19 +144,39 @@ class AtlasExplorerController extends ChangeNotifier {
 
   int get worldContextSnapshotCount => worldContextSnapshots.length;
 
-  List<TerritorySnapshot> get currentSnapshots => activeSceneSnapshots;
+  List<TerritorySnapshot> get currentSnapshots {
+    final snapshots = activeSceneSnapshots;
+    if (_showWorldContext) return snapshots;
+    if (snapshots.isEmpty) return const [];
+
+    final focusTerritoryIds = {
+      _selectedTerritoryId,
+      ...activeStorylineHighlightTerritoryIds,
+      if (activeStorylineChapter?.eventId case final eventId?)
+        ...?eventById(eventId)?.territoryIds,
+    };
+    final focusedSnapshots = snapshots
+        .where((snapshot) => focusTerritoryIds.contains(snapshot.territoryId))
+        .toList(growable: false);
+    if (focusedSnapshots.isNotEmpty) return focusedSnapshots;
+    return [snapshots.first];
+  }
 
   int get visibleSnapshotCount => currentSnapshots.length;
 
   MapScene? get currentScene {
     if (data.mapScenes.isEmpty) return null;
-    final scenes = [...data.mapScenes]
-      ..sort(
-        (a, b) => (a.displayYear - _selectedYear).abs().compareTo(
-          (b.displayYear - _selectedYear).abs(),
-        ),
-      );
-    return scenes.first;
+    var bestScene = data.mapScenes.first;
+    var bestDistance = (bestScene.displayYear - _selectedYear).abs();
+    for (var index = 1; index < data.mapScenes.length; index++) {
+      final scene = data.mapScenes[index];
+      final distance = (scene.displayYear - _selectedYear).abs();
+      if (distance < bestDistance) {
+        bestScene = scene;
+        bestDistance = distance;
+      }
+    }
+    return bestScene;
   }
 
   TerritorySnapshot get selectedSnapshot {
@@ -106,10 +219,7 @@ class AtlasExplorerController extends ChangeNotifier {
   }
 
   HistoricalEvent? eventById(String id) {
-    for (final event in data.events) {
-      if (event.id == id) return event;
-    }
-    return null;
+    return _eventsById[id];
   }
 
   void selectYearIndex(int index) {
@@ -124,9 +234,6 @@ class AtlasExplorerController extends ChangeNotifier {
   }
 
   void setShowWorldContext(bool value) {
-    // Default scenes now use Cliopatria as their canonical map layer, so this
-    // control stays on until a separate "all/reference layers" mode exists.
-    if (!value) return;
     if (_showWorldContext == value) return;
     _showWorldContext = value;
     _syncSelectionForCurrentYear();
@@ -178,8 +285,20 @@ class AtlasExplorerController extends ChangeNotifier {
     notifyListeners();
   }
 
-  void startStoryline(Storyline story) {
+  void startStoryline(Storyline story, {int arcIndex = 0}) {
     _activeStoryline = story;
+    _activeStoryArcIndex = arcIndex;
+    _storylineEventIndex = 0;
+    _showWorldContext = false;
+    _syncStorylineState();
+    notifyListeners();
+  }
+
+  void selectStoryArc(int arcIndex) {
+    final story = _activeStoryline;
+    if (story == null) return;
+    if (arcIndex < 0 || arcIndex >= story.arcs.length) return;
+    _activeStoryArcIndex = arcIndex;
     _storylineEventIndex = 0;
     _syncStorylineState();
     notifyListeners();
@@ -192,7 +311,7 @@ class AtlasExplorerController extends ChangeNotifier {
 
   void nextStorylineEvent() {
     if (_activeStoryline == null) return;
-    if (_storylineEventIndex < _activeStoryline!.eventIds.length - 1) {
+    if (_storylineEventIndex < activeStorylineStepCount - 1) {
       _storylineEventIndex++;
       _syncStorylineState();
       notifyListeners();
@@ -210,7 +329,7 @@ class AtlasExplorerController extends ChangeNotifier {
 
   void setStorylineEventIndex(int index) {
     if (_activeStoryline == null) return;
-    if (index >= 0 && index < _activeStoryline!.eventIds.length) {
+    if (index >= 0 && index < activeStorylineStepCount) {
       _storylineEventIndex = index;
       _syncStorylineState();
       notifyListeners();
@@ -219,9 +338,34 @@ class AtlasExplorerController extends ChangeNotifier {
 
   void _syncStorylineState() {
     if (_activeStoryline == null) return;
-    if (_activeStoryline!.eventIds.isEmpty) return;
+    final chapter = activeStorylineChapter;
+    if (chapter != null) {
+      if (chapter.eventId.isNotEmpty) {
+        final event = eventById(chapter.eventId);
+        if (event != null) {
+          jumpToEvent(event);
+          return;
+        }
+      }
+      if (chapter.year != null) {
+        _selectedYear = chapter.year!;
+      }
+      if (chapter.highlightTerritoryIds.isNotEmpty) {
+        final snapshot = _nearestSnapshotForTerritory(
+          chapter.highlightTerritoryIds.first,
+          targetYear: chapter.year ?? _selectedYear,
+        );
+        if (snapshot != null) {
+          _selectedTerritoryId = snapshot.territoryId;
+        }
+      }
+      _syncSelectionForCurrentYear();
+      return;
+    }
+    final eventIds = activeStoryEventIds;
+    if (eventIds.isEmpty) return;
 
-    final eventId = _activeStoryline!.eventIds[_storylineEventIndex];
+    final eventId = eventIds[_storylineEventIndex];
     final event = eventById(eventId);
     if (event != null) {
       jumpToEvent(event);
@@ -232,16 +376,20 @@ class AtlasExplorerController extends ChangeNotifier {
     String territoryId, {
     required int targetYear,
   }) {
-    final snapshots = data.snapshots
-        .where((snapshot) => snapshot.territoryId == territoryId)
-        .toList(growable: false);
+    final snapshots = _snapshotsByTerritoryId[territoryId] ?? const [];
     if (snapshots.isEmpty) return null;
 
-    snapshots.sort(
-      (a, b) =>
-          (a.year - targetYear).abs().compareTo((b.year - targetYear).abs()),
-    );
-    return snapshots.first;
+    var bestSnapshot = snapshots.first;
+    var bestDistance = (bestSnapshot.year - targetYear).abs();
+    for (var index = 1; index < snapshots.length; index++) {
+      final snapshot = snapshots[index];
+      final distance = (snapshot.year - targetYear).abs();
+      if (distance < bestDistance) {
+        bestSnapshot = snapshot;
+        bestDistance = distance;
+      }
+    }
+    return bestSnapshot;
   }
 
   void _syncSelectionForCurrentYear() {
@@ -273,5 +421,13 @@ class AtlasExplorerController extends ChangeNotifier {
       }
     }
     return bestIndex;
+  }
+
+  Map<String, List<TerritorySnapshot>> _groupSnapshotsByTerritory() {
+    final grouped = <String, List<TerritorySnapshot>>{};
+    for (final snapshot in data.snapshots) {
+      grouped.putIfAbsent(snapshot.territoryId, () => []).add(snapshot);
+    }
+    return grouped;
   }
 }

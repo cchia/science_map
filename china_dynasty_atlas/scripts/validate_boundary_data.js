@@ -454,7 +454,10 @@ function validateMapScenes(mapScenes, scope, snapshots, manifestById) {
         );
       }
 
-      if (scene.completeness !== 'placeholder' && !isCliopatriaSnapshot(snapshot, manifestById)) {
+      if (
+        scene.completeness !== 'placeholder' &&
+        !isCliopatriaSnapshot(snapshot, manifestById)
+      ) {
         addIssue(
           'error',
           'default_scene_non_cliopatria',

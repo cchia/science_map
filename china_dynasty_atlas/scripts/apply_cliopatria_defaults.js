@@ -38,6 +38,16 @@ const preferBroaderWhenPresent = {
   'Xiongnu': [
     'Southern Xiongnu',
   ],
+  'Warring States China': [
+    'Chu',
+    'Minyue',
+    'Qi',
+    'Qin',
+    'Yan',
+    'Zhao',
+    'Wei',
+    'Han',
+  ],
 };
 
 const preferSpecificWhenPresent = {

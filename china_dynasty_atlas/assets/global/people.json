@@ -9,503 +9,3417 @@
       },
       "aliases": []
     },
-    "birth": {"year": -259, "datePrecision": "approximate_year", "displayLabel": "公元前259年"},
-    "death": {"year": -210, "datePrecision": "exact_year", "displayLabel": "公元前210年"},
+    "birth": {
+      "year": -259,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前259年"
+    },
+    "death": {
+      "year": -210,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前210年"
+    },
     "activeRange": "公元前259年 - 公元前210年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "中国历史上首位完成大一统的皇帝，推动郡县制、统一文字和度量衡等制度建设。",
     "bioShortEn": "The first emperor to complete political unification in Chinese history, advancing commandery-county governance, script unification, and standards reform.",
     "bioLong": "秦始皇将区域性强国转化为统一帝国，是中国古代国家形态发生跃迁的关键人物。",
     "bioLongEn": "Qin Shi Huang transformed a regional superpower into a unified empire and was pivotal in the institutional leap of the early Chinese state.",
     "contribution": "将区域性强国转化为统一帝国，是中国古代国家形态发生跃迁的关键人物。",
     "contributionEn": "He transformed a regional hegemon into a unified empire, a decisive step in early Chinese state formation.",
-    "relatedTerritoryIds": ["qin"],
-    "relatedEventIds": ["qin_unification_-221", "great_wall_early_qin_-214", "books_buried_scholars_-213"],
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "books_buried_scholars_-213",
+      "great_wall_early_qin_-214",
+      "qin_succession_crisis_210",
+      "qin_unification_-221"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "liu_bang",
     "names": {
       "primaryName": "Liu Bang",
-      "localizedNames": {"en": "Liu Bang", "zh-Hans": "刘邦"},
+      "localizedNames": {
+        "en": "Liu Bang",
+        "zh-Hans": "刘邦"
+      },
       "aliases": []
     },
-    "birth": {"year": -256, "datePrecision": "approximate_year", "displayLabel": "公元前256年"},
-    "death": {"year": -195, "datePrecision": "exact_year", "displayLabel": "公元前195年"},
+    "birth": {
+      "year": -256,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前256年"
+    },
+    "death": {
+      "year": -195,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前195年"
+    },
     "activeRange": "公元前256年 - 公元前195年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "西汉开国皇帝，在秦亡后的群雄争霸中胜出，建立了新的汉帝国秩序。",
     "bioShortEn": "Founding emperor of Western Han who prevailed in post-Qin power struggles and established a new Han imperial order.",
     "bioLong": "刘邦把秦后的政治真空重新整合为可持续的汉帝国，是帝国重建的决定性人物。",
     "bioLongEn": "Liu Bang reorganized the post-Qin political vacuum into a durable Han empire and was decisive in imperial reconstruction.",
     "contribution": "把秦后的政治真空重新整合为可持续的汉帝国，是帝国重建的决定性人物。",
     "contributionEn": "He rebuilt stable imperial order after Qin and founded a durable Han political framework.",
-    "relatedTerritoryIds": ["western_han"],
-    "relatedEventIds": ["qin_collapse_-207", "han_founding_-202"],
+    "relatedTerritoryIds": [
+      "cliopatria_han",
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "chu_han_stalemate_203",
+      "gaixia_battle_202",
+      "han_founding_-202",
+      "liu_bang_enters_guanzhong_207",
+      "liu_bang_founds_han_202",
+      "pengcheng_defeat_han_recovery_205",
+      "qin_collapse_-207",
+      "xiang_yu_enfeoffment_206"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "emperor_wu",
     "names": {
       "primaryName": "Emperor Wu of Han",
-      "localizedNames": {"en": "Emperor Wu of Han", "zh-Hans": "汉武帝"},
+      "localizedNames": {
+        "en": "Emperor Wu of Han",
+        "zh-Hans": "汉武帝"
+      },
       "aliases": []
     },
-    "birth": {"year": -156, "datePrecision": "approximate_year", "displayLabel": "公元前156年"},
-    "death": {"year": -87, "datePrecision": "exact_year", "displayLabel": "公元前87年"},
+    "birth": {
+      "year": -156,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前156年"
+    },
+    "death": {
+      "year": -87,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前87年"
+    },
     "activeRange": "公元前156年 - 公元前87年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "西汉最具扩张性的皇帝之一，推动对匈奴作战、西域经营与帝国边疆重构。",
     "bioShortEn": "One of the most expansionist Western Han rulers, driving campaigns against the Xiongnu and reconfiguring frontier governance.",
     "bioLong": "汉武帝把西汉从内部恢复阶段推进到积极扩张阶段，深刻重塑了帝国边疆与外交格局。",
     "bioLongEn": "Emperor Wu pushed Western Han from internal recovery into active expansion, profoundly reshaping frontier and diplomatic structures.",
     "contribution": "把西汉从内部恢复阶段推进到积极扩张阶段，深刻重塑了帝国边疆与外交格局。",
     "contributionEn": "He shifted Western Han into an outward strategic phase and redefined imperial frontier geopolitics.",
-    "relatedTerritoryIds": ["western_han"],
-    "relatedEventIds": ["zhang_qian_west_-138", "emperor_wu_expansion_-121", "silk_road_growth_-119"],
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "zhang_qian_west_-138",
+      "emperor_wu_expansion_-121",
+      "silk_road_growth_-119"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "zhang_qian",
     "names": {
       "primaryName": "Zhang Qian",
-      "localizedNames": {"en": "Zhang Qian", "zh-Hans": "张骞"},
+      "localizedNames": {
+        "en": "Zhang Qian",
+        "zh-Hans": "张骞"
+      },
       "aliases": []
     },
-    "birth": {"year": -164, "datePrecision": "approximate_year", "displayLabel": "约公元前164年"},
-    "death": {"year": -114, "datePrecision": "approximate_year", "displayLabel": "约公元前114年"},
+    "birth": {
+      "year": -164,
+      "datePrecision": "approximate_year",
+      "displayLabel": "约公元前164年"
+    },
+    "death": {
+      "year": -114,
+      "datePrecision": "approximate_year",
+      "displayLabel": "约公元前114年"
+    },
     "activeRange": "约公元前164年 - 公元前114年",
-    "roles": ["envoy"],
+    "roles": [
+      "envoy"
+    ],
     "bioShort": "西汉外交使者，其出使西域的经历改变了汉朝对中亚世界的地理认知。",
     "bioShortEn": "Western Han envoy whose missions transformed Han geographic understanding of the Western Regions and Central Asia.",
     "bioLong": "张骞把西域从遥远概念转化为可进入的战略与交通空间，是汉帝国对外认识的开拓者。",
     "bioLongEn": "Zhang Qian turned the Western Regions from a distant concept into an actionable strategic corridor, pioneering Han external knowledge.",
     "contribution": "把西域从遥远概念转化为可进入的战略与交通空间，是汉帝国对外认识的开拓者。",
     "contributionEn": "He opened an enduring strategic horizon for Han westward diplomacy and connectivity.",
-    "relatedTerritoryIds": ["western_han"],
-    "relatedEventIds": ["zhang_qian_west_-138", "silk_road_growth_-119"],
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "zhang_qian_west_-138",
+      "silk_road_growth_-119"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "wang_mang",
     "names": {
       "primaryName": "Wang Mang",
-      "localizedNames": {"en": "Wang Mang", "zh-Hans": "王莽"},
+      "localizedNames": {
+        "en": "Wang Mang",
+        "zh-Hans": "王莽"
+      },
       "aliases": []
     },
-    "birth": {"year": -45, "datePrecision": "approximate_year", "displayLabel": "公元前45年"},
-    "death": {"year": 23, "datePrecision": "exact_year", "displayLabel": "公元23年"},
+    "birth": {
+      "year": -45,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前45年"
+    },
+    "death": {
+      "year": 23,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元23年"
+    },
     "activeRange": "公元前45年 - 公元23年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "新朝建立者，以复古和制度改革著称，也是中国政治史中最具争议的人物之一。",
     "bioShortEn": "Founder of Xin, known for classicizing reforms and one of the most controversial figures in Chinese political history.",
     "bioLong": "其短暂统治成为理解理想化改革、合法性危机与帝国治理失败的经典样本。",
     "bioLongEn": "His short reign became a classic case for understanding idealized reform, legitimacy crisis, and imperial governance failure.",
     "contribution": "其短暂统治成为理解理想化改革、合法性危机与帝国治理失败的经典样本。",
     "contributionEn": "His rule remains a key reference point in evaluating reform ambition versus governing capacity.",
-    "relatedTerritoryIds": ["xin"],
-    "relatedEventIds": ["wang_mang_ascend_8", "xin_reforms_9", "red_eyebrows_23"],
+    "relatedTerritoryIds": [
+      "xin"
+    ],
+    "relatedEventIds": [
+      "wang_mang_ascend_8",
+      "xin_reforms_9",
+      "red_eyebrows_23"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "liu_xiu",
     "names": {
       "primaryName": "Liu Xiu",
-      "localizedNames": {"en": "Liu Xiu", "zh-Hans": "刘秀"},
+      "localizedNames": {
+        "en": "Liu Xiu",
+        "zh-Hans": "刘秀"
+      },
       "aliases": []
     },
-    "birth": {"year": -5, "datePrecision": "approximate_year", "displayLabel": "公元前5年"},
-    "death": {"year": 57, "datePrecision": "exact_year", "displayLabel": "公元57年"},
+    "birth": {
+      "year": -5,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前5年"
+    },
+    "death": {
+      "year": 57,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元57年"
+    },
     "activeRange": "公元前5年 - 公元57年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "东汉开国皇帝，在新朝崩溃后重新统一主要地区，恢复汉室统治。",
     "bioShortEn": "Founding emperor of Eastern Han who reunified core regions after Xin collapse and restored Han rule.",
     "bioLong": "完成东汉重建，使汉王朝在大危机后再次取得统一合法性。",
     "bioLongEn": "He completed Eastern Han reconstruction and restored unified legitimacy after severe dynastic crisis.",
     "contribution": "完成东汉重建，使汉王朝在大危机后再次取得统一合法性。",
     "contributionEn": "He reestablished Han authority and stabilized post-Xin imperial order.",
-    "relatedTerritoryIds": ["eastern_han"],
-    "relatedEventIds": ["eastern_han_founding_25"],
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "eastern_han_founding_25"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "cai_lun",
     "names": {
       "primaryName": "Cai Lun",
-      "localizedNames": {"en": "Cai Lun", "zh-Hans": "蔡伦"},
+      "localizedNames": {
+        "en": "Cai Lun",
+        "zh-Hans": "蔡伦"
+      },
       "aliases": []
     },
-    "birth": {"year": 63, "datePrecision": "approximate_year", "displayLabel": "约公元63年"},
-    "death": {"year": 121, "datePrecision": "approximate_year", "displayLabel": "公元121年"},
+    "birth": {
+      "year": 63,
+      "datePrecision": "approximate_year",
+      "displayLabel": "约公元63年"
+    },
+    "death": {
+      "year": 121,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元121年"
+    },
     "activeRange": "约公元63年 - 公元121年",
-    "roles": ["inventor"],
+    "roles": [
+      "inventor"
+    ],
     "bioShort": "东汉宦官与技术改进者，以改进造纸术而长期影响东亚知识传播。",
     "bioShortEn": "Eastern Han court official and technical innovator whose papermaking improvements had long-term impact on East Asian knowledge transmission.",
     "bioLong": "通过改进造纸术推动知识与行政文书传播，是技术史意义远超政治权位的人物。",
     "bioLongEn": "By improving papermaking, he enabled broader documentary circulation and knowledge storage beyond the limits of political office.",
     "contribution": "通过改进造纸术推动知识与行政文书传播，是技术史意义远超政治权位的人物。",
     "contributionEn": "He advanced papermaking technology, fundamentally improving administrative and intellectual communication.",
-    "relatedTerritoryIds": ["eastern_han"],
-    "relatedEventIds": ["paper_cai_lun_105"],
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "paper_cai_lun_105"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "meng_tian",
     "names": {
       "primaryName": "Meng Tian",
-      "localizedNames": {"en": "Meng Tian", "zh-Hans": "蒙恬"},
+      "localizedNames": {
+        "en": "Meng Tian",
+        "zh-Hans": "蒙恬"
+      },
       "aliases": []
     },
-    "birth": {"year": -259, "datePrecision": "approximate_year", "displayLabel": "约公元前259年"},
-    "death": {"year": -210, "datePrecision": "approximate_year", "displayLabel": "公元前210年"},
+    "birth": {
+      "year": -259,
+      "datePrecision": "approximate_year",
+      "displayLabel": "约公元前259年"
+    },
+    "death": {
+      "year": -210,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前210年"
+    },
     "activeRange": "约公元前259年 - 公元前210年",
-    "roles": ["general"],
+    "roles": [
+      "general"
+    ],
     "bioShort": "秦朝重要将领，长期经营北方边疆，常与秦帝国防御工程联系在一起。",
     "bioShortEn": "A key Qin general associated with sustained northern frontier operations and imperial defense works.",
     "bioLong": "代表秦帝国边疆军事经营，是理解统一后北部战略的重要人物。",
     "bioLongEn": "He represents Qin frontier militarization and is central to understanding post-unification northern strategy.",
     "contribution": "代表秦帝国边疆军事经营，是理解统一后北部战略的重要人物。",
     "contributionEn": "He operationalized Qin's northern frontier strategy and defense posture.",
-    "relatedTerritoryIds": ["qin"],
-    "relatedEventIds": ["great_wall_early_qin_-214"],
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "great_wall_early_qin_-214",
+      "qin_succession_crisis_210"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "li_si",
     "names": {
       "primaryName": "Li Si",
-      "localizedNames": {"en": "Li Si", "zh-Hans": "李斯"},
+      "localizedNames": {
+        "en": "Li Si",
+        "zh-Hans": "李斯"
+      },
       "aliases": []
     },
-    "birth": {"year": -284, "datePrecision": "approximate_year", "displayLabel": "约公元前284年"},
-    "death": {"year": -208, "datePrecision": "approximate_year", "displayLabel": "公元前208年"},
+    "birth": {
+      "year": -284,
+      "datePrecision": "approximate_year",
+      "displayLabel": "约公元前284年"
+    },
+    "death": {
+      "year": -208,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前208年"
+    },
     "activeRange": "约公元前284年 - 公元前208年",
-    "roles": ["chancellor"],
+    "roles": [
+      "chancellor"
+    ],
     "bioShort": "秦朝丞相，法家政治实践的重要人物，与统一后制度塑造和思想控制密切相关。",
     "bioShortEn": "Qin chancellor and major practitioner of Legalist statecraft, closely linked to post-unification institutional design and ideological control.",
     "bioLong": "是秦制国家化和法家政治技术的关键实践者之一。",
     "bioLongEn": "He was one of the principal executors of Qin state institutionalization and Legalist political technique.",
     "contribution": "是秦制国家化和法家政治技术的关键实践者之一。",
     "contributionEn": "He helped consolidate Legalist governance methods into Qin imperial institutions.",
-    "relatedTerritoryIds": ["qin"],
-    "relatedEventIds": ["books_buried_scholars_-213"],
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "books_buried_scholars_-213",
+      "qin_succession_crisis_210"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "xiang_yu",
     "names": {
       "primaryName": "Xiang Yu",
-      "localizedNames": {"en": "Xiang Yu", "zh-Hans": "项羽"},
+      "localizedNames": {
+        "en": "Xiang Yu",
+        "zh-Hans": "项羽"
+      },
       "aliases": []
     },
-    "birth": {"year": -232, "datePrecision": "approximate_year", "displayLabel": "公元前232年"},
-    "death": {"year": -202, "datePrecision": "exact_year", "displayLabel": "公元前202年"},
+    "birth": {
+      "year": -232,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前232年"
+    },
+    "death": {
+      "year": -202,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前202年"
+    },
     "activeRange": "公元前232年 - 公元前202年",
-    "roles": ["military_leader"],
+    "roles": [
+      "military_leader"
+    ],
     "bioShort": "秦末最强军事领袖之一，在帝国崩解与楚汉战争阶段扮演关键角色。",
     "bioShortEn": "One of the strongest military leaders at Qin's end, pivotal during imperial collapse and the Chu-Han wars.",
     "bioLong": "其军事威望与政治选择深刻影响了秦亡后的权力重组方式。",
     "bioLongEn": "His military prestige and political decisions deeply shaped post-Qin power reconfiguration.",
     "contribution": "其军事威望与政治选择深刻影响了秦亡后的权力重组方式。",
     "contributionEn": "He was a decisive force in the military and political transition from Qin collapse to Han formation.",
-    "relatedTerritoryIds": ["qin", "western_han"],
-    "relatedEventIds": ["qin_collapse_-207"],
+    "relatedTerritoryIds": [
+      "cliopatria_western_chu",
+      "qin",
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "chu_han_stalemate_203",
+      "gaixia_battle_202",
+      "julu_battle_207",
+      "pengcheng_defeat_han_recovery_205",
+      "qin_collapse_-207",
+      "xiang_yu_enfeoffment_206"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "emperor_wen",
     "names": {
       "primaryName": "Emperor Wen of Han",
-      "localizedNames": {"en": "Emperor Wen of Han", "zh-Hans": "汉文帝"},
+      "localizedNames": {
+        "en": "Emperor Wen of Han",
+        "zh-Hans": "汉文帝"
+      },
       "aliases": []
     },
-    "birth": {"year": -202, "datePrecision": "approximate_year", "displayLabel": "公元前202年"},
-    "death": {"year": -157, "datePrecision": "exact_year", "displayLabel": "公元前157年"},
+    "birth": {
+      "year": -202,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前202年"
+    },
+    "death": {
+      "year": -157,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前157年"
+    },
     "activeRange": "公元前202年 - 公元前157年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "西汉中前期的重要皇帝，以节制财政和稳定社会著称，是文景之治的重要一环。",
     "bioShortEn": "A major early-middle Western Han emperor known for fiscal restraint and social stabilization, central to the Wen-Jing era.",
     "bioLong": "通过休养生息政策帮助汉帝国摆脱秦末与建国初期的高压余波。",
     "bioLongEn": "Through recovery-oriented governance, he helped Han move beyond the high-pressure legacy of late Qin and early state-building.",
     "contribution": "通过休养生息政策帮助汉帝国摆脱秦末与建国初期的高压余波。",
     "contributionEn": "He strengthened imperial durability through low-burden governance and fiscal repair.",
-    "relatedTerritoryIds": ["western_han"],
-    "relatedEventIds": ["wenjing_rule_-180"],
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "wenjing_rule_-180"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "emperor_jing",
     "names": {
       "primaryName": "Emperor Jing of Han",
-      "localizedNames": {"en": "Emperor Jing of Han", "zh-Hans": "汉景帝"},
+      "localizedNames": {
+        "en": "Emperor Jing of Han",
+        "zh-Hans": "汉景帝"
+      },
       "aliases": []
     },
-    "birth": {"year": -188, "datePrecision": "approximate_year", "displayLabel": "公元前188年"},
-    "death": {"year": -141, "datePrecision": "exact_year", "displayLabel": "公元前141年"},
+    "birth": {
+      "year": -188,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前188年"
+    },
+    "death": {
+      "year": -141,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前141年"
+    },
     "activeRange": "公元前188年 - 公元前141年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "西汉承前启后的皇帝，延续文帝时期稳定政策，并为武帝时代的国家能力打下基础。",
     "bioShortEn": "A transitional Western Han emperor who continued stabilizing policies and prepared state capacity for Emperor Wu's era.",
     "bioLong": "在承接文帝政策的同时稳定帝国结构，为武帝时代转折提供准备。",
     "bioLongEn": "While inheriting Emperor Wen's framework, he stabilized imperial structures and prepared the ground for later strategic expansion.",
     "contribution": "在承接文帝政策的同时稳定帝国结构，为武帝时代转折提供准备。",
     "contributionEn": "He maintained institutional continuity and enabled the next phase of Han transformation.",
-    "relatedTerritoryIds": ["western_han"],
-    "relatedEventIds": ["wenjing_rule_-180"],
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "wenjing_rule_-180"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "wei_qing",
     "names": {
       "primaryName": "Wei Qing",
-      "localizedNames": {"en": "Wei Qing", "zh-Hans": "卫青"},
+      "localizedNames": {
+        "en": "Wei Qing",
+        "zh-Hans": "卫青"
+      },
       "aliases": []
     },
-    "birth": {"year": -150, "datePrecision": "unknown", "displayLabel": "未知"},
-    "death": {"year": -106, "datePrecision": "exact_year", "displayLabel": "公元前106年"},
+    "birth": {
+      "year": -150,
+      "datePrecision": "unknown",
+      "displayLabel": "未知"
+    },
+    "death": {
+      "year": -106,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前106年"
+    },
     "activeRange": "？ - 公元前106年",
-    "roles": ["general"],
+    "roles": [
+      "general"
+    ],
     "bioShort": "西汉名将，活跃于汉武帝时期的北方作战，是帝国扩张战略的重要执行者。",
     "bioShortEn": "A leading Western Han general active in northern campaigns under Emperor Wu and a key executor of expansion strategy.",
     "bioLong": "在军事上支撑了汉武帝对北方的战略推进，是帝国空间扩张的执行者。",
     "bioLongEn": "He militarily supported Han's northern strategic advance and helped operationalize territorial expansion.",
     "contribution": "在军事上支撑了汉武帝对北方的战略推进，是帝国空间扩张的执行者。",
     "contributionEn": "He provided crucial command leadership for Han frontier expansion.",
-    "relatedTerritoryIds": ["western_han"],
-    "relatedEventIds": ["emperor_wu_expansion_-121"],
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_wu_expansion_-121"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "huo_qubing",
     "names": {
       "primaryName": "Huo Qubing",
-      "localizedNames": {"en": "Huo Qubing", "zh-Hans": "霍去病"},
+      "localizedNames": {
+        "en": "Huo Qubing",
+        "zh-Hans": "霍去病"
+      },
       "aliases": []
     },
-    "birth": {"year": -140, "datePrecision": "approximate_year", "displayLabel": "公元前140年"},
-    "death": {"year": -117, "datePrecision": "exact_year", "displayLabel": "公元前117年"},
+    "birth": {
+      "year": -140,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前140年"
+    },
+    "death": {
+      "year": -117,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前117年"
+    },
     "activeRange": "公元前140年 - 公元前117年",
-    "roles": ["general"],
+    "roles": [
+      "general"
+    ],
     "bioShort": "西汉青年名将，以迅速远征和打击匈奴闻名，常被视为汉帝国武功象征。",
     "bioShortEn": "A young Western Han general famed for rapid expeditions against the Xiongnu and often seen as a symbol of Han military achievement.",
     "bioLong": "其作战形象强化了西汉在对外战争中的优势叙事和帝国自信。",
     "bioLongEn": "His campaign record reinforced Western Han confidence and narratives of military superiority.",
     "contribution": "其作战形象强化了西汉在对外战争中的优势叙事和帝国自信。",
     "contributionEn": "He became an emblematic figure of offensive capability in Han frontier warfare.",
-    "relatedTerritoryIds": ["western_han"],
-    "relatedEventIds": ["emperor_wu_expansion_-121"],
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_wu_expansion_-121"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "zhang_jue",
     "names": {
       "primaryName": "Zhang Jue",
-      "localizedNames": {"en": "Zhang Jue", "zh-Hans": "张角"},
+      "localizedNames": {
+        "en": "Zhang Jue",
+        "zh-Hans": "张角"
+      },
       "aliases": []
     },
-    "birth": {"year": 0, "datePrecision": "unknown", "displayLabel": "未知"},
-    "death": {"year": 184, "datePrecision": "exact_year", "displayLabel": "公元184年"},
-    "activeRange": "？ - 公元184年",
-    "roles": ["rebel_leader"],
-    "bioShort": "黄巾起义领袖，其宗教动员和社会号召力深刻冲击了东汉晚期统治秩序。",
-    "bioShortEn": "Leader of the Yellow Turban movement whose religious mobilization and social appeal deeply shook late Eastern Han order.",
-    "bioLong": "代表了东汉晚期基层社会动员力量对中央秩序的正面冲击。",
-    "bioLongEn": "He represented grassroots mobilization directly challenging weakened central authority in late Eastern Han.",
-    "contribution": "代表了东汉晚期基层社会动员力量对中央秩序的正面冲击。",
-    "contributionEn": "His movement exposed structural limits of central governance in late Han society.",
-    "relatedTerritoryIds": ["eastern_han"],
-    "relatedEventIds": ["yellow_turban_184"],
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": 184,
+      "datePrecision": "exact_year",
+      "displayLabel": "184"
+    },
+    "activeRange": "184",
+    "roles": [
+      "rebel_leader",
+      "religious_leader"
+    ],
+    "bioShort": "太平道领袖，黄巾起义发动者。",
+    "bioShortEn": "Leader of the Way of Great Peace and initiator of the Yellow Turban Rebellion.",
+    "bioLong": "太平道领袖，黄巾起义发动者。",
+    "bioLongEn": "Leader of the Way of Great Peace and initiator of the Yellow Turban Rebellion.",
+    "contribution": "把东汉基层危机转化为全国性宗教政治动员。",
+    "contributionEn": "Turned Eastern Han grassroots crisis into empire-wide religious-political mobilization.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "yellow_turban_rebellion_184"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1"]
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   },
   {
     "id": "cao_cao",
     "names": {
       "primaryName": "Cao Cao",
-      "localizedNames": {"en": "Cao Cao", "zh-Hans": "曹操"},
+      "localizedNames": {
+        "en": "Cao Cao",
+        "zh-Hans": "曹操"
+      },
       "aliases": []
     },
-    "birth": {"year": 155, "datePrecision": "exact_year", "displayLabel": "公元155年"},
-    "death": {"year": 220, "datePrecision": "exact_year", "displayLabel": "公元220年"},
+    "birth": {
+      "year": 155,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元155年"
+    },
+    "death": {
+      "year": 220,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元220年"
+    },
     "activeRange": "公元155年 - 公元220年",
-    "roles": ["political_military_leader"],
+    "roles": [
+      "political_military_leader"
+    ],
     "bioShort": "东汉末年最重要的政治军事人物之一，为汉末权力格局重组和三国形成奠定基础。",
     "bioShortEn": "One of the most consequential political-military figures of late Eastern Han, foundational to end-Han power restructuring and the Three Kingdoms formation.",
     "bioLong": "其对东汉中央权力的掌握与重组，直接推动了汉末向三国的过渡。",
     "bioLongEn": "His control and reorganization of central power directly accelerated the transition from late Han to the Three Kingdoms.",
     "contribution": "其对东汉中央权力的掌握与重组，直接推动了汉末向三国的过渡。",
     "contributionEn": "He reshaped central authority and set the structural stage for post-Han competition.",
-    "relatedTerritoryIds": ["eastern_han"],
-    "relatedEventIds": ["han_end_220"],
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "han_end_220"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "emperor_xian",
     "names": {
       "primaryName": "Emperor Xian of Han",
-      "localizedNames": {"en": "Emperor Xian of Han", "zh-Hans": "汉献帝"},
+      "localizedNames": {
+        "en": "Emperor Xian of Han",
+        "zh-Hans": "汉献帝"
+      },
       "aliases": []
     },
-    "birth": {"year": 181, "datePrecision": "exact_year", "displayLabel": "公元181年"},
-    "death": {"year": 234, "datePrecision": "exact_year", "displayLabel": "公元234年"},
+    "birth": {
+      "year": 181,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元181年"
+    },
+    "death": {
+      "year": 234,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元234年"
+    },
     "activeRange": "公元181年 - 公元234年",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "东汉最后一位皇帝，其在位时期见证了中央权威的消散和汉王朝的终结。",
     "bioShortEn": "The last emperor of Eastern Han, whose reign witnessed the dissolution of central authority and the end of the Han dynasty.",
     "bioLong": "作为王朝名义中心，其命运体现了东汉末年皇权与实际权力分离的历史现实。",
     "bioLongEn": "As the nominal dynastic center, his political fate reflects the late-Han split between imperial title and real power.",
     "contribution": "作为王朝名义中心，其命运体现了东汉末年皇权与实际权力分离的历史现实。",
     "contributionEn": "His reign became a historical marker of ceremonial monarchy under fragmented actual control.",
-    "relatedTerritoryIds": ["eastern_han"],
-    "relatedEventIds": ["han_end_220"],
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "han_end_220"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "cao_pi",
     "names": {
       "primaryName": "Cao Pi",
-      "localizedNames": {"en": "Cao Pi", "zh-Hans": "曹丕"},
+      "localizedNames": {
+        "en": "Cao Pi",
+        "zh-Hans": "曹丕"
+      },
       "aliases": []
     },
-    "birth": {"year": 187, "datePrecision": "exact_year", "displayLabel": "187 CE"},
-    "death": {"year": 226, "datePrecision": "exact_year", "displayLabel": "226 CE"},
+    "birth": {
+      "year": 187,
+      "datePrecision": "exact_year",
+      "displayLabel": "187 CE"
+    },
+    "death": {
+      "year": 226,
+      "datePrecision": "exact_year",
+      "displayLabel": "226 CE"
+    },
     "activeRange": "187 CE - 226 CE",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "曹魏开国皇帝，完成汉魏政权转换并确立魏初国家建制。",
     "bioShortEn": "Founding emperor of Cao Wei who completed the Han-to-Wei regime transition and established early Wei state institutions.",
     "bioLong": "曹丕通过政治继承与制度建构，把汉末权力重组推进到王朝建制层面，是三国政权定型的关键人物。",
     "bioLongEn": "Through political succession and institutional construction, Cao Pi moved late-Han power reconfiguration into dynastic state formation, making him a pivotal figure in Three Kingdoms consolidation.",
     "contribution": "推动汉末权力结构转化为曹魏王朝体制，是三国国家化进程的重要起点人物。",
     "contributionEn": "He transformed late-Han power structures into the Cao Wei dynastic framework and became a key starting figure in Three Kingdoms state formation.",
-    "relatedTerritoryIds": ["cao_wei", "eastern_han"],
-    "relatedEventIds": ["wei_founding_220", "han_end_220"],
+    "relatedTerritoryIds": [
+      "cao_wei",
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "wei_founding_220",
+      "han_end_220"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "liu_bei",
     "names": {
       "primaryName": "Liu Bei",
-      "localizedNames": {"en": "Liu Bei", "zh-Hans": "刘备"},
+      "localizedNames": {
+        "en": "Liu Bei",
+        "zh-Hans": "刘备"
+      },
       "aliases": []
     },
-    "birth": {"year": 161, "datePrecision": "exact_year", "displayLabel": "161 CE"},
-    "death": {"year": 223, "datePrecision": "exact_year", "displayLabel": "223 CE"},
+    "birth": {
+      "year": 161,
+      "datePrecision": "exact_year",
+      "displayLabel": "161 CE"
+    },
+    "death": {
+      "year": 223,
+      "datePrecision": "exact_year",
+      "displayLabel": "223 CE"
+    },
     "activeRange": "161 CE - 223 CE",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "蜀汉开国皇帝，在汉末分裂中建立西南政权并塑造汉室正统叙事。",
     "bioShortEn": "Founding emperor of Shu Han who built a southwestern state amid late-Han fragmentation and advanced Han-legitimacy narrative.",
     "bioLong": "刘备把地方军事集团转化为王朝政权，推动蜀汉在三国结构中占据稳定一极。",
     "bioLongEn": "Liu Bei transformed a regional military bloc into a dynastic regime, stabilizing Shu Han as one of the core poles in the Three Kingdoms order.",
     "contribution": "将蜀汉政权制度化并强化汉室正统政治动员能力。",
     "contributionEn": "He institutionalized Shu Han statehood and reinforced political mobilization through Han legitimacy claims.",
-    "relatedTerritoryIds": ["shu_han"],
-    "relatedEventIds": ["shu_founding_221"],
+    "relatedTerritoryIds": [
+      "shu_han"
+    ],
+    "relatedEventIds": [
+      "shu_founding_221"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "sun_quan",
     "names": {
       "primaryName": "Sun Quan",
-      "localizedNames": {"en": "Sun Quan", "zh-Hans": "孙权"},
+      "localizedNames": {
+        "en": "Sun Quan",
+        "zh-Hans": "孙权"
+      },
       "aliases": []
     },
-    "birth": {"year": 182, "datePrecision": "exact_year", "displayLabel": "182 CE"},
-    "death": {"year": 252, "datePrecision": "exact_year", "displayLabel": "252 CE"},
+    "birth": {
+      "year": 182,
+      "datePrecision": "exact_year",
+      "displayLabel": "182 CE"
+    },
+    "death": {
+      "year": 252,
+      "datePrecision": "exact_year",
+      "displayLabel": "252 CE"
+    },
     "activeRange": "182 CE - 252 CE",
-    "roles": ["emperor"],
+    "roles": [
+      "emperor"
+    ],
     "bioShort": "东吴建立者与长期统治者，巩固江东政权并形成南方稳定国家结构。",
     "bioShortEn": "Founder and long-term ruler of Eastern Wu who consolidated Jiangdong power and built a stable southern state structure.",
     "bioLong": "孙权在江东地区完成军事、行政与王朝建制整合，使东吴成为三国时期最持久的南方政权。",
     "bioLongEn": "Sun Quan integrated military, administrative, and dynastic institutions in Jiangdong, making Eastern Wu the most durable southern state of the Three Kingdoms period.",
     "contribution": "推动东吴制度化建国并奠定江南长期政治重心基础。",
     "contributionEn": "He institutionalized Eastern Wu statehood and laid the foundation for Jiangnan's long-term political centrality.",
-    "relatedTerritoryIds": ["eastern_wu"],
-    "relatedEventIds": ["wu_founding_229"],
+    "relatedTerritoryIds": [
+      "eastern_wu"
+    ],
+    "relatedEventIds": [
+      "wu_founding_229"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "zhuge_liang",
     "names": {
       "primaryName": "Zhuge Liang",
-      "localizedNames": {"en": "Zhuge Liang", "zh-Hans": "诸葛亮"},
+      "localizedNames": {
+        "en": "Zhuge Liang",
+        "zh-Hans": "诸葛亮"
+      },
       "aliases": []
     },
-    "birth": {"year": 181, "datePrecision": "exact_year", "displayLabel": "181 CE"},
-    "death": {"year": 234, "datePrecision": "exact_year", "displayLabel": "234 CE"},
+    "birth": {
+      "year": 181,
+      "datePrecision": "exact_year",
+      "displayLabel": "181 CE"
+    },
+    "death": {
+      "year": 234,
+      "datePrecision": "exact_year",
+      "displayLabel": "234 CE"
+    },
     "activeRange": "181 CE - 234 CE",
-    "roles": ["chancellor"],
+    "roles": [
+      "chancellor"
+    ],
     "bioShort": "蜀汉丞相与核心政治军事统筹者，以北伐战略和内政整合著称。",
     "bioShortEn": "Chancellor and chief political-military strategist of Shu Han, known for northern campaigns and internal institutional integration.",
     "bioLong": "诸葛亮在蜀汉承担国家治理与军事指挥双重职责，其北伐行动成为三国中期战略对抗的代表性事件。",
     "bioLongEn": "Zhuge Liang held dual roles in state governance and military command in Shu Han; his northern campaigns became emblematic of mid-Three Kingdoms strategic rivalry.",
     "contribution": "通过政务整合与北伐组织维持蜀汉国家运行与战略主动性。",
     "contributionEn": "He sustained Shu Han state functionality and strategic initiative through administrative integration and campaign organization.",
-    "relatedTerritoryIds": ["shu_han"],
-    "relatedEventIds": ["shu_founding_221", "zhuge_northern_campaign_228", "shu_fall_263"],
+    "relatedTerritoryIds": [
+      "shu_han"
+    ],
+    "relatedEventIds": [
+      "shu_founding_221",
+      "zhuge_northern_campaign_228",
+      "shu_fall_263"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
   },
   {
     "id": "sima_yi",
     "names": {
       "primaryName": "Sima Yi",
-      "localizedNames": {"en": "Sima Yi", "zh-Hans": "司马懿"},
+      "localizedNames": {
+        "en": "Sima Yi",
+        "zh-Hans": "司马懿"
+      },
       "aliases": []
     },
-    "birth": {"year": 179, "datePrecision": "exact_year", "displayLabel": "179 CE"},
-    "death": {"year": 251, "datePrecision": "exact_year", "displayLabel": "251 CE"},
+    "birth": {
+      "year": 179,
+      "datePrecision": "exact_year",
+      "displayLabel": "179 CE"
+    },
+    "death": {
+      "year": 251,
+      "datePrecision": "exact_year",
+      "displayLabel": "251 CE"
+    },
     "activeRange": "179 CE - 251 CE",
-    "roles": ["political_military_leader"],
+    "roles": [
+      "political_military_leader"
+    ],
     "bioShort": "曹魏后期关键政治军事人物，在魏蜀对抗与政权重组中影响深远。",
     "bioShortEn": "A key late-Wei political-military figure with far-reaching influence on Wei-Shu confrontation and internal power reconfiguration.",
     "bioLong": "司马懿在对蜀作战与魏国内部政治中逐步累积权力，其家族最终推动了魏晋转换。",
     "bioLongEn": "Through campaigns against Shu and internal Wei politics, Sima Yi accumulated decisive power, with his lineage ultimately driving the Wei-to-Jin transition.",
     "contribution": "在魏蜀战略竞争中重塑魏政权决策格局，并为后续晋统一奠基。",
     "contributionEn": "He reshaped strategic decision structures in Cao Wei and laid groundwork for later Jin unification.",
-    "relatedTerritoryIds": ["cao_wei"],
-    "relatedEventIds": ["zhuge_northern_campaign_228", "shu_fall_263"],
+    "relatedTerritoryIds": [
+      "cao_wei"
+    ],
+    "relatedEventIds": [
+      "zhuge_northern_campaign_228",
+      "shu_fall_263"
+    ],
     "birthPlaceId": "",
     "deathPlaceId": "",
-    "sourceRefs": ["editorial_internal_v1", "wikidata_entities"]
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
+  },
+  {
+    "id": "sima_yan",
+    "names": {
+      "primaryName": "Sima Yan",
+      "localizedNames": {
+        "en": "Sima Yan",
+        "zh-Hans": "司马炎"
+      },
+      "aliases": [
+        "Emperor Wu of Jin",
+        "晋武帝"
+      ]
+    },
+    "birth": {
+      "year": 236,
+      "datePrecision": "exact_year",
+      "displayLabel": "236 CE"
+    },
+    "death": {
+      "year": 290,
+      "datePrecision": "exact_year",
+      "displayLabel": "290 CE"
+    },
+    "activeRange": "236 CE - 290 CE",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西晋开国皇帝，完成魏晋禅代并在 280 年灭吴统一全国。",
+    "bioShortEn": "Founding emperor of Western Jin who completed the Wei-Jin transition and reunified China by conquering Wu in 280.",
+    "bioLong": "司马炎继承司马氏在曹魏内部积累的权力，建立西晋，并通过灭吴结束三国分裂局面。",
+    "bioLongEn": "Sima Yan inherited the Sima family's accumulated power inside Cao Wei, founded Western Jin, and ended the Three Kingdoms division by conquering Wu.",
+    "contribution": "完成魏晋转换与西晋统一，是三国终局的关键人物。",
+    "contributionEn": "He completed the Wei-Jin transition and Western Jin reunification, making him central to the Three Kingdoms endgame.",
+    "relatedTerritoryIds": [
+      "cliopatria_western_jin",
+      "jin_dynasty"
+    ],
+    "relatedEventIds": [
+      "wei_jin_transition_265",
+      "jin_unification_280"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1",
+      "wikidata_entities"
+    ]
+  },
+  {
+    "id": "ran_min",
+    "names": {
+      "primaryName": "Ran Min",
+      "localizedNames": {
+        "en": "Ran Min",
+        "zh-Hans": "冉闵"
+      },
+      "aliases": [
+        "Emperor Wu of Ran Wei",
+        "冉魏武悼天王"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": 352,
+      "datePrecision": "exact_year",
+      "displayLabel": "352 CE"
+    },
+    "activeRange": "350 CE - 352 CE",
+    "roles": [
+      "military_leader",
+      "ruler"
+    ],
+    "bioShort": "后赵末年军政人物，建立冉魏。冉魏通常不列入十六国正表，但它是后赵崩解和华北权力重组的关键插曲。",
+    "bioShortEn": "Military-political figure at Later Zhao's end who founded Ran Wei. Ran Wei is usually not counted among the Sixteen Kingdoms, but it is a key interlude in Later Zhao collapse and North China reconfiguration.",
+    "bioLong": "冉闵在后赵内乱中掌握权力并建立冉魏，其政权短暂，却深刻影响后赵瓦解后的华北局势。由于 Cliopatria 没有单独提供冉魏边界，本项目将其作为故事事件和人物呈现，而不伪造默认地图边界。",
+    "bioLongEn": "Ran Min seized power during Later Zhao turmoil and founded the short-lived Ran Wei, profoundly affecting North China after Later Zhao collapse. Because Cliopatria does not provide a separate Ran Wei boundary, this project presents him through story events and character narrative rather than fabricated default map geometry.",
+    "contribution": "揭示后赵衰亡阶段的内部撕裂，是理解前燕进入华北竞争的重要背景。",
+    "contributionEn": "Reveals the internal rupture of Later Zhao decline and provides key context for Former Yan entering North China competition.",
+    "relatedTerritoryIds": [
+      "cliopatria_later_zhao",
+      "cliopatria_former_yan"
+    ],
+    "relatedEventIds": [
+      "ran_wei_upheaval_350",
+      "later_zhao_former_yan_transition_350"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "helian_bobo",
+    "names": {
+      "primaryName": "Helian Bobo",
+      "localizedNames": {
+        "en": "Helian Bobo",
+        "zh-Hans": "赫连勃勃"
+      },
+      "aliases": [
+        "Liu Bobo",
+        "夏武烈帝",
+        "赫连屈孑"
+      ]
+    },
+    "birth": {
+      "year": 381,
+      "datePrecision": "approximate_year",
+      "displayLabel": "约381年"
+    },
+    "death": {
+      "year": 425,
+      "datePrecision": "exact_year",
+      "displayLabel": "425 CE"
+    },
+    "activeRange": "407 CE - 425 CE",
+    "roles": [
+      "ruler",
+      "founder"
+    ],
+    "bioShort": "胡夏建立者，在后秦衰落和北方再分裂中崛起，筑统万城，成为关陇、河套局势的重要变量。",
+    "bioShortEn": "Founder of Xia, rising amid Later Qin decline and renewed northern fragmentation; associated with Tongwancheng and the Ordos-Guanzhong frontier.",
+    "bioLong": "赫连勃勃建立的夏是十六国后期重要政权之一。它并非北方统一者，却在后秦衰弱、北魏扩张之间占据战略位置，体现淝水后政权碎裂仍会继续产生新中心。",
+    "bioLongEn": "Helian Bobo's Xia was a major late Sixteen Kingdoms regime. It did not unify the north, but occupied a strategic position between Later Qin decline and Northern Wei expansion, showing that post-Feishui fragmentation continued to generate new centers.",
+    "contribution": "代表十六国后期新政权的再生，也解释 417、431 年地图上夏的出现与衰亡。",
+    "contributionEn": "Represents the regeneration of new regimes late in the period and explains Xia appearing and declining on the 417 and 431 maps.",
+    "relatedTerritoryIds": [
+      "cliopatria_xia",
+      "cliopatria_later_qin",
+      "northern_wei"
+    ],
+    "relatedEventIds": [
+      "helian_xia_rise_407",
+      "xia_decline_northern_wei_pressure_431"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "cui_hao",
+    "names": {
+      "primaryName": "Cui Hao",
+      "localizedNames": {
+        "en": "Cui Hao",
+        "zh-Hans": "崔浩"
+      },
+      "aliases": [
+        "崔伯渊"
+      ]
+    },
+    "birth": {
+      "year": 381,
+      "datePrecision": "approximate_year",
+      "displayLabel": "约381年"
+    },
+    "death": {
+      "year": 450,
+      "datePrecision": "exact_year",
+      "displayLabel": "450 CE"
+    },
+    "activeRange": "409 CE - 450 CE",
+    "roles": [
+      "statesman",
+      "strategist"
+    ],
+    "bioShort": "北魏重臣和谋臣，参与北魏制度建设与北方统一战略，是从十六国走向北朝国家的重要人物。",
+    "bioShortEn": "Northern Wei statesman and strategist involved in institutional construction and northern unification strategy, linking the Sixteen Kingdoms to the Northern Dynasties state.",
+    "bioLong": "崔浩服务于北魏道武帝、明元帝、太武帝时期，代表北魏吸收汉地士族政治经验、建立文官和战略判断能力的一面。讲北魏统一北方时，不能只讲拓跋军事，也要讲崔浩这类制度化力量。",
+    "bioLongEn": "Cui Hao served Northern Wei across the Daowu, Mingyuan, and Taiwu reigns. He represents Northern Wei's absorption of Han literati political experience and its growing civil and strategic capacity. Northern Wei unification should not be told only as Tuoba military success, but also as institutionalization involving figures like Cui Hao.",
+    "contribution": "帮助北魏从草原-边疆军事政权转向能治理华北的北朝国家。",
+    "contributionEn": "Helped Northern Wei move from a steppe-frontier military regime toward a Northern Dynasties state capable of governing North China.",
+    "relatedTerritoryIds": [
+      "northern_wei",
+      "cliopatria_northern_liang"
+    ],
+    "relatedEventIds": [
+      "northern_wei_unifies_north_439"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "tuoba_gui",
+    "names": {
+      "primaryName": "Tuoba Gui",
+      "localizedNames": {
+        "en": "Tuoba Gui",
+        "zh-Hans": "拓跋珪"
+      },
+      "aliases": [
+        "Emperor Daowu of Northern Wei",
+        "北魏道武帝"
+      ]
+    },
+    "birth": {
+      "year": 371,
+      "datePrecision": "exact_year",
+      "displayLabel": "371 CE"
+    },
+    "death": {
+      "year": 409,
+      "datePrecision": "exact_year",
+      "displayLabel": "409 CE"
+    },
+    "activeRange": "386 CE - 409 CE",
+    "roles": [
+      "ruler",
+      "founder"
+    ],
+    "bioShort": "北魏开国皇帝，重建代国并建立北魏，是北方重新整合的开端人物。",
+    "bioShortEn": "Founding emperor of Northern Wei who restored Dai and founded Northern Wei, initiating a new phase of northern integration.",
+    "bioLong": "拓跋珪在前秦崩解后的北方多政权格局中重建拓跋政权，建立北魏。其军事和政治重组为后来北魏统一北方奠定基础。",
+    "bioLongEn": "Tuoba Gui rebuilt Tuoba power after Former Qin collapse and founded Northern Wei. His military and political reorganization laid foundations for later Northern Wei unification of the north.",
+    "contribution": "开启北魏重新整合北方的进程。",
+    "contributionEn": "Opened the Northern Wei process of reintegrating the north.",
+    "relatedTerritoryIds": [
+      "northern_wei"
+    ],
+    "relatedEventIds": [
+      "northern_regimes_400",
+      "northern_wei_unifies_north_439"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xiaowen_northern_wei",
+    "names": {
+      "primaryName": "Emperor Xiaowen of Northern Wei",
+      "localizedNames": {
+        "en": "Emperor Xiaowen of Northern Wei",
+        "zh-Hans": "北魏孝文帝"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 467,
+      "datePrecision": "approximate_year",
+      "displayLabel": "467"
+    },
+    "death": {
+      "year": 499,
+      "datePrecision": "approximate_year",
+      "displayLabel": "499"
+    },
+    "activeRange": "467 - 499",
+    "roles": [
+      "emperor",
+      "reformer"
+    ],
+    "bioShort": "北魏皇帝，迁都洛阳并推行汉化与制度改革，是北魏从北方军事国家转向中原王朝的关键人物。",
+    "bioShortEn": "Northern Wei emperor who moved the capital to Luoyang and promoted sinicizing and institutional reforms, central to Northern Wei becoming a Central Plains dynasty.",
+    "bioLong": "北魏皇帝，迁都洛阳并推行汉化与制度改革，是北魏从北方军事国家转向中原王朝的关键人物。",
+    "bioLongEn": "Northern Wei emperor who moved the capital to Luoyang and promoted sinicizing and institutional reforms, central to Northern Wei becoming a Central Plains dynasty.",
+    "contribution": "推动北魏制度化与中原化，也加深北方内部张力。",
+    "contributionEn": "Advanced Northern Wei institutionalization and Central Plains orientation while deepening internal tensions.",
+    "relatedTerritoryIds": [
+      "northern_wei"
+    ],
+    "relatedEventIds": [
+      "xiaowen_reforms_494"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_wu_liang",
+    "names": {
+      "primaryName": "Xiao Yan",
+      "localizedNames": {
+        "en": "Xiao Yan / Emperor Wu of Liang",
+        "zh-Hans": "萧衍（梁武帝）"
+      },
+      "aliases": [
+        "Emperor Wu of Liang",
+        "梁武帝",
+        "萧衍"
+      ]
+    },
+    "birth": {
+      "year": 464,
+      "datePrecision": "approximate_year",
+      "displayLabel": "464"
+    },
+    "death": {
+      "year": 549,
+      "datePrecision": "approximate_year",
+      "displayLabel": "549"
+    },
+    "activeRange": "464 - 549",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "萧衍，即梁武帝，南梁开国皇帝。502 年代南齐建梁，长期经营江南文化与佛教政治，但晚年侯景之乱重创梁朝。",
+    "bioShortEn": "Xiao Yan, Emperor Wu of Liang, founded Southern Liang in 502 after replacing Southern Qi. He fostered Jiangnan culture and Buddhist kingship, but his later reign was devastated by Hou Jing's rebellion.",
+    "bioLong": "萧衍，即梁武帝，南梁开国皇帝。502 年代南齐建梁，长期经营江南文化与佛教政治，但晚年侯景之乱重创梁朝。",
+    "bioLongEn": "Xiao Yan, Emperor Wu of Liang, founded Southern Liang in 502 after replacing Southern Qi. He fostered Jiangnan culture and Buddhist kingship, but his later reign was devastated by Hou Jing's rebellion.",
+    "contribution": "建立南梁，代表南朝文化政治高峰，也暴露晚期梁朝军事和继承结构的脆弱。",
+    "contributionEn": "Founded Southern Liang, representing a high point of Southern dynasty cultural politics while exposing Liang's later military and succession vulnerabilities.",
+    "relatedTerritoryIds": [
+      "cliopatria_liang_dynasty"
+    ],
+    "relatedEventIds": [
+      "houjing_rebellion_548",
+      "xiao_yan_founds_liang_502"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "hou_jing",
+    "names": {
+      "primaryName": "Hou Jing",
+      "localizedNames": {
+        "en": "Hou Jing",
+        "zh-Hans": "侯景"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 503,
+      "datePrecision": "approximate_year",
+      "displayLabel": "503"
+    },
+    "death": {
+      "year": 552,
+      "datePrecision": "approximate_year",
+      "displayLabel": "552"
+    },
+    "activeRange": "503 - 552",
+    "roles": [
+      "general",
+      "rebel"
+    ],
+    "bioShort": "东魏降将，投梁后发动侯景之乱，重创南梁并改变南朝格局。",
+    "bioShortEn": "A former Eastern Wei general who defected to Liang and launched the Hou Jing rebellion, devastating Liang and reshaping the south.",
+    "bioLong": "东魏降将，投梁后发动侯景之乱，重创南梁并改变南朝格局。",
+    "bioLongEn": "A former Eastern Wei general who defected to Liang and launched the Hou Jing rebellion, devastating Liang and reshaping the south.",
+    "contribution": "揭示南北军事流动如何击穿南朝政治结构。",
+    "contributionEn": "Shows how northern military mobility could pierce Southern dynasty political structures.",
+    "relatedTerritoryIds": [
+      "cliopatria_liang_dynasty",
+      "cliopatria_eastern_wei"
+    ],
+    "relatedEventIds": [
+      "houjing_rebellion_548"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "gao_huan",
+    "names": {
+      "primaryName": "Gao Huan",
+      "localizedNames": {
+        "en": "Gao Huan",
+        "zh-Hans": "高欢"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 496,
+      "datePrecision": "approximate_year",
+      "displayLabel": "496"
+    },
+    "death": {
+      "year": 547,
+      "datePrecision": "approximate_year",
+      "displayLabel": "547"
+    },
+    "activeRange": "496 - 547",
+    "roles": [
+      "warlord",
+      "regent"
+    ],
+    "bioShort": "东魏实际奠基者，控制北魏东部权力，是北齐政权来源。",
+    "bioShortEn": "Powerholder behind Eastern Wei and source of the later Northern Qi regime.",
+    "bioLong": "东魏实际奠基者，控制北魏东部权力，是北齐政权来源。",
+    "bioLongEn": "Powerholder behind Eastern Wei and source of the later Northern Qi regime.",
+    "contribution": "代表北魏分裂后东部军事集团。",
+    "contributionEn": "Represents the eastern military bloc after Northern Wei split.",
+    "relatedTerritoryIds": [
+      "cliopatria_eastern_wei",
+      "cliopatria_northern_qi"
+    ],
+    "relatedEventIds": [
+      "northern_wei_split_534"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yuwen_tai",
+    "names": {
+      "primaryName": "Yuwen Tai",
+      "localizedNames": {
+        "en": "Yuwen Tai",
+        "zh-Hans": "宇文泰"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 507,
+      "datePrecision": "approximate_year",
+      "displayLabel": "507"
+    },
+    "death": {
+      "year": 556,
+      "datePrecision": "approximate_year",
+      "displayLabel": "556"
+    },
+    "activeRange": "507 - 556",
+    "roles": [
+      "warlord",
+      "regent"
+    ],
+    "bioShort": "西魏权臣，重组关陇军事政治集团，是北周和隋唐制度源流的重要人物。",
+    "bioShortEn": "Western Wei powerholder who reorganized the Guanzhong-Longyou military-political bloc, foundational for Northern Zhou and later Sui-Tang institutions.",
+    "bioLong": "西魏权臣，重组关陇军事政治集团，是北周和隋唐制度源流的重要人物。",
+    "bioLongEn": "Western Wei powerholder who reorganized the Guanzhong-Longyou military-political bloc, foundational for Northern Zhou and later Sui-Tang institutions.",
+    "contribution": "把西魏弱势转化为北周崛起的制度和军事基础。",
+    "contributionEn": "Turned Western Wei weakness into the institutional and military base for Northern Zhou rise.",
+    "relatedTerritoryIds": [
+      "cliopatria_western_wei",
+      "cliopatria_northern_zhou"
+    ],
+    "relatedEventIds": [
+      "northern_wei_split_534",
+      "northern_zhou_conquers_qi_577"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_wen_sui",
+    "names": {
+      "primaryName": "Emperor Wen of Sui",
+      "localizedNames": {
+        "en": "Emperor Wen of Sui",
+        "zh-Hans": "隋文帝"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 541,
+      "datePrecision": "approximate_year",
+      "displayLabel": "541"
+    },
+    "death": {
+      "year": 604,
+      "datePrecision": "approximate_year",
+      "displayLabel": "604"
+    },
+    "activeRange": "541 - 604",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "隋朝开国皇帝，承接北周制度并在 589 年灭陈统一南北。",
+    "bioShortEn": "Founder of Sui who inherited Northern Zhou institutions and conquered Chen in 589, reunifying north and south.",
+    "bioLong": "隋朝开国皇帝，承接北周制度并在 589 年灭陈统一南北。",
+    "bioLongEn": "Founder of Sui who inherited Northern Zhou institutions and conquered Chen in 589, reunifying north and south.",
+    "contribution": "结束南北朝对立，开启隋唐统一国家。",
+    "contributionEn": "Ended the Northern-Southern division and opened the Sui-Tang unified state.",
+    "relatedTerritoryIds": [
+      "sui_dynasty",
+      "cliopatria_chen_dynasty"
+    ],
+    "relatedEventIds": [
+      "sui_conquest_chen_589"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "liu_yu_song",
+    "names": {
+      "primaryName": "Liu Yu",
+      "localizedNames": {
+        "en": "Liu Yu",
+        "zh-Hans": "刘裕"
+      },
+      "aliases": [
+        "Emperor Wu of Liu Song",
+        "宋武帝"
+      ]
+    },
+    "birth": {
+      "year": 363,
+      "datePrecision": "approximate_year",
+      "displayLabel": "363"
+    },
+    "death": {
+      "year": 422,
+      "datePrecision": "exact_year",
+      "displayLabel": "422"
+    },
+    "activeRange": "363 - 422",
+    "roles": [
+      "general",
+      "founder",
+      "emperor"
+    ],
+    "bioShort": "东晋末年权臣和军事领袖，北伐立威后代晋建宋，开启南朝刘宋。",
+    "bioShortEn": "Late Eastern Jin strongman and military leader who built prestige through northern campaigns and founded Liu Song, opening the Southern dynasties.",
+    "bioLong": "东晋末年权臣和军事领袖，北伐立威后代晋建宋，开启南朝刘宋。",
+    "bioLongEn": "Late Eastern Jin strongman and military leader who built prestige through northern campaigns and founded Liu Song, opening the Southern dynasties.",
+    "contribution": "把东晋门阀政治后的军功权力转化为刘宋王朝，是南朝开端人物。",
+    "contributionEn": "Turned military power after Eastern Jin aristocratic politics into the Liu Song dynasty, making him the founding figure of the Southern dynasties.",
+    "relatedTerritoryIds": [
+      "cliopatria_eastern_jin",
+      "cliopatria_liu_song_dynasty"
+    ],
+    "relatedEventIds": [
+      "liu_yu_founds_song_420",
+      "north_south_standoff_450"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "xiao_daocheng",
+    "names": {
+      "primaryName": "Xiao Daocheng",
+      "localizedNames": {
+        "en": "Xiao Daocheng",
+        "zh-Hans": "萧道成"
+      },
+      "aliases": [
+        "Emperor Gao of Southern Qi",
+        "齐高帝"
+      ]
+    },
+    "birth": {
+      "year": 427,
+      "datePrecision": "approximate_year",
+      "displayLabel": "427"
+    },
+    "death": {
+      "year": 482,
+      "datePrecision": "exact_year",
+      "displayLabel": "482"
+    },
+    "activeRange": "427 - 482",
+    "roles": [
+      "general",
+      "founder",
+      "emperor"
+    ],
+    "bioShort": "刘宋末年权臣，代宋建齐，开启南齐。",
+    "bioShortEn": "Late Liu Song powerholder who replaced Liu Song with Southern Qi.",
+    "bioLong": "刘宋末年权臣，代宋建齐，开启南齐。",
+    "bioLongEn": "Late Liu Song powerholder who replaced Liu Song with Southern Qi.",
+    "contribution": "说明南朝政权更替常由掌兵权臣完成，而不是外部北朝直接吞并。",
+    "contributionEn": "Shows that Southern dynasty succession often happened through military powerholders inside the south, not direct northern conquest.",
+    "relatedTerritoryIds": [
+      "cliopatria_liu_song_dynasty",
+      "cliopatria_southern_qi"
+    ],
+    "relatedEventIds": [
+      "xiao_daocheng_founds_qi_479"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "chen_baxian",
+    "names": {
+      "primaryName": "Chen Baxian",
+      "localizedNames": {
+        "en": "Chen Baxian",
+        "zh-Hans": "陈霸先"
+      },
+      "aliases": [
+        "Emperor Wu of Chen",
+        "陈武帝"
+      ]
+    },
+    "birth": {
+      "year": 503,
+      "datePrecision": "approximate_year",
+      "displayLabel": "503"
+    },
+    "death": {
+      "year": 559,
+      "datePrecision": "exact_year",
+      "displayLabel": "559"
+    },
+    "activeRange": "503 - 559",
+    "roles": [
+      "general",
+      "founder",
+      "emperor"
+    ],
+    "bioShort": "梁末军政人物，在侯景之乱后的南方重组中崛起，代梁建陈。",
+    "bioShortEn": "Late Liang military-political figure who rose during the post-Hou Jing southern reorganization and founded Chen.",
+    "bioLong": "梁末军政人物，在侯景之乱后的南方重组中崛起，代梁建陈。",
+    "bioLongEn": "Late Liang military-political figure who rose during the post-Hou Jing southern reorganization and founded Chen.",
+    "contribution": "把梁朝崩坏后的江南政权重新收束为陈，是南朝最后一个王朝的开端人物。",
+    "contributionEn": "Reassembled Jiangnan power after Liang collapse into Chen, founding the final Southern dynasty.",
+    "relatedTerritoryIds": [
+      "cliopatria_liang_dynasty",
+      "cliopatria_chen_dynasty"
+    ],
+    "relatedEventIds": [
+      "chen_baxian_founds_chen_557",
+      "chen_qi_zhou_standoff_561"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "liu_xiu_guangwu",
+    "names": {
+      "primaryName": "Liu Xiu / Emperor Guangwu",
+      "localizedNames": {
+        "en": "Liu Xiu / Emperor Guangwu",
+        "zh-Hans": "刘秀（光武帝）"
+      },
+      "aliases": [
+        "Emperor Guangwu of Han",
+        "汉光武帝"
+      ]
+    },
+    "birth": {
+      "year": 5,
+      "datePrecision": "approximate_year",
+      "displayLabel": "5"
+    },
+    "death": {
+      "year": 57,
+      "datePrecision": "exact_year",
+      "displayLabel": "57"
+    },
+    "activeRange": "5 - 57",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "东汉开国皇帝，在新莽崩溃后重建汉室，定都洛阳。",
+    "bioShortEn": "Founder of Eastern Han who restored Han after Xin collapse and established the capital at Luoyang.",
+    "bioLong": "东汉开国皇帝，在新莽崩溃后重建汉室，定都洛阳。",
+    "bioLongEn": "Founder of Eastern Han who restored Han after Xin collapse and established the capital at Luoyang.",
+    "contribution": "把王莽之后的政治碎片重新收束为东汉帝国。",
+    "contributionEn": "Reassembled post-Xin fragmentation into the Eastern Han empire.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "guangwu_restoration_25"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_ming_zhang",
+    "names": {
+      "primaryName": "Emperors Ming and Zhang",
+      "localizedNames": {
+        "en": "Emperors Ming and Zhang",
+        "zh-Hans": "明帝与章帝"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 28,
+      "datePrecision": "approximate_year",
+      "displayLabel": "28"
+    },
+    "death": {
+      "year": 88,
+      "datePrecision": "exact_year",
+      "displayLabel": "88"
+    },
+    "activeRange": "28 - 88",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉早期承平皇帝组合，代表光武之后制度稳定和明章之治。",
+    "bioShortEn": "Early Eastern Han emperors representing institutional stabilization after Guangwu, associated with the Ming-Zhang settlement.",
+    "bioLong": "东汉早期承平皇帝组合，代表光武之后制度稳定和明章之治。",
+    "bioLongEn": "Early Eastern Han emperors representing institutional stabilization after Guangwu, associated with the Ming-Zhang settlement.",
+    "contribution": "把东汉从恢复阶段推向稳定治理阶段。",
+    "contributionEn": "Moved Eastern Han from restoration into stable governance.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "ming_zhang_governance_57"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "ban_chao",
+    "names": {
+      "primaryName": "Ban Chao",
+      "localizedNames": {
+        "en": "Ban Chao",
+        "zh-Hans": "班超"
+      },
+      "aliases": [
+        "班仲升"
+      ]
+    },
+    "birth": {
+      "year": 32,
+      "datePrecision": "approximate_year",
+      "displayLabel": "32"
+    },
+    "death": {
+      "year": 102,
+      "datePrecision": "exact_year",
+      "displayLabel": "102"
+    },
+    "activeRange": "32 - 102",
+    "roles": [
+      "general",
+      "diplomat"
+    ],
+    "bioShort": "东汉西域经营关键人物，长期活动于西域，恢复汉朝在西域的影响。",
+    "bioShortEn": "Key Eastern Han general-diplomat in the Western Regions, restoring Han influence there.",
+    "bioLong": "东汉西域经营关键人物，长期活动于西域，恢复汉朝在西域的影响。",
+    "bioLongEn": "Key Eastern Han general-diplomat in the Western Regions, restoring Han influence there.",
+    "contribution": "代表东汉中期对西域和丝路秩序的再经营。",
+    "contributionEn": "Represents mid-Eastern Han re-engagement with the Western Regions and Silk Road order.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "ban_chao_western_regions_91"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "empress_deng_sui",
+    "names": {
+      "primaryName": "Empress Deng Sui",
+      "localizedNames": {
+        "en": "Empress Deng Sui",
+        "zh-Hans": "邓绥"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 81,
+      "datePrecision": "approximate_year",
+      "displayLabel": "81"
+    },
+    "death": {
+      "year": 121,
+      "datePrecision": "exact_year",
+      "displayLabel": "121"
+    },
+    "activeRange": "81 - 121",
+    "roles": [
+      "empress_dowager",
+      "regent"
+    ],
+    "bioShort": "东汉和帝以后重要太后摄政者，代表幼帝政治和外戚摄政结构。",
+    "bioShortEn": "Major empress dowager and regent after Emperor He, representing child-emperor politics and consort-clan regency.",
+    "bioLong": "东汉和帝以后重要太后摄政者，代表幼帝政治和外戚摄政结构。",
+    "bioLongEn": "Major empress dowager and regent after Emperor He, representing child-emperor politics and consort-clan regency.",
+    "contribution": "揭示东汉中后期皇权运作逐渐依赖太后、外戚和宫廷网络。",
+    "contributionEn": "Shows how mid-late Eastern Han imperial power increasingly depended on empress dowagers, consort clans, and palace networks.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "empress_deng_regency_105"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "liang_ji",
+    "names": {
+      "primaryName": "Liang Ji",
+      "localizedNames": {
+        "en": "Liang Ji",
+        "zh-Hans": "梁冀"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 88,
+      "datePrecision": "approximate_year",
+      "displayLabel": "88"
+    },
+    "death": {
+      "year": 159,
+      "datePrecision": "exact_year",
+      "displayLabel": "159"
+    },
+    "activeRange": "88 - 159",
+    "roles": [
+      "regent",
+      "consort_clan_powerholder"
+    ],
+    "bioShort": "东汉外戚权臣，长期控制朝政，最终被汉桓帝与宦官合力诛灭。",
+    "bioShortEn": "Eastern Han consort-clan strongman who dominated court politics before being destroyed by Emperor Huan and eunuch allies.",
+    "bioLong": "东汉外戚权臣，长期控制朝政，最终被汉桓帝与宦官合力诛灭。",
+    "bioLongEn": "Eastern Han consort-clan strongman who dominated court politics before being destroyed by Emperor Huan and eunuch allies.",
+    "contribution": "代表外戚专权，也解释宦官权力为何进一步上升。",
+    "contributionEn": "Represents consort-clan domination and explains why eunuch power rose further.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "liang_ji_fall_159"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "dong_zhuo",
+    "names": {
+      "primaryName": "Dong Zhuo",
+      "localizedNames": {
+        "en": "Dong Zhuo",
+        "zh-Hans": "董卓"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": 192,
+      "datePrecision": "exact_year",
+      "displayLabel": "192"
+    },
+    "activeRange": "192",
+    "roles": [
+      "warlord"
+    ],
+    "bioShort": "东汉末年军阀，入洛阳控制朝廷，废立皇帝，加速中央崩溃。",
+    "bioShortEn": "Late Eastern Han warlord who entered Luoyang, controlled the court, deposed and installed emperors, and accelerated central collapse.",
+    "bioLong": "东汉末年军阀，入洛阳控制朝廷，废立皇帝，加速中央崩溃。",
+    "bioLongEn": "Late Eastern Han warlord who entered Luoyang, controlled the court, deposed and installed emperors, and accelerated central collapse.",
+    "contribution": "把宫廷危机转化为军阀挟持皇权的局面。",
+    "contributionEn": "Turned court crisis into warlord seizure of imperial authority.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "dong_zhuo_enters_luoyang_189"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_ming_han",
+    "names": {
+      "primaryName": "Emperor Ming of Han",
+      "localizedNames": {
+        "en": "Emperor Ming of Han",
+        "zh-Hans": "汉明帝"
+      },
+      "aliases": [
+        "刘庄"
+      ]
+    },
+    "birth": {
+      "year": 28,
+      "datePrecision": "approximate_year",
+      "displayLabel": "28"
+    },
+    "death": {
+      "year": 75,
+      "datePrecision": "exact_year",
+      "displayLabel": "75"
+    },
+    "activeRange": "28 - 75",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉第二任皇帝，承接光武重建成果，推动礼制、吏治和西域经营。",
+    "bioShortEn": "Second Eastern Han emperor who consolidated Guangwu restoration through ritual order, administration, and Western Regions policy.",
+    "bioLong": "东汉第二任皇帝，承接光武重建成果，推动礼制、吏治和西域经营。",
+    "bioLongEn": "Second Eastern Han emperor who consolidated Guangwu restoration through ritual order, administration, and Western Regions policy.",
+    "contribution": "东汉第二任皇帝，承接光武重建成果，推动礼制、吏治和西域经营。",
+    "contributionEn": "Second Eastern Han emperor who consolidated Guangwu restoration through ritual order, administration, and Western Regions policy.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_ming_reign_57"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_zhang_han",
+    "names": {
+      "primaryName": "Emperor Zhang of Han",
+      "localizedNames": {
+        "en": "Emperor Zhang of Han",
+        "zh-Hans": "汉章帝"
+      },
+      "aliases": [
+        "刘炟"
+      ]
+    },
+    "birth": {
+      "year": 57,
+      "datePrecision": "approximate_year",
+      "displayLabel": "57"
+    },
+    "death": {
+      "year": 88,
+      "datePrecision": "exact_year",
+      "displayLabel": "88"
+    },
+    "activeRange": "57 - 88",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉第三任皇帝，延续明帝时期的承平治理，明章之治在其时完成。",
+    "bioShortEn": "Third Eastern Han emperor who continued the Ming-era settlement and completed the Ming-Zhang phase of stable governance.",
+    "bioLong": "东汉第三任皇帝，延续明帝时期的承平治理，明章之治在其时完成。",
+    "bioLongEn": "Third Eastern Han emperor who continued the Ming-era settlement and completed the Ming-Zhang phase of stable governance.",
+    "contribution": "东汉第三任皇帝，延续明帝时期的承平治理，明章之治在其时完成。",
+    "contributionEn": "Third Eastern Han emperor who continued the Ming-era settlement and completed the Ming-Zhang phase of stable governance.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_zhang_reign_75"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_he_han",
+    "names": {
+      "primaryName": "Emperor He of Han",
+      "localizedNames": {
+        "en": "Emperor He of Han",
+        "zh-Hans": "汉和帝"
+      },
+      "aliases": [
+        "刘肇"
+      ]
+    },
+    "birth": {
+      "year": 79,
+      "datePrecision": "approximate_year",
+      "displayLabel": "79"
+    },
+    "death": {
+      "year": 106,
+      "datePrecision": "exact_year",
+      "displayLabel": "106"
+    },
+    "activeRange": "79 - 106",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉第四任皇帝，亲政后铲除窦氏外戚，东汉仍有修复宫廷权力的能力。",
+    "bioShortEn": "Fourth Eastern Han emperor who removed the Dou consort clan after taking personal power, showing the dynasty still had some capacity to repair court politics.",
+    "bioLong": "东汉第四任皇帝，亲政后铲除窦氏外戚，东汉仍有修复宫廷权力的能力。",
+    "bioLongEn": "Fourth Eastern Han emperor who removed the Dou consort clan after taking personal power, showing the dynasty still had some capacity to repair court politics.",
+    "contribution": "东汉第四任皇帝，亲政后铲除窦氏外戚，东汉仍有修复宫廷权力的能力。",
+    "contributionEn": "Fourth Eastern Han emperor who removed the Dou consort clan after taking personal power, showing the dynasty still had some capacity to repair court politics.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_he_reign_88"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_shang_han",
+    "names": {
+      "primaryName": "Emperor Shang of Han",
+      "localizedNames": {
+        "en": "Emperor Shang of Han",
+        "zh-Hans": "汉殇帝"
+      },
+      "aliases": [
+        "刘隆"
+      ]
+    },
+    "birth": {
+      "year": 105,
+      "datePrecision": "approximate_year",
+      "displayLabel": "105"
+    },
+    "death": {
+      "year": 106,
+      "datePrecision": "exact_year",
+      "displayLabel": "106"
+    },
+    "activeRange": "105 - 106",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉幼帝，在位极短，象征幼帝继承问题开始变得尖锐。",
+    "bioShortEn": "Infant Eastern Han emperor with an extremely brief reign, symbolizing the growing child-emperor succession problem.",
+    "bioLong": "东汉幼帝，在位极短，象征幼帝继承问题开始变得尖锐。",
+    "bioLongEn": "Infant Eastern Han emperor with an extremely brief reign, symbolizing the growing child-emperor succession problem.",
+    "contribution": "东汉幼帝，在位极短，象征幼帝继承问题开始变得尖锐。",
+    "contributionEn": "Infant Eastern Han emperor with an extremely brief reign, symbolizing the growing child-emperor succession problem.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_shang_reign_106"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_an_han",
+    "names": {
+      "primaryName": "Emperor An of Han",
+      "localizedNames": {
+        "en": "Emperor An of Han",
+        "zh-Hans": "汉安帝"
+      },
+      "aliases": [
+        "刘祜"
+      ]
+    },
+    "birth": {
+      "year": 94,
+      "datePrecision": "approximate_year",
+      "displayLabel": "94"
+    },
+    "death": {
+      "year": 125,
+      "datePrecision": "exact_year",
+      "displayLabel": "125"
+    },
+    "activeRange": "94 - 125",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉第六任皇帝，在太后摄政和外戚政治背景下即位，宫廷代理政治继续深化。",
+    "bioShortEn": "Sixth Eastern Han emperor who came to power amid empress dowager regency and consort-clan politics, deepening palace proxy rule.",
+    "bioLong": "东汉第六任皇帝，在太后摄政和外戚政治背景下即位，宫廷代理政治继续深化。",
+    "bioLongEn": "Sixth Eastern Han emperor who came to power amid empress dowager regency and consort-clan politics, deepening palace proxy rule.",
+    "contribution": "东汉第六任皇帝，在太后摄政和外戚政治背景下即位，宫廷代理政治继续深化。",
+    "contributionEn": "Sixth Eastern Han emperor who came to power amid empress dowager regency and consort-clan politics, deepening palace proxy rule.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_an_reign_106"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_shun_han",
+    "names": {
+      "primaryName": "Emperor Shun of Han",
+      "localizedNames": {
+        "en": "Emperor Shun of Han",
+        "zh-Hans": "汉顺帝"
+      },
+      "aliases": [
+        "刘保"
+      ]
+    },
+    "birth": {
+      "year": 115,
+      "datePrecision": "approximate_year",
+      "displayLabel": "115"
+    },
+    "death": {
+      "year": 144,
+      "datePrecision": "exact_year",
+      "displayLabel": "144"
+    },
+    "activeRange": "115 - 144",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉第七任皇帝，借宦官力量即位，外戚与宦官交替干政更趋常态。",
+    "bioShortEn": "Seventh Eastern Han emperor who took power with eunuch support, further normalizing alternation between consort-clan and eunuch intervention.",
+    "bioLong": "东汉第七任皇帝，借宦官力量即位，外戚与宦官交替干政更趋常态。",
+    "bioLongEn": "Seventh Eastern Han emperor who took power with eunuch support, further normalizing alternation between consort-clan and eunuch intervention.",
+    "contribution": "东汉第七任皇帝，借宦官力量即位，外戚与宦官交替干政更趋常态。",
+    "contributionEn": "Seventh Eastern Han emperor who took power with eunuch support, further normalizing alternation between consort-clan and eunuch intervention.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_shun_reign_125"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_chong_han",
+    "names": {
+      "primaryName": "Emperor Chong of Han",
+      "localizedNames": {
+        "en": "Emperor Chong of Han",
+        "zh-Hans": "汉冲帝"
+      },
+      "aliases": [
+        "刘炳"
+      ]
+    },
+    "birth": {
+      "year": 143,
+      "datePrecision": "approximate_year",
+      "displayLabel": "143"
+    },
+    "death": {
+      "year": 145,
+      "datePrecision": "exact_year",
+      "displayLabel": "145"
+    },
+    "activeRange": "143 - 145",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉幼帝，在位短促，显示皇位继承持续幼弱化。",
+    "bioShortEn": "Child emperor of Eastern Han with a brief reign, showing continuing weakness in imperial succession.",
+    "bioLong": "东汉幼帝，在位短促，显示皇位继承持续幼弱化。",
+    "bioLongEn": "Child emperor of Eastern Han with a brief reign, showing continuing weakness in imperial succession.",
+    "contribution": "东汉幼帝，在位短促，显示皇位继承持续幼弱化。",
+    "contributionEn": "Child emperor of Eastern Han with a brief reign, showing continuing weakness in imperial succession.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_chong_reign_144"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_zhi_han",
+    "names": {
+      "primaryName": "Emperor Zhi of Han",
+      "localizedNames": {
+        "en": "Emperor Zhi of Han",
+        "zh-Hans": "汉质帝"
+      },
+      "aliases": [
+        "刘缵"
+      ]
+    },
+    "birth": {
+      "year": 138,
+      "datePrecision": "approximate_year",
+      "displayLabel": "138"
+    },
+    "death": {
+      "year": 146,
+      "datePrecision": "exact_year",
+      "displayLabel": "146"
+    },
+    "activeRange": "138 - 146",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉幼帝，因触怒梁冀而遇害，外戚专权达到危险程度。",
+    "bioShortEn": "Child emperor who was killed after offending Liang Ji, showing the danger of consort-clan domination.",
+    "bioLong": "东汉幼帝，因触怒梁冀而遇害，外戚专权达到危险程度。",
+    "bioLongEn": "Child emperor who was killed after offending Liang Ji, showing the danger of consort-clan domination.",
+    "contribution": "东汉幼帝，因触怒梁冀而遇害，外戚专权达到危险程度。",
+    "contributionEn": "Child emperor who was killed after offending Liang Ji, showing the danger of consort-clan domination.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_zhi_reign_145"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_huan_han",
+    "names": {
+      "primaryName": "Emperor Huan of Han",
+      "localizedNames": {
+        "en": "Emperor Huan of Han",
+        "zh-Hans": "汉桓帝"
+      },
+      "aliases": [
+        "刘志"
+      ]
+    },
+    "birth": {
+      "year": 132,
+      "datePrecision": "approximate_year",
+      "displayLabel": "132"
+    },
+    "death": {
+      "year": 168,
+      "datePrecision": "exact_year",
+      "displayLabel": "168"
+    },
+    "activeRange": "132 - 168",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉第十任皇帝，诛梁冀后依赖宦官，开启更激烈的士宦冲突。",
+    "bioShortEn": "Tenth Eastern Han emperor who eliminated Liang Ji with eunuch help, opening intensified literati-eunuch conflict.",
+    "bioLong": "东汉第十任皇帝，诛梁冀后依赖宦官，开启更激烈的士宦冲突。",
+    "bioLongEn": "Tenth Eastern Han emperor who eliminated Liang Ji with eunuch help, opening intensified literati-eunuch conflict.",
+    "contribution": "东汉第十任皇帝，诛梁冀后依赖宦官，开启更激烈的士宦冲突。",
+    "contributionEn": "Tenth Eastern Han emperor who eliminated Liang Ji with eunuch help, opening intensified literati-eunuch conflict.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_huan_reign_146",
+      "liang_ji_fall_159"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_ling_han",
+    "names": {
+      "primaryName": "Emperor Ling of Han",
+      "localizedNames": {
+        "en": "Emperor Ling of Han",
+        "zh-Hans": "汉灵帝"
+      },
+      "aliases": [
+        "刘宏"
+      ]
+    },
+    "birth": {
+      "year": 156,
+      "datePrecision": "approximate_year",
+      "displayLabel": "156"
+    },
+    "death": {
+      "year": 189,
+      "datePrecision": "exact_year",
+      "displayLabel": "189"
+    },
+    "activeRange": "156 - 189",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉第十一任皇帝，在位时期党锢、卖官、黄巾与地方军事化加速晚汉崩坏。",
+    "bioShortEn": "Eleventh Eastern Han emperor whose reign saw partisan prohibitions, sale of offices, Yellow Turbans, and regional militarization accelerate late Han collapse.",
+    "bioLong": "东汉第十一任皇帝，在位时期党锢、卖官、黄巾与地方军事化加速晚汉崩坏。",
+    "bioLongEn": "Eleventh Eastern Han emperor whose reign saw partisan prohibitions, sale of offices, Yellow Turbans, and regional militarization accelerate late Han collapse.",
+    "contribution": "东汉第十一任皇帝，在位时期党锢、卖官、黄巾与地方军事化加速晚汉崩坏。",
+    "contributionEn": "Eleventh Eastern Han emperor whose reign saw partisan prohibitions, sale of offices, Yellow Turbans, and regional militarization accelerate late Han collapse.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_ling_reign_168",
+      "yellow_turban_rebellion_184"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_shao_han",
+    "names": {
+      "primaryName": "Emperor Shao of Han",
+      "localizedNames": {
+        "en": "Emperor Shao of Han",
+        "zh-Hans": "汉少帝"
+      },
+      "aliases": [
+        "刘辩"
+      ]
+    },
+    "birth": {
+      "year": 176,
+      "datePrecision": "approximate_year",
+      "displayLabel": "176"
+    },
+    "death": {
+      "year": 190,
+      "datePrecision": "exact_year",
+      "displayLabel": "190"
+    },
+    "activeRange": "176 - 190",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "东汉少帝，189 年短暂即位，很快在董卓入京后被废。",
+    "bioShortEn": "Briefly enthroned in 189 and soon deposed after Dong Zhuo entered the capital.",
+    "bioLong": "东汉少帝，189 年短暂即位，很快在董卓入京后被废。",
+    "bioLongEn": "Briefly enthroned in 189 and soon deposed after Dong Zhuo entered the capital.",
+    "contribution": "东汉少帝，189 年短暂即位，很快在董卓入京后被废。",
+    "contributionEn": "Briefly enthroned in 189 and soon deposed after Dong Zhuo entered the capital.",
+    "relatedTerritoryIds": [
+      "eastern_han"
+    ],
+    "relatedEventIds": [
+      "emperor_shao_xian_189"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "empress_wang_zhengjun",
+    "names": {
+      "primaryName": "Empress Wang Zhengjun",
+      "localizedNames": {
+        "en": "Empress Wang Zhengjun",
+        "zh-Hans": "王政君"
+      },
+      "aliases": [
+        "孝元皇后"
+      ]
+    },
+    "birth": {
+      "year": 71,
+      "datePrecision": "approximate_year",
+      "displayLabel": "71"
+    },
+    "death": {
+      "year": 13,
+      "datePrecision": "exact_year",
+      "displayLabel": "13"
+    },
+    "activeRange": "71 - 13",
+    "roles": [
+      "empress_dowager"
+    ],
+    "bioShort": "西汉末年太皇太后，王氏家族权力上升的重要制度背景。",
+    "bioShortEn": "Grand empress dowager in late Western Han, a key institutional background for the rise of the Wang clan.",
+    "bioLong": "西汉末年太皇太后，王氏家族权力上升的重要制度背景。",
+    "bioLongEn": "Grand empress dowager in late Western Han, a key institutional background for the rise of the Wang clan.",
+    "contribution": "她的太后权威为王莽摄政和王氏外戚权力扩张提供合法空间。",
+    "contributionEn": "Her authority as empress dowager created legitimate space for Wang Mang's regency and the rise of Wang consort-clan power.",
+    "relatedTerritoryIds": [
+      "western_han",
+      "xin"
+    ],
+    "relatedEventIds": [
+      "wang_mang_regency_bce_1",
+      "wang_mang_ascend_8"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "ruzi_ying",
+    "names": {
+      "primaryName": "Ruzi Ying",
+      "localizedNames": {
+        "en": "Ruzi Ying",
+        "zh-Hans": "孺子婴"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 5,
+      "datePrecision": "approximate_year",
+      "displayLabel": "5"
+    },
+    "death": {
+      "year": 25,
+      "datePrecision": "exact_year",
+      "displayLabel": "25"
+    },
+    "activeRange": "5 - 25",
+    "roles": [
+      "child_ruler"
+    ],
+    "bioShort": "西汉末名义皇太子，王莽摄政和代汉过程中的幼主象征。",
+    "bioShortEn": "Nominal child heir in late Western Han, symbolizing child-ruler politics during Wang Mang's regency and replacement of Han.",
+    "bioLong": "西汉末名义皇太子，王莽摄政和代汉过程中的幼主象征。",
+    "bioLongEn": "Nominal child heir in late Western Han, symbolizing child-ruler politics during Wang Mang's regency and replacement of Han.",
+    "contribution": "体现王莽从辅政、居摄到代汉建新的合法性阶梯。",
+    "contributionEn": "Embodies Wang Mang's stepwise legitimacy path from regency to acting rule to replacing Han.",
+    "relatedTerritoryIds": [
+      "western_han",
+      "xin"
+    ],
+    "relatedEventIds": [
+      "wang_mang_regency_bce_1",
+      "wang_mang_ascend_8"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "empress_lu",
+    "names": {
+      "primaryName": "Empress Lü",
+      "localizedNames": {
+        "en": "Empress Lü",
+        "zh-Hans": "吕后"
+      },
+      "aliases": [
+        "吕雉"
+      ]
+    },
+    "birth": {
+      "year": -241,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-241"
+    },
+    "death": {
+      "year": -180,
+      "datePrecision": "exact_year",
+      "displayLabel": "-180"
+    },
+    "activeRange": "241 - -180",
+    "roles": [
+      "empress_dowager",
+      "regent"
+    ],
+    "bioShort": "刘邦死后掌握朝政，代表西汉初年从开国功臣政治转向宫廷摄政的阶段。",
+    "bioShortEn": "Regent after Liu Bang's death, representing the early Western Han shift from founding-merit politics to palace regency.",
+    "bioLong": "刘邦死后掌握朝政，代表西汉初年从开国功臣政治转向宫廷摄政的阶段。",
+    "bioLongEn": "Regent after Liu Bang's death, representing the early Western Han shift from founding-merit politics to palace regency.",
+    "contribution": "刘邦死后掌握朝政，代表西汉初年从开国功臣政治转向宫廷摄政的阶段。",
+    "contributionEn": "Regent after Liu Bang's death, representing the early Western Han shift from founding-merit politics to palace regency.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_hui_lu_regency_195"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_hui_han",
+    "names": {
+      "primaryName": "Emperor Hui of Han",
+      "localizedNames": {
+        "en": "Emperor Hui of Han",
+        "zh-Hans": "汉惠帝"
+      },
+      "aliases": [
+        "刘盈"
+      ]
+    },
+    "birth": {
+      "year": -210,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-210"
+    },
+    "death": {
+      "year": -188,
+      "datePrecision": "exact_year",
+      "displayLabel": "-188"
+    },
+    "activeRange": "210 - -188",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉第二任皇帝，在吕后强势摄政背景下在位。",
+    "bioShortEn": "Second Western Han emperor whose reign unfolded under Empress Lü's dominant regency.",
+    "bioLong": "西汉第二任皇帝，在吕后强势摄政背景下在位。",
+    "bioLongEn": "Second Western Han emperor whose reign unfolded under Empress Lü's dominant regency.",
+    "contribution": "西汉第二任皇帝，在吕后强势摄政背景下在位。",
+    "contributionEn": "Second Western Han emperor whose reign unfolded under Empress Lü's dominant regency.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_hui_lu_regency_195"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_wen_han",
+    "names": {
+      "primaryName": "Emperor Wen of Han",
+      "localizedNames": {
+        "en": "Emperor Wen of Han",
+        "zh-Hans": "汉文帝"
+      },
+      "aliases": [
+        "刘恒"
+      ]
+    },
+    "birth": {
+      "year": -203,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-203"
+    },
+    "death": {
+      "year": -157,
+      "datePrecision": "exact_year",
+      "displayLabel": "-157"
+    },
+    "activeRange": "203 - -157",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉文景之治前半段皇帝，以轻徭薄赋、恢复经济和低成本治理著称。",
+    "bioShortEn": "Western Han emperor associated with low-burden governance, economic recovery, and the first half of Wen-Jing stability.",
+    "bioLong": "西汉文景之治前半段皇帝，以轻徭薄赋、恢复经济和低成本治理著称。",
+    "bioLongEn": "Western Han emperor associated with low-burden governance, economic recovery, and the first half of Wen-Jing stability.",
+    "contribution": "西汉文景之治前半段皇帝，以轻徭薄赋、恢复经济和低成本治理著称。",
+    "contributionEn": "Western Han emperor associated with low-burden governance, economic recovery, and the first half of Wen-Jing stability.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_wen_reign_180"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_jing_han",
+    "names": {
+      "primaryName": "Emperor Jing of Han",
+      "localizedNames": {
+        "en": "Emperor Jing of Han",
+        "zh-Hans": "汉景帝"
+      },
+      "aliases": [
+        "刘启"
+      ]
+    },
+    "birth": {
+      "year": -188,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-188"
+    },
+    "death": {
+      "year": -141,
+      "datePrecision": "exact_year",
+      "displayLabel": "-141"
+    },
+    "activeRange": "188 - -141",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉文景之治后半段皇帝，平定七国之乱，削弱诸侯王威胁。",
+    "bioShortEn": "Western Han emperor who continued Wen-Jing stability and suppressed the Rebellion of the Seven States.",
+    "bioLong": "西汉文景之治后半段皇帝，平定七国之乱，削弱诸侯王威胁。",
+    "bioLongEn": "Western Han emperor who continued Wen-Jing stability and suppressed the Rebellion of the Seven States.",
+    "contribution": "西汉文景之治后半段皇帝，平定七国之乱，削弱诸侯王威胁。",
+    "contributionEn": "Western Han emperor who continued Wen-Jing stability and suppressed the Rebellion of the Seven States.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_jing_reign_157"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_wu_han",
+    "names": {
+      "primaryName": "Emperor Wu of Han",
+      "localizedNames": {
+        "en": "Emperor Wu of Han",
+        "zh-Hans": "汉武帝"
+      },
+      "aliases": [
+        "刘彻"
+      ]
+    },
+    "birth": {
+      "year": -156,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-156"
+    },
+    "death": {
+      "year": -87,
+      "datePrecision": "exact_year",
+      "displayLabel": "-87"
+    },
+    "activeRange": "156 - -87",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉最重要的扩张型皇帝，发动对匈奴战争，经营河西和西域，重塑财政与中央集权。",
+    "bioShortEn": "The major expansionist Western Han emperor who fought the Xiongnu, developed Hexi and Western Regions policy, and reshaped fiscal centralization.",
+    "bioLong": "西汉最重要的扩张型皇帝，发动对匈奴战争，经营河西和西域，重塑财政与中央集权。",
+    "bioLongEn": "The major expansionist Western Han emperor who fought the Xiongnu, developed Hexi and Western Regions policy, and reshaped fiscal centralization.",
+    "contribution": "西汉最重要的扩张型皇帝，发动对匈奴战争，经营河西和西域，重塑财政与中央集权。",
+    "contributionEn": "The major expansionist Western Han emperor who fought the Xiongnu, developed Hexi and Western Regions policy, and reshaped fiscal centralization.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_wu_reign_141",
+      "zhang_qian_mission_-138"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_zhao_han",
+    "names": {
+      "primaryName": "Emperor Zhao of Han",
+      "localizedNames": {
+        "en": "Emperor Zhao of Han",
+        "zh-Hans": "汉昭帝"
+      },
+      "aliases": [
+        "刘弗陵"
+      ]
+    },
+    "birth": {
+      "year": -94,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-94"
+    },
+    "death": {
+      "year": -74,
+      "datePrecision": "exact_year",
+      "displayLabel": "-74"
+    },
+    "activeRange": "94 - -74",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "武帝之后的幼帝，霍光辅政，西汉从高强度扩张转入调整。",
+    "bioShortEn": "Child emperor after Emperor Wu under Huo Guang's regency, marking Western Han transition from intense expansion to adjustment.",
+    "bioLong": "武帝之后的幼帝，霍光辅政，西汉从高强度扩张转入调整。",
+    "bioLongEn": "Child emperor after Emperor Wu under Huo Guang's regency, marking Western Han transition from intense expansion to adjustment.",
+    "contribution": "武帝之后的幼帝，霍光辅政，西汉从高强度扩张转入调整。",
+    "contributionEn": "Child emperor after Emperor Wu under Huo Guang's regency, marking Western Han transition from intense expansion to adjustment.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_zhao_huo_guang_87"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "huo_guang",
+    "names": {
+      "primaryName": "Huo Guang",
+      "localizedNames": {
+        "en": "Huo Guang",
+        "zh-Hans": "霍光"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -68,
+      "datePrecision": "exact_year",
+      "displayLabel": "-68"
+    },
+    "activeRange": "68",
+    "roles": [
+      "regent"
+    ],
+    "bioShort": "武帝托孤重臣，昭帝、宣帝时期核心辅政者。",
+    "bioShortEn": "Regent appointed by Emperor Wu, central during the reigns of Zhao and Xuan.",
+    "bioLong": "武帝托孤重臣，昭帝、宣帝时期核心辅政者。",
+    "bioLongEn": "Regent appointed by Emperor Wu, central during the reigns of Zhao and Xuan.",
+    "contribution": "武帝托孤重臣，昭帝、宣帝时期核心辅政者。",
+    "contributionEn": "Regent appointed by Emperor Wu, central during the reigns of Zhao and Xuan.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_zhao_huo_guang_87",
+      "emperor_xuan_reign_74"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xuan_han",
+    "names": {
+      "primaryName": "Emperor Xuan of Han",
+      "localizedNames": {
+        "en": "Emperor Xuan of Han",
+        "zh-Hans": "汉宣帝"
+      },
+      "aliases": [
+        "刘询"
+      ]
+    },
+    "birth": {
+      "year": -91,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-91"
+    },
+    "death": {
+      "year": -49,
+      "datePrecision": "exact_year",
+      "displayLabel": "-49"
+    },
+    "activeRange": "91 - -49",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉中兴皇帝，在霍光之后重整皇权，形成昭宣中兴。",
+    "bioShortEn": "Western Han restoration emperor who reasserted imperial authority after Huo Guang, associated with Zhao-Xuan revival.",
+    "bioLong": "西汉中兴皇帝，在霍光之后重整皇权，形成昭宣中兴。",
+    "bioLongEn": "Western Han restoration emperor who reasserted imperial authority after Huo Guang, associated with Zhao-Xuan revival.",
+    "contribution": "西汉中兴皇帝，在霍光之后重整皇权，形成昭宣中兴。",
+    "contributionEn": "Western Han restoration emperor who reasserted imperial authority after Huo Guang, associated with Zhao-Xuan revival.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_xuan_reign_74"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_yuan_han",
+    "names": {
+      "primaryName": "Emperor Yuan of Han",
+      "localizedNames": {
+        "en": "Emperor Yuan of Han",
+        "zh-Hans": "汉元帝"
+      },
+      "aliases": [
+        "刘奭"
+      ]
+    },
+    "birth": {
+      "year": -75,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-75"
+    },
+    "death": {
+      "year": -33,
+      "datePrecision": "exact_year",
+      "displayLabel": "-33"
+    },
+    "activeRange": "75 - -33",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉后期皇帝，儒臣政治加强，外戚王氏开始获得上升空间。",
+    "bioShortEn": "Late Western Han emperor under whom Confucian officials gained influence and the Wang consort clan began rising.",
+    "bioLong": "西汉后期皇帝，儒臣政治加强，外戚王氏开始获得上升空间。",
+    "bioLongEn": "Late Western Han emperor under whom Confucian officials gained influence and the Wang consort clan began rising.",
+    "contribution": "西汉后期皇帝，儒臣政治加强，外戚王氏开始获得上升空间。",
+    "contributionEn": "Late Western Han emperor under whom Confucian officials gained influence and the Wang consort clan began rising.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_yuan_reign_49"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_cheng_han",
+    "names": {
+      "primaryName": "Emperor Cheng of Han",
+      "localizedNames": {
+        "en": "Emperor Cheng of Han",
+        "zh-Hans": "汉成帝"
+      },
+      "aliases": [
+        "刘骜"
+      ]
+    },
+    "birth": {
+      "year": -51,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-51"
+    },
+    "death": {
+      "year": -7,
+      "datePrecision": "exact_year",
+      "displayLabel": "-7"
+    },
+    "activeRange": "51 - -7",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉后期皇帝，王氏外戚权力显著扩大。",
+    "bioShortEn": "Late Western Han emperor under whom Wang consort-clan power expanded markedly.",
+    "bioLong": "西汉后期皇帝，王氏外戚权力显著扩大。",
+    "bioLongEn": "Late Western Han emperor under whom Wang consort-clan power expanded markedly.",
+    "contribution": "西汉后期皇帝，王氏外戚权力显著扩大。",
+    "contributionEn": "Late Western Han emperor under whom Wang consort-clan power expanded markedly.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_cheng_reign_33"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_ai_han",
+    "names": {
+      "primaryName": "Emperor Ai of Han",
+      "localizedNames": {
+        "en": "Emperor Ai of Han",
+        "zh-Hans": "汉哀帝"
+      },
+      "aliases": [
+        "刘欣"
+      ]
+    },
+    "birth": {
+      "year": -27,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-27"
+    },
+    "death": {
+      "year": -1,
+      "datePrecision": "exact_year",
+      "displayLabel": "-1"
+    },
+    "activeRange": "27 - -1",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉末皇帝，短暂试图摆脱王氏外戚，但未能扭转制度危机。",
+    "bioShortEn": "Late Western Han emperor who briefly tried to escape Wang-clan dominance but failed to reverse institutional crisis.",
+    "bioLong": "西汉末皇帝，短暂试图摆脱王氏外戚，但未能扭转制度危机。",
+    "bioLongEn": "Late Western Han emperor who briefly tried to escape Wang-clan dominance but failed to reverse institutional crisis.",
+    "contribution": "西汉末皇帝，短暂试图摆脱王氏外戚，但未能扭转制度危机。",
+    "contributionEn": "Late Western Han emperor who briefly tried to escape Wang-clan dominance but failed to reverse institutional crisis.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_ai_reign_7"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_ping_han",
+    "names": {
+      "primaryName": "Emperor Ping of Han",
+      "localizedNames": {
+        "en": "Emperor Ping of Han",
+        "zh-Hans": "汉平帝"
+      },
+      "aliases": [
+        "刘衎"
+      ]
+    },
+    "birth": {
+      "year": -9,
+      "datePrecision": "approximate_year",
+      "displayLabel": "-9"
+    },
+    "death": {
+      "year": 6,
+      "datePrecision": "exact_year",
+      "displayLabel": "6"
+    },
+    "activeRange": "9 - 6",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "西汉末幼帝，王莽以辅政身份掌控朝政。",
+    "bioShortEn": "Child emperor at Western Han's end under Wang Mang's regency.",
+    "bioLong": "西汉末幼帝，王莽以辅政身份掌控朝政。",
+    "bioLongEn": "Child emperor at Western Han's end under Wang Mang's regency.",
+    "contribution": "西汉末幼帝，王莽以辅政身份掌控朝政。",
+    "contributionEn": "Child emperor at Western Han's end under Wang Mang's regency.",
+    "relatedTerritoryIds": [
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "emperor_ping_wang_mang_bce_1"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "chen_sheng",
+    "names": {
+      "primaryName": "Chen Sheng",
+      "localizedNames": {
+        "en": "Chen Sheng",
+        "zh-Hans": "陈胜"
+      },
+      "aliases": [
+        "陈涉"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -208,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前208年"
+    },
+    "activeRange": "208",
+    "roles": [
+      "rebel_leader"
+    ],
+    "bioShort": "大泽乡起义领袖之一，秦末民变从戍卒抗命扩展为反秦浪潮的象征。",
+    "bioShortEn": "Leader of the Dazexiang uprising, symbolizing the spread from conscript mutiny to anti-Qin rebellion.",
+    "bioLong": "大泽乡起义领袖之一，秦末民变从戍卒抗命扩展为反秦浪潮的象征。",
+    "bioLongEn": "Leader of the Dazexiang uprising, symbolizing the spread from conscript mutiny to anti-Qin rebellion.",
+    "contribution": "大泽乡起义领袖之一，秦末民变从戍卒抗命扩展为反秦浪潮的象征。",
+    "contributionEn": "Leader of the Dazexiang uprising, symbolizing the spread from conscript mutiny to anti-Qin rebellion.",
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "dazexiang_uprising_209"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wu_guang",
+    "names": {
+      "primaryName": "Wu Guang",
+      "localizedNames": {
+        "en": "Wu Guang",
+        "zh-Hans": "吴广"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -208,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前208年"
+    },
+    "activeRange": "208",
+    "roles": [
+      "rebel_leader"
+    ],
+    "bioShort": "大泽乡起义领袖之一，与陈胜共同点燃秦末起义。",
+    "bioShortEn": "Co-leader of the Dazexiang uprising with Chen Sheng.",
+    "bioLong": "大泽乡起义领袖之一，与陈胜共同点燃秦末起义。",
+    "bioLongEn": "Co-leader of the Dazexiang uprising with Chen Sheng.",
+    "contribution": "大泽乡起义领袖之一，与陈胜共同点燃秦末起义。",
+    "contributionEn": "Co-leader of the Dazexiang uprising with Chen Sheng.",
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "dazexiang_uprising_209"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhang_han",
+    "names": {
+      "primaryName": "Zhang Han",
+      "localizedNames": {
+        "en": "Zhang Han",
+        "zh-Hans": "章邯"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -205,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前205年"
+    },
+    "activeRange": "205",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "秦末将领，曾镇压起义军，后在巨鹿战后投降项羽。",
+    "bioShortEn": "Late Qin general who fought rebel armies and surrendered to Xiang Yu after the Julu campaign.",
+    "bioLong": "秦末将领，曾镇压起义军，后在巨鹿战后投降项羽。",
+    "bioLongEn": "Late Qin general who fought rebel armies and surrendered to Xiang Yu after the Julu campaign.",
+    "contribution": "秦末将领，曾镇压起义军，后在巨鹿战后投降项羽。",
+    "contributionEn": "Late Qin general who fought rebel armies and surrendered to Xiang Yu after the Julu campaign.",
+    "relatedTerritoryIds": [
+      "qin",
+      "cliopatria_western_chu"
+    ],
+    "relatedEventIds": [
+      "julu_battle_207"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "han_xin",
+    "names": {
+      "primaryName": "Han Xin",
+      "localizedNames": {
+        "en": "Han Xin",
+        "zh-Hans": "韩信"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -196,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前196年"
+    },
+    "activeRange": "196",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "刘邦阵营核心名将，在楚汉战争中以北方战场改变力量对比。",
+    "bioShortEn": "A key Liu Bang general whose northern campaigns changed the balance of the Chu-Han war.",
+    "bioLong": "刘邦阵营核心名将，在楚汉战争中以北方战场改变力量对比。",
+    "bioLongEn": "A key Liu Bang general whose northern campaigns changed the balance of the Chu-Han war.",
+    "contribution": "刘邦阵营核心名将，在楚汉战争中以北方战场改变力量对比。",
+    "contributionEn": "A key Liu Bang general whose northern campaigns changed the balance of the Chu-Han war.",
+    "relatedTerritoryIds": [
+      "cliopatria_han",
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "han_xin_northern_campaign_205",
+      "chu_han_stalemate_203"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhang_liang",
+    "names": {
+      "primaryName": "Zhang Liang",
+      "localizedNames": {
+        "en": "Zhang Liang",
+        "zh-Hans": "张良"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -186,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前186年"
+    },
+    "activeRange": "186",
+    "roles": [
+      "strategist"
+    ],
+    "bioShort": "刘邦重要谋臣，代表汉阵营的战略与政治判断。",
+    "bioShortEn": "A major Liu Bang strategist, representing the Han camp's strategic and political judgment.",
+    "bioLong": "刘邦重要谋臣，代表汉阵营的战略与政治判断。",
+    "bioLongEn": "A major Liu Bang strategist, representing the Han camp's strategic and political judgment.",
+    "contribution": "刘邦重要谋臣，代表汉阵营的战略与政治判断。",
+    "contributionEn": "A major Liu Bang strategist, representing the Han camp's strategic and political judgment.",
+    "relatedTerritoryIds": [
+      "cliopatria_han",
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "liu_bang_enters_guanzhong_207",
+      "xiang_yu_enfeoffment_206"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "xiao_he",
+    "names": {
+      "primaryName": "Xiao He",
+      "localizedNames": {
+        "en": "Xiao He",
+        "zh-Hans": "萧何"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -193,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前193年"
+    },
+    "activeRange": "193",
+    "roles": [
+      "administrator"
+    ],
+    "bioShort": "刘邦集团的后勤与制度建设核心，为汉军长期作战提供支撑。",
+    "bioShortEn": "The administrative and logistical core of Liu Bang's camp, supporting Han's long war effort.",
+    "bioLong": "刘邦集团的后勤与制度建设核心，为汉军长期作战提供支撑。",
+    "bioLongEn": "The administrative and logistical core of Liu Bang's camp, supporting Han's long war effort.",
+    "contribution": "刘邦集团的后勤与制度建设核心，为汉军长期作战提供支撑。",
+    "contributionEn": "The administrative and logistical core of Liu Bang's camp, supporting Han's long war effort.",
+    "relatedTerritoryIds": [
+      "cliopatria_han",
+      "western_han"
+    ],
+    "relatedEventIds": [
+      "pengcheng_defeat_han_recovery_205"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "fan_zeng",
+    "names": {
+      "primaryName": "Fan Zeng",
+      "localizedNames": {
+        "en": "Fan Zeng",
+        "zh-Hans": "范增"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -204,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前204年"
+    },
+    "activeRange": "204",
+    "roles": [
+      "strategist"
+    ],
+    "bioShort": "项羽重要谋士，常被视为西楚阵营战略选择的代表人物。",
+    "bioShortEn": "A key Xiang Yu adviser, often representing Western Chu's strategic choices.",
+    "bioLong": "项羽重要谋士，常被视为西楚阵营战略选择的代表人物。",
+    "bioLongEn": "A key Xiang Yu adviser, often representing Western Chu's strategic choices.",
+    "contribution": "项羽重要谋士，常被视为西楚阵营战略选择的代表人物。",
+    "contributionEn": "A key Xiang Yu adviser, often representing Western Chu's strategic choices.",
+    "relatedTerritoryIds": [
+      "cliopatria_western_chu"
+    ],
+    "relatedEventIds": [
+      "xiang_yu_enfeoffment_206",
+      "chu_han_stalemate_203"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "qin_er_shi",
+    "names": {
+      "primaryName": "Qin Er Shi",
+      "localizedNames": {
+        "en": "Qin Er Shi",
+        "zh-Hans": "秦二世胡亥"
+      },
+      "aliases": [
+        "胡亥"
+      ]
+    },
+    "birth": {
+      "year": -230,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前230年"
+    },
+    "death": {
+      "year": -207,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前207年"
+    },
+    "activeRange": "230 - -207",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "秦始皇死后即位的二世皇帝，其统治时期秦帝国迅速陷入继承危机与民变。",
+    "bioShortEn": "Second Qin emperor after Qin Shi Huang; under his reign the empire fell rapidly into succession crisis and rebellion.",
+    "bioLong": "秦始皇死后即位的二世皇帝，其统治时期秦帝国迅速陷入继承危机与民变。",
+    "bioLongEn": "Second Qin emperor after Qin Shi Huang; under his reign the empire fell rapidly into succession crisis and rebellion.",
+    "contribution": "秦始皇死后即位的二世皇帝，其统治时期秦帝国迅速陷入继承危机与民变。",
+    "contributionEn": "Second Qin emperor after Qin Shi Huang; under his reign the empire fell rapidly into succession crisis and rebellion.",
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "qin_succession_crisis_210",
+      "qin_collapse_-207"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhao_gao",
+    "names": {
+      "primaryName": "Zhao Gao",
+      "localizedNames": {
+        "en": "Zhao Gao",
+        "zh-Hans": "赵高"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -207,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前207年"
+    },
+    "activeRange": "207",
+    "roles": [
+      "court_official"
+    ],
+    "bioShort": "秦末权臣，参与沙丘政变并操控二世朝政，是秦末宫廷政治失控的代表。",
+    "bioShortEn": "Late Qin court powerholder associated with the Shaqiu succession coup and manipulation of Qin Er Shi's court.",
+    "bioLong": "秦末权臣，参与沙丘政变并操控二世朝政，是秦末宫廷政治失控的代表。",
+    "bioLongEn": "Late Qin court powerholder associated with the Shaqiu succession coup and manipulation of Qin Er Shi's court.",
+    "contribution": "秦末权臣，参与沙丘政变并操控二世朝政，是秦末宫廷政治失控的代表。",
+    "contributionEn": "Late Qin court powerholder associated with the Shaqiu succession coup and manipulation of Qin Er Shi's court.",
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "qin_succession_crisis_210",
+      "qin_collapse_-207"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "ziying_qin",
+    "names": {
+      "primaryName": "Ziying of Qin",
+      "localizedNames": {
+        "en": "Ziying of Qin",
+        "zh-Hans": "子婴"
+      },
+      "aliases": [
+        "秦王子婴"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -206,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前206年"
+    },
+    "activeRange": "206",
+    "roles": [
+      "ruler"
+    ],
+    "bioShort": "秦朝末代统治者，向刘邦投降，标志秦帝国核心政权结束。",
+    "bioShortEn": "The last Qin ruler, whose surrender to Liu Bang marked the end of Qin's core regime.",
+    "bioLong": "秦朝末代统治者，向刘邦投降，标志秦帝国核心政权结束。",
+    "bioLongEn": "The last Qin ruler, whose surrender to Liu Bang marked the end of Qin's core regime.",
+    "contribution": "秦朝末代统治者，向刘邦投降，标志秦帝国核心政权结束。",
+    "contributionEn": "The last Qin ruler, whose surrender to Liu Bang marked the end of Qin's core regime.",
+    "relatedTerritoryIds": [
+      "qin"
+    ],
+    "relatedEventIds": [
+      "qin_collapse_-207",
+      "liu_bang_enters_guanzhong_207"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
   }
 ]
