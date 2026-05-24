@@ -30,11 +30,13 @@
     "contribution": "将区域性强国转化为统一帝国，是中国古代国家形态发生跃迁的关键人物。",
     "contributionEn": "He transformed a regional hegemon into a unified empire, a decisive step in early Chinese state formation.",
     "relatedTerritoryIds": [
+      "cliopatria_qin",
       "qin"
     ],
     "relatedEventIds": [
       "books_buried_scholars_-213",
       "great_wall_early_qin_-214",
+      "qin_conquest_begins_230",
       "qin_succession_crisis_210",
       "qin_unification_-221"
     ],
@@ -3415,6 +3417,1906 @@
     "relatedEventIds": [
       "qin_collapse_-207",
       "liu_bang_enters_guanzhong_207"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "shang_yang",
+    "names": {
+      "primaryName": "Shang Yang",
+      "localizedNames": {
+        "en": "Shang Yang",
+        "zh-Hans": "商鞅"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -338,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前338年"
+    },
+    "activeRange": "338",
+    "roles": [
+      "reformer",
+      "statesman"
+    ],
+    "bioShort": "秦国变法核心人物，推动军功爵、县制和法令改革，使秦从西方强国转向高动员国家。",
+    "bioShortEn": "Core Qin reformer whose policies around merit ranks, counties, and law turned Qin into a high-mobilization state.",
+    "bioLong": "秦国变法核心人物，推动军功爵、县制和法令改革，使秦从西方强国转向高动员国家。",
+    "bioLongEn": "Core Qin reformer whose policies around merit ranks, counties, and law turned Qin into a high-mobilization state.",
+    "contribution": "秦国变法核心人物，推动军功爵、县制和法令改革，使秦从西方强国转向高动员国家。",
+    "contributionEn": "Core Qin reformer whose policies around merit ranks, counties, and law turned Qin into a high-mobilization state.",
+    "relatedTerritoryIds": [
+      "cliopatria_qin"
+    ],
+    "relatedEventIds": [
+      "shang_yang_reforms_356"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "su_qin",
+    "names": {
+      "primaryName": "Su Qin",
+      "localizedNames": {
+        "en": "Su Qin",
+        "zh-Hans": "苏秦"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -284,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前284年"
+    },
+    "activeRange": "284",
+    "roles": [
+      "diplomat",
+      "strategist"
+    ],
+    "bioShort": "战国纵横家代表，常被用来说明合纵联盟对抗秦的政治想象。",
+    "bioShortEn": "Representative Warring States diplomat associated with the vertical alliance imagination against Qin.",
+    "bioLong": "战国纵横家代表，常被用来说明合纵联盟对抗秦的政治想象。",
+    "bioLongEn": "Representative Warring States diplomat associated with the vertical alliance imagination against Qin.",
+    "contribution": "战国纵横家代表，常被用来说明合纵联盟对抗秦的政治想象。",
+    "contributionEn": "Representative Warring States diplomat associated with the vertical alliance imagination against Qin.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhao",
+      "cliopatria_yan",
+      "cliopatria_qi"
+    ],
+    "relatedEventIds": [
+      "vertical_horizontal_diplomacy_318"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhang_yi",
+    "names": {
+      "primaryName": "Zhang Yi",
+      "localizedNames": {
+        "en": "Zhang Yi",
+        "zh-Hans": "张仪"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -309,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前309年"
+    },
+    "activeRange": "309",
+    "roles": [
+      "diplomat",
+      "strategist"
+    ],
+    "bioShort": "秦国连横策略代表人物，通过外交拆解反秦联盟。",
+    "bioShortEn": "Representative Qin diplomat of horizontal alliance strategy, using diplomacy to split anti-Qin coalitions.",
+    "bioLong": "秦国连横策略代表人物，通过外交拆解反秦联盟。",
+    "bioLongEn": "Representative Qin diplomat of horizontal alliance strategy, using diplomacy to split anti-Qin coalitions.",
+    "contribution": "秦国连横策略代表人物，通过外交拆解反秦联盟。",
+    "contributionEn": "Representative Qin diplomat of horizontal alliance strategy, using diplomacy to split anti-Qin coalitions.",
+    "relatedTerritoryIds": [
+      "cliopatria_qin"
+    ],
+    "relatedEventIds": [
+      "vertical_horizontal_diplomacy_318"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_zhaoxiang_qin",
+    "names": {
+      "primaryName": "King Zhaoxiang of Qin",
+      "localizedNames": {
+        "en": "King Zhaoxiang of Qin",
+        "zh-Hans": "秦昭襄王"
+      },
+      "aliases": [
+        "嬴稷"
+      ]
+    },
+    "birth": {
+      "year": -325,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前325年"
+    },
+    "death": {
+      "year": -251,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前251年"
+    },
+    "activeRange": "325 - -251",
+    "roles": [
+      "ruler"
+    ],
+    "bioShort": "秦国强盛期君主，长平之战时期秦国最高统治者。",
+    "bioShortEn": "Qin ruler during its rise to dominance and the Battle of Changping period.",
+    "bioLong": "秦国强盛期君主，长平之战时期秦国最高统治者。",
+    "bioLongEn": "Qin ruler during its rise to dominance and the Battle of Changping period.",
+    "contribution": "秦国强盛期君主，长平之战时期秦国最高统治者。",
+    "contributionEn": "Qin ruler during its rise to dominance and the Battle of Changping period.",
+    "relatedTerritoryIds": [
+      "cliopatria_qin"
+    ],
+    "relatedEventIds": [
+      "changping_battle_260"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "bai_qi",
+    "names": {
+      "primaryName": "Bai Qi",
+      "localizedNames": {
+        "en": "Bai Qi",
+        "zh-Hans": "白起"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -257,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前257年"
+    },
+    "activeRange": "257",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "秦国名将，长平之战中击败赵军，改变战国后期力量对比。",
+    "bioShortEn": "Major Qin general whose victory at Changping shifted the late Warring States balance.",
+    "bioLong": "秦国名将，长平之战中击败赵军，改变战国后期力量对比。",
+    "bioLongEn": "Major Qin general whose victory at Changping shifted the late Warring States balance.",
+    "contribution": "秦国名将，长平之战中击败赵军，改变战国后期力量对比。",
+    "contributionEn": "Major Qin general whose victory at Changping shifted the late Warring States balance.",
+    "relatedTerritoryIds": [
+      "cliopatria_qin"
+    ],
+    "relatedEventIds": [
+      "changping_battle_260"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "lian_po",
+    "names": {
+      "primaryName": "Lian Po",
+      "localizedNames": {
+        "en": "Lian Po",
+        "zh-Hans": "廉颇"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "赵国名将，长平前期采取持久防御策略，是赵国军事韧性的代表。",
+    "bioShortEn": "Major Zhao general who used defensive attrition before Changping, representing Zhao military resilience.",
+    "bioLong": "赵国名将，长平前期采取持久防御策略，是赵国军事韧性的代表。",
+    "bioLongEn": "Major Zhao general who used defensive attrition before Changping, representing Zhao military resilience.",
+    "contribution": "赵国名将，长平前期采取持久防御策略，是赵国军事韧性的代表。",
+    "contributionEn": "Major Zhao general who used defensive attrition before Changping, representing Zhao military resilience.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhao"
+    ],
+    "relatedEventIds": [
+      "changping_battle_260"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhao_kuo",
+    "names": {
+      "primaryName": "Zhao Kuo",
+      "localizedNames": {
+        "en": "Zhao Kuo",
+        "zh-Hans": "赵括"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -260,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前260年"
+    },
+    "activeRange": "260",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "赵国将领，长平后期接替廉颇，最终在决战中失败。",
+    "bioShortEn": "Zhao general who replaced Lian Po late in the Changping campaign and was defeated in the decisive battle.",
+    "bioLong": "赵国将领，长平后期接替廉颇，最终在决战中失败。",
+    "bioLongEn": "Zhao general who replaced Lian Po late in the Changping campaign and was defeated in the decisive battle.",
+    "contribution": "赵国将领，长平后期接替廉颇，最终在决战中失败。",
+    "contributionEn": "Zhao general who replaced Lian Po late in the Changping campaign and was defeated in the decisive battle.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhao"
+    ],
+    "relatedEventIds": [
+      "changping_battle_260"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_ping_zhou",
+    "names": {
+      "primaryName": "King Ping of Zhou",
+      "localizedNames": {
+        "en": "King Ping of Zhou",
+        "zh-Hans": "周平王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -720,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前720年"
+    },
+    "activeRange": "720",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "周室东迁后的天子，象征西周王权崩解后东周格局的开端。",
+    "bioShortEn": "Zhou king after the eastward move, symbolizing the start of Eastern Zhou after Western Zhou royal collapse.",
+    "bioLong": "周室东迁后的天子，象征西周王权崩解后东周格局的开端。",
+    "bioLongEn": "Zhou king after the eastward move, symbolizing the start of Eastern Zhou after Western Zhou royal collapse.",
+    "contribution": "周室东迁后的天子，象征西周王权崩解后东周格局的开端。",
+    "contributionEn": "Zhou king after the eastward move, symbolizing the start of Eastern Zhou after Western Zhou royal collapse.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty",
+      "cliopatria_later_zhou"
+    ],
+    "relatedEventIds": [
+      "fall_of_western_zhou_771",
+      "zhou_eastward_move_770"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "duke_huan_qi",
+    "names": {
+      "primaryName": "Duke Huan of Qi",
+      "localizedNames": {
+        "en": "Duke Huan of Qi",
+        "zh-Hans": "齐桓公"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -643,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前643年"
+    },
+    "activeRange": "643",
+    "roles": [
+      "hegemon",
+      "ruler"
+    ],
+    "bioShort": "春秋首霸，在管仲辅佐下以尊王攘夷组织诸侯秩序。",
+    "bioShortEn": "First major Spring-Autumn hegemon, organizing interstate order with Guan Zhong under the slogan of honoring Zhou and resisting outsiders.",
+    "bioLong": "春秋首霸，在管仲辅佐下以尊王攘夷组织诸侯秩序。",
+    "bioLongEn": "First major Spring-Autumn hegemon, organizing interstate order with Guan Zhong under the slogan of honoring Zhou and resisting outsiders.",
+    "contribution": "春秋首霸，在管仲辅佐下以尊王攘夷组织诸侯秩序。",
+    "contributionEn": "First major Spring-Autumn hegemon, organizing interstate order with Guan Zhong under the slogan of honoring Zhou and resisting outsiders.",
+    "relatedTerritoryIds": [
+      "cliopatria_qi"
+    ],
+    "relatedEventIds": [
+      "duke_huan_hegemony_681"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "guan_zhong",
+    "names": {
+      "primaryName": "Guan Zhong",
+      "localizedNames": {
+        "en": "Guan Zhong",
+        "zh-Hans": "管仲"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -645,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前645年"
+    },
+    "activeRange": "645",
+    "roles": [
+      "statesman",
+      "reformer"
+    ],
+    "bioShort": "齐国改革家，帮助齐桓公整合财政、军政和外交，形成霸业基础。",
+    "bioShortEn": "Qi statesman whose fiscal, military, and diplomatic reforms supported Duke Huan's hegemony.",
+    "bioLong": "齐国改革家，帮助齐桓公整合财政、军政和外交，形成霸业基础。",
+    "bioLongEn": "Qi statesman whose fiscal, military, and diplomatic reforms supported Duke Huan's hegemony.",
+    "contribution": "齐国改革家，帮助齐桓公整合财政、军政和外交，形成霸业基础。",
+    "contributionEn": "Qi statesman whose fiscal, military, and diplomatic reforms supported Duke Huan's hegemony.",
+    "relatedTerritoryIds": [
+      "cliopatria_qi"
+    ],
+    "relatedEventIds": [
+      "duke_huan_hegemony_681"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "duke_wen_jin",
+    "names": {
+      "primaryName": "Duke Wen of Jin",
+      "localizedNames": {
+        "en": "Duke Wen of Jin",
+        "zh-Hans": "晋文公"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": -697,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前697年"
+    },
+    "death": {
+      "year": -628,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前628年"
+    },
+    "activeRange": "697 - -628",
+    "roles": [
+      "hegemon",
+      "ruler"
+    ],
+    "bioShort": "晋国霸主，城濮之战后确立晋在中原诸侯中的主导地位。",
+    "bioShortEn": "Jin hegemon who established Jin leadership among central states after the Battle of Chengpu.",
+    "bioLong": "晋国霸主，城濮之战后确立晋在中原诸侯中的主导地位。",
+    "bioLongEn": "Jin hegemon who established Jin leadership among central states after the Battle of Chengpu.",
+    "contribution": "晋国霸主，城濮之战后确立晋在中原诸侯中的主导地位。",
+    "contributionEn": "Jin hegemon who established Jin leadership among central states after the Battle of Chengpu.",
+    "relatedTerritoryIds": [
+      "cliopatria_jin"
+    ],
+    "relatedEventIds": [
+      "chengpu_battle_632"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_zhuang_chu",
+    "names": {
+      "primaryName": "King Zhuang of Chu",
+      "localizedNames": {
+        "en": "King Zhuang of Chu",
+        "zh-Hans": "楚庄王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -591,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前591年"
+    },
+    "activeRange": "591",
+    "roles": [
+      "hegemon",
+      "ruler"
+    ],
+    "bioShort": "楚国强盛君主，代表南方大国进入中原争霸核心。",
+    "bioShortEn": "Powerful Chu ruler representing the southern state's entry into the core contest for hegemony.",
+    "bioLong": "楚国强盛君主，代表南方大国进入中原争霸核心。",
+    "bioLongEn": "Powerful Chu ruler representing the southern state's entry into the core contest for hegemony.",
+    "contribution": "楚国强盛君主，代表南方大国进入中原争霸核心。",
+    "contributionEn": "Powerful Chu ruler representing the southern state's entry into the core contest for hegemony.",
+    "relatedTerritoryIds": [
+      "cliopatria_chu"
+    ],
+    "relatedEventIds": [
+      "chu_zhuang_hegemony_597"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_helu_wu",
+    "names": {
+      "primaryName": "King Helu of Wu",
+      "localizedNames": {
+        "en": "King Helu of Wu",
+        "zh-Hans": "吴王阖闾"
+      },
+      "aliases": [
+        "阖闾"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -496,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前496年"
+    },
+    "activeRange": "496",
+    "roles": [
+      "ruler"
+    ],
+    "bioShort": "吴国崛起时期君主，柏举之战中吴军攻入楚都。",
+    "bioShortEn": "Ruler during Wu's rise; Wu forces entered Chu's capital after Boju.",
+    "bioLong": "吴国崛起时期君主，柏举之战中吴军攻入楚都。",
+    "bioLongEn": "Ruler during Wu's rise; Wu forces entered Chu's capital after Boju.",
+    "contribution": "吴国崛起时期君主，柏举之战中吴军攻入楚都。",
+    "contributionEn": "Ruler during Wu's rise; Wu forces entered Chu's capital after Boju.",
+    "relatedTerritoryIds": [
+      "cliopatria_wu"
+    ],
+    "relatedEventIds": [
+      "boju_battle_506"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wu_zixu",
+    "names": {
+      "primaryName": "Wu Zixu",
+      "localizedNames": {
+        "en": "Wu Zixu",
+        "zh-Hans": "伍子胥"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -484,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前484年"
+    },
+    "activeRange": "484",
+    "roles": [
+      "strategist",
+      "minister"
+    ],
+    "bioShort": "吴国重臣，参与吴国改革和伐楚战略，是吴楚争霸中的关键人物。",
+    "bioShortEn": "Key Wu minister involved in Wu reforms and anti-Chu strategy.",
+    "bioLong": "吴国重臣，参与吴国改革和伐楚战略，是吴楚争霸中的关键人物。",
+    "bioLongEn": "Key Wu minister involved in Wu reforms and anti-Chu strategy.",
+    "contribution": "吴国重臣，参与吴国改革和伐楚战略，是吴楚争霸中的关键人物。",
+    "contributionEn": "Key Wu minister involved in Wu reforms and anti-Chu strategy.",
+    "relatedTerritoryIds": [
+      "cliopatria_wu"
+    ],
+    "relatedEventIds": [
+      "boju_battle_506"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_goujian_yue",
+    "names": {
+      "primaryName": "King Goujian of Yue",
+      "localizedNames": {
+        "en": "King Goujian of Yue",
+        "zh-Hans": "越王勾践"
+      },
+      "aliases": [
+        "勾践"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -465,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前465年"
+    },
+    "activeRange": "465",
+    "roles": [
+      "ruler"
+    ],
+    "bioShort": "越国君主，长期复仇后灭吴，成为春秋末吴越争霸的终局人物。",
+    "bioShortEn": "Yue ruler who defeated Wu after long recovery and revenge, closing the Wu-Yue rivalry.",
+    "bioLong": "越国君主，长期复仇后灭吴，成为春秋末吴越争霸的终局人物。",
+    "bioLongEn": "Yue ruler who defeated Wu after long recovery and revenge, closing the Wu-Yue rivalry.",
+    "contribution": "越国君主，长期复仇后灭吴，成为春秋末吴越争霸的终局人物。",
+    "contributionEn": "Yue ruler who defeated Wu after long recovery and revenge, closing the Wu-Yue rivalry.",
+    "relatedTerritoryIds": [
+      "cliopatria_yue"
+    ],
+    "relatedEventIds": [
+      "yue_conquers_wu_473"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "confucius",
+    "names": {
+      "primaryName": "Confucius",
+      "localizedNames": {
+        "en": "Confucius",
+        "zh-Hans": "孔子"
+      },
+      "aliases": [
+        "孔丘"
+      ]
+    },
+    "birth": {
+      "year": -551,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前551年"
+    },
+    "death": {
+      "year": -479,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前479年"
+    },
+    "activeRange": "551 - -479",
+    "roles": [
+      "thinker"
+    ],
+    "bioShort": "春秋末鲁国思想家，他的政治理想回应了礼乐秩序崩解和诸侯争霸的时代。",
+    "bioShortEn": "Late Spring-Autumn thinker from Lu whose ideals responded to ritual-political breakdown and interstate competition.",
+    "bioLong": "春秋末鲁国思想家，他的政治理想回应了礼乐秩序崩解和诸侯争霸的时代。",
+    "bioLongEn": "Late Spring-Autumn thinker from Lu whose ideals responded to ritual-political breakdown and interstate competition.",
+    "contribution": "春秋末鲁国思想家，他的政治理想回应了礼乐秩序崩解和诸侯争霸的时代。",
+    "contributionEn": "Late Spring-Autumn thinker from Lu whose ideals responded to ritual-political breakdown and interstate competition.",
+    "relatedTerritoryIds": [
+      "cliopatria_lu"
+    ],
+    "relatedEventIds": [
+      "yue_conquers_wu_473"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_wu_zhou",
+    "names": {
+      "primaryName": "King Wu of Zhou",
+      "localizedNames": {
+        "en": "King Wu of Zhou",
+        "zh-Hans": "周武王"
+      },
+      "aliases": [
+        "姬发"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -1043,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前1043年"
+    },
+    "activeRange": "1043",
+    "roles": [
+      "king",
+      "founder"
+    ],
+    "bioShort": "周灭商的核心君主，牧野之战后开启西周王朝。",
+    "bioShortEn": "Founder-ruler of Zhou who overthrew Shang after the Battle of Muye.",
+    "bioLong": "周灭商的核心君主，牧野之战后开启西周王朝。",
+    "bioLongEn": "Founder-ruler of Zhou who overthrew Shang after the Battle of Muye.",
+    "contribution": "周灭商的核心君主，牧野之战后开启西周王朝。",
+    "contributionEn": "Founder-ruler of Zhou who overthrew Shang after the Battle of Muye.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "muye_battle_1046"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "jiang_zija",
+    "names": {
+      "primaryName": "Jiang Ziya",
+      "localizedNames": {
+        "en": "Jiang Ziya",
+        "zh-Hans": "姜子牙"
+      },
+      "aliases": [
+        "太公望",
+        "姜尚"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "",
+    "roles": [
+      "strategist"
+    ],
+    "bioShort": "周武王伐商的重要辅佐者，后世常被视为周初军事与政治谋略象征。",
+    "bioShortEn": "Strategist associated with King Wu's conquest of Shang and early Zhou political-military planning.",
+    "bioLong": "周武王伐商的重要辅佐者，后世常被视为周初军事与政治谋略象征。",
+    "bioLongEn": "Strategist associated with King Wu's conquest of Shang and early Zhou political-military planning.",
+    "contribution": "周武王伐商的重要辅佐者，后世常被视为周初军事与政治谋略象征。",
+    "contributionEn": "Strategist associated with King Wu's conquest of Shang and early Zhou political-military planning.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "muye_battle_1046"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "duke_of_zhou",
+    "names": {
+      "primaryName": "Duke of Zhou",
+      "localizedNames": {
+        "en": "Duke of Zhou",
+        "zh-Hans": "周公旦"
+      },
+      "aliases": [
+        "周公"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "",
+    "roles": [
+      "regent",
+      "statesman"
+    ],
+    "bioShort": "周成王时期摄政者，平定三监之乱并推动礼制与分封秩序。",
+    "bioShortEn": "Regent under King Cheng who suppressed rebellion and shaped ritual and enfeoffment order.",
+    "bioLong": "周成王时期摄政者，平定三监之乱并推动礼制与分封秩序。",
+    "bioLongEn": "Regent under King Cheng who suppressed rebellion and shaped ritual and enfeoffment order.",
+    "contribution": "周成王时期摄政者，平定三监之乱并推动礼制与分封秩序。",
+    "contributionEn": "Regent under King Cheng who suppressed rebellion and shaped ritual and enfeoffment order.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "duke_of_zhou_regency_1030"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_cheng_zhou",
+    "names": {
+      "primaryName": "King Cheng of Zhou",
+      "localizedNames": {
+        "en": "King Cheng of Zhou",
+        "zh-Hans": "周成王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -1021,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前1021年"
+    },
+    "activeRange": "1021",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "西周初年君主，在周公辅政后巩固周初秩序。",
+    "bioShortEn": "Early Western Zhou king whose reign consolidated Zhou order after the Duke of Zhou's regency.",
+    "bioLong": "西周初年君主，在周公辅政后巩固周初秩序。",
+    "bioLongEn": "Early Western Zhou king whose reign consolidated Zhou order after the Duke of Zhou's regency.",
+    "contribution": "西周初年君主，在周公辅政后巩固周初秩序。",
+    "contributionEn": "Early Western Zhou king whose reign consolidated Zhou order after the Duke of Zhou's regency.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "duke_of_zhou_regency_1030"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_kang_zhou",
+    "names": {
+      "primaryName": "King Kang of Zhou",
+      "localizedNames": {
+        "en": "King Kang of Zhou",
+        "zh-Hans": "周康王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -996,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前996年"
+    },
+    "activeRange": "996",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "西周成康时期君主，代表周初秩序稳定和王权扩展。",
+    "bioShortEn": "Western Zhou king associated with the stable Cheng-Kang period and royal expansion.",
+    "bioLong": "西周成康时期君主，代表周初秩序稳定和王权扩展。",
+    "bioLongEn": "Western Zhou king associated with the stable Cheng-Kang period and royal expansion.",
+    "contribution": "西周成康时期君主，代表周初秩序稳定和王权扩展。",
+    "contributionEn": "Western Zhou king associated with the stable Cheng-Kang period and royal expansion.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "cheng_kang_order_1000"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_zhao_zhou",
+    "names": {
+      "primaryName": "King Zhao of Zhou",
+      "localizedNames": {
+        "en": "King Zhao of Zhou",
+        "zh-Hans": "周昭王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -977,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前977年"
+    },
+    "activeRange": "977",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "西周中期君主，南征故事常被视为王权扩张与风险的象征。",
+    "bioShortEn": "Middle Western Zhou king whose southern campaign represents royal expansion and risk.",
+    "bioLong": "西周中期君主，南征故事常被视为王权扩张与风险的象征。",
+    "bioLongEn": "Middle Western Zhou king whose southern campaign represents royal expansion and risk.",
+    "contribution": "西周中期君主，南征故事常被视为王权扩张与风险的象征。",
+    "contributionEn": "Middle Western Zhou king whose southern campaign represents royal expansion and risk.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "king_zhao_southern_campaign_977"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_li_zhou",
+    "names": {
+      "primaryName": "King Li of Zhou",
+      "localizedNames": {
+        "en": "King Li of Zhou",
+        "zh-Hans": "周厉王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -828,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前828年"
+    },
+    "activeRange": "828",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "西周晚期君主，其暴政和国人暴动导致共和行政。",
+    "bioShortEn": "Late Western Zhou king whose misrule and popular uprising led to the Gonghe regency.",
+    "bioLong": "西周晚期君主，其暴政和国人暴动导致共和行政。",
+    "bioLongEn": "Late Western Zhou king whose misrule and popular uprising led to the Gonghe regency.",
+    "contribution": "西周晚期君主，其暴政和国人暴动导致共和行政。",
+    "contributionEn": "Late Western Zhou king whose misrule and popular uprising led to the Gonghe regency.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "gonghe_regency_841"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_xuan_zhou",
+    "names": {
+      "primaryName": "King Xuan of Zhou",
+      "localizedNames": {
+        "en": "King Xuan of Zhou",
+        "zh-Hans": "周宣王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -782,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前782年"
+    },
+    "activeRange": "782",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "共和之后的西周君主，推动短暂复兴但未能扭转长期衰势。",
+    "bioShortEn": "Western Zhou king after Gonghe who led a short revival but could not reverse long decline.",
+    "bioLong": "共和之后的西周君主，推动短暂复兴但未能扭转长期衰势。",
+    "bioLongEn": "Western Zhou king after Gonghe who led a short revival but could not reverse long decline.",
+    "contribution": "共和之后的西周君主，推动短暂复兴但未能扭转长期衰势。",
+    "contributionEn": "Western Zhou king after Gonghe who led a short revival but could not reverse long decline.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "king_xuan_restoration_828"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "king_you_zhou",
+    "names": {
+      "primaryName": "King You of Zhou",
+      "localizedNames": {
+        "en": "King You of Zhou",
+        "zh-Hans": "周幽王"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -771,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元前771年"
+    },
+    "activeRange": "771",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "西周末代君主，犬戎破镐京后西周结束。",
+    "bioShortEn": "Last Western Zhou king; Western Zhou ended after Quanrong sacked Haojing.",
+    "bioLong": "西周末代君主，犬戎破镐京后西周结束。",
+    "bioLongEn": "Last Western Zhou king; Western Zhou ended after Quanrong sacked Haojing.",
+    "contribution": "西周末代君主，犬戎破镐京后西周结束。",
+    "contributionEn": "Last Western Zhou king; Western Zhou ended after Quanrong sacked Haojing.",
+    "relatedTerritoryIds": [
+      "cliopatria_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "fall_of_western_zhou_771"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_yang_sui",
+    "names": {
+      "primaryName": "Emperor Yang of Sui",
+      "localizedNames": {
+        "en": "Emperor Yang of Sui",
+        "zh-Hans": "隋炀帝"
+      },
+      "aliases": [
+        "杨广"
+      ]
+    },
+    "birth": {
+      "year": 569,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元569年"
+    },
+    "death": {
+      "year": 618,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元618年"
+    },
+    "activeRange": "569 - 618",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "隋朝第二位皇帝，大运河和高句丽战争等高强度动员加速隋末危机。",
+    "bioShortEn": "Second Sui emperor whose Grand Canal projects and Goguryeo wars intensified late Sui crisis.",
+    "bioLong": "隋朝第二位皇帝，大运河和高句丽战争等高强度动员加速隋末危机。",
+    "bioLongEn": "Second Sui emperor whose Grand Canal projects and Goguryeo wars intensified late Sui crisis.",
+    "contribution": "隋朝第二位皇帝，大运河和高句丽战争等高强度动员加速隋末危机。",
+    "contributionEn": "Second Sui emperor whose Grand Canal projects and Goguryeo wars intensified late Sui crisis.",
+    "relatedTerritoryIds": [
+      "sui_dynasty"
+    ],
+    "relatedEventIds": [
+      "sui_late_overextension_617"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_yuan",
+    "names": {
+      "primaryName": "Li Yuan (Emperor Gaozu of Tang)",
+      "localizedNames": {
+        "en": "Li Yuan (Emperor Gaozu of Tang)",
+        "zh-Hans": "李渊（唐高祖）"
+      },
+      "aliases": [
+        "唐高祖"
+      ]
+    },
+    "birth": {
+      "year": 566,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元566年"
+    },
+    "death": {
+      "year": 635,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元635年"
+    },
+    "activeRange": "566 - 635",
+    "roles": [
+      "founder",
+      "emperor"
+    ],
+    "bioShort": "唐朝开国皇帝，在隋末起兵并建立唐朝。",
+    "bioShortEn": "Founder of Tang who rose during the late Sui crisis and established the dynasty.",
+    "bioLong": "唐朝开国皇帝，在隋末起兵并建立唐朝。",
+    "bioLongEn": "Founder of Tang who rose during the late Sui crisis and established the dynasty.",
+    "contribution": "唐朝开国皇帝，在隋末起兵并建立唐朝。",
+    "contributionEn": "Founder of Tang who rose during the late Sui crisis and established the dynasty.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "tang_founding_618"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_shimin",
+    "names": {
+      "primaryName": "Li Shimin (Emperor Taizong of Tang)",
+      "localizedNames": {
+        "en": "Li Shimin (Emperor Taizong of Tang)",
+        "zh-Hans": "李世民（唐太宗）"
+      },
+      "aliases": [
+        "唐太宗"
+      ]
+    },
+    "birth": {
+      "year": 598,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元598年"
+    },
+    "death": {
+      "year": 649,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元649年"
+    },
+    "activeRange": "598 - 649",
+    "roles": [
+      "emperor",
+      "general"
+    ],
+    "bioShort": "唐太宗，玄武门之变后即位，推动唐初统一和贞观之治。",
+    "bioShortEn": "Emperor Taizong, who came to power after Xuanwu Gate and drove early Tang consolidation and Zhenguan governance.",
+    "bioLong": "唐太宗，玄武门之变后即位，推动唐初统一和贞观之治。",
+    "bioLongEn": "Emperor Taizong, who came to power after Xuanwu Gate and drove early Tang consolidation and Zhenguan governance.",
+    "contribution": "唐太宗，玄武门之变后即位，推动唐初统一和贞观之治。",
+    "contributionEn": "Emperor Taizong, who came to power after Xuanwu Gate and drove early Tang consolidation and Zhenguan governance.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "xuanwu_gate_626",
+      "tang_unification_630",
+      "taizong_zhenguan_649"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "empress_wu",
+    "names": {
+      "primaryName": "Wu Zetian",
+      "localizedNames": {
+        "en": "Wu Zetian",
+        "zh-Hans": "武则天"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 624,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元624年"
+    },
+    "death": {
+      "year": 705,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元705年"
+    },
+    "activeRange": "624 - 705",
+    "roles": [
+      "empress",
+      "emperor"
+    ],
+    "bioShort": "唐高宗后掌权，建立武周，延续并重组唐前期政治结构。",
+    "bioShortEn": "Ruler who founded Wu Zhou, continuing and reshaping early Tang political structures.",
+    "bioLong": "唐高宗后掌权，建立武周，延续并重组唐前期政治结构。",
+    "bioLongEn": "Ruler who founded Wu Zhou, continuing and reshaping early Tang political structures.",
+    "contribution": "唐高宗后掌权，建立武周，延续并重组唐前期政治结构。",
+    "contributionEn": "Ruler who founded Wu Zhou, continuing and reshaping early Tang political structures.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "wu_zhou_transition_690"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xuanzong_tang",
+    "names": {
+      "primaryName": "Emperor Xuanzong of Tang",
+      "localizedNames": {
+        "en": "Emperor Xuanzong of Tang",
+        "zh-Hans": "唐玄宗"
+      },
+      "aliases": [
+        "李隆基"
+      ]
+    },
+    "birth": {
+      "year": 685,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元685年"
+    },
+    "death": {
+      "year": 762,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元762年"
+    },
+    "activeRange": "685 - 762",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "唐玄宗，开元时期推动盛唐顶峰，天宝后期转入安史危机。",
+    "bioShortEn": "Tang emperor whose Kaiyuan era marked High Tang prosperity before the Tianbao crisis and An Lushan rebellion.",
+    "bioLong": "唐玄宗，开元时期推动盛唐顶峰，天宝后期转入安史危机。",
+    "bioLongEn": "Tang emperor whose Kaiyuan era marked High Tang prosperity before the Tianbao crisis and An Lushan rebellion.",
+    "contribution": "唐玄宗，开元时期推动盛唐顶峰，天宝后期转入安史危机。",
+    "contributionEn": "Tang emperor whose Kaiyuan era marked High Tang prosperity before the Tianbao crisis and An Lushan rebellion.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "xuanzong_kaiyuan_713",
+      "high_tang_kaiyuan_742",
+      "an_lushan_rebellion_755"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "an_lushan",
+    "names": {
+      "primaryName": "An Lushan",
+      "localizedNames": {
+        "en": "An Lushan",
+        "zh-Hans": "安禄山"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 703,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元703年"
+    },
+    "death": {
+      "year": 757,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元757年"
+    },
+    "activeRange": "703 - 757",
+    "roles": [
+      "general",
+      "rebel_leader"
+    ],
+    "bioShort": "唐边镇将领，发动安史之乱，成为唐朝由盛转衰的关键人物。",
+    "bioShortEn": "Frontier general whose rebellion marked Tang decline from high prosperity.",
+    "bioLong": "唐边镇将领，发动安史之乱，成为唐朝由盛转衰的关键人物。",
+    "bioLongEn": "Frontier general whose rebellion marked Tang decline from high prosperity.",
+    "contribution": "唐边镇将领，发动安史之乱，成为唐朝由盛转衰的关键人物。",
+    "contributionEn": "Frontier general whose rebellion marked Tang decline from high prosperity.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "an_lushan_rebellion_755"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "guo_ziyi",
+    "names": {
+      "primaryName": "Guo Ziyi",
+      "localizedNames": {
+        "en": "Guo Ziyi",
+        "zh-Hans": "郭子仪"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 697,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元697年"
+    },
+    "death": {
+      "year": 781,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元781年"
+    },
+    "activeRange": "697 - 781",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "唐代名将，在安史之乱平定和中唐恢复中发挥关键作用。",
+    "bioShortEn": "Tang general crucial to suppressing the An Lushan rebellion and stabilizing mid-Tang order.",
+    "bioLong": "唐代名将，在安史之乱平定和中唐恢复中发挥关键作用。",
+    "bioLongEn": "Tang general crucial to suppressing the An Lushan rebellion and stabilizing mid-Tang order.",
+    "contribution": "唐代名将，在安史之乱平定和中唐恢复中发挥关键作用。",
+    "contributionEn": "Tang general crucial to suppressing the An Lushan rebellion and stabilizing mid-Tang order.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "tang_wartime_recovery_763",
+      "tibetan_capture_changan_763"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "huang_chao",
+    "names": {
+      "primaryName": "Huang Chao",
+      "localizedNames": {
+        "en": "Huang Chao",
+        "zh-Hans": "黄巢"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": 884,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元884年"
+    },
+    "activeRange": "884",
+    "roles": [
+      "rebel_leader"
+    ],
+    "bioShort": "唐末起义领袖，其起义严重冲击唐朝财政、城市和地方秩序。",
+    "bioShortEn": "Late Tang rebel leader whose uprising devastated Tang finances, cities, and local order.",
+    "bioLong": "唐末起义领袖，其起义严重冲击唐朝财政、城市和地方秩序。",
+    "bioLongEn": "Late Tang rebel leader whose uprising devastated Tang finances, cities, and local order.",
+    "contribution": "唐末起义领袖，其起义严重冲击唐朝财政、城市和地方秩序。",
+    "contributionEn": "Late Tang rebel leader whose uprising devastated Tang finances, cities, and local order.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "huang_chao_changan_881",
+      "huang_chao_rebellion_875"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhu_wen",
+    "names": {
+      "primaryName": "Zhu Wen",
+      "localizedNames": {
+        "en": "Zhu Wen",
+        "zh-Hans": "朱温"
+      },
+      "aliases": [
+        "朱全忠"
+      ]
+    },
+    "birth": {
+      "year": 852,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元852年"
+    },
+    "death": {
+      "year": 912,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元912年"
+    },
+    "activeRange": "852 - 912",
+    "roles": [
+      "warlord",
+      "founder"
+    ],
+    "bioShort": "唐末军阀，最终篡唐建立后梁，开启五代十国。",
+    "bioShortEn": "Late Tang warlord who replaced Tang with Later Liang, opening the Five Dynasties period.",
+    "bioLong": "唐末军阀，最终篡唐建立后梁，开启五代十国。",
+    "bioLongEn": "Late Tang warlord who replaced Tang with Later Liang, opening the Five Dynasties period.",
+    "contribution": "唐末军阀，最终篡唐建立后梁，开启五代十国。",
+    "contributionEn": "Late Tang warlord who replaced Tang with Later Liang, opening the Five Dynasties period.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "tang_fall_907",
+      "zhaozong_warlord_capture_904"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_suzong_tang",
+    "names": {
+      "primaryName": "Emperor Suzong of Tang",
+      "localizedNames": {
+        "en": "Emperor Suzong of Tang",
+        "zh-Hans": "唐肃宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 711,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元711年"
+    },
+    "death": {
+      "year": 762,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元762年"
+    },
+    "activeRange": "711 - 762",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "安史之乱中即位，依靠将领和回鹘等力量收复两京，开启战后唐朝。",
+    "bioShortEn": "Tang emperor during the An Lushan rebellion who relied on generals and Uyghur support to recover the capitals.",
+    "bioLong": "安史之乱中即位，依靠将领和回鹘等力量收复两京，开启战后唐朝。",
+    "bioLongEn": "Tang emperor during the An Lushan rebellion who relied on generals and Uyghur support to recover the capitals.",
+    "contribution": "安史之乱中即位，依靠将领和回鹘等力量收复两京，开启战后唐朝。",
+    "contributionEn": "Tang emperor during the An Lushan rebellion who relied on generals and Uyghur support to recover the capitals.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "tang_wartime_recovery_763"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_daizong_tang",
+    "names": {
+      "primaryName": "Emperor Daizong of Tang",
+      "localizedNames": {
+        "en": "Emperor Daizong of Tang",
+        "zh-Hans": "唐代宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 727,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元727年"
+    },
+    "death": {
+      "year": 779,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元779年"
+    },
+    "activeRange": "727 - 779",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "安史之后的皇帝，面对吐蕃、回鹘与藩镇问题，唐朝进入战后重组。",
+    "bioShortEn": "Post-An Lushan emperor facing Tibet, Uyghurs, and military governors as Tang entered reconstruction.",
+    "bioLong": "安史之后的皇帝，面对吐蕃、回鹘与藩镇问题，唐朝进入战后重组。",
+    "bioLongEn": "Post-An Lushan emperor facing Tibet, Uyghurs, and military governors as Tang entered reconstruction.",
+    "contribution": "安史之后的皇帝，面对吐蕃、回鹘与藩镇问题，唐朝进入战后重组。",
+    "contributionEn": "Post-An Lushan emperor facing Tibet, Uyghurs, and military governors as Tang entered reconstruction.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "tang_wartime_recovery_763"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_dezong_tang",
+    "names": {
+      "primaryName": "Emperor Dezong of Tang",
+      "localizedNames": {
+        "en": "Emperor Dezong of Tang",
+        "zh-Hans": "唐德宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 742,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元742年"
+    },
+    "death": {
+      "year": 805,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元805年"
+    },
+    "activeRange": "742 - 805",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "试图削藩和财政改革，却在建中靖难与奉天之难中暴露中央脆弱。",
+    "bioShortEn": "Tang emperor who attempted military-governor and fiscal reforms, but the Jianzhong/Fengtian crisis exposed central weakness.",
+    "bioLong": "试图削藩和财政改革，却在建中靖难与奉天之难中暴露中央脆弱。",
+    "bioLongEn": "Tang emperor who attempted military-governor and fiscal reforms, but the Jianzhong/Fengtian crisis exposed central weakness.",
+    "contribution": "试图削藩和财政改革，却在建中靖难与奉天之难中暴露中央脆弱。",
+    "contributionEn": "Tang emperor who attempted military-governor and fiscal reforms, but the Jianzhong/Fengtian crisis exposed central weakness.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "dezong_fengtian_crisis_783"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xianzong_tang",
+    "names": {
+      "primaryName": "Emperor Xianzong of Tang",
+      "localizedNames": {
+        "en": "Emperor Xianzong of Tang",
+        "zh-Hans": "唐宪宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 778,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元778年"
+    },
+    "death": {
+      "year": 820,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元820年"
+    },
+    "activeRange": "778 - 820",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "推动元和削藩，短暂恢复中央威权，被视为中唐中兴代表。",
+    "bioShortEn": "Tang emperor who pushed Yuanhe campaigns against military governors and briefly restored central authority.",
+    "bioLong": "推动元和削藩，短暂恢复中央威权，被视为中唐中兴代表。",
+    "bioLongEn": "Tang emperor who pushed Yuanhe campaigns against military governors and briefly restored central authority.",
+    "contribution": "推动元和削藩，短暂恢复中央威权，被视为中唐中兴代表。",
+    "contributionEn": "Tang emperor who pushed Yuanhe campaigns against military governors and briefly restored central authority.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "xianzong_yuanhe_restoration_817"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_muzong_tang",
+    "names": {
+      "primaryName": "Emperor Muzong of Tang",
+      "localizedNames": {
+        "en": "Emperor Muzong of Tang",
+        "zh-Hans": "唐穆宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 795,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元795年"
+    },
+    "death": {
+      "year": 824,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元824年"
+    },
+    "activeRange": "795 - 824",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "宪宗之后即位，元和削藩成果迅速松动，河朔藩镇复起。",
+    "bioShortEn": "Succeeded Xianzong; the gains of Yuanhe campaigns quickly loosened and Hebei military governors revived.",
+    "bioLong": "宪宗之后即位，元和削藩成果迅速松动，河朔藩镇复起。",
+    "bioLongEn": "Succeeded Xianzong; the gains of Yuanhe campaigns quickly loosened and Hebei military governors revived.",
+    "contribution": "宪宗之后即位，元和削藩成果迅速松动，河朔藩镇复起。",
+    "contributionEn": "Succeeded Xianzong; the gains of Yuanhe campaigns quickly loosened and Hebei military governors revived.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "post_yuanhe_reversal_820"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_wuzong_tang",
+    "names": {
+      "primaryName": "Emperor Wuzong of Tang",
+      "localizedNames": {
+        "en": "Emperor Wuzong of Tang",
+        "zh-Hans": "唐武宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 814,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元814年"
+    },
+    "death": {
+      "year": 846,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元846年"
+    },
+    "activeRange": "814 - 846",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "会昌时期皇帝，处理回鹘崩溃后的北方局势，并推行会昌灭佛。",
+    "bioShortEn": "Huichang emperor who handled northern shifts after Uyghur collapse and launched the Huichang suppression of Buddhism.",
+    "bioLong": "会昌时期皇帝，处理回鹘崩溃后的北方局势，并推行会昌灭佛。",
+    "bioLongEn": "Huichang emperor who handled northern shifts after Uyghur collapse and launched the Huichang suppression of Buddhism.",
+    "contribution": "会昌时期皇帝，处理回鹘崩溃后的北方局势，并推行会昌灭佛。",
+    "contributionEn": "Huichang emperor who handled northern shifts after Uyghur collapse and launched the Huichang suppression of Buddhism.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "wuzong_huichang_845"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xuanzong_late_tang",
+    "names": {
+      "primaryName": "Emperor Xuanzong of Tang",
+      "localizedNames": {
+        "en": "Emperor Xuanzong of Tang",
+        "zh-Hans": "唐宣宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 810,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元810年"
+    },
+    "death": {
+      "year": 859,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元859年"
+    },
+    "activeRange": "810 - 859",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "晚唐较有作为的皇帝，常被称为小太宗，但中兴空间有限。",
+    "bioShortEn": "Relatively capable late Tang emperor often called “Little Taizong,” though his room for restoration was limited.",
+    "bioLong": "晚唐较有作为的皇帝，常被称为小太宗，但中兴空间有限。",
+    "bioLongEn": "Relatively capable late Tang emperor often called “Little Taizong,” though his room for restoration was limited.",
+    "contribution": "晚唐较有作为的皇帝，常被称为小太宗，但中兴空间有限。",
+    "contributionEn": "Relatively capable late Tang emperor often called “Little Taizong,” though his room for restoration was limited.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "late_xuanzong_yizong_decline_859"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_yizong_tang",
+    "names": {
+      "primaryName": "Emperor Yizong of Tang",
+      "localizedNames": {
+        "en": "Emperor Yizong of Tang",
+        "zh-Hans": "唐懿宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 833,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元833年"
+    },
+    "death": {
+      "year": 873,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元873年"
+    },
+    "activeRange": "833 - 873",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "唐末皇帝，财政与地方秩序继续恶化，为黄巢起义前夜铺垫。",
+    "bioShortEn": "Late Tang emperor under whom fiscal and local order worsened before Huang Chao.",
+    "bioLong": "唐末皇帝，财政与地方秩序继续恶化，为黄巢起义前夜铺垫。",
+    "bioLongEn": "Late Tang emperor under whom fiscal and local order worsened before Huang Chao.",
+    "contribution": "唐末皇帝，财政与地方秩序继续恶化，为黄巢起义前夜铺垫。",
+    "contributionEn": "Late Tang emperor under whom fiscal and local order worsened before Huang Chao.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "late_xuanzong_yizong_decline_859"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xizong_tang",
+    "names": {
+      "primaryName": "Emperor Xizong of Tang",
+      "localizedNames": {
+        "en": "Emperor Xizong of Tang",
+        "zh-Hans": "唐僖宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 862,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元862年"
+    },
+    "death": {
+      "year": 888,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元888年"
+    },
+    "activeRange": "862 - 888",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "黄巢起义时期皇帝，长安失陷后出逃，朝廷依赖军阀收拾残局。",
+    "bioShortEn": "Tang emperor during Huang Chao; fled after Chang’an fell and relied on warlords.",
+    "bioLong": "黄巢起义时期皇帝，长安失陷后出逃，朝廷依赖军阀收拾残局。",
+    "bioLongEn": "Tang emperor during Huang Chao; fled after Chang’an fell and relied on warlords.",
+    "contribution": "黄巢起义时期皇帝，长安失陷后出逃，朝廷依赖军阀收拾残局。",
+    "contributionEn": "Tang emperor during Huang Chao; fled after Chang’an fell and relied on warlords.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "huang_chao_changan_881"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_zhaozong_tang",
+    "names": {
+      "primaryName": "Emperor Zhaozong of Tang",
+      "localizedNames": {
+        "en": "Emperor Zhaozong of Tang",
+        "zh-Hans": "唐昭宗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 867,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元867年"
+    },
+    "death": {
+      "year": 904,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元904年"
+    },
+    "activeRange": "867 - 904",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "唐末皇帝，试图摆脱军阀控制但最终被朱温挟持并遇害。",
+    "bioShortEn": "Late Tang emperor who tried to escape warlord control but was dominated and killed by Zhu Wen.",
+    "bioLong": "唐末皇帝，试图摆脱军阀控制但最终被朱温挟持并遇害。",
+    "bioLongEn": "Late Tang emperor who tried to escape warlord control but was dominated and killed by Zhu Wen.",
+    "contribution": "唐末皇帝，试图摆脱军阀控制但最终被朱温挟持并遇害。",
+    "contributionEn": "Late Tang emperor who tried to escape warlord control but was dominated and killed by Zhu Wen.",
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "relatedEventIds": [
+      "zhaozong_warlord_capture_904",
+      "tang_fall_907"
     ],
     "birthPlaceId": "",
     "deathPlaceId": "",

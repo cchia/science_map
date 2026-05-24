@@ -24,7 +24,47 @@ CLIOPATRIA_ZIP_URL = (
     "cliopatria.geojson.zip"
 )
 MIN_AREA_KM2 = 100_000
+EARLY_WORLD_CONTEXT_MIN_AREA_KM2 = 25_000
 SIXTEEN_KINGDOMS_MIN_AREA_KM2 = 30_000
+WARRING_STATES_MIN_AREA_KM2 = 3_000
+WARRING_STATES_POLITIES = {
+    "Qin",
+    "Zhao",
+    "Wei",
+    "Han",
+    "Yan",
+    "Chu",
+    "Qi",
+    "Song",
+    "Lu",
+    "Zheng",
+    "Wey",
+    "Later Zhou",
+    "Xu",
+    "Yue",
+}
+SPRING_AUTUMN_MIN_AREA_KM2 = 2_500
+SPRING_AUTUMN_POLITIES = {
+    "Zhou Dynasty",
+    "Qin",
+    "Jin",
+    "Qi",
+    "Chu",
+    "Wu",
+    "Yue",
+    "Yan",
+    "Lu",
+    "Song",
+    "Zheng",
+    "Wey",
+    "Cai",
+    "Chen",
+    "Cao",
+    "Teng",
+    "Xu",
+    "Zhu",
+    "Later Zhou",
+}
 SIXTEEN_KINGDOMS_POLITIES = {
     "Cheng Han",
     "Former Zhao",
@@ -117,8 +157,14 @@ def is_direct_polity(properties: dict, year: int) -> bool:
     if name == "Han Dynasty" and year > 220:
         return False
     area = properties.get("Area") or 0
+    if -770 <= year <= -451 and name in SPRING_AUTUMN_POLITIES:
+        return area >= SPRING_AUTUMN_MIN_AREA_KM2
+    if -475 <= year <= -221 and name in WARRING_STATES_POLITIES:
+        return area >= WARRING_STATES_MIN_AREA_KM2
     if 300 <= year <= 450 and name in SIXTEEN_KINGDOMS_POLITIES:
         return area >= SIXTEEN_KINGDOMS_MIN_AREA_KM2
+    if year <= -700:
+        return area >= EARLY_WORLD_CONTEXT_MIN_AREA_KM2
     return area >= MIN_AREA_KM2
 
 
@@ -127,6 +173,8 @@ def territory_id_for(name: str, year: int, territories_by_primary_name: dict) ->
         return "cliopatria_eastern_jin"
     if name == "Han Dynasty":
         return "western_han" if year <= 5 else "eastern_han"
+    if name == "Han" and year <= -221:
+        return "cliopatria_han_state"
     if name == "Qin Dynasty":
         return "qin"
     if name == "Xin Dynasty":

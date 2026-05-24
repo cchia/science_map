@@ -1,5 +1,1446 @@
 [
   {
+    "id": "western_zhou_story",
+    "title_zh": "西周：分封天下与王权衰落",
+    "title_en": "Western Zhou: Enfeoffing the Realm and Royal Decline",
+    "emoji": "鼎",
+    "theme_type": "dynastic_transition",
+    "description_zh": "从周武王灭商开始，讲周公摄政、成康之治、昭王南征、共和行政、宣王中兴，到犬戎破镐京和周室东迁。",
+    "description_en": "From King Wu conquering Shang through the Duke of Zhou, Cheng-Kang order, King Zhao's southern campaign, Gonghe regency, King Xuan's restoration, and the fall of Haojing.",
+    "source_note_zh": "地图边界使用 Cliopatria 商朝/周王朝参考层；西周分封细节暂无逐侯国边界。",
+    "source_note_en": "Map boundaries use Cliopatria Shang/Zhou Dynasty reference layers; detailed Western Zhou enfeoffed-state boundaries are not available here.",
+    "events": [
+      "muye_battle_1046",
+      "duke_of_zhou_regency_1030",
+      "cheng_kang_order_1000",
+      "king_zhao_southern_campaign_977",
+      "gonghe_regency_841",
+      "king_xuan_restoration_828",
+      "fall_of_western_zhou_771"
+    ],
+    "people": [
+      "king_wu_zhou",
+      "jiang_zija",
+      "duke_of_zhou",
+      "king_cheng_zhou",
+      "king_kang_zhou",
+      "king_zhao_zhou",
+      "king_li_zhou",
+      "king_xuan_zhou",
+      "king_you_zhou",
+      "king_ping_zhou"
+    ],
+    "territories": [
+      "cliopatria_shang_dynasty",
+      "cliopatria_zhou_dynasty"
+    ],
+    "route_points": [
+      {
+        "id": "muye_1046",
+        "label_zh": "-1046：牧野灭商",
+        "label_en": "-1046: Muye Conquest",
+        "year": -1046,
+        "place_id": "",
+        "lat": 35.0,
+        "lng": 114.0,
+        "note_zh": "周武王伐商，商周转换。",
+        "note_en": "King Wu conquered Shang, beginning the Shang-Zhou transition."
+      },
+      {
+        "id": "duke_zhou_1030",
+        "label_zh": "-1000：周公与周初制度",
+        "label_en": "-1000: Duke of Zhou and Early Institutions",
+        "year": -1000,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "周公把征服转化为制度秩序。",
+        "note_en": "The Duke of Zhou turned conquest into institutional order."
+      },
+      {
+        "id": "cheng_kang_1000",
+        "label_zh": "-1000：成康之治",
+        "label_en": "-1000: Cheng-Kang Order",
+        "year": -1000,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "西周早期稳定的理想形态。",
+        "note_en": "The ideal of early Western Zhou stability."
+      },
+      {
+        "id": "zhao_977",
+        "label_zh": "-977：昭王南征",
+        "label_en": "-977: King Zhao Campaign",
+        "year": -977,
+        "place_id": "",
+        "lat": 30.5,
+        "lng": 113.0,
+        "note_zh": "王权扩张也带来消耗。",
+        "note_en": "Royal expansion also brought strain."
+      },
+      {
+        "id": "gonghe_841",
+        "label_zh": "-841：共和行政",
+        "label_en": "-841: Gonghe Regency",
+        "year": -841,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "厉王失政后王权危机公开化。",
+        "note_en": "Royal crisis became explicit after King Li."
+      },
+      {
+        "id": "xuan_828",
+        "label_zh": "-828：宣王中兴",
+        "label_en": "-828: King Xuan Restoration",
+        "year": -828,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "短暂修复难逆长期衰势。",
+        "note_en": "Short restoration could not reverse long decline."
+      },
+      {
+        "id": "fall_771",
+        "label_zh": "-771：西周结束",
+        "label_en": "-771: Fall of Western Zhou",
+        "year": -771,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "犬戎破镐京，东迁前夜。",
+        "note_en": "Quanrong sacked Haojing, eve of eastward move."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "muye_1046",
+        "title_zh": "牧野之战：商周转换的起点",
+        "title_en": "Muye: Starting Point of Shang-Zhou Transition",
+        "year": -1046,
+        "event_id": "muye_battle_1046",
+        "route_point_id": "muye_1046",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 112.0,
+          "zoom": 4.2
+        },
+        "script_zh": "西周故事从周灭商开始。地图在这一年仍显示商朝旧边界，因为 Cliopatria 的周王朝大层从 -1000 才开始；这反而适合表现周人是在商朝旧秩序上完成替代。",
+        "script_en": "The Western Zhou story begins with Zhou conquering Shang. The map still shows Shang at this year because Cliopatria's Zhou layer begins at -1000; this usefully shows Zhou replacing the old Shang order.",
+        "scene_setting_zh": "牧野之战：商周转换的起点",
+        "scene_setting_en": "Muye: Starting Point of Shang-Zhou Transition",
+        "character_beat_zh": "周王权的制度能力和结构压力在这一节点变化。",
+        "character_beat_en": "Zhou royal institutional capacity and structural pressure change at this node.",
+        "story_question_zh": "西周如何把征服变成天下秩序，又为什么走向东迁？",
+        "story_question_en": "How did Western Zhou turn conquest into order, and why did it move east?",
+        "active_character_ids": [
+          "wu",
+          "jiang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "duke_zhou_1030",
+        "title_zh": "周公摄政：把征服变成秩序",
+        "title_en": "Duke of Zhou: Turning Conquest into Order",
+        "year": -1000,
+        "event_id": "duke_of_zhou_regency_1030",
+        "route_point_id": "duke_zhou_1030",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 112.0,
+          "zoom": 4.2
+        },
+        "script_zh": "周初真正困难的是治理。周公摄政、平定危机、推动分封与礼制，让周人把一次军事胜利变成可持续的天下结构；地图使用 -1000 的周王朝参考层代表这一制度化阶段。",
+        "script_en": "The real early Zhou challenge was governance. The Duke of Zhou's regency, crisis suppression, enfeoffment, and ritual order turned military victory into a sustainable realm; the map uses the 1000 BCE Zhou layer for this institutionalization phase.",
+        "scene_setting_zh": "周公摄政：把征服变成秩序",
+        "scene_setting_en": "Duke of Zhou: Turning Conquest into Order",
+        "character_beat_zh": "周王权的制度能力和结构压力在这一节点变化。",
+        "character_beat_en": "Zhou royal institutional capacity and structural pressure change at this node.",
+        "story_question_zh": "西周如何把征服变成天下秩序，又为什么走向东迁？",
+        "story_question_en": "How did Western Zhou turn conquest into order, and why did it move east?",
+        "active_character_ids": [
+          "zhougong",
+          "cheng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "cheng_kang_1000",
+        "title_zh": "成康之治：分封天下的理想状态",
+        "title_en": "Cheng-Kang Order: Ideal of Enfeoffed Realm",
+        "year": -1000,
+        "event_id": "cheng_kang_order_1000",
+        "route_point_id": "cheng_kang_1000",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 112.0,
+          "zoom": 4.2
+        },
+        "script_zh": "成康时期象征西周制度的稳定状态：王室居中，诸侯屏藩，宗法和礼制把政治关系解释为亲族等级。",
+        "script_en": "The Cheng-Kang period symbolizes stable Western Zhou institutions: royal center, protective lords, and lineage-ritual hierarchy.",
+        "scene_setting_zh": "成康之治：分封天下的理想状态",
+        "scene_setting_en": "Cheng-Kang Order: Ideal of Enfeoffed Realm",
+        "character_beat_zh": "周王权的制度能力和结构压力在这一节点变化。",
+        "character_beat_en": "Zhou royal institutional capacity and structural pressure change at this node.",
+        "story_question_zh": "西周如何把征服变成天下秩序，又为什么走向东迁？",
+        "story_question_en": "How did Western Zhou turn conquest into order, and why did it move east?",
+        "active_character_ids": [
+          "cheng",
+          "kang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "zhao_977",
+        "title_zh": "昭王南征：王权扩张的边界",
+        "title_en": "King Zhao Campaign: Limits of Royal Expansion",
+        "year": -977,
+        "event_id": "king_zhao_southern_campaign_977",
+        "route_point_id": "zhao_977",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 112.0,
+          "zoom": 4.2
+        },
+        "script_zh": "昭王南征故事提醒我们，地图上的周王朝大范围不等于每一处都有稳定控制。西周王权在扩张中也开始承受军事和财政消耗。",
+        "script_en": "King Zhao's campaign reminds us that a broad Zhou map does not mean stable control everywhere. Royal expansion also created military and fiscal strain.",
+        "scene_setting_zh": "昭王南征：王权扩张的边界",
+        "scene_setting_en": "King Zhao Campaign: Limits of Royal Expansion",
+        "character_beat_zh": "周王权的制度能力和结构压力在这一节点变化。",
+        "character_beat_en": "Zhou royal institutional capacity and structural pressure change at this node.",
+        "story_question_zh": "西周如何把征服变成天下秩序，又为什么走向东迁？",
+        "story_question_en": "How did Western Zhou turn conquest into order, and why did it move east?",
+        "active_character_ids": [
+          "zhao"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "gonghe_841",
+        "title_zh": "共和行政：王权危机公开化",
+        "title_en": "Gonghe Regency: Royal Crisis Becomes Public",
+        "year": -841,
+        "event_id": "gonghe_regency_841",
+        "route_point_id": "gonghe_841",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 112.0,
+          "zoom": 4.2
+        },
+        "script_zh": "厉王失政引发国人暴动，共和行政让西周王权危机公开化。分封和礼制还在，但王室威望已明显受损。",
+        "script_en": "King Li's misrule led to uprising and Gonghe made royal crisis public. Enfeoffment and ritual order remained, but royal prestige was damaged.",
+        "scene_setting_zh": "共和行政：王权危机公开化",
+        "scene_setting_en": "Gonghe Regency: Royal Crisis Becomes Public",
+        "character_beat_zh": "周王权的制度能力和结构压力在这一节点变化。",
+        "character_beat_en": "Zhou royal institutional capacity and structural pressure change at this node.",
+        "story_question_zh": "西周如何把征服变成天下秩序，又为什么走向东迁？",
+        "story_question_en": "How did Western Zhou turn conquest into order, and why did it move east?",
+        "active_character_ids": [
+          "li"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "xuan_828",
+        "title_zh": "宣王中兴：一次未能根治的修补",
+        "title_en": "King Xuan Restoration: Repair Without Cure",
+        "year": -828,
+        "event_id": "king_xuan_restoration_828",
+        "route_point_id": "xuan_828",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 112.0,
+          "zoom": 4.2
+        },
+        "script_zh": "宣王中兴恢复了一部分王室声望，但它更像修补而不是重建。西周长期衰势并没有被根本扭转。",
+        "script_en": "King Xuan restored some royal prestige, but it was repair rather than reconstruction. Western Zhou long decline was not fundamentally reversed.",
+        "scene_setting_zh": "宣王中兴：一次未能根治的修补",
+        "scene_setting_en": "King Xuan Restoration: Repair Without Cure",
+        "character_beat_zh": "周王权的制度能力和结构压力在这一节点变化。",
+        "character_beat_en": "Zhou royal institutional capacity and structural pressure change at this node.",
+        "story_question_zh": "西周如何把征服变成天下秩序，又为什么走向东迁？",
+        "story_question_en": "How did Western Zhou turn conquest into order, and why did it move east?",
+        "active_character_ids": [
+          "xuan"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "fall_771",
+        "title_zh": "犬戎破镐京：西周结束，春秋将启",
+        "title_en": "Quanrong Sacks Haojing: Western Zhou Ends, Spring-Autumn Begins",
+        "year": -771,
+        "event_id": "fall_of_western_zhou_771",
+        "route_point_id": "fall_771",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 112.0,
+          "zoom": 4.2
+        },
+        "script_zh": "犬戎破镐京、幽王身死，西周结束。周平王东迁后，周天子仍在，但真实秩序将进入诸侯争霸的春秋时代。",
+        "script_en": "Quanrong sacked Haojing and King You died, ending Western Zhou. After King Ping moved east, the Zhou king remained, but real order entered Spring-Autumn lordly competition.",
+        "scene_setting_zh": "犬戎破镐京：西周结束，春秋将启",
+        "scene_setting_en": "Quanrong Sacks Haojing: Western Zhou Ends, Spring-Autumn Begins",
+        "character_beat_zh": "周王权的制度能力和结构压力在这一节点变化。",
+        "character_beat_en": "Zhou royal institutional capacity and structural pressure change at this node.",
+        "story_question_zh": "西周如何把征服变成天下秩序，又为什么走向东迁？",
+        "story_question_en": "How did Western Zhou turn conquest into order, and why did it move east?",
+        "active_character_ids": [
+          "you",
+          "ping"
+        ],
+        "interactions": []
+      }
+    ],
+    "characters": [
+      {
+        "id": "wu",
+        "person_id": "king_wu_zhou",
+        "label_zh": "周武王",
+        "label_en": "King Wu",
+        "role_zh": "灭商开国者",
+        "role_en": "Conqueror-founder",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "武",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "jiang",
+        "person_id": "jiang_zija",
+        "label_zh": "姜子牙",
+        "label_en": "Jiang Ziya",
+        "role_zh": "伐商谋臣",
+        "role_en": "Conquest strategist",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "姜",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "zhougong",
+        "person_id": "duke_of_zhou",
+        "label_zh": "周公旦",
+        "label_en": "Duke of Zhou",
+        "role_zh": "摄政与制度建构者",
+        "role_en": "Regent and institution builder",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "周",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "cheng",
+        "person_id": "king_cheng_zhou",
+        "label_zh": "周成王",
+        "label_en": "King Cheng",
+        "role_zh": "周初巩固者",
+        "role_en": "Early consolidator",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "成",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "kang",
+        "person_id": "king_kang_zhou",
+        "label_zh": "周康王",
+        "label_en": "King Kang",
+        "role_zh": "成康秩序代表",
+        "role_en": "Cheng-Kang order",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "康",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "zhao",
+        "person_id": "king_zhao_zhou",
+        "label_zh": "周昭王",
+        "label_en": "King Zhao",
+        "role_zh": "南征君主",
+        "role_en": "Southern campaign king",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "昭",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "li",
+        "person_id": "king_li_zhou",
+        "label_zh": "周厉王",
+        "label_en": "King Li",
+        "role_zh": "晚期危机君主",
+        "role_en": "Crisis king",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "厉",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "xuan",
+        "person_id": "king_xuan_zhou",
+        "label_zh": "周宣王",
+        "label_en": "King Xuan",
+        "role_zh": "中兴君主",
+        "role_en": "Restoration king",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "宣",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "you",
+        "person_id": "king_you_zhou",
+        "label_zh": "周幽王",
+        "label_en": "King You",
+        "role_zh": "西周末王",
+        "role_en": "Last Western Zhou king",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "幽",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      },
+      {
+        "id": "ping",
+        "person_id": "king_ping_zhou",
+        "label_zh": "周平王",
+        "label_en": "King Ping",
+        "role_zh": "东迁君主",
+        "role_en": "Eastward-move king",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "平",
+        "goal_zh": "呈现西周从建国、分封到王权衰落的变化。",
+        "goal_en": "Show Western Zhou from founding and enfeoffment to royal decline."
+      }
+    ]
+  },
+  {
+    "id": "spring_autumn_story",
+    "title_zh": "春秋时代：王权衰落与诸侯争霸",
+    "title_en": "Spring and Autumn: Royal Decline and Hegemonic Lords",
+    "emoji": "🏺",
+    "theme_type": "dynastic_transition",
+    "description_zh": "从周平王东迁开始，讲周室权威衰落后齐桓、晋文、楚庄、吴越等霸权如何轮替，并最终过渡到三家分晋和战国。",
+    "description_en": "From King Ping's eastward move, this storyline follows Zhou royal decline, the hegemony of Qi, Jin, Chu, Wu and Yue, and the transition toward the partition of Jin and Warring States.",
+    "source_note_zh": "地图边界使用 Cliopatria 春秋诸侯参考层；霸权与礼乐秩序叙事为教学整理。",
+    "source_note_en": "Map boundaries use Cliopatria Spring-Autumn state reference layers; hegemony and ritual order narrative is editorial teaching material.",
+    "events": [
+      "zhou_eastward_move_770",
+      "duke_huan_hegemony_681",
+      "chengpu_battle_632",
+      "chu_zhuang_hegemony_597",
+      "boju_battle_506",
+      "yue_conquers_wu_473",
+      "three_jin_partition_403"
+    ],
+    "people": [
+      "king_ping_zhou",
+      "duke_huan_qi",
+      "guan_zhong",
+      "duke_wen_jin",
+      "king_zhuang_chu",
+      "king_helu_wu",
+      "wu_zixu",
+      "king_goujian_yue",
+      "confucius"
+    ],
+    "territories": [
+      "cliopatria_zhou_dynasty",
+      "cliopatria_qin",
+      "cliopatria_jin",
+      "cliopatria_qi",
+      "cliopatria_chu",
+      "cliopatria_wu",
+      "cliopatria_yue",
+      "cliopatria_yan",
+      "cliopatria_lu",
+      "cliopatria_song",
+      "cliopatria_zheng",
+      "cliopatria_wey",
+      "cliopatria_cai",
+      "cliopatria_chen",
+      "cliopatria_cao",
+      "cliopatria_teng",
+      "cliopatria_xu",
+      "cliopatria_zhu",
+      "cliopatria_later_zhou"
+    ],
+    "route_points": [
+      {
+        "id": "eastward_770",
+        "label_zh": "-770：周室东迁",
+        "label_en": "-770: Zhou Moves East",
+        "year": -770,
+        "place_id": "",
+        "lat": 34.62,
+        "lng": 112.45,
+        "note_zh": "周平王东迁洛邑，东周开局。",
+        "note_en": "King Ping moved east to Luoyi, beginning Eastern Zhou."
+      },
+      {
+        "id": "qi_hegemony_681",
+        "label_zh": "-681：齐桓首霸",
+        "label_en": "-681: Duke Huan Hegemony",
+        "year": -681,
+        "place_id": "",
+        "lat": 36.67,
+        "lng": 118.48,
+        "note_zh": "齐桓公与管仲组织诸侯秩序。",
+        "note_en": "Duke Huan and Guan Zhong organized interstate order."
+      },
+      {
+        "id": "chengpu_632",
+        "label_zh": "-632：晋文城濮",
+        "label_en": "-632: Chengpu",
+        "year": -632,
+        "place_id": "",
+        "lat": 35.2,
+        "lng": 115.0,
+        "note_zh": "晋文公击败楚军，晋国称霸。",
+        "note_en": "Duke Wen defeated Chu and Jin became hegemon."
+      },
+      {
+        "id": "chu_zhuang_597",
+        "label_zh": "-597：楚庄问鼎",
+        "label_en": "-597: King Zhuang of Chu",
+        "year": -597,
+        "place_id": "",
+        "lat": 34.62,
+        "lng": 112.45,
+        "note_zh": "楚国强盛，挑战中原秩序。",
+        "note_en": "Chu strengthened and challenged central order."
+      },
+      {
+        "id": "boju_506",
+        "label_zh": "-506：吴入郢",
+        "label_en": "-506: Wu Enters Ying",
+        "year": -506,
+        "place_id": "",
+        "lat": 30.35,
+        "lng": 112.2,
+        "note_zh": "吴国攻入楚都，东南力量崛起。",
+        "note_en": "Wu entered Chu's capital and southeastern power rose."
+      },
+      {
+        "id": "yue_473",
+        "label_zh": "-473：越灭吴",
+        "label_en": "-473: Yue Conquers Wu",
+        "year": -473,
+        "place_id": "",
+        "lat": 31.3,
+        "lng": 120.6,
+        "note_zh": "越王勾践灭吴，春秋进入尾声。",
+        "note_en": "Goujian conquered Wu, closing late Spring-Autumn rivalry."
+      },
+      {
+        "id": "three_jin_403",
+        "label_zh": "-403：三家分晋",
+        "label_en": "-403: Three Jin Recognized",
+        "year": -403,
+        "place_id": "",
+        "lat": 35.0,
+        "lng": 112.0,
+        "note_zh": "韩赵魏被承认为诸侯，战国故事接续。",
+        "note_en": "Han, Zhao, and Wei were recognized, leading into Warring States."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "eastward_770",
+        "title_zh": "周室东迁：春秋政治的开局",
+        "title_en": "Zhou Moves East: Opening of Spring-Autumn Politics",
+        "year": -770,
+        "event_id": "zhou_eastward_move_770",
+        "route_point_id": "eastward_770",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 113.0,
+          "zoom": 4.3
+        },
+        "script_zh": "春秋故事从周室东迁开始。周天子仍是名义中心，但西周式直接控制已经破裂；诸侯在礼乐名义下获得越来越大的行动空间。",
+        "script_en": "The story begins with Zhou moving east. The Zhou king remained nominal center, but Western Zhou-style direct control had broken; lords gained more room to act under ritual language.",
+        "scene_setting_zh": "周室东迁：春秋政治的开局",
+        "scene_setting_en": "Zhou Moves East: Opening of Spring-Autumn Politics",
+        "character_beat_zh": "周礼秩序正在被诸侯霸权重写。",
+        "character_beat_en": "Zhou ritual order is being rewritten by lordly hegemony.",
+        "story_question_zh": "周天子名义仍在，为什么实际秩序转向诸侯争霸？",
+        "story_question_en": "If the Zhou king remained nominally central, why did actual order shift toward hegemonic lords?",
+        "active_character_ids": [
+          "ping"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "qi_hegemony_681",
+        "title_zh": "齐桓公：霸主替代王权协调",
+        "title_en": "Duke Huan of Qi: Hegemon Replaces Royal Coordination",
+        "year": -681,
+        "event_id": "duke_huan_hegemony_681",
+        "route_point_id": "qi_hegemony_681",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty",
+          "cliopatria_qin",
+          "cliopatria_jin",
+          "cliopatria_qi",
+          "cliopatria_chu",
+          "cliopatria_wu",
+          "cliopatria_yue",
+          "cliopatria_yan",
+          "cliopatria_lu",
+          "cliopatria_song",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_cai",
+          "cliopatria_chen",
+          "cliopatria_cao",
+          "cliopatria_teng",
+          "cliopatria_xu",
+          "cliopatria_zhu",
+          "cliopatria_later_zhou"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 113.0,
+          "zoom": 4.3
+        },
+        "script_zh": "齐桓公和管仲展示了春秋秩序的新机制：不是天子直接命令诸侯，而是强国以尊王攘夷、会盟和救援来组织秩序。",
+        "script_en": "Duke Huan and Guan Zhong show the new mechanism of Spring-Autumn order: not the king commanding lords directly, but a strong state organizing order through honoring Zhou, assemblies, and rescue.",
+        "scene_setting_zh": "齐桓公：霸主替代王权协调",
+        "scene_setting_en": "Duke Huan of Qi: Hegemon Replaces Royal Coordination",
+        "character_beat_zh": "周礼秩序正在被诸侯霸权重写。",
+        "character_beat_en": "Zhou ritual order is being rewritten by lordly hegemony.",
+        "story_question_zh": "周天子名义仍在，为什么实际秩序转向诸侯争霸？",
+        "story_question_en": "If the Zhou king remained nominally central, why did actual order shift toward hegemonic lords?",
+        "active_character_ids": [
+          "huan",
+          "guan"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "chengpu_632",
+        "title_zh": "晋文公：晋楚争霸的中原框架",
+        "title_en": "Duke Wen of Jin: Jin-Chu Rivalry Frames the Center",
+        "year": -632,
+        "event_id": "chengpu_battle_632",
+        "route_point_id": "chengpu_632",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty",
+          "cliopatria_qin",
+          "cliopatria_jin",
+          "cliopatria_qi",
+          "cliopatria_chu",
+          "cliopatria_wu",
+          "cliopatria_yue",
+          "cliopatria_yan",
+          "cliopatria_lu",
+          "cliopatria_song",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_cai",
+          "cliopatria_chen",
+          "cliopatria_cao",
+          "cliopatria_teng",
+          "cliopatria_xu",
+          "cliopatria_zhu",
+          "cliopatria_later_zhou"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 113.0,
+          "zoom": 4.3
+        },
+        "script_zh": "城濮之战后，晋成为中原霸主，楚也被纳入争霸核心。春秋的战争逐渐从救援和会盟，变成大国集团之间的长期竞争。",
+        "script_en": "After Chengpu, Jin became central hegemon and Chu entered the core contest. Spring-Autumn war gradually moved from rescue and assembly into long rivalry among major-state blocs.",
+        "scene_setting_zh": "晋文公：晋楚争霸的中原框架",
+        "scene_setting_en": "Duke Wen of Jin: Jin-Chu Rivalry Frames the Center",
+        "character_beat_zh": "周礼秩序正在被诸侯霸权重写。",
+        "character_beat_en": "Zhou ritual order is being rewritten by lordly hegemony.",
+        "story_question_zh": "周天子名义仍在，为什么实际秩序转向诸侯争霸？",
+        "story_question_en": "If the Zhou king remained nominally central, why did actual order shift toward hegemonic lords?",
+        "active_character_ids": [
+          "wen"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "chu_zhuang_597",
+        "title_zh": "楚庄王：南方大国问鼎中原",
+        "title_en": "King Zhuang of Chu: Southern Power Challenges the Center",
+        "year": -597,
+        "event_id": "chu_zhuang_hegemony_597",
+        "route_point_id": "chu_zhuang_597",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty",
+          "cliopatria_qin",
+          "cliopatria_jin",
+          "cliopatria_qi",
+          "cliopatria_chu",
+          "cliopatria_wu",
+          "cliopatria_yue",
+          "cliopatria_yan",
+          "cliopatria_lu",
+          "cliopatria_song",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_cai",
+          "cliopatria_chen",
+          "cliopatria_cao",
+          "cliopatria_teng",
+          "cliopatria_xu",
+          "cliopatria_zhu",
+          "cliopatria_later_zhou"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 113.0,
+          "zoom": 4.3
+        },
+        "script_zh": "楚庄王的强盛说明春秋格局不再由中原诸侯单独定义。楚从边缘进入中心，周礼名义和霸权现实之间的距离更大。",
+        "script_en": "King Zhuang's strength shows the Spring-Autumn order was no longer defined by central states alone. Chu moved from periphery into the center, widening the gap between Zhou ritual claims and hegemonic reality.",
+        "scene_setting_zh": "楚庄王：南方大国问鼎中原",
+        "scene_setting_en": "King Zhuang of Chu: Southern Power Challenges the Center",
+        "character_beat_zh": "周礼秩序正在被诸侯霸权重写。",
+        "character_beat_en": "Zhou ritual order is being rewritten by lordly hegemony.",
+        "story_question_zh": "周天子名义仍在，为什么实际秩序转向诸侯争霸？",
+        "story_question_en": "If the Zhou king remained nominally central, why did actual order shift toward hegemonic lords?",
+        "active_character_ids": [
+          "zhuang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "boju_506",
+        "title_zh": "吴楚柏举：东南力量进入舞台",
+        "title_en": "Boju: Southeastern Power Enters the Stage",
+        "year": -506,
+        "event_id": "boju_battle_506",
+        "route_point_id": "boju_506",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty",
+          "cliopatria_qin",
+          "cliopatria_jin",
+          "cliopatria_qi",
+          "cliopatria_chu",
+          "cliopatria_wu",
+          "cliopatria_yue",
+          "cliopatria_yan",
+          "cliopatria_lu",
+          "cliopatria_song",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_cai",
+          "cliopatria_chen",
+          "cliopatria_cao",
+          "cliopatria_teng",
+          "cliopatria_xu",
+          "cliopatria_zhu",
+          "cliopatria_later_zhou"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 113.0,
+          "zoom": 4.3
+        },
+        "script_zh": "吴国攻入楚都郢，说明春秋后期的争霸重心继续向东南扩展。吴楚战争让长江下游势力进入列国竞争。",
+        "script_en": "Wu entered Chu's capital Ying, showing late Spring-Autumn competition expanding southeast. Wu-Chu war brought lower Yangtze power into interstate rivalry.",
+        "scene_setting_zh": "吴楚柏举：东南力量进入舞台",
+        "scene_setting_en": "Boju: Southeastern Power Enters the Stage",
+        "character_beat_zh": "周礼秩序正在被诸侯霸权重写。",
+        "character_beat_en": "Zhou ritual order is being rewritten by lordly hegemony.",
+        "story_question_zh": "周天子名义仍在，为什么实际秩序转向诸侯争霸？",
+        "story_question_en": "If the Zhou king remained nominally central, why did actual order shift toward hegemonic lords?",
+        "active_character_ids": [
+          "helu",
+          "zixu"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "yue_473",
+        "title_zh": "越灭吴：春秋尾声与礼崩乐坏",
+        "title_en": "Yue Conquers Wu: Late Spring-Autumn Breakdown",
+        "year": -473,
+        "event_id": "yue_conquers_wu_473",
+        "route_point_id": "yue_473",
+        "highlight_territory_ids": [
+          "cliopatria_zhou_dynasty",
+          "cliopatria_qin",
+          "cliopatria_jin",
+          "cliopatria_qi",
+          "cliopatria_chu",
+          "cliopatria_wu",
+          "cliopatria_yue",
+          "cliopatria_yan",
+          "cliopatria_lu",
+          "cliopatria_song",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_cai",
+          "cliopatria_chen",
+          "cliopatria_cao",
+          "cliopatria_teng",
+          "cliopatria_xu",
+          "cliopatria_zhu",
+          "cliopatria_later_zhou"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 113.0,
+          "zoom": 4.3
+        },
+        "script_zh": "越灭吴之后，吴越争霸收束。孔子所处的鲁国礼乐世界已无法约束列国竞争，春秋正走向更残酷、更制度化的战国。",
+        "script_en": "After Yue conquered Wu, the Wu-Yue rivalry closed. The ritual world around Confucius in Lu could no longer restrain interstate competition; Spring-Autumn was moving toward a harsher, more institutionalized Warring States order.",
+        "scene_setting_zh": "越灭吴：春秋尾声与礼崩乐坏",
+        "scene_setting_en": "Yue Conquers Wu: Late Spring-Autumn Breakdown",
+        "character_beat_zh": "周礼秩序正在被诸侯霸权重写。",
+        "character_beat_en": "Zhou ritual order is being rewritten by lordly hegemony.",
+        "story_question_zh": "周天子名义仍在，为什么实际秩序转向诸侯争霸？",
+        "story_question_en": "If the Zhou king remained nominally central, why did actual order shift toward hegemonic lords?",
+        "active_character_ids": [
+          "goujian",
+          "kongzi"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "three_jin_403",
+        "title_zh": "三家分晋：春秋终结，战国开场",
+        "title_en": "Partition of Jin: End of Spring-Autumn, Opening of Warring States",
+        "year": -403,
+        "event_id": "three_jin_partition_403",
+        "route_point_id": "three_jin_403",
+        "highlight_territory_ids": [
+          "cliopatria_qin",
+          "cliopatria_zhao",
+          "cliopatria_wei",
+          "cliopatria_han_state",
+          "cliopatria_yan",
+          "cliopatria_chu",
+          "cliopatria_qi",
+          "cliopatria_later_zhou"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 113.0,
+          "zoom": 4.3
+        },
+        "script_zh": "韩、赵、魏被承认为诸侯，春秋霸权政治正式转入战国国家竞争。下一条战国故事线会讲：为什么最终是秦从七雄中胜出。",
+        "script_en": "Han, Zhao, and Wei were recognized as lords, and Spring-Autumn hegemony formally gave way to Warring States state competition. The next storyline asks why Qin ultimately won among the Seven States.",
+        "scene_setting_zh": "三家分晋：春秋终结，战国开场",
+        "scene_setting_en": "Partition of Jin: End of Spring-Autumn, Opening of Warring States",
+        "character_beat_zh": "周礼秩序正在被诸侯霸权重写。",
+        "character_beat_en": "Zhou ritual order is being rewritten by lordly hegemony.",
+        "story_question_zh": "周天子名义仍在，为什么实际秩序转向诸侯争霸？",
+        "story_question_en": "If the Zhou king remained nominally central, why did actual order shift toward hegemonic lords?",
+        "active_character_ids": [
+          "wen"
+        ],
+        "interactions": []
+      }
+    ],
+    "characters": [
+      {
+        "id": "ping",
+        "person_id": "king_ping_zhou",
+        "label_zh": "周平王",
+        "label_en": "King Ping",
+        "role_zh": "东周开局的天子",
+        "role_en": "King at Eastern Zhou opening",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "平",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "huan",
+        "person_id": "duke_huan_qi",
+        "label_zh": "齐桓公",
+        "label_en": "Duke Huan of Qi",
+        "role_zh": "春秋首霸",
+        "role_en": "First hegemon",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "桓",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "guan",
+        "person_id": "guan_zhong",
+        "label_zh": "管仲",
+        "label_en": "Guan Zhong",
+        "role_zh": "齐国改革家",
+        "role_en": "Qi reformer",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "管",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "wen",
+        "person_id": "duke_wen_jin",
+        "label_zh": "晋文公",
+        "label_en": "Duke Wen of Jin",
+        "role_zh": "中原霸主",
+        "role_en": "Central-plains hegemon",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "文",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "zhuang",
+        "person_id": "king_zhuang_chu",
+        "label_zh": "楚庄王",
+        "label_en": "King Zhuang of Chu",
+        "role_zh": "南方霸主",
+        "role_en": "Southern hegemon",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "庄",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "helu",
+        "person_id": "king_helu_wu",
+        "label_zh": "吴王阖闾",
+        "label_en": "King Helu of Wu",
+        "role_zh": "吴国崛起君主",
+        "role_en": "Ruler of rising Wu",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "阖",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "zixu",
+        "person_id": "wu_zixu",
+        "label_zh": "伍子胥",
+        "label_en": "Wu Zixu",
+        "role_zh": "吴国谋臣",
+        "role_en": "Wu strategist",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "伍",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "goujian",
+        "person_id": "king_goujian_yue",
+        "label_zh": "越王勾践",
+        "label_en": "King Goujian of Yue",
+        "role_zh": "越灭吴君主",
+        "role_en": "Yue conqueror of Wu",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "越",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      },
+      {
+        "id": "kongzi",
+        "person_id": "confucius",
+        "label_zh": "孔子",
+        "label_en": "Confucius",
+        "role_zh": "春秋末思想家",
+        "role_en": "Late Spring-Autumn thinker",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "孔",
+        "goal_zh": "呈现春秋从周礼秩序到诸侯霸权的变化。",
+        "goal_en": "Show Spring-Autumn change from Zhou ritual order to lordly hegemony."
+      }
+    ]
+  },
+  {
+    "id": "warring_states_story",
+    "title_zh": "战国时代：七雄竞争与秦的崛起",
+    "title_en": "Warring States: Seven-State Competition and Qin's Rise",
+    "emoji": "🏯",
+    "theme_type": "dynastic_transition",
+    "description_zh": "从三家分晋后的七雄格局，到商鞅变法、合纵连横、长平之战和秦灭韩，讲战国如何一步步走向秦统一六国。",
+    "description_en": "From the Seven States order after the partition of Jin through Shang Yang's reforms, alliance diplomacy, Changping, and Qin's conquest of Han, this storyline shows how the Warring States moved toward Qin unification.",
+    "source_note_zh": "地图边界使用 Cliopatria 七雄参考层；战国制度与外交叙事为教学整理。",
+    "source_note_en": "Map boundaries use Cliopatria Seven States reference layers; Warring States institutional and diplomatic narrative is editorial teaching material.",
+    "events": [
+      "three_jin_partition_403",
+      "shang_yang_reforms_356",
+      "vertical_horizontal_diplomacy_318",
+      "changping_battle_260",
+      "qin_conquest_begins_230",
+      "qin_unification_-221"
+    ],
+    "people": [
+      "shang_yang",
+      "su_qin",
+      "zhang_yi",
+      "king_zhaoxiang_qin",
+      "bai_qi",
+      "lian_po",
+      "zhao_kuo",
+      "qin_shihuang"
+    ],
+    "territories": [
+      "cliopatria_qin",
+      "cliopatria_zhao",
+      "cliopatria_wei",
+      "cliopatria_han_state",
+      "cliopatria_yan",
+      "cliopatria_chu",
+      "cliopatria_qi",
+      "cliopatria_song",
+      "cliopatria_lu",
+      "cliopatria_zheng",
+      "cliopatria_wey",
+      "cliopatria_later_zhou",
+      "cliopatria_xu",
+      "cliopatria_yue"
+    ],
+    "route_points": [
+      {
+        "id": "seven_states_403",
+        "label_zh": "-403：七雄格局成形",
+        "label_en": "-403: Seven States Take Shape",
+        "year": -403,
+        "place_id": "",
+        "lat": 35.0,
+        "lng": 112.0,
+        "note_zh": "韩、赵、魏被承认为诸侯，七雄格局成形。",
+        "note_en": "Han, Zhao, and Wei were recognized, and the Seven States order took shape."
+      },
+      {
+        "id": "shang_yang_356",
+        "label_zh": "-356：商鞅变法",
+        "label_en": "-356: Shang Yang Reforms",
+        "year": -356,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "秦国通过制度改革提高动员能力。",
+        "note_en": "Qin increased mobilization capacity through institutional reform."
+      },
+      {
+        "id": "alliances_318",
+        "label_zh": "-318：合纵连横",
+        "label_en": "-318: Alliance Diplomacy",
+        "year": -318,
+        "place_id": "",
+        "lat": 34.8,
+        "lng": 112.0,
+        "note_zh": "列国以联盟和离间应对秦国压力。",
+        "note_en": "States used alliances and division to handle Qin pressure."
+      },
+      {
+        "id": "changping_260",
+        "label_zh": "-260：长平之战",
+        "label_en": "-260: Changping",
+        "year": -260,
+        "place_id": "",
+        "lat": 35.8,
+        "lng": 112.9,
+        "note_zh": "秦赵决战改变战国后期力量平衡。",
+        "note_en": "The Qin-Zhao showdown changed the late Warring States balance."
+      },
+      {
+        "id": "conquest_230",
+        "label_zh": "-230：秦灭韩",
+        "label_en": "-230: Qin Conquers Han",
+        "year": -230,
+        "place_id": "",
+        "lat": 34.8,
+        "lng": 111.0,
+        "note_zh": "秦统一战争进入最后阶段。",
+        "note_en": "Qin's final unification wars began."
+      },
+      {
+        "id": "unification_221",
+        "label_zh": "-221：秦统一六国",
+        "label_en": "-221: Qin Unifies the Six States",
+        "year": -221,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "战国终局，秦朝故事接续展开。",
+        "note_en": "The Warring States ended and the Qin dynasty story begins."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "seven_states_403",
+        "title_zh": "七雄格局：战国竞争的棋盘",
+        "title_en": "Seven States Order: The Board of Warring States Competition",
+        "year": -403,
+        "event_id": "three_jin_partition_403",
+        "route_point_id": "seven_states_403",
+        "highlight_territory_ids": [
+          "cliopatria_qin",
+          "cliopatria_zhao",
+          "cliopatria_wei",
+          "cliopatria_han_state",
+          "cliopatria_yan",
+          "cliopatria_chu",
+          "cliopatria_qi",
+          "cliopatria_song",
+          "cliopatria_lu",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_later_zhou",
+          "cliopatria_xu",
+          "cliopatria_yue"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 111.5,
+          "zoom": 4.4
+        },
+        "script_zh": "三家分晋后，战国七雄格局逐渐清晰。秦、赵、魏、韩、燕、楚、齐不是同一种国家，它们的地理、资源和政治结构不同，之后的两百年就是这些差异被战争和改革不断放大的过程。",
+        "script_en": "After the partition of Jin, the Seven States order became clearer. Qin, Zhao, Wei, Han, Yan, Chu, and Qi were not the same kind of states; geography, resources, and institutions differed, and the next two centuries magnified those differences through war and reform.",
+        "scene_setting_zh": "七雄格局：战国竞争的棋盘",
+        "scene_setting_en": "Seven States Order: The Board of Warring States Competition",
+        "character_beat_zh": "战国竞争正在把制度、外交和军事优势推向秦国。",
+        "character_beat_en": "Warring States competition is pushing institutional, diplomatic, and military advantage toward Qin.",
+        "story_question_zh": "为什么最终是秦统一六国，而不是其他强国？",
+        "story_question_en": "Why did Qin, rather than another strong state, unify the six states?",
+        "active_character_ids": [
+          "shang_yang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "shang_yang_356",
+        "title_zh": "商鞅变法：秦国变成高动员国家",
+        "title_en": "Shang Yang Reforms: Qin Becomes a High-Mobilization State",
+        "year": -356,
+        "event_id": "shang_yang_reforms_356",
+        "route_point_id": "shang_yang_356",
+        "highlight_territory_ids": [
+          "cliopatria_qin",
+          "cliopatria_zhao",
+          "cliopatria_wei",
+          "cliopatria_han_state",
+          "cliopatria_yan",
+          "cliopatria_chu",
+          "cliopatria_qi",
+          "cliopatria_song",
+          "cliopatria_lu",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_later_zhou",
+          "cliopatria_xu",
+          "cliopatria_yue"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 111.5,
+          "zoom": 4.4
+        },
+        "script_zh": "商鞅变法让秦国的户籍、土地、军功和县制更紧密地服务于国家动员。战国胜负不只在战场，也在国家能否持续征税、征兵、奖惩和整合地方。",
+        "script_en": "Shang Yang's reforms made Qin household registers, land, military merit, and county administration serve state mobilization more tightly. Warring States victory was not only battlefield success, but the ability to tax, recruit, reward, punish, and integrate local society.",
+        "scene_setting_zh": "商鞅变法：秦国变成高动员国家",
+        "scene_setting_en": "Shang Yang Reforms: Qin Becomes a High-Mobilization State",
+        "character_beat_zh": "战国竞争正在把制度、外交和军事优势推向秦国。",
+        "character_beat_en": "Warring States competition is pushing institutional, diplomatic, and military advantage toward Qin.",
+        "story_question_zh": "为什么最终是秦统一六国，而不是其他强国？",
+        "story_question_en": "Why did Qin, rather than another strong state, unify the six states?",
+        "active_character_ids": [
+          "shang_yang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "alliances_318",
+        "title_zh": "合纵连横：秦压力下的外交战",
+        "title_en": "Vertical and Horizontal Alliances: Diplomacy under Qin Pressure",
+        "year": -318,
+        "event_id": "vertical_horizontal_diplomacy_318",
+        "route_point_id": "alliances_318",
+        "highlight_territory_ids": [
+          "cliopatria_qin",
+          "cliopatria_zhao",
+          "cliopatria_wei",
+          "cliopatria_han_state",
+          "cliopatria_yan",
+          "cliopatria_chu",
+          "cliopatria_qi",
+          "cliopatria_song",
+          "cliopatria_lu",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_later_zhou",
+          "cliopatria_xu",
+          "cliopatria_yue"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 111.5,
+          "zoom": 4.4
+        },
+        "script_zh": "当秦国优势扩大，列国必须用联盟来平衡。合纵试图联合六国抗秦，连横则拆解联盟、各个击破。战国的地图不只是边界，也是承诺、背叛和利益交换的网络。",
+        "script_en": "As Qin advantage expanded, other states had to balance it through alliances. Vertical alliance imagined six states against Qin; horizontal alliance broke coalitions apart. The Warring States map was not just borders, but a network of promises, betrayals, and exchanged interests.",
+        "scene_setting_zh": "合纵连横：秦压力下的外交战",
+        "scene_setting_en": "Vertical and Horizontal Alliances: Diplomacy under Qin Pressure",
+        "character_beat_zh": "战国竞争正在把制度、外交和军事优势推向秦国。",
+        "character_beat_en": "Warring States competition is pushing institutional, diplomatic, and military advantage toward Qin.",
+        "story_question_zh": "为什么最终是秦统一六国，而不是其他强国？",
+        "story_question_en": "Why did Qin, rather than another strong state, unify the six states?",
+        "active_character_ids": [
+          "su_qin",
+          "zhang_yi"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "changping_260",
+        "title_zh": "长平之战：赵国被打落的转折点",
+        "title_en": "Changping: The Turning Point that Broke Zhao",
+        "year": -260,
+        "event_id": "changping_battle_260",
+        "route_point_id": "changping_260",
+        "highlight_territory_ids": [
+          "cliopatria_qin",
+          "cliopatria_zhao",
+          "cliopatria_wei",
+          "cliopatria_han_state",
+          "cliopatria_yan",
+          "cliopatria_chu",
+          "cliopatria_qi",
+          "cliopatria_song",
+          "cliopatria_lu",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_later_zhou",
+          "cliopatria_xu",
+          "cliopatria_yue"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 111.5,
+          "zoom": 4.4
+        },
+        "script_zh": "长平之战后，赵国遭受决定性损失。白起的胜利让秦国在军事和心理上获得压倒性优势；赵国仍在，但已经很难再独自阻挡秦的东进。",
+        "script_en": "After Changping, Zhao suffered decisive losses. Bai Qi's victory gave Qin overwhelming military and psychological advantage; Zhao survived, but could no longer alone block Qin's eastward push.",
+        "scene_setting_zh": "长平之战：赵国被打落的转折点",
+        "scene_setting_en": "Changping: The Turning Point that Broke Zhao",
+        "character_beat_zh": "战国竞争正在把制度、外交和军事优势推向秦国。",
+        "character_beat_en": "Warring States competition is pushing institutional, diplomatic, and military advantage toward Qin.",
+        "story_question_zh": "为什么最终是秦统一六国，而不是其他强国？",
+        "story_question_en": "Why did Qin, rather than another strong state, unify the six states?",
+        "active_character_ids": [
+          "zhaoxiang",
+          "bai_qi",
+          "lian_po",
+          "zhao_kuo"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "conquest_230",
+        "title_zh": "秦灭韩：七雄格局开始坍缩",
+        "title_en": "Qin Conquers Han: The Seven-State Order Starts Collapsing",
+        "year": -230,
+        "event_id": "qin_conquest_begins_230",
+        "route_point_id": "conquest_230",
+        "highlight_territory_ids": [
+          "cliopatria_qin",
+          "cliopatria_zhao",
+          "cliopatria_wei",
+          "cliopatria_han_state",
+          "cliopatria_yan",
+          "cliopatria_chu",
+          "cliopatria_qi",
+          "cliopatria_song",
+          "cliopatria_lu",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_later_zhou",
+          "cliopatria_xu",
+          "cliopatria_yue"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 111.5,
+          "zoom": 4.4
+        },
+        "script_zh": "秦灭韩之后，七雄格局不再是可持续的均势，而是进入秦逐国吞并的倒计时。韩最先消失，接着赵、魏、楚、燕、齐相继被卷入秦的统一战争。",
+        "script_en": "After Qin conquered Han, the Seven-State order was no longer a sustainable balance but a countdown to Qin absorbing each state. Han disappeared first, followed by Zhao, Wei, Chu, Yan, and Qi in Qin's unification wars.",
+        "scene_setting_zh": "秦灭韩：七雄格局开始坍缩",
+        "scene_setting_en": "Qin Conquers Han: The Seven-State Order Starts Collapsing",
+        "character_beat_zh": "战国竞争正在把制度、外交和军事优势推向秦国。",
+        "character_beat_en": "Warring States competition is pushing institutional, diplomatic, and military advantage toward Qin.",
+        "story_question_zh": "为什么最终是秦统一六国，而不是其他强国？",
+        "story_question_en": "Why did Qin, rather than another strong state, unify the six states?",
+        "active_character_ids": [
+          "ying_zheng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "unification_221",
+        "title_zh": "秦统一六国：战国终局",
+        "title_en": "Qin Unifies the Six States: End of Warring States",
+        "year": -221,
+        "event_id": "qin_unification_-221",
+        "route_point_id": "unification_221",
+        "highlight_territory_ids": [
+          "cliopatria_qin",
+          "cliopatria_zhao",
+          "cliopatria_wei",
+          "cliopatria_han_state",
+          "cliopatria_yan",
+          "cliopatria_chu",
+          "cliopatria_qi",
+          "cliopatria_song",
+          "cliopatria_lu",
+          "cliopatria_zheng",
+          "cliopatria_wey",
+          "cliopatria_later_zhou",
+          "cliopatria_xu",
+          "cliopatria_yue"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 111.5,
+          "zoom": 4.4
+        },
+        "script_zh": "公元前221年，秦王政完成兼并，战国结束。下一条秦朝故事线会讲：统一帝国如何建立制度，也如何在高压动员和继承危机中迅速崩解。",
+        "script_en": "In 221 BCE, King Zheng completed conquest and the Warring States ended. The next Qin storyline explains how the unified empire built institutions and then rapidly collapsed under coercive mobilization and succession crisis.",
+        "scene_setting_zh": "秦统一六国：战国终局",
+        "scene_setting_en": "Qin Unifies the Six States: End of Warring States",
+        "character_beat_zh": "战国竞争正在把制度、外交和军事优势推向秦国。",
+        "character_beat_en": "Warring States competition is pushing institutional, diplomatic, and military advantage toward Qin.",
+        "story_question_zh": "为什么最终是秦统一六国，而不是其他强国？",
+        "story_question_en": "Why did Qin, rather than another strong state, unify the six states?",
+        "active_character_ids": [
+          "ying_zheng"
+        ],
+        "interactions": []
+      }
+    ],
+    "characters": [
+      {
+        "id": "shang_yang",
+        "person_id": "shang_yang",
+        "label_zh": "商鞅",
+        "label_en": "Shang Yang",
+        "role_zh": "秦国变法者",
+        "role_en": "Qin reformer",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "商",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      },
+      {
+        "id": "su_qin",
+        "person_id": "su_qin",
+        "label_zh": "苏秦",
+        "label_en": "Su Qin",
+        "role_zh": "合纵想象代表",
+        "role_en": "Vertical alliance voice",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "苏",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      },
+      {
+        "id": "zhang_yi",
+        "person_id": "zhang_yi",
+        "label_zh": "张仪",
+        "label_en": "Zhang Yi",
+        "role_zh": "连横策略代表",
+        "role_en": "Horizontal alliance voice",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "仪",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      },
+      {
+        "id": "zhaoxiang",
+        "person_id": "king_zhaoxiang_qin",
+        "label_zh": "秦昭襄王",
+        "label_en": "King Zhaoxiang of Qin",
+        "role_zh": "秦强盛期君主",
+        "role_en": "Ruler of rising Qin",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "昭",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      },
+      {
+        "id": "bai_qi",
+        "person_id": "bai_qi",
+        "label_zh": "白起",
+        "label_en": "Bai Qi",
+        "role_zh": "秦国名将",
+        "role_en": "Qin general",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "白",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      },
+      {
+        "id": "lian_po",
+        "person_id": "lian_po",
+        "label_zh": "廉颇",
+        "label_en": "Lian Po",
+        "role_zh": "赵国名将",
+        "role_en": "Zhao general",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "廉",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      },
+      {
+        "id": "zhao_kuo",
+        "person_id": "zhao_kuo",
+        "label_zh": "赵括",
+        "label_en": "Zhao Kuo",
+        "role_zh": "赵军将领",
+        "role_en": "Zhao commander",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "括",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      },
+      {
+        "id": "ying_zheng",
+        "person_id": "qin_shihuang",
+        "label_zh": "秦王政",
+        "label_en": "King Zheng of Qin",
+        "role_zh": "统一六国者",
+        "role_en": "Unifier of the six states",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "政",
+        "goal_zh": "解释战国竞争如何把优势推向秦国。",
+        "goal_en": "Explain how Warring States competition pushed advantage toward Qin."
+      }
+    ]
+  },
+  {
     "id": "qin_dynasty_unification_collapse_story",
     "title_zh": "秦朝：统一帝国的建立与速亡",
     "title_en": "Qin Dynasty: Building a Unified Empire and Falling Fast",
@@ -5323,6 +6764,1144 @@
         "avatar_symbol": "梁",
         "goal_zh": "取代南齐建立南梁，并经营江南文化政治。",
         "goal_en": "Replace Southern Qi with Southern Liang and build Jiangnan cultural politics."
+      }
+    ]
+  },
+  {
+    "id": "sui_tang_story",
+    "title_zh": "隋唐：再统一、盛世与唐末崩解",
+    "title_en": "Sui-Tang: Reunification, High Tang, and Late Collapse",
+    "emoji": "🌞",
+    "theme_type": "dynastic_evolution",
+    "description_zh": "从隋灭陈统一南北开始，讲隋末再分裂、唐朝重新统一，经过贞观、武周、开元天宝盛世，安史之乱后转衰，最终走向黄巢起义和唐亡。",
+    "description_en": "From Sui reunifying north and south, this storyline follows late Sui fragmentation, Tang reunification, Zhenguan, Wu Zhou, Kaiyuan-Tianbao prosperity, An Lushan decline, Huang Chao, and Tang’s fall.",
+    "source_note_zh": "地图边界使用 Cliopatria 隋唐及同代欧亚参考层；隋唐兴衰叙事为教学整理。",
+    "source_note_en": "Map boundaries use Cliopatria Sui/Tang and same-era Eurasian reference layers; the Sui-Tang rise-and-decline narrative is editorial teaching material.",
+    "events": [
+      "sui_conquest_chen_589",
+      "sui_late_overextension_617",
+      "tang_founding_618",
+      "xuanwu_gate_626",
+      "tang_unification_630",
+      "taizong_zhenguan_649",
+      "wu_zhou_transition_690",
+      "xuanzong_kaiyuan_713",
+      "high_tang_kaiyuan_742",
+      "an_lushan_rebellion_755",
+      "tibetan_capture_changan_763",
+      "huang_chao_rebellion_875",
+      "tang_fall_907",
+      "tang_wartime_recovery_763",
+      "dezong_fengtian_crisis_783",
+      "xianzong_yuanhe_restoration_817",
+      "post_yuanhe_reversal_820",
+      "wuzong_huichang_845",
+      "late_xuanzong_yizong_decline_859",
+      "huang_chao_changan_881",
+      "zhaozong_warlord_capture_904"
+    ],
+    "people": [
+      "emperor_wen_sui",
+      "emperor_yang_sui",
+      "li_yuan",
+      "li_shimin",
+      "empress_wu",
+      "emperor_xuanzong_tang",
+      "an_lushan",
+      "guo_ziyi",
+      "huang_chao",
+      "zhu_wen",
+      "emperor_suzong_tang",
+      "emperor_daizong_tang",
+      "emperor_dezong_tang",
+      "emperor_xianzong_tang",
+      "emperor_muzong_tang",
+      "emperor_wuzong_tang",
+      "emperor_xuanzong_late_tang",
+      "emperor_yizong_tang",
+      "emperor_xizong_tang",
+      "emperor_zhaozong_tang"
+    ],
+    "territories": [
+      "sui_dynasty",
+      "tang_dynasty",
+      "cliopatria_eastern_g_kt_rks",
+      "cliopatria_western_g_kt_rks",
+      "cliopatria_tibetan_empire",
+      "cliopatria_uyghur_khaganate",
+      "cliopatria_nanzhao",
+      "cliopatria_balhae"
+    ],
+    "route_points": [
+      {
+        "id": "sui_589",
+        "label_zh": "589：隋灭陈",
+        "label_en": "589: Sui Conquers Chen",
+        "year": 589,
+        "place_id": "",
+        "lat": 32.06,
+        "lng": 118.79,
+        "note_zh": "隋统一南北，南北朝结束。",
+        "note_en": "Sui reunified north and south, ending the Northern-Southern division."
+      },
+      {
+        "id": "sui_crisis_617",
+        "label_zh": "617：隋末群雄",
+        "label_en": "617: Late Sui Rivals",
+        "year": 617,
+        "place_id": "",
+        "lat": 34.6,
+        "lng": 112.4,
+        "note_zh": "高压动员使统一国家再次分裂。",
+        "note_en": "Overextension pushed the unified state back into fragmentation."
+      },
+      {
+        "id": "tang_618",
+        "label_zh": "618：李渊建唐",
+        "label_en": "618: Tang Founded",
+        "year": 618,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "唐在隋末分裂中建立。",
+        "note_en": "Tang was founded amid late Sui fragmentation."
+      },
+      {
+        "id": "xuanwu_626",
+        "label_zh": "626：玄武门",
+        "label_en": "626: Xuanwu Gate",
+        "year": 626,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "李世民取得继承优势。",
+        "note_en": "Li Shimin gained succession advantage."
+      },
+      {
+        "id": "unification_630",
+        "label_zh": "630：唐初统一",
+        "label_en": "630: Early Tang Consolidation",
+        "year": 630,
+        "place_id": "",
+        "lat": 35.0,
+        "lng": 112.0,
+        "note_zh": "唐完成内部整合并击败东突厥。",
+        "note_en": "Tang consolidated internally and defeated the Eastern Turks."
+      },
+      {
+        "id": "zhenguan_649",
+        "label_zh": "649：贞观之治",
+        "label_en": "649: Zhenguan Governance",
+        "year": 649,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "唐初统一国家稳定。",
+        "note_en": "The early Tang unified state stabilized."
+      },
+      {
+        "id": "wu_zhou_690",
+        "label_zh": "690：武周",
+        "label_en": "690: Wu Zhou",
+        "year": 690,
+        "place_id": "",
+        "lat": 34.7,
+        "lng": 113.6,
+        "note_zh": "武则天称帝，重组前期政治。",
+        "note_en": "Wu Zetian proclaimed herself emperor and reshaped politics."
+      },
+      {
+        "id": "kaiyuan_713",
+        "label_zh": "713：开元开启",
+        "label_en": "713: Kaiyuan Begins",
+        "year": 713,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "唐玄宗开元治理开启盛唐。",
+        "note_en": "Xuanzong’s Kaiyuan governance opened High Tang."
+      },
+      {
+        "id": "high_tang_742",
+        "label_zh": "742：开元天宝盛世",
+        "label_en": "742: High Tang",
+        "year": 742,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "盛唐高峰，也埋下结构压力。",
+        "note_en": "High Tang peak with hidden structural pressure."
+      },
+      {
+        "id": "anshi_755",
+        "label_zh": "755：安史之乱",
+        "label_en": "755: An Lushan Rebellion",
+        "year": 755,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "唐朝由盛转衰。",
+        "note_en": "Tang turned from prosperity toward decline."
+      },
+      {
+        "id": "mid_tang_763",
+        "label_zh": "763：吐蕃入长安",
+        "label_en": "763: Tibet Enters Chang’an",
+        "year": 763,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "中唐困局成形。",
+        "note_en": "Mid-Tang crisis took shape."
+      },
+      {
+        "id": "dezong_783",
+        "label_zh": "783：德宗奉天之难",
+        "label_en": "783: Dezong Fengtian Crisis",
+        "year": 783,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "德宗改革受挫，中央脆弱暴露。",
+        "note_en": "Dezong reforms faltered and central weakness was exposed."
+      },
+      {
+        "id": "xianzong_817",
+        "label_zh": "817：宪宗元和削藩",
+        "label_en": "817: Xianzong Yuanhe Campaigns",
+        "year": 817,
+        "place_id": "",
+        "lat": 34.8,
+        "lng": 113.6,
+        "note_zh": "元和削藩短暂恢复中央威权。",
+        "note_en": "Yuanhe campaigns briefly restored central authority."
+      },
+      {
+        "id": "muzong_820",
+        "label_zh": "820：穆宗后藩镇复起",
+        "label_en": "820: Post-Yuanhe Reversal",
+        "year": 820,
+        "place_id": "",
+        "lat": 34.8,
+        "lng": 113.6,
+        "note_zh": "宪宗死后元和成果松动。",
+        "note_en": "After Xianzong, Yuanhe gains loosened."
+      },
+      {
+        "id": "wuzong_845",
+        "label_zh": "845：武宗会昌",
+        "label_en": "845: Wuzong Huichang",
+        "year": 845,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "会昌政策尝试回收资源和控制。",
+        "note_en": "Huichang policy tried to reclaim resources and control."
+      },
+      {
+        "id": "late_decline_859",
+        "label_zh": "859：宣宗余晖后",
+        "label_en": "859: After Late Xuanzong",
+        "year": 859,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "晚唐修补空间越来越小。",
+        "note_en": "Late Tang repair space narrowed."
+      },
+      {
+        "id": "huang_chao_875",
+        "label_zh": "875：黄巢起义",
+        "label_en": "875: Huang Chao Rebellion",
+        "year": 875,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "唐末秩序崩坏。",
+        "note_en": "Late Tang order broke down."
+      },
+      {
+        "id": "huang_chao_changan_881",
+        "label_zh": "881：黄巢入长安",
+        "label_en": "881: Huang Chao Enters Chang’an",
+        "year": 881,
+        "place_id": "",
+        "lat": 34.3,
+        "lng": 108.9,
+        "note_zh": "僖宗出逃，朝廷依赖军阀。",
+        "note_en": "Xizong fled and the court relied on warlords."
+      },
+      {
+        "id": "zhaozong_904",
+        "label_zh": "904：昭宗被挟持",
+        "label_en": "904: Zhaozong under Zhu Wen",
+        "year": 904,
+        "place_id": "",
+        "lat": 34.8,
+        "lng": 113.6,
+        "note_zh": "唐亡已不可逆。",
+        "note_en": "Tang’s fall became irreversible."
+      },
+      {
+        "id": "fall_907",
+        "label_zh": "907：唐亡",
+        "label_en": "907: Tang Falls",
+        "year": 907,
+        "place_id": "",
+        "lat": 34.8,
+        "lng": 113.6,
+        "note_zh": "朱温篡唐，五代十国开始。",
+        "note_en": "Zhu Wen ended Tang, opening Five Dynasties."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "sui_589",
+        "title_zh": "隋灭陈：南北再次统一",
+        "title_en": "Sui Conquers Chen: North and South Reunified",
+        "year": 589,
+        "event_id": "sui_conquest_chen_589",
+        "route_point_id": "sui_589",
+        "highlight_territory_ids": [
+          "sui_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "589 年隋灭陈，南北朝结束。隋把北朝制度整合成果推向全国，重新打开统一国家的可能。",
+        "script_en": "In 589 Sui conquered Chen and ended the Northern-Southern division. Sui extended northern institutional integration nationwide and reopened the possibility of a unified state.",
+        "scene_setting_zh": "隋灭陈：南北再次统一",
+        "scene_setting_en": "Sui Conquers Chen: North and South Reunified",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "sui_wen"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "sui_crisis_617",
+        "title_zh": "隋末：统一国家再次裂开",
+        "title_en": "Late Sui: The Unified State Splits Again",
+        "year": 617,
+        "event_id": "sui_late_overextension_617",
+        "route_point_id": "sui_crisis_617",
+        "highlight_territory_ids": [
+          "sui_dynasty",
+          "cliopatria_eastern_g_kt_rks",
+          "cliopatria_western_g_kt_rks"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "隋的统一很快被高强度动员消耗。大工程、战争和征发让地方反叛蔓延，统一国家再次进入群雄并起。",
+        "script_en": "Sui unity was rapidly consumed by intense mobilization. Grand projects, war, and conscription spread local rebellion, pushing the unified state back into rival powers.",
+        "scene_setting_zh": "隋末：统一国家再次裂开",
+        "scene_setting_en": "Late Sui: The Unified State Splits Again",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "sui_yang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "tang_618",
+        "title_zh": "李渊建唐：从分裂中夺取关中",
+        "title_en": "Li Yuan Founds Tang: Taking Guanzhong amid Fragmentation",
+        "year": 618,
+        "event_id": "tang_founding_618",
+        "route_point_id": "tang_618",
+        "highlight_territory_ids": [
+          "sui_dynasty",
+          "tang_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "李渊建唐时，天下并未立刻统一。唐先取得关中，再逐步击败各地割据力量；Cliopatria 在 618 年仍以隋朝旧版图呈现这一过渡，唐朝边界会在随后 626 年节点清晰出现。",
+        "script_en": "When Li Yuan founded Tang, the realm was not immediately unified. Tang first secured Guanzhong, then defeated regional rivals; Cliopatria still shows the old Sui frame in 618, with Tang boundaries appearing clearly by the 626 node.",
+        "scene_setting_zh": "李渊建唐：从分裂中夺取关中",
+        "scene_setting_en": "Li Yuan Founds Tang: Taking Guanzhong amid Fragmentation",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "li_yuan"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "xuanwu_626",
+        "title_zh": "玄武门：唐初权力重组",
+        "title_en": "Xuanwu Gate: Early Tang Power Reshaped",
+        "year": 626,
+        "event_id": "xuanwu_gate_626",
+        "route_point_id": "xuanwu_626",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "sui_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "玄武门之变是唐初权力斗争的激烈节点。李世民即位后，唐朝用制度修复和军事整合把政变后的风险转化为贞观政治。",
+        "script_en": "Xuanwu Gate was a violent early Tang power struggle. After Li Shimin took power, Tang turned coup risk into Zhenguan governance through repair and consolidation.",
+        "scene_setting_zh": "玄武门：唐初权力重组",
+        "scene_setting_en": "Xuanwu Gate: Early Tang Power Reshaped",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "taizong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "unification_630",
+        "title_zh": "唐初统一：内外两条战线",
+        "title_en": "Early Tang Consolidation: Domestic and Frontier Fronts",
+        "year": 630,
+        "event_id": "tang_unification_630",
+        "route_point_id": "unification_630",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_eastern_g_kt_rks",
+          "cliopatria_western_g_kt_rks"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "630 年前后，唐基本完成内部统一并击败东突厥。唐的统一不仅是国内战争结束，也包括北方战略空间重塑。",
+        "script_en": "Around 630, Tang completed internal consolidation and defeated the Eastern Turks. Tang unity meant both ending domestic war and reshaping northern strategic space.",
+        "scene_setting_zh": "唐初统一：内外两条战线",
+        "scene_setting_en": "Early Tang Consolidation: Domestic and Frontier Fronts",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "taizong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "zhenguan_649",
+        "title_zh": "贞观之治：统一后的低压修复",
+        "title_en": "Zhenguan Governance: Low-Burden Repair after Unity",
+        "year": 649,
+        "event_id": "taizong_zhenguan_649",
+        "route_point_id": "zhenguan_649",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_western_g_kt_rks"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "贞观之治代表唐初统一后的恢复能力：官僚整合、较低社会负担、边疆经营和君臣政治共同稳定新王朝。",
+        "script_en": "Zhenguan governance represents early Tang recovery after unity: bureaucratic integration, relatively low burdens, frontier management, and ruler-minister politics stabilized the dynasty.",
+        "scene_setting_zh": "贞观之治：统一后的低压修复",
+        "scene_setting_en": "Zhenguan Governance: Low-Burden Repair after Unity",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "taizong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "wu_zhou_690",
+        "title_zh": "武周：前期政治的重组",
+        "title_en": "Wu Zhou: Reshaping Early Tang Politics",
+        "year": 690,
+        "event_id": "wu_zhou_transition_690",
+        "route_point_id": "wu_zhou_690",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "武则天称帝建周，改变了唐前期宫廷、贵族和官僚格局。帝国空间仍连续，但政治中心经历深度重组。",
+        "script_en": "Wu Zetian proclaimed Wu Zhou and changed early Tang court, aristocratic, and bureaucratic politics. Imperial space remained continuous, but the political center was deeply reshaped.",
+        "scene_setting_zh": "武周：前期政治的重组",
+        "scene_setting_en": "Wu Zhou: Reshaping Early Tang Politics",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "wu"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "kaiyuan_713",
+        "title_zh": "开元：盛唐秩序开启",
+        "title_en": "Kaiyuan: High Tang Order Opens",
+        "year": 713,
+        "event_id": "xuanzong_kaiyuan_713",
+        "route_point_id": "kaiyuan_713",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "唐玄宗前期开元治理使唐朝走向盛世。财政、交通、官僚和边疆体系共同支撑了帝国高峰。",
+        "script_en": "Early Xuanzong Kaiyuan governance moved Tang toward prosperity. Finance, transport, bureaucracy, and frontier systems supported the imperial peak.",
+        "scene_setting_zh": "开元：盛唐秩序开启",
+        "scene_setting_en": "Kaiyuan: High Tang Order Opens",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "xuanzong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "high_tang_742",
+        "title_zh": "盛唐高峰：繁荣与压力并存",
+        "title_en": "High Tang Peak: Prosperity and Pressure Together",
+        "year": 742,
+        "event_id": "high_tang_kaiyuan_742",
+        "route_point_id": "high_tang_742",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "开元天宝时期是盛唐高峰，但边镇军力、财政依赖和中央控制难题也在积累。盛世不是没有裂缝。",
+        "script_en": "Kaiyuan-Tianbao was High Tang’s peak, but frontier armies, fiscal dependency, and central control problems were accumulating. Prosperity had cracks.",
+        "scene_setting_zh": "盛唐高峰：繁荣与压力并存",
+        "scene_setting_en": "High Tang Peak: Prosperity and Pressure Together",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "xuanzong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "anshi_755",
+        "title_zh": "安史之乱：由盛转衰",
+        "title_en": "An Lushan Rebellion: From Prosperity to Decline",
+        "year": 755,
+        "event_id": "an_lushan_rebellion_755",
+        "route_point_id": "anshi_755",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_uyghur_khaganate",
+          "cliopatria_nanzhao"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "安史之乱爆发后，唐朝虽未灭亡，但中央权威、财政体系和边疆控制都被永久改变。",
+        "script_en": "After An Lushan rebelled, Tang survived, but central authority, fiscal systems, and frontier control were permanently changed.",
+        "scene_setting_zh": "安史之乱：由盛转衰",
+        "scene_setting_en": "An Lushan Rebellion: From Prosperity to Decline",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "an",
+          "xuanzong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "wartime_recovery_763",
+        "title_zh": "肃宗、代宗：战后唐朝如何活下来",
+        "title_en": "Suzong and Daizong: How Postwar Tang Survived",
+        "year": 763,
+        "event_id": "tang_wartime_recovery_763",
+        "route_point_id": "mid_tang_763",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_uyghur_khaganate"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "安史之后，肃宗、代宗时期靠郭子仪等将领、回鹘援助和地方军镇维持王朝。唐朝活了下来，但它已经不是盛唐式中央集权。",
+        "script_en": "After An Lushan, Suzong and Daizong relied on generals like Guo Ziyi, Uyghur support, and regional commands to keep the dynasty alive. Tang survived, but no longer as High Tang centralization.",
+        "scene_setting_zh": "肃宗、代宗：战后唐朝如何活下来",
+        "scene_setting_en": "Suzong and Daizong: How Postwar Tang Survived",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "suzong",
+          "daizong",
+          "guo"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "dezong_783",
+        "title_zh": "德宗：想削藩，却被现实反噬",
+        "title_en": "Dezong: Reform Strikes Back",
+        "year": 783,
+        "event_id": "dezong_fengtian_crisis_783",
+        "route_point_id": "dezong_783",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_uyghur_khaganate"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "德宗不是无能皇帝，他试图削藩和财政重整。但建中改革引发兵变，奉天之难暴露出中央已难以强行重建盛唐秩序。",
+        "script_en": "Dezong was not simply incapable; he tried to rein in military governors and reform finance. But Jianzhong reforms triggered mutiny, and Fengtian exposed that the center could no longer force High Tang order back into place.",
+        "scene_setting_zh": "德宗：想削藩，却被现实反噬",
+        "scene_setting_en": "Dezong: Reform Strikes Back",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "dezong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "xianzong_817",
+        "title_zh": "宪宗：元和中兴的短暂反攻",
+        "title_en": "Xianzong: The Brief Yuanhe Counteroffensive",
+        "year": 817,
+        "event_id": "xianzong_yuanhe_restoration_817",
+        "route_point_id": "xianzong_817",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_uyghur_khaganate",
+          "cliopatria_nanzhao",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "宪宗是中唐最值得一提的皇帝之一。元和削藩平定淮西，说明唐朝中央仍有修复能力；但这是一场需要强皇权持续支撑的反攻。",
+        "script_en": "Xianzong is one of the key mid-Tang emperors. Yuanhe campaigns suppressed Huai-Xi and showed the center still had repair capacity; but it was a counteroffensive requiring sustained strong imperial power.",
+        "scene_setting_zh": "宪宗：元和中兴的短暂反攻",
+        "scene_setting_en": "Xianzong: The Brief Yuanhe Counteroffensive",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "xianzong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "muzong_820",
+        "title_zh": "穆宗以后：元和成果为什么没守住",
+        "title_en": "After Muzong: Why Yuanhe Gains Did Not Last",
+        "year": 820,
+        "event_id": "post_yuanhe_reversal_820",
+        "route_point_id": "muzong_820",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_uyghur_khaganate",
+          "cliopatria_nanzhao",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "宪宗死后，穆宗时期河朔藩镇复起，元和成果迅速松动。中唐问题不是一次军事胜利能解决，而是制度性地方军事化。",
+        "script_en": "After Xianzong died, under Muzong Hebei military governors revived and Yuanhe gains loosened. Mid-Tang problems were not solvable by one military victory; they were institutionalized regional militarization.",
+        "scene_setting_zh": "穆宗以后：元和成果为什么没守住",
+        "scene_setting_en": "After Muzong: Why Yuanhe Gains Did Not Last",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "muzong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "wuzong_845",
+        "title_zh": "武宗：会昌时期的财政与控制尝试",
+        "title_en": "Wuzong: Huichang Fiscal and Control Attempt",
+        "year": 845,
+        "event_id": "wuzong_huichang_845",
+        "route_point_id": "wuzong_845",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_tibetan_empire",
+          "cliopatria_uyghur_khaganate",
+          "cliopatria_nanzhao",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "武宗会昌时期处理回鹘瓦解后的北方变化，也通过会昌灭佛回收资源。它显示晚唐皇帝仍会主动调整财政和控制结构。",
+        "script_en": "Wuzong’s Huichang era handled northern change after Uyghur collapse and reclaimed resources through suppression of Buddhism. It shows late Tang emperors still actively adjusted finance and control.",
+        "scene_setting_zh": "武宗：会昌时期的财政与控制尝试",
+        "scene_setting_en": "Wuzong: Huichang Fiscal and Control Attempt",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "wuzong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "late_xuanzong_859",
+        "title_zh": "宣宗与懿宗：晚唐仍有修补，但空间很小",
+        "title_en": "Xuanzong and Yizong: Repair Remains, Space Narrows",
+        "year": 859,
+        "event_id": "late_xuanzong_yizong_decline_859",
+        "route_point_id": "late_decline_859",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_nanzhao",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "唐宣宗常被称为“小太宗”，说明晚唐并非没有明君。但宣宗之后，懿宗时期财政、宦官、藩镇和南诏压力继续恶化。",
+        "script_en": "Late Emperor Xuanzong was often called “Little Taizong,” showing late Tang was not without capable rulers. But after him, under Yizong, fiscal, eunuch, military-governor, and Nanzhao pressures worsened.",
+        "scene_setting_zh": "宣宗与懿宗：晚唐仍有修补，但空间很小",
+        "scene_setting_en": "Xuanzong and Yizong: Repair Remains, Space Narrows",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "late_xuanzong",
+          "yizong"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "huang_chao_875",
+        "title_zh": "黄巢起义：唐末秩序崩坏",
+        "title_en": "Huang Chao: Late Tang Order Breaks",
+        "year": 875,
+        "event_id": "huang_chao_rebellion_875",
+        "route_point_id": "huang_chao_875",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_nanzhao",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "黄巢起义重创唐朝，朝廷对地方、财政和军镇的控制进一步瓦解，军阀成为残局中的真正力量。",
+        "script_en": "Huang Chao devastated Tang, further breaking court control over local society, revenue, and military commands; warlords became the real force in the endgame.",
+        "scene_setting_zh": "黄巢起义：唐末秩序崩坏",
+        "scene_setting_en": "Huang Chao: Late Tang Order Breaks",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "huang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "huang_chao_changan_881",
+        "title_zh": "僖宗：黄巢入长安后的皇帝出逃",
+        "title_en": "Xizong: Imperial Flight after Huang Chao Enters Chang’an",
+        "year": 881,
+        "event_id": "huang_chao_changan_881",
+        "route_point_id": "huang_chao_changan_881",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_nanzhao",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "黄巢入长安，唐僖宗出逃。唐朝还能复都，却越来越依赖军阀，皇帝从统治者变成被军事集团保护和挟持的对象。",
+        "script_en": "Huang Chao entered Chang’an and Emperor Xizong fled. Tang could return to the capital, but increasingly relied on warlords; emperors became objects protected and controlled by military groups.",
+        "scene_setting_zh": "僖宗：黄巢入长安后的皇帝出逃",
+        "scene_setting_en": "Xizong: Imperial Flight after Huang Chao Enters Chang’an",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "xizong",
+          "huang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "zhaozong_904",
+        "title_zh": "昭宗：最后的挣扎被朱温锁死",
+        "title_en": "Zhaozong: Final Struggle Locked by Zhu Wen",
+        "year": 904,
+        "event_id": "zhaozong_warlord_capture_904",
+        "route_point_id": "zhaozong_904",
+        "highlight_territory_ids": [
+          "tang_dynasty",
+          "cliopatria_nanzhao",
+          "cliopatria_balhae"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "昭宗试图摆脱军阀控制，但最终被朱温挟持并遇害。到这一步，907 年朱温篡唐已经只是时间问题。",
+        "script_en": "Zhaozong tried to escape warlord control, but was dominated and killed by Zhu Wen. By this point, Zhu Wen’s 907 usurpation was only a matter of time.",
+        "scene_setting_zh": "昭宗：最后的挣扎被朱温锁死",
+        "scene_setting_en": "Zhaozong: Final Struggle Locked by Zhu Wen",
+        "character_beat_zh": "中晚唐皇权在修补与失控之间摇摆。",
+        "character_beat_en": "Mid-late Tang imperial power oscillates between repair and loss of control.",
+        "story_question_zh": "中晚唐皇帝为什么有作为，却仍难以逆转唐末瓦解？",
+        "story_question_en": "Why could mid-late Tang emperors act, yet still fail to reverse collapse?",
+        "active_character_ids": [
+          "zhaozong",
+          "zhu"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "fall_907",
+        "title_zh": "唐亡：五代十国开场",
+        "title_en": "Tang Falls: Five Dynasties Begins",
+        "year": 907,
+        "event_id": "tang_fall_907",
+        "route_point_id": "fall_907",
+        "highlight_territory_ids": [
+          "tang_dynasty"
+        ],
+        "camera": {
+          "lat": 34.8,
+          "lng": 108.9,
+          "zoom": 3.8
+        },
+        "script_zh": "907 年朱温篡唐，唐朝灭亡。隋唐统一长周期结束，中国进入五代十国的再分裂阶段。",
+        "script_en": "In 907 Zhu Wen ended Tang. The long Sui-Tang unified cycle closed, and China entered Five Dynasties and Ten Kingdoms fragmentation.",
+        "scene_setting_zh": "唐亡：五代十国开场",
+        "scene_setting_en": "Tang Falls: Five Dynasties Begins",
+        "character_beat_zh": "隋唐统一国家的结构在这一节点发生变化。",
+        "character_beat_en": "The structure of the Sui-Tang unified state changes at this node.",
+        "story_question_zh": "隋唐如何完成再统一，又为什么从盛世走向唐末瓦解？",
+        "story_question_en": "How did Sui-Tang reunify, and why did High Tang move toward late collapse?",
+        "active_character_ids": [
+          "zhu"
+        ],
+        "interactions": []
+      }
+    ],
+    "characters": [
+      {
+        "id": "sui_wen",
+        "person_id": "emperor_wen_sui",
+        "label_zh": "隋文帝",
+        "label_en": "Emperor Wen of Sui",
+        "role_zh": "统一收束者",
+        "role_en": "Reunifier",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "隋",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "sui_yang",
+        "person_id": "emperor_yang_sui",
+        "label_zh": "隋炀帝",
+        "label_en": "Emperor Yang of Sui",
+        "role_zh": "高压动员者",
+        "role_en": "Overextension ruler",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "炀",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "li_yuan",
+        "person_id": "li_yuan",
+        "label_zh": "李渊",
+        "label_en": "Li Yuan",
+        "role_zh": "唐朝开国者",
+        "role_en": "Tang founder",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "渊",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "taizong",
+        "person_id": "li_shimin",
+        "label_zh": "李世民",
+        "label_en": "Li Shimin",
+        "role_zh": "唐初统合者",
+        "role_en": "Early Tang consolidator",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "民",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "wu",
+        "person_id": "empress_wu",
+        "label_zh": "武则天",
+        "label_en": "Wu Zetian",
+        "role_zh": "武周皇帝",
+        "role_en": "Wu Zhou ruler",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "武",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "xuanzong",
+        "person_id": "emperor_xuanzong_tang",
+        "label_zh": "唐玄宗",
+        "label_en": "Emperor Xuanzong",
+        "role_zh": "盛唐与危机皇帝",
+        "role_en": "High Tang and crisis ruler",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "玄",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "an",
+        "person_id": "an_lushan",
+        "label_zh": "安禄山",
+        "label_en": "An Lushan",
+        "role_zh": "叛乱发动者",
+        "role_en": "Rebel general",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "安",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "guo",
+        "person_id": "guo_ziyi",
+        "label_zh": "郭子仪",
+        "label_en": "Guo Ziyi",
+        "role_zh": "中唐支撑者",
+        "role_en": "Mid-Tang stabilizer",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "郭",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "huang",
+        "person_id": "huang_chao",
+        "label_zh": "黄巢",
+        "label_en": "Huang Chao",
+        "role_zh": "唐末起义领袖",
+        "role_en": "Late Tang rebel",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "黄",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "zhu",
+        "person_id": "zhu_wen",
+        "label_zh": "朱温",
+        "label_en": "Zhu Wen",
+        "role_zh": "唐末终结者",
+        "role_en": "Ender of Tang",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "朱",
+        "goal_zh": "推动隋唐统一、盛世、转衰与终结的关键变化。",
+        "goal_en": "Drive key changes in Sui-Tang reunification, prosperity, decline, and ending."
+      },
+      {
+        "id": "suzong",
+        "person_id": "emperor_suzong_tang",
+        "label_zh": "唐肃宗",
+        "label_en": "Emperor Suzong",
+        "role_zh": "战时皇帝",
+        "role_en": "Wartime emperor",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "肃",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "daizong",
+        "person_id": "emperor_daizong_tang",
+        "label_zh": "唐代宗",
+        "label_en": "Emperor Daizong",
+        "role_zh": "战后皇帝",
+        "role_en": "Postwar emperor",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "代",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "dezong",
+        "person_id": "emperor_dezong_tang",
+        "label_zh": "唐德宗",
+        "label_en": "Emperor Dezong",
+        "role_zh": "改革受挫者",
+        "role_en": "Frustrated reformer",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "德",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "xianzong",
+        "person_id": "emperor_xianzong_tang",
+        "label_zh": "唐宪宗",
+        "label_en": "Emperor Xianzong",
+        "role_zh": "元和中兴皇帝",
+        "role_en": "Yuanhe restorer",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "宪",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "muzong",
+        "person_id": "emperor_muzong_tang",
+        "label_zh": "唐穆宗",
+        "label_en": "Emperor Muzong",
+        "role_zh": "复起转折皇帝",
+        "role_en": "Reversal emperor",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "穆",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "wuzong",
+        "person_id": "emperor_wuzong_tang",
+        "label_zh": "唐武宗",
+        "label_en": "Emperor Wuzong",
+        "role_zh": "会昌皇帝",
+        "role_en": "Huichang emperor",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "武",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "late_xuanzong",
+        "person_id": "emperor_xuanzong_late_tang",
+        "label_zh": "唐宣宗",
+        "label_en": "Emperor Xuanzong",
+        "role_zh": "晚唐小太宗",
+        "role_en": "Late Tang repairer",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "宣",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "yizong",
+        "person_id": "emperor_yizong_tang",
+        "label_zh": "唐懿宗",
+        "label_en": "Emperor Yizong",
+        "role_zh": "衰败加深皇帝",
+        "role_en": "Decline deepener",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "懿",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "xizong",
+        "person_id": "emperor_xizong_tang",
+        "label_zh": "唐僖宗",
+        "label_en": "Emperor Xizong",
+        "role_zh": "出逃皇帝",
+        "role_en": "Fleeing emperor",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "僖",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
+      },
+      {
+        "id": "zhaozong",
+        "person_id": "emperor_zhaozong_tang",
+        "label_zh": "唐昭宗",
+        "label_en": "Emperor Zhaozong",
+        "role_zh": "末代挣扎者",
+        "role_en": "Last struggler",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "昭",
+        "goal_zh": "呈现中晚唐皇权在藩镇和财政压力下的修补与失控。",
+        "goal_en": "Show mid-late Tang imperial repair and loss of control under military-governor and fiscal pressure."
       }
     ]
   },
