@@ -14,6 +14,8 @@ import '../services/navigation_service.dart';
 import '../state/app_settings.dart';
 import '../state/atlas_explorer_controller.dart';
 
+const _maxConcurrentGeometryLoads = 4;
+
 class AtlasHomePage extends StatefulWidget {
   const AtlasHomePage({super.key});
 
@@ -84,38 +86,30 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
   bool _isMapReady = false;
   bool _isStoryPlaying = false;
   bool _isPresentationMode = false;
+  late final Map<String, Territory> _territoriesById;
+  late final Map<String, HistoricalPerson> _peopleById;
+  late final Map<String, HistoricalEvent> _eventsById;
+  late final Map<String, PlaceRecord> _placesById;
+  late final Map<String, SourceRecord> _sourcesById;
+  late final Map<String, GeometryAssetRecord> _geometryAssetsById;
 
   AtlasData get _data => widget.data;
   AtlasExplorerController get _controller =>
       ref.read(atlasExplorerControllerProvider(_data));
 
-  Map<String, Territory> get _territoriesById => {
-    for (final territory in _data.territories) territory.id: territory,
-  };
-
-  Map<String, HistoricalPerson> get _peopleById => {
-    for (final person in _data.people) person.id: person,
-  };
-
-  Map<String, HistoricalEvent> get _eventsById => {
-    for (final event in _data.events) event.id: event,
-  };
-
-  Map<String, PlaceRecord> get _placesById => {
-    for (final place in _data.places) place.id: place,
-  };
-
-  Map<String, SourceRecord> get _sourcesById => {
-    for (final source in _data.sources) source.id: source,
-  };
-
-  Map<String, GeometryAssetRecord> get _geometryAssetsById => {
-    for (final geometry in _data.geometryAssets) geometry.id: geometry,
-  };
-
   @override
   void initState() {
     super.initState();
+    _territoriesById = {
+      for (final territory in _data.territories) territory.id: territory,
+    };
+    _peopleById = {for (final person in _data.people) person.id: person};
+    _eventsById = {for (final event in _data.events) event.id: event};
+    _placesById = {for (final place in _data.places) place.id: place};
+    _sourcesById = {for (final source in _data.sources) source.id: source};
+    _geometryAssetsById = {
+      for (final geometry in _data.geometryAssets) geometry.id: geometry,
+    };
     _loadedPolygonsByGeometryId.addAll(_data.polygonsByGeometryId);
   }
 
@@ -137,17 +131,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                 geometryAssetsById.containsKey(geometryRef);
           })
           .toList(growable: false);
-      final loadedEntries = await Future.wait(
-        missingGeometryRefs.map((geometryRef) async {
-          final geometry = geometryAssetsById[geometryRef]!;
-          final polygons = await _geometryRepository.loadGeoJsonByPath(
-            geometryRef,
-            geometry.id,
-            geometry.assetPath,
-          );
-          return MapEntry(geometryRef, polygons);
-        }),
-      );
+      final loadedEntries = await _loadMissingPolygons(missingGeometryRefs);
       for (final entry in loadedEntries) {
         _loadedPolygonsByGeometryId[entry.key] = entry.value;
       }
@@ -158,10 +142,42 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     });
   }
 
+  Future<List<MapEntry<String, List<AtlasPolygonFeature>>>> _loadMissingPolygons(
+    List<String> geometryRefs,
+  ) async {
+    final loadedEntries = <MapEntry<String, List<AtlasPolygonFeature>>>[];
+    for (var index = 0; index < geometryRefs.length;) {
+      final end = (index + _maxConcurrentGeometryLoads).clamp(
+        0,
+        geometryRefs.length,
+      );
+      final batch = geometryRefs.sublist(index, end);
+      loadedEntries.addAll(
+        await Future.wait(
+          batch.map((geometryRef) async {
+            final geometry = _geometryAssetsById[geometryRef]!;
+            final polygons = await _geometryRepository.loadGeoJsonByPath(
+              geometryRef,
+              geometry.id,
+              geometry.assetPath,
+            );
+            return MapEntry(geometryRef, polygons);
+          }),
+        ),
+      );
+      index = end;
+    }
+    return loadedEntries;
+  }
+
   _LoadedPolygonMaps _mapsFromCache(
     List<TerritorySnapshot> snapshots, {
     required int version,
   }) {
+    final geometryRefs = <String>{
+      'world_base_modern',
+      for (final snapshot in snapshots) ...snapshot.geometryRefs,
+    };
     final polygonsBySnapshotId = <String, List<AtlasPolygonFeature>>{};
     for (final snapshot in snapshots) {
       polygonsBySnapshotId[snapshot.id] = snapshot.geometryRefs
@@ -174,7 +190,11 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
 
     return _LoadedPolygonMaps(
       polygonsBySnapshotId: polygonsBySnapshotId,
-      polygonsByGeometryId: Map.unmodifiable(_loadedPolygonsByGeometryId),
+      polygonsByGeometryId: {
+        for (final geometryRef in geometryRefs)
+          if (_loadedPolygonsByGeometryId[geometryRef] case final polygons?)
+            geometryRef: polygons,
+      },
       version: version,
     );
   }
@@ -1808,12 +1828,6 @@ class _MapPanelState extends State<_MapPanel> {
     };
     final orderedSnapshots = [...widget.snapshots]
       ..sort((a, b) {
-        final aHighlighted = _isStoryHighlighted(a.territoryId);
-        final bHighlighted = _isStoryHighlighted(b.territoryId);
-        if (aHighlighted != bHighlighted) return aHighlighted ? 1 : -1;
-        final aSelected = a.territoryId == widget.selectedTerritoryId;
-        final bSelected = b.territoryId == widget.selectedTerritoryId;
-        if (aSelected != bSelected) return aSelected ? 1 : -1;
         final aContext = _isContextBoundary(_boundaryMeaningFor(a));
         final bContext = _isContextBoundary(_boundaryMeaningFor(b));
         if (aContext != bContext) return aContext ? -1 : 1;
@@ -1821,6 +1835,12 @@ class _MapPanelState extends State<_MapPanel> {
           areaBySnapshotId[a.id] ?? 0,
         );
         if (areaComparison != 0) return areaComparison;
+        final aHighlighted = _isStoryHighlighted(a.territoryId);
+        final bHighlighted = _isStoryHighlighted(b.territoryId);
+        if (aHighlighted != bHighlighted) return aHighlighted ? 1 : -1;
+        final aSelected = a.territoryId == widget.selectedTerritoryId;
+        final bSelected = b.territoryId == widget.selectedTerritoryId;
+        if (aSelected != bSelected) return aSelected ? 1 : -1;
         return 0;
       });
     for (final snapshot in orderedSnapshots) {

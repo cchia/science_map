@@ -397682,5 +397682,661 @@
     ],
     "reviewStatus": "draft",
     "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1950_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1950,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1950"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1950年）",
+    "headlineEn": "Republic of China (1950 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1953_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1953,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1953"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1953年）",
+    "headlineEn": "Republic of China (1953 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1956_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1956,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1956"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1956年）",
+    "headlineEn": "Republic of China (1956 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1958_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1958,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1958"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1958年）",
+    "headlineEn": "Republic of China (1958 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1966_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1966,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1966"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1966年）",
+    "headlineEn": "Republic of China (1966 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1971_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1971,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1971"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1971年）",
+    "headlineEn": "Republic of China (1971 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1972_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1972,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1972"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1972年）",
+    "headlineEn": "Republic of China (1972 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1978_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1978,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1978"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1978年）",
+    "headlineEn": "Republic of China (1978 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1984_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1984,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1984"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1984年）",
+    "headlineEn": "Republic of China (1984 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1992_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1992,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1992"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1992年）",
+    "headlineEn": "Republic of China (1992 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1997_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1997,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1997"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1997年）",
+    "headlineEn": "Republic of China (1997 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_1999_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 1999,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_1999"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元1999年）",
+    "headlineEn": "Republic of China (1999 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_2001_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 2001,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_2001"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元2001年）",
+    "headlineEn": "Republic of China (2001 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_2008_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 2008,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_2008"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元2008年）",
+    "headlineEn": "Republic of China (2008 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_2012_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 2012,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_2012"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元2012年）",
+    "headlineEn": "Republic of China (2012 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
+  },
+  {
+    "id": "cliopatria_republic_of_china_2020_context",
+    "territoryId": "republic_of_china",
+    "displayYear": 2020,
+    "validFrom": 1950,
+    "validTo": 2023,
+    "geometryRefs": [
+      "cliopatria_republic_of_china_2020"
+    ],
+    "mapFocus": {
+      "lat": 20,
+      "lng": 20,
+      "zoom": 2.2
+    },
+    "headline": "中华民国（公元2020年）",
+    "headlineEn": "Republic of China (2020 CE)",
+    "territoryNote": "来源于 Seshat Cliopatria，原始年份范围为 1950-2023。",
+    "territoryNoteEn": "Generated from Seshat Cliopatria, original year range 1950-2023.",
+    "boundaryHighlights": [
+      "大洲级世界历史参考边界，适合故事场景和同代格局展示。"
+    ],
+    "boundaryHighlightsEn": [
+      "Continental-scale world-history reference boundary for story scenes and same-era context."
+    ],
+    "accuracy": {
+      "level": "community_reference",
+      "note": "Cliopatria 参考边界，尚未逐地人工审核。",
+      "noteEn": "Cliopatria reference boundary; not manually reviewed place by place."
+    },
+    "disputeNotes": [
+      "前现代边界可能混合核心控制、影响范围、附庸关系或争议区域。"
+    ],
+    "disputeNotesEn": [
+      "Premodern boundaries may mix core control, influence, vassalage, or disputed zones."
+    ],
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ],
+    "reviewStatus": "draft",
+    "highlightedEventIds": []
   }
 ]

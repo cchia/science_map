@@ -5,7 +5,19 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import '../models/atlas_models.dart';
 
-const _geoJsonComputeThresholdChars = 64 * 1024;
+const _jsonComputeThresholdChars = 256 * 1024;
+const _geoJsonComputeThresholdChars = 16 * 1024;
+
+Map<String, dynamic> _decodeJsonObject(String raw) {
+  return Map<String, dynamic>.from(json.decode(raw) as Map);
+}
+
+List<Map<String, dynamic>> _decodeJsonList(String raw) {
+  final decoded = json.decode(raw) as List<dynamic>;
+  return decoded
+      .map((item) => Map<String, dynamic>.from(item as Map))
+      .toList(growable: false);
+}
 
 class AtlasRepository {
   Future<AtlasData> load() async {
@@ -16,31 +28,35 @@ class AtlasRepository {
 
   Future<Map<String, dynamic>> _loadJsonObject(String assetPath) async {
     final raw = await rootBundle.loadString(assetPath);
-    return Map<String, dynamic>.from(json.decode(raw) as Map);
+    return raw.length <= _jsonComputeThresholdChars
+        ? _decodeJsonObject(raw)
+        : compute(_decodeJsonObject, raw);
   }
 
   Future<List<Map<String, dynamic>>> _loadJsonList(String assetPath) async {
     final raw = await rootBundle.loadString(assetPath);
-    final decoded = json.decode(raw) as List<dynamic>;
-    return decoded
-        .map((item) => Map<String, dynamic>.from(item as Map))
-        .toList(growable: false);
+    return raw.length <= _jsonComputeThresholdChars
+        ? _decodeJsonList(raw)
+        : compute(_decodeJsonList, raw);
   }
 
   Future<AtlasData> _loadFromGlobalSchema(ProjectScope scope) async {
-    final territoriesJson = await _loadJsonList(
-      'assets/global/territories.json',
-    );
-    final snapshotsJson = await _loadJsonList(
-      'assets/global/territory_snapshots.json',
-    );
-    final eventsJson = await _loadJsonList('assets/global/events.json');
-    final peopleJson = await _loadJsonList('assets/global/people.json');
-    final placesJson = await _loadJsonList('assets/global/places.json');
-    final sourcesJson = await _loadJsonList('assets/global/sources.json');
-    final geometryManifestJson = await _loadJsonList(
-      'assets/global/geometry_manifest.json',
-    );
+    final globalJson = await Future.wait([
+      _loadJsonList('assets/global/territories.json'),
+      _loadJsonList('assets/global/territory_snapshots.json'),
+      _loadJsonList('assets/global/events.json'),
+      _loadJsonList('assets/global/people.json'),
+      _loadJsonList('assets/global/places.json'),
+      _loadJsonList('assets/global/sources.json'),
+      _loadJsonList('assets/global/geometry_manifest.json'),
+    ]);
+    final territoriesJson = globalJson[0];
+    final snapshotsJson = globalJson[1];
+    final eventsJson = globalJson[2];
+    final peopleJson = globalJson[3];
+    final placesJson = globalJson[4];
+    final sourcesJson = globalJson[5];
+    final geometryManifestJson = globalJson[6];
     final places = placesJson.map(_placeFromGlobal).toList(growable: false);
     final placesById = {for (final place in places) place.id: place};
     final sources = sourcesJson.map(_sourceFromGlobal).toList(growable: false);

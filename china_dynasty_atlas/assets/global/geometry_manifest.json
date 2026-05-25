@@ -171956,5 +171956,293 @@
     "accuracyTier": "community_reference",
     "reviewStatus": "draft",
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1950",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1950.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1950.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1953",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1953.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1953.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1956",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1956.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1956.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1958",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1958.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1958.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1966",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1966.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1966.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1971",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1971.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1971.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1972",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1972.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1972.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1978",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1978.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1978.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1984",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1984.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1984.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1992",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1992.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1992.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1997",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1997.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1997.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_1999",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_1999.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 1999.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_2001",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_2001.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 2001.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_2008",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_2008.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 2008.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_2012",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_2012.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 2012.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_republic_of_china_2020",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_republic_of_china_2020.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Republic of China' covering 1950-2023; displayed at 2020.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
   }
 ]

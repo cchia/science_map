@@ -27,6 +27,7 @@ MIN_AREA_KM2 = 100_000
 EARLY_WORLD_CONTEXT_MIN_AREA_KM2 = 25_000
 SIXTEEN_KINGDOMS_MIN_AREA_KM2 = 30_000
 FIVE_DYNASTIES_MIN_AREA_KM2 = 20_000
+MODERN_CHINA_MIN_AREA_KM2 = 50_000
 FIVE_DYNASTIES_POLITIES = {
     "Former Jin",
     "Former Shu",
@@ -47,6 +48,14 @@ FIVE_DYNASTIES_POLITIES = {
     "Qi Kingdom",
     "Liao Dynasty",
     "Northern Song",
+}
+MODERN_CHINA_POLITIES = {
+    "People's Republic of China",
+    "Republic of China",
+    "Communist Party of China",
+    "Democratic People's Republic of Korea",
+    "Republic of Korea",
+    "Japan",
 }
 WARRING_STATES_MIN_AREA_KM2 = 3_000
 WARRING_STATES_POLITIES = {
@@ -187,6 +196,8 @@ def is_direct_polity(properties: dict, year: int) -> bool:
         return area >= SIXTEEN_KINGDOMS_MIN_AREA_KM2
     if 900 <= year <= 979 and name in FIVE_DYNASTIES_POLITIES:
         return area >= FIVE_DYNASTIES_MIN_AREA_KM2
+    if year >= 1949 and name in MODERN_CHINA_POLITIES:
+        return area >= MODERN_CHINA_MIN_AREA_KM2
     if year <= -700:
         return area >= EARLY_WORLD_CONTEXT_MIN_AREA_KM2
     return area >= MIN_AREA_KM2
