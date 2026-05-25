@@ -2673,7 +2673,7 @@
     ],
     "relatedEventIds": [
       "emperor_wu_reign_141",
-      "zhang_qian_mission_-138"
+      "zhang_qian_west_-138"
     ],
     "birthPlaceId": "",
     "deathPlaceId": "",
@@ -3152,7 +3152,7 @@
       "western_han"
     ],
     "relatedEventIds": [
-      "han_xin_northern_campaign_205",
+      "pengcheng_defeat_han_recovery_205",
       "chu_han_stalemate_203"
     ],
     "birthPlaceId": "",
@@ -5317,6 +5317,3636 @@
     "relatedEventIds": [
       "zhaozong_warlord_capture_904",
       "tang_fall_907"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_keyong",
+    "names": {
+      "primaryName": "Li Keyong",
+      "localizedNames": {
+        "en": "Li Keyong",
+        "zh-Hans": "李克用"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 856,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元856年"
+    },
+    "death": {
+      "year": 908,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元908年"
+    },
+    "activeRange": "856 - 908",
+    "roles": [
+      "warlord"
+    ],
+    "bioShort": "沙陀晋王，后唐政权的军事政治源头。",
+    "bioShortEn": "Shatuo Prince of Jin, the military-political origin of Later Tang.",
+    "bioLong": "沙陀晋王，后唐政权的军事政治源头。",
+    "bioLongEn": "Shatuo Prince of Jin, the military-political origin of Later Tang.",
+    "contribution": "沙陀晋王，后唐政权的军事政治源头。",
+    "contributionEn": "Shatuo Prince of Jin, the military-political origin of Later Tang.",
+    "relatedTerritoryIds": [
+      "cliopatria_former_jin"
+    ],
+    "relatedEventIds": [
+      "later_liang_jin_rivalry_923"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_cunxu",
+    "names": {
+      "primaryName": "Li Cunxu (Emperor Zhuangzong of Later Tang)",
+      "localizedNames": {
+        "en": "Li Cunxu (Emperor Zhuangzong of Later Tang)",
+        "zh-Hans": "李存勖（后唐庄宗）"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 885,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元885年"
+    },
+    "death": {
+      "year": 926,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元926年"
+    },
+    "activeRange": "885 - 926",
+    "roles": [
+      "emperor",
+      "general"
+    ],
+    "bioShort": "灭后梁建立后唐，将五代第一个更替推向完成。",
+    "bioShortEn": "Conquered Later Liang and founded Later Tang, completing the first Five Dynasties turnover.",
+    "bioLong": "灭后梁建立后唐，将五代第一个更替推向完成。",
+    "bioLongEn": "Conquered Later Liang and founded Later Tang, completing the first Five Dynasties turnover.",
+    "contribution": "灭后梁建立后唐，将五代第一个更替推向完成。",
+    "contributionEn": "Conquered Later Liang and founded Later Tang, completing the first Five Dynasties turnover.",
+    "relatedTerritoryIds": [
+      "cliopatria_later_tang"
+    ],
+    "relatedEventIds": [
+      "later_tang_founds_926"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "shi_jingtang",
+    "names": {
+      "primaryName": "Shi Jingtang",
+      "localizedNames": {
+        "en": "Shi Jingtang",
+        "zh-Hans": "石敬瑭"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 892,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元892年"
+    },
+    "death": {
+      "year": 942,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元942年"
+    },
+    "activeRange": "892 - 942",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "借契丹力量灭后唐、建后晋，并割让燕云十六州。",
+    "bioShortEn": "Founded Later Jin with Khitan support and ceded the Sixteen Prefectures.",
+    "bioLong": "借契丹力量灭后唐、建后晋，并割让燕云十六州。",
+    "bioLongEn": "Founded Later Jin with Khitan support and ceded the Sixteen Prefectures.",
+    "contribution": "借契丹力量灭后唐、建后晋，并割让燕云十六州。",
+    "contributionEn": "Founded Later Jin with Khitan support and ceded the Sixteen Prefectures.",
+    "relatedTerritoryIds": [
+      "cliopatria_later_jin",
+      "cliopatria_liao_dynasty"
+    ],
+    "relatedEventIds": [
+      "later_jin_liao_936"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "liu_zhiyuan",
+    "names": {
+      "primaryName": "Liu Zhiyuan",
+      "localizedNames": {
+        "en": "Liu Zhiyuan",
+        "zh-Hans": "刘知远"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 895,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元895年"
+    },
+    "death": {
+      "year": 948,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元948年"
+    },
+    "activeRange": "895 - 948",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "后汉建立者，在后晋崩溃和辽南下之后重建中原政权。",
+    "bioShortEn": "Founder of Later Han after Later Jin collapsed and Liao intervened.",
+    "bioLong": "后汉建立者，在后晋崩溃和辽南下之后重建中原政权。",
+    "bioLongEn": "Founder of Later Han after Later Jin collapsed and Liao intervened.",
+    "contribution": "后汉建立者，在后晋崩溃和辽南下之后重建中原政权。",
+    "contributionEn": "Founder of Later Han after Later Jin collapsed and Liao intervened.",
+    "relatedTerritoryIds": [
+      "cliopatria_later_han"
+    ],
+    "relatedEventIds": [
+      "later_han_founds_947"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "guo_wei",
+    "names": {
+      "primaryName": "Guo Wei",
+      "localizedNames": {
+        "en": "Guo Wei",
+        "zh-Hans": "郭威"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 904,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元904年"
+    },
+    "death": {
+      "year": 954,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元954年"
+    },
+    "activeRange": "904 - 954",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "建立后周，开启五代后期制度整顿。",
+    "bioShortEn": "Founded Later Zhou and began late Five Dynasties institutional consolidation.",
+    "bioLong": "建立后周，开启五代后期制度整顿。",
+    "bioLongEn": "Founded Later Zhou and began late Five Dynasties institutional consolidation.",
+    "contribution": "建立后周，开启五代后期制度整顿。",
+    "contributionEn": "Founded Later Zhou and began late Five Dynasties institutional consolidation.",
+    "relatedTerritoryIds": [
+      "cliopatria_later_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "later_zhou_founds_951"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "chai_rong",
+    "names": {
+      "primaryName": "Chai Rong (Emperor Shizong of Later Zhou)",
+      "localizedNames": {
+        "en": "Chai Rong (Emperor Shizong of Later Zhou)",
+        "zh-Hans": "柴荣（周世宗）"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 921,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元921年"
+    },
+    "death": {
+      "year": 959,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元959年"
+    },
+    "activeRange": "921 - 959",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "后周世宗，推动整军、财政和南征，为北宋统一奠基。",
+    "bioShortEn": "Later Zhou emperor who pushed military, fiscal, and southern campaigns, laying groundwork for Song reunification.",
+    "bioLong": "后周世宗，推动整军、财政和南征，为北宋统一奠基。",
+    "bioLongEn": "Later Zhou emperor who pushed military, fiscal, and southern campaigns, laying groundwork for Song reunification.",
+    "contribution": "后周世宗，推动整军、财政和南征，为北宋统一奠基。",
+    "contributionEn": "Later Zhou emperor who pushed military, fiscal, and southern campaigns, laying groundwork for Song reunification.",
+    "relatedTerritoryIds": [
+      "cliopatria_later_zhou_dynasty"
+    ],
+    "relatedEventIds": [
+      "later_zhou_reforms_955"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhao_kuangyin",
+    "names": {
+      "primaryName": "Zhao Kuangyin (Emperor Taizu of Song)",
+      "localizedNames": {
+        "en": "Zhao Kuangyin (Emperor Taizu of Song)",
+        "zh-Hans": "赵匡胤（宋太祖）"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 927,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元927年"
+    },
+    "death": {
+      "year": 976,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元976年"
+    },
+    "activeRange": "927 - 976",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "陈桥兵变后建立北宋，承接后周改革成果开启再统一。",
+    "bioShortEn": "Founded Northern Song after the Chenqiao mutiny, inheriting Later Zhou reforms and beginning reunification.",
+    "bioLong": "陈桥兵变后建立北宋，承接后周改革成果开启再统一。",
+    "bioLongEn": "Founded Northern Song after the Chenqiao mutiny, inheriting Later Zhou reforms and beginning reunification.",
+    "contribution": "陈桥兵变后建立北宋，承接后周改革成果开启再统一。",
+    "contributionEn": "Founded Northern Song after the Chenqiao mutiny, inheriting Later Zhou reforms and beginning reunification.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song"
+    ],
+    "relatedEventIds": [
+      "song_founding_960",
+      "song_conquers_southern_tang_975"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_yu_southern_tang",
+    "names": {
+      "primaryName": "Li Yu (Last Ruler of Southern Tang)",
+      "localizedNames": {
+        "en": "Li Yu (Last Ruler of Southern Tang)",
+        "zh-Hans": "李煜（南唐后主）"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 937,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元937年"
+    },
+    "death": {
+      "year": 978,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元978年"
+    },
+    "activeRange": "937 - 978",
+    "roles": [
+      "ruler",
+      "poet"
+    ],
+    "bioShort": "南唐后主，975 年降宋，象征南方强国并入北宋。",
+    "bioShortEn": "Last ruler of Southern Tang, surrendered to Song in 975, symbolizing southern incorporation.",
+    "bioLong": "南唐后主，975 年降宋，象征南方强国并入北宋。",
+    "bioLongEn": "Last ruler of Southern Tang, surrendered to Song in 975, symbolizing southern incorporation.",
+    "contribution": "南唐后主，975 年降宋，象征南方强国并入北宋。",
+    "contributionEn": "Last ruler of Southern Tang, surrendered to Song in 975, symbolizing southern incorporation.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_tang"
+    ],
+    "relatedEventIds": [
+      "song_conquers_southern_tang_975"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_taizong_song",
+    "names": {
+      "primaryName": "Emperor Taizong of Song",
+      "localizedNames": {
+        "en": "Emperor Taizong of Song",
+        "zh-Hans": "宋太宗赵光义"
+      },
+      "aliases": [
+        "赵光义"
+      ]
+    },
+    "birth": {
+      "year": 939,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元939年"
+    },
+    "death": {
+      "year": 997,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元997年"
+    },
+    "activeRange": "939 - 997",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "北宋第二位皇帝，完成灭北汉，但未能收复燕云。",
+    "bioShortEn": "Second Song emperor who conquered Northern Han but failed to recover the Sixteen Prefectures.",
+    "bioLong": "北宋第二位皇帝，完成灭北汉，但未能收复燕云。",
+    "bioLongEn": "Second Song emperor who conquered Northern Han but failed to recover the Sixteen Prefectures.",
+    "contribution": "北宋第二位皇帝，完成灭北汉，但未能收复燕云。",
+    "contributionEn": "Second Song emperor who conquered Northern Han but failed to recover the Sixteen Prefectures.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song"
+    ],
+    "relatedEventIds": [
+      "song_conquers_northern_han_979"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_zhenzong_song",
+    "names": {
+      "primaryName": "Emperor Zhenzong of Song",
+      "localizedNames": {
+        "en": "Emperor Zhenzong of Song",
+        "zh-Hans": "宋真宗赵恒"
+      },
+      "aliases": [
+        "赵恒"
+      ]
+    },
+    "birth": {
+      "year": 968,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元968年"
+    },
+    "death": {
+      "year": 1022,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1022年"
+    },
+    "activeRange": "968 - 1022",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "澶渊之盟时期的北宋皇帝，以岁币换取宋辽长期和平。",
+    "bioShortEn": "Song emperor of the Chanyuan Treaty, trading annual payments for long peace with Liao.",
+    "bioLong": "澶渊之盟时期的北宋皇帝，以岁币换取宋辽长期和平。",
+    "bioLongEn": "Song emperor of the Chanyuan Treaty, trading annual payments for long peace with Liao.",
+    "contribution": "澶渊之盟时期的北宋皇帝，以岁币换取宋辽长期和平。",
+    "contributionEn": "Song emperor of the Chanyuan Treaty, trading annual payments for long peace with Liao.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song"
+    ],
+    "relatedEventIds": [
+      "chanyuan_treaty_1004"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "empress_dowager_chengtian_liao",
+    "names": {
+      "primaryName": "Empress Dowager Chengtian of Liao",
+      "localizedNames": {
+        "en": "Empress Dowager Chengtian of Liao",
+        "zh-Hans": "萧太后"
+      },
+      "aliases": [
+        "萧绰",
+        "承天太后"
+      ]
+    },
+    "birth": {
+      "year": 953,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元953年"
+    },
+    "death": {
+      "year": 1009,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1009年"
+    },
+    "activeRange": "953 - 1009",
+    "roles": [
+      "regent",
+      "stateswoman"
+    ],
+    "bioShort": "辽朝摄政者，南下逼近澶州，并促成宋辽议和。",
+    "bioShortEn": "Liao regent who advanced toward Chanzhou and helped shape the Song-Liao settlement.",
+    "bioLong": "辽朝摄政者，南下逼近澶州，并促成宋辽议和。",
+    "bioLongEn": "Liao regent who advanced toward Chanzhou and helped shape the Song-Liao settlement.",
+    "contribution": "辽朝摄政者，南下逼近澶州，并促成宋辽议和。",
+    "contributionEn": "Liao regent who advanced toward Chanzhou and helped shape the Song-Liao settlement.",
+    "relatedTerritoryIds": [
+      "cliopatria_liao_dynasty"
+    ],
+    "relatedEventIds": [
+      "chanyuan_treaty_1004"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_shengzong_liao",
+    "names": {
+      "primaryName": "Emperor Shengzong of Liao",
+      "localizedNames": {
+        "en": "Emperor Shengzong of Liao",
+        "zh-Hans": "辽圣宗耶律隆绪"
+      },
+      "aliases": [
+        "耶律隆绪"
+      ]
+    },
+    "birth": {
+      "year": 971,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元971年"
+    },
+    "death": {
+      "year": 1031,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1031年"
+    },
+    "activeRange": "971 - 1031",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "辽朝皇帝，与萧太后共同处在宋辽澶渊谈判的核心。",
+    "bioShortEn": "Liao emperor at the center of the Chanyuan negotiations alongside Empress Dowager Chengtian.",
+    "bioLong": "辽朝皇帝，与萧太后共同处在宋辽澶渊谈判的核心。",
+    "bioLongEn": "Liao emperor at the center of the Chanyuan negotiations alongside Empress Dowager Chengtian.",
+    "contribution": "辽朝皇帝，与萧太后共同处在宋辽澶渊谈判的核心。",
+    "contributionEn": "Liao emperor at the center of the Chanyuan negotiations alongside Empress Dowager Chengtian.",
+    "relatedTerritoryIds": [
+      "cliopatria_liao_dynasty"
+    ],
+    "relatedEventIds": [
+      "chanyuan_treaty_1004"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_yuanhao",
+    "names": {
+      "primaryName": "Li Yuanhao",
+      "localizedNames": {
+        "en": "Li Yuanhao",
+        "zh-Hans": "李元昊"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1003,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1003年"
+    },
+    "death": {
+      "year": 1048,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1048年"
+    },
+    "activeRange": "1003 - 1048",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "党项首领，1038 年称帝建立西夏，与宋、辽形成三角格局。",
+    "bioShortEn": "Tangut ruler who proclaimed Western Xia in 1038, forming a triangular order with Song and Liao.",
+    "bioLong": "党项首领，1038 年称帝建立西夏，与宋、辽形成三角格局。",
+    "bioLongEn": "Tangut ruler who proclaimed Western Xia in 1038, forming a triangular order with Song and Liao.",
+    "contribution": "党项首领，1038 年称帝建立西夏，与宋、辽形成三角格局。",
+    "contributionEn": "Tangut ruler who proclaimed Western Xia in 1038, forming a triangular order with Song and Liao.",
+    "relatedTerritoryIds": [
+      "cliopatria_western_xia"
+    ],
+    "relatedEventIds": [
+      "western_xia_founding_1038",
+      "song_xia_peace_1044"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "fan_zhongyan",
+    "names": {
+      "primaryName": "Fan Zhongyan",
+      "localizedNames": {
+        "en": "Fan Zhongyan",
+        "zh-Hans": "范仲淹"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 989,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元989年"
+    },
+    "death": {
+      "year": 1052,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1052年"
+    },
+    "activeRange": "989 - 1052",
+    "roles": [
+      "minister",
+      "reformer"
+    ],
+    "bioShort": "北宋名臣，庆历新政与宋夏边防调整的代表人物。",
+    "bioShortEn": "Northern Song minister associated with Qingli reforms and frontier adjustment against Western Xia.",
+    "bioLong": "北宋名臣，庆历新政与宋夏边防调整的代表人物。",
+    "bioLongEn": "Northern Song minister associated with Qingli reforms and frontier adjustment against Western Xia.",
+    "contribution": "北宋名臣，庆历新政与宋夏边防调整的代表人物。",
+    "contributionEn": "Northern Song minister associated with Qingli reforms and frontier adjustment against Western Xia.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song"
+    ],
+    "relatedEventIds": [
+      "song_xia_peace_1044"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wang_anshi",
+    "names": {
+      "primaryName": "Wang Anshi",
+      "localizedNames": {
+        "en": "Wang Anshi",
+        "zh-Hans": "王安石"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1021,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1021年"
+    },
+    "death": {
+      "year": 1086,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1086年"
+    },
+    "activeRange": "1021 - 1086",
+    "roles": [
+      "minister",
+      "reformer"
+    ],
+    "bioShort": "宋神宗时期推行新法，试图用财政、军政改革解决积弱。",
+    "bioShortEn": "Reformer under Emperor Shenzong who used fiscal and military-administrative reforms to address Song weakness.",
+    "bioLong": "宋神宗时期推行新法，试图用财政、军政改革解决积弱。",
+    "bioLongEn": "Reformer under Emperor Shenzong who used fiscal and military-administrative reforms to address Song weakness.",
+    "contribution": "宋神宗时期推行新法，试图用财政、军政改革解决积弱。",
+    "contributionEn": "Reformer under Emperor Shenzong who used fiscal and military-administrative reforms to address Song weakness.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song"
+    ],
+    "relatedEventIds": [
+      "wang_anshi_reforms_1069",
+      "yuanyou_reversal_1085"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_shenzong_song",
+    "names": {
+      "primaryName": "Emperor Shenzong of Song",
+      "localizedNames": {
+        "en": "Emperor Shenzong of Song",
+        "zh-Hans": "宋神宗赵顼"
+      },
+      "aliases": [
+        "赵顼"
+      ]
+    },
+    "birth": {
+      "year": 1048,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1048年"
+    },
+    "death": {
+      "year": 1085,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1085年"
+    },
+    "activeRange": "1048 - 1085",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "支持王安石变法的北宋皇帝，试图重塑国家财政与边防能力。",
+    "bioShortEn": "Song emperor who backed Wang Anshi’s reforms to reshape state finance and frontier capacity.",
+    "bioLong": "支持王安石变法的北宋皇帝，试图重塑国家财政与边防能力。",
+    "bioLongEn": "Song emperor who backed Wang Anshi’s reforms to reshape state finance and frontier capacity.",
+    "contribution": "支持王安石变法的北宋皇帝，试图重塑国家财政与边防能力。",
+    "contributionEn": "Song emperor who backed Wang Anshi’s reforms to reshape state finance and frontier capacity.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song"
+    ],
+    "relatedEventIds": [
+      "wang_anshi_reforms_1069",
+      "yuanyou_reversal_1085"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "sima_guang",
+    "names": {
+      "primaryName": "Sima Guang",
+      "localizedNames": {
+        "en": "Sima Guang",
+        "zh-Hans": "司马光"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1019,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1019年"
+    },
+    "death": {
+      "year": 1086,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1086年"
+    },
+    "activeRange": "1019 - 1086",
+    "roles": [
+      "minister",
+      "historian"
+    ],
+    "bioShort": "旧党代表人物，神宗死后主持废止或调整新法。",
+    "bioShortEn": "Conservative statesman and historian who led repeal or revision of New Policies after Shenzong.",
+    "bioLong": "旧党代表人物，神宗死后主持废止或调整新法。",
+    "bioLongEn": "Conservative statesman and historian who led repeal or revision of New Policies after Shenzong.",
+    "contribution": "旧党代表人物，神宗死后主持废止或调整新法。",
+    "contributionEn": "Conservative statesman and historian who led repeal or revision of New Policies after Shenzong.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song"
+    ],
+    "relatedEventIds": [
+      "yuanyou_reversal_1085"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_huizong_song",
+    "names": {
+      "primaryName": "Emperor Huizong of Song",
+      "localizedNames": {
+        "en": "Emperor Huizong of Song",
+        "zh-Hans": "宋徽宗赵佶"
+      },
+      "aliases": [
+        "赵佶"
+      ]
+    },
+    "birth": {
+      "year": 1082,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1082年"
+    },
+    "death": {
+      "year": 1135,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1135年"
+    },
+    "activeRange": "1082 - 1135",
+    "roles": [
+      "emperor",
+      "artist"
+    ],
+    "bioShort": "北宋末皇帝，海上之盟与靖康危机前的核心人物。",
+    "bioShortEn": "Late Northern Song emperor central to the alliance with Jin and the lead-up to the Jingkang crisis.",
+    "bioLong": "北宋末皇帝，海上之盟与靖康危机前的核心人物。",
+    "bioLongEn": "Late Northern Song emperor central to the alliance with Jin and the lead-up to the Jingkang crisis.",
+    "contribution": "北宋末皇帝，海上之盟与靖康危机前的核心人物。",
+    "contributionEn": "Late Northern Song emperor central to the alliance with Jin and the lead-up to the Jingkang crisis.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_southern_song"
+    ],
+    "relatedEventIds": [
+      "liao_falls_jin_rises_1125",
+      "jingkang_incident_1127"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_qinzong_song",
+    "names": {
+      "primaryName": "Emperor Qinzong of Song",
+      "localizedNames": {
+        "en": "Emperor Qinzong of Song",
+        "zh-Hans": "宋钦宗赵桓"
+      },
+      "aliases": [
+        "赵桓"
+      ]
+    },
+    "birth": {
+      "year": 1100,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1100年"
+    },
+    "death": {
+      "year": 1161,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1161年"
+    },
+    "activeRange": "1100 - 1161",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "靖康之变时的北宋皇帝，被金军俘虏，北宋灭亡。",
+    "bioShortEn": "Northern Song emperor captured during the Jingkang Incident, marking Northern Song’s fall.",
+    "bioLong": "靖康之变时的北宋皇帝，被金军俘虏，北宋灭亡。",
+    "bioLongEn": "Northern Song emperor captured during the Jingkang Incident, marking Northern Song’s fall.",
+    "contribution": "靖康之变时的北宋皇帝，被金军俘虏，北宋灭亡。",
+    "contributionEn": "Northern Song emperor captured during the Jingkang Incident, marking Northern Song’s fall.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_southern_song"
+    ],
+    "relatedEventIds": [
+      "jingkang_incident_1127"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wanyan_aguda",
+    "names": {
+      "primaryName": "Wanyan Aguda",
+      "localizedNames": {
+        "en": "Wanyan Aguda",
+        "zh-Hans": "完颜阿骨打"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1068,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1068年"
+    },
+    "death": {
+      "year": 1123,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1123年"
+    },
+    "activeRange": "1068 - 1123",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "女真领袖，建立金朝并开启灭辽进程。",
+    "bioShortEn": "Jurchen leader who founded Jin and began the destruction of Liao.",
+    "bioLong": "女真领袖，建立金朝并开启灭辽进程。",
+    "bioLongEn": "Jurchen leader who founded Jin and began the destruction of Liao.",
+    "contribution": "女真领袖，建立金朝并开启灭辽进程。",
+    "contributionEn": "Jurchen leader who founded Jin and began the destruction of Liao.",
+    "relatedTerritoryIds": [
+      "cliopatria_great_jin"
+    ],
+    "relatedEventIds": [
+      "liao_falls_jin_rises_1125"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "dali_court",
+    "names": {
+      "primaryName": "Dali Royal Court",
+      "localizedNames": {
+        "en": "Dali Royal Court",
+        "zh-Hans": "大理国王室"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 937,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元937年"
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "937",
+    "roles": [
+      "polity_elite"
+    ],
+    "bioShort": "大理国在北宋时期控制西南，是宋、辽、西夏之外的重要同代政权。",
+    "bioShortEn": "The Dali court controlled the southwest during Northern Song, an important same-era polity beyond Song, Liao, and Western Xia.",
+    "bioLong": "大理国在北宋时期控制西南，是宋、辽、西夏之外的重要同代政权。",
+    "bioLongEn": "The Dali court controlled the southwest during Northern Song, an important same-era polity beyond Song, Liao, and Western Xia.",
+    "contribution": "大理国在北宋时期控制西南，是宋、辽、西夏之外的重要同代政权。",
+    "contributionEn": "The Dali court controlled the southwest during Northern Song, an important same-era polity beyond Song, Liao, and Western Xia.",
+    "relatedTerritoryIds": [
+      "cliopatria_kingdom_of_dali"
+    ],
+    "relatedEventIds": [
+      "song_liao_dali_1004"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_gaozong_song",
+    "names": {
+      "primaryName": "Emperor Gaozong of Song",
+      "localizedNames": {
+        "en": "Emperor Gaozong of Song",
+        "zh-Hans": "宋高宗赵构"
+      },
+      "aliases": [
+        "赵构"
+      ]
+    },
+    "birth": {
+      "year": 1107,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1107年"
+    },
+    "death": {
+      "year": 1187,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1187年"
+    },
+    "activeRange": "1107 - 1187",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "南宋建立者，在金军压力下重建江南政权。",
+    "bioShortEn": "Founder of Southern Song who rebuilt a Jiangnan court under Jin pressure.",
+    "bioLong": "南宋建立者，在金军压力下重建江南政权。",
+    "bioLongEn": "Founder of Southern Song who rebuilt a Jiangnan court under Jin pressure.",
+    "contribution": "南宋建立者，在金军压力下重建江南政权。",
+    "contributionEn": "Founder of Southern Song who rebuilt a Jiangnan court under Jin pressure.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song"
+    ],
+    "relatedEventIds": [
+      "jingkang_incident_1127",
+      "shaoxing_peace_1141"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yue_fei",
+    "names": {
+      "primaryName": "Yue Fei",
+      "localizedNames": {
+        "en": "Yue Fei",
+        "zh-Hans": "岳飞"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1103,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1103年"
+    },
+    "death": {
+      "year": 1142,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1142年"
+    },
+    "activeRange": "1103 - 1142",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "南宋抗金名将，北伐与被害成为宋金关系中的核心记忆。",
+    "bioShortEn": "Southern Song general whose northern campaigns and execution became central to Song-Jin memory.",
+    "bioLong": "南宋抗金名将，北伐与被害成为宋金关系中的核心记忆。",
+    "bioLongEn": "Southern Song general whose northern campaigns and execution became central to Song-Jin memory.",
+    "contribution": "南宋抗金名将，北伐与被害成为宋金关系中的核心记忆。",
+    "contributionEn": "Southern Song general whose northern campaigns and execution became central to Song-Jin memory.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song",
+      "cliopatria_great_jin"
+    ],
+    "relatedEventIds": [
+      "shaoxing_peace_1141"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "qin_hui",
+    "names": {
+      "primaryName": "Qin Hui",
+      "localizedNames": {
+        "en": "Qin Hui",
+        "zh-Hans": "秦桧"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1091,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1091年"
+    },
+    "death": {
+      "year": 1155,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1155年"
+    },
+    "activeRange": "1091 - 1155",
+    "roles": [
+      "minister"
+    ],
+    "bioShort": "南宋宰相，主和并促成绍兴和议，长期与岳飞之死相连。",
+    "bioShortEn": "Southern Song chancellor who advocated peace and is tied to Yue Fei’s death.",
+    "bioLong": "南宋宰相，主和并促成绍兴和议，长期与岳飞之死相连。",
+    "bioLongEn": "Southern Song chancellor who advocated peace and is tied to Yue Fei’s death.",
+    "contribution": "南宋宰相，主和并促成绍兴和议，长期与岳飞之死相连。",
+    "contributionEn": "Southern Song chancellor who advocated peace and is tied to Yue Fei’s death.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song"
+    ],
+    "relatedEventIds": [
+      "shaoxing_peace_1141"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wanyan_zongbi",
+    "names": {
+      "primaryName": "Wanyan Zongbi",
+      "localizedNames": {
+        "en": "Wanyan Zongbi",
+        "zh-Hans": "完颜宗弼（金兀术）"
+      },
+      "aliases": [
+        "金兀术"
+      ]
+    },
+    "birth": {
+      "year": 1095,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1095年"
+    },
+    "death": {
+      "year": 1148,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1148年"
+    },
+    "activeRange": "1095 - 1148",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "金朝重要将领，长期参与对宋战争与绍兴和议前后的军事政治。",
+    "bioShortEn": "Important Jin general in the wars against Song and the politics around the Shaoxing settlement.",
+    "bioLong": "金朝重要将领，长期参与对宋战争与绍兴和议前后的军事政治。",
+    "bioLongEn": "Important Jin general in the wars against Song and the politics around the Shaoxing settlement.",
+    "contribution": "金朝重要将领，长期参与对宋战争与绍兴和议前后的军事政治。",
+    "contributionEn": "Important Jin general in the wars against Song and the politics around the Shaoxing settlement.",
+    "relatedTerritoryIds": [
+      "cliopatria_great_jin"
+    ],
+    "relatedEventIds": [
+      "shaoxing_peace_1141"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yelu_dashi",
+    "names": {
+      "primaryName": "Yelu Dashi",
+      "localizedNames": {
+        "en": "Yelu Dashi",
+        "zh-Hans": "耶律大石"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1087,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1087年"
+    },
+    "death": {
+      "year": 1143,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1143年"
+    },
+    "activeRange": "1087 - 1143",
+    "roles": [
+      "ruler",
+      "founder"
+    ],
+    "bioShort": "辽宗室西迁建立西辽，使“辽”的历史在中亚继续。",
+    "bioShortEn": "Liao royal who founded Western Liao, continuing Liao history in Central Asia.",
+    "bioLong": "辽宗室西迁建立西辽，使“辽”的历史在中亚继续。",
+    "bioLongEn": "Liao royal who founded Western Liao, continuing Liao history in Central Asia.",
+    "contribution": "辽宗室西迁建立西辽，使“辽”的历史在中亚继续。",
+    "contributionEn": "Liao royal who founded Western Liao, continuing Liao history in Central Asia.",
+    "relatedTerritoryIds": [
+      "cliopatria_kara_khitans"
+    ],
+    "relatedEventIds": [
+      "western_liao_survives_1141"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "genghis_khan",
+    "names": {
+      "primaryName": "Genghis Khan",
+      "localizedNames": {
+        "en": "Genghis Khan",
+        "zh-Hans": "成吉思汗"
+      },
+      "aliases": [
+        "铁木真"
+      ]
+    },
+    "birth": {
+      "year": 1162,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1162年"
+    },
+    "death": {
+      "year": 1227,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1227年"
+    },
+    "activeRange": "1162 - 1227",
+    "roles": [
+      "khan",
+      "founder"
+    ],
+    "bioShort": "统一蒙古诸部，建立蒙古帝国，并开始改变欧亚政治格局。",
+    "bioShortEn": "Unified the Mongol tribes, founded the Mongol Empire, and transformed Eurasian politics.",
+    "bioLong": "统一蒙古诸部，建立蒙古帝国，并开始改变欧亚政治格局。",
+    "bioLongEn": "Unified the Mongol tribes, founded the Mongol Empire, and transformed Eurasian politics.",
+    "contribution": "统一蒙古诸部，建立蒙古帝国，并开始改变欧亚政治格局。",
+    "contributionEn": "Unified the Mongol tribes, founded the Mongol Empire, and transformed Eurasian politics.",
+    "relatedTerritoryIds": [
+      "mongol_empire"
+    ],
+    "relatedEventIds": [
+      "mongol_unification_1206",
+      "mongol_attacks_jin_1211",
+      "western_xia_destroyed_1227"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "ogedei_khan",
+    "names": {
+      "primaryName": "Ogedei Khan",
+      "localizedNames": {
+        "en": "Ogedei Khan",
+        "zh-Hans": "窝阔台"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1186,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1186年"
+    },
+    "death": {
+      "year": 1241,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1241年"
+    },
+    "activeRange": "1186 - 1241",
+    "roles": [
+      "khan"
+    ],
+    "bioShort": "成吉思汗继承者，推动灭金与蒙古帝国扩张。",
+    "bioShortEn": "Successor of Genghis Khan who drove the destruction of Jin and imperial expansion.",
+    "bioLong": "成吉思汗继承者，推动灭金与蒙古帝国扩张。",
+    "bioLongEn": "Successor of Genghis Khan who drove the destruction of Jin and imperial expansion.",
+    "contribution": "成吉思汗继承者，推动灭金与蒙古帝国扩张。",
+    "contributionEn": "Successor of Genghis Khan who drove the destruction of Jin and imperial expansion.",
+    "relatedTerritoryIds": [
+      "mongol_empire"
+    ],
+    "relatedEventIds": [
+      "jin_falls_1234"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "mongke_khan",
+    "names": {
+      "primaryName": "Mongke Khan",
+      "localizedNames": {
+        "en": "Mongke Khan",
+        "zh-Hans": "蒙哥"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1209,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1209年"
+    },
+    "death": {
+      "year": 1259,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1259年"
+    },
+    "activeRange": "1209 - 1259",
+    "roles": [
+      "khan"
+    ],
+    "bioShort": "蒙古大汗，推动对大理和南宋方向的军事推进。",
+    "bioShortEn": "Mongol Great Khan who advanced campaigns toward Dali and Southern Song.",
+    "bioLong": "蒙古大汗，推动对大理和南宋方向的军事推进。",
+    "bioLongEn": "Mongol Great Khan who advanced campaigns toward Dali and Southern Song.",
+    "contribution": "蒙古大汗，推动对大理和南宋方向的军事推进。",
+    "contributionEn": "Mongol Great Khan who advanced campaigns toward Dali and Southern Song.",
+    "relatedTerritoryIds": [
+      "mongol_empire"
+    ],
+    "relatedEventIds": [
+      "mongol_conquers_dali_1253"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "kublai_khan",
+    "names": {
+      "primaryName": "Kublai Khan",
+      "localizedNames": {
+        "en": "Kublai Khan",
+        "zh-Hans": "忽必烈"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1215,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1215年"
+    },
+    "death": {
+      "year": 1294,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1294年"
+    },
+    "activeRange": "1215 - 1294",
+    "roles": [
+      "khan",
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "蒙古大汗与元朝建立者，最终完成对南宋的征服。",
+    "bioShortEn": "Mongol Great Khan and founder of Yuan who completed the conquest of Southern Song.",
+    "bioLong": "蒙古大汗与元朝建立者，最终完成对南宋的征服。",
+    "bioLongEn": "Mongol Great Khan and founder of Yuan who completed the conquest of Southern Song.",
+    "contribution": "蒙古大汗与元朝建立者，最终完成对南宋的征服。",
+    "contributionEn": "Mongol Great Khan and founder of Yuan who completed the conquest of Southern Song.",
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "kublai_becomes_khan_1260",
+      "yuan_founding_1271",
+      "linan_falls_1276",
+      "yamen_battle_1279"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_duzong_song",
+    "names": {
+      "primaryName": "Emperor Duzong of Song",
+      "localizedNames": {
+        "en": "Emperor Duzong of Song",
+        "zh-Hans": "宋度宗赵禥"
+      },
+      "aliases": [
+        "赵禥"
+      ]
+    },
+    "birth": {
+      "year": 1240,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1240年"
+    },
+    "death": {
+      "year": 1274,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1274年"
+    },
+    "activeRange": "1240 - 1274",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "南宋晚期皇帝，襄阳失守前后的朝政危机不断加深。",
+    "bioShortEn": "Late Southern Song emperor during the deepening crisis around Xiangyang.",
+    "bioLong": "南宋晚期皇帝，襄阳失守前后的朝政危机不断加深。",
+    "bioLongEn": "Late Southern Song emperor during the deepening crisis around Xiangyang.",
+    "contribution": "南宋晚期皇帝，襄阳失守前后的朝政危机不断加深。",
+    "contributionEn": "Late Southern Song emperor during the deepening crisis around Xiangyang.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song"
+    ],
+    "relatedEventIds": [
+      "xiangyang_falls_1273"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "jia_sidao",
+    "names": {
+      "primaryName": "Jia Sidao",
+      "localizedNames": {
+        "en": "Jia Sidao",
+        "zh-Hans": "贾似道"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1213,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1213年"
+    },
+    "death": {
+      "year": 1275,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1275年"
+    },
+    "activeRange": "1213 - 1275",
+    "roles": [
+      "minister"
+    ],
+    "bioShort": "南宋权臣，蒙古压力下的财政、军事和朝政危机集中在其时期爆发。",
+    "bioShortEn": "Southern Song minister under whom fiscal, military, and court crises sharpened under Mongol pressure.",
+    "bioLong": "南宋权臣，蒙古压力下的财政、军事和朝政危机集中在其时期爆发。",
+    "bioLongEn": "Southern Song minister under whom fiscal, military, and court crises sharpened under Mongol pressure.",
+    "contribution": "南宋权臣，蒙古压力下的财政、军事和朝政危机集中在其时期爆发。",
+    "contributionEn": "Southern Song minister under whom fiscal, military, and court crises sharpened under Mongol pressure.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song"
+    ],
+    "relatedEventIds": [
+      "xiangyang_falls_1273"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wen_tianxiang",
+    "names": {
+      "primaryName": "Wen Tianxiang",
+      "localizedNames": {
+        "en": "Wen Tianxiang",
+        "zh-Hans": "文天祥"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1236,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1236年"
+    },
+    "death": {
+      "year": 1283,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1283年"
+    },
+    "activeRange": "1236 - 1283",
+    "roles": [
+      "minister",
+      "loyalist"
+    ],
+    "bioShort": "南宋末抗元人物，崖山之后仍象征宋室忠义。",
+    "bioShortEn": "Late Southern Song loyalist whose resistance symbolized Song loyalty after Yamen.",
+    "bioLong": "南宋末抗元人物，崖山之后仍象征宋室忠义。",
+    "bioLongEn": "Late Southern Song loyalist whose resistance symbolized Song loyalty after Yamen.",
+    "contribution": "南宋末抗元人物，崖山之后仍象征宋室忠义。",
+    "contributionEn": "Late Southern Song loyalist whose resistance symbolized Song loyalty after Yamen.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song",
+      "mongol_empire"
+    ],
+    "relatedEventIds": [
+      "linan_falls_1276",
+      "yamen_battle_1279"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "lu_xiufu",
+    "names": {
+      "primaryName": "Lu Xiufu",
+      "localizedNames": {
+        "en": "Lu Xiufu",
+        "zh-Hans": "陆秀夫"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1236,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1236年"
+    },
+    "death": {
+      "year": 1279,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1279年"
+    },
+    "activeRange": "1236 - 1279",
+    "roles": [
+      "minister",
+      "loyalist"
+    ],
+    "bioShort": "崖山海战中背负幼帝投海，象征南宋最后终局。",
+    "bioShortEn": "Southern Song loyalist who died with the child emperor at Yamen, symbolizing the dynasty’s end.",
+    "bioLong": "崖山海战中背负幼帝投海，象征南宋最后终局。",
+    "bioLongEn": "Southern Song loyalist who died with the child emperor at Yamen, symbolizing the dynasty’s end.",
+    "contribution": "崖山海战中背负幼帝投海，象征南宋最后终局。",
+    "contributionEn": "Southern Song loyalist who died with the child emperor at Yamen, symbolizing the dynasty’s end.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song",
+      "mongol_empire"
+    ],
+    "relatedEventIds": [
+      "yamen_battle_1279"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "temur_khan_yuan",
+    "names": {
+      "primaryName": "Temur Khan (Emperor Chengzong of Yuan)",
+      "localizedNames": {
+        "en": "Temur Khan (Emperor Chengzong of Yuan)",
+        "zh-Hans": "元成宗铁穆耳"
+      },
+      "aliases": [
+        "铁穆耳"
+      ]
+    },
+    "birth": {
+      "year": 1265,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1265年"
+    },
+    "death": {
+      "year": 1307,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1307年"
+    },
+    "activeRange": "1265 - 1307",
+    "roles": [
+      "emperor",
+      "khan"
+    ],
+    "bioShort": "忽必烈之后继位，维持元朝与蒙古诸汗国的名义宗主关系。",
+    "bioShortEn": "Succeeded Kublai and maintained Yuan’s nominal overlordship among Mongol khanates.",
+    "bioLong": "忽必烈之后继位，维持元朝与蒙古诸汗国的名义宗主关系。",
+    "bioLongEn": "Succeeded Kublai and maintained Yuan’s nominal overlordship among Mongol khanates.",
+    "contribution": "忽必烈之后继位，维持元朝与蒙古诸汗国的名义宗主关系。",
+    "contributionEn": "Succeeded Kublai and maintained Yuan’s nominal overlordship among Mongol khanates.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "kublai_death_temur_succession_1294",
+      "yuan_succession_1307"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "kulug_khan",
+    "names": {
+      "primaryName": "Kulug Khan (Emperor Wuzong of Yuan)",
+      "localizedNames": {
+        "en": "Kulug Khan (Emperor Wuzong of Yuan)",
+        "zh-Hans": "元武宗海山"
+      },
+      "aliases": [
+        "海山"
+      ]
+    },
+    "birth": {
+      "year": 1281,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1281年"
+    },
+    "death": {
+      "year": 1311,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1311年"
+    },
+    "activeRange": "1281 - 1311",
+    "roles": [
+      "emperor",
+      "khan"
+    ],
+    "bioShort": "元成宗后继位，代表元朝中期皇位继承与蒙古贵族政治的延续。",
+    "bioShortEn": "Succeeded after Temur, representing mid-Yuan succession and Mongol aristocratic politics.",
+    "bioLong": "元成宗后继位，代表元朝中期皇位继承与蒙古贵族政治的延续。",
+    "bioLongEn": "Succeeded after Temur, representing mid-Yuan succession and Mongol aristocratic politics.",
+    "contribution": "元成宗后继位，代表元朝中期皇位继承与蒙古贵族政治的延续。",
+    "contributionEn": "Succeeded after Temur, representing mid-Yuan succession and Mongol aristocratic politics.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "yuan_succession_1307"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "buyantu_khan",
+    "names": {
+      "primaryName": "Buyantu Khan (Emperor Renzong of Yuan)",
+      "localizedNames": {
+        "en": "Buyantu Khan (Emperor Renzong of Yuan)",
+        "zh-Hans": "元仁宗爱育黎拔力八达"
+      },
+      "aliases": [
+        "爱育黎拔力八达"
+      ]
+    },
+    "birth": {
+      "year": 1285,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1285年"
+    },
+    "death": {
+      "year": 1320,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1320年"
+    },
+    "activeRange": "1285 - 1320",
+    "roles": [
+      "emperor",
+      "khan"
+    ],
+    "bioShort": "元仁宗，重用儒臣、恢复科举，推动元朝文治化。",
+    "bioShortEn": "Emperor Renzong, who used Confucian officials, restored examinations, and promoted civil governance.",
+    "bioLong": "元仁宗，重用儒臣、恢复科举，推动元朝文治化。",
+    "bioLongEn": "Emperor Renzong, who used Confucian officials, restored examinations, and promoted civil governance.",
+    "contribution": "元仁宗，重用儒臣、恢复科举，推动元朝文治化。",
+    "contributionEn": "Emperor Renzong, who used Confucian officials, restored examinations, and promoted civil governance.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "renzong_restores_exams_1311"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "shidebala_khan",
+    "names": {
+      "primaryName": "Gegeen Khan (Emperor Yingzong of Yuan)",
+      "localizedNames": {
+        "en": "Gegeen Khan (Emperor Yingzong of Yuan)",
+        "zh-Hans": "元英宗硕德八剌"
+      },
+      "aliases": [
+        "硕德八剌"
+      ]
+    },
+    "birth": {
+      "year": 1302,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1302年"
+    },
+    "death": {
+      "year": 1323,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1323年"
+    },
+    "activeRange": "1302 - 1323",
+    "roles": [
+      "emperor",
+      "khan"
+    ],
+    "bioShort": "元英宗，试图整顿财政与贵族政治，最终遇刺。",
+    "bioShortEn": "Emperor Yingzong, who tried to reform finance and aristocratic politics before being assassinated.",
+    "bioLong": "元英宗，试图整顿财政与贵族政治，最终遇刺。",
+    "bioLongEn": "Emperor Yingzong, who tried to reform finance and aristocratic politics before being assassinated.",
+    "contribution": "元英宗，试图整顿财政与贵族政治，最终遇刺。",
+    "contributionEn": "Emperor Yingzong, who tried to reform finance and aristocratic politics before being assassinated.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "yingzong_reforms_1320"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "tugh_temur_khan",
+    "names": {
+      "primaryName": "Jayaatu Khan Tugh Temur (Emperor Wenzong of Yuan)",
+      "localizedNames": {
+        "en": "Jayaatu Khan Tugh Temur (Emperor Wenzong of Yuan)",
+        "zh-Hans": "元文宗图帖睦尔"
+      },
+      "aliases": [
+        "图帖睦尔"
+      ]
+    },
+    "birth": {
+      "year": 1304,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1304年"
+    },
+    "death": {
+      "year": 1332,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1332年"
+    },
+    "activeRange": "1304 - 1332",
+    "roles": [
+      "emperor",
+      "khan"
+    ],
+    "bioShort": "两都之战后取得帝位，体现元朝后期皇位斗争加剧。",
+    "bioShortEn": "Won power after the War of the Two Capitals, showing intensified late-Yuan succession struggles.",
+    "bioLong": "两都之战后取得帝位，体现元朝后期皇位斗争加剧。",
+    "bioLongEn": "Won power after the War of the Two Capitals, showing intensified late-Yuan succession struggles.",
+    "contribution": "两都之战后取得帝位，体现元朝后期皇位斗争加剧。",
+    "contributionEn": "Won power after the War of the Two Capitals, showing intensified late-Yuan succession struggles.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "war_two_capitals_1328"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "toghon_temur",
+    "names": {
+      "primaryName": "Toghon Temur (Emperor Huizong of Yuan)",
+      "localizedNames": {
+        "en": "Toghon Temur (Emperor Huizong of Yuan)",
+        "zh-Hans": "元顺帝妥懽帖睦尔"
+      },
+      "aliases": [
+        "妥懽帖睦尔",
+        "元惠宗"
+      ]
+    },
+    "birth": {
+      "year": 1320,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1320年"
+    },
+    "death": {
+      "year": 1370,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1370年"
+    },
+    "activeRange": "1320 - 1370",
+    "roles": [
+      "emperor",
+      "khan"
+    ],
+    "bioShort": "元朝最后一位控制中原的皇帝，经历红巾起义和明军攻入大都。",
+    "bioShortEn": "Last Yuan emperor to rule China proper, facing the Red Turban rebellion and Ming capture of Dadu.",
+    "bioLong": "元朝最后一位控制中原的皇帝，经历红巾起义和明军攻入大都。",
+    "bioLongEn": "Last Yuan emperor to rule China proper, facing the Red Turban rebellion and Ming capture of Dadu.",
+    "contribution": "元朝最后一位控制中原的皇帝，经历红巾起义和明军攻入大都。",
+    "contributionEn": "Last Yuan emperor to rule China proper, facing the Red Turban rebellion and Ming capture of Dadu.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_northern_yuan"
+    ],
+    "relatedEventIds": [
+      "toghon_temur_accession_1333",
+      "red_turban_rebellion_1351",
+      "ming_captures_dadu_1368",
+      "ming_northern_yuan_1375"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "han_shantong",
+    "names": {
+      "primaryName": "Han Shantong",
+      "localizedNames": {
+        "en": "Han Shantong",
+        "zh-Hans": "韩山童"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": 1351,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1351年"
+    },
+    "activeRange": "1351",
+    "roles": [
+      "rebel_leader"
+    ],
+    "bioShort": "白莲教背景的红巾起义发动者之一，其死亡后起义迅速扩大。",
+    "bioShortEn": "One of the White Lotus-linked initiators of the Red Turban rebellion; after his death the revolt expanded.",
+    "bioLong": "白莲教背景的红巾起义发动者之一，其死亡后起义迅速扩大。",
+    "bioLongEn": "One of the White Lotus-linked initiators of the Red Turban rebellion; after his death the revolt expanded.",
+    "contribution": "白莲教背景的红巾起义发动者之一，其死亡后起义迅速扩大。",
+    "contributionEn": "One of the White Lotus-linked initiators of the Red Turban rebellion; after his death the revolt expanded.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "red_turban_rebellion_1351"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "liu_futong",
+    "names": {
+      "primaryName": "Liu Futong",
+      "localizedNames": {
+        "en": "Liu Futong",
+        "zh-Hans": "刘福通"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1321,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1321年"
+    },
+    "death": {
+      "year": 1363,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1363年"
+    },
+    "activeRange": "1321 - 1363",
+    "roles": [
+      "rebel_leader"
+    ],
+    "bioShort": "红巾军重要领袖，拥立韩林儿，推动反元起义扩散。",
+    "bioShortEn": "Major Red Turban leader who supported Han Lin’er and spread anti-Yuan revolt.",
+    "bioLong": "红巾军重要领袖，拥立韩林儿，推动反元起义扩散。",
+    "bioLongEn": "Major Red Turban leader who supported Han Lin’er and spread anti-Yuan revolt.",
+    "contribution": "红巾军重要领袖，拥立韩林儿，推动反元起义扩散。",
+    "contributionEn": "Major Red Turban leader who supported Han Lin’er and spread anti-Yuan revolt.",
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty"
+    ],
+    "relatedEventIds": [
+      "red_turban_rebellion_1351"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhu_yuanzhang",
+    "names": {
+      "primaryName": "Zhu Yuanzhang",
+      "localizedNames": {
+        "en": "Zhu Yuanzhang",
+        "zh-Hans": "朱元璋"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1328,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1328年"
+    },
+    "death": {
+      "year": 1398,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1398年"
+    },
+    "activeRange": "1328 - 1398",
+    "roles": [
+      "emperor",
+      "founder"
+    ],
+    "bioShort": "红巾起义中崛起，1368 年建立明朝并攻入大都。",
+    "bioShortEn": "Rose during the Red Turban era, founded Ming in 1368, and captured Dadu.",
+    "bioLong": "红巾起义中崛起，1368 年建立明朝并攻入大都。",
+    "bioLongEn": "Rose during the Red Turban era, founded Ming in 1368, and captured Dadu.",
+    "contribution": "红巾起义中崛起，1368 年建立明朝并攻入大都。",
+    "contributionEn": "Rose during the Red Turban era, founded Ming in 1368, and captured Dadu.",
+    "relatedTerritoryIds": [
+      "cliopatria_northern_yuan",
+      "cliopatria_yuan_dynasty",
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "hongwu_reforms_1380",
+      "ming_captures_dadu_1368",
+      "ming_northern_yuan_1375"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_jianwen_ming",
+    "names": {
+      "primaryName": "Jianwen Emperor",
+      "localizedNames": {
+        "en": "Jianwen Emperor",
+        "zh-Hans": "建文帝朱允炆"
+      },
+      "aliases": [
+        "朱允炆"
+      ]
+    },
+    "birth": {
+      "year": 1377,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1377年"
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "1377",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "明太祖之孙，削藩引发靖难之役。",
+    "bioShortEn": "Grandson of Hongwu whose reduction of princely power triggered the Jingnan campaign.",
+    "bioLong": "明太祖之孙，削藩引发靖难之役。",
+    "bioLongEn": "Grandson of Hongwu whose reduction of princely power triggered the Jingnan campaign.",
+    "contribution": "明太祖之孙，削藩引发靖难之役。",
+    "contributionEn": "Grandson of Hongwu whose reduction of princely power triggered the Jingnan campaign.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "jingnan_campaign_1402"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhu_di_yongle",
+    "names": {
+      "primaryName": "Yongle Emperor Zhu Di",
+      "localizedNames": {
+        "en": "Yongle Emperor Zhu Di",
+        "zh-Hans": "明成祖朱棣（永乐帝）"
+      },
+      "aliases": [
+        "朱棣",
+        "永乐帝"
+      ]
+    },
+    "birth": {
+      "year": 1360,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1360年"
+    },
+    "death": {
+      "year": 1424,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1424年"
+    },
+    "activeRange": "1360 - 1424",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "靖难后即位，迁都北京、北征蒙古并派遣郑和下西洋。",
+    "bioShortEn": "Seized the throne after Jingnan, moved the capital to Beijing, campaigned north, and sponsored Zheng He.",
+    "bioLong": "靖难后即位，迁都北京、北征蒙古并派遣郑和下西洋。",
+    "bioLongEn": "Seized the throne after Jingnan, moved the capital to Beijing, campaigned north, and sponsored Zheng He.",
+    "contribution": "靖难后即位，迁都北京、北征蒙古并派遣郑和下西洋。",
+    "contributionEn": "Seized the throne after Jingnan, moved the capital to Beijing, campaigned north, and sponsored Zheng He.",
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan"
+    ],
+    "relatedEventIds": [
+      "jingnan_campaign_1402",
+      "zheng_he_voyages_1405",
+      "yongle_beijing_1421"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zheng_he",
+    "names": {
+      "primaryName": "Zheng He",
+      "localizedNames": {
+        "en": "Zheng He",
+        "zh-Hans": "郑和"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1371,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1371年"
+    },
+    "death": {
+      "year": 1433,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1433年"
+    },
+    "activeRange": "1371 - 1433",
+    "roles": [
+      "admiral",
+      "envoy"
+    ],
+    "bioShort": "永乐时期下西洋统帅，代表明初海上朝贡秩序扩张。",
+    "bioShortEn": "Commander of the Yongle maritime voyages, representing early Ming maritime tribute expansion.",
+    "bioLong": "永乐时期下西洋统帅，代表明初海上朝贡秩序扩张。",
+    "bioLongEn": "Commander of the Yongle maritime voyages, representing early Ming maritime tribute expansion.",
+    "contribution": "永乐时期下西洋统帅，代表明初海上朝贡秩序扩张。",
+    "contributionEn": "Commander of the Yongle maritime voyages, representing early Ming maritime tribute expansion.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "zheng_he_voyages_1405"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_yingzong_ming",
+    "names": {
+      "primaryName": "Emperor Yingzong of Ming",
+      "localizedNames": {
+        "en": "Emperor Yingzong of Ming",
+        "zh-Hans": "明英宗朱祁镇"
+      },
+      "aliases": [
+        "朱祁镇"
+      ]
+    },
+    "birth": {
+      "year": 1427,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1427年"
+    },
+    "death": {
+      "year": 1464,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1464年"
+    },
+    "activeRange": "1427 - 1464",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "土木堡之变中被瓦剌俘虏，使明朝北边防线遭遇巨大震动。",
+    "bioShortEn": "Ming emperor captured by the Oirats at Tumu, shocking Ming northern defense.",
+    "bioLong": "土木堡之变中被瓦剌俘虏，使明朝北边防线遭遇巨大震动。",
+    "bioLongEn": "Ming emperor captured by the Oirats at Tumu, shocking Ming northern defense.",
+    "contribution": "土木堡之变中被瓦剌俘虏，使明朝北边防线遭遇巨大震动。",
+    "contributionEn": "Ming emperor captured by the Oirats at Tumu, shocking Ming northern defense.",
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_four_oirats"
+    ],
+    "relatedEventIds": [
+      "tumu_crisis_1449"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yu_qian",
+    "names": {
+      "primaryName": "Yu Qian",
+      "localizedNames": {
+        "en": "Yu Qian",
+        "zh-Hans": "于谦"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1398,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1398年"
+    },
+    "death": {
+      "year": 1457,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1457年"
+    },
+    "activeRange": "1398 - 1457",
+    "roles": [
+      "minister",
+      "defender"
+    ],
+    "bioShort": "土木堡后主持北京保卫，稳定明朝政局。",
+    "bioShortEn": "Minister who organized Beijing’s defense after Tumu and stabilized Ming politics.",
+    "bioLong": "土木堡后主持北京保卫，稳定明朝政局。",
+    "bioLongEn": "Minister who organized Beijing’s defense after Tumu and stabilized Ming politics.",
+    "contribution": "土木堡后主持北京保卫，稳定明朝政局。",
+    "contributionEn": "Minister who organized Beijing’s defense after Tumu and stabilized Ming politics.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "tumu_crisis_1449"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "esen_taishi",
+    "names": {
+      "primaryName": "Esen Taishi",
+      "localizedNames": {
+        "en": "Esen Taishi",
+        "zh-Hans": "也先"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1407,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1407年"
+    },
+    "death": {
+      "year": 1455,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1455年"
+    },
+    "activeRange": "1407 - 1455",
+    "roles": [
+      "ruler",
+      "general"
+    ],
+    "bioShort": "瓦剌首领，在土木堡之变中俘获明英宗。",
+    "bioShortEn": "Oirat leader who captured the Ming emperor at Tumu.",
+    "bioLong": "瓦剌首领，在土木堡之变中俘获明英宗。",
+    "bioLongEn": "Oirat leader who captured the Ming emperor at Tumu.",
+    "contribution": "瓦剌首领，在土木堡之变中俘获明英宗。",
+    "contributionEn": "Oirat leader who captured the Ming emperor at Tumu.",
+    "relatedTerritoryIds": [
+      "cliopatria_four_oirats"
+    ],
+    "relatedEventIds": [
+      "tumu_crisis_1449"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "altan_khan",
+    "names": {
+      "primaryName": "Altan Khan",
+      "localizedNames": {
+        "en": "Altan Khan",
+        "zh-Hans": "俺答汗"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1507,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1507年"
+    },
+    "death": {
+      "year": 1582,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1582年"
+    },
+    "activeRange": "1507 - 1582",
+    "roles": [
+      "ruler"
+    ],
+    "bioShort": "蒙古土默特首领，长期给明朝北方边境施压。",
+    "bioShortEn": "Tümed Mongol leader who pressured Ming’s northern frontier.",
+    "bioLong": "蒙古土默特首领，长期给明朝北方边境施压。",
+    "bioLongEn": "Tümed Mongol leader who pressured Ming’s northern frontier.",
+    "contribution": "蒙古土默特首领，长期给明朝北方边境施压。",
+    "contributionEn": "Tümed Mongol leader who pressured Ming’s northern frontier.",
+    "relatedTerritoryIds": [
+      "cliopatria_t_med",
+      "cliopatria_mongol_khanate"
+    ],
+    "relatedEventIds": [
+      "altan_khan_raid_1550"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhang_juzheng",
+    "names": {
+      "primaryName": "Zhang Juzheng",
+      "localizedNames": {
+        "en": "Zhang Juzheng",
+        "zh-Hans": "张居正"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1525,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1525年"
+    },
+    "death": {
+      "year": 1582,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1582年"
+    },
+    "activeRange": "1525 - 1582",
+    "roles": [
+      "minister",
+      "reformer"
+    ],
+    "bioShort": "万历初首辅，推行考成法与一条鞭法等改革。",
+    "bioShortEn": "Grand Secretary under early Wanli who implemented administrative and fiscal reforms including the Single Whip system.",
+    "bioLong": "万历初首辅，推行考成法与一条鞭法等改革。",
+    "bioLongEn": "Grand Secretary under early Wanli who implemented administrative and fiscal reforms including the Single Whip system.",
+    "contribution": "万历初首辅，推行考成法与一条鞭法等改革。",
+    "contributionEn": "Grand Secretary under early Wanli who implemented administrative and fiscal reforms including the Single Whip system.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "zhang_juzheng_reforms_1581"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_wanli_ming",
+    "names": {
+      "primaryName": "Wanli Emperor",
+      "localizedNames": {
+        "en": "Wanli Emperor",
+        "zh-Hans": "万历帝朱翊钧"
+      },
+      "aliases": [
+        "朱翊钧",
+        "明神宗"
+      ]
+    },
+    "birth": {
+      "year": 1563,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1563年"
+    },
+    "death": {
+      "year": 1620,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1620年"
+    },
+    "activeRange": "1563 - 1620",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "明神宗，前期经历张居正改革，后期怠政与财政军费压力加重。",
+    "bioShortEn": "Ming emperor whose reign saw Zhang Juzheng reforms early and growing fiscal and military strain later.",
+    "bioLong": "明神宗，前期经历张居正改革，后期怠政与财政军费压力加重。",
+    "bioLongEn": "Ming emperor whose reign saw Zhang Juzheng reforms early and growing fiscal and military strain later.",
+    "contribution": "明神宗，前期经历张居正改革，后期怠政与财政军费压力加重。",
+    "contributionEn": "Ming emperor whose reign saw Zhang Juzheng reforms early and growing fiscal and military strain later.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "zhang_juzheng_reforms_1581",
+      "wanli_late_crisis_1600"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "nurhaci",
+    "names": {
+      "primaryName": "Nurhaci",
+      "localizedNames": {
+        "en": "Nurhaci",
+        "zh-Hans": "努尔哈赤"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1559,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1559年"
+    },
+    "death": {
+      "year": 1626,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1626年"
+    },
+    "activeRange": "1559 - 1626",
+    "roles": [
+      "ruler",
+      "founder"
+    ],
+    "bioShort": "统一女真诸部，1616 年建立后金，成为明末东北最大威胁。",
+    "bioShortEn": "Unified Jurchen groups and founded Later Jin in 1616, becoming the major northeastern threat to late Ming.",
+    "bioLong": "统一女真诸部，1616 年建立后金，成为明末东北最大威胁。",
+    "bioLongEn": "Unified Jurchen groups and founded Later Jin in 1616, becoming the major northeastern threat to late Ming.",
+    "contribution": "统一女真诸部，1616 年建立后金，成为明末东北最大威胁。",
+    "contributionEn": "Unified Jurchen groups and founded Later Jin in 1616, becoming the major northeastern threat to late Ming.",
+    "relatedTerritoryIds": [
+      "cliopatria_later_jin_dynasty",
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "nurhaci_later_jin_1616"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_chongzhen_ming",
+    "names": {
+      "primaryName": "Chongzhen Emperor",
+      "localizedNames": {
+        "en": "Chongzhen Emperor",
+        "zh-Hans": "崇祯帝朱由检"
+      },
+      "aliases": [
+        "朱由检"
+      ]
+    },
+    "birth": {
+      "year": 1611,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1611年"
+    },
+    "death": {
+      "year": 1644,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1644年"
+    },
+    "activeRange": "1611 - 1644",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "明朝最后一位皇帝，面对后金/清、财政崩溃与农民战争。",
+    "bioShortEn": "Last Ming emperor, facing Later Jin/Qing pressure, fiscal collapse, and peasant wars.",
+    "bioLong": "明朝最后一位皇帝，面对后金/清、财政崩溃与农民战争。",
+    "bioLongEn": "Last Ming emperor, facing Later Jin/Qing pressure, fiscal collapse, and peasant wars.",
+    "contribution": "明朝最后一位皇帝，面对后金/清、财政崩溃与农民战争。",
+    "contributionEn": "Last Ming emperor, facing Later Jin/Qing pressure, fiscal collapse, and peasant wars.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "chongzhen_accession_1627",
+      "ming_falls_1644"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_zicheng",
+    "names": {
+      "primaryName": "Li Zicheng",
+      "localizedNames": {
+        "en": "Li Zicheng",
+        "zh-Hans": "李自成"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1606,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1606年"
+    },
+    "death": {
+      "year": 1645,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1645年"
+    },
+    "activeRange": "1606 - 1645",
+    "roles": [
+      "rebel_leader"
+    ],
+    "bioShort": "明末农民军领袖，1644 年攻入北京，直接导致明朝中央灭亡。",
+    "bioShortEn": "Late Ming rebel leader who entered Beijing in 1644, directly ending the Ming central court.",
+    "bioLong": "明末农民军领袖，1644 年攻入北京，直接导致明朝中央灭亡。",
+    "bioLongEn": "Late Ming rebel leader who entered Beijing in 1644, directly ending the Ming central court.",
+    "contribution": "明末农民军领袖，1644 年攻入北京，直接导致明朝中央灭亡。",
+    "contributionEn": "Late Ming rebel leader who entered Beijing in 1644, directly ending the Ming central court.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "ming_falls_1644"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "dorgon",
+    "names": {
+      "primaryName": "Dorgon",
+      "localizedNames": {
+        "en": "Dorgon",
+        "zh-Hans": "多尔衮"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1612,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1612年"
+    },
+    "death": {
+      "year": 1650,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1650年"
+    },
+    "activeRange": "1612 - 1650",
+    "roles": [
+      "regent",
+      "general"
+    ],
+    "bioShort": "清初摄政王，入关后推动清朝接管华北并追击南明。",
+    "bioShortEn": "Early Qing regent who led the Qing takeover of north China and campaigns against Southern Ming.",
+    "bioLong": "清初摄政王，入关后推动清朝接管华北并追击南明。",
+    "bioLongEn": "Early Qing regent who led the Qing takeover of north China and campaigns against Southern Ming.",
+    "contribution": "清初摄政王，入关后推动清朝接管华北并追击南明。",
+    "contributionEn": "Early Qing regent who led the Qing takeover of north China and campaigns against Southern Ming.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_southern_ming"
+    ],
+    "relatedEventIds": [
+      "qing_southern_ming_1645"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_hongxi_ming",
+    "names": {
+      "primaryName": "Hongxi Emperor",
+      "localizedNames": {
+        "en": "Hongxi Emperor",
+        "zh-Hans": "明仁宗朱高炽"
+      },
+      "aliases": [
+        "朱高炽",
+        "洪熙帝"
+      ]
+    },
+    "birth": {
+      "year": 1378,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1378年"
+    },
+    "death": {
+      "year": 1425,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1425年"
+    },
+    "activeRange": "1378 - 1425",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "明仁宗，停止部分永乐时期高压工程与远征，开启仁宣之治的宽缓转向。",
+    "bioShortEn": "Ming Renzong, who eased some Yongle-era high-pressure projects and campaigns, opening the Renxuan moderation.",
+    "bioLong": "明仁宗，停止部分永乐时期高压工程与远征，开启仁宣之治的宽缓转向。",
+    "bioLongEn": "Ming Renzong, who eased some Yongle-era high-pressure projects and campaigns, opening the Renxuan moderation.",
+    "contribution": "明仁宗，停止部分永乐时期高压工程与远征，开启仁宣之治的宽缓转向。",
+    "contributionEn": "Ming Renzong, who eased some Yongle-era high-pressure projects and campaigns, opening the Renxuan moderation.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "renxuan_governance_1425"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xuande_ming",
+    "names": {
+      "primaryName": "Xuande Emperor",
+      "localizedNames": {
+        "en": "Xuande Emperor",
+        "zh-Hans": "明宣宗朱瞻基"
+      },
+      "aliases": [
+        "朱瞻基",
+        "宣德帝"
+      ]
+    },
+    "birth": {
+      "year": 1399,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1399年"
+    },
+    "death": {
+      "year": 1435,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1435年"
+    },
+    "activeRange": "1399 - 1435",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "明宣宗，延续仁宣之治，稳定财政、吏治与边防。",
+    "bioShortEn": "Ming Xuanzong, who continued Renxuan governance, stabilizing finance, administration, and frontier defense.",
+    "bioLong": "明宣宗，延续仁宣之治，稳定财政、吏治与边防。",
+    "bioLongEn": "Ming Xuanzong, who continued Renxuan governance, stabilizing finance, administration, and frontier defense.",
+    "contribution": "明宣宗，延续仁宣之治，稳定财政、吏治与边防。",
+    "contributionEn": "Ming Xuanzong, who continued Renxuan governance, stabilizing finance, administration, and frontier defense.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "xuande_stability_1435"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yang_shiqi",
+    "names": {
+      "primaryName": "Yang Shiqi",
+      "localizedNames": {
+        "en": "Yang Shiqi",
+        "zh-Hans": "杨士奇"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1365,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1365年"
+    },
+    "death": {
+      "year": 1444,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1444年"
+    },
+    "activeRange": "1365 - 1444",
+    "roles": [
+      "minister"
+    ],
+    "bioShort": "明初重臣，仁宣时期辅政，代表内阁文臣治理成熟。",
+    "bioShortEn": "Early Ming minister who served during Renxuan, representing mature cabinet-style civil governance.",
+    "bioLong": "明初重臣，仁宣时期辅政，代表内阁文臣治理成熟。",
+    "bioLongEn": "Early Ming minister who served during Renxuan, representing mature cabinet-style civil governance.",
+    "contribution": "明初重臣，仁宣时期辅政，代表内阁文臣治理成熟。",
+    "contributionEn": "Early Ming minister who served during Renxuan, representing mature cabinet-style civil governance.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "renxuan_governance_1425",
+      "xuande_stability_1435"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yang_rong",
+    "names": {
+      "primaryName": "Yang Rong",
+      "localizedNames": {
+        "en": "Yang Rong",
+        "zh-Hans": "杨荣"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1371,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1371年"
+    },
+    "death": {
+      "year": 1440,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1440年"
+    },
+    "activeRange": "1371 - 1440",
+    "roles": [
+      "minister"
+    ],
+    "bioShort": "仁宣时期内阁重臣，与杨士奇等共同支撑文臣行政。",
+    "bioShortEn": "Renxuan-era grand secretary who, with Yang Shiqi and others, supported civil administration.",
+    "bioLong": "仁宣时期内阁重臣，与杨士奇等共同支撑文臣行政。",
+    "bioLongEn": "Renxuan-era grand secretary who, with Yang Shiqi and others, supported civil administration.",
+    "contribution": "仁宣时期内阁重臣，与杨士奇等共同支撑文臣行政。",
+    "contributionEn": "Renxuan-era grand secretary who, with Yang Shiqi and others, supported civil administration.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "renxuan_governance_1425",
+      "xuande_stability_1435"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yang_pu",
+    "names": {
+      "primaryName": "Yang Pu",
+      "localizedNames": {
+        "en": "Yang Pu",
+        "zh-Hans": "杨溥"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1372,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1372年"
+    },
+    "death": {
+      "year": 1446,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1446年"
+    },
+    "activeRange": "1372 - 1446",
+    "roles": [
+      "minister"
+    ],
+    "bioShort": "三杨之一，仁宣时期重臣，象征明初文官治理稳定化。",
+    "bioShortEn": "One of the Three Yangs, symbolizing stabilization of early Ming civil governance.",
+    "bioLong": "三杨之一，仁宣时期重臣，象征明初文官治理稳定化。",
+    "bioLongEn": "One of the Three Yangs, symbolizing stabilization of early Ming civil governance.",
+    "contribution": "三杨之一，仁宣时期重臣，象征明初文官治理稳定化。",
+    "contributionEn": "One of the Three Yangs, symbolizing stabilization of early Ming civil governance.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "renxuan_governance_1425",
+      "xuande_stability_1435"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_zhengde_ming",
+    "names": {
+      "primaryName": "Zhengde Emperor",
+      "localizedNames": {
+        "en": "Zhengde Emperor",
+        "zh-Hans": "明武宗朱厚照"
+      },
+      "aliases": [
+        "朱厚照",
+        "正德帝"
+      ]
+    },
+    "birth": {
+      "year": 1491,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1491年"
+    },
+    "death": {
+      "year": 1521,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1521年"
+    },
+    "activeRange": "1491 - 1521",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "明武宗，个性化皇权、宦官与边镇军事兴趣交织，代表中期皇权失序的一面。",
+    "bioShortEn": "Ming Wuzong, whose personal rule, eunuch politics, and military interests show one side of mid-Ming imperial disorder.",
+    "bioLong": "明武宗，个性化皇权、宦官与边镇军事兴趣交织，代表中期皇权失序的一面。",
+    "bioLongEn": "Ming Wuzong, whose personal rule, eunuch politics, and military interests show one side of mid-Ming imperial disorder.",
+    "contribution": "明武宗，个性化皇权、宦官与边镇军事兴趣交织，代表中期皇权失序的一面。",
+    "contributionEn": "Ming Wuzong, whose personal rule, eunuch politics, and military interests show one side of mid-Ming imperial disorder.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "zhengde_accession_1505",
+      "zhengde_late_rule_1521"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "liu_jin_ming",
+    "names": {
+      "primaryName": "Liu Jin",
+      "localizedNames": {
+        "en": "Liu Jin",
+        "zh-Hans": "刘瑾"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1451,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1451年"
+    },
+    "death": {
+      "year": 1510,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1510年"
+    },
+    "activeRange": "1451 - 1510",
+    "roles": [
+      "eunuch"
+    ],
+    "bioShort": "明武宗初年权宦，操纵朝政，后被诛。",
+    "bioShortEn": "Powerful eunuch early in Zhengde’s reign who dominated court politics before execution.",
+    "bioLong": "明武宗初年权宦，操纵朝政，后被诛。",
+    "bioLongEn": "Powerful eunuch early in Zhengde’s reign who dominated court politics before execution.",
+    "contribution": "明武宗初年权宦，操纵朝政，后被诛。",
+    "contributionEn": "Powerful eunuch early in Zhengde’s reign who dominated court politics before execution.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "zhengde_accession_1505"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_tianqi_ming",
+    "names": {
+      "primaryName": "Tianqi Emperor",
+      "localizedNames": {
+        "en": "Tianqi Emperor",
+        "zh-Hans": "明熹宗朱由校"
+      },
+      "aliases": [
+        "朱由校",
+        "天启帝"
+      ]
+    },
+    "birth": {
+      "year": 1605,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1605年"
+    },
+    "death": {
+      "year": 1627,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1627年"
+    },
+    "activeRange": "1605 - 1627",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "明熹宗，天启年间魏忠贤专权，辽东与党争危机加深。",
+    "bioShortEn": "Ming Xizong, under whom Wei Zhongxian dominated politics while Liaodong and factional crises deepened.",
+    "bioLong": "明熹宗，天启年间魏忠贤专权，辽东与党争危机加深。",
+    "bioLongEn": "Ming Xizong, under whom Wei Zhongxian dominated politics while Liaodong and factional crises deepened.",
+    "contribution": "明熹宗，天启年间魏忠贤专权，辽东与党争危机加深。",
+    "contributionEn": "Ming Xizong, under whom Wei Zhongxian dominated politics while Liaodong and factional crises deepened.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "tianqi_accession_1620",
+      "wei_zhongxian_power_1625"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wei_zhongxian",
+    "names": {
+      "primaryName": "Wei Zhongxian",
+      "localizedNames": {
+        "en": "Wei Zhongxian",
+        "zh-Hans": "魏忠贤"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1568,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1568年"
+    },
+    "death": {
+      "year": 1627,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1627年"
+    },
+    "activeRange": "1568 - 1627",
+    "roles": [
+      "eunuch"
+    ],
+    "bioShort": "明熹宗时期权宦，打击东林党，成为晚明政治失衡的象征。",
+    "bioShortEn": "Powerful eunuch under Tianqi who attacked Donglin officials and symbolized late-Ming political imbalance.",
+    "bioLong": "明熹宗时期权宦，打击东林党，成为晚明政治失衡的象征。",
+    "bioLongEn": "Powerful eunuch under Tianqi who attacked Donglin officials and symbolized late-Ming political imbalance.",
+    "contribution": "明熹宗时期权宦，打击东林党，成为晚明政治失衡的象征。",
+    "contributionEn": "Powerful eunuch under Tianqi who attacked Donglin officials and symbolized late-Ming political imbalance.",
+    "relatedTerritoryIds": [
+      "ming_dynasty"
+    ],
+    "relatedEventIds": [
+      "wei_zhongxian_power_1625",
+      "chongzhen_accession_1627"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_shunzhi_qing",
+    "names": {
+      "primaryName": "Shunzhi Emperor",
+      "localizedNames": {
+        "en": "Shunzhi Emperor",
+        "zh-Hans": "顺治帝福临"
+      },
+      "aliases": [
+        "福临"
+      ]
+    },
+    "birth": {
+      "year": 1638,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1638年"
+    },
+    "death": {
+      "year": 1661,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1661年"
+    },
+    "activeRange": "1638 - 1661",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "清朝入关后的第一位皇帝，完成从关外政权到中原王朝的转型开端。",
+    "bioShortEn": "First Qing emperor after entering the pass, beginning the transition from Manchu regime to China-ruling dynasty.",
+    "bioLong": "清朝入关后的第一位皇帝，完成从关外政权到中原王朝的转型开端。",
+    "bioLongEn": "First Qing emperor after entering the pass, beginning the transition from Manchu regime to China-ruling dynasty.",
+    "contribution": "清朝入关后的第一位皇帝，完成从关外政权到中原王朝的转型开端。",
+    "contributionEn": "First Qing emperor after entering the pass, beginning the transition from Manchu regime to China-ruling dynasty.",
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "qing_southern_ming_1645"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "koxinga",
+    "names": {
+      "primaryName": "Zheng Chenggong (Koxinga)",
+      "localizedNames": {
+        "en": "Zheng Chenggong (Koxinga)",
+        "zh-Hans": "郑成功"
+      },
+      "aliases": [
+        "国姓爷"
+      ]
+    },
+    "birth": {
+      "year": 1624,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1624年"
+    },
+    "death": {
+      "year": 1662,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1662年"
+    },
+    "activeRange": "1624 - 1662",
+    "roles": [
+      "general",
+      "ruler"
+    ],
+    "bioShort": "明郑领袖，驱逐荷兰人据台湾，延续反清基地。",
+    "bioShortEn": "Ming loyalist leader who expelled the Dutch from Taiwan and sustained an anti-Qing base.",
+    "bioLong": "明郑领袖，驱逐荷兰人据台湾，延续反清基地。",
+    "bioLongEn": "Ming loyalist leader who expelled the Dutch from Taiwan and sustained an anti-Qing base.",
+    "contribution": "明郑领袖，驱逐荷兰人据台湾，延续反清基地。",
+    "contributionEn": "Ming loyalist leader who expelled the Dutch from Taiwan and sustained an anti-Qing base.",
+    "relatedTerritoryIds": [
+      "cliopatria_southern_ming",
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "koxinga_taiwan_1662",
+      "qing_taiwan_1683"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_kangxi_qing",
+    "names": {
+      "primaryName": "Kangxi Emperor",
+      "localizedNames": {
+        "en": "Kangxi Emperor",
+        "zh-Hans": "康熙帝玄烨"
+      },
+      "aliases": [
+        "玄烨",
+        "清圣祖"
+      ]
+    },
+    "birth": {
+      "year": 1654,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1654年"
+    },
+    "death": {
+      "year": 1722,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1722年"
+    },
+    "activeRange": "1654 - 1722",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "清圣祖，平三藩、收台湾、定尼布楚并处理准噶尔压力。",
+    "bioShortEn": "Qing Kangxi emperor who suppressed the Three Feudatories, took Taiwan, made Nerchinsk, and faced Dzungar pressure.",
+    "bioLong": "清圣祖，平三藩、收台湾、定尼布楚并处理准噶尔压力。",
+    "bioLongEn": "Qing Kangxi emperor who suppressed the Three Feudatories, took Taiwan, made Nerchinsk, and faced Dzungar pressure.",
+    "contribution": "清圣祖，平三藩、收台湾、定尼布楚并处理准噶尔压力。",
+    "contributionEn": "Qing Kangxi emperor who suppressed the Three Feudatories, took Taiwan, made Nerchinsk, and faced Dzungar pressure.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "relatedEventIds": [
+      "qing_taiwan_1683",
+      "nerchinsk_treaty_1689",
+      "qing_enters_tibet_1720"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wu_sangui",
+    "names": {
+      "primaryName": "Wu Sangui",
+      "localizedNames": {
+        "en": "Wu Sangui",
+        "zh-Hans": "吴三桂"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1612,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1612年"
+    },
+    "death": {
+      "year": 1678,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1678年"
+    },
+    "activeRange": "1612 - 1678",
+    "roles": [
+      "general",
+      "rebel_leader"
+    ],
+    "bioShort": "清初三藩之乱核心人物，反映清统一后的藩镇整合问题。",
+    "bioShortEn": "Central figure in the Three Feudatories rebellion, reflecting Qing post-conquest integration problems.",
+    "bioLong": "清初三藩之乱核心人物，反映清统一后的藩镇整合问题。",
+    "bioLongEn": "Central figure in the Three Feudatories rebellion, reflecting Qing post-conquest integration problems.",
+    "contribution": "清初三藩之乱核心人物，反映清统一后的藩镇整合问题。",
+    "contributionEn": "Central figure in the Three Feudatories rebellion, reflecting Qing post-conquest integration problems.",
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "three_feudatories_context_1662"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_yongzheng_qing",
+    "names": {
+      "primaryName": "Yongzheng Emperor",
+      "localizedNames": {
+        "en": "Yongzheng Emperor",
+        "zh-Hans": "雍正帝胤禛"
+      },
+      "aliases": [
+        "胤禛",
+        "清世宗"
+      ]
+    },
+    "birth": {
+      "year": 1678,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1678年"
+    },
+    "death": {
+      "year": 1735,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1735年"
+    },
+    "activeRange": "1678 - 1735",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "清世宗，推动摊丁入亩、军机处等财政行政强化。",
+    "bioShortEn": "Qing Yongzheng emperor who strengthened fiscal and administrative governance, including tax reforms and the Grand Council.",
+    "bioLong": "清世宗，推动摊丁入亩、军机处等财政行政强化。",
+    "bioLongEn": "Qing Yongzheng emperor who strengthened fiscal and administrative governance, including tax reforms and the Grand Council.",
+    "contribution": "清世宗，推动摊丁入亩、军机处等财政行政强化。",
+    "contributionEn": "Qing Yongzheng emperor who strengthened fiscal and administrative governance, including tax reforms and the Grand Council.",
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "yongzheng_statecraft_1720"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_qianlong_qing",
+    "names": {
+      "primaryName": "Qianlong Emperor",
+      "localizedNames": {
+        "en": "Qianlong Emperor",
+        "zh-Hans": "乾隆帝弘历"
+      },
+      "aliases": [
+        "弘历",
+        "清高宗"
+      ]
+    },
+    "birth": {
+      "year": 1711,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1711年"
+    },
+    "death": {
+      "year": 1799,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1799年"
+    },
+    "activeRange": "1711 - 1799",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "清高宗，完成准噶尔战争和新疆纳入，盛清达到高峰。",
+    "bioShortEn": "Qing Qianlong emperor who completed the Dzungar wars and incorporation of Xinjiang, marking High Qing peak.",
+    "bioLong": "清高宗，完成准噶尔战争和新疆纳入，盛清达到高峰。",
+    "bioLongEn": "Qing Qianlong emperor who completed the Dzungar wars and incorporation of Xinjiang, marking High Qing peak.",
+    "contribution": "清高宗，完成准噶尔战争和新疆纳入，盛清达到高峰。",
+    "contributionEn": "Qing Qianlong emperor who completed the Dzungar wars and incorporation of Xinjiang, marking High Qing peak.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "relatedEventIds": [
+      "dzungar_conquest_1759",
+      "macartney_mission_1793"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "lin_zexu",
+    "names": {
+      "primaryName": "Lin Zexu",
+      "localizedNames": {
+        "en": "Lin Zexu",
+        "zh-Hans": "林则徐"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1785,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1785年"
+    },
+    "death": {
+      "year": 1850,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1850年"
+    },
+    "activeRange": "1785 - 1850",
+    "roles": [
+      "official"
+    ],
+    "bioShort": "禁烟钦差，鸦片战争前夕代表清朝抵抗鸦片贸易。",
+    "bioShortEn": "Imperial commissioner against opium before the Opium War, representing Qing resistance to opium trade.",
+    "bioLong": "禁烟钦差，鸦片战争前夕代表清朝抵抗鸦片贸易。",
+    "bioLongEn": "Imperial commissioner against opium before the Opium War, representing Qing resistance to opium trade.",
+    "contribution": "禁烟钦差，鸦片战争前夕代表清朝抵抗鸦片贸易。",
+    "contributionEn": "Imperial commissioner against opium before the Opium War, representing Qing resistance to opium trade.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "relatedEventIds": [
+      "nanjing_treaty_1842"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_daoguang_qing",
+    "names": {
+      "primaryName": "Daoguang Emperor",
+      "localizedNames": {
+        "en": "Daoguang Emperor",
+        "zh-Hans": "道光帝旻宁"
+      },
+      "aliases": [
+        "旻宁"
+      ]
+    },
+    "birth": {
+      "year": 1782,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1782年"
+    },
+    "death": {
+      "year": 1850,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1850年"
+    },
+    "activeRange": "1782 - 1850",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "鸦片战争时期的清朝皇帝，面对条约体系开端。",
+    "bioShortEn": "Qing emperor during the Opium War and beginning of treaty-port order.",
+    "bioLong": "鸦片战争时期的清朝皇帝，面对条约体系开端。",
+    "bioLongEn": "Qing emperor during the Opium War and beginning of treaty-port order.",
+    "contribution": "鸦片战争时期的清朝皇帝，面对条约体系开端。",
+    "contributionEn": "Qing emperor during the Opium War and beginning of treaty-port order.",
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "nanjing_treaty_1842"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "hong_xiuquan",
+    "names": {
+      "primaryName": "Hong Xiuquan",
+      "localizedNames": {
+        "en": "Hong Xiuquan",
+        "zh-Hans": "洪秀全"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1814,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1814年"
+    },
+    "death": {
+      "year": 1864,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1864年"
+    },
+    "activeRange": "1814 - 1864",
+    "roles": [
+      "rebel_leader"
+    ],
+    "bioShort": "太平天国领袖，发动清代最大内战之一。",
+    "bioShortEn": "Leader of the Taiping Heavenly Kingdom, launching one of Qing’s largest civil wars.",
+    "bioLong": "太平天国领袖，发动清代最大内战之一。",
+    "bioLongEn": "Leader of the Taiping Heavenly Kingdom, launching one of Qing’s largest civil wars.",
+    "contribution": "太平天国领袖，发动清代最大内战之一。",
+    "contributionEn": "Leader of the Taiping Heavenly Kingdom, launching one of Qing’s largest civil wars.",
+    "relatedTerritoryIds": [
+      "cliopatria_taiping_heavenly_kingdom",
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "taiping_rebellion_1851",
+      "taiping_falls_1864"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zeng_guofan",
+    "names": {
+      "primaryName": "Zeng Guofan",
+      "localizedNames": {
+        "en": "Zeng Guofan",
+        "zh-Hans": "曾国藩"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1811,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1811年"
+    },
+    "death": {
+      "year": 1872,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1872年"
+    },
+    "activeRange": "1811 - 1872",
+    "roles": [
+      "official",
+      "general"
+    ],
+    "bioShort": "湘军领袖，镇压太平天国，推动地方督抚军事化。",
+    "bioShortEn": "Leader of the Xiang Army who suppressed Taiping and strengthened provincial military power.",
+    "bioLong": "湘军领袖，镇压太平天国，推动地方督抚军事化。",
+    "bioLongEn": "Leader of the Xiang Army who suppressed Taiping and strengthened provincial military power.",
+    "contribution": "湘军领袖，镇压太平天国，推动地方督抚军事化。",
+    "contributionEn": "Leader of the Xiang Army who suppressed Taiping and strengthened provincial military power.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_taiping_heavenly_kingdom"
+    ],
+    "relatedEventIds": [
+      "taiping_falls_1864",
+      "self_strengthening_1864"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "empress_dowager_cixi",
+    "names": {
+      "primaryName": "Empress Dowager Cixi",
+      "localizedNames": {
+        "en": "Empress Dowager Cixi",
+        "zh-Hans": "慈禧太后"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1835,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1835年"
+    },
+    "death": {
+      "year": 1908,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1908年"
+    },
+    "activeRange": "1835 - 1908",
+    "roles": [
+      "regent",
+      "stateswoman"
+    ],
+    "bioShort": "晚清实际最高权力者，经历洋务、甲午、戊戌和庚子危机。",
+    "bioShortEn": "De facto late Qing ruler through Self-Strengthening, Sino-Japanese War, Hundred Days, and Boxer crisis.",
+    "bioLong": "晚清实际最高权力者，经历洋务、甲午、戊戌和庚子危机。",
+    "bioLongEn": "De facto late Qing ruler through Self-Strengthening, Sino-Japanese War, Hundred Days, and Boxer crisis.",
+    "contribution": "晚清实际最高权力者，经历洋务、甲午、戊戌和庚子危机。",
+    "contributionEn": "De facto late Qing ruler through Self-Strengthening, Sino-Japanese War, Hundred Days, and Boxer crisis.",
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "self_strengthening_1864",
+      "sino_japanese_war_1895",
+      "hundred_days_reform_1898",
+      "boxer_crisis_1900"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_hongzhang",
+    "names": {
+      "primaryName": "Li Hongzhang",
+      "localizedNames": {
+        "en": "Li Hongzhang",
+        "zh-Hans": "李鸿章"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1823,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1823年"
+    },
+    "death": {
+      "year": 1901,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1901年"
+    },
+    "activeRange": "1823 - 1901",
+    "roles": [
+      "official",
+      "diplomat"
+    ],
+    "bioShort": "洋务派重臣，参与镇压太平、创办近代工业和甲午外交。",
+    "bioShortEn": "Self-Strengthening statesman involved in suppressing Taiping, modern industry, and diplomacy after 1895.",
+    "bioLong": "洋务派重臣，参与镇压太平、创办近代工业和甲午外交。",
+    "bioLongEn": "Self-Strengthening statesman involved in suppressing Taiping, modern industry, and diplomacy after 1895.",
+    "contribution": "洋务派重臣，参与镇压太平、创办近代工业和甲午外交。",
+    "contributionEn": "Self-Strengthening statesman involved in suppressing Taiping, modern industry, and diplomacy after 1895.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan"
+    ],
+    "relatedEventIds": [
+      "self_strengthening_1864",
+      "sino_japanese_war_1895"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_guangxu_qing",
+    "names": {
+      "primaryName": "Guangxu Emperor",
+      "localizedNames": {
+        "en": "Guangxu Emperor",
+        "zh-Hans": "光绪帝载湉"
+      },
+      "aliases": [
+        "载湉"
+      ]
+    },
+    "birth": {
+      "year": 1871,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1871年"
+    },
+    "death": {
+      "year": 1908,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1908年"
+    },
+    "activeRange": "1871 - 1908",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "戊戌变法时期皇帝，改革失败后被幽禁。",
+    "bioShortEn": "Qing emperor during the Hundred Days Reform, confined after its failure.",
+    "bioLong": "戊戌变法时期皇帝，改革失败后被幽禁。",
+    "bioLongEn": "Qing emperor during the Hundred Days Reform, confined after its failure.",
+    "contribution": "戊戌变法时期皇帝，改革失败后被幽禁。",
+    "contributionEn": "Qing emperor during the Hundred Days Reform, confined after its failure.",
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "hundred_days_reform_1898"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "kang_youwei",
+    "names": {
+      "primaryName": "Kang Youwei",
+      "localizedNames": {
+        "en": "Kang Youwei",
+        "zh-Hans": "康有为"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1858,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1858年"
+    },
+    "death": {
+      "year": 1927,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1927年"
+    },
+    "activeRange": "1858 - 1927",
+    "roles": [
+      "reformer"
+    ],
+    "bioShort": "戊戌变法核心思想人物，主张制度改革。",
+    "bioShortEn": "Key thinker of the Hundred Days Reform advocating institutional change.",
+    "bioLong": "戊戌变法核心思想人物，主张制度改革。",
+    "bioLongEn": "Key thinker of the Hundred Days Reform advocating institutional change.",
+    "contribution": "戊戌变法核心思想人物，主张制度改革。",
+    "contributionEn": "Key thinker of the Hundred Days Reform advocating institutional change.",
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "hundred_days_reform_1898"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "sun_yat_sen",
+    "names": {
+      "primaryName": "Sun Yat-sen",
+      "localizedNames": {
+        "en": "Sun Yat-sen",
+        "zh-Hans": "孙中山"
+      },
+      "aliases": [
+        "孙文"
+      ]
+    },
+    "birth": {
+      "year": 1866,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1866年"
+    },
+    "death": {
+      "year": 1925,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1925年"
+    },
+    "activeRange": "1866 - 1925",
+    "roles": [
+      "revolutionary",
+      "founder"
+    ],
+    "bioShort": "革命党领袖，辛亥后成为中华民国临时大总统。",
+    "bioShortEn": "Revolutionary leader who became provisional president of the Republic of China after Xinhai.",
+    "bioLong": "革命党领袖，辛亥后成为中华民国临时大总统。",
+    "bioLongEn": "Revolutionary leader who became provisional president of the Republic of China after Xinhai.",
+    "contribution": "革命党领袖，辛亥后成为中华民国临时大总统。",
+    "contributionEn": "Revolutionary leader who became provisional president of the Republic of China after Xinhai.",
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "qing_dynasty"
+    ],
+    "relatedEventIds": [
+      "xinhai_revolution_1911",
+      "republic_founded_1912"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "emperor_xuantong_qing",
+    "names": {
+      "primaryName": "Xuantong Emperor Puyi",
+      "localizedNames": {
+        "en": "Xuantong Emperor Puyi",
+        "zh-Hans": "宣统帝溥仪"
+      },
+      "aliases": [
+        "溥仪"
+      ]
+    },
+    "birth": {
+      "year": 1906,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1906年"
+    },
+    "death": {
+      "year": 1967,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1967年"
+    },
+    "activeRange": "1906 - 1967",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "清朝末代皇帝，辛亥后退位。",
+    "bioShortEn": "Last Qing emperor, abdicated after the Xinhai Revolution.",
+    "bioLong": "清朝末代皇帝，辛亥后退位。",
+    "bioLongEn": "Last Qing emperor, abdicated after the Xinhai Revolution.",
+    "contribution": "清朝末代皇帝，辛亥后退位。",
+    "contributionEn": "Last Qing emperor, abdicated after the Xinhai Revolution.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "republic_of_china"
+    ],
+    "relatedEventIds": [
+      "xinhai_revolution_1911",
+      "republic_founded_1912"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "yuan_shikai",
+    "names": {
+      "primaryName": "Yuan Shikai",
+      "localizedNames": {
+        "en": "Yuan Shikai",
+        "zh-Hans": "袁世凯"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1859,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1859年"
+    },
+    "death": {
+      "year": 1916,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1916年"
+    },
+    "activeRange": "1859 - 1916",
+    "roles": [
+      "general",
+      "president"
+    ],
+    "bioShort": "晚清北洋实力派，促成清帝退位并接任民国临时大总统。",
+    "bioShortEn": "Beiyang strongman who brokered Qing abdication and became provisional president of the Republic.",
+    "bioLong": "晚清北洋实力派，促成清帝退位并接任民国临时大总统。",
+    "bioLongEn": "Beiyang strongman who brokered Qing abdication and became provisional president of the Republic.",
+    "contribution": "晚清北洋实力派，促成清帝退位并接任民国临时大总统。",
+    "contributionEn": "Beiyang strongman who brokered Qing abdication and became provisional president of the Republic.",
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "republic_of_china"
+    ],
+    "relatedEventIds": [
+      "republic_founded_1912"
     ],
     "birthPlaceId": "",
     "deathPlaceId": "",

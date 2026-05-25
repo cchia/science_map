@@ -7905,5 +7905,4893 @@
       "editorial_internal_v1"
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "later_liang_opens_907",
+    "title": {
+      "primary": "Later Liang Opens Five Dynasties",
+      "localized": {
+        "en": "Later Liang Opens Five Dynasties",
+        "zh-Hans": "后梁建立与五代开场"
+      }
+    },
+    "displayTitle": "后梁建立与五代开场",
+    "start": {
+      "year": 907,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元907年"
+    },
+    "end": {
+      "year": 907,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元907年"
+    },
+    "territoryIds": [
+      "tang_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "朱温篡唐建后梁，唐亡后的北方更替序列开始。",
+    "summaryEn": "Zhu Wen founded Later Liang, beginning the northern succession sequence after Tang.",
+    "content": "907 年后梁建立，但 Cliopatria 在该年仍以唐末旧版图表现过渡。政治上，北方进入军人政权轮替，南方则逐渐形成十国并立。",
+    "contentEn": "Later Liang was founded in 907, though Cliopatria still shows the late Tang frame for this transition. Politically, north China entered military-dynasty turnover while the south formed the Ten Kingdoms.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "后梁",
+      "唐亡"
+    ],
+    "relatedPersonIds": [
+      "zhu_wen"
+    ],
+    "relatedTerritoryIds": [
+      "tang_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "later_liang_jin_rivalry_923",
+    "title": {
+      "primary": "Later Liang and Jin Rivalry",
+      "localized": {
+        "en": "Later Liang and Jin Rivalry",
+        "zh-Hans": "后梁与晋王势力对峙"
+      }
+    },
+    "displayTitle": "后梁与晋王势力对峙",
+    "start": {
+      "year": 923,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元923年"
+    },
+    "end": {
+      "year": 923,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元923年"
+    },
+    "territoryIds": [
+      "cliopatria_later_liang_dynasty",
+      "cliopatria_former_jin",
+      "cliopatria_liao_dynasty",
+      "cliopatria_former_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "923 年前后，后梁与沙陀晋王势力对峙，南方多国并立格局清晰。",
+    "summaryEn": "Around 923, Later Liang faced the Shatuo Jin power, while southern states formed a clear multi-state order.",
+    "content": "五代不是一个王朝，而是北方军人集团对中原核心的轮流占有。923 年地图能看到后梁、晋王势力和多个南方政权并存。",
+    "contentEn": "The Five Dynasties were not one dynasty, but successive military groups holding the northern core. The 923 map shows Later Liang, Jin, and multiple southern states coexisting.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "后梁",
+      "晋王"
+    ],
+    "relatedPersonIds": [
+      "li_keyong",
+      "li_cunxu"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_later_liang_dynasty",
+      "cliopatria_former_jin",
+      "cliopatria_liao_dynasty",
+      "cliopatria_former_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "later_tang_founds_926",
+    "title": {
+      "primary": "Later Tang Founded",
+      "localized": {
+        "en": "Later Tang Founded",
+        "zh-Hans": "后唐建立与第一次更替完成"
+      }
+    },
+    "displayTitle": "后唐建立与第一次更替完成",
+    "start": {
+      "year": 926,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元926年"
+    },
+    "end": {
+      "year": 926,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元926年"
+    },
+    "territoryIds": [
+      "cliopatria_later_tang",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "李存勖灭后梁建后唐，五代第一次北方朝代更替完成。",
+    "summaryEn": "Li Cunxu destroyed Later Liang and founded Later Tang, completing the first northern dynastic turnover.",
+    "content": "后唐承接沙陀晋王势力，说明五代北方政权更替常由军事集团完成，而不是稳定继承。",
+    "contentEn": "Later Tang grew from Shatuo Jin power, showing that northern turnover was usually carried out by military groups rather than stable succession.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "后唐"
+    ],
+    "relatedPersonIds": [
+      "li_cunxu"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_later_tang",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "later_jin_liao_936",
+    "title": {
+      "primary": "Later Jin and Liao Alliance",
+      "localized": {
+        "en": "Later Jin and Liao Alliance",
+        "zh-Hans": "后晋建立与燕云割让"
+      }
+    },
+    "displayTitle": "后晋建立与燕云割让",
+    "start": {
+      "year": 936,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元936年"
+    },
+    "end": {
+      "year": 936,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元936年"
+    },
+    "territoryIds": [
+      "cliopatria_later_jin",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "石敬瑭借契丹力量建后晋，并割让燕云十六州，北方边疆格局被深刻改变。",
+    "summaryEn": "Shi Jingtang founded Later Jin with Khitan support and ceded the Sixteen Prefectures, deeply changing the northern frontier.",
+    "content": "后晋的建立把五代更替与契丹/辽的力量绑定在一起。燕云十六州的丧失，成为之后宋辽关系的长期结构问题。",
+    "contentEn": "Later Jin tied Five Dynasties succession to Khitan/Liao power. The loss of the Sixteen Prefectures became a long-term structural issue in Song-Liao relations.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "后晋",
+      "辽",
+      "燕云"
+    ],
+    "relatedPersonIds": [
+      "shi_jingtang"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_later_jin",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "later_han_founds_947",
+    "title": {
+      "primary": "Later Han Founded",
+      "localized": {
+        "en": "Later Han Founded",
+        "zh-Hans": "后汉建立"
+      }
+    },
+    "displayTitle": "后汉建立",
+    "start": {
+      "year": 947,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元947年"
+    },
+    "end": {
+      "year": 947,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元947年"
+    },
+    "territoryIds": [
+      "cliopatria_later_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "后晋崩溃后，刘知远建立后汉，北方政权再次快速更替。",
+    "summaryEn": "After Later Jin collapsed, Liu Zhiyuan founded Later Han, and northern power changed again.",
+    "content": "后汉说明五代北方核心仍高度军事化：一个军政集团倒下，另一个迅速接手，但制度稳定性并未恢复。",
+    "contentEn": "Later Han shows the northern core remained highly militarized: one military-political group fell, another took over, but institutional stability did not return.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "后汉"
+    ],
+    "relatedPersonIds": [
+      "liu_zhiyuan"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_later_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "later_zhou_founds_951",
+    "title": {
+      "primary": "Later Zhou Founded",
+      "localized": {
+        "en": "Later Zhou Founded",
+        "zh-Hans": "后周建立"
+      }
+    },
+    "displayTitle": "后周建立",
+    "start": {
+      "year": 951,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元951年"
+    },
+    "end": {
+      "year": 951,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元951年"
+    },
+    "territoryIds": [
+      "cliopatria_later_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "郭威代后汉建立后周，五代最后一个北方王朝出现。",
+    "summaryEn": "Guo Wei replaced Later Han with Later Zhou, creating the final northern dynasty of the Five Dynasties.",
+    "content": "Cliopatria 对后周的独立边界主要在 960 节点出现，但 951 年政治上后周已经建立。它将成为宋重新统一的制度前身。",
+    "contentEn": "Cliopatria mostly shows an independent Later Zhou boundary at 960, but politically Later Zhou was founded in 951. It became the institutional predecessor of Song reunification.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "后周"
+    ],
+    "relatedPersonIds": [
+      "guo_wei"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_later_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "later_zhou_reforms_955",
+    "title": {
+      "primary": "Later Zhou Reforms under Shizong",
+      "localized": {
+        "en": "Later Zhou Reforms under Shizong",
+        "zh-Hans": "周世宗改革与南征"
+      }
+    },
+    "displayTitle": "周世宗改革与南征",
+    "start": {
+      "year": 955,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元955年"
+    },
+    "end": {
+      "year": 955,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元955年"
+    },
+    "territoryIds": [
+      "cliopatria_later_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "周世宗柴荣整军、整财并南征，后周成为再统一的最强候选者。",
+    "summaryEn": "Emperor Shizong Chai Rong reformed army and finance and campaigned south, making Later Zhou the strongest reunification candidate.",
+    "content": "周世宗是五代最关键的皇帝之一。他把军政改革和南征结合起来，直接为赵匡胤建立宋并继续统一铺路。",
+    "contentEn": "Chai Rong is one of the key Five Dynasties rulers. He combined military-administrative reform with southern campaigns, directly preparing Zhao Kuangyin’s Song reunification.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "周世宗",
+      "后周改革"
+    ],
+    "relatedPersonIds": [
+      "chai_rong"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_later_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_later_shu",
+      "cliopatria_southern_wu",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_jingnan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "song_founding_960",
+    "title": {
+      "primary": "Song Founded after Chenqiao",
+      "localized": {
+        "en": "Song Founded after Chenqiao",
+        "zh-Hans": "陈桥兵变与北宋建立"
+      }
+    },
+    "displayTitle": "陈桥兵变与北宋建立",
+    "start": {
+      "year": 960,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元960年"
+    },
+    "end": {
+      "year": 960,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元960年"
+    },
+    "territoryIds": [
+      "cliopatria_later_zhou_dynasty",
+      "cliopatria_northern_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_southern_tang",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_later_shu"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "赵匡胤陈桥兵变建立北宋，承接后周改革成果。",
+    "summaryEn": "Zhao Kuangyin founded Northern Song after Chenqiao, inheriting Later Zhou reforms.",
+    "content": "北宋不是从空白开始，而是在后周改革基础上接手中原。问题也随之转移：如何消化南方诸国、北汉和辽的压力。",
+    "contentEn": "Northern Song did not begin from nothing; it inherited Later Zhou reforms and the central plains. The problem shifted to absorbing southern states, Northern Han, and handling Liao pressure.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "北宋",
+      "陈桥兵变"
+    ],
+    "relatedPersonIds": [
+      "zhao_kuangyin"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_later_zhou_dynasty",
+      "cliopatria_northern_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_southern_tang",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_later_shu"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "song_conquers_southern_tang_975",
+    "title": {
+      "primary": "Song Conquers Southern Tang",
+      "localized": {
+        "en": "Song Conquers Southern Tang",
+        "zh-Hans": "宋灭南唐"
+      }
+    },
+    "displayTitle": "宋灭南唐",
+    "start": {
+      "year": 975,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元975年"
+    },
+    "end": {
+      "year": 975,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元975年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_southern_tang",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_northern_han",
+      "cliopatria_liao_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "北宋灭南唐，南方最大政权之一被纳入宋的统一进程。",
+    "summaryEn": "Northern Song conquered Southern Tang, incorporating one of the major southern states into reunification.",
+    "content": "南唐灭亡说明宋的统一路线与五代不同：它不是继续北方短命更替，而是用更稳定的中央政权逐步吸收南方。",
+    "contentEn": "Southern Tang’s fall shows Song’s route differed from Five Dynasties turnover: it used a more stable central state to absorb the south step by step.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "南唐",
+      "宋统一"
+    ],
+    "relatedPersonIds": [
+      "zhao_kuangyin",
+      "li_yu_southern_tang"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_southern_tang",
+      "cliopatria_wuyue",
+      "cliopatria_southern_han",
+      "cliopatria_northern_han",
+      "cliopatria_liao_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "song_conquers_northern_han_979",
+    "title": {
+      "primary": "Song Conquers Northern Han",
+      "localized": {
+        "en": "Song Conquers Northern Han",
+        "zh-Hans": "宋灭北汉"
+      }
+    },
+    "displayTitle": "宋灭北汉",
+    "start": {
+      "year": 979,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元979年"
+    },
+    "end": {
+      "year": 979,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元979年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_northern_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_wuyue"
+    ],
+    "placeIds": [],
+    "lat": 37.9,
+    "lng": 112.5,
+    "summary": "北宋灭北汉，五代十国主体格局结束，但辽仍控制北方关键区域。",
+    "summaryEn": "Northern Song conquered Northern Han, ending the main Five Dynasties-Ten Kingdoms order, though Liao still held key northern regions.",
+    "content": "979 年宋灭北汉，标志五代十国主体收束。统一基本完成，但燕云与辽的存在说明宋的统一不是汉唐式完全恢复。",
+    "contentEn": "In 979 Song conquered Northern Han, closing the main Five Dynasties-Ten Kingdoms order. Reunification was largely complete, but the Sixteen Prefectures and Liao meant it was not a full Han-Tang restoration.",
+    "significance": "这是五代十国从唐末分裂到宋初再统一链条中的关键节点。",
+    "significanceEn": "This is a key node in the Five Dynasties and Ten Kingdoms chain from late Tang fragmentation to early Song reunification.",
+    "consequences": [
+      "北方五代更替推进",
+      "南方十国格局变化",
+      "再统一条件逐步形成"
+    ],
+    "consequencesEn": [
+      "Northern Five Dynasties turnover advances",
+      "Southern Ten Kingdoms pattern changes",
+      "Conditions for reunification form"
+    ],
+    "tags": [
+      "北汉",
+      "宋辽"
+    ],
+    "relatedPersonIds": [
+      "zhao_kuangyin"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_northern_han",
+      "cliopatria_liao_dynasty",
+      "cliopatria_wuyue"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "song_liao_dali_1004",
+    "title": {
+      "primary": "Song, Liao, Western Xia, and Dali Coexist",
+      "localized": {
+        "en": "Song, Liao, Western Xia, and Dali Coexist",
+        "zh-Hans": "北宋、辽、西夏与大理并立"
+      }
+    },
+    "displayTitle": "北宋、辽、西夏与大理并立",
+    "start": {
+      "year": 1004,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1004年"
+    },
+    "end": {
+      "year": 1004,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1004年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "北宋完成南方整合后，面对辽、西夏雏形和西南大理的多政权格局。",
+    "summaryEn": "After southern consolidation, Northern Song faced a multipolar order with Liao, emerging Western Xia, and Dali in the southwest.",
+    "content": "北宋不是单一大一统帝国，而是在东亚大陆上与辽、西夏、大理长期并立。大理不直接主导宋辽战争，却稳定占据西南，是理解宋代地图时不能忽略的政权。",
+    "contentEn": "Northern Song was not a sole unified empire; it coexisted with Liao, Western Xia, and Dali. Dali did not dominate Song-Liao warfare, but its southwestern position matters for the Song-era map.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "北宋",
+      "辽",
+      "西夏",
+      "大理"
+    ],
+    "relatedPersonIds": [
+      "emperor_zhenzong_song",
+      "dali_court"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "chanyuan_treaty_1004",
+    "title": {
+      "primary": "Treaty of Chanyuan",
+      "localized": {
+        "en": "Treaty of Chanyuan",
+        "zh-Hans": "澶渊之盟"
+      }
+    },
+    "displayTitle": "澶渊之盟",
+    "start": {
+      "year": 1004,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1004年"
+    },
+    "end": {
+      "year": 1004,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1004年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 35.7,
+    "lng": 115.0,
+    "summary": "宋辽在澶州前线达成盟约，以岁币和边界承认换取长期和平。",
+    "summaryEn": "Song and Liao reached the Chanyuan settlement, exchanging annual payments and border recognition for long peace.",
+    "content": "澶渊之盟不是简单屈辱或胜利，而是宋辽都承认无法轻易消灭对方后的制度化和平。它使北宋获得百年左右北方稳定，也固定了燕云未复的现实。",
+    "contentEn": "Chanyuan was not simply humiliation or victory. It institutionalized peace after Song and Liao recognized neither could easily destroy the other, giving Song long northern stability while fixing the loss of Yan-Yun.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "澶渊之盟",
+      "宋辽"
+    ],
+    "relatedPersonIds": [
+      "emperor_zhenzong_song",
+      "empress_dowager_chengtian_liao",
+      "emperor_shengzong_liao"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "western_xia_founding_1038",
+    "title": {
+      "primary": "Western Xia Founded",
+      "localized": {
+        "en": "Western Xia Founded",
+        "zh-Hans": "李元昊称帝与西夏立国"
+      }
+    },
+    "displayTitle": "李元昊称帝与西夏立国",
+    "start": {
+      "year": 1038,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1038年"
+    },
+    "end": {
+      "year": 1038,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1038年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 38.5,
+    "lng": 106.2,
+    "summary": "李元昊称帝建立西夏，宋、辽、西夏形成三角对峙。",
+    "summaryEn": "Li Yuanhao proclaimed Western Xia, creating a Song-Liao-Western Xia triangular rivalry.",
+    "content": "西夏的出现改变了北宋安全格局。宋不再只是面对北方辽朝，还必须在西北处理党项政权、河西和边防财政问题。",
+    "contentEn": "Western Xia changed Northern Song security. Song no longer faced only Liao in the north; it also had to handle Tangut power, Hexi routes, and northwest defense finance.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "西夏",
+      "李元昊"
+    ],
+    "relatedPersonIds": [
+      "li_yuanhao"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "song_xia_peace_1044",
+    "title": {
+      "primary": "Song-Xia Peace",
+      "localized": {
+        "en": "Song-Xia Peace",
+        "zh-Hans": "宋夏庆历和议"
+      }
+    },
+    "displayTitle": "宋夏庆历和议",
+    "start": {
+      "year": 1044,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1044年"
+    },
+    "end": {
+      "year": 1044,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1044年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_western_xia",
+      "cliopatria_liao_dynasty",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 38.5,
+    "lng": 106.2,
+    "summary": "长期战争后宋夏议和，西北冲突转入承认与岁赐框架。",
+    "summaryEn": "After prolonged war, Song and Western Xia made peace, shifting northwest conflict into recognition and payments.",
+    "content": "宋夏战争暴露了北宋兵制、财政和边防的压力。庆历和议缓和了冲突，却也让士大夫开始更强烈地讨论国家改革。",
+    "contentEn": "The Song-Xia wars exposed military, fiscal, and frontier pressure. The Qingli peace eased conflict but pushed officials toward stronger reform debates.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "宋夏",
+      "庆历和议"
+    ],
+    "relatedPersonIds": [
+      "li_yuanhao",
+      "fan_zhongyan"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_western_xia",
+      "cliopatria_liao_dynasty",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wang_anshi_reforms_1069",
+    "title": {
+      "primary": "Wang Anshi Reforms Begin",
+      "localized": {
+        "en": "Wang Anshi Reforms Begin",
+        "zh-Hans": "王安石变法开始"
+      }
+    },
+    "displayTitle": "王安石变法开始",
+    "start": {
+      "year": 1069,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1069年"
+    },
+    "end": {
+      "year": 1069,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1069年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "王安石在宋神宗支持下推行新法，试图解决财政、军政与边防困境。",
+    "summaryEn": "With Emperor Shenzong’s support, Wang Anshi launched reforms targeting finance, administration, military capacity, and frontier pressure.",
+    "content": "王安石变法不是孤立内政，而是宋辽西夏格局下的国家能力建设。它试图把富国、强兵和基层治理连在一起。",
+    "contentEn": "Wang Anshi’s reforms were not isolated domestic policy; they were state-capacity building under Song-Liao-Western Xia pressure, linking wealth, military strength, and local governance.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "王安石变法",
+      "新法"
+    ],
+    "relatedPersonIds": [
+      "wang_anshi",
+      "emperor_shenzong_song"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yuanyou_reversal_1085",
+    "title": {
+      "primary": "Yuanyou Reversal",
+      "localized": {
+        "en": "Yuanyou Reversal",
+        "zh-Hans": "元祐更化与新旧党争"
+      }
+    },
+    "displayTitle": "元祐更化与新旧党争",
+    "start": {
+      "year": 1085,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1085年"
+    },
+    "end": {
+      "year": 1085,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1085年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "宋神宗死后，司马光等旧党上台，新法被废止或调整，党争加深。",
+    "summaryEn": "After Shenzong died, Sima Guang and conservative officials came to power, repealing or revising New Policies and deepening factional conflict.",
+    "content": "北宋中后期的危险不只是外敌，也包括改革路线无法稳定延续。新旧党争削弱了政策连续性，使之后对辽、金形势变化的应对更困难。",
+    "contentEn": "Northern Song’s danger was not only external enemies; reform could not stabilize. Factional conflict weakened policy continuity and made later responses to Liao-Jin changes harder.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "元祐更化",
+      "党争"
+    ],
+    "relatedPersonIds": [
+      "wang_anshi",
+      "emperor_shenzong_song",
+      "sima_guang"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "liao_falls_jin_rises_1125",
+    "title": {
+      "primary": "Liao Falls and Jin Rises",
+      "localized": {
+        "en": "Liao Falls and Jin Rises",
+        "zh-Hans": "辽亡与金朝崛起"
+      }
+    },
+    "displayTitle": "辽亡与金朝崛起",
+    "start": {
+      "year": 1125,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1125年"
+    },
+    "end": {
+      "year": 1125,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1125年"
+    },
+    "territoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali",
+      "cliopatria_great_jin"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "女真金朝灭辽，宋原以为可以收复燕云，却迎来更强北方压力。",
+    "summaryEn": "Jurchen Jin destroyed Liao. Song hoped to recover Yan-Yun, but faced a stronger northern pressure.",
+    "content": "海上之盟把宋拉入辽金转换。辽亡并不等于宋的安全改善；原来的宋辽均衡被打破，金很快成为更危险的对手。",
+    "contentEn": "The maritime alliance drew Song into the Liao-Jin transition. Liao’s fall did not improve Song security; the old Song-Liao balance broke, and Jin soon became a more dangerous rival.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "辽亡",
+      "金朝"
+    ],
+    "relatedPersonIds": [
+      "emperor_huizong_song",
+      "wanyan_aguda"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_northern_song",
+      "cliopatria_liao_dynasty",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali",
+      "cliopatria_great_jin"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "jingkang_incident_1127",
+    "title": {
+      "primary": "Jingkang Incident",
+      "localized": {
+        "en": "Jingkang Incident",
+        "zh-Hans": "靖康之变与北宋灭亡"
+      }
+    },
+    "displayTitle": "靖康之变与北宋灭亡",
+    "start": {
+      "year": 1127,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1127年"
+    },
+    "end": {
+      "year": 1127,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1127年"
+    },
+    "territoryIds": [
+      "cliopatria_southern_song",
+      "cliopatria_great_jin",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali",
+      "cliopatria_kara_khitans"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 113.6,
+    "summary": "金军攻破汴京，徽钦二帝被俘，北宋灭亡，南宋开始。",
+    "summaryEn": "Jin captured Bianjing and the Huizong-Qinzong emperors; Northern Song fell and Southern Song began.",
+    "content": "靖康之变是北宋故事的终点。地图上从这里开始进入金、南宋、西夏、大理并立，同时辽的残余向西形成西辽。",
+    "contentEn": "The Jingkang Incident ends the Northern Song story. From here the map shifts to Jin, Southern Song, Western Xia, and Dali, while Liao remnants form Western Liao to the west.",
+    "significance": "这是北宋从再统一到多政权并立、改革与危机中的关键节点。",
+    "significanceEn": "This is a key node in Northern Song’s path from reunification into multipolar rivalry, reform, and crisis.",
+    "consequences": [
+      "宋辽西夏大理并立格局被重新定义",
+      "北宋边防与财政压力上升",
+      "下一阶段危机逐渐形成"
+    ],
+    "consequencesEn": [
+      "The Song-Liao-Western Xia-Dali order is redefined",
+      "Northern Song frontier and fiscal pressure rises",
+      "The next crisis gradually forms"
+    ],
+    "tags": [
+      "靖康之变",
+      "北宋灭亡"
+    ],
+    "relatedPersonIds": [
+      "emperor_huizong_song",
+      "emperor_qinzong_song"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song",
+      "cliopatria_great_jin",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali",
+      "cliopatria_kara_khitans"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "western_liao_survives_1141",
+    "title": {
+      "primary": "Western Liao Survives in Central Asia",
+      "localized": {
+        "en": "Western Liao Survives in Central Asia",
+        "zh-Hans": "西辽延续辽的西迁遗绪"
+      }
+    },
+    "displayTitle": "西辽延续辽的西迁遗绪",
+    "start": {
+      "year": 1141,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1141年"
+    },
+    "end": {
+      "year": 1141,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1141年"
+    },
+    "territoryIds": [
+      "cliopatria_kara_khitans",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 43.0,
+    "lng": 92.0,
+    "summary": "辽亡后，耶律大石在西域建立西辽，使辽的政治传统向中亚延续。",
+    "summaryEn": "After Liao fell, Yelu Dashi founded Western Liao in Central Asia, extending Liao’s political tradition westward.",
+    "content": "南宋时代的“辽”不再是原先控制燕云与东北的辽朝本体，而是西迁后的西辽。它位于宋金战场之外，却是蒙古崛起前欧亚内陆格局的重要部分。",
+    "contentEn": "In the Southern Song era, “Liao” mainly means Western Liao, not the earlier Liao state in the northeast. It lay outside the Song-Jin battlefield but mattered in Inner Eurasia before the Mongol rise.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "西辽",
+      "辽遗绪"
+    ],
+    "relatedPersonIds": [
+      "yelu_dashi"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_kara_khitans",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "shaoxing_peace_1141",
+    "title": {
+      "primary": "Shaoxing Peace between Song and Jin",
+      "localized": {
+        "en": "Shaoxing Peace between Song and Jin",
+        "zh-Hans": "绍兴和议与宋金南北对峙"
+      }
+    },
+    "displayTitle": "绍兴和议与宋金南北对峙",
+    "start": {
+      "year": 1141,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1141年"
+    },
+    "end": {
+      "year": 1141,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1141年"
+    },
+    "territoryIds": [
+      "cliopatria_southern_song",
+      "cliopatria_great_jin",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali",
+      "cliopatria_kara_khitans"
+    ],
+    "placeIds": [],
+    "lat": 30.3,
+    "lng": 120.2,
+    "summary": "南宋与金达成绍兴和议，南北对峙格局固定，岳飞随后被害。",
+    "summaryEn": "Southern Song and Jin reached the Shaoxing settlement, fixing north-south division; Yue Fei was soon executed.",
+    "content": "绍兴和议使南宋获得喘息，但承认了金在北方的优势。岳飞与秦桧的记忆，正来自“恢复中原”与“保存江南政权”的路线冲突。",
+    "contentEn": "The Shaoxing peace gave Southern Song breathing room but acknowledged Jin dominance in the north. The memory of Yue Fei and Qin Hui comes from conflict between restoration and regime survival.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "绍兴和议",
+      "宋金"
+    ],
+    "relatedPersonIds": [
+      "emperor_gaozong_song",
+      "yue_fei",
+      "qin_hui",
+      "wanyan_zongbi"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_southern_song",
+      "cliopatria_great_jin",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali",
+      "cliopatria_kara_khitans"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mongol_unification_1206",
+    "title": {
+      "primary": "Mongol Unification under Genghis Khan",
+      "localized": {
+        "en": "Mongol Unification under Genghis Khan",
+        "zh-Hans": "成吉思汗统一蒙古"
+      }
+    },
+    "displayTitle": "成吉思汗统一蒙古",
+    "start": {
+      "year": 1206,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1206年"
+    },
+    "end": {
+      "year": 1206,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1206年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_kara_khitans",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 47.0,
+    "lng": 106.0,
+    "summary": "铁木真被推举为成吉思汗，蒙古帝国出现。",
+    "summaryEn": "Temujin was proclaimed Genghis Khan, and the Mongol Empire emerged.",
+    "content": "1206 年后，东亚大陆的力量中心开始改变。蒙古最初还在金、西夏、南宋之外，但很快会成为所有政权的共同压力。",
+    "contentEn": "After 1206, the center of power began to shift. The Mongols were initially outside Jin, Western Xia, and Southern Song, but soon became pressure on all of them.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "成吉思汗",
+      "蒙古"
+    ],
+    "relatedPersonIds": [
+      "genghis_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_kara_khitans",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mongol_attacks_jin_1211",
+    "title": {
+      "primary": "Mongol War against Jin Begins",
+      "localized": {
+        "en": "Mongol War against Jin Begins",
+        "zh-Hans": "蒙古攻金开始"
+      }
+    },
+    "displayTitle": "蒙古攻金开始",
+    "start": {
+      "year": 1211,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1211年"
+    },
+    "end": {
+      "year": 1211,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1211年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kara_khitans"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 115.0,
+    "summary": "蒙古开始大规模攻金，金朝北方防线遭受冲击。",
+    "summaryEn": "The Mongols began major attacks on Jin, shaking Jin’s northern defenses.",
+    "content": "蒙古攻金改变了宋金对峙的平衡。南宋看似获得机会，但新兴蒙古比金更具扩张性。",
+    "contentEn": "The Mongol war against Jin changed the Song-Jin balance. Southern Song seemed to gain an opportunity, but the rising Mongols were more expansionary than Jin.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "蒙古攻金"
+    ],
+    "relatedPersonIds": [
+      "genghis_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kara_khitans"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "zhongdu_falls_1215",
+    "title": {
+      "primary": "Mongols Capture Zhongdu",
+      "localized": {
+        "en": "Mongols Capture Zhongdu",
+        "zh-Hans": "蒙古攻陷中都"
+      }
+    },
+    "displayTitle": "蒙古攻陷中都",
+    "start": {
+      "year": 1215,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1215年"
+    },
+    "end": {
+      "year": 1215,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1215年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kara_khitans"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "蒙古攻陷金中都，金朝被迫南迁，北方控制力大幅削弱。",
+    "summaryEn": "The Mongols captured Jin’s Zhongdu, forcing Jin south and weakening its northern control.",
+    "content": "中都失守说明金已无法维持原来的北方霸权。南宋面对的不是单纯金衰落，而是蒙古替代金成为北方主导力量。",
+    "contentEn": "Zhongdu’s fall showed Jin could no longer maintain northern hegemony. Southern Song was not simply watching Jin decline; Mongols were replacing Jin as northern power.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "中都",
+      "金朝"
+    ],
+    "relatedPersonIds": [
+      "genghis_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_western_xia",
+      "cliopatria_kara_khitans"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "western_xia_destroyed_1227",
+    "title": {
+      "primary": "Western Xia Destroyed by Mongols",
+      "localized": {
+        "en": "Western Xia Destroyed by Mongols",
+        "zh-Hans": "蒙古灭西夏"
+      }
+    },
+    "displayTitle": "蒙古灭西夏",
+    "start": {
+      "year": 1227,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1227年"
+    },
+    "end": {
+      "year": 1227,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1227年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 38.5,
+    "lng": 106.2,
+    "summary": "蒙古灭西夏，西北屏障消失，金与南宋面临更直接压力。",
+    "summaryEn": "The Mongols destroyed Western Xia, removing the northwest buffer and increasing pressure on Jin and Southern Song.",
+    "content": "Cliopatria 在 1227 年不再给西夏独立层，正好对应西夏作为独立政权退出地图。蒙古从此更直接面对金与南宋方向。",
+    "contentEn": "Cliopatria no longer shows an independent Western Xia layer at 1227, matching Western Xia’s exit as an independent state. Mongol pressure turned more directly toward Jin and Song.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "西夏灭亡",
+      "蒙古"
+    ],
+    "relatedPersonIds": [
+      "genghis_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "jin_falls_1234",
+    "title": {
+      "primary": "Jin Dynasty Falls",
+      "localized": {
+        "en": "Jin Dynasty Falls",
+        "zh-Hans": "金朝灭亡"
+      }
+    },
+    "displayTitle": "金朝灭亡",
+    "start": {
+      "year": 1234,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1234年"
+    },
+    "end": {
+      "year": 1234,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1234年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 34.5,
+    "lng": 113.6,
+    "summary": "蒙古联合南宋夹击金朝，金亡于蔡州。",
+    "summaryEn": "The Mongols and Southern Song attacked Jin; Jin fell at Caizhou.",
+    "content": "南宋短期内完成了对金复仇，但旧敌消失后，蒙古成为更强的新敌。宋金对峙结束，宋蒙对峙开始。",
+    "contentEn": "Southern Song briefly avenged itself against Jin, but after the old enemy disappeared, the Mongols became the stronger new enemy. Song-Jin rivalry ended; Song-Mongol rivalry began.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "金亡",
+      "宋蒙"
+    ],
+    "relatedPersonIds": [
+      "ogedei_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_great_jin",
+      "cliopatria_southern_song",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mongol_conquers_dali_1253",
+    "title": {
+      "primary": "Mongols Conquer Dali",
+      "localized": {
+        "en": "Mongols Conquer Dali",
+        "zh-Hans": "蒙古取大理"
+      }
+    },
+    "displayTitle": "蒙古取大理",
+    "start": {
+      "year": 1253,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1253年"
+    },
+    "end": {
+      "year": 1253,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1253年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "placeIds": [],
+    "lat": 25.6,
+    "lng": 100.2,
+    "summary": "蒙古军进入云南，控制大理，为绕攻南宋打开西南方向。",
+    "summaryEn": "Mongol forces entered Yunnan and took Dali, opening a southwestern approach toward Southern Song.",
+    "content": "大理在宋代长期是西南独立政权。1253 年蒙古控制大理，意味着南宋不只面对北方压力，西南也被蒙古打开。",
+    "contentEn": "Dali had long been an independent southwestern polity. Its Mongol conquest in 1253 meant Southern Song faced not only northern pressure but also a southwestern opening.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "大理",
+      "蒙古"
+    ],
+    "relatedPersonIds": [
+      "mongke_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song",
+      "cliopatria_kingdom_of_dali"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kublai_becomes_khan_1260",
+    "title": {
+      "primary": "Kublai Becomes Great Khan",
+      "localized": {
+        "en": "Kublai Becomes Great Khan",
+        "zh-Hans": "忽必烈即大汗位"
+      }
+    },
+    "displayTitle": "忽必烈即大汗位",
+    "start": {
+      "year": 1260,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1260年"
+    },
+    "end": {
+      "year": 1260,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1260年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "placeIds": [],
+    "lat": 42.0,
+    "lng": 116.0,
+    "summary": "忽必烈即大汗位，蒙古帝国权力重心进一步转向中原经营。",
+    "summaryEn": "Kublai became Great Khan, shifting Mongol power further toward governing China.",
+    "content": "忽必烈不只是征服者，也是制度整合者。南宋面对的敌人，开始从草原军队转变为有中原治理目标的政权。",
+    "contentEn": "Kublai was not only a conqueror but an institutional builder. Southern Song’s enemy shifted from steppe armies toward a state aiming to govern China.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "忽必烈",
+      "蒙古"
+    ],
+    "relatedPersonIds": [
+      "kublai_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yuan_founding_1271",
+    "title": {
+      "primary": "Yuan Dynasty Founded",
+      "localized": {
+        "en": "Yuan Dynasty Founded",
+        "zh-Hans": "忽必烈建元"
+      }
+    },
+    "displayTitle": "忽必烈建元",
+    "start": {
+      "year": 1271,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1271年"
+    },
+    "end": {
+      "year": 1271,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1271年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "忽必烈定国号为元，蒙古征服进入元朝建制阶段。",
+    "summaryEn": "Kublai declared the Yuan dynasty, moving Mongol conquest into a Yuan state-building phase.",
+    "content": "Cliopatria 在 1271 节点仍以蒙古帝国大框架显示，这是因为元朝建立在蒙古帝国结构内。叙事上，这一节点标志“蒙古征服”转为“元朝统一”。",
+    "contentEn": "Cliopatria still shows the broader Mongol Empire at 1271 because Yuan was founded within the Mongol imperial frame. Narratively this marks conquest turning into Yuan unification.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "元朝",
+      "忽必烈"
+    ],
+    "relatedPersonIds": [
+      "kublai_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "xiangyang_falls_1273",
+    "title": {
+      "primary": "Xiangyang Falls to the Mongols",
+      "localized": {
+        "en": "Xiangyang Falls to the Mongols",
+        "zh-Hans": "襄阳失守"
+      }
+    },
+    "displayTitle": "襄阳失守",
+    "start": {
+      "year": 1273,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1273年"
+    },
+    "end": {
+      "year": 1273,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1273年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 112.1,
+    "summary": "襄阳失守，南宋长江防线门户被打开。",
+    "summaryEn": "Xiangyang fell, opening the gateway to Southern Song’s Yangzi defenses.",
+    "content": "襄阳是南宋抵抗蒙古的关键防线。它失守后，临安与江南核心区进入更直接的危险。",
+    "contentEn": "Xiangyang was a key defensive line against the Mongols. After it fell, Lin’an and the Jiangnan core faced more direct danger.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "襄阳",
+      "宋蒙战争"
+    ],
+    "relatedPersonIds": [
+      "emperor_duzong_song",
+      "jia_sidao",
+      "kublai_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "linan_falls_1276",
+    "title": {
+      "primary": "Lin’an Falls",
+      "localized": {
+        "en": "Lin’an Falls",
+        "zh-Hans": "临安陷落"
+      }
+    },
+    "displayTitle": "临安陷落",
+    "start": {
+      "year": 1276,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1276年"
+    },
+    "end": {
+      "year": 1276,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1276年"
+    },
+    "territoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "placeIds": [],
+    "lat": 30.3,
+    "lng": 120.2,
+    "summary": "元军进入临安，南宋中央朝廷投降，残余力量继续南撤。",
+    "summaryEn": "Yuan forces entered Lin’an; the Southern Song central court surrendered while remnants retreated south.",
+    "content": "1276 年不是南宋最后一天，但中央朝廷已经瓦解。之后的抵抗转为海上与岭南残余政权的最后挣扎。",
+    "contentEn": "1276 was not the final day of Southern Song, but the central court collapsed. Resistance shifted to maritime and far-southern remnants.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "临安",
+      "南宋"
+    ],
+    "relatedPersonIds": [
+      "kublai_khan",
+      "wen_tianxiang"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire",
+      "cliopatria_southern_song"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yamen_battle_1279",
+    "title": {
+      "primary": "Battle of Yamen",
+      "localized": {
+        "en": "Battle of Yamen",
+        "zh-Hans": "崖山海战与南宋灭亡"
+      }
+    },
+    "displayTitle": "崖山海战与南宋灭亡",
+    "start": {
+      "year": 1279,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1279年"
+    },
+    "end": {
+      "year": 1279,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1279年"
+    },
+    "territoryIds": [
+      "mongol_empire"
+    ],
+    "placeIds": [],
+    "lat": 22.2,
+    "lng": 113.1,
+    "summary": "崖山海战后，南宋最后抵抗失败，宋朝灭亡。",
+    "summaryEn": "After the Battle of Yamen, the last Southern Song resistance failed and the Song dynasty ended.",
+    "content": "1279 年地图只剩蒙古帝国大框架，正对应宋亡后的统一结果。中国本部进入元朝统治，南宋故事结束。",
+    "contentEn": "By 1279 the map shows only the Mongol imperial frame, matching the post-Song result. China proper entered Yuan rule and the Southern Song story ended.",
+    "significance": "这是南宋、金、西辽、西夏、大理与蒙古格局转换中的关键节点。",
+    "significanceEn": "This is a key node in the transformation from the Southern Song-Jin-Western Liao-Western Xia-Dali order to Mongol domination.",
+    "consequences": [
+      "南宋与北方政权关系重组",
+      "蒙古扩张改变欧亚格局",
+      "中国本部走向元朝统一"
+    ],
+    "consequencesEn": [
+      "Southern Song relations with northern powers are reorganized",
+      "Mongol expansion changes Eurasian order",
+      "China proper moves toward Yuan unification"
+    ],
+    "tags": [
+      "崖山",
+      "宋亡"
+    ],
+    "relatedPersonIds": [
+      "kublai_khan",
+      "wen_tianxiang",
+      "lu_xiufu"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yuan_unification_1279",
+    "title": {
+      "primary": "Yuan Completes Conquest of Southern Song",
+      "localized": {
+        "en": "Yuan Completes Conquest of Southern Song",
+        "zh-Hans": "元完成对南宋的征服"
+      }
+    },
+    "displayTitle": "元完成对南宋的征服",
+    "start": {
+      "year": 1279,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1279年"
+    },
+    "end": {
+      "year": 1279,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1279年"
+    },
+    "territoryIds": [
+      "mongol_empire"
+    ],
+    "placeIds": [],
+    "lat": 22.2,
+    "lng": 113.1,
+    "summary": "南宋灭亡后，中国本部进入元朝统治，但 Cliopatria 仍以蒙古帝国大框架显示。",
+    "summaryEn": "After Southern Song fell, China proper entered Yuan rule, though Cliopatria still shows the broader Mongol imperial frame.",
+    "content": "1279 年是宋亡与元统一的完成点。此时元朝已经建立，但地图层仍显示蒙古帝国，反映元朝与蒙古帝国结构仍然交织。",
+    "contentEn": "1279 marks the fall of Song and completion of Yuan unification. Yuan had already been founded, but the map still shows the Mongol Empire, reflecting Yuan’s embedding in Mongol imperial structures.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "元统一",
+      "蒙古帝国"
+    ],
+    "relatedPersonIds": [
+      "kublai_khan"
+    ],
+    "relatedTerritoryIds": [
+      "mongol_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kublai_death_temur_succession_1294",
+    "title": {
+      "primary": "Kublai Dies and Temur Succeeds",
+      "localized": {
+        "en": "Kublai Dies and Temur Succeeds",
+        "zh-Hans": "忽必烈去世与元成宗继位"
+      }
+    },
+    "displayTitle": "忽必烈去世与元成宗继位",
+    "start": {
+      "year": 1294,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1294年"
+    },
+    "end": {
+      "year": 1294,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1294年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "忽必烈去世，铁穆耳继位；Cliopatria 此后显示独立的 Yuan Dynasty 层。",
+    "summaryEn": "Kublai died and Temur succeeded; Cliopatria from this period shows a distinct Yuan Dynasty layer.",
+    "content": "1294 年是地图表现上的分水岭：元朝从蒙古帝国大框架中被更清楚地标出，同时察合台、金帐、伊儿等汗国也作为并列蒙古世界出现。",
+    "contentEn": "1294 is a cartographic turning point: Yuan is shown more distinctly from the Mongol imperial frame, while Chagatai, Golden Horde, and Ilkhanate appear as parallel Mongol-world khanates.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "忽必烈",
+      "元成宗"
+    ],
+    "relatedPersonIds": [
+      "kublai_khan",
+      "temur_khan_yuan"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yuan_succession_1307",
+    "title": {
+      "primary": "Yuan Succession after Temur",
+      "localized": {
+        "en": "Yuan Succession after Temur",
+        "zh-Hans": "成宗后元朝皇位继承"
+      }
+    },
+    "displayTitle": "成宗后元朝皇位继承",
+    "start": {
+      "year": 1307,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1307年"
+    },
+    "end": {
+      "year": 1307,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1307年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "元成宗去世后，武宗海山继位，元朝进入更频繁的宫廷与贵族政治调整。",
+    "summaryEn": "After Temur died, Kulug Khan took power and Yuan entered a phase of more frequent court and aristocratic adjustment.",
+    "content": "元朝并不是稳定的一线皇位传承。大都朝廷、蒙古贵族与宗王集团的平衡，决定了元中后期政治的节奏。",
+    "contentEn": "Yuan succession was not a stable single line. The balance among the Dadu court, Mongol aristocracy, and princely groups shaped mid-late Yuan politics.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "元朝皇位",
+      "武宗"
+    ],
+    "relatedPersonIds": [
+      "temur_khan_yuan",
+      "kulug_khan"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "renzong_restores_exams_1311",
+    "title": {
+      "primary": "Renzong Restores Civil Governance",
+      "localized": {
+        "en": "Renzong Restores Civil Governance",
+        "zh-Hans": "元仁宗恢复科举与文治化"
+      }
+    },
+    "displayTitle": "元仁宗恢复科举与文治化",
+    "start": {
+      "year": 1311,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1311年"
+    },
+    "end": {
+      "year": 1311,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1311年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "元仁宗时期重视儒臣并恢复科举，元朝治理更明显转向中原文治。",
+    "summaryEn": "Under Renzong, Confucian officials gained weight and examinations were restored, turning Yuan governance more toward Chinese civil administration.",
+    "content": "元朝一面保持蒙古帝国身份，一面必须治理庞大的中原社会。仁宗时期的科举与文治，是这种双重身份的典型表现。",
+    "contentEn": "Yuan retained a Mongol imperial identity while governing a vast Chinese society. Renzong’s examinations and civil governance show that dual identity clearly.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "元仁宗",
+      "科举"
+    ],
+    "relatedPersonIds": [
+      "buyantu_khan"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yingzong_reforms_1320",
+    "title": {
+      "primary": "Yingzong Reform Attempts",
+      "localized": {
+        "en": "Yingzong Reform Attempts",
+        "zh-Hans": "元英宗改革尝试"
+      }
+    },
+    "displayTitle": "元英宗改革尝试",
+    "start": {
+      "year": 1320,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1320年"
+    },
+    "end": {
+      "year": 1320,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1320年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "元英宗试图整顿财政与政治秩序，但改革触动贵族利益。",
+    "summaryEn": "Yingzong tried to reform finance and political order, but his efforts touched aristocratic interests.",
+    "content": "英宗改革说明元朝内部矛盾已经显著：财政压力、贵族特权、官僚治理之间难以协调。",
+    "contentEn": "Yingzong’s reforms show Yuan’s internal tensions: fiscal pressure, aristocratic privilege, and bureaucratic governance were hard to reconcile.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "元英宗",
+      "改革"
+    ],
+    "relatedPersonIds": [
+      "shidebala_khan"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "war_two_capitals_1328",
+    "title": {
+      "primary": "War of the Two Capitals",
+      "localized": {
+        "en": "War of the Two Capitals",
+        "zh-Hans": "两都之战"
+      }
+    },
+    "displayTitle": "两都之战",
+    "start": {
+      "year": 1328,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1328年"
+    },
+    "end": {
+      "year": 1328,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1328年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "元朝爆发两都之战，皇位争夺加剧中央政治失序。",
+    "summaryEn": "Yuan suffered the War of the Two Capitals, intensifying succession conflict and central disorder.",
+    "content": "两都之战不是普通宫廷政变，而是元后期皇权、宗王、军政集团之间结构性冲突的集中爆发。",
+    "contentEn": "The War of the Two Capitals was not a routine coup; it concentrated structural conflict among emperorship, princes, and military-political blocs.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "两都之战",
+      "元文宗"
+    ],
+    "relatedPersonIds": [
+      "tugh_temur_khan"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "toghon_temur_accession_1333",
+    "title": {
+      "primary": "Toghon Temur Accedes",
+      "localized": {
+        "en": "Toghon Temur Accedes",
+        "zh-Hans": "元顺帝即位"
+      }
+    },
+    "displayTitle": "元顺帝即位",
+    "start": {
+      "year": 1333,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1333年"
+    },
+    "end": {
+      "year": 1333,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1333年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "元顺帝即位，元朝进入最后一个长期统治阶段。",
+    "summaryEn": "Toghon Temur acceded, beginning Yuan’s final long reign.",
+    "content": "顺帝在位时间很长，却面对财政、灾荒、河患、党争和地方失控叠加的局面。元朝衰亡不是单一事件，而是多重危机累积。",
+    "contentEn": "Toghon Temur ruled for a long time but faced fiscal stress, disasters, Yellow River problems, factionalism, and local loss of control. Yuan decline was cumulative, not a single event.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "元顺帝"
+    ],
+    "relatedPersonIds": [
+      "toghon_temur"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde",
+      "cliopatria_ilkhanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "red_turban_rebellion_1351",
+    "title": {
+      "primary": "Red Turban Rebellion Begins",
+      "localized": {
+        "en": "Red Turban Rebellion Begins",
+        "zh-Hans": "红巾起义爆发"
+      }
+    },
+    "displayTitle": "红巾起义爆发",
+    "start": {
+      "year": 1351,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1351年"
+    },
+    "end": {
+      "year": 1351,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1351年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde"
+    ],
+    "placeIds": [],
+    "lat": 34.8,
+    "lng": 115.0,
+    "summary": "红巾起义爆发，元末反抗迅速扩散。",
+    "summaryEn": "The Red Turban rebellion began, and late-Yuan resistance spread quickly.",
+    "content": "1351 年黄河治理、徭役、灾荒与白莲教动员汇聚，红巾起义爆发。元朝对地方的控制开始大范围崩解。",
+    "contentEn": "In 1351 Yellow River works, labor burdens, disasters, and White Lotus mobilization converged in the Red Turban rebellion. Yuan local control began to break widely.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "红巾起义",
+      "元末"
+    ],
+    "relatedPersonIds": [
+      "han_shantong",
+      "liu_futong",
+      "toghon_temur"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yuan_crisis_1352",
+    "title": {
+      "primary": "Late Yuan Regional Fragmentation",
+      "localized": {
+        "en": "Late Yuan Regional Fragmentation",
+        "zh-Hans": "元末群雄与地方割据扩大"
+      }
+    },
+    "displayTitle": "元末群雄与地方割据扩大",
+    "start": {
+      "year": 1352,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1352年"
+    },
+    "end": {
+      "year": 1352,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1352年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde"
+    ],
+    "placeIds": [],
+    "lat": 31.2,
+    "lng": 121.5,
+    "summary": "红巾之后，各地军阀和义军扩张，朱元璋等力量开始崛起。",
+    "summaryEn": "After the Red Turbans, regional warlords and rebel armies expanded, including the rise of Zhu Yuanzhang.",
+    "content": "元末格局类似新的群雄时代：中央仍在地图上占有庞大名义空间，但实际控制正在被地方武装蚕食。",
+    "contentEn": "Late Yuan resembled a new warlord era: the central state still held a vast nominal space on the map, but actual control was being eaten away by regional forces.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "元末群雄",
+      "朱元璋"
+    ],
+    "relatedPersonIds": [
+      "zhu_yuanzhang",
+      "liu_futong",
+      "toghon_temur"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "cliopatria_chagatai_khanate",
+      "cliopatria_golden_horde"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ming_captures_dadu_1368",
+    "title": {
+      "primary": "Ming Captures Dadu",
+      "localized": {
+        "en": "Ming Captures Dadu",
+        "zh-Hans": "明军攻入大都与元退北"
+      }
+    },
+    "displayTitle": "明军攻入大都与元退北",
+    "start": {
+      "year": 1368,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1368年"
+    },
+    "end": {
+      "year": 1368,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1368年"
+    },
+    "territoryIds": [
+      "cliopatria_yuan_dynasty",
+      "ming_dynasty",
+      "cliopatria_northern_yuan"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "朱元璋建立明朝后北伐，明军攻入大都，元顺帝北逃。",
+    "summaryEn": "After founding Ming, Zhu Yuanzhang launched the northern expedition; Ming forces entered Dadu and Toghon Temur fled north.",
+    "content": "1368 年是叙事上的元朝退出中原节点。Cliopatria 该年仍显示大范围 Yuan Dynasty，因此故事需要说明：地图层保留元框架，但政治重心已经转向明。",
+    "contentEn": "1368 is the narrative point when Yuan left China proper. Cliopatria still shows a large Yuan Dynasty layer, so the story explains that the map preserves the Yuan frame while political power shifts to Ming.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "明朝建立",
+      "元退北"
+    ],
+    "relatedPersonIds": [
+      "zhu_yuanzhang",
+      "toghon_temur"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_yuan_dynasty",
+      "ming_dynasty",
+      "cliopatria_northern_yuan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ming_northern_yuan_1375",
+    "title": {
+      "primary": "Ming and Northern Yuan Divide",
+      "localized": {
+        "en": "Ming and Northern Yuan Divide",
+        "zh-Hans": "明朝与北元分立"
+      }
+    },
+    "displayTitle": "明朝与北元分立",
+    "start": {
+      "year": 1375,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1375年"
+    },
+    "end": {
+      "year": 1375,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1375年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_chagatai_khanate"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "1375 年地图上明朝与北元分立更清楚，元朝故事进入明初与北元对峙阶段。",
+    "summaryEn": "By 1375 the map more clearly shows Ming and Northern Yuan separately, moving the Yuan story into Ming-Northern Yuan rivalry.",
+    "content": "如果 1368 是政治转折，1375 则是地图上更直观的后果：明朝控制中原，北元退居草原，蒙古世界仍没有完全消失。",
+    "contentEn": "If 1368 is the political turn, 1375 is the clearer cartographic consequence: Ming holds China proper, Northern Yuan retreats to the steppe, and the Mongol world has not vanished.",
+    "significance": "这是元朝从蒙古征服完成、帝国建制、内部转型到明朝取代中的关键节点。",
+    "significanceEn": "This is a key node in Yuan’s transition from Mongol conquest to imperial governance, internal transformation, and Ming replacement.",
+    "consequences": [
+      "元朝治理结构发生变化",
+      "蒙古诸汗国关系重新定位",
+      "元末危机与明朝兴起逐步形成"
+    ],
+    "consequencesEn": [
+      "Yuan governance structures change",
+      "Relations among Mongol khanates are repositioned",
+      "Late-Yuan crisis and Ming rise gradually form"
+    ],
+    "tags": [
+      "明朝",
+      "北元"
+    ],
+    "relatedPersonIds": [
+      "zhu_yuanzhang",
+      "toghon_temur"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_chagatai_khanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hongwu_reforms_1380",
+    "title": {
+      "primary": "Hongwu Reforms and Centralization",
+      "localized": {
+        "en": "Hongwu Reforms and Centralization",
+        "zh-Hans": "洪武改革与废丞相"
+      }
+    },
+    "displayTitle": "洪武改革与废丞相",
+    "start": {
+      "year": 1380,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1380年"
+    },
+    "end": {
+      "year": 1380,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1380年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "朱元璋整顿户籍、里甲、卫所并废丞相，强化皇权直达六部。",
+    "summaryEn": "Zhu Yuanzhang reorganized registers, lijia communities, guards, and abolished the chancellor, strengthening imperial rule.",
+    "content": "明初不是简单恢复汉人王朝，而是在元末战争后重建基层、财政和军户制度。废丞相使皇帝成为国家机器的直接中枢。",
+    "contentEn": "Early Ming was not simply restoring a Han dynasty; it rebuilt local registration, fiscal order, and military households after late-Yuan war. Abolishing the chancellor made the emperor the direct center.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "洪武",
+      "废丞相"
+    ],
+    "relatedPersonIds": [
+      "zhu_yuanzhang"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "jingnan_campaign_1402",
+    "title": {
+      "primary": "Jingnan Campaign and Yongle Accession",
+      "localized": {
+        "en": "Jingnan Campaign and Yongle Accession",
+        "zh-Hans": "靖难之役与永乐即位"
+      }
+    },
+    "displayTitle": "靖难之役与永乐即位",
+    "start": {
+      "year": 1402,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1402年"
+    },
+    "end": {
+      "year": 1402,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1402年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "燕王朱棣夺取帝位，永乐朝开启。",
+    "summaryEn": "Prince of Yan Zhu Di seized the throne, beginning the Yongle reign.",
+    "content": "靖难之役说明明初藩王制度本身带有巨大风险。朱棣即位后，国家重心逐渐从南京转向北京和北方边防。",
+    "contentEn": "Jingnan shows the danger built into early Ming princely power. After Zhu Di took the throne, the state’s center moved toward Beijing and northern defense.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "靖难",
+      "永乐"
+    ],
+    "relatedPersonIds": [
+      "emperor_jianwen_ming",
+      "zhu_di_yongle"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "zheng_he_voyages_1405",
+    "title": {
+      "primary": "Zheng He Voyages Begin",
+      "localized": {
+        "en": "Zheng He Voyages Begin",
+        "zh-Hans": "郑和下西洋开始"
+      }
+    },
+    "displayTitle": "郑和下西洋开始",
+    "start": {
+      "year": 1405,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1405年"
+    },
+    "end": {
+      "year": 1405,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1405年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "placeIds": [],
+    "lat": 24.5,
+    "lng": 118.1,
+    "summary": "郑和船队出海，明初海上朝贡秩序扩展到印度洋。",
+    "summaryEn": "Zheng He’s fleets sailed, extending early Ming maritime tribute order into the Indian Ocean.",
+    "content": "郑和下西洋体现永乐朝的外向性：北方亲征蒙古，南方与海上则通过朝贡、贸易和使节网络展示明朝威望。",
+    "contentEn": "Zheng He’s voyages show Yongle outwardness: northern campaigns against Mongols and maritime tribute, trade, and envoys projecting Ming prestige.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "郑和",
+      "下西洋"
+    ],
+    "relatedPersonIds": [
+      "zhu_di_yongle",
+      "zheng_he"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yongle_beijing_1421",
+    "title": {
+      "primary": "Yongle Moves Capital to Beijing",
+      "localized": {
+        "en": "Yongle Moves Capital to Beijing",
+        "zh-Hans": "永乐迁都北京"
+      }
+    },
+    "displayTitle": "永乐迁都北京",
+    "start": {
+      "year": 1421,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1421年"
+    },
+    "end": {
+      "year": 1421,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1421年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "永乐迁都北京，明朝政治中心贴近北方边防。",
+    "summaryEn": "Yongle moved the capital to Beijing, placing the political center near the northern frontier.",
+    "content": "迁都北京不是单纯城市选择，而是明朝长期面对蒙古压力的制度安排：皇权、军镇、长城边防更紧密地绑定。",
+    "contentEn": "Moving to Beijing was not just an urban choice; it bound imperial power, military commands, and Great Wall frontier defense against Mongol pressure.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "北京",
+      "永乐"
+    ],
+    "relatedPersonIds": [
+      "zhu_di_yongle"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tumu_crisis_1449",
+    "title": {
+      "primary": "Tumu Crisis",
+      "localized": {
+        "en": "Tumu Crisis",
+        "zh-Hans": "土木堡之变"
+      }
+    },
+    "displayTitle": "土木堡之变",
+    "start": {
+      "year": 1449,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1449年"
+    },
+    "end": {
+      "year": 1449,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1449年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_four_oirats"
+    ],
+    "placeIds": [],
+    "lat": 40.4,
+    "lng": 115.5,
+    "summary": "明英宗亲征瓦剌被俘，北京震动，于谦组织防御。",
+    "summaryEn": "Ming Yingzong was captured by the Oirats at Tumu; Beijing was shaken and Yu Qian organized defense.",
+    "content": "土木堡之变是明朝由扩张性永乐时代转入防御性北边政策的强烈信号。皇帝被俘并未亡国，但明朝边防心理发生改变。",
+    "contentEn": "Tumu marks a shift from Yongle expansion toward a more defensive northern posture. The emperor’s capture did not destroy Ming, but changed frontier psychology.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "土木堡",
+      "瓦剌"
+    ],
+    "relatedPersonIds": [
+      "emperor_yingzong_ming",
+      "yu_qian",
+      "esen_taishi"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_four_oirats"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "altan_khan_raid_1550",
+    "title": {
+      "primary": "Altan Khan Pressures Beijing",
+      "localized": {
+        "en": "Altan Khan Pressures Beijing",
+        "zh-Hans": "俺答汗庚戌之变"
+      }
+    },
+    "displayTitle": "俺答汗庚戌之变",
+    "start": {
+      "year": 1550,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1550年"
+    },
+    "end": {
+      "year": 1550,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1550年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "placeIds": [],
+    "lat": 40.0,
+    "lng": 116.4,
+    "summary": "俺答汗逼近北京，明蒙边境压力再度尖锐化。",
+    "summaryEn": "Altan Khan approached Beijing, sharpening Ming-Mongol frontier pressure.",
+    "content": "中期明朝北边压力并未消失。土默特和蒙古诸部不断考验边镇、互市、军费和朝廷决策。",
+    "contentEn": "Mid-Ming northern pressure did not vanish. Tümed and Mongol groups tested garrisons, border trade, military finance, and court policy.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "俺答汗",
+      "庚戌之变"
+    ],
+    "relatedPersonIds": [
+      "altan_khan"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "zhang_juzheng_reforms_1581",
+    "title": {
+      "primary": "Zhang Juzheng Reforms and Single Whip",
+      "localized": {
+        "en": "Zhang Juzheng Reforms and Single Whip",
+        "zh-Hans": "张居正改革与一条鞭法"
+      }
+    },
+    "displayTitle": "张居正改革与一条鞭法",
+    "start": {
+      "year": 1581,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1581年"
+    },
+    "end": {
+      "year": 1581,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1581年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "张居正推动考成法和财政改革，一条鞭法整理赋役。",
+    "summaryEn": "Zhang Juzheng advanced administrative audits and fiscal reform, with the Single Whip system organizing taxes and labor obligations.",
+    "content": "张居正改革是明朝中后期维持国家能力的关键尝试。它缓解财政与行政问题，却高度依赖强势首辅和皇帝支持。",
+    "contentEn": "Zhang Juzheng’s reforms were a key attempt to maintain Ming state capacity. They eased fiscal-administrative problems but depended on a powerful grand secretary and imperial backing.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "张居正",
+      "一条鞭法"
+    ],
+    "relatedPersonIds": [
+      "zhang_juzheng",
+      "emperor_wanli_ming"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wanli_late_crisis_1600",
+    "title": {
+      "primary": "Late Wanli Fiscal and Military Strain",
+      "localized": {
+        "en": "Late Wanli Fiscal and Military Strain",
+        "zh-Hans": "万历后期财政与军费压力"
+      }
+    },
+    "displayTitle": "万历后期财政与军费压力",
+    "start": {
+      "year": 1600,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1600年"
+    },
+    "end": {
+      "year": 1600,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1600年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "万历后期，边防、战争和财政压力加重，明朝治理出现疲态。",
+    "summaryEn": "In late Wanli, frontier defense, wars, and fiscal pressure increased, exposing Ming governance fatigue.",
+    "content": "万历后期的问题不是一个皇帝怠政这么简单，而是财政、官僚派系、边防和战争成本叠加。东北危机即将出现。",
+    "contentEn": "Late Wanli was not just imperial inaction; fiscal strain, factionalism, frontier defense, and war costs accumulated. The northeast crisis was approaching.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "万历",
+      "财政"
+    ],
+    "relatedPersonIds": [
+      "emperor_wanli_ming"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "nurhaci_later_jin_1616",
+    "title": {
+      "primary": "Nurhaci Founds Later Jin",
+      "localized": {
+        "en": "Nurhaci Founds Later Jin",
+        "zh-Hans": "努尔哈赤建立后金"
+      }
+    },
+    "displayTitle": "努尔哈赤建立后金",
+    "start": {
+      "year": 1616,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1616年"
+    },
+    "end": {
+      "year": 1616,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1616年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "placeIds": [],
+    "lat": 42.0,
+    "lng": 124.0,
+    "summary": "努尔哈赤称汗建立后金，女真力量成为明朝东北最大威胁。",
+    "summaryEn": "Nurhaci proclaimed Later Jin, making Jurchen power the largest northeastern threat to Ming.",
+    "content": "Cliopatria 在 1616 还未显示后金独立层，但政治上后金已经出现；1627 节点会更清楚显示后金地图。",
+    "contentEn": "Cliopatria does not yet show an independent Later Jin layer in 1616, but politically Later Jin had emerged; the 1627 node shows it more clearly.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "后金",
+      "努尔哈赤"
+    ],
+    "relatedPersonIds": [
+      "nurhaci"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_t_med"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "chongzhen_accession_1627",
+    "title": {
+      "primary": "Chongzhen Accedes amid Late Ming Crisis",
+      "localized": {
+        "en": "Chongzhen Accedes amid Late Ming Crisis",
+        "zh-Hans": "崇祯即位与明末危局"
+      }
+    },
+    "displayTitle": "崇祯即位与明末危局",
+    "start": {
+      "year": 1627,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1627年"
+    },
+    "end": {
+      "year": 1627,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1627年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_oirat_confederation",
+      "cliopatria_t_med"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "崇祯即位时，后金、财政枯竭、党争和民变压力已经叠加。",
+    "summaryEn": "When Chongzhen acceded, Later Jin pressure, fiscal exhaustion, factionalism, and unrest had already converged.",
+    "content": "1627 年地图上已经能看到后金。明朝面对的不只是东北敌人，也包括财政系统和地方社会的连锁崩坏。",
+    "contentEn": "By 1627 the map shows Later Jin. Ming faced not only a northeastern enemy but cascading fiscal and local social breakdown.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "崇祯",
+      "后金"
+    ],
+    "relatedPersonIds": [
+      "emperor_chongzhen_ming",
+      "nurhaci"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_oirat_confederation",
+      "cliopatria_t_med"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ming_falls_1644",
+    "title": {
+      "primary": "Ming Falls in Beijing",
+      "localized": {
+        "en": "Ming Falls in Beijing",
+        "zh-Hans": "李自成入北京与明朝中央灭亡"
+      }
+    },
+    "displayTitle": "李自成入北京与明朝中央灭亡",
+    "start": {
+      "year": 1644,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1644年"
+    },
+    "end": {
+      "year": 1644,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1644年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_oirat_confederation",
+      "cliopatria_t_med"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "李自成攻入北京，崇祯自缢，明朝中央政权灭亡。",
+    "summaryEn": "Li Zicheng entered Beijing; Chongzhen died by suicide and the Ming central court fell.",
+    "content": "1644 年是明亡清兴的断裂点，但地图上仍显示明与后金并存，因为清入关和南明分裂在 1645 节点更清晰。",
+    "contentEn": "1644 is the rupture of Ming fall and Qing rise, but the map still shows Ming and Later Jin; Qing entry and Southern Ming split become clearer in 1645.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "明亡",
+      "李自成"
+    ],
+    "relatedPersonIds": [
+      "emperor_chongzhen_ming",
+      "li_zicheng"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_oirat_confederation",
+      "cliopatria_t_med"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "qing_southern_ming_1645",
+    "title": {
+      "primary": "Qing and Southern Ming Divide",
+      "localized": {
+        "en": "Qing and Southern Ming Divide",
+        "zh-Hans": "清朝入关后与南明分立"
+      }
+    },
+    "displayTitle": "清朝入关后与南明分立",
+    "start": {
+      "year": 1645,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1645年"
+    },
+    "end": {
+      "year": 1645,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1645年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_southern_ming",
+      "cliopatria_oirat_confederation",
+      "cliopatria_t_med"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "清军入关后控制华北，南明在江南延续抗清。",
+    "summaryEn": "After Qing entered the pass, it controlled north China while Southern Ming continued resistance in Jiangnan.",
+    "content": "1645 年地图上清朝与南明分立，明朝故事从中央王朝灭亡转入南明抗清。下一条主线应进入清朝统一与早期扩张。",
+    "contentEn": "In 1645 the map shows Qing and Southern Ming separately. The Ming story moves from central dynastic fall into Southern Ming resistance; the next mainline should enter Qing unification and early expansion.",
+    "significance": "这是明朝从建国、扩张、边防压力到明亡清兴中的关键节点。",
+    "significanceEn": "This is a key node in Ming’s trajectory from foundation and expansion to frontier pressure and Ming-Qing transition.",
+    "consequences": [
+      "明朝国家结构发生调整",
+      "北方与东北边疆压力改变",
+      "明末危机逐步走向清朝入主"
+    ],
+    "consequencesEn": [
+      "Ming state structures adjust",
+      "Northern and northeastern frontier pressure changes",
+      "Late Ming crisis moves toward Qing takeover"
+    ],
+    "tags": [
+      "清朝",
+      "南明"
+    ],
+    "relatedPersonIds": [
+      "dorgon",
+      "li_zicheng"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_southern_ming",
+      "cliopatria_oirat_confederation",
+      "cliopatria_t_med"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "renxuan_governance_1425",
+    "title": {
+      "primary": "Renxuan Governance Begins",
+      "localized": {
+        "en": "Renxuan Governance Begins",
+        "zh-Hans": "仁宣之治开端"
+      }
+    },
+    "displayTitle": "仁宣之治开端",
+    "start": {
+      "year": 1425,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1425年"
+    },
+    "end": {
+      "year": 1425,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1425年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "明仁宗即位后，明朝从永乐高压扩张转向较宽缓的财政与民生调整。",
+    "summaryEn": "After Hongxi acceded, Ming shifted from Yongle high-pressure expansion toward more moderate fiscal and livelihood adjustment.",
+    "content": "仁宣之治不是疆域大扩张，而是治理节奏变化：减少部分工程与远征压力，依靠三杨等文臣稳定财政、吏治和社会恢复。",
+    "contentEn": "Renxuan was not territorial expansion but a change in governing tempo: easing some projects and campaigns while relying on civil ministers like the Three Yangs to stabilize finance, administration, and recovery.",
+    "significance": "这是明朝主线中皇权、文官治理、宦官政治与边防压力变化的关键节点。",
+    "significanceEn": "This is a key node in Ming changes in imperial power, civil governance, eunuch politics, and frontier pressure.",
+    "consequences": [
+      "明朝政治运行方式发生变化",
+      "文官与宦官权力关系重新调整",
+      "边防与财政压力继续积累"
+    ],
+    "consequencesEn": [
+      "Ming political operation changes",
+      "Civil official and eunuch power relations shift",
+      "Frontier and fiscal pressures continue accumulating"
+    ],
+    "tags": [
+      "仁宣之治",
+      "洪熙"
+    ],
+    "relatedPersonIds": [
+      "emperor_hongxi_ming",
+      "yang_shiqi",
+      "yang_rong",
+      "yang_pu"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "xuande_stability_1435",
+    "title": {
+      "primary": "Xuande Stability",
+      "localized": {
+        "en": "Xuande Stability",
+        "zh-Hans": "宣德时期与仁宣之治完成"
+      }
+    },
+    "displayTitle": "宣德时期与仁宣之治完成",
+    "start": {
+      "year": 1435,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1435年"
+    },
+    "end": {
+      "year": 1435,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1435年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "明宣宗时期延续仁宣之治，明初国家治理进入较稳定阶段。",
+    "summaryEn": "Under Xuande, Renxuan governance continued and early Ming rule entered a relatively stable phase.",
+    "content": "宣德朝延续文官行政与边防平衡，让永乐之后的明朝从高强度动员回到较可持续的制度运行。",
+    "contentEn": "Xuande continued civil administration and frontier balance, moving post-Yongle Ming from high mobilization toward more sustainable institutional operation.",
+    "significance": "这是明朝主线中皇权、文官治理、宦官政治与边防压力变化的关键节点。",
+    "significanceEn": "This is a key node in Ming changes in imperial power, civil governance, eunuch politics, and frontier pressure.",
+    "consequences": [
+      "明朝政治运行方式发生变化",
+      "文官与宦官权力关系重新调整",
+      "边防与财政压力继续积累"
+    ],
+    "consequencesEn": [
+      "Ming political operation changes",
+      "Civil official and eunuch power relations shift",
+      "Frontier and fiscal pressures continue accumulating"
+    ],
+    "tags": [
+      "仁宣之治",
+      "宣德"
+    ],
+    "relatedPersonIds": [
+      "emperor_xuande_ming",
+      "yang_shiqi",
+      "yang_rong",
+      "yang_pu"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_northern_yuan",
+      "cliopatria_four_oirats"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "zhengde_accession_1505",
+    "title": {
+      "primary": "Zhengde Accession and Eunuch Politics",
+      "localized": {
+        "en": "Zhengde Accession and Eunuch Politics",
+        "zh-Hans": "明武宗即位与刘瑾专权"
+      }
+    },
+    "displayTitle": "明武宗即位与刘瑾专权",
+    "start": {
+      "year": 1505,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1505年"
+    },
+    "end": {
+      "year": 1505,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1505年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "明武宗即位后，刘瑾等宦官干政，皇权运行更趋个人化。",
+    "summaryEn": "After Zhengde acceded, eunuchs such as Liu Jin intervened in government and imperial power became more personalized.",
+    "content": "明武宗不只是荒唐皇帝的故事。他的时代显示中期明朝皇帝、宦官、文官之间的制度摩擦，以及皇权绕开常规官僚系统的冲动。",
+    "contentEn": "Zhengde is not only a story of eccentric rulership. His era shows mid-Ming friction among emperor, eunuchs, and officials, and the imperial impulse to bypass regular bureaucracy.",
+    "significance": "这是明朝主线中皇权、文官治理、宦官政治与边防压力变化的关键节点。",
+    "significanceEn": "This is a key node in Ming changes in imperial power, civil governance, eunuch politics, and frontier pressure.",
+    "consequences": [
+      "明朝政治运行方式发生变化",
+      "文官与宦官权力关系重新调整",
+      "边防与财政压力继续积累"
+    ],
+    "consequencesEn": [
+      "Ming political operation changes",
+      "Civil official and eunuch power relations shift",
+      "Frontier and fiscal pressures continue accumulating"
+    ],
+    "tags": [
+      "明武宗",
+      "刘瑾"
+    ],
+    "relatedPersonIds": [
+      "emperor_zhengde_ming",
+      "liu_jin_ming"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "zhengde_late_rule_1521",
+    "title": {
+      "primary": "Zhengde Late Rule Ends",
+      "localized": {
+        "en": "Zhengde Late Rule Ends",
+        "zh-Hans": "正德末年与武宗去世"
+      }
+    },
+    "displayTitle": "正德末年与武宗去世",
+    "start": {
+      "year": 1521,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1521年"
+    },
+    "end": {
+      "year": 1521,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1521年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "明武宗去世无子，嘉靖继位，明中期皇位与礼制争议接续展开。",
+    "summaryEn": "Zhengde died without an heir; Jiajing succeeded, opening new succession and ritual disputes.",
+    "content": "武宗末年说明明中期问题已经不只是边患，而是皇权个人化、宦官政治和继承秩序的复杂交错。",
+    "contentEn": "Late Zhengde shows mid-Ming problems were not only frontier threats but the entanglement of personalized monarchy, eunuch politics, and succession order.",
+    "significance": "这是明朝主线中皇权、文官治理、宦官政治与边防压力变化的关键节点。",
+    "significanceEn": "This is a key node in Ming changes in imperial power, civil governance, eunuch politics, and frontier pressure.",
+    "consequences": [
+      "明朝政治运行方式发生变化",
+      "文官与宦官权力关系重新调整",
+      "边防与财政压力继续积累"
+    ],
+    "consequencesEn": [
+      "Ming political operation changes",
+      "Civil official and eunuch power relations shift",
+      "Frontier and fiscal pressures continue accumulating"
+    ],
+    "tags": [
+      "正德",
+      "明武宗"
+    ],
+    "relatedPersonIds": [
+      "emperor_zhengde_ming"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_mongol_khanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tianqi_accession_1620",
+    "title": {
+      "primary": "Tianqi Accession",
+      "localized": {
+        "en": "Tianqi Accession",
+        "zh-Hans": "明熹宗即位"
+      }
+    },
+    "displayTitle": "明熹宗即位",
+    "start": {
+      "year": 1620,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1620年"
+    },
+    "end": {
+      "year": 1620,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1620年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_oirat_confederation"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "明熹宗即位，辽东后金压力与朝廷党争同时加深。",
+    "summaryEn": "Tianqi acceded as Later Jin pressure in Liaodong and court factionalism deepened.",
+    "content": "天启朝处在万历后期与崇祯危局之间。后金已经在东北出现，朝廷内部却陷入更激烈的党争和宦官权力膨胀。",
+    "contentEn": "The Tianqi reign sits between late Wanli and Chongzhen crisis. Later Jin had emerged in the northeast while the court sank deeper into factionalism and eunuch power.",
+    "significance": "这是明朝主线中皇权、文官治理、宦官政治与边防压力变化的关键节点。",
+    "significanceEn": "This is a key node in Ming changes in imperial power, civil governance, eunuch politics, and frontier pressure.",
+    "consequences": [
+      "明朝政治运行方式发生变化",
+      "文官与宦官权力关系重新调整",
+      "边防与财政压力继续积累"
+    ],
+    "consequencesEn": [
+      "Ming political operation changes",
+      "Civil official and eunuch power relations shift",
+      "Frontier and fiscal pressures continue accumulating"
+    ],
+    "tags": [
+      "明熹宗",
+      "天启"
+    ],
+    "relatedPersonIds": [
+      "emperor_tianqi_ming",
+      "wei_zhongxian",
+      "nurhaci"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_oirat_confederation"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wei_zhongxian_power_1625",
+    "title": {
+      "primary": "Wei Zhongxian Dominates Tianqi Court",
+      "localized": {
+        "en": "Wei Zhongxian Dominates Tianqi Court",
+        "zh-Hans": "魏忠贤专权"
+      }
+    },
+    "displayTitle": "魏忠贤专权",
+    "start": {
+      "year": 1625,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1625年"
+    },
+    "end": {
+      "year": 1625,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1625年"
+    },
+    "territoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_oirat_confederation"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "魏忠贤权势达到高峰，打击东林党，明末政治失衡加剧。",
+    "summaryEn": "Wei Zhongxian reached peak power, attacked Donglin officials, and intensified late-Ming political imbalance.",
+    "content": "魏忠贤专权不是孤立宫廷丑闻，而是在辽东战事、财政压力和党争背景下，国家决策机制失衡的表现。",
+    "contentEn": "Wei Zhongxian’s dominance was not merely court scandal; amid Liaodong war, fiscal pressure, and factionalism, it showed a breakdown in Ming decision-making.",
+    "significance": "这是明朝主线中皇权、文官治理、宦官政治与边防压力变化的关键节点。",
+    "significanceEn": "This is a key node in Ming changes in imperial power, civil governance, eunuch politics, and frontier pressure.",
+    "consequences": [
+      "明朝政治运行方式发生变化",
+      "文官与宦官权力关系重新调整",
+      "边防与财政压力继续积累"
+    ],
+    "consequencesEn": [
+      "Ming political operation changes",
+      "Civil official and eunuch power relations shift",
+      "Frontier and fiscal pressures continue accumulating"
+    ],
+    "tags": [
+      "魏忠贤",
+      "东林党"
+    ],
+    "relatedPersonIds": [
+      "emperor_tianqi_ming",
+      "wei_zhongxian"
+    ],
+    "relatedTerritoryIds": [
+      "ming_dynasty",
+      "cliopatria_later_jin_dynasty",
+      "cliopatria_mongol_khanate",
+      "cliopatria_oirat_confederation"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "three_feudatories_context_1662",
+    "title": {
+      "primary": "Qing Consolidation after Southern Ming",
+      "localized": {
+        "en": "Qing Consolidation after Southern Ming",
+        "zh-Hans": "清初统一与三藩隐患"
+      }
+    },
+    "displayTitle": "清初统一与三藩隐患",
+    "start": {
+      "year": 1662,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1662年"
+    },
+    "end": {
+      "year": 1662,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1662年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_southern_ming"
+    ],
+    "placeIds": [],
+    "lat": 25.0,
+    "lng": 121.0,
+    "summary": "南明残余退至台湾，清朝基本控制大陆，但三藩等整合问题仍在。",
+    "summaryEn": "Southern Ming remnants retreated to Taiwan; Qing controlled most mainland China, but Three Feudatories integration remained.",
+    "content": "1662 年地图上南明只剩台湾一带。清朝完成大陆整合的同时，也留下吴三桂等藩镇力量，之后会引发三藩之乱。",
+    "contentEn": "In 1662 Southern Ming remains are limited to Taiwan. Qing had largely integrated the mainland, but feudatory powers like Wu Sangui remained and would later rebel.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "南明",
+      "三藩"
+    ],
+    "relatedPersonIds": [
+      "emperor_shunzhi_qing",
+      "koxinga",
+      "wu_sangui"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_southern_ming"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "koxinga_taiwan_1662",
+    "title": {
+      "primary": "Koxinga Takes Taiwan",
+      "localized": {
+        "en": "Koxinga Takes Taiwan",
+        "zh-Hans": "郑成功据台湾"
+      }
+    },
+    "displayTitle": "郑成功据台湾",
+    "start": {
+      "year": 1662,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1662年"
+    },
+    "end": {
+      "year": 1662,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1662年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_southern_ming"
+    ],
+    "placeIds": [],
+    "lat": 23.7,
+    "lng": 121.0,
+    "summary": "郑成功据台湾，反清复明势力转向海岛基地。",
+    "summaryEn": "Koxinga took Taiwan, moving Ming loyalist resistance to an island base.",
+    "content": "台湾节点说明清初统一不是一步完成：大陆控制、南明残余、海上势力和郑氏台湾共同构成清初过渡格局。",
+    "contentEn": "Taiwan shows Qing unification was not instantaneous: mainland control, Southern Ming remnants, maritime power, and Zheng Taiwan formed the transition.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "郑成功",
+      "台湾"
+    ],
+    "relatedPersonIds": [
+      "koxinga"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_southern_ming"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "qing_taiwan_1683",
+    "title": {
+      "primary": "Qing Takes Taiwan",
+      "localized": {
+        "en": "Qing Takes Taiwan",
+        "zh-Hans": "清取台湾"
+      }
+    },
+    "displayTitle": "清取台湾",
+    "start": {
+      "year": 1683,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1683年"
+    },
+    "end": {
+      "year": 1683,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1683年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "placeIds": [],
+    "lat": 23.7,
+    "lng": 121.0,
+    "summary": "清军攻取台湾，郑氏政权结束，清朝海疆整合完成一大步。",
+    "summaryEn": "Qing conquered Taiwan, ending Zheng rule and advancing maritime frontier integration.",
+    "content": "1683 年后，清朝不只是在大陆完成统一，也把台湾纳入统治。与此同时，西北准噶尔正在成为新的内亚对手。",
+    "contentEn": "After 1683 Qing unified Taiwan as well as the mainland. At the same time, the Dzungars were becoming a new Inner Asian rival.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "台湾",
+      "康熙"
+    ],
+    "relatedPersonIds": [
+      "emperor_kangxi_qing",
+      "koxinga"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "nerchinsk_treaty_1689",
+    "title": {
+      "primary": "Treaty of Nerchinsk",
+      "localized": {
+        "en": "Treaty of Nerchinsk",
+        "zh-Hans": "尼布楚条约"
+      }
+    },
+    "displayTitle": "尼布楚条约",
+    "start": {
+      "year": 1689,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1689年"
+    },
+    "end": {
+      "year": 1689,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1689年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "placeIds": [],
+    "lat": 51.9,
+    "lng": 116.6,
+    "summary": "清朝与俄国签订尼布楚条约，东北边界以外交方式定界。",
+    "summaryEn": "Qing and Russia signed the Treaty of Nerchinsk, defining the northeastern border diplomatically.",
+    "content": "尼布楚条约说明清朝边疆治理不只是军事征服，也包括与欧亚陆上帝国的条约和边界谈判。",
+    "contentEn": "Nerchinsk shows Qing frontier governance involved not only conquest but treaties and boundary diplomacy with Eurasian land empires.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "尼布楚",
+      "俄国"
+    ],
+    "relatedPersonIds": [
+      "emperor_kangxi_qing"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "qing_enters_tibet_1720",
+    "title": {
+      "primary": "Qing Enters Tibet",
+      "localized": {
+        "en": "Qing Enters Tibet",
+        "zh-Hans": "清军入藏与西北格局"
+      }
+    },
+    "displayTitle": "清军入藏与西北格局",
+    "start": {
+      "year": 1720,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1720年"
+    },
+    "end": {
+      "year": 1720,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1720年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "placeIds": [],
+    "lat": 29.7,
+    "lng": 91.1,
+    "summary": "清军入藏，准噶尔压力下的青藏与西北格局被重新整理。",
+    "summaryEn": "Qing forces entered Tibet, reorganizing Tibet and the northwest under Dzungar pressure.",
+    "content": "1720 年清、准噶尔和西藏的关系成为清朝内亚秩序的核心。雍正前后，清朝也在加强财政和行政能力。",
+    "contentEn": "In 1720 Qing-Dzungar-Tibet relations became central to Qing Inner Asian order. Around Yongzheng, Qing also strengthened fiscal and administrative capacity.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "西藏",
+      "准噶尔"
+    ],
+    "relatedPersonIds": [
+      "emperor_kangxi_qing",
+      "emperor_yongzheng_qing"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "yongzheng_statecraft_1720",
+    "title": {
+      "primary": "Yongzheng Statecraft",
+      "localized": {
+        "en": "Yongzheng Statecraft",
+        "zh-Hans": "雍正财政行政强化"
+      }
+    },
+    "displayTitle": "雍正财政行政强化",
+    "start": {
+      "year": 1720,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1720年"
+    },
+    "end": {
+      "year": 1720,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1720年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "雍正时期通过摊丁入亩、军机处等加强财政与皇权行政。",
+    "summaryEn": "Yongzheng strengthened fiscal and imperial administration through tax reforms and the Grand Council.",
+    "content": "雍正不是疆域扩张的主角，却是清朝国家能力强化的关键：财政、奏折、军机处和地方官僚都被压入更紧密的皇权系统。",
+    "contentEn": "Yongzheng was not the main expansion emperor, but central to Qing state capacity: finance, palace memorials, Grand Council, and local officials were drawn into tighter imperial control.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "雍正",
+      "军机处"
+    ],
+    "relatedPersonIds": [
+      "emperor_yongzheng_qing"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_dzungar_khanate"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "dzungar_conquest_1759",
+    "title": {
+      "primary": "Qianlong Conquers Dzungars",
+      "localized": {
+        "en": "Qianlong Conquers Dzungars",
+        "zh-Hans": "乾隆平定准噶尔与新疆纳入"
+      }
+    },
+    "displayTitle": "乾隆平定准噶尔与新疆纳入",
+    "start": {
+      "year": 1759,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1759年"
+    },
+    "end": {
+      "year": 1759,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1759年"
+    },
+    "territoryIds": [
+      "qing_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 43.8,
+    "lng": 87.6,
+    "summary": "乾隆时期平定准噶尔，新疆纳入清朝版图，盛清疆域达到高峰。",
+    "summaryEn": "Under Qianlong, Qing conquered the Dzungars and incorporated Xinjiang, bringing High Qing territory to its peak.",
+    "content": "1759 年后，准噶尔独立层退出地图，清朝版图达到高峰。这是清朝作为内亚帝国最重要的扩张节点。",
+    "contentEn": "After 1759 the Dzungar independent layer exits the map, and Qing territory reaches its peak. This is the key expansion node of Qing as an Inner Asian empire.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "乾隆",
+      "新疆",
+      "准噶尔"
+    ],
+    "relatedPersonIds": [
+      "emperor_qianlong_qing"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "macartney_mission_1793",
+    "title": {
+      "primary": "Macartney Mission",
+      "localized": {
+        "en": "Macartney Mission",
+        "zh-Hans": "马戛尔尼使团"
+      }
+    },
+    "displayTitle": "马戛尔尼使团",
+    "start": {
+      "year": 1793,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1793年"
+    },
+    "end": {
+      "year": 1793,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1793年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "英国马戛尔尼使团来华，盛清与海洋帝国的制度差异开始凸显。",
+    "summaryEn": "The British Macartney mission came to China, revealing tensions between High Qing order and maritime empire.",
+    "content": "1793 年不是战争节点，但它预示清朝面对的外部压力正在从内亚边疆转向全球海洋贸易和工业化国家。",
+    "contentEn": "1793 was not war, but it foreshadowed a shift in external pressure from Inner Asian frontiers to global maritime trade and industrial states.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "马戛尔尼",
+      "英国"
+    ],
+    "relatedPersonIds": [
+      "emperor_qianlong_qing"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "nanjing_treaty_1842",
+    "title": {
+      "primary": "Treaty of Nanjing",
+      "localized": {
+        "en": "Treaty of Nanjing",
+        "zh-Hans": "南京条约与鸦片战争后果"
+      }
+    },
+    "displayTitle": "南京条约与鸦片战争后果",
+    "start": {
+      "year": 1842,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1842年"
+    },
+    "end": {
+      "year": 1842,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1842年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "鸦片战争后南京条约签订，清朝进入条约体系。",
+    "summaryEn": "After the Opium War, the Treaty of Nanjing brought Qing into the treaty system.",
+    "content": "1842 年是清朝近代危机的开端之一。地图仍显示庞大清朝，但沿海主权、贸易和外交规则已经被条约体系重塑。",
+    "contentEn": "1842 begins Qing’s modern crisis. The map still shows a vast Qing, but coastal sovereignty, trade, and diplomacy were reshaped by treaty order.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "鸦片战争",
+      "南京条约"
+    ],
+    "relatedPersonIds": [
+      "lin_zexu",
+      "emperor_daoguang_qing"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "taiping_rebellion_1851",
+    "title": {
+      "primary": "Taiping Rebellion Begins",
+      "localized": {
+        "en": "Taiping Rebellion Begins",
+        "zh-Hans": "太平天国起义爆发"
+      }
+    },
+    "displayTitle": "太平天国起义爆发",
+    "start": {
+      "year": 1851,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1851年"
+    },
+    "end": {
+      "year": 1851,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1851年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "placeIds": [],
+    "lat": 23.5,
+    "lng": 110.0,
+    "summary": "洪秀全发动太平天国运动，清朝内战危机爆发。",
+    "summaryEn": "Hong Xiuquan launched the Taiping movement, triggering a Qing civil-war crisis.",
+    "content": "太平天国说明清朝危机不只是外患，内部财政、社会和地方治理也发生断裂。",
+    "contentEn": "Taiping shows Qing crisis was not only external: fiscal, social, and local governance ruptured internally.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "太平天国"
+    ],
+    "relatedPersonIds": [
+      "hong_xiuquan"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "beijing_convention_1860",
+    "title": {
+      "primary": "Second Opium War and Beijing Convention",
+      "localized": {
+        "en": "Second Opium War and Beijing Convention",
+        "zh-Hans": "第二次鸦片战争与北京条约"
+      }
+    },
+    "displayTitle": "第二次鸦片战争与北京条约",
+    "start": {
+      "year": 1860,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1860年"
+    },
+    "end": {
+      "year": 1860,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1860年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_taiping_heavenly_kingdom",
+      "cliopatria_british_empire"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "英法联军入北京，清朝外部压力与太平天国内战同时达到高峰。",
+    "summaryEn": "Anglo-French forces entered Beijing while Taiping civil war continued, combining external and internal crisis.",
+    "content": "1860 年地图能同时看到清朝与太平天国，也能看到英帝国背景。清朝在内战和列强压力之间被迫寻找新应对方式。",
+    "contentEn": "The 1860 map shows Qing, Taiping, and British imperial context. Qing had to respond amid civil war and foreign pressure simultaneously.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "第二次鸦片战争",
+      "北京条约"
+    ],
+    "relatedPersonIds": [
+      "empress_dowager_cixi",
+      "hong_xiuquan"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_taiping_heavenly_kingdom",
+      "cliopatria_british_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "taiping_falls_1864",
+    "title": {
+      "primary": "Taiping Falls and Self-Strengthening",
+      "localized": {
+        "en": "Taiping Falls and Self-Strengthening",
+        "zh-Hans": "天京陷落与洋务开端"
+      }
+    },
+    "displayTitle": "天京陷落与洋务开端",
+    "start": {
+      "year": 1864,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1864年"
+    },
+    "end": {
+      "year": 1864,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1864年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_taiping_heavenly_kingdom",
+      "cliopatria_british_empire"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "天京陷落，太平天国失败，湘军与地方督抚力量上升。",
+    "summaryEn": "Tianjing fell and Taiping failed; Xiang Army and provincial officials gained power.",
+    "content": "镇压太平天国后，清朝没有简单恢复旧秩序。曾国藩、李鸿章等地方军政力量推动洋务，也改变中央与地方关系。",
+    "contentEn": "After Taiping, Qing did not simply restore the old order. Provincial military-political leaders like Zeng and Li pushed Self-Strengthening and changed center-local relations.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "太平天国",
+      "洋务"
+    ],
+    "relatedPersonIds": [
+      "zeng_guofan",
+      "li_hongzhang",
+      "hong_xiuquan"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_taiping_heavenly_kingdom",
+      "cliopatria_british_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "self_strengthening_1864",
+    "title": {
+      "primary": "Self-Strengthening Movement",
+      "localized": {
+        "en": "Self-Strengthening Movement",
+        "zh-Hans": "洋务运动"
+      }
+    },
+    "displayTitle": "洋务运动",
+    "start": {
+      "year": 1864,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1864年"
+    },
+    "end": {
+      "year": 1864,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1864年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "placeIds": [],
+    "lat": 31.2,
+    "lng": 121.5,
+    "summary": "洋务运动兴起，清朝尝试以器物和军事工业自强。",
+    "summaryEn": "Self-Strengthening rose as Qing tried to strengthen through military industry and technology.",
+    "content": "洋务运动是晚清“在旧制度内求新技术”的尝试，能增强部分军工和外交能力，但没有彻底改造政治结构。",
+    "contentEn": "Self-Strengthening sought new technology within old institutions. It improved some military-industrial and diplomatic capacity but did not fully transform politics.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "洋务运动"
+    ],
+    "relatedPersonIds": [
+      "li_hongzhang",
+      "zeng_guofan",
+      "empress_dowager_cixi"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_british_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sino_japanese_war_1895",
+    "title": {
+      "primary": "First Sino-Japanese War Defeat",
+      "localized": {
+        "en": "First Sino-Japanese War Defeat",
+        "zh-Hans": "甲午战争失败与马关条约"
+      }
+    },
+    "displayTitle": "甲午战争失败与马关条约",
+    "start": {
+      "year": 1895,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1895年"
+    },
+    "end": {
+      "year": 1895,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1895年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.0,
+    "lng": 122.0,
+    "summary": "甲午战争失败后，清朝割台并承认朝鲜独立，东亚秩序巨变。",
+    "summaryEn": "After defeat in the First Sino-Japanese War, Qing ceded Taiwan and recognized Korean independence, transforming East Asian order.",
+    "content": "1895 年日本帝国在地图上成为清朝旁边的重要力量。甲午失败证明洋务式自强不足以应对制度化近代国家竞争。",
+    "contentEn": "By 1895 Japan appears as a major neighboring power. Defeat showed Self-Strengthening was insufficient against institutional modern state competition.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "甲午",
+      "马关条约"
+    ],
+    "relatedPersonIds": [
+      "li_hongzhang",
+      "empress_dowager_cixi"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hundred_days_reform_1898",
+    "title": {
+      "primary": "Hundred Days Reform",
+      "localized": {
+        "en": "Hundred Days Reform",
+        "zh-Hans": "戊戌变法"
+      }
+    },
+    "displayTitle": "戊戌变法",
+    "start": {
+      "year": 1898,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1898年"
+    },
+    "end": {
+      "year": 1898,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1898年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "光绪帝与康有为等推动制度改革，旋即被慈禧镇压。",
+    "summaryEn": "Guangxu and Kang Youwei pushed institutional reform, quickly suppressed by Cixi.",
+    "content": "戊戌变法把晚清危机从器物层面的自强，推向制度层面的改革。但权力结构无法承受快速转向。",
+    "contentEn": "The Hundred Days moved late-Qing crisis from technological strengthening to institutional reform, but the power structure could not absorb rapid change.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "戊戌变法"
+    ],
+    "relatedPersonIds": [
+      "emperor_guangxu_qing",
+      "kang_youwei",
+      "empress_dowager_cixi"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "boxer_crisis_1900",
+    "title": {
+      "primary": "Boxer Crisis",
+      "localized": {
+        "en": "Boxer Crisis",
+        "zh-Hans": "义和团与庚子之变"
+      }
+    },
+    "displayTitle": "义和团与庚子之变",
+    "start": {
+      "year": 1900,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1900年"
+    },
+    "end": {
+      "year": 1900,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1900年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan",
+      "cliopatria_british_empire"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "义和团运动和八国联军入侵使清朝陷入庚子危机。",
+    "summaryEn": "The Boxer movement and allied invasion threw Qing into the Boxer crisis.",
+    "content": "1900 年列强压力已经不只是通商口岸，而是直接影响首都和国家安全。清朝随后被迫推行新政。",
+    "contentEn": "By 1900 foreign pressure was no longer only treaty ports; it directly affected the capital and state security. Qing then had to pursue New Policies.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "义和团",
+      "庚子"
+    ],
+    "relatedPersonIds": [
+      "empress_dowager_cixi",
+      "emperor_guangxu_qing"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan",
+      "cliopatria_british_empire"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "xinhai_revolution_1911",
+    "title": {
+      "primary": "Xinhai Revolution",
+      "localized": {
+        "en": "Xinhai Revolution",
+        "zh-Hans": "辛亥革命"
+      }
+    },
+    "displayTitle": "辛亥革命",
+    "start": {
+      "year": 1911,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1911年"
+    },
+    "end": {
+      "year": 1911,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1911年"
+    },
+    "territoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 30.6,
+    "lng": 114.3,
+    "summary": "武昌起义后各省响应，清朝统治迅速瓦解。",
+    "summaryEn": "After the Wuchang uprising, provinces responded and Qing rule rapidly collapsed.",
+    "content": "辛亥革命把晚清新政、地方新军、立宪失望和革命组织连接起来。地图上仍是清朝，但政治结构已经崩裂。",
+    "contentEn": "Xinhai connected New Policies, provincial New Armies, constitutional disappointment, and revolutionaries. The map still shows Qing, but the political structure had broken.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "辛亥革命"
+    ],
+    "relatedPersonIds": [
+      "sun_yat_sen",
+      "emperor_xuantong_qing",
+      "yuan_shikai"
+    ],
+    "relatedTerritoryIds": [
+      "qing_dynasty",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "republic_founded_1912",
+    "title": {
+      "primary": "Republic of China Founded",
+      "localized": {
+        "en": "Republic of China Founded",
+        "zh-Hans": "中华民国建立与清帝退位"
+      }
+    },
+    "displayTitle": "中华民国建立与清帝退位",
+    "start": {
+      "year": 1912,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1912年"
+    },
+    "end": {
+      "year": 1912,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1912年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_great_mongol_state",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "中华民国建立，清帝退位，帝制时代结束。",
+    "summaryEn": "The Republic of China was founded, the Qing emperor abdicated, and the imperial era ended.",
+    "content": "1912 年地图切换为中华民国，同时外蒙古出现大蒙古国层。清朝结束，但它留下的疆域、民族和边疆问题进入民国。",
+    "contentEn": "In 1912 the map switches to Republic of China, while Outer Mongolia appears as Great Mongol State. Qing ended, but its territorial and frontier questions passed into the Republic.",
+    "significance": "这是清朝从入关统一、盛清扩张到近代危机和辛亥终局中的关键节点。",
+    "significanceEn": "This is a key node in Qing’s path from conquest and High Qing expansion to modern crisis and the Xinhai ending.",
+    "consequences": [
+      "清朝统治格局发生变化",
+      "内亚边疆与海洋外压重新定义国家处境",
+      "晚清改革与革命逐步走向王朝终结"
+    ],
+    "consequencesEn": [
+      "Qing rule changes",
+      "Inner Asian frontier and maritime pressure redefine the state",
+      "Late Qing reform and revolution move toward dynastic end"
+    ],
+    "tags": [
+      "中华民国",
+      "清帝退位"
+    ],
+    "relatedPersonIds": [
+      "sun_yat_sen",
+      "emperor_xuantong_qing",
+      "yuan_shikai"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_great_mongol_state",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
   }
 ]
