@@ -20059,5 +20059,4205 @@
     "sourceRefs": [
       "seshat_cliopatria"
     ]
+  },
+  {
+    "id": "cliopatria_empire_of_china",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1916,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1916,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Empire of China",
+      "localizedNames": {
+        "zh-Hans": "中华帝国",
+        "en": "Empire of China"
+      },
+      "aliases": []
+    },
+    "summary": "中华帝国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1916年至公元1916年。",
+    "summaryEn": "Empire of China is a reference polity from Cliopatria, covering approximately 1916 CE to 1916 CE.",
+    "summaryLong": "中华帝国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Empire of China is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_imamate_of_oman",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1913,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1918,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Imamate of Oman",
+      "localizedNames": {
+        "zh-Hans": "Imamate of Oman（待译）",
+        "en": "Imamate of Oman"
+      },
+      "aliases": []
+    },
+    "summary": "Imamate of Oman（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1913年至公元1918年。",
+    "summaryEn": "Imamate of Oman is a reference polity from Cliopatria, covering approximately 1913 CE to 1918 CE.",
+    "summaryLong": "Imamate of Oman（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Imamate of Oman is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_estado_novo",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1926,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1931,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Estado Novo",
+      "localizedNames": {
+        "zh-Hans": "Estado Novo（待译）",
+        "en": "Estado Novo"
+      },
+      "aliases": []
+    },
+    "summary": "Estado Novo（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1926年至公元1931年。",
+    "summaryEn": "Estado Novo is a reference polity from Cliopatria, covering approximately 1926 CE to 1931 CE.",
+    "summaryLong": "Estado Novo（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Estado Novo is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#6F8F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_afghanistan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1927,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1939,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Afghanistan",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Afghanistan（待译）",
+        "en": "Kingdom of Afghanistan"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Afghanistan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1927年至公元1939年。",
+    "summaryEn": "Kingdom of Afghanistan is a reference polity from Cliopatria, covering approximately 1927 CE to 1939 CE.",
+    "summaryLong": "Kingdom of Afghanistan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Afghanistan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_egypt",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1926,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1929,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Egypt",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Egypt（待译）",
+        "en": "Kingdom of Egypt"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Egypt（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1926年至公元1929年。",
+    "summaryEn": "Kingdom of Egypt is a reference polity from Cliopatria, covering approximately 1926 CE to 1929 CE.",
+    "summaryLong": "Kingdom of Egypt（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Egypt is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_hejaz_and_nejd",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1926,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1931,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Hejaz and Nejd",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Hejaz and Nejd（待译）",
+        "en": "Kingdom of Hejaz and Nejd"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Hejaz and Nejd（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1926年至公元1931年。",
+    "summaryEn": "Kingdom of Hejaz and Nejd is a reference polity from Cliopatria, covering approximately 1926 CE to 1931 CE.",
+    "summaryLong": "Kingdom of Hejaz and Nejd（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Hejaz and Nejd is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mongolian_people_s_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1927,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1927,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mongolian People's Republic",
+      "localizedNames": {
+        "zh-Hans": "蒙古人民共和国",
+        "en": "Mongolian People's Republic"
+      },
+      "aliases": []
+    },
+    "summary": "蒙古人民共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1927年至公元1927年。",
+    "summaryEn": "Mongolian People's Republic is a reference polity from Cliopatria, covering approximately 1927 CE to 1927 CE.",
+    "summaryLong": "蒙古人民共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mongolian People's Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_pahlavi_dynasty",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1926,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1931,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Pahlavi Dynasty",
+      "localizedNames": {
+        "zh-Hans": "Pahlavi Dynasty（待译）",
+        "en": "Pahlavi Dynasty"
+      },
+      "aliases": []
+    },
+    "summary": "Pahlavi Dynasty（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1926年至公元1931年。",
+    "summaryEn": "Pahlavi Dynasty is a reference polity from Cliopatria, covering approximately 1926 CE to 1931 CE.",
+    "summaryLong": "Pahlavi Dynasty（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Pahlavi Dynasty is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_turkey",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1924,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1935,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Turkey",
+      "localizedNames": {
+        "zh-Hans": "Republic of Turkey（待译）",
+        "en": "Republic of Turkey"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Turkey（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1924年至公元1935年。",
+    "summaryEn": "Republic of Turkey is a reference polity from Cliopatria, covering approximately 1924 CE to 1935 CE.",
+    "summaryLong": "Republic of Turkey（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Turkey is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_union_of_soviet_socialist_republics",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1926,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1928,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Union of Soviet Socialist Republics",
+      "localizedNames": {
+        "zh-Hans": "苏联",
+        "en": "Union of Soviet Socialist Republics"
+      },
+      "aliases": []
+    },
+    "summary": "苏联是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1926年至公元1928年。",
+    "summaryEn": "Union of Soviet Socialist Republics is a reference polity from Cliopatria, covering approximately 1926 CE to 1928 CE.",
+    "summaryLong": "苏联用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Union of Soviet Socialist Republics is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_anti_kuomintang_coalition",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1930,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1931,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Anti-Kuomintang Coalition",
+      "localizedNames": {
+        "zh-Hans": "Anti-Kuomintang Coalition（待译）",
+        "en": "Anti-Kuomintang Coalition"
+      },
+      "aliases": []
+    },
+    "summary": "Anti-Kuomintang Coalition（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1930年至公元1931年。",
+    "summaryEn": "Anti-Kuomintang Coalition is a reference polity from Cliopatria, covering approximately 1930 CE to 1931 CE.",
+    "summaryLong": "Anti-Kuomintang Coalition（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Anti-Kuomintang Coalition is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_argentine_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1930,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1935,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Argentine Republic",
+      "localizedNames": {
+        "zh-Hans": "Argentine Republic（待译）",
+        "en": "Argentine Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Argentine Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1930年至公元1935年。",
+    "summaryEn": "Argentine Republic is a reference polity from Cliopatria, covering approximately 1930 CE to 1935 CE.",
+    "summaryLong": "Argentine Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Argentine Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_canada",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1932,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Canada",
+      "localizedNames": {
+        "zh-Hans": "Canada（待译）",
+        "en": "Canada"
+      },
+      "aliases": []
+    },
+    "summary": "Canada（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1932年至公元1948年。",
+    "summaryEn": "Canada is a reference polity from Cliopatria, covering approximately 1932 CE to 1948 CE.",
+    "summaryLong": "Canada（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Canada is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#6F8F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_iraq",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1936,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1941,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Iraq",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Iraq（待译）",
+        "en": "Kingdom of Iraq"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Iraq（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1936年至公元1941年。",
+    "summaryEn": "Kingdom of Iraq is a reference polity from Cliopatria, covering approximately 1936 CE to 1941 CE.",
+    "summaryLong": "Kingdom of Iraq（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Iraq is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_saudi_arabia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1936,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1942,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Saudi Arabia",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Saudi Arabia（待译）",
+        "en": "Kingdom of Saudi Arabia"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Saudi Arabia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1936年至公元1942年。",
+    "summaryEn": "Kingdom of Saudi Arabia is a reference polity from Cliopatria, covering approximately 1936 CE to 1942 CE.",
+    "summaryLong": "Kingdom of Saudi Arabia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Saudi Arabia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_thailand",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1932,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1955,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Thailand",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Thailand（待译）",
+        "en": "Kingdom of Thailand"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Thailand（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1932年至公元1955年。",
+    "summaryEn": "Kingdom of Thailand is a reference polity from Cliopatria, covering approximately 1932 CE to 1955 CE.",
+    "summaryLong": "Kingdom of Thailand（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Thailand is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_nazi_germany",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1936,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1937,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Nazi Germany",
+      "localizedNames": {
+        "zh-Hans": "Nazi Germany（待译）",
+        "en": "Nazi Germany"
+      },
+      "aliases": []
+    },
+    "summary": "Nazi Germany（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1936年至公元1937年。",
+    "summaryEn": "Nazi Germany is a reference polity from Cliopatria, covering approximately 1936 CE to 1937 CE.",
+    "summaryLong": "Nazi Germany（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Nazi Germany is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_second_spanish_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1936,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1937,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Second Spanish Republic",
+      "localizedNames": {
+        "zh-Hans": "Second Spanish Republic（待译）",
+        "en": "Second Spanish Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Second Spanish Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1936年至公元1937年。",
+    "summaryEn": "Second Spanish Republic is a reference polity from Cliopatria, covering approximately 1936 CE to 1937 CE.",
+    "summaryLong": "Second Spanish Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Second Spanish Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_south_africa",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1932,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1972,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "South Africa",
+      "localizedNames": {
+        "zh-Hans": "South Africa（待译）",
+        "en": "South Africa"
+      },
+      "aliases": []
+    },
+    "summary": "South Africa（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1932年至公元1972年。",
+    "summaryEn": "South Africa is a reference polity from Cliopatria, covering approximately 1932 CE to 1972 CE.",
+    "summaryLong": "South Africa（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "South Africa is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_spanish_nationalists",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1936,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1937,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Spanish Nationalists",
+      "localizedNames": {
+        "zh-Hans": "Spanish Nationalists（待译）",
+        "en": "Spanish Nationalists"
+      },
+      "aliases": []
+    },
+    "summary": "Spanish Nationalists（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1936年至公元1937年。",
+    "summaryEn": "Spanish Nationalists is a reference polity from Cliopatria, covering approximately 1936 CE to 1937 CE.",
+    "summaryLong": "Spanish Nationalists（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Spanish Nationalists is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_unitary_state_of_brazil",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1936,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1944,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Unitary State of Brazil",
+      "localizedNames": {
+        "zh-Hans": "Unitary State of Brazil（待译）",
+        "en": "Unitary State of Brazil"
+      },
+      "aliases": []
+    },
+    "summary": "Unitary State of Brazil（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1936年至公元1944年。",
+    "summaryEn": "Unitary State of Brazil is a reference polity from Cliopatria, covering approximately 1936 CE to 1944 CE.",
+    "summaryLong": "Unitary State of Brazil（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Unitary State of Brazil is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_communist_party_of_china",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1938,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1945,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Communist Party of China",
+      "localizedNames": {
+        "zh-Hans": "中国共产党根据地",
+        "en": "Communist Party of China"
+      },
+      "aliases": []
+    },
+    "summary": "中国共产党根据地是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1938年至公元1945年。",
+    "summaryEn": "Communist Party of China is a reference polity from Cliopatria, covering approximately 1938 CE to 1945 CE.",
+    "summaryLong": "中国共产党根据地用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Communist Party of China is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_hungarian_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1938,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1938,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Hungarian Republic",
+      "localizedNames": {
+        "zh-Hans": "Hungarian Republic（待译）",
+        "en": "Hungarian Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Hungarian Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1938年至公元1938年。",
+    "summaryEn": "Hungarian Republic is a reference polity from Cliopatria, covering approximately 1938 CE to 1938 CE.",
+    "summaryLong": "Hungarian Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Hungarian Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_francoist_spain",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1940,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1941,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Francoist Spain",
+      "localizedNames": {
+        "zh-Hans": "Francoist Spain（待译）",
+        "en": "Francoist Spain"
+      },
+      "aliases": []
+    },
+    "summary": "Francoist Spain（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1940年至公元1941年。",
+    "summaryEn": "Francoist Spain is a reference polity from Cliopatria, covering approximately 1940 CE to 1941 CE.",
+    "summaryLong": "Francoist Spain（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Francoist Spain is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_free_french",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1940,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1940,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Free French",
+      "localizedNames": {
+        "zh-Hans": "Free French（待译）",
+        "en": "Free French"
+      },
+      "aliases": []
+    },
+    "summary": "Free French（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1940年至公元1940年。",
+    "summaryEn": "Free French is a reference polity from Cliopatria, covering approximately 1940 CE to 1940 CE.",
+    "summaryLong": "Free French（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Free French is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_vichy_france",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1940,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1942,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Vichy France",
+      "localizedNames": {
+        "zh-Hans": "Vichy France（待译）",
+        "en": "Vichy France"
+      },
+      "aliases": []
+    },
+    "summary": "Vichy France（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1940年至公元1942年。",
+    "summaryEn": "Vichy France is a reference polity from Cliopatria, covering approximately 1940 CE to 1942 CE.",
+    "summaryLong": "Vichy France（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Vichy France is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#6F8F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_east_turkestan_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1945,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1947,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "East Turkestan Republic",
+      "localizedNames": {
+        "zh-Hans": "East Turkestan Republic（待译）",
+        "en": "East Turkestan Republic"
+      },
+      "aliases": []
+    },
+    "summary": "East Turkestan Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1945年至公元1947年。",
+    "summaryEn": "East Turkestan Republic is a reference polity from Cliopatria, covering approximately 1945 CE to 1947 CE.",
+    "summaryLong": "East Turkestan Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "East Turkestan Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_ethiopia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1942,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Ethiopia",
+      "localizedNames": {
+        "zh-Hans": "Ethiopia（待译）",
+        "en": "Ethiopia"
+      },
+      "aliases": []
+    },
+    "summary": "Ethiopia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1942年至公元1952年。",
+    "summaryEn": "Ethiopia is a reference polity from Cliopatria, covering approximately 1942 CE to 1952 CE.",
+    "summaryLong": "Ethiopia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Ethiopia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_french_fourth_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1945,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1945,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "French Fourth Republic",
+      "localizedNames": {
+        "zh-Hans": "法兰西第四共和国",
+        "en": "French Fourth Republic"
+      },
+      "aliases": []
+    },
+    "summary": "法兰西第四共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1945年至公元1945年。",
+    "summaryEn": "French Fourth Republic is a reference polity from Cliopatria, covering approximately 1945 CE to 1945 CE.",
+    "summaryLong": "法兰西第四共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "French Fourth Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_greece",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1945,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1945,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Greece",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Greece（待译）",
+        "en": "Kingdom of Greece"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Greece（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1945年至公元1945年。",
+    "summaryEn": "Kingdom of Greece is a reference polity from Cliopatria, covering approximately 1945 CE to 1945 CE.",
+    "summaryLong": "Kingdom of Greece（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Greece is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_denmark",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Denmark",
+      "localizedNames": {
+        "zh-Hans": "Denmark（待译）",
+        "en": "Denmark"
+      },
+      "aliases": []
+    },
+    "summary": "Denmark（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元2023年。",
+    "summaryEn": "Denmark is a reference polity from Cliopatria, covering approximately 1946 CE to 2023 CE.",
+    "summaryLong": "Denmark（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Denmark is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_sarawak",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Sarawak",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Sarawak（待译）",
+        "en": "Kingdom of Sarawak"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Sarawak（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元1946年。",
+    "summaryEn": "Kingdom of Sarawak is a reference polity from Cliopatria, covering approximately 1946 CE to 1946 CE.",
+    "summaryLong": "Kingdom of Sarawak（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Sarawak is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_papua_new_guinea",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1975,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Papua New Guinea",
+      "localizedNames": {
+        "zh-Hans": "Papua New Guinea（待译）",
+        "en": "Papua New Guinea"
+      },
+      "aliases": []
+    },
+    "summary": "Papua New Guinea（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元1975年。",
+    "summaryEn": "Papua New Guinea is a reference polity from Cliopatria, covering approximately 1946 CE to 1975 CE.",
+    "summaryLong": "Papua New Guinea（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Papua New Guinea is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_iceland",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Iceland",
+      "localizedNames": {
+        "zh-Hans": "Republic of Iceland（待译）",
+        "en": "Republic of Iceland"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Iceland（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元2023年。",
+    "summaryEn": "Republic of Iceland is a reference polity from Cliopatria, covering approximately 1946 CE to 2023 CE.",
+    "summaryLong": "Republic of Iceland（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Iceland is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_indonesia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Indonesia",
+      "localizedNames": {
+        "zh-Hans": "印度尼西亚共和国",
+        "en": "Republic of Indonesia"
+      },
+      "aliases": []
+    },
+    "summary": "印度尼西亚共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元1946年。",
+    "summaryEn": "Republic of Indonesia is a reference polity from Cliopatria, covering approximately 1946 CE to 1946 CE.",
+    "summaryLong": "印度尼西亚共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Indonesia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_italy",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1972,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Italy",
+      "localizedNames": {
+        "zh-Hans": "Republic of Italy（待译）",
+        "en": "Republic of Italy"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Italy（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元1972年。",
+    "summaryEn": "Republic of Italy is a reference polity from Cliopatria, covering approximately 1946 CE to 1972 CE.",
+    "summaryLong": "Republic of Italy（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Italy is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_second_syrian_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Second Syrian Republic",
+      "localizedNames": {
+        "zh-Hans": "Second Syrian Republic（待译）",
+        "en": "Second Syrian Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Second Syrian Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元1946年。",
+    "summaryEn": "Second Syrian Republic is a reference polity from Cliopatria, covering approximately 1946 CE to 1946 CE.",
+    "summaryLong": "Second Syrian Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Second Syrian Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_socialist_federal_republic_of_yugoslavia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1946,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Socialist Federal Republic of Yugoslavia",
+      "localizedNames": {
+        "zh-Hans": "Socialist Federal Republic of Yugoslavia（待译）",
+        "en": "Socialist Federal Republic of Yugoslavia"
+      },
+      "aliases": []
+    },
+    "summary": "Socialist Federal Republic of Yugoslavia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1946年至公元1946年。",
+    "summaryEn": "Socialist Federal Republic of Yugoslavia is a reference polity from Cliopatria, covering approximately 1946 CE to 1946 CE.",
+    "summaryLong": "Socialist Federal Republic of Yugoslavia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Socialist Federal Republic of Yugoslavia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_democratic_people_s_republic_of_korea",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Democratic People's Republic of Korea",
+      "localizedNames": {
+        "zh-Hans": "朝鲜民主主义人民共和国",
+        "en": "Democratic People's Republic of Korea"
+      },
+      "aliases": []
+    },
+    "summary": "朝鲜民主主义人民共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1948年至公元1952年。",
+    "summaryEn": "Democratic People's Republic of Korea is a reference polity from Cliopatria, covering approximately 1948 CE to 1952 CE.",
+    "summaryLong": "朝鲜民主主义人民共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Democratic People's Republic of Korea is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_islamic_republic_of_pakistan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1962,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Islamic Republic of Pakistan",
+      "localizedNames": {
+        "zh-Hans": "巴基斯坦伊斯兰共和国",
+        "en": "Islamic Republic of Pakistan"
+      },
+      "aliases": []
+    },
+    "summary": "巴基斯坦伊斯兰共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1948年至公元1962年。",
+    "summaryEn": "Islamic Republic of Pakistan is a reference polity from Cliopatria, covering approximately 1948 CE to 1962 CE.",
+    "summaryLong": "巴基斯坦伊斯兰共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Islamic Republic of Pakistan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_new_zealand",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "New Zealand",
+      "localizedNames": {
+        "zh-Hans": "New Zealand（待译）",
+        "en": "New Zealand"
+      },
+      "aliases": []
+    },
+    "summary": "New Zealand（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1948年至公元2023年。",
+    "summaryEn": "New Zealand is a reference polity from Cliopatria, covering approximately 1948 CE to 2023 CE.",
+    "summaryLong": "New Zealand（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "New Zealand is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_people_s_republic_of_bulgaria",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "People's Republic of Bulgaria",
+      "localizedNames": {
+        "zh-Hans": "People's Republic of Bulgaria（待译）",
+        "en": "People's Republic of Bulgaria"
+      },
+      "aliases": []
+    },
+    "summary": "People's Republic of Bulgaria（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1948年至公元1948年。",
+    "summaryEn": "People's Republic of Bulgaria is a reference polity from Cliopatria, covering approximately 1948 CE to 1948 CE.",
+    "summaryLong": "People's Republic of Bulgaria（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "People's Republic of Bulgaria is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_qatar_protectorate",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1947,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Qatar Protectorate",
+      "localizedNames": {
+        "zh-Hans": "Qatar Protectorate（待译）",
+        "en": "Qatar Protectorate"
+      },
+      "aliases": []
+    },
+    "summary": "Qatar Protectorate（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1947年至公元1952年。",
+    "summaryEn": "Qatar Protectorate is a reference polity from Cliopatria, covering approximately 1947 CE to 1952 CE.",
+    "summaryLong": "Qatar Protectorate（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Qatar Protectorate is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_india",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of India",
+      "localizedNames": {
+        "zh-Hans": "印度共和国",
+        "en": "Republic of India"
+      },
+      "aliases": []
+    },
+    "summary": "印度共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1948年至公元1952年。",
+    "summaryEn": "Republic of India is a reference polity from Cliopatria, covering approximately 1948 CE to 1952 CE.",
+    "summaryLong": "印度共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of India is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_korea",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Korea",
+      "localizedNames": {
+        "zh-Hans": "大韩民国",
+        "en": "Republic of Korea"
+      },
+      "aliases": []
+    },
+    "summary": "大韩民国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1948年至公元1952年。",
+    "summaryEn": "Republic of Korea is a reference polity from Cliopatria, covering approximately 1948 CE to 1952 CE.",
+    "summaryLong": "大韩民国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Korea is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_the_philippines",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1947,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of the Philippines",
+      "localizedNames": {
+        "zh-Hans": "Republic of the Philippines（待译）",
+        "en": "Republic of the Philippines"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of the Philippines（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1947年至公元2023年。",
+    "summaryEn": "Republic of the Philippines is a reference polity from Cliopatria, covering approximately 1947 CE to 2023 CE.",
+    "summaryLong": "Republic of the Philippines（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of the Philippines is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_socialist_republic_of_romania",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1948,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1986,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Socialist Republic of Romania",
+      "localizedNames": {
+        "zh-Hans": "Socialist Republic of Romania（待译）",
+        "en": "Socialist Republic of Romania"
+      },
+      "aliases": []
+    },
+    "summary": "Socialist Republic of Romania（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1948年至公元1986年。",
+    "summaryEn": "Socialist Republic of Romania is a reference polity from Cliopatria, covering approximately 1948 CE to 1986 CE.",
+    "summaryLong": "Socialist Republic of Romania（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Socialist Republic of Romania is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_german_democratic_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1949,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "German Democratic Republic",
+      "localizedNames": {
+        "zh-Hans": "German Democratic Republic（待译）",
+        "en": "German Democratic Republic"
+      },
+      "aliases": []
+    },
+    "summary": "German Democratic Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1949年至公元1952年。",
+    "summaryEn": "German Democratic Republic is a reference polity from Cliopatria, covering approximately 1949 CE to 1952 CE.",
+    "summaryLong": "German Democratic Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "German Democratic Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_jordan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1949,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Jordan",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Jordan（待译）",
+        "en": "Kingdom of Jordan"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Jordan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1949年至公元1952年。",
+    "summaryEn": "Kingdom of Jordan is a reference polity from Cliopatria, covering approximately 1949 CE to 1952 CE.",
+    "summaryLong": "Kingdom of Jordan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Jordan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_federal_republic_of_germany",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1950,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1957,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Federal Republic of Germany",
+      "localizedNames": {
+        "zh-Hans": "Federal Republic of Germany（待译）",
+        "en": "Federal Republic of Germany"
+      },
+      "aliases": []
+    },
+    "summary": "Federal Republic of Germany（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1950年至公元1957年。",
+    "summaryEn": "Federal Republic of Germany is a reference polity from Cliopatria, covering approximately 1950 CE to 1957 CE.",
+    "summaryLong": "Federal Republic of Germany（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Federal Republic of Germany is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_people_s_republic_of_china",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1950,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1952,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "People's Republic of China",
+      "localizedNames": {
+        "zh-Hans": "中华人民共和国",
+        "en": "People's Republic of China"
+      },
+      "aliases": []
+    },
+    "summary": "中华人民共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1950年至公元1952年。",
+    "summaryEn": "People's Republic of China is a reference polity from Cliopatria, covering approximately 1950 CE to 1952 CE.",
+    "summaryLong": "中华人民共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "People's Republic of China is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_japan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1953,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1972,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Japan",
+      "localizedNames": {
+        "zh-Hans": "日本",
+        "en": "Japan"
+      },
+      "aliases": []
+    },
+    "summary": "日本是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1953年至公元1972年。",
+    "summaryEn": "Japan is a reference polity from Cliopatria, covering approximately 1953 CE to 1972 CE.",
+    "summaryLong": "日本用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Japan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_libya",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1953,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1955,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Libya",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Libya（待译）",
+        "en": "Kingdom of Libya"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Libya（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1953年至公元1955年。",
+    "summaryEn": "Kingdom of Libya is a reference polity from Cliopatria, covering approximately 1953 CE to 1955 CE.",
+    "summaryLong": "Kingdom of Libya（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Libya is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_egypt",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1953,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1955,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Egypt",
+      "localizedNames": {
+        "zh-Hans": "Republic of Egypt（待译）",
+        "en": "Republic of Egypt"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Egypt（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1953年至公元1955年。",
+    "summaryEn": "Republic of Egypt is a reference polity from Cliopatria, covering approximately 1953 CE to 1955 CE.",
+    "summaryLong": "Republic of Egypt（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Egypt is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_poland",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1953,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1968,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Poland",
+      "localizedNames": {
+        "zh-Hans": "Republic of Poland（待译）",
+        "en": "Republic of Poland"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Poland（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1953年至公元1968年。",
+    "summaryEn": "Republic of Poland is a reference polity from Cliopatria, covering approximately 1953 CE to 1968 CE.",
+    "summaryLong": "Republic of Poland（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Poland is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_democratic_republic_of_vietnam",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1956,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Democratic Republic of Vietnam",
+      "localizedNames": {
+        "zh-Hans": "越南民主共和国",
+        "en": "Democratic Republic of Vietnam"
+      },
+      "aliases": []
+    },
+    "summary": "越南民主共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1956年至公元1966年。",
+    "summaryEn": "Democratic Republic of Vietnam is a reference polity from Cliopatria, covering approximately 1956 CE to 1966 CE.",
+    "summaryLong": "越南民主共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Democratic Republic of Vietnam is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_cambodia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1956,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Cambodia",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Cambodia（待译）",
+        "en": "Kingdom of Cambodia"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Cambodia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1956年至公元1966年。",
+    "summaryEn": "Kingdom of Cambodia is a reference polity from Cliopatria, covering approximately 1956 CE to 1966 CE.",
+    "summaryLong": "Kingdom of Cambodia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Cambodia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kingdom_of_laos",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1956,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kingdom of Laos",
+      "localizedNames": {
+        "zh-Hans": "Kingdom of Laos（待译）",
+        "en": "Kingdom of Laos"
+      },
+      "aliases": []
+    },
+    "summary": "Kingdom of Laos（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1956年至公元1966年。",
+    "summaryEn": "Kingdom of Laos is a reference polity from Cliopatria, covering approximately 1956 CE to 1966 CE.",
+    "summaryLong": "Kingdom of Laos（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kingdom of Laos is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_sudan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1956,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1960,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Sudan",
+      "localizedNames": {
+        "zh-Hans": "Republic of Sudan（待译）",
+        "en": "Republic of Sudan"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Sudan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1956年至公元1960年。",
+    "summaryEn": "Republic of Sudan is a reference polity from Cliopatria, covering approximately 1956 CE to 1960 CE.",
+    "summaryLong": "Republic of Sudan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Sudan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_tunisia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1956,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1957,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Tunisia",
+      "localizedNames": {
+        "zh-Hans": "Republic of Tunisia（待译）",
+        "en": "Republic of Tunisia"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Tunisia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1956年至公元1957年。",
+    "summaryEn": "Republic of Tunisia is a reference polity from Cliopatria, covering approximately 1956 CE to 1957 CE.",
+    "summaryLong": "Republic of Tunisia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Tunisia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_vietnam",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1956,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Vietnam",
+      "localizedNames": {
+        "zh-Hans": "越南共和国",
+        "en": "Republic of Vietnam"
+      },
+      "aliases": []
+    },
+    "summary": "越南共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1956年至公元1966年。",
+    "summaryEn": "Republic of Vietnam is a reference polity from Cliopatria, covering approximately 1956 CE to 1966 CE.",
+    "summaryLong": "越南共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Vietnam is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_arab_federation",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1958,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1959,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Arab Federation",
+      "localizedNames": {
+        "zh-Hans": "Arab Federation（待译）",
+        "en": "Arab Federation"
+      },
+      "aliases": []
+    },
+    "summary": "Arab Federation（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1958年至公元1959年。",
+    "summaryEn": "Arab Federation is a reference polity from Cliopatria, covering approximately 1958 CE to 1959 CE.",
+    "summaryLong": "Arab Federation（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Arab Federation is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_federation_of_malaya",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1958,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1960,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Federation of Malaya",
+      "localizedNames": {
+        "zh-Hans": "Federation of Malaya（待译）",
+        "en": "Federation of Malaya"
+      },
+      "aliases": []
+    },
+    "summary": "Federation of Malaya（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1958年至公元1960年。",
+    "summaryEn": "Federation of Malaya is a reference polity from Cliopatria, covering approximately 1958 CE to 1960 CE.",
+    "summaryLong": "Federation of Malaya（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Federation of Malaya is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_french_fifth_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1958,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1959,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "French Fifth Republic",
+      "localizedNames": {
+        "zh-Hans": "法兰西第五共和国",
+        "en": "French Fifth Republic"
+      },
+      "aliases": []
+    },
+    "summary": "法兰西第五共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1958年至公元1959年。",
+    "summaryEn": "French Fifth Republic is a reference polity from Cliopatria, covering approximately 1958 CE to 1959 CE.",
+    "summaryLong": "法兰西第五共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "French Fifth Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_ghana",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1958,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1959,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Ghana",
+      "localizedNames": {
+        "zh-Hans": "Ghana（待译）",
+        "en": "Ghana"
+      },
+      "aliases": []
+    },
+    "summary": "Ghana（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1958年至公元1959年。",
+    "summaryEn": "Ghana is a reference polity from Cliopatria, covering approximately 1958 CE to 1959 CE.",
+    "summaryLong": "Ghana（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Ghana is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_united_arab_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1958,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1959,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "United Arab Republic",
+      "localizedNames": {
+        "zh-Hans": "United Arab Republic（待译）",
+        "en": "United Arab Republic"
+      },
+      "aliases": []
+    },
+    "summary": "United Arab Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1958年至公元1959年。",
+    "summaryEn": "United Arab Republic is a reference polity from Cliopatria, covering approximately 1958 CE to 1959 CE.",
+    "summaryLong": "United Arab Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "United Arab Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_ba_athist_syria",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1963,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Ba'athist Syria",
+      "localizedNames": {
+        "zh-Hans": "Ba'athist Syria（待译）",
+        "en": "Ba'athist Syria"
+      },
+      "aliases": []
+    },
+    "summary": "Ba'athist Syria（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1963年至公元1966年。",
+    "summaryEn": "Ba'athist Syria is a reference polity from Cliopatria, covering approximately 1963 CE to 1966 CE.",
+    "summaryLong": "Ba'athist Syria（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Ba'athist Syria is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_british_east_africa",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1968,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "British East Africa",
+      "localizedNames": {
+        "zh-Hans": "British East Africa（待译）",
+        "en": "British East Africa"
+      },
+      "aliases": []
+    },
+    "summary": "British East Africa（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元1968年。",
+    "summaryEn": "British East Africa is a reference polity from Cliopatria, covering approximately 1961 CE to 1968 CE.",
+    "summaryLong": "British East Africa（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "British East Africa is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#6F8F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_burkina_faso",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Burkina Faso",
+      "localizedNames": {
+        "zh-Hans": "Burkina Faso（待译）",
+        "en": "Burkina Faso"
+      },
+      "aliases": []
+    },
+    "summary": "Burkina Faso（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Burkina Faso is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Burkina Faso（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Burkina Faso is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_central_african_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2013,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Central African Republic",
+      "localizedNames": {
+        "zh-Hans": "Central African Republic（待译）",
+        "en": "Central African Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Central African Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2013年。",
+    "summaryEn": "Central African Republic is a reference polity from Cliopatria, covering approximately 1961 CE to 2013 CE.",
+    "summaryLong": "Central African Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Central African Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_communist_cuba",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1960,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Communist Cuba",
+      "localizedNames": {
+        "zh-Hans": "Communist Cuba（待译）",
+        "en": "Communist Cuba"
+      },
+      "aliases": []
+    },
+    "summary": "Communist Cuba（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1960年至公元2023年。",
+    "summaryEn": "Communist Cuba is a reference polity from Cliopatria, covering approximately 1960 CE to 2023 CE.",
+    "summaryLong": "Communist Cuba（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Communist Cuba is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_democratic_republic_of_the_congo",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1963,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Democratic Republic of the Congo",
+      "localizedNames": {
+        "zh-Hans": "Democratic Republic of the Congo（待译）",
+        "en": "Democratic Republic of the Congo"
+      },
+      "aliases": []
+    },
+    "summary": "Democratic Republic of the Congo（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1963年至公元1966年。",
+    "summaryEn": "Democratic Republic of the Congo is a reference polity from Cliopatria, covering approximately 1963 CE to 1966 CE.",
+    "summaryLong": "Democratic Republic of the Congo（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Democratic Republic of the Congo is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_federal_republic_of_nigeria",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1968,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Federal Republic of Nigeria",
+      "localizedNames": {
+        "zh-Hans": "Federal Republic of Nigeria（待译）",
+        "en": "Federal Republic of Nigeria"
+      },
+      "aliases": []
+    },
+    "summary": "Federal Republic of Nigeria（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元1968年。",
+    "summaryEn": "Federal Republic of Nigeria is a reference polity from Cliopatria, covering approximately 1961 CE to 1968 CE.",
+    "summaryLong": "Federal Republic of Nigeria（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Federal Republic of Nigeria is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_federal_republic_of_somalia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1960,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Federal Republic of Somalia",
+      "localizedNames": {
+        "zh-Hans": "Federal Republic of Somalia（待译）",
+        "en": "Federal Republic of Somalia"
+      },
+      "aliases": []
+    },
+    "summary": "Federal Republic of Somalia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1960年至公元2023年。",
+    "summaryEn": "Federal Republic of Somalia is a reference polity from Cliopatria, covering approximately 1960 CE to 2023 CE.",
+    "summaryLong": "Federal Republic of Somalia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Federal Republic of Somalia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_gabon",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Gabon",
+      "localizedNames": {
+        "zh-Hans": "Gabon（待译）",
+        "en": "Gabon"
+      },
+      "aliases": []
+    },
+    "summary": "Gabon（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Gabon is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Gabon（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Gabon is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_guinea",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1960,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Guinea",
+      "localizedNames": {
+        "zh-Hans": "Guinea（待译）",
+        "en": "Guinea"
+      },
+      "aliases": []
+    },
+    "summary": "Guinea（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1960年至公元2023年。",
+    "summaryEn": "Guinea is a reference polity from Cliopatria, covering approximately 1960 CE to 2023 CE.",
+    "summaryLong": "Guinea（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Guinea is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_iraqi_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1960,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1982,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Iraqi Republic",
+      "localizedNames": {
+        "zh-Hans": "Iraqi Republic（待译）",
+        "en": "Iraqi Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Iraqi Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1960年至公元1982年。",
+    "summaryEn": "Iraqi Republic is a reference polity from Cliopatria, covering approximately 1960 CE to 1982 CE.",
+    "summaryLong": "Iraqi Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Iraqi Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_madagascar",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1960,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Madagascar",
+      "localizedNames": {
+        "zh-Hans": "Madagascar（待译）",
+        "en": "Madagascar"
+      },
+      "aliases": []
+    },
+    "summary": "Madagascar（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1960年至公元2023年。",
+    "summaryEn": "Madagascar is a reference polity from Cliopatria, covering approximately 1960 CE to 2023 CE.",
+    "summaryLong": "Madagascar（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Madagascar is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_malaysia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1963,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Malaysia",
+      "localizedNames": {
+        "zh-Hans": "Malaysia（待译）",
+        "en": "Malaysia"
+      },
+      "aliases": []
+    },
+    "summary": "Malaysia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1963年至公元1966年。",
+    "summaryEn": "Malaysia is a reference polity from Cliopatria, covering approximately 1963 CE to 1966 CE.",
+    "summaryLong": "Malaysia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Malaysia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mali_federation",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mali Federation",
+      "localizedNames": {
+        "zh-Hans": "Mali Federation（待译）",
+        "en": "Mali Federation"
+      },
+      "aliases": []
+    },
+    "summary": "Mali Federation（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Mali Federation is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Mali Federation（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mali Federation is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mauritania",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1975,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mauritania",
+      "localizedNames": {
+        "zh-Hans": "Mauritania（待译）",
+        "en": "Mauritania"
+      },
+      "aliases": []
+    },
+    "summary": "Mauritania（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元1975年。",
+    "summaryEn": "Mauritania is a reference polity from Cliopatria, covering approximately 1961 CE to 1975 CE.",
+    "summaryLong": "Mauritania（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mauritania is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_people_s_democratic_republic_of_algeria",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1963,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1975,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "People's Democratic Republic of Algeria",
+      "localizedNames": {
+        "zh-Hans": "People's Democratic Republic of Algeria（待译）",
+        "en": "People's Democratic Republic of Algeria"
+      },
+      "aliases": []
+    },
+    "summary": "People's Democratic Republic of Algeria（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1963年至公元1975年。",
+    "summaryEn": "People's Democratic Republic of Algeria is a reference polity from Cliopatria, covering approximately 1963 CE to 1975 CE.",
+    "summaryLong": "People's Democratic Republic of Algeria（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "People's Democratic Republic of Algeria is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_benin",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1968,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Benin",
+      "localizedNames": {
+        "zh-Hans": "Republic of Benin（待译）",
+        "en": "Republic of Benin"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Benin（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元1968年。",
+    "summaryEn": "Republic of Benin is a reference polity from Cliopatria, covering approximately 1961 CE to 1968 CE.",
+    "summaryLong": "Republic of Benin（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Benin is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_cameroon",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Cameroon",
+      "localizedNames": {
+        "zh-Hans": "Republic of Cameroon（待译）",
+        "en": "Republic of Cameroon"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Cameroon（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Republic of Cameroon is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Republic of Cameroon（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Cameroon is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_chad",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Chad",
+      "localizedNames": {
+        "zh-Hans": "Republic of Chad（待译）",
+        "en": "Republic of Chad"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Chad（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Republic of Chad is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Republic of Chad（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Chad is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_c_te_d_ivoire",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Côte d'Ivoire",
+      "localizedNames": {
+        "zh-Hans": "Republic of Côte d'Ivoire（待译）",
+        "en": "Republic of Côte d'Ivoire"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Côte d'Ivoire（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Republic of Côte d'Ivoire is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Republic of Côte d'Ivoire（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Côte d'Ivoire is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_kenya",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1963,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Kenya",
+      "localizedNames": {
+        "zh-Hans": "Republic of Kenya（待译）",
+        "en": "Republic of Kenya"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Kenya（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1963年至公元2023年。",
+    "summaryEn": "Republic of Kenya is a reference polity from Cliopatria, covering approximately 1963 CE to 2023 CE.",
+    "summaryLong": "Republic of Kenya（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Kenya is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_senegal",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Senegal",
+      "localizedNames": {
+        "zh-Hans": "Republic of Senegal（待译）",
+        "en": "Republic of Senegal"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Senegal（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Republic of Senegal is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Republic of Senegal（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Senegal is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_uganda",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1963,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Uganda",
+      "localizedNames": {
+        "zh-Hans": "Republic of Uganda（待译）",
+        "en": "Republic of Uganda"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Uganda（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1963年至公元2023年。",
+    "summaryEn": "Republic of Uganda is a reference polity from Cliopatria, covering approximately 1963 CE to 2023 CE.",
+    "summaryLong": "Republic of Uganda（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Uganda is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_the_congo",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of the Congo",
+      "localizedNames": {
+        "zh-Hans": "Republic of the Congo（待译）",
+        "en": "Republic of the Congo"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of the Congo（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Republic of the Congo is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Republic of the Congo（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of the Congo is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_the_niger",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1961,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of the Niger",
+      "localizedNames": {
+        "zh-Hans": "Republic of the Niger（待译）",
+        "en": "Republic of the Niger"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of the Niger（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1961年至公元2023年。",
+    "summaryEn": "Republic of the Niger is a reference polity from Cliopatria, covering approximately 1961 CE to 2023 CE.",
+    "summaryLong": "Republic of the Niger（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of the Niger is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_tanzania",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1963,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Tanzania",
+      "localizedNames": {
+        "zh-Hans": "Tanzania（待译）",
+        "en": "Tanzania"
+      },
+      "aliases": []
+    },
+    "summary": "Tanzania（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1963年至公元1966年。",
+    "summaryEn": "Tanzania is a reference polity from Cliopatria, covering approximately 1963 CE to 1966 CE.",
+    "summaryLong": "Tanzania（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Tanzania is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_arab_socialist_ba_ath_party",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1969,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1972,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Arab Socialist Ba'ath Party",
+      "localizedNames": {
+        "zh-Hans": "Arab Socialist Ba'ath Party（待译）",
+        "en": "Arab Socialist Ba'ath Party"
+      },
+      "aliases": []
+    },
+    "summary": "Arab Socialist Ba'ath Party（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1969年至公元1972年。",
+    "summaryEn": "Arab Socialist Ba'ath Party is a reference polity from Cliopatria, covering approximately 1969 CE to 1972 CE.",
+    "summaryLong": "Arab Socialist Ba'ath Party（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Arab Socialist Ba'ath Party is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_federated_republic_of_brazil",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1967,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1982,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Federated Republic of Brazil",
+      "localizedNames": {
+        "zh-Hans": "Federated Republic of Brazil（待译）",
+        "en": "Federated Republic of Brazil"
+      },
+      "aliases": []
+    },
+    "summary": "Federated Republic of Brazil（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1967年至公元1982年。",
+    "summaryEn": "Federated Republic of Brazil is a reference polity from Cliopatria, covering approximately 1967 CE to 1982 CE.",
+    "summaryLong": "Federated Republic of Brazil（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Federated Republic of Brazil is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_greek_junta",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1967,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1972,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Greek junta",
+      "localizedNames": {
+        "zh-Hans": "Greek junta（待译）",
+        "en": "Greek junta"
+      },
+      "aliases": []
+    },
+    "summary": "Greek junta（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1967年至公元1972年。",
+    "summaryEn": "Greek junta is a reference polity from Cliopatria, covering approximately 1967 CE to 1972 CE.",
+    "summaryLong": "Greek junta（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Greek junta is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_guyana",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1967,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Guyana",
+      "localizedNames": {
+        "zh-Hans": "Guyana（待译）",
+        "en": "Guyana"
+      },
+      "aliases": []
+    },
+    "summary": "Guyana（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1967年至公元2023年。",
+    "summaryEn": "Guyana is a reference polity from Cliopatria, covering approximately 1967 CE to 2023 CE.",
+    "summaryLong": "Guyana（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Guyana is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_libyan_arab_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1969,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1972,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Libyan Arab Republic",
+      "localizedNames": {
+        "zh-Hans": "Libyan Arab Republic（待译）",
+        "en": "Libyan Arab Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Libyan Arab Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1969年至公元1972年。",
+    "summaryEn": "Libyan Arab Republic is a reference polity from Cliopatria, covering approximately 1969 CE to 1972 CE.",
+    "summaryLong": "Libyan Arab Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Libyan Arab Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_people_s_democratic_republic_of_yemen",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1969,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1986,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "People's Democratic Republic of Yemen",
+      "localizedNames": {
+        "zh-Hans": "People's Democratic Republic of Yemen（待译）",
+        "en": "People's Democratic Republic of Yemen"
+      },
+      "aliases": []
+    },
+    "summary": "People's Democratic Republic of Yemen（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1969年至公元1986年。",
+    "summaryEn": "People's Democratic Republic of Yemen is a reference polity from Cliopatria, covering approximately 1969 CE to 1986 CE.",
+    "summaryLong": "People's Democratic Republic of Yemen（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "People's Democratic Republic of Yemen is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_botswana",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1967,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1989,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Botswana",
+      "localizedNames": {
+        "zh-Hans": "Republic of Botswana（待译）",
+        "en": "Republic of Botswana"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Botswana（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1967年至公元1989年。",
+    "summaryEn": "Republic of Botswana is a reference polity from Cliopatria, covering approximately 1967 CE to 1989 CE.",
+    "summaryLong": "Republic of Botswana（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Botswana is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_rhodesia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1967,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1975,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Rhodesia",
+      "localizedNames": {
+        "zh-Hans": "Rhodesia（待译）",
+        "en": "Rhodesia"
+      },
+      "aliases": []
+    },
+    "summary": "Rhodesia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1967年至公元1975年。",
+    "summaryEn": "Rhodesia is a reference polity from Cliopatria, covering approximately 1967 CE to 1975 CE.",
+    "summaryLong": "Rhodesia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Rhodesia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_zambia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1967,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Zambia",
+      "localizedNames": {
+        "zh-Hans": "Zambia（待译）",
+        "en": "Zambia"
+      },
+      "aliases": []
+    },
+    "summary": "Zambia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1967年至公元2023年。",
+    "summaryEn": "Zambia is a reference polity from Cliopatria, covering approximately 1967 CE to 2023 CE.",
+    "summaryLong": "Zambia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Zambia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_arab_republic_of_egypt",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1982,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Arab Republic of Egypt",
+      "localizedNames": {
+        "zh-Hans": "Arab Republic of Egypt（待译）",
+        "en": "Arab Republic of Egypt"
+      },
+      "aliases": []
+    },
+    "summary": "Arab Republic of Egypt（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元1982年。",
+    "summaryEn": "Arab Republic of Egypt is a reference polity from Cliopatria, covering approximately 1976 CE to 1982 CE.",
+    "summaryLong": "Arab Republic of Egypt（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Arab Republic of Egypt is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_communist_laos",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Communist Laos",
+      "localizedNames": {
+        "zh-Hans": "Communist Laos（待译）",
+        "en": "Communist Laos"
+      },
+      "aliases": []
+    },
+    "summary": "Communist Laos（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元2023年。",
+    "summaryEn": "Communist Laos is a reference polity from Cliopatria, covering approximately 1976 CE to 2023 CE.",
+    "summaryLong": "Communist Laos（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Communist Laos is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_khmer_rouge",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1978,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Khmer Rouge",
+      "localizedNames": {
+        "zh-Hans": "Khmer Rouge（待译）",
+        "en": "Khmer Rouge"
+      },
+      "aliases": []
+    },
+    "summary": "Khmer Rouge（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元1978年。",
+    "summaryEn": "Khmer Rouge is a reference polity from Cliopatria, covering approximately 1976 CE to 1978 CE.",
+    "summaryLong": "Khmer Rouge（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Khmer Rouge is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mozambique",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mozambique",
+      "localizedNames": {
+        "zh-Hans": "Mozambique（待译）",
+        "en": "Mozambique"
+      },
+      "aliases": []
+    },
+    "summary": "Mozambique（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元2023年。",
+    "summaryEn": "Mozambique is a reference polity from Cliopatria, covering approximately 1976 CE to 2023 CE.",
+    "summaryLong": "Mozambique（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mozambique is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_people_s_republic_of_angola",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "People's Republic of Angola",
+      "localizedNames": {
+        "zh-Hans": "People's Republic of Angola（待译）",
+        "en": "People's Republic of Angola"
+      },
+      "aliases": []
+    },
+    "summary": "People's Republic of Angola（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元2023年。",
+    "summaryEn": "People's Republic of Angola is a reference polity from Cliopatria, covering approximately 1976 CE to 2023 CE.",
+    "summaryLong": "People's Republic of Angola（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "People's Republic of Angola is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_people_s_republic_of_bangladesh",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1973,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "People's Republic of Bangladesh",
+      "localizedNames": {
+        "zh-Hans": "孟加拉人民共和国",
+        "en": "People's Republic of Bangladesh"
+      },
+      "aliases": []
+    },
+    "summary": "孟加拉人民共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1973年至公元2023年。",
+    "summaryEn": "People's Republic of Bangladesh is a reference polity from Cliopatria, covering approximately 1973 CE to 2023 CE.",
+    "summaryLong": "孟加拉人民共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "People's Republic of Bangladesh is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_afghanistan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1978,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Afghanistan",
+      "localizedNames": {
+        "zh-Hans": "Republic of Afghanistan（待译）",
+        "en": "Republic of Afghanistan"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Afghanistan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元1978年。",
+    "summaryEn": "Republic of Afghanistan is a reference polity from Cliopatria, covering approximately 1976 CE to 1978 CE.",
+    "summaryLong": "Republic of Afghanistan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Afghanistan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_suriname",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Suriname",
+      "localizedNames": {
+        "zh-Hans": "Republic of Suriname（待译）",
+        "en": "Republic of Suriname"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Suriname（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元2023年。",
+    "summaryEn": "Republic of Suriname is a reference polity from Cliopatria, covering approximately 1976 CE to 2023 CE.",
+    "summaryLong": "Republic of Suriname（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Suriname is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_socialist_republic_of_vietnam",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Socialist Republic of Vietnam",
+      "localizedNames": {
+        "zh-Hans": "越南社会主义共和国",
+        "en": "Socialist Republic of Vietnam"
+      },
+      "aliases": []
+    },
+    "summary": "越南社会主义共和国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元2023年。",
+    "summaryEn": "Socialist Republic of Vietnam is a reference polity from Cliopatria, covering approximately 1976 CE to 2023 CE.",
+    "summaryLong": "越南社会主义共和国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Socialist Republic of Vietnam is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_syria",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1982,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Syria",
+      "localizedNames": {
+        "zh-Hans": "Syria（待译）",
+        "en": "Syria"
+      },
+      "aliases": []
+    },
+    "summary": "Syria（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元1982年。",
+    "summaryEn": "Syria is a reference polity from Cliopatria, covering approximately 1976 CE to 1982 CE.",
+    "summaryLong": "Syria（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Syria is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_third_hellenic_republic",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1976,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1991,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Third Hellenic Republic",
+      "localizedNames": {
+        "zh-Hans": "Third Hellenic Republic（待译）",
+        "en": "Third Hellenic Republic"
+      },
+      "aliases": []
+    },
+    "summary": "Third Hellenic Republic（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1976年至公元1991年。",
+    "summaryEn": "Third Hellenic Republic is a reference polity from Cliopatria, covering approximately 1976 CE to 1991 CE.",
+    "summaryLong": "Third Hellenic Republic（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Third Hellenic Republic is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_zaire",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1973,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1991,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Zaire",
+      "localizedNames": {
+        "zh-Hans": "Zaire（待译）",
+        "en": "Zaire"
+      },
+      "aliases": []
+    },
+    "summary": "Zaire（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1973年至公元1991年。",
+    "summaryEn": "Zaire is a reference polity from Cliopatria, covering approximately 1973 CE to 1991 CE.",
+    "summaryLong": "Zaire（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Zaire is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_afghanistan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1983,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1986,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Afghanistan",
+      "localizedNames": {
+        "zh-Hans": "Afghanistan（待译）",
+        "en": "Afghanistan"
+      },
+      "aliases": []
+    },
+    "summary": "Afghanistan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1983年至公元1986年。",
+    "summaryEn": "Afghanistan is a reference polity from Cliopatria, covering approximately 1983 CE to 1986 CE.",
+    "summaryLong": "Afghanistan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Afghanistan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_islamic_republic_of_iran",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1983,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1986,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Islamic Republic of Iran",
+      "localizedNames": {
+        "zh-Hans": "Islamic Republic of Iran（待译）",
+        "en": "Islamic Republic of Iran"
+      },
+      "aliases": []
+    },
+    "summary": "Islamic Republic of Iran（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1983年至公元1986年。",
+    "summaryEn": "Islamic Republic of Iran is a reference polity from Cliopatria, covering approximately 1983 CE to 1986 CE.",
+    "summaryLong": "Islamic Republic of Iran（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Islamic Republic of Iran is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_people_s_republic_of_kampuchea",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1979,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1991,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "People's Republic of Kampuchea",
+      "localizedNames": {
+        "zh-Hans": "People's Republic of Kampuchea（待译）",
+        "en": "People's Republic of Kampuchea"
+      },
+      "aliases": []
+    },
+    "summary": "People's Republic of Kampuchea（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1979年至公元1991年。",
+    "summaryEn": "People's Republic of Kampuchea is a reference polity from Cliopatria, covering approximately 1979 CE to 1991 CE.",
+    "summaryLong": "People's Republic of Kampuchea（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "People's Republic of Kampuchea is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_zimbabwe",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1983,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Zimbabwe",
+      "localizedNames": {
+        "zh-Hans": "Republic of Zimbabwe（待译）",
+        "en": "Republic of Zimbabwe"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Zimbabwe（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1983年至公元2023年。",
+    "summaryEn": "Republic of Zimbabwe is a reference polity from Cliopatria, covering approximately 1983 CE to 2023 CE.",
+    "summaryLong": "Republic of Zimbabwe（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Zimbabwe is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_federated_republic_of_germany",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1991,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Federated Republic of Germany",
+      "localizedNames": {
+        "zh-Hans": "Federated Republic of Germany（待译）",
+        "en": "Federated Republic of Germany"
+      },
+      "aliases": []
+    },
+    "summary": "Federated Republic of Germany（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1991年至公元2023年。",
+    "summaryEn": "Federated Republic of Germany is a reference polity from Cliopatria, covering approximately 1991 CE to 2023 CE.",
+    "summaryLong": "Federated Republic of Germany（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Federated Republic of Germany is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kazakhstan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1995,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kazakhstan",
+      "localizedNames": {
+        "zh-Hans": "哈萨克斯坦",
+        "en": "Kazakhstan"
+      },
+      "aliases": []
+    },
+    "summary": "哈萨克斯坦是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元1995年。",
+    "summaryEn": "Kazakhstan is a reference polity from Cliopatria, covering approximately 1992 CE to 1995 CE.",
+    "summaryLong": "哈萨克斯坦用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kazakhstan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_kyrgyzstan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Kyrgyzstan",
+      "localizedNames": {
+        "zh-Hans": "Kyrgyzstan（待译）",
+        "en": "Kyrgyzstan"
+      },
+      "aliases": []
+    },
+    "summary": "Kyrgyzstan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "Kyrgyzstan is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "Kyrgyzstan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Kyrgyzstan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#7A5E99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mongolia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mongolia",
+      "localizedNames": {
+        "zh-Hans": "蒙古国",
+        "en": "Mongolia"
+      },
+      "aliases": []
+    },
+    "summary": "蒙古国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "Mongolia is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "蒙古国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mongolia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mujahideen",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1995,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mujahideen",
+      "localizedNames": {
+        "zh-Hans": "Mujahideen（待译）",
+        "en": "Mujahideen"
+      },
+      "aliases": []
+    },
+    "summary": "Mujahideen（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元1995年。",
+    "summaryEn": "Mujahideen is a reference polity from Cliopatria, covering approximately 1992 CE to 1995 CE.",
+    "summaryLong": "Mujahideen（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mujahideen is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#6F8F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_namibia",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1990,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Namibia",
+      "localizedNames": {
+        "zh-Hans": "Namibia（待译）",
+        "en": "Namibia"
+      },
+      "aliases": []
+    },
+    "summary": "Namibia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1990年至公元2023年。",
+    "summaryEn": "Namibia is a reference polity from Cliopatria, covering approximately 1990 CE to 2023 CE.",
+    "summaryLong": "Namibia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Namibia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_belarus",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Belarus",
+      "localizedNames": {
+        "zh-Hans": "Republic of Belarus（待译）",
+        "en": "Republic of Belarus"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Belarus（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "Republic of Belarus is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "Republic of Belarus（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Belarus is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_brazil",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1987,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Brazil",
+      "localizedNames": {
+        "zh-Hans": "Republic of Brazil（待译）",
+        "en": "Republic of Brazil"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Brazil（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1987年至公元2023年。",
+    "summaryEn": "Republic of Brazil is a reference polity from Cliopatria, covering approximately 1987 CE to 2023 CE.",
+    "summaryLong": "Republic of Brazil（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Brazil is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_bulgaria",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Bulgaria",
+      "localizedNames": {
+        "zh-Hans": "Republic of Bulgaria（待译）",
+        "en": "Republic of Bulgaria"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Bulgaria（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "Republic of Bulgaria is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "Republic of Bulgaria（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Bulgaria is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_tajikistan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1999,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Tajikistan",
+      "localizedNames": {
+        "zh-Hans": "Republic of Tajikistan（待译）",
+        "en": "Republic of Tajikistan"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Tajikistan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元1999年。",
+    "summaryEn": "Republic of Tajikistan is a reference polity from Cliopatria, covering approximately 1992 CE to 1999 CE.",
+    "summaryLong": "Republic of Tajikistan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Tajikistan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_uzbekistan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1995,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Uzbekistan",
+      "localizedNames": {
+        "zh-Hans": "Republic of Uzbekistan（待译）",
+        "en": "Republic of Uzbekistan"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Uzbekistan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元1995年。",
+    "summaryEn": "Republic of Uzbekistan is a reference polity from Cliopatria, covering approximately 1992 CE to 1995 CE.",
+    "summaryLong": "Republic of Uzbekistan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Uzbekistan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_yemen",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1990,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Yemen",
+      "localizedNames": {
+        "zh-Hans": "Republic of Yemen（待译）",
+        "en": "Republic of Yemen"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Yemen（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1990年至公元2023年。",
+    "summaryEn": "Republic of Yemen is a reference polity from Cliopatria, covering approximately 1990 CE to 2023 CE.",
+    "summaryLong": "Republic of Yemen（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Yemen is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_romania",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Romania",
+      "localizedNames": {
+        "zh-Hans": "Romania（待译）",
+        "en": "Romania"
+      },
+      "aliases": []
+    },
+    "summary": "Romania（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "Romania is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "Romania（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Romania is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_russian_federation",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1995,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Russian Federation",
+      "localizedNames": {
+        "zh-Hans": "俄罗斯联邦",
+        "en": "Russian Federation"
+      },
+      "aliases": []
+    },
+    "summary": "俄罗斯联邦是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元1995年。",
+    "summaryEn": "Russian Federation is a reference polity from Cliopatria, covering approximately 1992 CE to 1995 CE.",
+    "summaryLong": "俄罗斯联邦用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Russian Federation is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#6F8F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_serbia_montenegro",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1995,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Serbia-Montenegro",
+      "localizedNames": {
+        "zh-Hans": "Serbia-Montenegro（待译）",
+        "en": "Serbia-Montenegro"
+      },
+      "aliases": []
+    },
+    "summary": "Serbia-Montenegro（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元1995年。",
+    "summaryEn": "Serbia-Montenegro is a reference polity from Cliopatria, covering approximately 1992 CE to 1995 CE.",
+    "summaryLong": "Serbia-Montenegro（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Serbia-Montenegro is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_state_of_eritrea",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "State of Eritrea",
+      "localizedNames": {
+        "zh-Hans": "State of Eritrea（待译）",
+        "en": "State of Eritrea"
+      },
+      "aliases": []
+    },
+    "summary": "State of Eritrea（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "State of Eritrea is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "State of Eritrea（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "State of Eritrea is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_turkmenistan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Turkmenistan",
+      "localizedNames": {
+        "zh-Hans": "Turkmenistan（待译）",
+        "en": "Turkmenistan"
+      },
+      "aliases": []
+    },
+    "summary": "Turkmenistan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "Turkmenistan is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "Turkmenistan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Turkmenistan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#997A5E",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_ukraine",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1992,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Ukraine",
+      "localizedNames": {
+        "zh-Hans": "Ukraine（待译）",
+        "en": "Ukraine"
+      },
+      "aliases": []
+    },
+    "summary": "Ukraine（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1992年至公元2023年。",
+    "summaryEn": "Ukraine is a reference polity from Cliopatria, covering approximately 1992 CE to 2023 CE.",
+    "summaryLong": "Ukraine（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Ukraine is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_union_of_myanmar",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1990,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Union of Myanmar",
+      "localizedNames": {
+        "zh-Hans": "Union of Myanmar（待译）",
+        "en": "Union of Myanmar"
+      },
+      "aliases": []
+    },
+    "summary": "Union of Myanmar（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1990年至公元2023年。",
+    "summaryEn": "Union of Myanmar is a reference polity from Cliopatria, covering approximately 1990 CE to 2023 CE.",
+    "summaryLong": "Union of Myanmar（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Union of Myanmar is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_taliban",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 1996,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 1999,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Taliban",
+      "localizedNames": {
+        "zh-Hans": "Taliban（待译）",
+        "en": "Taliban"
+      },
+      "aliases": []
+    },
+    "summary": "Taliban（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元1996年至公元1999年。",
+    "summaryEn": "Taliban is a reference polity from Cliopatria, covering approximately 1996 CE to 1999 CE.",
+    "summaryLong": "Taliban（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Taliban is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_republic_of_iraq",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 2014,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Republic of Iraq",
+      "localizedNames": {
+        "zh-Hans": "Republic of Iraq（待译）",
+        "en": "Republic of Iraq"
+      },
+      "aliases": []
+    },
+    "summary": "Republic of Iraq（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元2014年至公元2023年。",
+    "summaryEn": "Republic of Iraq is a reference polity from Cliopatria, covering approximately 2014 CE to 2023 CE.",
+    "summaryLong": "Republic of Iraq（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Republic of Iraq is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_south_sudan",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 2014,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "South Sudan",
+      "localizedNames": {
+        "zh-Hans": "South Sudan（待译）",
+        "en": "South Sudan"
+      },
+      "aliases": []
+    },
+    "summary": "South Sudan（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元2014年至公元2023年。",
+    "summaryEn": "South Sudan is a reference polity from Cliopatria, covering approximately 2014 CE to 2023 CE.",
+    "summaryLong": "South Sudan（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "South Sudan is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_state_of_libya",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": 2014,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": 2023,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "State of Libya",
+      "localizedNames": {
+        "zh-Hans": "State of Libya（待译）",
+        "en": "State of Libya"
+      },
+      "aliases": []
+    },
+    "summary": "State of Libya（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元2014年至公元2023年。",
+    "summaryEn": "State of Libya is a reference polity from Cliopatria, covering approximately 2014 CE to 2023 CE.",
+    "summaryLong": "State of Libya（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "State of Libya is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
   }
 ]

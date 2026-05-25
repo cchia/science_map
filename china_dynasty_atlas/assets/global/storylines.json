@@ -12551,6 +12551,1673 @@
     ]
   },
   {
+    "id": "republic_war_story",
+    "title_zh": "民国：共和建构、抗日战争与国共内战",
+    "title_en": "Republic of China: Republican Construction, Anti-Japanese War, and Civil War",
+    "emoji": "🇨🇳",
+    "theme_type": "dynastic_transition",
+    "description_zh": "从清帝退位后的民国建立开始，讲袁世凯称帝与军阀化、国共两党出现与分裂、日本侵华和全面抗战、百团大战等敌后战场，以及战后国共内战和 1949 政权转换。",
+    "description_en": "From the Republic after Qing abdication, this storyline follows Yuan Shikai and warlord fragmentation, KMT-CCP emergence and split, Japanese aggression and total war, the Hundred Regiments Offensive and rear-area resistance, then civil war and the 1949 transition.",
+    "source_note_zh": "地图边界使用 Cliopatria 中华民国、国民政府、中国共产党根据地、日本帝国、蒙古人民共和国、西藏等参考层；1949 年以共产党控制区和中华民国层表现转换，未直接使用中华人民共和国层。",
+    "source_note_en": "Map boundaries use Cliopatria layers for Republic of China, Kuomintang, Communist Party base areas, Empire of Japan, Mongolia, Tibet, and others; 1949 is represented through CCP control and ROC layers rather than a direct PRC layer.",
+    "events": [
+      "republic_founded_1912",
+      "yuan_shikai_empire_1916",
+      "ccp_founding_1921",
+      "nanjing_government_1927",
+      "mukden_incident_1931",
+      "marco_polo_bridge_1937",
+      "second_united_front_1937",
+      "wuhan_chongqing_1938",
+      "hundred_regiments_1940",
+      "war_victory_1945",
+      "civil_war_resumes_1946",
+      "civil_war_turning_1948",
+      "prc_founding_1949"
+    ],
+    "people": [
+      "sun_yat_sen",
+      "yuan_shikai",
+      "chen_duxiu",
+      "li_dazhao",
+      "chiang_kai_shek",
+      "mao_zedong",
+      "zhou_enlai",
+      "zhu_de",
+      "peng_dehuai",
+      "zhang_xueliang",
+      "wang_jingwei",
+      "hirohito"
+    ],
+    "territories": [
+      "republic_of_china",
+      "cliopatria_empire_of_china",
+      "cliopatria_kuomintang",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_empire_of_japan",
+      "cliopatria_great_mongol_state",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "route_points": [
+      {
+        "id": "republic_1912",
+        "label_zh": "1912：民国建立",
+        "label_en": "1912: Republic Founded",
+        "year": 1912,
+        "place_id": "",
+        "lat": 32.0,
+        "lng": 118.8,
+        "note_zh": "清帝退位，中华民国建立。",
+        "note_en": "Qing abdicated and ROC was founded."
+      },
+      {
+        "id": "yuan_1916",
+        "label_zh": "1916：袁世凯称帝失败",
+        "label_en": "1916: Yuan Empire Fails",
+        "year": 1916,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "共和未稳，军阀化开启。",
+        "note_en": "Republic unstable; warlord era begins."
+      },
+      {
+        "id": "ccp_1921",
+        "label_zh": "1921：共产党成立",
+        "label_en": "1921: CCP Founded",
+        "year": 1921,
+        "place_id": "",
+        "lat": 31.2,
+        "lng": 121.5,
+        "note_zh": "新的政治力量出现。",
+        "note_en": "A new political force appears."
+      },
+      {
+        "id": "nanjing_1927",
+        "label_zh": "1927：南京国民政府",
+        "label_en": "1927: Nanjing Government",
+        "year": 1927,
+        "place_id": "",
+        "lat": 32.0,
+        "lng": 118.8,
+        "note_zh": "国共合作破裂。",
+        "note_en": "KMT-CCP cooperation breaks."
+      },
+      {
+        "id": "mukden_1931",
+        "label_zh": "1931：九一八",
+        "label_en": "1931: Mukden",
+        "year": 1931,
+        "place_id": "",
+        "lat": 41.8,
+        "lng": 123.4,
+        "note_zh": "东北失守。",
+        "note_en": "Manchuria is lost."
+      },
+      {
+        "id": "war_1937",
+        "label_zh": "1937：全面抗战",
+        "label_en": "1937: Full War",
+        "year": 1937,
+        "place_id": "",
+        "lat": 39.8,
+        "lng": 116.2,
+        "note_zh": "卢沟桥后全面战争。",
+        "note_en": "Full war after Marco Polo Bridge."
+      },
+      {
+        "id": "wuhan_1938",
+        "label_zh": "1938：武汉与重庆",
+        "label_en": "1938: Wuhan and Chongqing",
+        "year": 1938,
+        "place_id": "",
+        "lat": 30.6,
+        "lng": 114.3,
+        "note_zh": "正面与敌后战场并存。",
+        "note_en": "Front-line and rear-area resistance coexist."
+      },
+      {
+        "id": "hundred_1940",
+        "label_zh": "1940：百团大战",
+        "label_en": "1940: Hundred Regiments",
+        "year": 1940,
+        "place_id": "",
+        "lat": 37.9,
+        "lng": 113.6,
+        "note_zh": "八路军打击华北交通线。",
+        "note_en": "Eighth Route Army strikes north China lines."
+      },
+      {
+        "id": "victory_1945",
+        "label_zh": "1945：抗战胜利",
+        "label_en": "1945: Victory",
+        "year": 1945,
+        "place_id": "",
+        "lat": 32.0,
+        "lng": 118.8,
+        "note_zh": "日本投降。",
+        "note_en": "Japan surrenders."
+      },
+      {
+        "id": "civil_1946",
+        "label_zh": "1946：内战爆发",
+        "label_en": "1946: Civil War Resumes",
+        "year": 1946,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "战后和平失败。",
+        "note_en": "Postwar peace fails."
+      },
+      {
+        "id": "turning_1948",
+        "label_zh": "1948：内战转折",
+        "label_en": "1948: Civil War Turning Point",
+        "year": 1948,
+        "place_id": "",
+        "lat": 41.8,
+        "lng": 123.4,
+        "note_zh": "三大战役改变局势。",
+        "note_en": "Major campaigns shift the war."
+      },
+      {
+        "id": "founding_1949",
+        "label_zh": "1949：政权转换",
+        "label_en": "1949: Political Transition",
+        "year": 1949,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "中华人民共和国成立，国民政府迁台。",
+        "note_en": "PRC founded; ROC retreats to Taiwan."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "republic_1912",
+        "title_zh": "民国建立：帝制结束后的新问题",
+        "title_en": "Republic Founded: New Problems after Empire",
+        "year": 1912,
+        "event_id": "republic_founded_1912",
+        "route_point_id": "republic_1912",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_great_mongol_state",
+          "cliopatria_tibet",
+          "cliopatria_empire_of_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1912 年中华民国建立，清帝退位。但共和不是自动稳定，边疆、军队、财政和中央权威都要重新安排。",
+        "script_en": "In 1912 the ROC was founded and Qing abdicated. But republic did not mean instant stability; frontier, army, finance, and central authority all needed rebuilding.",
+        "scene_setting_zh": "民国建立：帝制结束后的新问题",
+        "scene_setting_en": "Republic Founded: New Problems after Empire",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "sun",
+          "yuan"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "yuan_1916",
+        "title_zh": "袁世凯称帝：共和未稳即军阀化",
+        "title_en": "Yuan Shikai’s Empire: Republic Unstable, Warlord Era Begins",
+        "year": 1916,
+        "event_id": "yuan_shikai_empire_1916",
+        "route_point_id": "yuan_1916",
+        "highlight_territory_ids": [
+          "cliopatria_empire_of_china",
+          "cliopatria_great_mongol_state",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1916 年袁世凯称帝失败。Cliopatria 用“中华帝国”层表现这个短暂回潮；之后民国迅速进入北洋军阀政治。",
+        "script_en": "In 1916 Yuan’s imperial bid failed. Cliopatria shows this brief reversal as Empire of China; afterward the Republic rapidly entered Beiyang warlord politics.",
+        "scene_setting_zh": "袁世凯称帝：共和未稳即军阀化",
+        "scene_setting_en": "Yuan Shikai’s Empire: Republic Unstable, Warlord Era Begins",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "yuan"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "ccp_1921",
+        "title_zh": "共产党成立：新政治力量进入民国",
+        "title_en": "CCP Founded: New Political Force Enters the Republic",
+        "year": 1921,
+        "event_id": "ccp_founding_1921",
+        "route_point_id": "ccp_1921",
+        "highlight_territory_ids": [
+          "cliopatria_kuomintang",
+          "cliopatria_empire_of_japan",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1921 年中国共产党成立。地图上还看不出它的独立空间，但它会在之后的抗战和内战中改变全国格局。",
+        "script_en": "The CCP was founded in 1921. The map does not yet show its independent space, but it will reshape the country in later war and civil war.",
+        "scene_setting_zh": "共产党成立：新政治力量进入民国",
+        "scene_setting_en": "CCP Founded: New Political Force Enters the Republic",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "chen",
+          "li",
+          "mao",
+          "sun"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "nanjing_1927",
+        "title_zh": "南京国民政府：统一进程与国共分裂并行",
+        "title_en": "Nanjing Government: Unification and KMT-CCP Split",
+        "year": 1927,
+        "event_id": "nanjing_government_1927",
+        "route_point_id": "nanjing_1927",
+        "highlight_territory_ids": [
+          "cliopatria_kuomintang",
+          "cliopatria_empire_of_japan",
+          "cliopatria_mongolian_people_s_republic",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "北伐推动国民政府形成，但国共合作破裂。1927 年既是国家统一进程，也是下一轮内战的开端。",
+        "script_en": "The Northern Expedition helped form the Nationalist government, but KMT-CCP cooperation collapsed. 1927 is both unification process and beginning of the next civil conflict.",
+        "scene_setting_zh": "南京国民政府：统一进程与国共分裂并行",
+        "scene_setting_en": "Nanjing Government: Unification and KMT-CCP Split",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "chiang",
+          "mao"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "mukden_1931",
+        "title_zh": "九一八：日本侵华升级",
+        "title_en": "Mukden: Japanese Aggression Escalates",
+        "year": 1931,
+        "event_id": "mukden_incident_1931",
+        "route_point_id": "mukden_1931",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_empire_of_japan",
+          "cliopatria_mongolian_people_s_republic",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1931 年九一八事变后东北失守。Cliopatria 没有单独显示满洲国层，但中华民国和日本帝国的相邻关系已经足够说明危机升级。",
+        "script_en": "After the Mukden Incident in 1931, Manchuria was lost. Cliopatria does not show a separate Manchukuo layer, but ROC and Japanese Empire together show the crisis escalation.",
+        "scene_setting_zh": "九一八：日本侵华升级",
+        "scene_setting_en": "Mukden: Japanese Aggression Escalates",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "xueliang",
+          "hirohito"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "war_1937",
+        "title_zh": "全面抗战：国共再次合作",
+        "title_en": "Full War: KMT and CCP Cooperate Again",
+        "year": 1937,
+        "event_id": "marco_polo_bridge_1937",
+        "route_point_id": "war_1937",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_empire_of_japan",
+          "cliopatria_mongolian_people_s_republic",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "卢沟桥后全面抗战爆发。国共在外部压力下形成第二次合作，但彼此矛盾并未消失。",
+        "script_en": "After Marco Polo Bridge, full war erupted. KMT and CCP formed a second united front under external pressure, but their conflict did not disappear.",
+        "scene_setting_zh": "全面抗战：国共再次合作",
+        "scene_setting_en": "Full War: KMT and CCP Cooperate Again",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "chiang",
+          "zhou",
+          "hirohito"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "wuhan_1938",
+        "title_zh": "武汉与重庆：正面战场、敌后和分裂风险",
+        "title_en": "Wuhan and Chongqing: Front, Rear, and Split Risk",
+        "year": 1938,
+        "event_id": "wuhan_chongqing_1938",
+        "route_point_id": "wuhan_1938",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_communist_party_of_china",
+          "cliopatria_empire_of_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1938 年地图上已经能看到中华民国、日本帝国和共产党根据地。抗战变成正面战场、敌后战场与政治分裂风险同时存在。",
+        "script_en": "In 1938 the map shows ROC, Japan, and CCP base areas. The war now includes front-line war, behind-lines resistance, and political split risk.",
+        "scene_setting_zh": "武汉与重庆：正面战场、敌后和分裂风险",
+        "scene_setting_en": "Wuhan and Chongqing: Front, Rear, and Split Risk",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "chiang",
+          "mao",
+          "wang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "hundred_1940",
+        "title_zh": "百团大战：敌后战场的高光节点",
+        "title_en": "Hundred Regiments: Major Rear-Area Resistance Node",
+        "year": 1940,
+        "event_id": "hundred_regiments_1940",
+        "route_point_id": "hundred_1940",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_communist_party_of_china",
+          "cliopatria_empire_of_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1940 年百团大战爆发，八路军集中打击华北日军交通线。它说明敌后战场不是宣传背景，而是抗战军事结构的一部分。",
+        "script_en": "In 1940 the Hundred Regiments Offensive struck Japanese transport lines in north China. It shows rear-area resistance was not just propaganda but part of the military structure of the war.",
+        "scene_setting_zh": "百团大战：敌后战场的高光节点",
+        "scene_setting_en": "Hundred Regiments: Major Rear-Area Resistance Node",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "peng",
+          "zhu",
+          "mao"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "victory_1945",
+        "title_zh": "抗战胜利：和平没有自动到来",
+        "title_en": "Victory over Japan: Peace Does Not Automatically Arrive",
+        "year": 1945,
+        "event_id": "war_victory_1945",
+        "route_point_id": "victory_1945",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_communist_party_of_china",
+          "cliopatria_empire_of_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1945 年日本投降。抗战胜利后，中华民国、共产党根据地和国际力量重新洗牌，国共冲突很快回到中心。",
+        "script_en": "Japan surrendered in 1945. After victory, ROC, CCP base areas, and international forces reshuffled, and KMT-CCP conflict soon returned to the center.",
+        "scene_setting_zh": "抗战胜利：和平没有自动到来",
+        "scene_setting_en": "Victory over Japan: Peace Does Not Automatically Arrive",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "chiang",
+          "mao",
+          "hirohito"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "civil_1946",
+        "title_zh": "国共内战：战时同盟破裂",
+        "title_en": "Civil War Resumes: Wartime Alliance Breaks",
+        "year": 1946,
+        "event_id": "civil_war_resumes_1946",
+        "route_point_id": "civil_1946",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_communist_party_of_china",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1946 年全面内战爆发。日本退出后，地图叙事核心变成中华民国与共产党力量之间的竞争。",
+        "script_en": "Full civil war resumed in 1946. After Japan exited, the map narrative centers on competition between ROC and CCP forces.",
+        "scene_setting_zh": "国共内战：战时同盟破裂",
+        "scene_setting_en": "Civil War Resumes: Wartime Alliance Breaks",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "chiang",
+          "mao",
+          "zhou"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "turning_1948",
+        "title_zh": "三大战役前后：内战形势逆转",
+        "title_en": "Major Campaigns: Civil War Turns",
+        "year": 1948,
+        "event_id": "civil_war_turning_1948",
+        "route_point_id": "turning_1948",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_communist_party_of_china",
+          "cliopatria_mongolian_people_s_republic",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1948 年共产党控制区扩大，国民政府控制空间收缩。辽沈、淮海、平津等战役使 1949 的转换成为现实。",
+        "script_en": "In 1948 CCP-controlled areas expanded and Nationalist control contracted. Liaoshen, Huaihai, and Pingjin made the 1949 transition real.",
+        "scene_setting_zh": "三大战役前后：内战形势逆转",
+        "scene_setting_en": "Major Campaigns: Civil War Turns",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "mao",
+          "chiang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "founding_1949",
+        "title_zh": "1949：民国大陆时期结束",
+        "title_en": "1949: Mainland Republic Era Ends",
+        "year": 1949,
+        "event_id": "prc_founding_1949",
+        "route_point_id": "founding_1949",
+        "highlight_territory_ids": [
+          "republic_of_china",
+          "cliopatria_communist_party_of_china",
+          "cliopatria_mongolian_people_s_republic",
+          "cliopatria_tibet"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.4
+        },
+        "script_zh": "1949 年中华人民共和国成立，国民政府迁台。Cliopatria 仍用共产党控制区与中华民国层表现转换，但叙事上民国大陆时期结束。",
+        "script_en": "In 1949 the PRC was founded and the Nationalist government retreated to Taiwan. Cliopatria still uses CCP control and ROC layers, but narratively the mainland Republic era ends.",
+        "scene_setting_zh": "1949：民国大陆时期结束",
+        "scene_setting_en": "1949: Mainland Republic Era Ends",
+        "character_beat_zh": "民国在共和、战争、统一战线和内战之间不断重组，最终走向 1949 政权转换。",
+        "character_beat_en": "The Republic era reorganizes through republicanism, war, united fronts, and civil war, leading to the 1949 transition.",
+        "story_question_zh": "民国为什么从共和理想走向抗战和内战，并在 1949 发生政权转换？",
+        "story_question_en": "Why did the Republic move from republican ideals into anti-Japanese war and civil war, ending in the 1949 transition?",
+        "active_character_ids": [
+          "mao",
+          "chiang",
+          "zhou"
+        ],
+        "interactions": []
+      }
+    ],
+    "characters": [
+      {
+        "id": "sun",
+        "person_id": "sun_yat_sen",
+        "label_zh": "孙中山",
+        "label_en": "Sun Yat-sen",
+        "role_zh": "民国创建者",
+        "role_en": "Republic founder",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "孙",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "yuan",
+        "person_id": "yuan_shikai",
+        "label_zh": "袁世凯",
+        "label_en": "Yuan Shikai",
+        "role_zh": "北洋强人",
+        "role_en": "Beiyang strongman",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "袁",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "chen",
+        "person_id": "chen_duxiu",
+        "label_zh": "陈独秀",
+        "label_en": "Chen Duxiu",
+        "role_zh": "共产党早期创始人",
+        "role_en": "Early CCP founder",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "陈",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "li",
+        "person_id": "li_dazhao",
+        "label_zh": "李大钊",
+        "label_en": "Li Dazhao",
+        "role_zh": "马克思主义传播者",
+        "role_en": "Marxism transmitter",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "李",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "chiang",
+        "person_id": "chiang_kai_shek",
+        "label_zh": "蒋介石",
+        "label_en": "Chiang Kai-shek",
+        "role_zh": "国民政府领袖",
+        "role_en": "Nationalist leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "蒋",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "mao",
+        "person_id": "mao_zedong",
+        "label_zh": "毛泽东",
+        "label_en": "Mao Zedong",
+        "role_zh": "共产党领袖",
+        "role_en": "CCP leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "毛",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "zhou",
+        "person_id": "zhou_enlai",
+        "label_zh": "周恩来",
+        "label_en": "Zhou Enlai",
+        "role_zh": "统一战线与建国人物",
+        "role_en": "United front and state founding figure",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "周",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "zhu",
+        "person_id": "zhu_de",
+        "label_zh": "朱德",
+        "label_en": "Zhu De",
+        "role_zh": "八路军统帅",
+        "role_en": "Eighth Route commander",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "朱",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "peng",
+        "person_id": "peng_dehuai",
+        "label_zh": "彭德怀",
+        "label_en": "Peng Dehuai",
+        "role_zh": "百团大战指挥者",
+        "role_en": "Hundred Regiments commander",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "彭",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "xueliang",
+        "person_id": "zhang_xueliang",
+        "label_zh": "张学良",
+        "label_en": "Zhang Xueliang",
+        "role_zh": "东北军将领",
+        "role_en": "Northeast Army general",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "张",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "wang",
+        "person_id": "wang_jingwei",
+        "label_zh": "汪精卫",
+        "label_en": "Wang Jingwei",
+        "role_zh": "战时分裂人物",
+        "role_en": "Wartime collaborator figure",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "汪",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      },
+      {
+        "id": "hirohito",
+        "person_id": "hirohito",
+        "label_zh": "昭和天皇",
+        "label_en": "Hirohito",
+        "role_zh": "日本战争时期天皇",
+        "role_en": "Japanese wartime emperor",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "日",
+        "goal_zh": "串联民国从共和建构到抗日、内战和 1949 转换。",
+        "goal_en": "Connect the Republic era from republican construction to anti-Japanese war, civil war, and 1949 transition."
+      }
+    ]
+  },
+  {
+    "id": "prc_modern_china_story",
+    "title_zh": "中华人民共和国：建国、改革开放与现代中国",
+    "title_en": "People’s Republic of China: Founding, Reform, and Modern China",
+    "emoji": "🇨🇳",
+    "theme_type": "dynastic_transition",
+    "description_zh": "从 1949 政权转换和 1950 年中华人民共和国地图层出现开始，讲抗美援朝、工业化与社会主义改造、大跃进、文化大革命、恢复联合国席位、中美关系破冰、改革开放、港澳回归、加入世贸、北京奥运和 21 世纪现代中国。",
+    "description_en": "From the 1949 transition and the PRC map layer appearing in 1950, this storyline follows the Korean War, industrialization and socialist transformation, Great Leap, Cultural Revolution, UN seat, US-China thaw, Reform and Opening, Hong Kong and Macau, WTO entry, Beijing Olympics, and modern 21st-century China.",
+    "source_note_zh": "地图边界使用 Cliopatria 中华人民共和国、中华民国、美国、苏联/俄罗斯、日本、朝鲜半岛和蒙古等参考层；港澳回归等节点在 Cliopatria 大层中不细拆，故事文本中说明其政治意义。",
+    "source_note_en": "Map boundaries use Cliopatria layers for PRC, ROC, United States, Soviet Union/Russia, Japan, Korea, Mongolia, and others; Hong Kong and Macau are not separately split in the broad Cliopatria layer, so their political significance is described in story text.",
+    "events": [
+      "prc_founding_1949",
+      "prc_map_1950",
+      "korean_war_1950",
+      "first_five_year_plan_1953",
+      "socialist_transformation_1956",
+      "great_leap_forward_1958",
+      "cultural_revolution_1966",
+      "un_seat_1971",
+      "nixon_visit_1972",
+      "reform_opening_1978",
+      "sino_british_joint_declaration_1984",
+      "deng_southern_tour_1992",
+      "hong_kong_handover_1997",
+      "macau_handover_1999",
+      "china_wto_2001",
+      "beijing_olympics_2008",
+      "new_era_2012",
+      "contemporary_china_2020"
+    ],
+    "people": [
+      "mao_zedong",
+      "zhou_enlai",
+      "peng_dehuai",
+      "liu_shaoqi",
+      "deng_xiaoping",
+      "jiang_zemin",
+      "hu_jintao",
+      "xi_jinping"
+    ],
+    "territories": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_united_states_of_america",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_russian_federation",
+      "cliopatria_japan",
+      "cliopatria_democratic_people_s_republic_of_korea",
+      "cliopatria_republic_of_korea",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_mongolia"
+    ],
+    "route_points": [
+      {
+        "id": "prc_found_1949",
+        "label_zh": "1949：新政权成立",
+        "label_en": "1949: New State Founded",
+        "year": 1949,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "政权转换，地图仍是过渡层。",
+        "note_en": "Political transition; the map still uses transition layers."
+      },
+      {
+        "id": "prc_map_1950",
+        "label_zh": "1950：中华人民共和国层出现",
+        "label_en": "1950: PRC Layer Appears",
+        "year": 1950,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "现代中国地图正式出现。",
+        "note_en": "Modern China appears as a map layer."
+      },
+      {
+        "id": "korea_1950",
+        "label_zh": "1950：抗美援朝",
+        "label_en": "1950: Korean War",
+        "year": 1950,
+        "place_id": "",
+        "lat": 39.0,
+        "lng": 125.8,
+        "note_zh": "冷战压到东北亚。",
+        "note_en": "Cold War pressure reaches Northeast Asia."
+      },
+      {
+        "id": "plan_1953",
+        "label_zh": "1953：工业化起步",
+        "label_en": "1953: Industrialization Begins",
+        "year": 1953,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "第一个五年计划。",
+        "note_en": "First Five-Year Plan."
+      },
+      {
+        "id": "socialist_1956",
+        "label_zh": "1956：社会主义改造",
+        "label_en": "1956: Socialist Transformation",
+        "year": 1956,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "制度成型。",
+        "note_en": "Institutions take shape."
+      },
+      {
+        "id": "leap_1958",
+        "label_zh": "1958：大跃进",
+        "label_en": "1958: Great Leap",
+        "year": 1958,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "高强度动员。",
+        "note_en": "High-intensity mobilization."
+      },
+      {
+        "id": "cr_1966",
+        "label_zh": "1966：文化大革命",
+        "label_en": "1966: Cultural Revolution",
+        "year": 1966,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "内部动荡。",
+        "note_en": "Domestic upheaval."
+      },
+      {
+        "id": "un_1971",
+        "label_zh": "1971：恢复联合国席位",
+        "label_en": "1971: UN Seat",
+        "year": 1971,
+        "place_id": "",
+        "lat": 40.7,
+        "lng": -74.0,
+        "note_zh": "国际位置变化。",
+        "note_en": "International position changes."
+      },
+      {
+        "id": "us_1972",
+        "label_zh": "1972：中美破冰",
+        "label_en": "1972: US-China Thaw",
+        "year": 1972,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "冷战三角重组。",
+        "note_en": "Cold War triangle reshapes."
+      },
+      {
+        "id": "reform_1978",
+        "label_zh": "1978：改革开放",
+        "label_en": "1978: Reform and Opening",
+        "year": 1978,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "发展路径转折。",
+        "note_en": "Development path turns."
+      },
+      {
+        "id": "hk_1984",
+        "label_zh": "1984：香港安排",
+        "label_en": "1984: Hong Kong Framework",
+        "year": 1984,
+        "place_id": "",
+        "lat": 22.3,
+        "lng": 114.2,
+        "note_zh": "一国两制进入安排。",
+        "note_en": "One Country, Two Systems framework."
+      },
+      {
+        "id": "south_1992",
+        "label_zh": "1992：南方谈话",
+        "label_en": "1992: Southern Tour",
+        "year": 1992,
+        "place_id": "",
+        "lat": 22.5,
+        "lng": 114.1,
+        "note_zh": "改革重新加速。",
+        "note_en": "Reform accelerates again."
+      },
+      {
+        "id": "hk_1997",
+        "label_zh": "1997：香港回归",
+        "label_en": "1997: Hong Kong Returns",
+        "year": 1997,
+        "place_id": "",
+        "lat": 22.3,
+        "lng": 114.2,
+        "note_zh": "主权恢复节点。",
+        "note_en": "Sovereignty restoration node."
+      },
+      {
+        "id": "macau_1999",
+        "label_zh": "1999：澳门回归",
+        "label_en": "1999: Macau Returns",
+        "year": 1999,
+        "place_id": "",
+        "lat": 22.2,
+        "lng": 113.5,
+        "note_zh": "港澳回归完成。",
+        "note_en": "Hong Kong-Macau return completes."
+      },
+      {
+        "id": "wto_2001",
+        "label_zh": "2001：加入世贸",
+        "label_en": "2001: WTO Entry",
+        "year": 2001,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "进入全球贸易体系。",
+        "note_en": "Entered global trade system."
+      },
+      {
+        "id": "olympics_2008",
+        "label_zh": "2008：北京奥运",
+        "label_en": "2008: Beijing Olympics",
+        "year": 2008,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "全球展示。",
+        "note_en": "Global presentation."
+      },
+      {
+        "id": "new_2012",
+        "label_zh": "2012：新时代",
+        "label_en": "2012: New Era",
+        "year": 2012,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "进入新的发展阶段。",
+        "note_en": "New development stage."
+      },
+      {
+        "id": "modern_2020",
+        "label_zh": "2020：现代中国",
+        "label_en": "2020: Modern China",
+        "year": 2020,
+        "place_id": "",
+        "lat": 39.9,
+        "lng": 116.4,
+        "note_zh": "全球格局重组。",
+        "note_en": "Global order reshapes."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "founding_1949",
+        "title_zh": "1949：中华人民共和国成立",
+        "title_en": "1949: PRC Founded",
+        "year": 1949,
+        "event_id": "prc_founding_1949",
+        "route_point_id": "prc_found_1949",
+        "highlight_territory_ids": [
+          "cliopatria_communist_party_of_china",
+          "republic_of_china"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "1949 年中华人民共和国成立，国民政府迁台。Cliopatria 这一年仍使用共产党控制区和中华民国层表现转换，因此本章是民国主线与现代中国主线的接点。",
+        "script_en": "In 1949 the PRC was founded and the Nationalist government retreated to Taiwan. Cliopatria still uses CCP control and ROC layers, making this chapter the bridge from the Republic story to modern China.",
+        "scene_setting_zh": "1949：中华人民共和国成立",
+        "scene_setting_en": "1949: PRC Founded",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "zhou"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "prc_map_1950",
+        "title_zh": "1950：中华人民共和国地图正式出现",
+        "title_en": "1950: PRC Map Layer Appears",
+        "year": 1950,
+        "event_id": "prc_map_1950",
+        "route_point_id": "prc_map_1950",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_democratic_people_s_republic_of_korea",
+          "cliopatria_republic_of_korea",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "1950 年 Cliopatria 开始显示中华人民共和国层，同时台湾保留中华民国层。现代中国的地图叙事从大陆、台湾和冷战东北亚同时展开。",
+        "script_en": "In 1950 Cliopatria begins showing the PRC layer while Taiwan remains under the ROC layer. Modern China’s map story begins with mainland China, Taiwan, and Cold War Northeast Asia together.",
+        "scene_setting_zh": "1950：中华人民共和国地图正式出现",
+        "scene_setting_en": "1950: PRC Map Layer Appears",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "zhou"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "korean_war_1950",
+        "title_zh": "抗美援朝：现代中国进入冷战东北亚",
+        "title_en": "Korean War: Modern China Enters Cold War Northeast Asia",
+        "year": 1950,
+        "event_id": "korean_war_1950",
+        "route_point_id": "korea_1950",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "cliopatria_democratic_people_s_republic_of_korea",
+          "cliopatria_republic_of_korea",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "republic_of_china"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "朝鲜战争把新中国直接带入冷战前线。地图上中、美、苏、朝韩同屏，说明现代中国早期安全环境的外部压力。",
+        "script_en": "The Korean War brought the new China directly into the Cold War front line. China, the US, USSR, and Koreas appear together, showing early external security pressure.",
+        "scene_setting_zh": "抗美援朝：现代中国进入冷战东北亚",
+        "scene_setting_en": "Korean War: Modern China Enters Cold War Northeast Asia",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "zhou",
+          "peng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "first_plan_1953",
+        "title_zh": "1953：工业化与国家能力建设",
+        "title_en": "1953: Industrialization and State Capacity",
+        "year": 1953,
+        "event_id": "first_five_year_plan_1953",
+        "route_point_id": "plan_1953",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_democratic_people_s_republic_of_korea",
+          "cliopatria_republic_of_korea",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "朝鲜停战后，国内建设成为中心。第一个五年计划把国家目标转向工业化、计划体系和重工业基础。",
+        "script_en": "After the Korean armistice, domestic construction became central. The First Five-Year Plan turned the state toward industrialization, planning, and heavy industry.",
+        "scene_setting_zh": "1953：工业化与国家能力建设",
+        "scene_setting_en": "1953: Industrialization and State Capacity",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "zhou"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "socialist_1956",
+        "title_zh": "1956：社会主义制度成型",
+        "title_en": "1956: Socialist System Takes Shape",
+        "year": 1956,
+        "event_id": "socialist_transformation_1956",
+        "route_point_id": "socialist_1956",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "社会主义改造基本完成，边界变化不大，但经济制度、所有制和社会组织方式发生重大变化。",
+        "script_en": "Socialist transformation was largely completed. Borders changed little, but economic institutions, ownership, and social organization changed deeply.",
+        "scene_setting_zh": "1956：社会主义制度成型",
+        "scene_setting_en": "1956: Socialist System Takes Shape",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "liu",
+          "zhou"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "leap_1958",
+        "title_zh": "1958：大跃进与高强度动员",
+        "title_en": "1958: Great Leap and High Mobilization",
+        "year": 1958,
+        "event_id": "great_leap_forward_1958",
+        "route_point_id": "leap_1958",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "大跃进和人民公社化展开，发展道路出现激进转向。这里用稳定地图讲内部政策的剧烈变化。",
+        "script_en": "The Great Leap and commune movement began, marking a radical turn in development path. A stable map here tells a story of intense internal policy change.",
+        "scene_setting_zh": "1958：大跃进与高强度动员",
+        "scene_setting_en": "1958: Great Leap and High Mobilization",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "peng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "cultural_1966",
+        "title_zh": "1966：文化大革命开始",
+        "title_en": "1966: Cultural Revolution Begins",
+        "year": 1966,
+        "event_id": "cultural_revolution_1966",
+        "route_point_id": "cr_1966",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "文化大革命开启，国内政治和社会秩序剧烈动荡。现代中国主线在这里进入深刻内转阶段。",
+        "script_en": "The Cultural Revolution began, bringing intense political and social upheaval. Modern China’s story enters a deep internal turn here.",
+        "scene_setting_zh": "1966：文化大革命开始",
+        "scene_setting_en": "1966: Cultural Revolution Begins",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "liu"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "un_1971",
+        "title_zh": "1971：国际承认格局变化",
+        "title_en": "1971: International Recognition Changes",
+        "year": 1971,
+        "event_id": "un_seat_1971",
+        "route_point_id": "un_1971",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "中华人民共和国恢复联合国席位，中华民国在国际体系中的位置发生重大变化。地图上大陆与台湾仍分层，但国际代表权已经转换。",
+        "script_en": "The PRC took China’s UN seat, changing the ROC’s international position. The map still separates mainland and Taiwan, but international representation has shifted.",
+        "scene_setting_zh": "1971：国际承认格局变化",
+        "scene_setting_en": "1971: International Recognition Changes",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "zhou"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "nixon_1972",
+        "title_zh": "1972：中美关系破冰",
+        "title_en": "1972: US-China Thaw",
+        "year": 1972,
+        "event_id": "nixon_visit_1972",
+        "route_point_id": "us_1972",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "尼克松访华让冷战三角关系重组。中国的国际位置从单一对峙转向更复杂的战略平衡。",
+        "script_en": "Nixon’s visit reshaped Cold War triangular diplomacy. China’s international position shifted from simple confrontation to more complex strategic balancing.",
+        "scene_setting_zh": "1972：中美关系破冰",
+        "scene_setting_en": "1972: US-China Thaw",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "mao",
+          "zhou"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "reform_1978",
+        "title_zh": "1978：改革开放开始",
+        "title_en": "1978: Reform and Opening Begins",
+        "year": 1978,
+        "event_id": "reform_opening_1978",
+        "route_point_id": "reform_1978",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "十一届三中全会后，现代中国进入改革开放阶段。地图边界稳定，但发展路径、市场机制和对外连接方式开始改变。",
+        "script_en": "After the Third Plenum, modern China entered Reform and Opening. Borders remain stable, but development path, market mechanisms, and external connections begin to change.",
+        "scene_setting_zh": "1978：改革开放开始",
+        "scene_setting_en": "1978: Reform and Opening Begins",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "deng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "joint_1984",
+        "title_zh": "1984：香港回归安排与一国两制",
+        "title_en": "1984: Hong Kong Framework and One Country, Two Systems",
+        "year": 1984,
+        "event_id": "sino_british_joint_declaration_1984",
+        "route_point_id": "hk_1984",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_union_of_soviet_socialist_republics",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "中英联合声明签署，香港回归进入制度安排阶段。Cliopatria 不细拆香港边界，但故事上这是主权恢复的重要准备。",
+        "script_en": "The Sino-British Joint Declaration set the framework for Hong Kong’s return. Cliopatria does not split Hong Kong separately, but narratively this prepares sovereignty restoration.",
+        "scene_setting_zh": "1984：香港回归安排与一国两制",
+        "scene_setting_en": "1984: Hong Kong Framework and One Country, Two Systems",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "deng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "southern_1992",
+        "title_zh": "1992：南方谈话与改革再启动",
+        "title_en": "1992: Southern Tour and Reform Relaunch",
+        "year": 1992,
+        "event_id": "deng_southern_tour_1992",
+        "route_point_id": "south_1992",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_russian_federation",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan",
+          "cliopatria_mongolia"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "苏联解体后世界格局变化，邓小平南方谈话推动改革重新加速。现代中国进入后冷战全球化阶段。",
+        "script_en": "After the Soviet collapse, the world changed; Deng’s southern tour accelerated reform again. Modern China entered the post-Cold War globalization stage.",
+        "scene_setting_zh": "1992：南方谈话与改革再启动",
+        "scene_setting_en": "1992: Southern Tour and Reform Relaunch",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "deng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "hongkong_1997",
+        "title_zh": "1997：香港回归",
+        "title_en": "1997: Hong Kong Returns",
+        "year": 1997,
+        "event_id": "hong_kong_handover_1997",
+        "route_point_id": "hk_1997",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_russian_federation",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan",
+          "cliopatria_mongolia"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "香港回归中华人民共和国。地图大层不细分港澳，但主权、制度和国家叙事在这里发生重要变化。",
+        "script_en": "Hong Kong returned to the PRC. The broad map layer does not split Hong Kong/Macau, but sovereignty, institutions, and national narrative change here.",
+        "scene_setting_zh": "1997：香港回归",
+        "scene_setting_en": "1997: Hong Kong Returns",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "jiang",
+          "deng"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "macau_1999",
+        "title_zh": "1999：澳门回归",
+        "title_en": "1999: Macau Returns",
+        "year": 1999,
+        "event_id": "macau_handover_1999",
+        "route_point_id": "macau_1999",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_russian_federation",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan",
+          "cliopatria_mongolia"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "澳门回归，港澳回归叙事完成。现代中国的统一、开放和制度安排在 1990 年代末集中呈现。",
+        "script_en": "Macau returned, completing the Hong Kong-Macau return narrative. Unity, openness, and institutional arrangements converge at the end of the 1990s.",
+        "scene_setting_zh": "1999：澳门回归",
+        "scene_setting_en": "1999: Macau Returns",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "jiang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "wto_2001",
+        "title_zh": "2001：加入世贸组织",
+        "title_en": "2001: WTO Entry",
+        "year": 2001,
+        "event_id": "china_wto_2001",
+        "route_point_id": "wto_2001",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_russian_federation",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan",
+          "cliopatria_mongolia"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "中国加入 WTO，深度进入全球贸易体系。现代中国从改革开放进入全球产业链和世界市场叙事。",
+        "script_en": "China joined the WTO and entered the global trade system more deeply. Modern China moves from Reform and Opening into global supply chains and world markets.",
+        "scene_setting_zh": "2001：加入世贸组织",
+        "scene_setting_en": "2001: WTO Entry",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "jiang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "olympics_2008",
+        "title_zh": "2008：北京奥运会",
+        "title_en": "2008: Beijing Olympics",
+        "year": 2008,
+        "event_id": "beijing_olympics_2008",
+        "route_point_id": "olympics_2008",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_russian_federation",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan",
+          "cliopatria_mongolia"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "北京奥运会是改革开放成果和国家形象的集中展示。地图上中国与主要世界力量同屏，适合呈现全球连接。",
+        "script_en": "The Beijing Olympics showcased Reform-era achievements and national image. The map places China with major world powers, showing global connection.",
+        "scene_setting_zh": "2008：北京奥运会",
+        "scene_setting_en": "2008: Beijing Olympics",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "hu"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "new_era_2012",
+        "title_zh": "2012：新时代开启",
+        "title_en": "2012: New Era Begins",
+        "year": 2012,
+        "event_id": "new_era_2012",
+        "route_point_id": "new_2012",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_russian_federation",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan",
+          "cliopatria_mongolia"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "2012 年后，中国进入新的政治和发展阶段。叙事重点转向治理、长期战略和全球角色。",
+        "script_en": "After 2012, China entered a new political and development stage. The story turns toward governance, long-term strategy, and global role.",
+        "scene_setting_zh": "2012：新时代开启",
+        "scene_setting_en": "2012: New Era Begins",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "xi"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "modern_2020",
+        "title_zh": "2020：现代中国与全球格局",
+        "title_en": "2020: Modern China and Global Order",
+        "year": 2020,
+        "event_id": "contemporary_china_2020",
+        "route_point_id": "modern_2020",
+        "highlight_territory_ids": [
+          "cliopatria_people_s_republic_of_china",
+          "republic_of_china",
+          "cliopatria_russian_federation",
+          "cliopatria_united_states_of_america",
+          "cliopatria_japan",
+          "cliopatria_mongolia"
+        ],
+        "camera": {
+          "lat": 35.0,
+          "lng": 108.0,
+          "zoom": 3.3
+        },
+        "script_zh": "2020 年前后，中国处于全球格局重组、科技竞争和公共卫生冲击交织的时代。这里作为现代中国主线的当前端点。",
+        "script_en": "Around 2020, China sits amid global restructuring, technological competition, and public-health shock. This is the current endpoint of the modern China storyline.",
+        "scene_setting_zh": "2020：现代中国与全球格局",
+        "scene_setting_en": "2020: Modern China and Global Order",
+        "character_beat_zh": "中华人民共和国主线的重点不只是边界变化，而是国家建设、冷战位置、改革开放和全球角色的连续转换。",
+        "character_beat_en": "The PRC storyline is not only about border change, but the continuous transformation of state building, Cold War position, Reform and Opening, and global role.",
+        "story_question_zh": "现代中国如何从建国后的冷战压力，走向改革开放和 21 世纪全球格局中的新位置？",
+        "story_question_en": "How did modern China move from post-founding Cold War pressure toward Reform and Opening and a new position in the 21st-century global order?",
+        "active_character_ids": [
+          "xi"
+        ],
+        "interactions": []
+      }
+    ],
+    "characters": [
+      {
+        "id": "mao",
+        "person_id": "mao_zedong",
+        "label_zh": "毛泽东",
+        "label_en": "Mao Zedong",
+        "role_zh": "建国与早期社会主义建设领导人",
+        "role_en": "Founding and early socialist construction leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "毛",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      },
+      {
+        "id": "zhou",
+        "person_id": "zhou_enlai",
+        "label_zh": "周恩来",
+        "label_en": "Zhou Enlai",
+        "role_zh": "外交与建国领导人",
+        "role_en": "Diplomatic and founding leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "周",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      },
+      {
+        "id": "peng",
+        "person_id": "peng_dehuai",
+        "label_zh": "彭德怀",
+        "label_en": "Peng Dehuai",
+        "role_zh": "抗美援朝军事领导人",
+        "role_en": "Korean War military leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "彭",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      },
+      {
+        "id": "liu",
+        "person_id": "liu_shaoqi",
+        "label_zh": "刘少奇",
+        "label_en": "Liu Shaoqi",
+        "role_zh": "早期国家制度建设人物",
+        "role_en": "Early state-building figure",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "刘",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      },
+      {
+        "id": "deng",
+        "person_id": "deng_xiaoping",
+        "label_zh": "邓小平",
+        "label_en": "Deng Xiaoping",
+        "role_zh": "改革开放推动者",
+        "role_en": "Reform and Opening architect",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "邓",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      },
+      {
+        "id": "jiang",
+        "person_id": "jiang_zemin",
+        "label_zh": "江泽民",
+        "label_en": "Jiang Zemin",
+        "role_zh": "世纪之交领导人",
+        "role_en": "Turn-of-century leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "江",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      },
+      {
+        "id": "hu",
+        "person_id": "hu_jintao",
+        "label_zh": "胡锦涛",
+        "label_en": "Hu Jintao",
+        "role_zh": "21 世纪初领导人",
+        "role_en": "Early 21st-century leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "胡",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      },
+      {
+        "id": "xi",
+        "person_id": "xi_jinping",
+        "label_zh": "习近平",
+        "label_en": "Xi Jinping",
+        "role_zh": "新时代领导人",
+        "role_en": "New Era leader",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "习",
+        "goal_zh": "串联中华人民共和国从建国、冷战、改革开放到现代全球格局中的位置变化。",
+        "goal_en": "Connect the PRC from founding through the Cold War, Reform and Opening, and its modern global position."
+      }
+    ]
+  },
+  {
     "id": "silk_road_story",
     "title_zh": "丝绸之路的开拓",
     "title_en": "Opening the Silk Road",

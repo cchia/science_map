@@ -12793,5 +12793,1896 @@
       "editorial_internal_v1"
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "yuan_shikai_empire_1916",
+    "title": {
+      "primary": "Yuan Shikai Empire and Warlord Fragmentation",
+      "localized": {
+        "en": "Yuan Shikai Empire and Warlord Fragmentation",
+        "zh-Hans": "袁世凯称帝与军阀化"
+      }
+    },
+    "displayTitle": "袁世凯称帝与军阀化",
+    "start": {
+      "year": 1916,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1916年"
+    },
+    "end": {
+      "year": 1916,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1916年"
+    },
+    "territoryIds": [
+      "cliopatria_empire_of_china",
+      "cliopatria_great_mongol_state",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "袁世凯称帝失败并去世，民国迅速走向北洋军阀割据。",
+    "summaryEn": "Yuan Shikai’s failed imperial bid and death pushed the Republic toward Beiyang warlord fragmentation.",
+    "content": "1916 年 Cliopatria 使用“中华帝国”层表现袁世凯称帝。这个节点说明共和制度尚未稳固，中央权威迅速被军阀政治取代。",
+    "contentEn": "In 1916 Cliopatria uses an Empire of China layer for Yuan’s monarchy. The node shows republican institutions were not yet stable and central authority quickly gave way to warlord politics.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "袁世凯",
+      "军阀"
+    ],
+    "relatedPersonIds": [
+      "yuan_shikai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_empire_of_china",
+      "cliopatria_great_mongol_state",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ccp_founding_1921",
+    "title": {
+      "primary": "Chinese Communist Party Founded",
+      "localized": {
+        "en": "Chinese Communist Party Founded",
+        "zh-Hans": "中国共产党成立"
+      }
+    },
+    "displayTitle": "中国共产党成立",
+    "start": {
+      "year": 1921,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1921年"
+    },
+    "end": {
+      "year": 1921,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1921年"
+    },
+    "territoryIds": [
+      "cliopatria_kuomintang",
+      "cliopatria_empire_of_japan",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 31.2,
+    "lng": 121.5,
+    "summary": "中国共产党成立，新的政治力量进入民国格局。",
+    "summaryEn": "The Chinese Communist Party was founded, adding a new political force to the Republic’s landscape.",
+    "content": "1921 年地图层主要显示国民政府/国民党框架和列强同代背景，但政治上，一个后来改变全国格局的新组织已经出现。",
+    "contentEn": "The 1921 map mainly shows the Kuomintang/Nationalist frame and imperial context, but politically a new organization that would change China emerged.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "共产党",
+      "新文化"
+    ],
+    "relatedPersonIds": [
+      "chen_duxiu",
+      "li_dazhao",
+      "mao_zedong",
+      "sun_yat_sen"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_kuomintang",
+      "cliopatria_empire_of_japan",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "nanjing_government_1927",
+    "title": {
+      "primary": "Nanjing Nationalist Government",
+      "localized": {
+        "en": "Nanjing Nationalist Government",
+        "zh-Hans": "南京国民政府与国共分裂"
+      }
+    },
+    "displayTitle": "南京国民政府与国共分裂",
+    "start": {
+      "year": 1927,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1927年"
+    },
+    "end": {
+      "year": 1927,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1927年"
+    },
+    "territoryIds": [
+      "cliopatria_kuomintang",
+      "cliopatria_empire_of_japan",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "北伐推进后南京国民政府形成，国共合作破裂。",
+    "summaryEn": "After the Northern Expedition advanced, the Nanjing Nationalist Government formed and KMT-CCP cooperation collapsed.",
+    "content": "1927 年的民国不只是统一进程，也是新的分裂开端。南京政府建立，国共关系从合作转向冲突，内战伏线形成。",
+    "contentEn": "1927 was not only unification but a new split. The Nanjing government formed, KMT-CCP relations shifted from cooperation to conflict, and civil war seeds were planted.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "南京国民政府",
+      "国共分裂"
+    ],
+    "relatedPersonIds": [
+      "chiang_kai_shek",
+      "mao_zedong"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_kuomintang",
+      "cliopatria_empire_of_japan",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mukden_incident_1931",
+    "title": {
+      "primary": "Mukden Incident",
+      "localized": {
+        "en": "Mukden Incident",
+        "zh-Hans": "九一八事变"
+      }
+    },
+    "displayTitle": "九一八事变",
+    "start": {
+      "year": 1931,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1931年"
+    },
+    "end": {
+      "year": 1931,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1931年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 41.8,
+    "lng": 123.4,
+    "summary": "日本发动九一八事变，占领东北，局部抗战开始。",
+    "summaryEn": "Japan launched the Mukden Incident and occupied Manchuria, beginning localized resistance.",
+    "content": "Cliopatria 1931 年显示中华民国与日本帝国同图，但未单独给满洲国层。故事上，这里是东北失守和日本侵华升级的起点。",
+    "contentEn": "Cliopatria shows ROC and Japanese Empire together in 1931 but no separate Manchukuo layer. Narratively this marks Manchuria’s loss and escalation of Japanese aggression.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "九一八",
+      "东北"
+    ],
+    "relatedPersonIds": [
+      "zhang_xueliang",
+      "hirohito",
+      "emperor_xuantong_qing"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "marco_polo_bridge_1937",
+    "title": {
+      "primary": "Marco Polo Bridge Incident",
+      "localized": {
+        "en": "Marco Polo Bridge Incident",
+        "zh-Hans": "卢沟桥事变与全面抗战"
+      }
+    },
+    "displayTitle": "卢沟桥事变与全面抗战",
+    "start": {
+      "year": 1937,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1937年"
+    },
+    "end": {
+      "year": 1937,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1937年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 39.8,
+    "lng": 116.2,
+    "summary": "卢沟桥事变后中日战争全面爆发。",
+    "summaryEn": "After the Marco Polo Bridge Incident, full-scale war between China and Japan broke out.",
+    "content": "1937 年中华民国与日本帝国的边界关系变成全面战争。国共也在压力下形成第二次合作抗日。",
+    "contentEn": "In 1937 the ROC-Japan relationship became full-scale war. Under pressure, KMT and CCP formed a second united front.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "卢沟桥",
+      "全面抗战"
+    ],
+    "relatedPersonIds": [
+      "chiang_kai_shek",
+      "hirohito",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "second_united_front_1937",
+    "title": {
+      "primary": "Second United Front",
+      "localized": {
+        "en": "Second United Front",
+        "zh-Hans": "第二次国共合作"
+      }
+    },
+    "displayTitle": "第二次国共合作",
+    "start": {
+      "year": 1937,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1937年"
+    },
+    "end": {
+      "year": 1937,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1937年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 34.3,
+    "lng": 108.9,
+    "summary": "西安事变后国共走向合作抗日，第二次统一战线形成。",
+    "summaryEn": "After the Xi’an Incident, KMT and CCP moved toward cooperation against Japan, forming the Second United Front.",
+    "content": "统一战线并不消除国共矛盾，但它让抗日战争成为全国性政治框架。1938 以后地图会出现共产党根据地层。",
+    "contentEn": "The united front did not erase KMT-CCP conflict, but made the war against Japan a national political frame. From 1938 the map shows CCP base areas.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "统一战线"
+    ],
+    "relatedPersonIds": [
+      "chiang_kai_shek",
+      "zhang_xueliang",
+      "zhou_enlai",
+      "mao_zedong"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wuhan_chongqing_1938",
+    "title": {
+      "primary": "Wuhan Campaign and Wartime Chongqing",
+      "localized": {
+        "en": "Wuhan Campaign and Wartime Chongqing",
+        "zh-Hans": "武汉会战与重庆陪都"
+      }
+    },
+    "displayTitle": "武汉会战与重庆陪都",
+    "start": {
+      "year": 1938,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1938年"
+    },
+    "end": {
+      "year": 1938,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1938年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 30.6,
+    "lng": 114.3,
+    "summary": "武汉会战后国民政府转入重庆持久抗战，共产党敌后根据地扩大。",
+    "summaryEn": "After Wuhan, the Nationalist government continued long war from Chongqing while CCP base areas expanded behind Japanese lines.",
+    "content": "1938 年地图能同时看到中华民国、日本帝国和共产党根据地。抗战已经不是单一正面战场，而是正面、敌后和国际环境叠加。",
+    "contentEn": "In 1938 the map shows ROC, Japan, and CCP base areas together. The war was no longer only a front-line war, but front, rear-area resistance, and international context combined.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "武汉会战",
+      "重庆"
+    ],
+    "relatedPersonIds": [
+      "chiang_kai_shek",
+      "mao_zedong",
+      "wang_jingwei"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hundred_regiments_1940",
+    "title": {
+      "primary": "Hundred Regiments Offensive",
+      "localized": {
+        "en": "Hundred Regiments Offensive",
+        "zh-Hans": "百团大战"
+      }
+    },
+    "displayTitle": "百团大战",
+    "start": {
+      "year": 1940,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1940年"
+    },
+    "end": {
+      "year": 1940,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1940年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 37.9,
+    "lng": 113.6,
+    "summary": "八路军发动百团大战，打击华北日军交通线。",
+    "summaryEn": "The Eighth Route Army launched the Hundred Regiments Offensive against Japanese lines in north China.",
+    "content": "百团大战是敌后战场最重要的节点之一。1940 年地图上共产党根据地、日本帝国和中华民国并存，适合展示抗战的多战场结构。",
+    "contentEn": "The Hundred Regiments Offensive is a major behind-the-lines node. The 1940 map shows CCP bases, Japanese Empire, and ROC coexisting, showing the war’s multi-front structure.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "百团大战",
+      "敌后战场"
+    ],
+    "relatedPersonIds": [
+      "peng_dehuai",
+      "zhu_de",
+      "mao_zedong"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "war_victory_1945",
+    "title": {
+      "primary": "Victory over Japan",
+      "localized": {
+        "en": "Victory over Japan",
+        "zh-Hans": "抗日战争胜利"
+      }
+    },
+    "displayTitle": "抗日战争胜利",
+    "start": {
+      "year": 1945,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1945年"
+    },
+    "end": {
+      "year": 1945,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1945年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "placeIds": [],
+    "lat": 32.0,
+    "lng": 118.8,
+    "summary": "日本投降，抗日战争胜利，但国共内战阴影迅速出现。",
+    "summaryEn": "Japan surrendered and China won the war, but civil war quickly loomed.",
+    "content": "1945 年地图仍显示日本帝国的大范围战时框架，同时中华民国和共产党根据地并存。胜利并没有自动带来和平。",
+    "contentEn": "The 1945 map still shows the broad wartime Japanese frame, with ROC and CCP base areas. Victory did not automatically bring peace.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "抗战胜利"
+    ],
+    "relatedPersonIds": [
+      "chiang_kai_shek",
+      "mao_zedong",
+      "hirohito"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "civil_war_resumes_1946",
+    "title": {
+      "primary": "Chinese Civil War Resumes",
+      "localized": {
+        "en": "Chinese Civil War Resumes",
+        "zh-Hans": "国共内战全面爆发"
+      }
+    },
+    "displayTitle": "国共内战全面爆发",
+    "start": {
+      "year": 1946,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1946年"
+    },
+    "end": {
+      "year": 1946,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1946年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "抗战后谈判破裂，国共内战全面爆发。",
+    "summaryEn": "Postwar negotiations failed and the Chinese Civil War resumed fully.",
+    "content": "1946 年日本帝国退出中国战场，中华民国与共产党力量成为地图叙事核心。战时同盟转入全面内战。",
+    "contentEn": "By 1946 Japan exits the China battlefield and ROC-CCP power becomes central. The wartime alliance turns into full civil war.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "国共内战"
+    ],
+    "relatedPersonIds": [
+      "chiang_kai_shek",
+      "mao_zedong",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "civil_war_turning_1948",
+    "title": {
+      "primary": "Civil War Turning Point",
+      "localized": {
+        "en": "Civil War Turning Point",
+        "zh-Hans": "辽沈淮海等决战与内战转折"
+      }
+    },
+    "displayTitle": "辽沈淮海等决战与内战转折",
+    "start": {
+      "year": 1948,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1948年"
+    },
+    "end": {
+      "year": 1948,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1948年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 41.8,
+    "lng": 123.4,
+    "summary": "辽沈、淮海、平津等战役使内战形势决定性转向共产党。",
+    "summaryEn": "Campaigns such as Liaoshen, Huaihai, and Pingjin decisively shifted the civil war toward the CCP.",
+    "content": "1948 年地图上共产党控制区明显扩大，中华民国控制区收缩。这里是 1949 政权转换的直接前夜。",
+    "contentEn": "In 1948 CCP-controlled areas expand while ROC control contracts. This is the direct eve of the 1949 transition.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "三大战役",
+      "内战转折"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "chiang_kai_shek"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "prc_founding_1949",
+    "title": {
+      "primary": "PRC Founded and ROC Retreats",
+      "localized": {
+        "en": "PRC Founded and ROC Retreats",
+        "zh-Hans": "中华人民共和国成立与国民政府迁台"
+      }
+    },
+    "displayTitle": "中华人民共和国成立与国民政府迁台",
+    "start": {
+      "year": 1949,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1949年"
+    },
+    "end": {
+      "year": 1949,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1949年"
+    },
+    "territoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "中华人民共和国成立，国民政府迁台，民国大陆时期结束。",
+    "summaryEn": "The People’s Republic of China was founded; the Nationalist government retreated to Taiwan, ending the mainland Republic era.",
+    "content": "Cliopatria 1949 年仍以共产党控制区和中华民国层表现转换，未直接切换为中华人民共和国层。叙事上，这就是民国大陆时代的终点和新政权的开端。",
+    "contentEn": "Cliopatria in 1949 still shows Communist Party control and ROC layers rather than a direct PRC layer. Narratively this marks the end of the mainland Republic era and beginning of a new state.",
+    "significance": "这是民国从共和建构、抗日战争到国共内战与 1949 转折中的关键节点。",
+    "significanceEn": "This is a key node in the Republic era from republican construction through anti-Japanese war to civil war and the 1949 transition.",
+    "consequences": [
+      "民国政治结构继续变化",
+      "抗日与内战改变政权格局",
+      "1949 政权转换逐步形成"
+    ],
+    "consequencesEn": [
+      "Republic-era political structures continue changing",
+      "War against Japan and civil war reshape power",
+      "The 1949 transition gradually forms"
+    ],
+    "tags": [
+      "1949",
+      "国共内战"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "chiang_kai_shek",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_communist_party_of_china",
+      "cliopatria_mongolian_people_s_republic",
+      "cliopatria_tibet"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "prc_map_1950",
+    "title": {
+      "primary": "PRC Appears on Cliopatria Map",
+      "localized": {
+        "en": "PRC Appears on Cliopatria Map",
+        "zh-Hans": "中华人民共和国地图层出现"
+      }
+    },
+    "displayTitle": "中华人民共和国地图层出现",
+    "start": {
+      "year": 1950,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1950年"
+    },
+    "end": {
+      "year": 1950,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1950年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_democratic_people_s_republic_of_korea",
+      "cliopatria_republic_of_korea",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "1950 年 Cliopatria 开始显示中华人民共和国层，同时台湾保留中华民国层。",
+    "summaryEn": "In 1950 Cliopatria begins showing the PRC layer while Taiwan remains under the ROC layer.",
+    "content": "1949 是政权转换，1950 年地图正式切换出中华人民共和国本体。此后中国大陆、台湾、朝鲜半岛和冷战阵营关系共同塑造现代中国地图叙事。",
+    "contentEn": "1949 is the political transition; in 1950 the map formally shows the PRC mainland. Mainland China, Taiwan, Korea, and Cold War camps together shape the modern map narrative.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "建国",
+      "地图转换"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_democratic_people_s_republic_of_korea",
+      "cliopatria_republic_of_korea",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "korean_war_1950",
+    "title": {
+      "primary": "Korean War and Resist America Aid Korea",
+      "localized": {
+        "en": "Korean War and Resist America Aid Korea",
+        "zh-Hans": "抗美援朝与朝鲜战争"
+      }
+    },
+    "displayTitle": "抗美援朝与朝鲜战争",
+    "start": {
+      "year": 1950,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1950年"
+    },
+    "end": {
+      "year": 1950,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1950年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "cliopatria_democratic_people_s_republic_of_korea",
+      "cliopatria_republic_of_korea",
+      "cliopatria_united_states_of_america",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "republic_of_china"
+    ],
+    "placeIds": [],
+    "lat": 39.0,
+    "lng": 125.8,
+    "summary": "朝鲜战争爆发后，中国进入抗美援朝，冷战格局直接压到东北亚。",
+    "summaryEn": "After the Korean War broke out, China entered the war under the Resist America Aid Korea campaign, bringing Cold War pressure to Northeast Asia.",
+    "content": "1950 年地图同时显示中华人民共和国、朝鲜、韩国、美国和苏联。现代中国一开始就被放进冷战东北亚格局中。",
+    "contentEn": "The 1950 map shows PRC, North Korea, South Korea, the United States, and the Soviet Union together. Modern China begins inside the Cold War’s Northeast Asian structure.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "抗美援朝",
+      "冷战"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "zhou_enlai",
+      "peng_dehuai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "cliopatria_democratic_people_s_republic_of_korea",
+      "cliopatria_republic_of_korea",
+      "cliopatria_united_states_of_america",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "republic_of_china"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "first_five_year_plan_1953",
+    "title": {
+      "primary": "First Five-Year Plan",
+      "localized": {
+        "en": "First Five-Year Plan",
+        "zh-Hans": "第一个五年计划与工业化起步"
+      }
+    },
+    "displayTitle": "第一个五年计划与工业化起步",
+    "start": {
+      "year": 1953,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1953年"
+    },
+    "end": {
+      "year": 1953,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1953年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_democratic_people_s_republic_of_korea",
+      "cliopatria_republic_of_korea",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "第一个五年计划启动，国家建设重点转向工业化和制度化。",
+    "summaryEn": "The First Five-Year Plan began, shifting state construction toward industrialization and institution-building.",
+    "content": "1953 年朝鲜停战与国内工业化起步相接。边界变化不大，但国家能力建设成为故事中心。",
+    "contentEn": "In 1953 the Korean armistice coincides with domestic industrialization. Borders change little, but state capacity becomes central.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "五年计划",
+      "工业化"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_democratic_people_s_republic_of_korea",
+      "cliopatria_republic_of_korea",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "socialist_transformation_1956",
+    "title": {
+      "primary": "Socialist Transformation Completed",
+      "localized": {
+        "en": "Socialist Transformation Completed",
+        "zh-Hans": "社会主义改造基本完成"
+      }
+    },
+    "displayTitle": "社会主义改造基本完成",
+    "start": {
+      "year": 1956,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1956年"
+    },
+    "end": {
+      "year": 1956,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1956年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "社会主义改造基本完成，经济制度和社会组织形态发生重大变化。",
+    "summaryEn": "Socialist transformation was largely completed, changing economic institutions and social organization.",
+    "content": "1956 年的地图边界稳定，但内部制度完成一轮重大重组，中华人民共和国从建国过渡到社会主义制度成型阶段。",
+    "contentEn": "The 1956 map is territorially stable, but internal institutions are reorganized; the PRC moves from founding into a formed socialist system.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "社会主义改造"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "liu_shaoqi",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "great_leap_forward_1958",
+    "title": {
+      "primary": "Great Leap Forward",
+      "localized": {
+        "en": "Great Leap Forward",
+        "zh-Hans": "大跃进与人民公社"
+      }
+    },
+    "displayTitle": "大跃进与人民公社",
+    "start": {
+      "year": 1958,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1958年"
+    },
+    "end": {
+      "year": 1958,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1958年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "大跃进和人民公社化展开，经济社会动员进入高强度阶段。",
+    "summaryEn": "The Great Leap Forward and commune movement began, pushing economic and social mobilization to high intensity.",
+    "content": "这一节点用于呈现建国后发展道路的激进转向及其深远后果。地图不变，叙事重点在国家动员与社会结构。",
+    "contentEn": "This node shows a radical turn in early PRC development and its deep consequences. The map changes little; the story focuses on mobilization and society.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "大跃进",
+      "人民公社"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "peng_dehuai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cultural_revolution_1966",
+    "title": {
+      "primary": "Cultural Revolution Begins",
+      "localized": {
+        "en": "Cultural Revolution Begins",
+        "zh-Hans": "文化大革命开始"
+      }
+    },
+    "displayTitle": "文化大革命开始",
+    "start": {
+      "year": 1966,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1966年"
+    },
+    "end": {
+      "year": 1966,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1966年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "文化大革命开始，政治和社会秩序进入剧烈动荡。",
+    "summaryEn": "The Cultural Revolution began, throwing political and social order into intense upheaval.",
+    "content": "1966 年中国仍处于冷战格局中，但国内政治成为主线。这个节点连接前期建设与之后的转折。",
+    "contentEn": "In 1966 China remains inside the Cold War, but domestic politics becomes the main narrative. This node connects early construction to later transformation.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "文化大革命"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "liu_shaoqi"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "un_seat_1971",
+    "title": {
+      "primary": "PRC Takes UN Seat",
+      "localized": {
+        "en": "PRC Takes UN Seat",
+        "zh-Hans": "恢复联合国席位"
+      }
+    },
+    "displayTitle": "恢复联合国席位",
+    "start": {
+      "year": 1971,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1971年"
+    },
+    "end": {
+      "year": 1971,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1971年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 40.7,
+    "lng": -74.0,
+    "summary": "中华人民共和国恢复在联合国的席位，国际承认格局发生重大变化。",
+    "summaryEn": "The PRC took China’s seat at the United Nations, marking a major change in international recognition.",
+    "content": "1971 年不只是外交事件，也改变了中华人民共和国与中华民国在国际体系中的位置。",
+    "contentEn": "1971 is not just diplomacy; it changes the PRC and ROC positions in the international system.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "联合国",
+      "外交"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "nixon_visit_1972",
+    "title": {
+      "primary": "Nixon Visits China",
+      "localized": {
+        "en": "Nixon Visits China",
+        "zh-Hans": "尼克松访华与中美关系破冰"
+      }
+    },
+    "displayTitle": "尼克松访华与中美关系破冰",
+    "start": {
+      "year": 1972,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1972年"
+    },
+    "end": {
+      "year": 1972,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1972年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "尼克松访华，中美关系开始破冰，冷战三角关系重组。",
+    "summaryEn": "Nixon visited China, beginning the thaw in US-China relations and reshaping Cold War triangular diplomacy.",
+    "content": "1972 年地图同屏显示中、美、苏、日。中国的国际位置从封闭对峙转向复杂平衡。",
+    "contentEn": "The 1972 map shows China, the United States, the Soviet Union, and Japan together. China’s position shifts from isolation and confrontation toward complex balancing.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "中美关系",
+      "冷战"
+    ],
+    "relatedPersonIds": [
+      "mao_zedong",
+      "zhou_enlai"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "reform_opening_1978",
+    "title": {
+      "primary": "Reform and Opening Begins",
+      "localized": {
+        "en": "Reform and Opening Begins",
+        "zh-Hans": "改革开放开始"
+      }
+    },
+    "displayTitle": "改革开放开始",
+    "start": {
+      "year": 1978,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1978年"
+    },
+    "end": {
+      "year": 1978,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1978年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "十一届三中全会后，改革开放启动。",
+    "summaryEn": "After the Third Plenum, Reform and Opening began.",
+    "content": "1978 年是现代中国叙事的第二次大转折：边界稳定，发展路径和世界连接方式发生改变。",
+    "contentEn": "1978 is the second major turn in modern China: borders remain stable, but development path and global connections change.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "改革开放"
+    ],
+    "relatedPersonIds": [
+      "deng_xiaoping"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sino_british_joint_declaration_1984",
+    "title": {
+      "primary": "Sino-British Joint Declaration",
+      "localized": {
+        "en": "Sino-British Joint Declaration",
+        "zh-Hans": "中英联合声明与香港回归安排"
+      }
+    },
+    "displayTitle": "中英联合声明与香港回归安排",
+    "start": {
+      "year": 1984,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1984年"
+    },
+    "end": {
+      "year": 1984,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1984年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "placeIds": [],
+    "lat": 22.3,
+    "lng": 114.2,
+    "summary": "中英联合声明签署，香港回归进入制度安排阶段。",
+    "summaryEn": "The Sino-British Joint Declaration set the framework for Hong Kong’s return.",
+    "content": "1984 年的地图仍显示英国殖民背景和中华人民共和国层，这一节点把改革开放与主权恢复议题连接起来。",
+    "contentEn": "The 1984 map still shows British imperial context and the PRC layer; this node links Reform and Opening with sovereignty restoration.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "香港",
+      "一国两制"
+    ],
+    "relatedPersonIds": [
+      "deng_xiaoping"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_union_of_soviet_socialist_republics",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "deng_southern_tour_1992",
+    "title": {
+      "primary": "Deng Xiaoping Southern Tour",
+      "localized": {
+        "en": "Deng Xiaoping Southern Tour",
+        "zh-Hans": "邓小平南方谈话"
+      }
+    },
+    "displayTitle": "邓小平南方谈话",
+    "start": {
+      "year": 1992,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1992年"
+    },
+    "end": {
+      "year": 1992,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1992年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "placeIds": [],
+    "lat": 22.5,
+    "lng": 114.1,
+    "summary": "邓小平南方谈话推动改革开放重新加速。",
+    "summaryEn": "Deng Xiaoping’s southern tour relaunched and accelerated Reform and Opening.",
+    "content": "1992 年苏联解体后，周边世界格局切换为俄罗斯、蒙古国和全球化时代。中国在新环境中继续推进改革。",
+    "contentEn": "By 1992 the Soviet Union is gone; the surrounding world shifts to Russia, Mongolia, and globalization. China continues reform in a new environment.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "南方谈话",
+      "改革"
+    ],
+    "relatedPersonIds": [
+      "deng_xiaoping"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hong_kong_handover_1997",
+    "title": {
+      "primary": "Hong Kong Handover",
+      "localized": {
+        "en": "Hong Kong Handover",
+        "zh-Hans": "香港回归"
+      }
+    },
+    "displayTitle": "香港回归",
+    "start": {
+      "year": 1997,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1997年"
+    },
+    "end": {
+      "year": 1997,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1997年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "placeIds": [],
+    "lat": 22.3,
+    "lng": 114.2,
+    "summary": "香港回归中华人民共和国，特别行政区制度开始运作。",
+    "summaryEn": "Hong Kong returned to the PRC and the Special Administrative Region system began.",
+    "content": "Cliopatria 的中国大层不细拆港澳，但故事上 1997 年是主权恢复和制度安排的重要节点。",
+    "contentEn": "Cliopatria’s broad China layer does not split Hong Kong/Macau, but narratively 1997 is a major sovereignty and institutional node.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "香港回归"
+    ],
+    "relatedPersonIds": [
+      "deng_xiaoping",
+      "jiang_zemin"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "macau_handover_1999",
+    "title": {
+      "primary": "Macau Handover",
+      "localized": {
+        "en": "Macau Handover",
+        "zh-Hans": "澳门回归"
+      }
+    },
+    "displayTitle": "澳门回归",
+    "start": {
+      "year": 1999,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1999年"
+    },
+    "end": {
+      "year": 1999,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元1999年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "placeIds": [],
+    "lat": 22.2,
+    "lng": 113.5,
+    "summary": "澳门回归中华人民共和国，殖民时代在中国沿海的最后遗留结束。",
+    "summaryEn": "Macau returned to the PRC, ending the last coastal colonial remnant in China.",
+    "content": "1999 年与 1997 年合在一起，完成港澳回归叙事。地图变化不细，但政治意义明确。",
+    "contentEn": "Together with 1997, 1999 completes the Hong Kong-Macau return narrative. The map does not show fine change, but the political significance is clear.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "澳门回归"
+    ],
+    "relatedPersonIds": [
+      "jiang_zemin"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "china_wto_2001",
+    "title": {
+      "primary": "China Joins WTO",
+      "localized": {
+        "en": "China Joins WTO",
+        "zh-Hans": "中国加入世界贸易组织"
+      }
+    },
+    "displayTitle": "中国加入世界贸易组织",
+    "start": {
+      "year": 2001,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元2001年"
+    },
+    "end": {
+      "year": 2001,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元2001年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "中国加入世界贸易组织，深度进入全球贸易体系。",
+    "summaryEn": "China joined the WTO, entering the global trade system more deeply.",
+    "content": "2001 年地图显示中国处于美国、俄罗斯、日本和亚洲邻国共同构成的全球化场景中。发展叙事从改革扩展到世界市场。",
+    "contentEn": "The 2001 map places China among the United States, Russia, Japan, and Asian neighbors in a globalization scene. The development story expands from reform to world markets.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "世贸组织",
+      "全球化"
+    ],
+    "relatedPersonIds": [
+      "jiang_zemin"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "beijing_olympics_2008",
+    "title": {
+      "primary": "Beijing Olympics",
+      "localized": {
+        "en": "Beijing Olympics",
+        "zh-Hans": "北京奥运会"
+      }
+    },
+    "displayTitle": "北京奥运会",
+    "start": {
+      "year": 2008,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元2008年"
+    },
+    "end": {
+      "year": 2008,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元2008年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "北京奥运会举办，改革开放后国家形象和全球连接集中展示。",
+    "summaryEn": "The Beijing Olympics showcased China’s post-reform national image and global connections.",
+    "content": "2008 年适合作为 21 世纪中国全球展示的节点。地图同屏呈现中、美、俄、日和周边国家。",
+    "contentEn": "2008 works as a node for China’s 21st-century global presentation. The map shows China, the United States, Russia, Japan, and neighbors together.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "北京奥运",
+      "全球展示"
+    ],
+    "relatedPersonIds": [
+      "hu_jintao"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "new_era_2012",
+    "title": {
+      "primary": "New Era Begins",
+      "localized": {
+        "en": "New Era Begins",
+        "zh-Hans": "新时代开启"
+      }
+    },
+    "displayTitle": "新时代开启",
+    "start": {
+      "year": 2012,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元2012年"
+    },
+    "end": {
+      "year": 2012,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元2012年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "2012 年后，中国进入新的政治与发展阶段。",
+    "summaryEn": "After 2012, China entered a new political and development stage.",
+    "content": "这一节点把改革开放后的高速发展，转入治理体系、全球角色和长期战略叙事。",
+    "contentEn": "This node turns the post-reform growth story toward governance systems, global role, and long-term strategy.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "新时代"
+    ],
+    "relatedPersonIds": [
+      "xi_jinping"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "contemporary_china_2020",
+    "title": {
+      "primary": "Contemporary China in Global Context",
+      "localized": {
+        "en": "Contemporary China in Global Context",
+        "zh-Hans": "现代中国与全球格局"
+      }
+    },
+    "displayTitle": "现代中国与全球格局",
+    "start": {
+      "year": 2020,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元2020年"
+    },
+    "end": {
+      "year": 2020,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元2020年"
+    },
+    "territoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "placeIds": [],
+    "lat": 39.9,
+    "lng": 116.4,
+    "summary": "2020 年前后，中国处于全球格局重组、科技竞争和公共卫生冲击交织的时代。",
+    "summaryEn": "Around 2020, China sits amid global restructuring, technological competition, and public-health shock.",
+    "content": "这个节点作为现代中国主线的当前端点。Cliopatria 数据到 2023，适合展示 21 世纪中国与世界主要力量同处一张地图。",
+    "contentEn": "This node serves as the current endpoint of the modern China storyline. Cliopatria extends to 2023 and can show 21st-century China with major world powers.",
+    "significance": "这是中华人民共和国从建国、冷战、改革开放到现代全球化位置变化中的关键节点。",
+    "significanceEn": "This is a key node in the PRC’s path from founding through the Cold War, Reform and Opening, and modern global integration.",
+    "consequences": [
+      "国家制度与国际位置继续变化",
+      "经济社会结构被重塑",
+      "中国与周边及世界关系进入新阶段"
+    ],
+    "consequencesEn": [
+      "State institutions and international position continue changing",
+      "Economic and social structures are reshaped",
+      "China’s relations with neighbors and the world enter a new stage"
+    ],
+    "tags": [
+      "现代中国",
+      "全球格局"
+    ],
+    "relatedPersonIds": [
+      "xi_jinping"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china",
+      "cliopatria_russian_federation",
+      "cliopatria_united_states_of_america",
+      "cliopatria_japan",
+      "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
   }
 ]

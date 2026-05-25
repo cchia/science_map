@@ -8855,8 +8855,9 @@
       "qing_dynasty"
     ],
     "relatedEventIds": [
-      "xinhai_revolution_1911",
-      "republic_founded_1912"
+      "ccp_founding_1921",
+      "republic_founded_1912",
+      "xinhai_revolution_1911"
     ],
     "birthPlaceId": "",
     "deathPlaceId": "",
@@ -8901,8 +8902,9 @@
       "republic_of_china"
     ],
     "relatedEventIds": [
-      "xinhai_revolution_1911",
-      "republic_founded_1912"
+      "mukden_incident_1931",
+      "republic_founded_1912",
+      "xinhai_revolution_1911"
     ],
     "birthPlaceId": "",
     "deathPlaceId": "",
@@ -8946,7 +8948,687 @@
       "republic_of_china"
     ],
     "relatedEventIds": [
-      "republic_founded_1912"
+      "republic_founded_1912",
+      "yuan_shikai_empire_1916"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "chen_duxiu",
+    "names": {
+      "primaryName": "Chen Duxiu",
+      "localizedNames": {
+        "en": "Chen Duxiu",
+        "zh-Hans": "陈独秀"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1879,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1879年"
+    },
+    "death": {
+      "year": 1942,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1942年"
+    },
+    "activeRange": "1879 - 1942",
+    "roles": [
+      "intellectual",
+      "founder"
+    ],
+    "bioShort": "新文化运动代表人物，中国共产党早期主要创始人之一。",
+    "bioShortEn": "New Culture figure and one of the main early founders of the Chinese Communist Party.",
+    "bioLong": "新文化运动代表人物，中国共产党早期主要创始人之一。",
+    "bioLongEn": "New Culture figure and one of the main early founders of the Chinese Communist Party.",
+    "contribution": "新文化运动代表人物，中国共产党早期主要创始人之一。",
+    "contributionEn": "New Culture figure and one of the main early founders of the Chinese Communist Party.",
+    "relatedTerritoryIds": [
+      "cliopatria_communist_party_of_china",
+      "republic_of_china"
+    ],
+    "relatedEventIds": [
+      "ccp_founding_1921"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "li_dazhao",
+    "names": {
+      "primaryName": "Li Dazhao",
+      "localizedNames": {
+        "en": "Li Dazhao",
+        "zh-Hans": "李大钊"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1889,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1889年"
+    },
+    "death": {
+      "year": 1927,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1927年"
+    },
+    "activeRange": "1889 - 1927",
+    "roles": [
+      "intellectual",
+      "founder"
+    ],
+    "bioShort": "马克思主义在中国早期传播者，中国共产党创始人之一。",
+    "bioShortEn": "Early transmitter of Marxism in China and co-founder of the Chinese Communist Party.",
+    "bioLong": "马克思主义在中国早期传播者，中国共产党创始人之一。",
+    "bioLongEn": "Early transmitter of Marxism in China and co-founder of the Chinese Communist Party.",
+    "contribution": "马克思主义在中国早期传播者，中国共产党创始人之一。",
+    "contributionEn": "Early transmitter of Marxism in China and co-founder of the Chinese Communist Party.",
+    "relatedTerritoryIds": [
+      "cliopatria_communist_party_of_china",
+      "republic_of_china"
+    ],
+    "relatedEventIds": [
+      "ccp_founding_1921"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "chiang_kai_shek",
+    "names": {
+      "primaryName": "Chiang Kai-shek",
+      "localizedNames": {
+        "en": "Chiang Kai-shek",
+        "zh-Hans": "蒋介石"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1887,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1887年"
+    },
+    "death": {
+      "year": 1975,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1975年"
+    },
+    "activeRange": "1887 - 1975",
+    "roles": [
+      "general",
+      "leader"
+    ],
+    "bioShort": "国民革命军和国民政府主要领导人，经历北伐、抗战和国共内战。",
+    "bioShortEn": "Leader of the National Revolutionary Army and Nationalist Government through Northern Expedition, anti-Japanese war, and civil war.",
+    "bioLong": "国民革命军和国民政府主要领导人，经历北伐、抗战和国共内战。",
+    "bioLongEn": "Leader of the National Revolutionary Army and Nationalist Government through Northern Expedition, anti-Japanese war, and civil war.",
+    "contribution": "国民革命军和国民政府主要领导人，经历北伐、抗战和国共内战。",
+    "contributionEn": "Leader of the National Revolutionary Army and Nationalist Government through Northern Expedition, anti-Japanese war, and civil war.",
+    "relatedTerritoryIds": [
+      "cliopatria_kuomintang",
+      "republic_of_china"
+    ],
+    "relatedEventIds": [
+      "nanjing_government_1927",
+      "marco_polo_bridge_1937",
+      "war_victory_1945",
+      "civil_war_resumes_1946",
+      "prc_founding_1949"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "mao_zedong",
+    "names": {
+      "primaryName": "Mao Zedong",
+      "localizedNames": {
+        "en": "Mao Zedong",
+        "zh-Hans": "毛泽东"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1893,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1893年"
+    },
+    "death": {
+      "year": 1976,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1976年"
+    },
+    "activeRange": "1893 - 1976",
+    "roles": [
+      "revolutionary",
+      "leader"
+    ],
+    "bioShort": "中国共产党主要领导人，领导根据地、抗战敌后战场和内战胜利。",
+    "bioShortEn": "Major CCP leader who led base areas, wartime resistance behind Japanese lines, and civil-war victory.",
+    "bioLong": "中国共产党主要领导人，领导根据地、抗战敌后战场和内战胜利。",
+    "bioLongEn": "Major CCP leader who led base areas, wartime resistance behind Japanese lines, and civil-war victory.",
+    "contribution": "中国共产党主要领导人，领导根据地、抗战敌后战场和内战胜利。",
+    "contributionEn": "Major CCP leader who led base areas, wartime resistance behind Japanese lines, and civil-war victory.",
+    "relatedTerritoryIds": [
+      "cliopatria_communist_party_of_china",
+      "cliopatria_people_s_republic_of_china",
+      "republic_of_china"
+    ],
+    "relatedEventIds": [
+      "ccp_founding_1921",
+      "civil_war_resumes_1946",
+      "cultural_revolution_1966",
+      "first_five_year_plan_1953",
+      "great_leap_forward_1958",
+      "hundred_regiments_1940",
+      "korean_war_1950",
+      "nixon_visit_1972",
+      "prc_founding_1949",
+      "prc_map_1950",
+      "socialist_transformation_1956",
+      "un_seat_1971"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhou_enlai",
+    "names": {
+      "primaryName": "Zhou Enlai",
+      "localizedNames": {
+        "en": "Zhou Enlai",
+        "zh-Hans": "周恩来"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1898,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1898年"
+    },
+    "death": {
+      "year": 1976,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1976年"
+    },
+    "activeRange": "1898 - 1976",
+    "roles": [
+      "revolutionary",
+      "statesman"
+    ],
+    "bioShort": "中国共产党重要领导人，参与统一战线、抗战和建国。",
+    "bioShortEn": "Important CCP leader involved in united front politics, wartime resistance, and state founding.",
+    "bioLong": "中国共产党重要领导人，参与统一战线、抗战和建国。",
+    "bioLongEn": "Important CCP leader involved in united front politics, wartime resistance, and state founding.",
+    "contribution": "中国共产党重要领导人，参与统一战线、抗战和建国。",
+    "contributionEn": "Important CCP leader involved in united front politics, wartime resistance, and state founding.",
+    "relatedTerritoryIds": [
+      "cliopatria_communist_party_of_china",
+      "cliopatria_people_s_republic_of_china"
+    ],
+    "relatedEventIds": [
+      "korean_war_1950",
+      "nixon_visit_1972",
+      "prc_founding_1949",
+      "second_united_front_1937",
+      "un_seat_1971"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhu_de",
+    "names": {
+      "primaryName": "Zhu De",
+      "localizedNames": {
+        "en": "Zhu De",
+        "zh-Hans": "朱德"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1886,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1886年"
+    },
+    "death": {
+      "year": 1976,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1976年"
+    },
+    "activeRange": "1886 - 1976",
+    "roles": [
+      "general",
+      "revolutionary"
+    ],
+    "bioShort": "中国共产党军事领导人之一，八路军总司令。",
+    "bioShortEn": "CCP military leader and commander-in-chief of the Eighth Route Army.",
+    "bioLong": "中国共产党军事领导人之一，八路军总司令。",
+    "bioLongEn": "CCP military leader and commander-in-chief of the Eighth Route Army.",
+    "contribution": "中国共产党军事领导人之一，八路军总司令。",
+    "contributionEn": "CCP military leader and commander-in-chief of the Eighth Route Army.",
+    "relatedTerritoryIds": [
+      "cliopatria_communist_party_of_china"
+    ],
+    "relatedEventIds": [
+      "hundred_regiments_1940"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "peng_dehuai",
+    "names": {
+      "primaryName": "Peng Dehuai",
+      "localizedNames": {
+        "en": "Peng Dehuai",
+        "zh-Hans": "彭德怀"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1898,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1898年"
+    },
+    "death": {
+      "year": 1974,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1974年"
+    },
+    "activeRange": "1898 - 1974",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "八路军副总司令，百团大战主要指挥者。",
+    "bioShortEn": "Deputy commander of the Eighth Route Army and key commander of the Hundred Regiments Offensive.",
+    "bioLong": "八路军副总司令，百团大战主要指挥者。",
+    "bioLongEn": "Deputy commander of the Eighth Route Army and key commander of the Hundred Regiments Offensive.",
+    "contribution": "八路军副总司令，百团大战主要指挥者。",
+    "contributionEn": "Deputy commander of the Eighth Route Army and key commander of the Hundred Regiments Offensive.",
+    "relatedTerritoryIds": [
+      "cliopatria_communist_party_of_china",
+      "cliopatria_people_s_republic_of_china"
+    ],
+    "relatedEventIds": [
+      "great_leap_forward_1958",
+      "hundred_regiments_1940",
+      "korean_war_1950"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "zhang_xueliang",
+    "names": {
+      "primaryName": "Zhang Xueliang",
+      "localizedNames": {
+        "en": "Zhang Xueliang",
+        "zh-Hans": "张学良"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1901,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1901年"
+    },
+    "death": {
+      "year": 2001,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元2001年"
+    },
+    "activeRange": "1901 - 2001",
+    "roles": [
+      "general"
+    ],
+    "bioShort": "东北军将领，九一八后失去东北，后参与西安事变促成抗日统一战线。",
+    "bioShortEn": "Northeast Army general who lost Manchuria after 1931 and later helped force a united front at Xi’an.",
+    "bioLong": "东北军将领，九一八后失去东北，后参与西安事变促成抗日统一战线。",
+    "bioLongEn": "Northeast Army general who lost Manchuria after 1931 and later helped force a united front at Xi’an.",
+    "contribution": "东北军将领，九一八后失去东北，后参与西安事变促成抗日统一战线。",
+    "contributionEn": "Northeast Army general who lost Manchuria after 1931 and later helped force a united front at Xi’an.",
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "relatedEventIds": [
+      "mukden_incident_1931",
+      "second_united_front_1937"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wang_jingwei",
+    "names": {
+      "primaryName": "Wang Jingwei",
+      "localizedNames": {
+        "en": "Wang Jingwei",
+        "zh-Hans": "汪精卫"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1883,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1883年"
+    },
+    "death": {
+      "year": 1944,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1944年"
+    },
+    "activeRange": "1883 - 1944",
+    "roles": [
+      "politician"
+    ],
+    "bioShort": "国民党重要人物，抗战期间投日建立南京伪政权。",
+    "bioShortEn": "Important Kuomintang politician who collaborated with Japan and headed the wartime Nanjing regime.",
+    "bioLong": "国民党重要人物，抗战期间投日建立南京伪政权。",
+    "bioLongEn": "Important Kuomintang politician who collaborated with Japan and headed the wartime Nanjing regime.",
+    "contribution": "国民党重要人物，抗战期间投日建立南京伪政权。",
+    "contributionEn": "Important Kuomintang politician who collaborated with Japan and headed the wartime Nanjing regime.",
+    "relatedTerritoryIds": [
+      "republic_of_china",
+      "cliopatria_empire_of_japan"
+    ],
+    "relatedEventIds": [
+      "wuhan_chongqing_1938"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "hirohito",
+    "names": {
+      "primaryName": "Hirohito",
+      "localizedNames": {
+        "en": "Hirohito",
+        "zh-Hans": "昭和天皇裕仁"
+      },
+      "aliases": [
+        "裕仁"
+      ]
+    },
+    "birth": {
+      "year": 1901,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1901年"
+    },
+    "death": {
+      "year": 1989,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1989年"
+    },
+    "activeRange": "1901 - 1989",
+    "roles": [
+      "emperor"
+    ],
+    "bioShort": "日本昭和天皇，处于日本侵华和太平洋战争时期。",
+    "bioShortEn": "Japanese emperor during the invasion of China and Pacific War.",
+    "bioLong": "日本昭和天皇，处于日本侵华和太平洋战争时期。",
+    "bioLongEn": "Japanese emperor during the invasion of China and Pacific War.",
+    "contribution": "日本昭和天皇，处于日本侵华和太平洋战争时期。",
+    "contributionEn": "Japanese emperor during the invasion of China and Pacific War.",
+    "relatedTerritoryIds": [
+      "cliopatria_empire_of_japan"
+    ],
+    "relatedEventIds": [
+      "mukden_incident_1931",
+      "marco_polo_bridge_1937",
+      "war_victory_1945"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "deng_xiaoping",
+    "names": {
+      "primaryName": "Deng Xiaoping",
+      "localizedNames": {
+        "en": "Deng Xiaoping",
+        "zh-Hans": "邓小平"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1904,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1904年"
+    },
+    "death": {
+      "year": 1997,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1997年"
+    },
+    "activeRange": "1904 - 1997",
+    "roles": [
+      "leader",
+      "reformer"
+    ],
+    "bioShort": "改革开放主要推动者，推动从计划体制向开放发展转型。",
+    "bioShortEn": "Principal architect of Reform and Opening, steering China from a planned system toward open development.",
+    "bioLong": "改革开放主要推动者，推动从计划体制向开放发展转型。",
+    "bioLongEn": "Principal architect of Reform and Opening, steering China from a planned system toward open development.",
+    "contribution": "改革开放主要推动者，推动从计划体制向开放发展转型。",
+    "contributionEn": "Principal architect of Reform and Opening, steering China from a planned system toward open development.",
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china"
+    ],
+    "relatedEventIds": [
+      "reform_opening_1978",
+      "sino_british_joint_declaration_1984",
+      "deng_southern_tour_1992",
+      "hong_kong_handover_1997"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "liu_shaoqi",
+    "names": {
+      "primaryName": "Liu Shaoqi",
+      "localizedNames": {
+        "en": "Liu Shaoqi",
+        "zh-Hans": "刘少奇"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1898,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1898年"
+    },
+    "death": {
+      "year": 1969,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元1969年"
+    },
+    "activeRange": "1898 - 1969",
+    "roles": [
+      "leader"
+    ],
+    "bioShort": "中华人民共和国早期国家领导人，参与建国初期制度建设。",
+    "bioShortEn": "Early PRC state leader involved in institutional construction after 1949.",
+    "bioLong": "中华人民共和国早期国家领导人，参与建国初期制度建设。",
+    "bioLongEn": "Early PRC state leader involved in institutional construction after 1949.",
+    "contribution": "中华人民共和国早期国家领导人，参与建国初期制度建设。",
+    "contributionEn": "Early PRC state leader involved in institutional construction after 1949.",
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china"
+    ],
+    "relatedEventIds": [
+      "socialist_transformation_1956",
+      "cultural_revolution_1966"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "jiang_zemin",
+    "names": {
+      "primaryName": "Jiang Zemin",
+      "localizedNames": {
+        "en": "Jiang Zemin",
+        "zh-Hans": "江泽民"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1926,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1926年"
+    },
+    "death": {
+      "year": 2022,
+      "datePrecision": "exact_year",
+      "displayLabel": "公元2022年"
+    },
+    "activeRange": "1926 - 2022",
+    "roles": [
+      "leader"
+    ],
+    "bioShort": "改革开放后期和世纪之交主要领导人，经历港澳回归与加入世贸。",
+    "bioShortEn": "Major leader in the late reform era and turn of the century, overseeing Hong Kong/Macau handovers and WTO entry.",
+    "bioLong": "改革开放后期和世纪之交主要领导人，经历港澳回归与加入世贸。",
+    "bioLongEn": "Major leader in the late reform era and turn of the century, overseeing Hong Kong/Macau handovers and WTO entry.",
+    "contribution": "改革开放后期和世纪之交主要领导人，经历港澳回归与加入世贸。",
+    "contributionEn": "Major leader in the late reform era and turn of the century, overseeing Hong Kong/Macau handovers and WTO entry.",
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china"
+    ],
+    "relatedEventIds": [
+      "hong_kong_handover_1997",
+      "macau_handover_1999",
+      "china_wto_2001"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "hu_jintao",
+    "names": {
+      "primaryName": "Hu Jintao",
+      "localizedNames": {
+        "en": "Hu Jintao",
+        "zh-Hans": "胡锦涛"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1942,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1942年"
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "1942",
+    "roles": [
+      "leader"
+    ],
+    "bioShort": "21 世纪初中国主要领导人，北京奥运会时期的国家领导人。",
+    "bioShortEn": "Major Chinese leader in the early 21st century, serving during the Beijing Olympics era.",
+    "bioLong": "21 世纪初中国主要领导人，北京奥运会时期的国家领导人。",
+    "bioLongEn": "Major Chinese leader in the early 21st century, serving during the Beijing Olympics era.",
+    "contribution": "21 世纪初中国主要领导人，北京奥运会时期的国家领导人。",
+    "contributionEn": "Major Chinese leader in the early 21st century, serving during the Beijing Olympics era.",
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china"
+    ],
+    "relatedEventIds": [
+      "beijing_olympics_2008"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "xi_jinping",
+    "names": {
+      "primaryName": "Xi Jinping",
+      "localizedNames": {
+        "en": "Xi Jinping",
+        "zh-Hans": "习近平"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": 1953,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元1953年"
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "1953",
+    "roles": [
+      "leader"
+    ],
+    "bioShort": "2012 年后中国主要领导人，进入新时代叙事。",
+    "bioShortEn": "China’s major leader after 2012, associated with the New Era narrative.",
+    "bioLong": "2012 年后中国主要领导人，进入新时代叙事。",
+    "bioLongEn": "China’s major leader after 2012, associated with the New Era narrative.",
+    "contribution": "2012 年后中国主要领导人，进入新时代叙事。",
+    "contributionEn": "China’s major leader after 2012, associated with the New Era narrative.",
+    "relatedTerritoryIds": [
+      "cliopatria_people_s_republic_of_china"
+    ],
+    "relatedEventIds": [
+      "new_era_2012",
+      "contemporary_china_2020"
     ],
     "birthPlaceId": "",
     "deathPlaceId": "",
