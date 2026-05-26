@@ -6304,7 +6304,8 @@
       "displayLabel": "公元前1046年"
     },
     "territoryIds": [
-      "cliopatria_shang_dynasty"
+      "cliopatria_shang_dynasty",
+      "cliopatria_zhou_dynasty"
     ],
     "placeIds": [],
     "lat": 35.0,
@@ -6330,11 +6331,13 @@
       "牧野"
     ],
     "relatedPersonIds": [
-      "king_wu_zhou",
-      "jiang_zija"
+      "di_xin",
+      "jiang_zija",
+      "king_wu_zhou"
     ],
     "relatedTerritoryIds": [
-      "cliopatria_shang_dynasty"
+      "cliopatria_shang_dynasty",
+      "cliopatria_zhou_dynasty"
     ],
     "sourceRefs": [
       "editorial_internal_v1"
@@ -14679,6 +14682,348 @@
       "cliopatria_united_states_of_america",
       "cliopatria_japan",
       "cliopatria_mongolia"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "shang_foundation_1600",
+    "title": {
+      "primary": "Cheng Tang Founds Shang",
+      "localized": {
+        "en": "Cheng Tang Founds Shang",
+        "zh-Hans": "成汤灭夏与商朝建立"
+      }
+    },
+    "displayTitle": "成汤灭夏与商朝建立",
+    "start": {
+      "year": -1600,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1600年"
+    },
+    "end": {
+      "year": -1600,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1600年"
+    },
+    "territoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 34.7,
+    "lng": 112.8,
+    "summary": "传统年代中，成汤灭夏，商朝建立。",
+    "summaryEn": "In traditional chronology, Cheng Tang overthrew Xia and founded Shang.",
+    "content": "Cliopatria 在 -1600 年开始显示商朝边界。本节点用于开启商朝主线：从传世叙事中的革命，到中原青铜王权的形成。",
+    "contentEn": "Cliopatria begins showing Shang in 1600 BCE. This node opens the Shang story: from transmitted accounts of dynastic revolution to the formation of a Bronze Age royal power in the Central Plain.",
+    "significance": "这是商朝从建立、迁殷、盛期到商周转换中的关键节点。",
+    "significanceEn": "This is a key node in Shang history from foundation through Yin, high Shang, and the Shang-Zhou transition.",
+    "consequences": [
+      "商朝政治与祭祀秩序继续发展",
+      "中原青铜文明和甲骨文世界逐渐成型",
+      "商周转换为后续西周故事铺垫"
+    ],
+    "consequencesEn": [
+      "Shang political and ritual order continues developing",
+      "Bronze civilization and the oracle-bone world take shape",
+      "The Shang-Zhou transition prepares the Western Zhou story"
+    ],
+    "tags": [
+      "商朝",
+      "成汤"
+    ],
+    "relatedPersonIds": [
+      "cheng_tang"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "early_middle_shang_1500",
+    "title": {
+      "primary": "Early-Middle Shang Consolidation",
+      "localized": {
+        "en": "Early-Middle Shang Consolidation",
+        "zh-Hans": "早中商：青铜王权展开"
+      }
+    },
+    "displayTitle": "早中商：青铜王权展开",
+    "start": {
+      "year": -1500,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1500年"
+    },
+    "end": {
+      "year": -1500,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1500年"
+    },
+    "territoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 35.0,
+    "lng": 113.0,
+    "summary": "早中商时期，商朝王权在中原逐步展开。",
+    "summaryEn": "In early-middle Shang, royal power expanded across the Central Plain.",
+    "content": "这一节点用来承接建国之后的长期发展。地图边界仍是粗略商朝层，故事重点是青铜礼器、王权网络和都邑迁徙。",
+    "contentEn": "This node connects the long development after foundation. The map remains the broad Shang layer; the story focuses on bronze ritual vessels, royal networks, and shifting capitals.",
+    "significance": "这是商朝从建立、迁殷、盛期到商周转换中的关键节点。",
+    "significanceEn": "This is a key node in Shang history from foundation through Yin, high Shang, and the Shang-Zhou transition.",
+    "consequences": [
+      "商朝政治与祭祀秩序继续发展",
+      "中原青铜文明和甲骨文世界逐渐成型",
+      "商周转换为后续西周故事铺垫"
+    ],
+    "consequencesEn": [
+      "Shang political and ritual order continues developing",
+      "Bronze civilization and the oracle-bone world take shape",
+      "The Shang-Zhou transition prepares the Western Zhou story"
+    ],
+    "tags": [
+      "青铜文明"
+    ],
+    "relatedPersonIds": [
+      "cheng_tang"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pan_geng_moves_yin_1300",
+    "title": {
+      "primary": "Pan Geng Moves to Yin",
+      "localized": {
+        "en": "Pan Geng Moves to Yin",
+        "zh-Hans": "盘庚迁殷"
+      }
+    },
+    "displayTitle": "盘庚迁殷",
+    "start": {
+      "year": -1300,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1300年"
+    },
+    "end": {
+      "year": -1300,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1300年"
+    },
+    "territoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 36.1,
+    "lng": 114.3,
+    "summary": "传统叙事中盘庚迁都于殷，商朝进入以殷墟为中心的后期阶段。",
+    "summaryEn": "Pan Geng is traditionally said to have moved the capital to Yin, beginning the late Shang phase centered on Yinxu.",
+    "content": "迁殷让商朝后期的考古和甲骨文材料变得集中可见。地图不细分都邑，但故事视角从王朝边界转向殷都与王权仪式。",
+    "contentEn": "The move to Yin makes late Shang archaeology and oracle-bone evidence more concentrated. The map does not split capitals, but the story shifts from dynastic boundary to Yin and royal ritual.",
+    "significance": "这是商朝从建立、迁殷、盛期到商周转换中的关键节点。",
+    "significanceEn": "This is a key node in Shang history from foundation through Yin, high Shang, and the Shang-Zhou transition.",
+    "consequences": [
+      "商朝政治与祭祀秩序继续发展",
+      "中原青铜文明和甲骨文世界逐渐成型",
+      "商周转换为后续西周故事铺垫"
+    ],
+    "consequencesEn": [
+      "Shang political and ritual order continues developing",
+      "Bronze civilization and the oracle-bone world take shape",
+      "The Shang-Zhou transition prepares the Western Zhou story"
+    ],
+    "tags": [
+      "盘庚",
+      "殷墟"
+    ],
+    "relatedPersonIds": [
+      "pan_geng"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wu_ding_high_shang_1250",
+    "title": {
+      "primary": "Wu Ding and High Shang",
+      "localized": {
+        "en": "Wu Ding and High Shang",
+        "zh-Hans": "武丁盛世与商朝强盛"
+      }
+    },
+    "displayTitle": "武丁盛世与商朝强盛",
+    "start": {
+      "year": -1250,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1250年"
+    },
+    "end": {
+      "year": -1250,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1250年"
+    },
+    "territoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 36.1,
+    "lng": 114.3,
+    "summary": "武丁时期常被视为商朝强盛阶段，王权、战争和祭祀活动活跃。",
+    "summaryEn": "Wu Ding’s reign is often treated as a high Shang phase with active royal power, warfare, and ritual.",
+    "content": "甲骨文中的武丁世界，能看到王命、征伐、祭祀和占卜如何共同支撑商王权。",
+    "contentEn": "The Wu Ding world in oracle bones shows royal commands, campaigns, ritual, and divination supporting Shang kingship together.",
+    "significance": "这是商朝从建立、迁殷、盛期到商周转换中的关键节点。",
+    "significanceEn": "This is a key node in Shang history from foundation through Yin, high Shang, and the Shang-Zhou transition.",
+    "consequences": [
+      "商朝政治与祭祀秩序继续发展",
+      "中原青铜文明和甲骨文世界逐渐成型",
+      "商周转换为后续西周故事铺垫"
+    ],
+    "consequencesEn": [
+      "Shang political and ritual order continues developing",
+      "Bronze civilization and the oracle-bone world take shape",
+      "The Shang-Zhou transition prepares the Western Zhou story"
+    ],
+    "tags": [
+      "武丁",
+      "甲骨文"
+    ],
+    "relatedPersonIds": [
+      "wu_ding"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fu_hao_campaigns_1200",
+    "title": {
+      "primary": "Fu Hao and Late Shang Campaigns",
+      "localized": {
+        "en": "Fu Hao and Late Shang Campaigns",
+        "zh-Hans": "妇好与商代军事祭祀"
+      }
+    },
+    "displayTitle": "妇好与商代军事祭祀",
+    "start": {
+      "year": -1200,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1200年"
+    },
+    "end": {
+      "year": -1200,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1200年"
+    },
+    "territoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 36.1,
+    "lng": 114.3,
+    "summary": "妇好作为武丁时期的重要人物，兼具王后、将领和祭祀角色。",
+    "summaryEn": "Fu Hao was a major figure under Wu Ding, combining roles as queen, commander, and ritual actor.",
+    "content": "妇好让商朝故事不只是王表，而是能进入具体人物。她的墓葬和甲骨文记录，把商代军事、祭祀和王室结构连接起来。",
+    "contentEn": "Fu Hao makes the Shang story more than a king list. Her tomb and oracle-bone records connect warfare, ritual, and royal-house structure.",
+    "significance": "这是商朝从建立、迁殷、盛期到商周转换中的关键节点。",
+    "significanceEn": "This is a key node in Shang history from foundation through Yin, high Shang, and the Shang-Zhou transition.",
+    "consequences": [
+      "商朝政治与祭祀秩序继续发展",
+      "中原青铜文明和甲骨文世界逐渐成型",
+      "商周转换为后续西周故事铺垫"
+    ],
+    "consequencesEn": [
+      "Shang political and ritual order continues developing",
+      "Bronze civilization and the oracle-bone world take shape",
+      "The Shang-Zhou transition prepares the Western Zhou story"
+    ],
+    "tags": [
+      "妇好",
+      "军事"
+    ],
+    "relatedPersonIds": [
+      "fu_hao",
+      "wu_ding"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "late_shang_di_xin_1100",
+    "title": {
+      "primary": "Late Shang and Di Xin",
+      "localized": {
+        "en": "Late Shang and Di Xin",
+        "zh-Hans": "晚商危机与帝辛"
+      }
+    },
+    "displayTitle": "晚商危机与帝辛",
+    "start": {
+      "year": -1100,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1100年"
+    },
+    "end": {
+      "year": -1100,
+      "datePrecision": "representative_year",
+      "displayLabel": "公元前1100年"
+    },
+    "territoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "placeIds": [],
+    "lat": 35.7,
+    "lng": 114.9,
+    "summary": "晚商进入末期，帝辛形象在后世叙事中成为商周转换的反面核心。",
+    "summaryEn": "Late Shang approached its end; Di Xin became the negative center of later Shang-Zhou transition narratives.",
+    "content": "-1100 年地图仍显示商朝大层。故事上，这一阶段用来铺垫周人的崛起和牧野之战。",
+    "contentEn": "The 1100 BCE map still shows the broad Shang layer. Narratively this stage prepares the rise of Zhou and the Battle of Muye.",
+    "significance": "这是商朝从建立、迁殷、盛期到商周转换中的关键节点。",
+    "significanceEn": "This is a key node in Shang history from foundation through Yin, high Shang, and the Shang-Zhou transition.",
+    "consequences": [
+      "商朝政治与祭祀秩序继续发展",
+      "中原青铜文明和甲骨文世界逐渐成型",
+      "商周转换为后续西周故事铺垫"
+    ],
+    "consequencesEn": [
+      "Shang political and ritual order continues developing",
+      "Bronze civilization and the oracle-bone world take shape",
+      "The Shang-Zhou transition prepares the Western Zhou story"
+    ],
+    "tags": [
+      "晚商",
+      "帝辛"
+    ],
+    "relatedPersonIds": [
+      "di_xin"
+    ],
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
     ],
     "sourceRefs": [
       "editorial_internal_v1"

@@ -16176,14 +16176,14 @@
     "names": {
       "primaryName": "Babylonia",
       "localizedNames": {
-        "zh-Hans": "Babylonia（待译）",
+        "zh-Hans": "巴比伦尼亚",
         "en": "Babylonia"
       },
       "aliases": []
     },
-    "summary": "Babylonia（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前650年至公元前631年。",
+    "summary": "巴比伦尼亚是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前650年至公元前631年。",
     "summaryEn": "Babylonia is a reference polity from Cliopatria, covering approximately 650 BCE to 631 BCE.",
-    "summaryLong": "Babylonia（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLong": "巴比伦尼亚用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
     "summaryLongEn": "Babylonia is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
     "color": "#5E8A6F",
     "sourceRefs": [
@@ -16416,14 +16416,14 @@
     "names": {
       "primaryName": "Assyria",
       "localizedNames": {
-        "zh-Hans": "Assyria（待译）",
+        "zh-Hans": "亚述",
         "en": "Assyria"
       },
       "aliases": []
     },
-    "summary": "Assyria（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1100年至公元前1001年。",
+    "summary": "亚述是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1100年至公元前1001年。",
     "summaryEn": "Assyria is a reference polity from Cliopatria, covering approximately 1100 BCE to 1001 BCE.",
-    "summaryLong": "Assyria（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLong": "亚述用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
     "summaryLongEn": "Assyria is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
     "color": "#9B5E5E",
     "sourceRefs": [
@@ -16446,14 +16446,14 @@
     "names": {
       "primaryName": "New Kingdom of Egypt",
       "localizedNames": {
-        "zh-Hans": "New Kingdom of Egypt（待译）",
+        "zh-Hans": "埃及新王国",
         "en": "New Kingdom of Egypt"
       },
       "aliases": []
     },
-    "summary": "New Kingdom of Egypt（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1150年至公元前1001年。",
+    "summary": "埃及新王国是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1150年至公元前1001年。",
     "summaryEn": "New Kingdom of Egypt is a reference polity from Cliopatria, covering approximately 1150 BCE to 1001 BCE.",
-    "summaryLong": "New Kingdom of Egypt（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLong": "埃及新王国用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
     "summaryLongEn": "New Kingdom of Egypt is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
     "color": "#5E7C99",
     "sourceRefs": [
@@ -16506,14 +16506,14 @@
     "names": {
       "primaryName": "Greek Dark Ages",
       "localizedNames": {
-        "zh-Hans": "Greek Dark Ages（待译）",
+        "zh-Hans": "希腊黑暗时代",
         "en": "Greek Dark Ages"
       },
       "aliases": []
     },
-    "summary": "Greek Dark Ages（待译）是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1000年至公元前901年。",
+    "summary": "希腊黑暗时代是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1000年至公元前901年。",
     "summaryEn": "Greek Dark Ages is a reference polity from Cliopatria, covering approximately 1000 BCE to 901 BCE.",
-    "summaryLong": "Greek Dark Ages（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLong": "希腊黑暗时代用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
     "summaryLongEn": "Greek Dark Ages is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
     "color": "#6F8F4F",
     "sourceRefs": [
@@ -24256,6 +24256,186 @@
     "summaryLong": "State of Libya（待译）用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
     "summaryLongEn": "State of Libya is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
     "color": "#8F6F4F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_fifteenth_dynasty_of_egypt",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": -1600,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": -1501,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Fifteenth Dynasty of Egypt",
+      "localizedNames": {
+        "zh-Hans": "埃及第十五王朝",
+        "en": "Fifteenth Dynasty of Egypt"
+      },
+      "aliases": []
+    },
+    "summary": "埃及第十五王朝是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1600年至公元前1501年。",
+    "summaryEn": "Fifteenth Dynasty of Egypt is a reference polity from Cliopatria, covering approximately 1600 BCE to 1501 BCE.",
+    "summaryLong": "埃及第十五王朝用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Fifteenth Dynasty of Egypt is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E8A6F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_hittites",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": -1600,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": -1501,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Hittites",
+      "localizedNames": {
+        "zh-Hans": "赫梯",
+        "en": "Hittites"
+      },
+      "aliases": []
+    },
+    "summary": "赫梯是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1600年至公元前1501年。",
+    "summaryEn": "Hittites is a reference polity from Cliopatria, covering approximately 1600 BCE to 1501 BCE.",
+    "summaryLong": "赫梯用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Hittites is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#4F7F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_hyksos",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": -1600,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": -1501,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Hyksos",
+      "localizedNames": {
+        "zh-Hans": "喜克索斯",
+        "en": "Hyksos"
+      },
+      "aliases": []
+    },
+    "summary": "喜克索斯是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1600年至公元前1501年。",
+    "summaryEn": "Hyksos is a reference polity from Cliopatria, covering approximately 1600 BCE to 1501 BCE.",
+    "summaryLong": "喜克索斯用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Hyksos is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#5E7C99",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_seventeenth_dynasty_of_egypt",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": -1600,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": -1501,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Seventeenth Dynasty of Egypt",
+      "localizedNames": {
+        "zh-Hans": "埃及第十七王朝",
+        "en": "Seventeenth Dynasty of Egypt"
+      },
+      "aliases": []
+    },
+    "summary": "埃及第十七王朝是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1600年至公元前1501年。",
+    "summaryEn": "Seventeenth Dynasty of Egypt is a reference polity from Cliopatria, covering approximately 1600 BCE to 1501 BCE.",
+    "summaryLong": "埃及第十七王朝用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Seventeenth Dynasty of Egypt is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#704F8F",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mitanni",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": -1500,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": -1401,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mitanni",
+      "localizedNames": {
+        "zh-Hans": "米坦尼",
+        "en": "Mitanni"
+      },
+      "aliases": []
+    },
+    "summary": "米坦尼是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1500年至公元前1401年。",
+    "summaryEn": "Mitanni is a reference polity from Cliopatria, covering approximately 1500 BCE to 1401 BCE.",
+    "summaryLong": "米坦尼用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mitanni is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#8A6F3D",
+    "sourceRefs": [
+      "seshat_cliopatria"
+    ]
+  },
+  {
+    "id": "cliopatria_mycenaean_greece",
+    "territoryType": "polity",
+    "parentCivilizationId": "world_context",
+    "start": {
+      "year": -1500,
+      "datePrecision": "representative_year"
+    },
+    "end": {
+      "year": -1401,
+      "datePrecision": "representative_year"
+    },
+    "capitalPlaceIds": [],
+    "names": {
+      "primaryName": "Mycenaean Greece",
+      "localizedNames": {
+        "zh-Hans": "迈锡尼希腊",
+        "en": "Mycenaean Greece"
+      },
+      "aliases": []
+    },
+    "summary": "迈锡尼希腊是 Cliopatria 世界历史数据集中的参考政权，时间范围约为公元前1500年至公元前1401年。",
+    "summaryEn": "Mycenaean Greece is a reference polity from Cliopatria, covering approximately 1500 BCE to 1401 BCE.",
+    "summaryLong": "迈锡尼希腊用于默认时间轴的同代世界地图展示。其边界来自 Seshat Cliopatria，适合大洲级观察世界格局，但不应视为已经逐地审核的高精度历史边界。",
+    "summaryLongEn": "Mycenaean Greece is used in the default timeline's same-era world map. Its boundary comes from Seshat Cliopatria and is suitable for continental-scale context, but should not be treated as a fully reviewed high-precision historical boundary.",
+    "color": "#9B5E5E",
     "sourceRefs": [
       "seshat_cliopatria"
     ]

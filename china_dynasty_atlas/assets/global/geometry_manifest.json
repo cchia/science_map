@@ -172244,5 +172244,833 @@
     "accuracyTier": "community_reference",
     "reviewStatus": "draft",
     "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_assyria_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_assyria_bce_1600.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Assyria' covering -1700--1501; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_babylonia_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_babylonia_bce_1600.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Babylonia' covering -1600--1501; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_elam_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_elam_bce_1600.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Elam' covering -1600--1401; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_fifteenth_dynasty_of_egypt_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_fifteenth_dynasty_of_egypt_bce_1600.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Fifteenth Dynasty of Egypt' covering -1600--1501; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_hittites_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_hittites_bce_1600.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Hittites' covering -1600--1501; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_hyksos_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_hyksos_bce_1600.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Hyksos' covering -1600--1501; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_seventeenth_dynasty_of_egypt_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_seventeenth_dynasty_of_egypt_bce_1600.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Seventeenth Dynasty of Egypt' covering -1600--1501; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_shang_dynasty_bce_1600",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_shang_dynasty_bce_1600.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Shang Dynasty' covering -1600--1241; displayed at -1600.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_assyria_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_assyria_bce_1500.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Assyria' covering -1500--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_babylonia_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_babylonia_bce_1500.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Babylonia' covering -1500--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_elam_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_elam_bce_1500.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Elam' covering -1600--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_hittites_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_hittites_bce_1500.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Hittites' covering -1500--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_hyksos_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_hyksos_bce_1500.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Hyksos' covering -1500--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_mitanni_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_mitanni_bce_1500.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Mitanni' covering -1500--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_mycenaean_greece_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_mycenaean_greece_bce_1500.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Mycenaean Greece' covering -1500--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_new_kingdom_of_egypt_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_new_kingdom_of_egypt_bce_1500.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'New Kingdom of Egypt' covering -1500--1401; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_shang_dynasty_bce_1500",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_shang_dynasty_bce_1500.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Shang Dynasty' covering -1600--1241; displayed at -1500.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_assyria_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_assyria_bce_1300.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Assyria' covering -1300--1241; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_babylonia_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_babylonia_bce_1300.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Babylonia' covering -1300--1241; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_elam_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_elam_bce_1300.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Elam' covering -1300--1151; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_hittites_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_hittites_bce_1300.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Hittites' covering -1300--1241; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_mitanni_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_mitanni_bce_1300.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Mitanni' covering -1300--1241; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_mycenaean_greece_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_mycenaean_greece_bce_1300.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Mycenaean Greece' covering -1300--1241; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_new_kingdom_of_egypt_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_new_kingdom_of_egypt_bce_1300.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'New Kingdom of Egypt' covering -1300--1241; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_shang_dynasty_bce_1300",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_shang_dynasty_bce_1300.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Shang Dynasty' covering -1600--1241; displayed at -1300.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_assyria_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_assyria_bce_1250.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Assyria' covering -1300--1241; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_babylonia_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_babylonia_bce_1250.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Babylonia' covering -1300--1241; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_elam_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_elam_bce_1250.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Elam' covering -1300--1151; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_hittites_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_hittites_bce_1250.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Hittites' covering -1300--1241; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_mitanni_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_mitanni_bce_1250.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Mitanni' covering -1300--1241; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_mycenaean_greece_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_mycenaean_greece_bce_1250.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Mycenaean Greece' covering -1300--1241; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_new_kingdom_of_egypt_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_new_kingdom_of_egypt_bce_1250.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'New Kingdom of Egypt' covering -1300--1241; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_shang_dynasty_bce_1250",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_shang_dynasty_bce_1250.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Shang Dynasty' covering -1600--1241; displayed at -1250.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_assyria_bce_1200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_assyria_bce_1200.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Assyria' covering -1200--1151; displayed at -1200.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_babylonia_bce_1200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_babylonia_bce_1200.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Babylonia' covering -1200--1151; displayed at -1200.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_elam_bce_1200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_elam_bce_1200.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Elam' covering -1300--1151; displayed at -1200.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_hittites_bce_1200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_hittites_bce_1200.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Hittites' covering -1200--1151; displayed at -1200.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_mycenaean_greece_bce_1200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_mycenaean_greece_bce_1200.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Mycenaean Greece' covering -1200--1151; displayed at -1200.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_new_kingdom_of_egypt_bce_1200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_new_kingdom_of_egypt_bce_1200.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'New Kingdom of Egypt' covering -1240--1151; displayed at -1200.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_shang_dynasty_bce_1200",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_shang_dynasty_bce_1200.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Shang Dynasty' covering -1240--1101; displayed at -1200.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_assyria_bce_1100",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_assyria_bce_1100.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Assyria' covering -1100--1001; displayed at -1100.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_babylonia_bce_1100",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_babylonia_bce_1100.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Babylonia' covering -1100--1001; displayed at -1100.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_elam_bce_1100",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_elam_bce_1100.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Elam' covering -1100--1001; displayed at -1100.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_greek_dark_ages_bce_1100",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_greek_dark_ages_bce_1100.geojson",
+    "geometryType": "MultiPolygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Greek Dark Ages' covering -1100--1001; displayed at -1100.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_new_kingdom_of_egypt_bce_1100",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_new_kingdom_of_egypt_bce_1100.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'New Kingdom of Egypt' covering -1150--1001; displayed at -1100.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
+  },
+  {
+    "id": "cliopatria_shang_dynasty_bce_1100",
+    "assetPath": "assets/geojson/world/cliopatria/cliopatria_shang_dynasty_bce_1100.geojson",
+    "geometryType": "Polygon",
+    "regionScope": "world",
+    "simplificationLevel": "cliopatria_world_context",
+    "licenseSourceId": "seshat_cliopatria",
+    "derivedFromSourceIds": [
+      "seshat_cliopatria"
+    ],
+    "projection": "EPSG:4326",
+    "revision": "v1",
+    "editorNotes": "Generated from Cliopatria feature 'Shang Dynasty' covering -1100--1001; displayed at -1100.",
+    "boundaryMeaning": "core_admin",
+    "accuracyTier": "community_reference",
+    "reviewStatus": "draft",
+    "methodRef": "docs/data-methods/cliopatria_default_timeline_world_context.md"
   }
 ]

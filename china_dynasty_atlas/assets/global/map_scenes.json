@@ -13124,5 +13124,147 @@
     "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
     "sceneScope": "world",
     "coverageLevel": "global_partial"
+  },
+  {
+    "id": "world_story_scene_bce_1600",
+    "displayYear": -1600,
+    "title": {
+      "zh-Hans": "公元前1600年同代世界故事场景",
+      "en": "1600 BCE Same-Era World Story Scene"
+    },
+    "territorySnapshotIds": [
+      "cliopatria_assyria_bce_1600_context",
+      "cliopatria_babylonia_bce_1600_context",
+      "cliopatria_elam_bce_1600_context",
+      "cliopatria_fifteenth_dynasty_of_egypt_bce_1600_context",
+      "cliopatria_hittites_bce_1600_context",
+      "cliopatria_hyksos_bce_1600_context",
+      "cliopatria_seventeenth_dynasty_of_egypt_bce_1600_context",
+      "cliopatria_shang_dynasty_bce_1600_context"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "由 Cliopatria 自动生成的细粒度时间轴同代世界参考场景。 默认显示层已切换为 Cliopatria 统一世界参考底座；项目内专题边界保留为后续审核/对照数据，不再进入默认场景。",
+    "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "world_story_scene_bce_1500",
+    "displayYear": -1500,
+    "title": {
+      "zh-Hans": "公元前1500年同代世界故事场景",
+      "en": "1500 BCE Same-Era World Story Scene"
+    },
+    "territorySnapshotIds": [
+      "cliopatria_assyria_bce_1500_context",
+      "cliopatria_babylonia_bce_1500_context",
+      "cliopatria_elam_bce_1500_context",
+      "cliopatria_hittites_bce_1500_context",
+      "cliopatria_hyksos_bce_1500_context",
+      "cliopatria_mitanni_bce_1500_context",
+      "cliopatria_mycenaean_greece_bce_1500_context",
+      "cliopatria_new_kingdom_of_egypt_bce_1500_context",
+      "cliopatria_shang_dynasty_bce_1500_context"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "由 Cliopatria 自动生成的细粒度时间轴同代世界参考场景。 默认显示层已切换为 Cliopatria 统一世界参考底座；项目内专题边界保留为后续审核/对照数据，不再进入默认场景。",
+    "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "world_story_scene_bce_1300",
+    "displayYear": -1300,
+    "title": {
+      "zh-Hans": "公元前1300年同代世界故事场景",
+      "en": "1300 BCE Same-Era World Story Scene"
+    },
+    "territorySnapshotIds": [
+      "cliopatria_assyria_bce_1300_context",
+      "cliopatria_babylonia_bce_1300_context",
+      "cliopatria_elam_bce_1300_context",
+      "cliopatria_hittites_bce_1300_context",
+      "cliopatria_mitanni_bce_1300_context",
+      "cliopatria_mycenaean_greece_bce_1300_context",
+      "cliopatria_new_kingdom_of_egypt_bce_1300_context",
+      "cliopatria_shang_dynasty_bce_1300_context"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "由 Cliopatria 自动生成的细粒度时间轴同代世界参考场景。 默认显示层已切换为 Cliopatria 统一世界参考底座；项目内专题边界保留为后续审核/对照数据，不再进入默认场景。",
+    "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "world_story_scene_bce_1250",
+    "displayYear": -1250,
+    "title": {
+      "zh-Hans": "公元前1250年同代世界故事场景",
+      "en": "1250 BCE Same-Era World Story Scene"
+    },
+    "territorySnapshotIds": [
+      "cliopatria_assyria_bce_1250_context",
+      "cliopatria_babylonia_bce_1250_context",
+      "cliopatria_elam_bce_1250_context",
+      "cliopatria_hittites_bce_1250_context",
+      "cliopatria_mitanni_bce_1250_context",
+      "cliopatria_mycenaean_greece_bce_1250_context",
+      "cliopatria_new_kingdom_of_egypt_bce_1250_context",
+      "cliopatria_shang_dynasty_bce_1250_context"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "由 Cliopatria 自动生成的细粒度时间轴同代世界参考场景。 默认显示层已切换为 Cliopatria 统一世界参考底座；项目内专题边界保留为后续审核/对照数据，不再进入默认场景。",
+    "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "world_story_scene_bce_1200",
+    "displayYear": -1200,
+    "title": {
+      "zh-Hans": "公元前1200年同代世界故事场景",
+      "en": "1200 BCE Same-Era World Story Scene"
+    },
+    "territorySnapshotIds": [
+      "cliopatria_assyria_bce_1200_context",
+      "cliopatria_babylonia_bce_1200_context",
+      "cliopatria_elam_bce_1200_context",
+      "cliopatria_hittites_bce_1200_context",
+      "cliopatria_mycenaean_greece_bce_1200_context",
+      "cliopatria_new_kingdom_of_egypt_bce_1200_context",
+      "cliopatria_shang_dynasty_bce_1200_context"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "由 Cliopatria 自动生成的细粒度时间轴同代世界参考场景。 默认显示层已切换为 Cliopatria 统一世界参考底座；项目内专题边界保留为后续审核/对照数据，不再进入默认场景。",
+    "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
+  },
+  {
+    "id": "world_story_scene_bce_1100",
+    "displayYear": -1100,
+    "title": {
+      "zh-Hans": "公元前1100年同代世界故事场景",
+      "en": "1100 BCE Same-Era World Story Scene"
+    },
+    "territorySnapshotIds": [
+      "cliopatria_assyria_bce_1100_context",
+      "cliopatria_babylonia_bce_1100_context",
+      "cliopatria_elam_bce_1100_context",
+      "cliopatria_greek_dark_ages_bce_1100_context",
+      "cliopatria_new_kingdom_of_egypt_bce_1100_context",
+      "cliopatria_shang_dynasty_bce_1100_context"
+    ],
+    "completeness": "partial_scene",
+    "sceneType": "world_context_scene",
+    "notes": "由 Cliopatria 自动生成的细粒度时间轴同代世界参考场景。 默认显示层已切换为 Cliopatria 统一世界参考底座；项目内专题边界保留为后续审核/对照数据，不再进入默认场景。",
+    "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
+    "sceneScope": "world",
+    "coverageLevel": "global_partial"
   }
 ]

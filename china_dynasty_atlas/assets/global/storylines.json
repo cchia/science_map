@@ -1,5 +1,390 @@
 [
   {
+    "id": "shang_dynasty_story",
+    "title_zh": "商朝：青铜王权、甲骨文与商周转换",
+    "title_en": "Shang Dynasty: Bronze Kingship, Oracle Bones, and the Shang-Zhou Transition",
+    "emoji": "🏺",
+    "theme_type": "dynastic_transition",
+    "description_zh": "从成汤灭夏和商朝建立开始，讲早中商青铜王权、盘庚迁殷、武丁盛世、妇好的军事与祭祀角色，到帝辛晚商危机和牧野之战。",
+    "description_en": "From Cheng Tang and the founding of Shang, this storyline follows early-middle Shang bronze kingship, Pan Geng’s move to Yin, Wu Ding’s high Shang, Fu Hao’s military and ritual role, Di Xin’s late Shang crisis, and Muye.",
+    "source_note_zh": "地图边界使用 Cliopatria 商朝参考层；商代方国、都邑迁徙和具体控制范围暂无逐地边界，因此故事重点放在时间节点、王权制度、甲骨文和商周转换。",
+    "source_note_en": "Map boundaries use the Cliopatria Shang Dynasty reference layer; Shang-period regional polities, moving capitals, and local control are not available as detailed boundaries, so the story focuses on chronology, kingship, oracle bones, and the Shang-Zhou transition.",
+    "events": [
+      "shang_foundation_1600",
+      "early_middle_shang_1500",
+      "pan_geng_moves_yin_1300",
+      "wu_ding_high_shang_1250",
+      "fu_hao_campaigns_1200",
+      "late_shang_di_xin_1100",
+      "muye_battle_1046"
+    ],
+    "people": [
+      "cheng_tang",
+      "pan_geng",
+      "wu_ding",
+      "fu_hao",
+      "di_xin",
+      "king_wu_zhou"
+    ],
+    "territories": [
+      "cliopatria_shang_dynasty",
+      "cliopatria_zhou_dynasty"
+    ],
+    "route_points": [
+      {
+        "id": "foundation_1600",
+        "label_zh": "-1600：成汤建商",
+        "label_en": "-1600: Cheng Tang Founds Shang",
+        "year": -1600,
+        "place_id": "",
+        "lat": 34.7,
+        "lng": 112.8,
+        "note_zh": "商朝地图层开启。",
+        "note_en": "Shang map layer begins."
+      },
+      {
+        "id": "middle_1500",
+        "label_zh": "-1500：早中商展开",
+        "label_en": "-1500: Early-Middle Shang",
+        "year": -1500,
+        "place_id": "",
+        "lat": 35.0,
+        "lng": 113.0,
+        "note_zh": "青铜王权持续发展。",
+        "note_en": "Bronze kingship develops."
+      },
+      {
+        "id": "yin_1300",
+        "label_zh": "-1300：盘庚迁殷",
+        "label_en": "-1300: Pan Geng Moves to Yin",
+        "year": -1300,
+        "place_id": "",
+        "lat": 36.1,
+        "lng": 114.3,
+        "note_zh": "晚商材料集中于殷。",
+        "note_en": "Late Shang evidence centers on Yin."
+      },
+      {
+        "id": "wuding_1250",
+        "label_zh": "-1250：武丁盛世",
+        "label_en": "-1250: Wu Ding High Shang",
+        "year": -1250,
+        "place_id": "",
+        "lat": 36.1,
+        "lng": 114.3,
+        "note_zh": "王权、战争与祭祀活跃。",
+        "note_en": "Kingship, war, and ritual are active."
+      },
+      {
+        "id": "fuhao_1200",
+        "label_zh": "-1200：妇好",
+        "label_en": "-1200: Fu Hao",
+        "year": -1200,
+        "place_id": "",
+        "lat": 36.1,
+        "lng": 114.3,
+        "note_zh": "具体人物进入商朝故事。",
+        "note_en": "A concrete individual enters the Shang story."
+      },
+      {
+        "id": "dixin_1100",
+        "label_zh": "-1100：晚商危机",
+        "label_en": "-1100: Late Shang Crisis",
+        "year": -1100,
+        "place_id": "",
+        "lat": 35.7,
+        "lng": 114.9,
+        "note_zh": "商周转换前夜。",
+        "note_en": "Eve of Shang-Zhou transition."
+      },
+      {
+        "id": "muye_1046",
+        "label_zh": "-1046：牧野之战",
+        "label_en": "-1046: Battle of Muye",
+        "year": -1046,
+        "place_id": "",
+        "lat": 35.7,
+        "lng": 114.9,
+        "note_zh": "商亡周兴。",
+        "note_en": "Shang falls and Zhou rises."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "foundation_1600",
+        "title_zh": "成汤灭夏：商朝开端",
+        "title_en": "Cheng Tang Overthrows Xia: Shang Begins",
+        "year": -1600,
+        "event_id": "shang_foundation_1600",
+        "route_point_id": "foundation_1600",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 35.8,
+          "lng": 114.0,
+          "zoom": 4.1
+        },
+        "script_zh": "传统叙事中，成汤灭夏建商。Cliopatria 从 -1600 开始显示商朝层，适合作为商朝主线开端。",
+        "script_en": "In transmitted tradition, Cheng Tang overthrew Xia and founded Shang. Cliopatria begins showing Shang at 1600 BCE, making it a useful opening node.",
+        "scene_setting_zh": "成汤灭夏：商朝开端",
+        "scene_setting_en": "Cheng Tang Overthrows Xia: Shang Begins",
+        "character_beat_zh": "商朝主线的重点是青铜王权、甲骨文、祭祀战争结构，以及最后的商周转换。",
+        "character_beat_en": "The Shang storyline centers on bronze kingship, oracle bones, ritual-war structures, and the final Shang-Zhou transition.",
+        "story_question_zh": "商朝如何从传说中的革命王朝，变成甲骨文和青铜器中可见的早期国家？",
+        "story_question_en": "How did Shang move from a transmitted revolutionary dynasty into an early state visible through oracle bones and bronzes?",
+        "active_character_ids": [
+          "tang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "middle_1500",
+        "title_zh": "早中商：青铜王权展开",
+        "title_en": "Early-Middle Shang: Bronze Kingship Expands",
+        "year": -1500,
+        "event_id": "early_middle_shang_1500",
+        "route_point_id": "middle_1500",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 35.8,
+          "lng": 114.0,
+          "zoom": 4.1
+        },
+        "script_zh": "商朝不是只在晚商才出现。早中商阶段，王权网络、青铜礼器和都邑迁徙共同塑造中原青铜文明。",
+        "script_en": "Shang did not only exist in late Shang. In early-middle Shang, royal networks, bronze ritual vessels, and moving capitals shaped Central Plain bronze civilization.",
+        "scene_setting_zh": "早中商：青铜王权展开",
+        "scene_setting_en": "Early-Middle Shang: Bronze Kingship Expands",
+        "character_beat_zh": "商朝主线的重点是青铜王权、甲骨文、祭祀战争结构，以及最后的商周转换。",
+        "character_beat_en": "The Shang storyline centers on bronze kingship, oracle bones, ritual-war structures, and the final Shang-Zhou transition.",
+        "story_question_zh": "商朝如何从传说中的革命王朝，变成甲骨文和青铜器中可见的早期国家？",
+        "story_question_en": "How did Shang move from a transmitted revolutionary dynasty into an early state visible through oracle bones and bronzes?",
+        "active_character_ids": [
+          "tang"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "yin_1300",
+        "title_zh": "盘庚迁殷：晚商进入可见中心",
+        "title_en": "Pan Geng Moves to Yin: Late Shang Becomes Visible",
+        "year": -1300,
+        "event_id": "pan_geng_moves_yin_1300",
+        "route_point_id": "yin_1300",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 35.8,
+          "lng": 114.0,
+          "zoom": 4.1
+        },
+        "script_zh": "盘庚迁殷让晚商叙事有了更清晰的考古中心。地图仍是商朝大层，但故事焦点转到殷都。",
+        "script_en": "Pan Geng’s move to Yin gives late Shang a clearer archaeological center. The map remains broad Shang, but the focus shifts to Yin.",
+        "scene_setting_zh": "盘庚迁殷：晚商进入可见中心",
+        "scene_setting_en": "Pan Geng Moves to Yin: Late Shang Becomes Visible",
+        "character_beat_zh": "商朝主线的重点是青铜王权、甲骨文、祭祀战争结构，以及最后的商周转换。",
+        "character_beat_en": "The Shang storyline centers on bronze kingship, oracle bones, ritual-war structures, and the final Shang-Zhou transition.",
+        "story_question_zh": "商朝如何从传说中的革命王朝，变成甲骨文和青铜器中可见的早期国家？",
+        "story_question_en": "How did Shang move from a transmitted revolutionary dynasty into an early state visible through oracle bones and bronzes?",
+        "active_character_ids": [
+          "pan"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "wuding_1250",
+        "title_zh": "武丁盛世：甲骨文中的王权机器",
+        "title_en": "Wu Ding High Shang: Kingship in Oracle Bones",
+        "year": -1250,
+        "event_id": "wu_ding_high_shang_1250",
+        "route_point_id": "wuding_1250",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 35.8,
+          "lng": 114.0,
+          "zoom": 4.1
+        },
+        "script_zh": "武丁时期的甲骨文展示了征伐、祭祀、占卜和王命如何一起运作，商朝王权在这里最具可见度。",
+        "script_en": "Wu Ding-era oracle bones show campaigns, ritual, divination, and royal commands working together. Shang kingship is especially visible here.",
+        "scene_setting_zh": "武丁盛世：甲骨文中的王权机器",
+        "scene_setting_en": "Wu Ding High Shang: Kingship in Oracle Bones",
+        "character_beat_zh": "商朝主线的重点是青铜王权、甲骨文、祭祀战争结构，以及最后的商周转换。",
+        "character_beat_en": "The Shang storyline centers on bronze kingship, oracle bones, ritual-war structures, and the final Shang-Zhou transition.",
+        "story_question_zh": "商朝如何从传说中的革命王朝，变成甲骨文和青铜器中可见的早期国家？",
+        "story_question_en": "How did Shang move from a transmitted revolutionary dynasty into an early state visible through oracle bones and bronzes?",
+        "active_character_ids": [
+          "wu"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "fuhao_1200",
+        "title_zh": "妇好：商朝故事里的具体人物",
+        "title_en": "Fu Hao: A Concrete Person in Shang History",
+        "year": -1200,
+        "event_id": "fu_hao_campaigns_1200",
+        "route_point_id": "fuhao_1200",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 35.8,
+          "lng": 114.0,
+          "zoom": 4.1
+        },
+        "script_zh": "妇好兼具王后、将领和祭祀身份。她让商朝不只是抽象王朝，而能看到具体人物如何进入国家机器。",
+        "script_en": "Fu Hao was queen, commander, and ritual actor. She makes Shang more than an abstract dynasty by showing a concrete person inside the state machine.",
+        "scene_setting_zh": "妇好：商朝故事里的具体人物",
+        "scene_setting_en": "Fu Hao: A Concrete Person in Shang History",
+        "character_beat_zh": "商朝主线的重点是青铜王权、甲骨文、祭祀战争结构，以及最后的商周转换。",
+        "character_beat_en": "The Shang storyline centers on bronze kingship, oracle bones, ritual-war structures, and the final Shang-Zhou transition.",
+        "story_question_zh": "商朝如何从传说中的革命王朝，变成甲骨文和青铜器中可见的早期国家？",
+        "story_question_en": "How did Shang move from a transmitted revolutionary dynasty into an early state visible through oracle bones and bronzes?",
+        "active_character_ids": [
+          "fu",
+          "wu"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "dixin_1100",
+        "title_zh": "帝辛与晚商：转换前夜",
+        "title_en": "Di Xin and Late Shang: Eve of Transition",
+        "year": -1100,
+        "event_id": "late_shang_di_xin_1100",
+        "route_point_id": "dixin_1100",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 35.8,
+          "lng": 114.0,
+          "zoom": 4.1
+        },
+        "script_zh": "晚商危机在后世叙事中集中到帝辛身上。-1100 年地图仍是商朝，但周人的崛起已经成为下一幕的背景。",
+        "script_en": "Late Shang crisis is concentrated in later narratives around Di Xin. The 1100 BCE map is still Shang, but Zhou’s rise becomes the background for the next act.",
+        "scene_setting_zh": "帝辛与晚商：转换前夜",
+        "scene_setting_en": "Di Xin and Late Shang: Eve of Transition",
+        "character_beat_zh": "商朝主线的重点是青铜王权、甲骨文、祭祀战争结构，以及最后的商周转换。",
+        "character_beat_en": "The Shang storyline centers on bronze kingship, oracle bones, ritual-war structures, and the final Shang-Zhou transition.",
+        "story_question_zh": "商朝如何从传说中的革命王朝，变成甲骨文和青铜器中可见的早期国家？",
+        "story_question_en": "How did Shang move from a transmitted revolutionary dynasty into an early state visible through oracle bones and bronzes?",
+        "active_character_ids": [
+          "dixin"
+        ],
+        "interactions": []
+      },
+      {
+        "id": "muye_1046",
+        "title_zh": "牧野之战：商亡周兴",
+        "title_en": "Battle of Muye: Shang Falls, Zhou Rises",
+        "year": -1046,
+        "event_id": "muye_battle_1046",
+        "route_point_id": "muye_1046",
+        "highlight_territory_ids": [
+          "cliopatria_shang_dynasty"
+        ],
+        "camera": {
+          "lat": 35.8,
+          "lng": 114.0,
+          "zoom": 4.1
+        },
+        "script_zh": "牧野之战连接商朝主线与西周主线。Cliopatria 这一年仍显示商朝旧边界，正好表现周是在商的旧秩序上完成替代。",
+        "script_en": "Muye connects the Shang storyline to Western Zhou. Cliopatria still shows the old Shang boundary in this year, usefully showing Zhou replacing Shang’s old order.",
+        "scene_setting_zh": "牧野之战：商亡周兴",
+        "scene_setting_en": "Battle of Muye: Shang Falls, Zhou Rises",
+        "character_beat_zh": "商朝主线的重点是青铜王权、甲骨文、祭祀战争结构，以及最后的商周转换。",
+        "character_beat_en": "The Shang storyline centers on bronze kingship, oracle bones, ritual-war structures, and the final Shang-Zhou transition.",
+        "story_question_zh": "商朝如何从传说中的革命王朝，变成甲骨文和青铜器中可见的早期国家？",
+        "story_question_en": "How did Shang move from a transmitted revolutionary dynasty into an early state visible through oracle bones and bronzes?",
+        "active_character_ids": [
+          "dixin",
+          "wuwang"
+        ],
+        "interactions": []
+      }
+    ],
+    "characters": [
+      {
+        "id": "tang",
+        "person_id": "cheng_tang",
+        "label_zh": "成汤",
+        "label_en": "Cheng Tang",
+        "role_zh": "商朝开国君主",
+        "role_en": "Founder of Shang",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "汤",
+        "goal_zh": "串联商朝从建立、迁殷、甲骨文世界到商周转换的主线。",
+        "goal_en": "Connect Shang from foundation, Yin, the oracle-bone world, and the Shang-Zhou transition."
+      },
+      {
+        "id": "pan",
+        "person_id": "pan_geng",
+        "label_zh": "盘庚",
+        "label_en": "Pan Geng",
+        "role_zh": "迁殷之王",
+        "role_en": "King who moved to Yin",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "盘",
+        "goal_zh": "串联商朝从建立、迁殷、甲骨文世界到商周转换的主线。",
+        "goal_en": "Connect Shang from foundation, Yin, the oracle-bone world, and the Shang-Zhou transition."
+      },
+      {
+        "id": "wu",
+        "person_id": "wu_ding",
+        "label_zh": "武丁",
+        "label_en": "Wu Ding",
+        "role_zh": "商代强盛君主",
+        "role_en": "High Shang ruler",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "武",
+        "goal_zh": "串联商朝从建立、迁殷、甲骨文世界到商周转换的主线。",
+        "goal_en": "Connect Shang from foundation, Yin, the oracle-bone world, and the Shang-Zhou transition."
+      },
+      {
+        "id": "fu",
+        "person_id": "fu_hao",
+        "label_zh": "妇好",
+        "label_en": "Fu Hao",
+        "role_zh": "王后、将领与祭祀人物",
+        "role_en": "Queen, commander, and ritual figure",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "妇",
+        "goal_zh": "串联商朝从建立、迁殷、甲骨文世界到商周转换的主线。",
+        "goal_en": "Connect Shang from foundation, Yin, the oracle-bone world, and the Shang-Zhou transition."
+      },
+      {
+        "id": "dixin",
+        "person_id": "di_xin",
+        "label_zh": "帝辛",
+        "label_en": "Di Xin",
+        "role_zh": "商末君主",
+        "role_en": "Last Shang ruler",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "辛",
+        "goal_zh": "串联商朝从建立、迁殷、甲骨文世界到商周转换的主线。",
+        "goal_en": "Connect Shang from foundation, Yin, the oracle-bone world, and the Shang-Zhou transition."
+      },
+      {
+        "id": "wuwang",
+        "person_id": "king_wu_zhou",
+        "label_zh": "周武王",
+        "label_en": "King Wu of Zhou",
+        "role_zh": "灭商者",
+        "role_en": "Conqueror of Shang",
+        "avatar_type": "symbolic_avatar",
+        "avatar_symbol": "周",
+        "goal_zh": "串联商朝从建立、迁殷、甲骨文世界到商周转换的主线。",
+        "goal_en": "Connect Shang from foundation, Yin, the oracle-bone world, and the Shang-Zhou transition."
+      }
+    ]
+  },
+  {
     "id": "western_zhou_story",
     "title_zh": "西周：分封天下与王权衰落",
     "title_en": "Western Zhou: Enfeoffing the Realm and Royal Decline",

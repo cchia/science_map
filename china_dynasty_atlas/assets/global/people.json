@@ -4150,6 +4150,7 @@
     "contribution": "周灭商的核心君主，牧野之战后开启西周王朝。",
     "contributionEn": "Founder-ruler of Zhou who overthrew Shang after the Battle of Muye.",
     "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty",
       "cliopatria_zhou_dynasty"
     ],
     "relatedEventIds": [
@@ -9629,6 +9630,227 @@
     "relatedEventIds": [
       "new_era_2012",
       "contemporary_china_2020"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "cheng_tang",
+    "names": {
+      "primaryName": "Cheng Tang",
+      "localizedNames": {
+        "en": "Cheng Tang",
+        "zh-Hans": "成汤"
+      },
+      "aliases": [
+        "商汤",
+        "汤"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -1588,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前1588年"
+    },
+    "activeRange": "1588",
+    "roles": [
+      "founder",
+      "king"
+    ],
+    "bioShort": "商朝开国君主，传统叙事中灭夏建商。",
+    "bioShortEn": "Founding ruler of Shang, traditionally credited with overthrowing Xia and establishing Shang.",
+    "bioLong": "商朝开国君主，传统叙事中灭夏建商。",
+    "bioLongEn": "Founding ruler of Shang, traditionally credited with overthrowing Xia and establishing Shang.",
+    "contribution": "商朝开国君主，传统叙事中灭夏建商。",
+    "contributionEn": "Founding ruler of Shang, traditionally credited with overthrowing Xia and establishing Shang.",
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "relatedEventIds": [
+      "shang_foundation_1600"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "pan_geng",
+    "names": {
+      "primaryName": "Pan Geng",
+      "localizedNames": {
+        "en": "Pan Geng",
+        "zh-Hans": "盘庚"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "activeRange": "",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "商王，传统上以迁都于殷稳定王朝秩序著称。",
+    "bioShortEn": "Shang king traditionally known for moving the capital to Yin and stabilizing dynastic order.",
+    "bioLong": "商王，传统上以迁都于殷稳定王朝秩序著称。",
+    "bioLongEn": "Shang king traditionally known for moving the capital to Yin and stabilizing dynastic order.",
+    "contribution": "商王，传统上以迁都于殷稳定王朝秩序著称。",
+    "contributionEn": "Shang king traditionally known for moving the capital to Yin and stabilizing dynastic order.",
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "relatedEventIds": [
+      "pan_geng_moves_yin_1300"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "wu_ding",
+    "names": {
+      "primaryName": "Wu Ding",
+      "localizedNames": {
+        "en": "Wu Ding",
+        "zh-Hans": "武丁"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -1192,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前1192年"
+    },
+    "activeRange": "1192",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "商代重要君主，甲骨文材料中显示其时期军事、祭祀和王权活动活跃。",
+    "bioShortEn": "Major Shang ruler whose reign appears in oracle-bone records as a period of active warfare, ritual, and royal power.",
+    "bioLong": "商代重要君主，甲骨文材料中显示其时期军事、祭祀和王权活动活跃。",
+    "bioLongEn": "Major Shang ruler whose reign appears in oracle-bone records as a period of active warfare, ritual, and royal power.",
+    "contribution": "商代重要君主，甲骨文材料中显示其时期军事、祭祀和王权活动活跃。",
+    "contributionEn": "Major Shang ruler whose reign appears in oracle-bone records as a period of active warfare, ritual, and royal power.",
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "relatedEventIds": [
+      "wu_ding_high_shang_1250",
+      "fu_hao_campaigns_1200"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "fu_hao",
+    "names": {
+      "primaryName": "Fu Hao",
+      "localizedNames": {
+        "en": "Fu Hao",
+        "zh-Hans": "妇好"
+      },
+      "aliases": []
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -1200,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前1200年"
+    },
+    "activeRange": "1200",
+    "roles": [
+      "general",
+      "queen",
+      "priestess"
+    ],
+    "bioShort": "武丁时期王后、军事统帅和祭祀人物，是甲骨文与考古中最鲜明的商代人物之一。",
+    "bioShortEn": "Queen, military commander, and ritual figure under Wu Ding; one of the clearest Shang individuals in oracle-bone and archaeological evidence.",
+    "bioLong": "武丁时期王后、军事统帅和祭祀人物，是甲骨文与考古中最鲜明的商代人物之一。",
+    "bioLongEn": "Queen, military commander, and ritual figure under Wu Ding; one of the clearest Shang individuals in oracle-bone and archaeological evidence.",
+    "contribution": "武丁时期王后、军事统帅和祭祀人物，是甲骨文与考古中最鲜明的商代人物之一。",
+    "contributionEn": "Queen, military commander, and ritual figure under Wu Ding; one of the clearest Shang individuals in oracle-bone and archaeological evidence.",
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "relatedEventIds": [
+      "fu_hao_campaigns_1200"
+    ],
+    "birthPlaceId": "",
+    "deathPlaceId": "",
+    "sourceRefs": [
+      "editorial_internal_v1"
+    ]
+  },
+  {
+    "id": "di_xin",
+    "names": {
+      "primaryName": "Di Xin",
+      "localizedNames": {
+        "en": "Di Xin",
+        "zh-Hans": "帝辛（纣王）"
+      },
+      "aliases": [
+        "纣王",
+        "商纣王"
+      ]
+    },
+    "birth": {
+      "year": null,
+      "datePrecision": "unknown",
+      "displayLabel": ""
+    },
+    "death": {
+      "year": -1046,
+      "datePrecision": "approximate_year",
+      "displayLabel": "公元前1046年"
+    },
+    "activeRange": "1046",
+    "roles": [
+      "king"
+    ],
+    "bioShort": "商朝末代君主，后世叙事称纣王，其形象与商周革命和牧野之战相连。",
+    "bioShortEn": "Last Shang ruler, later known as King Zhou; his image is tied to the Shang-Zhou transition and Battle of Muye.",
+    "bioLong": "商朝末代君主，后世叙事称纣王，其形象与商周革命和牧野之战相连。",
+    "bioLongEn": "Last Shang ruler, later known as King Zhou; his image is tied to the Shang-Zhou transition and Battle of Muye.",
+    "contribution": "商朝末代君主，后世叙事称纣王，其形象与商周革命和牧野之战相连。",
+    "contributionEn": "Last Shang ruler, later known as King Zhou; his image is tied to the Shang-Zhou transition and Battle of Muye.",
+    "relatedTerritoryIds": [
+      "cliopatria_shang_dynasty"
+    ],
+    "relatedEventIds": [
+      "late_shang_di_xin_1100",
+      "muye_battle_1046"
     ],
     "birthPlaceId": "",
     "deathPlaceId": "",
