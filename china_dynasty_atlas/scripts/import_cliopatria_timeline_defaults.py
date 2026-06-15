@@ -344,7 +344,7 @@ def main() -> None:
     territories_path = PROJECT_ROOT / "assets/global/territories.json"
     scenes_path = PROJECT_ROOT / "assets/global/map_scenes.json"
     translations_path = PROJECT_ROOT / "assets/global/cliopatria_name_translations.json"
-    geojson_dir = PROJECT_ROOT / "assets/geojson/world/cliopatria"
+    geojson_dir = PROJECT_ROOT / "assets/geojson/runtime"
 
     scope = read_json(scope_path)
     manifest = read_json(manifest_path)
@@ -411,7 +411,7 @@ def main() -> None:
             territory_id = territory_id_for(name, year, territories_by_primary_name)
             geometry_id = f"cliopatria_{slugify(name)}_{year_suffix(year)}"
             snapshot_id = f"{geometry_id}_context"
-            asset_path = f"assets/geojson/world/cliopatria/{geometry_id}.geojson"
+            asset_path = f"assets/geojson/runtime/{geometry_id}.geojson"
             output_path = PROJECT_ROOT / asset_path
 
             ensure_territory(

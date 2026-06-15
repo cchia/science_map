@@ -15,6 +15,52 @@ import '../state/app_settings.dart';
 import '../state/atlas_explorer_controller.dart';
 
 const _maxConcurrentGeometryLoads = 4;
+const _mapFocusTerritoryIds = {
+  'cao_wei',
+  'eastern_han',
+  'eastern_wu',
+  'northern_wei',
+  'qin',
+  'qing_dynasty',
+  'republic_of_china',
+  'shu_han',
+  'sui_dynasty',
+  'tang_dynasty',
+  'western_han',
+  'xin',
+  'cliopatria_kuomintang',
+  'cliopatria_later_zhou_dynasty',
+};
+
+const _mapFocusIdTerms = {
+  'china',
+  'shang',
+  'zhou',
+  'qin',
+  'han',
+  'chu',
+  'wei',
+  'shu',
+  'wu',
+  'yue',
+  'qi',
+  'yan',
+  'zhao',
+  'jin',
+  'sui',
+  'tang',
+  'song',
+  'liao',
+  'xia',
+  'yuan',
+  'ming',
+  'qing',
+  'tibet',
+  'dali',
+  'nanzhao',
+  'mongol',
+  'taiping',
+};
 
 class AtlasHomePage extends StatefulWidget {
   const AtlasHomePage({super.key});
@@ -121,7 +167,13 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
             .expand((snapshot) => snapshot.geometryRefs)
             .toSet()
             .toList(growable: false)
-          ..sort();
+          ..sort((a, b) {
+            final priorityComparison =
+                _geometryLoadPriority(a, snapshots) -
+                _geometryLoadPriority(b, snapshots);
+            if (priorityComparison != 0) return priorityComparison;
+            return a.compareTo(b);
+          });
     final cacheKey = geometryRefs.join('|');
     return _polygonFutureCache.putIfAbsent(cacheKey, () async {
       final geometryAssetsById = _geometryAssetsById;
@@ -131,10 +183,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                 geometryAssetsById.containsKey(geometryRef);
           })
           .toList(growable: false);
-      final loadedEntries = await _loadMissingPolygons(missingGeometryRefs);
-      for (final entry in loadedEntries) {
-        _loadedPolygonsByGeometryId[entry.key] = entry.value;
-      }
+      await _loadMissingPolygons(missingGeometryRefs);
       return _mapsFromCache(
         snapshots,
         version: _loadedPolygonsByGeometryId.length,
@@ -142,32 +191,72 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     });
   }
 
-  Future<List<MapEntry<String, List<AtlasPolygonFeature>>>> _loadMissingPolygons(
+  Future<void> _loadMissingPolygons(
     List<String> geometryRefs,
   ) async {
-    final loadedEntries = <MapEntry<String, List<AtlasPolygonFeature>>>[];
     for (var index = 0; index < geometryRefs.length;) {
       final end = (index + _maxConcurrentGeometryLoads).clamp(
         0,
         geometryRefs.length,
       );
       final batch = geometryRefs.sublist(index, end);
-      loadedEntries.addAll(
-        await Future.wait(
-          batch.map((geometryRef) async {
-            final geometry = _geometryAssetsById[geometryRef]!;
-            final polygons = await _geometryRepository.loadGeoJsonByPath(
-              geometryRef,
-              geometry.id,
-              geometry.assetPath,
-            );
-            return MapEntry(geometryRef, polygons);
-          }),
-        ),
+      final loadedEntries = await Future.wait(
+        batch.map((geometryRef) async {
+          final geometry = _geometryAssetsById[geometryRef]!;
+          final polygons = await _geometryRepository.loadGeoJsonByPath(
+            geometryRef,
+            geometry.id,
+            geometry.assetPath,
+          );
+          return MapEntry(geometryRef, polygons);
+        }),
       );
+      for (final entry in loadedEntries) {
+        _loadedPolygonsByGeometryId[entry.key] = entry.value;
+      }
+      if (mounted) setState(() {});
       index = end;
     }
-    return loadedEntries;
+  }
+
+  int _geometryLoadPriority(
+    String geometryRef,
+    List<TerritorySnapshot> snapshots,
+  ) {
+    final controller = _controller;
+    final storyHighlights = controller.activeStorylineHighlightTerritoryIds;
+    for (final snapshot in snapshots) {
+      if (!snapshot.geometryRefs.contains(geometryRef)) continue;
+      if (snapshot.territoryId == controller.selectedTerritoryId) return 0;
+      if (storyHighlights.contains(snapshot.territoryId)) return 1;
+      if (_isMapFocusTerritory(snapshot.territoryId)) return 2;
+    }
+    return 3;
+  }
+
+  bool _isMapFocusTerritory(String territoryId) {
+    if (_mapFocusTerritoryIds.contains(territoryId)) return true;
+    final idTerms = territoryId.toLowerCase().split('_').toSet();
+    if (_mapFocusIdTerms.any(idTerms.contains)) {
+      return true;
+    }
+    final territory = _territoriesById[territoryId];
+    final nameZh = territory?.nameZh ?? '';
+    return nameZh.contains('中国') ||
+        nameZh.contains('商') ||
+        nameZh.contains('周') ||
+        nameZh.contains('秦') ||
+        nameZh.contains('汉') ||
+        nameZh.contains('魏') ||
+        nameZh.contains('蜀') ||
+        nameZh.contains('吴') ||
+        nameZh.contains('晋') ||
+        nameZh.contains('隋') ||
+        nameZh.contains('唐') ||
+        nameZh.contains('宋') ||
+        nameZh.contains('元') ||
+        nameZh.contains('明') ||
+        nameZh.contains('清');
   }
 
   _LoadedPolygonMaps _mapsFromCache(

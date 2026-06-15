@@ -64,9 +64,6 @@ class AtlasRepository {
     final geometryAssets = geometryManifestJson
         .map(_geometryAssetFromGlobal)
         .toList(growable: false);
-    final geometryById = {
-      for (final geometry in geometryAssets) geometry.id: geometry,
-    };
 
     final territories = territoriesJson
         .map((json) => _territoryFromGlobal(json, placesById))
@@ -98,23 +95,13 @@ class AtlasRepository {
       final mapScenesJson = await _loadJsonList(
         'assets/global/map_scenes.json',
       );
+      final snapshotIds = snapshots.map((snapshot) => snapshot.id).toSet();
       mapScenes = mapScenesJson
           .map((json) => MapScene.fromJson(json))
+          .map((scene) => _filterMapSceneSnapshots(scene, snapshotIds))
           .toList(growable: false);
     } catch (e) {
       debugPrint('No map_scenes.json found or failed to parse: $e');
-    }
-
-    final polygonsByGeometryId = <String, List<AtlasPolygonFeature>>{};
-
-    final worldBaseGeometry = geometryById['world_base_modern'];
-    if (worldBaseGeometry != null &&
-        !polygonsByGeometryId.containsKey(worldBaseGeometry.id)) {
-      polygonsByGeometryId[worldBaseGeometry.id] = await loadGeoJsonByPath(
-        'world_base_modern',
-        worldBaseGeometry.id,
-        worldBaseGeometry.assetPath,
-      );
     }
 
     return AtlasData(
@@ -124,13 +111,35 @@ class AtlasRepository {
       events: events,
       people: people,
       polygonsBySnapshotId: const {},
-      polygonsByGeometryId: polygonsByGeometryId,
+      polygonsByGeometryId: const {},
       places: places,
       sources: sources,
       geometryAssets: geometryAssets,
       controlZones: const [],
       storylines: storylines,
       mapScenes: mapScenes,
+    );
+  }
+
+  MapScene _filterMapSceneSnapshots(MapScene scene, Set<String> snapshotIds) {
+    final filteredSnapshotIds = scene.territorySnapshotIds
+        .where(snapshotIds.contains)
+        .toList(growable: false);
+    if (filteredSnapshotIds.length == scene.territorySnapshotIds.length) {
+      return scene;
+    }
+    return MapScene(
+      id: scene.id,
+      displayYear: scene.displayYear,
+      titleZh: scene.titleZh,
+      titleEn: scene.titleEn,
+      territorySnapshotIds: filteredSnapshotIds,
+      completeness: scene.completeness,
+      sceneType: scene.sceneType,
+      notesZh: scene.notesZh,
+      notesEn: scene.notesEn,
+      sceneScope: scene.sceneScope,
+      coverageLevel: scene.coverageLevel,
     );
   }
 

@@ -14,6 +14,7 @@ import urllib.request
 import zipfile
 from io import BytesIO
 from pathlib import Path
+from typing import TypedDict
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -22,7 +23,19 @@ CLIOPATRIA_ZIP_URL = (
     "cliopatria.geojson.zip"
 )
 
-TARGETS = [
+
+class Target(TypedDict, total=False):
+    display_year: int
+    source_year: int
+    source_name: str
+    territory_id: str
+    label_zh: str
+    label_en: str
+    source_note_zh: str
+    source_note_en: str
+
+
+TARGETS: list[Target] = [
     {
         "display_year": -323,
         "source_year": -323,
@@ -248,7 +261,7 @@ def main() -> None:
     manifest_path = PROJECT_ROOT / "assets/global/geometry_manifest.json"
     snapshots_path = PROJECT_ROOT / "assets/global/territory_snapshots.json"
     territories_path = PROJECT_ROOT / "assets/global/territories.json"
-    geojson_dir = PROJECT_ROOT / "assets/geojson/world/cliopatria"
+    geojson_dir = PROJECT_ROOT / "assets/geojson/runtime"
     manifest = read_json(manifest_path)
     snapshots = read_json(snapshots_path)
     territories = read_json(territories_path)
@@ -261,7 +274,7 @@ def main() -> None:
     for target in TARGETS:
         geometry_id = f"cliopatria_{slugify(target['source_name'])}_{year_suffix(target['display_year'])}"
         snapshot_id = f"{geometry_id}_context"
-        asset_path = f"assets/geojson/world/cliopatria/{geometry_id}.geojson"
+        asset_path = f"assets/geojson/runtime/{geometry_id}.geojson"
         output_path = PROJECT_ROOT / asset_path
         if (
             geometry_id in manifest_by_id

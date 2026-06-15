@@ -8,6 +8,53 @@ final atlasExplorerControllerProvider =
       (ref, data) => AtlasExplorerController(data),
     );
 
+const _chinaFocusTerritoryIds = {
+  'cao_wei',
+  'eastern_han',
+  'eastern_wu',
+  'northern_wei',
+  'qin',
+  'qing_dynasty',
+  'republic_of_china',
+  'shu_han',
+  'sui_dynasty',
+  'tang_dynasty',
+  'western_han',
+  'xin',
+  'cliopatria_kuomintang',
+  'cliopatria_later_zhou_dynasty',
+};
+
+const _chinaFocusIdTerms = {
+  'china',
+  'shang',
+  'zhou',
+  'qin',
+  'han',
+  'chu',
+  'wei',
+  'shu',
+  'wu',
+  'yue',
+  'qi',
+  'yan',
+  'zhao',
+  'jin',
+  'sui',
+  'tang',
+  'song',
+  'liao',
+  'xia',
+  'yuan',
+  'ming',
+  'qing',
+  'tibet',
+  'dali',
+  'nanzhao',
+  'mongol',
+  'taiping',
+};
+
 class AtlasExplorerController extends ChangeNotifier {
   AtlasExplorerController(this.data)
     : _selectedYear = data.scope.timelineYears.first,
@@ -20,7 +67,7 @@ class AtlasExplorerController extends ChangeNotifier {
   int _selectedYear;
   String _selectedTerritoryId;
   String? _selectedEventId;
-  bool _showWorldContext = true;
+  bool _showWorldContext = false;
 
   late final Map<String, TerritorySnapshot> _snapshotsById = {
     for (final snapshot in data.snapshots) snapshot.id: snapshot,
@@ -29,6 +76,9 @@ class AtlasExplorerController extends ChangeNotifier {
       _groupSnapshotsByTerritory();
   late final Map<String, HistoricalEvent> _eventsById = {
     for (final event in data.events) event.id: event,
+  };
+  late final Map<String, Territory> _territoriesById = {
+    for (final territory in data.territories) territory.id: territory,
   };
 
   Storyline? _activeStoryline;
@@ -155,9 +205,17 @@ class AtlasExplorerController extends ChangeNotifier {
       if (activeStorylineChapter?.eventId case final eventId?)
         ...?eventById(eventId)?.territoryIds,
     };
-    final focusedSnapshots = snapshots
-        .where((snapshot) => focusTerritoryIds.contains(snapshot.territoryId))
-        .toList(growable: false);
+    final seenTerritoryIds = <String>{};
+    final focusedSnapshots = <TerritorySnapshot>[
+      ...snapshots.where((snapshot) {
+        if (!focusTerritoryIds.contains(snapshot.territoryId)) return false;
+        return seenTerritoryIds.add(snapshot.territoryId);
+      }),
+      ..._chinaFocusSnapshots(
+        snapshots,
+        seenTerritoryIds: seenTerritoryIds,
+      ),
+    ];
     if (focusedSnapshots.isNotEmpty) return focusedSnapshots;
     return [snapshots.first];
   }
@@ -193,7 +251,7 @@ class AtlasExplorerController extends ChangeNotifier {
   }
 
   Territory get selectedTerritory =>
-      data.territories.firstWhere((t) => t.id == selectedSnapshot.territoryId);
+      _territoriesById[selectedSnapshot.territoryId]!;
 
   HistoricalEvent? get selectedEvent =>
       _selectedEventId == null ? null : eventById(_selectedEventId!);
@@ -220,6 +278,42 @@ class AtlasExplorerController extends ChangeNotifier {
 
   HistoricalEvent? eventById(String id) {
     return _eventsById[id];
+  }
+
+  List<TerritorySnapshot> _chinaFocusSnapshots(
+    List<TerritorySnapshot> snapshots,
+    {Set<String>? seenTerritoryIds}
+  ) {
+    final seenIds = seenTerritoryIds ?? <String>{};
+    return snapshots.where((snapshot) {
+      if (!_isChinaFocusTerritory(snapshot.territoryId)) return false;
+      return seenIds.add(snapshot.territoryId);
+    }).toList(growable: false);
+  }
+
+  bool _isChinaFocusTerritory(String territoryId) {
+    if (_chinaFocusTerritoryIds.contains(territoryId)) return true;
+    final idTerms = territoryId.toLowerCase().split('_').toSet();
+    if (_chinaFocusIdTerms.any(idTerms.contains)) {
+      return true;
+    }
+    final territory = _territoriesById[territoryId];
+    final nameZh = territory?.nameZh ?? '';
+    return nameZh.contains('中国') ||
+        nameZh.contains('商') ||
+        nameZh.contains('周') ||
+        nameZh.contains('秦') ||
+        nameZh.contains('汉') ||
+        nameZh.contains('魏') ||
+        nameZh.contains('蜀') ||
+        nameZh.contains('吴') ||
+        nameZh.contains('晋') ||
+        nameZh.contains('隋') ||
+        nameZh.contains('唐') ||
+        nameZh.contains('宋') ||
+        nameZh.contains('元') ||
+        nameZh.contains('明') ||
+        nameZh.contains('清');
   }
 
   void selectYearIndex(int index) {
