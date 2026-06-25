@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cao",
+        "FromYear": -750,
+        "ToYear": -481,
+        "Area": 3839.7471467902633,
+        "Type": "POLITY",
+        "Wikipedia": "Cao (state)",
+        "Wikidata": "Q204077",
+        "SeshatID": "",
+        "Components": "",
+        "MemberOf": "(Spring and Autumn States)",
+        "displayYear": -506,
+        "sourceYear": -506,
+        "mappedTerritoryId": "cliopatria_cao"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.0113525390625,
+              35.77327346801758
+            ],
+            [
+              114.8564682006836,
+              35.77327346801758
+            ],
+            [
+              114.4080810546875,
+              35.45143127441406
+            ],
+            [
+              114.3758544921875,
+              35.194007873535156
+            ],
+            [
+              114.4990234375,
+              34.93662643432617
+            ],
+            [
+              115.23109436035156,
+              35.38706970214844
+            ],
+            [
+              114.95541381835938,
+              35.644527435302734
+            ],
+            [
+              115.0113525390625,
+              35.77327346801758
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

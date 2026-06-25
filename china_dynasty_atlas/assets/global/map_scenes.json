@@ -268,7 +268,6 @@
     "territorySnapshotIds": [
       "cliopatria_eastern_roman_empire_400_context",
       "cliopatria_alodia_400_context",
-      "cliopatria_western_jin_400_context",
       "cliopatria_funan_400_context",
       "cliopatria_goguryeo_400_context",
       "cliopatria_gupta_empire_400_context",
@@ -291,6 +290,7 @@
       "cliopatria_southern_liang_400_context",
       "cliopatria_tuyuhun_400_context",
       "cliopatria_vakataka_kingdom_400_context",
+      "cliopatria_western_jin_400_context",
       "cliopatria_western_qin_400_context",
       "cliopatria_western_roman_empire_400_context",
       "cliopatria_western_satraps_400_context",
@@ -1538,7 +1538,6 @@
       "cliopatria_najahid_dynasty_1100_context",
       "cliopatria_ng_dynasty_1100_context",
       "cliopatria_norman_england_1100_context",
-      "cliopatria_southern_song_1100_context",
       "cliopatria_novgorod_republic_1100_context",
       "cliopatria_old_kingdom_of_norway_1100_context",
       "cliopatria_pagan_kingdom_1100_context",
@@ -1551,6 +1550,7 @@
       "cliopatria_qocho_kingdom_1100_context",
       "cliopatria_sena_dynasty_1100_context",
       "cliopatria_sind_habbari_dynasty_1100_context",
+      "cliopatria_southern_song_1100_context",
       "cliopatria_srivijaya_1100_context",
       "cliopatria_sultanate_of_rum_1100_context",
       "cliopatria_tibetans_1100_context",
@@ -4797,28 +4797,6 @@
       "cliopatria_twenty_second_dynasty_of_egypt_bce_771_context",
       "cliopatria_twenty_third_dynasty_of_egypt_bce_771_context",
       "cliopatria_zhou_dynasty_bce_771_context"
-    ],
-    "completeness": "partial_scene",
-    "sceneType": "world_context_scene",
-    "notes": "由 Cliopatria 自动生成的细粒度时间轴同代世界参考场景。 默认显示层已切换为 Cliopatria 统一世界参考底座；项目内专题边界保留为后续审核/对照数据，不再进入默认场景。",
-    "notesEn": "A finer-grained same-era world reference scene generated from Cliopatria. The default display layer now uses Cliopatria as the unified world reference base; project-specific specialist boundaries remain for later review/comparison and are no longer included in default scenes.",
-    "sceneScope": "world",
-    "coverageLevel": "global_partial"
-  },
-  {
-    "id": "world_story_scene_bce_1030",
-    "displayYear": -1030,
-    "title": {
-      "zh-Hans": "公元前1030年同代世界故事场景",
-      "en": "1030 BCE Same-Era World Story Scene"
-    },
-    "territorySnapshotIds": [
-      "cliopatria_assyria_bce_1030_context",
-      "cliopatria_babylonia_bce_1030_context",
-      "cliopatria_elam_bce_1030_context",
-      "cliopatria_greek_dark_ages_bce_1030_context",
-      "cliopatria_new_kingdom_of_egypt_bce_1030_context",
-      "cliopatria_shang_dynasty_bce_1030_context"
     ],
     "completeness": "partial_scene",
     "sceneType": "world_context_scene",

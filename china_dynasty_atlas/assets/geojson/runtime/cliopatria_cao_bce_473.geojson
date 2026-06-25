@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cao",
+        "FromYear": -480,
+        "ToYear": -451,
+        "Area": 3889.135670848522,
+        "Type": "POLITY",
+        "Wikipedia": "Cao (state)",
+        "Wikidata": "Q204077",
+        "SeshatID": "",
+        "Components": "",
+        "MemberOf": "(Warring States China)",
+        "displayYear": -473,
+        "sourceYear": -473,
+        "mappedTerritoryId": "cliopatria_cao"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.8564682006836,
+              35.77327346801758
+            ],
+            [
+              114.4080810546875,
+              35.45143127441406
+            ],
+            [
+              114.3758544921875,
+              35.194007873535156
+            ],
+            [
+              114.4990234375,
+              34.93662643432617
+            ],
+            [
+              115.20346069335938,
+              35.32271194458008
+            ],
+            [
+              114.95541381835938,
+              35.644527435302734
+            ],
+            [
+              115.0113525390625,
+              35.77327346801758
+            ],
+            [
+              114.8564682006836,
+              35.77327346801758
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

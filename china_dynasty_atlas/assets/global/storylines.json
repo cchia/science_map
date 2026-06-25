@@ -15097,5 +15097,2002 @@
         "goal_en": "Turn distant knowledge into frontier policy and route strategy."
       }
     ]
+  },
+  {
+    "id": "indian_religion_society_story",
+    "title_zh": "印度宗教与社会史：佛教、印度教、伊斯兰与种姓社会",
+    "title_en": "Indian Religious and Social History: Buddhism, Hinduism, Islam, and Caste Society",
+    "emoji": "☸️",
+    "theme_type": "religion_social_history",
+    "description_zh": "印度宗教与社会史专题：吠陀传统、瓦尔那/种姓、佛教与耆那教、印度教整合、伊斯兰进入、殖民身份政治和现代宗教多元。",
+    "description_en": "A thematic channel for Indian religious and social history: Vedic traditions, varna/caste, Buddhism and Jainism, Hindu synthesis, Islam, colonial identity politics, and modern religious plurality.",
+    "source_note_zh": "许多宗教和社会制度并不等同于政权边界；地图用于标示同代政治背景，故事重点放在信仰、社会秩序和身份政治的长期变化。",
+    "source_note_en": "Many religious and social institutions do not map directly onto polity boundaries. The map marks same-era political context while the story focuses on long-term changes in belief, social order, and identity politics.",
+    "events": [
+      "vedic_ritual_order_bce_1500",
+      "varna_social_order_bce_1000",
+      "shramana_buddhism_jainism_bce_506",
+      "ashoka_kalinga_war_bce_260",
+      "kushan_empire_silk_road_buddhism_ce_100",
+      "puranic_hindu_synthesis_ce_400",
+      "gupta_classical_age_ce_329",
+      "arab_conquest_sindh_ce_713",
+      "turko_afghan_islamic_polities_ce_1206",
+      "akbar_mughal_consolidation_1556",
+      "colonial_religious_identity_politics_1909",
+      "modern_india_secular_religious_tensions_1950"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_magadha_shaishunaga_dynasty",
+      "cliopatria_maurya_empire",
+      "kushan_empire",
+      "cliopatria_eastern_kushans",
+      "cliopatria_gupta_empire",
+      "cliopatria_umayyad_caliphate",
+      "cliopatria_ghurid_dynasty",
+      "mughal_empire",
+      "cliopatria_british_raj",
+      "cliopatria_republic_of_india"
+    ],
+    "route_points": [
+      {
+        "id": "vedic_1500",
+        "label_zh": "-1500：吠陀祭祀传统",
+        "label_en": "-1500: Vedic Ritual Traditions",
+        "year": -1500,
+        "place_id": "",
+        "lat": 30.7,
+        "lng": 76.8,
+        "note_zh": "吠陀传统不是一个王朝，而是一套祭祀、口传和婆罗门知识体系，成为后世印度宗教的重要源头。",
+        "note_en": "Vedic traditions were not a dynasty, but a ritual, oral, and Brahmanical knowledge system that became a major source of later Indian religion."
+      },
+      {
+        "id": "varna_1000",
+        "label_zh": "-1000：瓦尔那与种姓秩序",
+        "label_en": "-1000: Varna and Caste Order",
+        "year": -1000,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "瓦尔那分类把社会身份、礼仪地位、职业和婚姻约束联系起来，后来演化成更复杂的种姓制度。",
+        "note_en": "Varna linked social identity, ritual rank, occupation, and marriage constraints, later developing into more complex caste orders."
+      },
+      {
+        "id": "shramana_506",
+        "label_zh": "-506：沙门运动与佛教兴起",
+        "label_en": "-506: Shramana Movements and Buddhism",
+        "year": -506,
+        "place_id": "",
+        "lat": 25.6,
+        "lng": 85.1,
+        "note_zh": "恒河流域的城市和国家竞争中，佛教、耆那教等沙门传统挑战婆罗门祭祀中心秩序。",
+        "note_en": "In the urban and state-competitive Ganges basin, Buddhist, Jain, and other shramana traditions challenged Brahmanical ritual centrality."
+      },
+      {
+        "id": "ashoka_260",
+        "label_zh": "-260：阿育王与佛法政治",
+        "label_en": "-260: Ashoka and Dhamma Politics",
+        "year": -260,
+        "place_id": "",
+        "lat": 20.3,
+        "lng": 85.8,
+        "note_zh": "阿育王把羯陵伽战争后的创伤转化为佛法、碑铭和道德王权的政治语言。",
+        "note_en": "Ashoka turned the trauma after Kalinga into a political language of dhamma, inscriptions, and moral kingship."
+      },
+      {
+        "id": "kushan_100",
+        "label_zh": "100：贵霜与佛教欧亚传播",
+        "label_en": "100: Kushans and Eurasian Buddhism",
+        "year": 100,
+        "place_id": "",
+        "lat": 34.0,
+        "lng": 71.5,
+        "note_zh": "贵霜把北印度、中亚、犍陀罗艺术和丝路佛教连接起来。",
+        "note_en": "The Kushans connected northern India, Central Asia, Gandharan art, and Silk Road Buddhism."
+      },
+      {
+        "id": "gupta_hindu_400",
+        "label_zh": "400：印度教传统整合",
+        "label_en": "400: Hindu Traditions Consolidate",
+        "year": 400,
+        "place_id": "",
+        "lat": 23.2,
+        "lng": 77.4,
+        "note_zh": "史诗、往世书、神庙和湿婆、毗湿奴、女神传统交织，印度教形态更加清晰。",
+        "note_en": "Epics, Puranas, temples, and Shaiva, Vaishnava, and Goddess traditions intertwined, making Hindu traditions clearer."
+      },
+      {
+        "id": "gupta_classical_329",
+        "label_zh": "329：笈多、梵文与古典秩序",
+        "label_en": "329: Gupta, Sanskrit, and Classical Order",
+        "year": 329,
+        "place_id": "",
+        "lat": 25.3,
+        "lng": 83.0,
+        "note_zh": "笈多时代把梵文宫廷文化、印度教传统和古典政治秩序推向高峰。",
+        "note_en": "The Gupta era elevated Sanskrit court culture, Hindu traditions, and classical political order."
+      },
+      {
+        "id": "sindh_713",
+        "label_zh": "713：伊斯兰进入信德",
+        "label_en": "713: Islam Enters Sindh",
+        "year": 713,
+        "place_id": "",
+        "lat": 25.4,
+        "lng": 68.4,
+        "note_zh": "伊斯兰最初从南亚西北边疆和海上贸易网络进入，不是一次性覆盖整个印度。",
+        "note_en": "Islam first entered through South Asia’s northwestern frontier and maritime trade networks, not by covering all India at once."
+      },
+      {
+        "id": "delhi_1206",
+        "label_zh": "1206：突厥-阿富汗政权与德里",
+        "label_en": "1206: Turko-Afghan Rule and Delhi",
+        "year": 1206,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "突厥-阿富汗军事贵族、波斯语行政和伊斯兰政治传统开始重塑北印度核心地区。",
+        "note_en": "Turko-Afghan military elites, Persianate administration, and Islamic political traditions began reshaping northern India’s core regions."
+      },
+      {
+        "id": "akbar_1556",
+        "label_zh": "1556：阿克巴与宗教治理",
+        "label_en": "1556: Akbar and Religious Governance",
+        "year": 1556,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "阿克巴治理把伊斯兰帝国传统、多宗教社会和地方精英合作放在同一个政治框架中。",
+        "note_en": "Akbar’s rule placed Islamic imperial tradition, multireligious society, and local elite cooperation within one political framework."
+      },
+      {
+        "id": "colonial_identity_1909",
+        "label_zh": "1909：殖民宗教身份政治",
+        "label_en": "1909: Colonial Religious Identity Politics",
+        "year": 1909,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "殖民统计、选举和社团政治把宗教身份更深地转化为现代政治代表问题。",
+        "note_en": "Colonial census, elections, and associational politics transformed religious identity more deeply into a problem of modern political representation."
+      },
+      {
+        "id": "modern_pluralism_1950",
+        "label_zh": "1950：世俗共和国与宗教多元",
+        "label_en": "1950: Secular Republic and Religious Pluralism",
+        "year": 1950,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "共和国宪法承诺平等与宗教自由，但种姓、宗教身份和多数/少数政治仍持续塑造公共生活。",
+        "note_en": "The republic’s constitution promised equality and religious freedom, while caste, religious identity, and majority-minority politics continued shaping public life."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "vedic_1500",
+        "title_zh": "吠陀祭祀传统",
+        "title_en": "Vedic Ritual Traditions",
+        "year": -1500,
+        "event_id": "vedic_ritual_order_bce_1500",
+        "route_point_id": "vedic_1500",
+        "highlight_territory_ids": [],
+        "camera": {
+          "lat": 30.7,
+          "lng": 76.8,
+          "zoom": 3.9
+        },
+        "script_zh": "吠陀传统不是一个王朝，而是一套祭祀、口传和婆罗门知识体系，成为后世印度宗教的重要源头。",
+        "script_en": "Vedic traditions were not a dynasty, but a ritual, oral, and Brahmanical knowledge system that became a major source of later Indian religion.",
+        "scene_setting_zh": "吠陀祭祀传统",
+        "scene_setting_en": "Vedic Ritual Traditions",
+        "character_beat_zh": "吠陀传统不是一个王朝，而是一套祭祀、口传和婆罗门知识体系，成为后世印度宗教的重要源头。",
+        "character_beat_en": "Vedic traditions were not a dynasty, but a ritual, oral, and Brahmanical knowledge system that became a major source of later Indian religion.",
+        "story_question_zh": "一个文明的宗教秩序，为什么常常先于清晰的帝国边界出现？",
+        "story_question_en": "Why does a civilization’s religious order often appear before clear imperial borders?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "varna_1000",
+        "title_zh": "瓦尔那与种姓秩序",
+        "title_en": "Varna and Caste Order",
+        "year": -1000,
+        "event_id": "varna_social_order_bce_1000",
+        "route_point_id": "varna_1000",
+        "highlight_territory_ids": [],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.9
+        },
+        "script_zh": "瓦尔那分类把社会身份、礼仪地位、职业和婚姻约束联系起来，后来演化成更复杂的种姓制度。",
+        "script_en": "Varna linked social identity, ritual rank, occupation, and marriage constraints, later developing into more complex caste orders.",
+        "scene_setting_zh": "瓦尔那与种姓秩序",
+        "scene_setting_en": "Varna and Caste Order",
+        "character_beat_zh": "瓦尔那分类把社会身份、礼仪地位、职业和婚姻约束联系起来，后来演化成更复杂的种姓制度。",
+        "character_beat_en": "Varna linked social identity, ritual rank, occupation, and marriage constraints, later developing into more complex caste orders.",
+        "story_question_zh": "种姓如何从宗教-社会解释框架变成长期制度性问题？",
+        "story_question_en": "How did caste move from a religious-social explanatory framework into a long-term institutional problem?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "shramana_506",
+        "title_zh": "沙门运动与佛教兴起",
+        "title_en": "Shramana Movements and Buddhism",
+        "year": -506,
+        "event_id": "shramana_buddhism_jainism_bce_506",
+        "route_point_id": "shramana_506",
+        "highlight_territory_ids": [
+          "cliopatria_magadha_shaishunaga_dynasty"
+        ],
+        "camera": {
+          "lat": 25.6,
+          "lng": 85.1,
+          "zoom": 4.1
+        },
+        "script_zh": "恒河流域的城市和国家竞争中，佛教、耆那教等沙门传统挑战婆罗门祭祀中心秩序。",
+        "script_en": "In the urban and state-competitive Ganges basin, Buddhist, Jain, and other shramana traditions challenged Brahmanical ritual centrality.",
+        "scene_setting_zh": "沙门运动与佛教兴起",
+        "scene_setting_en": "Shramana Movements and Buddhism",
+        "character_beat_zh": "恒河流域的城市和国家竞争中，佛教、耆那教等沙门传统挑战婆罗门祭祀中心秩序。",
+        "character_beat_en": "In the urban and state-competitive Ganges basin, Buddhist, Jain, and other shramana traditions challenged Brahmanical ritual centrality.",
+        "story_question_zh": "佛教为什么会在国家、城市和思想辩论密集的恒河流域兴起？",
+        "story_question_en": "Why did Buddhism arise in the state-rich, urban, and intellectually active Ganges basin?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "ashoka_260",
+        "title_zh": "阿育王与佛法政治",
+        "title_en": "Ashoka and Dhamma Politics",
+        "year": -260,
+        "event_id": "ashoka_kalinga_war_bce_260",
+        "route_point_id": "ashoka_260",
+        "highlight_territory_ids": [
+          "cliopatria_maurya_empire"
+        ],
+        "camera": {
+          "lat": 20.3,
+          "lng": 85.8,
+          "zoom": 4.0
+        },
+        "script_zh": "阿育王把羯陵伽战争后的创伤转化为佛法、碑铭和道德王权的政治语言。",
+        "script_en": "Ashoka turned the trauma after Kalinga into a political language of dhamma, inscriptions, and moral kingship.",
+        "scene_setting_zh": "阿育王与佛法政治",
+        "scene_setting_en": "Ashoka and Dhamma Politics",
+        "character_beat_zh": "阿育王把羯陵伽战争后的创伤转化为佛法、碑铭和道德王权的政治语言。",
+        "character_beat_en": "Ashoka turned the trauma after Kalinga into a political language of dhamma, inscriptions, and moral kingship.",
+        "story_question_zh": "佛教怎样从修行共同体进入帝国政治？",
+        "story_question_en": "How did Buddhism move from renunciant communities into imperial politics?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "kushan_100",
+        "title_zh": "贵霜与佛教欧亚传播",
+        "title_en": "Kushans and Eurasian Buddhism",
+        "year": 100,
+        "event_id": "kushan_empire_silk_road_buddhism_ce_100",
+        "route_point_id": "kushan_100",
+        "highlight_territory_ids": [
+          "kushan_empire",
+          "cliopatria_eastern_kushans"
+        ],
+        "camera": {
+          "lat": 34.0,
+          "lng": 71.5,
+          "zoom": 3.8
+        },
+        "script_zh": "贵霜把北印度、中亚、犍陀罗艺术和丝路佛教连接起来。",
+        "script_en": "The Kushans connected northern India, Central Asia, Gandharan art, and Silk Road Buddhism.",
+        "scene_setting_zh": "贵霜与佛教欧亚传播",
+        "scene_setting_en": "Kushans and Eurasian Buddhism",
+        "character_beat_zh": "贵霜把北印度、中亚、犍陀罗艺术和丝路佛教连接起来。",
+        "character_beat_en": "The Kushans connected northern India, Central Asia, Gandharan art, and Silk Road Buddhism.",
+        "story_question_zh": "印度宗教如何通过贸易和艺术语言进入欧亚？",
+        "story_question_en": "How did Indian religion enter Eurasia through trade and artistic languages?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "gupta_hindu_400",
+        "title_zh": "印度教传统整合",
+        "title_en": "Hindu Traditions Consolidate",
+        "year": 400,
+        "event_id": "puranic_hindu_synthesis_ce_400",
+        "route_point_id": "gupta_hindu_400",
+        "highlight_territory_ids": [
+          "cliopatria_gupta_empire"
+        ],
+        "camera": {
+          "lat": 23.2,
+          "lng": 77.4,
+          "zoom": 4.0
+        },
+        "script_zh": "史诗、往世书、神庙和湿婆、毗湿奴、女神传统交织，印度教形态更加清晰。",
+        "script_en": "Epics, Puranas, temples, and Shaiva, Vaishnava, and Goddess traditions intertwined, making Hindu traditions clearer.",
+        "scene_setting_zh": "印度教传统整合",
+        "scene_setting_en": "Hindu Traditions Consolidate",
+        "character_beat_zh": "史诗、往世书、神庙和湿婆、毗湿奴、女神传统交织，印度教形态更加清晰。",
+        "character_beat_en": "Epics, Puranas, temples, and Shaiva, Vaishnava, and Goddess traditions intertwined, making Hindu traditions clearer.",
+        "story_question_zh": "印度教为什么更像长期整合，而不是单一创立事件？",
+        "story_question_en": "Why is Hinduism better understood as long-term synthesis rather than a single founding event?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "gupta_classical_329",
+        "title_zh": "笈多、梵文与古典秩序",
+        "title_en": "Gupta, Sanskrit, and Classical Order",
+        "year": 329,
+        "event_id": "gupta_classical_age_ce_329",
+        "route_point_id": "gupta_classical_329",
+        "highlight_territory_ids": [
+          "cliopatria_gupta_empire"
+        ],
+        "camera": {
+          "lat": 25.3,
+          "lng": 83.0,
+          "zoom": 4.0
+        },
+        "script_zh": "笈多时代把梵文宫廷文化、印度教传统和古典政治秩序推向高峰。",
+        "script_en": "The Gupta era elevated Sanskrit court culture, Hindu traditions, and classical political order.",
+        "scene_setting_zh": "笈多、梵文与古典秩序",
+        "scene_setting_en": "Gupta, Sanskrit, and Classical Order",
+        "character_beat_zh": "笈多时代把梵文宫廷文化、印度教传统和古典政治秩序推向高峰。",
+        "character_beat_en": "The Gupta era elevated Sanskrit court culture, Hindu traditions, and classical political order.",
+        "story_question_zh": "宗教、语言和王权如何一起制造“古典时代”？",
+        "story_question_en": "How do religion, language, and kingship together produce a “classical age”?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "sindh_713",
+        "title_zh": "伊斯兰进入信德",
+        "title_en": "Islam Enters Sindh",
+        "year": 713,
+        "event_id": "arab_conquest_sindh_ce_713",
+        "route_point_id": "sindh_713",
+        "highlight_territory_ids": [
+          "cliopatria_umayyad_caliphate"
+        ],
+        "camera": {
+          "lat": 25.4,
+          "lng": 68.4,
+          "zoom": 3.7
+        },
+        "script_zh": "伊斯兰最初从南亚西北边疆和海上贸易网络进入，不是一次性覆盖整个印度。",
+        "script_en": "Islam first entered through South Asia’s northwestern frontier and maritime trade networks, not by covering all India at once.",
+        "scene_setting_zh": "伊斯兰进入信德",
+        "scene_setting_en": "Islam Enters Sindh",
+        "character_beat_zh": "伊斯兰最初从南亚西北边疆和海上贸易网络进入，不是一次性覆盖整个印度。",
+        "character_beat_en": "Islam first entered through South Asia’s northwestern frontier and maritime trade networks, not by covering all India at once.",
+        "story_question_zh": "伊斯兰进入南亚，是征服、贸易还是文化接触？",
+        "story_question_en": "Was Islam’s entry into South Asia conquest, trade, or cultural contact?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "delhi_1206",
+        "title_zh": "突厥-阿富汗政权与德里",
+        "title_en": "Turko-Afghan Rule and Delhi",
+        "year": 1206,
+        "event_id": "turko_afghan_islamic_polities_ce_1206",
+        "route_point_id": "delhi_1206",
+        "highlight_territory_ids": [
+          "cliopatria_ghurid_dynasty"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.9
+        },
+        "script_zh": "突厥-阿富汗军事贵族、波斯语行政和伊斯兰政治传统开始重塑北印度核心地区。",
+        "script_en": "Turko-Afghan military elites, Persianate administration, and Islamic political traditions began reshaping northern India’s core regions.",
+        "scene_setting_zh": "突厥-阿富汗政权与德里",
+        "scene_setting_en": "Turko-Afghan Rule and Delhi",
+        "character_beat_zh": "突厥-阿富汗军事贵族、波斯语行政和伊斯兰政治传统开始重塑北印度核心地区。",
+        "character_beat_en": "Turko-Afghan military elites, Persianate administration, and Islamic political traditions began reshaping northern India’s core regions.",
+        "story_question_zh": "伊斯兰政治制度如何从边疆进入北印度中心？",
+        "story_question_en": "How did Islamic political institutions move from the frontier into northern India’s core?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "akbar_1556",
+        "title_zh": "阿克巴与宗教治理",
+        "title_en": "Akbar and Religious Governance",
+        "year": 1556,
+        "event_id": "akbar_mughal_consolidation_1556",
+        "route_point_id": "akbar_1556",
+        "highlight_territory_ids": [
+          "mughal_empire"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 4.0
+        },
+        "script_zh": "阿克巴治理把伊斯兰帝国传统、多宗教社会和地方精英合作放在同一个政治框架中。",
+        "script_en": "Akbar’s rule placed Islamic imperial tradition, multireligious society, and local elite cooperation within one political framework.",
+        "scene_setting_zh": "阿克巴与宗教治理",
+        "scene_setting_en": "Akbar and Religious Governance",
+        "character_beat_zh": "阿克巴治理把伊斯兰帝国传统、多宗教社会和地方精英合作放在同一个政治框架中。",
+        "character_beat_en": "Akbar’s rule placed Islamic imperial tradition, multireligious society, and local elite cooperation within one political framework.",
+        "story_question_zh": "多宗教社会里的帝国，靠压制还是协调来维持？",
+        "story_question_en": "Does empire in a multireligious society endure through suppression or coordination?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "colonial_identity_1909",
+        "title_zh": "殖民宗教身份政治",
+        "title_en": "Colonial Religious Identity Politics",
+        "year": 1909,
+        "event_id": "colonial_religious_identity_politics_1909",
+        "route_point_id": "colonial_identity_1909",
+        "highlight_territory_ids": [
+          "cliopatria_british_raj"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.8
+        },
+        "script_zh": "殖民统计、选举和社团政治把宗教身份更深地转化为现代政治代表问题。",
+        "script_en": "Colonial census, elections, and associational politics transformed religious identity more deeply into a problem of modern political representation.",
+        "scene_setting_zh": "殖民宗教身份政治",
+        "scene_setting_en": "Colonial Religious Identity Politics",
+        "character_beat_zh": "殖民统计、选举和社团政治把宗教身份更深地转化为现代政治代表问题。",
+        "character_beat_en": "Colonial census, elections, and associational politics transformed religious identity more deeply into a problem of modern political representation.",
+        "story_question_zh": "为什么现代宗教政治常常带着殖民行政分类的影子？",
+        "story_question_en": "Why does modern religious politics often carry the shadow of colonial administrative categories?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "modern_pluralism_1950",
+        "title_zh": "世俗共和国与宗教多元",
+        "title_en": "Secular Republic and Religious Pluralism",
+        "year": 1950,
+        "event_id": "modern_india_secular_religious_tensions_1950",
+        "route_point_id": "modern_pluralism_1950",
+        "highlight_territory_ids": [
+          "cliopatria_republic_of_india"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.8
+        },
+        "script_zh": "共和国宪法承诺平等与宗教自由，但种姓、宗教身份和多数/少数政治仍持续塑造公共生活。",
+        "script_en": "The republic’s constitution promised equality and religious freedom, while caste, religious identity, and majority-minority politics continued shaping public life.",
+        "scene_setting_zh": "世俗共和国与宗教多元",
+        "scene_setting_en": "Secular Republic and Religious Pluralism",
+        "character_beat_zh": "共和国宪法承诺平等与宗教自由，但种姓、宗教身份和多数/少数政治仍持续塑造公共生活。",
+        "character_beat_en": "The republic’s constitution promised equality and religious freedom, while caste, religious identity, and majority-minority politics continued shaping public life.",
+        "story_question_zh": "现代印度如何在平等公民、宗教多元和种姓现实之间协商？",
+        "story_question_en": "How does modern India negotiate equal citizenship, religious plurality, and caste realities?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_vedic_magadha_story",
+    "title_zh": "印度政治史：吠陀、摩揭陀与早期国家",
+    "title_en": "Indian Political History: Vedic Traditions, Magadha, and Early States",
+    "emoji": "🪔",
+    "theme_type": "political_history",
+    "description_zh": "印度政治史早期阶段：从吠陀社会秩序、沙门运动到摩揭陀和难陀霸权，观察早期国家形成。",
+    "description_en": "Early Indian political history: from Vedic social order and shramana movements to Magadha and Nanda hegemony, tracing early state formation.",
+    "source_note_zh": "地图边界使用现有 Cliopatria 南亚政权层；部分社会、宗教或区域网络无法完全等同于政权边界，因此以政权层标示同代政治背景。",
+    "source_note_en": "Map boundaries use existing Cliopatria South Asian polity layers. Some social, religious, or regional networks do not map perfectly to polity borders, so polity layers mark the same-era political context.",
+    "events": [
+      "vedic_ritual_order_bce_1500",
+      "varna_social_order_bce_1000",
+      "shramana_buddhism_jainism_bce_506",
+      "magadha_shaishunaga_ganges_power_bce_403",
+      "nanda_empire_magadhan_hegemony_bce_356"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_magadha_shaishunaga_dynasty",
+      "cliopatria_nanda_empire"
+    ],
+    "route_points": [
+      {
+        "id": "vedic_1500",
+        "label_zh": "-1500：吠陀传统",
+        "label_en": "-1500: Vedic Traditions",
+        "year": -1500,
+        "place_id": "",
+        "lat": 30.7,
+        "lng": 76.8,
+        "note_zh": "吠陀传统提供婆罗门祭祀、口传圣典和后世印度宗教秩序的早期基础。",
+        "note_en": "Vedic traditions provide early foundations for Brahmanical ritual, oral sacred texts, and later Indian religious order."
+      },
+      {
+        "id": "varna_1000",
+        "label_zh": "-1000：瓦尔那秩序",
+        "label_en": "-1000: Varna Order",
+        "year": -1000,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "瓦尔那分类让身份、礼仪、职业和婚姻约束逐渐联系起来，成为后来种姓制度的重要思想资源。",
+        "note_en": "Varna categories linked identity, ritual, occupation, and marriage constraints, becoming a key resource for later caste orders."
+      },
+      {
+        "id": "shramana_506",
+        "label_zh": "-506：沙门运动",
+        "label_en": "-506: Shramana Movements",
+        "year": -506,
+        "place_id": "",
+        "lat": 25.6,
+        "lng": 85.1,
+        "note_zh": "恒河流域城市化和国家竞争中，佛教、耆那教等沙门传统挑战婆罗门祭祀中心秩序。",
+        "note_en": "In the urban and competitive Ganges basin, Buddhist, Jain, and other shramana traditions challenged Brahmanical ritual centrality."
+      },
+      {
+        "id": "magadha_403",
+        "label_zh": "-403：摩揭陀强权",
+        "label_en": "-403: Magadha Power",
+        "year": -403,
+        "place_id": "",
+        "lat": 25.6,
+        "lng": 85.1,
+        "note_zh": "摩揭陀凭借恒河平原资源成为北印度政治竞争中心。",
+        "note_en": "Magadha used the resources of the Ganges plain to become a center of northern Indian political competition."
+      },
+      {
+        "id": "nanda_356",
+        "label_zh": "-356：难陀霸权",
+        "label_en": "-356: Nanda Hegemony",
+        "year": -356,
+        "place_id": "",
+        "lat": 25.6,
+        "lng": 85.1,
+        "note_zh": "难陀的财富和军力让摩揭陀霸权进入帝国化前夜，也为孔雀帝国铺路。",
+        "note_en": "Nanda wealth and military power brought Magadhan hegemony to the eve of empire and prepared the ground for Maurya."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "vedic_1500",
+        "title_zh": "吠陀传统",
+        "title_en": "Vedic Traditions",
+        "year": -1500,
+        "event_id": "vedic_ritual_order_bce_1500",
+        "route_point_id": "vedic_1500",
+        "highlight_territory_ids": [],
+        "camera": {
+          "lat": 30.7,
+          "lng": 76.8,
+          "zoom": 3.9
+        },
+        "script_zh": "吠陀传统提供婆罗门祭祀、口传圣典和后世印度宗教秩序的早期基础。",
+        "script_en": "Vedic traditions provide early foundations for Brahmanical ritual, oral sacred texts, and later Indian religious order.",
+        "scene_setting_zh": "吠陀传统",
+        "scene_setting_en": "Vedic Traditions",
+        "character_beat_zh": "吠陀传统提供婆罗门祭祀、口传圣典和后世印度宗教秩序的早期基础。",
+        "character_beat_en": "Vedic traditions provide early foundations for Brahmanical ritual, oral sacred texts, and later Indian religious order.",
+        "story_question_zh": "印度早期文明的秩序，为什么先表现为祭祀和社会身份，而不只是王朝？",
+        "story_question_en": "Why did early Indian order first appear through ritual and social identity, not only dynasties?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "varna_1000",
+        "title_zh": "瓦尔那秩序",
+        "title_en": "Varna Order",
+        "year": -1000,
+        "event_id": "varna_social_order_bce_1000",
+        "route_point_id": "varna_1000",
+        "highlight_territory_ids": [],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.9
+        },
+        "script_zh": "瓦尔那分类让身份、礼仪、职业和婚姻约束逐渐联系起来，成为后来种姓制度的重要思想资源。",
+        "script_en": "Varna categories linked identity, ritual, occupation, and marriage constraints, becoming a key resource for later caste orders.",
+        "scene_setting_zh": "瓦尔那秩序",
+        "scene_setting_en": "Varna Order",
+        "character_beat_zh": "瓦尔那分类让身份、礼仪、职业和婚姻约束逐渐联系起来，成为后来种姓制度的重要思想资源。",
+        "character_beat_en": "Varna categories linked identity, ritual, occupation, and marriage constraints, becoming a key resource for later caste orders.",
+        "story_question_zh": "社会秩序如何影响印度国家形成？",
+        "story_question_en": "How did social order shape Indian state formation?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "shramana_506",
+        "title_zh": "沙门运动",
+        "title_en": "Shramana Movements",
+        "year": -506,
+        "event_id": "shramana_buddhism_jainism_bce_506",
+        "route_point_id": "shramana_506",
+        "highlight_territory_ids": [
+          "cliopatria_magadha_shaishunaga_dynasty"
+        ],
+        "camera": {
+          "lat": 25.6,
+          "lng": 85.1,
+          "zoom": 4.1
+        },
+        "script_zh": "恒河流域城市化和国家竞争中，佛教、耆那教等沙门传统挑战婆罗门祭祀中心秩序。",
+        "script_en": "In the urban and competitive Ganges basin, Buddhist, Jain, and other shramana traditions challenged Brahmanical ritual centrality.",
+        "scene_setting_zh": "沙门运动",
+        "scene_setting_en": "Shramana Movements",
+        "character_beat_zh": "恒河流域城市化和国家竞争中，佛教、耆那教等沙门传统挑战婆罗门祭祀中心秩序。",
+        "character_beat_en": "In the urban and competitive Ganges basin, Buddhist, Jain, and other shramana traditions challenged Brahmanical ritual centrality.",
+        "story_question_zh": "为什么新思想常在城市和国家竞争中出现？",
+        "story_question_en": "Why do new ideas often arise amid cities and state competition?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "magadha_403",
+        "title_zh": "摩揭陀强权",
+        "title_en": "Magadha Power",
+        "year": -403,
+        "event_id": "magadha_shaishunaga_ganges_power_bce_403",
+        "route_point_id": "magadha_403",
+        "highlight_territory_ids": [
+          "cliopatria_magadha_shaishunaga_dynasty"
+        ],
+        "camera": {
+          "lat": 25.6,
+          "lng": 85.1,
+          "zoom": 4.1
+        },
+        "script_zh": "摩揭陀凭借恒河平原资源成为北印度政治竞争中心。",
+        "script_en": "Magadha used the resources of the Ganges plain to become a center of northern Indian political competition.",
+        "scene_setting_zh": "摩揭陀强权",
+        "scene_setting_en": "Magadha Power",
+        "character_beat_zh": "摩揭陀凭借恒河平原资源成为北印度政治竞争中心。",
+        "character_beat_en": "Magadha used the resources of the Ganges plain to become a center of northern Indian political competition.",
+        "story_question_zh": "恒河平原如何成为印度帝国传统的起点？",
+        "story_question_en": "How did the Ganges plain become the starting point of Indian imperial traditions?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "nanda_356",
+        "title_zh": "难陀霸权",
+        "title_en": "Nanda Hegemony",
+        "year": -356,
+        "event_id": "nanda_empire_magadhan_hegemony_bce_356",
+        "route_point_id": "nanda_356",
+        "highlight_territory_ids": [
+          "cliopatria_nanda_empire"
+        ],
+        "camera": {
+          "lat": 25.6,
+          "lng": 85.1,
+          "zoom": 4.1
+        },
+        "script_zh": "难陀的财富和军力让摩揭陀霸权进入帝国化前夜，也为孔雀帝国铺路。",
+        "script_en": "Nanda wealth and military power brought Magadhan hegemony to the eve of empire and prepared the ground for Maurya.",
+        "scene_setting_zh": "难陀霸权",
+        "scene_setting_en": "Nanda Hegemony",
+        "character_beat_zh": "难陀的财富和军力让摩揭陀霸权进入帝国化前夜，也为孔雀帝国铺路。",
+        "character_beat_en": "Nanda wealth and military power brought Magadhan hegemony to the eve of empire and prepared the ground for Maurya.",
+        "story_question_zh": "强国家能力如何成为统一帝国的前提？",
+        "story_question_en": "How does strong state capacity become the precondition for empire?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_maurya_empire_story",
+    "title_zh": "印度政治史：孔雀帝国与阿育王",
+    "title_en": "Indian Political History: Maurya Empire and Ashoka",
+    "emoji": "🦚",
+    "theme_type": "political_history",
+    "description_zh": "印度政治史的帝国形成阶段：旃陀罗笈多建立孔雀帝国，阿育王把帝国权力、佛法和碑铭治理结合起来。",
+    "description_en": "The imperial formation phase of Indian political history: Chandragupta founded Maurya, and Ashoka joined imperial power, dhamma, and inscriptional governance.",
+    "source_note_zh": "地图边界使用现有 Cliopatria 南亚政权层；部分社会、宗教或区域网络无法完全等同于政权边界，因此以政权层标示同代政治背景。",
+    "source_note_en": "Map boundaries use existing Cliopatria South Asian polity layers. Some social, religious, or regional networks do not map perfectly to polity borders, so polity layers mark the same-era political context.",
+    "events": [
+      "maurya_empire_founded_bce_323",
+      "ashoka_kalinga_war_bce_260"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_maurya_empire"
+    ],
+    "route_points": [
+      {
+        "id": "maurya_323",
+        "label_zh": "-323：孔雀帝国建立",
+        "label_en": "-323: Maurya Empire Founded",
+        "year": -323,
+        "place_id": "",
+        "lat": 24.5,
+        "lng": 80.5,
+        "note_zh": "旃陀罗笈多接收摩揭陀和难陀的基础，把北印度整合推向次大陆尺度。",
+        "note_en": "Chandragupta inherited Magadhan and Nanda foundations, expanding northern Indian consolidation toward subcontinental scale."
+      },
+      {
+        "id": "ashoka_260",
+        "label_zh": "-260：阿育王与羯陵伽",
+        "label_en": "-260: Ashoka and Kalinga",
+        "year": -260,
+        "place_id": "",
+        "lat": 20.3,
+        "lng": 85.8,
+        "note_zh": "羯陵伽战争后，阿育王用佛法、碑铭和道德王权重塑帝国叙事。",
+        "note_en": "After Kalinga, Ashoka reshaped imperial narrative through dhamma, inscriptions, and moral kingship."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "maurya_323",
+        "title_zh": "孔雀帝国建立",
+        "title_en": "Maurya Empire Founded",
+        "year": -323,
+        "event_id": "maurya_empire_founded_bce_323",
+        "route_point_id": "maurya_323",
+        "highlight_territory_ids": [
+          "cliopatria_maurya_empire"
+        ],
+        "camera": {
+          "lat": 24.5,
+          "lng": 80.5,
+          "zoom": 3.8
+        },
+        "script_zh": "旃陀罗笈多接收摩揭陀和难陀的基础，把北印度整合推向次大陆尺度。",
+        "script_en": "Chandragupta inherited Magadhan and Nanda foundations, expanding northern Indian consolidation toward subcontinental scale.",
+        "scene_setting_zh": "孔雀帝国建立",
+        "scene_setting_en": "Maurya Empire Founded",
+        "character_beat_zh": "旃陀罗笈多接收摩揭陀和难陀的基础，把北印度整合推向次大陆尺度。",
+        "character_beat_en": "Chandragupta inherited Magadhan and Nanda foundations, expanding northern Indian consolidation toward subcontinental scale.",
+        "story_question_zh": "孔雀帝国如何把恒河霸权变成大帝国？",
+        "story_question_en": "How did Maurya turn Ganges hegemony into a great empire?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "ashoka_260",
+        "title_zh": "阿育王与羯陵伽",
+        "title_en": "Ashoka and Kalinga",
+        "year": -260,
+        "event_id": "ashoka_kalinga_war_bce_260",
+        "route_point_id": "ashoka_260",
+        "highlight_territory_ids": [
+          "cliopatria_maurya_empire"
+        ],
+        "camera": {
+          "lat": 20.3,
+          "lng": 85.8,
+          "zoom": 4.0
+        },
+        "script_zh": "羯陵伽战争后，阿育王用佛法、碑铭和道德王权重塑帝国叙事。",
+        "script_en": "After Kalinga, Ashoka reshaped imperial narrative through dhamma, inscriptions, and moral kingship.",
+        "scene_setting_zh": "阿育王与羯陵伽",
+        "scene_setting_en": "Ashoka and Kalinga",
+        "character_beat_zh": "羯陵伽战争后，阿育王用佛法、碑铭和道德王权重塑帝国叙事。",
+        "character_beat_en": "After Kalinga, Ashoka reshaped imperial narrative through dhamma, inscriptions, and moral kingship.",
+        "story_question_zh": "帝国如何把战争创伤转化为治理理念？",
+        "story_question_en": "How does empire turn war trauma into governing ideology?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_post_maurya_deccan_kushan_story",
+    "title_zh": "印度政治史：后孔雀、德干与贵霜",
+    "title_en": "Indian Political History: Post-Maurya India, the Deccan, and Kushans",
+    "emoji": "🐘",
+    "theme_type": "political_history",
+    "description_zh": "孔雀之后的多中心政治阶段：百乘经营德干，贵霜连接北印度、中亚、佛教和丝路。",
+    "description_en": "The post-Maurya multicenter phase: Satavahanas in the Deccan and Kushans linking northern India, Central Asia, Buddhism, and Silk Road routes.",
+    "source_note_zh": "地图边界使用现有 Cliopatria 南亚政权层；部分社会、宗教或区域网络无法完全等同于政权边界，因此以政权层标示同代政治背景。",
+    "source_note_en": "Map boundaries use existing Cliopatria South Asian polity layers. Some social, religious, or regional networks do not map perfectly to polity borders, so polity layers mark the same-era political context.",
+    "events": [
+      "satavahana_deccan_power_ce_100",
+      "kushan_empire_silk_road_buddhism_ce_100"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_satavahana_dynasty",
+      "kushan_empire",
+      "cliopatria_eastern_kushans"
+    ],
+    "route_points": [
+      {
+        "id": "satavahana_100",
+        "label_zh": "100：百乘与德干",
+        "label_en": "100: Satavahanas and the Deccan",
+        "year": 100,
+        "place_id": "",
+        "lat": 17.4,
+        "lng": 78.5,
+        "note_zh": "百乘王朝说明印度政治不只在北方，德干和印度洋贸易同样塑造文明格局。",
+        "note_en": "The Satavahanas show Indian politics was not only northern; the Deccan and Indian Ocean trade also shaped civilization."
+      },
+      {
+        "id": "kushan_100",
+        "label_zh": "100：贵霜与欧亚网络",
+        "label_en": "100: Kushans and Eurasian Networks",
+        "year": 100,
+        "place_id": "",
+        "lat": 34.0,
+        "lng": 71.5,
+        "note_zh": "贵霜把北印度、中亚、犍陀罗艺术和佛教传播连到欧亚交通网。",
+        "note_en": "The Kushans linked northern India, Central Asia, Gandharan art, and Buddhist transmission to Eurasian networks."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "satavahana_100",
+        "title_zh": "百乘与德干",
+        "title_en": "Satavahanas and the Deccan",
+        "year": 100,
+        "event_id": "satavahana_deccan_power_ce_100",
+        "route_point_id": "satavahana_100",
+        "highlight_territory_ids": [
+          "cliopatria_satavahana_dynasty"
+        ],
+        "camera": {
+          "lat": 17.4,
+          "lng": 78.5,
+          "zoom": 4.1
+        },
+        "script_zh": "百乘王朝说明印度政治不只在北方，德干和印度洋贸易同样塑造文明格局。",
+        "script_en": "The Satavahanas show Indian politics was not only northern; the Deccan and Indian Ocean trade also shaped civilization.",
+        "scene_setting_zh": "百乘与德干",
+        "scene_setting_en": "Satavahanas and the Deccan",
+        "character_beat_zh": "百乘王朝说明印度政治不只在北方，德干和印度洋贸易同样塑造文明格局。",
+        "character_beat_en": "The Satavahanas show Indian politics was not only northern; the Deccan and Indian Ocean trade also shaped civilization.",
+        "story_question_zh": "帝国崩解后，区域中心如何延续文明？",
+        "story_question_en": "How do regional centers continue a civilization after imperial collapse?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "kushan_100",
+        "title_zh": "贵霜与欧亚网络",
+        "title_en": "Kushans and Eurasian Networks",
+        "year": 100,
+        "event_id": "kushan_empire_silk_road_buddhism_ce_100",
+        "route_point_id": "kushan_100",
+        "highlight_territory_ids": [
+          "kushan_empire",
+          "cliopatria_eastern_kushans"
+        ],
+        "camera": {
+          "lat": 34.0,
+          "lng": 71.5,
+          "zoom": 3.8
+        },
+        "script_zh": "贵霜把北印度、中亚、犍陀罗艺术和佛教传播连到欧亚交通网。",
+        "script_en": "The Kushans linked northern India, Central Asia, Gandharan art, and Buddhist transmission to Eurasian networks.",
+        "scene_setting_zh": "贵霜与欧亚网络",
+        "scene_setting_en": "Kushans and Eurasian Networks",
+        "character_beat_zh": "贵霜把北印度、中亚、犍陀罗艺术和佛教传播连到欧亚交通网。",
+        "character_beat_en": "The Kushans linked northern India, Central Asia, Gandharan art, and Buddhist transmission to Eurasian networks.",
+        "story_question_zh": "印度文明如何通过商路和宗教进入欧亚？",
+        "story_question_en": "How did Indian civilization enter Eurasia through trade routes and religion?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_gupta_post_gupta_story",
+    "title_zh": "印度政治史：笈多古典时代与后笈多区域化",
+    "title_en": "Indian Political History: Gupta Classicism and Post-Gupta Regionalization",
+    "emoji": "📜",
+    "theme_type": "political_history",
+    "description_zh": "古典与后古典政治阶段：笈多整合北印度，戒日、波罗等政权展现后笈多区域化。",
+    "description_en": "The classical and post-classical political phase: Gupta consolidated northern India, while Harsha, Pala, and others show post-Gupta regionalization.",
+    "source_note_zh": "地图边界使用现有 Cliopatria 南亚政权层；部分社会、宗教或区域网络无法完全等同于政权边界，因此以政权层标示同代政治背景。",
+    "source_note_en": "Map boundaries use existing Cliopatria South Asian polity layers. Some social, religious, or regional networks do not map perfectly to polity borders, so polity layers mark the same-era political context.",
+    "events": [
+      "gupta_classical_age_ce_329",
+      "puranic_hindu_synthesis_ce_400",
+      "harsha_north_indian_reunification_606",
+      "pala_bengal_buddhist_power_750"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_gupta_empire",
+      "cliopatria_harsha_s_empire",
+      "cliopatria_pala_empire"
+    ],
+    "route_points": [
+      {
+        "id": "gupta_329",
+        "label_zh": "329：笈多古典时代",
+        "label_en": "329: Gupta Classical Age",
+        "year": 329,
+        "place_id": "",
+        "lat": 25.3,
+        "lng": 83.0,
+        "note_zh": "笈多时代把北印度政治整合、梵文宫廷文化和科学艺术繁荣联系起来。",
+        "note_en": "The Gupta era linked northern Indian consolidation with Sanskrit court culture and flourishing science and art."
+      },
+      {
+        "id": "hindu_400",
+        "label_zh": "400：印度教传统整合",
+        "label_en": "400: Hindu Traditions Consolidate",
+        "year": 400,
+        "place_id": "",
+        "lat": 23.2,
+        "lng": 77.4,
+        "note_zh": "史诗、往世书、神庙和主要神祇传统逐渐整合，印度教形态更加清晰。",
+        "note_en": "Epics, Puranas, temples, and major deity traditions increasingly integrated into clearer Hindu forms."
+      },
+      {
+        "id": "harsha_606",
+        "label_zh": "606：戒日王再整合北印度",
+        "label_en": "606: Harsha Reunifies North India",
+        "year": 606,
+        "place_id": "",
+        "lat": 29.9,
+        "lng": 77.5,
+        "note_zh": "笈多衰落后，戒日王显示北印度仍有短暂再整合能力。",
+        "note_en": "After Gupta decline, Harsha showed northern India could still briefly reconsolidate."
+      },
+      {
+        "id": "pala_750",
+        "label_zh": "750：波罗与东印度佛教",
+        "label_en": "750: Pala and Eastern Indian Buddhism",
+        "year": 750,
+        "place_id": "",
+        "lat": 24.0,
+        "lng": 88.0,
+        "note_zh": "波罗帝国支持佛教寺院和学术网络，让东印度连接喜马拉雅和海上世界。",
+        "note_en": "The Palas supported Buddhist monasteries and scholarly networks, linking eastern India to Himalayan and maritime worlds."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "gupta_329",
+        "title_zh": "笈多古典时代",
+        "title_en": "Gupta Classical Age",
+        "year": 329,
+        "event_id": "gupta_classical_age_ce_329",
+        "route_point_id": "gupta_329",
+        "highlight_territory_ids": [
+          "cliopatria_gupta_empire"
+        ],
+        "camera": {
+          "lat": 25.3,
+          "lng": 83.0,
+          "zoom": 4.0
+        },
+        "script_zh": "笈多时代把北印度政治整合、梵文宫廷文化和科学艺术繁荣联系起来。",
+        "script_en": "The Gupta era linked northern Indian consolidation with Sanskrit court culture and flourishing science and art.",
+        "scene_setting_zh": "笈多古典时代",
+        "scene_setting_en": "Gupta Classical Age",
+        "character_beat_zh": "笈多时代把北印度政治整合、梵文宫廷文化和科学艺术繁荣联系起来。",
+        "character_beat_en": "The Gupta era linked northern Indian consolidation with Sanskrit court culture and flourishing science and art.",
+        "story_question_zh": "什么让一个时代被称为“古典”？",
+        "story_question_en": "What makes an era “classical”?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "hindu_400",
+        "title_zh": "印度教传统整合",
+        "title_en": "Hindu Traditions Consolidate",
+        "year": 400,
+        "event_id": "puranic_hindu_synthesis_ce_400",
+        "route_point_id": "hindu_400",
+        "highlight_territory_ids": [
+          "cliopatria_gupta_empire"
+        ],
+        "camera": {
+          "lat": 23.2,
+          "lng": 77.4,
+          "zoom": 4.0
+        },
+        "script_zh": "史诗、往世书、神庙和主要神祇传统逐渐整合，印度教形态更加清晰。",
+        "script_en": "Epics, Puranas, temples, and major deity traditions increasingly integrated into clearer Hindu forms.",
+        "scene_setting_zh": "印度教传统整合",
+        "scene_setting_en": "Hindu Traditions Consolidate",
+        "character_beat_zh": "史诗、往世书、神庙和主要神祇传统逐渐整合，印度教形态更加清晰。",
+        "character_beat_en": "Epics, Puranas, temples, and major deity traditions increasingly integrated into clearer Hindu forms.",
+        "story_question_zh": "宗教传统如何在文本、神庙和地方社会中整合？",
+        "story_question_en": "How do religious traditions synthesize through texts, temples, and local society?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "harsha_606",
+        "title_zh": "戒日王再整合北印度",
+        "title_en": "Harsha Reunifies North India",
+        "year": 606,
+        "event_id": "harsha_north_indian_reunification_606",
+        "route_point_id": "harsha_606",
+        "highlight_territory_ids": [
+          "cliopatria_harsha_s_empire"
+        ],
+        "camera": {
+          "lat": 29.9,
+          "lng": 77.5,
+          "zoom": 4.0
+        },
+        "script_zh": "笈多衰落后，戒日王显示北印度仍有短暂再整合能力。",
+        "script_en": "After Gupta decline, Harsha showed northern India could still briefly reconsolidate.",
+        "scene_setting_zh": "戒日王再整合北印度",
+        "scene_setting_en": "Harsha Reunifies North India",
+        "character_beat_zh": "笈多衰落后，戒日王显示北印度仍有短暂再整合能力。",
+        "character_beat_en": "After Gupta decline, Harsha showed northern India could still briefly reconsolidate.",
+        "story_question_zh": "后帝国时代如何短暂恢复统一？",
+        "story_question_en": "How can a post-imperial age briefly restore unity?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "pala_750",
+        "title_zh": "波罗与东印度佛教",
+        "title_en": "Pala and Eastern Indian Buddhism",
+        "year": 750,
+        "event_id": "pala_bengal_buddhist_power_750",
+        "route_point_id": "pala_750",
+        "highlight_territory_ids": [
+          "cliopatria_pala_empire"
+        ],
+        "camera": {
+          "lat": 24.0,
+          "lng": 88.0,
+          "zoom": 4.0
+        },
+        "script_zh": "波罗帝国支持佛教寺院和学术网络，让东印度连接喜马拉雅和海上世界。",
+        "script_en": "The Palas supported Buddhist monasteries and scholarly networks, linking eastern India to Himalayan and maritime worlds.",
+        "scene_setting_zh": "波罗与东印度佛教",
+        "scene_setting_en": "Pala and Eastern Indian Buddhism",
+        "character_beat_zh": "波罗帝国支持佛教寺院和学术网络，让东印度连接喜马拉雅和海上世界。",
+        "character_beat_en": "The Palas supported Buddhist monasteries and scholarly networks, linking eastern India to Himalayan and maritime worlds.",
+        "story_question_zh": "为什么中世纪印度也需要看东部和佛教网络？",
+        "story_question_en": "Why must medieval India also be read through eastern and Buddhist networks?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_medieval_regional_islamic_story",
+    "title_zh": "印度政治史：中世纪区域王国与伊斯兰进入",
+    "title_en": "Indian Political History: Medieval Regional Kingdoms and Islam",
+    "emoji": "🕌",
+    "theme_type": "political_history",
+    "description_zh": "中世纪政治阶段：朱罗、德里相关伊斯兰政权、毗奢耶那伽罗等区域力量共同塑造南亚格局。",
+    "description_en": "The medieval political phase: Chola, Delhi-linked Islamic powers, Vijayanagara, and other regional forces jointly shaped South Asia.",
+    "source_note_zh": "地图边界使用现有 Cliopatria 南亚政权层；部分社会、宗教或区域网络无法完全等同于政权边界，因此以政权层标示同代政治背景。",
+    "source_note_en": "Map boundaries use existing Cliopatria South Asian polity layers. Some social, religious, or regional networks do not map perfectly to polity borders, so polity layers mark the same-era political context.",
+    "events": [
+      "chola_indian_ocean_expansion_1000",
+      "arab_conquest_sindh_ce_713",
+      "turko_afghan_islamic_polities_ce_1206",
+      "vijayanagara_deccan_hindu_empire_1336"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_chola_empire",
+      "cliopatria_umayyad_caliphate",
+      "cliopatria_ghurid_dynasty",
+      "cliopatria_vijayanagara_empire"
+    ],
+    "route_points": [
+      {
+        "id": "sindh_713",
+        "label_zh": "713：伊斯兰进入信德",
+        "label_en": "713: Islam Enters Sindh",
+        "year": 713,
+        "place_id": "",
+        "lat": 25.4,
+        "lng": 68.4,
+        "note_zh": "伊斯兰最初从南亚西北边疆和海上贸易网络进入。",
+        "note_en": "Islam first entered through South Asia’s northwestern frontier and maritime trade networks."
+      },
+      {
+        "id": "chola_1000",
+        "label_zh": "1000：朱罗走向印度洋",
+        "label_en": "1000: Chola Turns to the Indian Ocean",
+        "year": 1000,
+        "place_id": "",
+        "lat": 10.8,
+        "lng": 79.1,
+        "note_zh": "朱罗帝国让南印度和印度洋成为印度文明主线的一部分。",
+        "note_en": "The Chola Empire makes South India and the Indian Ocean part of the main Indian civilizational story."
+      },
+      {
+        "id": "delhi_1206",
+        "label_zh": "1206：突厥-阿富汗政权与德里",
+        "label_en": "1206: Turko-Afghan Rule and Delhi",
+        "year": 1206,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "突厥-阿富汗军事贵族、波斯语行政和伊斯兰政治传统重塑北印度。",
+        "note_en": "Turko-Afghan military elites, Persianate administration, and Islamic political traditions reshaped northern India."
+      },
+      {
+        "id": "vijayanagara_1336",
+        "label_zh": "1336：毗奢耶那伽罗兴起",
+        "label_en": "1336: Vijayanagara Rises",
+        "year": 1336,
+        "place_id": "",
+        "lat": 15.3,
+        "lng": 76.5,
+        "note_zh": "毗奢耶那伽罗说明中世纪印度有德里之外的南方帝国和印度教宫廷中心。",
+        "note_en": "Vijayanagara shows medieval India had southern empires and Hindu court centers beyond Delhi."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "sindh_713",
+        "title_zh": "伊斯兰进入信德",
+        "title_en": "Islam Enters Sindh",
+        "year": 713,
+        "event_id": "arab_conquest_sindh_ce_713",
+        "route_point_id": "sindh_713",
+        "highlight_territory_ids": [
+          "cliopatria_umayyad_caliphate"
+        ],
+        "camera": {
+          "lat": 25.4,
+          "lng": 68.4,
+          "zoom": 3.7
+        },
+        "script_zh": "伊斯兰最初从南亚西北边疆和海上贸易网络进入。",
+        "script_en": "Islam first entered through South Asia’s northwestern frontier and maritime trade networks.",
+        "scene_setting_zh": "伊斯兰进入信德",
+        "scene_setting_en": "Islam Enters Sindh",
+        "character_beat_zh": "伊斯兰最初从南亚西北边疆和海上贸易网络进入。",
+        "character_beat_en": "Islam first entered through South Asia’s northwestern frontier and maritime trade networks.",
+        "story_question_zh": "伊斯兰进入南亚是征服、贸易还是接触？",
+        "story_question_en": "Was Islam’s entry into South Asia conquest, trade, or contact?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "chola_1000",
+        "title_zh": "朱罗走向印度洋",
+        "title_en": "Chola Turns to the Indian Ocean",
+        "year": 1000,
+        "event_id": "chola_indian_ocean_expansion_1000",
+        "route_point_id": "chola_1000",
+        "highlight_territory_ids": [
+          "cliopatria_chola_empire"
+        ],
+        "camera": {
+          "lat": 10.8,
+          "lng": 79.1,
+          "zoom": 4.0
+        },
+        "script_zh": "朱罗帝国让南印度和印度洋成为印度文明主线的一部分。",
+        "script_en": "The Chola Empire makes South India and the Indian Ocean part of the main Indian civilizational story.",
+        "scene_setting_zh": "朱罗走向印度洋",
+        "scene_setting_en": "Chola Turns to the Indian Ocean",
+        "character_beat_zh": "朱罗帝国让南印度和印度洋成为印度文明主线的一部分。",
+        "character_beat_en": "The Chola Empire makes South India and the Indian Ocean part of the main Indian civilizational story.",
+        "story_question_zh": "为什么南印度和海洋不能被边缘化？",
+        "story_question_en": "Why can South India and the sea not be treated as peripheral?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "delhi_1206",
+        "title_zh": "突厥-阿富汗政权与德里",
+        "title_en": "Turko-Afghan Rule and Delhi",
+        "year": 1206,
+        "event_id": "turko_afghan_islamic_polities_ce_1206",
+        "route_point_id": "delhi_1206",
+        "highlight_territory_ids": [
+          "cliopatria_ghurid_dynasty"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.9
+        },
+        "script_zh": "突厥-阿富汗军事贵族、波斯语行政和伊斯兰政治传统重塑北印度。",
+        "script_en": "Turko-Afghan military elites, Persianate administration, and Islamic political traditions reshaped northern India.",
+        "scene_setting_zh": "突厥-阿富汗政权与德里",
+        "scene_setting_en": "Turko-Afghan Rule and Delhi",
+        "character_beat_zh": "突厥-阿富汗军事贵族、波斯语行政和伊斯兰政治传统重塑北印度。",
+        "character_beat_en": "Turko-Afghan military elites, Persianate administration, and Islamic political traditions reshaped northern India.",
+        "story_question_zh": "德里如何成为新的政治轴心？",
+        "story_question_en": "How did Delhi become a new political axis?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "vijayanagara_1336",
+        "title_zh": "毗奢耶那伽罗兴起",
+        "title_en": "Vijayanagara Rises",
+        "year": 1336,
+        "event_id": "vijayanagara_deccan_hindu_empire_1336",
+        "route_point_id": "vijayanagara_1336",
+        "highlight_territory_ids": [
+          "cliopatria_vijayanagara_empire"
+        ],
+        "camera": {
+          "lat": 15.3,
+          "lng": 76.5,
+          "zoom": 4.0
+        },
+        "script_zh": "毗奢耶那伽罗说明中世纪印度有德里之外的南方帝国和印度教宫廷中心。",
+        "script_en": "Vijayanagara shows medieval India had southern empires and Hindu court centers beyond Delhi.",
+        "scene_setting_zh": "毗奢耶那伽罗兴起",
+        "scene_setting_en": "Vijayanagara Rises",
+        "character_beat_zh": "毗奢耶那伽罗说明中世纪印度有德里之外的南方帝国和印度教宫廷中心。",
+        "character_beat_en": "Vijayanagara shows medieval India had southern empires and Hindu court centers beyond Delhi.",
+        "story_question_zh": "南印度如何回应中世纪北方政治变化？",
+        "story_question_en": "How did South India respond to medieval northern political change?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_mughal_maratha_story",
+    "title_zh": "印度政治史：莫卧儿帝国与马拉塔转折",
+    "title_en": "Indian Political History: Mughal Empire and the Maratha Turn",
+    "emoji": "🌙",
+    "theme_type": "political_history",
+    "description_zh": "近世帝国政治阶段：莫卧儿从巴布尔、阿克巴走向奥朗则布扩张，再到马拉塔兴起和帝国碎片化。",
+    "description_en": "The early modern imperial phase: the Mughals from Babur and Akbar to Aurangzeb’s expansion, then Maratha rise and imperial fragmentation.",
+    "source_note_zh": "地图边界使用现有 Cliopatria 南亚政权层；部分社会、宗教或区域网络无法完全等同于政权边界，因此以政权层标示同代政治背景。",
+    "source_note_en": "Map boundaries use existing Cliopatria South Asian polity layers. Some social, religious, or regional networks do not map perfectly to polity borders, so polity layers mark the same-era political context.",
+    "events": [
+      "mughal_empire_babur_panipat_1526",
+      "akbar_mughal_consolidation_1556",
+      "aurangzeb_deccan_expansion_1658",
+      "maratha_power_after_mughal_decline_1707"
+    ],
+    "people": [],
+    "territories": [
+      "mughal_empire",
+      "cliopatria_maratha_empire"
+    ],
+    "route_points": [
+      {
+        "id": "panipat_1526",
+        "label_zh": "1526：巴布尔入主北印度",
+        "label_en": "1526: Babur Enters North India",
+        "year": 1526,
+        "place_id": "",
+        "lat": 29.4,
+        "lng": 76.97,
+        "note_zh": "巴布尔在帕尼帕特获胜，莫卧儿帝国进入北印度政治舞台。",
+        "note_en": "Babur won at Panipat, bringing the Mughal Empire onto northern India’s political stage."
+      },
+      {
+        "id": "akbar_1556",
+        "label_zh": "1556：阿克巴制度化帝国",
+        "label_en": "1556: Akbar Institutionalizes Empire",
+        "year": 1556,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "阿克巴把征服政权转化为更稳定的多族群、多宗教帝国。",
+        "note_en": "Akbar turned a conquest regime into a more stable multiethnic and multireligious empire."
+      },
+      {
+        "id": "aurangzeb_1658",
+        "label_zh": "1658：奥朗则布与过度扩张",
+        "label_en": "1658: Aurangzeb and Overstretch",
+        "year": 1658,
+        "place_id": "",
+        "lat": 21.1,
+        "lng": 79.0,
+        "note_zh": "奥朗则布时期版图扩张到高峰，但德干战争和治理成本也推高帝国压力。",
+        "note_en": "Under Aurangzeb, territorial expansion peaked, but Deccan wars and governing costs increased imperial strain."
+      },
+      {
+        "id": "maratha_1707",
+        "label_zh": "1707：马拉塔与多中心时代",
+        "label_en": "1707: Marathas and a Multi-Centered Age",
+        "year": 1707,
+        "place_id": "",
+        "lat": 18.5,
+        "lng": 73.9,
+        "note_zh": "奥朗则布去世后，马拉塔扩张，南亚进入莫卧儿名义权威下的多中心竞争。",
+        "note_en": "After Aurangzeb’s death, Maratha power expanded and South Asia entered multi-centered rivalry under nominal Mughal authority."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "panipat_1526",
+        "title_zh": "巴布尔入主北印度",
+        "title_en": "Babur Enters North India",
+        "year": 1526,
+        "event_id": "mughal_empire_babur_panipat_1526",
+        "route_point_id": "panipat_1526",
+        "highlight_territory_ids": [
+          "mughal_empire"
+        ],
+        "camera": {
+          "lat": 29.4,
+          "lng": 76.97,
+          "zoom": 4.0
+        },
+        "script_zh": "巴布尔在帕尼帕特获胜，莫卧儿帝国进入北印度政治舞台。",
+        "script_en": "Babur won at Panipat, bringing the Mughal Empire onto northern India’s political stage.",
+        "scene_setting_zh": "巴布尔入主北印度",
+        "scene_setting_en": "Babur Enters North India",
+        "character_beat_zh": "巴布尔在帕尼帕特获胜，莫卧儿帝国进入北印度政治舞台。",
+        "character_beat_en": "Babur won at Panipat, bringing the Mughal Empire onto northern India’s political stage.",
+        "story_question_zh": "近世南亚帝国为什么从军事技术和流动性开始？",
+        "story_question_en": "Why did early modern South Asian empire begin with military technology and mobility?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "akbar_1556",
+        "title_zh": "阿克巴制度化帝国",
+        "title_en": "Akbar Institutionalizes Empire",
+        "year": 1556,
+        "event_id": "akbar_mughal_consolidation_1556",
+        "route_point_id": "akbar_1556",
+        "highlight_territory_ids": [
+          "mughal_empire"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 4.0
+        },
+        "script_zh": "阿克巴把征服政权转化为更稳定的多族群、多宗教帝国。",
+        "script_en": "Akbar turned a conquest regime into a more stable multiethnic and multireligious empire.",
+        "scene_setting_zh": "阿克巴制度化帝国",
+        "scene_setting_en": "Akbar Institutionalizes Empire",
+        "character_beat_zh": "阿克巴把征服政权转化为更稳定的多族群、多宗教帝国。",
+        "character_beat_en": "Akbar turned a conquest regime into a more stable multiethnic and multireligious empire.",
+        "story_question_zh": "多元社会里的帝国靠什么维持？",
+        "story_question_en": "What sustains empire in a plural society?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "aurangzeb_1658",
+        "title_zh": "奥朗则布与过度扩张",
+        "title_en": "Aurangzeb and Overstretch",
+        "year": 1658,
+        "event_id": "aurangzeb_deccan_expansion_1658",
+        "route_point_id": "aurangzeb_1658",
+        "highlight_territory_ids": [
+          "mughal_empire"
+        ],
+        "camera": {
+          "lat": 21.1,
+          "lng": 79.0,
+          "zoom": 4.0
+        },
+        "script_zh": "奥朗则布时期版图扩张到高峰，但德干战争和治理成本也推高帝国压力。",
+        "script_en": "Under Aurangzeb, territorial expansion peaked, but Deccan wars and governing costs increased imperial strain.",
+        "scene_setting_zh": "奥朗则布与过度扩张",
+        "scene_setting_en": "Aurangzeb and Overstretch",
+        "character_beat_zh": "奥朗则布时期版图扩张到高峰，但德干战争和治理成本也推高帝国压力。",
+        "character_beat_en": "Under Aurangzeb, territorial expansion peaked, but Deccan wars and governing costs increased imperial strain.",
+        "story_question_zh": "帝国扩张何时会变成负担？",
+        "story_question_en": "When does imperial expansion become a burden?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "maratha_1707",
+        "title_zh": "马拉塔与多中心时代",
+        "title_en": "Marathas and a Multi-Centered Age",
+        "year": 1707,
+        "event_id": "maratha_power_after_mughal_decline_1707",
+        "route_point_id": "maratha_1707",
+        "highlight_territory_ids": [
+          "cliopatria_maratha_empire"
+        ],
+        "camera": {
+          "lat": 18.5,
+          "lng": 73.9,
+          "zoom": 4.0
+        },
+        "script_zh": "奥朗则布去世后，马拉塔扩张，南亚进入莫卧儿名义权威下的多中心竞争。",
+        "script_en": "After Aurangzeb’s death, Maratha power expanded and South Asia entered multi-centered rivalry under nominal Mughal authority.",
+        "scene_setting_zh": "马拉塔与多中心时代",
+        "scene_setting_en": "Marathas and a Multi-Centered Age",
+        "character_beat_zh": "奥朗则布去世后，马拉塔扩张，南亚进入莫卧儿名义权威下的多中心竞争。",
+        "character_beat_en": "After Aurangzeb’s death, Maratha power expanded and South Asia entered multi-centered rivalry under nominal Mughal authority.",
+        "story_question_zh": "莫卧儿之后的印度如何走向区域化和殖民介入？",
+        "story_question_en": "How did post-Mughal India move toward regionalization and colonial intervention?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_british_modern_story",
+    "title_zh": "印度政治史：英属印度、独立与共和国",
+    "title_en": "Indian Political History: British India, Independence, and Republic",
+    "emoji": "🇮🇳",
+    "theme_type": "political_history",
+    "description_zh": "现代国家形成阶段：公司统治、英属印度、独立分治与印度共和国。",
+    "description_en": "The modern state-formation phase: Company rule, British India, Independence and Partition, and the Republic of India.",
+    "source_note_zh": "地图边界使用现有 Cliopatria 南亚政权层；部分社会、宗教或区域网络无法完全等同于政权边界，因此以政权层标示同代政治背景。",
+    "source_note_en": "Map boundaries use existing Cliopatria South Asian polity layers. Some social, religious, or regional networks do not map perfectly to polity borders, so polity layers mark the same-era political context.",
+    "events": [
+      "plassey_company_rule_begins_1757",
+      "british_raj_begins_1858",
+      "colonial_religious_identity_politics_1909",
+      "india_independence_partition_1947",
+      "india_constitution_republic_1950"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_british_raj",
+      "cliopatria_republic_of_india"
+    ],
+    "route_points": [
+      {
+        "id": "plassey_1757",
+        "label_zh": "1757：普拉西与公司统治",
+        "label_en": "1757: Plassey and Company Rule",
+        "year": 1757,
+        "place_id": "",
+        "lat": 23.8,
+        "lng": 88.3,
+        "note_zh": "普拉西战役后，公司从贸易组织转向领土统治机器。",
+        "note_en": "After Plassey, the Company shifted from trading organization toward territorial ruling machine."
+      },
+      {
+        "id": "raj_1858",
+        "label_zh": "1858：英属印度直接统治",
+        "label_en": "1858: Direct British Raj",
+        "year": 1858,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "1857年起义后，英王接管公司权力，英属印度进入直接殖民统治。",
+        "note_en": "After the 1857 rebellion, the Crown replaced Company rule and British India entered direct colonial governance."
+      },
+      {
+        "id": "identity_1909",
+        "label_zh": "1909：宗教身份政治",
+        "label_en": "1909: Religious Identity Politics",
+        "year": 1909,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "殖民统计、选举和社团政治把宗教身份更深地转化为现代政治代表问题。",
+        "note_en": "Colonial census, elections, and associational politics transformed religious identity into modern political representation."
+      },
+      {
+        "id": "partition_1947",
+        "label_zh": "1947：独立与分治",
+        "label_en": "1947: Independence and Partition",
+        "year": 1947,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "英属印度终结，印度和巴基斯坦分治独立，现代南亚边界形成。",
+        "note_en": "British India ended as India and Pakistan emerged through Partition, forming modern South Asian borders."
+      },
+      {
+        "id": "republic_1950",
+        "label_zh": "1950：印度共和国",
+        "label_en": "1950: Republic of India",
+        "year": 1950,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "印度宪法生效，共和国、议会民主和联邦框架确立。",
+        "note_en": "India’s constitution came into force, establishing a republic, parliamentary democracy, and federation."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "plassey_1757",
+        "title_zh": "普拉西与公司统治",
+        "title_en": "Plassey and Company Rule",
+        "year": 1757,
+        "event_id": "plassey_company_rule_begins_1757",
+        "route_point_id": "plassey_1757",
+        "highlight_territory_ids": [
+          "cliopatria_british_raj"
+        ],
+        "camera": {
+          "lat": 23.8,
+          "lng": 88.3,
+          "zoom": 4.0
+        },
+        "script_zh": "普拉西战役后，公司从贸易组织转向领土统治机器。",
+        "script_en": "After Plassey, the Company shifted from trading organization toward territorial ruling machine.",
+        "scene_setting_zh": "普拉西与公司统治",
+        "scene_setting_en": "Plassey and Company Rule",
+        "character_beat_zh": "普拉西战役后，公司从贸易组织转向领土统治机器。",
+        "character_beat_en": "After Plassey, the Company shifted from trading organization toward territorial ruling machine.",
+        "story_question_zh": "殖民统治为什么先从财政和商业控制开始？",
+        "story_question_en": "Why did colonial rule begin through fiscal and commercial control?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "raj_1858",
+        "title_zh": "英属印度直接统治",
+        "title_en": "Direct British Raj",
+        "year": 1858,
+        "event_id": "british_raj_begins_1858",
+        "route_point_id": "raj_1858",
+        "highlight_territory_ids": [
+          "cliopatria_british_raj"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.9
+        },
+        "script_zh": "1857年起义后，英王接管公司权力，英属印度进入直接殖民统治。",
+        "script_en": "After the 1857 rebellion, the Crown replaced Company rule and British India entered direct colonial governance.",
+        "scene_setting_zh": "英属印度直接统治",
+        "scene_setting_en": "Direct British Raj",
+        "character_beat_zh": "1857年起义后，英王接管公司权力，英属印度进入直接殖民统治。",
+        "character_beat_en": "After the 1857 rebellion, the Crown replaced Company rule and British India entered direct colonial governance.",
+        "story_question_zh": "殖民国家如何重塑南亚？",
+        "story_question_en": "How did the colonial state reshape South Asia?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "identity_1909",
+        "title_zh": "宗教身份政治",
+        "title_en": "Religious Identity Politics",
+        "year": 1909,
+        "event_id": "colonial_religious_identity_politics_1909",
+        "route_point_id": "identity_1909",
+        "highlight_territory_ids": [
+          "cliopatria_british_raj"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.8
+        },
+        "script_zh": "殖民统计、选举和社团政治把宗教身份更深地转化为现代政治代表问题。",
+        "script_en": "Colonial census, elections, and associational politics transformed religious identity into modern political representation.",
+        "scene_setting_zh": "宗教身份政治",
+        "scene_setting_en": "Religious Identity Politics",
+        "character_beat_zh": "殖民统计、选举和社团政治把宗教身份更深地转化为现代政治代表问题。",
+        "character_beat_en": "Colonial census, elections, and associational politics transformed religious identity into modern political representation.",
+        "story_question_zh": "现代宗教政治为何带着殖民分类的影子？",
+        "story_question_en": "Why does modern religious politics carry colonial categories?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "partition_1947",
+        "title_zh": "独立与分治",
+        "title_en": "Independence and Partition",
+        "year": 1947,
+        "event_id": "india_independence_partition_1947",
+        "route_point_id": "partition_1947",
+        "highlight_territory_ids": [
+          "cliopatria_british_raj",
+          "cliopatria_republic_of_india"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.8
+        },
+        "script_zh": "英属印度终结，印度和巴基斯坦分治独立，现代南亚边界形成。",
+        "script_en": "British India ended as India and Pakistan emerged through Partition, forming modern South Asian borders.",
+        "scene_setting_zh": "独立与分治",
+        "scene_setting_en": "Independence and Partition",
+        "character_beat_zh": "英属印度终结，印度和巴基斯坦分治独立，现代南亚边界形成。",
+        "character_beat_en": "British India ended as India and Pakistan emerged through Partition, forming modern South Asian borders.",
+        "story_question_zh": "独立为何同时带来主权和创伤？",
+        "story_question_en": "Why did independence bring both sovereignty and trauma?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "republic_1950",
+        "title_zh": "印度共和国",
+        "title_en": "Republic of India",
+        "year": 1950,
+        "event_id": "india_constitution_republic_1950",
+        "route_point_id": "republic_1950",
+        "highlight_territory_ids": [
+          "cliopatria_republic_of_india"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.8
+        },
+        "script_zh": "印度宪法生效，共和国、议会民主和联邦框架确立。",
+        "script_en": "India’s constitution came into force, establishing a republic, parliamentary democracy, and federation.",
+        "scene_setting_zh": "印度共和国",
+        "scene_setting_en": "Republic of India",
+        "character_beat_zh": "印度宪法生效，共和国、议会民主和联邦框架确立。",
+        "character_beat_en": "India’s constitution came into force, establishing a republic, parliamentary democracy, and federation.",
+        "story_question_zh": "现代印度如何在多元社会中维持共和国框架？",
+        "story_question_en": "How does modern India sustain a republic in a plural society?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
+  },
+  {
+    "id": "india_economic_exchange_story",
+    "title_zh": "印度经济与交流史：印度洋、丝路、棉布与全球化",
+    "title_en": "Indian Economic and Exchange History: Indian Ocean, Silk Roads, Textiles, and Globalization",
+    "emoji": "🌊",
+    "theme_type": "economic_exchange_history",
+    "description_zh": "从德干内陆通道、罗马-印度洋贸易、贵霜丝路、朱罗海权，到莫卧儿棉布、东印度公司、殖民铁路和现代经济自由化。",
+    "description_en": "From Deccan inland routes, Roman-Indian Ocean trade, Kushan Silk Road links, and Chola maritime power to Mughal textiles, the East India Company, colonial railways, and modern liberalization.",
+    "source_note_zh": "经济与交流史常跨越政权边界；地图用于显示同代政治背景，故事重点放在贸易网络、交通基础设施和全球联系。",
+    "source_note_en": "Economic and exchange history often crosses polity borders. The map shows same-era political context while the story focuses on trade networks, transport infrastructure, and global connections.",
+    "events": [
+      "satavahana_deccan_power_ce_100",
+      "roman_indian_ocean_trade_ce_100",
+      "kushan_empire_silk_road_buddhism_ce_100",
+      "chola_indian_ocean_expansion_1000",
+      "portuguese_goa_indian_ocean_1510",
+      "mughal_textile_trade_ce_1600",
+      "plassey_company_rule_begins_1757",
+      "indian_railways_colonial_economy_1853",
+      "india_economic_liberalization_1991"
+    ],
+    "people": [],
+    "territories": [
+      "cliopatria_satavahana_dynasty",
+      "kushan_empire",
+      "cliopatria_eastern_kushans",
+      "cliopatria_chola_empire",
+      "cliopatria_portuguese_empire",
+      "mughal_empire",
+      "cliopatria_british_raj",
+      "cliopatria_republic_of_india"
+    ],
+    "route_points": [
+      {
+        "id": "satavahana_routes_100",
+        "label_zh": "100：德干内陆与印度洋通道",
+        "label_en": "100: Deccan Inland and Indian Ocean Routes",
+        "year": 100,
+        "place_id": "",
+        "lat": 17.4,
+        "lng": 78.5,
+        "note_zh": "百乘王朝控制德干通道，把内陆农业区、港口和北方政治世界连接起来。",
+        "note_en": "The Satavahanas controlled Deccan routes linking inland agrarian zones, ports, and northern political worlds."
+      },
+      {
+        "id": "roman_trade_100",
+        "label_zh": "100：罗马-印度洋贸易",
+        "label_en": "100: Roman-Indian Ocean Trade",
+        "year": 100,
+        "place_id": "",
+        "lat": 10.1,
+        "lng": 76.2,
+        "note_zh": "季风航线让红海、阿拉伯海和南印度港口形成跨海交换网络。",
+        "note_en": "Monsoon routes connected the Red Sea, Arabian Sea, and South Indian ports into maritime exchange networks."
+      },
+      {
+        "id": "kushan_silk_100",
+        "label_zh": "100：贵霜丝路与佛教商品网络",
+        "label_en": "100: Kushan Silk Road and Buddhist Networks",
+        "year": 100,
+        "place_id": "",
+        "lat": 34.0,
+        "lng": 71.5,
+        "note_zh": "贵霜处在印度、中亚和伊朗世界之间，贸易、佛教和艺术共同流动。",
+        "note_en": "The Kushans stood between India, Central Asia, and Iran, where trade, Buddhism, and art moved together."
+      },
+      {
+        "id": "chola_ocean_1000",
+        "label_zh": "1000：朱罗印度洋海权",
+        "label_en": "1000: Chola Indian Ocean Power",
+        "year": 1000,
+        "place_id": "",
+        "lat": 10.8,
+        "lng": 79.1,
+        "note_zh": "朱罗帝国依托海军、寺庙经济和港口贸易，把南印度推向印度洋秩序中心。",
+        "note_en": "The Cholas used naval power, temple economy, and port trade to push South India toward the center of Indian Ocean order."
+      },
+      {
+        "id": "portuguese_goa_1510",
+        "label_zh": "1510：葡萄牙进入印度洋",
+        "label_en": "1510: Portuguese Enter the Indian Ocean",
+        "year": 1510,
+        "place_id": "",
+        "lat": 15.5,
+        "lng": 73.8,
+        "note_zh": "葡萄牙占领果阿，欧洲武装贸易进入既有亚洲贸易网络。",
+        "note_en": "Portugal captured Goa, bringing European armed commerce into existing Asian trade networks."
+      },
+      {
+        "id": "mughal_textile_1600",
+        "label_zh": "1600：莫卧儿棉布贸易",
+        "label_en": "1600: Mughal Textile Trade",
+        "year": 1600,
+        "place_id": "",
+        "lat": 23.8,
+        "lng": 90.4,
+        "note_zh": "莫卧儿时期，孟加拉、古吉拉特和科罗曼德尔棉布进入印度洋与全球市场。",
+        "note_en": "In the Mughal era, textiles from Bengal, Gujarat, and the Coromandel entered Indian Ocean and global markets."
+      },
+      {
+        "id": "plassey_1757",
+        "label_zh": "1757：普拉西与公司财政",
+        "label_en": "1757: Plassey and Company Finance",
+        "year": 1757,
+        "place_id": "",
+        "lat": 23.8,
+        "lng": 88.3,
+        "note_zh": "普拉西后公司控制孟加拉财政，贸易资本转向领土统治。",
+        "note_en": "After Plassey, the Company controlled Bengal finance and commercial capital turned toward territorial rule."
+      },
+      {
+        "id": "railways_1853",
+        "label_zh": "1853：铁路与殖民经济整合",
+        "label_en": "1853: Railways and Colonial Integration",
+        "year": 1853,
+        "place_id": "",
+        "lat": 19.1,
+        "lng": 72.9,
+        "note_zh": "铁路、港口和电报重组原料、军队和市场流动，塑造现代印度经济地理。",
+        "note_en": "Railways, ports, and telegraphs reorganized flows of raw materials, armies, and markets, shaping modern India’s economic geography."
+      },
+      {
+        "id": "liberalization_1991",
+        "label_zh": "1991：经济自由化与全球化",
+        "label_en": "1991: Liberalization and Globalization",
+        "year": 1991,
+        "place_id": "",
+        "lat": 28.6,
+        "lng": 77.2,
+        "note_zh": "1991年后，服务业、信息技术和全球资本联系重塑现代印度经济。",
+        "note_en": "After 1991, services, information technology, and global capital links reshaped modern India’s economy."
+      }
+    ],
+    "chapters": [
+      {
+        "id": "satavahana_routes_100",
+        "title_zh": "德干内陆与印度洋通道",
+        "title_en": "Deccan Inland and Indian Ocean Routes",
+        "year": 100,
+        "event_id": "satavahana_deccan_power_ce_100",
+        "route_point_id": "satavahana_routes_100",
+        "highlight_territory_ids": [
+          "cliopatria_satavahana_dynasty"
+        ],
+        "camera": {
+          "lat": 17.4,
+          "lng": 78.5,
+          "zoom": 4.1
+        },
+        "script_zh": "百乘王朝控制德干通道，把内陆农业区、港口和北方政治世界连接起来。",
+        "script_en": "The Satavahanas controlled Deccan routes linking inland agrarian zones, ports, and northern political worlds.",
+        "scene_setting_zh": "德干内陆与印度洋通道",
+        "scene_setting_en": "Deccan Inland and Indian Ocean Routes",
+        "character_beat_zh": "百乘王朝控制德干通道，把内陆农业区、港口和北方政治世界连接起来。",
+        "character_beat_en": "The Satavahanas controlled Deccan routes linking inland agrarian zones, ports, and northern political worlds.",
+        "story_question_zh": "印度经济史为什么不能只看恒河平原？",
+        "story_question_en": "Why can Indian economic history not be read only through the Ganges plain?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "roman_trade_100",
+        "title_zh": "罗马-印度洋贸易",
+        "title_en": "Roman-Indian Ocean Trade",
+        "year": 100,
+        "event_id": "roman_indian_ocean_trade_ce_100",
+        "route_point_id": "roman_trade_100",
+        "highlight_territory_ids": [
+          "cliopatria_satavahana_dynasty"
+        ],
+        "camera": {
+          "lat": 10.1,
+          "lng": 76.2,
+          "zoom": 4.0
+        },
+        "script_zh": "季风航线让红海、阿拉伯海和南印度港口形成跨海交换网络。",
+        "script_en": "Monsoon routes connected the Red Sea, Arabian Sea, and South Indian ports into maritime exchange networks.",
+        "scene_setting_zh": "罗马-印度洋贸易",
+        "scene_setting_en": "Roman-Indian Ocean Trade",
+        "character_beat_zh": "季风航线让红海、阿拉伯海和南印度港口形成跨海交换网络。",
+        "character_beat_en": "Monsoon routes connected the Red Sea, Arabian Sea, and South Indian ports into maritime exchange networks.",
+        "story_question_zh": "季风知识如何变成商业基础设施？",
+        "story_question_en": "How did monsoon knowledge become commercial infrastructure?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "kushan_silk_100",
+        "title_zh": "贵霜丝路与佛教商品网络",
+        "title_en": "Kushan Silk Road and Buddhist Networks",
+        "year": 100,
+        "event_id": "kushan_empire_silk_road_buddhism_ce_100",
+        "route_point_id": "kushan_silk_100",
+        "highlight_territory_ids": [
+          "kushan_empire",
+          "cliopatria_eastern_kushans"
+        ],
+        "camera": {
+          "lat": 34.0,
+          "lng": 71.5,
+          "zoom": 3.8
+        },
+        "script_zh": "贵霜处在印度、中亚和伊朗世界之间，贸易、佛教和艺术共同流动。",
+        "script_en": "The Kushans stood between India, Central Asia, and Iran, where trade, Buddhism, and art moved together.",
+        "scene_setting_zh": "贵霜丝路与佛教商品网络",
+        "scene_setting_en": "Kushan Silk Road and Buddhist Networks",
+        "character_beat_zh": "贵霜处在印度、中亚和伊朗世界之间，贸易、佛教和艺术共同流动。",
+        "character_beat_en": "The Kushans stood between India, Central Asia, and Iran, where trade, Buddhism, and art moved together.",
+        "story_question_zh": "商路如何同时传播商品和信仰？",
+        "story_question_en": "How do trade routes carry both goods and beliefs?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "chola_ocean_1000",
+        "title_zh": "朱罗印度洋海权",
+        "title_en": "Chola Indian Ocean Power",
+        "year": 1000,
+        "event_id": "chola_indian_ocean_expansion_1000",
+        "route_point_id": "chola_ocean_1000",
+        "highlight_territory_ids": [
+          "cliopatria_chola_empire"
+        ],
+        "camera": {
+          "lat": 10.8,
+          "lng": 79.1,
+          "zoom": 4.0
+        },
+        "script_zh": "朱罗帝国依托海军、寺庙经济和港口贸易，把南印度推向印度洋秩序中心。",
+        "script_en": "The Cholas used naval power, temple economy, and port trade to push South India toward the center of Indian Ocean order.",
+        "scene_setting_zh": "朱罗印度洋海权",
+        "scene_setting_en": "Chola Indian Ocean Power",
+        "character_beat_zh": "朱罗帝国依托海军、寺庙经济和港口贸易，把南印度推向印度洋秩序中心。",
+        "character_beat_en": "The Cholas used naval power, temple economy, and port trade to push South India toward the center of Indian Ocean order.",
+        "story_question_zh": "南印度如何成为海上经济力量？",
+        "story_question_en": "How did South India become a maritime economic power?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "portuguese_goa_1510",
+        "title_zh": "葡萄牙进入印度洋",
+        "title_en": "Portuguese Enter the Indian Ocean",
+        "year": 1510,
+        "event_id": "portuguese_goa_indian_ocean_1510",
+        "route_point_id": "portuguese_goa_1510",
+        "highlight_territory_ids": [
+          "cliopatria_portuguese_empire"
+        ],
+        "camera": {
+          "lat": 15.5,
+          "lng": 73.8,
+          "zoom": 4.0
+        },
+        "script_zh": "葡萄牙占领果阿，欧洲武装贸易进入既有亚洲贸易网络。",
+        "script_en": "Portugal captured Goa, bringing European armed commerce into existing Asian trade networks.",
+        "scene_setting_zh": "葡萄牙进入印度洋",
+        "scene_setting_en": "Portuguese Enter the Indian Ocean",
+        "character_beat_zh": "葡萄牙占领果阿，欧洲武装贸易进入既有亚洲贸易网络。",
+        "character_beat_en": "Portugal captured Goa, bringing European armed commerce into existing Asian trade networks.",
+        "story_question_zh": "欧洲海权如何改变印度洋贸易规则？",
+        "story_question_en": "How did European naval power change Indian Ocean trade rules?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "mughal_textile_1600",
+        "title_zh": "莫卧儿棉布贸易",
+        "title_en": "Mughal Textile Trade",
+        "year": 1600,
+        "event_id": "mughal_textile_trade_ce_1600",
+        "route_point_id": "mughal_textile_1600",
+        "highlight_territory_ids": [
+          "mughal_empire"
+        ],
+        "camera": {
+          "lat": 23.8,
+          "lng": 90.4,
+          "zoom": 4.0
+        },
+        "script_zh": "莫卧儿时期，孟加拉、古吉拉特和科罗曼德尔棉布进入印度洋与全球市场。",
+        "script_en": "In the Mughal era, textiles from Bengal, Gujarat, and the Coromandel entered Indian Ocean and global markets.",
+        "scene_setting_zh": "莫卧儿棉布贸易",
+        "scene_setting_en": "Mughal Textile Trade",
+        "character_beat_zh": "莫卧儿时期，孟加拉、古吉拉特和科罗曼德尔棉布进入印度洋与全球市场。",
+        "character_beat_en": "In the Mughal era, textiles from Bengal, Gujarat, and the Coromandel entered Indian Ocean and global markets.",
+        "story_question_zh": "为什么欧洲公司会被印度商品吸引？",
+        "story_question_en": "Why were European companies drawn to Indian commodities?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "plassey_1757",
+        "title_zh": "普拉西与公司财政",
+        "title_en": "Plassey and Company Finance",
+        "year": 1757,
+        "event_id": "plassey_company_rule_begins_1757",
+        "route_point_id": "plassey_1757",
+        "highlight_territory_ids": [
+          "cliopatria_british_raj"
+        ],
+        "camera": {
+          "lat": 23.8,
+          "lng": 88.3,
+          "zoom": 4.0
+        },
+        "script_zh": "普拉西后公司控制孟加拉财政，贸易资本转向领土统治。",
+        "script_en": "After Plassey, the Company controlled Bengal finance and commercial capital turned toward territorial rule.",
+        "scene_setting_zh": "普拉西与公司财政",
+        "scene_setting_en": "Plassey and Company Finance",
+        "character_beat_zh": "普拉西后公司控制孟加拉财政，贸易资本转向领土统治。",
+        "character_beat_en": "After Plassey, the Company controlled Bengal finance and commercial capital turned toward territorial rule.",
+        "story_question_zh": "贸易公司如何变成统治机器？",
+        "story_question_en": "How does a trading company become a ruling machine?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "railways_1853",
+        "title_zh": "铁路与殖民经济整合",
+        "title_en": "Railways and Colonial Integration",
+        "year": 1853,
+        "event_id": "indian_railways_colonial_economy_1853",
+        "route_point_id": "railways_1853",
+        "highlight_territory_ids": [
+          "cliopatria_british_raj"
+        ],
+        "camera": {
+          "lat": 19.1,
+          "lng": 72.9,
+          "zoom": 4.0
+        },
+        "script_zh": "铁路、港口和电报重组原料、军队和市场流动，塑造现代印度经济地理。",
+        "script_en": "Railways, ports, and telegraphs reorganized flows of raw materials, armies, and markets, shaping modern India’s economic geography.",
+        "scene_setting_zh": "铁路与殖民经济整合",
+        "scene_setting_en": "Railways and Colonial Integration",
+        "character_beat_zh": "铁路、港口和电报重组原料、军队和市场流动，塑造现代印度经济地理。",
+        "character_beat_en": "Railways, ports, and telegraphs reorganized flows of raw materials, armies, and markets, shaping modern India’s economic geography.",
+        "story_question_zh": "基础设施是发展工具，还是殖民控制工具？",
+        "story_question_en": "Is infrastructure a development tool or an instrument of colonial control?",
+        "active_character_ids": [],
+        "interactions": []
+      },
+      {
+        "id": "liberalization_1991",
+        "title_zh": "经济自由化与全球化",
+        "title_en": "Liberalization and Globalization",
+        "year": 1991,
+        "event_id": "india_economic_liberalization_1991",
+        "route_point_id": "liberalization_1991",
+        "highlight_territory_ids": [
+          "cliopatria_republic_of_india"
+        ],
+        "camera": {
+          "lat": 28.6,
+          "lng": 77.2,
+          "zoom": 3.8
+        },
+        "script_zh": "1991年后，服务业、信息技术和全球资本联系重塑现代印度经济。",
+        "script_en": "After 1991, services, information technology, and global capital links reshaped modern India’s economy.",
+        "scene_setting_zh": "经济自由化与全球化",
+        "scene_setting_en": "Liberalization and Globalization",
+        "character_beat_zh": "1991年后，服务业、信息技术和全球资本联系重塑现代印度经济。",
+        "character_beat_en": "After 1991, services, information technology, and global capital links reshaped modern India’s economy.",
+        "story_question_zh": "现代印度如何从殖民后发展国家走向全球化经济体？",
+        "story_question_en": "How did modern India move from postcolonial developmental state to globalizing economy?",
+        "active_character_ids": [],
+        "interactions": []
+      }
+    ]
   }
 ]

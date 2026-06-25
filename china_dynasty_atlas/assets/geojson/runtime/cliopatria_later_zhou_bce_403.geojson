@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Later Zhou",
+        "FromYear": -404,
+        "ToYear": -367,
+        "Area": 5826.859838448773,
+        "Type": "POLITY",
+        "Wikipedia": "Later Zhou",
+        "Wikidata": "Q1154556",
+        "SeshatID": "cn_eastern_zhou_warring_states",
+        "Components": "",
+        "MemberOf": "(Warring States China)",
+        "displayYear": -403,
+        "sourceYear": -403,
+        "mappedTerritoryId": "cliopatria_later_zhou"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.3199234008789,
+              35.45143127441406
+            ],
+            [
+              112.10655212402344,
+              34.93662643432617
+            ],
+            [
+              113.26419830322266,
+              34.93662643432617
+            ],
+            [
+              113.53009033203125,
+              35.38706970214844
+            ],
+            [
+              113.45277404785156,
+              35.38706970214844
+            ],
+            [
+              112.3199234008789,
+              35.45143127441406
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

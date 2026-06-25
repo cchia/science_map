@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Wey",
+        "FromYear": -284,
+        "ToYear": -257,
+        "Area": 5678.472283724754,
+        "Type": "POLITY",
+        "Wikipedia": "Wey (state)",
+        "Wikidata": "Q1147897",
+        "SeshatID": "",
+        "Components": "",
+        "MemberOf": "(Warring States China)",
+        "displayYear": -260,
+        "sourceYear": -260,
+        "mappedTerritoryId": "cliopatria_wey"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.5815200805664,
+              36.03080368041992
+            ],
+            [
+              114.82849884033203,
+              35.708900451660156
+            ],
+            [
+              115.617919921875,
+              36.09519577026367
+            ],
+            [
+              115.60665893554688,
+              36.417205810546875
+            ],
+            [
+              115.3638916015625,
+              36.73930740356445
+            ],
+            [
+              114.60979461669922,
+              36.09519577026367
+            ],
+            [
+              114.5815200805664,
+              36.03080368041992
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

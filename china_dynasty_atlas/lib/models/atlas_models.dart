@@ -1173,6 +1173,47 @@ class MapScene {
   final String coverageLevel;
 }
 
+class CivilizationLens {
+  const CivilizationLens({
+    required this.id,
+    required this.nameZh,
+    required this.nameEn,
+    required this.descriptionZh,
+    required this.descriptionEn,
+    required this.territoryIds,
+    required this.storylineIds,
+    required this.focusYears,
+  });
+
+  factory CivilizationLens.fromJson(Map<String, dynamic> json) {
+    return CivilizationLens(
+      id: json['id'] as String,
+      nameZh: json['nameZh'] as String? ?? '',
+      nameEn: json['nameEn'] as String? ?? '',
+      descriptionZh: json['descriptionZh'] as String? ?? '',
+      descriptionEn: json['descriptionEn'] as String? ?? '',
+      territoryIds: List<String>.from(
+        json['territoryIds'] as List<dynamic>? ?? const [],
+      ),
+      storylineIds: List<String>.from(
+        json['storylineIds'] as List<dynamic>? ?? const [],
+      ),
+      focusYears: List<int>.from(
+        json['focusYears'] as List<dynamic>? ?? const [],
+      ),
+    );
+  }
+
+  final String id;
+  final String nameZh;
+  final String nameEn;
+  final String descriptionZh;
+  final String descriptionEn;
+  final List<String> territoryIds;
+  final List<String> storylineIds;
+  final List<int> focusYears;
+}
+
 class AtlasData {
   const AtlasData({
     required this.scope,
@@ -1188,6 +1229,7 @@ class AtlasData {
     required this.controlZones,
     required this.storylines,
     required this.mapScenes,
+    required this.civilizations,
   });
 
   final ProjectScope scope;
@@ -1203,4 +1245,5 @@ class AtlasData {
   final List<ControlZoneRecord> controlZones;
   final List<Storyline> storylines;
   final List<MapScene> mapScenes;
+  final List<CivilizationLens> civilizations;
 }

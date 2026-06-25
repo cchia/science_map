@@ -32,7 +32,7 @@ class _AppRoot extends ConsumerWidget {
 
     return MaterialApp(
       onGenerateTitle: (context) => AppL10n.of(context).appTitle,
-      title: 'China Dynasty Atlas',
+      title: 'World Civilizations Atlas',
       debugShowCheckedModeBanner: false,
       locale: localeOverride,
       supportedLocales: const [Locale('zh'), Locale('en')],

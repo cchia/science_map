@@ -15,52 +15,6 @@ import '../state/app_settings.dart';
 import '../state/atlas_explorer_controller.dart';
 
 const _maxConcurrentGeometryLoads = 4;
-const _mapFocusTerritoryIds = {
-  'cao_wei',
-  'eastern_han',
-  'eastern_wu',
-  'northern_wei',
-  'qin',
-  'qing_dynasty',
-  'republic_of_china',
-  'shu_han',
-  'sui_dynasty',
-  'tang_dynasty',
-  'western_han',
-  'xin',
-  'cliopatria_kuomintang',
-  'cliopatria_later_zhou_dynasty',
-};
-
-const _mapFocusIdTerms = {
-  'china',
-  'shang',
-  'zhou',
-  'qin',
-  'han',
-  'chu',
-  'wei',
-  'shu',
-  'wu',
-  'yue',
-  'qi',
-  'yan',
-  'zhao',
-  'jin',
-  'sui',
-  'tang',
-  'song',
-  'liao',
-  'xia',
-  'yuan',
-  'ming',
-  'qing',
-  'tibet',
-  'dali',
-  'nanzhao',
-  'mongol',
-  'taiping',
-};
 
 class AtlasHomePage extends StatefulWidget {
   const AtlasHomePage({super.key});
@@ -128,6 +82,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
   final AtlasRepository _geometryRepository = AtlasRepository();
   final Map<String, List<AtlasPolygonFeature>> _loadedPolygonsByGeometryId = {};
   final Map<String, Future<_LoadedPolygonMaps>> _polygonFutureCache = {};
+  int _loadedPolygonCacheVersion = 0;
   Timer? _storyPlaybackTimer;
   bool _isMapReady = false;
   bool _isStoryPlaying = false;
@@ -184,16 +139,11 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
           })
           .toList(growable: false);
       await _loadMissingPolygons(missingGeometryRefs);
-      return _mapsFromCache(
-        snapshots,
-        version: _loadedPolygonsByGeometryId.length,
-      );
+      return _mapsFromCache(snapshots, version: _loadedPolygonCacheVersion);
     });
   }
 
-  Future<void> _loadMissingPolygons(
-    List<String> geometryRefs,
-  ) async {
+  Future<void> _loadMissingPolygons(List<String> geometryRefs) async {
     for (var index = 0; index < geometryRefs.length;) {
       final end = (index + _maxConcurrentGeometryLoads).clamp(
         0,
@@ -214,6 +164,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       for (final entry in loadedEntries) {
         _loadedPolygonsByGeometryId[entry.key] = entry.value;
       }
+      _loadedPolygonCacheVersion++;
       if (mounted) setState(() {});
       index = end;
     }
@@ -229,34 +180,11 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       if (!snapshot.geometryRefs.contains(geometryRef)) continue;
       if (snapshot.territoryId == controller.selectedTerritoryId) return 0;
       if (storyHighlights.contains(snapshot.territoryId)) return 1;
-      if (_isMapFocusTerritory(snapshot.territoryId)) return 2;
+      if (controller.civilizationTerritoryIds.contains(snapshot.territoryId)) {
+        return 2;
+      }
     }
     return 3;
-  }
-
-  bool _isMapFocusTerritory(String territoryId) {
-    if (_mapFocusTerritoryIds.contains(territoryId)) return true;
-    final idTerms = territoryId.toLowerCase().split('_').toSet();
-    if (_mapFocusIdTerms.any(idTerms.contains)) {
-      return true;
-    }
-    final territory = _territoriesById[territoryId];
-    final nameZh = territory?.nameZh ?? '';
-    return nameZh.contains('中国') ||
-        nameZh.contains('商') ||
-        nameZh.contains('周') ||
-        nameZh.contains('秦') ||
-        nameZh.contains('汉') ||
-        nameZh.contains('魏') ||
-        nameZh.contains('蜀') ||
-        nameZh.contains('吴') ||
-        nameZh.contains('晋') ||
-        nameZh.contains('隋') ||
-        nameZh.contains('唐') ||
-        nameZh.contains('宋') ||
-        nameZh.contains('元') ||
-        nameZh.contains('明') ||
-        nameZh.contains('清');
   }
 
   _LoadedPolygonMaps _mapsFromCache(
@@ -301,6 +229,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
     final theme = Theme.of(context);
     final l10n = AppL10n.of(context);
     final timelineYears = _data.scope.timelineYears;
+    final focusYears = controller.activeCivilizationFocusYears;
     final minTimelineYear = timelineYears.first;
     final maxTimelineYear = timelineYears.last;
     final currentSnapshots = controller.currentSnapshots;
@@ -308,7 +237,11 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       future: _loadPolygonsForSnapshots(currentSnapshots),
       builder: (context, snapshot) {
         final loadedMaps =
-            snapshot.data ?? _mapsFromCache(currentSnapshots, version: 0);
+            snapshot.data ??
+            _mapsFromCache(
+              currentSnapshots,
+              version: _loadedPolygonCacheVersion,
+            );
         return Stack(
           children: [
             _MapPanel(
@@ -319,9 +252,10 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
               geometryAssetsById: _geometryAssetsById,
               territoriesById: _territoriesById,
               selectedTerritoryId: controller.selectedTerritoryId,
+              civilizationHighlightTerritoryIds:
+                  controller.civilizationTerritoryIds,
               storyHighlightTerritoryIds:
                   controller.activeStorylineHighlightTerritoryIds,
-              events: controller.territoryEvents,
               storylineRoutePoints: controller.activeStorylineRoutePoints,
               storylineRoutePointIndex:
                   controller.activeStorylineRoutePointIndex,
@@ -345,7 +279,6 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       scope: _data.scope,
       selectedYear: controller.selectedYear,
       scene: controller.currentScene,
-      showWorldContext: controller.showWorldContext,
       visibleSnapshotCount: controller.visibleSnapshotCount,
       worldContextSnapshotCount: controller.worldContextSnapshotCount,
       territory: controller.selectedTerritory,
@@ -444,7 +377,6 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
             children: [
               _ScopeSummary(
                 scope: _data.scope,
-                territories: _data.territories,
                 selectedYear: controller.selectedYear,
               ),
               const SizedBox(height: 16),
@@ -501,20 +433,37 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                               style: theme.textTheme.titleMedium,
                             ),
                             const Spacer(),
-                            FilterChip(
-                              label: Text(
-                                '${l10n.text('世界参考层', 'World Reference Layers')} '
-                                '(${controller.worldContextSnapshotCount})',
-                              ),
-                              selected: controller.showWorldContext,
-                              onSelected: controller.setShowWorldContext,
-                            ),
-                            const SizedBox(width: 12),
                             Text(
                               '${l10n.text('选择年份', 'Selected')}: ${l10n.formatYear(controller.selectedYear)} · '
                               '${l10n.text('地图场景', 'Scene')}: ${l10n.formatYear(controller.activeSceneYear)}',
                               style: theme.textTheme.bodySmall,
                             ),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+                        Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          crossAxisAlignment: WrapCrossAlignment.center,
+                          children: [
+                            Text(
+                              l10n.text('文明视角', 'Civilization Lens'),
+                              style: theme.textTheme.labelLarge,
+                            ),
+                            for (final civilization in _data.civilizations)
+                              ChoiceChip(
+                                label: Text(
+                                  l10n.displayName(
+                                    civilization.nameZh,
+                                    civilization.nameEn,
+                                  ),
+                                ),
+                                selected:
+                                    civilization.id ==
+                                    controller.activeCivilizationId,
+                                onSelected: (_) =>
+                                    controller.setCivilization(civilization.id),
+                              ),
                           ],
                         ),
                         const SizedBox(height: 8),
@@ -534,15 +483,15 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                           height: 44,
                           child: ListView.separated(
                             scrollDirection: Axis.horizontal,
-                            itemCount: timelineYears.length,
+                            itemCount: focusYears.length,
                             separatorBuilder: (_, _) =>
                                 const SizedBox(width: 8),
                             itemBuilder: (context, index) {
-                              final year = timelineYears[index];
+                              final year = focusYears[index];
                               return ChoiceChip(
                                 label: Text(l10n.formatYear(year)),
                                 selected: year == controller.activeSceneYear,
-                                onSelected: (_) => _selectYearIndex(index),
+                                onSelected: (_) => _selectYear(year),
                               );
                             },
                           ),
@@ -564,6 +513,7 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
   ) {
     _stopStoryPlayback();
     final l10n = AppL10n.of(context);
+    final visibleStorylines = _storylinesForActiveCivilization(controller);
     showModalBottomSheet<void>(
       context: context,
       builder: (context) {
@@ -579,76 +529,113 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
                 ),
               ),
               Expanded(
-                child: ListView.builder(
-                  itemCount: _data.storylines.length,
-                  itemBuilder: (context, index) {
-                    final story = _data.storylines[index];
-                    if (story.arcs.isNotEmpty) {
-                      return ExpansionTile(
-                        leading: Text(
-                          story.emoji,
-                          style: const TextStyle(fontSize: 24),
+                child: visibleStorylines.isEmpty
+                    ? Center(
+                        child: Padding(
+                          padding: const EdgeInsets.all(24),
+                          child: Text(
+                            l10n.text(
+                              '当前文明视角暂未配置完整故事线，可先通过地图和关键年份浏览相关政权。',
+                              'This civilization lens does not have a full storyline yet. Use the map and focus years to browse related polities.',
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
                         ),
-                        title: Text(l10n.isZh ? story.titleZh : story.titleEn),
-                        subtitle: Text(
-                          l10n.isZh ? story.descriptionZh : story.descriptionEn,
-                        ),
-                        children: [
-                          for (final entry in story.arcs.indexed)
-                            ListTile(
-                              contentPadding: const EdgeInsetsDirectional.only(
-                                start: 56,
-                                end: 16,
-                              ),
-                              leading: CircleAvatar(
-                                child: Text('${entry.$1 + 1}'),
+                      )
+                    : ListView.builder(
+                        itemCount: visibleStorylines.length,
+                        itemBuilder: (context, index) {
+                          final story = visibleStorylines[index];
+                          if (story.arcs.isNotEmpty) {
+                            return ExpansionTile(
+                              leading: Text(
+                                story.emoji,
+                                style: const TextStyle(fontSize: 24),
                               ),
                               title: Text(
-                                l10n.displayName(
-                                  entry.$2.titleZh,
-                                  entry.$2.titleEn,
-                                ),
+                                l10n.isZh ? story.titleZh : story.titleEn,
                               ),
                               subtitle: Text(
-                                l10n.displayName(
-                                  entry.$2.descriptionZh,
-                                  entry.$2.descriptionEn,
-                                ),
+                                l10n.isZh
+                                    ? story.descriptionZh
+                                    : story.descriptionEn,
                               ),
-                              onTap: () {
-                                Navigator.of(context).pop();
-                                _startStoryline(
-                                  controller,
-                                  story,
-                                  arcIndex: entry.$1,
-                                );
-                              },
+                              children: [
+                                for (final entry in story.arcs.indexed)
+                                  ListTile(
+                                    contentPadding:
+                                        const EdgeInsetsDirectional.only(
+                                          start: 56,
+                                          end: 16,
+                                        ),
+                                    leading: CircleAvatar(
+                                      child: Text('${entry.$1 + 1}'),
+                                    ),
+                                    title: Text(
+                                      l10n.displayName(
+                                        entry.$2.titleZh,
+                                        entry.$2.titleEn,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      l10n.displayName(
+                                        entry.$2.descriptionZh,
+                                        entry.$2.descriptionEn,
+                                      ),
+                                    ),
+                                    onTap: () {
+                                      Navigator.of(context).pop();
+                                      _startStoryline(
+                                        controller,
+                                        story,
+                                        arcIndex: entry.$1,
+                                      );
+                                    },
+                                  ),
+                              ],
+                            );
+                          }
+                          return ListTile(
+                            leading: Text(
+                              story.emoji,
+                              style: const TextStyle(fontSize: 24),
                             ),
-                        ],
-                      );
-                    }
-                    return ListTile(
-                      leading: Text(
-                        story.emoji,
-                        style: const TextStyle(fontSize: 24),
+                            title: Text(
+                              l10n.isZh ? story.titleZh : story.titleEn,
+                            ),
+                            subtitle: Text(
+                              l10n.isZh
+                                  ? story.descriptionZh
+                                  : story.descriptionEn,
+                            ),
+                            onTap: () {
+                              Navigator.of(context).pop();
+                              _startStoryline(controller, story);
+                            },
+                          );
+                        },
                       ),
-                      title: Text(l10n.isZh ? story.titleZh : story.titleEn),
-                      subtitle: Text(
-                        l10n.isZh ? story.descriptionZh : story.descriptionEn,
-                      ),
-                      onTap: () {
-                        Navigator.of(context).pop();
-                        _startStoryline(controller, story);
-                      },
-                    );
-                  },
-                ),
               ),
             ],
           ),
         );
       },
     );
+  }
+
+  List<Storyline> _storylinesForActiveCivilization(
+    AtlasExplorerController controller,
+  ) {
+    final storylineIds = controller.activeCivilization.storylineIds;
+    if (controller.activeCivilizationId == 'all_world') return _data.storylines;
+    if (storylineIds.isEmpty) return const [];
+    final storylinesById = {
+      for (final storyline in _data.storylines) storyline.id: storyline,
+    };
+    return storylineIds
+        .map((id) => storylinesById[id])
+        .whereType<Storyline>()
+        .toList(growable: false);
   }
 
   void _startStoryline(
@@ -661,12 +648,6 @@ class _AtlasExplorerState extends ConsumerState<AtlasExplorer> {
       _isPresentationMode = false;
     });
     _moveMapToSelection(controller);
-  }
-
-  void _selectYearIndex(int index) {
-    final controller = _controller;
-    controller.selectYearIndex(index);
-    _moveMapToScene(controller);
   }
 
   void _selectYear(int year) {
@@ -1560,37 +1541,15 @@ class _LoadedPolygonMaps {
 }
 
 class _ScopeSummary extends StatelessWidget {
-  const _ScopeSummary({
-    required this.scope,
-    required this.territories,
-    required this.selectedYear,
-  });
+  const _ScopeSummary({required this.scope, required this.selectedYear});
 
   final ProjectScope scope;
-  final List<Territory> territories;
   final int selectedYear;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final l10n = AppL10n.of(context);
-    final territoryById = {
-      for (final territory in territories) territory.id: territory,
-    };
-    final coreTerritoryNames = scope.coreTerritoryIds
-        .map((id) => territoryById[id])
-        .whereType<Territory>()
-        .map(
-          (territory) => l10n.displayName(territory.nameZh, territory.nameEn),
-        )
-        .toList(growable: false);
-    final visibleCoreTerritories = coreTerritoryNames.take(6).join(' / ');
-    final hiddenCoreCount = coreTerritoryNames.length > 6
-        ? coreTerritoryNames.length - 6
-        : 0;
-    final coreTerritorySummary = hiddenCoreCount > 0
-        ? '$visibleCoreTerritories +$hiddenCoreCount'
-        : visibleCoreTerritories;
 
     return Card(
       clipBehavior: Clip.antiAlias,
@@ -1602,12 +1561,8 @@ class _ScopeSummary extends StatelessWidget {
           crossAxisAlignment: WrapCrossAlignment.center,
           children: [
             _SummaryBadge(
-              label: l10n.text('首版主题', 'Theme'),
+              label: l10n.text('地图范围', 'Map Scope'),
               value: l10n.displayName(scope.themeLabelZh, scope.themeLabelEn),
-            ),
-            _SummaryBadge(
-              label: l10n.text('核心政权', 'Core Territories'),
-              value: coreTerritorySummary,
             ),
             _SummaryBadge(
               label: l10n.text('当前年份', 'Selected Year'),
@@ -1664,8 +1619,8 @@ class _MapPanel extends StatefulWidget {
     required this.geometryAssetsById,
     required this.territoriesById,
     required this.selectedTerritoryId,
+    required this.civilizationHighlightTerritoryIds,
     required this.storyHighlightTerritoryIds,
-    required this.events,
     required this.storylineRoutePoints,
     required this.storylineRoutePointIndex,
     required this.polygonHitNotifier,
@@ -1681,8 +1636,8 @@ class _MapPanel extends StatefulWidget {
   final Map<String, GeometryAssetRecord> geometryAssetsById;
   final Map<String, Territory> territoriesById;
   final String selectedTerritoryId;
+  final Set<String> civilizationHighlightTerritoryIds;
   final List<String> storyHighlightTerritoryIds;
-  final List<HistoricalEvent> events;
   final List<StoryRoutePoint> storylineRoutePoints;
   final int storylineRoutePointIndex;
   final LayerHitNotifier<String> polygonHitNotifier;
@@ -1796,27 +1751,6 @@ class _MapPanelState extends State<_MapPanel> {
                       )
                       .toList(growable: false),
                 ),
-              MarkerLayer(
-                markers: widget.events
-                    .map(
-                      (event) => Marker(
-                        point: LatLng(event.lat, event.lng),
-                        width: 18,
-                        height: 18,
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                              color: Colors.black87,
-                              width: 1.5,
-                            ),
-                          ),
-                        ),
-                      ),
-                    )
-                    .toList(growable: false),
-              ),
               RichAttributionWidget(
                 attributions: [
                   TextSourceAttribution(
@@ -1903,6 +1837,7 @@ class _MapPanelState extends State<_MapPanel> {
     final l10n = AppL10n.of(context);
     final cacheKey = [
       widget.selectedTerritoryId,
+      ...widget.civilizationHighlightTerritoryIds,
       ...widget.storyHighlightTerritoryIds,
       widget.polygonCacheVersion,
       ...widget.snapshots.map((snapshot) => snapshot.id),
@@ -1920,6 +1855,15 @@ class _MapPanelState extends State<_MapPanel> {
         final aContext = _isContextBoundary(_boundaryMeaningFor(a));
         final bContext = _isContextBoundary(_boundaryMeaningFor(b));
         if (aContext != bContext) return aContext ? -1 : 1;
+        final aCivilizationHighlighted = _isCivilizationHighlighted(
+          a.territoryId,
+        );
+        final bCivilizationHighlighted = _isCivilizationHighlighted(
+          b.territoryId,
+        );
+        if (aCivilizationHighlighted != bCivilizationHighlighted) {
+          return aCivilizationHighlighted ? 1 : -1;
+        }
         final areaComparison = (areaBySnapshotId[b.id] ?? 0).compareTo(
           areaBySnapshotId[a.id] ?? 0,
         );
@@ -1936,6 +1880,11 @@ class _MapPanelState extends State<_MapPanel> {
       final territory = widget.territoriesById[snapshot.territoryId]!;
       final isSelected = snapshot.territoryId == widget.selectedTerritoryId;
       final isStoryHighlighted = _isStoryHighlighted(snapshot.territoryId);
+      final isCivilizationHighlighted = _isCivilizationHighlighted(
+        snapshot.territoryId,
+      );
+      final hasCivilizationLens =
+          widget.civilizationHighlightTerritoryIds.isNotEmpty;
       final fillColor = colorFromHex(territory.color);
       final isContextBoundary = _isContextBoundary(
         _boundaryMeaningFor(snapshot),
@@ -1945,7 +1894,13 @@ class _MapPanelState extends State<_MapPanel> {
           : isSelected
           ? (isContextBoundary ? 0.30 : 0.42)
           : widget.storyHighlightTerritoryIds.isNotEmpty
-          ? (isContextBoundary ? 0.06 : 0.12)
+          ? isCivilizationHighlighted
+                ? (isContextBoundary ? 0.08 : 0.16)
+                : (isContextBoundary ? 0.04 : 0.08)
+          : hasCivilizationLens
+          ? isCivilizationHighlighted
+                ? (isContextBoundary ? 0.12 : 0.28)
+                : (isContextBoundary ? 0.04 : 0.09)
           : (isContextBoundary ? 0.10 : 0.24);
       final geometryRefs = snapshot.geometryRefs.isNotEmpty
           ? snapshot.geometryRefs
@@ -1972,12 +1927,18 @@ class _MapPanelState extends State<_MapPanel> {
                 ? Colors.white
                 : isSelected
                 ? Colors.white
-                : fillColor.withValues(alpha: isContextBoundary ? 0.65 : 1),
+                : fillColor.withValues(
+                    alpha: isCivilizationHighlighted
+                        ? (isContextBoundary ? 0.65 : 1)
+                        : (isContextBoundary ? 0.25 : 0.45),
+                  ),
             borderStrokeWidth: isStoryHighlighted
                 ? 4.0
                 : isSelected
                 ? 3.5
-                : (isContextBoundary ? 1.1 : 2.0),
+                : isCivilizationHighlighted
+                ? (isContextBoundary ? 1.1 : 2.0)
+                : (isContextBoundary ? 0.8 : 1.1),
             label: l10n.displayName(territory.nameZh, territory.nameEn),
             hitValue: snapshot.territoryId,
           ),
@@ -1995,6 +1956,11 @@ class _MapPanelState extends State<_MapPanel> {
 
   bool _isStoryHighlighted(String territoryId) {
     return widget.storyHighlightTerritoryIds.contains(territoryId);
+  }
+
+  bool _isCivilizationHighlighted(String territoryId) {
+    return widget.civilizationHighlightTerritoryIds.isEmpty ||
+        widget.civilizationHighlightTerritoryIds.contains(territoryId);
   }
 
   double _snapshotApproxArea(TerritorySnapshot snapshot) {
@@ -2079,7 +2045,6 @@ class _DetailPanel extends StatelessWidget {
     required this.scope,
     required this.selectedYear,
     required this.scene,
-    required this.showWorldContext,
     required this.visibleSnapshotCount,
     required this.worldContextSnapshotCount,
     required this.territory,
@@ -2099,7 +2064,6 @@ class _DetailPanel extends StatelessWidget {
   final ProjectScope scope;
   final int selectedYear;
   final MapScene? scene;
-  final bool showWorldContext;
   final int visibleSnapshotCount;
   final int worldContextSnapshotCount;
   final Territory territory;
@@ -2201,16 +2165,11 @@ class _DetailPanel extends StatelessWidget {
                 ),
                 if (worldContextSnapshotCount > 0)
                   _InfoChip(
-                    label: l10n.text('世界参考层', 'World Reference'),
-                    value: showWorldContext
-                        ? l10n.text(
-                            '$worldContextSnapshotCount 个已显示',
-                            '$worldContextSnapshotCount shown',
-                          )
-                        : l10n.text(
-                            '$worldContextSnapshotCount 个已隐藏',
-                            '$worldContextSnapshotCount hidden',
-                          ),
+                    label: l10n.text('同代世界', 'World Scene'),
+                    value: l10n.text(
+                      '$worldContextSnapshotCount 个政权',
+                      '$worldContextSnapshotCount polities',
+                    ),
                   ),
                 _InfoChip(
                   label: l10n.text('存续时间', 'Timespan'),
@@ -2353,7 +2312,7 @@ class _DetailPanel extends StatelessWidget {
             ],
             const SizedBox(height: 16),
             Text(
-              l10n.text('代表事件', 'Key Events'),
+              l10n.text('视角事件', 'Lens Events'),
               style: theme.textTheme.titleMedium,
             ),
             const SizedBox(height: 8),
@@ -2366,9 +2325,7 @@ class _DetailPanel extends StatelessWidget {
                 child: ListTile(
                   onTap: () => onEventSelected(event.id),
                   title: Text(l10n.displayName(event.titleZh, event.titleEn)),
-                  subtitle: Text(
-                    '${l10n.formatYear(event.year)} · ${l10n.isZh ? event.locationNameZh : event.locationNameEn}',
-                  ),
+                  subtitle: Text(_eventSubtitle(l10n, event)),
                   trailing: const Icon(Icons.chevron_right),
                 ),
               ),
@@ -2389,15 +2346,18 @@ class _DetailPanel extends StatelessWidget {
                 onPersonSelected: onPersonSelected,
               ),
             ],
-            const SizedBox(height: 8),
-            Text(
-              '${l10n.text('扩展年份建议', 'Suggested Expansion Years')}: ${scope.recommendedExpansionYears.map(l10n.formatYear).join(' / ')}',
-              style: theme.textTheme.bodySmall,
-            ),
           ],
         ),
       ),
     );
+  }
+
+  String _eventSubtitle(AppL10n l10n, HistoricalEvent event) {
+    final locationName = l10n.isZh
+        ? event.locationNameZh
+        : event.locationNameEn;
+    if (locationName.isEmpty) return l10n.formatYear(event.year);
+    return '${l10n.formatYear(event.year)} · $locationName';
   }
 
   String _coverageLabel(AppL10n l10n, String coverageLevel) {

@@ -8,57 +8,13 @@ final atlasExplorerControllerProvider =
       (ref, data) => AtlasExplorerController(data),
     );
 
-const _chinaFocusTerritoryIds = {
-  'cao_wei',
-  'eastern_han',
-  'eastern_wu',
-  'northern_wei',
-  'qin',
-  'qing_dynasty',
-  'republic_of_china',
-  'shu_han',
-  'sui_dynasty',
-  'tang_dynasty',
-  'western_han',
-  'xin',
-  'cliopatria_kuomintang',
-  'cliopatria_later_zhou_dynasty',
-};
-
-const _chinaFocusIdTerms = {
-  'china',
-  'shang',
-  'zhou',
-  'qin',
-  'han',
-  'chu',
-  'wei',
-  'shu',
-  'wu',
-  'yue',
-  'qi',
-  'yan',
-  'zhao',
-  'jin',
-  'sui',
-  'tang',
-  'song',
-  'liao',
-  'xia',
-  'yuan',
-  'ming',
-  'qing',
-  'tibet',
-  'dali',
-  'nanzhao',
-  'mongol',
-  'taiping',
-};
-
 class AtlasExplorerController extends ChangeNotifier {
   AtlasExplorerController(this.data)
     : _selectedYear = data.scope.timelineYears.first,
-      _selectedTerritoryId = data.scope.coreTerritoryIds.first {
+      _selectedTerritoryId = data.scope.coreTerritoryIds.first,
+      _activeCivilizationId = data.civilizations.isEmpty
+          ? 'all_world'
+          : data.civilizations.first.id {
     _syncSelectionForCurrentYear();
   }
 
@@ -67,7 +23,7 @@ class AtlasExplorerController extends ChangeNotifier {
   int _selectedYear;
   String _selectedTerritoryId;
   String? _selectedEventId;
-  bool _showWorldContext = false;
+  String _activeCivilizationId;
 
   late final Map<String, TerritorySnapshot> _snapshotsById = {
     for (final snapshot in data.snapshots) snapshot.id: snapshot,
@@ -90,7 +46,31 @@ class AtlasExplorerController extends ChangeNotifier {
   String? get selectedEventId => _selectedEventId;
   int get selectedYear => _selectedYear;
   int get activeSceneYear => currentScene?.displayYear ?? _selectedYear;
-  bool get showWorldContext => _showWorldContext;
+  bool get showWorldContext => true;
+  String get activeCivilizationId => _activeCivilizationId;
+  CivilizationLens get activeCivilization {
+    for (final civilization in data.civilizations) {
+      if (civilization.id == _activeCivilizationId) return civilization;
+    }
+    if (data.civilizations.isNotEmpty) return data.civilizations.first;
+    return const CivilizationLens(
+      id: 'all_world',
+      nameZh: '全部世界',
+      nameEn: 'All World',
+      descriptionZh: '显示同一年世界各政权疆域。',
+      descriptionEn: 'Show same-era world polities.',
+      territoryIds: [],
+      storylineIds: [],
+      focusYears: [],
+    );
+  }
+
+  Set<String> get civilizationTerritoryIds =>
+      activeCivilization.territoryIds.toSet();
+  List<int> get activeCivilizationFocusYears =>
+      activeCivilization.focusYears.isEmpty
+      ? data.scope.timelineYears
+      : activeCivilization.focusYears;
 
   Storyline? get activeStoryline => _activeStoryline;
   StoryArc? get activeStoryArc {
@@ -195,29 +175,7 @@ class AtlasExplorerController extends ChangeNotifier {
   int get worldContextSnapshotCount => worldContextSnapshots.length;
 
   List<TerritorySnapshot> get currentSnapshots {
-    final snapshots = activeSceneSnapshots;
-    if (_showWorldContext) return snapshots;
-    if (snapshots.isEmpty) return const [];
-
-    final focusTerritoryIds = {
-      _selectedTerritoryId,
-      ...activeStorylineHighlightTerritoryIds,
-      if (activeStorylineChapter?.eventId case final eventId?)
-        ...?eventById(eventId)?.territoryIds,
-    };
-    final seenTerritoryIds = <String>{};
-    final focusedSnapshots = <TerritorySnapshot>[
-      ...snapshots.where((snapshot) {
-        if (!focusTerritoryIds.contains(snapshot.territoryId)) return false;
-        return seenTerritoryIds.add(snapshot.territoryId);
-      }),
-      ..._chinaFocusSnapshots(
-        snapshots,
-        seenTerritoryIds: seenTerritoryIds,
-      ),
-    ];
-    if (focusedSnapshots.isNotEmpty) return focusedSnapshots;
-    return [snapshots.first];
+    return activeSceneSnapshots;
   }
 
   int get visibleSnapshotCount => currentSnapshots.length;
@@ -257,6 +215,33 @@ class AtlasExplorerController extends ChangeNotifier {
       _selectedEventId == null ? null : eventById(_selectedEventId!);
 
   List<HistoricalEvent> get territoryEvents {
+    final lensTerritoryIds = civilizationTerritoryIds.isNotEmpty
+        ? civilizationTerritoryIds
+        : currentSnapshots.map((snapshot) => snapshot.territoryId).toSet();
+    final shouldIncludeSelectedTerritoryEvents =
+        civilizationTerritoryIds.isEmpty ||
+        civilizationTerritoryIds.contains(selectedTerritory.id);
+    final highlightedEvents = shouldIncludeSelectedTerritoryEvents
+        ? _selectedTerritoryEvents()
+        : const <HistoricalEvent>[];
+    final highlightedIds = highlightedEvents.map((event) => event.id).toSet();
+    final lensEvents =
+        data.events
+            .where(
+              (event) =>
+                  event.territoryIds.any(lensTerritoryIds.contains) &&
+                  !highlightedIds.contains(event.id),
+            )
+            .toList()
+          ..sort(_compareEventsForCurrentYear);
+
+    if (lensEvents.isNotEmpty) {
+      return [...highlightedEvents, ...lensEvents.take(30)];
+    }
+    return highlightedEvents;
+  }
+
+  List<HistoricalEvent> _selectedTerritoryEvents() {
     final highlightedEvents = selectedSnapshot.highlightedEventIds
         .map(eventById)
         .whereType<HistoricalEvent>()
@@ -276,44 +261,21 @@ class AtlasExplorerController extends ChangeNotifier {
     return [...highlightedEvents, ...remainingEvents];
   }
 
+  int _compareEventsForCurrentYear(HistoricalEvent a, HistoricalEvent b) {
+    final distanceComparison = (a.year - _selectedYear).abs().compareTo(
+      (b.year - _selectedYear).abs(),
+    );
+    if (distanceComparison != 0) return distanceComparison;
+    return a.year.compareTo(b.year);
+  }
+
   HistoricalEvent? eventById(String id) {
     return _eventsById[id];
   }
 
-  List<TerritorySnapshot> _chinaFocusSnapshots(
-    List<TerritorySnapshot> snapshots,
-    {Set<String>? seenTerritoryIds}
-  ) {
-    final seenIds = seenTerritoryIds ?? <String>{};
-    return snapshots.where((snapshot) {
-      if (!_isChinaFocusTerritory(snapshot.territoryId)) return false;
-      return seenIds.add(snapshot.territoryId);
-    }).toList(growable: false);
-  }
-
-  bool _isChinaFocusTerritory(String territoryId) {
-    if (_chinaFocusTerritoryIds.contains(territoryId)) return true;
-    final idTerms = territoryId.toLowerCase().split('_').toSet();
-    if (_chinaFocusIdTerms.any(idTerms.contains)) {
-      return true;
-    }
-    final territory = _territoriesById[territoryId];
-    final nameZh = territory?.nameZh ?? '';
-    return nameZh.contains('中国') ||
-        nameZh.contains('商') ||
-        nameZh.contains('周') ||
-        nameZh.contains('秦') ||
-        nameZh.contains('汉') ||
-        nameZh.contains('魏') ||
-        nameZh.contains('蜀') ||
-        nameZh.contains('吴') ||
-        nameZh.contains('晋') ||
-        nameZh.contains('隋') ||
-        nameZh.contains('唐') ||
-        nameZh.contains('宋') ||
-        nameZh.contains('元') ||
-        nameZh.contains('明') ||
-        nameZh.contains('清');
+  bool isCivilizationHighlighted(String territoryId) {
+    final highlightedIds = civilizationTerritoryIds;
+    return highlightedIds.isEmpty || highlightedIds.contains(territoryId);
   }
 
   void selectYearIndex(int index) {
@@ -328,8 +290,18 @@ class AtlasExplorerController extends ChangeNotifier {
   }
 
   void setShowWorldContext(bool value) {
-    if (_showWorldContext == value) return;
-    _showWorldContext = value;
+    if (value != true) return;
+    _syncSelectionForCurrentYear();
+    notifyListeners();
+  }
+
+  void setCivilization(String civilizationId) {
+    if (_activeCivilizationId == civilizationId) return;
+    final exists = data.civilizations.any(
+      (civilization) => civilization.id == civilizationId,
+    );
+    if (!exists) return;
+    _activeCivilizationId = civilizationId;
     _syncSelectionForCurrentYear();
     notifyListeners();
   }
@@ -383,7 +355,6 @@ class AtlasExplorerController extends ChangeNotifier {
     _activeStoryline = story;
     _activeStoryArcIndex = arcIndex;
     _storylineEventIndex = 0;
-    _showWorldContext = false;
     _syncStorylineState();
     notifyListeners();
   }
@@ -494,6 +465,17 @@ class AtlasExplorerController extends ChangeNotifier {
     );
     if (!stillVisible) {
       _selectedTerritoryId = currentSnapshots.first.territoryId;
+    }
+
+    final lensTerritoryIds = civilizationTerritoryIds;
+    if (lensTerritoryIds.isNotEmpty &&
+        !lensTerritoryIds.contains(_selectedTerritoryId)) {
+      final lensSnapshot = currentSnapshots
+          .where((snapshot) => lensTerritoryIds.contains(snapshot.territoryId))
+          .firstOrNull;
+      if (lensSnapshot != null) {
+        _selectedTerritoryId = lensSnapshot.territoryId;
+      }
     }
 
     final eventIds = territoryEvents.map((event) => event.id).toSet();

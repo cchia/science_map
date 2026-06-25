@@ -90,6 +90,32 @@ class AtlasRepository {
       debugPrint('No storylines.json found or failed to parse: $e');
     }
 
+    List<CivilizationLens> civilizations = const [
+      CivilizationLens(
+        id: 'all_world',
+        nameZh: '全部世界',
+        nameEn: 'All World',
+        descriptionZh: '显示同一年世界各政权疆域。',
+        descriptionEn: 'Show same-era world polities.',
+        territoryIds: [],
+        storylineIds: [],
+        focusYears: [],
+      ),
+    ];
+    try {
+      final civilizationsJson = await _loadJsonList(
+        'assets/global/civilizations.json',
+      );
+      final loadedCivilizations = civilizationsJson
+          .map((json) => CivilizationLens.fromJson(json))
+          .toList(growable: false);
+      if (loadedCivilizations.isNotEmpty) {
+        civilizations = loadedCivilizations;
+      }
+    } catch (e) {
+      debugPrint('No civilizations.json found or failed to parse: $e');
+    }
+
     List<MapScene> mapScenes = [];
     try {
       final mapScenesJson = await _loadJsonList(
@@ -118,6 +144,7 @@ class AtlasRepository {
       controlZones: const [],
       storylines: storylines,
       mapScenes: mapScenes,
+      civilizations: civilizations,
     );
   }
 

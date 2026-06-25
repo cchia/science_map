@@ -16,7 +16,7 @@ void main() {
     expect(find.byType(AtlasHomePage), findsOneWidget);
     await tester.pump(const Duration(milliseconds: 400));
 
-    final hasAtlasTitle = find.text('中国王朝图谱').evaluate().isNotEmpty;
+    final hasAtlasTitle = find.text('世界文明图谱').evaluate().isNotEmpty;
     final hasLoading = find.byType(CircularProgressIndicator).evaluate().isNotEmpty;
     expect(hasAtlasTitle || hasLoading, isTrue);
   });

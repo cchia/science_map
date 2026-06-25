@@ -22,7 +22,7 @@ class AppL10n {
   String text(String zh, String en) => _isZh ? zh : en;
   bool get isZh => _isZh;
 
-  String get appTitle => text('中国王朝图谱', 'China Dynasty Atlas');
+  String get appTitle => text('世界文明图谱', 'World Civilizations Atlas');
 
   String displayName(String zh, String en) {
     if (_isZh) {
